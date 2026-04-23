@@ -124,13 +124,6 @@ psdImage.save(dataDir + "replaced_font.png", pngOptions);
 
 Теперь вы видели полный **aspose psd font substitution** процесс в Java — от импорта нужных классов, настройки резервного шрифта, загрузки PSD до экспорта исправленного изображения. Внедрите этот шаблон в свои конвейеры обработки изображений, чтобы обеспечить единообразную типографику во всех PSD‑активах и **handle missing fonts PSD** автоматически.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-02-09  
@@ -138,3 +131,10 @@ psdImage.save(dataDir + "replaced_font.png", pngOptions);
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

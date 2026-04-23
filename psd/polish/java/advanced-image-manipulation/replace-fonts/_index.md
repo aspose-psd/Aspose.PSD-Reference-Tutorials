@@ -124,13 +124,6 @@ A: Zastępowanie czcionek musi odbywać się w fazie ładowania. Aby zmienić cz
 
 Właśnie zobaczyłeś kompletny **aspose psd font substitution** workflow w Javie — od importu odpowiednich klas, konfiguracji czcionki zastępczej, ładowania PSD, po eksport poprawionego obrazu. Włącz ten wzorzec do swoich pipeline'ów przetwarzania obrazów, aby zapewnić spójną typografię we wszystkich zasobach PSD i **automatycznie obsługiwać brakujące czcionki w plikach PSD**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-09  
@@ -138,3 +131,10 @@ Właśnie zobaczyłeś kompletny **aspose psd font substitution** workflow w Jav
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

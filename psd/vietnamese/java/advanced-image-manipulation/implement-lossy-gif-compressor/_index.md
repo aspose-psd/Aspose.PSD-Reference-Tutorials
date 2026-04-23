@@ -10,14 +10,6 @@ url: /vi/java/advanced-image-manipulation/implement-lossy-gif-compressor/
 weight: 13
 ---
 
-. The rule: keep technical terms in English. So "Lossy Compressor" maybe keep. We'll keep as is.
-
-Also "Lossy GIF Compressor" keep.
-
-Translate step-by-step.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

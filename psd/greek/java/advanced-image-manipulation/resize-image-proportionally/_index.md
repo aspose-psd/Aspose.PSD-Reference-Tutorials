@@ -135,15 +135,15 @@ image.save(destName, new PngOptions());
 
 Τώρα ξέρετε πώς να **μετατρέψετε PSD σε PNG**, **αλλάζετε το μέγεθος της εικόνας αναλογικά**, και να διαχειρίζεστε το caching αποδοτικά χρησιμοποιώντας το Aspose.PSD για Java. Ενσωματώστε αυτά τα βήματα στις δικές σας εφαρμογές για γρήγορη, υψηλής ποιότητας επεξεργασία εικόνας χωρίς εξάρτηση από εγκατεστημένο Photoshop. Αυτή η **aspose psd java** προσέγγιση αποτελεί αξιόπιστο μέρος οποιουδήποτε **java image processing tutorial** και σας βοηθά να κρατάτε τα μεγέθη αρχείων PSD υπό έλεγχο διατηρώντας την οπτική ακεραιότητα.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-02-09  
+**Δοκιμή Με:** Aspose.PSD 24.12 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-02-09  
-**Δοκιμή Με:** Aspose.PSD 24.12 for Java  
-**Συγγραφέας:** Aspose

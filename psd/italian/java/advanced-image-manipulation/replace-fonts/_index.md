@@ -10,27 +10,7 @@ url: /it/java/advanced-image-manipulation/replace-fonts/
 weight: 10
 ---
 
-. Let's go through content.
-
-Start with shortcodes: keep as is.
-
-Then heading "# Aspose PSD Font Substitution in Java" translate to Italian: "Sostituzione dei Font PSD di Aspose in Java". Keep same heading level.
-
-Proceed.
-
-I'll rewrite entire content.
-
-Need to translate all sentences.
-
-Also note bullet list under Quick Answers.
-
-Translate but keep code terms.
-
-Also tables.
-
-Make sure to keep markdown formatting.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -144,13 +124,6 @@ R: La sostituzione dei font deve avvenire durante la fase di caricamento. Per ca
 
 Ora hai visto un flusso di lavoro completo **aspose psd font substitution** in Java—dall'importazione delle classi corrette, alla configurazione di un font di fallback, al caricamento del PSD, fino all'esportazione dell'immagine corretta. Integra questo modello nei tuoi pipeline di elaborazione immagini per garantire una tipografia coerente su tutti i tuoi asset PSD e per **gestire i font mancanti nei PSD** automaticamente.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ultimo aggiornamento:** 2026-02-09  
@@ -158,3 +131,10 @@ Ora hai visto un flusso di lavoro completo **aspose psd font substitution** in J
 **Autore:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

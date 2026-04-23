@@ -11,11 +11,7 @@ url: /th/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
 
- we keep pipe formatting.
-
-Also ensure we keep code block placeholders unchanged.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -139,15 +135,15 @@ A: เอกสาร API รายละเอียดมีให้ที่
 
 ตอนนี้คุณรู้วิธี **convert PSD to PNG**, **resize image proportionally**, และจัดการแคชอย่างมีประสิทธิภาพด้วย Aspose.PSD สำหรับ Java. นำขั้นตอนเหล่านี้ไปใช้ในแอปพลิเคชันของคุณเพื่อให้การประมวลผลภาพที่รวดเร็วและคุณภาพสูงโดยไม่ต้องพึ่งพาการติดตั้ง Photoshop. วิธี **aspose psd java** นี้เป็นส่วนที่เชื่อถือได้ของ **java image processing tutorial** ใด ๆ และช่วยให้คุณควบคุมขนาดไฟล์ PSD ได้ในขณะที่รักษาความคมชัดของภาพ.
 
+---
+
+**อัปเดตล่าสุด:** 2026-02-09  
+**ทดสอบด้วย:** Aspose.PSD 24.12 for Java  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-09  
-**ทดสอบด้วย:** Aspose.PSD 24.12 for Java  
-**ผู้เขียน:** Aspose

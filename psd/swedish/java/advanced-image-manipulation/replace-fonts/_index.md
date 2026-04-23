@@ -122,13 +122,6 @@ A: Teckensnittsersättning måste ske under laddningsfasen. För att ändra teck
 
 Du har nu sett ett komplett **aspose psd font substitution**‑arbetsflöde i Java—från att importera rätt klasser, konfigurera ett reservtypsnitt, ladda PSD‑filen till att exportera den korrigerade bilden. Inkludera detta mönster i dina bildbehandlings‑pipelines för att säkerställa konsekvent typografi i alla dina PSD‑tillgångar och för att **hantera saknade teckensnitt i PSD** automatiskt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2026-02-09  
@@ -136,3 +129,10 @@ Du har nu sett ett komplett **aspose psd font substitution**‑arbetsflöde i Ja
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

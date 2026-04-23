@@ -134,15 +134,15 @@ A: Gedetailleerde API‑documentatie is beschikbaar [here](https://reference.asp
 
 Je weet nu hoe je **PSD naar PNG kunt converteren**, **afbeeldingen proportioneel kunt schalen**, en caching efficiënt kunt afhandelen met Aspose.PSD voor Java. Integreer deze stappen in je eigen applicaties om snelle, hoogwaardige beeldverwerking te leveren zonder afhankelijk te zijn van native Photoshop‑installaties. Deze **aspose psd java** benadering is een betrouwbaar onderdeel van elke **java image processing tutorial** en helpt je PSD‑bestandsgroottes onder controle te houden terwijl je de visuele fideliteit behoudt.
 
+---
+
+**Laatst bijgewerkt:** 2026-02-09  
+**Getest met:** Aspose.PSD 24.12 for Java  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-02-09  
-**Getest met:** Aspose.PSD 24.12 for Java  
-**Auteur:** Aspose

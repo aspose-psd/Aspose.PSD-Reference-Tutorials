@@ -135,15 +135,15 @@ A: Podrobné API dokumenty jsou k dispozici [here](https://reference.aspose.com/
 
 Nyní víte, jak **convert PSD to PNG**, **resize image proportionally**, a efektivně spravovat cache pomocí Aspose.PSD pro Java. Začleňte tyto kroky do svých aplikací, abyste poskytovali rychlé a vysoce kvalitní zpracování obrázků bez závislosti na nativních instalacích Photoshopu. Tento **aspose psd java** přístup je spolehlivou součástí jakéhokoli **java image processing tutorial** a pomáhá udržovat velikost PSD souborů pod kontrolou při zachování vizuální věrnosti.
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.PSD 24.12 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.PSD 24.12 for Java  
-**Author:** Aspose

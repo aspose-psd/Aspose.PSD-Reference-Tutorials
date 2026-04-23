@@ -122,13 +122,6 @@ A: Font substitution must occur during the load phase. To change fonts later, re
 
 You’ve now seen a complete **aspose psd font substitution** workflow in Java—from importing the right classes, configuring a fallback font, loading the PSD, to exporting the corrected image. Incorporate this pattern into your image‑processing pipelines to ensure consistent typography across all your PSD assets and to **handle missing fonts PSD** automatically.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-09  
@@ -136,3 +129,10 @@ You’ve now seen a complete **aspose psd font substitution** workflow in Java�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

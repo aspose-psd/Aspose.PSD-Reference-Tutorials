@@ -15,53 +15,53 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak konwertować PSD na PNG i zmieniać rozmiar proporcjonalnie przy użyciu Aspose.PSD dla Javy
+# Jak konwertować PSD na PNG i zmieniać rozmiar graficzny przy użyciu Aspose.PSD dla Javy
 
-## Introduction
+## Wstęp
 
-Jeśli potrzebujesz **konwertować PSD na PNG** zachowując oryginalny współczynnik proporcji, trafiłeś we właściwe miejsce. W tym **Aspose.PSD Java** tutorialu przeprowadzimy Cię przez kompletny **java image processing tutorial**, który pokazuje **jak zmieniać rozmiar obrazu** proporcjonalnie, buforować obraz dla optymalnej wydajności i w końcu zapisać wynik jako PNG. Po zakończeniu będziesz mógł zintegrować ten przepływ pracy z dowolnym pipeline'em przetwarzania obrazów opartym na Javie.
+Jeśli **konwertować PSD na PNG**, uzyskano dodatkowe połączenie, trafiłeś we właściwe miejsce. W tym **Aspose.PSD Java** tutorialu przeprowadziliśmy Cię przez dowolny **java image Processing tutorial**, który zawiera **jak wybrać rozmiar** proporcjonalnie, buforować obraz dla dowolnej wydajności i w końcu zapisać wynik jako PNG. Po wyłączeniu można wyłączyć dziesięć przepływ pracy z rurociągiem, z których pochodzą systemy oparte na Javie.
 
-## Quick Answers
+## Szybkie odpowiedzi
 - **Czy Aspose.PSD może konwertować PSD na PNG?** Tak – po prostu załaduj plik PSD i zapisz go przy użyciu `PngOptions`.
-- **Czy biblioteka obsługuje proporcjonalne zmienianie rozmiaru?** Absolutnie; użyj `resizeWidthProportionally` i `resizeHeightProportionally`.
-- **Czy najpierw muszę buforować obraz?** Buforowanie (`image.cacheData()`) poprawia wydajność przy dużych plikach PSD.
-- **Jaka wersja Javy jest wymagana?** Java 8 lub nowsza jest w pełni wspierana.
-- **Czy wymagana jest licencja do produkcji?** Tak, licencja komercyjna usuwa znak wodny wersji ewaluacyjnej.
+- **Czy biblioteka obsługująca pochodne zmienianie funkcji?** Absolutnie; parametry `resizeWidthProportionally` i `resizeHeightProportionally`.
+- **Czy najpierw trzeba buforować obraz?** Buforowanie (`image.cacheData()`) zwiększa wydajność przy dużych plikach PSD.
+- **Jaka wersja Javy jest wymagana?** Java8 lub teraz jest w pełni wspierana.
+- **Czy wymagana jest licencja do produkcji?** Tak, licencja komercyjna oznacza znak wodny wersji ewaluacyjnej.
 
-## What is “convert PSD to PNG” and why does it matter?
+## Co to jest „konwertuj plik PSD na PNG” i dlaczego ma to znaczenie?
 
-Konwersja dokumentu Photoshop (PSD) na plik portable network graphics (PNG) pozwala udostępniać warstwowe projekty w lekkim, przyjaznym dla sieci formacie. PNG zachowuje przezroczystość i jakość bezstratną, co czyni go idealnym dla zasobów UI, miniatur lub wszelkich scenariuszy, w których ważna jest wierność obrazu.
+Konwersja dokumentu Photoshop (PSD) na plik Portable Network Graphics (PNG) pozwala na udostępnianie warstwowych projektów w lekkim, przyjaznym dla sieci. PNG został stworzony przezroczystość i jakość bezstratną, co czyni go idealnym dla zasobów UI, miniaturowych lub uniwersalnych scenariuszy, w których ważna jest wierność obrazu.
 
-## Why resize image proportionally in Java?
+## Po co proporcjonalnie zmieniać rozmiar obrazu w Javie?
 
-Zmiana rozmiaru **jak zmieniać rozmiar obrazu** bez zniekształcania jego współczynnika proporcji zapewnia, że grafika wygląda naturalnie na różnych ekranach. API `Aspose.PSD` udostępnia dedykowane metody do **resize image proportionally**, które automatycznie obliczają pasującą wysokość lub szerokość, oszczędzając Ci ręcznych błędów matematycznych.
+Zmiana dotyczy **jak zmienić rozmiar obrazu** bez zniekształcania jego integralności zapewnia, że ​​grafika wygląda naturalnie na różnych ekranach. API `Aspose.PSD` udostępnia dedykowane metody do **zmiany rozmiaru obrazu proporcjonalnie**, które automatycznie obliczają pasującą wysokość lub szerokość, oszczędzając Ci wady matematyczne.
 
-## Why this matters for developers
+## Dlaczego ma to znaczenie dla programistów
 
-- **Zmniejszony rozmiar pliku PSD** – Skalując duże pliki PSD przed konwersją, obniżasz zużycie pamięci i przyspieszasz dalsze przetwarzanie.  
-- **Spójne renderowanie UI** – Proporcjonalne zmienianie rozmiaru zapewnia, że ikony i grafiki zachowują równowagę wizualną na różnych urządzeniach.  
-- **Brak zależności od Photoshopa** – Możesz wykonywać te operacje na serwerze lub w pipeline'ie CI bez instalowania Photoshopa.
+- **Zmniejszony rozmiar pliku PSD** – Skalowanie dużych plików PSD przed konwersją, obniżenie pamięci i przyspieszenie transmisji.
+- **Spójne renderowanie interfejsu użytkownika** – Proporcjonalne zmienianie zapewnia, że ​​ikony i grafiki udostępniają różne funkcje.
+- **Brak zależności od Photoshopa** – Można wykonać te operacje na rozwiązania lub w potoku, czyli CI bez instalacji Photoshopa.
 
-## Prerequisites
+## Warunki wstępne
 
-Zanim przejdziemy do kodu, upewnij się, że masz:
+Zanim przejdziemy do kodu, zastosuj się, że masz:
 
-1. **Java Development Kit (JDK)** – Zainstalowaną Javę 8 lub nowszą.  
-2. **Aspose.PSD for Java** – pobierz najnowszy JAR z oficjalnej strony [here](https://releases.aspose.com/psd/java/).  
-3. Przykładowy plik PSD (`sample.psd`) umieszczony w katalogu, do którego możesz odwołać się w swoim projekcie.
+1. **Java Development Kit (JDK)** – Zainstalowana Javę8 lub nowszą.
+2. **Aspose.PSD dla Java** – pobierz ostatni JAR z dodatkowej strony[tutaj](https://releases.aspose.com/psd/java/).
+3. Przykładowy plik PSD (`sample.psd`) dotyczy katalogu, do którego można zastosować się w swoim programie.
 
-## Import Packages
+## Importuj pakiety
 
-Dodaj niezbędne importy do swojej klasy Java. Te klasy dają dostęp do ładowania obrazu, buforowania, zmiany rozmiaru i opcji wyjścia PNG.
+Dodaj niezbędny import do swojej klasy Java. Te klasy zapewniają dostęp do zasilania obrazu, buforowania, zmiany zasilania i wyjścia wyjściowego PNG.
 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step 1: Load the PSD Image
+## Krok 1: Załaduj obraz PSD
 
-Najpierw załaduj źródłowy plik PSD. Jeśli plik jest duży, buforowanie danych obrazu zmniejsza zużycie pamięci przy wykonywaniu kolejnych operacji.
+Najpierw załaduj źródłowy plik PSD. Jeśli plik jest duży, buforowanie danych obrazu zmniejsza zużycie pamięci podczas wykonywania kolejnych operacji.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -75,9 +75,9 @@ if (!image.isCached()) {
 }
 ```
 
-## Step 2: Resize Image Proportionally (Java)
+## Krok 2: Proporcjonalna zmiana rozmiaru obrazu (Java)
 
-Teraz określ nowe wymiary. W tym przykładzie zmniejszamy obraz do **połowy** jego pierwotnego rozmiaru, zachowując współczynnik proporcji. Możesz dostosować docelową szerokość lub wysokość według potrzeb.
+Teraz określ nowe wymiary. W tym przykładzie zmniejszamy obraz do **połowy** rozmiaru oryginalnego, zachowując proporcje. Możesz dostosować docelową szerokość lub wysokość w razie potrzeby.
 
 ```java
 int newWidth = image.getWidth() / 2;
@@ -87,53 +87,59 @@ int newHeight = image.getHeight() / 2;
 image.resizeHeightProportionally(newHeight);
 ```
 
-> **Wskazówka:** Użyj albo `resizeWidthProportionally`, albo `resizeHeightProportionally` — biblioteka automatycznie oblicza drugą wymiar, aby zachować proporcje obrazu.
+> **Wskazówka:** Użyj `resizeWidthProportionally` *lub* `resizeHeightProportionally` — biblioteka automatycznie oblicza drugi wymiar, aby zachować proporcje obrazu.
 
-## Step 3: Save the Resized Image as PNG
+## Krok 3: Zapisz zmieniony rozmiar obrazu jako PNG
 
-Na koniec wyeksportuj zmniejszony obraz do formatu PNG. Ten krok kończy **workflow konwersji PSD na PNG**.
+Na koniec wyeksportuj zmieniony rozmiar obrazu do formatu PNG. Ten krok kończy proces **konwersji PSD do PNG**.
 
 ```java
 String destName = dataDir + "SimpleResizeImageProportionally_out.png";
 image.save(destName, new PngOptions());
 ```
 
-Gdy kod zostanie uruchomiony, znajdziesz plik PNG, który jest o połowę mniejszy od oryginalnego PSD, zachowując tę samą jakość wizualną i bez zniekształceń.
+Gdy kod zostanie uruchomiony, plik PNG, który jest opuszczony przez PSD, zostanie powiązany z siecią wizualną i bez zniekształceń.
 
-## Common Issues & Solutions
+## Typowe problemy i rozwiązania
 
 | Problem | Przyczyna | Rozwiązanie |
 |-------|-------|-----|
-| **OutOfMemoryError** | Duży PSD nie buforowany | Wywołaj `image.cacheData()` przed zmianą rozmiaru |
-| **Blank PNG output** | Nieprawidłowa ścieżka pliku | Sprawdź `dataDir` i uprawnienia zapisu |
-| **Aspect ratio looks off** | Ręczne użycie zarówno szerokości, jak i wysokości | Użyj metod proporcjonalnych udostępnionych przez Aspose.PSD |
+| **Błąd OutOfMemory** | Duży PSD niebuforowany | Wywołaj `image.cacheData()` przed uderzeniem |
+| **Puste wyjście PNG** | Nieprawidłowa ścieżka pliku | Sprawdź `dataDir` i licencję zapisu |
+| **Proporcje wyglądają nieprawidłowo** | Ręczne udostępnienie, jak i wysokość | wykorzystanie metody grafalnej udostępnionej przez Aspose.PSD |
 
-## Tips for Reducing PSD File Size
+## Wskazówki dotyczące zmniejszania rozmiaru pliku PSD
 
-- **Przytnij niepotrzebne warstwy** przed załadowaniem pliku.  
-- **Zmieniaj rozmiar proporcjonalnie** jak pokazano powyżej, aby wcześnie zmniejszyć wymiary.  
-- **Zapisz jako PNG z odpowiednią głębią bitową** aby uniknąć nadmiaru danych.
+- **Przystępne działanie** przed wystąpieniem pliku.
+- **Zmieniaj rozmiar generalnie** jak opisano powyżej, aby wcześniej zastosować wymiary.
+- **Zapisz jako PNG z głębią bitową**, aby udostępnić dane.
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-**P:** Czy Aspose.PSD jest kompatybilny ze wszystkimi formatami obrazów?  
-**O:** Aspose.PSD obsługuje PSD, PNG, JPEG, BMP, GIF i wiele innych. Pełną listę znajdziesz w [dokumentacji](https://reference.aspose.com/psd/java/).
+**P:** Czy Aspose.PSD jest rozwiązaniem ze stosowaniem formatami obrazów?
+**O:** Aspose.PSD obsługuje PSD, PNG, JPEG, BMP, GIF i wiele innych. Pełną listę wyników w [dokumentacji](https://reference.aspose.com/psd/java/).
 
-**P:** Czy mogę używać Aspose.PSD w projektach komercyjnych?  
-**O:** Tak. Kup licencję komercyjną w [sklepie Aspose](https://purchase.aspose.com/buy).
+**P:** Czy można zastosować Aspose.PSD w projektach komercyjnych?
+**O:** Tak. Kup transport komercyjny w [sklepie Aspose](https://purchase.aspose.com/buy).
 
-**P:** Czy dostępne są tymczasowe licencje do testowania?  
-**O:** Oczywiście – zamów tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/) do celów ewaluacyjnych.
+**P:** Czy dostępne są tymczasowe licencje do testowania?
+**O:** Oczywiście – zamów tymczasową [tutaj](https://purchase.aspose.com/temporary-license/) do celów ewaluacyjnych.
 
-**P:** Gdzie mogę znaleźć wsparcie społeczności?  
-**O:** Forum [Aspose.PSD](https://forum.aspose.com/c/psd/34) to świetne miejsce, aby zadawać pytania i dzielić się rozwiązaniami.
+**P:** Gdzie mogę znaleźć wsparcie społeczności?
+**O:** Forum [Aspose.PSD](https://forum.aspose.com/c/psd/34) do świetnego miejsca, aby zadawać pytania i dzielić się rozwiązaniami.
 
-**P:** Jak uzyskać dostęp do pełnej referencji API?  
+**P:** Jak uzyskać dostęp do pełnej referencji API?
 **O:** Szczegółowa dokumentacja API jest dostępna [tutaj](https://reference.aspose.com/psd/java/).
 
-## Conclusion
+## Wniosek
 
-Teraz wiesz, jak **konwertować PSD na PNG**, **zmieniać rozmiar obrazu proporcjonalnie** i efektywnie obsługiwać buforowanie przy użyciu Aspose.PSD dla Javy. Włącz te kroki do własnych aplikacji, aby zapewnić szybkie, wysokiej jakości przetwarzanie obrazów bez konieczności korzystania z natywnej instalacji Photoshopa. To podejście **aspose psd java** jest niezawodną częścią każdego **java image processing tutorial** i pomaga utrzymać rozmiary plików PSD pod kontrolą, zachowując jednocześnie wierność wizualną.
+Teraz wiesz, jak **konwertować PSD na PNG**, **zmienić rozmiar obrazu graficznego** i zachować buforowanie przy użyciu Aspose.PSD dla Javy. Włącz te kroki do aplikacji, aby uruchomić szybkie, wysokiej jakości oprogramowanie komputerowe bez konieczności użycia z natywną instalacją Photoshopa. To **aspose psd java** jest niezawodną częścią każdego **java image Processing tutorial** i zawiera różne rozmiary plików PSD pod kontrolą, która jest jednocześnie wierna wizualna.
+
+---
+
+**Aktualizacja Ostatnia:** 2026-02-09
+**Testowano z:** Aspose.PSD 24.12 dla Java
+**Autor:** Asponuj
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -141,9 +147,3 @@ Teraz wiesz, jak **konwertować PSD na PNG**, **zmieniać rozmiar obrazu proporc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-02-09  
-**Testowano z:** Aspose.PSD 24.12 for Java  
-**Autor:** Aspose

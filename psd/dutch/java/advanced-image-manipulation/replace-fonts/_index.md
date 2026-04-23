@@ -124,13 +124,6 @@ A: Lettertypevervanging moet plaatsvinden tijdens de laadfase. Om later letterty
 
 U heeft nu een volledige **aspose psd font substitution**‑workflow in Java gezien — van het importeren van de juiste klassen, het configureren van een fallback‑lettertype, het laden van de PSD, tot het exporteren van de gecorrigeerde afbeelding. Integreer dit patroon in uw beeldverwerkings‑pipelines om consistente typografie te garanderen over al uw PSD‑assets en om **missing fonts PSD** automatisch te verwerken.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-02-09  
@@ -138,3 +131,10 @@ U heeft nu een volledige **aspose psd font substitution**‑workflow in Java gez
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

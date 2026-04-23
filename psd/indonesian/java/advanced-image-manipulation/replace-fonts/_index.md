@@ -124,13 +124,6 @@ A: Penggantian font harus terjadi selama fase muat. Untuk mengubah font nanti, m
 
 Anda kini telah melihat alur kerja **aspose psd font substitution** lengkap di Java—dari mengimpor kelas yang tepat, mengonfigurasi font fallback, memuat PSD, hingga mengekspor gambar yang telah diperbaiki. Terapkan pola ini ke dalam pipeline pemrosesan gambar Anda untuk memastikan tipografi yang konsisten di semua aset PSD Anda dan **menangani file PSD dengan font yang hilang** secara otomatis.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2026-02-09  
@@ -138,3 +131,10 @@ Anda kini telah melihat alur kerja **aspose psd font substitution** lengkap di J
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

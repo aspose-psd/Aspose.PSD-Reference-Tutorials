@@ -124,13 +124,6 @@ R : La substitution de police doit se faire pendant la phase de chargement. Po
 
 Vous avez maintenant vu un flux complet de **aspose psd font substitution** en Java — de l'importation des bonnes classes, la configuration d'une police de secours, le chargement du PSD, à l'exportation de l'image corrigée. Intégrez ce modèle dans vos pipelines de traitement d'images pour garantir une typographie cohérente sur tous vos actifs PSD et pour **handle missing fonts PSD** automatiquement.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-02-09  
@@ -138,3 +131,10 @@ Vous avez maintenant vu un flux complet de **aspose psd font substitution** en J
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

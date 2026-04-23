@@ -134,15 +134,15 @@ image.save(destName, new PngOptions());
 
 أنت الآن تعرف كيف **تحويل PSD إلى PNG**، **إعادة تحجيم الصورة بشكل متناسب**، وكيفية التعامل مع التخزين المؤقت بفعالية باستخدام Aspose.PSD للـ Java. دمج هذه الخطوات في تطبيقاتك يتيح لك تقديم معالجة صور سريعة وعالية الجودة دون الاعتماد على تثبيت Photoshop الأصلي. هذا النهج **aspose psd java** هو جزء موثوق من أي **java image processing tutorial** ويساعدك على الحفاظ على حجم ملفات PSD تحت السيطرة مع الحفاظ على الدقة البصرية.
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.PSD 24.12 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.PSD 24.12 for Java  
-**Author:** Aspose

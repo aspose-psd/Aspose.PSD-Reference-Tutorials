@@ -9,23 +9,7 @@ url: /ja/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
 
-.
-
-But keep dates and versions unchanged.
-
-Let's translate:
-
-**Last Updated:** 2026-02-09 -> "**最終更新日:** 2026-02-09"
-
-**Tested With:** Aspose.PSD 24.12 for Java -> "**テスト環境:** Aspose.PSD 24.12 for Java"
-
-**Author:** Aspose -> "**作者:** Aspose"
-
-Now produce final content with all translations.
-
-Be careful to keep markdown formatting.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -149,15 +133,15 @@ A: 詳細な API ドキュメントは[こちら](https://reference.aspose.com/p
 
 これで **PSD を PNG に変換**し、**画像を比例的にリサイズ**し、キャッシュを効率的に扱う方法が分かりました。Aspose.PSD for Java を使用して、ネイティブの Photoshop インストールに依存せず、高速で高品質な画像処理を実現できます。この **aspose psd java** アプローチは、あらゆる **java image processing tutorial** の信頼できる一部であり、PSD ファイルサイズを抑えつつ視覚的忠実度を保つのに役立ちます。
 
+---
+
+**最終更新日:** 2026-02-09  
+**テスト環境:** Aspose.PSD 24.12 for Java  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-02-09  
-**テスト環境:** Aspose.PSD 24.12 for Java  
-**作者:** Aspose

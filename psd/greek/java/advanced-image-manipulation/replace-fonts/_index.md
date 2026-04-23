@@ -121,13 +121,6 @@ psdImage.save(dataDir + "replaced_font.png", pngOptions);
 
 Τώρα έχετε δει μια πλήρη ροή εργασίας **aspose psd font substitution** σε Java—από την εισαγωγή των κατάλληλων κλάσεων, τη διαμόρφωση μιας εναλλακτικής γραμματοσειράς, τη φόρτωση του PSD, μέχρι την εξαγωγή της διορθωμένης εικόνας. Ενσωματώστε αυτό το πρότυπο στις διαδικασίες επεξεργασίας εικόνας σας για να εξασφαλίσετε συνεπή τυπογραφία σε όλα τα PSD assets σας και να **χειρίζεστε αυτόματα ελλιπείς γραμματοσειρές PSD**.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-02-09  
@@ -135,3 +128,10 @@ psdImage.save(dataDir + "replaced_font.png", pngOptions);
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

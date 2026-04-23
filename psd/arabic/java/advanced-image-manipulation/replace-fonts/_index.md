@@ -121,15 +121,15 @@ psdImage.save(dataDir + "replaced_font.png", pngOptions);
 
 لقد رأيت الآن سير عمل كامل لـ **استبدال خطوط aspose psd** في Java — من استيراد الفئات الصحيحة، تكوين خط احتياطي، تحميل ملف PSD، إلى تصدير الصورة المصححة. دمج هذا النمط في خطوط معالجة الصور الخاصة بك لضمان تناسق الخطوط عبر جميع أصول PSD الخاصة بك ولـ **معالجة ملفات PSD ذات الخطوط المفقودة** تلقائيًا.
 
+---
+
+**آخر تحديث:** 2026-02-09  
+**تم الاختبار باستخدام:** Aspose.PSD for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-09  
-**تم الاختبار باستخدام:** Aspose.PSD for Java 24.12 (أحدث نسخة وقت الكتابة)  
-**المؤلف:** Aspose

@@ -122,15 +122,15 @@ A: La sustitución de fuentes debe ocurrir durante la fase de carga. Para cambia
 
 Ahora ha visto un flujo de trabajo completo de **aspose psd font substitution** en Java—desde importar las clases correctas, configurar una fuente de respaldo, cargar el PSD, hasta exportar la imagen corregida. Incorpore este patrón en sus canalizaciones de procesamiento de imágenes para garantizar una tipografía consistente en todos sus recursos PSD y para **handle missing fonts PSD** automáticamente.
 
+---
+
+**Última actualización:** 2026-02-09  
+**Probado con:** Aspose.PSD for Java 24.12 (última versión al momento de escribir)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-02-09  
-**Probado con:** Aspose.PSD for Java 24.12 (última versión al momento de escribir)  
-**Autor:** Aspose

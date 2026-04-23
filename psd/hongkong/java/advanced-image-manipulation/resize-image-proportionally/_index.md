@@ -9,16 +9,6 @@ url: /zh-hant/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
 
-最後更新:** 2026-02-09". Similarly "**測試環境:** Aspose.PSD 24.12 for Java". "**作者:** Aspose". That should be fine.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with markdown syntax.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -143,15 +133,15 @@ A: 詳細的 API 文件可在[此處](https://reference.aspose.com/psd/java/)取
 
 您現在已了解如何 **將 PSD 轉換為 PNG**、**按比例調整圖像大小**，以及如何使用 Aspose.PSD for Java 高效快取圖像。將這些步驟整合至您的應用程式，即可在不依賴本機 Photoshop 安裝的情況下，提供快速且高品質的圖像處理。此 **aspose psd java** 方法是任何 **Java 圖像處理教學** 的可靠組成部分，能協助您在控制 PSD 檔案大小的同時，保持視覺忠實度。
 
+---
+
+**最後更新:** 2026-02-09  
+**測試環境:** Aspose.PSD 24.12 for Java  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新:** 2026-02-09  
-**測試環境:** Aspose.PSD 24.12 for Java  
-**作者:** Aspose

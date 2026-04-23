@@ -122,15 +122,15 @@ A: A betűkészlet helyettesítést a betöltési fázisban kell elvégezni. A b
 
 Most már látta a teljes **aspose psd font substitution** munkafolyamatot Java-ban – a megfelelő osztályok importálásától, a helyettesítő betűkészlet konfigurálásán, a PSD betöltésén, egészen a javított kép exportálásáig. Alkalmazza ezt a mintát a képfeldolgozó folyamatokban, hogy konzisztens tipográfiát biztosítson minden PSD eszközön, és automatikusan **handle missing fonts PSD**.
 
+---
+
+**Legutóbb frissítve:** 2026-02-09  
+**Tesztelt verzió:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-02-09  
-**Tesztelt verzió:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Szerző:** Aspose

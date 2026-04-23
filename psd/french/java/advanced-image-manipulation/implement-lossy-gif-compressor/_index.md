@@ -11,18 +11,6 @@ url: /fr/java/advanced-image-manipulation/implement-lossy-gif-compressor/
 weight: 13
 ---
 
- blockquote > Pro tip: translate.
-
-Also note "Lossy Compressor" maybe keep as is? It's part of title; but we translate natural French, maybe "Compresseur avec perte". But keep technical terms. Title: "How to Convert PSD to GIF Using Aspose.PSD for Java – Lossy Compressor". Translate: "Comment convertir un PSD en GIF avec Aspose.PSD pour Java – Compresseur avec perte". Keep dash.
-
-Check "Lossy GIF Compressor" maybe "Compresseur GIF avec perte". Keep.
-
-Make sure not to translate URLs.
-
-Also keep shortcodes at top and bottom.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
