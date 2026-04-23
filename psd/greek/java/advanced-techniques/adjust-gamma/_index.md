@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: Μάθετε πώς να εκτελείτε επεξεργασία εικόνας σε Java προσαρμόζοντας τη
-  γάμμα της εικόνας με το Aspose.PSD. Οδηγός βήμα‑προς‑βήμα για τη μετατροπή PSD σε
-  TIFF και την εφαρμογή διόρθωσης γάμμα.
+date: 2026-02-27
+description: Μάθετε πώς να ρυθμίζετε τη γάμμα στην επεξεργασία εικόνων Java με το
+  Aspose.PSD, να μετατρέπετε PSD σε TIFF και να διορθώνετε τις ξεθωριασμένες εικόνες
+  σε ένα σύντομο σεμινάριο.
 linktitle: Adjust Gamma of an Image
 second_title: Aspose.PSD Java API
-title: Επεξεργασία Εικόνας Java – Ρύθμιση Gamma με το Aspose.PSD
+title: Πώς να προσαρμόσετε το γάμμα στην επεξεργασία εικόνας Java με το Aspose.PSD
 url: /el/java/advanced-techniques/adjust-gamma/
 weight: 23
 ---
@@ -14,38 +14,35 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Image Processing – Adjust Gamma with Aspose.PSD
+# Πώς να Ρυθμίσετε το Gamma στην Επεξεργασία Εικόνας Java με το Aspose.PSD
 
-## Introduction
+## Εισαγωγή
 
-Αν εργάζεστε με **java image processing**, η ρύθμιση του gamma μιας εικόνας είναι μια βασική τεχνική για τη βελτίωση της φωτεινότητας και της αντίθεσης χωρίς να χάνονται λεπτομέρειες. Σε αυτό το tutorial θα δούμε πώς να χρησιμοποιήσετε το **Aspose.PSD for Java** για να εφαρμόσετε διόρθωση gamma σε ένα αρχείο PSD και στη συνέχεια να εξάγετε το αποτέλεσμα ως εικόνα TIFF. Θα καταλάβετε γιατί αυτή η προσέγγιση είναι γρήγορη, αξιόπιστη και ιδανική για pipelines επεξεργασίας εικόνας στο διακομιστή.
+Αν εργάζεστε στην **java image processing**, η εκμάθηση του **πώς να ρυθμίσετε το gamma** είναι μια θεμελιώδης τεχνική για τη βελτίωση της φωτεινότητας και της αντίθεσης χωρίς να χάνεται λεπτομέρεια. Σε αυτό το σεμινάριο θα σας δείξουμε πώς να χρησιμοποιήσετε το **Aspose.PSD for Java** για να εφαρμόσετε διόρθωση gamma σε αρχείο PSD, **να μετατρέψετε PSD σε TIFF**, και να αποφύγετε μια **ξεθωριασμένη εικόνα**. Θα δείτε γιατί αυτή η προσέγγιση είναι γρήγορη, αξιόπιστη και ιδανική για pipelines επεξεργασίας εικόνας στο διακομιστή.
 
-## Quick Answers
-- **What does gamma correction do?** It remaps luminance values to make dark areas brighter or bright areas darker while preserving overall detail.  
-- **Which library handles the processing?** Aspose.PSD for Java provides a dedicated `adjustGamma` method for raster images.  
-- **Can I convert PSD to TIFF in the same flow?** Yes – after gamma adjustment you can save the image directly to TIFF using `TiffOptions`.  
-- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production use.  
-- **What Java version is supported?** Aspose.PSD supports Java 8 and later.
+## Γρήγορες Απαντήσεις
+- **Τι κάνει η διόρθωση gamma;** Ανασχεδιάζει τις τιμές φωτεινότητας ώστε οι σκοτεινές περιοχές να γίνουν πιο φωτεινές ή οι φωτεινές περιοχές πιο σκοτεινές, διατηρώντας τη συνολική λεπτομέρεια.  
+- **Ποια βιβλιοθήκη διαχειρίζεται την επεξεργασία;** Το Aspose.PSD for Java παρέχει τη μέθοδο `adjustGamma` για raster εικόνες.  
+- **Μπορώ να μετατρέψω PSD σε TIFF στην ίδια ροή;** Ναι – μετά τη ρύθμιση του gamma μπορείτε να αποθηκεύσετε την εικόνα απευθείας σε TIFF χρησιμοποιώντας `TiffOptions`.  
+- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγική χρήση.  
+- **Ποια έκδοση της Java υποστηρίζεται;** Το Aspose.PSD υποστηρίζει Java 8 και νεότερες.
 
-## What is java image processing?
+## Πώς να Ρυθμίσετε το Gamma στην Επεξεργασία Εικόνας Java
+Η ρύθμιση του gamma είναι βασικό μέρος κάθε **java image processing tutorial** που ασχολείται με τη φωτεινότητα ή την αντίθεση. Παρακάτω θα αναλύσουμε τα βήματα, θα εξηγήσουμε γιατί κάθε γραμμή είναι σημαντική, και θα σας δείξουμε πώς να ενσωματώσετε τη διαδικασία στον υπάρχοντα κώδικά σας.
 
-Η Java image processing αναφέρεται στη διαχείριση, ανάλυση και μετασχηματισμό οπτικών δεδομένων χρησιμοποιώντας βιβλιοθήκες Java. Οι εργασίες περιλαμβάνουν αλλαγή μεγέθους, φιλτράρισμα, διόρθωση χρωμάτων και μετατροπή μορφών — όλα μπορούν να αυτοματοποιηθούν σε εφαρμογές desktop ή web.
+## Τι είναι η Διόρθωση Gamma στη Java;
+Η διόρθωση gamma αλλάζει τη μη γραμμική σχέση μεταξύ των κωδικοποιημένων τιμών pixel και της εμφανιζόμενης φωτεινότητας. Με την προσαρμογή της καμπύλης gamma μπορείτε να **διορθώσετε προβλήματα ξεθωριασμένης εικόνας** ή να ενισχύσετε τις λεπτομέρειες στις σκιές χωρίς να υπερβολικά εκθέσετε τις φωτεινές περιοχές.
 
-## Why use Aspose.PSD for gamma correction?
+## Γιατί να Χρησιμοποιήσετε το Aspose.PSD για Διόρθωση Gamma;
+Το Aspose.PSD λειτουργεί ως μια ισχυρή **java image processing library** που αφαιρεί τις πολυπλοκότητες της μορφής PSD. Διαχειρίζεται προφίλ χρωμάτων, caching, και παρέχει μια απλή κλήση `adjustGamma`, καθιστώντας το ιδανικό για **java gamma correction** και **convert PSD to TIFF** workflows.
 
-Το Aspose.PSD προσφέρει ένα υψηλού επιπέδου API που αφαιρεί την πολυπλοκότητα της μορφής PSD, επιτρέποντάς σας να εστιάσετε στις πραγματικές ρυθμίσεις εικόνας. Διαχειρίζεται caching, προφίλ χρωμάτων και παρέχει μια απλή κλήση `adjustGamma`, καθιστώντας το ιδανικό για **image gamma correction** και **convert psd to tiff** workflows.
+## Προαπαιτούμενα
 
-## Prerequisites
+1. **Java Development Environment** – Εγκατεστημένη Java 8 ή νεότερη.  
+2. **Aspose.PSD Library** – Κατεβάστε και προσθέστε το JAR στο έργο σας. Δείτε την επίσημη [documentation](https://reference.aspose.com/psd/java/).  
+3. **Δείγμα Εικόνας** – Ένα αρχείο PSD που θέλετε να επεξεργαστείτε (π.χ., `sample.psd`).  
 
-Πριν ξεκινήσετε το tutorial, βεβαιωθείτε ότι έχετε ρυθμίσει τα παρακάτω:
-
-1. **Java Development Environment** – Βεβαιωθείτε ότι έχετε εγκατεστημένο ένα περιβάλλον ανάπτυξης Java στο σύστημά σας.  
-2. **Aspose.PSD Library** – Κατεβάστε και ενσωματώστε τη βιβλιοθήκη Aspose.PSD στο Java project σας. Μπορείτε να βρείτε τους απαραίτητους πόρους στην [documentation](https://reference.aspose.com/psd/java/).  
-3. **Sample Image** – Προετοιμάστε ένα δείγμα εικόνας PSD που θα χρησιμοποιήσετε για την εφαρμογή της ρύθμισης gamma.
-
-## Import Packages
-
-Για να ξεκινήσετε τη διαδικασία, εισάγετε τα απαιτούμενα πακέτα στο Java project σας. Αυτό θέτει το σκηνικό για την απρόσκοπτη χρήση των λειτουργιών του Aspose.PSD.
+## Εισαγωγή Πακέτων
 
 ```java
 import com.aspose.psd.Image;
@@ -56,9 +53,7 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-## Step 1: Load the Image
-
-Ξεκινήστε φορτώνοντας το δείγμα εικόνας PSD σε μια παρουσία της κλάσης `RasterImage`. Αυτό αποτελεί τη βάση για τις επόμενες ρυθμίσεις gamma.
+## Βήμα 1: Φόρτωση της Εικόνας
 
 ```java
 String dataDir = "Your Document Directory";
@@ -76,18 +71,18 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-## Step 2: Adjust Gamma
+**Pro tip:** Η caching των raster δεδομένων μία φορά μειώνει την κατανάλωση μνήμης όταν εφαρμόζετε πολλαπλές ρυθμίσεις διαδοχικά.
 
-Τώρα, ρυθμίστε το gamma της φορτωμένης εικόνας χρησιμοποιώντας τη μέθοδο `adjustGamma`. Ρυθμίστε τις τιμές gamma σύμφωνα με τις απαιτήσεις σας.
+## Βήμα 2: Ρύθμιση Gamma
 
 ```java
 // Adjust the gamma
 rasterImage.adjustGamma(2.2f, 2.2f, 2.2f);
 ```
 
-## Step 3: Create TiffOptions
+Μπορείτε να περάσετε διαφορετικές τιμές για τα κανάλια κόκκινο, πράσινο και μπλε εάν χρειάζεστε ρυθμίσεις ανά κανάλι.
 
-Δημιουργήστε μια παρουσία του `TiffOptions` για την τελική εικόνα. Ορίστε διάφορες ιδιότητες, όπως bits per sample και photometric options, ώστε το αποτέλεσμα να ταιριάζει στις προδιαγραφές σας.
+## Βήμα 3: Δημιουργία TiffOptions
 
 ```java
 // Create an instance of TiffOptions for the resultant image
@@ -97,9 +92,9 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
-## Step 4: Save the Resultant Image
+Ορίζοντας ένα δείγμα 8‑bit (`{8,8,8}`) διατηρεί το μέγεθος του αρχείου TIFF λογικό, ενώ διασφαλίζει την πιστότητα των χρωμάτων.
 
-Αποθηκεύστε την επεξεργασμένη εικόνα σε μορφή TIFF χρησιμοποιώντας το `TiffOptions` που ορίσατε προηγουμένως.
+## Βήμα 4: Αποθήκευση της Τελικής Εικόνας
 
 ```java
 // Save the resultant image to TIFF format
@@ -107,35 +102,46 @@ String destName = dataDir + "AdjustGamma_out.tiff";
 rasterImage.save(destName, tiffOptions);
 ```
 
-## Common Issues and Solutions
+Μετά την αποθήκευση, μπορείτε να στείλετε το TIFF σε downstream συστήματα όπως υπηρεσίες εκτύπωσης ή web APIs.
+
+## Συνηθισμένες Περιπτώσεις Χρήσης
+
+- **Αυτοματοποιημένα pipelines γραφικών** – Ρυθμίστε το gamma άμεσα πριν τη δημιουργία μικρογραφιών.  
+- **Εργαλεία μαζικής μετατροπής** – Μετατρέψτε μεγάλα αρχεία PSD σε TIFF ενώ κανονικοποιείτε τη φωτεινότητα.  
+- **Web services** – Εκθέστε ένα endpoint που λαμβάνει PSD, εφαρμόζει διόρθωση gamma, και επιστρέφει TIFF για χρήση από τον πελάτη.
+
+## Συνηθισμένα Προβλήματα και Λύσεις
 
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
-| **Image appears washed out** | Gamma value too high (e.g., > 2.5) | Lower the gamma factor to a value between 1.8 and 2.2. |
-| **`rasterImage.isCached()` returns false** | Image not yet loaded into memory | Call `rasterImage.cacheData()` before adjusting gamma. |
-| **TIFF file size is large** | Bits per sample set to 16‑bit | Use an 8‑bit sample (`{8,8,8}`) as shown in the example. |
+| **Image appears washed out** | Η τιμή gamma είναι πολύ υψηλή (π.χ., > 2.5) | Μειώστε τον παράγοντα gamma σε τιμή μεταξύ 1.8 και 2.2. |
+| **`rasterImage.isCached()` returns false** | Η εικόνα δεν έχει φορτωθεί ακόμη στη μνήμη | Καλέστε `rasterImage.cacheData()` πριν τη ρύθμιση gamma. |
+| **TIFF file size is large** | Τα bits ανά δείγμα έχουν οριστεί σε 16‑bit | Χρησιμοποιήστε δείγμα 8‑bit (`{8,8,8}`) όπως φαίνεται στο παράδειγμα. |
 
-## Frequently Asked Questions
+## Συχνές Ερωτήσεις
 
-**Q: Can I apply different gamma values to each colour channel?**  
-A: Yes – the `adjustGamma` method accepts separate float values for red, green, and blue channels.
+**Q: Μπορώ να εφαρμόσω διαφορετικές τιμές gamma σε κάθε κανάλι χρώματος;**  
+A: Ναι – η μέθοδος `adjustGamma` δέχεται ξεχωριστές τιμές float για τα κανάλια κόκκινο, πράσινο και μπλε.
 
-**Q: Is it possible to chain multiple image adjustments before saving?**  
-A: Absolutely. You can perform resizing, cropping, or colour corrections sequentially on the same `RasterImage` instance.
+**Q: Είναι δυνατόν να αλυσίδω πολλαπλές ρυθμίσεις εικόνας πριν την αποθήκευση;**  
+A: Απολύτως. Μπορείτε να εκτελέσετε αλλαγή μεγέθους, περικοπή ή διορθώσεις χρώματος διαδοχικά στο ίδιο αντικείμενο `RasterImage`.
 
-**Q: Does Aspose.PSD support multi‑page PSD files?**  
-A: Yes, each layer can be accessed and processed individually.
+**Q: Υποστηρίζει το Aspose.PSD αρχεία PSD πολλαπλών σελίδων;**  
+A: Ναι, κάθε στρώμα μπορεί να προσπελαστεί και να υποβληθεί σε επεξεργασία ξεχωριστά.
 
-**Q: What format can I export to besides TIFF?**  
-A: Aspose.PSD supports PNG, JPEG, BMP, and many other formats via their respective options classes.
+**Q: Σε ποια μορφή μπορώ να εξάγω εκτός από TIFF;**  
+A: Το Aspose.PSD υποστηρίζει PNG, JPEG, BMP και πολλές άλλες μορφές μέσω των αντίστοιχων κλάσεων options.
 
-## Conclusion
+**Q: Πώς να αποφύγω μια ξεθωριασμένη εικόνα μετά τη διόρθωση gamma;**  
+A: Ξεκινήστε με μέτριο gamma (περίπου 2.0) και προεπισκοπήστε το αποτέλεσμα· μειώστε το gamma αν η εικόνα φαίνεται πολύ φωτεινή.
 
-Συγχαρητήρια! Εκτελέσατε επιτυχώς **java image processing** ρυθμίζοντας το gamma ενός αρχείου PSD και εξάγοντας το ως εικόνα TIFF χρησιμοποιώντας το Aspose.PSD for Java. Αυτή η ροή εργασίας σας δίνει ακριβή έλεγχο της φωτεινότητας και της αντίθεσης της εικόνας, καθιστώντας την ιδανική για αυτοματοποιημένα γραφικά pipelines, web services ή desktop utilities.
+## Συμπέρασμα
+
+Συγχαρητήρια! Έχετε μάθει με επιτυχία **πώς να ρυθμίσετε το gamma** σε μια **java image processing** ροή εργασίας, μετατρέψατε ένα PSD σε TIFF, και αποφύγατε κοινά προβλήματα όπως μια **ξεθωριασμένη εικόνα**. Αυτό το μοτίβο σας δίνει ακριβή έλεγχο της φωτεινότητας και της αντίθεσης, καθιστώντας το ιδανικό για αυτοματοποιημένα pipelines γραφικών, web services ή επιτραπέζιες εφαρμογές.
 
 ---
 
-**Last Updated:** 2025-12-21  
+**Last Updated:** 2026-02-27  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 

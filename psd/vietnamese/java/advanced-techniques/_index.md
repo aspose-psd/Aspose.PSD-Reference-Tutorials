@@ -1,11 +1,11 @@
 ---
-date: 2025-12-19
+date: 2026-02-27
 description: Học cách chuyển ảnh sang thang xám trong Java với Aspose.PSD, điều chỉnh
   độ sáng, độ tương phản, gamma, làm mờ ảnh trong Java và lưu ảnh vào đĩa trong các
   hướng dẫn Java nâng cao.
 linktitle: Advanced Techniques
 second_title: Aspose.PSD Java API
-title: Hình ảnh xám Java – Kỹ thuật nâng cao Aspose.PSD
+title: Ảnh xám Java – Các kỹ thuật nâng cao Aspose.PSD
 url: /vi/java/advanced-techniques/
 weight: 22
 ---
@@ -14,133 +14,139 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hình ảnh Đen trắng Java – Kỹ thuật Nâng cao
+# Grayscale Image Java – Kỹ thuật nâng cao
 
 ## Introduction
 
-Bạn đã sẵn sàng nâng cao kỹ năng xử lý ảnh Java của mình chưa? Hãy khám phá các hướng dẫn toàn diện của chúng tôi với Aspose.PSD for Java, mở ra một lĩnh vực các kỹ thuật nâng cao. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách **grayscale image java**, cũng như cách điều chỉnh độ sáng, độ tương phản, gamma, blur image java, và lưu ảnh vào đĩa. Hãy khám phá chi tiết một số hướng dẫn chính:
+Bạn đã sẵn sàng nâng cao kỹ năng xử lý ảnh Java của mình chưa? Hãy khám phá các hướng dẫn toàn diện của chúng tôi với Aspose.PSD for Java, mở ra một thế giới các kỹ thuật nâng cao. Trong hướng dẫn này, chúng tôi sẽ chỉ cho bạn cách **grayscale image java**, cũng như cách điều chỉnh độ sáng, độ tương phản, gamma, **blur image java**, và **save images java** vào đĩa. Hãy khám phá một số hướng dẫn chính chi tiết:
 
 ## Quick Answers
-- **What does “grayscale image java” mean?** Chuyển đổi một ảnh màu thành các mức xám bằng mã Java.  
+- **What does “grayscale image java” mean?** Chuyển đổi một ảnh màu sang các mức độ xám bằng mã Java.  
 - **Which library is recommended?** Aspose.PSD for Java cung cấp một API đơn giản cho việc chuyển đổi sang đen trắng và các thao tác ảnh khác.  
-- **Do I need a license?** Bản dùng thử miễn phí hoạt động cho phát triển; cần giấy phép thương mại cho môi trường sản xuất.  
+- **Do I need a license?** Bản dùng thử miễn phí hoạt động cho việc phát triển; cần giấy phép thương mại cho môi trường sản xuất.  
 - **Can I chain operations?** Có—có thể áp dụng tuần tự các thao tác chuyển sang đen trắng, điều chỉnh độ sáng và làm mờ.  
-- **Is multithreading supported?** Chắc chắn—sử dụng các worker thread để lưu ảnh một cách hiệu quả.  
+- **Is multithreading supported?** Chắc chắn—sử dụng các worker thread để lưu ảnh một cách hiệu quả.
 
 ## What is Grayscale Image Java?
-
-Grayscale image Java đề cập đến quá trình chuyển đổi một bitmap đầy màu sắc thành biểu diễn đơn sắc (các mức xám) trong một ứng dụng Java. Aspose.PSD for Java đơn giản hoá quá trình này bằng một lời gọi phương thức duy nhất, tự động xử lý mọi chi tiết nội bộ của PSD cho bạn.
+Grayscale image Java đề cập đến quá trình chuyển đổi một bitmap đầy màu sắc thành biểu diễn đơn sắc (các mức độ xám) trong một ứng dụng Java. Aspose.PSD for Java đơn giản hoá việc này bằng một lời gọi phương thức duy nhất, xử lý toàn bộ nội bộ PSD cho bạn.
 
 ## Why Use Aspose.PSD for Java?
-- **Rich feature set** – ngoài việc chuyển sang đen trắng, bạn có thể điều chỉnh độ sáng, độ tương phản, gamma, và áp dụng hiệu ứng làm mờ.  
+- **Rich feature set** – ngoài chuyển sang đen trắng, bạn có thể điều chỉnh độ sáng, độ tương phản, gamma và áp dụng hiệu ứng làm mờ.  
 - **Cross‑platform** – hoạt động trên bất kỳ môi trường tương thích Java nào.  
-- **Performance‑optimized** – hỗ trợ worker threads để lưu nhanh vào đĩa hoặc stream.  
-- **Comprehensive documentation** – các hướng dẫn chi tiết từng bước cho mọi nhiệm vụ phổ biến.  
+- **Performance‑optimized** – hỗ trợ worker thread để lưu nhanh vào đĩa hoặc stream.  
+- **Comprehensive documentation** – các hướng dẫn từng bước cho mọi tác vụ phổ biến.
 
 ## Prerequisites
-- Java Development Kit (JDK) 8 trở lên.  
-- Thư viện Aspose.PSD for Java (tải về từ trang web Aspose).  
-- Kiến thức cơ bản về Java I/O và các khái niệm về ảnh.  
+- Java Development Kit (JDK) 8 or higher.  
+- Aspose.PSD for Java library (download from the Aspose website).  
+- Basic familiarity with Java I/O and image concepts.
+
+## How to grayscale image java?
+Để chuyển đổi một ảnh màu sang đen trắng, bạn thường tải ảnh bằng `PsdImage`, gọi phương thức `ConvertToGrayscale()` và sau đó lưu kết quả. Cách tiếp cận này ẩn đi việc thao tác pixel mức thấp, cho phép bạn tập trung vào quy trình làm việc.
+
+## How to blur image java?
+Làm mờ thường được dùng để tạo nền mềm hoặc che giấu chi tiết. Với Aspose.PSD, bạn có thể gọi phương thức `Blur()` sau khi tải ảnh. API cho phép bạn điều chỉnh bán kính và cường độ, cung cấp kiểm soát chi tiết cho hiệu ứng.
 
 ## Advanced Technique Tutorials
 
 ### Grayscale an Image using Aspose.PSD for Java
-Khám phá cách chuyển ảnh sang đen trắng một cách dễ dàng trong Java với Aspose.PSD. Hướng dẫn chi tiết từng bước của chúng tôi sẽ dẫn bạn qua quá trình, đảm bảo kết quả mượt mà. [Read more](./grayscale-image/)
+Khám phá cách dễ dàng chuyển ảnh sang đen trắng trong Java với Aspose.PSD. Hướng dẫn từng bước của chúng tôi sẽ dẫn bạn qua quy trình, đảm bảo kết quả mượt mà. [Read more](./grayscale-image/)
 
 ### Loading Images from Stream with Aspose.PSD for Java
-Tải ảnh từ Stream bằng Aspose.PSD for Java. Tìm hiểu chi tiết cách tải ảnh PSD một cách liền mạch trong Java bằng Aspose.PSD. Hướng dẫn chi tiết của chúng tôi đảm bảo xử lý ảnh hiệu quả. [Read more](./loading-images-from-stream/)
+Tìm hiểu cách tải ảnh PSD một cách liền mạch trong Java bằng Aspose.PSD. Hướng dẫn chi tiết của chúng tôi đảm bảo xử lý ảnh hiệu quả. [Read more](./loading-images-from-stream/)
 
 ### Convert PSD to Raster Image Formats with Aspose.PSD for Java
-Chuyển PSD sang định dạng ảnh Raster với Aspose.PSD for Java. Chuyển đổi các tệp PSD sang ảnh raster một cách dễ dàng với Aspose.PSD for Java. Khám phá các tùy chọn xuất đa dạng và tích hợp liền mạch trong hướng dẫn chi tiết từng bước của chúng tôi. [Read more](./convert-psd-to-raster-formats/)
+Chuyển đổi dễ dàng các tệp PSD sang ảnh raster với Aspose.PSD for Java. Khám phá các tùy chọn xuất đa dạng và tích hợp liền mạch trong hướng dẫn từng bước của chúng tôi. [Read more](./convert-psd-to-raster-formats/)
 
-Còn muốn khám phá thêm? Hãy xem các hướng dẫn về việc render văn bản với các màu khác nhau, lưu ảnh một cách hiệu quả bằng worker threads, và các hướng dẫn toàn diện về quản lý phông chữ. Nâng cao thiết kế ảnh và phát triển Java của bạn với Aspose.PSD.
+Ready for more? Explore tutorials on rendering text with different colors, saving images efficiently using worker threads, and comprehensive guides on font management. Elevate your image design and Java development with Aspose.PSD.
 
 ### Render Text with Different Colors in Text Layer
-Học cách render văn bản với các màu sắc khác nhau trong lớp văn bản PSD bằng Aspose.PSD for Java. Hướng dẫn chi tiết từng bước của chúng tôi đảm bảo kết quả mượt mà. [Read more](./render-text-different-colors/)
+Học cách render văn bản với các màu khác nhau trong lớp văn bản PSD bằng Aspose.PSD for Java. Hướng dẫn từng bước của chúng tôi đảm bảo kết quả liền mạch. [Read more](./render-text-different-colors/)
 
 ### Save Images using Worker Threads with Aspose.PSD for Java
-Lưu Ảnh bằng Worker Threads với Aspose.PSD for Java. Tìm hiểu xử lý ảnh đa luồng trong Java với Aspose.PSD. Thành thạo việc lưu ảnh một cách hiệu quả bằng worker threads. [Read more](./save-images-worker-threads/)
+Khám phá xử lý ảnh đa luồng trong Java với Aspose.PSD. Thành thạo việc lưu ảnh một cách hiệu quả bằng worker threads. [Read more](./save-images-worker-threads/)
 
 ### Settings for Replacing Missing Fonts in Aspose.PSD for Java
-Cài đặt Thay thế Phông chữ Thiếu trong Aspose.PSD for Java. Khám phá hướng dẫn toàn diện về việc thay thế phông chữ thiếu trong Aspose.PSD for Java. Nâng cao thiết kế ảnh của bạn với quản lý phông chữ liền mạch. [Read more](./settings-replacing-missing-fonts/)
+Khám phá hướng dẫn toàn diện về việc thay thế phông chữ bị thiếu trong Aspose.PSD for Java. Nâng cao thiết kế ảnh của bạn với quản lý phông chữ liền mạch. [Read more](./settings-replacing-missing-fonts/)
 
-Cho dù là điều chỉnh độ sáng, độ tương phản, gamma, làm mờ ảnh, hay thêm các hiệu ứng hấp dẫn tại thời gian chạy, các hướng dẫn của chúng tôi đều bao phủ. Khai thác tiềm năng của Aspose.PSD for Java và nâng cao kỹ năng xử lý ảnh của bạn lên tầm cao mới.
+Whether it's adjusting brightness, contrast, gamma, blurring images, or adding captivating effects at runtime, our tutorials cover it all. Unlock the potential of Aspose.PSD for Java and take your image processing skills to new heights.
 
 ### Adjust Brightness of an Image with Aspose.PSD for Java
-Điều chỉnh Độ sáng của Ảnh với Aspose.PSD for Java. Tăng độ sáng ảnh trong Java với Aspose.PSD. Hướng dẫn chi tiết từng bước của chúng tôi giúp bạn điều chỉnh độ sáng ảnh một cách lập trình. [Read more](./adjust-brightness/)
+Tăng cường độ sáng của ảnh trong Java với Aspose.PSD. Hướng dẫn từng bước giúp bạn điều chỉnh độ sáng ảnh một cách lập trình. [Read more](./adjust-brightness/)
 
 ### Add Effects at Runtime with Aspose.PSD for Java
-Thêm Hiệu ứng tại Thời gian Chạy với Aspose.PSD for Java. Khám phá tích hợp liền mạch của Aspose.PSD for Java để động thêm các hiệu ứng hấp dẫn vào ảnh. Nâng cao phát triển Java của bạn với hướng dẫn trực quan này. [Read more](./add-effects-runtime/)
+Khám phá việc tích hợp liền mạch Aspose.PSD for Java để động thêm các hiệu ứng hấp dẫn vào ảnh. Nâng cao phát triển Java của bạn với hướng dẫn trực quan này. [Read more](./add-effects-runtime/)
 
 ### Adjust Contrast of an Image with Aspose.PSD for Java
-Điều chỉnh Độ tương phản của Ảnh với Aspose.PSD for Java. Khám phá việc điều chỉnh độ tương phản ảnh trong Java với Aspose.PSD. Hướng dẫn chi tiết từng bước của chúng tôi đảm bảo thao tác ảnh mượt mà. [Read more](./adjust-contrast/)
+Khám phá thế giới điều chỉnh độ tương phản ảnh trong Java với Aspose.PSD. Hướng dẫn từng bước của chúng tôi đảm bảo thao tác ảnh liền mạch. [Read more](./adjust-contrast/)
 
 ### Adjust Gamma of an Image with Aspose.PSD for Java
-Điều chỉnh Gamma của Ảnh với Aspose.PSD for Java. Học cách điều chỉnh gamma ảnh một cách dễ dàng bằng Aspose.PSD for Java. Hướng dẫn chi tiết từng bước của chúng tôi đảm bảo kết quả tối ưu. [Read more](./adjust-gamma/)
+Học cách điều chỉnh gamma ảnh một cách dễ dàng bằng Aspose.PSD for Java. Hướng dẫn từng bước của chúng tôi đảm bảo kết quả tối ưu. [Read more](./adjust-gamma/)
 
-Sẵn sàng mở khóa kiểm soát trong xử lý ảnh với Aspose.PSD for Java? Hãy khám phá các hướng dẫn của chúng tôi và thành thạo nghệ thuật các thao tác stream Java với việc đồng bộ root và hỗ trợ interrupt monitor.
+Ready to unlock control in image processing with Aspose.PSD for Java? Dive into our tutorials and master the art of Java stream operations with synchronizing root and supporting interrupt monitors.
 
 ### Synchronize Root using Aspose.PSD for Java
-Đồng bộ Root bằng Aspose.PSD for Java. Tìm hiểu cách đồng bộ root bằng Aspose.PSD for Java. Hướng dẫn chi tiết từng bước của chúng tôi đảm bảo các thao tác stream Java hiệu quả. [Read more](./synchronize-root/)
+Học cách đồng bộ root bằng Aspose.PSD for Java. Hướng dẫn từng bước của chúng tôi đảm bảo các thao tác stream Java hiệu quả. [Read more](./synchronize-root/)
 
 ### Support for Interrupt Monitor in Aspose.PSD for Java
-Hỗ trợ Interrupt Monitor trong Aspose.PSD for Java. Mở khóa kiểm soát trong xử lý ảnh với Aspose.PSD for Java. Học cách ngắt quá trình để có quy trình làm việc linh hoạt. [Read more](./support-interrupt-monitor/)
+Mở khóa kiểm soát trong xử lý ảnh với Aspose.PSD for Java. Học cách ngắt quy trình để linh hoạt trong quy trình làm việc. [Read more](./support-interrupt-monitor/)
 
-Bắt đầu hành trình của bạn vào các kỹ thuật nâng cao trong xử lý ảnh Java với Aspose.PSD. Mỗi hướng dẫn cung cấp những hiểu biết chi tiết, giúp bạn nắm bắt khái niệm một cách dễ dàng. Nâng cao kỹ năng, thu hút khán giả, và tạo ra những ảnh tuyệt đẹp với Aspose.PSD for Java. Chúc lập trình vui vẻ!
+Start your journey into the advanced techniques of Java image processing with Aspose.PSD. Each tutorial provides detailed insights, ensuring you grasp the concepts effortlessly. Elevate your skills, captivate your audience, and create stunning images with Aspose.PSD for Java. Happy coding!
 
 ## Advanced Techniques Tutorials
-### [Chuyển ảnh sang đen trắng bằng Aspose.PSD for Java](./grayscale-image/)
-Explore Aspose.PSD for Java and learn how to effortlessly grayscale images with our step‑by‑step tutorial.  
-### [Tải ảnh từ Stream bằng Aspose.PSD for Java](./loading-images-from-stream/)
-Learn to load PSD images seamlessly in Java using Aspose.PSD. Follow our step‑by‑step guide for efficient image processing.  
-### [Chuyển PSD sang Định dạng Ảnh Raster với Aspose.PSD for Java](./convert-psd-to-raster-formats/)
-Effortlessly convert PSD files to raster images using Aspose.PSD for Java. Explore step‑by‑step guidance, versatile export options, and seamless integration.  
-### [Render Văn bản với các Màu Khác nhau trong Lớp Văn bản bằng Aspose.PSD for Java](./render-text-different-colors/)
-Learn how to render text with different colors in a PSD text layer using Aspose.PSD for Java. Follow our step‑by‑step guide for seamless results.  
-### [Lưu Ảnh bằng Worker Threads với Aspose.PSD for Java](./save-images-worker-threads/)
-Explore multi threaded image processing in Java with Aspose.PSD. Learn to save images efficiently using worker threads.  
-### [Lưu Ảnh vào Đĩa với Aspose.PSD for Java](./save-images-to-disk/)
-Effortlessly save images to disk using Aspose.PSD for Java. A powerful Java library for PSD file manipulation.  
-### [Lưu Ảnh vào Stream với Aspose.PSD for Java](./save-images-to-stream/)
-Explore how to save PSD images to a stream using Aspose.PSD for Java. Follow our step‑by‑step guide for efficient image processing.  
-### [Cài đặt Thay thế Phông chữ Thiếu trong Aspose.PSD for Java](./settings-replacing-missing-fonts/)
-Explore a comprehensive guide on replacing missing fonts in Aspose.PSD for Java. Elevate your image design with seamless font management.  
-### [Hỗ trợ Interrupt Monitor trong Aspose.PSD for Java](./support-interrupt-monitor/)
-Unlock control in image processing with Aspose.PSD for Java. Learn to interrupt processes for flexible workflows.  
-### [Đồng bộ Root bằng Aspose.PSD for Java](./synchronize-root/)
-Learn how to synchronize root using Aspose.PSD for Java. Follow our step‑by‑step guide for efficient Java stream operations.  
-### [Thêm Hiệu ứng tại Thời gian Chạy với Aspose.PSD for Java](./add-effects-runtime/)
-Explore the seamless integration of Aspose.PSD for Java to dynamically add captivating effects to images. Elevate your Java development with this intuitive tutorial.  
-### [Điều chỉnh Độ sáng của Ảnh với Aspose.PSD for Java](./adjust-brightness/)
-Enhance image brightness in Java with Aspose.PSD. Step‑by‑step guide to adjust image brightness programmatically.  
-### [Điều chỉnh Độ tương phản của Ảnh với Aspose.PSD for Java](./adjust-contrast/)
-Explore the world of image contrast adjustment in Java with Aspose.PSD. Follow our step‑by‑step guide for seamless image manipulation.  
-### [Điều chỉnh Gamma của Ảnh với Aspose.PSD for Java](./adjust-gamma/)
-Learn to adjust image gamma effortlessly using Aspose.PSD for Java. Follow our step‑by‑step guide for optimal results.  
-### [Làm mờ Ảnh bằng Aspose.PSD for Java](./blur-image/)
+### [Grayscale an Image using Aspose.PSD for Java](./grayscale-image/)
+Khám phá cách chuyển ảnh sang Đen trắng bằng Aspose.PSD for Java với hướng dẫn từng bước.  
+### [Loading Images from Stream with Aspose.PSD for Java](./loading-images-from-stream/)
+Học cách tải ảnh PSD một cách liền mạch trong Java bằng Aspose.PSD. Theo dõi hướng dẫn từng bước để xử lý ảnh hiệu quả.  
+### [Convert PSD to Raster Image Formats with Aspose.PSD for Java](./convert-psd-to-raster-formats/)
+Chuyển đổi dễ dàng các tệp PSD sang ảnh raster bằng Aspose.PSD for Java. Khám phá hướng dẫn từng bước, các tùy chọn xuất đa dạng và tích hợp liền mạch.  
+### [Render Text with Different Colors in Text Layer using Aspose.PSD for Java](./render-text-different-colors/)
+Học cách render văn bản với các màu khác nhau trong lớp văn bản PSD bằng Aspose.PSD for Java. Thực hiện theo hướng dẫn từng bước để có kết quả liền mạch.  
+### [Save Images using Worker Threads with Aspose.PSD for Java](./save-images-worker-threads/)
+Khám phá xử lý ảnh đa luồng trong Java với Aspose.PSD. Học cách lưu ảnh một cách hiệu quả bằng worker threads.  
+### [Save Images to Disk with Aspose.PSD for Java](./save-images-to-disk/)
+Lưu ảnh một cách dễ dàng vào đĩa bằng Aspose.PSD for Java. Thư viện Java mạnh mẽ cho việc thao tác tệp PSD.  
+### [Save Images to Stream with Aspose.PSD for Java](./save-images-to-stream/)
+Khám phá cách lưu ảnh PSD vào stream bằng Aspose.PSD for Java. Thực hiện theo hướng dẫn từng bước để xử lý ảnh hiệu quả.  
+### [Settings for Replacing Missing Fonts in Aspose.PSD for Java](./settings-replacing-missing-fonts/)
+Khám phá hướng dẫn toàn diện về việc thay thế phông chữ bị thiếu trong Aspose.PSD for Java. Nâng cao thiết kế ảnh của bạn với quản lý phông chữ liền mạch.  
+### [Support for Interrupt Monitor in Aspose.PSD for Java](./support-interrupt-monitor/)
+Mở khóa kiểm soát trong xử lý ảnh với Aspose.PSD for Java. Học cách ngắt quy trình để linh hoạt trong quy trình làm việc.  
+### [Synchronize Root using Aspose.PSD for Java](./synchronize-root/)
+Học cách đồng bộ root bằng Aspose.PSD for Java. Thực hiện theo hướng dẫn từng bước để các thao tác stream Java hiệu quả.  
+### [Add Effects at Runtime with Aspose.PSD for Java](./add-effects-runtime/)
+Khám phá việc tích hợp liền mạch Aspose.PSD for Java để động thêm các hiệu ứng hấp dẫn vào ảnh. Nâng cao phát triển Java của bạn với hướng dẫn trực quan này.  
+### [Adjust Brightness of an Image with Aspose.PSD for Java](./adjust-brightness/)
+Tăng cường độ sáng của ảnh trong Java với Aspose.PSD. Hướng dẫn từng bước để điều chỉnh độ sáng ảnh một cách lập trình.  
+### [Adjust Contrast of an Image with Aspose.PSD for Java](./adjust-contrast/)
+Khám phá thế giới điều chỉnh độ tương phản ảnh trong Java với Aspose.PSD. Thực hiện theo hướng dẫn từng bước để thao tác ảnh liền mạch.  
+### [Adjust Gamma of an Image with Aspose.PSD for Java](./adjust-gamma/)
+Học cách điều chỉnh gamma ảnh một cách dễ dàng bằng Aspose.PSD for Java. Thực hiện theo hướng dẫn từng bước để đạt kết quả tối ưu.  
+### [Blur an Image using Aspose.PSD for Java](./blur-image/)
+Học cách làm mờ ảnh trong Java với Aspose.PSD. Thực hiện theo hướng dẫn từng bước để có kết quả chuyên nghiệp.
 
 ## Frequently Asked Questions
 
-**Q: Tôi có thể sử dụng hướng dẫn grayscale image Java trong dự án thương mại không?**  
-**A:** Có, một khi bạn có giấy phép Aspose.PSD for Java hợp lệ, bạn có thể sử dụng mã trong bất kỳ ứng dụng thương mại nào.
+**Q: Can I use the grayscale image Java tutorial in a commercial project?**  
+A: Có, một khi bạn có giấy phép Aspose.PSD for Java hợp lệ, bạn có thể sử dụng mã trong bất kỳ ứng dụng thương mại nào.
 
-**Q: Tôi có cần cài đặt các thư viện gốc bổ sung cho xử lý ảnh không?**  
-**A:** Không, Aspose.PSD là một thư viện Java thuần và không yêu cầu các phụ thuộc gốc bên ngoài.
+**Q: Do I need to install additional native libraries for image processing?**  
+A: Không, Aspose.PSD là thư viện Java thuần và không yêu cầu phụ thuộc native bên ngoài.
 
-**Q: Làm thế nào tôi có thể kết hợp nhiều thao tác, như chuyển sang đen trắng rồi sau đó làm mờ?**  
-**A:** Thực hiện chuyển đổi sang đen trắng trước, sau đó gọi phương thức blur trên cùng một đối tượng ảnh trước khi lưu.
+**Q: How do I combine multiple operations, like grayscale followed by blur?**  
+A: Thực hiện chuyển đổi sang đen trắng trước, sau đó gọi phương thức blur trên cùng một đối tượng ảnh trước khi lưu.
 
-**Q: Có giới hạn nào về kích thước ảnh mà tôi có thể xử lý không?**  
-**A:** Thư viện có thể xử lý các tệp PSD lớn, nhưng bạn nên đảm bảo đủ bộ nhớ heap (ví dụ, sử dụng `-Xmx2g` cho các tệp rất lớn).
+**Q: Is there a limit to the image size I can process?**  
+A: Thư viện có thể xử lý các tệp PSD lớn, nhưng bạn nên đảm bảo đủ bộ nhớ heap (ví dụ, sử dụng `-Xmx2g` cho các tệp rất lớn).
 
-**Q: Tôi có thể tìm phiên bản mới nhất của Aspose.PSD for Java ở đâu?**  
-**A:** Truy cập trang tải xuống chính thức của Aspose hoặc sử dụng Maven Central để lấy artifact mới nhất.
+**Q: Where can I find the latest version of Aspose.PSD for Java?**  
+A: Truy cập trang tải xuống chính thức của Aspose hoặc sử dụng Maven Central để lấy artifact mới nhất.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-19  
-**Kiểm tra với:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Tác giả:** Aspose
+**Last Updated:** 2026-02-27  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
