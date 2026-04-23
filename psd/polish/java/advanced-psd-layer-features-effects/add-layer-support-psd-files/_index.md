@@ -1,5 +1,5 @@
 ---
-date: 2025-12-10
+date: 2026-02-17
 description: Dowiedz się, jak wyodrębniać warstwy PSD i konwertować warstwy PSD na
   PNG przy użyciu Aspose.PSD dla Javy. Idealne dla programistów potrzebujących solidnej
   manipulacji grafiką.
@@ -19,36 +19,37 @@ weight: 13
 # Wyodrębnij warstwy PSD i dodaj obsługę warstw dla plików PSD przy użyciu Aspose.PSD Java
 
 ## Introduction
-Praca z plikami Photoshop Document (PSD) to codzienna rzeczywistość zarówno dla grafików, jak i programistów. Jednym z najczęstszych zadań jest **wyodrębnienie warstw PSD**, aby można je było edytować, ponownie wykorzystać lub przekonwertować na inne formaty, takie jak PNG. W aplikacjach Java Aspose.PSD upraszcza ten proces i czyni go przyjaznym dla kodu. W tym samouczku przeprowadzimy Cię krok po kroku przez wszystkie niezbędne czynności, aby wyodrębnić warstwy PSD, włączyć obsługę warstw i **przekonwertować warstwy PSD na PNG** — wszystko z jasnymi wyjaśnieniami i praktycznymi wskazówkami.
+Praca z plikami Photoshop Document (PSD) to codzienna rzeczywistość zarówno dla grafików, jak i programistów. Jednym z najczęstszych zadań jest **wyodrębnienie warstw PSD**, aby można je było edytować, ponownie wykorzystać lub przekonwertować na inne formaty, takie jak PNG. W aplikacjach Java biblioteka Aspose.PSD upraszcza ten proces i jest przyjazna dla kodu. W tym samouczku przeprowadzimy Cię krok po kroku przez wszystkie niezbędne czynności, aby wyodrębnić warstwy PSD, włączyć obsługę warstw oraz **konwertować warstwy PSD na PNG** — wszystko z jasnymi wyjaśnieniami i praktycznymi wskazówkami.
 
 ## Quick Answers
-- **Co oznacza „wyodrębnienie warstw PSD”?** Oznacza to wczytanie pliku PSD i uzyskanie dostępu do każdej pojedynczej warstwy w celu manipulacji lub eksportu.  
+- **Co oznacza „wyodrębnienie warstw PSD”?** Oznacza to załadowanie pliku PSD i dostęp do każdej poszczególnej warstwy w celu manipulacji lub eksportu.  
 - **Która biblioteka obsługuje to w Javie?** Aspose.PSD for Java zapewnia pełną obsługę przetwarzania PSD bez potrzeby posiadania Photoshopa.  
-- **Czy mogę przekonwertować warstwy PSD na PNG jednocześnie?** Tak — wczytując plik z odpowiednimi opcjami i zapisując go z opcjami PNG, które zachowują przezroczystość.  
-- **Czy potrzebna jest licencja do użytku produkcyjnego?** Licencja komercyjna jest wymagana w środowisku produkcyjnym; dostępna jest darmowa wersja próbna do oceny.  
-- **Jakiej wersji Javy wymaga tutorial?** JDK 8 lub wyższy (w przykładzie użyto JDK 11).
+- **Czy mogę konwertować warstwy PSD na PNG jednocześnie?** Tak — wystarczy załadować plik z odpowiednimi opcjami i zapisać go przy użyciu opcji PNG, które zachowują przezroczystość.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Do użytku produkcyjnego wymagana jest licencja komercyjna; dostępna jest darmowa wersja próbna do oceny.  
+- **Jakiej wersji Javy potrzebuję?** JDK 8 lub wyższy (w samouczku użyto JDK 11 jako przykładu).
 
-## What is “extract PSD layers”?
-Wyodrębnianie warstw PSD odnosi się do odczytania wewnętrznej struktury pliku PSD i pobrania każdej warstwy jako niezależnego obiektu obrazu. Umożliwia to edycję, ukrywanie, zmianę kolejności lub eksport warstw indywidualnie — dokładnie to, co projektanci robią w Photoshopie, ale programistycznie.
+## How to extract PSD layers using Aspose.PSD for Java
+Poniżej znajdziesz przewodnik krok po kroku, który obejmuje wszystko — od konfiguracji środowiska po zapisanie ostatecznego pliku PNG. Postępuj zgodnie z kolejnymi numerowanymi krokami, a w kilka minut będziesz mieć działające rozwiązanie.
 
 ## Why extract PSD layers and convert them to PNG?
-- **Ponowne wykorzystanie zasobów:** Pobieraj ikony, przyciski lub elementy UI z głównego pliku PSD bez ręcznego eksportu.  
-- **Automatyzacja:** Generuj miniatury lub obrazy gotowe do internetu w locie.  
-- **Zachowanie przezroczystości:** PNG zachowuje kanały alfa, co czyni go idealnym do grafiki internetowej.  
+- **Ponowne wykorzystanie zasobów:** Pobieraj ikony, przyciski lub elementy UI z głównego pliku PSD bez ręcznego eksportowania.  
+- **Automatyzacja:** Generuj miniaturki lub obrazy gotowe do użycia w sieci „w locie”.  
+- **Zachowanie przezroczystości:** PNG zachowuje kanały alfa, co czyni go idealnym dla grafiki internetowej.  
+- **Cross‑platform:** Nie ma potrzeby instalowania Photoshopa na serwerze; Aspose.PSD działa wszędzie tam, gdzie działa Java.
 
 ## Prerequisites
-Zanim zanurkujemy, upewnij się, że masz następujące elementy:
+Zanim przejdziemy dalej, upewnij się, że masz następujące elementy:
 
-1. **Java Development Environment** – zainstalowane JDK. Możesz pobrać je ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+1. **Java Development Environment** – zainstalowane JDK. Możesz je pobrać ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
 2. **Aspose.PSD for Java** – pobierz najnowszą bibliotekę ze strony oficjalnej [tutaj](https://releases.aspose.com/psd/java/).  
-3. **Podstawowa znajomość Javy** – znajomość kompilacji i uruchamiania programów Java.  
+3. **Podstawowa znajomość Javy** – umiejętność kompilacji i uruchamiania programów Java.  
 4. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor, którego używasz.  
-5. **Plik PSD** – użyj dowolnego pliku PSD, który masz, lub pobierz przykładowy plik PSD do testów.
+5. **Plik PSD** – użyj dowolnego pliku PSD, który posiadasz, lub pobierz przykładowy plik PSD do testów.
 
-Gdy będziesz mieć wszystko gotowe, możesz rozpocząć wyodrębnianie warstw PSD.
+Gdy już wszystko będzie gotowe, możesz przystąpić do wyodrębniania warstw PSD.
 
 ## Import Packages
-First, import the classes we’ll need from the Aspose.PSD library.
+Najpierw zaimportuj klasy, których będziemy potrzebować z biblioteki Aspose.PSD.
 
 ```java
 import com.aspose.psd.Image;
@@ -59,7 +60,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 ```
 
 ## Step 1: Define Your Directories
-Set up the paths for the source PSD and the output PNG. Adjust the `dataDir` to point to the folder where your files reside.
+Ustaw ścieżki do źródłowego pliku PSD oraz wyjściowego pliku PNG. Dostosuj zmienną `dataDir`, aby wskazywała folder, w którym znajdują się Twoje pliki.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,12 +68,12 @@ String sourceFileName = dataDir + "layers.psd";
 String output = dataDir + "layers.png";
 ```
 
-- `dataDir` – Zamień `"Your Document Directory"` na rzeczywistą ścieżkę do swojego folderu.  
-- `sourceFileName` – Pełna ścieżka do pliku PSD, który chcesz przetworzyć.  
-- `output` – Ścieżka docelowa dla pliku PNG, który będzie zawierał wyodrębnione warstwy.
+- `dataDir` – zamień `"Your Document Directory"` na rzeczywistą ścieżkę do swojego folderu.  
+- `sourceFileName` – pełna ścieżka do pliku PSD, który chcesz przetworzyć.  
+- `output` – ścieżka docelowa dla pliku PNG, który będzie zawierał wyodrębnione warstwy.
 
 ## Step 2: Set Up the Load Options
-Configuring `PsdLoadOptions` ensures that all layer effects and resources are loaded correctly, which is essential when you **extract PSD layers**.
+Konfiguracja `PsdLoadOptions` zapewnia, że wszystkie efekty warstw i zasoby zostaną poprawnie załadowane, co jest niezbędne przy **wyodrębnianiu warstw PSD**.
 
 ```java
 PsdLoadOptions imageLoadOptions = new PsdLoadOptions();
@@ -80,20 +81,20 @@ imageLoadOptions.setLoadEffectsResource(true);
 imageLoadOptions.setUseDiskForLoadEffectsResource(true);
 ```
 
-- `setLoadEffectsResource(true)` – Ładuje dodatkowe efekty (np. cienie) dołączone do warstw.  
-- `setUseDiskForLoadEffectsResource(true)` – Przenosi ciężkie zasoby na dysk, zmniejszając obciążenie pamięci.
+- `setLoadEffectsResource(true)` – ładuje dodatkowe **efekty** (np. cienie) przypisane do warstw.  
+- `setUseDiskForLoadEffectsResource(true)` – przenosi ciężkie zasoby na dysk, zmniejszając obciążenie pamięci.
 
 ## Step 3: Load the PSD File
-Now we load the PSD into a `PsdImage` object using the options defined above.
+Teraz ładujemy plik PSD do obiektu `PsdImage` przy użyciu wcześniej zdefiniowanych opcji.
 
 ```java
 PsdImage image = (PsdImage) Image.load(sourceFileName, imageLoadOptions);
 ```
 
-At this point, `image` contains all layers, masks, and effects, ready for extraction.
+W tym momencie `image` zawiera wszystkie warstwy, maski i efekty, gotowe do wyodrębnienia.
 
 ## Step 4: Set Up the Save Options
-Configure how the PNG will be saved. Using `TruecolorWithAlpha` preserves transparency from the original layers.
+Skonfiguruj sposób zapisu pliku PNG. Użycie `TruecolorWithAlpha` zachowuje przezroczystość z oryginalnych warstw.
 
 ```java
 PngOptions saveOptions = new PngOptions();
@@ -101,23 +102,23 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
 ## Step 5: Save the Image (Convert PSD Layers to PNG)
-Export the loaded PSD (with all its layers) to a single PNG file. This step effectively **convert psd layers png** in one operation.
+Wyeksportuj załadowany plik PSD (ze wszystkimi warstwami) do jednego pliku PNG. Ten krok skutecznie **konwertuje warstwy PSD na PNG** w jednej operacji.
 
 ```java
 image.save(output, saveOptions);
 ```
 
-If you need each layer as a separate PNG, you could iterate over `image.getLayers()`—but for many use‑cases a merged PNG is sufficient.
+Jeśli potrzebujesz każdej warstwy jako osobnego pliku PNG, możesz iterować po `image.getLayers()` — ale w wielu przypadkach wystarczy połączony PNG.
 
 ## Step 6: Wrap It Up
-Add a friendly console message so you know the process succeeded.
+Dodaj przyjazny komunikat w konsoli, aby wiedzieć, że proces zakończył się sukcesem.
 
 ```java
 System.out.println("PSD Layers have been successfully converted to PNG!");
 ```
 
 ## Common Issues & Tips
-- **Out‑of‑Memory Errors:** Jeśli przetwarzasz bardzo duże pliki PSD, pozostaw włączone `setUseDiskForLoadEffectsResource(true)`, aby przenieść tymczasowe dane na dysk.  
+- **Out‑of‑Memory Errors:** Jeśli przetwarzasz bardzo duże pliki PSD, pozostaw włączone `setUseDiskForLoadEffectsResource(true)`, aby przenosić tymczasowe dane na dysk.  
 - **Missing Effects:** Upewnij się, że `setLoadEffectsResource(true)` jest ustawione; w przeciwnym razie niektóre efekty warstw mogą zostać pominięte.  
 - **Path Problems:** Używaj `Paths.get(...)` z pakietu `java.nio.file` dla obsługi ścieżek niezależnej od platformy.
 
@@ -139,14 +140,14 @@ A: You can access support in the Aspose forum [here](https://forum.aspose.com/c/
 A: The Aspose.PSD library focuses more on reading and manipulating PSD files rather than converting other formats back to PSD.
 
 **Q: How do I extract each layer as a separate PNG?**  
-A: Iterate over `image.getLayers()`, create a new `Bitmap` for each with its own `PngOptions`. This gives you individual PNG files per layer.
+A: Iterate over `image.getLayers()`, create a new `Bitmap` for each layer, and save it with its own `PngOptions`. This gives you individual PNG files per layer.
 
 ## Conclusion
-You’ve now learned how to **extract PSD layers**, enable full layer support, and **convert PSD layers to PNG** using Aspose.PSD for Java. Whether you’re building an automated asset pipeline or adding graphics capabilities to a desktop app, this approach gives you fine‑grained control over Photoshop files without the need for Photoshop itself. Feel free to explore further—such as applying filters, merging layers programmatically, or exporting each layer individually.
+Teraz wiesz, jak **wyodrębnić warstwy PSD**, włączyć pełną obsługę warstw oraz **konwertować warstwy PSD na PNG** przy użyciu Aspose.PSD for Java. Niezależnie od tego, czy budujesz zautomatyzowany potok zasobów, czy dodajesz możliwości graficzne do aplikacji desktopowej, to podejście daje Ci precyzyjną kontrolę nad plikami Photoshop bez konieczności posiadania samego Photoshopa. Zachęcamy do dalszej eksploracji — np. stosowania filtrów, programowego łączenia warstw lub eksportowania każdej warstwy osobno.
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-17  
 **Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
