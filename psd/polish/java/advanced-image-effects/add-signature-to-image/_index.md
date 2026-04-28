@@ -1,11 +1,18 @@
 ---
-date: 2025-12-02
-description: Dowiedz się, jak narysować obraz na płótnie i nałożyć podpis w Javie
-  przy użyciu Aspose.PSD. Przejdź przez ten krok po kroku samouczek przetwarzania
-  obrazów w Javie i zapisz wynik jako PNG.
-linktitle: Add a Signature to an Image
+date: 2026-04-28
+description: Dowiedz się, jak dodać podpis do obrazu, rysując go na płótnie przy użyciu
+  Aspose.PSD dla Javy. Ten samouczek przetwarzania obrazów w Javie pokazuje, jak zapisać
+  obraz jako PNG i nałożyć grafikę.
+keywords:
+- add signature to image
+- draw image on canvas
+- save image as png
+- java image processing
+- add watermark java
+linktitle: Dodaj podpis do obrazu
 second_title: Aspose.PSD Java API
-title: Rysowanie obrazu na płótnie – Dodaj podpis przy użyciu Aspose.PSD dla Javy
+title: Dodaj podpis do obrazu – rysuj obraz na płótnie przy użyciu Aspose.PSD dla
+  Javy
 url: /pl/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
@@ -14,30 +21,30 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rysowanie obrazu na płótnie – Dodawanie podpisu przy użyciu Aspose.PSD dla Javy
+# Dodaj podpis do obrazu – Rysowanie obrazu na płótnie przy użyciu Aspose.PSD dla Javy
 
 ## Wprowadzenie
 
-Dodanie odręcznego lub cyfrowego podpisu do obrazu jest częstym wymogiem w przypadku umów, faktur lub dowolnego dokumentu wymagającego potwierdzenia autentyczności. Dzięki **Aspose.PSD for Java** możesz **draw image on canvas** i traktować podpis jako kolejny warstwowy overlay. W tym **java image processing tutorial** przeprowadzimy Cię przez cały proces — od wczytania bazowego obrazu i pliku podpisu, przez inicjalizację grafiki, rysowanie nakładki, aż po **save image png java**‑style.
+Dodanie odręcznego lub cyfrowego **add signature to image** jest powszechnym wymaganiem w przypadku umów, faktur lub dowolnego dokumentu, który wymaga potwierdzenia autentyczności. W tym samouczku zobaczysz, jak Aspose.PSD dla Javy umożliwia **draw image on canvas** i traktuje podpis jako kolejny warstwowy overlay. Przejdziemy przez ładowanie obrazu bazowego, ładowanie pliku podpisu, inicjalizację kontekstu graficznego, rysowanie nakładki oraz ostatecznie **save image as PNG**. Na koniec będziesz mieć wielokrotnego użytku wzorzec dla dowolnego scenariusza **java image processing**, niezależnie od tego, czy jest to podpis, znak wodny czy logo.
 
 ## Szybkie odpowiedzi
-- **What does “draw image on canvas” mean?** Odnosi się do renderowania jednego obrazu na drugim przy użyciu klasy `Graphics`.  
-- **How to add a signature in Java?** Wczytaj plik podpisu jako `Image` i użyj `Graphics.drawImage`.  
-- **Which Aspose.PSD version is required?** Dowolna aktualna wersja 24.x; kod działa z najnowszą biblioteką.  
-- **Can I overlay multiple images?** Tak — powtórz wywołanie `drawImage` z różnymi źródłami.  
-- **Do I need a license?** Wersja próbna działa w fazie rozwoju; w produkcji wymagana jest licencja komercyjna.
+- **Co oznacza „draw image on canvas”?** Odwołuje się do renderowania jednego obrazu na drugim przy użyciu klasy `Graphics`.  
+- **Jak dodać podpis w Javie?** Wczytaj plik podpisu jako `Image` i użyj `Graphics.drawImage`.  
+- **Która wersja Aspose.PSD jest wymagana?** Dowolne niedawne wydanie 24.x; kod działa z najnowszą biblioteką.  
+- **Czy mogę nakładać wiele obrazów?** Tak — powtórz wywołanie `drawImage` z różnymi źródłami.  
+- **Czy potrzebna jest licencja?** Wersja próbna działa w fazie rozwoju; licencja komercyjna jest wymagana w produkcji.
 
-## Co oznacza „draw image on canvas”?
-W terminologii Aspose.PSD rysowanie obrazu na płótnie oznacza malowanie jednego obiektu `Image` na drugim przy użyciu kontekstu `Graphics`. Operacja ta jest podstawą technik **overlay images java**, takich jak dodawanie znaków wodnych, logotypów czy podpisów.
+## Co to jest „Draw Image on Canvas”?
+W terminologii Aspose.PSD, rysowanie obrazu na płótnie oznacza malowanie jednego obiektu `Image` na innym przy użyciu kontekstu `Graphics`. Ta operacja jest podstawą technik **overlay images java**, takich jak dodawanie znaków wodnych, logo czy podpisów.
 
 ## Dlaczego używać Aspose.PSD do nakładania podpisu?
-- **Full PSD support** – działa z warstwami, maskami i przezroczystością.  
-- **No native OS dependencies** – czysta Java, idealna do przetwarzania po stronie serwera.  
-- **High‑performance rendering** – zoptymalizowane pod kątem dużych plików i złożonych kompozycji.  
+- **Pełne wsparcie PSD** – działa z warstwami, maskami i przezroczystością.  
+- **Brak natywnych zależności systemowych** – czysta Java, idealna do przetwarzania po stronie serwera.  
+- **Wysokowydajne renderowanie** – zoptymalizowane pod kątem dużych plików i złożonych kompozycji.  
 
-## Prerequisites
+## Wymagania wstępne
 - Java Development Kit (JDK) 8 lub nowszy.  
-- Aspose.PSD for Java JAR dodany do ścieżki klas projektu.  
+- Plik JAR Aspose.PSD dla Javy dodany do classpath projektu.  
 - Dwa pliki graficzne: obraz bazowy (np. `layers.psd`) oraz grafika podpisu (`sample.psd`).  
 
 ## Importowanie pakietów
@@ -51,7 +58,7 @@ import com.aspose.psd.Point;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Krok 1: Załaduj obrazy podstawowy i dodatkowy
+## Krok 1: Wczytaj obrazy podstawowy i dodatkowy
 
 ```java
 //ExStart:LoadImages
@@ -65,7 +72,7 @@ Image signature = Image.load(dataDir + "sample.psd");
 //ExEnd:LoadImages
 ```
 
-> **Pro tip:** Trzymaj oba obrazy w tym samym trybie kolorów (RGB), aby uniknąć nieoczekiwanych przesunięć kolorów podczas rysowania.
+> **Wskazówka:** Trzymaj oba obrazy w tym samym trybie kolorów (RGB), aby uniknąć nieoczekiwanych zmian kolorów podczas rysowania.
 
 ## Krok 2: Inicjalizacja grafiki (initialize graphics java)
 
@@ -75,7 +82,7 @@ Graphics graphics = new Graphics(canvas);
 //ExEnd:InitializeGraphics
 ```
 
-Obiekt `Graphics` działa jak pędzel, który pozwala Ci **draw image on canvas**. Inicjalizacja go z głównym `Image` wiąże wszystkie kolejne polecenia rysowania z tym płótnem.
+Obiekt `Graphics` działa jak pędzel, który pozwala **draw image on canvas**. Inicjalizacja go z głównym `Image` wiąże wszystkie kolejne polecenia rysowania z tym płótnem.
 
 ## Krok 3: Dodaj podpis do obrazu (how to add signature)
 
@@ -92,55 +99,63 @@ canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 //ExEnd:AddSignatureToImage
 ```
 
-W tym fragmencie **overlay images java** poprzez umieszczenie podpisu w prawym dolnym rogu. Dostosuj wartości `Point`, jeśli potrzebujesz innego położenia.
+W tym fragmencie **overlay images java** umieszczamy podpis w prawym dolnym rogu. Dostosuj wartości `Point`, jeśli potrzebujesz innego położenia.
 
 ## Typowe problemy i rozwiązania
+
 | Objaw | Przyczyna | Rozwiązanie |
 |---------|-------|-----|
-| Podpis jest zniekształcony | Niezgodny DPI między płótnem a podpisem | Użyj `signature.resize` przed rysowaniem lub zapewnij, że oba pliki mają ten sam DPI. |
-| Plik wyjściowy jest ogromny | Zapisywanie bez kompresji | Przekaż skonfigurowany `PngOptions` z `CompressionLevel` ustawionym na wyższą wartość. |
-| Nic nie jest rysowane | Grafika nie została zwolniona | Wywołaj `graphics.dispose()` po rysowaniu (opcjonalnie, ale dobra praktyka). |
+| Podpis jest zniekształcony | Niezgodne DPI między płótnem a podpisem | Użyj `signature.resize` przed rysowaniem lub upewnij się, że oba pliki mają to samo DPI. |
+| Plik wyjściowy jest bardzo duży | Zapisywanie bez kompresji | Przekaż skonfigurowany `PngOptions` z `CompressionLevel` ustawionym na wyższą wartość. |
+| Nic nie jest rysowane | Obiekt Graphics nie został zwolniony | Wywołaj `graphics.dispose()` po rysowaniu (opcjonalnie, ale dobra praktyka). |
 
-## Zakończenie
+## Dodatkowe wskazówki do zastosowań w rzeczywistym świecie
 
-Postępując zgodnie z tymi krokami, nauczyłeś się **how to draw image on canvas** i płynnie **add a signature** przy użyciu Aspose.PSD for Java. Technika ta może być rozszerzona na znaki wodne, logotypy lub dowolne nakładki graficzne, dając Twoim aplikacjom Java potężne możliwości **java image processing**.
+- **Wiele podpisów:** Wywołuj `graphics.drawImage` wielokrotnie z różnymi obiektami `Image` i współrzędnymi.  
+- **Kontrola przezroczystości:** Użyj `graphics.setOpacity(float opacity)` przed rysowaniem, aby uczynić podpis półprzezroczystym.  
+- **Obracanie podpisu:** Zastosuj `graphics.rotateTransform(angle)`, jeśli potrzebny jest pochyły podpis.  
+- **Zapisywanie w innych formatach:** Zastąp `PngOptions` przez `JpegOptions` lub `BmpOptions`, aby uzyskać JPEG, BMP itp.  
 
-## FAQ
+## Najczęściej zadawane pytania
 
-### Q1: Czy mogę dodać wiele podpisów do obrazu?
+### P1: Czy mogę dodać wiele podpisów do obrazu?
 
 A1: Tak, możesz dodać wiele podpisów, powtarzając kroki z różnymi obrazami podpisów.
 
-### Q2: Czy Aspose.PSD obsługuje inne formaty obrazów?
+### P2: Czy Aspose.PSD obsługuje inne formaty obrazów?
 
-A2: Tak, Aspose.PSD obsługuje szeroką gamę formatów graficznych, zapewniając elastyczność w przetwarzaniu obrazów.
+A2: Tak, Aspose.PSD obsługuje szeroką gamę formatów obrazów, zapewniając elastyczność w przetwarzaniu obrazów.
 
-### Q3: Czy wymagana jest licencja do używania Aspose.PSD for Java?
+### P3: Czy wymagana jest licencja do używania Aspose.PSD dla Javy?
 
-A3: Tak, potrzebna jest ważna licencja do korzystania z Aspose.PSD. Odwiedź [Purchase Aspose.PSD](https://purchase.aspose.com/buy) po szczegóły licencjonowania.
+A3: Tak, potrzebujesz ważnej licencji do używania Aspose.PSD. Odwiedź [Purchase Aspose.PSD](https://purchase.aspose.com/buy) po szczegóły licencjonowania.
 
-### Q4: Jak mogę uzyskać wsparcie dla Aspose.PSD?
+### P4: Jak mogę uzyskać wsparcie dla Aspose.PSD?
 
 A4: Odwiedź [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) po wsparcie społeczności i dyskusje.
 
-### Q5: Czy mogę wypróbować Aspose.PSD for Java przed zakupem?
+### P5: Czy mogę wypróbować Aspose.PSD dla Javy przed zakupem?
 
-A5: Tak, możesz pobrać [free trial](https://releases.aspose.com/) i zapoznać się z funkcjami przed podjęciem decyzji o zakupie.
+A5: Tak, możesz uzyskać [bezpłatną wersję próbną](https://releases.aspose.com/), aby zapoznać się z funkcjami przed zakupem.
 
-## Dodatkowe często zadawane pytania
+**Dodatkowe FAQ**
 
-**Q: Jak zmienić krycie (opacity) podpisu?**  
-A: Użyj `graphics.setOpacity(float opacity)` przed wywołaniem `drawImage`. Wartości mieszczą się w przedziale 0.0 (przezroczysty) do 1.0 (pełne krycie).
+**P: Jak zmienić przezroczystość podpisu?**  
+A: Użyj `graphics.setOpacity(float opacity)` przed wywołaniem `drawImage`. Wartości mieszczą się w przedziale od 0.0 (przezroczysty) do 1.0 (nieprzezroczysty).
 
-**Q: Czy można obrócić podpis?**  
-A: Tak — zastosuj macierz transformacji za pomocą `graphics.rotateTransform(angle)` przed rysowaniem.
+**P: Czy można obrócić podpis?**  
+A: Tak — zastosuj macierz przekształcenia za pomocą `graphics.rotateTransform(angle)` przed rysowaniem.
 
-**Q: Czy mogę narysować podpis na JPEG zamiast PNG?**  
-A: Oczywiście. Zastąp `PngOptions` przez `JpegOptions` i określ pożądany poziom jakości.
+**P: Czy mogę narysować podpis na JPEG zamiast PNG?**  
+A: Oczywiście. Zastąp `PngOptions` przez `JpegOptions` i określ żądany poziom jakości.
+
+## Zakończenie
+
+Postępując zgodnie z tymi krokami, nauczyłeś się **how to add signature to image** poprzez **drawing an image on canvas** z Aspose.PSD dla Javy. Ten sam wzorzec można rozszerzyć na znaki wodne, logo lub dowolne grafiki nakładkowe, dając Twoim aplikacjom Java potężne możliwości **java image processing**.
 
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-04-28  
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 
