@@ -1,10 +1,11 @@
 ---
-date: 2025-12-18
-description: Java ile PSD dosyalarında özel ham veri yükleyicisini nasıl kullanacağınızı
-  öğrenin! Bu adım adım rehber, kurulumdan kaynak temizliğine kadar her şeyi kapsar.
+date: 2026-02-22
+description: Aspose.PSD for Java kullanarak PSD dosyalarında özel ham veri yükleme
+  için IPartialRawDataLoader arayüzünün nasıl uygulanacağını öğrenin. Kurulum ve temizlik
+  adımlarıyla adım adım rehber.
 linktitle: Use Custom Raw Data Loader in PSD Files - Java
 second_title: Aspose.PSD Java API
-title: PSD Dosyalarında Özel Raw Veri Yükleyicisini Kullan - Java
+title: IPartialRawDataLoader'ı PSD Dosyaları için Uygula - Java
 url: /tr/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 weight: 29
 ---
@@ -13,48 +14,51 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD Dosyalarında Özel Raw Veri Yükleyicisi Kullanma - Java
+# PSD Dosyalarında Özel Raw Veri Yükleyicisini Kullanma - Java
 
 ## Giriş
-Java’da PSD dosyalarıyla çalışmak, özellikle raw veri işleme söz konusu olduğunda göz korkutucu görünebilir. Endişelenmeyin! Aspose.PSD for Java’yı kullanarak PSD dosyalarından **özel raw veri yükleyicisi** ile raw piksel verisini kolayca manipüle edebilir ve çıkarabilirsiniz. Bu kılavuz, proje kurulumundan kaynakların temizlenmesine kadar tüm süreci adım adım anlatacak, böylece PSD katmanlarını güvenle işleyebileceksiniz.
+Java'da PSD dosyalarıyla çalışmak özellikle raw veri işleme konusunda göz korkutucu görünebilir. Endişelenmeyin! Aspose.PSD for Java kullanarak PSD dosyalarından raw piksel verilerini kolayca manipüle edebilir ve **özel raw veri yükleyicisi** ile çıkarabilirsiniz. Bu öğreticide **IPartialRawDataLoader arayüzünü uygulamayı** öğrenecek ve piksel akışını tam istediğiniz gibi kontrol edebileceksiniz. Bu kılavuz, proje kurulumundan kaynakların temizlenmesine kadar tüm süreci adım adım gösterecek, böylece PSD katmanlarını güvenle işlemeye başlayabileceksiniz.
 
 ## Hızlı Yanıtlar
-- **Özel bir raw veri yükleyicisi ne işe yarar?** PSD dosyası okunurken raw piksel baytlarını yakalamanıza ve işlemenize olanak tanır.  
+- **Özel bir raw veri yükleyicisi ne yapar?** PSD dosyası okunurken raw piksel baytlarını yakalamanıza ve işlemenize olanak tanır.  
 - **Bu özelliği hangi kütüphane sağlar?** Aspose.PSD for Java, `IPartialRawDataLoader` arayüzünü içerir.  
-- **Lisans gerekli mi?** Test için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gerekir.  
-- **Hangi Java sürümü gerekiyor?** Java 8 veya üzeri (JDK 11 önerilir).  
-- **Yükleyiciyi birden fazla dosya için yeniden kullanabilir miyim?** Evet—yükleyicinizi bir kez örnekleyip görüntüler arasında yeniden kullanabilirsiniz.
+- **Lisans gerekir mi?** Test için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Hangi Java sürümü gerekir?** Java 8 veya üzeri (JDK 11 önerilir).  
+- **Yükleyiciyi birden fazla dosya için yeniden kullanabilir miyim?** Evet—yükleyicinizi bir kez örnekleyin ve görüntüler arasında yeniden kullanın.
 
-## Özel raw veri yükleyicisi nedir?
-Bir **custom raw data loader**, `IPartialRawDataLoader` arayüzüne uyan kullanıcı tarafından uygulanmış bir sınıftır. Raw piksel tamponlarını, dikdörtgen koordinatlarını ve isteğe bağlı yükleme seçeneklerini alarak piksel verisinin nasıl okunacağı, dönüştürüleceği veya saklanacağı üzerinde tam kontrol sağlar. Bu, özel görüntü analizi, anlık renk dönüşümü veya tüm görüntüyü belleğe almadan büyük PSD’leri akış halinde işleme gibi senaryolar için özellikle faydalıdır.
+## IPartialRawDataLoader arayüzünü nasıl uygularım
+`IPartialRawDataLoader` arayüzünü uygulamak, raw‑data yükleme hattına bir kanca sağlar. Aşağıda, sözleşmeyi karşılayan ve kendi mantığınızı (örn. günlükleme, dönüşüm, akış) ekleyebileceğiniz bir sınıf oluşturacağız.
 
-## Aspose.PSD ile özel raw veri yükleyicisi neden kullanmalı?
-- **Performans ayarı:** Sadece ihtiyacınız olan bölgeleri işleyerek bellek ayak izini azaltın.  
-- **Özel iş akışları:** Piksel akışı üzerinde doğrudan özel sıkıştırma, şifreleme veya analiz uygulayın.  
-- **Entegrasyon esnekliği:** Mevcut görüntü işleme hatlarına veya üçüncü‑taraf kütüphanelere bağlanın.
+## Özel bir raw veri yükleyicisi nedir?
+**custom raw data loader** bir kullanıcı‑tarafından uygulanan sınıftır ve `IPartialRawDataLoader` arayüzüne uyar. Raw piksel tamponlarını, dikdörtgen koordinatlarını ve isteğe bağlı yükleme seçeneklerini alır, piksel verisinin nasıl okunacağı, dönüştürüleceği veya saklanacağı üzerinde tam kontrol sağlar. Bu, özel görüntü analizi, anlık renk dönüşümü veya tüm görüntüyü belleğe yüklemeden büyük PSD'leri akış halinde işleme gibi senaryolar için özellikle yararlıdır.
+
+## Aspose.PSD ile neden özel bir raw veri yükleyicisi kullanmalısınız?
+- **Performans ayarı:** Sadece ihtiyacınız olan bölgeleri işleyerek bellek kullanımını azaltır.  
+- **Özel iş akışları:** Piksel akışına doğrudan özel sıkıştırma, şifreleme veya analiz uygulayın.  
+- **Entegrasyon esnekliği:** Mevcut görüntü hatlarına veya üçüncü‑taraf işleme kütüphanelerine bağlanın.
 
 ## Önkoşullar
-Eğlenceli bölümlere geçmeden önce, Aspose.PSD for Java ile başlamanız için gereken her şeye sahip olduğunuzdan emin olun. İşte ihtiyacınız olanlar:
+Fun stuff'a dalmadan önce, Aspose.PSD ile Java’da başlamanız için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ihtiyacınız olanlar:
 
-1. **Java Temel Bilgisi** – Java programlamaya aşina olmak şart.  
-2. **Geliştirme Ortamı** – IntelliJ IDEA, Eclipse veya komut satırı derleyicisi olan herhangi bir editör.  
-3. **Aspose.PSD Kütüphanesi** – [site](https://releases.aspose.com/psd/java/) üzerinden Aspose.PSD for Java kütüphanesini indirin. Ücretsiz deneme ya da satın alınmış lisans seçeneklerinden birini seçebilirsiniz.  
+1. **Java Temel Bilgisi** – Java programlamasına aşina olmak gereklidir.  
+2. **Geliştirme Ortamı** – IntelliJ IDEA, Eclipse veya komut satırı derleme aracıyla çalışan herhangi bir editör.  
+3. **Aspose.PSD Kütüphanesi** – Aspose.PSD for Java kütüphanesini [site](https://releases.aspose.com/psd/java/) üzerinden indirin. Ücretsiz deneme sürümü ya da satın alınmış lisans arasından seçim yapabilirsiniz.  
 4. **Java Development Kit (JDK)** – Güncel bir JDK kurulu olduğundan emin olun. [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilir ya da OpenJDK kullanabilirsiniz.  
-5. **PSD Dosyaları Hakkında Bilgi** – Katmanlar ve piksel verisi konusundaki temel anlayış, yükleyiciden en iyi şekilde yararlanmanıza yardımcı olur.
+5. **PSD Dosyaları Bilgisi** – Katmanları ve piksel verilerini anlamak, yükleyiciden en iyi şekilde yararlanmanıza yardımcı olur.
 
-Bu önkoşulları tamamladıktan sonra kodlamaya hazırsınız!
+Bu önkoşulları tamamladıktan sonra kodlamaya başlayabilirsiniz!
 
 ## Paketleri İçe Aktarma
-Aspose.PSD’yi projenizde etkili bir şekilde kullanabilmek için ilgili paketleri içe aktarmanız gerekir. Özel yükleyici örneği için ihtiyacınız olan minimal import aşağıdadır:
+Projede Aspose.PSD'yi etkili bir şekilde kullanabilmek için ilgili paketleri içe aktarmanız gerekir. Özel yükleyici örneği için ihtiyacınız olan minimal import aşağıdadır:
 
 ```java
 import com.aspose.psd.*;
 ```
 
-Bu paketler, PSD dosyalarıyla çalışmak ve **custom raw data loader**’ınızı uygulamak için gereken tüm sınıf ve arayüzleri sağlar.
+Bu paketler, PSD dosyalarıyla çalışmak ve **özel raw veri yükleyiciniz**i uygulamak için gerekli tüm sınıf ve arayüzleri sağlar.
 
 ## Adım 1: RawDataTester Sınıfını Oluşturun
-İlk adım, `IPartialRawDataLoader` arayüzünü uygulayan bir sınıf tanımlamaktır. Bu sınıf, raw piksel verisini işlemek için metodlar içerir.
+İlk adım, `IPartialRawDataLoader` arayüzünü uygulayan bir sınıf tanımlamaktır. Bu sınıf, raw piksel verilerini işlemek için metodlar içerecektir.
 
 ```java
 class RawDataTester implements IPartialRawDataLoader {
@@ -67,36 +71,36 @@ class RawDataTester implements IPartialRawDataLoader {
 }
 ```
 
-`RawDataTester` sınıfı iki `process` aşırı yüklemesine sahiptir. Bu metodları, piksel bilgilerini kaydetmek, özel dönüşümler uygulamak veya veriyi başka bir servise akıtmak için özelleştirebilirsiniz.
+`RawDataTester` sınıfının iki `process` aşırı yüklemesi vardır. Bu metodları piksel bilgilerini günlüğe kaydetmek, özel dönüşümler uygulamak veya veriyi başka bir servise akıtmak için özelleştirebilirsiniz.
 
 ## Adım 2: PSD Dosyası İçin Yolları Ayarlayın
-Sonra, PSD dosyanızın bulunduğu kaynak dizini belirtin.
+Sonra, PSD dosyanızın bulunduğu kaynak dizinini belirtin.
 
 ```java
 String sourceDir = "Your Source Directory";
 String inFilePath = sourceDir + "CmykWithAlpha.psd";
 ```
 
-`"Your Source Directory"` ifadesini, PSD dosyanıza giden gerçek yol ile değiştirin. Dosya adının, yüklemek istediğiniz PSD ile aynı olduğundan emin olun.
+`"Your Source Directory"` ifadesini PSD dosyanıza giden gerçek yol ile değiştirin. Dosya adının yüklemek istediğiniz PSD ile eşleştiğinden emin olun.
 
 ## Adım 3: PSD Dosyasını Yükleyin
-Şimdi, `Image.load` metodunu kullanarak PSD dosyasını yükleyelim. Bu, görüntünün bellek içi bir temsilini elde etmemizi sağlar.
+Şimdi, `Image.load` metodunu kullanarak PSD dosyasını yükleyelim. Bu, görüntünün bellekte bir temsilini elde etmemizi sağlar.
 
 ```java
 RasterImage image = (RasterImage)Image.load(inFilePath);
 ```
 
-`RasterImage` tipine cast etmek önemlidir; çünkü daha sonra kullanacağımız `loadRawData` metodunu bu sınıf sunar.
+`RasterImage` tipine dönüştürme, daha sonra kullanacağımız `loadRawData` metodunu ortaya çıkardığı için gereklidir.
 
 ## Adım 4: RawDataSettings'i Başlatın
-Görüntü yüklendikten sonra, `RawDataSettings` nesnesini başlatabilirsiniz. Bu ayarlar, raw piksel verisinin nasıl ele alınacağını belirler.
+Görüntü yüklendikten sonra `RawDataSettings`i başlatabilirsiniz. Bu ayarlar, raw piksel verisinin nasıl işleneceğini belirler.
 
 ```java
 try {
     RawDataSettings rawDataSettings = image.getRawDataSettings();
 ```
 
-Bu adım, PSD dosyasındaki raw veriyle ilişkili ayarları çıkararak yükleme davranışını özelleştirmenize imkan tanır.
+Bu adım, PSD dosyasındaki raw veriyle ilişkili ayarları çıkarır ve yükleme davranışını özelleştirmenize olanak tanır.
 
 ## Adım 5: Özel Yükleyici ile Raw Veriyi Yükleyin
 Özel yükleyicinizi (`RawDataTester`) örnekleyin ve görüntüden raw veriyi yüklemek için kullanın.
@@ -106,10 +110,10 @@ Bu adım, PSD dosyasındaki raw veriyle ilişkili ayarları çıkararak yükleme
     image.loadRawData(image.getBounds(), rawDataSettings, loader);
 ```
 
-`loadRawData` çağrısı, piksel verisini `RawDataTester` uygulamanız üzerinden akıtarak her bayt bloğu üzerinde tam kontrol sağlar.
+`loadRawData` çağrısı, piksel verisini `RawDataTester` uygulaması üzerinden akıtarak her bayt bloğu üzerinde tam kontrol sağlar.
 
 ## Adım 6: Kaynakları Temizleyin
-Raw veri başarıyla yüklendikten sonra, bellek sızıntılarını önlemek için kullanılan tüm kaynakları serbest bırakmak kritiktir.
+Raw veriyi başarıyla yükledikten sonra, bellek sızıntılarını önlemek için kullanılan tüm kaynakları serbest bırakmak çok önemlidir.
 
 ```java
 } finally {
@@ -117,40 +121,35 @@ Raw veri başarıyla yüklendikten sonra, bellek sızıntılarını önlemek iç
 }
 ```
 
-`finally` bloğu, işlem başarılı olsun ya da olmasın, görüntü kaynaklarının doğru şekilde dispose edilmesini garantiler.
+`finally` bloğu, başarı ya da başarısızlık durumuna bakılmaksızın görüntü kaynaklarının doğru şekilde temizlenmesini garanti eder.
 
 ## Yaygın Tuzaklar ve Sorun Giderme
-- **Yanlış yol:** Dosya yolunu iki kez kontrol edin; eksik bir slash ya da yazım hatası `FileNotFoundException` oluşturur.  
-- **Cast hataları:** Yüklenen görüntünün gerçekten bir `RasterImage` olduğundan emin olun; aksi takdirde `ClassCastException` fırlatılır.  
-- **Yükleyici çağrılmıyor:** `RawDataTester` metodlarınızın doğru şekilde geçersiz kılındığını doğrulayın; aksi takdirde varsayılan yükleyici kullanılır.  
-- **Bellek kullanımı:** Çok büyük PSD’leri işlerken, tam sınırları yüklemek yerine yalnızca belirli dikdörtgenleri yüklemeyi düşünün; böylece bellek tüketimini düşük tutarsınız.
-
-## Sonuç
-İşte bu kadar—Aspose.PSD kullanarak Java’da PSD dosyaları için **custom raw data loader**’ı başarıyla oluşturdunuz. Projenizi kurmaktan, bir yükleyici uygulamaya ve piksel verisini işlemeye kadar tüm kritik adımları kapsadık. `RawDataTester` metodlarını, özel görüntü analizi, anlık sıkıştırma veya diğer grafik kütüphaneleriyle entegrasyon gibi ihtiyaçlarınıza göre genişletmekten çekinmeyin.
-
-Aspose.PSD sayesinde, Java uygulamalarınıza güçlü grafik yetenekleri eklerken raw piksel işleme üzerinde tam kontrol sahibi olabilirsiniz.
+- **Yanlış yol:** Dosya yolunu iki kez kontrol edin; eksik bir eğik çizgi ya da yazım hatası `FileNotFoundException` hatasına yol açar.  
+- **Tip dönüşüm hataları:** Yüklenen görüntünün gerçekten bir `RasterImage` olduğundan emin olun; aksi takdirde `ClassCastException` fırlatılır.  
+- **Yükleyici çağrılmadı:** `RawDataTester` metodlarınızın doğru şekilde geçersiz kılındığını doğrulayın; aksi takdirde varsayılan yükleyici kullanılacaktır.  
+- **Bellek kullanımı:** Çok büyük PSD'leri işlerken, bellek tüketimini düşük tutmak için tüm sınırlar yerine sadece belirli dikdörtgenleri yüklemeyi düşünün.
 
 ## Sıkça Sorulan Sorular
-### Aspose.PSD for Java nedir?  
-Aspose.PSD for Java, geliştiricilerin PSD dosyalarını programatik olarak manipüle etmelerini sağlayan bir kütüphanedir; okuma, yazma ve katman düzenleme gibi işlemleri destekler.
+### Aspose.PSD for Java nedir?
+Aspose.PSD for Java, geliştiricilerin PSD dosyalarını programatik olarak manipüle etmelerini sağlayan bir kütüphanedir; okuma, yazma ve PSD katmanlarını düzenleme gibi işlemleri içerir.
 
-### Aspose.PSD’yi nasıl indiririm?  
-Aspose.PSD for Java’yı [release page](https://releases.aspose.com/psd/java/) üzerinden indirebilirsiniz.
+### Aspose.PSD'yi nasıl indiririm?
+Aspose.PSD for Java'yi [sürüm sayfasından](https://releases.aspose.com/psd/java/) indirebilirsiniz.
 
-### Aspose.PSD’yi ücretsiz kullanabilir miyim?  
-Evet, Aspose.PSD ücretsiz bir deneme sürümü sunar; bu sürüme [buradan](https://releases.aspose.com/) erişebilirsiniz.
+### Aspose.PSD'yi ücretsiz kullanabilir miyim?
+Evet, Aspose.PSD ücretsiz bir deneme sürümü sunar; bunu [buradan](https://releases.aspose.com/) erişebilirsiniz.
 
-### Sorun yaşarsam ya da desteğe ihtiyacım olursa?  
-Destek ve topluluk yardımı için [Aspose forum](https://forum.aspose.com/c/psd/34) adresini ziyaret edebilirsiniz.
+### Sorunla karşılaşırsam ya da desteğe ihtiyacım olursa?
+Destek ve topluluk yardımı için [Aspose forumunu](https://forum.aspose.com/c/psd/34) ziyaret edebilirsiniz.
 
-### Aspose.PSD için geçici bir lisans nasıl alabilirim?  
-Tüm özellikleri değerlendirmek amacıyla geçici lisans alabilirsiniz; bunun için [temporary license page](https://purchase.aspose.com/temporary-license/) sayfasını ziyaret edin.
+### Aspose.PSD için geçici bir lisans nasıl alabilirim?
+Tüm özellikleri değerlendirmek için geçici bir lisans alabilirsiniz; bunun için [geçici lisans sayfasını](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
 ---
 
-**Son Güncelleme:** 2025-12-18  
-**Test Edilen Versiyon:** Aspose.PSD for Java (yazım anındaki en son sürüm)  
-**Yazar:** Aspose
+**Son Güncelleme:** 2026-02-22  
+**Test Edilen:** Aspose.PSD for Java (yazım zamanındaki en son sürüm)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

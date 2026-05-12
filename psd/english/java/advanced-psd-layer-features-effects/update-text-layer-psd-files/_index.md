@@ -1,10 +1,10 @@
 ---
-title: Update Text Layer PSD with Aspose.PSD Java
-linktitle: Update Text Layer PSD with Aspose.PSD Java
+title: How to Edit PSD Text Layers with Aspose.PSD for Java
+linktitle: How to Edit PSD Text Layers with Aspose.PSD for Java
 second_title: Aspose.PSD Java API
-description: Learn how to update text layer PSD files using Aspose.PSD for Java and change PSD font size. Follow our step-by-step guide for seamless text editing.
+description: Learn how to edit PSD files by replacing PSD text, changing PSD font size, and updating PSD text color using Aspose.PSD for Java. Step‑by‑step guide for seamless text layer editing.
 weight: 28
-date: 2025-12-19
+date: 2026-02-22
 url: /java/advanced-psd-layer-features-effects/update-text-layer-psd-files/
 ---
 
@@ -12,26 +12,26 @@ url: /java/advanced-psd-layer-features-effects/update-text-layer-psd-files/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Update Text Layer PSD with Aspose.PSD Java
+# How to Edit PSD Text Layers with Aspose.PSD for Java
 
 ## Introduction
-When it comes to graphic design, Photoshop’s PSD files are a staple for creatives who rely on layers and text customization. If you ever needed to **update text layer PSD** files programmatically—without opening Photoshop—Aspose.PSD for Java makes it possible. In this guide we’ll walk through the exact steps to locate a text layer, modify its content, and even **change PSD font size** on the fly. Let’s get started!
+When it comes to graphic design, Photoshop’s PSD files are a staple for creatives who rely on layers and text customization. If you ever wondered **how to edit PSD** files programmatically—without opening Photoshop—Aspose.PSD for Java makes it possible. In this guide we’ll walk through the exact steps to locate a text layer, **replace PSD text**, modify its content, and even **change PSD font size** or **change PSD text color** on the fly. Let’s get started!
 
 ## Quick Answers
-- **Can I edit PSD text without Photoshop?** Yes, Aspose.PSD for Java lets you modify text layers directly.
-- **Which library version is required?** Any recent Aspose.PSD for Java release (compatible with JDK 8+).
-- **Do I need a license for development?** A free trial works for testing; a license is required for production.
-- **Can I change the font size of a PSD text layer?** Absolutely—use the `updateText` method with a size parameter.
+- **Can I edit PSD text without Photoshop?** Yes, Aspose.PSD for Java lets you modify text layers directly.  
+- **Which library version is required?** Any recent Aspose.PSD for Java release (compatible with JDK 8+).  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **Can I change the font size of a PSD text layer?** Absolutely—use the `updateText` method with a size parameter.  
 - **Is the process cross‑platform?** Yes, Java code runs on Windows, macOS, and Linux.
 
 ## What is “update text layer PSD”?
 Updating a text layer in a PSD file means programmatically changing the layer’s string, position, font size, color, or other typographic attributes. This is especially useful for batch processing, dynamic image generation, or integrating design assets into automated workflows.
 
 ## Why use Aspose.PSD for Java?
-- **No Photoshop needed:** Work entirely from code.
-- **Full layer support:** Access text, shape, and raster layers.
-- **High performance:** Fast loading and saving of large PSD files.
-- **Cross‑platform:** Run on any system with a Java runtime.
+- **No Photoshop needed:** Work entirely from code.  
+- **Full layer support:** Access text, shape, and raster layers.  
+- **High performance:** Fast loading and saving of large PSD files.  
+- **Cross‑platform:** Run on any system with a Java runtime.  
 
 ## Prerequisites
 Before we jump into the nitty‑gritty of the tutorial, let's ensure you're well‑prepared. Here’s what you need:
@@ -57,8 +57,7 @@ import com.aspose.psd.fileformats.psd.layers.TextLayer;
 
 These packages give you access to essential classes needed to work with PSD files and manipulate layers effectively.
 
-## How to update text layer PSD
-Below is a step‑by‑step walkthrough that shows exactly how to locate a text layer and modify its content.
+## How to edit PSD text layers – Step‑by‑step guide
 
 ### Step 1: Set Up Your Document Directory
 First, declare a variable named `dataDir` where your PSD file is located. It’s like setting your base camp before heading out on an expedition.
@@ -92,14 +91,14 @@ for (int i = 0; i < psdImage.getLayers().length; i++) {
 
 In this snippet, we’re checking if each layer is an instance of `TextLayer`. If it is, we cast it to `TextLayer`. Imagine this as searching through a box of assorted chocolates to find the ones with your favorite filling!
 
-### Step 4: Update the Text Layer and Change PSD Font Size
-After identifying a text layer, it’s time to update it with new content **and** change its font size. This part is incredibly straightforward.
+### Step 4: Replace PSD text, change PSD font size, and change PSD text color
+After identifying a text layer, it’s time to update it with new content **and** adjust its visual style. The `updateText` method lets you replace the text, set a new font size, and apply a different color—all in one call.
 
 ```java
 textLayer.updateText("test update", new Point(0, 0), 15.0f, Color.getPurple());
 ```
 
-In this line, we update the text to `"test update"`, place it at coordinates `(0, 0)` in the layer, set its font size to **15 points**, and color it purple. It’s just like giving your text a fresh makeover without the drama of actually opening Photoshop!
+In this line, we **replace PSD text** with `"test update"`, place it at coordinates `(0, 0)` in the layer, set its **change PSD font size** to **15 points**, and **change PSD text color** to purple. It’s just like giving your text a fresh makeover without the drama of actually opening Photoshop!
 
 ### Step 5: Save the Updated PSD File
 After making this exciting update to the text layer, we need to save our changes to a new PSD file.
@@ -134,7 +133,7 @@ A: You can ask questions and seek support in the [Aspose forum](https://forum.as
 
 ---
 
-**Last Updated:** 2025-12-19  
+**Last Updated:** 2026-02-22  
 **Tested With:** Aspose.PSD for Java (latest release)  
 **Author:** Aspose  
 

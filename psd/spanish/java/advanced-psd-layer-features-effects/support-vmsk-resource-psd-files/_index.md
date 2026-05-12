@@ -1,59 +1,74 @@
 ---
-date: 2025-12-18
-description: Aprenda a crear una máscara vectorial (recurso Vmsk) en archivos PSD
-  usando Aspose.PSD para Java. Este tutorial paso a paso le muestra cómo agregar una
-  máscara vectorial, convertir PSD a PNG y más.
-linktitle: Create Vector Mask (Vmsk Resource) in PSD Files with Java
+date: 2026-02-22
+description: Aprende cómo crear máscaras vectoriales en Java usando Aspose.PSD para
+  Java, agregar máscaras vectoriales PSD y manipular recursos Vmsk programáticamente.
+linktitle: Create Vector Mask Java – Vmsk Resource in PSD Files
 second_title: Aspose.PSD Java API
-title: Crear máscara vectorial (recurso Vmsk) en archivos PSD con Java
+title: Crear máscara vectorial Java – Recurso Vmsk en archivos PSD
 url: /es/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
 weight: 23
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+**Q: Do I need a license for development builds?**" translate.
+
+Answers translate.
+
+Then bottom metadata: "Last Updated:" translate "Última actualización:" etc.
+
+"Tested With:" translate "Probado con:".
+
+"Author:" translate "Autor:".
+
+Then closing shortcodes.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crear máscara vectorial (recurso Vmsk) en archivos PSD con Java
+# Crear Máscara Vectorial Java – Recurso Vmsk en Archivos PSD
 
 ## Introducción
-Si necesitas **crear máscara vectorial** (Vmsk) recursos dentro de archivos Photoshop (PSD), Aspose.PSD para Java te ofrece una forma limpia y programática de hacerlo. Ya sea que estés construyendo una herramienta de automatización de diseño o añadiendo soporte de máscara personalizada a una canalización gráfica existente, este tutorial te guía paso a paso: cargar un PSD, leer el recurso Vmsk, ajustar sus propiedades y guardar el resultado. Al final, estarás cómodo manejando máscaras vectoriales, convirtiendo PSD a PNG y ampliando el archivo con datos vectoriales adicionales.
+Si necesitas **crear máscara vectorial** (Vmsk) recursos dentro de archivos Photoshop (PSD), Aspose.PSD para Java te ofrece una forma limpia y programática de hacerlo. Ya sea que estés construyendo una herramienta de automatización de diseño o añadiendo soporte de máscara personalizada a una canalización gráfica existente, este tutorial te guía paso a paso: cargar un PSD, leer el recurso Vmsk, ajustar sus propiedades y guardar el resultado. Al final, estarás cómodo manejando máscaras vectoriales, convirtiendo PSD a PNG y ampliando el archivo con datos vectoriales adicionales, todo con técnicas de **create vector mask java**.
 
 ## Respuestas rápidas
-- **¿Qué es un recurso Vmsk?** Es el dato de máscara vectorial almacenado dentro de un archivo PSD, que define formas vectoriales complejas para una capa.  
-- **¿Qué biblioteca lo soporta?** Aspose.PSD para Java proporciona acceso completo de lectura/escritura a los recursos Vmsk.  
+- **¿Qué es un recurso Vmsk?** Son los datos de máscara vectorial almacenados dentro de un archivo PSD, que definen formas vectoriales complejas para una capa.  
+- **¿Qué biblioteca lo soporta?** Aspose.PSD para Java proporciona acceso completo de lectura/escritura a recursos Vmsk.  
 - **¿Necesito una licencia?** Hay una prueba gratuita disponible; se requiere una licencia comercial para uso en producción.  
-- **¿Puedo convertir el PSD editado a PNG?** Sí, una vez guardado, puedes cargar el PSD y exportarlo a PNG con la misma API.  
-- **¿Hay soporte para Maven?** Absolutamente; Aspose.PSD puede añadirse como una dependencia Maven (ver la palabra clave “aspose psd maven”).
+- **¿Puedo convertir el PSD editado a PNG?** Sí—una vez guardado, puedes cargar el PSD y exportarlo a PNG con la misma API.  
+- **¿Hay soporte para Maven?** Absolutamente; Aspose.PSD se puede añadir como dependencia Maven (ver la palabra clave “aspose psd maven”).
 
-## ¿Qué es una máscara vectorial (recurso Vmsk)?
-Una máscara vectorial (Vmsk) es una máscara no basada en píxeles que utiliza curvas Bézier y registros de ruta para definir regiones transparentes y opacas en una capa. Al ser vectorial, se escala sin pérdida de calidad, lo que la hace perfecta para gráficos de alta resolución.
+## ¿Qué es una Máscara Vectorial (Recurso Vmsk)?
+Una máscara vectorial (Vmsk) es una máscara no basada en píxeles que utiliza curvas Bézier y registros de rutas para definir regiones transparentes y opacas en una capa. Al ser vectorial, se escala sin pérdida de calidad—perfecta para gráficos de alta resolución.
 
 ## ¿Por qué crear una máscara vectorial con Aspose.PSD?
 - **Automatización:** Añade o modifica máscaras programáticamente sin abrir Photoshop.  
 - **Consistencia:** Garantiza que cada PSD que generes siga las mismas reglas de máscara.  
 - **Multiplataforma:** Funciona en cualquier SO que soporte Java.  
-- **Integración:** Combínalo con otras APIs de Aspose (p. ej., convertir PSD → PNG) para flujos de trabajo de extremo a extremo.
+- **Integración:** Combínalo con otras APIs de Aspose (p. ej., convertir PSD → PNG) para flujos de trabajo de extremo a extremo.  
+- **Escalabilidad:** Las máscaras vectoriales permanecen nítidas a cualquier tamaño, lo que las hace ideales para diseños responsivos.
+
+## Por qué es importante para desarrolladores Java
+Usar técnicas de **create vector mask java** te permite incrustar lógica gráfica sofisticada directamente en servicios backend, pipelines CI o utilidades de escritorio. Ya no necesitas que un diseñador añada máscaras manualmente; tu código puede generarlas o ajustarlas al vuelo, ahorrando tiempo y reduciendo errores humanos.
 
 ## Requisitos previos
 Antes de sumergirnos en el código, asegúrate de contar con lo siguiente:
 
-### Qué necesitas
-- **Java Development Kit (JDK):** Asegúrate de tener el JDK instalado en tu máquina. Si no, puedes descargarlo del [sitio web de Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-- **Aspose.PSD para Java:** Esta es una biblioteca potente para gestionar archivos PSD. Puedes descargarla desde la [página de lanzamientos de Aspose](https://releases.aspose.com/psd/java/). Para quienes quieran probar antes de comprar, también puedes iniciar con la [prueba gratuita](https://releases.aspose.com/).
-- **Un IDE:** Cualquier IDE para Java (como IntelliJ IDEA, Eclipse, etc.) funcionará para este proyecto.
+### Lo que necesitas
+- Java Development Kit (JDK): Asegúrate de tener el JDK instalado en tu máquina. Si no, puedes descargarlo desde el [sitio web de Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Biblioteca Aspose.PSD para Java: Es una biblioteca potente para gestionar archivos PSD. Puedes descargarla desde la [página de lanzamientos de Aspose](https://releases.aspose.com/psd/java/). Para quienes quieran probar antes de comprar, también puedes comenzar con la [prueba gratuita](https://releases.aspose.com/).
+- Un IDE: Cualquier IDE para Java (como IntelliJ IDEA, Eclipse, etc.) funcionará para este proyecto.
 
-### Configurando su espacio de trabajo
+### Configuración de tu espacio de trabajo
 1. **Crear un nuevo proyecto Java** – Abre tu IDE preferido y comienza un proyecto nuevo.  
-2. **Agregar la biblioteca Aspose** – Después de descargar el JAR de Aspose, añádelo a la ruta de compilación de tu proyecto para que puedas acceder a todas las clases relacionadas con PSD.
+2. **Añadir la biblioteca Aspose** – Después de descargar el JAR de Aspose, agrégalo a la ruta de compilación de tu proyecto para que puedas acceder a todas las clases relacionadas con PSD.
 
 Con el entorno listo, pasemos a la implementación real.
 
 ## Cómo crear una máscara vectorial en archivos PSD con Java
-A continuación tienes una guía paso a paso. Los bloques de código permanecen sin cambios respecto al tutorial original; solo hemos añadido texto explicativo para que cada paso quede perfectamente claro.
+A continuación tienes una guía paso a paso. Los bloques de código permanecen sin cambios respecto al tutorial original; solo añadimos texto explicativo para que cada paso quede perfectamente claro.
 
-## Importar paquetes
-Antes de poder trabajar con archivos PSD, necesitamos importar las clases necesarias de la biblioteca Aspose.PSD.
+### Importar paquetes
+Antes de trabajar con archivos PSD, necesitamos importar las clases necesarias de la biblioteca Aspose.PSD.
 
 ```java
 import com.aspose.psd.Image;
@@ -71,7 +86,7 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.VectorPa
 
 Ahora que hemos preparado el escenario, repasemos cada operación.
 
-## Paso 1: Cargar su archivo PSD
+### Paso 1: Cargar tu archivo PSD
 Lo primero que debes hacer es cargar tu archivo PSD. Aquí es donde comienza toda la magia.
 
 ```java
@@ -84,8 +99,8 @@ PsdImage im = (PsdImage) Image.load(sourceFileName);
 - Creamos una cadena para `sourceFileName`, combinando el directorio con el nombre del archivo PSD.  
 - Finalmente, cargamos el archivo PSD en un objeto `PsdImage` usando `Image.load()`.
 
-## Paso 2: Recuperar el recurso Vmsk
-Ahora que tenemos la imagen PSD cargada, vamos a obtener el recurso Vmsk.
+### Paso 2: Recuperar el recurso Vmsk
+Una vez que tenemos la imagen PSD cargada, vamos a obtener el recurso Vmsk.
 
 ```java
 VmskResource resource = getVmskResource(im);
@@ -93,8 +108,8 @@ VmskResource resource = getVmskResource(im);
 
 - Llamamos al método `getVmskResource()` que se encarga de buscar y recuperar el recurso Vmsk de la imagen.
 
-## Paso 3: Validar las propiedades del recurso Vmsk
-Antes de proceder con modificaciones, es esencial validar que nuestro recurso Vmsk esté en el estado esperado.
+### Paso 3: Validar las propiedades del recurso Vmsk
+Antes de continuar con las modificaciones, es esencial validar que nuestro recurso Vmsk esté en el estado esperado.
 
 ```java
 if (resource.isDisabled() != false ||
@@ -105,9 +120,9 @@ if (resource.isDisabled() != false ||
 }
 ```
 
-- Aquí verificamos varias propiedades del recurso Vmsk. Queremos asegurarnos de que no esté deshabilitado, invertido o no vinculado, y que tenga el número correcto de rutas.
+- Aquí comprobamos varias propiedades del recurso Vmsk. Queremos asegurarnos de que no esté deshabilitado, invertido o no enlazado, y que tenga el número correcto de rutas.
 
-## Paso 4: Acceder a cada ruta y validar
+### Paso 4: Acceder a cada ruta y validar
 Profundicemos un poco más e inspeccionemos las rutas dentro del recurso Vmsk.
 
 ```java
@@ -125,7 +140,7 @@ if (pathFillRule.getType() != VectorPathType.PathFillRuleRecord ||
 
 - Extraemos tres registros de ruta específicos y validamos sus tipos y propiedades para asegurarnos de que cumplen con nuestros criterios.
 
-## Paso 5: Editar el recurso Vmsk
+### Paso 5: Editar el recurso Vmsk
 ¡Ahora entramos en la parte de modificación! Puedes ajustar las propiedades del recurso Vmsk según sea necesario.
 
 ```java
@@ -134,9 +149,9 @@ resource.setInverted(true);
 resource.setNotLinked(true);
 ```
 
-- En este bloque, alternamos varias propiedades del recurso Vmsk. Al establecerlas en `true`, podemos controlar cómo se comporta la máscara en el archivo PSD.
+- En este bloque, activamos varias propiedades del recurso Vmsk. Al establecerlas en `true`, controlamos cómo se comporta la máscara en el archivo PSD.
 
-## Paso 6: Modificar los puntos de nudos Bézier
+### Paso 6: Modificar los puntos de nudos Bézier
 Los nudos Bézier son críticos para las rutas vectoriales. Cambiemos algunos valores aquí.
 
 ```java
@@ -146,9 +161,9 @@ bezierKnot = (BezierKnotRecord) resource.getPaths()[4];
 bezierKnot.getPoints()[0] = new Point(8039797, 10905190);
 ```
 
-- Accedemos a rutas específicas de `BezierKnotRecord` y cambiamos sus puntos para potencialmente remodelar la máscara vectorial.
+- Accedemos a rutas específicas `BezierKnotRecord` y cambiamos sus puntos para potencialmente remodelar la máscara vectorial.
 
-## Paso 7: Guardar el archivo PSD modificado
+### Paso 7: Guardar el archivo PSD modificado
 Una vez completadas todas las ediciones, es hora de guardar el archivo PSD modificado.
 
 ```java
@@ -158,7 +173,7 @@ im.save(exportPath);
 
 - Definimos la ruta para el PSD exportado y luego llamamos a `im.save()` para escribir los cambios en este nuevo archivo.
 
-## Paso 8: Limpiar los recursos
+### Paso 8: Liberar recursos
 Finalmente, debemos asegurarnos de disponer correctamente de la imagen para liberar recursos.
 
 ```java
@@ -167,30 +182,36 @@ im.dispose();
 
 - Siempre es una buena práctica liberar cualquier recurso una vez que hayas terminado. Esto ayuda a evitar fugas de memoria en tus aplicaciones.
 
-## Conclusión
-¡Felicidades! Acabas de recorrer un proceso detallado de **creación de máscara vectorial** (Vmsk) en archivos PSD usando Aspose.PSD para Java. Desde cargar la imagen, recuperar y validar el recurso Vmsk, editar sus propiedades, hasta guardar tu PSD modificado, ahora tienes una base sólida para automatizar flujos de trabajo de máscaras vectoriales. Usa estas técnicas para enriquecer tus canalizaciones de diseño, integrarlas con otras APIs de Aspose (como convertir PSD a PNG) o crear herramientas gráficas personalizadas.
+## Problemas comunes y soluciones
+| Problema | Por qué ocurre | Cómo solucionarlo |
+|----------|----------------|-------------------|
+| **`VmskResource` no encontrado** | El PSD no contiene una capa con máscara vectorial. | Verifica que el PSD de origen tenga una máscara vectorial o añádela manualmente en Photoshop antes de ejecutar el código. |
+| **`ArrayIndexOutOfBoundsException` al acceder a la ruta** | El número esperado de registros de ruta difiere. | Inspecciona `resource.getPaths().length` y ajusta el uso de índices en consecuencia. |
+| **Excepción de licencia** | Ejecutando sin una licencia válida de Aspose.PSD. | Aplica una licencia de prueba o comprada usando `License license = new License(); license.setLicense("Aspose.PSD.lic");`. |
+| **Fuga de memoria** | Imagen no liberada en procesos de larga duración. | Siempre llama a `im.dispose()` en un bloque `finally` o usa try‑with‑resources si está soportado. |
 
 ## Preguntas frecuentes
-**P: ¿Cómo añado una nueva máscara vectorial a una capa existente?**  
-R: Crea un `VmskResource`, puebla con los registros de ruta necesarios (p. ej., `BezierKnotRecord`) y adjúntalo a la colección de recursos de la capa.
 
-**P: ¿Puedo convertir el PSD editado directamente a PNG sin abrir Photoshop?**  
-R: Sí, después de guardar el PSD, cárgalo nuevamente con `Image.load()` y llama a `im.save("output.png")` especificando el formato PNG.
+**Q: ¿Cómo añado una nueva máscara vectorial a una capa existente?**  
+A: Crea un `VmskResource`, pópúlalo con los registros de ruta requeridos (p. ej., `BezierKnotRecord`) y adjúntalo a la colección de recursos de la capa.
 
-**P: ¿Existe una forma de automatizar esto en una canalización CI/CD?**  
-R: Absolutamente. Como el proceso es puro Java, puedes incorporarlo en builds de Maven/Gradle, contenedores Docker o cualquier sistema CI que soporte Java.
+**Q: ¿Puedo convertir el PSD editado directamente a PNG sin abrir Photoshop?**  
+A: Sí—después de guardar el PSD, cárgalo nuevamente con `Image.load()` y llama a `im.save("output.png")` especificando el formato PNG.
 
-**P: ¿Qué versiones de Aspose.PSD son compatibles con Java 11+?**  
-R: Todas las versiones recientes (2024‑2025) soportan Java 8 y superiores, incluyendo Java 11, 17 y versiones LTS más nuevas.
+**Q: ¿Existe una forma de automatizar esto en una canalización CI/CD?**  
+A: Absolutamente. Dado que el proceso es puro Java, puedes integrarlo en builds de Maven/Gradle, contenedores Docker o cualquier sistema CI que soporte Java.
 
-**P: ¿Necesito una licencia para compilaciones de desarrollo?**  
-R: Una licencia de evaluación gratuita funciona para desarrollo y pruebas. Para despliegues en producción, se requiere una licencia comercial.
+**Q: ¿Qué versiones de Aspose.PSD son compatibles con Java 11+?**  
+A: Todas las versiones recientes (2024‑2025) soportan Java 8 y superiores, incluyendo Java 11, 17 y versiones LTS más nuevas.
+
+**Q: ¿Necesito una licencia para compilaciones de desarrollo?**  
+A: Una licencia de evaluación gratuita funciona para desarrollo y pruebas. Para despliegues en producción, se requiere una licencia comercial.
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
+**Última actualización:** 2026-02-22  
+**Probado con:** Aspose.PSD 24.11 para Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

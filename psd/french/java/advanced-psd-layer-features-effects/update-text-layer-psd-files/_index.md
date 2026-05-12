@@ -1,11 +1,12 @@
 ---
-date: 2025-12-19
-description: Apprenez à mettre à jour les fichiers PSD de calques de texte en utilisant
-  Aspose.PSD pour Java et à modifier la taille de la police PSD. Suivez notre guide
-  étape par étape pour une édition de texte fluide.
-linktitle: Update Text Layer PSD with Aspose.PSD Java
+date: 2026-02-22
+description: Apprenez à modifier les fichiers PSD en remplaçant le texte PSD, en changeant
+  la taille de la police PSD et en mettant à jour la couleur du texte PSD à l’aide
+  d’Aspose.PSD pour Java. Guide étape par étape pour une édition fluide des calques
+  de texte.
+linktitle: How to Edit PSD Text Layers with Aspose.PSD for Java
 second_title: Aspose.PSD Java API
-title: Mettre à jour le calque de texte PSD avec Aspose.PSD Java
+title: Comment modifier les calques de texte PSD avec Aspose.PSD pour Java
 url: /fr/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/
 weight: 28
 ---
@@ -14,40 +15,40 @@ weight: 28
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mettre à jour le calque de texte PSD avec Aspose.PSD Java
+# Comment modifier les calques de texte PSD avec Aspose.PSD pour Java
 
 ## Introduction
-Lorsqu'il s'agit de conception graphique, les fichiers PSD de Photoshop sont un incontournable pour les créatifs qui s'appuient sur les calques et la personnalisation du texte. Si vous avez déjà eu besoin de **mettre à jour le calque de texte PSD** de façon programmatique—sans ouvrir Photoshop—Aspose.PSD for Java le rend possible. Dans ce guide, nous parcourrons les étapes exactes pour localiser un calque de texte, modifier son contenu, et même **modifier la taille de police du PSD** à la volée. Commençons !
+En matière de conception graphique, les fichiers PSD de Photoshop sont un incontournable pour les créatifs qui s’appuient sur les calques et la personnalisation du texte. Si vous vous êtes déjà demandé **comment modifier les PSD** de façon programmatique—sans ouvrir Photoshop—Aspose.PSD pour Java le rend possible. Dans ce guide, nous parcourrons les étapes exactes pour localiser un calque de texte, **remplacer le texte PSD**, modifier son contenu, et même **changer la taille de police du PSD** ou **changer la couleur du texte PSD** à la volée. Commençons !
 
-## Réponses rapides
-- **Puis-je modifier le texte d'un PSD sans Photoshop ?** Oui, Aspose.PSD for Java vous permet de modifier les calques de texte directement.
-- **Quelle version de la bibliothèque est requise ?** Toute version récente d'Aspose.PSD for Java (compatible avec JDK 8+).
-- **Ai‑je besoin d'une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence est requise pour la production.
-- **Puis‑je changer la taille de police d'un calque de texte PSD ?** Absolument—utilisez la méthode `updateText` avec un paramètre de taille.
-- **Le processus est‑il multiplateforme ?** Oui, le code Java fonctionne sous Windows, macOS et Linux.
+## Quick Answers
+- **Puis-je modifier le texte d'un PSD sans Photoshop ?** Oui, Aspose.PSD pour Java vous permet de modifier directement les calques de texte.  
+- **Quelle version de la bibliothèque est requise ?** Toute version récente d’Aspose.PSD pour Java (compatible avec JDK 8+).  
+- **Ai‑je besoin d’une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence est requise pour la production.  
+- **Puis‑je changer la taille de police d’un calque de texte PSD ?** Absolument—utilisez la méthode `updateText` avec un paramètre de taille.  
+- **Le processus est‑il multiplateforme ?** Oui, le code Java s’exécute sous Windows, macOS et Linux.
 
-## Qu’est‑ce que « mettre à jour le calque de texte PSD » ?
-Mettre à jour un calque de texte dans un fichier PSD signifie modifier de façon programmatique la chaîne du calque, sa position, sa taille de police, sa couleur ou d’autres attributs typographiques. Cela est particulièrement utile pour le traitement par lots, la génération d'images dynamiques ou l'intégration d'assets de conception dans des flux de travail automatisés.
+## What is “update text layer PSD”?
+Mettre à jour un calque de texte dans un fichier PSD signifie modifier de façon programmatique la chaîne du calque, sa position, sa taille de police, sa couleur ou d’autres attributs typographiques. Cela est particulièrement utile pour le traitement par lots, la génération d’images dynamiques ou l’intégration d’actifs de conception dans des flux de travail automatisés.
 
-## Pourquoi utiliser Aspose.PSD pour Java ?
-- **Pas besoin de Photoshop :** Travaillez entièrement depuis le code.
-- **Support complet des calques :** Accédez aux calques de texte, de forme et raster.
-- **Haute performance :** Chargement et sauvegarde rapides de gros fichiers PSD.
-- **Multiplateforme :** Fonctionne sur tout système disposant d'un runtime Java.
+## Why use Aspose.PSD for Java?
+- **Pas besoin de Photoshop :** Travaillez entièrement depuis le code.  
+- **Support complet des calques :** Accédez aux calques de texte, de forme et raster.  
+- **Haute performance :** Chargement et sauvegarde rapides de gros fichiers PSD.  
+- **Multiplateforme :** Fonctionne sur tout système disposant d’un environnement d’exécution Java.  
 
-## Prérequis
-Avant de plonger dans les détails du tutoriel, assurons‑nous que vous êtes bien préparé. Voici ce dont vous avez besoin :
+## Prerequisites
+Avant de plonger dans les détails de ce tutoriel, assurons‑nous que vous êtes bien préparé. Voici ce dont vous avez besoin :
 
 1. **Java Development Kit (JDK) :** JDK 8 ou version ultérieure installé sur votre machine.  
-2. **Bibliothèque Aspose.PSD for Java :** Téléchargez‑la [ici](https://releases.aspose.com/psd/java/).  
+2. **Bibliothèque Aspose.PSD pour Java :** Téléchargez‑la [ici](https://releases.aspose.com/psd/java/).  
 3. **Un IDE :** IntelliJ IDEA, Eclipse ou votre IDE Java préféré.  
-4. **Connaissances de base en Java :** Une compréhension élémentaire de Java vous aidera à suivre facilement.  
-5. **Fichier PSD :** Un PSD d'exemple (nommé `layers.psd`) contenant au moins un calque de texte.
+4. **Connaissances de base en Java :** Une compréhension élémentaire de Java vous aidera à suivre le guide sans problème.  
+5. **Fichier PSD :** Un PSD d’exemple (nommé `layers.psd`) contenant au moins un calque de texte.
 
 Maintenant que tout est prêt, importons les packages nécessaires et commençons le code.
 
-## Importer les packages
-Dans tout projet Java, l'importation des bons packages est cruciale. Voici comment démarrer :
+## Import Packages
+Dans tout projet Java, l’importation des bons packages est cruciale. Voici comment démarrer :
 
 ```java
 import com.aspose.psd.Color;
@@ -59,11 +60,10 @@ import com.aspose.psd.fileformats.psd.layers.TextLayer;
 
 Ces packages vous donnent accès aux classes essentielles nécessaires pour travailler avec les fichiers PSD et manipuler les calques efficacement.
 
-## Comment mettre à jour le calque de texte PSD
-Voici un guide étape par étape qui montre exactement comment localiser un calque de texte et modifier son contenu.
+## How to edit PSD text layers – Step‑by‑step guide
 
-### Étape 1 : Configurer votre répertoire de documents
-Tout d'abord, déclarez une variable nommée `dataDir` où se trouve votre fichier PSD. C’est comme installer votre camp de base avant de partir en expédition.
+### Step 1: Set Up Your Document Directory
+Tout d’abord, déclarez une variable nommée `dataDir` où se trouve votre fichier PSD. C’est comme installer votre camp de base avant de partir en expédition.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 
 Remplacez `"Your Document Directory"` par le chemin où se trouve votre fichier `layers.psd`. Cela aidera le programme à localiser votre fichier sans effort.
 
-### Étape 2 : Charger le fichier PSD
+### Step 2: Load the PSD File
 Ensuite, chargeons le fichier PSD dans notre programme. C’est la porte d’accès à ses calques.
 
 ```java
@@ -80,8 +80,8 @@ PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 
 Ici, nous utilisons la méthode `Image.load` pour charger le PSD en tant que `PsdImage`. En le castant, nous pouvons accéder aux méthodes et propriétés spécifiques aux calques. C’est comme déverrouiller la porte d’un trésor d’éléments de conception !
 
-### Étape 3 : Parcourir les calques
-Maintenant, nous devons parcourir chaque calque du fichier PSD pour trouver les calques de texte que nous voulons mettre à jour.
+### Step 3: Iterate Through Layers
+Maintenant, nous devons parcourir chaque calque du fichier PSD afin de trouver les calques de texte que nous souhaitons mettre à jour.
 
 ```java
 for (int i = 0; i < psdImage.getLayers().length; i++) {
@@ -92,18 +92,18 @@ for (int i = 0; i < psdImage.getLayers().length; i++) {
 }
 ```
 
-Dans cet extrait, nous vérifions si chaque calque est une instance de `TextLayer`. Si c’est le cas, nous le castons en `TextLayer`. Imaginez cela comme chercher dans une boîte de chocolats assortis ceux qui contiennent votre garniture préférée !
+Dans cet extrait, nous vérifions si chaque calque est une instance de `TextLayer`. Si c’est le cas, nous le castons en `TextLayer`. Imaginez cela comme fouiller dans une boîte de chocolats assortis pour trouver ceux avec votre garniture préférée !
 
-### Étape 4 : Mettre à jour le calque de texte et modifier la taille de police du PSD
-Après avoir identifié un calque de texte, il est temps de le mettre à jour avec un nouveau contenu **et** de changer sa taille de police. Cette partie est incroyablement simple.
+### Step 4: Replace PSD text, change PSD font size, and change PSD text color
+Après avoir identifié un calque de texte, il est temps de le mettre à jour avec un nouveau contenu **et** d’ajuster son style visuel. La méthode `updateText` vous permet de remplacer le texte, de définir une nouvelle taille de police et d’appliquer une couleur différente—le tout en un seul appel.
 
 ```java
 textLayer.updateText("test update", new Point(0, 0), 15.0f, Color.getPurple());
 ```
 
-Dans cette ligne, nous mettons à jour le texte à `"test update"`, le plaçons aux coordonnées `(0, 0)` dans le calque, définissons sa taille de police à **15 points**, et le colorons en violet. C’est comme offrir à votre texte un nouveau look sans le drame d’ouvrir réellement Photoshop !
+Dans cette ligne, nous **remplaçons le texte PSD** par `"test update"`, le plaçons aux coordonnées `(0, 0)` dans le calque, définissons sa **taille de police PSD** à **15 points**, et **changeons la couleur du texte PSD** en violet. C’est comme offrir à votre texte un nouveau look sans le drame d’ouvrir réellement Photoshop !
 
-### Étape 5 : Enregistrer le fichier PSD mis à jour
+### Step 5: Save the Updated PSD File
 Après avoir effectué cette mise à jour du calque de texte, nous devons enregistrer nos modifications dans un nouveau fichier PSD.
 
 ```java
@@ -112,31 +112,31 @@ psdImage.save(dataDir + "UpdateTextLayerInPSDFile_out.psd");
 
 Cette ligne enregistre le fichier PSD modifié, garantissant que tous vos ajustements sont conservés. Pensez-y comme sceller votre chef‑d’œuvre dans une galerie prête à être admirée par le monde !
 
-## Problèmes courants et solutions
-- **Fichier non trouvé :** Vérifiez à nouveau le chemin `dataDir` et assurez‑vous que `layers.psd` existe à cet emplacement.  
+## Common Issues and Solutions
+- **Fichier non trouvé :** Vérifiez le chemin `dataDir` et assurez‑vous que `layers.psd` s’y trouve.  
 - **Type de calque non pris en charge :** La boucle ne traite que les instances de `TextLayer` ; les autres types de calques sont ignorés en toute sécurité.  
 - **Couleur non appliquée :** Vérifiez que la couleur choisie est prise en charge par l’espace couleur du PSD.
 
-## Questions fréquemment posées
+## Frequently Asked Questions
 
-**Q : Qu’est‑ce qu’Aspose.PSD for Java ?**  
-R : Aspose.PSD for Java est une bibliothèque qui permet aux développeurs de créer, manipuler et convertir des fichiers PSD de façon programmatique.
+**Q : Qu’est‑ce qu’Aspose.PSD pour Java ?**  
+R : Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de créer, manipuler et convertir des fichiers PSD de façon programmatique.
 
 **Q : Puis‑je mettre à jour les images dans les fichiers PSD avec Aspose.PSD ?**  
-R : Oui, vous pouvez mettre à jour les images, les calques de texte, et même des compositions entières avec Aspose.PSD.
+R : Oui, vous pouvez mettre à jour les images, les calques de texte et même des compositions entières avec Aspose.PSD.
 
-**Q : Où puis‑je télécharger Aspose.PSD for Java ?**  
+**Q : Où puis‑je télécharger Aspose.PSD pour Java ?**  
 R : Vous pouvez le télécharger [ici](https://releases.aspose.com/psd/java/).
 
 **Q : Une version d’essai gratuite est‑elle disponible ?**  
 R : Oui, Aspose propose une version d’essai gratuite. Vous pouvez la consulter [ici](https://releases.aspose.com/).
 
 **Q : Où puis‑je trouver du support pour Aspose.PSD ?**  
-R : Vous pouvez poser des questions et demander du support sur le [forum Aspose](https://forum.aspose.com/c/psd/34).
+R : Vous pouvez poser des questions et demander de l’aide sur le [forum Aspose](https://forum.aspose.com/c/psd/34).
 
 ---
 
-**Dernière mise à jour :** 2025-12-19  
+**Dernière mise à jour :** 2026-02-22  
 **Testé avec :** Aspose.PSD for Java (dernière version)  
 **Auteur :** Aspose  
 
