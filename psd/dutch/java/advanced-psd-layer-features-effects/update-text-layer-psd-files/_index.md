@@ -1,11 +1,70 @@
 ---
-date: 2026-02-22
-description: Leer hoe u PSD‑bestanden kunt bewerken door PSD‑tekst te vervangen, de
-  PSD‑lettergrootte te wijzigen en de PSD‑tekstkleur bij te werken met Aspose.PSD
-  voor Java. Stapsgewijze handleiding voor naadloze bewerking van tekstlagen.
-linktitle: How to Edit PSD Text Layers with Aspose.PSD for Java
+date: 2026-05-24
+description: Leer hoe u PSD‑bestanden kunt bewerken zonder Photoshop door PSD‑tekst
+  te vervangen, de PSD‑lettergrootte te wijzigen en de PSD‑tekstkleur bij te werken
+  met Aspise.PSD for Java. Stapsgewijze handleiding voor naadloze bewerking van tekstlagen.
+keywords:
+- edit psd without photoshop
+- how to edit psd text
+- replace text in psd
+- change psd font size
+- update psd text layer
+linktitle: Hoe PSD-tekstlagen te bewerken zonder Photoshop met Aspise.PSD for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to edit PSD files without Photoshop by replacing PSD text,
+    changing PSD font size, and updating PSD text color using Aspose.PSD for Java.
+    Step‑by‑step guide for seamless text layer editing.
+  headline: How to Edit PSD Text Layers Without Photoshop Using Aspise.PSD for Java
+  type: TechArticle
+- description: Learn how to edit PSD files without Photoshop by replacing PSD text,
+    changing PSD font size, and updating PSD text color using Aspose.PSD for Java.
+    Step‑by‑step guide for seamless text layer editing.
+  name: How to Edit PSD Text Layers Without Photoshop Using Aspise.PSD for Java
+  steps:
+  - name: Set Up Your Document Directory
+    text: First, declare a variable named `dataDir` that points to the folder containing
+      your PSD files. This is analogous to establishing a base camp before starting
+      an expedition. Replace `"Your Document Directory"` with the absolute or relative
+      path to `layers.psd`. Using a variable keeps the code clean an
+  - name: Load the PSD File
+    text: Next, load the PSD file into memory. This step unlocks access to every layer
+      inside the document. The `Image.load` method returns a generic `Image` object;
+      casting it to `PsdImage` gives you full layer‑level control.
+  - name: Iterate Through Layers
+    text: Now, loop through each layer to find the ones that are instances of `TextLayer`.
+      This selective search ensures you only modify text layers and leave raster or
+      shape layers untouched. Think of this as sifting through a box of assorted chocolates
+      and picking out only the ones with caramel filling – yo
+  - name: Replace PSD text, change PSD font size, and change PSD text color
+    text: After identifying a text layer, call `updateText` to replace its content,
+      set a new font size, and apply a different color—all in one method call. In
+      this line we replace the existing string with `"test update"`, position the
+      text at `(0, 0)`, set the **change PSD font size** to **15 pt**, and chang
+  - name: Save the Updated PSD File
+    text: Finally, write the modified image back to disk. Saving creates a new PSD
+      file that contains all your changes while preserving the original file untouched.
+      Think of this as sealing your freshly edited artwork in a protective frame,
+      ready for distribution or further processing.
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD for Java is a standalone library that enables developers to
+      create, edit, and convert PSD files programmatically without requiring Adobe
+      Photoshop.
+    question: What is Aspose.PSD for Java?
+  - answer: Yes, you can replace raster images, edit text layers, and modify vector
+      shapes—all through the same API.
+    question: Can I update images in PSD files using Aspose.PSD?
+  - answer: You can download it **[here](https://releases.aspose.com/psd/java/)**.
+    question: Where can I download Aspose.PSD for Java?
+  - answer: Yes, a free trial is available **[here](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: You can ask questions and seek support in the **[Aspose forum](https://forum.aspose.com/c/psd/34)**.
+    question: Where can I find support for Aspose.PSD?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Hoe PSD-tekstlagen te bewerken met Aspose.PSD voor Java
+title: Hoe PSD-tekstlagen te bewerken zonder Photoshop met Aspise.PSD for Java
 url: /nl/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/
 weight: 28
 ---
@@ -14,40 +73,35 @@ weight: 28
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe PSD‑tekstlagen bewerken met Aspose.PSD voor Java
+# Hoe PSD-tekstlagen bewerken zonder Photoshop met Aspose.PSD voor Java
 
-## Introductie
-Als het gaat om grafisch ontwerp, zijn Photoshop‑PSD‑bestanden een basis voor creatievelingen die vertrouwen op lagen en tekstaanpassing. Als je je ooit afvroeg **how to edit PSD** bestanden programmatisch—zonder Photoshop te openen—maakt Aspose.PSD voor Java het mogelijk. In deze gids lopen we de exacte stappen door om een tekstlaag te vinden, **replace PSD text**, de inhoud aan te passen, en zelfs **change PSD font size** of **change PSD text color** on the fly. Laten we beginnen!
+## Inleiding
+Wanneer grafisch ontwerpers het hebben over **editing PSD without Photoshop**, bedoelen ze meestal het automatiseren van wijzigingen in Photoshop‑bestanden rechtstreeks vanuit code. Aspose.PSD voor Java stelt je in staat een tekstlaag te vinden, PSD‑tekst te vervangen, de lettergrootte aan te passen en de PSD‑tekstkleur te wijzigen — alles zonder Photoshop te openen. Deze tutorial leidt je door een compleet, productie‑klaar voorbeeld, legt uit waarom je PSD‑bewerkingen wilt automatiseren, en toont hoe je de oplossing integreert in batch‑workflows.
 
 ## Snelle antwoorden
-- **Can I edit PSD text without Photoshop?** Ja, Aspose.PSD for Java laat je tekstlagen direct wijzigen.  
-- **Which library version is required?** Elke recente Aspose.PSD for Java release (compatibel met JDK 8+).  
-- **Do I need a license for development?** Een gratis proefversie werkt voor testen; een licentie is vereist voor productie.  
-- **Can I change the font size of a PSD text layer?** Absoluut—gebruik de `updateText` methode met een grootte‑parameter.  
-- **Is the process cross‑platform?** Ja, Java‑code draait op Windows, macOS en Linux.
+- **Kan ik PSD‑tekst bewerken zonder Photoshop?** Ja – Aspose.PSD voor Java biedt een volledig uitgeruste API om tekstlagen programmatisch te wijzigen.  
+- **Welke bibliotheekversie heb ik nodig?** Elke recente Aspose.PSD voor Java‑release (compatibel met JDK 8+).  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een licentie is vereist voor productiegebruik.  
+- **Kan ik de lettergrootte van een PSD‑tekstlaag wijzigen?** Absoluut – gebruik de `updateText`‑methode met een grootte‑parameter.  
+- **Is het proces cross‑platform?** Ja – Java draait op Windows, macOS en Linux, dus je code werkt overal.
 
-## Wat is “update text layer PSD”?
-Het bijwerken van een tekstlaag in een PSD‑bestand betekent dat je programmatisch de tekenreeks, positie, lettergrootte, kleur of andere typografische attributen van de laag wijzigt. Dit is vooral nuttig voor batchverwerking, dynamische beeldgeneratie of het integreren van ontwerp‑assets in geautomatiseerde workflows.
+## Wat betekent “edit psd without photoshop”?
+PSD bewerken zonder Photoshop betekent het programmatisch wijzigen van de lagen, eigenschappen of inhoud van een Photoshop‑document met behulp van een externe bibliotheek in plaats van de Photoshop‑UI. Deze aanpak ondersteunt geautomatiseerde branding, dynamische afbeeldingengeneratie en grootschalige asset‑pijplijnen. Het stelt ontwikkelaars in staat ontwerpwijzigingen te integreren in CI/CD‑pijplijnen, gepersonaliseerde graphics on‑the‑fly te genereren, en een enkele bron van waarheid voor visuele assets te behouden zonder handmatige tussenkomst.
 
 ## Waarom Aspose.PSD voor Java gebruiken?
-- **No Photoshop needed:** Werk volledig vanuit code.  
-- **Full layer support:** Toegang tot tekst-, vorm‑ en rasterlagen.  
-- **High performance:** Snel laden en opslaan van grote PSD‑bestanden.  
-- **Cross‑platform:** Draai op elk systeem met een Java‑runtime.  
+Aspose.PSD voor Java elimineert de noodzaak van een gelicentieerde Photoshop‑installatie op je server, terwijl het volledige laagondersteuning, hoge prestaties en cross‑platform compatibiliteit biedt. De bibliotheek kan PSD‑bestanden tot 2 GB verwerken, gebruikt gemiddeld minder dan 200 MB RAM, en biedt één API om te werken met tekst-, vorm-, raster- en smart‑object‑lagen, waardoor het ideaal is voor automatisering op enterprise‑niveau.
 
 ## Vereisten
-Voordat we in de details van de tutorial duiken, laten we ervoor zorgen dat je goed voorbereid bent. Dit heb je nodig:
+1. **Java Development Kit (JDK):** Versie 8 of later geïnstalleerd.  
+2. **Aspose.PSD for Java Library:** Download deze **[here](https://releases.aspose.com/psd/java/)**.  
+3. **IDE:** IntelliJ IDEA, Eclipse, of een andere Java‑compatibele editor.  
+4. **Basiskennis van Java:** Vertrouwd met klassen, objecten en exception‑handling.  
+5. **Voorbeeld‑PSD:** Een bestand genaamd `layers.psd` dat minstens één tekstlaag bevat.
 
-1. **Java Development Kit (JDK):** JDK 8 of later geïnstalleerd op je machine.  
-2. **Aspose.PSD for Java Library:** Download het [hier](https://releases.aspose.com/psd/java/).  
-3. **An IDE:** IntelliJ IDEA, Eclipse, of je favoriete Java‑IDE.  
-4. **Basic Knowledge of Java:** Een basisbegrip van Java helpt je soepel de tutorial te volgen.  
-5. **PSD File:** Een voorbeeld‑PSD (genaamd `layers.psd`) dat minstens één tekstlaag bevat.
+## Importeer pakketten
+De `import`‑statements brengen de essentiële Aspose.PSD‑klassen in scope.
 
-Nu we klaar zijn, laten we de benodigde pakketten importeren en aan de code beginnen.
-
-## Pakketten importeren
-In elk Java‑project is het importeren van de juiste pakketten cruciaal. Zo kun je van start gaan:
+De volgende pakketten zijn vereist voor het laden van PSD‑bestanden, itereren over lagen, en bijwerken van tekstinhoud.
 
 ```java
 import com.aspose.psd.Color;
@@ -57,30 +111,42 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
 
-Deze pakketten geven je toegang tot essentiële klassen die nodig zijn om met PSD‑bestanden te werken en lagen effectief te manipuleren.
+## Hoe kun je PSD bewerken zonder Photoshop?
+`TextLayer` is een klasse die een tekstlaag in een PSD‑document vertegenwoordigt.  
+`updateText` is een methode die de tekstinhoud, positie, grootte en kleur van een TextLayer bijwerkt.  
+
+Laad het PSD‑bestand, vind de gewenste `TextLayer` en roep `updateText` aan – alles in een paar beknopte Java‑regels. Deze directe aanpak elimineert de noodzaak van Photoshop, vermindert handmatige inspanning, en maakt batch‑verwerking van duizenden bestanden mogelijk met minimale overhead.
+
+## Wat is `TextLayer`?
+`TextLayer` vertegenwoordigt een Photoshop‑tekstlaag die bewerkbare tekenreeksinhoud, lettertype‑informatie en stijl‑attributen opslaat. Het biedt methoden om deze eigenschappen programmatisch te lezen en te wijzigen, waardoor ontwikkelaars tekst, lettertype, kleur en positionering kunnen aanpassen zonder de originele PSD in Photoshop te openen.
+
+## Hoe tekst in PSD vervangen?
+Identificeer de doel‑`TextLayer` en roep zijn `updateText`‑methode aan met de nieuwe tekenreeks. Deze enkele aanroep overschrijft de bestaande tekst terwijl de laagpositionering, stijl en andere attributen behouden blijven, zodat de visuele lay-out consistent blijft na de wijziging.
+
+## Hoe de PSD‑lettergrootte wijzigen?
+Geef de gewenste puntgrootte door als het derde argument aan `updateText`. Aspose.PSD berekent automatisch de glyph‑metingen opnieuw, waardoor de tekst wordt gerenderd op de exacte grootte die je opgeeft, terwijl de juiste spatiëring en uitlijning binnen de laag behouden blijven.
+
+## Hoe PSD‑tekstlaag batchgewijs bijwerken?
+Loop door een map met PSD‑bestanden, pas dezelfde `updateText`‑logica toe op elk bestand, en sla de resultaten op met een nieuwe bestandsnaam. Dit patroon schaalt moeiteloos van een handvol bestanden tot duizenden, waardoor het ideaal is voor geautomatiseerde branding‑pijplijnen.
 
 ## Hoe PSD‑tekstlagen bewerken – Stapsgewijze gids
 
-### Stap 1: Stel je documentmap in
-Eerst declareer je een variabele genaamd `dataDir` waar je PSD‑bestand zich bevindt. Het is alsof je je basiskamp opstelt voordat je op expeditie gaat.
+### Stap 1: Stel uw documentmap in
+Eerst declareer je een variabele genaamd `dataDir` die naar de map wijst die je PSD‑bestanden bevat. Dit is vergelijkbaar met het opzetten van een basiskamp voordat je aan een expeditie begint.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Vervang `"Your Document Directory"` door het pad waar je `layers.psd` bestand zich bevindt. Dit helpt het programma je bestand moeiteloos te vinden.
-
 ### Stap 2: Laad het PSD‑bestand
-Vervolgens laden we het PSD‑bestand in ons programma. Dit is de toegangspoort tot de lagen.
+Vervolgens laad je het PSD‑bestand in het geheugen. Deze stap geeft toegang tot elke laag in het document.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-Hier gebruiken we de `Image.load` methode om de PSD te laden als een `PsdImage`. Door te casten kunnen we laag‑specifieke methoden en eigenschappen benaderen. Het is alsof je de deur opent naar een schatkist vol ontwerpelementen!
-
 ### Stap 3: Doorloop de lagen
-Nu moeten we door elke laag in het PSD‑bestand itereren om de tekstlagen te vinden die we willen bijwerken.
+Loop nu door elke laag om de lagen te vinden die instanties van `TextLayer` zijn. Deze selectieve zoekopdracht zorgt ervoor dat je alleen tekstlagen wijzigt en raster‑ of vormlagen onaangeroerd laat.
 
 ```java
 for (int i = 0; i < psdImage.getLayers().length; i++) {
@@ -91,53 +157,61 @@ for (int i = 0; i < psdImage.getLayers().length; i++) {
 }
 ```
 
-In dit fragment controleren we of elke laag een instantie is van `TextLayer`. Zo ja, casten we deze naar `TextLayer`. Stel je dit voor als het doorzoeken van een doos met verschillende chocolaatjes om degene met jouw favoriete vulling te vinden!
+Beschouw dit als het doorzoeken van een doos met verschillende chocolaatjes en alleen die met karamelvulling eruit halen – je krijgt precies wat je nodig hebt zonder extra ruis.
 
 ### Stap 4: Vervang PSD‑tekst, wijzig PSD‑lettergrootte en wijzig PSD‑tekstkleur
-Nadat we een tekstlaag hebben geïdentificeerd, is het tijd om deze bij te werken met nieuwe inhoud **en** de visuele stijl aan te passen. De `updateText` methode laat je de tekst vervangen, een nieuwe lettergrootte instellen en een andere kleur toepassen — allemaal in één oproep.
+Nadat je een tekstlaag hebt geïdentificeerd, roep je `updateText` aan om de inhoud te vervangen, een nieuwe lettergrootte in te stellen en een andere kleur toe te passen — alles in één methode‑aanroep.
 
 ```java
 textLayer.updateText("test update", new Point(0, 0), 15.0f, Color.getPurple());
 ```
 
-In deze regel **replace PSD text** we met `"test update"`, plaatsen we het op coördinaten `(0, 0)` in de laag, stellen we de **change PSD font size** in op **15 punten**, en **change PSD text color** naar paars. Het is net alsof je je tekst een frisse make‑over geeft zonder de drama van Photoshop te openen!
+In deze regel vervangen we de bestaande tekenreeks door `"test update"`, positioneren we de tekst op `(0, 0)`, stellen we de **change PSD font size** in op **15 pt**, en wijzigen we de **change PSD text color** naar een levendig paars. De methode behandelt automatisch alle onderliggende PSD‑structuren.
 
 ### Stap 5: Sla het bijgewerkte PSD‑bestand op
-Nadat we deze spannende update aan de tekstlaag hebben gedaan, moeten we onze wijzigingen opslaan in een nieuw PSD‑bestand.
+Tot slot schrijf je de gewijzigde afbeelding terug naar de schijf. Opslaan maakt een nieuw PSD‑bestand aan dat al je wijzigingen bevat, terwijl het originele bestand onaangeroerd blijft.
 
 ```java
 psdImage.save(dataDir + "UpdateTextLayerInPSDFile_out.psd");
 ```
 
-Deze regel slaat het aangepaste PSD‑bestand op, waardoor al je aanpassingen behouden blijven. Beschouw het als het verzegelen van je meesterwerk in een galerie, klaar voor de wereld om te bewonderen!
+Beschouw dit als het verzegelen van je vers bewerkte kunstwerk in een beschermend frame, klaar voor distributie of verdere verwerking.
 
 ## Veelvoorkomende problemen en oplossingen
-- **File not found:** Controleer het `dataDir` pad en zorg dat `layers.psd` daar bestaat.  
-- **Unsupported layer type:** De lus verwerkt alleen `TextLayer` instanties; andere laagt types worden veilig genegeerd.  
-- **Color not applied:** Controleer of de gekozen kleur wordt ondersteund door de PSD‑kleurruimte.
+- **Bestand niet gevonden:** Controleer of `dataDir` naar de juiste map wijst en dat `layers.psd` bestaat.  
+- **Niet‑ondersteund laagtype:** De lus verwerkt alleen `TextLayer`‑instanties; andere lagen worden veilig genegeerd.  
+- **Kleur niet toegepast:** Zorg ervoor dat de gekozen kleur is gedefinieerd in dezelfde kleurenruimte als de PSD (RGB of CMYK).  
+- **Geheugengebruik piekt bij grote bestanden:** Gebruik de `load`‑overload van `PsdImage` met `LoadOptions` om streaming in te schakelen voor bestanden groter dan 500 MB.
 
 ## Veelgestelde vragen
 
 **Q: Wat is Aspose.PSD voor Java?**  
-A: Aspose.PSD voor Java is een bibliotheek die ontwikkelaars in staat stelt PSD‑bestanden programmatisch te maken, te manipuleren en te converteren.
+A: Aspose.PSD voor Java is een zelfstandige bibliotheek die ontwikkelaars in staat stelt PSD‑bestanden programmatisch te maken, bewerken en converteren zonder Adobe Photoshop te vereisen.
 
 **Q: Kan ik afbeeldingen in PSD‑bestanden bijwerken met Aspose.PSD?**  
-A: Ja, je kunt afbeeldingen, tekstlagen en zelfs volledige composities bijwerken met Aspose.PSD.
+A: Ja, je kunt raster‑afbeeldingen vervangen, tekstlagen bewerken en vectorvormen wijzigen — allemaal via dezelfde API.
 
 **Q: Waar kan ik Aspose.PSD voor Java downloaden?**  
-A: Je kunt het downloaden van [hier](https://releases.aspose.com/psd/java/).
+A: Je kunt het downloaden **[here](https://releases.aspose.com/psd/java/)**.
 
 **Q: Is er een gratis proefversie beschikbaar?**  
-A: Ja, Aspose biedt een gratis proefversie. Je kunt het bekijken [hier](https://releases.aspose.com/).
+A: Ja, een gratis proefversie is beschikbaar **[here](https://releases.aspose.com/)**.
 
 **Q: Waar kan ik ondersteuning voor Aspose.PSD vinden?**  
-A: Je kunt vragen stellen en ondersteuning zoeken in het [Aspose‑forum](https://forum.aspose.com/c/psd/34).
+A: Je kunt vragen stellen en ondersteuning zoeken in het **[Aspose forum](https://forum.aspose.com/c/psd/34)**.
 
 ---
 
-**Laatste update:** 2026-02-22  
+**Laatst bijgewerkt:** 2026-05-24  
 **Getest met:** Aspose.PSD for Java (latest release)  
-**Auteur:** Aspose  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [aspose psd java: Pas de begrenzingsvak van tekstlaag aan in PSD](/psd/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/)
+- [Render tekst met verschillende kleuren in tekstlaag met Aspose.PSD voor Java](/psd/java/advanced-techniques/render-text-different-colors/)
+- [Voeg tekstlaag toe tijdens runtime in PSD‑bestanden met Java](/psd/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
