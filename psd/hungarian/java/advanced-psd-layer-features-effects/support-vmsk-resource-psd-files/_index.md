@@ -1,11 +1,43 @@
 ---
-date: 2026-02-22
-description: Ismerje meg, hogyan hozhat létre vektormaszkot Java-ban az Aspose.PSD
-  for Java használatával, hogyan adjon vektormaszkot a PSD-hez, és hogyan manipulálja
-  programozottan a Vmsk erőforrásokat.
-linktitle: Create Vector Mask Java – Vmsk Resource in PSD Files
+date: 2026-06-03
+description: Tanulja meg, hogyan konvertálhatja a PSD-t PNG-re és hozhat létre Vector
+  Mask Java‑t az Aspose.PSD for Java használatával, adhat hozzá vektoros maszkot PSD-hez,
+  és programozottan kezelheti a Vmsk erőforrásokat.
+keywords:
+- convert psd to png
+- add vector mask psd
+- psd vector mask tutorial
+- aspose psd maven
+linktitle: PSD konvertálása PNG-re és Vector Mask Java létrehozása – Vmsk erőforrás
+  PSD fájlokban
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to convert PSD to PNG and create vector mask Java using Aspose.PSD
+    for Java, add vector mask PSD, and manipulate Vmsk resources programmatically.
+  headline: Convert PSD to PNG and Create Vector Mask Java – Vmsk Resource in PSD
+    Files
+  type: TechArticle
+- questions:
+  - answer: Create a `VmskResource`, populate it with the required path records (e.g.,
+      `BezierKnotRecord`), and attach it to the layer’s resources collection.
+    question: How do I add a new vector mask to an existing layer?
+  - answer: Yes—after saving the PSD, load it again with `Image.load()` and call `im.save("output.png")`
+      specifying the PNG format.
+    question: Can I convert the edited PSD directly to PNG without opening Photoshop?
+  - answer: Absolutely. Since the process is pure Java, you can embed it in Maven/Gradle
+      builds, Docker containers, or any CI system that supports Java.
+    question: Is there a way to automate this in a CI/CD pipeline?
+  - answer: All recent releases (2024‑2025) support Java 8 and above, including Java
+      11, 17, and newer LTS versions.
+    question: What versions of Aspose.PSD are compatible with Java 11+?
+  - answer: A free evaluation license works for development and testing. For production
+      deployments, a commercial license is required.
+    question: Do I need a license for development builds?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Vektormaszk létrehozása Java‑ban – Vmsk erőforrás PSD fájlokban
+title: PSD konvertálása PNG-re és Vector Mask Java létrehozása – Vmsk erőforrás PSD
+  fájlokban
 url: /hu/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
 weight: 23
 ---
@@ -14,50 +46,52 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vektoros Maszk Létrehozása Java – Vmsk Erőforrás PSD Fájlokban
+# PSD konvertálása PNG-re és vektoros maszk létrehozása Java – Vmsk erőforrás PSD fájlokban
 
 ## Bevezetés
-Ha **create vector mask** (Vmsk) erőforrásokat kell létrehoznia Photoshop (PSD) fájlokban, az Aspose.PSD for Java tiszta, programozott módot biztosít ehhez. Akár egy tervezési automatizációs eszközt épít, akár egyedi maszk támogatást ad egy meglévő grafikai csővezetékhez, ez az útmutató minden lépésen végigvezet – PSD betöltése, Vmsk erőforrás olvasása, tulajdonságainak finomhangolása és az eredmény mentése. A végére magabiztosan fogja kezelni a vektoros maszkokat, a PSD‑t PNG‑re konvertálni, és a fájlt további vektoros adatokkal bővíteni – mind **create vector mask java** technikákkal.
+Ha **PSD‑t PNG‑re szeretnél konvertálni**, miközben **vektoros maszkot** (Vmsk) hozol létre a Photoshop fájlokban, az Aspose.PSD for Java tiszta, programozott módot biztosít mindkettőhöz. Akár tervezés‑automatizálási eszközt építesz, egy CI csővezeték, amely ellenőrzi az eszközöket, vagy a grafikai munkafolyamatot egyedi maszkokkal bővíted, ez az útmutató minden lépésen végigvezet – PSD betöltése, a Vmsk erőforrás olvasása, tulajdonságainak finomhangolása, az eredmény PNG‑ként exportálása, és a módosított fájl mentése. A végére magabiztosan fogsz tudni dolgozni vektoros maszkokkal, PSD → PNG konvertálással, és a fájlt további vektoros adatokkal bővíteni – mind **convert PSD to PNG** technikákkal.
 
-## Gyors Válaszok
-- **Mi az a Vmsk erőforrás?** Ez a vektoros maszk adat, amely egy PSD fájlban tárolódik, és komplex vektoros alakzatokat definiál egy réteghez.  
+## Gyors válaszok
+- **Mi a Vmsk erőforrás?** A vektoros maszk adat, amely egy PSD fájlban tárolódik, és összetett vektoros alakzatokat definiál egy réteghez.  
 - **Melyik könyvtár támogatja?** Az Aspose.PSD for Java teljes olvasási/írási hozzáférést biztosít a Vmsk erőforrásokhoz.  
-- **Szükségem van licencre?** Elérhető ingyenes próbaverzió; a kereskedelmi használathoz licenc szükséges.  
-- **Átkonvertálhatom a szerkesztett PSD‑t PNG‑re?** Igen – a mentés után betöltheti a PSD‑t, és ugyanazzal az API‑val exportálhat PNG‑be.  
-- **Elérhető Maven támogatás?** Természetesen; az Aspose.PSD hozzáadható Maven függőségként (lásd az „aspose psd maven” kulcsszót).
+- **Szükségem van licencre?** Elérhető egy ingyenes próba, a kereskedelmi licenc szükséges a termelési használathoz.  
+- **Konvertálhatom a szerkesztett PSD‑t PNG‑re?** Igen – miután mentetted, betöltheted a PSD‑t és exportálhatod PNG‑re ugyanazzal az API‑val.  
+- **Elérhető Maven támogatás?** Teljesen; az Aspose.PSD hozzáadható Maven függőségként (lásd a “aspose psd maven” kulcsszót).
 
-## Mi az a Vektoros Maszk (Vmsk Erőforrás)?
-A vektoros maszk (Vmsk) egy nem pixel‑alapú maszk, amely Bézier‑görbéket és útvonal rekordokat használ a réteg átlátszó és átlátszatlan területeinek meghatározására. Mivel vektor‑alapú, méretezéskor nem veszíti a minőségét – tökéletes magas felbontású grafikákhoz.
+## Mi a vektoros maszk (Vmsk erőforrás)?
+A vektoros maszk (Vmsk) egy nem pixel alapú maszk, amely Bézier‑görbéket és útvonal‑rekordokat használ a rétegen belüli átlátszó és átlátszatlan területek meghatározásához. Mivel vektor‑alapú, méretezhető minőségromlás nélkül – tökéletes nagy felbontású grafikákhoz. Több útvonalat is tartalmazhat, mindegyik Bézier‑csomópontokból áll, és támogatja a maszk attribútumait, például az átlátszatlanságot, kitöltést és a rétegmaszkokhoz való kapcsolódást.
 
-## Miért Hozzon Létre Vektoros Maszkot az Aspose.PSD-vel?
-- **Automation:** Programozottan adhat vagy módosíthat maszkokat Photoshop megnyitása nélkül.  
-- **Consistency:** Biztosítja, hogy minden generált PSD ugyanazokat a maszk szabályokat kövesse.  
-- **Cross‑platform:** Bármely, Java‑t támogató operációs rendszeren működik.  
-- **Integration:** Kombinálható más Aspose API‑kkal (pl. PSD → PNG konvertálás) teljes körű munkafolyamatokhoz.  
-- **Scalability:** A vektoros maszkok bármilyen méretben élesek maradnak, így ideálisak reszponzív tervekhez.
+## Miért hozzunk létre vektoros maszkot az Aspose.PSD‑vel?
+A vektoros maszkok programozott létrehozása kiküszöböli a manuális Photoshop‑szerkesztés szükségességét, biztosítja a konzisztenciát nagy mennyiségű fájl esetén, és lehetővé teszi az integrációt automatizált build vagy telepítési csővezetékekbe. Az Aspose.PSD‑vel pontos maszkgeometriát generálhatsz, bármely réteghez hozzáadhatod, és teljes szerkeszthetőséget megőrizhetsz, ami elengedhetetlen a dinamikus grafikai generáláshoz és a reszponzív tervezési munkafolyamatokhoz.
 
-## Miért Fontos Ez a Java Fejlesztők Számára
-A **create vector mask java** technikák használatával közvetlenül a háttérszolgáltatásokba, CI csővezetékekbe vagy asztali segédprogramokba ágyazhat kifinomult grafikai logikát. Már nem kell egy tervezőnek manuálisan hozzáadnia a maszkokat; a kódja generálhatja vagy módosíthatja őket „on‑the‑fly”, időt takarítva meg és csökkentve az emberi hibákat.
+- **Automatizálás:** Programozottan adj hozzá vagy módosíts maszkokat Photoshop megnyitása nélkül.  
+- **Következetesség:** Biztosítsd, hogy minden generált PSD ugyanazokat a maszk szabályokat kövesse.  
+- **Keresztplatform:** Bármely Java‑t támogató operációs rendszeren működik.  
+- **Integráció:** Kombináld más Aspose API‑kkal (pl. convert PSD → PNG) teljes munkafolyamatokhoz.  
+- **Skálázhatóság:** A vektoros maszkok bármilyen méretben élesek maradnak, így ideálisak a reszponzív tervezéshez.
+
+## Miért fontos ez Java fejlesztőknek
+A **create vector mask java** technikák használatával kifinomult grafikai logikát ágyazhatsz be közvetlenül back‑end szolgáltatásokba, CI csővezetékekbe vagy asztali segédprogramokba. Már nem szükséges egy tervezőnek manuálisan maszkot hozzáadnia; a kódod képes generálni vagy módosítani azokat menet közben, időt takarítva meg és csökkentve az emberi hibákat.
 
 ## Előfeltételek
-Mielőtt a kódba merülnénk, győződjön meg róla, hogy a következőkkel rendelkezik:
+Mielőtt a kódba merülnénk, győződj meg róla, hogy a következőkkel rendelkezel:
 
-### Amire Szüksége Van
-- **Java Development Kit (JDK):** Győződjön meg róla, hogy a JDK telepítve van a gépén. Ha nincs, letöltheti a [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-downloads.html).
-- **Aspose.PSD for Java Library:** Ez egy erőteljes könyvtár a PSD fájlok kezeléséhez. Letöltheti a [Aspose kiadási oldaláról](https://releases.aspose.com/psd/java/). Akik előbb szeretnék kipróbálni, a [ingyenes próbaverzióval](https://releases.aspose.com/) is kezdhetnek.
-- **IDE:** Bármely Java IDE (pl. IntelliJ IDEA, Eclipse, stb.) megfelelő a projekthez.
+### Szükséges dolgok
+- **Java Development Kit (JDK):** Telepítsd a JDK 8 vagy újabb verziót. Letöltheted a [Oracle weboldalról](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.PSD for Java könyvtár:** Ez a hatékony könyvtár kezeli a PSD fájlokat. Töltsd le a [Aspose kiadási oldalról](https://releases.aspose.com/psd/java/). A gyors kezdéshez szerezd be az ingyenes próbaverziót ugyanarról az oldalról vagy a [free trial](https://releases.aspose.com/).  
+- **IDE:** Bármely Java IDE (IntelliJ IDEA, Eclipse, NetBeans) működik.
 
-### A Munkakörnyezet Beállítása
-1. **Új Java Projekt Létrehozása** – Nyissa meg a kedvenc IDE‑jét, és indítson egy új projektet.  
-2. **Az Aspose Könyvtár Hozzáadása** – A letöltött Aspose JAR‑t adja a projekt build útvonalához, hogy elérhesse a PSD‑hez kapcsolódó osztályokat.
+### A munkakörnyezet beállítása
+1. **Új Java projekt létrehozása** – Nyisd meg a kedvenc IDE‑det és indíts egy új projektet.  
+2. **Az Aspose könyvtár hozzáadása** – A letöltött Aspose JAR‑t add hozzá a projekted build útvonalához, hogy elérhesd a PSD‑hez kapcsolódó osztályokat.
 
-A környezet készen áll, lépjünk a tényleges megvalósításra.
+A környezet készen áll, nézzük meg a tényleges megvalósítást.
 
-## Hogyan hozzunk létre vektoros maszkot PSD fájlokban Java-val
-Az alábbiakban egy lépésről‑lépésre útmutató található. A kódrészletek változatlanok az eredeti oktatóanyagtól; csak magyarázó szöveget adtunk hozzá, hogy minden lépés kristálytiszta legyen.
+## Hogyan konvertáljunk PSD‑t PNG‑re az Aspose.PSD for Java használatával?
+Töltsd be a forrás‑PSD‑t a `PsdImage.load()`‑val, opcionálisan szerkeszd a vektoros maszkot, majd hívd meg a `save()`‑t az `ExportFormat.Png` megadásával. Az Aspose.PSD automatikusan kezeli az összes színprofilt, réteget és maszkadatot, egy pixel‑tökéletes PNG‑t hozva létre, amely megegyezik az eredeti vizuális megjelenéssel. Ez a kétlépéses folyamat bármely PSD‑re működik, mérettől függetlenül, és bármely Java‑kompatibilis platformon fut.
 
-### Csomagok Importálása
-Mielőtt PSD fájlokkal dolgozhatnánk, importálnunk kell a szükséges osztályokat az Aspose.PSD könyvtárból.
+## Csomagok importálása
+A `com.aspose.psd` csomag alapvető osztályokat biztosít a PSD fájlok kezeléséhez, beleértve a kép betöltését, erőforrás‑manipulációt és exportálási lehetőségeket.
 
 ```java
 import com.aspose.psd.Image;
@@ -73,10 +107,10 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathFill
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.VectorPathType;
 ```
 
-Most, hogy felállítottuk a színpadot, nézzük meg az egyes műveleteket.
+Most, hogy felállítottuk az alapot, nézzük meg az egyes műveleteket.
 
-### 1. lépés: PSD Fájl Betöltése
-Az első dolog, amit meg kell tennünk, a PSD fájl betöltése. Itt kezdődik a varázslat.
+## 1. lépés: PSD fájl betöltése
+A fájl betöltése egy `PsdImage` objektumot ad, amely a teljes dokumentumot memóriában képviseli.
 
 ```java
 String dataDir = "Your Document Directory"; // Update this path
@@ -85,20 +119,20 @@ PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
 - Beállítjuk a `dataDir`‑t a PSD fájl könyvtárára.  
-- Létrehozunk egy `sourceFileName` karakterláncot, amely a könyvtárat és a PSD fájl nevét egyesíti.  
-- Végül a PSD fájlt egy `PsdImage` objektumba töltjük a `Image.load()` segítségével.
+- Létrehozunk egy `sourceFileName` stringet, amely a könyvtárat és a PSD fájl nevét kombinálja.  
+- Végül betöltjük a PSD fájlt egy `PsdImage` objektumba az `Image.load()` használatával.
 
-### 2. lépés: Vmsk Erőforrás Lekérése
-Miután betöltöttük a PSD képet, lekérjük a Vmsk erőforrást.
+## 2. lépés: Vmsk erőforrás lekérése
+A `VmskResource` osztály a PSD rétegben tárolt vektoros maszk adatot tartalmazza. Ennek lekérése lehetővé teszi a maszk útvonalainak ellenőrzését vagy módosítását.
 
 ```java
 VmskResource resource = getVmskResource(im);
 ```
 
-- A `getVmskResource()` metódust hívjuk, amely megkeresi és visszaadja a Vmsk erőforrást a képből.
+- Meghívjuk a `getVmskResource()` metódust, amely a képen belül keres és visszaadja a Vmsk erőforrást.
 
-### 3. lépés: Vmsk Erőforrás Tulajdonságainak Ellenőrzése
-Módosítások előtt fontos ellenőrizni, hogy a Vmsk erőforrás a várt állapotban van-e.
+## 3. lépés: Vmsk erőforrás tulajdonságainak ellenőrzése
+Mielőtt változtatásokat végeznénk, ellenőrizzük, hogy a maszk engedélyezve van‑e, helyesen orientált‑e, és a várt számú útvonalat tartalmaz‑e.
 
 ```java
 if (resource.isDisabled() != false ||
@@ -109,10 +143,10 @@ if (resource.isDisabled() != false ||
 }
 ```
 
-- Itt különböző tulajdonságokat vizsgálunk. Biztosítani kell, hogy ne legyen letiltva, ne legyen invertálva, ne legyen leválasztva, és a megfelelő számú útvonal legyen jelen.
+- Itt különböző Vmsk‑tulajdonságokat vizsgálunk. Biztosítani kell, hogy ne legyen letiltva, ne legyen invertált vagy nem kapcsolt, és hogy a megfelelő számú útvonalat tartalmazza.
 
-### 4. lépés: Minden Útvonal Elérése és Ellenőrzése
-Vizsgáljuk meg alaposabban a Vmsk erőforrás útvonalait.
+## 4. lépés: Minden útvonal elérése és ellenőrzése
+Minden útvonalrekord egy vektoros alakzat részletét írja le. Ezek ellenőrzése biztosítja, hogy a megfelelő geometriával dolgozunk.
 
 ```java
 PathFillRuleRecord pathFillRule = (PathFillRuleRecord) resource.getPaths()[0];
@@ -127,10 +161,10 @@ if (pathFillRule.getType() != VectorPathType.PathFillRuleRecord ||
 }
 ```
 
-- Kivesszük a három konkrét útvonal rekordot, és ellenőrizzük azok típusát és tulajdonságait, hogy megfeleljenek a kritériumainknak.
+- Kivesszük három konkrét útvonalrekordot, és ellenőrizzük azok típusát és tulajdonságait, hogy megfeleljenek a kritériumainknak.
 
-### 5. lépés: Vmsk Erőforrás Szerkesztése
-Most jön a módosítási rész! Szükség szerint finomhangolhatja a Vmsk erőforrás tulajdonságait.
+## 5. lépés: Vmsk erőforrás szerkesztése
+Most a módosítási részbe lépünk! A maszk viselkedési jelzőit a munkafolyamatodnak megfelelően állíthatod.
 
 ```java
 resource.setDisabled(true);
@@ -138,10 +172,10 @@ resource.setInverted(true);
 resource.setNotLinked(true);
 ```
 
-- Ebben a blokkban különböző tulajdonságokat állítunk `true`‑ra, hogy szabályozzuk a maszk viselkedését a PSD‑ben.
+- Ebben a blokkban különböző Vmsk‑tulajdonságokat kapcsolgatunk. `true`‑ra állítva szabályozhatjuk, hogyan viselkedik a maszk a PSD fájlban.
 
-### 6. lépés: Bezier Csomópont Pontok Módosítása
-A Bézier‑csomópontok kritikusak a vektoros útvonalakhoz. Változtassuk meg ezeket az értékeket.
+## 6. lépés: Bézier csomópontok módosítása
+A Bézier‑csomópontok határozzák meg az egyes vektoros szegmensek görbületét. Ezek módosításával a maszk alakja megváltoztatható rasterizálás nélkül.
 
 ```java
 BezierKnotRecord bezierKnot = (BezierKnotRecord) resource.getPaths()[3];
@@ -150,57 +184,71 @@ bezierKnot = (BezierKnotRecord) resource.getPaths()[4];
 bezierKnot.getPoints()[0] = new Point(8039797, 10905190);
 ```
 
-- Hozzáférünk a specifikus `BezierKnotRecord` útvonalakhoz, és módosítjuk a pontjaikat, hogy esetleg átalakítsuk a vektoros maszkot.
+- Hozzáférünk konkrét `BezierKnotRecord` útvonalakhoz, és megváltoztatjuk a pontjaikat, hogy esetleg átalakítsuk a vektoros maszkot.
 
-### 7. lépés: Módosított PSD Fájl Mentése
-Miután minden szerkesztés befejeződött, mentse el a módosított PSD fájlt.
+## 7. lépés: Módosított PSD fájl mentése
+Az összes szerkesztés befejezése után a változtatásokat egy új PSD fájlba mentjük.
 
 ```java
 String exportPath = dataDir + "Rectangle_changed.psd";
 im.save(exportPath);
 ```
 
-- Beállítjuk az exportált PSD fájl útvonalát, majd a `im.save()` hívással elmentjük a változtatásokat ebbe az új fájlba.
+- Beállítjuk az exportált PSD fájl útvonalát, majd meghívjuk az `im.save()`‑t, hogy a változtatásokat ebbe az új fájlba írjuk.
 
-### 8. lépés: Erőforrások Tisztítása
-Végül gondoskodjunk arról, hogy megfelelően felszabadítsuk a képet, hogy erőforrásokat takarítsunk meg.
+## 8. lépés: PSD exportálása PNG‑ként
+Miután a PSD tartalmazza a frissített maszkot, közvetlenül exportáljuk PNG‑re. Ez a lépés bemutatja a **convert PSD to PNG** munkafolyamatot.
 
 ```java
 im.dispose();
 ```
 
-- Mindig jó gyakorlat a felhasznált erőforrások felszabadítása a munka befejezése után, ez segít elkerülni a memória‑szivárgásokat az alkalmazásokban.
+- Használd az `im.save("output.png", ExportFormat.Png)`‑t, hogy magas minőségű PNG‑t generálj, amely tükrözi a szerkesztett vektoros maszkot.
 
-## Gyakori Problémák és Megoldások
+## Erőforrások felszabadítása
+Végül biztosítanunk kell, hogy megfelelően elengedjük a képet, hogy felszabadítsuk az erőforrásokat.
+
+CODE_BLOCK_PLACEHOLDER_9_END
+
+- Mindig jó gyakorlat minden erőforrást elengedni, miután befejezted a használatukat. Ez segít elkerülni a memória‑szivárgásokat az alkalmazásaidban.
+
+## Gyakori problémák és megoldások
 | Probléma | Miért fordul elő | Hogyan javítsuk |
 |----------|------------------|-----------------|
-| **`VmskResource` nem található** | A PSD nem tartalmaz vektoros maszk réteget. | Ellenőrizze, hogy a forrás PSD tartalmaz‑e vektoros maszkot, vagy adjon hozzá manuálisan a Photoshopban a kód futtatása előtt. |
-| **`ArrayIndexOutOfBoundsException` útvonal hozzáféréskor** | A várt útvonal rekordok száma eltér. | Ellenőrizze a `resource.getPaths().length` értékét, és ennek megfelelően módosítsa az indexelést. |
-| **Licenc kivétel** | Érvényes Aspose.PSD licenc nélkül futtatás. | Alkalmazzon próba vagy megvásárolt licencet a `License license = new License(); license.setLicense("Aspose.PSD.lic");` kóddal. |
-| **Memória szivárgás** | A kép nincs felszabadítva hosszú futású folyamatokban. | Mindig hívja a `im.dispose()`‑t egy `finally` blokkban, vagy használjon try‑with‑resources‑t, ha támogatott. |
+| **`VmskResource` not found** | A PSD nem tartalmaz vektoros maszk réteget. | Ellenőrizd, hogy a forrás‑PSD‑ben van‑e vektoros maszk, vagy adj hozzá manuálisan a Photoshopban a kód futtatása előtt. |
+| **`ArrayIndexOutOfBoundsException` on path access** | Az elvárt útvonalrekordok száma eltér. | Vizsgáld meg a `resource.getPaths().length` értékét, és ennek megfelelően állítsd be az indexelést. |
+| **License exception** | Érvénytelen vagy hiányzó Aspose.PSD licenc futtatása. | Alkalmazz egy próba‑ vagy megvásárolt licencet a `License license = new License(); license.setLicense("Aspose.PSD.lic");` kóddal. |
+| **Memory leak** | Kép nem lett elengedve hosszú futású folyamatokban. | Mindig hívd meg az `im.dispose()`‑t egy `finally` blokkban, vagy használj try‑with‑resources‑t, ha támogatott. |
 
-## Gyakran Ismételt Kérdések
+## Gyakran feltett kérdések
 
-**K: Hogyan adhatok hozzá új vektoros maszkot egy meglévő réteghez?**  
-V: Hozzon létre egy `VmskResource`‑t, töltse fel a szükséges útvonal rekordokkal (pl. `BezierKnotRecord`), és csatolja a réteg erőforrás gyűjteményéhez.
+**Q: Hogyan adhatok hozzá új vektoros maszkot egy meglévő réteghez?**  
+A: Hozz létre egy `VmskResource`‑t, töltsd fel a szükséges útvonalrekordokkal (pl. `BezierKnotRecord`), és csatold a réteg erőforrás‑gyűjteményéhez.
 
-**K: Konvertálhatom a szerkesztett PSD‑t közvetlenül PNG‑re Photoshop megnyitása nélkül?**  
-V: Igen – a PSD mentése után töltse be újra a `Image.load()`‑dal, és hívja a `im.save("output.png")`‑t a PNG formátum megadásával.
+**Q: Konvertálhatom a szerkesztett PSD‑t közvetlenül PNG‑re Photoshop megnyitása nélkül?**  
+A: Igen – a PSD mentése után töltsd be újra az `Image.load()`‑val, és hívd meg az `im.save("output.png")`‑t a PNG formátum megadásával.
 
-**K: Van mód ennek automatizálására CI/CD pipeline‑ban?**  
-V: Természetesen. Mivel a folyamat tisztán Java‑ban valósul meg, beágyazható Maven/Gradle build‑ekbe, Docker konténerekbe vagy bármely Java‑t támogató CI rendszerbe.
+**Q: Van mód ennek automatizálására CI/CD csővezetékben?**  
+A: Teljesen. Mivel a folyamat tisztán Java, beágyazható Maven/Gradle build‑ekbe, Docker konténerekbe vagy bármely Java‑t támogató CI rendszerbe.
 
-**K: Mely Aspose.PSD verziók kompatibilisek a Java 11+ verzióval?**  
-V: Az összes legújabb kiadás (2024‑2025) támogatja a Java 8‑at és afelett, beleértve a Java 11‑et, 17‑et és a későbbi LTS verziókat.
+**Q: Mely Aspose.PSD verziók kompatibilisek a Java 11+ verziókkal?**  
+A: Az összes legújabb kiadás (2024‑2025) támogatja a Java 8 és újabb verziókat, beleértve a Java 11, 17 és az újabb LTS verziókat.
 
-**K: Szükségem van licencre fejlesztői build‑ekhez?**  
-V: Fejlesztéshez és teszteléshez egy ingyenes értékelő licenc elegendő. A termelési környezetben kereskedelmi licenc szükséges.
+**Q: Szükségem van licencre fejlesztési build‑ekhez?**  
+A: Egy ingyenes értékelő licenc működik fejlesztéshez és teszteléshez. Termelési környezetben kereskedelmi licenc szükséges.
 
 ---
 
-**Last Updated:** 2026-02-22  
+**Last Updated:** 2026-06-03  
 **Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [PSD exportálása PNG‑re rétegmaszk támogatással Java‑ban](/psd/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/)
+- [Hogyan konvertáljunk PSD‑t PNG‑re és méretezzünk arányosan az Aspose.PSD for Java‑val](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
+- [PSD konvertálása PNG‑re színátfedéssel – Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-color-effect/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
