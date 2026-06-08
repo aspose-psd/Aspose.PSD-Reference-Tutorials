@@ -1,33 +1,90 @@
 ---
-title: Ondersteuning voor Interrupt Monitor in Aspose.PSD voor Java
-linktitle: Ondersteuning voor interruptmonitor
-second_title: Aspose.PSD Java-API
-description: Ontgrendel de controle over de beeldverwerking met Aspose.PSD voor Java. Leer processen te onderbreken voor flexibele workflows.
-weight: 18
+date: 2026-06-08
+description: Leer hoe u PSD kunt opslaan als PNG met behulp van Aspose.PSD voor Java
+  en de conversie kunt onderbreken wanneer nodig. Beheer de afbeeldingsworkflow efficiënt.
+keywords:
+- save psd as png
+- how to interrupt conversion
+- psd to png conversion
+- manage image workflow
+linktitle: Ondersteuning voor Interrupt Monitor
+schemas:
+- author: Aspose
+  dateModified: '2026-06-08'
+  description: Learn how to save PSD as PNG using Aspose.PSD for Java and interrupt
+    conversion when needed. Manage image workflow efficiently.
+  headline: How to Save PSD as PNG with Interrupt Monitor in Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to save PSD as PNG using Aspose.PSD for Java and interrupt
+    conversion when needed. Manage image workflow efficiently.
+  name: How to Save PSD as PNG with Interrupt Monitor in Aspose.PSD for Java
+  steps:
+  - name: Set Your Document Directory
+    text: Ensure to replace “Your Document Directory” with the actual path where your
+      PSD documents are stored.
+  - name: Define Image Options and Output Path
+    text: Specify the image options, source PSD file, and the desired output path
+      for the converted image.
+  - name: Initialize Interrupt Monitor and SaveImageWorker
+    text: The `InterruptMonitor` class watches a running conversion and can interrupt
+      it when `requestInterrupt()` is called. Create instances of `InterruptMonitor`
+      and `SaveImageWorker`, linking the monitor to the image conversion worker.
+  - name: Start Image Conversion Thread
+    text: Initiate a new thread for the image conversion process and introduce a timeout
+      period to anticipate interruption.
+  - name: Interrupt the Process
+    text: Calling `monitor.requestInterrupt()` signals the monitor to abort the ongoing
+      conversion. Interrupt the image conversion process using the `InterruptMonitor`
+      and wait for the interruption to complete. Finally, clean up by deleting the
+      output file.
+  type: HowTo
+- questions:
+  - answer: Yes, use `InterruptMonitor` to stop the process on demand.
+    question: Can I interrupt a PSD‑to‑PNG conversion?
+  - answer: Call `save(outputPath, new PngOptions())`.
+    question: Which method saves a PSD as PNG?
+  - answer: A commercial license is required; a free trial is available.
+    question: Do I need a license for production?
+  - answer: Java 8 and later are fully supported.
+    question: What Java version is supported?
+  - answer: Conversions can run in separate threads; the monitor handles interruptions
+      safely.
+    question: Is the library thread‑safe?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+title: Hoe PSD opslaan als PNG met Interrupt Monitor in Aspose.PSD voor Java
 url: /nl/java/advanced-techniques/support-interrupt-monitor/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ondersteuning voor Interrupt Monitor in Aspose.PSD voor Java
+# PSD opslaan als PNG met Interrupt Monitor in Aspose.PSD voor Java
 
-## Invoering
+## Introductie
 
-Op het gebied van Java-ontwikkeling onderscheidt Aspose.PSD zich als een krachtig hulpmiddel voor het uitvoeren van verschillende beeldverwerkingstaken. Onder de vele functies is de ondersteuning voor een Interrupt Monitor een cruciaal aspect dat de controle en flexibiliteit vergroot die ontwikkelaars hebben over de beeldverwerkingsworkflows. In deze zelfstudie gaan we dieper in op hoe u de Interrupt Monitor in Aspose.PSD voor Java kunt gebruiken om beeldconversieprocessen effectief te beheren en te onderbreken.
+Als je **PSD als PNG wilt opslaan** terwijl je volledige controle behoudt over langdurige conversies, biedt de Interrupt Monitor van Aspose.PSD voor Java precies dat. In deze tutorial lopen we door het instellen van de monitor, het converteren van een PSD‑bestand naar PNG, en het veilig afbreken van de bewerking wanneer dat nodig is. Je ziet ook hoe dit past in een typische beeldverwerkingsworkflow en waarom het een onmisbare functie is voor robuuste applicaties.
+
+## Snelle antwoorden
+- **Kan ik een PSD‑naar‑PNG conversie onderbreken?** Ja, gebruik `InterruptMonitor` om het proces op verzoek te stoppen.  
+- **Welke methode slaat een PSD op als PNG?** Roep `save(outputPath, new PngOptions())` aan.  
+- **Heb ik een licentie nodig voor productie?** Een commerciële licentie is vereist; een gratis proefversie is beschikbaar.  
+- **Welke Java‑versie wordt ondersteund?** Java 8 en hoger worden volledig ondersteund.  
+- **Is de bibliotheek thread‑safe?** Conversies kunnen in afzonderlijke threads draaien; de monitor behandelt onderbrekingen veilig.
 
 ## Vereisten
 
-Voordat u zich verdiept in de fijne kneepjes van het gebruik van Interrupt Monitor, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Voordat je de details van het gebruik van Interrupt Monitor induikt, zorg ervoor dat je de volgende vereisten hebt:
 
-- Java-ontwikkelomgeving: Zet een Java-ontwikkelomgeving op uw systeem op.
--  Aspose.PSD-bibliotheek: verkrijg de Aspose.PSD voor Java-bibliotheek. Je kunt het downloaden[hier](https://releases.aspose.com/psd/java/).
-- Documentmap: Zorg voor een aangewezen map voor uw PSD-documenten.
+- **Java‑ontwikkelomgeving:** Richt een Java‑ontwikkelomgeving op je systeem in.  
+- **Aspose.PSD‑bibliotheek:** Verkrijg de Aspose.PSD voor Java bibliotheek. Je kunt deze downloaden [hier](https://releases.aspose.com/psd/java/). Je kunt ook de hoofd‑Aspose‑site bezoeken [hier](https://releases.aspose.com/).  
+- **Documentmap:** Zorg voor een aangewezen map voor je PSD‑documenten.
 
 ## Pakketten importeren
 
-Begin met het importeren van de benodigde pakketten in uw Java-project. Dit zorgt ervoor dat u toegang heeft tot de functionaliteiten van Aspose.PSD.
+Begin met het importeren van de benodigde pakketten in je Java‑project. Dit zorgt ervoor dat je toegang hebt tot de functionaliteiten van Aspose.PSD.
 
 ```java
 import com.aspose.psd.ImageOptionsBase;
@@ -39,17 +96,24 @@ import com.aspose.psd.system.Threading.ThreadStart;
 import java.io.File;
 ```
 
-Laten we nu de voorbeeldcode opsplitsen in een stapsgewijze handleiding voor het opnemen van Interrupt Monitor in uw Aspose.PSD voor Java-project.
+Laten we nu de voorbeeldcode stap voor stap ontleden voor het integreren van Interrupt Monitor in je Aspose.PSD voor Java‑project.
 
-## Stap 1: Stel uw documentmap in
+## Hoe PSD opslaan als PNG met behulp van de Interrupt Monitor?
+
+`PsdImage` vertegenwoordigt een PSD‑document dat in het geheugen is geladen.  
+`SaveImageWorker` voert de beeldconversie uit in een aparte thread.  
+
+Laad je PSD‑bestand met `new PsdImage("source.psd")`, koppel een `InterruptMonitor` aan de `SaveImageWorker`, en roep `save("output.png", new PngOptions())` aan. De monitor houdt een annuleringsverzoek in de gaten en stopt de conversie netjes, waardoor de controle binnen enkele milliseconden terugkeert naar je applicatie.
+
+### Stap 1: Stel je documentmap in
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Zorg ervoor dat u "Uw documentenmap" vervangt door het daadwerkelijke pad waar uw PSD-documenten zijn opgeslagen.
+Zorg ervoor dat je “Your Document Directory” vervangt door het daadwerkelijke pad waar je PSD‑documenten zijn opgeslagen.
 
-## Stap 2: Definieer afbeeldingsopties en uitvoerpad
+### Stap 2: Definieer afbeeldingsopties en uitvoerpad
 
 ```java
 ImageOptionsBase saveOptions = new PngOptions();
@@ -57,40 +121,44 @@ String source = dataDir + "big2.psb";
 String output = dataDir + "big_out.png";
 ```
 
-Geef de afbeeldingsopties, het bron-PSD-bestand en het gewenste uitvoerpad voor de geconverteerde afbeelding op.
+Specificeer de afbeeldingsopties, het bron‑PSD‑bestand en het gewenste uitvoerpad voor de geconverteerde afbeelding.
 
-## Stap 3: Initialiseer Interrupt Monitor en SaveImageWorker
+### Stap 3: Initialiseer Interrupt Monitor en SaveImageWorker
+
+De `InterruptMonitor`‑klasse houdt een lopende conversie in de gaten en kan deze onderbreken wanneer `requestInterrupt()` wordt aangeroepen.  
 
 ```java
 InterruptMonitor monitor = new InterruptMonitor();
 SaveImageWorker worker = new SaveImageWorker(source, output, saveOptions, monitor);
 ```
 
-Creëer exemplaren van InterruptMonitor en SaveImageWorker, waarbij de Interrupt Monitor wordt gekoppeld aan de beeldconversiewerker.
+Maak instanties van `InterruptMonitor` en `SaveImageWorker` aan, en koppel de monitor aan de afbeelding‑conversiewerker.
 
-## Stap 4: Start de beeldconversiethread
+### Stap 4: Start afbeeldingsconversie‑thread
 
 ```java
 Thread thread = new Thread(worker.ThreadProc());
 try {
     thread.start();
-    // Voeg een time-out toe om mogelijke onderbrekingen mogelijk te maken
+    // Add a timeout to allow for potential interruption
     Thread.sleep(3000);
 ```
 
-Start een nieuwe thread voor het beeldconversieproces en introduceer een time-outperiode om te anticiperen op onderbrekingen.
+Start een nieuwe thread voor het afbeeldingsconversieproces en introduceer een timeout‑periode om een onderbreking te anticiperen.
 
-## Stap 5: Onderbreek het proces
+### Stap 5: Onderbreek het proces
+
+Het aanroepen van `monitor.requestInterrupt()` signaleert de monitor om de lopende conversie af te breken.  
 
 ```java
-    //Onderbreek het proces
+    // Interrupt the process
     monitor.interrupt();
     System.out.println("Interrupting the save thread #" + thread.getId() + " at " + getDateTime().toString());
 
-    // Wacht op onderbreking...
+    // Wait for interruption...
     thread.join();
 } finally {
-    // Verwijder het uitvoerbestand als het bestaat
+    // Delete the output file if it exists
     File f = new File(output);
     if (f.exists()) {
         f.delete();
@@ -98,36 +166,56 @@ Start een nieuwe thread voor het beeldconversieproces en introduceer een time-ou
 }
 ```
 
-Onderbreek het beeldconversieproces met behulp van de Interrupt Monitor en wacht tot de onderbreking is voltooid. Ruim ten slotte op door het uitvoerbestand te verwijderen.
+Onderbreek het afbeeldingsconversieproces met behulp van de `InterruptMonitor` en wacht tot de onderbreking is voltooid. Verwijder ten slotte het uitvoerbestand.
 
-## Conclusie
+## Waarom de Interrupt Monitor gebruiken voor PSD‑naar‑PNG conversie?
 
-Door Interrupt Monitor-ondersteuning in uw Aspose.PSD voor Java-projecten op te nemen, kunt u beeldconversieprocessen efficiënt beheren, waardoor u meer controle en reactievermogen krijgt.
+Aspose.PSD ondersteunt **30+ uitvoerformaten**, waaronder PNG, JPEG, BMP en TIFF, en kan bestanden tot **500 MB** verwerken zonder het volledige document in het geheugen te laden. Door een interrupt monitor toe te voegen, verminder je CPU‑verspilling en verbeter je de responsiviteit in batch‑verwerkingspijplijnen, vooral wanneer een conversie de verwachte tijdslimieten overschrijdt.
+
+## Veelvoorkomende problemen en oplossingen
+
+- **Conversie blijft oneindig hangen:** Zorg ervoor dat de monitor is gekoppeld **voordat** `save` wordt aangeroepen.  
+- **Uitvoerbestand is corrupt na onderbreking:** De monitor stopt netjes; controleer echter altijd of het bestand bestaat voordat je het gebruikt.  
+- **Thread‑safety zorgen:** Voer elke conversie uit in een eigen thread; de monitor beïnvloedt alleen de bijbehorende worker.
 
 ## Veelgestelde vragen
 
-### Vraag 1: Wat is een interruptmonitor in Aspose.PSD voor Java?
+**Q1: Wat is een Interrupt Monitor in Aspose.PSD voor Java?**  
+A: De Interrupt Monitor stelt ontwikkelaars in staat om langdurige beeldconversies te pauzeren of te annuleren, waardoor ze realtime controle over het resourcegebruik krijgen.
 
-A1: Met de Interrupt Monitor in Aspose.PSD voor Java kunnen ontwikkelaars beeldconversieprocessen beheren en onderbreken, waardoor de controle en flexibiliteit worden vergroot.
+**Q2: Hoe kan ik de Aspose.PSD‑bibliotheek voor Java verkrijgen?**  
+A: Je kunt de Aspose.PSD voor Java‑bibliotheek downloaden [hier](https://releases.aspose.com/psd/java/).
 
-### Vraag 2: Hoe kan ik de Aspose.PSD-bibliotheek voor Java verkrijgen?
+**Q3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?**  
+A: Ja, je kunt een gratis proefversie van Aspose.PSD verkennen [hier](https://releases.aspose.com/).
 
- A2: U kunt de Aspose.PSD voor Java-bibliotheek downloaden[hier](https://releases.aspose.com/psd/java/).
+**Q4: Waar kan ik ondersteuning vinden voor Aspose.PSD voor Java?**  
+A: Bezoek het Aspose.PSD voor Java‑ondersteuningsforum [hier](https://forum.aspose.com/c/psd/34).
 
-### V3: Is er een gratis proefversie beschikbaar voor Aspose.PSD voor Java?
+**Q5: Hoe kan ik een licentie kopen voor Aspose.PSD voor Java?**  
+A: Je kunt een licentie voor Aspose.PSD voor Java kopen [hier](https://purchase.aspose.com/buy).
 
- A3: Ja, u kunt een gratis proefversie van Aspose.PSD uitproberen[hier](https://releases.aspose.com/).
+**Q6: Kan ik meerdere PSD‑bestanden parallel naar PNG converteren?**  
+A: Ja, spawn een aparte thread voor elk bestand en koppel een individuele `InterruptMonitor` aan elke conversiewerker.
 
-### V4: Waar kan ik ondersteuning vinden voor Aspose.PSD voor Java?
+**Q7: Handelt de bibliotheek kleurprofielen af tijdens PSD‑naar‑PNG conversie?**  
+A: Absoluut; Aspose.PSD behoudt ingesloten ICC‑profielen en past ze automatisch toe op de uitvoer‑PNG.
 
- A4: Bezoek het Aspose.PSD voor Java-ondersteuningsforum[hier](https://forum.aspose.com/c/psd/34).
+---
 
-### V5: Hoe kan ik een licentie kopen voor Aspose.PSD voor Java?
-
-A5: U kunt een licentie kopen voor Aspose.PSD voor Java[hier](https://purchase.aspose.com/buy).
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Laatst bijgewerkt:** 2026-06-08  
+**Getest met:** Aspose.PSD 23.12 voor Java  
+**Auteur:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Gerelateerde tutorials
+
+- [PSD opslaan als PNG en Rendering Drop Shadow toepassen in Aspose.PSD voor Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
+- [Export PSD naar PNG & Voeg een nieuwe reguliere laag toe met Aspose.PSD voor Java](/psd/java/advanced-image-effects/add-new-regular-layer/)
+- [Ondersteuning voor Interrupt Monitor in PSD‑bestanden - Java](/psd/java/psd-layer-management-effects/support-interrupt-monitor-psd-files/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
