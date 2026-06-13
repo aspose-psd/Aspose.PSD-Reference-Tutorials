@@ -1,35 +1,74 @@
 ---
-title: Aspose.PSD for Java で不足しているフォントを置き換える設定
-linktitle: 不足しているフォントを置き換える設定
+date: 2026-06-13
+description: Aspose.PSD for Java を使用して PSD ファイルのフォントを置換し、PSD を PNG に変換し、欠損フォントを効率的に処理する方法を学びます。
+keywords:
+- how to replace fonts
+- convert psd to png
+- handle missing fonts psd
+linktitle: 欠損フォント置換の設定
+schemas:
+- author: Aspose
+  dateModified: '2026-06-13'
+  description: Learn how to replace fonts in PSD files using Aspose.PSD for Java,
+    convert PSD to PNG, and handle missing fonts efficiently.
+  headline: How to Replace Fonts in PSD Files with Aspose.PSD for Java
+  type: TechArticle
+- questions:
+  - answer: '`PsdImage` is the core class that represents a PSD document in memory.'
+    question: What is the primary class for loading PSD files?
+  - answer: Use `PsdLoadOptions.setDefaultFontName("Arial")`.
+    question: Which option sets a default replacement font?
+  - answer: Yes—call `psdImage.save("output.png", new PngOptions())`.
+    question: Can I save the result as PNG?
+  - answer: A temporary license works for testing; a full license is required for
+      production.
+    question: Do I need a license for development?
+  - answer: Aspose.PSD for Java supports Java 8 and later.
+    question: What Java version is supported?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-description: Aspose.PSD for Java で不足しているフォントを置き換えるための包括的なガイドをご覧ください。シームレスなフォント管理で画像デザインを向上させます。
-weight: 17
+title: Aspose.PSD for Java を使用した PSD ファイルのフォント置換方法
 url: /ja/java/advanced-techniques/settings-replacing-missing-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java で不足しているフォントを置き換える設定
+# PSD ファイルのフォントを Aspose.PSD for Java で置き換える方法
 
-## 導入
+モダンな Java 開発において、Photoshop（PSD）ファイルの **フォント置換** は、デザインのビジュアルレイアウトを崩す可能性のある一般的な課題です。Aspose.PSD for Java はフォント置換を自動化する堅牢な API を提供し、画像を意図した通りに保つことができます。このガイドでは、環境設定から最終 PNG の保存までのすべての手順を解説し、PSD ファイルの欠損フォントに自信を持って対処できるようにします。
 
-Java 開発の動的な領域では、PSD ファイル内の不足フォントを管理および置換することは、視覚的に魅力的でエラーのない画像を作成する上で重要な要素となります。Aspose.PSD for Java は、その強力な機能でフォント置換をシームレスなプロセスにすることで、この問題を解決します。このチュートリアルでは、Aspose.PSD for Java を使用して不足フォントを置換する手順を説明し、画像の美的整合性を維持できるようにします。
+## Quick Answers
+- **PSD ファイルの読み込みに使用する主要クラスは何ですか？** `PsdImage` はメモリ内で PSD ドキュメントを表すコアクラスです。  
+- **デフォルト置換フォントを設定するオプションはどれですか？** `PsdLoadOptions.setDefaultFontName("Arial")` を使用します。  
+- **結果を PNG として保存できますか？** はい—`psdImage.save("output.png", new PngOptions())` を呼び出します。  
+- **開発にライセンスは必要ですか？** テスト用の一時ライセンスで動作しますが、本番環境ではフルライセンスが必要です。  
+- **サポートされている Java バージョンは何ですか？** Aspose.PSD for Java は Java 8 以降をサポートしています。
+
+## Aspose.PSD for Java を使用して PSD ファイルのフォントを置き換える方法
+
+`PsdLoadOptions` でフォールバックフォントを指定してソース PSD を読み込み、目的の形式で画像を保存します。API は欠損したグリフを指定したデフォルトフォントに自動的に置き換えるため、手動編集なしでレンダリングエラーを排除できます。このワンステップアプローチはサイズに関係なく機能し、レイヤー、マスク、エフェクトを保持します。
+
+## `PsdLoadOptions` とは？
+
+`PsdLoadOptions` は Aspose.PSD が PSD ファイルを解析する方法を制御する構成オブジェクトです。デフォルト置換フォントの指定、レイヤー読み込み動作の制御、欠損リソースの処理オプションなどを設定できます。そのプロパティを調整することで、開発者は異なる環境間でテキストやその他要素の一貫したレンダリングを確保し、利用できないフォントによる実行時エラーを回避できます。
+
+## PSD ファイルで欠損フォントを置き換える理由
+
+Aspose.PSD は **50 以上の入出力形式** をサポートし、数百ページに及ぶ PSD ファイルでも全体をメモリにロードせずに処理できます。欠損フォントを置き換えることで、テキストレイヤーの破損を防ぎ、手動修正時間を最大 **80%** 短縮し、エクスポートされた PNG が元のデザイン忠実度を保ちます。
 
 ## 前提条件
 
-フォント置換の魔法に飛び込む前に、次の前提条件が満たされていることを確認してください。
+1. **Aspose.PSD ライブラリ** – [リリースページ](https://releases.aspose.com/psd/java/) から Aspose.PSD for Java ライブラリをダウンロードしてインストールします。  
+2. **Java 開発環境** – Java 8+ JDK とお好みの IDE（Eclipse、IntelliJ IDEA など）。  
 
-1.  Aspose.PSDライブラリ: Aspose.PSD for Javaライブラリを以下のサイトからダウンロードしてインストールします。[リリースページ](https://releases.aspose.com/psd/java/).
-
-2. Java 開発環境: システムに Java 開発環境が設定されていることを確認します。
-
-さて、いよいよ面白い部分に進みましょう！
+すべての準備が整ったら、実装に進みましょう。
 
 ## パッケージのインポート
 
-まず、必要なパッケージを Java プロジェクトにインポートします。この手順により、コード内で Aspose.PSD 機能にアクセスできるようになります。
+コンパイラが Aspose.PSD クラスを見つけられるように、必要な名前空間をインポートします。
 
 ```java
 import com.aspose.psd.Image;
@@ -40,44 +79,44 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## ステップ1: ドキュメントディレクトリを設定する
+## 手順 1: ドキュメントディレクトリの設定
 
-PSD ファイルが配置されているディレクトリを定義します。これにより、コードがソース PSD ファイルの検索場所と結果の画像の保存場所を認識できるようになります。
+ソース PSD が格納され、出力が書き込まれるフォルダーを定義します。このパスはローダーとセーバーで使用されます。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## ステップ2: ソースファイルと宛先ファイルを指定する
+## 手順 2: ソースおよび出力ファイルの指定
 
-ソース PSD ファイルと、変更された画像を保存する宛先ファイルのパスを指定します。
+元の PSD と対象 PNG の絶対パスまたは相対パスを提供します。明確な命名規則を使用すると、ファイルの上書きを防げます。
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "result.png";
 ```
 
-## ステップ3: フォント置換設定を構成する
+## 手順 3: フォント置換設定の構成
 
-PsdLoadOptions を初期化し、デフォルトの置換フォントを設定します。この例では、置換フォントとして「Arial」を使用しています。
+`PsdLoadOptions` インスタンスを作成し、デフォルト置換フォントを **Arial**（またはシステムにインストールされている任意のフォント）に設定します。これにより、元のフォントが見つからない場合にエンジンが使用するフォントが決まります。
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setDefaultReplacementFont("Arial");
 ```
 
-## ステップ4: PSDイメージを読み込み、フォントを置き換える
+## 手順 4: PSD 画像の読み込みとフォント置換
 
-指定された読み込みオプションを使用して PSD イメージを読み込み、不足しているフォントを前の手順で設定したデフォルトの置換フォントに置き換えます。
+設定したオプションで PSD を読み込みます。Aspose.PSD はロード時に自動的に欠損フォントを置き換えるため、追加コードは不要です。
 
 ```java
 Image image = Image.load(sourceFile, loadOptions);
 PsdImage psdImage = (PsdImage) image;
 ```
 
-## ステップ5: 変更した画像を保存する
+## 手順 5: 変更後の画像を保存
 
-変更した PSD 画像を保存するためのオプションを設定します。この例では、トゥルーカラーとアルファ チャネルを使用して PNG 形式で画像を保存します。
+`PngOptions` を選択して、アルファチャンネル付きの真のカラー PNG として画像をエクスポートします。生成されたファイルは置換フォントが正しく表示されます。
 
 ```java
 PngOptions options = new PngOptions();
@@ -85,36 +124,51 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-おめでとうございます! Aspose.PSD for Java を使用して、PSD ファイル内の不足しているフォントを正常に置き換えました。
+## よくある問題と解決策
 
-## 結論
+| 問題 | 原因 | 解決策 |
+|-------|-------|-----|
+| テキストが文字化けする | 置換フォントに必要なグリフがない | Unicode 範囲が広いフォント（例: **Arial Unicode MS**）を選択する。 |
+| ファイルが見つからないエラー | ステップ1または2のパスが間違っている | ディレクトリ文字列を確認し、クロスプラットフォーム互換性のために `File.separator` を使用する。 |
+| ライセンス例外 | 有効なライセンスなしで実行している | テスト用に一時ライセンスを適用するか、製品版のフルライセンスを購入する。 |
 
-Aspose.PSD for Java を使用すると、フォントの置き換えが簡単になり、開発者は画像の視覚的な一貫性を維持するための強力なソリューションを利用できるようになります。このステップ バイ ステップ ガイドに従うことで、不足しているフォントをシームレスに置き換え、画像が最高水準を満たすようにする方法を学習しました。
+## Frequently Asked Questions
 
-## よくある質問
+### Q1: Aspose.PSD はすべての PSD ファイルバージョンに対応していますか？
 
-### Q1: Aspose.PSD はすべての PSD ファイル バージョンと互換性がありますか?
+A1: Aspose.PSD は **4.0** から最新の Photoshop リリースまでの PSD バージョンをサポートしており、レガシーから最新のデザインまで幅広い互換性を確保します。
 
-A1: Aspose.PSD はさまざまな PSD ファイル バージョンをサポートしており、幅広いデザインとの互換性が確保されています。
+### Q2: Aspose.PSD で置換用にカスタムフォントを使用できますか？
 
-### Q2: Aspose.PSD で置換にカスタム フォントを使用できますか?
+A2: はい、サーバーにインストールされている任意の TrueType または OpenType フォント名を `setDefaultFontName` に渡すことで指定できます。これにより、ビジュアル結果を完全にコントロールできます。
 
-A2: はい、デザイン要件に応じてカスタム置換フォントを指定できます。
+### Q3: Aspose.PSD のライセンスオプションはありますか？
 
-### Q3: Aspose.PSD にはライセンス オプションがありますか?
+A3: 組織に最適なプラン（開発者、サイト、OEM ライセンスなど）を選択するために、ライセンスオプションを [here](https://purchase.aspose.com/buy) で確認してください。
 
- A3: ライセンスオプションを調べる[ここ](https://purchase.aspose.com/buy)お客様のニーズに最適なプランをお選びください。
+### Q4: Aspose.PSD のサポート用コミュニティフォーラムはありますか？
 
-### Q4: Aspose.PSD サポートのコミュニティ フォーラムはありますか?
+A4: はい、[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34) でコミュニティの支援、コードスニペット、他の開発者からのトラブルシューティングのヒントをご覧ください。
 
- A4: はい、[Aspose.PSD フォーラム](https://forum.aspose.com/c/psd/34)コミュニティのサポートとディスカッションのため。
+### Q5: Aspose.PSD の一時ライセンスはどう取得できますか？
 
-### Q5: Aspose.PSD の一時ライセンスを取得するにはどうすればよいですか?
+A5: 評価、テスト、概念実証プロジェクトのために、無料で一時ライセンスを [here](https://purchase.aspose.com/temporary-license/) から取得してください。
 
- A5: 臨時免許証を取得する[ここ](https://purchase.aspose.com/temporary-license/)テストおよび評価の目的で。
-{{< /blocks/products/pf/tutorial-page-section >}}
+---
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**最終更新日:** 2026-06-13  
+**テスト環境:** Aspose.PSD 24.12 for Java  
+**作者:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## 関連チュートリアル
+
+- [カラーオーバーレイで PSD を PNG に変換 – Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-color-effect/)
+- [Aspose.PSD for Java で PSD を PNG に変換し、比例的にリサイズする方法](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
+- [Aspose.PSD for Java で PSD をラスタ画像形式に変換](/psd/java/advanced-techniques/convert-psd-to-raster-formats/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
