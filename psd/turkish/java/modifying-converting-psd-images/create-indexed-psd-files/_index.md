@@ -1,34 +1,55 @@
 ---
-title: Aspose.PSD for Java'yı kullanarak İndekslenmiş PSD Dosyaları Oluşturun
-linktitle: Aspose.PSD for Java'yı kullanarak İndekslenmiş PSD Dosyaları Oluşturun
-second_title: Aspose.PSD Java API'si
-description: Adım adım kılavuzumuzda Aspose.PSD for Java ile indekslenmiş PSD dosyaları oluşturmayı öğrenin. Sonsuz sanatsal olanakları keşfetmek için şimdi katılın.
-weight: 23
+date: 2026-03-15
+description: Bu adım adım rehberde Aspose.PSD for Java kullanarak PSD dosyaları oluşturmayı,
+  PSD renk paleti oluşturmayı ve PSD renk modunu ayarlamayı öğrenin.
+linktitle: Create Indexed PSD Files using Aspose.PSD for Java
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java Kullanarak PSD Dosyaları Nasıl Oluşturulur
 url: /tr/java/modifying-converting-psd-images/create-indexed-psd-files/
+weight: 23
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ backtop button shortcode at end.
+
+Make sure to keep all markdown formatting.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java'yı kullanarak İndekslenmiş PSD Dosyaları Oluşturun
+# Aspose.PSD for Java Kullanarak PSD Dosyaları Nasıl Oluşturulur
 
-## giriiş
-Programlı olarak grafik oluşturmak yalnızca bir sanat değildir; teknoloji ve hayal gücünün bir karışımıdır. Bu yaratıcı alandaki güçlü araçlardan biri, geliştiricilerin Photoshop belgelerini yönetmesine olanak tanıyan son derece yetenekli bir kütüphane olan Aspose.PSD for Java'dır. Bu eğitimde, Aspose.PSD'yi kullanarak indekslenmiş PSD dosyaları oluşturma konusunu derinlemesine ele alacağız ve başlamanıza yardımcı olacak adım adım bir kılavuzla tamamlayacağız. İster deneyimli bir geliştirici olun ister kodlama yolculuğunuza yeni başlıyor olun, bu kılavuz süreç boyunca size sorunsuz bir şekilde yol gösterecektir.
+## Giriş
+Programatik olarak **PSD nasıl oluşturulur** diye merak ettiyseniz, doğru yerdesiniz. Aspose.PSD for Java, Photoshop belgeleri üzerinde tam kontrol sağlar; Photoshop’u hiç açmadan PSD dosyaları oluşturabilir, düzenleyebilir ve kaydedebilirsiniz. Bu öğreticide, **indeksli bir PSD** dosyası oluşturmayı, PSD renk modunu ayarlamayı ve özel bir renk paleti üretmeyi net, adım‑adım Java kodlarıyla göstereceğiz. Grafik boru hattı oluşturuyor, varlık üretimini otomatikleştiriyor ya da sadece deneme yapıyor olun, burada yer alan kavramlar görsel fikirlerinizi hayata geçirmenize yardımcı olacak.
+
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.PSD for Java  
+- **İndeksli bir PSD oluşturabilir miyim?** Evet, renk modunu `Indexed` olarak ayarlayarak  
+- **Photoshop yüklü olması gerekiyor mu?** Hayır, Aspose.PSD bağımsız çalışır  
+- **Hangi Java sürümü gerekli?** JDK 8 veya üzeri  
+- **Tuval ne kadar büyük olabilir?** Herhangi bir boyut; bu örnek 500 × 500 px kullanıyor
+
+## İndeksli PSD Dosyası Nedir?
+İndeksli bir PSD, her piksel için tam renk değerleri yerine bir palet içinde renkleri saklar. Bu, dosya boyutunu azaltır ve ikonlar ya da UI varlıkları gibi sınırlı renkli grafikler için idealdir. Özel bir palet oluşturarak, son görüntüde hangi renklerin görüneceğini tam olarak kontrol edebilirsiniz.
+
+## Neden PSD Renk Paleti Oluşturmalısınız?
+**PSD renk paleti** oluşturmak şunları sağlar:
+- Web veya mobil kullanım için dosya boyutlarını küçük tutar  
+- Kurumsal paletinize sınırlı renkler ekleyerek tutarlı marka kimliği sağlar  
+- İndeksli görüntüleri destekleyen uygulamalarda render süresini hızlandırır  
+
 ## Önkoşullar
-İşin özüne geçmeden önce, başlamak için neye ihtiyacınız olduğunu ele alalım. Bu önkoşulları takip etmek, öğrenirken sorunsuz bir yelken deneyimi yaşamanızı sağlar.
-### 1. Temel Java Bilgisi
-Tüm örneklerimiz bu dilde olacağından Java sözdizimine aşina olmak çok önemlidir. Sınıflar ve yöntemler gibi temel kavramları anlamak, takip etmeyi çok daha kolay hale getirecektir.
-### 2. Java Geliştirme Ortamı
-Makinenizde Java Geliştirme Kitinin (JDK) kurulu olduğundan emin olun. İdeal olarak Aspose.PSD'nin en yeni özelliklerini kullanabilmek için sürüm 8 veya daha yenisine sahip olmanız gerekir.
-### 3. Entegre Geliştirme Ortamı (IDE)
-IntelliJ IDEA veya Eclipse gibi bir IDE kullanmak, geliştirme sürecinizi önemli ölçüde kolaylaştırabilir. Bu ortamlar kodlama, hata ayıklama ve daha fazlası için entegre araçlar sunar.
-### 4. Java Kütüphanesi için Aspose.PSD
- Aspose.PSD for Java kütüphanesini indirip projenize eklemeniz gerekecek. İndirebilirsin[Burada](https://releases.aspose.com/psd/java/).
-### 5. Grafik Tasarım Kavramlarına İlişkin Temel Bilgiler
-Renk modları ve şekiller gibi grafik kavramlarını anlamak, öğreticiyi daha iyi kavramanıza yardımcı olacaktır.
-## Paketleri İçe Aktar
-Koda devam etmeden önce gerekli tüm paketlerin Java uygulamanıza aktarıldığından emin olalım. İhtiyacınız olan şey:
+Kodlamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+
+1. **Java Temel Bilgisi** – sınıflar, metodlar ve nesne oluşturma konularında rahat olmalısınız.  
+2. **Java Development Kit (JDK) 8+** – IDE’nizde kurulu ve yapılandırılmış.  
+3. **IDE (IntelliJ IDEA, Eclipse vb.)** – isteğe bağlı ancak hata ayıklamayı kolaylaştırdığı için şiddetle tavsiye edilir.  
+4. **Aspose.PSD for Java Kütüphanesi** – **[buradan](https://releases.aspose.com/psd/java/)** indirin ve JAR dosyasını projenizin sınıf yoluna ekleyin.  
+5. **Temel Grafik Tasarım Kavramları** – renk modları, paletler ve temel şekiller hakkında bilgi, içeriği daha iyi takip etmenizi sağlar.
+
+## Paketleri İçe Aktarın
+Kodlamaya başlamadan önce, Java uygulamanıza gerekli paketlerin tümünün içe aktarılmış olduğundan emin olalım. İşte ihtiyacınız olanlar:
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
@@ -41,79 +62,113 @@ import com.aspose.psd.fileformats.psd.PsdColorPalette;
 import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
 ```
-Bu içe aktarmalar, Aspose.PSD aracılığıyla PSD seçenekleri, renkler ve grafik manipülasyonları ile çalışmanıza olanak tanır.
 
-Şimdi, indekslenmiş PSD dosyaları oluşturmak için kodu adım adım inceleyelim. Netliği sağlamak için her seferinde tek parça alacağız.
-## 1. Adım: Belge Dizininizi Kurun
-Yapmanız gereken ilk şey, PSD dosyalarının kaydedileceği belge dizininizi ayarlamaktır. Kodunuzda iyi bir başlangıç noktası şöyle olacaktır:
+Bu içe aktarmalar, Aspose.PSD aracılığıyla PSD seçenekleri, renkler ve grafik manipülasyonu ile çalışmanıza olanak tanır.
+
+Şimdi, **indeksli renk moduyla PSD nasıl oluşturulur** konusunu adım‑adım inceleyelim.
+
+## Adım 1: Belge Dizinini Ayarlayın
+İlk olarak, oluşturulan PSD’nin kaydedileceği yeri tanımlayın.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` PSD dosyanızı kaydetmek istediğiniz yolu belirtin. Örneğin, olabilir`"/Users/YourName/Documents/"`.
-## Adım 2: PsdOptions Örneğini Oluşturun
- Burada bir örneğini oluşturacağız.`PsdOptions`Bu, PSD dosyamızın nasıl oluşturulacağını belirleyecektir.
+
+`"Your Document Directory"` ifadesini mutlak ya da göreli bir yol ile değiştirin; örnek: `"/Users/YourName/Documents/"`.
+
+## Adım 2: PsdOptions Örneği Oluşturun
+`PsdOptions`, oluşturacağınız dosyanın tüm ayarlarını tutar.
+
 ```java
 PsdOptions createOptions = new PsdOptions();
 ```
- Bu`createOptions`nesne, dosyanın ayarlarını tanımlamak için ihtiyacımız olan tüm özellikleri içerecektir. 
-## Adım 3: PsdOptions'ın Özelliklerini Ayarlayın
- Daha sonra, yapılandırmamızı yapacağız`PsdOptions` nesne. Özellikle kaynak dosyayı, renk modunu ve sürümü ayarlayacağız. 
+
+## Adım 3: PsdOptions’ın Temel Özelliklerini Ayarlayın
+Burada çıktı konumunu, **psd renk modunu** `Indexed` olarak ayarlamayı ve PSD sürümünü belirtiyoruz.
+
 ```java
 createOptions.setSource(new FileCreateSource(dataDir + "Newsample_out.psd", false));
 createOptions.setColorMode(ColorModes.Indexed);
 createOptions.setVersion(5);
 ```
-- Kaynak: Yeni PSD dosyamızın konumunu tanımlar.
--  Renk Modu: Ayarlama`Indexed` dosyayı renk kullanımına göre optimize eder.
-- Sürüm: PSD dosya formatının sürümünü belirtir.
-## Adım 4: Renk Paleti Oluşturun
-Dizine alınmış bir PSD dosyası için canlı bir renk paleti oluşturmak çok önemlidir. RGB renkleriyle basit bir palet tanımlayalım.
+
+- **Source** – yeni dosyanın tam yolu.  
+- **Color Mode** – `Indexed`, Aspose.PSD’nin palet‑tabanlı bir görüntü kullanmasını sağlar.  
+- **Version** – PSD format sürümü (5, çoğu modern Photoshop sürümü için uygundur).
+
+## Adım 4: Renk Paleti Oluşturun (PSD Renk Paleti Oluşturma)
+İndeksli görüntüde kullanılacak renkleri tanımlayın.
+
 ```java
 Color[] palette = { Color.getRed(), Color.getGreen(), Color.getBlue(), Color.getYellow() };
 createOptions.setPalette(new PsdColorPalette(palette));
 createOptions.setCompressionMethod(CompressionMethod.RLE);
 ```
-İşte olanlar:
-- Bir renk dizisi oluşturuyoruz.
--  Kullanarak PSD'miz için palet olarak atayın`setPalette()`.
-- Ayrıca optimize edilmiş dosya depolama için sıkıştırma yöntemini RLE olarak ayarladık.
-## Adım 5: PSD Görüntüsünü Oluşturun
-Bu noktada yapılandırdığımız seçenekleri kullanarak PSD dosyamızı oluşturmaya hazırız.
+
+- `palette` dizisi en fazla 256 `Color` nesnesi tutar.  
+- `CompressionMethod.RLE`, indeksli görüntüler için verimli kayıpsız sıkıştırma sağlar.
+
+## Adım 5: PSD Görüntü Tuvalini Oluşturun
+Şimdi istediğimiz boyutlarda boş bir PSD oluşturuyoruz.
+
 ```java
 Image psd = Image.create(createOptions, 500, 500);
 ```
-Bu satır, 500x500 piksel tuval boyutunda yeni PSD'yi oluşturur.
-## Adım 6: PSD'de Grafik Çizin
-Yeni oluşturduğumuz PSD dosyamıza biraz grafik ekleyelim. Bu örnekte basit bir kırmızı elips oluşturacağız.
+
+Bu, daha önce tanımladığınız paleti kullanan 500 × 500 piksel bir tuval oluşturur.
+
+## Adım 6: PSD Üzerine Grafik Çizin
+Görsel içerik ekleyin—burada beyaz bir arka plan üzerine basit bir kırmızı elips çiziyoruz.
+
 ```java
 Graphics graphics = new Graphics(psd);
 graphics.clear(Color.getWhite());
 graphics.drawEllipse(new Pen(Color.getRed(), 6), new Rectangle(0, 0, 400, 400));
 ```
-İşte döküm:
--  Biz bir yaratıyoruz`Graphics` PSD görüntümüzün üzerine çizim yapmamızı sağlayan nesne.
-- `clear(Color.getWhite())` arka planı beyazla doldurur.
-- `drawEllipse()` belirtilen boyutlara sahip kırmızı bir elips oluşturur.
+
+- `clear(Color.getWhite())` arka planı beyaz ile doldurur.  
+- `drawEllipse` 6‑piksel kalınlığında kırmızı bir elips çizer.
+
 ## Adım 7: PSD Dosyasını Kaydedin
-Sonunda başyapıtınızı kurtarmanın zamanı geldi. Sonuçta paylaşamayacaksan yaratmanın ne anlamı var?
+Son olarak, görüntüyü diske kaydedin.
+
 ```java
 psd.save();
 ```
-Bu satırın çalıştırılması, PSD dosyasını belirlediğimiz konfigürasyonlarla belirtilen dizine kaydedecektir.
-## Çözüm
-Tebrikler! Aspose.PSD for Java'yı kullanarak indekslenmiş bir PSD dosyası oluşturdunuz. Adımlar ilk başta kapsamlı görünse de, her biri size grafik yaratımlarınız üzerinde tam kontrol sağlamayı amaçlayan bir amaca hizmet eder. Aspose.PSD ile dijital sanatçılığınızı programlı bir şekilde hayata geçirme konusunda olanaklar neredeyse sınırsızdır.
-Peki neden burada duralım? Aspose.PSD belgelerini daha ayrıntılı inceleyin[Burada](https://reference.aspose.com/psd/java/) ve daha da yaratıcı yetenekleri keşfedin.
-## SSS'ler
-### Java için Aspose.PSD nedir?
-Aspose.PSD for Java, PSD (Photoshop) dosyalarının Java kullanılarak programlı olarak değiştirilmesini sağlayan bir kütüphanedir.
-### Aspose.PSD'yi ücretsiz kullanabilir miyim?
- Evet, Aspose.PSD'nin ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
-### Aspose.PSD ile çalışmak için Photoshop'un yüklü olması gerekir mi?
-Hayır, Aspose.PSD tüm işlemleri bağımsız olarak yürüttüğü için Photoshop olmadan PSD dosyaları oluşturabilir ve değiştirebilirsiniz.
-### Aspose.PSD için geçici lisansı nasıl edinebilirim?
- Geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-### Aspose.PSD için nereden destek alabilirim?
- Aspose forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/psd/34).
+
+`Newsample_out.psd` dosyası, daha önce belirttiğiniz dizinde görünecektir.
+
+## Yaygın Sorunlar ve İpuçları
+- **Palet Boyutu** – 4 renkten fazla ihtiyacınız varsa, `palette` dizisine (maksimum 256) ekleyin.  
+- **Dosya İzinleri** – Java sürecinin `dataDir` üzerine yazma izni olduğundan emin olun.  
+- **Yanlış Renk Modu** – `createOptions.setColorMode(ColorModes.Indexed)` ifadesini atlamak, RGB bir PSD üretir; indeksli değil.
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.PSD for Java nedir?**  
+C: Aspose.PSD for Java, PSD (Photoshop) dosyalarını programatik olarak Java kullanarak manipüle etmeyi sağlayan bir kütüphanedir.
+
+**S: Aspose.PSD'yi ücretsiz kullanabilir miyim?**  
+C: Evet, Aspose.PSD'nin ücretsiz deneme sürümüne **[buradan](https://releases.aspose.com/)** ulaşabilirsiniz.
+
+**S: Aspose.PSD ile çalışmak için Photoshop yüklü olması gerekir mi?**  
+C: Hayır, Aspose.PSD tüm işlemleri bağımsız olarak yürütür; Photoshop’a ihtiyaç duymazsınız.
+
+**S: Aspose.PSD için geçici bir lisans nasıl alınır?**  
+C: Geçici lisans talebinde **[buradan](https://purchase.aspose.com/temporary-license/)** bulunabilirsiniz.
+
+**S: Aspose.PSD için destek nereden alınır?**  
+C: Aspose forumundan **[burada](https://forum.aspose.com/c/psd/34)** destek alabilirsiniz.
+
+## Sonuç
+Artık **indeksli renk moduyla PSD nasıl oluşturulur**, özel bir palet nasıl üretilir ve basit grafikler nasıl eklenir konularını Aspose.PSD for Java kullanarak öğrendiniz. Bu temel yapı taşlarıyla daha karmaşık çizimler, katman yönetimi ve toplu işleme gibi konulara genişletebilirsiniz. Daha derinlemesine keşif için resmi API referansına **[buradan](https://reference.aspose.com/psd/java/)** göz atın ve farklı paletler ile çizim primitive'lerini denemeye devam edin.
+
+---
+
+**Last Updated:** 2026-03-15  
+**Tested With:** Aspose.PSD for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

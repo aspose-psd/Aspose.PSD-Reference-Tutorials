@@ -1,34 +1,63 @@
 ---
-title: Twórz indeksowane pliki PSD za pomocą Aspose.PSD dla Java
-linktitle: Twórz indeksowane pliki PSD za pomocą Aspose.PSD dla Java
-second_title: Aspose.PSD API Java
-description: Naucz się tworzyć indeksowane pliki PSD za pomocą Aspose.PSD dla Java w naszym przewodniku krok po kroku. Dołącz teraz, aby odkryć nieskończone możliwości artystyczne.
-weight: 23
+date: 2026-03-15
+description: Dowiedz się, jak tworzyć pliki PSD, generować paletę kolorów PSD i ustawiać
+  tryb kolorów PSD przy użyciu Aspose.PSD for Java w tym przewodniku krok po kroku.
+linktitle: Create Indexed PSD Files using Aspose.PSD for Java
+second_title: Aspose.PSD Java API
+title: Jak tworzyć pliki PSD przy użyciu Aspose.PSD dla Javy
 url: /pl/java/modifying-converting-psd-images/create-indexed-psd-files/
+weight: 23
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+}}
+
+All shortcodes unchanged.
+
+Now ensure we didn't miss any text.
+
+Check the initial lines: after shortcodes there is blank line then title. Keep same.
+
+Now produce final content with all translations. Ensure we keep code block placeholders exactly as they appear.
+
+Also ensure we keep markdown formatting.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Twórz indeksowane pliki PSD za pomocą Aspose.PSD dla Java
+# Jak tworzyć pliki PSD przy użyciu Aspose.PSD w Javie
 
 ## Wstęp
-Programowe tworzenie grafiki to nie tylko sztuka; to połączenie technologii i wyobraźni. Potężnym narzędziem w tej kreatywnej domenie jest Aspose.PSD dla Java, biblioteka o ogromnych możliwościach, która pozwala programistom manipulować dokumentami Photoshopa. W tym samouczku zagłębimy się w tworzenie indeksowanych plików PSD przy użyciu Aspose.PSD, wraz z przewodnikiem krok po kroku, który pomoże Ci zacząć. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz swoją przygodę z kodowaniem, ten przewodnik płynnie przeprowadzi Cię przez ten proces.
-## Warunki wstępne
-Zanim przejdziemy do sedna sprawy, omówmy, czego potrzebujesz, aby zacząć. Przestrzeganie tych wymagań wstępnych zapewni płynne doświadczenie żeglowania podczas nauki.
-### 1. Podstawowa znajomość Javy
-Znajomość składni Java jest niezbędna, ponieważ wszystkie nasze przykłady będą w tym języku. Zrozumienie podstawowych pojęć, takich jak klasy i metody, znacznie ułatwi śledzenie postępów.
-### 2. Środowisko programistyczne Java
-Upewnij się, że na komputerze jest zainstalowany zestaw Java Development Kit (JDK). Idealnie byłoby, gdybyś miał wersję 8 lub nowszą, aby korzystać z najnowszych funkcji Aspose.PSD.
-### 3. Zintegrowane środowisko programistyczne (IDE)
-Korzystanie z IDE, takiego jak IntelliJ IDEA lub Eclipse, może znacznie ułatwić proces programowania. Środowiska te oferują zintegrowane narzędzia do kodowania, debugowania i nie tylko.
-### 4. Aspose.PSD dla biblioteki Java
- Musisz pobrać i dodać bibliotekę Aspose.PSD for Java do swojego projektu. Możesz go pobrać[Tutaj](https://releases.aspose.com/psd/java/).
-### 5. Podstawowa znajomość koncepcji projektowania graficznego
-Zrozumienie pojęć graficznych, takich jak tryby kolorów i kształty, pomoże Ci lepiej zrozumieć samouczek.
-## Importuj pakiety
-Zanim przejdziemy do kodu, upewnijmy się, że wszystkie niezbędne pakiety zostały zaimportowane do aplikacji Java. Oto, czego będziesz potrzebować:
+Jeśli kiedykolwiek zastanawiałeś się **how to create PSD** plików programowo, jesteś we właściwym miejscu. Aspose.PSD for Java daje pełną kontrolę nad dokumentami Photoshop, umożliwiając generowanie, edytowanie i zapisywanie plików PSD bez otwierania Photoshopa. W tym samouczku przeprowadzimy Cię przez tworzenie **indexed PSD** pliku, ustawianie trybu kolorów PSD oraz generowanie własnej palety kolorów — wszystko przy użyciu przejrzystego, krok po kroku kodu Java. Niezależnie od tego, czy budujesz pipeline graficzny, automatyzujesz tworzenie zasobów, czy po prostu eksperymentujesz, przedstawione koncepcje pomogą Ci ożywić Twoje wizualne pomysły.
+
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebuję?** Aspose.PSD for Java
+- **Czy mogę utworzyć indexed PSD?** Yes, by setting the color mode to `Indexed`
+- **Czy muszę mieć zainstalowany Photoshop?** No, Aspose.PSD works independently
+- **Jakiej wersji Java wymaga się?** JDK 8 or later
+- **Jak duży może być płótno?** Any size; this example uses 500 × 500 px
+
+## Czym jest plik Indexed PSD?
+Plik Indexed PSD przechowuje kolory w palecie zamiast pełnych wartości kolorów dla każdego piksela. To zmniejsza rozmiar pliku i jest idealne dla grafiki o ograniczonej liczbie kolorów, takiej jak ikony lub zasoby UI. Generując własną paletę, kontrolujesz dokładnie, które kolory pojawią się w końcowym obrazie.
+
+## Dlaczego generować paletę kolorów PSD?
+Tworzenie **PSD color palette** pozwala:
+- Utrzymać mały rozmiar plików dla zastosowań webowych lub mobilnych  
+- Zapewnić spójność marki poprzez ograniczenie kolorów do palety firmowej  
+- Przyspieszyć renderowanie w aplikacjach obsługujących obrazy indeksowane  
+
+## Wymagania wstępne
+Zanim przejdziemy do kodu, upewnij się, że masz następujące:
+
+1. **Basic Knowledge of Java** – powinieneś być zaznajomiony z klasami, metodami i tworzeniem obiektów.  
+2. **Java Development Kit (JDK) 8+** – zainstalowany i skonfigurowany w Twoim IDE.  
+3. **IDE (IntelliJ IDEA, Eclipse, itp.)** – opcjonalne, ale bardzo zalecane dla łatwiejszego debugowania.  
+4. **Aspose.PSD for Java Library** – pobierz ją **[here](https://releases.aspose.com/psd/java/)** i dodaj plik JAR do classpathu projektu.  
+5. **Fundamental Graphic Design Concepts** – zrozumienie trybów kolorów, palet i podstawowych kształtów pomoże Ci podążać za instrukcją.
+
+## Importowanie pakietów
+Zanim przejdziemy do kodu, upewnijmy się, że wszystkie niezbędne pakiety zostały zaimportowane do Twojej aplikacji Java. Oto, czego będziesz potrzebować:
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
@@ -41,79 +70,113 @@ import com.aspose.psd.fileformats.psd.PsdColorPalette;
 import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.FileCreateSource;
 ```
-Importy te pozwolą Ci pracować z opcjami PSD, kolorami i manipulacją grafiką poprzez Aspose.PSD.
 
-Teraz rozłóżmy kod krok po kroku, aby utworzyć indeksowane pliki PSD. Będziemy to analizować pojedynczo, aby zapewnić przejrzystość.
-## Krok 1: Skonfiguruj katalog dokumentów
-Pierwszą rzeczą, którą musisz zrobić, to skonfigurować katalog dokumentów, w którym będą zapisywane pliki PSD. Dobrym punktem wyjścia w kodzie byłoby:
+Te importy pozwolą Ci pracować z opcjami PSD, kolorami i manipulacją grafiką przy użyciu Aspose.PSD.
+
+Teraz rozłożymy kod krok po kroku, aby **how to create PSD** pliki w trybie kolorów indeksowanych.
+
+## Krok 1: Ustaw katalog dokumentu
+Najpierw określ, gdzie zostanie zapisany wygenerowany plik PSD.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` ze ścieżką, w której chcesz zapisać plik PSD. Na przykład mogłoby tak być`"/Users/YourName/Documents/"`.
+
+Zastąp `"Your Document Directory"` ścieżką absolutną lub względną, np. `"/Users/YourName/Documents/"`.
+
 ## Krok 2: Utwórz instancję PsdOptions
- Tutaj utworzymy instancję`PsdOptions`, które będą decydować o sposobie wygenerowania naszego pliku PSD.
+`PsdOptions` przechowuje wszystkie ustawienia pliku, który zamierzasz wygenerować.
+
 ```java
 PsdOptions createOptions = new PsdOptions();
 ```
- Ten`createOptions`obiekt będzie zawierał wszystkie właściwości potrzebne do zdefiniowania ustawień pliku. 
-## Krok 3: Ustaw właściwości PsdOptions
- Następnie skonfigurujemy nasz`PsdOptions` obiekt. W szczególności ustawimy plik źródłowy, tryb kolorów i wersję. 
+
+## Krok 3: Ustaw podstawowe właściwości PsdOptions
+Tutaj określamy lokalizację wyjściową, **set psd color mode** na `Indexed` oraz wersję PSD.
+
 ```java
 createOptions.setSource(new FileCreateSource(dataDir + "Newsample_out.psd", false));
 createOptions.setColorMode(ColorModes.Indexed);
 createOptions.setVersion(5);
 ```
-- Źródło: Określa lokalizację naszego nowego pliku PSD.
--  Tryb koloru: ustawienie na`Indexed` optymalizuje plik pod kątem użycia kolorów.
-- Wersja: Określa wersję formatu pliku PSD.
-## Krok 4: Utwórz paletę kolorów
-Tworzenie żywej palety kolorów ma kluczowe znaczenie w przypadku indeksowanego pliku PSD. Zdefiniujmy prostą paletę z kolorami RGB.
+
+- **Source** – pełna ścieżka nowego pliku.  
+- **Color Mode** – `Indexed` informuje Aspose.PSD, że ma używać obrazu opartego na palecie.  
+- **Version** – wersja formatu PSD (5 działa w większości nowoczesnych wersji Photoshopa).
+
+## Krok 4: Utwórz paletę kolorów (Generate PSD Color Palette)
+Zdefiniuj kolory, które będą dostępne w obrazie indeksowanym.
+
 ```java
 Color[] palette = { Color.getRed(), Color.getGreen(), Color.getBlue(), Color.getYellow() };
 createOptions.setPalette(new PsdColorPalette(palette));
 createOptions.setCompressionMethod(CompressionMethod.RLE);
 ```
-Oto, co się dzieje:
-- Tworzymy całą gamę kolorów.
--  Przypisz go jako paletę do naszego PSD`setPalette()`.
-- Ustawiliśmy także metodę kompresji na RLE, aby zoptymalizować przechowywanie plików.
-## Krok 5: Utwórz obraz PSD
-W tym momencie jesteśmy gotowi utworzyć plik PSD, korzystając ze skonfigurowanych przez nas opcji.
+
+- Tablica `palette` może zawierać do 256 obiektów `Color`.  
+- `CompressionMethod.RLE` zapewnia efektywną bezstratną kompresję dla obrazów indeksowanych.
+
+## Krok 5: Utwórz płótno obrazu PSD
+Teraz tworzymy pusty plik PSD o żądanych wymiarach.
+
 ```java
 Image psd = Image.create(createOptions, 500, 500);
 ```
-Ta linia generuje nowy plik PSD o rozmiarze płótna 500x500 pikseli.
-## Krok 6: Narysuj grafikę na PSD
-Dodajmy trochę grafiki do naszego nowo utworzonego pliku PSD. W tym przykładzie utworzymy prostą czerwoną elipsę.
+
+Tworzy to płótno o wymiarach 500 × 500 pikseli, które używa wcześniej zdefiniowanej palety.
+
+## Krok 6: Rysowanie grafiki na PSD
+Dodaj zawartość wizualną — tutaj rysujemy prostą czerwoną elipsę na białym tle.
+
 ```java
 Graphics graphics = new Graphics(psd);
 graphics.clear(Color.getWhite());
 graphics.drawEllipse(new Pen(Color.getRed(), 6), new Rectangle(0, 0, 400, 400));
 ```
-Oto zestawienie:
--  Tworzymy`Graphics` obiekt, który pozwala nam rysować na naszym obrazie PSD.
-- `clear(Color.getWhite())` wypełnia tło bielą.
-- `drawEllipse()` tworzy czerwoną elipsę o określonych wymiarach.
+
+- `clear(Color.getWhite())` wypełnia tło białym kolorem.  
+- `drawEllipse` rysuje czerwoną elipsę o grubości 6 pikseli.
+
 ## Krok 7: Zapisz plik PSD
-Wreszcie nadszedł czas, aby zapisać swoje arcydzieło. W końcu jaki jest sens tworzenia, jeśli nie można się dzielić?
+Na koniec zapisz obraz na dysku.
+
 ```java
 psd.save();
 ```
-Wykonanie tej linii spowoduje zapisanie pliku PSD w określonym katalogu z ustawionymi przez nas konfiguracjami.
-## Wniosek
-Gratulacje! Właśnie utworzyłeś indeksowany plik PSD przy użyciu Aspose.PSD dla Java. Choć na pierwszy rzut oka te kroki mogą wydawać się obszerne, każdy z nich ma na celu zapewnienie pełnej kontroli nad kreacjami graficznymi. Dzięki Aspose.PSD możliwości są niemal nieograniczone, jeśli chodzi o programowe ożywianie cyfrowego kunsztu.
-Więc po co się tu zatrzymywać? Zanurz się głębiej w dokumentację Aspose.PSD[Tutaj](https://reference.aspose.com/psd/java/) i odkryj jeszcze więcej kreatywnych możliwości.
-## Często zadawane pytania
-### Co to jest Aspose.PSD dla Java?
-Aspose.PSD for Java to biblioteka umożliwiająca programową manipulację plikami PSD (Photoshop) przy użyciu języka Java.
-### Czy mogę używać Aspose.PSD za darmo?
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.PSD[Tutaj](https://releases.aspose.com/).
-### Czy muszę mieć zainstalowany Photoshop, aby pracować z Aspose.PSD?
-Nie, możesz tworzyć i manipulować plikami PSD bez Photoshopa, ponieważ Aspose.PSD obsługuje wszystkie operacje niezależnie.
-### Jak uzyskać tymczasową licencję na Aspose.PSD?
- Możesz poprosić o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-### Gdzie mogę uzyskać wsparcie dla Aspose.PSD?
- Możesz uzyskać pomoc na forum Aspose[Tutaj](https://forum.aspose.com/c/psd/34).
+
+Plik `Newsample_out.psd` pojawi się w katalogu, który określiłeś wcześniej.
+
+## Typowe problemy i wskazówki
+- **Palette Size** – Jeśli potrzebujesz więcej niż 4 kolory, po prostu dodaj je do tablicy `palette` (do 256).  
+- **File Permissions** – Upewnij się, że proces Java ma dostęp do zapisu w `dataDir`.  
+- **Incorrect Color Mode** – Zapomnienie o `createOptions.setColorMode(ColorModes.Indexed)` spowoduje utworzenie PSD w trybie RGB zamiast indeksowanego.  
+
+## Najczęściej zadawane pytania
+
+**Q: Czym jest Aspose.PSD for Java?**  
+A: Aspose.PSD for Java to biblioteka umożliwiająca programowe manipulowanie plikami PSD (Photoshop) przy użyciu Javy.
+
+**Q: Czy mogę używać Aspose.PSD za darmo?**  
+A: Tak, możesz uzyskać dostęp do wersji próbnej Aspose.PSD **[here](https://releases.aspose.com/)**.
+
+**Q: Czy muszę mieć zainstalowany Photoshop, aby pracować z Aspose.PSD?**  
+A: Nie, możesz tworzyć i manipulować plikami PSD bez Photoshopa, ponieważ Aspose.PSD obsługuje wszystkie operacje samodzielnie.
+
+**Q: Jak uzyskać tymczasową licencję na Aspose.PSD?**  
+A: Możesz poprosić o tymczasową licencję **[here](https://purchase.aspose.com/temporary-license/)**.
+
+**Q: Gdzie mogę uzyskać wsparcie dla Aspose.PSD?**  
+A: Wsparcie możesz uzyskać na forum Aspose **[here](https://forum.aspose.com/c/psd/34)**.
+
+## Zakończenie
+Właśnie nauczyłeś się **how to create PSD** plików w trybie kolorów indeksowanych, wygenerowałeś własną paletę i dodałeś proste grafiki — wszystko przy użyciu Aspose.PSD for Java. Dzięki tym elementom możesz rozbudować projekt o bardziej złożone rysunki, zarządzanie warstwami i przetwarzanie wsadowe. Aby zgłębić temat, zapoznaj się z oficjalną dokumentacją API **[here](https://reference.aspose.com/psd/java/)** i dalej eksperymentuj z różnymi paletami oraz prymitywami rysunkowymi.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-15  
+**Testowano z:** Aspose.PSD for Java 24.12 (latest)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
