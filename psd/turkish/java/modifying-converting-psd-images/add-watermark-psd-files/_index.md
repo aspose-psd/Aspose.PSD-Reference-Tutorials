@@ -1,10 +1,12 @@
 ---
-title: Aspose.PSD for Java ile PSD Dosyalarına Filigran Ekleme
-linktitle: Aspose.PSD for Java ile PSD Dosyalarına Filigran Ekleme
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza zahmetsizce nasıl filigran ekleyeceğinizi öğrenin. Basit, adım adım kılavuzla görsellerinizi koruyun.
-weight: 18
+date: 2026-03-07
+description: Aspose.PSD for Java kullanarak PSD dosyalarına görüntü filigranı eklemeyi
+  öğrenin – PSD görüntü işleme ve grafiklerinizi koruma konusunda hızlı bir rehber.
+linktitle: How to Create Image Watermark in PSD Files with Aspose.PSD for Java
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java ile PSD Dosyalarına Görüntü Filigranı Nasıl Oluşturulur
 url: /tr/java/modifying-converting-psd-images/add-watermark-psd-files/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,17 +15,34 @@ url: /tr/java/modifying-converting-psd-images/add-watermark-psd-files/
 
 # Aspose.PSD for Java ile PSD Dosyalarına Filigran Ekleme
 
-## giriiş
-Filigranlar, görsellerinizi korumanın ve sahipliğinizi belirtmenin ince ama etkili bir yoludur. İster portfolyonuzu sergileyen bir fotoğrafçı olun ister en son çalışmanızı sunan bir tasarımcı olun, filigran eklemek marka kimliğinizi korumak açısından çok önemli olabilir. Bu eğitimde Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza nasıl zahmetsizce filigran ekleyeceğinizi açıklayacağız. O halde bir fincan kahve alın, rahatlayın ve başlayalım!
+## Giriş
+Filigranlar, görüntülerinizi korumanın ve sahipliği iletmenin ince ama etkili bir yoludur. Bu öğreticide, Aspose.PSD for Java kullanarak PSD dosyalarında **create image watermark** oluşturmayı öğreneceksiniz. Portföyünüzü sergileyen bir fotoğrafçı ya da son çalışmalarını sunan bir tasarımcı olun, bir filigran eklemek marka kimliğinizi korumak için çok önemli olabilir. O halde bir fincan kahve alın, rahatlayın ve başlayalım!
+
+## Hızlı Yanıtlar
+- **Ana hedef nedir?** Programlı olarak bir PSD dosyasında image watermark oluşturmak.  
+- **Hangi kütüphane kullanılıyor?** Aspose.PSD for Java.  
+- **Uygulama ne kadar sürer?** Temel bir filigran için yaklaşık 10‑15 dakika.  
+- **Ana önkoşullar nelerdir?** Java JDK, Aspose.PSD kütüphanesi ve bir kaynak PSD dosyası.  
+- **Sonucu PNG olarak dışa aktarabilir miyim?** Evet – `save` metodunu `PngOptions` ile kullanın.
+
+## **create image watermark** nedir?
+Bir image watermark oluşturmak, sahiplik bilgisinin doğrudan görsel içeriğe yerleştirilmesi için görüntü dosyasının üzerine yarı saydam metin veya grafiklerin programlı olarak bindirilmesi anlamına gelir.
+
+## psd görüntü işleme için Aspose.PSD for Java neden kullanılmalı?
+Aspose.PSD, **psd image processing** için zengin bir API seti sunar; katmanları manipüle etmenize, efektler uygulamanıza ve Photoshop'a ihtiyaç duymadan son görüntüyü oluşturmanıza olanak tanır. Yüksek doğrulukta render, toplu işlemler ve tüm büyük işletim sistemlerinde çalışır.
+
 ## Önkoşullar
-Koda dalmadan önce, filigranı PSD dosyalarınıza başarılı bir şekilde uygulamak için gerekli araç ve paketlere sahip olduğunuzdan emin olmanız önemlidir. İşte hazırlamanız gerekenler:
-1. Java Geliştirme Kiti (JDK): Makinenizde JDK'nın kurulu olduğundan emin olun. PATH değişkenini yapılandırmak da gerekli olabilir.
-2. Aspose.PSD for Java Library: Bu, filigran uygulamamızın kalbidir. Kütüphaneyi şuradan indirmeniz gerekiyor:[Web sitesi](https://releases.aspose.com/psd/java/).
-3. IDE: Seçtiğiniz herhangi bir Java IDE işinizi görecektir. İster Eclipse, ister IntelliJ IDEA, hatta basit bir metin düzenleyici olsun, seçim yapmakta özgürsünüz.
-4.  PSD Dosyası: Bir PSD dosyasını elinizin altında bulundurun. Bir tane oluşturabilir veya çevrimiçi bir örnek bulabilirsiniz. Biz buna şu şekilde değineceğiz:`layers.psd`.
-5. Temel Java Bilgisi: Java'nın temellerini iyi anlamak, takip etmenize çok yardımcı olacaktır.
-## Paketleri İçe Aktar
-Artık her şeyi ayarladığınıza göre gerekli paketleri içe aktaralım. Java'daki içe aktarmalar, çeşitli kitaplıklardan sınıfları ve işlevleri getirmenize olanak tanıyarak kodunuzu daha verimli hale getirir. İhtiyacınız olan şey aşağıdadır:
+Koda başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+
+1. **Java Development Kit (JDK)** – herhangi bir güncel sürüm (8 veya üzeri).  
+2. **Aspose.PSD for Java Library** – [Aspose web sitesinden](https://releases.aspose.com/psd/java/) indirin.  
+3. **IDE** – Eclipse, IntelliJ IDEA veya tercih ettiğiniz herhangi bir editör.  
+4. **PSD File** – çalışma dizininizde `layers.psd` adlı örnek bir dosya.  
+5. **Basic Java knowledge** – sınıflar, nesneler ve dosya I/O konularına aşinalık.
+
+## Paketleri İçe Aktarma
+Her şeyi kurduğunuza göre, gerekli paketleri içe aktaralım. Java'da importlar, çeşitli kütüphanelerden sınıf ve fonksiyonları getirmenizi sağlar ve kodunuzu daha verimli kılar. Aşağıda ihtiyacınız olanlar yer alıyor:
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Font;
@@ -36,66 +55,108 @@ import com.aspose.psd.brushes.SolidBrush;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
-## 1. Adım: Dizininizi Kurun
-Öncelikle PSD dosyanızın bulunduğu yerin yolunu ayarlamamız gerekiyor. Bu çok önemlidir çünkü Java'nın dosyalarınızı nerede bulacağını bilmesi gerekir. 
+
+## **create image watermark** Nasıl Yapılır – Adım‑Adım Kılavuz
+
+### Adım 1: Dizinini Ayarla
+İlk olarak, PSD dosyanızın bulunduğu yolu ayarlamamız gerekiyor. Bu, Java'nın dosyalarınızı nerede bulacağını bilmesi açısından kritiktir.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
- Yer değiştirmek`Your Document Directory` PSD dosyanızın bulunduğu gerçek dizininizle.
-## Adım 2: PSD Dosyasını Yükleyin
- Daha sonra, PSD dosyasını yükleyip bir`PsdImage`Bu adım, dosyayı değiştirebileceğimiz bir formata dönüştürür.
+
+`Your Document Directory` ifadesini `layers.psd` dosyasını içeren gerçek klasörle değiştirin.
+
+### Adım 2: PSD Dosyasını Yükle
+Sonra, PSD dosyasını yükleyecek ve `PsdImage` tipine dönüştüreceğiz. Bu adım, dosyayı manipüle edebileceğimiz bir formata çevirir.
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
- Bu satırın yaptığı, mevcut PSD dosyanızı alıp belleğe bir dosya olarak yüklemektir.`PsdImage`. Bunu, içine yazmaya başlayabileceğiniz bir kitabı açmak gibi düşünün.
-## Adım 3: Grafik Nesnesi Oluşturun
- Artık PSD dosyamız yüklendiğinde, bir oluşturmamız gerekiyor.`Graphics` nesne. Bu, tuvalinize renk katmak için bir boya fırçası almak gibi çizim işlemlerini gerçekleştirmemize olanak tanır.
+
+Bunu, sayfalarına yazmaya başlayabileceğiniz bir kitabı açmak gibi düşünün.
+
+### Adım 3: Graphics Nesnesi Oluştur
+PSD dosyamız yüklendiğine göre, bir `Graphics` nesnesi oluşturmamız gerekiyor. Bu, çizim işlemleri yapmamızı sağlar—temelde tuvaliniz için bir fırça almış gibi.
+
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
-## Adım 4: Filigranınızın Yazı Tipini Tanımlayın
-Şimdi filigranınızın nasıl görüneceğini seçme zamanı. Arial'ı 20 yazı tipi boyutunda kullanacağız. Burası tarzınızı sergileyebileceğiniz yerdir!
+
+### Adım 4: Filigranınız İçin Yazı Tipini Tanımla
+Şimdi filigranınızın nasıl görüneceğini seçme zamanı. Arial yazı tipini 20 punto ile kullanacağız. Yazı tipi adını veya boyutunu marka stilinize göre değiştirmekten çekinmeyin.
+
 ```java
 Font font = new Font("Arial", 20.0f);
 ```
-## Adım 5: Filigranlama için Katı Bir Fırça Oluşturun
-Filigranınıza rengini ve opaklığını veren sağlam bir fırçadır. Dikkat çekici olmasını ancak çok fazla olmamasını istiyoruz, bu nedenle kısmen şeffaf bir görünüm için alfa değerini 0'a yakın bir değere ayarlayalım.
+
+### Adım 5: Filigran İçin Katı Fırça Oluştur
+Katı bir fırça, filigranınıza renk ve opaklık verir. Yarı saydam gri için alfa değerini 255 üzerinden 50 olarak ayarlayacağız.
+
 ```java
 SolidBrush brush = new SolidBrush(Color.fromArgb(50, 128, 128, 128));
 ```
- Burada,`Color.fromArgb(50, 128, 128, 128)` %50 opaklığa sahip gri bir renk oluşturur. Sanki canlı bir gökyüzünü yumuşakça gölgeleyen bir bulut gibi.
-## Adım 6: Filigranınız için Dize Hizalamasını Ayarlayın
-Filigranınızın görselin tam ortasında görünmesini sağlamak için dize hizalama seçeneklerini ayarlayacağız. Bu adım tamamen hassasiyetle ilgilidir!
+
+Burada, `Color.fromArgb(50, 128, 128, 128)` %50 opaklığa sahip bir gri renk oluşturur—ince bir imza için mükemmel.
+
+### Adım 6: Filigranınız İçin Metin Hizalamasını Ayarla
+Filigranın görüntünün tam ortasında görünmesini sağlamak için metin hizalama seçeneklerini yapılandıracağız.
+
 ```java
 StringFormat sf = new StringFormat();
 sf.setAlignment(StringAlignment.Center);
 sf.setLineAlignment(StringAlignment.Center);
 ```
-## Adım 7: Filigranı Çizin
-Şimdi heyecan verici kısma geliyoruz! Grafik bağlamımız ayarlandığında, filigranı görüntünün üzerine çizmenin zamanı geldi.
+
+### Adım 7: Filigranı **java graphics drawstring** ile Çiz
+Şimdi heyecan verici bölüme geldik. Grafik bağlamı hazır olduğunda, `java graphics drawstring` kullanarak filigran metnini görüntüye çizeceğiz.
+
 ```java
 graphics.drawString("Some watermark text", font, brush, new RectangleF(0, 0, psdImage.getWidth(), psdImage.getHeight()), sf);
 ```
- İşte, değiştir`"Some watermark text"` İstediğiniz filigran metniyle. Bu adım bir başyapıta imzanızı atmak gibidir!
-## Adım 8: Görüntüyü PNG Formatına Aktarın
-Artık resmimiz hazır olduğuna göre, onu yeni bir dosya biçiminde (bu durumda PNG) kaydetmemiz gerekiyor. 
+
+`"Some watermark text"` ifadesini PSD'de görünmesini istediğiniz gerçek metinle değiştirin.
+
+### Adım 8: **Save PSD as PNG** – **export psd png**
+Filigran yerleştirildiğine göre, **save psd png** (yani PSD'yi PNG olarak dışa aktar) yapacağız, böylece sonuç herhangi bir tarayıcı veya görüntüleyicide görüntülenebilir.
+
 ```java
 psdImage.save(dataDir + "AddWatermark_output.png", new PngOptions());
 ```
-Bu satırı uygulayarak çalışmanızı yeni bir formatta etkili bir şekilde ölümsüzleştirir ve filigranı dünyanın görmesi için korursunuz!
-## Çözüm
-Ve işte karşınızda! Aspose.PSD for Java'yı kullanarak PSD dosyanıza başarıyla filigran eklediniz. Bu süreç yalnızca içeriğinizi güvence altına almakla kalmaz, aynı zamanda markanızın görünürlüğünü de artırır. Unutmayın, attığınız adımlar yalnızca bir başlangıç noktasıdır. Yaratıcı olmaktan çekinmeyin; farklı yazı tipleri, stiller ve renklerle denemeler yapın! Çalışmanızı korumaya ve markanızı gururla sergilemeye devam edin. 
-## SSS'ler
-### Filigran metnini özelleştirebilir miyim?
- Kesinlikle! Sadece içindeki metni değiştirin`drawString` İstediğiniz filigranı içeren yöntemi kullanın.
-### Farklı bir yazı tipi istersem ne olur?
- Yazı tipini farklı bir yazı tipi seçerek kolayca değiştirebilirsiniz.`Font` örnekleme.
-### Opaklığı ayarlamanın bir yolu var mı?
- Evet! Alfa değerini değiştirin`Color.fromArgb()` filigranın opaklığını değiştirmek için.
-### Diğer resim formatlarını kullanabilir miyim?
- Evet, JPEG veya BMP gibi çeşitli formatlarda kaydedebilirsiniz. Sadece değiştir`PngOptions()` İstenilen seçeneklerle.
-### Daha fazla yardımı nerede bulabilirim?
- Detaylı sorularınız için adresini ziyaret edebilirsiniz.[forumlar](https://forum.aspose.com/c/psd/34) veya kontrol edin[dokümantasyon](https://reference.aspose.com/psd/java/).
+
+Bu satırı çalıştırmak, filigranınızı içeren yeni bir PNG dosyası oluşturur.
+
+## Yaygın Sorunlar ve Çözümler
+- **Filigran görünmüyor mu?** `Color.fromArgb()` içindeki alfa değerini kontrol edin; daha düşük bir değer filigranı daha şeffaf yapar.  
+- **Yanlış boyutlar?** Dikdörtgen için `psdImage.getWidth()` ve `psdImage.getHeight()` kullandığınızdan emin olun, böylece metin görüntü boyutuna göre ölçeklenir.  
+- **Lisans istisnaları?** Geçici bir değerlendirme lisansı test için çalışır, ancak üretim kullanımı için tam lisans gereklidir.
+
+## Sıkça Sorulan Sorular
+
+**S: Filigran metnini özelleştirebilir miyim?**  
+C: Kesinlikle! `drawString` metodundaki dizeyi istediğiniz metinle değiştirmeniz yeterli.
+
+**S: Farklı bir font istesem ne olur?**  
+C: `Font` nesnesinin oluşturulmasını herhangi bir yüklü fonta değiştirin, örneğin `new Font("Times New Roman", 24.0f)`.
+
+**S: Opaklığı ayarlamanın bir yolu var mı?**  
+C: Evet—`Color.fromArgb(alpha, r, g, b)`'nin ilk parametresini değiştirin. Daha düşük `alpha` değerleri şeffaflığı artırır.
+
+**S: PNG dışında başka görüntü formatları kullanabilir miyim?**  
+C: Elbette. `new PngOptions()` ifadesini `new JpegOptions()` ya da `new BmpOptions()` ile değiştirerek **save psd png**'i farklı bir formatta kaydedebilirsiniz.
+
+**S: Daha fazla yardımı nereden bulabilirim?**  
+C: Ayrıntılı sorular için [Aspose forumlarını](https://forum.aspose.com/c/psd/34) ziyaret edin ya da [dökümantasyonlarına](https://reference.aspose.com/psd/java/) bakın.
+
+## Sonuç
+Artık Aspose.PSD for Java kullanarak bir PSD dosyasında **create image watermark** nasıl yapılacağını öğrendiniz. Bu teknik, içeriğinizi korumanın yanı sıra tüm görsel varlıklarınızda marka varlığınızı güçlendirir. Farklı fontlar, renkler ve opaklık seviyeleriyle denemeler yapın ve **save psd png** ya da **export psd png**'i ihtiyacınız olan herhangi bir formata dönüştürebileceğinizi unutmayın.
+
+---
+
+**Son Güncelleme:** 2026-03-07  
+**Test Edilen Versiyon:** Aspose.PSD for Java 24.11  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

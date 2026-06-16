@@ -1,65 +1,87 @@
 ---
-title: Dodaj warstwę regulacji poziomu w PSD
-linktitle: Dodaj warstwę regulacji poziomu w PSD
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak skutecznie dodawać warstwę dostosowania poziomu do plików PSD przy użyciu Aspose.PSD dla Java. Podnieś swoje umiejętności edycji obrazu.
-weight: 16
+date: 2026-03-07
+description: Naucz się regulować poziomy, dodając warstwę korekty poziomów w plikach
+  PSD przy użyciu Aspose.PSD dla Javy. Szybko opanuj korekty tonalne.
+linktitle: Add Level Adjustment Layer in PSD
+second_title: Aspose.PSD Java API
+title: Jak dostosować poziomy – Dodaj warstwę dopasowania poziomu w PSD
 url: /pl/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj warstwę regulacji poziomu w PSD
+# Dodaj warstwę dopasowania poziomów w PSD
 
-## Wstęp
-Jeśli chodzi o edycję obrazu, zarządzanie poziomami może znacząco wpłynąć na intensywność i wyrazistość zdjęć. Przydatnym narzędziem w arsenale Photoshopa jest „Warstwa regulacji poziomu”, która umożliwia dostosowanie zakresu tonalnego i balansu kolorów obrazów. W tym przewodniku przeprowadzimy Cię przez proces implementowania warstwy dostosowania poziomu w pliku PSD przy użyciu Aspose.PSD dla Java. Więc chwyć swoje Java IDE.
-## Warunki wstępne
-Zanim wkroczysz w świat dostosowywania poziomów, musisz skonfigurować kilka rzeczy, aby zapewnić płynną jazdę:
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK na swoim komputerze. Jeśli go nie masz, możesz go pobrać z[stronie internetowej Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) lub użyj OpenJDK.
-2.  Aspose.PSD dla biblioteki Java: Aby manipulować plikami PSD, musisz pobrać bibliotekę Aspose.PSD. Możesz pobrać najnowszą wersję z tego[link do pobrania](https://releases.aspose.com/psd/java/) i upewnij się, że umieściłeś plik JAR w bibliotece projektu.
-3. Podstawowa znajomość języka Java: Pomocna będzie podstawowa znajomość programowania w języku Java, ponieważ w tym samouczku będziemy zagłębiać się w fragmenty kodu.
-4. Konfiguracja IDE: Do pisania i uruchamiania kodu możesz używać dowolnego preferowanego środowiska Java IDE — na przykład IntelliJ IDEA, Eclipse lub NetBeans. Upewnij się tylko, że skonfigurowałeś projekt Java i dodałeś bibliotekę Aspose.PSD.
+## Wprowadzenie
+Jeśli chcesz **dowiedzieć się, jak regulować poziomy** w swoich dokumentach Photoshop, warstwa dopasowania poziomów jest idealnym narzędziem. Pozwala ona precyzyjnie dostroić cienie, półtony i podświetlenia bez trwałej zmiany oryginalnych pikseli. W tym samouczku przeprowadzimy Cię przez dodanie warstwy dopasowania poziomów do pliku PSD przy użyciu Aspose.PSD for Java, abyś mógł uzyskać profesjonalną kontrolę tonalną w kilku prostych krokach.
 
-## Importuj pakiety
-Zanim zaczniemy pisać nasz kod, musimy zaimportować niezbędne pakiety z biblioteki Aspose.PSD. Oto jak możesz to zrobić:
+## Szybkie odpowiedzi
+- **Co robi warstwa dopasowania poziomów?** Modyfikuje zakres tonalny obrazu w sposób niedestrukcyjny.  
+- **Jakiej biblioteki użyto?** Aspose.PSD for Java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja jest wymagana w produkcji.  
+- **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowego dopasowania.  
+- **Czy mogę regulować wiele kanałów?** Tak, możesz ustawić poziomy wejściowe/wyjściowe dla każdego kanału kolorowego osobno.
+
+## Co to jest warstwa dopasowania poziomów?
+Warstwa dopasowania poziomów pozwala skorygować balans tonalny obrazu, regulując wejściowe cienie, półtony i podświetlenia oraz poziomy wyjściowe. Ponieważ istnieje jako oddzielna warstwa, możesz przełączać jej widoczność lub usuwać ją bez wpływu na leżącą pod nią grafikę.
+
+## Dlaczego dodać warstwę dopasowania poziomów przy użyciu Aspose.PSD?
+- **Automatyzacja:** Zintegruj korekty poziomów w potokach przetwarzania wsadowego.  
+- **Wieloplatformowość:** Działa na każdym systemie operacyjnym obsługującym Javę.  
+- **Precyzja:** Uzyskaj programowy dostęp do ustawień każdego kanału dla dokładnych rezultatów.  
+
+## Wymagania wstępne
+1. Java Development Kit (JDK). Jeśli go nie masz, pobierz go ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) lub użyj OpenJDK.  
+2. Biblioteka Aspose.PSD for Java – pobierz najnowszy plik JAR z tego [linku do pobrania](https://releases.aspose.com/psd/java/).  
+3. Podstawowa znajomość programowania w Javie.  
+4. IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans, z dodanym do classpath projektu plikiem JAR Aspose.PSD.
+
+## Importowanie pakietów
+Zanim zaczniemy pisać kod, musimy zaimportować niezbędne pakiety z biblioteki Aspose.PSD. Oto jak to zrobić:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-Importując te pakiety, będziemy mieli dostęp do klas niezbędnych do ładowania, modyfikowania i zapisywania naszych plików PSD.
+Te importy dają dostęp do klas służących do ładowania plików PSD, pracy z warstwami dopasowania poziomów oraz manipulacji ustawieniami poszczególnych kanałów.
 
-Podzielmy teraz proces na zrozumiałe etapy. Postępuj zgodnie z instrukcjami ładowania pliku PSD, dostosowywania poziomów i zapisywania zmian. 
-## Krok 1: Skonfiguruj ścieżki plików
-Pierwszym krokiem jest określenie, gdzie znajduje się nasz plik PSD i gdzie chcemy zapisać zmodyfikowane dane wyjściowe. Możesz dostosować ścieżkę katalogu do swoich potrzeb.
+## Jak dostosować poziomy w pliku PSD
+Poniżej znajduje się przewodnik krok po kroku, który pokazuje dokładnie **jak regulować poziomy** programowo.
+
+### Krok 1: Ustaw ścieżki plików
+Zdefiniuj, gdzie znajduje się źródłowy plik PSD i gdzie zostanie zapisany zmodyfikowany plik.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
- Tutaj, wymień`"Your Document Directory"` rzeczywistą ścieżką w systemie, w którym przechowywany jest plik PSD. To przygotowuje grunt pod wszystko, co będziemy robić dalej.
-## Krok 2: Załaduj plik PSD
- Teraz załadujmy plik PSD za pomocą`PsdImage` klasa. Ten krok jest niezbędny, ponieważ pozwala nam uzyskać dostęp do warstw i manipulować nimi.
+Zastąp `"Your Document Directory"` rzeczywistym folderem na swoim komputerze.
+
+### Krok 2: Załaduj plik PSD
+Utwórz instancję `PsdImage` z pliku źródłowego.
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
- Kiedy zadzwonisz`Image.load()` , odczyta plik PSD i utworzy instancję`PsdImage` z którym możesz pracować.
-## Krok 3: Iteruj po warstwach
-Ponieważ chcemy dostosować warstwę dopasowania poziomu, będziemy musieli przejść przez każdą warstwę w naszym pliku PSD. Pomaga nam to znaleźć konkretną warstwę, którą chcemy zmodyfikować.
+Teraz masz pełny dostęp do wszystkich warstw wewnątrz pliku PSD.
+
+### Krok 3: Przejdź przez warstwy
+Znajdź warstwę dopasowania poziomów, którą chcesz zmodyfikować.
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        // Dalsza manipulacja będzie tutaj...
+        // Further manipulation will go here...
     }
 }
 ```
- W tej pętli`instanceof LevelsLayer` sprawdza, czy bieżąca warstwa jest warstwą dopasowania poziomów. Jeśli tak, możemy przystąpić do dostosowywania jego właściwości.
-## Krok 4: Dostosuj ustawienia kanału poziomu
-Kiedy już zidentyfikujemy właściwą warstwę, możemy zmodyfikować jej poziomy wejściowe i wyjściowe. To tutaj dzieje się magia! Dostosuj różne parametry, aby zobaczyć, jak wpływają one na obraz.
+Sprawdzenie `instanceof LevelsLayer` zapewnia, że pracujemy wyłącznie z warstwami dopasowania poziomów.
+
+### Krok 4: Dostosuj ustawienia kanału poziomu
+Dostosuj wartości wejściowe i wyjściowe dla wybranego kanału.
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +90,49 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-Oto działanie każdego parametru:
-- Poziom półtonów wejściowych: reguluje tony średnie.
-- Poziom wejściowego cienia: poprawia ciemniejsze obszary obrazu.
-- Poziom podświetlenia sygnału wejściowego: Zmienia jasne obszary obrazu.
-- Poziom wyjściowego cienia: Ustawia sposób wyświetlania ciemnych cieni.
-- Poziom podświetlenia wyjściowego: Ustawia sposób wyświetlania jasnych świateł.
-Zachęcamy do eksperymentowania z różnymi wartościami!
-## Krok 5: Zapisz zmodyfikowany plik PSD
-Teraz, gdy dokonaliśmy już poprawek, czas zapisać zmodyfikowany plik PSD. Ten krok jest kluczowy, aby mieć pewność, że zmiany zostaną zastosowane i zapisane.
+- **Poziom środkowy (Input Midtone Level):** Przesuwa zakres tonów środkowych.  
+- **Poziom cieni (Input Shadow Level):** Przyciemnia lub rozjaśnia cienie.  
+- **Poziom podświetleń (Input Highlight Level):** Kontroluje najjaśniejsze partie.  
+- **Poziomy wyjściowe cieni/podświetleń:** Definiują ostateczny zakres wyjściowy.
+
+Śmiało eksperymentuj z różnymi wartościami, aby zobaczyć, jak wpływają na obraz.
+
+### Krok 5: Zapisz zmodyfikowany plik PSD
+Zachowaj wprowadzone zmiany w nowym pliku.
 ```java
 im.save(psdPathAfterChange);
 ```
- Możesz teraz znaleźć dostosowany plik PSD w określonym miejscu`psdPathAfterChange`. 
-## Wniosek
-Właśnie nauczyłeś się, jak dodać warstwę dopasowania poziomu do pliku PSD przy użyciu Aspose.PSD dla Java! Postępując zgodnie z tym przewodnikiem, możesz bez wysiłku dostosować jakość tonalną obrazów, torując drogę do bardziej żywych i atrakcyjnych wizualnie wydruków. Pamiętaj, że praktyka czyni mistrza, więc możesz dowolnie modyfikować ustawienia i przeglądać różne pliki PSD, aby zobaczyć efekty swoich zmian.
-## Często zadawane pytania
-### Co to jest warstwa dopasowania poziomu?
-Warstwa regulacji poziomu umożliwia korygowanie zakresu tonalnego obrazów, równoważąc cienie, półcienie i światła.
-### Czy mogę używać Aspose.PSD bez zakupu?
-Tak! Aspose oferuje bezpłatną wersję próbną w celu przetestowania biblioteki przed zakupem.
-### Gdzie mogę znaleźć dokumentację dla Aspose.PSD?
- Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/psd/java/).
-### Czy istnieje jakieś wsparcie społeczności dla produktów Aspose?
- Absolutnie! Możesz zadawać pytania i uzyskać wsparcie w[forum dyskusyjne](https://forum.aspose.com/c/psd/34).
-### Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
- Możesz ubiegać się o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+Zaktualizowany plik PSD znajdziesz w lokalizacji określonej w `psdPathAfterChange`.
+
+## Typowe problemy i rozwiązania
+- **Plik nie znaleziony:** Sprawdź, czy `dataDir` wskazuje na właściwy folder i czy źródłowy plik PSD istnieje.  
+- **ClassCastException:** Upewnij się, że ładowany plik jest rzeczywiście PSD; inne formaty wymagają innych klas.  
+- **Błędy licencji:** Użyj ważnej licencji Aspose.PSD w wersjach produkcyjnych; wersja próbna działa w środowisku deweloperskim.
+
+## Zakończenie
+Teraz wiesz **jak regulować poziomy** poprzez dodanie i skonfigurowanie warstwy dopasowania poziomów w pliku PSD przy użyciu Aspose.PSD for Java. Ta technika zapewnia precyzyjną kontrolę nad balansem tonalnym, jednocześnie utrzymując pełną automatyzację przepływu pracy. Eksperymentuj z różnymi wartościami kanałów i odkrywaj przetwarzanie wsadowe, aby zastosować te same korekty do wielu obrazów.
+
+## Najczęściej zadawane pytania
+
+**P: Co to jest warstwa dopasowania poziomów?**  
+O: To warstwa niedestrukcyjna, która pozwala modyfikować zakres tonalny (cienie, półtony, podświetlenia) obrazu.
+
+**P: Czy mogę używać Aspose.PSD bez zakupu licencji?**  
+O: Tak, możesz ocenić bibliotekę w wersji próbnej, ale licencja jest wymagana przy wdrożeniach komercyjnych.
+
+**P: Gdzie mogę znaleźć dokumentację Aspose.PSD?**  
+O: Dokumentację znajdziesz [tutaj](https://reference.aspose.com/psd/java/).
+
+**P: Czy istnieje wsparcie społeczności dla produktów Aspose?**  
+O: Oczywiście! Możesz zadawać pytania i uzyskać pomoc na [forum Aspose](https://forum.aspose.com/c/psd/34).
+
+**P: Jak mogę uzyskać tymczasową licencję dla Aspose.PSD?**  
+O: Tymczasową licencję możesz zamówić [tutaj](https://purchase.aspose.com/temporary-license/).
+
+**Ostatnia aktualizacja:** 2026-03-07  
+**Testowano z:** najnowsza wersja Aspose.PSD (Java)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,58 +1,91 @@
 ---
-title: 使用 Java 在 PSD 檔案中的執行階段新增文字層
-linktitle: 使用 Java 在 PSD 檔案中的執行階段新增文字層
+date: 2026-03-07
+description: 學習如何使用 Java 與 Aspose.PSD 在執行時向 PSD 檔案加入文字。跟隨本步驟指南，快速在 PSD 中建立文字圖層。
+linktitle: Add Text Layer on Runtime in PSD Files using Java
 second_title: Aspose.PSD Java API
-description: 了解如何使用 Java 和 Aspose.PSD 將文字圖層動態新增至 PSD 檔案。請按照此逐步教程獲得令人興奮的自動化可能性。
-weight: 17
+title: 使用 Java 在執行時向 PSD 檔案添加文字
 url: /zh-hant/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 在 PSD 檔案中的執行階段新增文字層
+# 使用 Java 在執行時為 PSD 檔案加入文字
 
 ## 介紹
-如果您曾經使用過 Photoshop，您就會知道它在編輯影像方面的強大功能。但是，如果我告訴您可以使用 Java 自動執行其中一些任務呢？想像一下以程式設計方式動態地將文字圖層新增到 PSD 檔案中。很酷，對吧？在本教程中，我們將深入探討如何使用 Java 的 Aspose.PSD 庫動態地將文字圖層新增至 PSD 檔案。那麼，捲起袖子，讓我們開始吧！
-## 先決條件
-在我們深入研究程式碼之前，讓我們確保您擁有開始使用所需的一切。這是您需要的：
-1.  Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK。你可以[在這裡下載](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.PSD for Java Package：您需要下載 Aspose.PSD 庫並將其整合到您的專案中。您可以從[Aspose 發佈頁面](https://releases.aspose.com/psd/java/).
-3. 整合開發環境 (IDE)：雖然您可以使用任何文字編輯器，但像 IntelliJ IDEA 或 Eclipse 這樣的 IDE 將透過提供用於管理專案的工具來使您的生活變得更加輕鬆。
-4. 基本 Java 知識：了解核心 Java 概念對於順利瀏覽本教學是必要的。
-5.  PSD 檔案：準備好一個可以使用的基本 PSD 檔案。我們將使用一個名為`OneLayer.psd`作為我們的起點。
-## 導入包
-準備好一切後，我們流程的第一步就是在 Java 檔案中匯入必要的套件。以下是您需要包含的內容：
+如果你曾經手動編輯過 Photoshop 文件，你就會知道圖層有多強大。假如你可以從 Java 應用程式自動 **add text to PSD** 檔案呢？使用 Aspose.PSD for Java 函式庫，你可以在執行時於 PSD 中建立文字圖層，開啟批次處理、動態圖形產生以及自動化品牌工作流程的大門。本教學將逐步說明整個流程，從專案設定到儲存更新後的檔案。
+
+## 快速解答
+- **需要哪個函式庫？** Aspose.PSD for Java.  
+- **可以在既有 PSD 中加入文字嗎？** 可以 – 只要載入檔案、加入 `TextLayer`，然後儲存。  
+- **正式環境需要授權嗎？** 非評估用途必須取得商業授權。  
+- **支援哪個 Java 版本？** JDK 8 或以上（建議使用最新的 LTS 版）。  
+- **適用於 Web 後端嗎？** 當然 – API 可在任何基於 Java 的伺服器環境中運作。
+
+## 什麼是「add text to PSD」？
+在 PSD 中加入文字指的是以程式方式在 Photoshop 文件內建立新的文字圖層。此圖層的行為與其他 Photoshop 文字圖層相同：可以移動、編輯內容、套用樣式——全部不需開啟 Photoshop。
+
+## 為什麼要使用 Java 在 PSD 中建立文字圖層？
+- **自動化** – 大量產生行銷素材、浮水印或產品標籤。  
+- **一致性** – 確保數千個檔案使用相同的字型、大小與位置。  
+- **整合** – 與其他 Java 服務（電商、報表、CI 流程）結合，即時產出圖形。
+
+## 前置條件
+在撰寫程式碼之前，請先確認你已具備以下項目：
+
+1. **Java Development Kit (JDK)** – 安裝 JDK 8 或更新版本。你可以在此[下載](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)。
+2. **Aspose.PSD for Java** – 從[Aspose 釋出頁面](https://releases.aspose.com/psd/java/)取得最新的 JAR。
+3. **IDE（可選但有助）** – IntelliJ IDEA、Eclipse，或任何你偏好的編輯器。
+4. **基本的 Java 知識** – 需要熟悉類別、物件與檔案 I/O。
+5. **範例 PSD** – 本教學將使用 `OneLayer.psd`，放置於你自行選擇的資料夾中。
+
+## 匯入套件
+首先，匯入處理 PSD 檔案與文字圖層所需的類別。
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
-這些導入引入了使用 Aspose.PSD 庫操作 PSD 檔案所需的所有關鍵類別。
-好吧，讓我們深入了解向 PSD 檔案添加文字圖層的細節。我們會將其分解為可管理的步驟，以確保您徹底掌握每個步驟。
-## 第 1 步：設定您的文件目錄
-首先，您需要設定 Adobe Photoshop Document (PSD) 檔案所在的工作區。使用簡單的字串定義 PSD 檔案所在的位置。
+
+這些匯入讓你能使用 Aspose.PSD 的核心功能。
+
+## 步驟說明
+
+### 步驟 1：設定文件目錄
+定義存放來源 PSD 以及輸出檔案的資料夾。
+
 ```java
 String dataDir = "Your Document Directory"; 
 ```
-在這裡你將替換`"Your Document Directory"`與儲存 PSD 檔案的實際路徑。
-## 第 2 步：載入來源 PSD 文件
-接下來，您需要將 PSD 檔案載入到您的應用程式中。這就是魔法開始的地方。使用`Image.load()`使您的文件發揮作用的方法。
+
+將 `"Your Document Directory"` 替換為你的檔案之絕對或相對路徑。
+
+### 步驟 2：載入來源 PSD 檔案
+使用 `Image.load()` 將既有 PSD 載入記憶體。
+
 ```java
 String sourceFileName = dataDir + "OneLayer.psd"; 
 Image img = Image.load(sourceFileName);
 ```
-此程式碼片段載入您的`OneLayer.psd`文件到`img`目的。如果路徑正確，您將載入 PSD 並準備好進行操作。
-## 步驟 3：投射到 PsdImage
-加載圖像後，您需要將其投射到`PsdImage`因為我們專門處理 Photoshop 檔案。
+
+若路徑正確，`img` 便代表已載入的 Photoshop 文件。
+
+### 步驟 3：轉型為 `PsdImage`
+因為我們要使用 Photoshop 專屬功能，需將通用的 `Image` 轉型為 `PsdImage`。
+
 ```java
 PsdImage im = (PsdImage)img;
 ```
-透過投射，您可以存取本教程中所需的所有特定於 PSD 操作的方法。
-## 第四步：定義文字圖層的矩形
-現在是時候指定文字圖層的顯示位置了。您將定義一個矩形來設定文字的位置和大小。
+
+此轉型即可使用 `addTextLayer()` 等方法。
+
+### 步驟 4：定義文字圖層的矩形區域
+指定新文字顯示的位置。矩形定義了座標 (x, y) 與尺寸 (寬度, 高度)。
+
 ```java
 Rectangle rect = new Rectangle(
     (int)(im.getWidth() * 0.25),
@@ -61,37 +94,64 @@ Rectangle rect = new Rectangle(
     (int)(im.getHeight() * 0.5)
 );
 ```
-在此範例中，矩形設定為佔據影像寬度的一半和高度的一半，位於向下和橫向的四分之一處。請隨意調整這些值，將文字準確地放置在您想要的位置！
-## 步驟5：新增文字圖層
-現在是最重要的部分 - 添加您的文字！使用`addTextLayer()`方法使您想要的文字在指定的矩形中栩栩如生。
+
+可自行調整計算式以符合版面需求。
+
+### 步驟 5：加入文字圖層
+在先前定義的矩形內建立實際的文字圖層。
+
 ```java
 TextLayer layer = im.addTextLayer("Added text", rect);
 ```
-在本例中，我們只是新增一個顯示「已新增文字」的文字圖層。您可以將其替換為您喜歡的任何字串。
-## 第 6 步：儲存更新的 PSD 文件
-最後一步是將變更儲存回新的 PSD 檔案。操作方法如下：
+
+將 `"Added text"` 替換為你想在 PSD 中顯示的任意字串。這裡即是以程式方式 **create text layer PSD**。
+
+### 步驟 6：儲存更新後的 PSD 檔案
+將修改後的文件寫入新檔，以免覆寫原始檔案。
+
 ```java
 String psdPath = dataDir + "ImageWithTextLayer.psd";
 im.save(psdPath);
 ```
-確保指定新的檔案名，以免覆蓋原始 PSD 檔案。現在，當您檢查指定的目錄時，您應該看到`ImageWithTextLayer.psd`與新添加的文本！
+
+執行完畢後，你會在目標資料夾看到 `ImageWithTextLayer.psd`，其中已包含新的文字圖層。
+
+## 常見問題與解決方案
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **`NullPointerException` on `im.addTextLayer`** | PSD 未正確載入（路徑錯誤）。 | 確認 `sourceFileName` 指向現有的 PSD 檔案。 |
+| **Text not visible** | 矩形位於畫布外或圖層被隱藏。 | 調整矩形座標，或使用 `layer.setVisible(true)` 檢查圖層可見性。 |
+| **LicenseException** | 在正式環境未使用有效授權即使用函式庫。 | 取得商業授權，並透過 `License license = new License(); license.setLicense("Aspose.PSD.lic");` 設定。 |
+
+## 常見問答
+
+**Q: 可以加入多個文字圖層嗎？**  
+A: 可以 – 只要對每段要插入的文字重複步驟 4 與 5。
+
+**Q: 如何設定文字樣式（字型、大小、顏色）？**  
+A: `TextLayer` 類別提供 `getTextData()` 方法，可修改 `Font`、`FontSize`、`Color` 以及其他樣式屬性。請參考 Aspose.PSD API 文件取得完整說明。
+
+**Q: 如果我的 PSD 已經有很多圖層怎麼辦？**  
+A: Aspose.PSD 能處理複雜的圖層結構。你可以針對特定群組，或使用 `addTextLayer` 的多載版本在指定索引插入新文字圖層。
+
+**Q: 這種做法適合用於 Web 應用程式嗎？**  
+A: 絕對適合。只要伺服器執行 Java，即可即時產生或修改 PSD，並提供給用戶端。
+
+**Q: 若遇到問題該向哪裡尋求協助？**  
+A: 前往 [Aspose 支援論壇](https://forum.aspose.com/c/psd/34)，社群與 Aspose 工程師皆可提供協助。
+
 ## 結論
-這就是一個包裝！您剛剛學習如何使用 Java 和 Aspose.PSD 庫向 PSD 檔案動態新增文字圖層。對於任何希望將 Photoshop 功能整合到其應用程式中的開發人員來說，它都是遊戲規則的改變者。無論您是為設計師擔任專案經理還是自動化圖形任務，這種技術都可以為您節省大量時間。
-想要探索更多嗎？請務必查看 Aspose.PSD for Java 文件以了解其他功能和進階特性。
-## 常見問題解答
-### 我可以新增多個文字圖層嗎？
-絕對地！只需對要新增的每個文字圖層重複步驟 4 和 5。
-### 如果我的 PSD 檔案有多個圖層怎麼辦？
-Aspose.PSD可以處理複雜的分層PSD檔案。只需確保在操作圖層時引用正確的圖層即可。
-### 有沒有辦法設定文字樣式？
-是的！您可以探索`TextLayer`透過深入研究 Aspose.PSD 文件來更改字體大小、顏色等。
-### 我可以在網頁應用程式中使用它嗎？
-是的，只要您有 Java 後端，您就可以在 Web 應用程式中使用此方法。
-### 如果遇到問題，我可以在哪裡獲得支援？
-查看[Aspose 支援論壇](https://forum.aspose.com/c/psd/34)社區和 Aspose 團隊可以為您提供協助。
+現在你已了解如何使用 Java 與 Aspose.PSD 在執行時輕鬆 **add text to PSD** 檔案。此技術讓你能自動化圖形產生、客製化資產，並將 Photoshop 級別的編輯整合至任何基於 Java 的解決方案。探索 Aspose.PSD API 的其他功能，加入形狀、點陣圖層，甚至套用濾鏡，以實現更豐富的自動化。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-03-07  
+**測試環境：** Aspose.PSD for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose

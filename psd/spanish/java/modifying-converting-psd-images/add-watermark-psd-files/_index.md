@@ -1,29 +1,50 @@
 ---
-title: Agregue marcas de agua a archivos PSD con Aspose.PSD para Java
-linktitle: Agregue marcas de agua a archivos PSD con Aspose.PSD para Java
-second_title: API de Java Aspose.PSD
-description: Aprenda cómo agregar una marca de agua a sus archivos PSD sin esfuerzo usando Aspose.PSD para Java. Protege tus imágenes con una sencilla guía paso a paso.
-weight: 18
+date: 2026-03-07
+description: Aprende a crear una marca de agua en imágenes en archivos PSD usando
+  Aspose.PSD para Java – una guía rápida para el procesamiento de imágenes PSD y la
+  protección de tus gráficos.
+linktitle: How to Create Image Watermark in PSD Files with Aspose.PSD for Java
+second_title: Aspose.PSD Java API
+title: Cómo crear una marca de agua de imagen en archivos PSD con Aspose.PSD para
+  Java
 url: /es/java/modifying-converting-psd-images/add-watermark-psd-files/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregue marcas de agua a archivos PSD con Aspose.PSD para Java
+# Añadir marca de agua a archivos PSD con Aspose.PSD para Java
 
 ## Introducción
-Las marcas de agua son una forma sutil pero eficaz de proteger sus imágenes y comunicar su propiedad. Ya sea que sea un fotógrafo que muestra su portafolio o un diseñador que presenta su último trabajo, agregar una marca de agua puede ser crucial para mantener la identidad de su marca. En este tutorial, profundizaremos en cómo agregar fácilmente marcas de agua a sus archivos PSD usando Aspose.PSD para Java. Así que toma una taza de café, ponte cómodo y ¡comencemos!
+Las marcas de agua son una forma sutil pero eficaz de proteger tus imágenes y comunicar la propiedad. En este tutorial, aprenderás a **create image watermark** en archivos PSD usando Aspose.PSD para Java. Ya seas un fotógrafo que muestra su portafolio o un diseñador que presenta su último trabajo, añadir una marca de agua puede ser crucial para mantener la identidad de la marca. Así que, toma una taza de café, ponte cómodo y ¡comencemos!
+
+## Respuestas rápidas
+- **¿Cuál es el objetivo principal?** To create image watermark in a PSD file programmatically.  
+- **¿Qué biblioteca se utiliza?** Aspose.PSD for Java.  
+- **¿Cuánto tiempo lleva la implementación?** Roughly 10‑15 minutes for a basic watermark.  
+- **¿Cuáles son los requisitos principales?** Java JDK, Aspose.PSD library, and a source PSD file.  
+- **¿Puedo exportar el resultado como PNG?** Yes – use the `save` method with `PngOptions`.
+
+## ¿Qué es **create image watermark**?
+Crear una marca de agua de imagen significa superponer programáticamente texto o gráficos semi‑transparentes sobre un archivo de imagen de modo que la información de propiedad quede incrustada directamente en el contenido visual.
+
+## ¿Por qué usar Aspose.PSD para Java para el procesamiento de imágenes psd?
+Aspose.PSD ofrece un conjunto amplio de APIs para **psd image processing**, que te permite manipular capas, aplicar efectos y renderizar la imagen final sin necesidad de Photoshop. Soporta renderizado de alta fidelidad, operaciones por lotes y funciona en todos los principales sistemas operativos.
+
 ## Requisitos previos
-Antes de profundizar en el código, es esencial asegurarse de tener las herramientas y paquetes necesarios para implementar con éxito la marca de agua en sus archivos PSD. Esto es lo que necesitas preparar:
-1. Kit de desarrollo de Java (JDK): asegúrese de tener JDK instalado en su máquina. También puede ser necesario configurar la variable PATH.
-2. Aspose.PSD para la biblioteca Java: este es el corazón de nuestra aplicación de marca de agua. Necesitas descargar la biblioteca desde el[Aspose sitio web](https://releases.aspose.com/psd/java/).
-3. IDE: Cualquier IDE de Java de su elección servirá. Ya sea Eclipse, IntelliJ IDEA o incluso un simple editor de texto, eres libre de elegir.
-4.  Archivo PSD: tenga un archivo PSD a mano. Puede crear uno o encontrar una muestra en línea. Nos referiremos a él como`layers.psd`.
-5. Conocimientos básicos de Java: una buena comprensión de los fundamentos de Java le ayudará en gran medida a seguir adelante.
+Antes de sumergirte en el código, asegúrate de tener lo siguiente:
+
+1. **Java Development Kit (JDK)** – cualquier versión reciente (8 o superior).  
+2. **Aspose.PSD for Java Library** – descarga desde el [Aspose website](https://releases.aspose.com/psd/java/).  
+3. **IDE** – Eclipse, IntelliJ IDEA, o cualquier editor que prefieras.  
+4. **PSD File** – un archivo de ejemplo llamado `layers.psd` colocado en tu directorio de trabajo.  
+5. **Basic Java knowledge** – familiaridad con clases, objetos y E/S de archivos.
+
 ## Importar paquetes
-Ahora que ha configurado todo, importemos los paquetes necesarios. Las importaciones en Java le permiten incorporar clases y funciones de varias bibliotecas, lo que hace que su código sea más eficiente. A continuación se muestra lo que necesitará:
+Ahora que has configurado todo, importemos los paquetes necesarios. Los imports en Java te permiten traer clases y funciones de varias bibliotecas, haciendo tu código más eficiente. A continuación tienes lo que necesitarás:
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Font;
@@ -36,66 +57,108 @@ import com.aspose.psd.brushes.SolidBrush;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
-## Paso 1: configure su directorio
-En primer lugar, debemos establecer la ruta donde reside su archivo PSD. Esto es crucial porque Java necesita saber dónde encontrar sus archivos. 
+
+## Cómo **create image watermark** – Guía paso a paso
+
+### Paso 1: Configura tu directorio
+Primero, necesitamos establecer la ruta donde se encuentra tu archivo PSD. Esto es crucial porque Java necesita saber dónde buscar tus archivos.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
- Reemplazar`Your Document Directory` con su directorio real donde se encuentra su archivo PSD.
-## Paso 2: cargue el archivo PSD
- A continuación, cargaremos el archivo PSD y lo convertiremos en un`PsdImage`Este paso transfigura el archivo a un formato que podamos manipular.
+
+Reemplaza `Your Document Directory` con la carpeta real que contiene `layers.psd`.
+
+### Paso 2: Cargar el archivo PSD
+A continuación, cargaremos el archivo PSD y lo convertiremos a un `PsdImage`. Este paso transforma el archivo a un formato que podemos manipular.
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
- Lo que hace esta línea es tomar su archivo PSD existente y cargarlo en la memoria como un`PsdImage`. Piense en ello como abrir un libro para poder empezar a escribir en él.
-## Paso 3: crear un objeto gráfico
- Con nuestro archivo PSD ahora cargado, necesitamos crear un`Graphics` objeto. Esto nos permite realizar operaciones de dibujo, esencialmente como conseguir un pincel para agregar color a su lienzo.
+
+Piensa en esto como abrir un libro para que puedas comenzar a escribir en sus páginas.
+
+### Paso 3: Crear un objeto Graphics
+Con nuestro archivo PSD ya cargado, necesitamos crear un objeto `Graphics`. Esto nos permite realizar operaciones de dibujo, esencialmente como tomar un pincel para tu lienzo.
+
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
-## Paso 4: define la fuente para tu marca de agua
-Ahora es el momento de elegir cómo se verá tu marca de agua. Usaremos Arial con un tamaño de fuente de 20. ¡Aquí es donde puedes mostrar tu estilo!
+
+### Paso 4: Definir la fuente para tu marca de agua
+Ahora es momento de elegir cómo se verá tu marca de agua. Usaremos Arial con un tamaño de fuente de 20. Siéntete libre de cambiar el nombre de la fuente o el tamaño para que coincida con el estilo de tu marca.
+
 ```java
 Font font = new Font("Arial", 20.0f);
 ```
-## Paso 5: crea un pincel sólido para marcas de agua
-Un pincel sólido es lo que le da color y opacidad a tu marca de agua. Queremos que sea visible pero no abrumador, así que establezcamos su alfa cerca de 0 para una apariencia parcialmente transparente.
+
+### Paso 5: Crear un pincel sólido para la marca de agua
+Un pincel sólido le da a tu marca de agua su color y opacidad. Configuraremos el alfa a 50 (de 255) para un gris semi‑transparente.
+
 ```java
 SolidBrush brush = new SolidBrush(Color.fromArgb(50, 128, 128, 128));
 ```
- Aquí,`Color.fromArgb(50, 128, 128, 128)` crea un color gris con un 50% de opacidad. Es como una nube que da sombra suavemente a un cielo que de otro modo sería vibrante.
-## Paso 6: establezca la alineación de las cadenas para su marca de agua
-Para garantizar que su marca de agua aparezca justo en el centro de la imagen, configuraremos opciones de alineación de cadenas. ¡Este paso tiene que ver con la precisión!
+
+Aquí, `Color.fromArgb(50, 128, 128, 128)` crea un color gris con 50 % de opacidad—perfecto para una firma sutil.
+
+### Paso 6: Configurar la alineación de cadena para tu marca de agua
+Para asegurar que la marca de agua aparezca justo en el centro de la imagen, configuraremos las opciones de alineación de cadena.
+
 ```java
 StringFormat sf = new StringFormat();
 sf.setAlignment(StringAlignment.Center);
 sf.setLineAlignment(StringAlignment.Center);
 ```
-## Paso 7: dibuja la marca de agua
-¡Estamos llegando a la parte emocionante ahora! Con nuestro contexto gráfico configurado, es hora de dibujar la marca de agua en la imagen.
+
+### Paso 7: Dibujar la marca de agua usando **java graphics drawstring**
+Ahora llegamos a la parte emocionante. Con el contexto gráfico listo, dibujaremos el texto de la marca de agua sobre la imagen usando `java graphics drawstring`.
+
 ```java
 graphics.drawString("Some watermark text", font, brush, new RectangleF(0, 0, psdImage.getWidth(), psdImage.getHeight()), sf);
 ```
- Aquí, reemplace`"Some watermark text"` con el texto de marca de agua que desee. ¡Este paso es como pintar tu firma en una obra maestra!
-## Paso 8: exporte la imagen a formato PNG
-Ahora que nuestra obra de arte está lista, debemos guardarla en un nuevo formato de archivo, PNG en este caso. 
+
+Reemplaza `"Some watermark text"` con el texto real que deseas que aparezca en tu PSD.
+
+### Paso 8: **Save PSD as PNG** – **export psd png**
+Ahora que la marca de agua está en su lugar, **save psd png** (es decir, exportaremos el PSD a PNG) para que el resultado pueda verse en cualquier navegador o visor de imágenes.
+
 ```java
 psdImage.save(dataDir + "AddWatermark_output.png", new PngOptions());
 ```
-Al ejecutar esta línea, inmortalizas efectivamente tu trabajo en un nuevo formato, preservando la marca de agua para que el mundo la vea.
-## Conclusión
-¡Y ahí lo tienes! Ha agregado con éxito una marca de agua a su archivo PSD usando Aspose.PSD para Java. Este proceso no sólo protege su contenido sino que también eleva la visibilidad de su marca. Recuerde, los pasos que tomó son solo un punto de partida. Siéntete libre de ser creativo: ¡experimenta con diferentes fuentes, estilos y colores! Sigue salvaguardando tu trabajo y mostrando tu marca con orgullo. 
+
+Ejecutar esta línea crea un nuevo archivo PNG que contiene tu marca de agua.
+
+## Problemas comunes y soluciones
+- **¿Marca de agua no visible?** Verifica el valor alfa en `Color.fromArgb()`; un valor más bajo hace que la marca de agua sea más transparente.  
+- **¿Dimensiones incorrectas?** Asegúrate de usar `psdImage.getWidth()` y `psdImage.getHeight()` para el rectángulo, de modo que el texto se escale con el tamaño de la imagen.  
+- **¿Excepciones de licencia?** Una licencia de evaluación temporal funciona para pruebas, pero se requiere una licencia completa para uso en producción.
+
 ## Preguntas frecuentes
-### ¿Puedo personalizar el texto de la marca de agua?
- ¡Absolutamente! Simplemente reemplace el texto en el`drawString` método con la marca de agua que desee.
-### ¿Qué pasa si quiero una fuente diferente?
- Puede cambiar fácilmente la fuente seleccionando una diferente en el`Font` creación de instancias.
-### ¿Hay alguna manera de ajustar la opacidad?
- ¡Sí! Cambiar el valor alfa en`Color.fromArgb()` para cambiar la opacidad de la marca de agua.
-### ¿Puedo utilizar otros formatos de imagen?
- Sí, puedes guardar en varios formatos como JPEG o BMP. Solo reemplaza`PngOptions()` con las opciones deseadas.
-### ¿Dónde puedo encontrar más ayuda?
- Para consultas detalladas, puede visitar el[Asponer foros](https://forum.aspose.com/c/psd/34) o comprobar su[documentación](https://reference.aspose.com/psd/java/).
+
+**Q: ¿Puedo personalizar el texto de la marca de agua?**  
+A: ¡Por supuesto! Simplemente reemplaza la cadena en el método `drawString` con el texto que desees.
+
+**Q: ¿Qué pasa si quiero una fuente diferente?**  
+A: Cambia la instanciación de `Font` a cualquier fuente instalada, por ejemplo, `new Font("Times New Roman", 24.0f)`.
+
+**Q: ¿Hay una forma de ajustar la opacidad?**  
+A: Sí—modifica el primer parámetro de `Color.fromArgb(alpha, r, g, b)`. Valores de `alpha` más bajos aumentan la transparencia.
+
+**Q: ¿Puedo usar otros formatos de imagen además de PNG?**  
+A: Por supuesto. Reemplaza `new PngOptions()` con `new JpegOptions()` o `new BmpOptions()` para **save psd png** en un formato diferente.
+
+**Q: ¿Dónde puedo encontrar más ayuda?**  
+A: Para consultas detalladas, visita los [Aspose forums](https://forum.aspose.com/c/psd/34) o revisa su [documentation](https://reference.aspose.com/psd/java/).
+
+## Conclusión
+Ahora has aprendido cómo **create image watermark** en un archivo PSD usando Aspose.PSD para Java. Esta técnica no solo protege tu contenido sino que también refuerza la presencia de tu marca en todos los recursos visuales. Experimenta con diferentes fuentes, colores y niveles de opacidad para que coincidan con tu estilo, y recuerda que puedes **save psd png** o **export psd png** a cualquier formato que necesites.
+
+---
+
+**Última actualización:** 2026-03-07  
+**Probado con:** Aspose.PSD for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

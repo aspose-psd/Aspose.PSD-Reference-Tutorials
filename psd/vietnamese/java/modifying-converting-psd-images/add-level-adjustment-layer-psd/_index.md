@@ -1,65 +1,88 @@
 ---
-title: Thêm lớp điều chỉnh cấp độ trong PSD
-linktitle: Thêm lớp điều chỉnh cấp độ trong PSD
-second_title: API Java Aspose.PSD
-description: Tìm hiểu cách thêm Lớp điều chỉnh cấp độ một cách hiệu quả trong các tệp PSD của bạn bằng Aspose.PSD cho Java. Nâng cao kỹ năng chỉnh sửa hình ảnh của bạn.
-weight: 16
+date: 2026-03-07
+description: Học cách điều chỉnh mức độ bằng cách thêm lớp Điều chỉnh Mức trong các
+  tệp PSD sử dụng Aspose.PSD cho Java. Nắm vững các chỉnh sửa tông màu một cách nhanh
+  chóng.
+linktitle: Add Level Adjustment Layer in PSD
+second_title: Aspose.PSD Java API
+title: Cách điều chỉnh Mức độ – Thêm lớp điều chỉnh Mức độ trong PSD
 url: /vi/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm lớp điều chỉnh cấp độ trong PSD
+# Thêm Level Adjustment Layer trong PSD
 
 ## Giới thiệu
-Khi nói đến chỉnh sửa hình ảnh, việc quản lý các cấp độ có thể tạo nên sự khác biệt lớn về độ sống động và độ rõ nét cho ảnh của bạn. Một công cụ tiện dụng trong kho Photoshop là "Lớp điều chỉnh cấp độ", cho phép bạn điều chỉnh phạm vi tông màu và cân bằng màu sắc của hình ảnh. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách triển khai Lớp điều chỉnh cấp độ trong tệp PSD bằng Aspose.PSD cho Java. Vì vậy, hãy lấy Java IDE của bạn.
-## Điều kiện tiên quyết
-Trước khi bước vào thế giới điều chỉnh cấp độ, bạn sẽ cần thiết lập một số điều để đảm bảo chuyến đi suôn sẻ:
-1.  Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt JDK trên máy của mình. Nếu bạn không có nó, bạn có thể lấy nó từ[Trang web của Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) hoặc sử dụng OpenJDK.
-2.  Aspose.PSD for Java Library: Để thao tác với tệp PSD, bạn cần tải xuống thư viện Aspose.PSD. Bạn có thể lấy phiên bản mới nhất từ đây[liên kết tải xuống](https://releases.aspose.com/psd/java/) và đảm bảo bạn đã đưa JAR vào thư viện dự án của mình.
-3. Kiến thức cơ bản về Java: Hiểu biết cơ bản về lập trình Java sẽ giúp ích vì chúng ta sẽ đi sâu vào các đoạn mã trong suốt hướng dẫn này.
-4. Thiết lập IDE: Bạn có thể sử dụng bất kỳ IDE Java nào mà bạn thích—như IntelliJ IDEA, Eclipse hoặc NetBeans—để viết và chạy mã của mình. Chỉ cần đảm bảo rằng bạn đã thiết lập dự án Java của mình và thêm thư viện Aspose.PSD.
+Nếu bạn đang muốn **cách điều chỉnh mức** trong tài liệu Photoshop của mình, Level Adjustment Layer là công cụ hoàn hảo. Nó cho phép bạn tinh chỉnh bóng tối, tông trung và điểm sáng mà không làm thay đổi vĩnh viễn các pixel gốc. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách thêm Level Adjustment Layer vào tệp PSD bằng Aspose.PSD for Java, để bạn có thể đạt được kiểm soát tông màu chuyên nghiệp chỉ trong vài bước.
 
-## Gói nhập khẩu
-Trước khi bắt đầu viết mã, chúng ta cần nhập các gói cần thiết từ thư viện Aspose.PSD. Đây là cách bạn có thể làm điều đó:
+## Câu trả lời nhanh
+- **Level Adjustment Layer làm gì?** Nó thay đổi dải tông màu của hình ảnh một cách không phá hủy.  
+- **Thư viện nào được sử dụng?** Aspose.PSD for Java.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; cần giấy phép cho môi trường sản xuất.  
+- **Thời gian thực hiện khoảng bao lâu?** Khoảng 10‑15 phút cho một điều chỉnh cơ bản.  
+- **Có thể điều chỉnh nhiều kênh không?** Có, bạn có thể đặt mức đầu vào/đầu ra cho từng kênh màu riêng biệt.
+
+## Level Adjustment Layer là gì?
+Level Adjustment Layer cho phép bạn chỉnh sửa cân bằng tông màu của hình ảnh bằng cách điều chỉnh bóng tối đầu vào, tông trung và điểm sáng cũng như mức đầu ra. Vì nó tồn tại trên một lớp riêng, bạn có thể bật/tắt hoặc xóa lớp này mà không ảnh hưởng đến tác phẩm nền.
+
+## Tại sao thêm Level Adjustment Layer bằng Aspose.PSD?
+- **Tự động hoá:** Tích hợp việc tinh chỉnh mức vào quy trình xử lý hàng loạt.  
+- **Đa nền tảng:** Hoạt động trên bất kỳ hệ điều hành nào hỗ trợ Java.  
+- **Độ chính xác:** Truy cập cài đặt từng kênh một cách lập trình để có kết quả chính xác.  
+
+## Yêu cầu trước
+1. Java Development Kit (JDK). Nếu bạn chưa có, tải về từ [trang web Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) hoặc sử dụng OpenJDK.  
+2. Thư viện Aspose.PSD for Java – tải JAR mới nhất từ [liên kết tải xuống này](https://releases.aspose.com/psd/java/).  
+3. Kiến thức cơ bản về lập trình Java.  
+4. Một IDE như IntelliJ IDEA, Eclipse hoặc NetBeans với JAR Aspose.PSD đã được thêm vào classpath của dự án.
+
+## Nhập các gói
+Trước khi bắt đầu viết mã, chúng ta cần nhập các gói cần thiết từ thư viện Aspose.PSD. Đây là cách thực hiện:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-Bằng cách nhập các gói này, chúng tôi sẽ có quyền truy cập vào các lớp cần thiết để tải, sửa đổi và lưu các tệp PSD của mình.
+Các import này cho phép chúng ta truy cập các lớp để tải tệp PSD, làm việc với level adjustment layers và thao tác các cài đặt kênh riêng lẻ.
 
-Bây giờ, hãy chia nhỏ quy trình thành các bước dễ hiểu. Hãy làm theo khi chúng tôi hướng dẫn tải tệp PSD, điều chỉnh mức độ và sau đó lưu các thay đổi của bạn. 
-## Bước 1: Thiết lập đường dẫn tệp của bạn
-Bước đầu tiên là xác định vị trí tệp PSD của chúng tôi và nơi chúng tôi muốn lưu đầu ra đã sửa đổi. Bạn có thể tùy chỉnh đường dẫn thư mục cho phù hợp với nhu cầu của mình.
+## Cách Điều Chỉnh Mức trong Tệp PSD
+Dưới đây là hướng dẫn từng bước cho bạn biết **cách điều chỉnh mức** một cách lập trình.
+
+### Bước 1: Thiết lập Đường dẫn Tệp
+Xác định vị trí của PSD nguồn và nơi lưu tệp đã chỉnh sửa.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
- Ở đây thay thế`"Your Document Directory"`với đường dẫn thực tế trên hệ thống nơi lưu trữ tệp PSD của bạn. Điều này tạo tiền đề cho mọi việc chúng ta sẽ làm tiếp theo.
-## Bước 2: Tải tệp PSD
- Bây giờ, hãy tải tệp PSD bằng cách sử dụng`PsdImage` lớp học. Bước này rất cần thiết vì nó cho phép chúng ta truy cập và thao tác các lớp.
+Thay thế `"Your Document Directory"` bằng thư mục thực tế trên máy của bạn.
+
+### Bước 2: Tải Tệp PSD
+Tạo một thể hiện `PsdImage` từ tệp nguồn.
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
- Khi bạn gọi`Image.load()` , nó sẽ đọc tệp PSD và tạo một phiên bản của`PsdImage` mà bạn có thể làm việc cùng.
-## Bước 3: Lặp lại qua các lớp
-Vì chúng tôi muốn điều chỉnh Lớp điều chỉnh cấp độ, nên chúng tôi sẽ cần lặp qua từng lớp trong tệp PSD của mình. Điều này giúp chúng tôi tìm thấy lớp cụ thể mà chúng tôi muốn sửa đổi.
+Bây giờ bạn có quyền truy cập đầy đủ vào tất cả các lớp bên trong PSD.
+
+### Bước 3: Duyệt qua các Lớp
+Tìm Level Adjustment Layer mà bạn muốn chỉnh sửa.
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        // Thao tác tiếp theo sẽ diễn ra ở đây...
+        // Further manipulation will go here...
     }
 }
 ```
- Trong vòng lặp này,`instanceof LevelsLayer` kiểm tra xem lớp hiện tại có phải là Lớp điều chỉnh cấp độ hay không. Nếu đúng như vậy, chúng ta có thể tiến hành điều chỉnh các thuộc tính của nó.
-## Bước 4: Điều chỉnh cài đặt kênh cấp độ
-Khi chúng tôi xác định được lớp chính xác, chúng tôi có thể sửa đổi mức đầu vào và đầu ra của nó. Đây là nơi phép thuật xảy ra! Điều chỉnh các thông số khác nhau để xem chúng ảnh hưởng như thế nào đến hình ảnh.
+Kiểm tra `instanceof LevelsLayer` đảm bảo chúng ta chỉ làm việc với các level adjustment layer.
+
+### Bước 4: Điều chỉnh Cài đặt Kênh Mức
+Tinh chỉnh các giá trị đầu vào và đầu ra cho kênh đã chọn.
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +91,49 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-Đây là chức năng của từng tham số:
-- Mức âm trung đầu vào: Điều chỉnh âm trung.
-- Mức độ bóng đầu vào: Tinh chỉnh các vùng tối hơn của hình ảnh.
-- Mức độ nổi bật đầu vào: Thay đổi vùng sáng của hình ảnh.
-- Mức độ bóng đầu ra: Đặt cách bóng tối sẽ xuất hiện.
-- Mức độ nổi bật đầu ra: Đặt cách các điểm sáng sẽ xuất hiện.
-Hãy thoải mái thử nghiệm với các giá trị khác nhau!
-## Bước 5: Lưu tệp PSD đã sửa đổi
-Bây giờ chúng ta đã thực hiện các điều chỉnh của mình, đã đến lúc lưu tệp PSD đã sửa đổi. Bước này rất quan trọng để đảm bảo rằng những thay đổi của bạn được áp dụng và lưu trữ.
+- **Input Midtone Level:** Thay đổi dải tông trung.  
+- **Input Shadow Level:** Làm tối hoặc làm sáng các bóng tối.  
+- **Input Highlight Level:** Kiểm soát các phần sáng nhất.  
+- **Output Shadow/Highlight Levels:** Xác định dải đầu ra cuối cùng.
+
+Bạn có thể thử nghiệm với các giá trị khác nhau để xem chúng ảnh hưởng như thế nào đến hình ảnh.
+
+### Bước 5: Lưu Tệp PSD Đã Sửa
+Lưu các thay đổi của bạn vào một tệp mới.
 ```java
 im.save(psdPathAfterChange);
 ```
- Bây giờ bạn có thể tìm thấy tệp PSD đã điều chỉnh của mình tại địa chỉ được chỉ định`psdPathAfterChange`. 
-## Phần kết luận
-Bạn vừa học cách thêm Lớp điều chỉnh cấp độ vào tệp PSD bằng Aspose.PSD cho Java! Bằng cách làm theo hướng dẫn này, bạn có thể dễ dàng điều chỉnh chất lượng tông màu của hình ảnh, mở đường cho kết quả sống động và hấp dẫn hơn về mặt hình ảnh. Hãy nhớ rằng, luyện tập sẽ tạo nên sự hoàn hảo, vì vậy, hãy thoải mái điều chỉnh các điều chỉnh và khám phá các tệp PSD khác nhau để xem tác động của những thay đổi của bạn.
-## Câu hỏi thường gặp
-### Lớp điều chỉnh cấp độ là gì?
-Lớp điều chỉnh cấp độ cho phép bạn điều chỉnh phạm vi tông màu trong hình ảnh, cân bằng bóng, tông trung tính và vùng sáng.
-### Tôi có thể sử dụng Aspose.PSD mà không cần mua hàng không?
-Đúng! Aspose cung cấp bản dùng thử miễn phí để kiểm tra thư viện trước khi mua.
-### Tôi có thể tìm tài liệu về Aspose.PSD ở đâu?
- Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/psd/java/).
-### Có sự hỗ trợ cộng đồng nào cho các sản phẩm Aspose không?
- Tuyệt đối! Bạn có thể đặt câu hỏi và nhận hỗ trợ trong[diễn đàn giả định](https://forum.aspose.com/c/psd/34).
-### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
- Bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Bạn sẽ tìm thấy tệp PSD đã cập nhật tại vị trí bạn chỉ định trong `psdPathAfterChange`.
+
+## Các Vấn Đề Thường Gặp và Giải Pháp
+- **File not found:** Kiểm tra `dataDir` có trỏ đúng thư mục và PSD nguồn tồn tại.  
+- **ClassCastException:** Đảm bảo tệp bạn tải thực sự là PSD; các định dạng khác yêu cầu lớp khác.  
+- **License errors:** Sử dụng giấy phép Aspose.PSD hợp lệ cho bản dựng sản xuất; bản dùng thử hoạt động cho phát triển.
+
+## Kết luận
+Bạn giờ đã biết **cách điều chỉnh mức** bằng cách thêm và cấu hình Level Adjustment Layer trong tệp PSD với Aspose.PSD for Java. Kỹ thuật này cho phép bạn kiểm soát chính xác cân bằng tông màu đồng thời giữ quy trình làm việc hoàn toàn tự động. Tiếp tục thử nghiệm với các giá trị kênh khác nhau và khám phá xử lý hàng loạt để áp dụng cùng một điều chỉnh cho nhiều hình ảnh.
+
+## Câu Hỏi Thường Gặp
+
+**Q: Level Adjustment Layer là gì?**  
+A: Đó là một lớp không phá hủy cho phép bạn thay đổi dải tông màu (bóng tối, tông trung, điểm sáng) của hình ảnh.
+
+**Q: Tôi có thể sử dụng Aspose.PSD mà không mua giấy phép không?**  
+A: Có, bạn có thể đánh giá thư viện bằng bản dùng thử miễn phí, nhưng cần giấy phép cho triển khai thương mại.
+
+**Q: Tôi có thể tìm tài liệu cho Aspose.PSD ở đâu?**  
+A: Bạn có thể tìm tài liệu [tại đây](https://reference.aspose.com/psd/java/).
+
+**Q: Có hỗ trợ cộng đồng cho các sản phẩm Aspose không?**  
+A: Chắc chắn! Bạn có thể đặt câu hỏi và nhận trợ giúp trong [diễn đàn Aspose](https://forum.aspose.com/c/psd/34).
+
+**Q: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.PSD?**  
+A: Bạn có thể đăng ký giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
+
+**Cập nhật lần cuối:** 2026-03-07  
+**Kiểm tra với:** Phiên bản mới nhất của Aspose.PSD (Java)  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
