@@ -1,35 +1,66 @@
 ---
-title: Tömörítetlen képfájlok kezelése PSD-ben Java használatával
-linktitle: Tömörítetlen képfájlok kezelése PSD-ben Java használatával
+date: 2026-04-12
+description: Tanulja meg, hogyan konvertálhatja a PSD-t RAW formátumba, és exportálhatja
+  a PSD-t tömörítés nélkül Java és az Aspose.PSD könyvtár használatával ebben a lépésről‑lépésre
+  útmutatóban.
+keywords:
+- convert psd to raw
+- export psd without compression
+- Aspose.PSD Java
+linktitle: Munkavégzés tömörítetlen képfájlokkal PSD-ben Java-val
 second_title: Aspose.PSD Java API
-description: Ebben az átfogó, lépésenkénti oktatóanyagban megtudhatja, hogyan dolgozhat tömörítetlen PSD formátumú képfájlokkal a Java és az Aspose.PSD könyvtár használatával.
-weight: 27
+title: Hogyan konvertáljuk a PSD-t RAW formátumba Java-val (tömörítetlen képfájlok)
 url: /hu/java/advanced-psd-layer-features-effects/work-uncompressed-image-files-psd/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tömörítetlen képfájlok kezelése PSD-ben Java használatával
+# PSD konvertálása RAW formátumba Java használatával (tömörítetlen képfájlok)
 
 ## Bevezetés
-Amikor a Photoshop-dokumentumokkal (PSD) dolgozik Java nyelven, nagyon fontos megérteni, hogyan lehet hatékonyan kezelni és menteni ezeket a gazdag képfájlokat. Ebben az oktatóanyagban az Aspose.PSD használatába fogunk belemerülni, amely egy robusztus API, amely leegyszerűsíti a PSD-fájlok kezelését, beleértve a tömörítetlen képekkel való munkát is. Függetlenül attól, hogy Ön fejlesztő, aki gazdag grafikával kívánja bővíteni alkalmazásait, vagy egyszerűen csak a PSD-fájlokat szeretné gond nélkül feldolgozni Java nyelven, ez az útmutató végigvezeti Önt az út minden lépésén. Készen áll az indulásra? ugorjunk be!
+Amikor a Photoshop dokumentumokkal (PSD) dolgozunk Java-ban, elengedhetetlen megérteni, hogyan **convert PSD to RAW**, és hogyan exportáljuk a PSD-t tömörítés nélkül, hogy megőrizzük a kép hűségét. Ebben az útmutatóban megvizsgáljuk, hogyan egyszerűsíti az Aspose.PSD a tömörítetlen képfájlok kezelését, a PSD betöltésétől a RAW‑stílusú tömörítetlen fájl mentéséig. Akár grafikai‑intenzív alkalmazást építesz, akár veszteségmentes képexportokra van szükséged, itt mindent megtalálsz, amire szükséged van. Készen állsz belemerülni? Kezdjünk is!
+
+## Gyors válaszok
+- **What does “convert PSD to RAW” mean?** A PSD adatot tömörítés nélkül menti, megőrizve a pixeladatokat eredeti formájukban.  
+- **Which library handles this?** Az Aspose.PSD for Java egyszerű API-t biztosít a tömörítetlen mentésekhez.  
+- **Do I need a license?** A ingyenes próbaalkalmazás tesztelésre működik; a kereskedelmi licenc szükséges a termeléshez.  
+- **What Java version is required?** JDK 8 vagy újabb.  
+- **Can I still edit the file after saving?** Igen – újratöltheted a tömörítetlen PSD-t, és folytathatod a rajzolást vagy a rétegezést.
+
+## Mi az a “convert PSD to RAW”?
+A PSD RAW formátumba konvertálása azt jelenti, hogy a Photoshop dokumentumot **tömörítés nélkül** exportáljuk. A keletkező fájl megőrzi a teljes pixeladatot, ami ideális olyan esetekben, ahol a képminőség nem sérülhet – például archiválás, tudományos képalkotás vagy magas szintű nyomtatási folyamatok esetén.
+
+## Miért exportáljuk a PSD-t tömörítés nélkül?
+- **Maximum quality:** Nincs részletveszteség a tömörítési hibák miatt.  
+- **Predictable file size:** A RAW fájlok mérete közvetlenül tükrözi a kép méretét és bitmélységét.  
+- **Simplified downstream processing:** Más eszközök is olvashatják a pixeladatokat anélkül, hogy előbb ki kellene fejteni őket.
+
 ## Előfeltételek
-Mielőtt felgyűrjük az ingujjunkat és elkezdjük a kódolást, van néhány előfeltétel, amelyeket ellenőriznünk kell a listánkon. Ne aggódj; elég egyértelműek!
-### Java fejlesztőkészlet (JDK)
-- Győződjön meg arról, hogy a JDK 8 vagy újabb verziója van telepítve a rendszerére. Ha nem, menjen a[Oracle webhely](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) és töltse le a legújabb verziót.
-### Integrált fejlesztési környezet (IDE)
-- Egy jó IDE, mint az IntelliJ IDEA, az Eclipse vagy a NetBeans megkönnyíti az életét. Állíts be egyet, ha még nem tetted meg!
-### Aspose.PSD for Java Library
--  Töltse le az Aspose.PSD for Java könyvtárat. Megszerezheti a legújabb kiadásokat[itt](https://releases.aspose.com/psd/java/). 
-### Java alapismeretek 
-- A zökkenőmentes követéshez alapvető ismeretekkel kell rendelkeznie a Java programozásról és az objektum-orientált paradigmáról.
+Mielőtt felgöngyöljük a ujjainkat és kódolni kezdenénk, néhány előfeltételt kell ellenőriznünk. Ne aggódj; elég egyszerűek!
+
+### Java Fejlesztői Készlet (JDK)
+- Győződj meg róla, hogy a rendszereden telepítve van a JDK 8 vagy újabb. Ha nincs, látogasd meg az [Oracle weboldalt](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html), és töltsd le a legújabb verziót.
+
+### Integrált Fejlesztői Környezet (IDE)
+- Egy jó IDE, mint például az IntelliJ IDEA, Eclipse vagy NetBeans megkönnyíti a munkát. Állíts be egyet, ha még nem tetted meg!
+
+### Aspose.PSD for Java könyvtár
+- Töltsd le az Aspose.PSD for Java könyvtárat. A legújabb kiadásokat [itt](https://releases.aspose.com/psd/java/) érheted el.
+
+### Alapvető Java ismeretek
+- Alapvető Java programozási és objektum‑orientált paradigma ismeretekkel kell rendelkezned, hogy zökkenőmentesen követhesd.
+
 ### PSD fájl
-- Készítsen egy minta PSD-fájlt tesztelésre. Létrehozhat egyet a Photoshopban, vagy letölthet egy ingyenes mintát online. 
-Most, hogy mindennel készen vagyunk, merüljünk el a kódban!
+- Legyen egy mint PSD fájlod a teszteléshez. Készíthetsz egyet a Photoshopban, vagy letölthetsz egy ingyenes mintát online.
+
+Most, hogy minden készen van, merüljünk el a kódban!
+
 ## Csomagok importálása
-Először is importálnunk kell a kódunkhoz szükséges csomagokat. Az alábbiakban felsoroljuk azokat az importálásokat, amelyekre szüksége lesz:
+Kezdésként importálnunk kell a kódunkhoz szükséges csomagokat. Az alábbiakban megtalálod a szükséges importok listáját:
+
 ```java
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
@@ -37,59 +68,100 @@ import com.aspose.psd.fileformats.psd.CompressionMethod;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
-Ezek az importálások behozzák a szükséges osztályokat és metódusokat a projektünkbe, lehetővé téve számunkra a PSD-fájlok zökkenőmentes kezelését. 
-Bontsuk fel a folyamatot kezelhető lépésekre. 
-## 1. lépés: A fájlkönyvtár beállítása
-Először is meg kell adnia, hol található a PSD-fájl, és hova szeretné menteni a kimenetet. Mintakódunkban létrehozunk egy változót a könyvtár elérési útjának tárolására.
+
+Ezek az importok a szükséges osztályokat és metódusokat hozzák be a projektünkbe, lehetővé téve a PSD fájlok zökkenőmentes manipulálását. bontsuk le a folyamatot kezelhető lépésekre.
+
+## 1. lépés: Fájlkönyvtár beállítása
+Először meg kell adnod, hogy hol található a PSD fájlod, és hová szeretnéd menteni a kimenetet. A mintakódban egy változót hozunk létre a könyvtár útvonalának tárolására.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` a PSD-fájl tényleges elérési útjával (`layers.psd`) tárolva van. Ezzel biztosíthatja, hogy a program tudja, hol keresse a fájlt.
-## 2. lépés: A PSD fájl betöltése
- Most töltsük be a PSD-fájlt a`Image.load()` módszerrel, öntve a`PsdImage` típus.
+
+Cseréld le a `"Your Document Directory"`-t a tényleges útvonalra, ahol a PSD fájlod (`layers.psd`) tárolva van. Ezzel biztosítod, hogy a program tudja, hol keresse a fájlt.
+
+## 2. lépés: PSD fájl betöltése
+Most töltsük be a PSD fájlt az `Image.load()` metódussal, és cast-eljük `PsdImage` típusra.
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
- Ez a sor meghívja a`load` módszer a`Image` osztályban, betölti a PSD fájlt a memóriába. Azáltal, hogy átküldi`PsdImage`, azt mondjuk a Java-nak, hogy ezt a képet PSD-fájlként kezelje, amely a PSD-műveletekhez kapcsolódó speciális funkciókkal rendelkezik.
-## 3. lépés: A mentési beállítások konfigurálása
-Ezután be kell állítanunk a fájl mentési beállításait, különösen azt, hogy a kimenetet ki kell tömöríteni.
+
+Ez a sor meghívja az `Image` osztály `load` metódusát, betöltve a PSD fájlt a memóriába. A `PsdImage` típusra cast-olva azt mondjuk a Java-nak, hogy kezelje ezt a képet PSD fájlként, amely speciális PSD műveleteket támogat.
+
+## 3. lépés: Mentési beállítások konfigurálása
+Ezután be kell állítanunk a fájl mentési opcióit, különösen azt, hogy a kimenet **tömörítetlen** legyen (azaz convert PSD to RAW).
+
 ```java
 PsdOptions saveOptions = new PsdOptions();
 saveOptions.setCompressionMethod(CompressionMethod.Raw);
 ```
- A`PsdOptions` osztály lehetővé teszi, hogy különböző lehetőségeket adjunk meg a PSD-fájlunk mentéséhez. Beállítás`setCompressionMethod` hogy`CompressionMethod.Raw` gondoskodik arról, hogy a mentett fájlunk tömörítetlen legyen, és megőrizze a kiváló minőséget.
-## 4. lépés: A tömörítetlen PSD-fájl mentése
-Itt az ideje, hogy mentse az újonnan konfigurált PSD-képet.
+
+A `PsdOptions` osztály lehetővé teszi, hogy különféle beállításokat adjunk meg a PSD fájl mentéséhez. A `setCompressionMethod` `CompressionMethod.Raw`-ra állítása biztosítja, hogy a mentett fájl tömörítetlen legyen és magas minőséget őrizzen.
+
+## 4. lépés: Tömörítetlen PSD fájl mentése
+Most itt az ideje, hogy elmentsük az újonnan konfigurált PSD képet.
+
 ```java
 psdImage.save(dataDir + "uncompressed_out.psd", saveOptions);
 ```
- Ez a sor végrehajtja a mentési funkciót a mi`PsdImage` példány (`psdImage` ). A fájlt más néven menti`uncompressed_out.psd` a megadott könyvtárban, és alkalmazza a korábban meghatározott beállításokat.
-## 5. lépés: Az újonnan létrehozott kép újbóli megnyitása
-Mentés után töltsük be újra a kimeneti képünket, hogy ellenőrizzük, minden a várt módon működik-e.
+
+Ez a sor végrehajtja a mentési funkciót a `PsdImage` példányunkon (`psdImage`). A fájlt `uncompressed_out.psd` néven menti a megadott könyvtárba, és alkalmazza a korábban definiált opciókat.
+
+## 5. lépés: Az újonnan létrehozott kép újranyitása
+Mentés után töltsük újra a kimeneti képet, hogy ellenőrizzük, minden a vártnak megfelelően működött-e.
+
 ```java
 PsdImage img = (PsdImage) Image.load(dataDir + "uncompressed_out.psd");
 ```
- Hívással`load` ismét létrehozhatunk egy új példányt`PsdImage` amely megfelel a mentett fájlnak. Ez a lépés döntő fontosságú, ha a mentés után módosítani vagy megjeleníteni szeretné a képet.
-## 6. lépés: A kép rajzolása vagy manipulálása
-Végül érdemes lehet rárajzolni vagy manipulálni az újonnan megnyitott képet.
+
+A `load` újrahívásával létrehozhatunk egy új `PsdImage` példányt, amely a mentett fájlnak felel meg. Ez a lépés kulcsfontosságú, ha a mentés után manipulálni vagy megjeleníteni szeretnéd a képet.
+
+## 6. lépés: Kép rajzolása vagy manipulálása
+Végül esetleg szeretnél rajzolni vagy manipulálni az újonnan megnyitott képet.
+
 ```java
 Graphics graphics = new Graphics(img);
 ```
- Itt inicializáljuk a`Graphics` objektum, amely lehetővé teszi, hogy különféle grafikus műveleteket hajtsunk végre a mi`img`. Ha szeretné, rajzolhat formákat, szöveget adhat hozzá, vagy akár módosíthatja a rétegeket!
-## Következtetés
-Gratulálok! Most tanulta meg, hogyan dolgozhat tömörítetlen képfájlokkal PSD formátumban a Java és az Aspose.PSD könyvtár használatával. Ez a nagy teljesítményű API lehetővé teszi a PSD-fájlok egyszerű kezelését, legyen szó betöltésről, kezelésről vagy különböző formátumban történő mentésről. Szóval hajrá, és próbáld ki! Próbáljon ki különböző tulajdonságokat, játsszon a grafikával, és nézze meg, milyen izgalmas dolgokat hozhat létre.
- Ne felejtsd el megnézni a[dokumentáció](https://reference.aspose.com/psd/java/) a fejlettebb funkciókért és opciókért. Ha egyenesen bele szeretne merülni, letöltheti a könyvtárat[itt](https://releases.aspose.com/psd/java/) vagy indítsa el az ingyenes próbaverziót. Ha kérdése van, keresse fel bátran a[támogatási fórum](https://forum.aspose.com/c/psd/34) segítséget kérni a közösségtől.
-## GYIK
-### Mi az Aspose.PSD for Java?
-Az Aspose.PSD for Java egy Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak a Photoshop PSD fájlokkal.
-### Módosíthatom a PSD-fájlok rétegeit az Aspose.PSD használatával?
-Igen! Az Aspose.PSD lehetővé teszi a rétegek elérését és kezelését, megkönnyítve ezzel az összetett műveletek végrehajtását.
-### Ingyenesen használható az Aspose.PSD?
-Ingyenes próbaverzió áll rendelkezésre, de a széles körű használathoz és a fejlett funkciókhoz való hozzáféréshez licencet kell vásárolnia.
-### Hogyan léphetek kapcsolatba az ügyfélszolgálattal, ha problémákat tapasztalok?
- Azon keresztül érheti el[Aspose támogatási fórum](https://forum.aspose.com/c/psd/34) segítségért.
-### Az Aspose.PSD támogatja a PSD-től eltérő formátumú mentést?
-Igen, az Aspose.PSD lehetővé teszi a mentést különböző formátumokban, például PNG, JPEG stb., az Ön igényeitől függően.
+
+Itt inicializálunk egy `Graphics` objektumot, amely lehetővé teszi különféle grafikai műveletek végrehajtását a `img`-en. Rajzolhatsz alakzatokat, szöveget adhatsz hozzá, vagy akár a rétegeket is módosíthatod, ha szeretnéd!
+
+## Gyakori felhasználási esetek
+- **Archival storage:** Az eredeti műalkotást veszteség nélkül őrizheted meg.  
+- **Scientific imaging:** Nyers pixeladatok exportálása elemzéshez.  
+- **Print production:** A legmagasabb hűség biztosítása, mielőtt a fájlokat nyomtatóhoz küldenéd.  
+
+## Gyakran Ismételt Kérdések
+
+**Q: What is Aspose.PSD for Java?**  
+A: Aspose.PSD for Java egy Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Photoshop PSD fájlokkal.
+
+**Q: Can I manipulate layers in a PSD file using Aspose.PSD?**  
+A: Igen! Az Aspose.PSD lehetővé teszi a rétegek elérését és manipulálását, megkönnyítve a komplex műveletek végrehajtását.
+
+**Q: Is Aspose.PSD free to use?**  
+A: Elérhető egy ingyenes próba, de kiterjedt használathoz és a fejlett funkciókhoz licenc vásárlása szükséges.
+
+**Q: How can I contact support if I encounter issues?**  
+A: A [Aspose támogatási fórumon](https://forum.aspose.com/c/psd/34) keresztül kérhetsz segítséget.
+
+**Q: Does Aspose.PSD support saving in formats other than PSD?**  
+A: Igen, az Aspose.PSD lehetővé teszi a mentést különböző formátumokban, például PNG, JPEG és egyebek, a követelményektől függően.
+
+**Q: Can I export PSD without compression on other platforms?**  
+A: Ugyanez a megközelítés működik a .NET és C++ verziókban is az Aspose.PSD-hez; csak a nyelvspecifikus szintaxist kell módosítani.
+
+## Összegzés
+Gratulálunk! Most megtanultad, hogyan **convert PSD to RAW**, és hogyan exportálj PSD-t tömörítés nélkül Java és az Aspose.PSD könyvtár segítségével. Ez a hatékony API lehetővé teszi a PSD fájlok egyszerű kezelését – betöltés, manipulálás és tömörítetlen állapotban történő mentés. Nyugodtan kísérletezz a graphics objektummal, adj hozzá rétegeket, rajzolj alakzatokat, vagy integráld ezt a munkafolyamatot egy nagyobb képfeldolgozó csővezetékbe.
+
+Ne felejtsd el megnézni a [dokumentációt](https://reference.aspose.com/psd/java/) a fejlettebb funkciók és beállítások miatt. Ha szeretnél azonnal belekezdeni, letöltheted a könyvtárat [itt](https://releases.aspose.com/psd/java/), vagy elindíthatod az ingyenes próbát. Ha kérdésed van, nyugodtan látogasd meg a [támogatási fórumot](https://forum.aspose.com/c/psd/34), hogy a közösségtől segítséget kapj.
+
+---
+
+**Utolsó frissítés:** 2026-04-12  
+**Tesztelve ezzel:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

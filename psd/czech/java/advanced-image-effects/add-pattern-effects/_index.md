@@ -1,10 +1,16 @@
 ---
-date: 2025-11-30
-description: Naučte se, jak přidat efekty překrytí vzorem do souborů PSD pomocí Aspose.PSD
+date: 2026-04-12
+description: Naučte se, jak přidat efekt překrytí vzorem do souborů PSD pomocí Aspose.PSD
   pro Javu. Průvodce krok za krokem s ukázkami kódu a tipy na řešení problémů.
-linktitle: Add Pattern Overlay
+keywords:
+- pattern overlay psd
+- apply texture overlay
+- change pattern overlay color
+- add pattern overlay
+- create custom psd pattern
+linktitle: Přidat překrytí vzoru
 second_title: Aspose.PSD Java API
-title: Přidat efekty překrytí vzoru v Aspose.PSD pro Java
+title: 'Pattern Overlay PSD: Přidejte efekty pomocí Aspose.PSD pro Javu'
 url: /cs/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
@@ -13,41 +19,39 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidání efektů překrytí vzorem v Aspose.PSD pro Java
+# Pattern Overlay PSD: Přidání efektů pomocí Aspose.PSD pro Java
 
-## Úvod
-
-Pokud potřebujete **add pattern overlay** do svých Photoshop (PSD) souborů z Java aplikace, Aspose.PSD for Java úkol zjednoduší. V tomto tutoriálu vás provedeme načtením PSD, úpravou nastavení pattern overlay a uložením výsledku — vše s jasným, produkčně připraveným kódem. Na konci pochopíte, proč jsou pattern overlay užitečné pro branding, tvorbu textur a dynamické generování obrázků.
+Pokud potřebujete **přidat pattern overlay** do svých souborů Photoshop (PSD) z Java aplikace, Aspose.PSD pro Java tuto úlohu výrazně usnadňuje. V tomto tutoriálu vás provedeme načtením PSD, úpravou nastavení pattern overlay a uložením výsledku — vše s jasným, produkčně připraveným kódem. Na konci pochopíte, proč jsou pattern overlay užitečné pro branding, tvorbu textur a dynamické generování obrázků.
 
 ## Rychlé odpovědi
-- **Co mohu dosáhnout?** Přidat nebo upravit efekty překrytí vzorem na libovolné vrstvě PSD.  
-- **Požadovaná knihovna?** Aspose.PSD for Java (nejnovější verze).  
-- **Předpoklady?** JDK 8+, Aspose.PSD JAR a ukázkový soubor PSD.  
-- **Typický čas implementace?** Přibližně 10–15 minut pro základní překrytí.  
-- **Mohu kód znovu použít?** Ano – stejný přístup funguje pro jakýkoli PSD s pattern resources.
+- **Co mohu dosáhnout?** Přidat nebo upravit efekty pattern overlay na libovolné vrstvě PSD.  
+- **Vyžadovaná knihovna?** Aspose.PSD pro Java (nejnovější verze).  
+- **Požadavky?** JDK 8+, Aspose.PSD JAR a ukázkový soubor PSD.  
+- **Typický čas implementace?** Přibližně 10–15 minut pro základní overlay.  
+- **Mohu kód znovu použít?** Ano — stejný přístup funguje pro jakýkoli PSD s pattern resources.
 
-## Co je překrytí vzorem?
+## Co je Pattern Overlay PSD?
 
-Pattern overlay je efekt vrstvy, který opakovaně vykresluje malý bitmap (vzorek) přes vybranou vrstvu. Často se používá pro textury, brandingové razítka nebo dekorativní pozadí. S Aspose.PSD můžete programově měnit barvy vzoru, posuny, režim prolnutí a dokonce nahradit podkladová data vzoru.
+Pattern overlay PSD je efekt vrstvy, který opakovaně vykresluje malý bitmap (pattern) přes vybranou vrstvu. Často se používá pro textury, značkové razítka nebo dekorativní pozadí. S Aspose.PSD můžete programově měnit barvy patternu, posuny, režim prolnutí a dokonce nahradit samotná data patternu.
 
-## Proč použít Aspose.PSD pro Java k přidání překrytí vzorem?
+## Proč použít Aspose.PSD pro Java k přidání Pattern Overlay?
 
-- **Plná věrnost PSD:** Zachovat všechny funkce Photoshopu bez ztráty informací o vrstvách.  
-- **Není vyžadován nativní Photoshop:** Funguje na jakémkoli serveru nebo v CI prostředí.  
-- **Bohaté API:** Přímý přístup k režimům prolnutí, neprůhlednosti a pattern resources.  
-- **Cross‑platform:** Běží na Windows, Linuxu a macOS se stejným kódem.
+- **Plná věrnost PSD:** Zachová všechny funkce Photoshopu bez ztráty informací o vrstvách.  
+- **Bez nutnosti nativního Photoshopu:** Funguje na jakémkoli serveru nebo CI prostředí.  
+- **Bohaté API:** Přímý přístup k režimům prolnutí, neprůhlednosti a zdrojům patternu.  
+- **Cross‑platform:** Běží na Windows, Linuxu i macOS se stejným kódem.
 
-## Předpoklady
+## Požadavky
 
 Než začnete, ujistěte se, že máte:
 
-- Java Development Kit (JDK) nainstalovaný na vašem počítači.  
-- Knihovna Aspose.PSD for Java přidána do classpath vašeho projektu. Můžete ji stáhnout z [Aspose.PSD webu](https://releases.aspose.com/psd/java/).  
-- Ukázkový soubor PSD (např. `PatternOverlay.psd`), který již obsahuje efekt překrytí vzorem na jedné z jeho vrstev.
+- Nainstalovaný Java Development Kit (JDK).  
+- Knihovnu Aspose.PSD pro Java přidanou do classpath vašeho projektu. Můžete ji stáhnout z [webových stránek Aspose.PSD](https://releases.aspose.com/psd/java/).  
+- Ukázkový soubor PSD (např. `PatternOverlay.psd`), který již obsahuje efekt pattern overlay na jedné ze svých vrstev.
 
 ## Import balíčků
 
-Ve své Java třídě importujte potřebné Aspose.PSD jmenné prostory:
+Ve své Java třídě importujte potřebné jmenné prostory Aspose.PSD:
 
 ```java
 import com.aspose.psd.Color;
@@ -66,7 +70,7 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import java.util.UUID;
 ```
 
-## Postupný průvodce
+## Průvodce krok za krokem
 
 ### Krok 1: Načtení PSD obrázku
 
@@ -83,22 +87,22 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-> **Tip:** Nechte `loadOptions.setLoadEffectsResource(true)`; jinak nebude efekt překrytí vzorem přístupný.
+> **Tip:** Nezapomeňte na `loadOptions.setLoadEffectsResource(true)`; jinak nebude efekt pattern overlay přístupný.
 
-### Krok 2: Extrahování existujících informací o překrytí vzorem
+### Krok 2: Extrakce existujících informací o Pattern Overlay
 
-Získejte `PatternOverlayEffect` z cílové vrstvy (zde předpokládáme, že jde o druhou vrstvu, index 1):
+Získejte `PatternOverlayEffect` z cílové vrstvy (předpokládáme, že jde o druhou vrstvu, index 1):
 
 ```java
 // Extract information about the pattern overlay
 PatternOverlayEffect patternOverlay = (PatternOverlayEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-Pokud váš PSD používá jiný pořadí vrstev, upravte index podle potřeby.
+Pokud váš PSD používá jiný pořádek vrstev, upravte index podle potřeby.
 
-### Krok 3: Úprava nastavení překrytí vzorem
+### Krok 3: Úprava nastavení Pattern Overlay
 
-Nyní můžete změnit barvu, neprůhlednost, režim prolnutí a posuny. Tyto změny přímo ovlivňují, jak je vzor vykreslen na vrstvě:
+Nyní můžete změnit barvu, neprůhlednost, režim prolnutí a posuny. Tyto změny přímo ovlivňují, jak je pattern vykreslen na vrstvě:
 
 ```java
 // Modify pattern overlay settings
@@ -112,9 +116,9 @@ settings.setVerticalOffset(11);
 
 > **Proč je to důležité:** Změna režimu prolnutí na `Difference` vytvoří výrazný vizuální kontrast, užitečný pro zvýraznění detailů textury.
 
-### Krok 4: Úprava podkladových dat vzoru
+### Krok 4: Úprava podkladových dat patternu
 
-Nahraďte původní bitmap vzoru vlastním. Níže uvedený příklad vytvoří malý 4×2 vzor pomocí několika základních barev:
+Nahraďte původní bitmap patternu vlastním. Níže uvedený příklad vytvoří malý 4×2 pattern pomocí několika základních barev:
 
 ```java
 // Edit the pattern data
@@ -135,11 +139,11 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-> **Častý úskalí:** Zapomenutí aktualizovat `PatternId` ponechá starý vzor připojený, což způsobí, že vizuální změna bude ignorována.
+> **Častý úskalí:** Zapomenutí aktualizovat `PatternId` ponechá starý pattern připojený, což způsobí, že vizuální změna bude ignorována.
 
 ### Krok 5: Uložení upraveného obrázku
 
-Uložte změny do nového souboru. Před uložením také aktualizujeme název a ID vzoru v nastavení:
+Uložte změny do nového souboru. Před uložením také aktualizujeme název a ID patternu v nastaveních:
 
 ```java
 // Save the edited image
@@ -150,7 +154,7 @@ im.save(exportPath);
 
 ### Krok 6: Ověření změn
 
-Znovu načtěte uložený soubor a potvrďte, že překrytí odráží nová nastavení:
+Znovu načtěte uložený soubor a potvrďte, že overlay odráží nová nastavení:
 
 ```java
 // Verify the changes in the edited file
@@ -160,42 +164,54 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 // Add assertions to ensure the changes have been applied successfully
 ```
 
-Můžete zde přidat unit‑test‑style aserce (např. kontrola, že `patternOverlayEffect.getOpacity()` je `193`) pro automatizaci ověření.
+Zde můžete přidat unit‑test‑style aserce (např. kontrola, že `patternOverlayEffect.getOpacity()` je `193`) pro automatizované ověření.
+
+## Jak aplikovat Texture Overlay pomocí Aspose.PSD
+
+Pokud chcete **aplikovat texture overlay** místo jednoduchého patternu, můžete použít stejný objekt `PatternFillSettings`, ale poskytnout větší bitmap, který představuje texturu. Upravením `horizontalOffset` a `verticalOffset` nastavíte dlaždicování textury podle potřeby.
+
+## Jak změnit barvu Pattern Overlay
+
+Změna barvy overlay je tak jednoduchá jako volání `settings.setColor(...)`. Příklad v **Kroku 3** ukazuje přepnutí barvy na zelenou. Můžete experimentovat s libovolnou konstantou `Color` nebo vytvořit vlastní ARGB hodnotu.
+
+## Jak vytvořit vlastní PSD Pattern
+
+Smyčka v **Kroku 4** ukazuje, jak programově vytvořit vlastní pattern. Vyplněním pole `int[]` vlastními ARGB hodnotami a definováním velikosti obdélníku můžete generovat libovolný opakovatelný pattern — ideální pro tvorbu značkových textur za běhu.
 
 ## Časté problémy a řešení
 
-| Problém | Příčina | Řešení |
+| Problém | Důvod | Řešení |
 |-------|--------|-----|
-| **Pattern does not change** | `PatternId` not updated or wrong layer index | Ujistěte se, že upravujete správný `PattResource` a voláte `settings.setPatternId(...)`. |
-| **Colors appear inverted** | Blend mode set to `Difference` unintentionally | Zvolte režim prolnutí, který odpovídá vašemu designovému záměru (např. `Normal`, `Overlay`). |
-| **Exported PSD loses layers** | Using an outdated Aspose.PSD version | Aktualizujte na nejnovější verzi Aspose.PSD for Java. |
-| **`NullPointerException` on `getEffects()[0]`** | Layer has no effects applied | Ověřte, že vrstva skutečně obsahuje `PatternOverlayEffect` před přetypováním. |
+| **Pattern se nezmění** | `PatternId` nebyl aktualizován nebo špatný index vrstvy | Ujistěte se, že upravujete správný `PattResource` a zavoláte `settings.setPatternId(...)`. |
+| **Barvy jsou invertované** | Neúmyslně nastaven režim prolnutí `Difference` | Vyberte režim, který odpovídá vašemu designu (např. `Normal`, `Overlay`). |
+| **Exportovaný PSD ztrácí vrstvy** | Použitá zastaralá verze Aspose.PSD | Aktualizujte na nejnovější verzi Aspose.PSD pro Java. |
+| **`NullPointerException` při `getEffects()[0]`** | Vrstva nemá žádné efekty | Ověřte, že vrstva skutečně obsahuje `PatternOverlayEffect` před přetypováním. |
 
 ## Často kladené otázky
 
-**Q: Mohu použít Aspose.PSD for Java s jinými Java knihovnami pro zpracování obrázků?**  
-A: Aspose.PSD for Java funguje samostatně, ale můžete jej kombinovat s knihovnami jako ImageIO nebo TwelveMonkeys pro další formáty.
+**Q: Mohu používat Aspose.PSD pro Java spolu s jinými Java knihovnami pro zpracování obrázků?**  
+A: Aspose.PSD pro Java funguje samostatně, ale můžete jej kombinovat s knihovnami jako ImageIO nebo TwelveMonkeys pro rozšířenou podporu formátů.
 
-**Q: Kde najdu podrobnou dokumentaci pro Aspose.PSD for Java?**  
-A: Viz [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) pro kompletní referenci API.
+**Q: Kde najdu podrobnou dokumentaci k Aspose.PSD pro Java?**  
+A: Viz [dokumentace Aspose.PSD pro Java](https://reference.aspose.com/psd/java/) pro kompletní referenci API.
 
-**Q: Je k dispozici bezplatná zkušební verze Aspose.PSD for Java?**  
-A: Ano, můžete si stáhnout bezplatnou zkušební verzi z [Aspose.PSD download page](https://releases.aspose.com/).
+**Q: Je k dispozici bezplatná zkušební verze Aspose.PSD pro Java?**  
+A: Ano, můžete si stáhnout bezplatnou zkušební verzi z [stánky ke stažení Aspose.PSD](https://releases.aspose.com/).
 
-**Q: Jak získat podporu pro Aspose.PSD for Java?**  
-A: Navštivte [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) pro komunitní pomoc nebo si zakupte podpůrný plán pro přímou asistenci.
+**Q: Jak získám podporu pro Aspose.PSD pro Java?**  
+A: Navštivte [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) pro komunitní pomoc nebo si zakupte plán podpory pro přímou asistenci.
 
-**Q: Mohu získat dočasnou licenci pro Aspose.PSD for Java?**  
-A: Ano, dočasná licence je k dispozici na [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
+**Q: Mohu získat dočasnou licenci pro Aspose.PSD pro Java?**  
+A: Ano, dočasná licence je k dispozici na [stránce dočasných licencí Aspose](https://purchase.aspose.com/temporary-license/).
 
 ## Závěr
 
-Nyní jste se naučili, jak **add pattern overlay** efekty do PSD souborů pomocí Aspose.PSD for Java. Manipulací s režimy prolnutí, neprůhledností, posuny a podkladovým bitmap vzoru můžete přímo z Java kódu vytvářet dynamické textury a brandingové prvky. Nebojte se experimentovat s různými barvami, vzory a režimy prolnutí, aby vyhovovaly vizuálnímu stylu vašeho projektu.
+Nyní jste se naučili, jak **přidat pattern overlay** efekty do PSD souborů pomocí Aspose.PSD pro Java. Manipulací s režimy prolnutí, neprůhledností, posuny a podkladovým bitmap patternu můžete přímo z Java kódu vytvářet dynamické textury a brandingové prvky. Nebojte se experimentovat s různými barvami, patterny a režimy prolnutí, aby vyhovovaly vizuálnímu stylu vašeho projektu.
 
 ---
 
-**Poslední aktualizace:** 2025-11-30  
-**Testováno s:** Aspose.PSD for Java 24.12 (nejnovější v době psaní)  
+**Poslední aktualizace:** 2026-04-12  
+**Testováno s:** Aspose.PSD pro Java 24.12 (nejnovější v době psaní)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

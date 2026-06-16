@@ -1,20 +1,24 @@
 ---
-title: Add Pattern Overlay Effects in Aspose.PSD for Java
+title: "Pattern Overlay PSD: Add Effects with Aspose.PSD for Java"
 linktitle: Add Pattern Overlay
 second_title: Aspose.PSD Java API
-description: Learn how to add pattern overlay effects to PSD files using Aspose.PSD for Java. Step‑by‑step guide with code examples and troubleshooting tips.
+description: "Learn how to add a pattern overlay PSD effect to PSD files using Aspose.PSD for Java. Step‑by‑step guide with code examples and troubleshooting tips."
 weight: 12
 url: /java/advanced-image-effects/add-pattern-overlay/
-date: 2025-11-30
+date: 2026-04-12
+keywords:
+- pattern overlay psd
+- apply texture overlay
+- change pattern overlay color
+- add pattern overlay
+- create custom psd pattern
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Pattern Overlay Effects in Aspose.PSD for Java
-
-## Introduction
+# Pattern Overlay PSD: Add Effects with Aspose.PSD for Java
 
 If you need to **add pattern overlay** to your Photoshop (PSD) files from a Java application, Aspose.PSD for Java makes the task straightforward. In this tutorial we’ll walk through loading a PSD, editing its pattern overlay settings, and saving the result—all with clear, production‑ready code. By the end you’ll understand why pattern overlays are useful for branding, texture creation, and dynamic image generation.
 
@@ -25,9 +29,9 @@ If you need to **add pattern overlay** to your Photoshop (PSD) files from a Java
 - **Typical implementation time?** About 10–15 minutes for a basic overlay.  
 - **Can I reuse the code?** Yes – the same approach works for any PSD with pattern resources.
 
-## What is a Pattern Overlay?
+## What is a Pattern Overlay PSD?
 
-A pattern overlay is a layer effect that tiles a small bitmap (the pattern) across the selected layer. It’s commonly used for textures, branding stamps, or decorative backgrounds. With Aspose.PSD you can programmatically change the pattern’s colors, offsets, blend mode, and even replace the underlying pattern data.
+A pattern overlay PSD is a layer effect that tiles a small bitmap (the pattern) across the selected layer. It’s commonly used for textures, branding stamps, or decorative backgrounds. With Aspose.PSD you can programmatically change the pattern’s colors, offsets, blend mode, and even replace the underlying pattern data.
 
 ## Why Use Aspose.PSD for Java to Add Pattern Overlay?
 
@@ -161,6 +165,18 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 
 You can add unit‑test‑style assertions here (e.g., checking `patternOverlayEffect.getOpacity()` equals `193`) to automate verification.
 
+## How to Apply Texture Overlay Using Aspose.PSD
+
+If your goal is to **apply texture overlay** rather than a simple pattern, you can use the same `PatternFillSettings` object but supply a larger bitmap that represents the texture. Adjust the `horizontalOffset` and `verticalOffset` to tile the texture as needed.
+
+## How to Change Pattern Overlay Color
+
+Changing the overlay color is as easy as calling `settings.setColor(...)`. The example in **Step 3** demonstrates switching the color to green. You can experiment with any `Color` constant or create a custom ARGB value.
+
+## How to Create a Custom PSD Pattern
+
+The loop in **Step 4** shows how to create a custom pattern programmatically. By populating the `int[]` array with your own ARGB values and defining the rectangle size, you can generate any repeatable pattern—perfect for building brand‑specific textures on the fly.
+
 ## Common Issues and Solutions
 
 | Issue | Reason | Fix |
@@ -173,7 +189,7 @@ You can add unit‑test‑style assertions here (e.g., checking `patternOverlayE
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.PSD for Java with other Java image processing libraries?**  
-A: Aspose.PSD for Java works independently, but you can combine it with libraries like ImageIO or TwelveMonkeys for additional formats.
+A: Aspose.PSD for Java works independently, but you can combine it with libraries like ImageIO or TwelveMonkeys for additional format support.
 
 **Q: Where can I find detailed documentation for Aspose.PSD for Java?**  
 A: Refer to the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) for a complete API reference.
@@ -193,7 +209,7 @@ You’ve now learned how to **add pattern overlay** effects to PSD files using A
 
 ---
 
-**Last Updated:** 2025-11-30  
+**Last Updated:** 2026-04-12  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 

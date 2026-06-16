@@ -1,12 +1,16 @@
 ---
-date: 2025-12-01
-description: Apprenez comment obtenir un redimensionnement d'image de haute qualité
-  en Java avec le Bicubic Resampler d'Aspose.PSD. Suivez notre guide étape par étape
-  pour des résultats supérieurs.
-linktitle: Implement Bicubic Resampler
+date: 2026-04-12
+description: Apprenez à redimensionner une image en Java en utilisant le Bicubic Resampler
+  d’Aspose.PSD. Ce tutoriel de mise à l’échelle d’image montre, étape par étape, comment
+  obtenir des résultats supérieurs.
+keywords:
+- resize image java
+- image scaling tutorial
+- java image library
+linktitle: Implémenter le rééchantillonneur bicubique
 second_title: Aspose.PSD Java API
-title: Mise à l’échelle d’images haute qualité avec le rééchantillonneur bicubique
-  dans Aspose.PSD pour Java
+title: Redimensionner une image Java – Rééchantillonneur bicubique pour un redimensionnement
+  de haute qualité
 url: /fr/java/advanced-image-manipulation/implement-bicubic-resampler/
 weight: 12
 ---
@@ -15,40 +19,42 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Redimensionnement d'images de haute qualité avec le rééchantillonneur bicubique dans Aspose.PSD pour Java
+# Redimensionner l'image Java – Rééchantillonneur bicubique pour un redimensionnement de haute qualité
 
 ## Introduction
 
-Le redimensionnement d'images de haute qualité est une exigence fréquente lorsque vous devez redimensionner des graphiques sans sacrifier la fidélité visuelle. Aspose.PSD pour Java propose un **Bicubic Resampler** qui offre des résultats lisses et nets pour les fichiers PSD et autres formats pris en charge. Dans ce tutoriel, vous apprendrez exactement comment implémenter le rééchantillonneur bicubique, étape par étape, afin d'apporter le redimensionnement d'images de haute qualité à vos applications Java dès aujourd'hui.
+If you need to **redimensionner image java** projects without losing sharpness or introducing artifacts, you’ve come to the right place. In this **tutoriel de mise à l'échelle d'image** we’ll walk through using Aspose.PSD’s Bicubic Resampler—a powerful **bibliothèque d'images java** feature that delivers smooth, crisp results for PSD files and many other formats. By the end of this guide you’ll be able to integrate high‑quality scaling into any Java application in just a few lines of code.
 
 ## Réponses rapides
-- **Que fait le Bicubic Resampler ?** Il applique un algorithme d'interpolation sophistiqué qui préserve les détails lors du redimensionnement des images.  
-- **Quelles valeurs ResizeType sont disponibles ?** `CubicConvolution` et `Bell` sont les deux options Bicubic fournies par Aspose.PSD.  
-- **Ai-je besoin d'une licence pour exécuter le code ?** Une licence temporaire fonctionne pour l'évaluation ; une licence complète est requise pour la production.  
-- **Quelle version de Java est requise ?** Tout runtime Java 8+ est compatible avec la dernière bibliothèque Aspose.PSD.  
-- **Puis-je redimensionner d'autres formats (PNG, JPEG) avec la même API ?** Oui, Aspose.PSD prend en charge plusieurs types d'images, bien que les exemples se concentrent sur le PSD.
+- **Que fait le Rééchantillonneur bicubique ?** It applies a sophisticated interpolation algorithm that preserves detail when resizing images.  
+- **Quelles valeurs ResizeType sont disponibles ?** `CubicConvolution` and `Bell` are the two Bicubic options provided by Aspose.PSD.  
+- **Ai-je besoin d'une licence pour exécuter le code ?** A temporary aspose license works for evaluation; a full license is required for production.  
+- **Quelle version de Java est requise ?** Any Java 8+ runtime is compatible with the latest Aspose.PSD library.  
+- **Puis-je redimensionner d'autres formats (PNG, JPEG) avec la même API ?** Yes, Aspose.PSD supports multiple image types, though the examples focus on PSD.
 
-## Qu'est-ce que le redimensionnement d'images de haute qualité ?
+## Qu'est-ce que le redimensionnement d'image de haute qualité ?
 
-Le redimensionnement d'images de haute qualité désigne le redimensionnement d'une image tout en conservant des bords nets, des dégradés lisses et une représentation précise des couleurs. Le Bicubic Resampler y parvient en tenant compte des valeurs des pixels environnants (en utilisant la convolution cubique ou l'algorithme Bell) pour calculer chaque nouveau pixel, ce qui donne un aspect plus naturel comparé aux méthodes du plus proche voisin ou bilinéaire.
+High quality image scaling refers to resizing an image while maintaining sharp edges, smooth gradients, and accurate color representation. The Bicubic Resampler achieves this by considering the values of surrounding pixels (using cubic convolution or the Bell algorithm) to calculate each new pixel, resulting in a more natural look compared to nearest‑neighbor or bilinear methods.
 
-## Pourquoi utiliser le Bicubic Resampler pour le redimensionnement d'images de haute qualité ?
+## Pourquoi utiliser le Rééchantillonneur bicubique pour le redimensionnement d'image de haute qualité ?
 
-- **Préserve les détails** : Les textures fines et les tracés restent nets même après des changements de taille importants.  
-- **Réduit les artefacts** : minimise les effets de halo et le flou qui apparaissent souvent avec des algorithmes plus simples.  
-- **Intégration facile** : un appel de méthode en une ligne (`image.resize`) vous permet de changer d'algorithme sans réécrire le code.  
+- **Préserve les détails :** Fine textures and line work stay clear even after significant size changes.  
+- **Réduit les artefacts :** Minimizes ringing and blurring that often appear with simpler algorithms.  
+- **Intégration facile :** One‑line method call (`image.resize`) lets you switch between algorithms without rewriting code.  
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d'avoir :
+Before you start, make sure you have:
 
-- **Aspose.PSD for Java** – téléchargez le JAR le plus récent depuis la [documentation Aspose.PSD pour Java](https://reference.aspose.com/psd/java/).  
-- **Java Development Kit** – JDK 8 ou supérieur installé et configuré.  
-- **Fichier PSD d'exemple** – une image de test (par ex., `sample_bicubic.psd`) placée dans un répertoire connu.
+- **Aspose.PSD for Java** – download the latest JAR from the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/).  
+- **Java Development Kit** – JDK 8 or newer installed and configured.  
+- **Sample PSD file** – a test image (e.g., `sample_bicubic.psd`) placed in a known directory.  
+
+These items together form a solid **bibliothèque d'images java** foundation for the tutorial.
 
 ## Importer les packages
 
-Ajoutez les imports requis à votre classe Java. Ceux-ci importent les classes principales d'Aspose.PSD ainsi que l'énumération `ResizeType`.
+Add the required imports to your Java class. These bring in the core Aspose.PSD classes and the `ResizeType` enumeration.
 
 ```java
 import com.aspose.psd.Image;
@@ -58,9 +64,11 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Étape 1 : charger l'image
+## Comment redimensionner une image Java avec le Rééchantillonneur bicubique
 
-Tout d'abord, chargez le fichier PSD source que vous souhaitez redimensionner. Remplacez `Your Document Directory` par le chemin réel sur votre machine.
+### Étape 1 : Charger l'image
+
+First, load the source PSD file you want to resize. Replace `Your Document Directory` with the actual path on your machine.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -68,9 +76,9 @@ String filePath = dataDir + "sample_bicubic.psd";
 PsdImage image = (PsdImage)Image.load(filePath);
 ```
 
-## Étape 2 : redimensionner avec la convolution cubique (haute qualité)
+### Étape 2 : Redimensionner avec la Convolution cubique (Haute qualité)
 
-Appliquez maintenant l'algorithme **Cubic Convolution**, l'une des deux options bicubiques qui offrent un redimensionnement d'image de haute qualité. L'exemple redimensionne l'image à 300 × 300 pixels.
+Now apply the **Cubic Convolution** algorithm, one of the two Bicubic options that delivers high quality image scaling. The example resizes the image to 300 × 300 pixels.
 
 ```java
 String destNameCubicConvolution = dataDir + "ResamplerCubicConvolutionStripes_after.psd";
@@ -78,9 +86,9 @@ image.resize(300, 300, ResizeType.CubicConvolution);
 image.save(destNameCubicConvolution, new PsdOptions(image));
 ```
 
-## Étape 3 : redimensionner avec l'algorithme Bell (alternative haute qualité)
+### Étape 3 : Redimensionner avec l'algorithme Bell (Haute qualité alternative)
 
-Si vous préférez l'algorithme **Bell**, qui offre un effet de lissage légèrement différent, vous pouvez l'utiliser de la même manière. Notez que nous rechargeons l'image originale pour que la comparaison reste équitable.
+If you prefer the **Bell** algorithm, which offers a slightly different smoothing effect, you can use it in the same way. Notice we reload the original image to keep the comparison fair.
 
 ```java
 String destNameBell = dataDir + "ResamplerBellStripes_after.psd";
@@ -89,36 +97,36 @@ imageBellStripes.resize(300, 300, ResizeType.Bell);
 imageBellStripes.save(destNameBell, new PsdOptions(imageBellStripes));
 ```
 
-N'hésitez pas à expérimenter d'autres dimensions ou formats de fichiers — il suffit d'ajuster les paramètres en conséquence.
+Feel free to experiment with other dimensions or file formats—just adjust the parameters accordingly.
 
-## Pièges courants et astuces
+## Pièges courants et conseils
 
-- **Chemin incorrect** : assurez‑vous que `dataDir` se termine par un séparateur de fichiers (`/` ou `\`) approprié à votre système d'exploitation.  
-- **Exceptions de licence** : exécuter le code sans licence valide peut ajouter un filigrane à l'image de sortie.  
-- **Utilisation de la mémoire** : les gros fichiers PSD peuvent consommer beaucoup de mémoire ; envisagez de libérer les images (`image.dispose()`) après l'enregistrement.  
+- **Chemin incorrect :** Ensure `dataDir` ends with a file‑separator (`/` or `\`) appropriate for your OS.  
+- **Exceptions de licence :** Running without a valid license may add a watermark to the output image. Use a **temporary aspose license** for testing, then switch to a permanent one for production.  
+- **Utilisation de la mémoire :** Large PSD files can consume significant memory; consider disposing of images (`image.dispose()`) after saving.  
 
 ## Questions fréquemment posées
 
-**Q : Puis‑je utiliser Aspose.PSD pour Java avec d'autres formats d'image ?**  
-A : Oui, la bibliothèque prend en charge PSD, PNG, JPEG, TIFF, BMP, et bien d'autres.
+**Q : Puis-je utiliser Aspose.PSD pour Java avec d'autres formats d'image ?**  
+R : Yes, the library supports PSD, PNG, JPEG, TIFF, BMP, and many more.
 
 **Q : Une licence temporaire est‑elle disponible pour Aspose.PSD pour Java ?**  
-A : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+R : Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 
 **Q : Où puis‑je trouver du support pour Aspose.PSD pour Java ?**  
-A : Visitez le forum Aspose.PSD [ici](https://forum.aspose.com/c/psd/34) pour toute question liée au support.
+R : Visit the Aspose.PSD forum [here](https://forum.aspose.com/c/psd/34) for any support‑related queries.
 
 **Q : Puis‑je télécharger la bibliothèque Aspose.PSD pour Java ?**  
-A : Oui, téléchargez la bibliothèque depuis la page des versions [ici](https://releases.aspose.com/psd/java/).
+R : Yes, download the library from the releases page [here](https://releases.aspose.com/psd/java/).
 
 **Q : Comment acheter Aspose.PSD pour Java ?**  
-A : Vous pouvez acheter Aspose.PSD pour Java depuis la page d'achat [ici](https://purchase.aspose.com/buy).
+R : You can purchase Aspose.PSD for Java from the purchase page [here](https://purchase.aspose.com/buy).
 
 ---
 
-**Dernière mise à jour** : 2025-12-01  
-**Testé avec** : Aspose.PSD for Java 24.11 (dernière version au moment de la rédaction)  
-**Auteur** : Aspose
+**Dernière mise à jour :** 2026-04-12  
+**Testé avec :** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

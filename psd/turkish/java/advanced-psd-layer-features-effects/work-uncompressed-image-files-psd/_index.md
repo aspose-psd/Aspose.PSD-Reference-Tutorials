@@ -1,35 +1,65 @@
 ---
-title: Java kullanarak PSD'de Sıkıştırılmamış Görüntü Dosyalarıyla Çalışma
-linktitle: Java kullanarak PSD'de Sıkıştırılmamış Görüntü Dosyalarıyla Çalışma
-second_title: Aspose.PSD Java API'si
-description: Bu kapsamlı adım adım eğitimde Java ve Aspose.PSD kütüphanesini kullanarak PSD formatındaki sıkıştırılmamış görüntü dosyalarıyla nasıl çalışılacağını öğrenin.
-weight: 27
+date: 2026-04-12
+description: Bu adım adım rehberde Java ve Aspose.PSD kütüphanesini kullanarak PSD'yi
+  RAW formatına dönüştürmeyi ve PSD'yi sıkıştırma olmadan dışa aktarmayı öğrenin.
+keywords:
+- convert psd to raw
+- export psd without compression
+- Aspose.PSD Java
+linktitle: Java ile PSD'de Sıkıştırılmamış Görüntü Dosyalarıyla Çalışma
+second_title: Aspose.PSD Java API
+title: Java Kullanarak PSD'yi RAW'ye Dönüştürme (Sıkıştırılmamış Görüntü Dosyaları)
 url: /tr/java/advanced-psd-layer-features-effects/work-uncompressed-image-files-psd/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak PSD'de Sıkıştırılmamış Görüntü Dosyalarıyla Çalışma
+# Java Kullanarak PSD'yi RAW'ye Dönüştürme (Sıkıştırılmamış Görüntü Dosyaları)
 
-## giriiş
-Java'da Photoshop belgeleriyle (PSD) çalışmak söz konusu olduğunda, bu zengin görüntü dosyalarının etkili bir şekilde nasıl işleneceğini ve kaydedileceğini anlamak çok önemlidir. Bu eğitimde, sıkıştırılmamış görüntülerle çalışmak da dahil olmak üzere PSD dosyalarının yönetimini kolaylaştıran güçlü bir API olan Aspose.PSD'nin kullanımına derinlemesine bakacağız. İster uygulamanızı zengin grafiklerle geliştirmek isteyen bir geliştirici olun, ister sadece PSD dosyalarını Java'da zahmetsizce işlemek istiyor olun, bu kılavuz yolun her adımında size yol gösterecektir. Başlamaya hazır mısınız? Hadi atlayalım!
+## Giriş
+Java'da Photoshop belgeleri (PSD) ile çalışırken **PSD'yi RAW'ye dönüştürme** ve PSD'yi sıkıştırma olmadan dışa aktarmayı anlamak, görüntü doğruluğunu korumak için çok önemlidir. Bu öğreticide, Aspose.PSD'nin sıkıştırılmamış görüntü dosyalarını yönetme sürecini, bir PSD'yi yüklemekten RAW‑stilinde sıkıştırılmamış bir dosya olarak kaydetmeye kadar nasıl basitleştirdiğini inceleyeceğiz. Grafik‑ağır bir uygulama geliştiriyor olun ya da kayıpsız görüntü dışa aktarımlarına ihtiyacınız olsun, burada ihtiyacınız olan her şeyi bulacaksınız. Başlamaya hazır mısınız? Hadi başlayalım!
+
+## Hızlı Yanıtlar
+- **“convert PSD to RAW” ne anlama geliyor?** PSD verilerini hiçbir sıkıştırma olmadan kaydeder, piksel verilerini orijinal biçiminde tutar.  
+- **Bu işlemi hangi kütüphane yönetir?** Aspose.PSD for Java, sıkıştırılmamış kaydetmeler için basit bir API sunar.  
+- **Lisans gereklimi?** Ücretsiz deneme sürümü test için çalışır; üretim için ticari bir lisans gereklidir.  
+- **Gerekli Java sürümü nedir?** JDK 8 veya üzeri.  
+- **Kaydettikten sonra dosyayı hâlâ düzenleyebilir miyim?** Evet – sıkıştırılmamış PSD'yi yeniden yükleyebilir ve çizim ya da katman eklemeye devam edebilirsiniz.
+
+## “convert PSD to RAW” nedir?
+Bir PSD'yi RAW'ye dönüştürmek, Photoshop belgesini **herhangi bir sıkıştırma olmadan** dışa aktarmak anlamına gelir. Ortaya çıkan dosya tam piksel verisini korur; bu, görüntü kalitesinin asla ödün verilemeyeceği durumlar için idealdir—örneğin arşivleme, bilimsel görüntüleme veya yüksek‑kalite baskı hatları gibi.
+
+## Neden PSD'yi sıkıştırma olmadan dışa aktaralım?
+- **Maksimum kalite:** Sıkıştırma artefaktlarından dolayı detay kaybı yok.  
+- **Tahmin edilebilir dosya boyutu:** RAW dosyaları, görüntü boyutları ve bit derinliğini doğrudan yansıtan bir boyuta sahiptir.  
+- **Basitleştirilmiş sonraki işleme:** Diğer araçlar, önce sıkıştırmayı açmaya gerek kalmadan piksel verisini okuyabilir.
+
 ## Önkoşullar
-Kollarımızı sıvayıp kodlamaya başlamadan önce listemize göz atmamız gereken birkaç önkoşul var. Merak etme; oldukça basitler!
+Kodlamaya başlamadan önce, listemizde işaretlememiz gereken birkaç önkoşul var. Endişelenmeyin; oldukça basitler!
+
 ### Java Geliştirme Kiti (JDK)
-- Sisteminizde JDK 8 veya üzerinin kurulu olduğundan emin olun. Değilse, şu adrese gidin:[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ve en son sürümü indirin.
+- Sisteminizde JDK 8 veya üzeri yüklü olduğundan emin olun. Yüklü değilse, [Oracle web sitesine](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) giderek en son sürümü indirin.
+
 ### Entegre Geliştirme Ortamı (IDE)
-- IntelliJ IDEA, Eclipse veya NetBeans gibi iyi bir IDE hayatınızı kolaylaştıracaktır. Henüz yapmadıysanız bir tane ayarlayın!
-### Java Kütüphanesi için Aspose.PSD
--  Aspose.PSD for Java kütüphanesini indirin. En son sürümleri alabilirsiniz[Burada](https://releases.aspose.com/psd/java/). 
-### Temel Java Bilgisi 
-- Sorunsuz bir şekilde takip edebilmek için Java programlama ve nesne yönelimli paradigma hakkında temel bir anlayışa sahip olmalısınız.
+- IntelliJ IDEA, Eclipse veya NetBeans gibi iyi bir IDE, işinizi kolaylaştırır. Henüz kurmadıysanız birini kurun!
+
+### Aspose.PSD for Java Kütüphanesi
+- Aspose.PSD for Java kütüphanesini indirin. En son sürümleri [buradan](https://releases.aspose.com/psd/java/) alabilirsiniz. 
+
+### Java Temel Bilgisi
+- Java programlaması ve nesne‑yönelimli paradigma hakkında temel bir anlayışa sahip olmalısınız, böylece sorunsuz bir şekilde takip edebilirsiniz.
+
 ### Bir PSD Dosyası
-- Örnek bir PSD dosyasını test için hazır bulundurun. Photoshop'ta bir tane oluşturabilir veya çevrimiçi olarak ücretsiz bir örnek indirebilirsiniz. 
-Artık her şey hazır olduğuna göre kodlara geçelim!
+- Test için bir örnek PSD dosyasına sahip olun. Bunu Photoshop'ta oluşturabilir veya çevrimiçi ücretsiz bir örnek indirebilirsiniz. 
+
+Her şey hazır olduğuna göre, koda dalalım!
+
 ## Paketleri İçe Aktar
-Başlangıç olarak kodumuz için gerekli olan paketleri içe aktarmamız gerekiyor. İhtiyaç duyacağınız ithalatların listesi aşağıdadır:
+Başlamak için, kodumuz için gerekli paketleri içe aktarmamız gerekiyor. Aşağıda ihtiyacınız olacak import listesi yer alıyor:
+
 ```java
 import com.aspose.psd.Graphics;
 import com.aspose.psd.Image;
@@ -37,59 +67,100 @@ import com.aspose.psd.fileformats.psd.CompressionMethod;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
-Bu içe aktarmalar, gerekli sınıfları ve yöntemleri projemize getirecek ve PSD dosyalarını sorunsuz bir şekilde işlememize olanak tanıyacaktır. 
-Süreci yönetilebilir adımlara ayıralım. 
-## 1. Adım: Dosya Dizininizi Ayarlama
-Öncelikle PSD dosyanızın nerede bulunduğunu ve çıktınızı nereye kaydetmek istediğinizi belirtmeniz gerekir. Örnek kodumuzda dizin yolunu tutacak bir değişken oluşturacağız.
+
+Bu importlar, gerekli sınıf ve metodları projemize getirerek PSD dosyalarını sorunsuz bir şekilde manipüle etmemizi sağlar. Süreci yönetilebilir adımlara bölelim.
+
+## Adım 1: Dosya Dizinini Ayarlama
+İlk olarak, PSD dosyanızın nerede bulunduğunu ve çıktıyı nereye kaydetmek istediğinizi belirtmeniz gerekir. Örnek kodumuzda, dizin yolunu tutacak bir değişken oluşturacağız.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` PSD dosyanızın bulunduğu gerçek yolla (`layers.psd`) saklanır. Bunu yaparak programınızın dosyayı nerede arayacağını bilmesini sağlarsınız.
+
+`"Your Document Directory"` ifadesini PSD dosyanızın (`layers.psd`) saklandığı gerçek yol ile değiştirin. Bunu yaparak programınızın dosyayı nerede arayacağını belirtmiş olursunuz.
+
 ## Adım 2: PSD Dosyasını Yükleme
- Şimdi PSD dosyasını kullanarak yükleyelim.`Image.load()` bir yönteme dönüştürerek`PsdImage` tip.
+Şimdi, `Image.load()` metodunu kullanarak PSD dosyasını yükleyelim ve `PsdImage` tipine dönüştürelim.
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
- Bu satır şunu çağırır:`load` gelen yöntem`Image` sınıf, PSD dosyanızı belleğe yüklüyor. Onu dökerek`PsdImage`, Java'ya bu görüntüyü PSD işlemleriyle ilgili belirli işlevlere sahip bir PSD dosyası olarak ele almasını söylüyoruz.
-## 3. Adım: Kaydetme Seçeneklerini Yapılandırma
-Daha sonra, özellikle çıktının sıkıştırılmamış olmasını istediğimizi belirterek, dosyamızı kaydetme seçeneklerini ayarlamamız gerekiyor.
+
+Bu satır, `Image` sınıfının `load` metodunu çağırarak PSD dosyanızı belleğe yükler. `PsdImage`'a dönüştürerek, Java'ya bu görüntüyü PSD dosyası olarak ve PSD işlemleriyle ilgili belirli işlevselliklere sahip olarak ele almasını söylüyoruz.
+
+## Adım 3: Kaydetme Seçeneklerini Yapılandırma
+Şimdi, dosyamızı kaydetmek için seçenekleri ayarlamamız gerekiyor; özellikle çıktının **sıkıştırılmamış** olmasını (yani PSD'yi RAW'ye dönüştürme) belirtmeliyiz.
+
 ```java
 PsdOptions saveOptions = new PsdOptions();
 saveOptions.setCompressionMethod(CompressionMethod.Raw);
 ```
-`PsdOptions` class, PSD dosyamızı kaydetmek için çeşitli seçenekler belirlememize olanak tanır. Ayar`setCompressionMethod` ile`CompressionMethod.Raw` kaydedilen dosyamızın sıkıştırılmamış olmasını ve yüksek kaliteyi korumasını sağlar.
+
+`PsdOptions` sınıfı, PSD dosyamızı kaydetmek için çeşitli seçenekler belirlememizi sağlar. `setCompressionMethod`'u `CompressionMethod.Raw` olarak ayarlamak, kaydedilen dosyanın sıkıştırılmamış olmasını ve yüksek kaliteyi korumasını sağlar.
+
 ## Adım 4: Sıkıştırılmamış PSD Dosyasını Kaydetme
-Şimdi yeni yapılandırılan PSD görüntüsünü kaydetmenin zamanı geldi.
+Şimdi yeni yapılandırılmış PSD görüntüsünü kaydetme zamanı.
+
 ```java
 psdImage.save(dataDir + "uncompressed_out.psd", saveOptions);
 ```
- Bu satır bizim cihazımızdaki kaydetme fonksiyonunu çalıştırır.`PsdImage` misal (`psdImage` ). Dosyayı şu şekilde kaydeder:`uncompressed_out.psd` belirtilen dizinde bulunur ve daha önce tanımlanan seçenekleri uygular.
-## Adım 5: Yeni Oluşturulan Resmi Yeniden Açma
-Kaydettikten sonra her şeyin beklendiği gibi çalıştığını doğrulamak için çıktı görselimizi yeniden yükleyelim.
+
+Bu satır, `PsdImage` örneğimiz (`psdImage`) üzerindeki kaydetme işlevini yürütür. Dosyayı belirtilen dizinde `uncompressed_out.psd` olarak kaydeder ve önceki adımda tanımlanan seçenekleri uygular.
+
+## Adım 5: Yeni Oluşturulan Görüntüyü Yeniden Açma
+Kaydettikten sonra, çıktımızı yeniden yükleyerek her şeyin beklendiği gibi çalıştığını doğrulayalım.
+
 ```java
 PsdImage img = (PsdImage) Image.load(dataDir + "uncompressed_out.psd");
 ```
- Arayarak`load` tekrar yeni bir örnek oluşturabiliriz`PsdImage` bu kaydedilen dosyaya karşılık gelir. Görüntüyü kaydettikten sonra değiştirmek veya görüntülemek istiyorsanız bu adım çok önemlidir.
-## Adım 6: Görüntüyü Çizmek veya Değiştirmek
-Son olarak, yeni açılan görüntünün üzerine çizim yapmak veya üzerinde değişiklik yapmak isteyebilirsiniz.
+
+`load` metodunu tekrar çağırarak, kaydedilen dosyaya karşılık gelen yeni bir `PsdImage` örneği oluşturabiliriz. Bu adım, kaydettikten sonra görüntüyü manipüle etmek veya göstermek istiyorsanız kritik öneme sahiptir.
+
+## Adım 6: Görüntüyü Çizme veya Manipüle Etme
+Son olarak, yeni açılan görüntü üzerinde çizim yapmak veya manipülasyon yapmak isteyebilirsiniz.
+
 ```java
 Graphics graphics = new Graphics(img);
 ```
- Burada bir başlatıyoruz`Graphics` nesnemiz üzerinde çeşitli grafiksel işlemler yapmamızı sağlayan nesnedir.`img`. İsterseniz şekiller çizebilir, metin ekleyebilir ve hatta katmanları değiştirebilirsiniz!
-## Çözüm
-Tebrikler! Java ve Aspose.PSD kütüphanesini kullanarak PSD formatındaki sıkıştırılmamış görüntü dosyalarıyla nasıl çalışacağınızı öğrendiniz. Bu güçlü API, PSD dosyalarını yüklerken, değiştirirken veya farklı formatlarda kaydederken kolaylıkla yönetmenize olanak tanır. Öyleyse devam edin ve bir tur atın! Farklı özellikleri deneyin, grafiklerle oynayın ve ne kadar heyecan verici şeyler yaratabileceğinizi görün.
- Kontrol etmeyi unutmayın[dokümantasyon](https://reference.aspose.com/psd/java/) Daha gelişmiş özellikler ve seçenekler için. Doğrudan konuya dalmak istiyorsanız kütüphaneyi indirebilirsiniz.[Burada](https://releases.aspose.com/psd/java/) veya ücretsiz deneme sürümünü başlatın. Herhangi bir sorunuz varsa, ziyaret etmekten çekinmeyin[destek forumu](https://forum.aspose.com/c/psd/34) toplumdan yardım almak için.
-## SSS'ler
-### Java için Aspose.PSD nedir?
-Aspose.PSD for Java, geliştiricilerin Photoshop PSD dosyalarıyla programlı olarak çalışmasına olanak tanıyan bir Java kitaplığıdır.
-### Aspose.PSD'yi kullanarak bir PSD dosyasındaki katmanları değiştirebilir miyim?
-Evet! Aspose.PSD, katmanlara erişmenizi ve bunları değiştirmenizi sağlayarak karmaşık işlemleri gerçekleştirmenizi kolaylaştırır.
-### Aspose.PSD'nin kullanımı ücretsiz mi?
-Ücretsiz deneme sürümü mevcuttur ancak kapsamlı kullanım ve gelişmiş özelliklere erişim için bir lisans satın almanız gerekebilir.
-### Sorunlarla karşılaşırsam destek ekibiyle nasıl iletişime geçebilirim?
- aracılığıyla ulaşabilirsiniz.[Aspose destek forumu](https://forum.aspose.com/c/psd/34) yardım için.
-### Aspose.PSD, PSD dışındaki formatlarda kaydetmeyi destekliyor mu?
-Evet, Aspose.PSD, gereksinimlerinize bağlı olarak PNG, JPEG ve daha fazlası gibi farklı formatlarda kaydetmenize olanak tanır.
+
+Burada, `img` üzerinde çeşitli grafik işlemleri yapmamızı sağlayan bir `Graphics` nesnesi başlatıyoruz. İsterseniz şekiller çizebilir, metin ekleyebilir ya da katmanları değiştirebilirsiniz!
+
+## Yaygın Kullanım Durumları
+- **Arşivleme:** Orijinal sanat eserini hiçbir kayıp olmadan koruyun.  
+- **Bilimsel görüntüleme:** Analiz için ham piksel verilerini dışa aktarın.  
+- **Baskı üretimi:** Dosyaları bir yazıcıya göndermeden önce en yüksek doğruluğu sağlayın.  
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.PSD for Java nedir?**  
+C: Aspose.PSD for Java, geliştiricilerin Photoshop PSD dosyalarıyla programlı olarak çalışmasını sağlayan bir Java kütüphanesidir.
+
+**S: Aspose.PSD kullanarak bir PSD dosyasındaki katmanları manipüle edebilir miyim?**  
+C: Evet! Aspose.PSD, katmanlara erişmenizi ve onları manipüle etmenizi sağlar, böylece karmaşık işlemleri kolayca yapabilirsiniz.
+
+**S: Aspose.PSD ücretsiz mi?**  
+C: Ücretsiz bir deneme sürümü mevcuttur, ancak kapsamlı kullanım ve gelişmiş özelliklere erişim için bir lisans satın almanız gerekebilir.
+
+**S: Sorunla karşılaşırsam destek ile nasıl iletişime geçebilirim?**  
+C: Yardım için [Aspose destek forumuna](https://forum.aspose.com/c/psd/34) ulaşabilirsiniz.
+
+**S: Aspose.PSD, PSD dışındaki formatlarda kaydetmeyi destekliyor mu?**  
+C: Evet, Aspose.PSD, gereksinimlerinize bağlı olarak PNG, JPEG ve daha fazlası gibi farklı formatlarda kaydetmeye olanak tanır.
+
+**S: Diğer platformlarda PSD'yi sıkıştırma olmadan dışa aktarabilir miyim?**  
+C: Aynı yaklaşım .NET ve C++ sürümlerinde de çalışır; yalnızca dil‑spesifik sözdizimini ayarlamanız gerekir.
+
+## Sonuç
+Tebrikler! Java ve Aspose.PSD kütüphanesini kullanarak **PSD'yi RAW'ye dönüştürmeyi** ve PSD'yi sıkıştırma olmadan dışa aktarmayı yeni öğrendiniz. Bu güçlü API, PSD dosyalarını kolayca yönetmenizi sağlar—yükleme, manipülasyon ve sıkıştırılmamış olarak kaydetme. İlerleyin, grafik nesnesiyle deneyler yapın, katman ekleyin, şekil çizin veya bu iş akışını daha büyük bir görüntü‑işleme hattına entegre edin.
+
+Daha gelişmiş özellikler ve seçenekler için [belgelere](https://reference.aspose.com/psd/java/) göz atmayı unutmayın. Hemen başlamak isterseniz, kütüphaneyi [buradan](https://releases.aspose.com/psd/java/) indirebilir veya ücretsiz deneme sürümüne başlayabilirsiniz. Herhangi bir sorunuz olursa, topluluktan yardım almak için [destek forumunu](https://forum.aspose.com/c/psd/34) ziyaret edin.
+
+---
+
+**Son Güncelleme:** 2026-04-12  
+**Test Edilen Sürüm:** Aspose.PSD for Java 24.12 (yazım zamanındaki en son sürüm)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
