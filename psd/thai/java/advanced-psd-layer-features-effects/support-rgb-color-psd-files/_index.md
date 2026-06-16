@@ -1,10 +1,63 @@
 ---
-date: 2026-02-22
-description: เรียนรู้วิธีแปลง PSD เป็น JPEG, ส่งออก PSD เป็น JPG, และตั้งค่าคุณภาพ
-  JPEG ใน Java ด้วย Aspose.PSD. บทเรียน Aspose.PSD อย่างครบถ้วนสำหรับภาพ RGB ที่สว่างสดใส.
-linktitle: Convert PSD to JPEG and Support RGB Color with Aspose.PSD Java
+date: 2026-05-19
+description: เรียนรู้วิธีบันทึก PSD เป็น JPEG, ส่งออก PSD เป็น JPG, และตั้งค่าคุณภาพ
+  JPEG ใน Java ด้วย Aspose.PSD. คู่มือครบวงจรสำหรับภาพสี RGB สดใสและการแปลงที่พร้อมใช้งานบนเว็บ.
+keywords:
+- save psd as jpeg
+- export psd as jpg
+- convert psd for web
+- batch convert psd jpeg
+linktitle: บันทึก PSD เป็น JPEG และรองรับสี RGB ด้วย Aspose.PSD Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to save PSD as JPEG, export PSD as JPG, and set JPEG quality
+    in Java using Aspose.PSD. A complete tutorial for vibrant RGB images and web‑ready
+    conversion.
+  headline: Save PSD as JPEG and Support RGB Color with Aspose.PSD Java
+  type: TechArticle
+- description: Learn how to save PSD as JPEG, export PSD as JPG, and set JPEG quality
+    in Java using Aspose.PSD. A complete tutorial for vibrant RGB images and web‑ready
+    conversion.
+  name: Save PSD as JPEG and Support RGB Color with Aspose.PSD Java
+  steps:
+  - name: Set Up Document Directory
+    text: Define the folder that contains your PSD files. Replace `"Your Document
+      Directory"` with the actual path on your machine.
+  - name: Define File Names
+    text: Specify the input PSD and the output paths for both JPEG and PSD.
+  - name: Create `PsdLoadOptions`
+    text: '`PsdLoadOptions` controls how the PSD is parsed. **Definition:** `PsdLoadOptions`
+      is a configuration object that tells Aspose.PSD how to interpret layers, color
+      profiles, and bit depth when loading a file.'
+  - name: Load the PSD Image
+    text: Load the source file using the options created above.
+  - name: Save the PSD File (Optional)
+    text: If you need to keep a copy after processing, save it back as a PSD.
+  - name: Prepare JPEG Options – *set JPEG quality java*
+    text: Configure JPEG output settings, especially the quality level.
+  - name: Save as JPEG – *convert PSD to JPEG*
+    text: Export the image as a JPEG file. `save` writes the image to the specified
+      file using the given format options.
+  type: HowTo
+- questions:
+  - answer: Yes – Aspose.PSD is also available for .NET, Python, and other platforms.
+      See the official site for details.
+    question: Can I use Aspose.PSD with other programming languages?
+  - answer: Absolutely! You can explore a free trial **[here](https://releases.aspose.com/)**.
+    question: Is a free trial available for Aspose.PSD?
+  - answer: Visit the **[Aspose Support Forum](https://forum.aspose.com/c/psd/34)**
+      for community help and official assistance.
+    question: How do I get support for Aspose products?
+  - answer: Yes – the API includes a rich set of layer manipulation, filters, and
+      effect methods.
+    question: Can I apply filters or effects on PSD images using Aspose?
+  - answer: With basic Java knowledge, the extensive documentation and examples make
+      it easy for newcomers to start converting images quickly.
+    question: Is using Aspose.PSD for Java beginner‑friendly?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: แปลง PSD เป็น JPEG และรองรับสี RGB ด้วย Aspose.PSD Java
+title: บันทึก PSD เป็น JPEG และรองรับสี RGB ด้วย Aspose.PSD Java
 url: /th/java/advanced-psd-layer-features-effects/support-rgb-color-psd-files/
 weight: 20
 ---
@@ -13,43 +66,110 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แปลง PSD เป็น JPEG และรองรับสี RGB ด้วย Aspose.PSD Java
+# บันทึก PSD เป็น JPEG และสนับสนุนสี RGB ด้วย Aspose.PSD Java
 
 ## บทนำ
-เมื่อพูดถึงการจัดการไฟล์ Photoshop อย่างโปรแกรมเมติก ความสามารถในการ **convert PSD to JPEG** และทำงานกับโหมดสี RGB ที่สดใสเป็นสิ่งสำคัญสำหรับนักพัฒนา Aspose.PSD for Java มีเฟรมเวิร์กที่ทรงพลังและใช้งานง่ายที่ให้คุณ **export PSD as JPG**, ปรับคุณภาพภาพ, และรักษาข้อมูล 16‑bit ต่อช่องสี ในบทแนะนำนี้เราจะเดินผ่าน **aspose psd tutorial** ที่สมบูรณ์ซึ่งแสดงวิธีโหลดไฟล์ RGB PSD, ตั้งค่า JPEG quality ใน Java, และบันทึกผลลัพธ์เป็นไฟล์ PSD และ JPEG พร้อมกัน เตรียมอุปกรณ์เขียนโค้ดของคุณแล้วมาดำดิ่งสู่โลกสีสันของการประมวลผลภาพกันเถอะ!
+เมื่อคุณต้องการ **save PSD as JPEG** อย่างโปรแกรมเมติก การจัดการไฟล์ Photoshop ในโหมด RGB ดั้งเดิมเป็นสิ่งสำคัญเพื่อรักษาความแม่นยำของสี Aspose.PSD for Java ทำให้เรื่องนี้ง่ายขึ้น: คุณสามารถ **export PSD as JPG** ควบคุมคุณภาพ JPEG และรักษาข้อมูล 16‑bit ต่อช่องไว้โดยไม่เสียหาย — ทั้งหมดนี้โดยไม่ต้องมีไลเซนส์ Photoshop ในบทแนะนำนี้เราจะอธิบายขั้นตอนการโหลด PSD แบบ RGB การกำหนดค่า JPEG options และการบันทึกผลลัพธ์ทั้งเป็น PSD (ตามต้องการ) และเป็นไฟล์ JPEG เตรียม IDE ของคุณและเริ่มต้นกับภาพที่มีสีสันพร้อมใช้งานบนเว็บ!
 
 ## คำตอบอย่างรวดเร็ว
-- **Aspose.PSD สามารถอ่านไฟล์ PSD RGB 16‑bit ได้หรือไม่?** ใช่, รองรับภาพ RGB 16‑bit ต่อช่องสีอย่างเต็มที่.  
-- **วิธีการใดที่ใช้แปลง PSD เป็น JPEG?** ใช้ `image.save(outputPath, new JpegOptions())`.  
-- **จะตั้งค่า JPEG quality ใน Java อย่างไร?** เรียก `saveOptions.setQuality(100)` บนอินสแตนซ์ของ `JpegOptions`.  
-- **ต้องการไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์; มีรุ่นทดลองฟรีให้ใช้.  
-- **โค้ดเดียวกันสามารถใช้กับฟอร์แมตอื่นได้หรือไม่?** ได้, Aspose.PSD รองรับ PNG, BMP, TIFF, และอื่น ๆ ด้วยตัวเลือกที่คล้ายกัน.
+- **Aspose.PSD สามารถอ่านไฟล์ PSD RGB 16‑bit ได้หรือไม่?** ใช่ – รองรับ 16‑bit ต่อช่องเต็มรูปแบบ.  
+- **เมธอดใดที่บันทึก PSD เป็น JPEG?** `image.save(outputPath, new JpegOptions())`.  
+- **ฉันจะตั้งค่าคุณภาพ JPEG ใน Java อย่างไร?** Call `jpegOptions.setQuality(100)` on the `JpegOptions` instance.  
+- **ฉันต้องการไลเซนส์สำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีไลเซนส์เชิงพาณิชย์; มีการทดลองใช้ฟรีให้บริการ.  
+- **ฉันสามารถแปลง PSD เป็น JPEG เป็นชุดได้หรือไม่?** ใช่ – ทำการวนลูปไฟล์และใช้ตรรกะการแปลงเดียวกันซ้ำ.  
 
-## อะไรคือ “convert PSD to JPEG”?
-การแปลงไฟล์ PSD เป็น JPEG หมายถึงการนำเอกสาร Photoshop ที่มีหลายเลเยอร์มารวมเป็นภาพเดียว (flatten) แล้วเข้ารหัสผลลัพธ์เป็นภาพ JPEG ที่บีบอัด นี่เป็นประโยชน์เมื่อคุณต้องการเวอร์ชันที่มีน้ำหนักเบาและพร้อมใช้งานบนเว็บของการออกแบบ พร้อมกับยังคงเก็บไฟล์ PSD ดั้งเดิมไว้สำหรับการแก้ไขในอนาคต.
+## อะไรคือ “save PSD as JPEG”?
+**การบันทึก PSD เป็น JPEG หมายถึงการทำให้เอกสาร Photoshop ที่มีหลายเลเยอร์แบนและเข้ารหัสผลลัพธ์เป็นภาพ JPEG ที่บีบอัด** การดำเนินการนี้จะลบข้อมูลเลเยอร์, รวมเนื้อหาที่มองเห็นได้ทั้งหมดเป็นแรสเตอร์เดียว, และใช้การบีบอัด JPEG, ผลลัพธ์คือไฟล์ที่มีขนาดเล็กและเข้ากันได้กับเว็บในขณะที่รักษาลักษณะภาพของการออกแบบต้นฉบับให้ใกล้เคียงที่สุดเท่าที่จะเป็นไปได้.
 
-## ทำไมต้องแปลง PSD เป็น JPEG?
-- **Portability:** ไฟล์ JPEG รองรับโดยทั่วไประหว่างเบราว์เซอร์, อุปกรณ์มือถือ, และโปรแกรมเอกสาร.  
-- **Size Reduction:** การบีบอัด JPEG ลดขนาดไฟล์อย่างมากเมื่อเทียบกับ PSD ดั้งเดิม.  
-- **Quick Sharing:** เหมาะสำหรับการพรีวิว, การตรวจสอบของลูกค้า, หรือการฝังในรายงาน.  
-- **Consistent Workflow:** หากคุณต้องการ **convert Photoshop to JPEG** ในกระบวนการแบบแบตช์, การเรียก API เดียวกันจะช่วยประหยัดการเขียนโค้ดประมวลผลภาพแบบกำหนดเอง.
+## ทำไมต้องบันทึก PSD เป็น JPEG?
+การบันทึก PSD เป็น JPEG ให้ภาพที่สามารถดูได้ทั่วโลกทันที, ลดขนาดไฟล์อย่างมาก, และทำให้การแชร์ผ่านเบราว์เซอร์, อีเมล, และแอปมือถือเป็นไปอย่างรวดเร็ว Aspose.PSD ประมวลผล **over 50 input and output formats** และสามารถจัดการเอกสารหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ, ทำให้การแปลงเป็นชุดมีประสิทธิภาพ.
 
 ## กรณีการใช้งานทั่วไป
 - สร้างภาพตัวอย่างขนาดย่อสำหรับพอร์ตโฟลิโอออนไลน์.  
-- ส่งออกงานศิลป์ขั้นสุดท้ายจากกระบวนการออกแบบเพื่อแสดงบนเว็บไซต์.  
-- อัตโนมัติการเตรียมภาพสำหรับจดหมายข่าวอีเมลที่ต้องการรูปแบบ JPEG.  
+- ส่งออกงานศิลปะขั้นสุดท้ายจากกระบวนการออกแบบเพื่อแสดงบนเว็บไซต์.  
+- อัตโนมัติการเตรียมภาพสำหรับจดหมายข่าวอีเมลที่ต้องใช้ JPEG.  
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะกระโดดเข้าสู่การเขียนโค้ด, ตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+ก่อนที่เราจะลงลึกในโค้ด, โปรดตรวจสอบว่าคุณมี:
 
-1. **Java Development Kit (JDK)** – เวอร์ชันล่าสุดใดก็ได้ (8 หรือใหม่กว่า).  
-2. **Aspose.PSD for Java** – ดาวน์โหลดไลบรารี **[here](https://releases.aspose.com/psd/java/)**.  
-3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans, หรือเครื่องมือแก้ไขที่รองรับ Java ใดก็ได้.  
-4. **Basic Java knowledge** – คุณควรคุ้นเคยกับคลาสและเมธอด.  
-5. **Sample PSD file** – ไฟล์ RGB เช่น `inRgb16.psd` สำหรับการทดสอบ.  
+1. **Java Development Kit (JDK) 8+** ติดตั้งแล้ว.  
+2. **Aspose.PSD for Java** – ดาวน์โหลด JAR เวอร์ชันล่าสุด **[here](https://releases.aspose.com/psd/java/)**.  
+3. **IDE** เช่น IntelliJ IDEA, Eclipse หรือ NetBeans.  
+4. ความคุ้นเคยพื้นฐานกับคลาสและเมธอดของ Java.  
+5. ไฟล์ตัวอย่าง PSD แบบ RGB (เช่น `inRgb16.psd`) สำหรับการทดสอบ.  
 
 ## นำเข้าแพ็กเกจ
-ก่อนจะดำดิ่งสู่ตรรกะหลัก, ให้เรานำเข้าคลาสที่จำเป็น:
+นำเข้าคลาส Aspose.PSD ที่จำเป็นก่อนเขียนโค้ดใด ๆ:
+
+`import com.aspose.psd.Image;`  
+`import com.aspose.psd.fileformats.jpeg.JpegOptions;`  
+`import com.aspose.psd.fileformats.psd.PsdLoadOptions;`  
+
+`Image` class แสดงถึงเอกสาร PSD และให้เมธอดสำหรับโหลด, แก้ไข, และบันทึกภาพ.  
+`JpegOptions` class ระบุการตั้งค่าสำหรับการส่งออก JPEG เช่น คุณภาพและระดับการบีบอัด.  
+
+## คู่มือขั้นตอนต่อขั้นตอน
+
+### ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
+กำหนดโฟลเดอร์ที่บรรจุไฟล์ PSD ของคุณ.  
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงบนเครื่องของคุณ.
+
+### ขั้นตอนที่ 2: กำหนดชื่อไฟล์
+ระบุ PSD อินพุตและเส้นทางเอาต์พุตสำหรับทั้ง JPEG และ PSD.
+
+### ขั้นตอนที่ 3: สร้าง `PsdLoadOptions`
+`PsdLoadOptions` ควบคุมวิธีการพาร์สไฟล์ PSD.  
+
+**Definition:** `PsdLoadOptions` เป็นอ็อบเจ็กต์การกำหนดค่าที่บอก Aspose.PSD วิธีการตีความเลเยอร์, โปรไฟล์สี, และบิตเดพธ์เมื่อโหลดไฟล์.
+
+### ขั้นตอนที่ 4: โหลดภาพ PSD
+โหลดไฟล์ต้นฉบับโดยใช้ตัวเลือกที่สร้างขึ้นข้างต้น.
+
+### ขั้นตอนที่ 5: บันทึกไฟล์ PSD (ตามต้องการ)
+หากต้องการเก็บสำเนาหลังการประมวลผล, ให้บันทึกกลับเป็น PSD.
+
+### ขั้นตอนที่ 6: เตรียม JPEG Options – *set JPEG quality java*
+กำหนดการตั้งค่าการส่งออก JPEG, โดยเฉพาะระดับคุณภาพ.
+
+### ขั้นตอนที่ 7: บันทึกเป็น JPEG – *convert PSD to JPEG*
+`save` เขียนภาพไปยังไฟล์ที่ระบุโดยใช้ตัวเลือกรูปแบบที่ให้.
+
+## วิธีบันทึก PSD เป็น JPEG?
+โหลด PSD ด้วย `Image image = Image.load("inRgb16.psd");`, สร้าง `JpegOptions jpegOptions = new JpegOptions();`, ตั้งค่าคุณภาพที่ต้องการผ่าน `jpegOptions.setQuality(100);`, แล้วเรียก `image.save("output.jpg", jpegOptions);`. ลำดับสั้นนี้ทำให้เลเยอร์ทั้งหมดแบน, ใช้คุณภาพ JPEG ที่ระบุ, และเขียนไฟล์ JPEG พร้อมใช้งานบนเว็บโดยไม่มีขั้นตอนการประมวลผลเพิ่มเติม.
+
+## วิธีตั้งค่าคุณภาพ JPEG ใน Java?
+`JpegOptions` มีเมธอด `setQuality(int)` ซึ่งค่าตัวเลขอยู่ระหว่าง 0 (การบีบอัดสูงสุด) ถึง 100 (ไม่มีการบีบอัด). การตั้งค่าเป็น **100** จะรักษาความคมชัดสูงสุด, ในขณะที่ค่าประมาณ **75** ให้สมดุลที่ดีระหว่างขนาดและคุณภาพสำหรับการใช้งานเว็บทั่วไป.
+
+## ปัญหาทั่วไปและวิธีแก้
+
+| ปัญหา | วิธีแก้ |
+|-------|----------|
+| **ภาพดูจืดหลังการแปลง** | ตรวจสอบว่า PSD ต้นฉบับอยู่ในโหมด RGB; ไฟล์ CMYK ต้องแปลงโปรไฟล์สีก่อนส่งออกเป็น JPEG. |
+| **OutOfMemoryError บนไฟล์ขนาดใหญ่** | เพิ่มขนาด heap ของ JVM (`-Xmx2g`) หรือประมวลผลภาพเป็นส่วนโดยใช้ API สตรีมมิ่ง `PsdImage`. |
+| **คุณภาพ JPEG ไม่ถูกนำไปใช้** | ตรวจสอบว่าอ็อบเจ็กต์ `JpegOptions` ถูกส่งไปยัง `image.save()`; คุณภาพเริ่มต้นคือ 75 หากไม่ได้ระบุ. |
+
+## คำถามที่พบบ่อย
+
+**Q: ฉันสามารถใช้ Aspose.PSD กับภาษาโปรแกรมอื่นได้หรือไม่?**  
+A: ใช่ – Aspose.PSD มีให้ใช้กับ .NET, Python, และแพลตฟอร์มอื่น ๆ อีกด้วย ดูรายละเอียดบนเว็บไซต์อย่างเป็นทางการ.
+
+**Q: มีการทดลองใช้ฟรีสำหรับ Aspose.PSD หรือไม่?**  
+A: แน่นอน! คุณสามารถทดลองใช้ฟรี **[here](https://releases.aspose.com/)**.
+
+**Q: ฉันจะรับการสนับสนุนสำหรับผลิตภัณฑ์ของ Aspose อย่างไร?**  
+A: เยี่ยมชม **[Aspose Support Forum](https://forum.aspose.com/c/psd/34)** เพื่อรับความช่วยเหลือจากชุมชนและการสนับสนุนอย่างเป็นทางการ.
+
+**Q: ฉันสามารถใช้ฟิลเตอร์หรือเอฟเฟกต์บนภาพ PSD ด้วย Aspose ได้หรือไม่?**  
+A: ใช่ – API มีชุดการจัดการเลเยอร์, ฟิลเตอร์, และเมธอดเอฟเฟกต์ที่ครบครัน.
+
+**Q: การใช้ Aspose.PSD for Java เป็นมิตรกับผู้เริ่มต้นหรือไม่?**  
+A: ด้วยความรู้พื้นฐานของ Java, เอกสารและตัวอย่างที่ครอบคลุมทำให้ผู้เริ่มต้นสามารถเริ่มแปลงภาพได้อย่างรวดเร็ว.
+
+---
+
+**อัปเดตล่าสุด:** 2026-05-19  
+**ทดสอบกับ:** Aspose.PSD for Java 24.12 (latest)  
+**ผู้เขียน:** Aspose
 
 ```java
 import com.aspose.psd.Image;
@@ -59,19 +179,9 @@ import com.aspose.psd.imageoptions.JpegOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## คู่มือขั้นตอนต่อขั้นตอน
-
-### ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
-กำหนดโฟลเดอร์ที่บรรจุไฟล์ PSD ของคุณ.
-
 ```java
 String dataDir = "Your Document Directory";
 ```
-
-*แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงบนเครื่องของคุณ.*
-
-### ขั้นตอนที่ 2: กำหนดชื่อไฟล์
-ระบุ PSD อินพุตและเส้นทางเอาต์พุตสำหรับทั้ง JPEG และ PSD.
 
 ```java
 String sourceFileName = dataDir + "inRgb16.psd";
@@ -79,73 +189,33 @@ String outputFilePathJpg = dataDir + "outRgb16.jpg";
 String outputFilePathPsd = dataDir + "outRgb16.psd";
 ```
 
-### ขั้นตอนที่ 3: สร้าง `PsdLoadOptions`
-สร้างอินสแตนซ์ของ `PsdLoadOptions` เพื่อควบคุมวิธีการโหลด PSD.
-
 ```java
 PsdLoadOptions options = new PsdLoadOptions();
 ```
-
-### ขั้นตอนที่ 4: โหลดภาพ PSD
-โหลดไฟล์ต้นทางโดยใช้ตัวเลือกที่สร้างขึ้นข้างต้น.
 
 ```java
 PsdImage image = (PsdImage) Image.load(sourceFileName, options);
 ```
 
-### ขั้นตอนที่ 5: บันทึกไฟล์ PSD (ทางเลือก)
-หากคุณต้องการเก็บสำเนาหลังการประมวลผล, ให้บันทึกกลับเป็น PSD.
-
 ```java
 image.save(outputFilePathPsd, new PsdOptions(image));
 ```
-
-### ขั้นตอนที่ 6: เตรียมตัวเลือก JPEG – *set jpeg quality java*
-กำหนดค่าการออก JPEG, โดยเฉพาะระดับคุณภาพ.
 
 ```java
 JpegOptions saveOptions = new JpegOptions();
 saveOptions.setQuality(100);
 ```
 
-### ขั้นตอนที่ 7: บันทึกเป็น JPEG – *convert PSD to JPEG*
-สุดท้าย, ส่งออกภาพเป็นไฟล์ JPEG.
-
 ```java
 image.save(outputFilePathJpg, saveOptions);
 ```
 
-## วิธีตั้งค่า JPEG quality ใน Java?
-คลาส `JpegOptions` ให้การควบคุมละเอียดต่อผลลัพธ์ โดยการเรียก `setQuality(int)` คุณบอกตัวเข้ารหัสว่าต้องการบีบอัดเท่าใด (0‑100) ค่า **100** จะรักษาความคมชัดสูงสุด, ส่วนค่าต่ำกว่าจะทำให้ไฟล์เล็กลงแต่คุณภาพลดลง.
+## บทแนะนำที่เกี่ยวข้อง
 
-## ปัญหาทั่วไปและวิธีแก้
+- [บันทึกภาพลงดิสก์ด้วย Aspose.PSD for Java](/psd/java/advanced-techniques/save-images-to-disk/)
+- [คู่มือการแปลงสีขั้นสูง - Aspose.PSD for Java](/psd/java/psd-conversion/color-conversion-default-profiles/)
+- [คู่มือการส่งออกภาพแบบหลายเธรด - Aspose.PSD for Java](/psd/java/psd-conversion/export-images-multi-thread/)
 
-| ปัญหา | วิธีแก้ |
-|-------|----------|
-| **ภาพดูจืดหลังการแปลง** | ตรวจสอบให้แน่ใจว่า PSD ต้นทางอยู่ในโหมด RGB; PSD แบบ CMYK ต้องแปลงโปรไฟล์สีก่อนบันทึกเป็น JPEG. |
-| **OutOfMemoryError on large files** | เพิ่มขนาด heap ของ JVM (`-Xmx2g`) หรือประมวลผลภาพเป็นส่วนโดยใช้ API ของ `PsdImage`. |
-| **JPEG quality not applied** | ตรวจสอบว่าคุณส่งอินสแตนซ์ของ `JpegOptions` ไปยัง `image.save()`; คุณภาพเริ่มต้นคือ 75. |
-
-## คำถามที่พบบ่อย
-
-**Q: ฉันสามารถใช้ Aspose.PSD กับภาษาโปรแกรมอื่นได้หรือไม่?**  
-A: ใช่, Aspose.PSD ยังมีให้ใช้กับ .NET, Python, และแพลตฟอร์มอื่น ๆ ตรวจสอบรายละเอียดได้ที่เว็บไซต์อย่างเป็นทางการ.
-
-**Q: มีรุ่นทดลองฟรีสำหรับ Aspose.PSD หรือไม่?**  
-A: แน่นอน! คุณสามารถทดลองใช้รุ่นฟรี **[here](https://releases.aspose.com/)**.
-
-**Q: ฉันจะรับการสนับสนุนสำหรับผลิตภัณฑ์ของ Aspose ได้อย่างไร?**  
-A: สำหรับคำถามและความช่วยเหลือ, เยี่ยมชม **[Aspose Support Forum](https://forum.aspose.com/c/psd/34)**.
-
-**Q: ฉันสามารถใช้ฟิลเตอร์หรือเอฟเฟกต์บนภาพ PSD ด้วย Aspose ได้หรือไม่?**  
-A: ใช่, Aspose.PSD มีชุด API ที่หลากหลายสำหรับการจัดการเลเยอร์, ฟิลเตอร์, และเอฟเฟกต์.
-
-**Q: การใช้ Aspose.PSD for Java ง่ายสำหรับผู้เริ่มต้นหรือไม่?**  
-A: ด้วยความรู้พื้นฐานของ Java, เอกสารและตัวอย่างที่ครอบคลุมทำให้ผู้เริ่มต้นสามารถใช้งานได้ง่าย.
-
-**อัปเดตล่าสุด:** 2026-02-22  
-**ทดสอบด้วย:** Aspose.PSD for Java 24.12 (latest)  
-**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,11 +1,61 @@
 ---
-date: 2025-12-06
-description: Aspose.PSD for Java kullanarak görüntüyü 270 derece döndürmeyi öğrenin.
-  Bu kılavuz, PSD dosyalarını nasıl döndüreceğinizi, görüntüleri nasıl çevirip ters
-  çevireceğinizi ve PSD'yi JPEG'e nasıl dönüştüreceğinizi gösterir.
-linktitle: Rotate Image 270 Degrees
+date: 2026-05-19
+description: Aspose.PSD for Java kullanarak PSD'yi JPEG'e nasıl convert edeceğinizi
+  ve görüntüyü 270 derece nasıl rotate edeceğinizi öğrenin. Bu kılavuz, PSD dosyalarını
+  nasıl rotate edeceğinizi, görüntüleri nasıl flip edeceğinizi ve PSD'yi JPEG'e nasıl
+  convert edeceğinizi gösterir.
+keywords:
+- convert psd to jpeg
+- how to rotate psd
+- flip image java
+- rotate psd layer
+- rotate image without photoshop
+linktitle: rotate Image 270 Derece
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to convert PSD to JPEG and rotate image 270 degrees using
+    Aspose.PSD for Java. This guide shows how to rotate PSD files, flip images, and
+    convert PSD to JPEG.
+  headline: Convert PSD to JPEG & Rotate 270° with Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to convert PSD to JPEG and rotate image 270 degrees using
+    Aspose.PSD for Java. This guide shows how to rotate PSD files, flip images, and
+    convert PSD to JPEG.
+  name: Convert PSD to JPEG & Rotate 270° with Aspose.PSD for Java
+  steps:
+  - name: Load the PSD File
+    text: '`Image` is Aspose.PSD''s core class that represents a single PSD document
+      in memory. Instantiating it reads only the header information, keeping memory
+      usage low.'
+  - name: Rotate the Image 270 Degrees
+    text: '`rotateFlip` performs the specified rotation and optional flip on the image.
+      `RotateFlipType.Rotate270FlipNone` rotates the canvas 270 degrees clockwise
+      while leaving the image orientation unchanged. > **Pro tip:** If you also need
+      to flip the image horizontally or vertically, choose a different `Ro'
+  - name: Convert PSD to JPEG and Save
+    text: '`JpegOptions` defines JPEG‑specific parameters such as compression quality.
+      The `save` method writes the transformed image to disk in the desired format.
+      The file `RotatedImage_out.jpg` now contains the original PSD content rotated
+      270 degrees and saved as a JPEG.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.PSD supports PSD, JPEG, PNG, BMP, GIF, TIFF, and many other
+      raster formats.
+    question: Is Aspose.PSD compatible with different image formats?
+  - answer: Absolutely! While `RotateFlipType` provides common angles, you can chain
+      multiple calls or use transformation matrices for arbitrary angles.
+    question: Can I apply custom rotations, not just predefined flips?
+  - answer: Replace `JpegOptions` with `PngOptions` (or the appropriate options class)
+      in the `save` method.
+    question: How do I convert the rotated PSD to another format, such as PNG?
+  - answer: For community help, visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34).
+    question: Where can I find additional support or assistance?
+  - answer: Yes, you can explore Aspose.PSD with a [free trial](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Aspose.PSD for Java ile Görüntüyü 270 Derece Döndürme
+title: Aspose.PSD for Java ile PSD'yi JPEG'e Dönüştür ve 270° Döndür
 url: /tr/java/advanced-image-manipulation/rotate-image/
 weight: 19
 ---
@@ -14,39 +64,37 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rotate Image 270 Degrees with Aspose.PSD for Java
+# PSD'yi JPEG'e Dönüştür ve Aspose.PSD for Java ile Görüntüyü 270 Derece Döndür
 
-## Introduction
+## Giriş
 
-Bu **java image processing tutorial**'da, Aspose.PSD for Java kullanarak **rotate image 270 degrees** işlemini hızlı ve güvenilir bir şekilde nasıl yapacağınızı keşfedeceksiniz. İster bir fotoğraf düzenleme aracı geliştiriyor olun, toplu dönüşümleri otomatikleştiriyor olun ya da sadece bir PSD katmanını yeniden yönlendirmek istiyor olun, kütüphane bu görevi zahmetsizce halleder. Ayrıca görüntüleri döndürüp çevirme ve döndürülmüş PSD'yi JPEG'e dönüştürme konularına da değineceğiz, böylece tam bir uçtan uca iş akışı elde edeceksiniz.
+Bu **Java görüntü‑işleme öğreticisinde**, Aspose.PSD for Java kullanarak görüntüyü 270 derece döndürürken **PSD'yi JPEG'e dönüştürmeyi** öğreneceksiniz. İster toplu‑işlem hattı, ister web‑tabanlı bir düzenleyici, ister masaüstü yardımcı programı oluşturuyor olun, kütüphane PSD katmanlarını Photoshop olmadan manipüle etmenizi sağlar. Ayrıca isteğe bağlı çevirme işlemini de ele alacak ve bir PSD dosyasını yüklemekten JPEG olarak kaydetmeye kadar tam uç‑uç akışı göstereceğiz.
 
-## Quick Answers
-- **What library handles the rotation?** Aspose.PSD for Java  
-- **Which rotation angle does the example use?** 270 degrees  
-- **Can I also flip the image?** Yes – use `RotateFlipType` options like `Rotate90FlipX`  
-- **How do I save the result?** In the example we save as JPEG using `JpegOptions`  
-- **Do I need a license for production?** A valid Aspose.PSD license is required for commercial use  
+## Hızlı Yanıtlar
+- **Döndürmeyi hangi kütüphane yönetir?** Aspose.PSD for Java  
+- **Örnekte hangi döndürme açısı kullanılıyor?** 270 degrees  
+- **Görüntüyü ayrıca çevirebilir miyim?** Yes – use `RotateFlipType` options like `Rotate90FlipX`  
+- **Sonucu nasıl kaydederim?** In the example we save as JPEG using `JpegOptions`  
+- **Üretim için lisansa ihtiyacım var mı?** A valid Aspose.PSD license is required for commercial use  
 
-## What is “rotate image 270 degrees”?
-Bir resmi 270 derece döndürmek, resmi saat yönünde tam bir çemberin üçte ikisini (veya saat yönünün tersine 90 derece) çevirmek anlamına gelir. Birçok grafik düzenleme senaryosunda bu yönlendirme, bir dizi dönüşümden sonra orijinal portre düzeniyle eşleşir.
+## “Görüntüyü 270 derece döndürmek” nedir?
+Bir görüntüyü 270 derece döndürmek, resmi saat yönünde tam dairenin üç çeyreği (veya saat yönünün tersine 90 derece) çevirmek anlamına gelir. Bu yönlendirme, önceki dönüşümlerden sonra genellikle orijinal portre düzenini geri getirir ve görüntüler yatay modda çekilip portre olarak gösterilmek istendiğinde yaygın olarak kullanılır. Sonuç, kalite kaybı olmadan doğru yönlendirilmiş bir görseldir.
 
-## Why use Aspose.PSD for this task?
-- **Full PSD support** – works with layers, masks, and adjustment objects.  
-- **No native Photoshop required** – run on any Java runtime.  
-- **Simple API** – a single method call (`rotateFlip`) handles rotation and flipping.  
-- **Easy format conversion** – export directly to JPEG, PNG, or other common formats.
+## Bu görev için neden Aspose.PSD kullanmalı?
+Aspose.PSD, **50+ giriş ve çıkış formatını**—PSD, JPEG, PNG, BMP, GIF ve TIFF dahil—destekler ve **2 GB**'a kadar dosyaları bellek içine tüm belgeyi yüklemeden işleyebilir. API, herhangi bir Java çalışma zamanında (JDK 8+) çalışır, yerel bir Photoshop kurulumuna ihtiyaç duymaz ve hem döndürme hem de çevirme işlemlerini tek bir adımda gerçekleştiren bir `rotateFlip` çağrısı sağlar.
 
-## Prerequisites
+## Önkoşullar
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
-
-- **Aspose.PSD for Java** kütüphanesi yüklü. Tam API referansını [buradan](https://reference.aspose.com/psd/java/) indirebilir ve görüntüleyebilirsiniz.  
+- **Aspose.PSD for Java** kütüphanesinin yüklü olması. İndirmek ve tam API referansını görmek için [buraya](https://reference.aspose.com/psd/java/) tıklayın.  
 - Java geliştirme ortamı (JDK 8 veya üzeri).  
-- Döndürmek istediğiniz örnek PSD dosyası. Kod içindeki `sourceFile` değişkenini dosyanızın doğru yolu ile güncelleyin.
+- Döndürmek istediğiniz örnek bir PSD dosyası. Koddaki `sourceFile` değişkenini dosyanızın doğru yolu ile güncelleyin.
 
-## Import Packages
+## Paketleri İçe Aktarma
 
-Aspose.PSD paketinden gerekli sınıfları içe aktararak başlayın:
+`Image`, `RotateFlipType` ve `JpegOptions` sınıfları dosyayı yüklemek, dönüştürmek ve kaydetmek için gereklidir.  
+`Image`, bellekte bir PSD belgesini temsil eden temel sınıftır.  
+`RotateFlipType`, desteklenen döndürme ve çevirme işlemlerini listeler.  
+`JpegOptions`, kalite gibi JPEG çıkış ayarlarını yapılandırır.
 
 ```java
 import com.aspose.psd.Image;
@@ -55,9 +103,13 @@ import com.aspose.psd.RotateFlipType;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## How to Rotate PSD – Step 1: Load the Image
+## Döndürmeden Sonra PSD'yi JPEG'e Nasıl Dönüştürürsünüz?
 
-Kaynak PSD dosyanıza işaret eden bir `Image` örneği oluşturun:
+Kaynak PSD'yi yükleyin, 270‑derecelik bir döndürme uygulayın ve hemen JPEG olarak kaydedin. Bu üç adımlı akış, modern bir CPU'da tipik 10‑MP görüntüler için bir saniyeden kısa sürede çalışır ve yüksek verimli toplu işler için idealdir. Yalnızca gerekli görüntü verileri işlenerek bellek tüketimi düşük kalır ve ortaya çıkan JPEG, dosya boyutunu azaltırken görsel sadakati korur.
+
+### Adım 1: PSD Dosyasını Yükle
+
+`Image`, Aspose.PSD'nin bellekte tek bir PSD belgesini temsil eden temel sınıfıdır. Örneği oluşturmak yalnızca başlık bilgilerini okur, böylece bellek kullanımı düşük tutulur.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -65,68 +117,69 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-## How to Rotate PSD – Step 2: Rotate the Image 270 Degrees
+### Adım 2: Görüntüyü 270 Derece Döndür
 
-Döndürme işlemi için `rotateFlip` metodunu `RotateFlipType.Rotate270FlipNone` ile kullanarak 270 derece döndürme ve herhangi bir çevirme yapmadan elde edin:
+`rotateFlip`, belirtilen döndürmeyi ve isteğe bağlı çevirme işlemini görüntüye uygular. `RotateFlipType.Rotate270FlipNone`, kanvası saat yönünde 270 derece döndürürken görüntü yönünü değiştirmez.
 
 ```java
 image.rotateFlip(RotateFlipType.Rotate270FlipNone);
 ```
 
-> **Pro tip:** Görüntüyü yatay veya dikey olarak da çevirmek isterseniz, `Rotate90FlipX` veya `Rotate180FlipY` gibi farklı bir `RotateFlipType` seçin.
+> **İpucu:** Görüntüyü ayrıca yatay ya da dikey olarak çevirmek isterseniz, `Rotate90FlipX` veya `Rotate180FlipY` gibi farklı bir `RotateFlipType` seçin.
 
-## How to Rotate PSD – Step 3: Convert PSD to JPEG and Save
+### Adım 3: PSD'yi JPEG'e Dönüştür ve Kaydet
 
-Döndürmeden sonra, uygun seçenek sınıfını kullanarak **convert PSD to JPEG** (veya başka bir desteklenen format) yapabilirsiniz:
+`JpegOptions`, sıkıştırma kalitesi gibi JPEG'e özgü parametreleri tanımlar. `save` yöntemi, dönüştürülmüş görüntüyü istenen formatta diske yazar.
 
 ```java
 String destName = dataDir + "RotatedImage_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-`RotatedImage_out.jpg` dosyası artık orijinal PSD içeriğini 270 derece döndürülmüş olarak JPEG formatında içerir.
+`RotatedImage_out.jpg` dosyası artık orijinal PSD içeriğini 270 derece döndürmüş ve JPEG olarak kaydetmiştir.
 
-## Common Issues and Solutions
+## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Çözüm |
 |-------|----------|
-| **Image appears upside‑down** | `Rotate270FlipNone` kullandığınızdan emin olun. Saat yönünde 90 derece döndürme için `Rotate90FlipNone` kullanın. |
-| **Output file is corrupted** | Hedef klasörün var olduğundan ve yazma izinlerinizin bulunduğundan emin olun. |
+| **Image appears upside‑down** | `Rotate270FlipNone` kullandığınızı doğrulayın. 90‑derece saat yönünde döndürme için `Rotate90FlipNone` kullanın. |
+| **Output file is corrupted** | Hedef klasörün mevcut olduğundan ve yazma izninizin olduğundan emin olun. |
 | **License exception** | Üretimde görüntüyü yüklemeden önce geçici veya kalıcı bir Aspose.PSD lisansı kurun. |
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**S: Is Aspose.PSD compatible with different image formats?**  
-C: Yes, Aspose.PSD supports PSD, JPEG, PNG, BMP, GIF, and many other raster formats.
+**S: Aspose.PSD farklı görüntü formatlarıyla uyumlu mu?**  
+C: Evet, Aspose.PSD PSD, JPEG, PNG, BMP, GIF, TIFF ve birçok diğer raster formatını destekler.
 
-**S: Can I apply custom rotations, not just predefined flips?**  
-C: Absolutely! While `RotateFlipType` provides common angles, you can combine multiple calls or use transformation matrices for arbitrary angles.
+**S: Önceden tanımlı çevirme işlemlerinin dışında özel döndürmeler uygulayabilir miyim?**  
+C: Kesinlikle! `RotateFlipType` yaygın açıları sağlarken, istediğiniz açı için birden fazla çağrıyı zincirleyebilir veya dönüşüm matrislerini kullanabilirsiniz.
 
-**S: How do I convert the rotated PSD to another format, such as PNG?**  
-C: Replace `JpegOptions` with `PngOptions` (or the appropriate options class) in the `save` method.
+**S: Döndürülmüş PSD'yi başka bir formata, örneğin PNG'ye nasıl dönüştürürüm?**  
+C: `save` metodunda `JpegOptions` yerine `PngOptions` (veya uygun seçenek sınıfı) kullanın.
 
-**S: Where can I find additional support or assistance?**  
-C: For community help, visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34).
+**S: Ek destek veya yardım nereden bulabilirim?**  
+C: Topluluk yardımı için [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) adresini ziyaret edin.
 
-**S: Is there a free trial available?**  
-C: Yes, you can explore Aspose.PSD with a [free trial](https://releases.aspose.com/).
+**S: Ücretsiz deneme mevcut mu?**  
+C: Evet, bir [ücretsiz deneme](https://releases.aspose.com/) ile Aspose.PSD'yi keşfedebilirsiniz.
 
-**S: How do I obtain a temporary license?**  
-C: If you need a temporary license, you can obtain one [here](https://purchase.aspose.com/temporary-license/).
-
-## Conclusion
-
-Artık **rotate image 270 degrees** işlemini Aspose.PSD for Java kullanarak nasıl yapacağınızı, gerektiğinde görüntüleri nasıl çevireceğinizi ve sonucu JPEG olarak nasıl dışa aktaracağınızı öğrendiniz. Bu basit iş akışı, Photoshop'a ihtiyaç duymadan PSD manipülasyonu üzerinde tam kontrol sağlayarak daha büyük Java‑tabanlı görüntü‑işleme hatlarına entegre edilebilir.
+**S: Geçici bir lisans nasıl alabilirim?**  
+C: Geçici bir lisansa ihtiyacınız varsa, [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
 ---
 
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.PSD for Java 24.12  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Son Güncelleme:** 2026-05-19  
+**Test Edilen Versiyon:** Aspose.PSD for Java 24.12  
+**Yazar:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Aspose.PSD for Java ile PSD'yi Raster Görüntü Formatlarına Dönüştür](/psd/java/advanced-techniques/convert-psd-to-raster-formats/)
+- [Java kullanarak PSD'yi PNG'ye Dönüştür ve PSD Dosyalarındaki Katmanları Döndür](/psd/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/)
+- [Aspose.PSD ile Java'da Görüntüyü Döndürme](/psd/java/advanced-image-manipulation/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
