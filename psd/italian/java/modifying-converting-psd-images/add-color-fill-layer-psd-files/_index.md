@@ -1,28 +1,51 @@
 ---
-title: Aggiungi il livello di riempimento colore ai file PSD utilizzando Java
-linktitle: Aggiungi il livello di riempimento colore ai file PSD utilizzando Java
-second_title: API Java Aspose.PSD
-description: Scopri come aggiungere facilmente un livello di riempimento colore ai file PSD utilizzando Java e Aspose.PSD. Segui il nostro tutorial passo passo per progetti più rapidi.
-weight: 20
+date: 2026-03-02
+description: Scopri come aggiungere il riempimento creando un livello di riempimento
+  colore nei file PSD usando Java e Aspose.PSD. Segui la nostra guida passo‑passo
+  per impostare rapidamente il colore del livello di riempimento.
+linktitle: Add Color Fill Layer to PSD Files using Java
+second_title: Aspose.PSD Java API
+title: 'Come aggiungere il riempimento: aggiungere un livello di riempimento colore
+  ai file PSD usando Java'
 url: /it/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi il livello di riempimento colore ai file PSD utilizzando Java
+# Aggiungere un livello di riempimento colore ai file PSD usando Java
 
 ## Introduzione
-Ti sei mai trovato a dover manipolare i file Photoshop in modo programmatico, magari per aggiungere un tocco di colore a un progetto? Bene, sei arrivato nel posto giusto. In questo articolo, approfondiremo come aggiungere un livello di riempimento colore ai file PSD (Photoshop Document) utilizzando Java e la libreria Aspose.PSD. Pensa ai tuoi file PSD come a una tela e con solo poche righe di codice puoi dipingerli di nuovo.
+Ti è mai capitato di dover manipolare file Photoshop in modo programmatico, magari per aggiungere un tocco di colore a un progetto? Se ti chiedi **come aggiungere un riempimento** a un PSD, sei nel posto giusto. In questo tutorial vedremo come aggiungere un livello di riempimento colore ai file PSD (Photoshop Document) usando Java e la libreria Aspose.PSD. Pensa al tuo PSD come a una tela digitale—al termine saprai come creare un livello di riempimento colore, impostare il colore del livello di riempimento e salvare il file aggiornato in poche righe di codice.
+
+## Risposte rapide
+- **Quale libreria è necessaria?** Aspose.PSD for Java  
+- **Caso d'uso principale?** Aggiungere o modificare programmaticamente i colori di riempimento PSD  
+- **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per uno scenario di base  
+- **È necessaria una licenza?** Una prova gratuita è sufficiente per la valutazione; è richiesta una licenza commerciale per la produzione  
+- **Versione Java supportata?** Java 8 e successive  
+
+## Cos'è un livello di riempimento colore?
+Un livello di riempimento colore è una sovrapposizione di colore solido che si trova sopra gli altri livelli in un documento Photoshop. Viene spesso usato per aggiungere colore di sfondo, creare maschere o cambiare rapidamente il tema visivo di un progetto senza modificare i singoli pixel.
+
+## Perché aggiungere un livello di riempimento colore con il codice?
+- **Automazione:** Generare risorse di branding coerenti su molti file.  
+- **Elaborazione batch:** Aggiornare decine di PSD in pochi secondi invece di farlo manualmente.  
+- **Design dinamici:** Cambiare i colori al volo in base all'input dell'utente o a fonti di dati.
+
 ## Prerequisiti
-Prima di immergerci nel codice, assicuriamoci di avere tutto il necessario per iniziare. Ecco cosa dovrai avere a disposizione:
-1. Java Development Kit (JDK): assicurati di avere JDK installato sul tuo computer. Puoi scaricarlo dal sito Web Oracle o adottare OpenJDK.
-2.  Libreria Aspose.PSD: questa potente libreria ti consente di manipolare i file PSD senza problemi. È possibile scaricare la libreria da[Pagina Rilasci Aspose](https://releases.aspose.com/psd/java/).
-3. Un IDE: utilizza qualsiasi ambiente di sviluppo integrato (IDE) come IntelliJ IDEA, Eclipse o NetBeans per la codifica in Java.
-4. Familiarità con Java: la conoscenza di base della programmazione Java ti aiuterà a cogliere i concetti molto più rapidamente.
-## Importa pacchetti
-Ora che abbiamo coperto le nozioni di base, iniziamo importando i pacchetti necessari nel nostro progetto Java. È qui che inizia la magia! 
+Prima di immergerci nel codice, assicuriamoci di avere tutto il necessario:
+
+1. **Java Development Kit (JDK)** – JDK 8 o più recente installato.  
+2. **Libreria Aspose.PSD** – Scarica l'ultimo JAR dalla [pagina Aspose Releases](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans o qualsiasi editor tu preferisca.  
+4. **Conoscenza di base di Java** – Familiarità con oggetti, cicli e gestione delle eccezioni.
+
+## Importare i pacchetti
+Ora che abbiamo coperto le basi, importiamo le classi necessarie. Queste importazioni ci danno accesso alla gestione dei PSD e alla manipolazione dei livelli di riempimento.
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
@@ -31,71 +54,104 @@ import com.aspose.psd.fileformats.psd.layers.filllayers.FillLayer;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.IColorFillSettings;
 ```
-Queste importazioni sono cruciali in quanto ci consentono di lavorare con il formato file PSD e di manipolare i livelli al suo interno.
-Ora analizziamo il processo di aggiunta di un livello di riempimento colore al tuo file PSD. Esamineremo ogni passaggio metodicamente per assicurarci che tu lo faccia bene!
-## Passaggio 1: configura il tuo ambiente
-Prima di poter aggiungere qualsiasi livello, devi dare il via alle cose configurando il tuo ambiente. Ciò significa definire dove sono i tuoi file e caricare l'immagine PSD. 
+
+## Come aggiungere il riempimento – Guida passo‑passo
+
+### Passo 1: Configura l'ambiente
+Definisci dove si trova il tuo PSD di origine e dove verrà salvato il file modificato, quindi carica il documento.
+
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "ColorFillLayer.psd";
 String exportPath     = dataDir + "ColorFillLayer_output.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
--  Definiamo il`dataDir`, che è il percorso della directory dei documenti.
-- Successivamente, specifichiamo il nome del file PSD di origine e il percorso in cui vogliamo esportare il file modificato.
--  Infine, carichiamo l'immagine PSD in un file`PsdImage` oggetto. Questa è la tua tela di lavoro!
-## Passaggio 2: passare attraverso i livelli
-Ora che hai caricato l'immagine, il passaggio successivo è scorrere tutti i livelli nel file PSD. Vuoi trovare i livelli di riempimento in modo specifico.
+
+- `dataDir` punta alla cartella contenente il tuo PSD.  
+- `sourceFileName` è il file originale che modificherai.  
+- `exportPath` è il percorso dove verrà scritto il nuovo file con il **livello di riempimento colore aggiunto**.  
+
+### Passo 2: Scorri i livelli
+Dobbiamo individuare eventuali livelli di riempimento esistenti così da poterli modificare o crearne uno nuovo.
+
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof FillLayer) {
         FillLayer fillLayer = (FillLayer) im.getLayers()[i];
 ```
-- Utilizziamo un semplice ciclo for per scorrere ogni livello dell'immagine.
--  Controlliamo per vedere se il livello è un'istanza di`FillLayer` . Se lo è, lo lanciamo su a`FillLayer`.
-## Passaggio 3: verificare il tipo di riempimento
-Una volta identificato un livello di riempimento, dobbiamo assicurarci che sia il tipo giusto di livello di riempimento, in particolare un livello di riempimento colore. Questo è fondamentale perché vogliamo evitare qualsiasi incidente.
+
+- Il ciclo `for` itera su ogni livello nel PSD.  
+- Il controllo `instanceof FillLayer` garantisce che lavoriamo solo con i livelli di riempimento.
+
+### Passo 3: Verifica il tipo di riempimento
+Assicurati che il livello trovato sia un **livello di riempimento colore** prima di tentare di cambiarne il colore.
+
 ```java
 if (fillLayer.getFillSettings().getFillType() != FillType.Color) {
     throw new Exception("Wrong Fill Layer");
 }
 ```
-- Se il tipo del livello di riempimento non è colore, viene generata un'eccezione. Questa è la nostra rete di sicurezza per evitare modifiche errate.
-## Passaggio 4: imposta il colore
-Supponendo di avere un livello di riempimento colore valido, è ora di impostare il colore. Qui lo stiamo cambiando in rosso, ma puoi scegliere qualsiasi colore tu voglia!
+
+Se il tipo di riempimento non è `FillType.Color`, interrompiamo l'operazione per evitare di modificare involontariamente riempimenti a gradiente o pattern.
+
+### Passo 4: Imposta il colore del riempimento
+Qui è dove **impostiamo il colore del livello di riempimento**. L'esempio cambia il livello in rosso, ma puoi sostituire `Color.getRed()` con qualsiasi altro `Color` necessario (ad es., `Color.getBlue()`, `new Color(255, 165, 0)` per l'arancione).
+
 ```java
 IColorFillSettings settings = (IColorFillSettings) fillLayer.getFillSettings();
 settings.setColor(Color.getRed());
 fillLayer.update();
 ```
-- Otteniamo le impostazioni di riempimento correnti del nostro livello di riempimento.
--  Impostiamo quindi il colore sul rosso. Ricorda, puoi cambiare`Color.getRed()` a qualsiasi colore che ti piace.
-- Successivamente, aggiorniamo il livello di riempimento per riflettere queste modifiche.
-## Passaggio 5: salva le modifiche
-Infine, è il momento di salvare il tuo file PSD splendidamente modificato. È qui che tutto il tuo duro lavoro viene ripagato!
+
+- `settings.setColor(...)` cambia il colore effettivo del riempimento.  
+- `fillLayer.update()` aggiorna il livello in modo che il nuovo colore venga applicato.  
+
+### Passo 5: Salva le modifiche
+Infine, scrivi il PSD modificato nuovamente su disco.
+
 ```java
 im.save(exportPath);
 break;
 ```
-In questo passaggio:
-- Salviamo il file PSD modificato nel percorso di esportazione specificato.
--  IL`break` L'istruzione garantisce l'uscita dal ciclo dopo l'aggiornamento del primo livello di riempimento colore disponibile.
-## Conclusione
-Ed ecco qua! Con pochi semplici passaggi, hai imparato come aggiungere un livello di riempimento colore ai tuoi file PSD utilizzando Java e la libreria Aspose.PSD. Puoi pensare a questo processo come aggiungere una nuova mano di vernice a un muro: semplice ma trasformativo. Allora, cosa stai aspettando? Fai un giro e inizia a giocare con i tuoi file Photoshop in modo programmatico!
+
+- Il `break` interrompe il ciclo dopo che il primo livello di riempimento corrispondente è stato aggiornato, il che è solitamente ciò che si desidera quando si deve **cambiare il colore di riempimento PSD** una sola volta.
+
+## Problemi comuni e consigli
+- **Nessun FillLayer trovato:** Se il tuo PSD non contiene un livello di riempimento, dovrai crearne uno usando `new FillLayer(im)` e aggiungerlo a `im.getLayers()`.  
+- **Il colore non si aggiorna:** Assicurati di chiamare `fillLayer.update()` dopo aver impostato il colore.  
+- **File non salvato:** Verifica che `exportPath` punti a una directory scrivibile e che tu abbia i permessi per scrivere file lì.  
+
 ## Domande frequenti
-### Cos'è Aspose.PSD?  
-Aspose.PSD è una potente libreria per lavorare con file PSD in vari linguaggi di programmazione, incluso Java.
-### Posso utilizzare Aspose.PSD gratuitamente?  
- Sì, puoi provarlo con una prova gratuita disponibile su[Pagina Rilasci Aspose](https://releases.aspose.com/).
-### Con che tipo di file posso lavorare utilizzando Aspose.PSD?  
-Puoi lavorare con file PSD e manipolarne i livelli, gli effetti e altre proprietà.
-### Come posso ottenere supporto per Aspose.PSD?  
- Puoi ottenere supporto attraverso il[Forum di supporto di Aspose](https://forum.aspose.com/c/psd/34).
-### Dove posso acquistare Aspose.PSD?  
- È possibile acquistare una licenza tramite[Pagina di acquisto Aspose](https://purchase.aspose.com/buy).
+
+**Q: Cos'è Aspose.PSD?**  
+A: Aspose.PSD è una robusta libreria Java che consente di creare, modificare e convertire file Photoshop PSD senza necessità di Adobe Photoshop.
+
+**Q: Posso usare Aspose.PSD gratuitamente?**  
+A: Sì, è disponibile una prova gratuita sulla [pagina Aspose Releases](https://releases.aspose.com/).  
+
+**Q: Quali formati di file posso utilizzare oltre al PSD?**  
+A: Aspose.PSD supporta PSD, PSB, BMP, JPEG, PNG, GIF, TIFF e altri.
+
+**Q: Come posso ottenere supporto se incontro problemi?**  
+A: Puoi porre domande sul [Forum di supporto Aspose](https://forum.aspose.com/c/psd/34).  
+
+**Q: Dove posso acquistare una licenza completa?**  
+A: Le licenze sono vendute tramite la [pagina di acquisto Aspose](https://purchase.aspose.com/buy).
+
+## Conclusione
+Ora sai **come aggiungere un riempimento** a un documento Photoshop in modo programmatico con Java. Creando o individuando un livello di riempimento colore, impostandone il colore e salvando il risultato, puoi automatizzare attività di design ripetitive, generare risorse dinamiche o integrare la manipolazione dei PSD in applicazioni Java più ampie. Provalo: sperimenta con colori diversi, aggiungi più livelli di riempimento o combina questa tecnica con altre funzionalità di Aspose.PSD per pipeline di elaborazione immagini potenti.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-03-02  
+**Testato con:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Autore:** Aspose  
+
+---

@@ -1,116 +1,173 @@
 ---
-title: Sửa đổi và chuyển đổi hình ảnh PSD
-linktitle: Sửa đổi và chuyển đổi hình ảnh PSD
-second_title: API Java Aspose.PSD
-description: Nâng cao các tệp PSD của bạn bằng nhiều điều chỉnh và hiệu ứng khác nhau bằng Aspose.PSD cho Java. Hướng dẫn từng bước về thao tác màu, hình mờ, v.v.
-weight: 21
+date: 2026-03-02
+description: Tìm hiểu cách thêm watermark chéo và các chỉnh sửa PSD khác như thêm
+  lớp điều chỉnh độ bão hòa màu, thêm lớp tô màu, thêm điều chỉnh đường cong, thay
+  đổi chế độ hòa trộn Overlay và thay thế màu trong PSD bằng Aspose.PSD cho Java.
+linktitle: Modifying and Converting PSD Images
+second_title: Aspose.PSD Java API
+title: Thêm Đánh Dấu Nước Đường Chéo – Chỉnh sửa và Chuyển đổi ảnh PSD
 url: /vi/java/modifying-converting-psd-images/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sửa đổi và chuyển đổi hình ảnh PSD
+# Thêm Đánh Dấu Nước Đường Chéo – Chỉnh Sửa và Chuyển Đổi Hình Ảnh PSD
 
 ## Giới thiệu
 
-Aspose.PSD cho Java cung cấp bộ công cụ linh hoạt để làm việc với các tệp PSD, cung cấp nhiều tùy chọn để sửa đổi và nâng cao hình ảnh của bạn. Cho dù bạn là một nhà thiết kế dày dạn hay chỉ mới bắt đầu, các hướng dẫn của chúng tôi đều được thiết kế để giúp bạn tận dụng tối đa tiềm năng của Aspose.PSD. Dưới đây là tổng hợp các hướng dẫn mà bạn có thể khám phá để nắm vững các khía cạnh khác nhau của thao tác PSD.
+Aspose.PSD for Java cung cấp cho bạn một bộ công cụ mạnh mẽ để **add diagonal watermark** và thực hiện một loạt các cải tiến hình ảnh trên các tệp PSD. Dù bạn là một nhà thiết kế chuyên nghiệp muốn bảo vệ tài sản của mình hay một nhà phát triển tự động hoá quy trình đồ họa, những hướng dẫn từng bước này sẽ chỉ cho bạn cách thao tác màu sắc, lớp và hiệu ứng một cách tự tin. Khi nắm vững các kỹ thuật này, bạn sẽ có thể tối ưu hoá quy trình thiết kế, giữ an toàn tài sản trí tuệ và tạo ra các hình ảnh hoàn thiện nhanh hơn.
 
-## Thêm lớp điều chỉnh bộ trộn kênh trong PSD
+## Câu trả lời nhanh
+- **What does “add diagonal watermark” do?** Nó chồng lên một watermark dạng văn bản hoặc hình ảnh nghiêng trên toàn bộ canvas PSD.  
+- **Which library supports this?** Aspose.PSD for Java cung cấp một API chuyên dụng cho việc watermarking và các thao tác PSD khác.  
+- **Do I need a license?** Bản dùng thử miễn phí đủ cho việc đánh giá; cần có giấy phép thương mại để sử dụng trong môi trường sản xuất.  
+- **Can I combine watermarking with other adjustments?** Có – bạn có thể nối chuỗi các thao tác như thay đổi hue‑saturation, lớp màu nền, và điều chỉnh blend‑mode trong một quy trình làm việc duy nhất.  
+- **Is the API compatible with Java 8+?** Hoàn toàn tương thích, nó hỗ trợ các phiên bản Java hiện đại và chạy trên bất kỳ JVM nào.
 
- Bạn muốn tinh chỉnh màu sắc trong tệp PSD của mình? Việc thêm Lớp điều chỉnh bộ trộn kênh có thể thay đổi cuộc chơi. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình kết hợp lớp điều chỉnh này để thao tác các kênh màu, cho phép bạn kiểm soát chính xác cân bằng màu của hình ảnh. Hướng dẫn từng bước này đảm bảo bạn có thể đạt được hiệu chỉnh màu sắc sống động và chính xác một cách dễ dàng.[Đọc thêm](./add-channel-mixer-adjustment-layer-psd/)
+## Add diagonal watermark là gì?
+Thêm một watermark chéo có nghĩa là đặt một văn bản hoặc hình ảnh bán trong suốt ở góc 45 độ sao cho nó phủ toàn bộ bố cục. Kỹ thuật này ngăn chặn việc sử dụng trái phép trong khi vẫn giữ thiết kế nền hiển thị.
 
-## Thêm hình mờ chéo vào tệp PSD bằng Java
+## Tại sao nên sử dụng Aspose.PSD cho Java?
+- **Full PSD fidelity:** Bảo toàn thông tin lớp, mặt nạ và các thiết lập điều chỉnh.  
+- **Server‑side processing:** Không cần giao diện GUI; tự động hoá các công việc batch trên dịch vụ back‑end.  
+- **Rich adjustment suite:** Kết hợp watermarking với các lớp hue‑saturation, lớp màu nền, điều chỉnh curves, và thay đổi blend‑mode.  
 
-Bảo vệ hình ảnh của bạn bằng hình mờ chưa bao giờ dễ dàng hơn thế. Hướng dẫn của chúng tôi về cách thêm hình mờ chéo vào tệp PSD trình bày cách sử dụng Aspose.PSD cho Java để phủ hình mờ, bảo vệ tài sản trí tuệ của bạn trong khi vẫn duy trì tính toàn vẹn cho thiết kế của bạn. Hãy làm theo các bước dễ hiểu của chúng tôi để tích hợp liền mạch hình mờ vào tệp PSD của bạn.[Đọc thêm](./add-diagonal-watermark-psd-files/)
+## Thêm Lớp Điều Chỉnh Channel Mixer trong PSD
 
-## Thêm lớp điều chỉnh độ bão hòa Hue vào PSD
+Bạn muốn tinh chỉnh màu sắc trong các tệp PSD? Thêm một Channel Mixer Adjustment Layer có thể là bước thay đổi lớn. Hướng dẫn này sẽ dẫn bạn qua quá trình tích hợp lớp điều chỉnh này để thao tác các kênh màu, cung cấp kiểm soát chính xác cân bằng màu của hình ảnh. Hướng dẫn từng bước này đảm bảo bạn có thể đạt được các chỉnh sửa màu sống động và chính xác một cách dễ dàng. [Đọc thêm](./add-channel-mixer-adjustment-layer-psd/)
 
- Điều chỉnh màu sắc và độ bão hòa là rất quan trọng để hiệu chỉnh và nâng cao màu sắc. Trong hướng dẫn này, bạn sẽ tìm hiểu cách thêm Lớp điều chỉnh độ bão hòa Huế vào các tệp PSD của mình, cho phép bạn thực hiện các điều chỉnh màu sắc theo sắc thái. Hướng dẫn này sẽ giúp bạn nâng cao các dự án thiết kế đồ họa của mình bằng cách cung cấp khả năng kiểm soát màu sắc chính xác.[Đọc thêm](./add-hue-saturation-adjustment-layer-psd/)
+## Thêm Đánh Dấu Nước Đường Chéo vào Tệp PSD bằng Java
 
-## Thêm lớp điền vào tệp PSD trong Aspose.PSD cho Java
+Bảo vệ hình ảnh của bạn bằng watermark chưa bao giờ dễ dàng hơn. Hướng dẫn của chúng tôi về việc thêm watermark chéo vào các tệp PSD cho thấy cách sử dụng Aspose.PSD cho Java để chồng lên một watermark, bảo vệ tài sản trí tuệ của bạn đồng thời duy trì tính toàn vẹn của thiết kế. Hãy làm theo các bước dễ hiểu của chúng tôi để tích hợp watermark một cách liền mạch vào các tệp PSD của bạn. [Đọc thêm](./add-diagonal-watermark-psd-files/)
 
-Các lớp tô màu là một cách tuyệt vời để thêm các màu tô đồng nhất hoặc kiểu mẫu vào các tệp PSD của bạn. Hướng dẫn của chúng tôi bao gồm cách thêm các lớp tô màu bằng Aspose.PSD cho Java, cho phép bạn nâng cao thiết kế của mình bằng màu sắc hoặc mẫu đồng nhất. Hướng dẫn từng bước này sẽ chỉ cho bạn cách tích hợp liền mạch các lớp tô vào dự án của bạn, thêm chiều sâu và phong cách cho đồ họa của bạn.[Đọc thêm](./add-fill-layers-psd-files/)
+## Thêm Lớp Điều Chỉnh Hue Saturation vào PSD
 
-## Thêm lớp văn bản trên thời gian chạy trong tệp PSD bằng Java
+Điều chỉnh hue và saturation là rất quan trọng cho việc chỉnh màu và nâng cao chất lượng. Trong hướng dẫn này, bạn sẽ học cách thêm một Hue Saturation Adjustment Layer vào các tệp PSD của mình, cho phép thực hiện các điều chỉnh màu tinh vi. Hướng dẫn này sẽ giúp bạn nâng cao các dự án thiết kế đồ họa bằng cách cung cấp kiểm soát màu sắc chính xác. Bạn cũng sẽ thấy cách **add hue saturation layer** một cách lập trình cho việc xử lý batch. [Đọc thêm](./add-hue-saturation-adjustment-layer-psd/)
 
- Các lớp văn bản động có thể mang lại khả năng tương tác và tùy chỉnh cho các tệp PSD của bạn. Tìm hiểu cách thêm các lớp văn bản trong thời gian chạy bằng Aspose.PSD cho Java với hướng dẫn chi tiết của chúng tôi. Hướng dẫn này bao gồm các bước để chèn và thao tác các lớp văn bản theo chương trình, mang đến những khả năng mới để tự động hóa và cá nhân hóa thiết kế của bạn.[Đọc thêm](./add-text-layer-runtime-psd-files/)
+## Thêm Lớp Đổ Màu vào Tệp PSD trong Aspose.PSD cho Java
 
-## Thay đổi chế độ hòa trộn trong hiệu ứng lớp phủ chuyển màu
+Các lớp đổ màu là cách tuyệt vời để thêm màu nền đồng nhất hoặc họa tiết vào các tệp PSD của bạn. Hướng dẫn của chúng tôi đề cập cách thêm các lớp đổ màu bằng Aspose.PSD cho Java, cho phép bạn nâng cao thiết kế với các màu hoặc họa tiết đồng nhất. Hướng dẫn từng bước này sẽ chỉ cho bạn cách tích hợp các lớp đổ màu một cách liền mạch vào dự án, thêm chiều sâu và phong cách cho đồ họa. Tìm hiểu cách **add color fill layer** để tạo nền nhanh chóng. [Đọc thêm](./add-fill-layers-psd-files/)
 
-Việc điều chỉnh chế độ hòa trộn trong lớp phủ chuyển màu có thể làm thay đổi đáng kể giao diện hình ảnh của bạn. Hướng dẫn của chúng tôi giải thích cách thay đổi chế độ hòa trộn trong lớp phủ chuyển màu bằng Aspose.PSD cho Java, cung cấp cho bạn các công cụ để tạo hiệu ứng hình ảnh tuyệt đẹp. Hướng dẫn từng bước này hoàn hảo cho những nhà thiết kế muốn thử nghiệm các tùy chọn hòa trộn khác nhau.[Đọc thêm](./change-blend-mode-gradient-overlay-effect/)
+## Thêm Lớp Văn Bản Khi Chạy trong Tệp PSD bằng Java
 
-## Thêm lớp tô màu vào tệp PSD bằng Java
+Các lớp văn bản động có thể mang lại tính tương tác và tùy chỉnh cho các tệp PSD của bạn. Học cách thêm lớp văn bản tại thời gian chạy bằng Aspose.PSD cho Java với hướng dẫn chi tiết của chúng tôi. Hướng dẫn này bao gồm các bước để chèn và thao tác các lớp văn bản một cách lập trình, mở ra những khả năng mới cho việc tự động hoá và cá nhân hoá thiết kế. [Đọc thêm](./add-text-layer-runtime-psd-files/)
 
- Thêm lớp tô màu là một kỹ thuật cần thiết cho các nhà thiết kế muốn nâng cao tệp PSD của họ. Hướng dẫn này cung cấp hướng dẫn rõ ràng về cách thêm các lớp tô màu bằng Aspose.PSD cho Java. Bằng cách làm theo hướng dẫn, bạn sẽ học cách áp dụng các màu đồng nhất cho các thành phần thiết kế của mình, giúp quy trình làm việc của bạn hiệu quả hơn và thiết kế của bạn rực rỡ hơn.[Đọc thêm](./add-color-fill-layer-psd-files/)
+## Thay Đổi Blend Mode trong Hiệu Ứng Gradient Overlay
 
-## Thay thế màu trong tệp PSD bằng Aspose.PSD cho Java
+Điều chỉnh blend mode trong các gradient overlay có thể thay đổi đáng kể giao diện của hình ảnh. Hướng dẫn của chúng tôi giải thích cách thay đổi blend mode trong gradient overlay bằng Aspose.PSD cho Java, cung cấp cho bạn công cụ để tạo ra các hiệu ứng hình ảnh ấn tượng. Hướng dẫn từng bước này là hoàn hảo cho các nhà thiết kế muốn thử nghiệm các tùy chọn blend khác nhau. Khám phá cách **change blend mode overlay** để có gradient phong phú hơn. [Đọc thêm](./change-blend-mode-gradient-overlay-effect/)
 
-Cần thay thế các màu cụ thể trong tệp PSD của bạn? Hướng dẫn của chúng tôi về thay thế màu chỉ cho bạn cách hoán đổi màu hiệu quả bằng Aspose.PSD cho Java. Hướng dẫn từng bước này giúp đơn giản hóa quy trình, giúp bạn đạt được các điều chỉnh màu sắc chính xác trong hình ảnh của mình mà không tốn nhiều công sức.[Đọc thêm](./color-replacement-psd-files/)
+## Thêm Lớp Đổ Màu vào Tệp PSD bằng Java
 
-## Tạo các tệp PSD được lập chỉ mục bằng Aspose.PSD cho Java
+Thêm một lớp đổ màu là kỹ thuật thiết yếu cho các nhà thiết kế muốn nâng cao các tệp PSD của mình. Hướng dẫn này cung cấp chỉ dẫn rõ ràng về cách thêm lớp đổ màu bằng Aspose.PSD cho Java. Khi làm theo hướng dẫn, bạn sẽ học cách áp dụng màu đồng nhất cho các yếu tố thiết kế, làm cho quy trình làm việc hiệu quả hơn và thiết kế sống động hơn. [Đọc thêm](./add-color-fill-layer-psd-files/)
 
- Chế độ màu được lập chỉ mục rất hữu ích để giảm kích thước tệp và tối ưu hóa hình ảnh để sử dụng trên web. Tìm hiểu cách tạo các tệp PSD được lập chỉ mục bằng hướng dẫn của chúng tôi, hướng dẫn bạn trong suốt quá trình sử dụng Aspose.PSD cho Java. Hướng dẫn từng bước này sẽ giúp bạn quản lý bảng màu và tối ưu hóa đồ họa của mình một cách hiệu quả.[Đọc thêm](./create-indexed-psd-files/)
+## Thay Thế Màu trong Tệp PSD bằng Aspose.PSD cho Java
 
-## Tạo hình thu nhỏ từ tệp PSD bằng Java
+Cần thay thế các màu cụ thể trong các tệp PSD? Hướng dẫn thay thế màu của chúng tôi cho bạn cách đổi màu một cách hiệu quả bằng Aspose.PSD cho Java. Hướng dẫn từng bước này đơn giản hoá quy trình, giúp bạn đạt được các điều chỉnh màu chính xác trong hình ảnh với ít công sức. Tìm hiểu các thực hành tốt nhất để **replace colors psd** nhanh chóng và chính xác. [Đọc thêm](./color-replacement-psd-files/)
 
-Tạo hình thu nhỏ từ tệp PSD có thể cực kỳ hữu ích để xem trước nhanh chóng và quản lý tệp hiệu quả. Hướng dẫn chi tiết của chúng tôi sẽ hướng dẫn bạn quy trình tạo hình thu nhỏ bằng Aspose.PSD cho Java. Bằng cách làm theo các hướng dẫn từng bước này, bạn sẽ học cách tạo ra các hình ảnh nhỏ, tiêu biểu cho các tệp PSD của mình, giúp quản lý và trưng bày các thiết kế của bạn dễ dàng hơn.[Đọc thêm](./create-thumbnails-psd-files/)
+## Tạo Tệp PSD Đánh Chỉ Số bằng Aspose.PSD cho Java
 
-## Thêm tài nguyên IOPA vào tệp PSD bằng Java
+Chế độ màu Indexed hữu ích để giảm kích thước tệp và tối ưu hoá hình ảnh cho việc sử dụng trên web. Học cách tạo các tệp PSD Indexed với hướng dẫn của chúng tôi, hướng dẫn bạn qua quy trình sử dụng Aspose.PSD cho Java. Hướng dẫn từng bước này sẽ giúp bạn quản lý bảng màu và tối ưu hoá đồ họa một cách hiệu quả. [Đọc thêm](./create-indexed-psd-files/)
 
- Việc kết hợp các tài nguyên IOPA (Kiến trúc xử lý và tối ưu hóa hình ảnh) vào các tệp PSD có thể nâng cao khả năng xử lý hình ảnh của bạn. Hướng dẫn toàn diện này hướng dẫn bạn cách thêm tài nguyên IOPA bằng Aspose.PSD cho Java. Bạn sẽ làm theo các bước đơn giản để tích hợp các tài nguyên này một cách hiệu quả, thúc đẩy các tác vụ tối ưu hóa và xử lý hình ảnh của bạn.[Đọc thêm](./add-iopa-resource-psd-files/)
+## Tạo Hình Thu Nhỏ từ Tệp PSD bằng Java
 
-## Kiểm soát việc phân bổ lại bộ đệm trong tệp PSD
+Tạo hình thu nhỏ từ các tệp PSD có thể rất hữu ích cho việc xem trước nhanh và quản lý tệp hiệu quả. Hướng dẫn chi tiết của chúng tôi sẽ dẫn bạn qua quy trình tạo hình thu nhỏ bằng Aspose.PSD cho Java. Khi làm theo các hướng dẫn từng bước này, bạn sẽ học cách tạo ra các hình ảnh nhỏ, đại diện cho các tệp PSD của mình, giúp dễ dàng quản lý và trình bày thiết kế. [Đọc thêm](./create-thumbnails-psd-files/)
 
-Quản lý phân bổ lại bộ đệm trong tệp PSD là rất quan trọng để tối ưu hóa việc sử dụng bộ nhớ và cải thiện hiệu suất. Hướng dẫn của chúng tôi cung cấp cái nhìn sâu sắc về việc kiểm soát việc tái phân bổ bộ đệm bằng Aspose.PSD cho Java. Tìm hiểu cách quản lý bộ nhớ hiệu quả và đảm bảo xử lý trơn tru các tệp PSD của bạn, lý tưởng cho các nhà phát triển đang tìm cách tối ưu hóa quy trình xử lý hình ảnh của họ.[Đọc thêm](./control-cache-reallocation-psd-files/)
+## Thêm Tài Nguyên IOPA vào Tệp PSD bằng Java
 
-## Thêm lớp điều chỉnh đường cong trong PSD bằng Java
+Kết hợp các tài nguyên IOPA (Image Optimization and Processing Architecture) vào các tệp PSD của bạn có thể nâng cao khả năng xử lý hình ảnh. Hướng dẫn toàn diện này dạy bạn cách thêm tài nguyên IOPA bằng Aspose.PSD cho Java. Bạn sẽ thực hiện các bước đơn giản để tích hợp các tài nguyên này một cách hiệu quả, tăng cường các nhiệm vụ thao tác và tối ưu hoá hình ảnh. [Đọc thêm](./add-iopa-resource-psd-files/)
 
- Các lớp điều chỉnh đường cong là công cụ mạnh mẽ để tinh chỉnh độ sáng và độ tương phản của hình ảnh. Hướng dẫn của chúng tôi hướng dẫn bạn cách thêm Lớp điều chỉnh đường cong vào các tệp PSD của bạn bằng Aspose.PSD cho Java. Hướng dẫn từng bước này sẽ giúp bạn thực hiện các điều chỉnh chính xác để nâng cao hình ảnh của mình, giúp bạn kiểm soát tốt hơn giao diện cuối cùng của đồ họa.[Đọc thêm](./add-curves-adjustment-layer-psd/)
+## Kiểm Soát Việc Phân Bổ Lại Bộ Nhớ Cache trong Tệp PSD
 
-## Thêm lớp điều chỉnh cấp độ trong PSD
+Quản lý việc phân bổ lại cache trong các tệp PSD là rất quan trọng để tối ưu hoá việc sử dụng bộ nhớ và cải thiện hiệu năng. Hướng dẫn của chúng tôi cung cấp cái nhìn chi tiết về việc kiểm soát phân bổ lại cache bằng Aspose.PSD cho Java. Học cách quản lý bộ nhớ một cách hiệu quả và đảm bảo xử lý mượt mà các tệp PSD của bạn, rất phù hợp cho các nhà phát triển muốn tối ưu hoá quy trình xử lý hình ảnh. [Đọc thêm](./control-cache-reallocation-psd-files/)
 
-Các lớp điều chỉnh mức độ rất cần thiết để điều chỉnh phạm vi tông màu và cải thiện độ tương phản hình ảnh. Hướng dẫn này chỉ cho bạn cách thêm Lớp điều chỉnh cấp độ một cách hiệu quả vào các tệp PSD của bạn bằng cách sử dụng Aspose.PSD cho Java. Hãy làm theo các hướng dẫn dễ dàng của chúng tôi để điều chỉnh vùng tối, tông màu trung tính và vùng sáng, tinh chỉnh hình ảnh của bạn để đạt được hiệu ứng hình ảnh mong muốn.[Đọc thêm](./add-level-adjustment-layer-psd/)
+## Thêm Lớp Điều Chỉnh Curves trong PSD bằng Java
 
-## Thêm hình mờ vào tệp PSD bằng Aspose.PSD cho Java
+Các lớp điều chỉnh Curves là công cụ mạnh mẽ để tinh chỉnh độ sáng và độ tương phản của hình ảnh. Hướng dẫn của chúng tôi chỉ cho bạn cách thêm Curves Adjustment Layer vào các tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước này sẽ giúp bạn thực hiện các điều chỉnh chính xác để nâng cao hình ảnh, cung cấp kiểm soát tốt hơn đối với giao diện cuối cùng của đồ họa. Bạn cũng sẽ học cách **add curves adjustment** để kiểm soát tông màu mục tiêu. [Đọc thêm](./add-curves-adjustment-layer-psd/)
 
- Hình mờ các tệp PSD của bạn là một cách tuyệt vời để bảo vệ tài sản trí tuệ và xây dựng thương hiệu cho hình ảnh của bạn. Hướng dẫn của chúng tôi giải thích cách thêm hình mờ vào tệp PSD của bạn bằng Aspose.PSD cho Java. Với các bước chi tiết và hướng dẫn rõ ràng, bạn sẽ có thể kết hợp hình mờ một cách liền mạch và đảm bảo an toàn cho thiết kế của mình.[Đọc thêm](./add-watermark-psd-files/)
+## Thêm Lớp Điều Chỉnh Level trong PSD
 
-## Hướng dẫn sửa đổi và chuyển đổi hình ảnh PSD
-### [Thêm lớp điều chỉnh bộ trộn kênh trong PSD](./add-channel-mixer-adjustment-layer-psd/)
-Nâng cao các tệp PSD của bạn với Lớp điều chỉnh bộ trộn kênh bằng Aspose.PSD cho Java. Tìm hiểu từng bước kỹ thuật xử lý màu sắc để có được hình ảnh sống động.
-### [Thêm lớp điều chỉnh đường cong trong PSD bằng Java](./add-curves-adjustment-layer-psd/)
-Tìm hiểu cách thêm lớp Điều chỉnh đường cong vào tệp PSD bằng Aspose.PSD cho Java trong hướng dẫn chi tiết này. Nâng cao hình ảnh của bạn một cách dễ dàng.
-### [Thêm hình mờ chéo vào tệp PSD bằng Java](./add-diagonal-watermark-psd-files/)
-Tìm hiểu cách dễ dàng thêm hình mờ chéo vào tệp PSD bằng Java với Aspose.PSD. Hướng dẫn từng bước để nâng cao hình ảnh của bạn một cách tự tin.
-### [Thêm lớp điền vào tệp PSD trong Aspose.PSD cho Java](./add-fill-layers-psd-files/)
-Tìm hiểu cách thêm lớp tô màu vào tệp PSD trong Java bằng Aspose.PSD với hướng dẫn từng bước của chúng tôi. Nâng cao thiết kế của bạn.
-### [Thêm lớp điều chỉnh độ bão hòa Hue vào PSD](./add-hue-saturation-adjustment-layer-psd/)
-Tìm hiểu cách thêm các lớp điều chỉnh độ bão hòa màu sắc vào PSD bằng Aspose.PSD cho Java trong hướng dẫn từng bước toàn diện này. Nâng cao quy trình làm việc thiết kế đồ họa của bạn.
-### [Thêm tài nguyên IOPA vào tệp PSD bằng Java](./add-iopa-resource-psd-files/)
-Tìm hiểu cách thêm tài nguyên IOPA vào tệp PSD bằng Aspose.PSD cho Java với hướng dẫn toàn diện này. Các bước đơn giản để thao tác đồ họa hiệu quả.
-### [Thêm lớp điều chỉnh cấp độ trong PSD](./add-level-adjustment-layer-psd/)
-Tìm hiểu cách thêm Lớp điều chỉnh cấp độ một cách hiệu quả trong các tệp PSD của bạn bằng Aspose.PSD cho Java. Nâng cao kỹ năng chỉnh sửa hình ảnh của bạn.
-### [Thêm lớp văn bản trên thời gian chạy trong tệp PSD bằng Java](./add-text-layer-runtime-psd-files/)
-Tìm hiểu cách thêm động các lớp văn bản vào tệp PSD bằng Java với Aspose.PSD. Hãy làm theo hướng dẫn từng bước này để có những khả năng tự động hóa thú vị.
-### [Thêm hình mờ vào tệp PSD bằng Aspose.PSD cho Java](./add-watermark-psd-files/)
-Tìm hiểu cách thêm hình mờ vào tệp PSD của bạn một cách dễ dàng bằng Aspose.PSD cho Java. Bảo vệ hình ảnh của bạn bằng hướng dẫn từng bước đơn giản.
-### [Thay đổi chế độ hòa trộn trong hiệu ứng lớp phủ chuyển màu](./change-blend-mode-gradient-overlay-effect/)
-Tìm hiểu cách thay đổi chế độ hòa trộn trong hiệu ứng lớp phủ chuyển màu bằng Aspose.PSD cho Java. Hướng dẫn từng bước để tạo đồ họa tuyệt đẹp.
-### [Thêm lớp tô màu vào tệp PSD bằng Java](./add-color-fill-layer-psd-files/)
-Tìm hiểu cách dễ dàng thêm lớp tô màu vào tệp PSD bằng Java và Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để thiết kế nhanh hơn.
-### [Thay thế màu trong tệp PSD bằng Aspose.PSD cho Java](./color-replacement-psd-files/)
-Tìm hiểu cách thay thế màu trong tệp PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước dễ dàng này để xử lý hình ảnh của bạn một cách hiệu quả.
-### [Kiểm soát việc phân bổ lại bộ đệm trong tệp PSD](./control-cache-reallocation-psd-files/)
-Quản lý phân bổ lại bộ đệm trong tệp PSD bằng Aspose.PSD cho Java. Tìm hiểu cách tối ưu hóa bộ nhớ và xử lý tệp một cách hiệu quả—lý tưởng cho các nhà phát triển.
-### [Tạo các tệp PSD được lập chỉ mục bằng Aspose.PSD cho Java](./create-indexed-psd-files/)
-Tìm hiểu cách tạo các tệp PSD được lập chỉ mục bằng Aspose.PSD cho Java trong hướng dẫn từng bước của chúng tôi. Tham gia ngay để khám phá khả năng nghệ thuật vô tận.
-### [Tạo hình thu nhỏ từ tệp PSD bằng Java](./create-thumbnails-psd-files/)
-Tìm hiểu cách dễ dàng tạo hình thu nhỏ từ tệp PSD bằng Java và Aspose.PSD. Hãy làm theo hướng dẫn từng bước của chúng tôi để xử lý hình ảnh liền mạch.
+Các lớp điều chỉnh Levels là cần thiết để chỉnh sửa dải tông và cải thiện độ tương phản của hình ảnh. Hướng dẫn này cho bạn cách thêm một Level Adjustment Layer vào các tệp PSD bằng Aspose.PSD cho Java một cách hiệu quả. Thực hiện các hướng dẫn đơn giản của chúng tôi để điều chỉnh bóng tối, tông trung và điểm sáng, tinh chỉnh hình ảnh để đạt được hiệu ứng thị giác mong muốn. [Đọc thêm](./add-level-adjustment-layer-psd/)
+
+## Thêm Watermark vào Tệp PSD với Aspose.PSD cho Java
+
+Thêm watermark vào các tệp PSD là cách tuyệt vời để bảo vệ tài sản trí tuệ và thương hiệu hình ảnh của bạn. Hướng dẫn của chúng tôi giải thích cách thêm watermark vào các tệp PSD bằng Aspose.PSD cho Java. Với các bước chi tiết và hướng dẫn rõ ràng, bạn sẽ có thể tích hợp watermark một cách liền mạch và bảo vệ thiết kế của mình. [Đọc thêm](./add-watermark-psd-files/)
+
+## Hướng Dẫn Chỉnh Sửa và Chuyển Đổi Hình Ảnh PSD
+
+### [Thêm Channel Mixer Adjustment Layer trong PSD](./add-channel-mixer-adjustment-layer-psd/)
+Nâng cao các tệp PSD của bạn với Channel Mixer Adjustment Layers bằng Aspose.PSD cho Java. Học các kỹ thuật thao tác màu sắc từng bước để có hình ảnh sống động.
+
+### [Thêm Curves Adjustment Layer trong PSD bằng Java](./add-curves-adjustment-layer-psd/)
+Tìm hiểu cách thêm Curves Adjustment layer vào tệp PSD bằng Aspose.PSD cho Java trong hướng dẫn chi tiết này. Nâng cao hình ảnh của bạn một cách dễ dàng.
+
+### [Thêm Diagonal Watermark vào Tệp PSD bằng Java](./add-diagonal-watermark-psd-files/)
+Tìm hiểu cách dễ dàng thêm diagonal watermark vào các tệp PSD bằng Java với Aspose.PSD. Hướng dẫn từng bước để nâng cao hình ảnh của bạn một cách tự tin.
+
+### [Thêm Fill Layers vào Tệp PSD trong Aspose.PSD cho Java](./add-fill-layers-psd-files/)
+Tìm hiểu cách thêm fill layers vào các tệp PSD trong Java bằng Aspose.PSD với hướng dẫn từng bước của chúng tôi. Nâng cao thiết kế của bạn.
+
+### [Thêm Hue Saturation Adjustment Layer vào PSD](./add-hue-saturation-adjustment-layer-psd/)
+Tìm hiểu cách thêm các lớp hue saturation adjustment vào PSD bằng Aspose.PSD cho Java trong hướng dẫn toàn diện, từng bước này. Nâng cao quy trình thiết kế đồ họa của bạn.
+
+### [Thêm IOPA Resource vào Tệp PSD bằng Java](./add-iopa-resource-psd-files/)
+Tìm hiểu cách thêm tài nguyên IOPA vào các tệp PSD bằng Aspose.PSD cho Java với hướng dẫn toàn diện này. Các bước đơn giản để thao tác đồ họa hiệu quả.
+
+### [Thêm Level Adjustment Layer trong PSD](./add-level-adjustment-layer-psd/)
+Tìm hiểu cách thêm một Level Adjustment Layer một cách hiệu quả vào các tệp PSD của bạn bằng Aspose.PSD cho Java. Nâng cao kỹ năng chỉnh sửa hình ảnh của bạn.
+
+### [Thêm Text Layer Khi Chạy trong Tệp PSD bằng Java](./add-text-layer-runtime-psd-files/)
+Tìm hiểu cách động thêm các lớp văn bản vào tệp PSD bằng Java với Aspose.PSD. Thực hiện hướng dẫn từng bước này để khám phá các khả năng tự động hoá thú vị.
+
+### [Thêm Watermark vào Tệp PSD với Aspose.PSD cho Java](./add-watermark-psd-files/)
+Tìm hiểu cách thêm watermark vào các tệp PSD của bạn một cách dễ dàng bằng Aspose.PSD cho Java. Bảo vệ hình ảnh của bạn với hướng dẫn đơn giản từng bước.
+
+### [Thay Đổi Blend Mode trong Hiệu Ứng Gradient Overlay](./change-blend-mode-gradient-overlay-effect/)
+Tìm hiểu cách thay đổi blend mode trong hiệu ứng gradient overlay bằng Aspose.PSD cho Java. Hướng dẫn từng bước để tạo ra các đồ họa ấn tượng.
+
+### [Thêm Color Fill Layer vào Tệp PSD bằng Java](./add-color-fill-layer-psd-files/)
+Tìm hiểu cách dễ dàng thêm một color fill layer vào các tệp PSD bằng Java và Aspose.PSD. Thực hiện hướng dẫn từng bước của chúng tôi để thiết kế nhanh hơn.
+
+### [Thay Thế Màu trong Tệp PSD bằng Aspose.PSD cho Java](./color-replacement-psd-files/)
+Tìm hiểu cách thay thế màu trong các tệp PSD bằng Aspose.PSD cho Java. Thực hiện hướng dẫn dễ dàng từng bước này để thao tác hình ảnh của bạn một cách hiệu quả.
+
+### [Quản Lý Phân Bổ Lại Cache trong Tệp PSD](./control-cache-reallocation-psd-files/)
+Quản lý việc phân bổ lại cache trong các tệp PSD bằng Aspose.PSD cho Java. Học cách tối ưu hoá bộ nhớ và xử lý tệp một cách hiệu quả—lý tưởng cho các nhà phát triển.
+
+### [Tạo Tệp PSD Indexed bằng Aspose.PSD cho Java](./create-indexed-psd-files/)
+Học cách tạo các tệp PSD Indexed với Aspose.PSD cho Java trong hướng dẫn từng bước của chúng tôi. Tham gia ngay để khám phá vô vàn khả năng nghệ thuật.
+
+### [Tạo Hình Thu Nhỏ từ Tệp PSD bằng Java](./create-thumbnails-psd-files/)
+Tìm hiểu cách tạo hình thu nhỏ từ các tệp PSD một cách dễ dàng bằng Java và Aspose.PSD. Thực hiện hướng dẫn từng bước của chúng tôi để xử lý hình ảnh liền mạch.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Câu Hỏi Thường Gặp
+
+**Q: Can I add a diagonal watermark to a PSD that already contains adjustment layers?**  
+A: Có. Aspose.PSD cho phép bạn xếp một watermark lên trên các lớp hiện có, bao gồm hue saturation, curves và color fill layers, mà không cần flatten (phẳng) tệp.
+
+**Q: Is it possible to batch‑process multiple PSD files to add the same watermark?**  
+A: Chắc chắn. Bạn có thể lặp qua một thư mục, tải mỗi tệp PSD, áp dụng watermark và lưu kết quả — tất cả trong một chương trình Java duy nhất.
+
+**Q: Do the adjustment‑layer tutorials (hue saturation, curves, color fill) affect the watermark visibility?**  
+A: Các lớp điều chỉnh ảnh hưởng đến dữ liệu hình ảnh nền nhưng không ảnh hưởng đến lớp watermark đã raster nếu bạn thêm watermark sau các điều chỉnh đó. Bạn cũng có thể đặt watermark trên một lớp riêng để kiểm soát hoàn toàn.
+
+**Q: What memory considerations should I keep in mind when working with large PSD files?**  
+A: Sử dụng các điều khiển phân bổ lại cache được mô tả trong hướng dẫn “Control Cache Reallocation” để giới hạn việc sử dụng RAM, đặc biệt khi xử lý các tệp có độ phân giải cao theo batch.
+
+**Q: Which versions of Aspose.PSD are compatible with Java 11 and newer?**  
+A: Tất cả các bản phát hành gần đây (2023‑2025) hỗ trợ Java 8+, bao gồm Java 11, 17 và các phiên bản sau. Kiểm tra ghi chú phát hành sản phẩm để biết phiên bản chính xác bạn đang sử dụng.
+
+---
+
+**Cập nhật lần cuối:** 2026-03-02  
+**Được kiểm tra với:** Aspose.PSD 24.11 for Java  
+**Tác giả:** Aspose

@@ -1,28 +1,51 @@
 ---
-title: Ajouter une couche de remplissage de couleur aux fichiers PSD à l'aide de Java
-linktitle: Ajouter une couche de remplissage de couleur aux fichiers PSD à l'aide de Java
-second_title: API Java Aspose.PSD
-description: Découvrez comment ajouter facilement un calque de remplissage de couleur aux fichiers PSD à l'aide de Java et Aspose.PSD. Suivez notre tutoriel étape par étape pour des conceptions plus rapides.
-weight: 20
+date: 2026-03-02
+description: Apprenez comment ajouter un remplissage en créant un calque de remplissage
+  de couleur dans les fichiers PSD à l’aide de Java et d’Aspose.PSD. Suivez notre
+  guide étape par étape pour définir rapidement la couleur du calque de remplissage.
+linktitle: Add Color Fill Layer to PSD Files using Java
+second_title: Aspose.PSD Java API
+title: 'Comment ajouter un remplissage : ajouter un calque de remplissage de couleur
+  aux fichiers PSD avec Java'
 url: /fr/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter une couche de remplissage de couleur aux fichiers PSD à l'aide de Java
+# Ajouter un calque de remplissage de couleur aux fichiers PSD avec Java
 
 ## Introduction
-Avez-vous déjà eu besoin de manipuler des fichiers Photoshop par programme, peut-être pour ajouter une touche de couleur à un dessin ? Eh bien, vous avez atterri au bon endroit. Dans cet article, nous expliquons comment ajouter un calque de remplissage de couleur aux fichiers PSD (Photoshop Document) à l'aide de Java et de la bibliothèque Aspose.PSD. Considérez vos fichiers PSD comme une toile et, avec seulement quelques lignes de code, vous pouvez les repeindre.
-## Conditions préalables
-Avant de plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin pour commencer. Voici ce que vous devrez mettre en place :
-1. Kit de développement Java (JDK) : assurez-vous que JDK est installé sur votre ordinateur. Vous pouvez le télécharger depuis le site Web d'Oracle ou adopter OpenJDK.
-2.  Bibliothèque Aspose.PSD : Cette puissante bibliothèque vous permet de manipuler les fichiers PSD de manière transparente. Vous pouvez télécharger la bibliothèque à partir du[Page des versions d'Aspose](https://releases.aspose.com/psd/java/).
-3. Un IDE : utilisez n'importe quel environnement de développement intégré (IDE) comme IntelliJ IDEA, Eclipse ou NetBeans pour le codage en Java.
-4. Familiarité avec Java : des connaissances de base en programmation Java vous aideront à comprendre les concepts beaucoup plus rapidement.
-## Importer des packages
-Maintenant que nous avons couvert les bases, commençons par importer les packages nécessaires dans notre projet Java. C'est là que la magie commence ! 
+Vous êtes déjà tombé sur le besoin de manipuler des fichiers Photoshop de façon programmatique, peut‑être pour ajouter une touche de couleur à un design ? Si vous vous demandez **how to add fill** à un PSD, vous êtes au bon endroit. Dans ce tutoriel, nous allons parcourir les étapes pour ajouter un calque de remplissage de couleur à des fichiers PSD (Photoshop Document) en utilisant Java et la bibliothèque Aspose.PSD. Considérez votre PSD comme une toile numérique — à la fin, vous saurez créer un calque de remplissage de couleur, définir la couleur du calque de remplissage et enregistrer le fichier mis à jour en quelques lignes de code seulement.
+
+## Quick Answers
+- **What library is needed?** Aspose.PSD for Java  
+- **Primary use case?** Programmatically add or change PSD fill colors  
+- **How long does implementation take?** About 10‑15 minutes for a basic scenario  
+- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production  
+- **Supported Java version?** Java 8 and above  
+
+## What is a Color Fill Layer?
+Un calque de remplissage de couleur est une superposition de couleur unie qui se situe au-dessus des autres calques dans un document Photoshop. Il est souvent utilisé pour ajouter une couleur d’arrière‑plan, créer des masques, ou changer rapidement le thème visuel d’un design sans modifier les pixels individuellement.
+
+## Why add a color fill layer with code?
+- **Automation :** Générer des actifs de marque cohérents à travers de nombreux fichiers.  
+- **Batch processing :** Mettre à jour des dizaines de PSD en quelques secondes au lieu de le faire manuellement.  
+- **Dynamic designs :** Modifier les couleurs à la volée en fonction des entrées utilisateur ou de sources de données.
+
+## Prerequisites
+Avant de plonger dans le code, assurons‑nous que vous avez tout le nécessaire :
+
+1. **Java Development Kit (JDK)** – JDK 8 ou version plus récente installé.  
+2. **Aspose.PSD Library** – Téléchargez le JAR le plus récent depuis la [Aspose Releases page](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans, ou tout éditeur de votre choix.  
+4. **Basic Java knowledge** – Familiarité avec les objets, les boucles et la gestion des exceptions.
+
+## Import Packages
+Maintenant que les bases sont couvertes, importons les classes nécessaires. Ces imports nous donnent accès à la manipulation des PSD et des calques de remplissage.
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
@@ -31,71 +54,104 @@ import com.aspose.psd.fileformats.psd.layers.filllayers.FillLayer;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.IColorFillSettings;
 ```
-Ces importations sont cruciales car elles nous permettent de travailler avec le format de fichier PSD et de manipuler les calques qu'il contient.
-Maintenant, décomposons le processus d'ajout d'un calque de remplissage de couleur à votre fichier PSD. Nous passerons en revue chaque étape méthodiquement pour nous assurer que vous faites les choses correctement !
-## Étape 1 : Configurez votre environnement
-Avant de pouvoir ajouter des couches, vous devez commencer par configurer votre environnement. Cela signifie définir où se trouvent vos fichiers et charger l’image PSD. 
+
+## How to Add Fill – Step‑by‑Step Guide
+
+### Step 1: Set Up Your Environment
+Définissez où se trouve votre PSD source et où le fichier modifié sera enregistré, puis chargez le document.
+
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "ColorFillLayer.psd";
 String exportPath     = dataDir + "ColorFillLayer_output.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
--  Nous définissons le`dataDir`, qui est le chemin d'accès à votre répertoire de documents.
-- Ensuite, nous spécifions le nom du fichier PSD source et le chemin où nous souhaitons exporter le fichier modifié.
--  Enfin, nous chargeons l'image PSD dans un`PsdImage` objet. C'est votre toile de travail !
-## Étape 2 : parcourir les couches
-Maintenant que votre image est chargée, l'étape suivante consiste à parcourir tous les calques du fichier PSD. Vous souhaitez rechercher spécifiquement les calques de remplissage.
+
+- `dataDir` pointe vers le dossier contenant votre PSD.  
+- `sourceFileName` est le fichier original que vous allez modifier.  
+- `exportPath` est l’endroit où le nouveau fichier avec le **add color fill layer** sera écrit.  
+
+### Step 2: Loop Through the Layers
+Nous devons localiser les éventuels calques de remplissage existants afin de les modifier ou d’en créer un nouveau.
+
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof FillLayer) {
         FillLayer fillLayer = (FillLayer) im.getLayers()[i];
 ```
-- Nous utilisons une simple boucle for pour parcourir chaque calque de l'image.
--  Nous vérifions si la couche est une instance de`FillLayer` . Si c'est le cas, nous le convertissons en un`FillLayer`.
-## Étape 3 : Vérifiez le type de remplissage
-Une fois que nous avons identifié un calque de remplissage, nous devons nous assurer qu'il s'agit du bon type de calque de remplissage, en particulier un calque de remplissage de couleur. C’est crucial car nous voulons éviter tout incident.
+
+- La boucle `for` parcourt chaque calque du PSD.  
+- La vérification `instanceof FillLayer` garantit que nous ne travaillons qu’avec des calques de remplissage.
+
+### Step 3: Verify the Fill Type
+Assurez‑vous que le calque trouvé est un **color fill layer** avant d’essayer de changer sa couleur.
+
 ```java
 if (fillLayer.getFillSettings().getFillType() != FillType.Color) {
     throw new Exception("Wrong Fill Layer");
 }
 ```
-- Si le type du calque de remplissage n'est pas couleur, nous levons une exception. C'est notre filet de sécurité pour éviter toute modification incorrecte.
-## Étape 4 : Définir la couleur
-En supposant que nous disposons d'un calque de remplissage de couleur valide, il est temps de définir la couleur. Ici, nous le changeons en rouge, mais vous pouvez choisir la couleur de votre choix !
+
+Si le type de remplissage n’est pas `FillType.Color`, nous interrompons l’opération afin d’éviter de modifier accidentellement des remplissages en dégradé ou en motif.
+
+### Step 4: Set the Fill Color
+C’est ici que nous **set fill layer color**. L’exemple change le calque en rouge, mais vous pouvez remplacer `Color.getRed()` par n’importe quel autre `Color` dont vous avez besoin (par ex., `Color.getBlue()`, `new Color(255, 165, 0)` pour l’orange).
+
 ```java
 IColorFillSettings settings = (IColorFillSettings) fillLayer.getFillSettings();
 settings.setColor(Color.getRed());
 fillLayer.update();
 ```
-- Nous obtenons les paramètres de remplissage actuels de notre couche de remplissage.
--  Nous définissons ensuite la couleur sur rouge. N'oubliez pas que vous pouvez changer`Color.getRed()` à n’importe quelle couleur que vous aimez.
-- Après cela, nous mettons à jour le calque de remplissage pour refléter ces changements.
-## Étape 5 : Enregistrez les modifications
-Enfin, il est temps de sauvegarder votre fichier PSD magnifiquement modifié. C'est là que tout votre travail acharné porte ses fruits !
+
+- `settings.setColor(...)` modifie réellement la couleur du remplissage.  
+- `fillLayer.update()` rafraîchit le calque afin que la nouvelle couleur soit appliquée.  
+
+### Step 5: Save the Changes
+Enfin, écrivez le PSD modifié sur le disque.
+
 ```java
 im.save(exportPath);
 break;
 ```
-Dans cette étape :
-- Nous enregistrons le fichier PSD modifié dans le chemin d'exportation spécifié.
--  Le`break` L'instruction garantit que nous quittons la boucle après avoir mis à jour le premier calque de remplissage de couleur disponible.
+
+- Le `break` arrête la boucle après la première mise à jour du calque de remplissage correspondant, ce qui est généralement ce que vous voulez lorsque vous devez **change PSD fill color** une seule fois.
+
+## Common Issues & Tips
+- **No FillLayer found :** Si votre PSD ne contient pas de calque de remplissage, vous devrez en créer un avec `new FillLayer(im)` et l’ajouter à `im.getLayers()`.  
+- **Color not updating :** Assurez‑vous d’appeler `fillLayer.update()` après avoir défini la couleur.  
+- **File not saved :** Vérifiez que `exportPath` pointe vers un répertoire accessible en écriture et que vous avez les permissions nécessaires.
+
+## Frequently Asked Questions
+
+**Q : What is Aspose.PSD ?**  
+A : Aspose.PSD est une bibliothèque Java robuste qui vous permet de créer, modifier et convertir des fichiers Photoshop PSD sans avoir besoin d’Adobe Photoshop.
+
+**Q : Can I use Aspose.PSD for free ?**  
+A : Yes, a free trial is available on the [Aspose Releases page](https://releases.aspose.com/).  
+
+**Q : Which file formats can I work with besides PSD ?**  
+A : Aspose.PSD supports PSD, PSB, BMP, JPEG, PNG, GIF, TIFF, and more.
+
+**Q : How do I get support if I run into problems ?**  
+A : You can ask questions on the [Aspose Support Forum](https://forum.aspose.com/c/psd/34).  
+
+**Q : Where can I purchase a full license ?**  
+A : Licenses are sold through the [Aspose Purchase page](https://purchase.aspose.com/buy).
+
 ## Conclusion
-Et voilà ! En quelques étapes simples, vous avez appris à ajouter un calque de remplissage de couleur à vos fichiers PSD à l'aide de Java et de la bibliothèque Aspose.PSD. Vous pouvez considérer ce processus comme l’ajout d’une nouvelle couche de peinture sur un mur : simple, mais transformateur. Alors, qu'est-ce que tu attends ? Essayez-le et commencez à jouer avec vos fichiers Photoshop par programmation !
-## FAQ
-### Qu’est-ce qu’Aspose.PSD ?  
-Aspose.PSD est une bibliothèque puissante permettant de travailler avec des fichiers PSD dans divers langages de programmation, dont Java.
-### Puis-je utiliser Aspose.PSD gratuitement ?  
- Oui, vous pouvez l'essayer avec un essai gratuit disponible sur[Page des versions d'Aspose](https://releases.aspose.com/).
-### Avec quels types de fichiers puis-je travailler avec Aspose.PSD ?  
-Vous pouvez travailler avec des fichiers PSD et manipuler leurs calques, effets et autres propriétés.
-### Comment puis-je obtenir de l'aide pour Aspose.PSD ?  
- Vous pouvez obtenir de l'aide via le[Forum d'assistance Aspose](https://forum.aspose.com/c/psd/34).
-### Où puis-je acheter Aspose.PSD ?  
- Vous pouvez acheter une licence via le[Page d'achat Aspose](https://purchase.aspose.com/buy).
+Vous savez maintenant **how to add fill** à un document Photoshop de façon programmatique avec Java. En créant ou en localisant un calque de remplissage de couleur, en définissant sa couleur et en enregistrant le résultat, vous pouvez automatiser des tâches de design répétitives, générer des actifs dynamiques, ou intégrer la manipulation de PSD dans des applications Java plus larges. Essayez‑vous — expérimentez avec différentes couleurs, ajoutez plusieurs calques de remplissage, ou combinez cette technique avec d’autres fonctionnalités d’Aspose.PSD pour des pipelines de traitement d’image puissants.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+---
