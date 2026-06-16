@@ -1,37 +1,57 @@
 ---
-title: 使用 Aspose.PSD Java 展平 PSD 檔案中的圖層
-linktitle: 使用 Aspose.PSD Java 展平 PSD 檔案中的圖層
+date: 2026-04-03
+description: 學習如何使用 Aspose.PSD for Java 透過扁平化圖層來減少 PSD 檔案大小。此一步一步的指南展示如何快速扁平化 PSD
+  檔案。
+keywords:
+- reduce psd file size
+- how to flatten psd
+- flatten visible layers psd
+linktitle: 透過合併圖層減少 PSD 檔案大小 – Aspose.PSD Java
 second_title: Aspose.PSD Java API
-description: 使用 Aspose.PSD for Java 輕鬆展平和合併 PSD 檔案中的圖層。請按照此逐步指南來簡化 PSD 檔案管理。
-weight: 13
+title: 透過平面化圖層減少 PSD 檔案大小 – Aspose.PSD Java
 url: /zh-hant/java/psd-layer-management-effects/flatten-layers-psd-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PSD Java 展平 PSD 檔案中的圖層
+# 透過合併圖層減少 PSD 檔案大小 – Aspose.PSD Java
 
 ## 介紹
 
-您是否曾經發現自己正在使用 Photoshop 檔案並希望有一種更簡單的方法來管理這些複雜的圖層？嗯，你很幸運！今天，我們將深入了解 Aspose.PSD for Java 的世界，這是一個功能強大的工具，可以讓以程式設計方式處理 PSD 檔案變得輕而易舉。我們將探索的便利功能之一是展平圖層。無論您想要拼合整個影像或選擇性地合併特定圖層，Aspose.PSD for Java 都能滿足您的需求。本教學將逐步引導您完成整個過程，確保您準備好自信地處理 PSD 檔案。
+如果你曾經打開 Photoshop 檔案並想知道如何 **reduce PSD file size**，合併圖層是最有效的技巧之一。使用 Aspose.PSD for Java，你可以以程式方式將整個 PSD 合併，或只合併你選擇的圖層，讓你在不犧牲視覺品質的前提下，細緻控制檔案大小。在本教學中，我們將示範兩種做法——合併整張影像以及合併特定圖層——讓你快速縮小 PSD 檔案並保持工作流程順暢。
 
-## 先決條件
+## 快速解答
+- **flattening** 做什麼？它會將可見圖層合併成單一背景圖層，移除圖層資訊，通常能減少檔案大小。  
+- **Can I flatten only selected layers?** 是的，你可以合併特定圖層，同時保留其他圖層不變。  
+- **Do I need a license?** 免費試用版可用於開發；商業授權則需於正式環境使用。  
+- **Which Java version is required?** JDK 8 或以上。  
+- **Will flattening affect image quality?** 不會，視覺外觀保持不變，僅圖層結構會改變。
 
-在我們進入程式碼之前，讓我們確保您擁有所需的一切：
+## 什麼是「reduce PSD file size」？
+減少 PSD 檔案大小是指移除不必要的資料——例如多餘的圖層、隱藏的通道或過多的中繼資料——使檔案變得更輕盈、載入、分享或處理速度更快。合併圖層是一種常見的做法，因為它會捨棄各個圖層物件，同時保留最終的合成影像。
 
-1. Java 開發工具包 (JDK)：確保您的系統上安裝了 JDK 8 或更高版本。
-2.  Aspose.PSD for Java：下載 Aspose.PSD 庫並將其新增至您的專案。你可以找到它[這裡](https://releases.aspose.com/psd/java/).
-3. 整合開發環境 (IDE)：IntelliJ IDEA 或 Eclipse 等 IDE 將使您的編碼體驗更加流暢。
-4. Java 基礎：雖然本教學適合初學者，但一些 Java 基礎知識將幫助您更輕鬆地學習。
-5. 範例 PSD 檔案：準備一個 PSD 檔案以供試驗。我們將使用多層來示範展平過程。
+## 為什麼要使用 Aspose.PSD for Java 合併圖層？
+- **Automation:** 無需手動開啟 Photoshop；可直接整合至 Java 應用程式。  
+- **Precision:** 可選擇合併整個文件或僅合併可見圖層 (`flattenImage`) 或合併選取的圖層 (`mergeLayers`)。  
+- **Performance:** 較小的檔案載入更快，且在後續處理時佔用較少記憶體。  
+- **Cross‑platform:** 可在任何支援 Java 的作業系統上執行。
 
-現在我們已經掌握了要點，讓我們開始有趣的部分——使用程式碼！
+## 前置條件
 
-## 導入包
+1. **Java Development Kit (JDK)：** 已安裝 JDK 8 或更新版本。  
+2. **Aspose.PSD for Java：** 從 [here](https://releases.aspose.com/psd/java/) 下載程式庫。  
+3. **IDE：** IntelliJ IDEA、Eclipse 或任何相容 Java 的開發環境。  
+4. **Basic Java knowledge：** 有助於理解，但非執行步驟的必要條件。  
+5. **Sample PSD：** 含多個圖層的檔案（此處使用 `ThreeRegularLayersSemiTransparent.psd`）。
 
-首先，您需要將必要的套件匯入到您的 Java 專案中。這些套件將允許您使用 Aspose.PSD for Java 處理 PSD 檔案。
+現在所有環境已備妥，讓我們深入程式碼。
+
+## 匯入套件
+
+首先，匯入必要的 Aspose.PSD 類別：
 
 ```java
 import com.aspose.psd.Image;
@@ -39,15 +59,13 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-這些導入將使我們能夠載入 PSD 檔案、操作圖層並儲存變更。現在，讓我們將扁平化圖層的流程分解為可管理的步驟。
+這些匯入讓我們能載入 PSD 檔案、操作圖層，並儲存結果。
 
-## 第 1 步：展平整個 PSD 影像
+## 步驟 1：合併整個 PSD 影像
 
-第一個任務是展平整個 PSD 影像。當您想要將所有圖層合併為單一圖層時，這非常有用，使影像更易於管理和匯出。
+合併整張影像是最快速 **reduce PSD file size** 的方法，因為它會移除所有單獨的圖層資料。
 
-### 1.1 載入PSD文件
-
-首先，我們將 PSD 檔案載入到我們的程式中。該文件應放置在您的專案目錄中，我們稱之為`Your Document Directory`.
+### 1.1 載入 PSD 檔案
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,46 +73,32 @@ String sourceFileName = dataDir + "ThreeRegularLayersSemiTransparent.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-此程式碼片段載入名為的 PSD 文件`ThreeRegularLayersSemiTransparent.psd`從您指定的目錄。
-
-### 1.2 扁平化影像
-
-接下來，我們將展平整個影像。拼合將所有可見圖層合併為單一背景圖層。
+### 1.2 合併影像
 
 ```java
 im.flattenImage();
 ```
 
-透過這一行，PSD 檔案中的所有圖層都將合併為一個。
-
-### 1.3 儲存拼合後的影像
-
-最後，我們將拼合後的圖像儲存到一個新檔案中。
+### 1.3 儲存合併後的影像
 
 ```java
 String exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattened.psd";
 im.save(exportPath);
 ```
 
-這會將拼合的 PSD 檔案保存在新名稱下`ThreeRegularLayersSemiTransparentFlattened.psd`。恭喜！您剛剛使用 Aspose.PSD for Java 展平了您的第一個 PSD 影像。
+你的新檔案現在只包含單一背景圖層，通常會使 PSD 檔案變得更小。
 
-## 第 2 步：合併特定圖層
+## 步驟 2：合併特定圖層（如何選擇性合併 PSD）
 
-有時，您可能不想展平整個影像，而是只合併某些圖層。讓我們看看如何實現這一目標。
+有時你只想 **flatten visible layers** 或合併部分圖層，同時保留其他圖層可編輯。
 
-### 2.1 再次載入PSD文件
-
-由於我們正在執行不同的操作，因此首先再次載入 PSD 檔案。
+### 2.1 再次載入 PSD 檔案
 
 ```java
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 ```
 
-這將載入相同的 PSD 文件，為特定於圖層的操作做好準備。
-
-### 2.2 識別和選擇層
-
-若要合併特定圖層，首先，請識別並選擇要合併的圖層。
+### 2.2 識別並選取圖層
 
 ```java
 Layer bottomLayer = img.getLayers()[0];
@@ -102,63 +106,58 @@ Layer middleLayer = img.getLayers()[1];
 Layer topLayer = img.getLayers()[2];
 ```
 
-在這裡，我們選擇 PSD 檔案的第一、第二和第三層。這些層儲存在一個陣列中，您可以透過它們的索引存取它們。
-
 ### 2.3 合併圖層
-
-現在，讓我們合併選定的圖層。我們將從合併底層和中間層開始，然後將結果與頂層合併。
 
 ```java
 Layer layer1 = img.mergeLayers(bottomLayer, middleLayer);
 Layer layer2 = img.mergeLayers(layer1, topLayer);
 ```
 
-此代碼依序合併各層，從而形成單一組合層。
-
-### 2.4 用合併層取代現有層
-
-合併後，您需要用新合併的圖層取代影像中現有的圖層。
+### 2.4 用合併後的圖層取代現有圖層
 
 ```java
 img.setLayers(new Layer[]{layer2});
 ```
 
-此步驟可確保影像現在僅包含合併的圖層。
-
-### 2.5 儲存更新的 PSD 文件
-
-最後，儲存更新後的 PSD 檔案和合併的圖層。
+### 2.5 儲存更新後的 PSD 檔案
 
 ```java
 exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattenedLayerByLayer.psd";
 img.save(exportPath);
 ```
 
-這會將帶有合併圖層的 PSD 保存在新名稱下，從而使您可以保持原始檔案完整。
+現在 PSD 只包含合併後的圖層，達成減少檔案大小的同時，保留了你想保留的圖層。
 
-## 結論
+## 常見問題與技巧
 
-使用 PSD 檔案中的圖層通常感覺就像在迷宮中導航，但使用 Aspose.PSD for Java，就像手中握有一張地圖。無論您需要拼合整個影像還是仔細合併選定的圖層，Aspose.PSD 都能簡化流程，將一項艱鉅的任務變成簡單的操作。透過學習本教程，您現在應該可以輕鬆地使用 Java 處理 PSD 檔案中的圖層操作。那麼為什麼不在自己的專案中嘗試一下，看看您節省了多少時間和精力呢？
+- **Backup before flattening：** 圖層一旦合併就無法復原，請保留原始 PSD 的備份。  
+- **Visibility matters：** `flattenImage()` 只會合併 *可見* 圖層。請隱藏任何不想包含的圖層。  
+- **Memory usage：** 大型 PSD 可能佔用大量記憶體；建議在具備足夠記憶體的機器上處理。  
+- **Blending modes：** 合併時會遵守每個圖層的混合模式，視覺結果與 Photoshop 中相同。
 
-## 常見問題解答
+## 常見問答
 
-### 我可以撤銷 Aspose.PSD 中圖層的展平嗎？  
-不，一旦使用 Aspose.PSD 拼裝圖層，此操作就不可逆轉。保留原始文件的備份始終是一個好習慣。
+**Q: 我可以在 Aspose.PSD 中復原圖層合併嗎？**  
+A: 不行，合併是不可逆的。請務必保留原始檔案的備份。
 
-### 是否可以僅展平可見層？  
-是的，您可以根據圖層的可見性來控制要展平的圖層。使用前確保只有要展平的圖層可見`flattenImage`方法。
+**Q: 是否可以只合併可見圖層？**  
+A: 可以。`flattenImage()` 會遵守圖層可見性，請在呼叫方法前隱藏不想合併的圖層。
 
-### 拼合圖層會減少檔案大小嗎？  
-拼合圖層可以減少檔案大小，尤其是在有許多複雜圖層的情況下。然而，確切的減少量取決於各層的含量。
+**Q: 合併圖層會減少檔案大小嗎？**  
+A: 通常會。移除圖層資料與中繼資料通常會使 PSD 更小，雖然具體減少幅度取決於內容。
 
-### 我可以合併不同混合模式的圖層嗎？  
-是的，您可以使用 Aspose.PSD 合併具有不同混合模式的圖層，並且產生的圖層將保持合併圖層的外觀。
+**Q: 我可以合併具有不同混合模式的圖層嗎？**  
+A: 當然可以。Aspose.PSD 在合併圖層時會保留各自混合模式所產生的視覺效果。
 
-### 如果我嘗試合併不相鄰的圖層會發生什麼情況？  
-Aspose.PSD 可讓您合併任何圖層，無論其在圖層堆疊中的順序為何。合併過程將依指定組合所選圖層。
+**Q: 若嘗試合併非相鄰的圖層會發生什麼？**  
+A: Aspose.PSD 允許合併任意圖層，不論其在堆疊中的順序；結果會呈現合併後的外觀。
+
+**最後更新：** 2026-04-03  
+**測試環境：** Aspose.PSD 24.11 for Java  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

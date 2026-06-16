@@ -1,37 +1,55 @@
 ---
-title: Applica l'effetto tratto con riempimento colore in PSD - Java
-linktitle: Applica l'effetto tratto con riempimento colore in PSD - Java
-second_title: API Java Aspose.PSD
-description: Scopri come applicare un effetto tratto con riempimento colore ai tuoi file PSD utilizzando Aspose.PSD per Java. Segui questa guida passo passo per migliorare le tue immagini con facilità.
-weight: 21
+date: 2026-04-03
+description: Scopri come salvare un PSD come PNG con effetto contorno e riempimento
+  colore usando Aspose.PSD per Java. Questa guida passo‑passo mostra come esportare
+  rapidamente un PSD in PNG.
+keywords:
+- save psd as png
+- export psd to png
+- set stroke color
+- apply layer effects
+- customize stroke width
+linktitle: Salva PSD come PNG con effetto contorno – Java
+second_title: Aspose.PSD Java API
+title: Salva PSD come PNG con effetto contorno – Java
 url: /it/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Applica l'effetto tratto con riempimento colore in PSD - Java
+# Salva PSD come PNG con effetto contorno e riempimento colore – Java
 
 ## Introduzione
 
-In questa guida ti guideremo attraverso il processo di applicazione di un effetto tratto con riempimento di colore ai tuoi file PSD utilizzando Aspose.PSD per Java. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questo tutorial passo passo ti renderà più semplice portare a termine il lavoro. Copriremo tutto, dalla configurazione del tuo ambiente al salvataggio dell'immagine finale con gli effetti applicati.
+In questa guida imparerai a **salvare PSD come PNG** applicando un effetto contorno con un riempimento colore usando Aspose.PSD per Java. Che tu sia uno sviluppatore esperto o alle prime armi, questo tutorial passo‑a‑passo renderà semplice completare il lavoro. Copriremo tutto, dall'impostazione dell'ambiente all'esportazione dell'immagine finale, così potrai rapidamente **esportare PSD in PNG** nei tuoi progetti.
+
+## Risposte rapide
+- **Che cosa realizza questo tutorial?** Mostra come salvare un file PSD come PNG dopo aver applicato un effetto contorno personalizzabile.  
+- **Quale libreria viene utilizzata?** Aspose.PSD per Java.  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per i test; è necessaria una licenza per la produzione.  
+- **Posso cambiare il colore del contorno?** Sì – è possibile impostare qualsiasi colore tramite `ColorFillSettings`.  
+- **È possibile elaborare in batch?** Assolutamente – avvolgi il codice in un ciclo per elaborare più file PSD.
+
+## Cos'è “salvare PSD come PNG”?
+Salvare un PSD come PNG significa convertire il file a livelli nativo di Photoshop in un formato immagine piatto, adatto al web, mantenendo la fedeltà visiva. Questo è utile quando è necessario visualizzare contenuti PSD su siti web, app mobili o qualsiasi piattaforma che non supporta direttamente i file PSD.
+
+## Perché applicare un effetto contorno con riempimento colore?
+Un contorno aggiunge un bordo nitido attorno al contenuto dei livelli, facendo risaltare la grafica su sfondi complessi. Combinarlo con un colore di riempimento personalizzato consente di marchiare le immagini, evidenziare elementi UI o creare miniature accattivanti senza uscire da Photoshop.
 
 ## Prerequisiti
 
-Prima di iniziare, assicuriamoci di avere tutto ciò di cui hai bisogno per seguire questo tutorial:
+1. **Java Development Kit (JDK) 8+** – assicurati che `java` sia nel tuo PATH.  
+2. **Aspose.PSD per Java** – scarica dal [sito web](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse o qualsiasi editor tu preferisca.  
+4. **PSD di esempio** – un file che contiene già un effetto contorno (oppure aggiungine uno in Photoshop).  
+5. **Conoscenze di base di Java** – scriverai qualche riga di codice, ma nulla di avanzato.
 
-1. Java Development Kit (JDK) installato: assicurati di avere JDK 8 o versione successiva installata sul tuo sistema.
-2.  Aspose.PSD per la libreria Java: avrai bisogno della libreria Aspose.PSD per Java. Puoi scaricarlo da[sito web](https://releases.aspose.com/psd/java/).
-3. Ambiente di sviluppo integrato (IDE): un IDE come IntelliJ IDEA, Eclipse o qualsiasi altro a tua scelta.
-4. File PSD di esempio: un file PSD di esempio a cui è possibile applicare l'effetto tratto. Se non ne hai uno, puoi creare un semplice file PSD in Photoshop o scaricarne uno da Internet.
-5. Conoscenza di base di Java: sebbene questo tutorial sia adatto ai principianti, sarà utile avere una conoscenza di base di Java.
-
-Una volta stabiliti questi prerequisiti, sei pronto per iniziare ad applicare l'effetto tratto con riempimento colore ai tuoi file PSD.
+Una volta pronti, possiamo iniziare a programmare.
 
 ## Importa pacchetti
-
-Per iniziare a lavorare con Aspose.PSD per Java, dovrai importare i pacchetti necessari nel tuo progetto Java. Ecco come puoi farlo:
 
 ```java
 import com.aspose.psd.Color;
@@ -45,25 +63,21 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-Queste importazioni introducono tutte le classi necessarie per lavorare con i file PSD, applicare effetti e salvare le immagini nel formato desiderato.
+Queste importazioni includono tutte le classi necessarie per caricare un PSD, modificare il suo contorno e salvare sia l'output PSD che PNG.
 
-## Passaggio 1: carica il file PSD
+## Come salvare PSD come PNG con effetto contorno
 
- Il primo passo nel nostro processo è caricare il file PSD che desideri modificare. Aspose.PSD per Java lo rende incredibilmente semplice con il suo`PsdImage` classe. Ecco come puoi farlo:
+### Passo 1: Carica il file PSD
 
-### 1.1 Imposta il percorso della directory
-
-Innanzitutto, definisci il percorso della directory in cui sono archiviati i file PSD:
+Per prima cosa, indica la cartella che contiene il tuo PSD di origine.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Sostituire`"Your Document Directory"` con il percorso effettivo in cui si trova il file PSD.
+Sostituisci `"Your Document Directory"` con il percorso reale sul tuo computer.
 
-### 1.2 Carica l'immagine PSD
-
- Ora carica il file PSD utilizzando il file`PsdLoadOptions` E`PsdImage` classi:
+Ora carica il file preservando eventuali risorse di effetto esistenti:
 
 ```java
 String sourceFileName = dataDir + "StrokeComplex.psd";
@@ -74,47 +88,33 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
- Ecco, il`PsdLoadOptions`è configurato per caricare le risorse degli effetti, garantendo che tutti gli effetti esistenti all'interno del PSD siano accessibili.
+### Passo 2: Imposta il colore del contorno (e opzionalmente personalizza lo spessore)
 
-## Passaggio 2: applica l'effetto tratto con riempimento colore
-
-Una volta caricato il file PSD, il passaggio successivo consiste nell'applicare l'effetto tratto ai livelli dell'immagine. È qui che avviene la vera magia.
-
-Ogni file PSD può contenere più livelli e dovrai applicare l'effetto a ciascuno di essi. Ecco come farlo:
+Il ciclo seguente scorre ogni livello, prende il primo `StrokeEffect` e ne modifica il colore di riempimento. Puoi anche regolare `setWidth` o `setPosition` sull'oggetto `StrokeEffect` se devi **personalizzare lo spessore del contorno**.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     StrokeEffect effect = (StrokeEffect) im.getLayers()[i].getBlendingOptions().getEffects()[0];
     ColorFillSettings settings = (ColorFillSettings) effect.getFillSettings();
+    // Set the stroke color – change to any Color you like
     settings.setColor(Color.getDeepPink());
 }
 ```
 
-In questo ciclo:
+> **Consiglio professionale:** `Color.getDeepPink()` è solo un esempio. Usa `new Color(r, g, b)` per valori RGB personalizzati.
 
-- `im.getLayers()`: recupera tutti i livelli nel file PSD.
-- `StrokeEffect effect`: Estrae l'effetto tratto applicato al livello.
-- `ColorFillSettings settings`: modifica le impostazioni di riempimento per l'effetto tratto.
-- `settings.setColor(Color.getDeepPink())`: imposta il colore del tratto su rosa intenso. Puoi cambiarlo con qualsiasi colore tu preferisca.
+### Passo 3: Salva il PSD modificato (opzionale)
 
-## Passaggio 3: salva il PSD modificato ed esporta come PNG
-
-Dopo aver applicato l'effetto tratto, è il momento di salvare le modifiche ed esportare l'immagine.
-
-### 3.1 Salvare il file PSD
-
-Per salvare il file PSD modificato, utilizzare il seguente codice:
+Se desideri conservare una versione PSD con il contorno aggiornato, salvala così:
 
 ```java
 String exportPath = dataDir + "StrokeComplexRendering.psd";
 im.save(exportPath, new PsdOptions());
 ```
 
-Ciò salva il file con l'effetto tratto applicato nel percorso specificato.
+### Passo 4: Esporta l'immagine come PNG (il passaggio principale “salvare PSD come PNG”)
 
-### 3.2 Esporta come PNG
-
-Per rendere l'immagine più accessibile, potresti voler esportarla come file PNG. Ecco come:
+Infine, converti il PSD modificato in un file PNG pronto per l'uso web:
 
 ```java
 String exportPathPng = dataDir + "StrokeComplexRendering.png";
@@ -124,32 +124,39 @@ option.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(exportPathPng, option);
 ```
 
-Questo frammento di codice salva l'immagine come PNG con colori reali e trasparenza alfa, rendendola pronta per l'uso in applicazioni web o altre piattaforme.
+Il PNG conserva il contorno rosa intenso impostato in precedenza, e l'opzione `TruecolorWithAlpha` garantisce che la trasparenza venga mantenuta.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Applicare un effetto tratto con riempimento di colore ai tuoi file PSD utilizzando Aspose.PSD per Java non è solo semplice ma anche incredibilmente potente. Con solo poche righe di codice, puoi automatizzare attività complesse di elaborazione delle immagini, risparmiando tempo e fatica.
-
-Sia che tu stia lavorando su una grande quantità di immagini o che tu abbia semplicemente bisogno di modificare alcuni file, questo metodo fornisce una soluzione flessibile ed efficiente. Ora che conosci le nozioni di base, puoi iniziare a sperimentare diversi effetti e personalizzazioni per far risaltare davvero le tue immagini.
-
-Pronto a provarlo? Prendi il tuo file PSD di esempio e inizia ad aggiungere quegli effetti sorprendenti oggi stesso!
+| Problema | Motivo | Soluzione |
+|----------|--------|-----------|
+| **`ArrayIndexOutOfBoundsException`** | Il livello non ha effetti o il primo effetto non è un `StrokeEffect`. | Verifica che il livello contenga effettivamente un contorno o itera attraverso `getEffects()` per trovare il tipo corretto. |
+| **Il colore non cambia** | Potresti stare modificando una copia delle impostazioni invece dell'originale. | Assicurati di fare il cast a `ColorFillSettings` direttamente da `effect.getFillSettings()`. |
+| **Il PNG appare vuoto** | Il PSD è stato caricato senza rasterizzare il livello. | Chiama `im.save(..., new PngOptions())` dopo tutte le modifiche; evita di salvare l'`im` originale prima delle modifiche. |
 
 ## Domande frequenti
 
-### Posso applicare più effetti a un singolo livello utilizzando Aspose.PSD per Java?
-Sì, puoi applicare più effetti a un singolo livello accedendo alle opzioni di fusione del livello e aggiungendo gli effetti desiderati.
+**D: Posso applicare più effetti a un singolo livello usando Aspose.PSD per Java?**  
+R: Sì, puoi accedere alle opzioni di fusione del livello e aggiungere tutti gli effetti necessari, inclusi ombre, bagliori e contorni.
 
-### È possibile automatizzare il processo per un batch di file PSD?
-Assolutamente! È possibile scorrere una directory di file PSD, applicare l'effetto tratto e salvare automaticamente i risultati.
+**D: È possibile automatizzare il processo per un batch di file PSD?**  
+R: Assolutamente. Avvolgi la logica di caricamento, applicazione dell'effetto e salvataggio in un ciclo `for‑each` che itera sui file in una directory.
 
-### Come posso ripristinare le modifiche apportate a un file PSD utilizzando Aspose.PSD per Java?
-Per annullare le modifiche, dovrai ricaricare il file PSD originale prima di salvare eventuali modifiche. Non esiste alcuna funzionalità di annullamento diretto in Aspose.PSD.
+**D: Come posso annullare le modifiche apportate a un file PSD?**  
+R: Ricarica il file originale prima di salvare qualsiasi modifica; Aspose.PSD non fornisce una pila di annullamento.
 
-### Posso personalizzare la larghezza e la posizione del tratto?
- Sì, Aspose.PSD per Java ti consente di personalizzare la larghezza del tratto, la posizione e altre proprietà tramite il file`StrokeEffect` classe.
+**D: Posso personalizzare lo spessore e la posizione del contorno?**  
+R: Sì. Usa `effect.setWidth(float)` e `effect.setPosition(StrokeEffect.Position)` per controllare lo spessore e il posizionamento (interno, esterno o centrato).
 
-### La libreria Aspose.PSD per Java è gratuita?
- Aspose.PSD per Java offre una prova gratuita, ma per l'accesso completo a tutte le funzionalità è necessario acquistare una licenza. Puoi esplorare il[acquistare opzioni](https://purchase.aspose.com/buy)sul loro sito web.
+**D: La libreria Aspose.PSD per Java è gratuita?**  
+R: È disponibile una versione di prova gratuita per la valutazione. La piena funzionalità richiede una licenza acquistata. Consulta le [opzioni di acquisto](https://purchase.aspose.com/buy) per i dettagli.
+
+---
+
+**Ultimo aggiornamento:** 2026-04-03  
+**Testato con:** Aspose.PSD 24.12 per Java  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

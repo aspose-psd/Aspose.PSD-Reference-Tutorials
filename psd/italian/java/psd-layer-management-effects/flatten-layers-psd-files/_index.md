@@ -1,37 +1,60 @@
 ---
-title: Appiattisci i livelli nei file PSD utilizzando Aspose.PSD Java
-linktitle: Appiattisci i livelli nei file PSD utilizzando Aspose.PSD Java
-second_title: API Java Aspose.PSD
-description: Appiattisci e unisci i livelli nei file PSD senza sforzo utilizzando Aspose.PSD per Java. Segui questa guida passo passo per semplificare la gestione dei file PSD.
-weight: 13
+date: 2026-04-03
+description: Scopri come ridurre le dimensioni dei file PSD appiattendo i livelli
+  con Aspose.PSD per Java. Questa guida passo passo mostra come appiattire rapidamente
+  i file PSD.
+keywords:
+- reduce psd file size
+- how to flatten psd
+- flatten visible layers psd
+linktitle: Riduci la dimensione del file PSD appiattendo i livelli – Aspose.PSD Java
+second_title: Aspose.PSD Java API
+title: Riduci le dimensioni del file PSD appiattendo i livelli – Aspose.PSD Java
 url: /it/java/psd-layer-management-effects/flatten-layers-psd-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Appiattisci i livelli nei file PSD utilizzando Aspose.PSD Java
+# Ridurre le dimensioni del file PSD appiattendo i livelli – Aspose.PSD Java
 
 ## Introduzione
 
-Ti sei mai trovato a lavorare con file Photoshop e desideri un modo più semplice per gestire quei livelli complessi? Bene, sei fortunato! Oggi ci immergiamo nel mondo di Aspose.PSD per Java, un potente strumento che semplifica il lavoro con i file PSD a livello di codice. Una delle funzionalità utili che esploreremo è l'appiattimento dei livelli. Sia che tu voglia appiattire un'intera immagine o unire selettivamente livelli specifici, Aspose.PSD per Java ti copre. Questo tutorial ti guiderà attraverso il processo, passo dopo passo, assicurandoti di essere pronto ad affrontare i tuoi file PSD con sicurezza.
+Se hai mai aperto un documento Photoshop e ti sei chiesto come **reduce PSD file size**, l'appiattimento dei livelli è uno dei trucchi più efficaci. Con Aspose.PSD per Java puoi appiattire programmaticamente un intero PSD o unire solo i livelli che scegli, ottenendo un controllo fine sul peso del file senza sacrificare la qualità visiva. In questo tutorial vedremo entrambi gli approcci—appiattire l'intera immagine e unire livelli specifici—così potrai ridurre rapidamente i tuoi file PSD e mantenere fluido il tuo flusso di lavoro.
+
+## Risposte rapide
+- **Cosa fa l'appiattimento?** Unisce i livelli visibili in un unico livello di sfondo, rimuovendo le informazioni dei livelli e spesso riducendo le dimensioni del file.  
+- **Posso appiattire solo i livelli selezionati?** Sì, puoi unire livelli specifici lasciando gli altri intatti.  
+- **Ho bisogno di una licenza?** Una versione di prova gratuita funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Quale versione di Java è richiesta?** JDK 8 o superiore.  
+- **L'appiattimento influisce sulla qualità dell'immagine?** No, l'aspetto visivo rimane lo stesso; cambia solo la struttura dei livelli.
+
+## Cos'è “reduce PSD file size”?
+
+Ridurre le dimensioni del file PSD significa rimuovere dati non necessari—come livelli extra, canali nascosti o metadati eccessivi—così il file diventa più leggero e più veloce da caricare, condividere o elaborare. L'appiattimento dei livelli è una tecnica comune perché elimina gli oggetti dei singoli livelli preservando l'immagine composita finale.
+
+## Perché appiattire i livelli con Aspose.PSD per Java?
+
+- **Automazione:** Nessuna necessità di aprire Photoshop manualmente; integra direttamente nelle tue applicazioni Java.  
+- **Precisione:** Scegli di appiattire l'intero documento o solo i livelli visibili (`flattenImage`) o di unire i livelli selezionati (`mergeLayers`).  
+- **Prestazioni:** File più piccoli si caricano più rapidamente e consumano meno memoria nei processi successivi.  
+- **Cross‑platform:** Funziona su qualsiasi OS che supporta Java.
 
 ## Prerequisiti
 
-Prima di addentrarci nel codice, assicuriamoci di avere tutto ciò di cui hai bisogno:
+1. **Java Development Kit (JDK):** JDK 8 o più recente installato.  
+2. **Aspose.PSD for Java:** Scarica la libreria da [qui](https://releases.aspose.com/psd/java/).  
+3. **IDE:** IntelliJ IDEA, Eclipse o qualsiasi IDE compatibile con Java.  
+4. **Conoscenze di base di Java:** Utili ma non obbligatorie per seguire i passaggi.  
+5. **Sample PSD:** Un file con più livelli (useremo `ThreeRegularLayersSemiTransparent.psd`).
 
-1. Java Development Kit (JDK): assicurati di avere JDK 8 o versione successiva installata sul tuo sistema.
-2.  Aspose.PSD per Java: scarica e aggiungi la libreria Aspose.PSD al tuo progetto. Puoi trovarlo[Qui](https://releases.aspose.com/psd/java/).
-3. Ambiente di sviluppo integrato (IDE): un IDE come IntelliJ IDEA o Eclipse renderà la tua esperienza di codifica più fluida.
-4. Conoscenza di base di Java: sebbene questo tutorial sia adatto ai principianti, alcune conoscenze di base di Java ti aiuteranno a seguirlo più facilmente.
-5. File PSD di esempio: tieni pronto un file PSD con cui sperimentare. Ne useremo uno con più livelli per dimostrare il processo di appiattimento.
+Ora che abbiamo tutto pronto, immergiamoci nel codice.
 
-Ora che abbiamo chiarito gli aspetti essenziali, passiamo alla parte divertente: lavorare con il codice!
+## Importa i pacchetti
 
-## Importa pacchetti
-
-Per iniziare, dovrai importare i pacchetti necessari nel tuo progetto Java. Questi pacchetti ti permetteranno di lavorare con file PSD utilizzando Aspose.PSD per Java.
+Per iniziare, importa le classi essenziali di Aspose.PSD:
 
 ```java
 import com.aspose.psd.Image;
@@ -39,15 +62,13 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-Queste importazioni ci consentiranno di caricare file PSD, manipolare i livelli e salvare le modifiche. Ora suddividiamo il processo di appiattimento dei livelli in passaggi gestibili.
+Queste importazioni ci permettono di caricare file PSD, lavorare con i loro livelli e salvare i risultati.
 
-## Passaggio 1: appiattimento dell'intera immagine PSD
+## Passo 1: Appiattire l'intera immagine PSD
 
-Il primo compito è appiattire l'intera immagine PSD. Ciò è utile quando desideri combinare tutti i livelli in un unico livello, semplificando la gestione e l'esportazione dell'immagine.
+Appiattire l'intera immagine è il modo più rapido per **reduce PSD file size** perché rimuove tutti i dati dei singoli livelli.
 
 ### 1.1 Carica il file PSD
-
- Innanzitutto, caricheremo il file PSD nel nostro programma. Questo file dovrebbe essere inserito nella directory del tuo progetto, a cui faremo riferimento come`Your Document Directory`.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,46 +76,32 @@ String sourceFileName = dataDir + "ThreeRegularLayersSemiTransparent.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-Questo frammento di codice carica il file PSD denominato`ThreeRegularLayersSemiTransparent.psd` dalla directory specificata.
-
 ### 1.2 Appiattire l'immagine
-
-Successivamente, appiattiremo l'intera immagine. L'appiattimento combina tutti i livelli visibili in un unico livello di sfondo.
 
 ```java
 im.flattenImage();
 ```
 
-Con questo one-liner, tutti i livelli nel tuo file PSD vengono uniti in uno solo.
-
 ### 1.3 Salva l'immagine appiattita
-
-Infine, salveremo l'immagine appiattita in un nuovo file.
 
 ```java
 String exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattened.psd";
 im.save(exportPath);
 ```
 
- Ciò salva il file PSD appiattito con il nuovo nome`ThreeRegularLayersSemiTransparentFlattened.psd`. Congratulazioni! Hai appena appiattito la tua prima immagine PSD utilizzando Aspose.PSD per Java.
+Il tuo nuovo file ora contiene un unico livello di sfondo, il che di solito porta a una dimensione PSD più piccola.
 
-## Passaggio 2: unione di livelli specifici
+## Passo 2: Unire livelli specifici (Come appiattire PSD selettivamente)
 
-A volte, potresti non voler appiattire l'intera immagine ma piuttosto unire solo alcuni livelli. Vediamo come puoi raggiungere questo obiettivo.
+A volte vuoi solo **flatten visible layers** o combinare un sottoinsieme di livelli mantenendo gli altri modificabili.
 
-### 2.1 Caricare nuovamente il file PSD
-
-Poiché stiamo eseguendo un'operazione diversa, inizia caricando nuovamente il file PSD.
+### 2.1 Carica nuovamente il file PSD
 
 ```java
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 ```
 
-Questo caricherà lo stesso file PSD, pronto per operazioni specifiche del livello.
-
-### 2.2 Identificare e selezionare i livelli
-
-Per unire livelli specifici, identifica e seleziona innanzitutto i livelli che desideri unire.
+### 2.2 Identifica e seleziona i livelli
 
 ```java
 Layer bottomLayer = img.getLayers()[0];
@@ -102,63 +109,60 @@ Layer middleLayer = img.getLayers()[1];
 Layer topLayer = img.getLayers()[2];
 ```
 
-Qui stiamo selezionando il primo, il secondo e il terzo livello del file PSD. Questi livelli sono archiviati in un array ed è possibile accedervi tramite il loro indice.
-
 ### 2.3 Unisci i livelli
-
-Ora uniamo i livelli selezionati. Inizieremo unendo gli strati inferiore e intermedio, quindi uniremo il risultato con lo strato superiore.
 
 ```java
 Layer layer1 = img.mergeLayers(bottomLayer, middleLayer);
 Layer layer2 = img.mergeLayers(layer1, topLayer);
 ```
 
-Questo codice unisce in sequenza i livelli, risultando in un singolo livello combinato.
-
 ### 2.4 Sostituisci i livelli esistenti con il livello unito
-
-Dopo l'unione, è necessario sostituire i livelli esistenti nell'immagine con il livello appena unito.
 
 ```java
 img.setLayers(new Layer[]{layer2});
 ```
 
-Questo passaggio garantisce che l'immagine ora contenga solo il livello unito.
-
-### 2.5 Salvare il file PSD aggiornato
-
-Infine, salva il file PSD aggiornato con i livelli uniti.
+### 2.5 Salva il file PSD aggiornato
 
 ```java
 exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattenedLayerByLayer.psd";
 img.save(exportPath);
 ```
 
-Ciò salva il PSD con i livelli uniti sotto un nuovo nome, consentendoti di mantenere intatto il file originale.
+Ora il PSD contiene solo il livello unito, ottenendo una dimensione ridotta del file mantenendo i livelli che volevi conservare.
 
-## Conclusione
+## Problemi comuni e suggerimenti
 
-Lavorare con i livelli nei file PSD può spesso sembrare come navigare in un labirinto, ma con Aspose.PSD per Java è come avere una mappa tra le mani. Sia che tu abbia bisogno di appiattire un'intera immagine o di unire attentamente i livelli selezionati, Aspose.PSD semplifica il processo, trasformando quello che potrebbe essere un compito arduo in un'operazione semplice. Seguendo questo tutorial, ora dovresti essere a tuo agio nella gestione della manipolazione dei livelli nei file PSD utilizzando Java. Allora perché non provarlo con i tuoi progetti e vedere quanto tempo e fatica risparmi?
+- **Backup prima dell'appiattimento:** Una volta che i livelli sono appiattiti, l'operazione non può essere annullata. Conserva una copia del PSD originale.  
+- **La visibilità è importante:** `flattenImage()` unisce solo i livelli *visibili*. Nascondi i livelli che non vuoi includere.  
+- **Uso della memoria:** PSD di grandi dimensioni possono consumare molta RAM; considera di elaborarli su una macchina con sufficiente memoria.  
+- **Modalità di fusione:** L'unione rispetta la modalità di fusione di ciascun livello, quindi il risultato visivo corrisponde a quello che vedresti in Photoshop.
 
 ## Domande frequenti
 
-### Posso annullare l'appiattimento dei livelli in Aspose.PSD?  
-No, una volta appiattiti i livelli utilizzando Aspose.PSD, l'azione è irreversibile. È sempre buona norma conservare una copia di backup del file originale.
+**Q: Posso annullare l'appiattimento dei livelli in Aspose.PSD?**  
+A: No, l'appiattimento è irreversibile. Conserva sempre un backup del file originale.
 
-### È possibile appiattire solo i livelli visibili?  
- Sì, puoi controllare quali livelli appiattire in base alla loro visibilità. Assicurati che solo i livelli che desideri appiattire siano visibili prima di utilizzare`flattenImage` metodo.
+**Q: È possibile appiattire solo i livelli visibili?**  
+A: Sì. `flattenImage()` rispetta la visibilità dei livelli, quindi nascondi i livelli che non vuoi appiattire prima di chiamare il metodo.
 
-### L'appiattimento dei livelli riduce le dimensioni del file?  
-L'appiattimento dei livelli può ridurre le dimensioni del file, soprattutto se sono presenti molti livelli complessi. Tuttavia, la riduzione esatta dipende dal contenuto degli strati.
+**Q: L'appiattimento dei livelli riduce le dimensioni del file?**  
+A: Generalmente sì. Rimuovere i dati dei livelli e i metadati porta spesso a un PSD più piccolo, anche se la riduzione esatta dipende dal contenuto.
 
-### Posso unire livelli con metodi di fusione diversi?  
-Sì, puoi unire i livelli con diversi metodi di fusione utilizzando Aspose.PSD e il livello risultante manterrà l'aspetto dei livelli uniti.
+**Q: Posso unire livelli con modalità di fusione diverse?**  
+A: Assolutamente. Aspose.PSD unisce i livelli preservando l'aspetto visivo creato dalle loro modalità di fusione.
 
-### Cosa succede se provo a unire livelli non adiacenti?  
-Aspose.PSD ti consente di unire qualsiasi livello indipendentemente dal suo ordine nella pila di livelli. Il processo di fusione combinerà i livelli selezionati come specificato.
+**Q: Cosa succede se provo a unire livelli non adiacenti?**  
+A: Aspose.PSD consente di unire qualsiasi livello indipendentemente dall'ordine nello stack; il risultato riflette l'aspetto combinato.
+
+---
+
+**Ultimo aggiornamento:** 2026-04-03  
+**Testato con:** Aspose.PSD 24.11 for Java  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

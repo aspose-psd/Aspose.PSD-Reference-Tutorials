@@ -1,37 +1,55 @@
 ---
-title: Použijte efekt tahu s barevnou výplní v PSD - Java
-linktitle: Použijte efekt tahu s barevnou výplní v PSD - Java
+date: 2026-04-03
+description: Naučte se, jak uložit PSD jako PNG s efektem obrysu a vyplněním barvou
+  pomocí Aspose.PSD pro Javu. Tento průvodce krok za krokem ukazuje, jak rychle exportovat
+  PSD do PNG.
+keywords:
+- save psd as png
+- export psd to png
+- set stroke color
+- apply layer effects
+- customize stroke width
+linktitle: Uložit PSD jako PNG s efektem obrysu – Java
 second_title: Aspose.PSD Java API
-description: Naučte se, jak aplikovat efekt tahu s barevnou výplní na vaše soubory PSD pomocí Aspose.PSD for Java. Postupujte podle tohoto podrobného průvodce, abyste své obrázky snadno vylepšili.
-weight: 21
+title: Uložit PSD jako PNG s efektem obrysu – Java
 url: /cs/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použijte efekt tahu s barevnou výplní v PSD - Java
+# Uložit PSD jako PNG s efektem obrysu a výplní barvou – Java
 
-## Zavedení
+## Úvod
 
-této příručce vás provedeme procesem aplikace efektu tahu s barevnou výplní na vaše soubory PSD pomocí Aspose.PSD for Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný návod vám usnadní práci. Pokryjeme vše od nastavení vašeho prostředí až po uložení finálního obrázku s aplikovanými efekty.
+V tomto průvodci se naučíte, jak **uložit PSD jako PNG** a přitom aplikovat efekt obrysu s výplní barvou pomocí Aspose.PSD pro Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento krok‑za‑krokem tutoriál vám usnadní práci. Probereme vše od nastavení prostředí až po export finálního obrázku, takže rychle **exportujete PSD do PNG** ve svých projektech.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co tento tutoriál dosahuje?** Ukazuje, jak uložit soubor PSD jako PNG po aplikaci přizpůsobitelného efektu obrysu.  
+- **Která knihovna je použita?** Aspose.PSD for Java.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; licence je vyžadována pro produkci.  
+- **Mohu změnit barvu obrysu?** Ano – můžete nastavit libovolnou barvu pomocí `ColorFillSettings`.  
+- **Je možné hromadné zpracování?** Rozhodně – obalte kód smyčkou pro zpracování více souborů PSD.
 
-Než začneme, ujistěte se, že máte vše, co potřebujete, abyste spolu s tímto tutoriálem:
+## Co znamená „uložit PSD jako PNG“?
+Uložení PSD jako PNG znamená převod nativního vrstveného souboru Photoshopu do plochého, web‑přátelského formátu obrázku při zachování vizuální věrnosti. To je užitečné, když potřebujete zobrazit obsah PSD na webových stránkách, mobilních aplikacích nebo na jakékoli platformě, která přímo nepodporuje soubory PSD.
 
-1. Nainstalovaná Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou JDK 8 nebo vyšší.
-2.  Aspose.PSD for Java Library: Budete potřebovat knihovnu Aspose.PSD for Java. Můžete si jej stáhnout z[webové stránky](https://releases.aspose.com/psd/java/).
-3. Integrované vývojové prostředí (IDE): IDE jako IntelliJ IDEA, Eclipse nebo jakékoli jiné podle vašeho výběru.
-4. Ukázkový soubor PSD: Ukázkový soubor PSD, na který můžete použít efekt tahu. Pokud žádný nemáte, můžete si vytvořit jednoduchý soubor PSD ve Photoshopu nebo si jej stáhnout z internetu.
-5. Základní znalost Javy: I když je tento tutoriál vhodný pro začátečníky, bude užitečné mít nějaké základní znalosti Javy.
+## Proč aplikovat efekt obrysu s výplní barvou?
+Obrys přidává ostrý kontur kolem obsahu vrstvy, což pomáhá grafice vyniknout na složitých pozadích. Kombinace s vlastní výplní barvou vám umožní značkovat obrázky, zvýraznit UI prvky nebo vytvořit poutavé náhledy bez nutnosti opustit Photoshop.
 
-Jakmile splníte tyto předpoklady, jste připraveni začít aplikovat efekt tahu s barevnou výplní na vaše soubory PSD.
+## Požadavky
 
-## Importujte balíčky
+1. **Java Development Kit (JDK) 8+** – ujistěte se, že `java` je ve vaší PATH.  
+2. **Aspose.PSD for Java** – stáhněte z [webu](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor, který preferujete.  
+4. **Ukázkový PSD** – soubor, který již obsahuje efekt obrysu (nebo jej přidejte ve Photoshopu).  
+5. **Základní znalost Javy** – napíšete několik řádků kódu, ale nic pokročilého.
 
-Chcete-li začít pracovat s Aspose.PSD for Java, budete muset do svého projektu Java importovat potřebné balíčky. Můžete to udělat takto:
+Jakmile budete mít vše připravené, můžeme začít kódovat.
+
+## Import balíčků
 
 ```java
 import com.aspose.psd.Color;
@@ -45,25 +63,21 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-Tyto importy přinášejí všechny potřebné třídy, které budete potřebovat pro práci se soubory PSD, aplikaci efektů a ukládání obrázků v požadovaném formátu.
+Tyto importy přinášejí všechny třídy potřebné k načtení PSD, úpravě jeho obrysu a uložení výstupů PSD i PNG.
 
-## Krok 1: Načtěte soubor PSD
+## Jak uložit PSD jako PNG s efektem obrysu
 
- Prvním krokem v našem procesu je načtení souboru PSD, který chcete upravit. Aspose.PSD pro Java to neuvěřitelně zjednodušuje`PsdImage` třída. Můžete to udělat takto:
+### Krok 1: Načíst soubor PSD
 
-### 1.1 Nastavte cestu k adresáři
-
-Nejprve definujte cestu k adresáři, kde jsou uloženy vaše soubory PSD:
+Nejprve odkažte na složku, která obsahuje váš zdrojový PSD.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Nahradit`"Your Document Directory"` se skutečnou cestou, kde se nachází váš soubor PSD.
+Nahraďte `"Your Document Directory"` skutečnou cestou ve vašem počítači.
 
-### 1.2 Načtěte obrázek PSD
-
- Nyní načtěte soubor PSD pomocí`PsdLoadOptions` a`PsdImage` třídy:
+Nyní načtěte soubor při zachování všech existujících zdrojů efektů:
 
 ```java
 String sourceFileName = dataDir + "StrokeComplex.psd";
@@ -74,47 +88,33 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
- Tady,`PsdLoadOptions`je nakonfigurován tak, aby načítal zdroje efektů, což zajišťuje, že všechny existující efekty v PSD jsou přístupné.
+### Krok 2: Nastavit barvu obrysu (a volitelně upravit šířku)
 
-## Krok 2: Aplikujte efekt tahu s barevnou výplní
-
-Po načtení souboru PSD je dalším krokem použití efektu tahu na vrstvy obrázku. Tady se odehrává ta pravá magie.
-
-Každý soubor PSD může obsahovat více vrstev a na každou z nich budete muset použít efekt. Jak na to:
+Smyčka níže prochází každou vrstvu, získá první `StrokeEffect` a změní jeho barvu výplně. Můžete také upravit `setWidth` nebo `setPosition` na objektu `StrokeEffect`, pokud potřebujete **upravit šířku obrysu**.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     StrokeEffect effect = (StrokeEffect) im.getLayers()[i].getBlendingOptions().getEffects()[0];
     ColorFillSettings settings = (ColorFillSettings) effect.getFillSettings();
+    // Set the stroke color – change to any Color you like
     settings.setColor(Color.getDeepPink());
 }
 ```
 
-V této smyčce:
+> **Tip:** `Color.getDeepPink()` je jen příklad. Použijte `new Color(r, g, b)` pro vlastní RGB hodnoty.
 
-- `im.getLayers()`: Načte všechny vrstvy v souboru PSD.
-- `StrokeEffect effect`: Extrahuje efekt tahu aplikovaný na vrstvu.
-- `ColorFillSettings settings`: Upravuje nastavení výplně pro efekt tahu.
-- `settings.setColor(Color.getDeepPink())`: Nastaví barvu tahu na sytě růžovou. Tuto barvu můžete změnit na libovolnou barvu.
+### Krok 3: Uložit upravený PSD (volitelné)
 
-## Krok 3: Uložte upravené PSD a exportujte jako PNG
-
-Jakmile použijete efekt tahu, je čas uložit změny a exportovat obrázek.
-
-### 3.1 Uložte soubor PSD
-
-Chcete-li uložit upravený soubor PSD, použijte následující kód:
+Pokud chcete zachovat verzi PSD s aktualizovaným obrysem, uložte ji takto:
 
 ```java
 String exportPath = dataDir + "StrokeComplexRendering.psd";
 im.save(exportPath, new PsdOptions());
 ```
 
-Tím se soubor s aplikovaným efektem tahu uloží do zadané cesty.
+### Krok 4: Exportovat obrázek jako PNG (hlavní krok „uložit PSD jako PNG“)
 
-### 3.2 Exportovat jako PNG
-
-Chcete-li obrázek zpřístupnit, můžete jej exportovat jako soubor PNG. Zde je postup:
+Nakonec převedete upravený PSD na soubor PNG připravený pro web:
 
 ```java
 String exportPathPng = dataDir + "StrokeComplexRendering.png";
@@ -124,32 +124,37 @@ option.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(exportPathPng, option);
 ```
 
-Tento fragment kódu uloží obrázek jako PNG se skutečnými barvami a průhledností alfa, takže je připraven k použití ve webových aplikacích nebo jiných platformách.
+PNG si zachová nastavený růžový obrys a volba `TruecolorWithAlpha` zajistí zachování průhlednosti.
 
-## Závěr
+## Časté problémy a řešení
 
-Použití efektu tahu s barevnou výplní na vaše soubory PSD pomocí Aspose.PSD pro Java je nejen jednoduché, ale také neuvěřitelně výkonné. Pomocí několika řádků kódu můžete automatizovat složité úlohy zpracování obrazu, což vám ušetří čas i námahu.
+| Problém | Důvod | Řešení |
+|---------|-------|--------|
+| **`ArrayIndexOutOfBoundsException`** | Vrstva nemá žádné efekty nebo první efekt není `StrokeEffect`. | Ověřte, že vrstva skutečně obsahuje obrys, nebo iterujte přes `getEffects()` a najděte správný typ. |
+| **Barva se nemění** | Možná upravujete kopii nastavení místo originálu. | Ujistěte se, že přímo přetypujete na `ColorFillSettings` z `effect.getFillSettings()`. |
+| **PNG je prázdný** | PSD byl načten bez rasterizace vrstvy. | Zavolejte `im.save(..., new PngOptions())` po všech úpravách; vyhněte se ukládání původního `im` před změnami. |
 
-Ať už pracujete na velké dávce obrázků nebo jen potřebujete upravit několik souborů, tato metoda poskytuje flexibilní a efektivní řešení. Nyní, když máte základy, můžete začít experimentovat s různými efekty a přizpůsobeními, aby vaše snímky skutečně vynikly.
+## Často kladené otázky
 
-Jste připraveni to vyzkoušet? Vezměte si svůj ukázkový soubor PSD a začněte přidávat ty úžasné efekty ještě dnes!
+**Q: Mohu aplikovat více efektů na jednu vrstvu pomocí Aspose.PSD for Java?**  
+A: Ano, můžete přistupovat k možnostem míchání vrstvy a přidávat tolik efektů, kolik potřebujete, včetně stínů, září a obrysů.
 
-## FAQ
+**Q: Je možné automatizovat proces pro dávku souborů PSD?**  
+A: Rozhodně. Obalte načítání, aplikaci efektů a ukládání logiku do smyčky `for‑each`, která prochází soubory ve složce.
 
-### Mohu použít více efektů na jednu vrstvu pomocí Aspose.PSD pro Java?
-Ano, můžete použít více efektů na jednu vrstvu tak, že otevřete možnosti prolnutí vrstvy a přidáte požadované efekty.
+**Q: Jak mohu vrátit změny provedené v souboru PSD?**  
+A: Znovu načtěte původní soubor před uložením jakýchkoli úprav; Aspose.PSD neposkytuje zásobník pro vrácení změn.
 
-### Je možné automatizovat proces pro dávku souborů PSD?
-Absolutně! Můžete procházet adresář souborů PSD, aplikovat efekt tahu a automaticky ukládat výsledky.
+**Q: Mohu upravit šířku a umístění obrysu?**  
+A: Ano. Použijte `effect.setWidth(float)` a `effect.setPosition(StrokeEffect.Position)` k nastavení tloušťky a umístění (uvnitř, vně nebo uprostřed).
 
-### Jak mohu vrátit změny provedené v souboru PSD pomocí Aspose.PSD for Java?
-Chcete-li vrátit změny, budete muset před uložením jakýchkoli úprav znovu načíst původní soubor PSD. V Aspose.PSD není žádná funkce přímého vrácení zpět.
+**Q: Je knihovna Aspose.PSD for Java zdarma k použití?**  
+A: Bezplatná zkušební verze je k dispozici pro vyhodnocení. Plná funkčnost vyžaduje zakoupenou licenci. Viz [buy options](https://purchase.aspose.com/buy) pro podrobnosti.
 
-### Mohu přizpůsobit šířku a polohu tahu?
- Ano, Aspose.PSD pro Java vám umožňuje přizpůsobit šířku tahu, polohu a další vlastnosti prostřednictvím`StrokeEffect` třída.
+**Poslední aktualizace:** 2026-04-03  
+**Testováno s:** Aspose.PSD 24.12 for Java  
+**Autor:** Aspose  
 
-### Je knihovna Aspose.PSD for Java k použití zdarma?
- Aspose.PSD for Java nabízí bezplatnou zkušební verzi, ale pro plný přístup ke všem funkcím byste si museli zakoupit licenci. Můžete prozkoumat[koupit opce](https://purchase.aspose.com/buy)na jejich webových stránkách.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

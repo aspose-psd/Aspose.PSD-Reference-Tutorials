@@ -1,37 +1,57 @@
 ---
-title: Appliquer un effet de trait avec un remplissage de couleur dans PSD - Java
-linktitle: Appliquer un effet de trait avec un remplissage de couleur dans PSD - Java
-second_title: API Java Aspose.PSD
-description: Découvrez comment appliquer un effet de trait avec un remplissage de couleur à vos fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez ce guide étape par étape pour améliorer facilement vos images.
-weight: 21
+date: 2026-04-03
+description: Apprenez comment enregistrer un PSD au format PNG avec un effet de contour
+  et un remplissage de couleur en utilisant Aspose.PSD pour Java. Ce guide étape par
+  étape montre comment exporter rapidement un PSD en PNG.
+keywords:
+- save psd as png
+- export psd to png
+- set stroke color
+- apply layer effects
+- customize stroke width
+linktitle: Enregistrer le PSD en PNG avec effet de contour – Java
+second_title: Aspose.PSD Java API
+title: Enregistrer le PSD en PNG avec effet de contour – Java
 url: /fr/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Appliquer un effet de trait avec un remplissage de couleur dans PSD - Java
+# Enregistrer le PSD en PNG avec effet de contour et remplissage de couleur – Java
 
 ## Introduction
 
-Dans ce guide, nous vous guiderons tout au long du processus d'application d'un effet de trait avec un remplissage de couleur à vos fichiers PSD à l'aide d'Aspose.PSD pour Java. Que vous soyez un développeur chevronné ou tout juste débutant, ce didacticiel étape par étape vous facilitera la tâche. Nous couvrirons tout, de la configuration de votre environnement à l'enregistrement de l'image finale avec les effets appliqués.
+Dans ce guide, vous apprendrez comment **enregistrer le PSD en PNG** tout en appliquant un effet de contour avec un remplissage de couleur à l'aide d'Aspose.PSD pour Java. Que vous soyez un développeur chevronné ou que vous débutiez, ce tutoriel pas à pas facilitera la tâche. Nous couvrirons tout, de la configuration de votre environnement à l'exportation de l'image finale, afin que vous puissiez rapidement **exporter le PSD en PNG** dans vos propres projets.
 
-## Conditions préalables
+## Réponses rapides
+- **Quel est l'objectif de ce tutoriel ?** Il montre comment enregistrer un fichier PSD en PNG après avoir appliqué un effet de contour personnalisable.  
+- **Quelle bibliothèque est utilisée ?** Aspose.PSD for Java.  
+- **Ai-je besoin d'une licence ?** Un essai gratuit fonctionne pour les tests ; une licence est requise pour la production.  
+- **Puis-je changer la couleur du contour ?** Oui – vous pouvez définir n'importe quelle couleur via le `ColorFillSettings`.  
+- **Le traitement par lots est-il possible ?** Absolument – encapsulez le code dans une boucle pour traiter plusieurs fichiers PSD.
 
-Avant de commencer, assurons-nous que vous disposez de tout ce dont vous avez besoin pour suivre ce didacticiel :
+## Qu’est‑ce que « enregistrer le PSD en PNG » ?
 
-1. Kit de développement Java (JDK) installé : assurez-vous que JDK 8 ou supérieur est installé sur votre système.
-2.  Bibliothèque Aspose.PSD pour Java : vous aurez besoin de la bibliothèque Aspose.PSD pour Java. Vous pouvez le télécharger depuis le[site web](https://releases.aspose.com/psd/java/).
-3. Environnement de développement intégré (IDE) : un IDE comme IntelliJ IDEA, Eclipse ou tout autre de votre choix.
-4. Exemple de fichier PSD : un exemple de fichier PSD auquel vous pouvez appliquer l’effet de trait. Si vous n'en avez pas, vous pouvez créer un simple fichier PSD dans Photoshop ou en télécharger un sur Internet.
-5. Connaissance de base de Java : bien que ce didacticiel soit adapté aux débutants, avoir des connaissances de base de Java sera bénéfique.
+Enregistrer un PSD en PNG signifie convertir le fichier natif à calques de Photoshop en un format d'image plat, adapté au web, tout en préservant la fidélité visuelle. Cela est utile lorsque vous devez afficher du contenu PSD sur des sites web, des applications mobiles ou toute plateforme qui ne prend pas directement en charge les fichiers PSD.
 
-Une fois ces conditions préalables remplies, vous êtes prêt à commencer à appliquer l’effet de trait avec remplissage de couleur à vos fichiers PSD.
+## Pourquoi appliquer un effet de contour avec remplissage de couleur ?
 
-## Importer des packages
+Un contour ajoute une bordure nette autour du contenu des calques, faisant ressortir les graphiques sur des arrière‑plans complexes. Le combiner avec une couleur de remplissage personnalisée vous permet de marquer les images, de mettre en évidence des éléments d'interface, ou de créer des vignettes accrocheuses sans quitter Photoshop.
 
-Pour commencer à travailler avec Aspose.PSD pour Java, vous devrez importer les packages nécessaires dans votre projet Java. Voici comment procéder :
+## Prérequis
+
+1. **Java Development Kit (JDK) 8+** – assurez‑vous que `java` est dans votre PATH.  
+2. **Aspose.PSD for Java** – téléchargez depuis le [site web](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, ou tout éditeur de votre choix.  
+4. **Sample PSD** – un fichier contenant déjà un effet de contour (ou ajoutez‑en un dans Photoshop).  
+5. **Basic Java knowledge** – vous écrirez quelques lignes de code, mais rien de complexe.
+
+Une fois que vous avez tout cela, nous pouvons commencer à coder.
+
+## Importer les packages
 
 ```java
 import com.aspose.psd.Color;
@@ -45,25 +65,21 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-Ces importations apportent toutes les classes nécessaires dont vous aurez besoin pour travailler avec des fichiers PSD, appliquer des effets et enregistrer les images dans le format souhaité.
+Ces importations incluent toutes les classes nécessaires pour charger un PSD, modifier son contour et enregistrer les sorties PSD et PNG.
 
-## Étape 1 : Chargez le fichier PSD
+## Comment enregistrer le PSD en PNG avec effet de contour
 
- La première étape de notre processus consiste à charger le fichier PSD que vous souhaitez modifier. Aspose.PSD pour Java rend cela incroyablement simple avec son`PsdImage` classe. Voici comment procéder :
+### Étape 1 : Charger le fichier PSD
 
-### 1.1 Définir le chemin du répertoire
-
-Tout d’abord, définissez le chemin du répertoire dans lequel vos fichiers PSD sont stockés :
+Tout d'abord, indiquez le dossier contenant votre PSD source.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Remplacer`"Your Document Directory"` avec le chemin réel où se trouve votre fichier PSD.
+Remplacez `"Your Document Directory"` par le chemin réel sur votre machine.
 
-### 1.2 Charger l'image PSD
-
- Maintenant, chargez le fichier PSD en utilisant le`PsdLoadOptions` et`PsdImage` cours :
+Chargez maintenant le fichier tout en préservant les ressources d'effets existantes :
 
 ```java
 String sourceFileName = dataDir + "StrokeComplex.psd";
@@ -74,47 +90,33 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
- Ici, le`PsdLoadOptions`est configuré pour charger les ressources d'effets, garantissant que tous les effets existants dans le PSD sont accessibles.
+### Étape 2 : Définir la couleur du contour (et éventuellement personnaliser la largeur)
 
-## Étape 2 : Appliquer un effet de trait avec un remplissage de couleur
-
-Une fois le fichier PSD chargé, l'étape suivante consiste à appliquer l'effet de trait aux calques de l'image. C’est là que la vraie magie opère.
-
-Chaque fichier PSD peut contenir plusieurs calques et vous devrez appliquer l'effet à chacun. Voici comment procéder :
+La boucle ci‑dessous parcourt chaque calque, récupère le premier `StrokeEffect` et modifie sa couleur de remplissage. Vous pouvez également ajuster `setWidth` ou `setPosition` sur l'objet `StrokeEffect` si vous devez **personnaliser la largeur du contour**.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     StrokeEffect effect = (StrokeEffect) im.getLayers()[i].getBlendingOptions().getEffects()[0];
     ColorFillSettings settings = (ColorFillSettings) effect.getFillSettings();
+    // Set the stroke color – change to any Color you like
     settings.setColor(Color.getDeepPink());
 }
 ```
 
-Dans cette boucle :
+> **Astuce :** `Color.getDeepPink()` n'est qu'un exemple. Utilisez `new Color(r, g, b)` pour des valeurs RGB personnalisées.
 
-- `im.getLayers()`: Récupère tous les calques du fichier PSD.
-- `StrokeEffect effect`: Extrait l’effet de trait appliqué au calque.
-- `ColorFillSettings settings`: modifie les paramètres de remplissage pour l'effet de trait.
-- `settings.setColor(Color.getDeepPink())`: Définit la couleur du trait sur rose foncé. Vous pouvez changer cela en n’importe quelle couleur que vous préférez.
+### Étape 3 : Enregistrer le PSD modifié (optionnel)
 
-## Étape 3 : Enregistrez le PSD modifié et exportez-le au format PNG
-
-Une fois que vous avez appliqué l'effet de trait, il est temps d'enregistrer les modifications et d'exporter l'image.
-
-### 3.1 Enregistrez le fichier PSD
-
-Pour enregistrer le fichier PSD modifié, utilisez le code suivant :
+Si vous souhaitez conserver une version PSD avec le contour mis à jour, enregistrez‑la ainsi :
 
 ```java
 String exportPath = dataDir + "StrokeComplexRendering.psd";
 im.save(exportPath, new PsdOptions());
 ```
 
-Cela enregistre le fichier avec l'effet de trait appliqué dans le chemin spécifié.
+### Étape 4 : Exporter l'image en PNG (l'étape principale « enregistrer le PSD en PNG »)
 
-### 3.2 Exporter au format PNG
-
-Pour rendre l'image plus accessible, vous souhaiterez peut-être l'exporter sous forme de fichier PNG. Voici comment procéder :
+Enfin, convertissez le PSD modifié en fichier PNG prêt pour le web :
 
 ```java
 String exportPathPng = dataDir + "StrokeComplexRendering.png";
@@ -124,32 +126,39 @@ option.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(exportPathPng, option);
 ```
 
-Cet extrait de code enregistre l'image au format PNG avec de vraies couleurs et une transparence alpha, la rendant prête à être utilisée dans des applications Web ou d'autres plates-formes.
+Le PNG conserve le contour rose vif que vous avez défini précédemment, et l'option `TruecolorWithAlpha` garantit que la transparence est préservée.
 
-## Conclusion
+## Problèmes courants et solutions
 
-Appliquer un effet de trait avec un remplissage de couleur à vos fichiers PSD à l'aide d'Aspose.PSD pour Java est non seulement simple mais aussi incroyablement puissant. Avec seulement quelques lignes de code, vous pouvez automatiser des tâches complexes de traitement d’images, ce qui vous fera gagner du temps et des efforts.
+| Problème | Raison | Solution |
+|----------|--------|----------|
+| **`ArrayIndexOutOfBoundsException`** | Le calque n’a aucun effet ou le premier effet n’est pas un `StrokeEffect`. | Vérifiez que le calque contient réellement un contour ou parcourez `getEffects()` pour trouver le bon type. |
+| **Couleur ne change pas** | Vous pourriez modifier une copie des paramètres au lieu de l’original. | Assurez‑vous de caster directement en `ColorFillSettings` depuis `effect.getFillSettings()`. |
+| **Le PNG apparaît vide** | Le PSD a été chargé sans rasteriser le calque. | Appelez `im.save(..., new PngOptions())` après toutes les modifications ; évitez d’enregistrer le `im` original avant les changements. |
 
-Que vous travailliez sur un grand nombre d'images ou que vous ayez simplement besoin de modifier quelques fichiers, cette méthode constitue une solution flexible et efficace. Maintenant que vous maîtrisez les bases, vous pouvez commencer à expérimenter différents effets et personnalisations pour que vos images se démarquent vraiment.
+## Questions fréquemment posées
 
-Prêt à l'essayer ? Prenez votre exemple de fichier PSD et commencez à ajouter ces effets époustouflants dès aujourd'hui !
+**Q : Puis‑je appliquer plusieurs effets à un même calque avec Aspose.PSD pour Java ?**  
+A : Oui, vous pouvez accéder aux options de fusion du calque et ajouter autant d’effets que nécessaire, y compris les ombres, les lueurs et les contours.
 
-## FAQ
+**Q : Est‑il possible d’automatiser le processus pour un lot de fichiers PSD ?**  
+A : Absolument. Encapsulez la logique de chargement, d’application des effets et d’enregistrement dans une boucle `for‑each` qui parcourt les fichiers d’un répertoire.
 
-### Puis-je appliquer plusieurs effets à un seul calque à l’aide d’Aspose.PSD pour Java ?
-Oui, vous pouvez appliquer plusieurs effets à un seul calque en accédant aux options de fusion du calque et en ajoutant les effets souhaités.
+**Q : Comment puis‑je annuler les modifications apportées à un fichier PSD ?**  
+A : Rechargez le fichier original avant d’enregistrer des modifications ; Aspose.PSD ne fournit pas de pile d’annulation.
 
-### Est-il possible d'automatiser le processus pour un lot de fichiers PSD ?
-Absolument! Vous pouvez parcourir un répertoire de fichiers PSD, appliquer l'effet de trait et enregistrer automatiquement les résultats.
+**Q : Puis‑je personnaliser la largeur et la position du contour ?**  
+A : Oui. Utilisez `effect.setWidth(float)` et `effect.setPosition(StrokeEffect.Position)` pour contrôler l’épaisseur et le placement (à l’intérieur, à l’extérieur ou centré).
 
-### Comment puis-je annuler les modifications apportées à un fichier PSD à l'aide d'Aspose.PSD pour Java ?
-Pour annuler les modifications, vous devrez recharger le fichier PSD d'origine avant d'enregistrer les modifications. Il n'y a pas de fonction d'annulation directe dans Aspose.PSD.
+**Q : La bibliothèque Aspose.PSD pour Java est‑elle gratuite à utiliser ?**  
+A : Un essai gratuit est disponible pour l’évaluation. La pleine fonctionnalité nécessite une licence achetée. Consultez les [options d’achat](https://purchase.aspose.com/buy) pour plus de détails.
 
-### Puis-je personnaliser la largeur et la position du trait ?
- Oui, Aspose.PSD pour Java vous permet de personnaliser la largeur du trait, la position et d'autres propriétés via le`StrokeEffect` classe.
+---
 
-### L'utilisation de la bibliothèque Aspose.PSD pour Java est-elle gratuite ?
- Aspose.PSD pour Java propose un essai gratuit, mais pour un accès complet à toutes les fonctionnalités, vous devrez acheter une licence. Vous pouvez explorer le[acheter des options](https://purchase.aspose.com/buy)sur leur site Internet.
+**Dernière mise à jour :** 2026-04-03  
+**Testé avec :** Aspose.PSD 24.12 for Java  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

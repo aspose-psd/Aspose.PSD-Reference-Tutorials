@@ -1,37 +1,58 @@
 ---
-title: 使用 Aspose.PSD Java 展平 PSD 文件中的图层
-linktitle: 使用 Aspose.PSD Java 展平 PSD 文件中的图层
+date: 2026-04-03
+description: 了解如何使用 Aspose.PSD for Java 通过合并图层来减小 PSD 文件大小。本分步指南展示了如何快速合并 PSD 文件。
+keywords:
+- reduce psd file size
+- how to flatten psd
+- flatten visible layers psd
+linktitle: 通过扁平化图层减小 PSD 文件大小 – Aspose.PSD Java
 second_title: Aspose.PSD Java API
-description: 使用 Aspose.PSD for Java 轻松拼合和合并 PSD 文件中的图层。按照此分步指南简化您的 PSD 文件管理。
-weight: 13
+title: 通过扁平化图层减小 PSD 文件大小 – Aspose.PSD Java
 url: /zh/java/psd-layer-management-effects/flatten-layers-psd-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PSD Java 展平 PSD 文件中的图层
+# 通过扁平化图层减小 PSD 文件大小 – Aspose.PSD Java
 
 ## 介绍
 
-您是否曾经在使用 Photoshop 文件时希望有一种更简单的方法来管理这些复杂的图层？好吧，您很幸运！今天，我们将深入研究 Aspose.PSD for Java 的世界，这是一个功能强大的工具，可让您轻而易举地以编程方式处理 PSD 文件。我们将探索的便捷功能之一是拼合图层。无论您是想拼合整个图像还是有选择地合并特定图层，Aspose.PSD for Java 都能满足您的需求。本教程将逐步指导您完成整个过程，确保您准备好自信地处理 PSD 文件。
+如果你曾经打开过 Photoshop 文档并想知道如何**减小 PSD 文件大小**，扁平化图层是最有效的技巧之一。使用 Aspose.PSD for Java，你可以以编程方式扁平化整个 PSD，或仅合并你选择的图层，从而在不牺牲视觉质量的前提下细致地控制文件体积。在本教程中，我们将演示两种方法——扁平化整个图像和合并特定图层——帮助你快速缩小 PSD 文件并保持工作流顺畅。
 
-## 先决条件
+## 快速答疑
+- **扁平化有什么作用？** 它将可见图层合并为单个背景图层，去除图层信息，通常可以减小文件大小。  
+- **我可以只扁平化选定的图层吗？** 可以，你可以合并特定图层，而保持其他图层不变。  
+- **我需要许可证吗？** 免费试用可用于开发；生产环境需要商业许可证。  
+- **需要哪个 Java 版本？** JDK 8 或更高版本。  
+- **扁平化会影响图像质量吗？** 不会，视觉外观保持不变，仅图层结构会改变。
 
-在我们进入代码之前，让我们确保您拥有所需的一切：
+## 什么是“减小 PSD 文件大小”？
 
-1. Java 开发工具包 (JDK)：确保您的系统上安装了 JDK 8 或更高版本。
-2.  Aspose.PSD for Java：下载并添加 Aspose.PSD 库到你的项目中。你可以找到它[这里](https://releases.aspose.com/psd/java/).
-3. 集成开发环境 (IDE)：IntelliJ IDEA 或 Eclipse 等 IDE 将使您的编码体验更加流畅。
-4. Java 基础知识：虽然本教程适合初学者，但一些 Java 基础知识可以帮助您更轻松地学习。
-5. 示例 PSD 文件：准备好一个 PSD 文件以供试验。我们将使用一个具有多个图层的文件来演示扁平化过程。
+减小 PSD 文件大小是指删除不必要的数据——例如多余的图层、隐藏的通道或过多的元数据——使文件更轻便，加载、共享或处理速度更快。扁平化图层是一种常用技术，因为它在保留最终合成图像的同时丢弃了独立的图层对象。
 
-现在我们已经了解了基本知识，让我们进入有趣的部分 - 使用代码！
+## 为什么使用 Aspose.PSD for Java 扁平化图层？
+
+- **自动化：** 无需手动打开 Photoshop；可直接集成到你的 Java 应用程序中。  
+- **精确控制：** 可以选择扁平化整个文档或仅可见图层（`flattenImage`），或合并选定图层（`mergeLayers`）。  
+- **性能提升：** 更小的文件加载更快，在后续处理过程中占用更少的内存。  
+- **跨平台：** 在任何支持 Java 的操作系统上均可运行。
+
+## 前置条件
+
+1. **Java Development Kit (JDK)：** 已安装 JDK 8 或更高版本。  
+2. **Aspose.PSD for Java：** 从[此处](https://releases.aspose.com/psd/java/)下载库。  
+3. **IDE：** IntelliJ IDEA、Eclipse 或任何兼容 Java 的 IDE。  
+4. **基本的 Java 知识：** 有帮助，但并非执行步骤的必需条件。  
+5. **示例 PSD：** 包含多个图层的文件（我们将使用 `ThreeRegularLayersSemiTransparent.psd`）。
+
+现在所有准备工作已就绪，让我们深入代码。
 
 ## 导入包
 
-首先，您需要将必要的包导入到 Java 项目中。这些包将允许您使用 Aspose.PSD for Java 处理 PSD 文件。
+首先，导入必要的 Aspose.PSD 类：
 
 ```java
 import com.aspose.psd.Image;
@@ -39,15 +60,13 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-这些导入将使我们能够加载 PSD 文件、操作图层并保存更改。现在，让我们将扁平化图层的过程分解为可管理的步骤。
+这些导入使我们能够加载 PSD 文件、操作其图层并保存结果。
 
-## 步骤 1：展平整个 PSD 图像
+## 步骤 1：扁平化整个 PSD 图像
 
-第一个任务是拼合整个 PSD 图像。当您想将所有图层合并为一个图层时，此功能非常有用，可让图像更易于管理和导出。
+扁平化整个图像是**减小 PSD 文件大小**的最快方法，因为它会删除所有单独的图层数据。
 
 ### 1.1 加载 PSD 文件
-
-首先，我们将 PSD 文件加载到程序中。此文件应放在你的项目目录中，我们将其称为`Your Document Directory`.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,46 +74,32 @@ String sourceFileName = dataDir + "ThreeRegularLayersSemiTransparent.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-此代码片段加载名为`ThreeRegularLayersSemiTransparent.psd`来自您指定的目录。
-
-### 1.2 展平图像
-
-接下来，我们将拼合整个图像。拼合将所有可见图层合并为一个背景图层。
+### 1.2 扁平化图像
 
 ```java
 im.flattenImage();
 ```
 
-使用这一行命令，您的 PSD 文件中的所有图层都将合并为一个。
-
-### 1.3 保存拼合图像
-
-最后，我们将平面图像保存到新文件中。
+### 1.3 保存扁平化后的图像
 
 ```java
 String exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattened.psd";
 im.save(exportPath);
 ```
 
-这将以新名称保存扁平化的 PSD 文件`ThreeRegularLayersSemiTransparentFlattened.psd`。恭喜！您刚刚使用 Aspose.PSD for Java 拼合了您的第一个 PSD 图像。
+你的新文件现在只包含一个背景图层，通常会导致 PSD 文件体积更小。
 
-## 第 2 步：合并特定图层
+## 步骤 2：合并特定图层（如何选择性扁平化 PSD）
 
-有时，您可能不想拼合整个图像，而只想合并某些图层。让我们看看如何实现这一点。
+有时你只想**扁平化可见图层**，或在保留其他图层可编辑的情况下合并部分图层。
 
 ### 2.1 再次加载 PSD 文件
-
-由于我们正在执行不同的操作，因此请先再次加载 PSD 文件。
 
 ```java
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 ```
 
-这将加载相同的 PSD 文件，准备进行特定于图层的操作。
-
-### 2.2 识别和选择图层
-
-要合并特定图层，首先，确定并选择要合并的图层。
+### 2.2 确认并选择图层
 
 ```java
 Layer bottomLayer = img.getLayers()[0];
@@ -102,63 +107,60 @@ Layer middleLayer = img.getLayers()[1];
 Layer topLayer = img.getLayers()[2];
 ```
 
-这里我们选择 PSD 文件的第一、第二和第三层。这些层存储在一个数组中，您可以通过它们的索引访问它们。
-
 ### 2.3 合并图层
-
-现在，让我们合并选定的图层。我们先合并底层和中间层，然后将结果与顶层合并。
 
 ```java
 Layer layer1 = img.mergeLayers(bottomLayer, middleLayer);
 Layer layer2 = img.mergeLayers(layer1, topLayer);
 ```
 
-此代码按顺序合并各层，最终生成单个组合层。
-
-### 2.4 使用合并图层替换现有图层
-
-合并后，需要用新合并的图层替换图像中现有的图层。
+### 2.4 用合并后的图层替换现有图层
 
 ```java
 img.setLayers(new Layer[]{layer2});
 ```
 
-此步骤确保图像现在只包含合并的图层。
-
-### 2.5 保存更新的 PSD 文件
-
-最后，保存合并图层后的更新后的 PSD 文件。
+### 2.5 保存更新后的 PSD 文件
 
 ```java
 exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattenedLayerByLayer.psd";
 img.save(exportPath);
 ```
 
-这将以新名称保存包含合并图层的 PSD，从而使您能够保持原始文件的完整性。
+现在 PSD 只包含合并后的图层，实现了在保留所需图层的同时减小文件体积。
 
-## 结论
+## 常见问题与技巧
 
-使用 PSD 文件中的图层通常感觉就像在迷宫中穿行，但使用 Aspose.PSD for Java，就像手中有一张地图。无论您需要拼合整个图像还是仔细合并选定的图层，Aspose.PSD 都可以简化流程，将原本艰巨的任务变成简单的操作。通过遵循本教程，您现在应该可以轻松地使用 Java 处理 PSD 文件中的图层操作。那么为什么不在自己的项目中尝试一下，看看您节省了多少时间和精力呢？
+- **扁平化前备份：** 一旦图层被扁平化，操作无法撤销。请保留原始 PSD 的副本。  
+- **可见性重要：** `flattenImage()` 只合并*可见*图层。隐藏任何不想包含的图层。  
+- **内存使用：** 大型 PSD 可能占用大量内存；请考虑在内存充足的机器上进行处理。  
+- **混合模式：** 合并时会保留每个图层的混合模式，因此视觉结果与 Photoshop 中看到的相同。
 
-## 常见问题解答
+## 常见问题
 
-### 我可以撤消 Aspose.PSD 中图层的展平吗？  
-不可以，一旦使用 Aspose.PSD 拼合图层，此操作将不可逆转。保留原始文件的备份始终是好习惯。
+**问：我可以撤销 Aspose.PSD 中的图层扁平化吗？**  
+答：不能，扁平化是不可逆的。请始终保留原始文件的备份。
 
-### 是否可以仅展平可见图层？  
-是的，您可以根据图层的可见性来控制要拼合哪些图层。在使用`flattenImage`方法。
+**问：是否可以只扁平化可见图层？**  
+答：可以。`flattenImage()` 会遵循图层的可见性，在调用该方法前请隐藏任何不想扁平化的图层。
 
-### 扁平化图层是否会减小文件大小？  
-扁平化图层可以减小文件大小，尤其是在存在许多复杂图层的情况下。不过，确切的减小量取决于图层的内容。
+**问：扁平化图层会减小文件大小吗？**  
+答：通常会。删除图层数据和元数据往往会使 PSD 更小，尽管具体减小幅度取决于内容。
 
-### 我可以合并具有不同混合模式的图层吗？  
-是的，您可以使用 Aspose.PSD 合并具有不同混合模式的图层，并且生成的图层将保留合并图层的外观。
+**问：我可以合并具有不同混合模式的图层吗？**  
+答：当然可以。Aspose.PSD 在合并图层时会保留其混合模式所产生的视觉效果。
 
-### 如果我尝试合并不相邻的图层会发生什么？  
-Aspose.PSD 允许您合并任何图层，无论其在图层堆栈中的顺序如何。合并过程将按指定顺序组合选定的图层。
+**问：如果尝试合并非相邻的图层会怎样？**  
+答：Aspose.PSD 允许合并任意图层，无论它们在堆栈中的顺序如何；结果会体现合并后的外观。
+
+---
+
+**最后更新：** 2026-04-03  
+**测试环境：** Aspose.PSD 24.11 for Java  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

@@ -1,37 +1,61 @@
 ---
-title: Mettez en surbrillance la couleur de la feuille dans les fichiers PSD à l'aide d'Aspose.PSD Java
-linktitle: Mettez en surbrillance la couleur de la feuille dans les fichiers PSD à l'aide d'Aspose.PSD Java
-second_title: API Java Aspose.PSD
-description: Découvrez comment mettre en évidence les couleurs des feuilles dans les fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour améliorer vos compétences en manipulation d'images en Java.
-weight: 19
+date: 2026-04-03
+description: Apprenez à mettre en évidence les couleurs de feuille dans les fichiers
+  PSD en utilisant Aspose.PSD pour Java. Suivez notre guide étape par étape pour améliorer
+  vos compétences en manipulation d’images en Java.
+keywords:
+- highlight sheet color psd
+- change psd layer color
+- Aspose.PSD Java
+linktitle: Mettre en surbrillance la couleur de la feuille dans les fichiers PSD avec
+  Aspise.PSD Java
+second_title: Aspose.PSD Java API
+title: Surligner la couleur de la feuille dans les fichiers PSD à l'aide d'Aspise.PSD
+  Java
 url: /fr/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mettez en surbrillance la couleur de la feuille dans les fichiers PSD à l'aide d'Aspose.PSD Java
+# Mettre en évidence la couleur de la feuille dans les fichiers PSD avec Aspose.PSD Java
 
 ## Introduction
 
-Cherchez-vous à vous plonger dans la manipulation d’images et à améliorer vos créations numériques à l’aide de Java ? Que vous soyez un développeur chevronné ou débutant, travailler avec des fichiers PSD peut ouvrir un monde de possibilités. Les fichiers PSD constituent la norme industrielle pour l'édition d'images en couches et, grâce à la puissance d'Aspose.PSD pour Java, vous pouvez manipuler ces fichiers sans effort dans vos applications Java. Aujourd'hui, nous allons expliquer comment mettre en évidence les couleurs des feuilles dans les fichiers PSD, afin de garantir que vos conceptions se démarquent de la manière la plus éclatante possible.
+Si vous devez **highlight sheet color psd** des fichiers de manière programmatique, vous êtes au bon endroit. Dans ce tutoriel, nous parcourrons un exemple complet et pratique qui montre comment changer la couleur de la feuille des calques individuels en utilisant Aspose.PSD pour Java. Que vous construisiez un outil de traitement par lots, un éditeur personnalisé, ou que vous automatisiez simplement des tâches de conception répétitives, maîtriser cette technique vous donnera un contrôle granulaire sur vos actifs PSD.
 
-## Conditions préalables
+## Réponses rapides
+- **What does “highlight sheet color” mean?** C’est un indicateur visuel attribué à un calque qui apparaît sous forme de bande colorée dans le panneau des calques de Photoshop.  
+- **Which library handles this in Java?** Aspose.PSD for Java fournit le `SheetColorHighlightEnum` et les API associées.  
+- **Do I need a license to try it?** Une version d’essai gratuite est disponible ; une licence est requise pour une utilisation en production.  
+- **Can I change multiple layers at once?** Oui—parcourez la collection `Layer[]` et définissez le surlignage de chaque calque.  
+- **What Java version is required?** JDK 8 ou supérieur.
 
-Avant de plonger dans le code, assurons-nous que vous disposez de tout ce dont vous avez besoin pour le suivre en douceur. Voici une liste de contrôle de ce dont vous aurez besoin :
+## Qu’est-ce que « highlight sheet color psd » ?
 
--  Kit de développement Java (JDK) : assurez-vous que JDK 8 ou supérieur est installé sur votre ordinateur. Sinon, vous pouvez le télécharger depuis le[Site Web Java](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Environnement de développement intégré (IDE) : un IDE comme IntelliJ IDEA, Eclipse ou NetBeans facilitera le codage. Choisissez-en un avec lequel vous êtes à l'aise.
-- Aspose.PSD pour la bibliothèque Java : c'est la star du spectacle ! Vous devrez télécharger et référencer la bibliothèque Aspose.PSD pour Java dans votre projet. Vous pouvez l'obtenir de[Le site d'Aspose](https://releases.aspose.com/psd/java/).
--  Exemple de fichier PSD : nous utiliserons un exemple de fichier PSD nommé`SheetColorHighlightExample.psd` pour ce tutoriel. Vous pouvez créer le vôtre ou télécharger un échantillon sur Internet.
-- Connaissance de base de Java : Une compréhension fondamentale de la programmation Java est essentielle pour suivre ce tutoriel.
+Un surlignage de couleur de feuille est un attribut de métadonnées stocké dans un fichier PSD qui indique à Photoshop (et aux outils compatibles) d’afficher une barre colorée à côté du nom d’un calque. C’est utile pour identifier rapidement des groupes de calques — pensez‑y comme à une étiquette visuelle qui peut être définie sur des couleurs comme Violet, Orange, Jaune, etc.
 
-Une fois tout en place, passons à l'importation des packages nécessaires et à la préparation de votre projet.
+## Pourquoi changer la couleur du calque PSD de manière programmatique ?
 
-## Importer des packages
+- **Automation:** Traiter des centaines de fichiers sans clics manuels.  
+- **Consistency:** Appliquer un schéma de nommage/couleur cohérent à travers un système de conception.  
+- **Integration:** Combiner la manipulation de PSD avec d’autres flux de travail basés sur Java (par ex., génération d’actifs pour applications mobiles).  
 
-Tout d’abord, importons les packages requis pour démarrer notre projet. Ces importations nous permettront de travailler avec des fichiers PSD et de les manipuler efficacement à l'aide d'Aspose.PSD pour Java.
+## Prérequis
+
+Avant de plonger dans le code, assurez‑vous de disposer de :
+
+- **Java Development Kit (JDK) 8+** – téléchargez depuis le [Java website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **IDE** – IntelliJ IDEA, Eclipse ou NetBeans (au choix).  
+- **Aspose.PSD for Java library** – obtenez‑la depuis le [Aspose's website](https://releases.aspose.com/psd/java/).  
+- **Sample PSD file** – `SheetColorHighlightExample.psd` (créez le vôtre ou récupérez un exemple en ligne).  
+- **Basic Java knowledge** – vous devez être à l’aise avec les classes, les méthodes et les I/O de fichiers simples.
+
+## Importer les packages
+
+Ensuite, importez les classes dont nous aurons besoin. Ces importations nous donnent accès à la gestion d’image de base, à la manipulation des calques et à l’énumération des surlignages de couleur de feuille.
 
 ```java
 import com.aspose.psd.Image;
@@ -41,15 +65,13 @@ import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.SheetColorHighlightEnum;
 ```
 
-Ces importations apportent les classes et méthodes nécessaires que nous utiliserons pour manipuler les fichiers PSD, notamment pour mettre en évidence les couleurs des feuilles.
+## Guide étape par étape
 
-## Étape 1 : Chargez le fichier PSD
+### Étape 1 : Charger le fichier PSD
 
-La première étape de notre tutoriel consiste à charger le fichier PSD que vous souhaitez manipuler. Nous utiliserons le`PsdImage` classe d’Aspose.PSD pour Java pour charger le fichier dans notre application.
+#### 1.1 Définir les chemins de fichiers
 
-### Étape 1.1 : Définir les chemins de fichiers
-
-Avant de charger le fichier, définissons les chemins d'accès aux fichiers PSD source et de sortie. Nous utiliserons une variable chaîne pour stocker le chemin du répertoire où se trouvent vos fichiers.
+Configurez les chemins source et destination. Remplacez le texte de substitution par le dossier réel contenant votre fichier PSD.
 
 ```java
 String dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -58,96 +80,79 @@ String sourceFileName = dataDir + "SheetColorHighlightExample.psd";
 String exportPath = dataDir + "SheetColorHighlightExampleChanged.psd";
 ```
 
- Remplacer`"YOUR DOCUMENT DIRECTORY"` avec le chemin réel où votre fichier PSD est stocké. Cette configuration garantit que votre application sait où trouver le fichier et où enregistrer la version modifiée.
+#### 1.2 Charger le fichier PSD
 
-### Étape 1.2 : Chargez le fichier PSD
-
- Maintenant que nos chemins de fichiers sont définis, chargeons le fichier PSD en utilisant le`Image.load()` méthode et convertissez-le en un`PsdImage`.
+Utilisez `Image.load()` et cast le résultat en `PsdImage` afin de pouvoir travailler avec les fonctionnalités spécifiques aux PSD.
 
 ```java
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
- Cette ligne de code charge le fichier PSD et le prépare à la manipulation en le convertissant dans un fichier PSD.`PsdImage` objet, spécialement conçu pour gérer les fichiers PSD dans Aspose.PSD pour Java.
+### Étape 2 : Accéder et inspecter les calques
 
-## Étape 2 : Accéder et manipuler les calques
+Les calques contiennent le contenu visuel d’un PSD. Nous lirons les surlignages de couleur de feuille actuels pour vérifier l’état initial.
 
-Dans les fichiers PSD, c'est dans les calques que la magie opère. Ils vous permettent de séparer les différents éléments de votre conception et de les manipuler indépendamment. Dans cette étape, nous accéderons aux calques de notre fichier PSD et vérifierons les surbrillances de couleur actuelles de leur feuille.
-
-### Étape 2.1 : accéder à la première couche
-
-Commençons par accéder à la première couche du fichier PSD et vérifier la couleur actuelle de sa feuille.
+#### 2.1 Accéder au premier calque
 
 ```java
 Layer layer1 = im.getLayers()[0];
 Assert.areEqual(SheetColorHighlightEnum.Violet, layer1.getSheetColorHighlight());
 ```
 
- Ici, nous accédons à la première couche du fichier PSD en utilisant le`getLayers()` méthode. On utilise alors`Assert.areEqual()` pour vérifier que la couleur de surbrillance de la feuille de ce calque est définie sur Violet. Cette étape est cruciale pour garantir que nous travaillons avec le bon calque.
-
-### Étape 2.2 : accéder à la deuxième couche
-
-Ensuite, nous accéderons au deuxième calque et vérifierons également la surbrillance de la couleur de sa feuille.
+#### 2.2 Accéder au deuxième calque
 
 ```java
 Layer layer2 = im.getLayers()[1];
 Assert.areEqual(SheetColorHighlightEnum.Orange, layer2.getSheetColorHighlight());
 ```
 
-De même, nous accédons au deuxième calque et vérifions que la couleur de sa feuille est définie sur Orange. En vérifiant ces points saillants, nous pouvons nous assurer que chaque couche est correctement identifiée avant d'apporter des modifications.
+### Étape 3 : Modifier le surlignage de couleur de feuille
 
-## Étape 3 : modifier la surbrillance de la couleur de la feuille
-
-Maintenant que nous avons identifié les calques et la couleur actuelle de leur feuille, il est temps de modifier l'un d'entre eux. Dans cette étape, nous allons modifier la couleur de la feuille du premier calque.
-
-### Étape 3.1 : Définir la surbrillance de la nouvelle couleur de la feuille
-
-Pour faire ressortir notre design, changeons la couleur de la feuille du premier calque en jaune.
+Maintenant, nous changerons le surlignage du premier calque en Jaune, démontrant comment **change psd layer color** de manière programmatique.
 
 ```java
 layer1.setSheetColorHighlight(SheetColorHighlightEnum.Yellow);
 ```
 
-Cette ligne de code modifie la couleur de la feuille du premier calque en jaune. C'est un moyen simple mais puissant de faire ressortir vos éléments de conception.
+### Étape 4 : Enregistrer le fichier PSD modifié
 
-## Étape 4 : Enregistrez le fichier PSD modifié
-
-Après avoir modifié la surbrillance de la couleur de la feuille, la dernière étape consiste à enregistrer les modifications dans un nouveau fichier PSD. Cela garantit que votre fichier d'origine reste intact tandis que vos modifications sont enregistrées séparément.
-
-### Étape 4.1 : Enregistrez le fichier
-
-Sauvegardons le fichier PSD modifié dans le chemin que nous avons défini précédemment.
+Enregistrez les modifications dans un nouveau fichier afin que l’original reste intact.
 
 ```java
 im.save(exportPath);
 ```
 
- Cette commande enregistre vos modifications dans un nouveau fichier PSD situé au`exportPath`vous avez défini plus tôt. Vous disposez désormais des fichiers originaux et modifiés, ce qui vous permet de comparer les modifications côte à côte.
+## Problèmes courants et solutions
 
-## Conclusion
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| `Assert` échoue | Le surlignage existant du calque n’est pas celui attendu par le code (par ex., PSD différent). | Ouvrez le PSD dans Photoshop pour vérifier les couleurs, ou supprimez les vérifications `Assert` pour un script plus flexible. |
+| `NullPointerException` sur `im.getLayers()` | Le fichier n’a pas été chargé correctement (chemin incorrect ou fichier corrompu). | Vérifiez `sourceFileName` et assurez‑vous que le PSD est valide. |
+| Le surlignage n’apparaît pas dans Photoshop | Photoshop met en cache les informations des calques ; il peut être nécessaire de rouvrir le fichier. | Fermez et rouvrez le PSD après l’enregistrement, ou utilisez `im.flush()` avant d’enregistrer. |
 
-Félicitations! Vous avez réussi à manipuler les surbrillances de couleur de la feuille dans un fichier PSD à l'aide d'Aspose.PSD pour Java. En suivant ce guide étape par étape, vous disposez désormais des compétences nécessaires pour personnaliser et améliorer vos fichiers PSD par programmation, ajoutant ainsi une nouvelle couche de créativité à vos projets Java.
+## Questions fréquentes
 
-Aspose.PSD pour Java est un outil puissant qui ouvre des possibilités infinies pour travailler avec des fichiers PSD. Que vous mettiez en surbrillance des calques, ajustiez les couleurs ou transformiez vos conceptions d'une autre manière, cette bibliothèque offre toutes les fonctionnalités dont vous avez besoin.
+**Q : Qu’est‑ce qu’Aspose.PSD pour Java ?**  
+R : Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de lire, modifier et enregistrer des fichiers PSD sans avoir besoin de Photoshop installé.
 
-Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à consulter la documentation Aspose.PSD, à essayer un essai gratuit ou à demander l'aide de la communauté.
+**Q : Puis‑je utiliser Aspose.PSD pour Java avec d’autres formats de fichier ?**  
+R : Oui—BMP, PNG, JPEG, GIF, TIFF, et plus sont pris en charge, permettant la conversion vers et depuis le PSD.
 
-## FAQ
+**Q : Est‑il possible d’annuler les modifications apportées à un fichier PSD avec Aspose.PSD pour Java ?**  
+R : Une fois enregistrées, les modifications sont permanentes. Conservez une copie de sauvegarde du fichier original si vous devez revenir en arrière.
 
-### Qu’est-ce qu’Aspose.PSD pour Java ?
-Aspose.PSD pour Java est une bibliothèque qui permet aux développeurs de travailler avec des fichiers PSD par programme, fournissant des outils pour manipuler des images, des calques et d'autres éléments dans les fichiers PSD.
+**Q : Comment obtenir une licence pour Aspose.PSD pour Java ?**  
+R : Achetez une licence sur le [site Aspose](https://purchase.aspose.com/buy). Si vous évaluez, vous pouvez demander une [licence temporaire](https://purchase.aspose.com/temporary-license/) pour une période limitée.
 
-### Puis-je utiliser Aspose.PSD pour Java avec d’autres formats de fichiers ?
-Oui, Aspose.PSD pour Java prend en charge plusieurs formats de fichiers, notamment BMP, PNG, JPEG, GIF et TIFF, vous permettant de convertir des fichiers PSD vers d'autres formats et vice versa.
+**Q : Puis‑je surligner plusieurs calques à la fois dans un fichier PSD ?**  
+R : Absolument. Parcourez `im.getLayers()` et appelez `setSheetColorHighlight()` sur chaque calque selon les besoins.
 
-### Est-il possible d'annuler les modifications apportées à un fichier PSD à l'aide d'Aspose.PSD pour Java ?
-Une fois les modifications enregistrées dans un fichier, elles ne peuvent pas être annulées. Cependant, vous pouvez conserver une sauvegarde du fichier d'origine avant d'apporter des modifications pour vous assurer de pouvoir y revenir si nécessaire.
+---
 
-### Comment puis-je obtenir une licence pour Aspose.PSD pour Java ?
- Vous pouvez acheter une licence auprès du[Site Aspose](https://purchase.aspose.com/buy) . Si vous n'êtes pas prêt à vous engager, vous pouvez également demander un[permis temporaire](https://purchase.aspose.com/temporary-license/) pour évaluer le produit.
+**Dernière mise à jour :** 2026-04-03  
+**Testé avec :** Aspose.PSD 24.11 pour Java  
+**Auteur :** Aspose  
 
-### Puis-je mettre en évidence plusieurs calques à la fois dans un fichier PSD ?
-Oui, vous pouvez parcourir les calques d'un fichier PSD et appliquer la couleur de surbrillance souhaitée à chaque calque individuellement.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
