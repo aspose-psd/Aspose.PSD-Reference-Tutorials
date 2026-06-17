@@ -1,82 +1,140 @@
 ---
-title: Aspose.PSD for Java ile PNG Dosya Çözünürlüğünü Ayarlayın
-linktitle: Aspose.PSD for Java ile PNG Dosya Çözünürlüğünü Ayarlayın
-second_title: Aspose.PSD Java API'si
-description: Bu ayrıntılı, adım adım eğitimle Aspose.PSD for Java kullanarak PNG dosya çözünürlüğünün nasıl ayarlanacağını keşfedin. Resimlerinizi anında optimize edin.
-weight: 13
+date: 2026-03-18
+description: Java ile PNG çözünürlüğünü nasıl değiştireceğinizi ve Aspose.PSD for
+  Java kullanarak görüntü çözünürlüğünü nasıl ayarlayacağınızı öğrenin. Görsellerinizi
+  hızlıca optimize etmek için bu adım adım kılavuzu izleyin.
+linktitle: Change PNG resolution java using Aspose.PSD
+second_title: Aspose.PSD Java API
+title: Aspose.PSD kullanarak Java'da PNG çözünürlüğünü değiştir
 url: /tr/java/optimizing-png-files/set-png-file-resolution/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java ile PNG Dosya Çözünürlüğünü Ayarlayın
+# Aspose.PSD ile PNG çözünürlüğünü Java’da değiştirme
 
-## giriiş
-PNG dosya çözünürlüğünüzü Java kullanarak optimize etmek mi istiyorsunuz? Cevabınız evet ise doğru yere geldiniz! Bugün, Photoshop PSD dosyalarını işlemek ve bunları PNG gibi diğer formatlara dönüştürmek için güçlü bir kütüphane olan Aspose.PSD for Java dünyasını derinlemesine inceleyeceğiz. İster görüntü işlemeyle ilgilenen bir geliştirici olun, ister yalnızca görüntü kalitesini programlı olarak geliştirmek isteyen biri olun, bu kılavuz sizin için özel olarak hazırlanmıştır. 
-Bu kapsamlı eğitimde, PNG dosya çözünürlüğünü etkili bir şekilde ayarlamak için ön koşullardan ayrıntılı adım adım talimatlara kadar her şeyi ele alacağız. O halde en sevdiğiniz atıştırmalıkları alın ve başlayalım!
+## Giriş
+Eğer **change PNG resolution java** işlemini hızlı ve güvenilir bir şekilde yapmak istiyorsanız, doğru yerdesiniz. Bu öğreticide, Aspose.PSD for Java kullanarak PNG dosya çözünürlüğünü ayarlamak için gereken adımları adım adım göstereceğiz. İster toplu‑işlem aracı, ister bir web servisi, ister sadece birkaç varlığı düzeltmek isteyin, aynı yaklaşım her yerde çalışır. Sevdiğiniz IDE’yi açın ve başlayalım!
+
+## Hızlı Yanıtlar
+- **Hangi kütüphane PNG çözünürlüğünü yönetir?** Aspose.PSD for Java  
+- **Ana yöntem?** `PngOptions.setResolutionSettings`  
+- **Tipik DPI değerleri?** Web‑hazır görüntüler için 72 × 96  
+- **Lisans gerekli mi?** Test için bir deneme sürümü yeterli; üretim için lisans gerekir  
+- **Desteklenen JDK?** Java 8 ve üzeri  
+
+## “change PNG resolution java” nedir?
+Java’da PNG çözünürlüğünü değiştirmek, tarayıcıların ve yazıcıların görüntünün ne kadar büyük gösterileceğini belirten DPI (dots per inch) meta verisini güncellemeyi ifade eder. Piksel verileri aynı kalır, ancak çözünürlük etiketi güncellenir; bu da baskı boyutu ve kalitesini etkileyebilir.
+
+## Bu görev için Aspose.PSD neden kullanılmalı?
+Aspose.PSD, düşük seviyeli PNG işleme detaylarını soyutlayan yüksek‑seviyeli bir API sunar; böylece dosya‑formatı incelikleriyle uğraşmak yerine iş mantığınıza odaklanabilirsiniz. Yüzlerce PSD özelliğini destekler, Java çalıştırabilen her platformda çalışır ve yerel kütüphanelere ihtiyaç duymaz.
+
 ## Önkoşullar
- 
-Koda dalmadan önce, sorunsuz bir şekilde takip etmeye hazır olmanız gereken birkaç şey var:
-1. Java Geliştirme Kiti (JDK): Makinenizde Java'nın kurulu olduğundan emin olun. JDK 8 veya üzeri önerilir.
-2.  Aspose.PSD for Java: Aspose.PSD kütüphanesini indirmeniz gerekir. Şu adresten alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/psd/java/).
-3. Bir IDE: IntelliJ IDEA veya Eclipse gibi iyi bir Entegre Geliştirme Ortamı (IDE), Java kodunuzu yazmayı ve çalıştırmayı çok daha basit hale getirecektir.
-4. Örnek PSD Dosyaları: Bu eğitim için, bu kılavuz boyunca üzerinde çalışacağımız örnek bir PSD dosyanızın olduğundan emin olun.
-5. Temel Java Bilgisi: Java programlama kavramlarına aşina olmak, bu eğitimi takip etmeyi çok daha kolay hale getirecektir. Ancak eğer yeniyseniz endişelenmeyin; Her adımı net bir şekilde açıklayacağım!
+Başlamadan önce şunların kurulu olduğundan emin olun:
+
+1. **Java Development Kit (JDK) 8+** – kod, herhangi bir yeni JDK’da çalışır.  
+2. **Aspose.PSD for Java** – [indirme bağlantısından](https://releases.aspose.com/psd/java/) indirin.  
+3. **Bir IDE** – IntelliJ IDEA, Eclipse veya Java desteği olan VS Code.  
+4. **Örnek bir PSD dosyası** – bunu PNG’ye dönüştürüp çözünürlüğünü değiştireceğiz.  
+5. **Temel Java bilgisi** – kod parçacıklarını ek açıklama olmadan anlayabilirsiniz.
+
 ## Paketleri İçe Aktar
-Artık önkoşulları tamamladığımıza göre gerekli paketleri içe aktaralım. PSD dosyalarını ve PNG görüntü seçeneklerini yönetmek için Aspose.PSD sınıflarını içe aktarmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Şimdi her şey hazır, ihtiyacınız olan sınıfları içe aktarın. Bu importlar, görüntü yükleme, çözünürlük ayarları ve PNG dışa aktarma seçeneklerine erişim sağlar.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.ResolutionSetting;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
- Bu ithalatlarda`PsdImage` PSD dosyalarıyla çalışmamızı sağlarken,`PngOptions` Ve`ResolutionSetting` görüntü dışa aktarma ayarlarına dikkat edin.
-## 1. Adım: Projenizi Kurma
-İlk önce ilk şeyler! Seçtiğiniz IDE'de bir Java projesi oluşturmanız gerekir. Genellikle proje türünün (Java Uygulaması) seçilmesini ve ona bir ad verilmesini içerir. 
-Bu işlem tamamlandıktan sonra Aspose.PSD for Java kütüphanesini projenizin derleme yoluna eklediğinizden emin olun.
-## 2. Adım: Belge Dizininizi Tanımlayın
-Bir sonraki adım belgelerinizin nerede saklanacağını tanımlamaktır. PSD dosyanızın bulunduğu yolu belirtmek istiyorsunuz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+
+## Adım 1: Java Projenizi Kurun
+Yeni bir Java projesi (veya Maven/Gradle modülü) oluşturun ve Aspose.PSD JAR dosyasını derleme yoluna ekleyin. Maven kullanıyorsanız, Aspose deposundan uygun bağımlılığı ekleyin.
+
+## Adım 2: Belge Dizinini Tanımlayın
+Programın kaynak PSD dosyasını nereden bulacağını ve çıktıyı hangi PNG dosyasına yazacağını belirtin.
+
 ```java
-String dataDir = "Your Document Directory"; // Klasör yolunuzla güncelleyin
+String dataDir = "Your Document Directory"; // Update with your folder path
 ```
- Basitçe değiştirin`"Your Document Directory"` PSD dosyanızı içeren klasörün yolu ile birlikte. 
-## 3. Adım: PSD Görüntüsünü Yükleyin
- Şimdi PSD dosyanızı yükleme zamanı. İşte burada kullanıyoruz`PsdImage` PSD'yi belirtilen dizinden yüklemek için sınıf. 
-Bunu yapmak için işte kod satırı:
+
+`"Your Document Directory"` ifadesini, `sample.psd` dosyasını içeren mutlak ya da göreli yol ile değiştirin.
+
+## Adım 3: PSD Görüntüsünü Yükleyin
+Diskten PSD dosyasını okumak için `PsdImage` sınıfını kullanın.
+
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "sample.psd");
 ```
- Örnek PSD dosyanızın olduğundan emin olun (bu durumda,`sample.psd`) bu klasörde bulunur!
-## 4. Adım: PNG Seçeneklerini Oluşturun ve Yapılandırın
- Şimdi istediğimiz PNG çözünürlüğünü ayarlamamız gerekiyor. Bir örneğini başlatıyoruz`PngOptions` ve yatay ve dikey çözünürlükleri belirtin.`ResolutionSetting`.
-İşte nasıl yapıldığı:
+
+Dosya adının, işlemek istediğiniz gerçek PSD dosyasıyla aynı olduğundan emin olun.
+
+## Adım 4: PNG Seçeneklerini Oluşturun ve Yapılandırın
+İşte **change PNG resolution java** işlemini gerçekleştirdiğimiz kısım. `PngOptions` nesnesini oluşturup, `ResolutionSetting` aracılığıyla yatay ve dikey DPI değerlerini ayarlıyoruz.
+
 ```java
 PngOptions options = new PngOptions();
-options.setResolutionSettings(new ResolutionSetting(72, 96)); // 72 DPI yatay, 96 DPI dikey
+options.setResolutionSettings(new ResolutionSetting(72, 96)); // 72 DPI horizontal, 96 DPI vertical
 ```
-İhtiyaçlarınıza daha iyi uyacak şekilde çözünürlük değerlerini ayarlamaktan çekinmeyin. Yukarıdaki değerler web görselleri için oldukça standarttır.
-## Adım 5: Ortaya Çıkan PNG'yi Kaydedin
- Son olarak yeni oluşturduğumuz PNG dosyamızı kaydetme zamanı geldi. biz kullanıyoruz`save` yöntemi`PsdImage`, çıktı dosyası yolunu ve PNG seçeneklerimizi iletin:
+
+Hedef cihazınıza uygun olacak şekilde `72` ve `96` değerlerini istediğiniz gibi değiştirebilirsiniz. Bu, **set image resolution java** işleminin çekirdeğidir.
+
+## Adım 5: Oluşturulan PNG'yi Kaydedin
+Son olarak, PSD’yi yeni çözünürlük meta verileriyle PNG olarak dışa aktarın.
+
 ```java
 psdImage.save(dataDir + "SettingResolution_output.png", options);
 ```
- Bu, şurada belirtilenle aynı dizinde ayarlanan çözünürlüklere sahip bir PNG dosyası oluşturacaktır.`dataDir`.
-## Çözüm
-Ve işte karşınızda! Aspose.PSD for Java kullanarak PSD'den dışa aktarılan PNG dosyasının çözünürlüğünü başarıyla ayarladınız. Bu kılavuzu takip ederek artık görüntü çözünürlüklerini özelleştirebilir ve bu kütüphaneyle çok sayıda başka görüntü işleme görevi üzerinde çalışabilirsiniz. Görüntü işleme konusundaki yeteneklerinizi genişletme konusunda istekliyseniz, ek konuları keşfetmenizi tavsiye ederim.[Aspose.PSD Belgeleri](https://reference.aspose.com/psd/java/) Daha fazla bilgi ve işlevsellik için.
 
-## SSS'ler
-### Aspose.PSD for Java kullanarak PSD dosyalarını hangi formatlara dönüştürebilirim?
-PSD dosyalarını PNG, JPEG, BMP ve TIFF gibi formatlara dönüştürebilirsiniz.
-### Aspose.PSD for Java'yı kullanmak için lisansa ihtiyacım var mı?
-Evet, ücretsiz deneme sürümü mevcuttur ancak değerlendirme sonrasında kullanıma devam etmek için geçerli bir lisans gereklidir.
-### Çözünürlüğü bir programda birden fazla değiştirebilir miyim?
- Kesinlikle! Farklı oluşturabilirsiniz`PngOptions` Aynı uygulama içindeki çeşitli dışa aktarma ayarları için örnekler.
-### PSD dosyam bozuksa ne olur?
-Aspose.PSD birçok yaygın sorunu çözer ancak bir dosya ciddi şekilde bozulmuşsa yüklenmeyebilir. Her zaman bir yedek bulundurun.
-### Aspose.PSD yüksek performanslı uygulamalar için uygun mudur?
-Evet, büyük dosyaları verimli bir şekilde işlemek üzere tasarlanmıştır ve yoğun performans gerektiren görüntü işleme görevleri için uygundur.
+`SettingResolution_output.png` dosyası aynı klasörde görünecek ve belirttiğiniz DPI değerlerini taşıyacaktır.
+
+## Yaygın Tuzaklar ve İpuçları
+- **Yanlış yol** – `dataDir`’in dosya ayırıcı (`/` veya `\`) ile bittiğinden emin olun.  
+- **Desteklenmeyen DPI** – Çoğu tarayıcı 300’den yüksek DPI değerlerini görmezden gelir; makul seviyelerde tutun.  
+- **Bellek kullanımı** – Büyük PSD’ler önemli RAM tüketebilir; kaydetme sonrası `psdImage.dispose()` ile serbest bırakmayı düşünün.  
+
+## Sonuç
+Aspose.PSD kullanarak **change PNG resolution java** işlemini nasıl yapacağınızı öğrendiniz. `ResolutionSetting`’i ayarlayarak PNG’lerinizi yazıcılar ve tasarım araçları tarafından piksel verisini değiştirmeden nasıl yorumlanacağını kontrol edebilirsiniz. Sıkıştırma seviyesi, renk derinliği veya toplu işleme gibi diğer seçenekleri keşfederek iş akışınızı daha da otomatikleştirebilirsiniz.
+
+Daha derin bir keşif için resmi [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/) sayfasına göz atın.
+
+## SSS
+### Aspose.PSD for Java ile PSD dosyalarını hangi formatlara dönüştürebilirim?
+PNG, JPEG, BMP ve TIFF gibi formatlara dönüştürebilirsiniz.  
+### Aspose.PSD for Java'ı kullanmak için lisansa ihtiyacım var mı?
+Evet, ücretsiz bir deneme sürümü mevcut, ancak değerlendirme sonrası devamlı kullanım için geçerli bir lisans gereklidir.  
+### Bir programda çözünürlüğü birden fazla kez değiştirebilir miyim?
+Kesinlikle! Aynı uygulama içinde farklı dışa aktarma ayarları için birden fazla `PngOptions` örneği oluşturabilirsiniz.  
+### PSD dosyam bozuk olursa ne olur?
+Aspose.PSD birçok yaygın sorunu halleder, ancak dosya ciddi şekilde bozuksa yüklenemeyebilir. Her zaman bir yedek tutun.  
+### Aspose.PSD yüksek performanslı uygulamalar için uygun mu?
+Evet, büyük dosyaları verimli bir şekilde işlemek üzere tasarlanmıştır ve performans‑ağır görüntü işleme görevleri için uygundur.
+
+## Sık Sorulan Sorular
+**S: Yatay ve dikey eksenler için farklı DPI nasıl programatik olarak ayarlanır?**  
+C: PNG seçenekleri örneğinde gösterildiği gibi `new ResolutionSetting(horizontalDpi, verticalDpi)` kullanın.  
+
+**S: Tek bir çalıştırmada birden fazla PSD dosyasını toplu‑işlem yapabilir miyim?**  
+C: Evet—yükleme, seçenek yapılandırma ve kaydetme adımlarını dosya koleksiyonunuz üzerinde dönen bir döngüye yerleştirin.  
+
+**S: DPI değişikliği dosya boyutunu etkiler mi?**  
+C: Genellikle etkilemez; DPI bir meta veridir. Dosya boyutu yalnızca sıkıştırma veya piksel boyutları değiştirildiğinde değişir.  
+
+**S: Mevcut bir PNG’nin mevcut DPI değerini okumanın bir yolu var mı?**  
+C: PNG’yi `Image.load()` ile yükleyin ve `image.getResolutionSettings()` metodunu inceleyin (PNG dosyaları için mevcuttur).  
+
+**S: Hangi JDK sürümleri resmi olarak destekleniyor?**  
+C: Aspose.PSD for Java, JDK 8’den JDK 21’e kadar destek sağlar.
+
+---
+
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.PSD for Java 24.10  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
