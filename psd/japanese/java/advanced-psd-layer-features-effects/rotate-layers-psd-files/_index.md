@@ -1,9 +1,9 @@
 ---
-date: 2025-12-15
-description: Aspose.PSD を使用して Java で PSD を PNG に変換し、PSD レイヤーを回転させる方法を学びましょう。コードサンプル付きのステップバイステップガイドです。
+date: 2026-02-17
+description: Aspose.PSD を使用して Java で PSD を PNG に変換し、PNG の透過性を保持し、PSD レイヤーを回転させる方法を学びます。コードサンプル付きのステップバイステップガイド。
 linktitle: Convert PSD to PNG and Rotate Layers in PSD Files using Java
 second_title: Aspose.PSD Java API
-title: JavaでPSDをPNGに変換し、PSDファイルのレイヤーを回転させる
+title: Javaを使用してPSDをPNGに変換し、PSDファイル内のレイヤーを回転させる
 url: /ja/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
@@ -12,42 +12,43 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# JavaでPSDをPNGに変換し、PSDファイルのレイヤーを回転する
+# Java を使用して PSD を PNG に変換し、PSD ファイルのレイヤーを回転する
 
 ## Introduction
-**PSD を PNG に変換**しながらレイヤーを回転させる必要がある場合は、このガイドが役立ちます。バッチ処理ツールを作成する場合や、Web サービスに画像操作機能を組み込む場合、プログラムで実行すれば時間を節約でき、Adobe Photoshop への依存もなくなります。このチュートリアルでは、Aspose.PSD for Java ライブラリを使用して **PSD のレイヤーを回転**し、結果を PNG としてエクスポートする方法を示します。さあ、袖をまくってデザインワークフローをスムーズにしましょう！
+**PSD を PNG に変換**しながらレイヤーも回転させる必要がある場合は、このガイドが最適です。バッチ処理ツールの構築や、オンザフライで画像操作が必要な Web サービス、あるいはデザインワークフローの自動化など、プログラムで実行すれば時間を節約でき、Adobe Photoshop への依存もなくなります。このチュートリアルでは、Aspose.PSD for Java ライブラリを使用して **PSD のレイヤーを回転**し、結果を PNG としてエクスポートする方法を順を追って解説します。さあ、袖をまくってデザインワークフローをスムーズにしましょう！
 
 ## Quick Answers
-- **どのライブラリを使用できますか？** Aspose.PSD for Java  
-- **回転と変換を同時に行えますか？** はい – PSD を回転させてから PNG として保存  
-- **ライセンスは必要ですか？** 無料トライアルでテスト可能；本番環境では有料ライセンスが必要  
+- **どのライブラリを使えばよいですか？** Aspose.PSD for Java  
+- **回転と変換を同時に行えますか？** はい – PSD を回転させてから PNG として保存します  
+- **ライセンスは必要ですか？** テスト用の無料トライアルで動作しますが、製品版では有料ライセンスが必要です  
 - **対応している Java バージョンは？** Java 8 以降  
-- **PNG の出力は透過されますか？** はい、`PngColorType.TruecolorWithAlpha` を設定すれば透過されます  
+- **PNG の出力は透過されますか？** はい、`PngColorType.TruecolorWithAlpha` を設定すれば透過が保持されます  
 
 ## What is “convert PSD to PNG”?
-Photoshop ドキュメント（PSD）を PNG 画像に変換することは、すべてのレイヤー、マスク、透過情報を抽出し、広くサポートされているラスタ形式に変換することを意味します。PNG はアルファチャネルを保持できるため、Web グラフィック、サムネイル、さらなる画像処理に最適です。
+Photoshop ドキュメント（PSD）を PNG 画像に変換することは、すべてのレイヤー、マスク、透過情報を抽出し、広くサポートされているラスタ形式に変換することを意味します。PNG はアルファチャンネルを保持できるため、Web グラフィックやサムネイル、さらなる画像処理に最適です。
 
 ## Why use Aspose.PSD for Java to convert PSD to PNG and rotate PSD layers?
-- **Photoshop が不要** – 任意のサーバーや CI 環境で動作  
-- **フルレイヤーサポート** – 透過やレイヤー効果を保持  
-- **シンプルな API** – 回転、フリップ、保存が数行のコードで完了  
-- **クロスプラットフォーム** – Windows、Linux、macOS で動作  
+- **Photoshop 不要** – 任意のサーバーや CI 環境で動作  
+- **フルレイヤーサポート** – 透過やレイヤー効果をそのまま保持  
+- **シンプルな API** – 数行のメソッド呼び出しで回転、フリップ、保存が可能  
+- **クロスプラットフォーム** – Windows、Linux、macOS で実行可能  
+- **Java 画像変換** を単一ライブラリで手軽に実現  
 
 ## Prerequisites
 コードに入る前に、以下を用意してください。
 
-- **Java Development Kit (JDK)** – [Oracle のウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html) からダウンロード。  
-- **統合開発環境 (IDE)** – IntelliJ IDEA、Eclipse、NetBeans のいずれかで OK。  
-- **Aspose.PSD for Java ライブラリ** – [リリースページ](https://releases.aspose.com/psd/java/) から最新の JAR を取得。  
-- **基本的な Java 知識** – クラス、オブジェクト、例外処理に慣れていること。
+- **Java Development Kit (JDK)** – [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) からダウンロード。  
+- **Integrated Development Environment (IDE)** – IntelliJ IDEA、Eclipse、NetBeans などお好みのもの。  
+- **Aspose.PSD for Java library** – 最新の JAR を [release page](https://releases.aspose.com/psd/java/) から取得。  
+- **Basic Java knowledge** – クラス、オブジェクト、例外処理に慣れていること。
 
-## Step-by-Step Guide
+## Step‑by‑Step Guide
 
 ### Step 1: Set Up Your Java Project
-IDE で新規 Java プロジェクトを作成し、Aspose.PSD の JAR をビルドパスに追加します。
+IDE で新規 Java プロジェクトを作成し、Aspose.PSD JAR をプロジェクトのビルドパスに追加します。
 
 ### Step 2: Import Required Classes
-Java ソースファイルの先頭に以下のインポートを追加します。
+Java ソースファイルの冒頭に以下のインポートを追加します。
 
 ```java
 import com.aspose.psd.Image;
@@ -57,7 +58,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-これらのクラスで画像の読み込み、回転、PNG 固有のオプションにアクセスできます。
+これらのクラスにより、画像の読み込み、回転、PNG 固有のオプションが利用可能になります。
 
 ### Step 3: Define File Paths
 ソース PSD の場所と出力ファイルの保存先を指定します。
@@ -69,7 +70,7 @@ String pngPath = dataDir + "RotateFlipTest2617.png"; // Output PNG file path
 String psdPath = dataDir + "RotateFlipTest2617.psd"; // Output PSD file path
 ```
 
-> **Pro tip:** テスト時は絶対パスを使用すると “file not found” エラーを回避できます。
+> **Pro tip:** テスト時は絶対パスを使用して「ファイルが見つからない」エラーを回避しましょう。
 
 ### Step 4: Load the PSD File
 PSD を操作可能なオブジェクトにロードします。
@@ -81,17 +82,17 @@ PsdImage im = (PsdImage) Image.load(sourceFile);
 これで `im` はすべてのレイヤーを含む Photoshop ドキュメント全体を表します。
 
 ### Step 5: Rotate the Image (How to rotate PSD)
-`RotateFlipType` から回転タイプを選択します。この例では 270° 回転し、両軸をフリップしています。
+`RotateFlipType` から回転タイプを選択します。この例では 270° 回転させ、両軸をフリップしています。
 
 ```java
 int flipType = RotateFlipType.Rotate270FlipXY; // Choose the rotation type
 im.rotateFlip(flipType); // Rotate the image
 ```
 
-`Rotate90FlipNone` や `Rotate180FlipX` など、他の値でも試してみてください。
+`Rotate90FlipNone` や `Rotate180FlipX` など、他の値でも自由に試してみてください。これがチュートリアルの **how to rotate PSD** 部分です。
 
 ### Step 6: Save the Rotated Image as PNG (convert PSD to PNG)
-透過を保持するために PNG オプションを設定し、保存します。
+透過を保持するよう PNG オプションを設定し、保存します。
 
 ```java
 PngOptions options = new PngOptions();
@@ -99,7 +100,7 @@ options.setColorType(PngColorType.TruecolorWithAlpha); // Preserve transparency
 im.save(pngPath, options); // Save the rotated image
 ```
 
-生成された PNG はレイヤーの透過情報を保持しているため、Web でそのまま使用できます。
+生成された PNG はレイヤーの透過情報を保持し、**preserve PNG transparency** が下流で利用できるようになります。
 
 ### Step 7: Save the Modified PSD (optional)
 回転を適用した新しい PSD が必要な場合は、こちらで保存します。
@@ -111,49 +112,49 @@ im.save(psdPath);
 これで PNG プレビューと更新された PSD の両方が手に入ります。
 
 ## Common Issues and Solutions
-- **File not found:** `dataDir` の末尾にパス区切り文字（`/` または `\`）が付いているか確認してください。  
-- **OutOfMemoryError on large PSDs:** JVM のヒープサイズを増やします（例: `-Xmx2g`）。  
-- **Transparency lost:** `PngColorType.TruecolorWithAlpha` が設定されているか確認。設定しないとアルファが失われた PNG が保存されます。
+- **File not found:** `dataDir` がパス区切り文字（`/` または `\`）で終わっているか確認してください。  
+- **OutOfMemoryError on large PSDs:** JVM ヒープサイズを増やします（例: `-Xmx2g`）。  
+- **Transparency lost:** `PngColorType.TruecolorWithAlpha` が設定されているか確認。設定しないと PNG はアルファなしで保存されます。  
+- **Flip PSD image not behaving as expected:** 選択した `RotateFlipType` 定数を再確認してください。一部の定数は回転とフリップを同時に行います。
 
-## FAQs
-### Can I rotate a specific layer in a PSD file?
-はい、`im.getLayers()` をイテレートし、個々のレイヤーに対して `Layer.rotateFlip()` を呼び出すことで可能です。
+## Frequently Asked Questions
 
-### Is there any performance limitation with Aspose.PSD for Java?
-ほとんどのファイルは効率的に処理できますが、500 MB を超える超大型 PSD は追加メモリが必要になる場合があります。
+**Q: Can I rotate a specific layer in a PSD file?**  
+A: Yes, you can use `Layer.rotateFlip()` on individual layers after iterating through `im.getLayers()`.
 
-### Is Aspose.PSD free to use?
-Aspose は無料トライアルを提供していますが、本番環境では有料ライセンスが必要です。テスト用の [temporary license](https://purchase.aspose.com/temporary-license/) をご確認ください。
+**Q: Is there any performance limitation with Aspose.PSD for Java?**  
+A: The library handles most files efficiently, but extremely large PSDs (>500 MB) may require additional memory.
 
-### Where can I find detailed documentation?
-詳細なドキュメントは [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/) にあります。
+**Q: Is Aspose.PSD free to use?**  
+A: Aspose offers a free trial, but a paid license is needed for production. Check the [temporary license](https://purchase.aspose.com/temporary-license/) for testing.
 
-### What if I encounter issues while using Aspose.PSD?
-[Aspose Support Forum](https://forum.aspose.com/c/psd/34) で質問してください。
+**Q: Where can I find detailed documentation?**  
+A: You can find comprehensive documentation at [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/).
 
-## Additional Frequently Asked Questions
+**Q: What if I encounter issues while using Aspose.PSD?**  
+A: Reach out for help via the [Aspose Support Forum](https://forum.aspose.com/c/psd/34).
 
 **Q: Does converting PSD to PNG preserve layer effects?**  
-A: はい、`PngColorType.TruecolorWithAlpha` で保存すれば、ほとんどの視覚効果が PNG にラスタライズされます。
+A: Yes, when you save with `PngColorType.TruecolorWithAlpha`, most visual effects are rasterized into the PNG.
 
 **Q: Can I batch‑process multiple PSD files?**  
-A: もちろんです。ディレクトリ内の PSD ファイルをループで処理すれば一括変換できます。
+A: Absolutely. Wrap the code in a loop that iterates over a directory of PSD files.
 
 **Q: Is it possible to set PNG compression level?**  
-A: `PngOptions` クラスの `setCompressionLevel(int)` メソッドで圧縮レベルを調整できます。
+A: The `PngOptions` class provides a `setCompressionLevel(int)` method for fine‑tuning.
 
 **Q: Do I need to close the image object?**  
-A: `PsdImage` は `Closeable` を実装しています。`finally` ブロックで `im.close()` を呼ぶか、try‑with‑resources を使用してください。
+A: `PsdImage` implements `Closeable`; call `im.close()` in a `finally` block or use try‑with‑resources.
 
 **Q: Will the rotated PNG have the same dimensions as the original?**  
-A: 90° または 270° 回転すると幅と高さが入れ替わります。PNG は新しい向きに合わせたサイズになります。
+A: Rotating by 90° or 270° swaps width and height. The PNG will reflect the new orientation.
 
 ## Conclusion
-Aspose.PSD for Java を活用すれば、**PSD を PNG に変換**し、**PSD のレイヤーを回転**させる処理を数行のコードで実現できます。この方法により Photoshop が不要になり、ワークフローが自動化され、画像出力を完全にコントロールできます。ぜひご自身のプロジェクトで試して、どれだけ時間が節約できるか体感してください！
+Aspose.PSD for Java を活用すれば、**PSD を PNG に変換**し、**PNG の透過を保持**しながら **PSD のレイヤーを回転** する処理を数行のコードで実現できます。Photoshop が不要になるため、自動化ワークフローが高速化し、画像出力をフルコントロールできます。ぜひご自身のプロジェクトで試して、どれだけ時間が節約できるか体感してください！
 
 ---
 
-**Last Updated:** 2025-12-15  
+**Last Updated:** 2026-02-17  
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 

@@ -1,27 +1,37 @@
 ---
-title: Create PSD Graphics Object – Uncompressed Stream in Java
+title: Export PSD to PNG – Create PSD Graphics Object – Uncompressed Stream in Java
 linktitle: Handle Uncompressed Image Stream Object in PSD - Java
 second_title: Aspose.PSD Java API
-description: Learn how to create PSD graphics object and manipulate PSD layers by handling uncompressed image streams with Aspose.PSD for Java.
+description: Learn how to export PSD to PNG and handle uncompressed image streams with Aspose.PSD for Java.
 weight: 26
 url: /java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
-date: 2025-12-13
+date: 2026-02-17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create PSD Graphics Object – Uncompressed Stream in Java
+# Export PSD to PNG – Create PSD Graphics Object – Uncompressed Stream in Java
 
 ## Introduction
-Welcome to the world of image manipulation in Java! In this tutorial you’ll **create PSD graphics object** and handle uncompressed image stream objects using Aspose.PSD for Java. Whether you’re a graphic designer seeking to automate your workflows or a software developer looking to integrate powerful image processing abilities into your applications, this guide is tailored just for you. We’ll walk through everything from prerequisites to conclusion, ensuring that you have a solid understanding of how to get started with Aspose.PSD.
+Welcome to the world of image manipulation in Java! In this tutorial you’ll **create a PSD graphics object**, handle uncompressed image stream objects, and learn how to **export PSD to PNG** using Aspose.PSD for Java. Whether you’re a graphic designer seeking to automate your workflows or a software developer looking to integrate powerful image‑processing capabilities into your applications, this guide is tailored just for you. We’ll walk through everything from prerequisites to final export, ensuring you have a solid understanding of the whole process.
 
 ## Quick Answers
 - **What does “create PSD graphics object” mean?** It refers to instantiating a graphics context for a PSD file so you can draw or edit its contents.  
 - **Which library handles uncompressed streams?** Aspose.PSD for Java provides full support for raw (uncompressed) image data.  
+- **Can I export PSD to PNG after editing?** Yes—once you have a `Graphics` object you can render the PSD and save it as PNG.  
 - **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
-- **Can I manipulate PSD layers after creating the graphics object?** Yes – the Graphics instance lets you draw on any layer.  
+- **Is the export lossless?** Exporting to PNG preserves image quality, while the file size is larger than JPEG but smaller than an uncompressed PSD.  
+
+## How to export PSD to PNG using Aspose.PSD for Java
+When you need to **export PSD to PNG**, the typical workflow is:
+
+1. Load the PSD file (or create one).  
+2. Perform any drawing or layer manipulation with a `Graphics` object.  
+3. Save the resulting image using `PngOptions` (the same `Graphics` instance can be reused).  
+
+Even though this tutorial focuses on handling uncompressed streams, the same `Graphics` object you create can be reused to render the PSD into a PNG file later in your pipeline.
 
 ## Prerequisites
 Before we leap into the code, let’s ensure you have everything you need to get started on this journey. Here are the prerequisites:
@@ -157,7 +167,7 @@ A: Yes. After loading the PSD, select the desired layer via `psdImage.getLayers(
 A: Raw stores pixel data without compression, so the file size will be larger than compressed PSDs, but image quality remains untouched.
 
 **Q: Is it possible to export the edited PSD to another format (e.g., PNG)?**  
-A: Absolutely. Use the appropriate `Image.save` overload with `PngOptions` after editing.
+A: Absolutely. Use the appropriate `Image.save` overload with `PngOptions` after editing—this is the standard way to **export PSD to PNG**.
 
 **Q: What Java version is required?**  
 A: Aspose.PSD for Java supports JDK 8 and later.
@@ -165,9 +175,9 @@ A: Aspose.PSD for Java supports JDK 8 and later.
 **Q: How do I release resources after processing?**  
 A: Call `psdImage.dispose()` and close any streams to free native resources.
 
----  
+---
 
-**Last Updated:** 2025-12-13  
+**Last Updated:** 2026-02-17  
 **Tested With:** Aspose.PSD for Java (latest release)  
 **Author:** Aspose  
 

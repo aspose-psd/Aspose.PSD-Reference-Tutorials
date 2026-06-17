@@ -1,6 +1,6 @@
 ---
-date: 2025-12-10
-description: 學習如何使用 Aspose.PSD for Java 提取 PSD 圖層並將 PSD 圖層轉換為 PNG。適合需要強大圖形操作的開發人員。
+date: 2026-02-17
+description: 了解如何使用 Aspose.PSD for Java 提取 PSD 圖層並將其轉換為 PNG。適合需要強大圖形處理功能的開發者。
 linktitle: Extract PSD Layers and Add Layer Support for PSD Files using Aspose.PSD
   Java
 second_title: Aspose.PSD Java API
@@ -9,43 +9,58 @@ url: /zh-hant/java/advanced-psd-layer-features-effects/add-layer-support-psd-fil
 weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+個圖層個別匯出。"
+
+Then the metadata.
+
+--- line.
+
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
+
+Then closing shortcodes.
+
+Make sure to keep the markdown formatting exactly.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PSD Java 提取 PSD 圖層並新增圖層支援
+# 提取 PSD 圖層並為 PSD 檔案新增圖層支援（使用 Aspose.PSD Java）
 
-## 介紹
-處理 Photoshop Document（PSD）檔案是平面設計師與開發人員的日常工作之一。最常見的任務之一是 **提取 PSD 圖層**，以便進行編輯、重複使用，或轉換為其他格式（例如 PNG）。在 Java 應用程式中，Aspose.PSD 讓這個過程變得直觀且程式碼友好。本教學將逐步說明如何提取 PSD 圖層、啟用圖層支援，並 **將 PSD 圖層轉換為 PNG**——提供清晰說明與實用技巧。
+## Introduction
+在圖形設計師與開發人員的日常工作中，處理 Photoshop Document（PSD）檔案是常見情況。最常見的任務之一是 **提取 PSD 圖層**，以便進行編輯、重複使用或轉換為其他格式，例如 PNG。在 Java 應用程式中，Aspose.PSD 讓此過程變得簡單且程式碼友好。在本教學中，我們將逐步說明如何提取 PSD 圖層、啟用圖層支援，並 **將 PSD 圖層轉換為 PNG**——提供清晰說明與實用技巧。
 
-## 快速回答
-- **「提取 PSD 圖層」是什麼意思？** 意指載入 PSD 檔案並存取每一個獨立圖層，以便進行操作或匯出。  
-- **哪個程式庫在 Java 中處理此功能？** Aspose.PSD for Java 提供完整的 PSD 處理功能，無需 Photoshop。  
-- **可以一次性將 PSD 圖層轉換為 PNG 嗎？** 可以——只要使用正確的載入選項，並以保留透明度的 PNG 選項儲存。  
-- **生產環境需要授權嗎？** 生產環境需要商業可使用免費試用版進行評估。  
+## Quick Answers
+- **什麼是「提取 PSD 圖層」？** 指載入 PSD 檔案並存取每個單獨的圖層以進行操作或匯出。  
+- **哪個 Java 函式庫負責此功能？** Aspose.PSD for Java 提供完整的 PSD 處理功能，無需 Photoshop。  
+- **能否一次性將 PSD 圖層轉換為 PNG？** 可以——只要使用正確的載入選項載入檔案，並以保留透明度的 PNG 選項儲存。  
+- **正式環境是否需要授權？** 生產環境需要商業授權；可使用免費試用版進行評估。  
 - **需要哪個 Java 版本？** JDK 8 以上（本教學以 JDK 11 為例）。
 
-## 什麼是「提取 PSD 圖層」？
-提取 PSD 圖層指的是讀取 PSD 檔案的內部結構，將每個圖層作為獨立的影像物件取出。這讓您能夠編輯、隱藏、重新排序或單獨匯出圖層——正如設計師在 Photoshop 中所做的，只是以程式方式實現。
+## How to extract PSD layers using Aspose.PSD for Java
+以下是一個逐步指南，涵蓋從環境設定到儲存最終 PNG 的全部步驟。依照每個編號步驟操作，即可在數分鐘內得到可運作的解決方案。
 
-## 為什麼要提取 PSD 圖層並轉換為 PNG？
-- **重複使用資產：** 從主 PSD 中直接抽取圖示、按鈕或 UI 元件，省去手動匯出。  
-- **自動化：** 即時產生縮圖或網頁用圖。  
-- **保留透明度：** PNG 支援 Alpha 通道，適合網頁圖形。
+## Why extract PSD layers and convert them to PNG?
+- **重複使用資源：** 從主 PSD 中直接提取圖示、按鈕或 UI 元件，無需手動匯出。  
+- **自動化：** 即時產生縮圖或適合網頁使用的圖像。  
+- **保留透明度：** PNG 支援 alpha 通道，適合網頁圖形。  
+- **跨平台：** 伺服器上不需要 Photoshop；Aspose.PSD 可在任何支援 Java 的環境執行。
 
-## 前置需求
-在開始之前，請確保您已具備以下項目：
+## Prerequisites
+Before we dive in, make sure you have the following:
 
-1. **Java 開發環境** – 已安裝 JDK。可從 [Oracle 官方網站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 下載。  
-2. **Aspose.PSD for Java** – 從官方下載頁面 [此處](https://releases.aspose.com/psd/java/) 取得最新程式庫。  
-3. **基本的 Java 知識** – 熟悉編譯與執行 Java 程式。  
-4. **IDE** – IntelliJ IDEA、Eclipse 或您慣用的編輯器。  
-5. **PSD 檔案** – 使用您手頭的 PSD，或下載範例 PSD 進行測試。
+1. **Java Development Environment** – JDK installed. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD for Java** – Grab the latest library from the official download page [here](https://releases.aspose.com/psd/java/).  
+3. **Basic Java knowledge** – Familiarity with compiling and running Java programs.  
+4. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
+5. **A PSD file** – Use any PSD you have, or download a sample PSD for testing.
 
-準備好以上項目後，即可開始提取 PSD 圖層。
+Once you have these ready, you’re set to start extracting PSD layers.
 
-## 匯入套件
-首先，匯入 Aspose.PSD 程式庫中需要的類別。
+## Import Packages
+First, import the classes we’ll need from the Aspose.PSD library.
 
 ```java
 import com.aspose.psd.Image;
@@ -55,8 +70,8 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## 步驟 1：定義目錄
-設定來源 PSD 與輸出 PNG 的路徑。將 `dataDir` 調整為您檔案所在的資料夾。
+## Step 1: Define Your Directories
+Set up the paths for the source PSD and the output PNG. Adjust the `dataDir` to point to the folder where your files reside.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -64,12 +79,12 @@ String sourceFileName = dataDir + "layers.psd";
 String output = dataDir + "layers.png";
 ```
 
-- `dataDir` – 將 `"Your Document Directory"` 替換為實際的資料夾路徑。  
-- `sourceFileName` – 要處理的 PSD 完整路徑。  
-- `output` – 用於儲存包含提取圖層的 PNG 的目標路徑。
+- `dataDir` – Replace `"Your Document Directory"` with **your actual folder path**.  
+- `sourceFileName` – Full path to the PSD you want to process.  
+- `output` – Destination path for the PNG that will contain the extracted layers.
 
-## 步驟 2：設定載入選項
-配置 `PsdLoadOptions` 可確保所有圖層效果與資源正確載入，這對 **提取 PSD 圖層** 至關重要。
+## Step 2: Set Up the Load Options
+Configuring `PsdLoadOptions` ensures that all layer effects and resources are loaded correctly, which is essential when you **extract PSD layers**.
 
 ```java
 PsdLoadOptions imageLoadOptions = new PsdLoadOptions();
@@ -77,75 +92,75 @@ imageLoadOptions.setLoadEffectsResource(true);
 imageLoadOptions.setUseDiskForLoadEffectsResource(true);
 ```
 
-- `setLoadEffectsResource(true)` – 載入附加於圖層的效果（如投影）。  
-- `setUseDiskForLoadEffectsResource(true)` – 將大型資源寫入磁碟，降低記憶體壓力。
+- `setLoadEffectsResource(true)` – Loads additional effects (like drop shadows) attached to layers.  
+- `setUseDiskForLoadEffectsResource(true)` – Offloads heavy resources to disk, reducing memory pressure.
 
-## 步驟 3：載入 PSD 檔案
-使用上述選項將 PSD 載入 `PsdImage` 物件。
+## Step 3: Load the PSD File
+Now we load the PSD into a `PsdImage` object using the options defined above.
 
 ```java
 PsdImage image = (PsdImage) Image.load(sourceFileName, imageLoadOptions);
 ```
 
-此時，`image` 已包含所有圖層、遮色片與效果，準備進行提取。
+At this point, `image` contains all layers, masks, and effects, ready for extraction.
 
-## 步驟 4：設定儲存選項
-設定 PNG 的儲存方式。使用 `TruecolorWithAlpha` 可保留原始圖層的透明度。
+## Step 4: Set Up the Save Options
+Configure how the PNG will be saved. Using `TruecolorWithAlpha` preserves transparency from the original layers.
 
 ```java
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
-## 步驟 5：儲存影像（將 PSD 圖層轉換為 PNG）
-將載入的 PSD（含全部圖層）匯出為單一 PNG 檔案。此步驟即完成 **convert psd layers png** 的一次性操作。
+## Step 5: Save the Image (Convert PSD Layers to PNG)
+Export the loaded PSD (with all its layers) to a single PNG file. This step effectively **convert psd layers png** in one operation.
 
 ```java
 image.save(output, saveOptions);
 ```
 
-若需要將每個圖層分別儲存為 PNG，可遍歷 `image.getLayers()`——但對多數情境而言，合併的 PNG 已足夠。
+If you need each layer as a separate PNG, you could iterate over `image.getLayers()`—but for many use‑cases a merged PNG is sufficient.
 
-## 步驟 6：結束
-加入友善的主控台訊息，讓您知道流程已成功完成。
+## Step 6: Wrap It Up
+Add a friendly console message so you know the process succeeded.
 
 ```java
 System.out.println("PSD Layers have been successfully converted to PNG!");
 ```
 
-## 常見問題與技巧
-- **記憶體不足錯誤：** 若處理極大尺寸的 PSD，請保持 `setUseDiskForLoadEffectsResource(true)` 開啟，以將暫存資料寫入磁碟。  
-- **效果遺失：** 確認已設定 `setLoadEffectsResource(true)`，否則部分圖層效果可能被忽略。  
-- **路徑問題：** 使用 `java.nio.file.Paths.get(...)` 以取得跨平台的路徑處理方式。
+## Common Issues & Tips
+- **Out‑of‑Memory Errors:** If you’re processing very large PSDs, keep `setUseDiskForLoadEffectsResource(true)` enabled to offload temporary data.  
+- **Missing Effects:** Ensure `setLoadEffectsResource(true)` is set; otherwise some layer effects may be ignored.  
+- **Path Problems:** Use `Paths.get(...)` from `java.nio.file` for **platform‑independent** path handling.
 
-## 常見問答
+## Frequently Asked Questions
 
-**Q: 什麼是 Aspose.PSD for Java？**  
-A: Aspose.PSD for Java 是一套讓您在未安裝 Photoshop 的情況下操作 PSD 檔案的程式庫。
+**Q: What is Aspose.PSD for Java?**  
+A: Aspose.PSD for Java is a library that allows you to manipulate PSD files without having Photoshop installed.
 
-**Q: 我可以用 Aspose.PSD 處理其他檔案格式嗎？**  
-A: 可以！雖然主要針對 PSD，Aspose 亦提供其他多種格式的程式庫。
+**Q: Can I use Aspose.PSD for other file formats?**  
+A: Yes! While primarily for PSD files, Aspose offers libraries for various other formats too.
 
-**Q: 有試用版嗎？**  
-A: 當然！您可以在 [此處](https://releases.aspose.com/) 下載免費試用版。
+**Q: Is there a trial version available?**  
+A: Absolutely! You can download a free trial version [here](https://releases.aspose.com/).
 
-**Q: 若需要協助，該向哪裡尋求支援？**  
-A: 可前往 Aspose 論壇的 PSD 版塊取得協助 [此處](https://forum.aspose.com/c/psd/34)。
+**Q: Where can I get support if I need help?**  
+A: You can access support in the Aspose forum [here](https://forum.aspose.com/c/psd/34).
 
-**Q: 能否將 PNG 轉回 PSD？**  
-A: Aspose.PSD 主要聚焦於讀取與操作 PSD，較少支援從其他格式轉回 PSD。
+**Q: Can I convert back from PNG to PSD?**  
+A: The Aspose.PSD library focuses more on reading and manipulating PSD files rather than converting other formats back to PSD.
 
-**Q: 如何將每個圖層分別匯出為 PNG？**  
-A: 迭代 `image.getLayers()`，為每個圖層建立新的 `Bitmap`，並以各自的 `PngOptions` 儲存，即可得到每層獨立的 PNG 檔案。
+**Q: How do I extract each layer as a separate PNG?**  
+A: Iterate over `image.getLayers()`, create a new `Bitmap` for each layer, and save it with its own `PngOptions`. This gives you individual PNG files per layer.
 
-## 結論
-您現在已學會如何 **提取 PSD 圖層**、啟用完整圖層支援，並使用 Aspose.PSD for Java **將 PSD 圖層轉換為 PNG**。無論是建構自動化資產管線，或為桌面應用程式加入圖形功能，此方法皆能在不依賴 Photoshop 的前提下，提供對 Photoshop 檔案的細緻控制。歡迎進一步探索——例如套用濾鏡、程式化合併圖層，或個別匯出每層。
+## Conclusion
+現在您已學會如何 **提取 PSD 圖層**、啟用完整的圖層支援，並 **將 PSD 圖層轉換為 PNG**，使用 Aspose.PSD for Java。無論是建構自動化資產管線，或為桌面應用程式加入圖形功能，此方法皆能在不依賴 Photoshop 的情況下，提供對 Photoshop 檔案的細緻控制。歡迎進一步探索，例如套用濾鏡、程式化合併圖層，或將每個圖層個別匯出。
 
 ---
 
-**最後更新：** 2025-12-10  
-**測試環境：** Aspose.PSD for Java 24.11（撰寫時最新版本）  
-**作者：** Aspose  
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
