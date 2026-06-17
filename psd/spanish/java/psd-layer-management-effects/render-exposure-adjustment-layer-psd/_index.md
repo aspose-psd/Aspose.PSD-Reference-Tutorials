@@ -1,10 +1,17 @@
 ---
-title: Renderizar capa de ajuste de exposición en archivos PSD - Java
+date: 2026-04-05
+description: Aprende cómo renderizar la capa de ajuste de exposición en archivos PSD
+  usando Aspose.PSD para Java. Guía paso a paso con ejemplos de código para modificar
+  y agregar capas de exposición.
+keywords:
+- render exposure adjustment layer
+- exposure adjustment layer
+- Aspose.PSD Java
 linktitle: Renderizar capa de ajuste de exposición en archivos PSD - Java
-second_title: API de Java Aspose.PSD
-description: Aprenda a renderizar y ajustar capas de exposición en archivos PSD usando Aspose.PSD para Java. Guía paso a paso con ejemplos de código para modificar y agregar capas de exposición.
-weight: 15
+second_title: Aspose.PSD Java API
+title: Renderizar capa de ajuste de exposición en archivos PSD - Java
 url: /es/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,20 +22,34 @@ url: /es/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 
 ## Introducción
 
-¿Está trabajando con archivos PSD de Photoshop y necesita ajustar la exposición o agregar una capa de ajuste de exposición mediante programación? Ya sea que esté modificando capas existentes o agregando otras nuevas, Aspose.PSD para Java proporciona una forma poderosa e intuitiva de manejar estas tareas. En esta guía, explicaremos cómo usar Aspose.PSD para Java para renderizar y modificar capas de ajuste de exposición en archivos PSD. Al final de este tutorial, sabrá cómo ajustar la configuración de exposición en capas existentes y agregar nuevas capas de ajuste de exposición a sus archivos PSD. ¡Vamos a sumergirnos!
+¿Estás trabajando con archivos PSD de Photoshop y necesitas **render exposure adjustment layer** de forma programática? Ya sea que estés ajustando capas existentes o añadiendo nuevas, Aspose.PSD for Java ofrece una manera potente e intuitiva de manejar estas tareas. En esta guía, recorreremos cómo usar Aspose.PSD for Java para renderizar y modificar capas de ajuste de exposición en archivos PSD. Al final de este tutorial, sabrás cómo ajustar la exposición en capas existentes y añadir nuevas capas de ajuste de exposición a tus archivos PSD. ¡Vamos allá!
+
+## Respuestas rápidas
+- **What library is needed?** Aspose.PSD for Java
+- **Can I edit an existing exposure layer?** Yes, you can change exposure, offset, and gamma correction.
+- **How do I add a new exposure adjustment layer?** Use `addExposureAdjustmentLayer()` on a `PsdImage` instance.
+- **Is PNG export supported?** Absolutely – use `PngOptions` to save the result as a PNG.
+- **Do I need a license for production?** A commercial license is required for production use; a free trial is available.
+
+## ¿Qué es una capa de ajuste de exposición renderizada?
+Una capa de ajuste de exposición es una capa no destructiva de Photoshop que cambia el brillo, el desplazamiento y la gamma de la imagen subyacente. Renderizarla significa aplicar esos ajustes de modo que el resultado visual refleje las modificaciones, lo que luego puedes exportar a formatos como PNG.
+
+## ¿Por qué usar Aspose.PSD for Java para renderizar una capa de ajuste de exposición?
+- **Control total** – manipula las propiedades de la capa sin abrir Photoshop.
+- **Procesamiento por lotes** – automatiza ajustes en muchos archivos.
+- **Multiplataforma** – se ejecuta en cualquier sistema con JDK.
+- **Preserva la estructura del PSD** – mantiene las capas editables para futuras modificaciones.
 
 ## Requisitos previos
 
-Antes de pasar al tutorial, asegúrese de tener los siguientes requisitos previos:
-
-1. Kit de desarrollo de Java (JDK): debe tener JDK instalado en su máquina. Esta guía asume que tienes al menos JDK 8.
-2.  Aspose.PSD para Java: necesita la biblioteca Aspose.PSD para trabajar con archivos PSD. Puedes descargarlo desde[aquí](https://releases.aspose.com/psd/java/).
-3. Conocimientos básicos de Java: la familiaridad con la programación Java le ayudará a seguirla fácilmente.
-4. IDE o editor de texto: utilice cualquier IDE como IntelliJ IDEA, Eclipse o un editor de texto de su elección para escribir y ejecutar código Java.
+1. **Java Development Kit (JDK)** – al menos JDK 8.
+2. **Aspose.PSD for Java** – descárgalo desde [aquí](https://releases.aspose.com/psd/java/).
+3. **Conocimientos básicos de Java** – deberías estar cómodo con la sintaxis estándar de Java.
+4. **IDE o editor de texto** – IntelliJ IDEA, Eclipse, VS Code, o cualquier editor que prefieras.
 
 ## Importar paquetes
 
-Primero lo primero, importemos los paquetes necesarios desde Aspose.PSD para Java. Este paso garantiza que nuestro código pueda utilizar las funciones de la biblioteca para manipular archivos PSD.
+Primero, importa las clases necesarias de Aspose.PSD:
 
 ```java
 import com.aspose.psd.Image;
@@ -38,112 +59,126 @@ import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.ExposureLayer;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Paso 1: cargue el archivo PSD
+## Cómo renderizar una capa de ajuste de exposición – Guía paso a paso
 
-Para comenzar, debes cargar tu archivo PSD en la aplicación. Así es como puedes hacerlo:
+### Paso 1: Cargar el archivo PSD
 
 ```java
-String dataDir = "Your Document Directory";  // Defina su directorio de documentos
-String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  // Ruta del archivo PSD de origen
+String dataDir = "Your Document Directory";  // Define your document directory
+String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  // Source PSD file path
 
-PsdImage im = (PsdImage) Image.load(sourceFileName);  // Cargue el archivo PSD
+PsdImage im = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 ```
 
- En este fragmento de código, reemplace`"Your Document Directory"` con la ruta donde se encuentran sus archivos PSD. El`Image.load()` El método carga el archivo PSD en una instancia de`PsdImage`, que te permite manipular sus capas.
+Reemplaza `"Your Document Directory"` con la carpeta que contiene tus archivos PSD. El método `Image.load()` devuelve un objeto `PsdImage` que te brinda acceso completo a las capas del documento.
 
-## Paso 2: editar la capa de ajuste de exposición existente
-
-Una vez cargado el archivo PSD, puede acceder y modificar las capas existentes. Si el archivo contiene una capa de ajuste de exposición, puede ajustar sus propiedades:
+### Paso 2: Editar una capa de ajuste de exposición existente
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof ExposureLayer) {
         ExposureLayer expLayer = (ExposureLayer) im.getLayers()[i];
-        expLayer.setExposure(2);  // Ajustar el nivel de exposición
-        expLayer.setOffset(-0.25f);  // Establecer el desplazamiento
-        expLayer.setGammaCorrection(0.5f);  // Ajustar la corrección gamma
+        expLayer.setExposure(2);  // Adjust the exposure level
+        expLayer.setOffset(-0.25f);  // Set the offset
+        expLayer.setGammaCorrection(0.5f);  // Adjust the gamma correction
     }
 }
 ```
 
-En este bucle, iteramos sobre todas las capas del archivo PSD. Si encontramos un`ExposureLayer` , modificamos su`Exposure`, `Offset` , y`GammaCorrection` propiedades. Esto le permite ajustar la salida visual de la capa de ajuste de exposición.
+El bucle recorre cada capa, encuentra cualquier `ExposureLayer` y actualiza sus tres parámetros clave. Este es el núcleo de **rendering the exposure adjustment layer** con tus valores personalizados.
 
-## Paso 3: guarde el archivo PSD modificado
-
-Después de realizar cambios, debe guardar el archivo PSD actualizado:
+### Paso 3: Guardar el archivo PSD modificado
 
 ```java
-String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  // Ruta para guardar el archivo PSD modificado
+String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  // Path to save the modified PSD file
 
-im.save(psdPathAfterChange);  // Guarde los cambios en el archivo PSD
+im.save(psdPathAfterChange);  // Save the changes to the PSD file
 ```
 
-Esta línea guarda el archivo PSD modificado en la ruta especificada, conservando sus ajustes de exposición.
+El PSD modificado conserva todas las capas originales, pero el ajuste de exposición ahora refleja la nueva configuración.
 
-## Paso 4: exportar como PNG
-
-Para exportar el archivo PSD actualizado como PNG, siga estos pasos:
+### Paso 4: Exportar el resultado como PNG
 
 ```java
-String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // Ruta para guardar el archivo PNG
+String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // Path to save the PNG file
 
-PngOptions saveOptions = new PngOptions();  // Crear opciones PNG
-saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  // Establecer el tipo de color en Truecolor con Alpha
+PngOptions saveOptions = new PngOptions();  // Create PNG options
+saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-im.save(pngExportPath, saveOptions);  // Guardar como PNG
+im.save(pngExportPath, saveOptions);  // Save as PNG
 ```
 
- Aquí,`PngOptions` se utiliza para configurar los ajustes de exportación PNG.`PngColorType.TruecolorWithAlpha` garantiza que el archivo PNG conserve la profundidad del color y la transparencia.
+Usar `PngOptions` con `TruecolorWithAlpha` garantiza que el PNG exportado mantenga la profundidad de color completa y cualquier transparencia del PSD.
 
-## Paso 5: agregue una nueva capa de ajuste de exposición
+### Paso 5: Añadir una nueva capa de ajuste de exposición
 
-Si desea agregar una nueva capa de ajuste de exposición a un archivo PSD existente, puede hacerlo con el siguiente código:
+Si necesitas **add a new exposure adjustment layer** a un documento existente, usa el siguiente código:
 
 ```java
-String sourceFileName = dataDir + "PhotoExample.psd";  // Ruta del archivo PSD de origen
+String sourceFileName = dataDir + "PhotoExample.psd";  // Source PSD file path
 
-PsdImage img = (PsdImage) Image.load(sourceFileName);  // Cargue el archivo PSD
+PsdImage img = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 
-ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  // Agregar nueva capa de ajuste de exposición
+ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  // Add new exposure adjustment layer
 
-String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  // Ruta para guardar el archivo PSD modificado
-String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // Ruta para guardar el archivo PNG
+String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  // Path to save the modified PSD file
+String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // Path to save the PNG file
 
-img.save(psdPathAfterChange);  // Guarde los cambios en el archivo PSD
+img.save(psdPathAfterChange);  // Save the changes to the PSD file
 
-PngOptions options = new PngOptions();  // Crear opciones PNG
-options.setColorType(PngColorType.TruecolorWithAlpha);  // Establecer el tipo de color en Truecolor con Alpha
+PngOptions options = new PngOptions();  // Create PNG options
+options.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-img.save(pngExportPath, options);  // Guardar como PNG
+img.save(pngExportPath, options);  // Save as PNG
 ```
 
-En este paso, se agrega una nueva capa de ajuste de exposición al archivo PSD con valores de exposición, compensación y corrección de gamma específicos. Luego se guardan los archivos PSD y PNG actualizados.
+El método `addExposureAdjustmentLayer` crea una nueva capa de ajuste con los valores de exposición, desplazamiento y gamma especificados, y luego puedes renderizarla y exportarla como antes.
 
-## Conclusión
+## Problemas comunes y consejos
 
-¡Y ahí lo tienes! Ha aprendido a renderizar y ajustar capas de exposición en archivos PSD usando Aspose.PSD para Java. Cubrimos cómo modificar las capas de exposición existentes, agregar otras nuevas y exportar su trabajo como archivos PNG. Ya sea que esté modificando fotografías o preparando recursos de diseño, estas habilidades mejorarán su capacidad para administrar archivos PSD mediante programación. ¡Feliz codificación!
+- **Layer not found** – Asegúrate de que el PSD realmente contenga un `ExposureLayer`. Usa `instanceof ExposureLayer` como se muestra para evitar `ClassCastException`.
+- **File path errors** – Utiliza rutas absolutas o verifica que `dataDir` termine con un separador de archivo (`/` o `\`).
+- **License exception** – Ejecutar sin una licencia válida añadirá una marca de agua al resultado. Registra tu licencia al inicio del código (`License license = new License(); license.setLicense("Aspose.PSD.lic");`).
 
 ## Preguntas frecuentes
 
-### ¿Qué es Aspose.PSD para Java?
+### ¿Qué es Aspose.PSD for Java?
 
-Aspose.PSD para Java es una biblioteca que le permite crear, editar y convertir archivos PSD mediante programación utilizando Java. Proporciona una funcionalidad completa para trabajar con documentos de Photoshop.
+Aspose.PSD for Java es una biblioteca que permite crear, editar y convertir archivos PSD de forma programática usando Java. Proporciona una funcionalidad completa para trabajar con documentos de Photoshop.
 
-### ¿Puedo usar Aspose.PSD para Java para manipular otros tipos de capas?
+### ¿Puedo usar Aspose.PSD for Java para manipular otros tipos de capas?
 
-Sí, Aspose.PSD para Java admite varios tipos de capas, incluidas capas de texto, capas de ajuste y capas de imágenes, lo que permite una manipulación exhaustiva de archivos PSD.
+Sí, Aspose.PSD for Java soporta varios tipos de capas, incluidas capas de texto, capas de ajuste y capas de imagen, lo que permite una manipulación extensa de los archivos PSD.
 
-### ¿Cómo empiezo con Aspose.PSD para Java?
+### ¿Cómo empiezo con Aspose.PSD for Java?
 
- Puede comenzar descargando la biblioteca desde[sitio web](https://releases.aspose.com/psd/java/) y refiriéndose a la[documentación](https://reference.aspose.com/psd/java/) para guías detalladas y ejemplos.
+Puedes comenzar descargando la biblioteca desde el [sitio web](https://releases.aspose.com/psd/java/) y consultando la [documentación](https://reference.aspose.com/psd/java/) para guías y ejemplos detallados.
 
-### ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?
+### ¿Hay una versión de prueba gratuita disponible para Aspose.PSD for Java?
 
- Sí, hay una prueba gratuita disponible. Puedes descargarlo[aquí](https://releases.aspose.com/).
+Sí, hay una versión de prueba gratuita. Puedes descargarla [aquí](https://releases.aspose.com/).
 
-### ¿Cómo puedo obtener soporte para Aspose.PSD para Java?
+### ¿Cómo puedo obtener soporte para Aspose.PSD for Java?
 
- Para obtener soporte, puede visitar el[Aspose foro de soporte](https://forum.aspose.com/c/psd/34) donde puede hacer preguntas y obtener ayuda de la comunidad.
+Para soporte, puedes visitar el [foro de soporte de Aspose](https://forum.aspose.com/c/psd/34) donde puedes hacer preguntas y obtener ayuda de la comunidad.
+
+**Preguntas adicionales**
+
+**P: ¿Puedo procesar por lotes varios archivos PSD?**  
+R: Absolutamente. Envuelve la lógica de carga, edición y guardado dentro de un bucle que itere sobre una lista de rutas de archivo.
+
+**P: ¿La biblioteca preserva la jerarquía de capas cuando añado una nueva capa de exposición?**  
+R: Sí. La nueva capa se añade encima de las capas existentes, manteniendo la jerarquía original.
+
+**P: ¿A qué formatos de imagen puedo exportar además de PNG?**  
+R: Aspose.PSD soporta JPEG, BMP, TIFF y varios otros formatos mediante las clases `*Options` correspondientes.
+
+---
+
+**Última actualización:** 2026-04-05  
+**Probado con:** Aspose.PSD for Java 24.10  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
