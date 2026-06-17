@@ -1,10 +1,11 @@
 ---
-date: 2025-12-18
-description: Dowiedz się, jak edytować zasoby SoCo i zmieniać kolor warstwy PSD przy
-  użyciu Aspose.PSD dla Javy w tym przewodniku krok po kroku.
-linktitle: How to Edit SoCo Resource in PSD Files using Java
+date: 2026-02-25
+description: Dowiedz się, jak zmienić jednolity kolor i masowo edytować pliki PSD,
+  modyfikując warstwy wypełnienia za pomocą Aspose.PSD for Java w tym przewodniku
+  krok po kroku.
+linktitle: How to Change Solid Color in PSD Files Using Java
 second_title: Aspose.PSD Java API
-title: Jak edytować zasób SoCo w plikach PSD przy użyciu Javy
+title: Jak zmienić jednolity kolor w plikach PSD przy użyciu Javy
 url: /pl/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 weight: 22
 ---
@@ -13,38 +14,39 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak edytować zasób SoCo w plikach PSD przy użyciu Javy
+# Jak zmienić jednolity kolor w plikach PSD przy użyciu Javy
 
-## Wprowadzenie
-Jeśli potrzebujesz **edytować zasoby SoCo** wewnątrz pliku Photoshop PSD i nawet **zmienić kolor warstwy PSD**, Aspose.PSD for Java czyni to zaskakująco proste. W tym samouczku przeprowadzimy Cię przez cały proces — od skonfigurowania środowiska po zapisanie edytowanego pliku — abyś mógł automatyzować złożone manipulacje obrazami z pewnością. Niezależnie od tego, czy automatyzujesz przetwarzanie wsadowe, czy tworzysz własny edytor graficzny, poniższe kroki zapewnią solidne podstawy.
+## Introduction
+Jeśli potrzebujesz **edytować zasoby SoCo** w pliku Photoshop PSD i nawet **zmienić kolor warstwy PSD**, Aspose.PSD for Java sprawia to niezwykle prosto. W tym samouczku przeprowadzimy Cię przez cały proces — od konfiguracji środowiska po zapisanie edytowanego pliku — abyś mógł **programowo zmienić jednolity kolor**, masowo edytować pliki PSD i zintegrować logikę z większymi aplikacjami Java. Niezależnie od tego, czy automatyzujesz wsadowy przepływ pracy, czy budujesz własny edytor grafiki, poniższe kroki zapewnią solidne podstawy.
 
-## Szybkie odpowiedzi
+## Quick Answers
 - **Co to jest SoCo?** Zasób Photoshop „Solid Color”, który definiuje jednolite wypełnienie kolorem dla warstwy.  
-- **Która biblioteka pomaga to edytować?** Aspose.PSD for Java.  
-- **Czy potrzebuję licencji?** Darmowa wersja próbna wystarcza do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Która biblioteka pomaga go edytować?** Aspose.PSD for Java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.  
 - **Czy mogę zmienić kolor warstwy?** Tak — użyj `SoCoResource.setColor()`, aby zastąpić istniejący kolor.  
 - **Jak długo to zajmuje?** Zazwyczaj mniej niż 10 minut na implementację i testy.
 
-## Co oznacza „how to edit soco” w kontekście plików PSD?
-Wyrażenie „how to edit soco” odnosi się do programowego uzyskiwania dostępu i modyfikacji zasobu Solid Color (SoCo), który Photoshop przechowuje dla warstw wypełnienia. Edytując ten zasób, możesz zmienić wygląd warstwy bez ręcznego otwierania Photoshopa.
+## What is “how to edit soco” in the context of PSD files?
+Fraza „how to edit soco” odnosi się do programowego dostępu i modyfikacji zasobu Solid Color (SoCo), który Photoshop przechowuje dla warstw wypełnienia. Edytując ten zasób, możesz zmienić wygląd warstwy bez ręcznego otwierania Photoshopa.
 
-## Dlaczego edytować zasoby SoCo przy użyciu Javy?
+## Why edit SoCo resources with Java?
 - **Automatyzacja:** Przetwarzaj setki plików PSD bez ręcznych kliknięć.  
 - **Spójność:** Zapewnij te same wartości kolorów we wszystkich plikach.  
-- **Integracja:** Połącz przetwarzanie obrazów z inną logiką biznesową opartą na Javie.
+- **Integracja:** Połącz przetwarzanie obrazów z inną logiką biznesową opartą na Javie.  
+- **Masowa edycja PSD:** Ten sam kod można umieścić w pętli, aby obsłużyć wiele plików jednocześnie.
 
-## Wymagania wstępne
-Zanim rozpoczniesz, upewnij się, że masz następujące rzeczy:
+## Prerequisites
+Before you start, make sure you have the following:
 
 1. **Java Development Kit (JDK)** – pobierz ze [strony Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
 2. **Aspose.PSD for Java** – pobierz bibliotekę z oficjalnej strony pobierania [tutaj](https://releases.aspose.com/psd/java/).  
 3. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor, którego preferujesz.  
 4. **Podstawowa znajomość Javy** – znajomość klas, obiektów i obsługi wyjątków.
 
-Gdy wszystko będzie gotowe, możesz zaimportować niezbędne pakiety.
+Once these are ready, you can import the necessary packages.
 
-## Importowanie pakietów
-Pierwszym krokiem jest wprowadzenie klas Aspose.PSD do zakresu:
+## Import Packages
+The first step is to bring the Aspose.PSD classes into scope:
 
 ```java
 import com.aspose.psd.Color;
@@ -56,10 +58,10 @@ import com.aspose.psd.fileformats.psd.layers.filllayers.FillLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.SoCoResource;
 ```
 
-## Przewodnik krok po kroku
+## Step‑by‑Step Guide
 
-### Krok 1: Konfiguracja ścieżek plików
-Określ, gdzie znajduje się źródłowy plik PSD i gdzie zostanie zapisana wersja edytowana.
+### Step 1: Setup the File Paths
+Define where your source PSD lives and where the edited version will be saved.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,17 +69,17 @@ String sourceFileName = dataDir + "ColorFillLayer.psd";
 String exportPath = dataDir + "SoCoResource_Edited.psd";
 ```
 
-Zastąp `"Your Document Directory"` rzeczywistą ścieżką folderu na swoim komputerze.
+Replace `"Your Document Directory"` with the actual folder path on your machine.
 
-### Krok 2: Załaduj obraz PSD
-Otwórz plik PSD, aby móc pracować z jego warstwami.
+### Step 2: Load the PSD Image
+Open the PSD file so you can work with its layers.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-### Krok 3: Iteracja przez warstwy
-Przejdź pętlą przez wszystkie warstwy w dokumencie, aby znaleźć tę, która zawiera zasób SoCo.
+### Step 3: Iterate Through Layers
+Loop through every layer in the document to find the one that contains a SoCo resource.
 
 ```java
 try {
@@ -87,8 +89,8 @@ try {
 }
 ```
 
-### Krok 4: Sprawdź FillLayer i SoCoResource
-Zidentyfikuj obiekty `FillLayer`, a następnie poszukaj w nich `SoCoResource`.
+### Step 4: Check for FillLayer and SoCoResource
+Identify `FillLayer` objects and then look for the `SoCoResource` inside them.
 
 ```java
 if (layer instanceof FillLayer) {
@@ -104,25 +106,25 @@ if (layer instanceof FillLayer) {
 }
 ```
 
-### Krok 5: Zmodyfikuj kolor SoCoResource
-Teraz możesz **zmienić kolor warstwy PSD**, aktualizując wartość koloru zasobu SoCo.
+### Step 5: Modify the Color of SoCoResource
+Now you can **change PSD layer color** by updating the SoCo resource’s color value.
 
 ```java
 assert Color.fromArgb(63, 83, 141).equals(socoResource.getColor());
 socoResource.setColor(Color.getRed());
 ```
 
-Asercja potwierdza pierwotny kolor, a `setColor` zmienia go na czerwony.
+The assertion confirms the original color, and `setColor` switches it to red.
 
-### Krok 6: Zapisz edytowany obraz PSD
-Po wprowadzeniu zmiany zapisz zaktualizowany plik na dysku.
+### Step 6: Save the Edited PSD Image
+After making the change, write the updated file back to disk.
 
 ```java
 im.save(exportPath);
 ```
 
-### Krok 7: Oczyszczenie zasobów
-Zwolnij obiekt `PsdImage`, aby uwolnić pamięć natywną.
+### Step 7: Clean Up Resources
+Dispose of the `PsdImage` object to free native memory.
 
 ```java
 finally {
@@ -130,36 +132,55 @@ finally {
 }
 ```
 
-## Typowe problemy i wskazówki
+## How to Change Solid Color in a Fill Layer
+Powyższy kod demonstruje podstawę **zmiany jednolitego koloru** dla warstwy wypełnienia. Zamieniając wywołanie `Color.getRed()` na dowolne `Color.fromArgb(r, g, b)`, możesz ustawić dowolny potrzebny jednolity kolor. To podejście działa dla każdego PSD wykorzystującego zasób SoCo, co czyni je idealnym w scenariuszach **modyfikacji warstwy wypełnienia**.
+
+## Batch Edit PSD Files
+Aby **masowo edytować pliki PSD**, po prostu otocz cały blok krok po kroku pętlą iterującą po kolekcji ścieżek do plików. Ta sama operacja `setColor` zostanie zastosowana do każdego dokumentu, zapewniając szybki sposób na aktualizację wielu projektów jednocześnie.
+
+## Common Issues & Tips
 - **Zasoby null:** Zawsze sprawdzaj, czy `fillLayer.getResources()` nie jest null przed iteracją.  
-- **Nieobsługiwane formaty kolorów:** `Color.getRed()` działa dla standardowego RGB; użyj `Color.fromArgb()` dla wartości niestandardowych.  
-- **Wydajność:** W przypadku dużych plików PSD rozważ przetwarzanie warstw w osobnym wątku, aby UI pozostało responsywne.
+- **Nieobsługiwane formaty kolorów:** `Color.getRed()` działa dla standardowego RGB; użyj `Color.fromArgb()` dla niestandardowych wartości.  
+- **Wydajność:** Dla dużych plików PSD rozważ przetwarzanie warstw w osobnym wątku, aby UI pozostało responsywne.  
+- **Edycja warstwy jednolitego koloru:** Jeśli warstwa nie zawiera zasobu SoCo, może być konieczne ręczne dodanie go — Aspose.PSD udostępnia API do tworzenia nowych zasobów.  
 
-## Zakończenie
-Teraz wiesz, **jak edytować zasoby SoCo** i **zmienić kolor warstwy PSD** przy użyciu Aspose.PSD for Java. Ta technika usprawnia masowe aktualizacje obrazów i płynnie integruje się z pipeline'ami opartymi na Javie. Śmiało eksperymentuj z innymi zasobami warstw — Aspose.PSD daje pełną kontrolę nad plikami Photoshop bez konieczności otwierania interfejsu graficznego.
+## Frequently Asked Questions
 
-## Najczęściej zadawane pytania
+**Q: Can I edit multiple PSD files in a batch?**  
+**A:** Absolutely. Wrap the code inside a loop that iterates over a list of file paths and apply the same SoCo modification to each file.
 
-**Q: Czy mogę edytować wiele plików PSD jednocześnie?**  
-A: Zdecydowanie tak. Umieść kod w pętli, która iteruje po liście ścieżek plików i zastosuj tę samą modyfikację SoCo do każdego pliku.
+**P:** Czy mogę edytować wiele plików PSD jednocześnie?  
+**O:** Oczywiście. Umieść kod w pętli iterującej po liście ścieżek do plików i zastosuj tę samą modyfikację SoCo do każdego pliku.
 
-**Q: Czy zmiana koloru SoCo wpływa na inne warstwy?**  
-A: Nie. Zmiana jest izolowana do konkretnego `FillLayer`, który zawiera edytowany zasób SoCo.
+**Q: Does changing the SoCo color affect other layers?**  
+**A:** No. The change is isolated to the specific `FillLayer` that contains the SoCo resource you edit.
 
-**Q: Co jeśli plik PSD nie ma zasobu SoCo?**  
-A: Wewnętrzna pętla po prostu pominie warstwę. Możesz dodać rozwiązanie awaryjne, aby utworzyć nowy zasób SoCo w razie potrzeby.
+**P:** Czy zmiana koloru SoCo wpływa na inne warstwy?  
+**O:** Nie. Zmiana jest izolowana do konkretnej `FillLayer`, która zawiera edytowany zasób SoCo.
 
-**Q: Czy istnieje sposób na podgląd zmiany koloru przed zapisaniem?**  
-A: Możesz wyeksportować `PsdImage` do popularnego formatu, takiego jak PNG (`im.save("preview.png")`), aby zweryfikować wynik.
+**Q: What if the PSD has no SoCo resource?**  
+**A:** The inner loop will simply skip the layer. You can add a fallback to create a new SoCo resource if needed.
 
-**Q: Czy muszę ręcznie zamykać obraz?**  
-A: Blok `finally` z `im.dispose()` zapewnia zwolnienie wszystkich zasobów natywnych, nawet w przypadku wystąpienia wyjątku.
+**P:** Co jeśli PSD nie zawiera zasobu SoCo?  
+**O:** Wewnętrzna pętla po prostu pominie tę warstwę. W razie potrzeby możesz dodać mechanizm awaryjny, aby utworzyć nowy zasób SoCo.
+
+**Q: Is there a way to preview the color change before saving?**  
+**A:** You can export the `PsdImage` to a common format like PNG (`im.save("preview.png")`) to verify the result.
+
+**P:** Czy istnieje sposób na podgląd zmiany koloru przed zapisaniem?  
+**O:** Możesz wyeksportować `PsdImage` do popularnego formatu, takiego jak PNG (`im.save("preview.png")`), aby zweryfikować wynik.
+
+**Q: Do I need to close the image manually?**  
+**A:** The `finally` block with `im.dispose()` ensures all native resources are released, even if an exception occurs.
+
+**P:** Czy muszę ręcznie zamknąć obraz?  
+**O:** Blok `finally` z `im.dispose()` zapewnia zwolnienie wszystkich zasobów natywnych, nawet w przypadku wystąpienia wyjątku.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-18  
-**Testowano z:** Aspose.PSD 24.11 for Java  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,21 +1,21 @@
 ---
-title: How to Edit SoCo Resource in PSD Files using Java
-linktitle: How to Edit SoCo Resource in PSD Files using Java
+title: How to Change Solid Color in PSD Files Using Java
+linktitle: How to Change Solid Color in PSD Files Using Java
 second_title: Aspose.PSD Java API
-description: Learn how to edit SoCo resources and change PSD layer color using Aspose.PSD for Java in this step‑by‑step guide.
+description: Learn how to change solid color and batch edit PSD files by modifying fill layers with Aspose.PSD for Java in this step‑by‑step guide.
 weight: 22
 url: /java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
-date: 2025-12-18
+date: 2026-02-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Edit SoCo Resource in PSD Files using Java
+# How to Change Solid Color in PSD Files Using Java
 
 ## Introduction
-If you need to **edit SoCo** resources inside a Photoshop PSD and even **change PSD layer color**, Aspose.PSD for Java makes it surprisingly straightforward. In this tutorial we’ll walk through the entire process—from setting up your environment to saving the edited file—so you can automate complex image manipulations with confidence. Whether you’re automating a batch workflow or building a custom graphics editor, the steps below will give you a solid foundation.
+If you need to **edit SoCo** resources inside a Photoshop PSD and even **change PSD layer color**, Aspose.PSD for Java makes it surprisingly straightforward. In this tutorial we’ll walk through the entire process—from setting up your environment to saving the edited file—so you can **change solid color** programmatically, batch edit PSD files, and integrate the logic into larger Java applications. Whether you’re automating a batch workflow or building a custom graphics editor, the steps below will give you a solid foundation.
 
 ## Quick Answers
 - **What is SoCo?** A Photoshop “Solid Color” resource that defines a single color fill for a layer.  
@@ -30,7 +30,8 @@ The phrase “how to edit soco” refers to programmatically accessing and modif
 ## Why edit SoCo resources with Java?
 - **Automation:** Process hundreds of PSDs without manual clicks.  
 - **Consistency:** Ensure the same color values across all files.  
-- **Integration:** Combine image processing with other Java‑based business logic.
+- **Integration:** Combine image processing with other Java‑based business logic.  
+- **Batch edit PSD:** The same code can be placed in a loop to handle many files at once.
 
 ## Prerequisites
 Before you start, make sure you have the following:
@@ -129,13 +130,17 @@ finally {
 }
 ```
 
+## How to Change Solid Color in a Fill Layer
+The code above demonstrates the core of **changing solid color** for a fill layer. By swapping the `Color.getRed()` call with any `Color.fromArgb(r, g, b)` you can set any solid color you need. This approach works for any PSD that uses a SoCo resource, making it ideal for **modify fill layer** scenarios.
+
+## Batch Edit PSD Files
+To **batch edit PSD** files, simply wrap the entire step‑by‑step block inside a loop that iterates over a collection of file paths. The same `setColor` operation will be applied to each document, giving you a fast way to update many designs at once.
+
 ## Common Issues & Tips
 - **Null resources:** Always check that `fillLayer.getResources()` is not null before iterating.  
 - **Unsupported color formats:** `Color.getRed()` works for standard RGB; use `Color.fromArgb()` for custom values.  
-- **Performance:** For large PSDs, consider processing layers in a separate thread to keep UI responsive.
-
-## Conclusion
-You now know **how to edit SoCo** resources and **change PSD layer color** using Aspose.PSD for Java. This technique streamlines bulk image updates and integrates smoothly into Java‑based pipelines. Feel free to experiment with other layer resources—Aspose.PSD gives you full control over Photoshop files without ever opening the GUI.
+- **Performance:** For large PSDs, consider processing layers in a separate thread to keep UI responsive.  
+- **Edit solid color layer:** If a layer does not contain a SoCo resource, you may need to add one manually—Aspose.PSD provides APIs for creating new resources.  
 
 ## Frequently Asked Questions
 
@@ -156,7 +161,7 @@ A: The `finally` block with `im.dispose()` ensures all native resources are rele
 
 ---
 
-**Last Updated:** 2025-12-18  
+**Last Updated:** 2026-02-25  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
