@@ -1,7 +1,7 @@
 ---
-date: 2025-12-17
+date: 2026-02-20
 description: เรียนรู้วิธีแปลงไฟล์ PSD เป็น PNG พร้อมตั้งค่าโหมดสีของ PSD เป็นระดับสีเทา
-  16‑บิตโดยใช้ Aspose.PSD สำหรับ Java คู่มือขั้นตอนโดยละเอียดพร้อมตัวอย่างโค้ด
+  16‑บิตโดยใช้ Aspose.PSD for Java คู่มือขั้นตอนโดยละเอียดพร้อมตัวอย่างโค้ด
 linktitle: Convert PSD to PNG – 16-bit Grayscale – Java
 second_title: Aspose.PSD Java API
 title: วิธีแปลง PSD เป็น PNG ด้วยโหมดสีเทา 16‑บิตใน Java
@@ -13,31 +13,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แปลง PSD เป็น PNG ด้วยโหมดสี Grayscale 16-bit ใน Java
+# แปลง PSD เป็น PNG ด้วยโหมดสี Grayscale 16‑bit ใน Java
 
 ## Introduction
-เมื่อคุณเริ่มต้นสำรวจโลกของการออกแบบกราฟิกและการจัดการภาพ การเข้าใจวิธี **แปลง PSD เป็น PNG** จะเหมือนกับการมีอาวุธลับโดยเฉพาะ การใช้โหมดสี Grayscale 16‑bit จะทำให้ภาพของคุณมีความลึกและรายละเอียดที่น่าทึ่งอย่างแท้จริง ในบทเรียนนี้เราจะอธิบายวิธี **ตั้งค่าโหมดสีของ PSD** เป็น Grayscale 16‑bit แล้ว **ส่งออก PSD เป็น PNG** ด้วย Aspose.PSD for Java พร้อมหรือยังที่จะยกระดับกระบวนการทำงานกับภาพของคุณ? เริ่มกันเลย
+เมื่อคุณเริ่มต้นสำรวจโลกของการออกแบบกราฟิกและการจัดการภาพ การรู้ **how to convert PSD to PNG** เปรียบเสมือนอาวุธลับ การใช้โหมด Grayscale 16‑bit จะเพิ่มความลึกและความอุดมของโทนสี ทำให้ภาพของคุณโดดเด่นขึ้น ในบทเรียนนี้เราจะอธิบายวิธี **set PSD color mode** เป็น Grayscale 16‑bit แล้ว **export PSD as PNG** ด้วย Aspose.PSD for Java พร้อมหรือยังที่จะยกระดับกระบวนการทำงานกับภาพของคุณ? เริ่มกันเลย
 
 ## Quick Answers
-- **“แปลง PSD เป็น PNG” มีขั้นตอนอะไรบ้าง?** การโหลดไฟล์ PSD, ปรับเปลี่ยนโหมดสีตามต้องการ, แล้วบันทึกเป็นไฟล์ PNG  
-- **คลาสของ Aspose ที่รับผิดชอบการแปลงคืออะไร?** `PsdImage` สำหรับการโหลดและ `PngOptions` สำหรับการบันทึก  
-- **ต้องใช้ไลเซนส์พิเศษหรือไม่?** เวอร์ชันทดลองใช้ได้สำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์แบบชำระเงินสำหรับการใช้งานจริง  
-- **สามารถเก็บความลึก 16‑bit ไว้ใน PNG ได้หรือไม่?** ได้โดยใช้ `PngColorType.GrayscaleWithAlpha`  
-- **IDE ที่รองรับมีอะไรบ้าง?** IDE ใดก็ได้ที่รองรับ Java – IntelliJ IDEA, Eclipse, VS Code ฯลฯ  
+- **What does “convert PSD to PNG” involve?** การโหลดไฟล์ PSD, ปรับโหมดสีตามต้องการ, แล้วบันทึกเป็นไฟล์ PNG.  
+- **Which Aspose class handles the conversion?** `PsdImage` สำหรับการโหลดและ `PngOptions` สำหรับการบันทึก.  
+- **Do I need a special license?** สามารถใช้รุ่นทดลองเพื่อทดสอบ; ต้องมีไลเซนส์แบบชำระเงินสำหรับการใช้งานจริง.  
+- **Can I keep the 16‑bit depth in PNG?** ได้, โดยใช้ `PpngColorType.GrayscaleWithAlpha`.  
+- **What IDEs are supported?** IDE ของ Java ใดก็ได้ – IntelliJ IDEA, Eclipse, VS Code เป็นต้น.
+
+## Why Convert PSD to PNG with 16‑bit Grayscale?
+* **Preserve tonal detail:** Grayscale 16‑bit เก็บเฉดสีเทาได้ 65 536 ระดับ, มากกว่าภาพ 8‑bit ที่มี 256 ระดับ.  
+* **Broad compatibility:** PNG รองรับอย่างกว้างขวางบนเว็บ, แอปมือถือ, และเครื่องมือเดสก์ท็อป, พร้อมคงคุณภาพสูง.  
+* **Lossless workflow:** การแปลงด้วย Aspose.PSD จะไม่มีการบีบอัดที่ทำให้เกิดศิลปะบิดเบือน, เหมาะสำหรับการเก็บรักษาหรือการประมวลผลต่อไป.
 
 ## Prerequisites
-ก่อนเริ่ม เรามาตรวจสอบให้แน่ใจว่าคุณมีทุกอย่างพร้อมสำหรับบทเรียนนี้:
+ก่อนเริ่ม, ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมใช้งานเพื่อให้ได้ผลลัพธ์ที่ดีที่สุดจากบทเรียนนี้:
 
-1. **Java Development Kit (JDK)** – ตรวจสอบว่าคุณได้ติดตั้งเวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์ของ Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)  
-2. **Aspose.PSD for Java Library** – นี่คือเอนจินที่จะช่วยให้เราจัดการไฟล์ PSD ได้ ดาวน์โหลดจาก [หน้าดาวน์โหลดของ Aspose](https://releases.aspose.com/psd/java/)  
-3. **IDE** – IntelliJ IDEA, Eclipse หรือ Visual Studio Code จะทำงานได้ดี  
-4. **ความรู้พื้นฐานของ Java** – ความคุ้นเคยกับไวยากรณ์ของ Java จะทำให้ขั้นตอนต่าง ๆ ราบรื่นขึ้น  
-5. **ไฟล์ PSD ตัวอย่าง** – สร้างไฟล์ใน Adobe Photoshop หรือดาวน์โหลดตัวอย่างฟรีจากอินเทอร์เน็ต  
+1. **Java Development Kit (JDK)** – ตรวจสอบว่าคุณติดตั้งเวอร์ชันล่าสุดแล้ว. คุณสามารถดาวน์โหลดได้จาก [Oracle's site](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD for Java Library** – เป็นเครื่องมือที่ทำให้เราสามารถจัดการไฟล์ PSD ได้. ดาวน์โหลดจาก [Aspose download page](https://releases.aspose.com/psd/java/).  
+3. **An IDE** – IntelliJ IDEA, Eclipse, หรือ Visual Studio Code จะทำงานได้ดี.  
+4. **Basic Java knowledge** – ความคุ้นเคยกับไวยากรณ์ Java จะช่วยให้ขั้นตอนเป็นไปอย่างราบรื่น.  
+5. **A sample PSD file** – สร้างไฟล์ใน Adobe Photoshop หรือดาวน์โหลดตัวอย่างฟรีออนไลน์.
 
-พร้อมหรือยัง? ดีมาก! มาเริ่มนำเข้าแพ็กเกจที่จำเป็นและเขียนโค้ดกัน
+พร้อมหรือยัง? ดีมาก! มาเริ่มนำเข้าแพ็กเกจที่จำเป็นและเขียนโค้ดกันเถอะ.
 
 ## Import Packages
-เพื่อเริ่มต้น ให้เพิ่มการนำเข้า Aspose.PSD ที่จำเป็นลงในไฟล์ Java ของคุณ:
+เพื่อเริ่มต้น, เพิ่มการนำเข้า Aspose.PSD ที่จำเป็นลงในไฟล์ Java ของคุณ:
 
 ```java
 import com.aspose.psd.*;
@@ -50,20 +55,20 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.system.Enum;
 ```
 
-การนำเข้าเหล่านี้จะให้คุณเข้าถึงฟังก์ชันที่ใช้จัดการไฟล์ PSD, ตั้งค่าโหมดสี, และส่งออกผลลัพธ์เป็น PNG
+การนำเข้าเหล่านี้จะทำให้คุณเข้าถึงฟังก์ชันที่ใช้จัดการไฟล์ PSD, ตั้งค่าโหมดสี, และส่งออกผลลัพธ์เป็น PNG.
 
 ## Step 1: Define Your Directories
-ตั้งค่าโฟลเดอร์ต้นทางและโฟลเดอร์ผลลัพธ์ ซึ่งบอกโปรแกรมว่าจะอ่านไฟล์ PSD ต้นฉบับจากที่ไหนและเขียนไฟล์ที่แปลงแล้วไปที่ไหน
+ตั้งค่าโฟลเดอร์ต้นทางและโฟลเดอร์ผลลัพธ์. นี้บอกโปรแกรมว่าจะอ่าน PSD ต้นฉบับจากที่ไหนและเขียนไฟล์ที่แปลงแล้วไปที่ไหน.
 
 ```java
 String sourceDir = "Your Source Directory"; // Change to your source directory
 String outputDir = "Your Document Directory"; // Change to your output directory
 ```
 
-แทนที่สตริงตัวอย่างด้วยพาธที่แท้จริงบนเครื่องของคุณ
+แทนที่สตริงตัวอย่างด้วยพาธจริงบนเครื่องของคุณ.
 
 ## Step 2: Create a Method to Handle Image Processing
-เราจะห่อหุ้มตรรกะการแปลงไว้ในเมธอดที่สามารถนำกลับมาใช้ใหม่ได้ เมธอดนี้รับพารามิเตอร์ต่าง ๆ ที่คุณอาจต้องการปรับ เช่น โหมดสี, ความลึกบิต, และการบีบอัด
+เราจะห่อหุ้มตรรกะการแปลงไว้ในเมธอดที่สามารถนำกลับมาใช้ใหม่ได้. เมธอดนี้รับพารามิเตอร์ต่าง ๆ ที่คุณอาจต้องปรับ, เช่น โหมดสี, ความลึกบิต, และการบีบอัด.
 
 ```java
 class LocalScopeExtension {
@@ -76,10 +81,10 @@ class LocalScopeExtension {
         int layerNumber) {
 ```
 
-เมธอดนี้ทำให้คุณ **ตั้งค่าโหมดสีของ PSD** แล้ว **ส่งออก PSD เป็น PNG** ได้ในขั้นตอนเดียว
+เมธอดนี้ทำให้คุณ **set PSD color mode** แล้ว **export PSD as PNG** ในขั้นตอนเดียว.
 
 ## Step 3: Define File Paths and Load the PSD
-ภายในเมธอด ให้สร้างพาธไฟล์เต็มรูปแบบและโหลดไฟล์ PSD Grayscale 16‑bit ดั้งเดิม:
+ภายในเมธอด, สร้างพาธไฟล์เต็มและโหลด PSD Grayscale 16‑bit ต้นฉบับ:
 
 ```java
 String filePath = sourceDir + file + ".psd";
@@ -91,10 +96,10 @@ String pngExportPath = outputDir + file + postfix + ".png";
 PsdImage image = (PsdImage)Image.load(filePath);
 ```
 
-`postfix` ช่วยให้คุณติดตามการตั้งค่าที่ใช้สำหรับแต่ละไฟล์ที่ส่งออกได้ง่ายขึ้น
+`postfix` ช่วยให้คุณติดตามการตั้งค่าที่ใช้สำหรับแต่ละไฟล์ที่ส่งออกได้ง่ายขึ้น.
 
 ## Step 4: Process the Layer or Full Image
-ต่อไปเราจะวาดบนเลเยอร์เฉพาะหรือบนภาพทั้งหมด ในตัวอย่างนี้เราจะเพิ่มกรอบสีเทาอ่อนเพื่อทำให้ผลลัพธ์มองเห็นได้ชัดเจนขึ้น
+ต่อไปเราจะวาดบนเลเยอร์เฉพาะหรือบนภาพทั้งหมด. ในตัวอย่างนี้เราจะเพิ่มกรอบสีเทาอ่อนเพื่อทำให้ผลลัพธ์มองเห็นได้ชัดเจนขึ้น.
 
 ```java
 try {
@@ -111,10 +116,10 @@ try {
     graphics.drawRectangle(new Pen(Color.getDarkGray(), 1), rect);
 ```
 
-สี่เหลี่ยมจะคำนวณแบบไดนามิกเพื่อให้อยู่กึ่งกลางไม่ว่าขนาดภาพจะเป็นเท่าใด
+สี่เหลี่ยมจะคำนวณแบบไดนามิกเพื่อให้คงอยู่กึ่งกลางไม่ว่าขนาดภาพจะเป็นเท่าใด.
 
 ## Step 5: Save the Modified PSD File
-หลังจากวาดเสร็จ เราจะบันทึกไฟล์ PSD ด้วยโหมดสีและความลึกบิตที่คุณระบุ นี่คือขั้นตอนสำคัญของ **การตั้งค่าโหมดสีของ PSD** ก่อนการแปลง
+หลังจากวาดเสร็จ, เราบันทึก PSD ด้วยโหมดสีและความลึกบิตที่คุณกำหนดไว้. นี้เป็นหัวใจของ **setting PSD color mode** ก่อนการแปลง.
 
 ```java
     // Save a copy of PSD with specific characteristics
@@ -128,7 +133,7 @@ try {
 ```
 
 ## Step 6: Convert the PSD to PNG
-สุดท้าย เราจะโหลด PSD ที่บันทึกใหม่และส่งออกเป็น PNG โดยใช้ `PngColorType.GrayscaleWithAlpha` เพื่อรักษาความลึก 16‑bit ไว้ในไฟล์ PNG
+สุดท้าย, เราโหลด PSD ที่บันทึกใหม่และส่งออกเป็น PNG. ด้วยการใช้ `PngColorType.GrayscaleWithAlpha` เราจะคงความลึก 16‑bit ไว้ในไฟล์ PNG.
 
 ```java
 finally {
@@ -147,35 +152,35 @@ finally {
 }
 ```
 
-ตอนนี้คุณได้ **แปลง PSD เป็น PNG** พร้อมคงข้อมูล Grayscale 16‑bit คุณภาพสูงเรียบร้อยแล้ว
+ตอนนี้คุณได้ **converted PSD to PNG** อย่างสำเร็จพร้อมข้อมูล Grayscale 16‑bit คุณภาพสูงแล้ว.
 
 ## Common Issues and Solutions
 | Issue | Why It Happens | Fix |
 |-------|----------------|-----|
-| **ข้อยกเว้น “Unsupported color type”** | พยายามบันทึก PSD ที่มีการกำหนดช่องสีที่ไม่รองรับ | ตรวจสอบให้ `channelBitsCount` ตรงกับความลึกบิตจริง (16) และ `channelsCount` ถูกต้องสำหรับ Grayscale (1) |
-| **ไฟล์ไม่พบ** | พาธโฟลเดอร์ต้นทางไม่ถูกต้อง | ตรวจสอบสตริง `sourceDir` อีกครั้งและยืนยันว่าไฟล์ PSD มีอยู่จริง |
-| **PNG ที่ส่งออกเป็นสีดำ** | PNG ถูกบันทึกโดยไม่ได้จัดการช่อง Alpha | ใช้ `PngColorType.GrayscaleWithAlpha` ตามที่แสดงข้างต้น |
+| **“Unsupported color type” exception** | พยายามบันทึก PSD ที่มีการกำหนดช่องสีที่ไม่รองรับ. | ตรวจสอบให้ `channelBitsCount` ตรงกับความลึกบิตจริง (16) และ `channelsCount` ถูกต้องสำหรับ Grayscale (1). |
+| **File not found** | พาธโฟลเดอร์ต้นทางไม่ถูกต้อง. | ตรวจสอบสตริง `sourceDir` อีกครั้งและยืนยันว่าไฟล์ PSD มีอยู่. |
+| **Output PNG appears black** | PNG ถูกบันทึกโดยไม่ได้จัดการช่อง Alpha. | ใช้ `PngColorType.GrayscaleWithAlpha` ตามที่แสดงด้านบน. |
 
 ## Frequently Asked Questions
 
-**Q: โหมดสี Grayscale 16-bit คืออะไร?**  
-A: ให้สีเทา 65 536 ระดับ ซึ่งให้รายละเอียดโทนที่มากกว่ามาตรฐาน 8‑bit (256 ระดับ) อย่างมาก
+**Q: What is 16-bit grayscale color mode?**  
+A: มันให้ 65 536 เฉดสีเทา, ให้รายละเอียดโทนสีมากกว่ามาตรฐาน 8‑bit (256 เฉด) อย่างมาก.
 
-**Q: สามารถใช้ Aspose.PSD กับภาพที่ไม่ใช่ Grayscale ได้หรือไม่?**  
-A: แน่นอน! Aspose.PSD รองรับ RGB, CMYK, Lab และโหมดสีอื่น ๆ อีกหลายแบบ
+**Q: Can I use Aspose.PSD for non‑grayscale images?**  
+A: แน่นอน! Aspose.PSD รองรับ RGB, CMYK, Lab, และโหมดสีอื่น ๆ อีกหลายแบบ.
 
-**Q: มีเวอร์ชันทดลองของ Aspose.PSD หรือไม่?**  
-A: มี คุณสามารถลองใช้เวอร์ชันทดลองฟรีของ Aspose.PSD ได้ เพียงไปที่ [หน้าดาวน์โหลดของ Aspose](https://releases.aspose.com/)  
+**Q: Is there a trial version of Aspose.PSD?**  
+A: มี, คุณสามารถลองใช้รุ่นทดลองฟรีของ Aspose.PSD ได้โดยไปที่ [Aspose download page](https://releases.aspose.com/).
 
-**Q: จะหา ตัวอย่างเพิ่มเติมของการใช้ Aspose.PSD ได้จากที่ไหน?**  
-A: คุณสามารถตรวจสอบ [เอกสารประกอบ](https://reference.aspose.com/psd/java/) เพื่อดูตัวอย่างและบทเรียนเชิงลึกเพิ่มเติม
+**Q: Where can I find more examples of using Aspose.PSD?**  
+A: คุณสามารถดูที่ [documentation](https://reference.aspose.com/psd/java/) เพื่อรับตัวอย่างและบทเรียนเชิงลึกเพิ่มเติม.
 
-**Q: จะซื้อไลเซนส์สำหรับ Aspose.PSD อย่างไร?**  
-A: คุณสามารถซื้อไลเซนส์ได้โดยไปที่ [หน้าแผนการซื้อของ Aspose](https://purchase.aspose.com/buy)
+**Q: How do I purchase a license for Aspose.PSD?**  
+A: คุณสามารถซื้อไลเซนส์ได้โดยเยี่ยมชม [Aspose purchase page](https://purchase.aspose.com/buy).
 
 ---
 
-**Last Updated:** 2025-12-17  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
