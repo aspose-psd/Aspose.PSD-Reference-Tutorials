@@ -1,11 +1,16 @@
 ---
-title: Export PSD to PNG & Add a New Regular Layer using Aspose.PSD for Java
+title: Export PSD to PNG & Add a New Regular Layer using Aspose.PSD for Java – aspose temporary license
 linktitle: Add a New Regular Layer to PSD
 second_title: Aspose.PSD Java API
-description: Learn how to export PSD to PNG and create a new PSD layer with Aspose.PSD for Java. This step‑by‑step aspose psd tutorial covers full psd image manipulation.
+description: Learn how to export PSD to PNG and create a new PSD layer with Aspose.PSD for Java using an aspose temporary license. This step‑by‑step tutorial covers psd image manipulation and set layer position.
 weight: 11
 url: /java/advanced-image-effects/add-new-regular-layer/
-date: 2025-11-27
+date: 2026-04-08
+keywords:
+- aspose temporary license
+- set layer position
+- psd image manipulation
+- create new psd layer
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,14 +21,18 @@ date: 2025-11-27
 
 ## Introduction
 
-In this **aspose psd tutorial** you'll discover how to **export PSD to PNG** while also **creating a new regular layer** inside the same file. Whether you need to generate web‑ready thumbnails, prepare assets for a design pipeline, or simply experiment with **psd image manipulation**, Aspose.PSD for Java gives you full programmatic control. We'll walk through every step—from loading the source file to saving both the updated PSD and a PNG copy—so you can start manipulating PSD layers right away.
+In this **aspose psd tutorial** you’ll discover how to **export PSD to PNG** while also **creating a new regular layer** inside the same file, **using an aspose temporary license** for development. Whether you need to generate web‑ready thumbnails, prepare assets for a design pipeline, or simply experiment with **psd image manipulation**, Aspose.PSD for Java gives you full programmatic control. We'll walk through every step—from loading the source file to saving both the updated PSD and a PNG copy—so you can start manipulating PSD layers right away.
 
 ## Quick Answers
 - **Can I export PSD to PNG with one call?** Yes, after adding layers you can call `save` with `PngOptions`.
 - **Do I need a license for development?** A temporary license works for testing; a full license is required for production.
 - **Which Java version is supported?** Aspose.PSD works with Java 8 and newer.
-- **Is layer positioning pixel‑based?** Yes, you set left, top, right, bottom coordinates in pixels.
+- **Is layer positioning pixel‑based?** Yes, you set left, top, right, bottom coordinates in pixels using the **set layer position** methods.
 - **Will the PNG retain layer transparency?** The PNG will contain the merged result of all visible layers.
+
+## Why use an aspose temporary license?
+
+An **aspose temporary license** lets you evaluate the full feature set of Aspose.PSD without any functional restrictions. It removes the evaluation watermark, unlocks all APIs—including the ability to **create new psd layer** objects—and lets you test your code in a production‑like environment before purchasing a permanent license.
 
 ## Prerequisites
 
@@ -47,7 +56,13 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Step 1: Load the PSD File
+## What is “set layer position” and why does it matter?
+
+When you add a new layer, you need to define where it appears on the canvas. The methods `setLeft`, `setTop`, `setRight`, and `setBottom` **set layer position** in pixel coordinates. Correct positioning ensures that your graphics line up exactly where you expect them to, which is crucial for tasks like compositing UI assets or preparing print‑ready files.
+
+## Step‑by‑step guide
+
+### Step 1: Load the PSD File
 
 First, load the existing PSD you want to modify. This gives you a `PsdImage` object you can work with.
 
@@ -57,9 +72,9 @@ String sourceFileName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## Step 2: Prepare Pixel Data and Rectangles
+### Step 2: Prepare Pixel Data and Rectangles
 
-We'll create two pixel buffers (`int[]`) and define the rectangular areas where the new layers will be painted. This is the foundation for **creating a new PSD layer**.
+We'll create two pixel buffers (`int[]`) and define the rectangular areas where the new layers will be painted. This is the foundation for **creating a new psd layer**.
 
 ```java
 int[] data1 = new int[2500];
@@ -68,7 +83,7 @@ Rectangle rect1 = new Rectangle(0, 0, 50, 50);
 Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 ```
 
-## Step 3: Initialize Layer Data
+### Step 3: Initialize Layer Data
 
 Fill the pixel buffers with a default ARGB value. The value `-10000000` corresponds to a semi‑transparent dark shade.
 
@@ -79,9 +94,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-## Step 4: Add Regular Layers (Manipulate PSD Layers)
+### Step 4: Add Regular Layers (Manipulate PSD Layers)
 
-Now we **add regular layers** to the PSD image and set their bounds. This demonstrates how to **manipulate PSD layers** programmatically.
+Now we **add regular layers** to the PSD image and **set layer position** using the left, top, right, and bottom properties. This demonstrates how to **manipulate PSD layers** programmatically.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -99,7 +114,7 @@ layer2.setBottom(175);
 layer2.saveArgb32Pixels(rect2, data2);
 ```
 
-## Step 5: Export PSD to PNG and Save the Updated PSD
+### Step 5: Export PSD to PNG and Save the Updated PSD
 
 After the layers are in place, save the modified document. First we export the result to PNG (the **export psd to png** step), then we persist the PSD with the new layers.
 
@@ -140,11 +155,11 @@ A: Yes, join the discussions on the Aspose forums [here](https://forum.aspose.co
 
 ## Conclusion
 
-You've now learned how to **export PSD to PNG** while **adding new regular layers** using Aspose.PSD for Java. This workflow showcases core **psd image manipulation** capabilities: loading a file, creating layers, populating pixel data, and exporting the final composition. Feel free to experiment with different rectangle sizes, pixel colors, or layer effects to tailor the output to your project's needs.
+You've now learned how to **export PSD to PNG** while **adding new regular layers** using Aspose.PSD for Java, and you’ve seen how an **aspose temporary license** enables you to try this workflow without restrictions. This tutorial showcases core **psd image manipulation** capabilities: loading a file, creating layers, populating pixel data, and exporting the final composition. Feel free to experiment with different rectangle sizes, pixel colors, or layer effects to tailor the output to your project's needs.
 
 ---
 
-**Last Updated:** 2025-11-27  
+**Last Updated:** 2026-04-08  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 

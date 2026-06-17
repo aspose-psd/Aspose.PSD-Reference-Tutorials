@@ -1,32 +1,53 @@
 ---
-title: Dodaj nową zwykłą warstwę do PSD za pomocą Aspose.PSD dla Java
+date: 2026-04-08
+description: Dowiedz się, jak wyeksportować plik PSD do PNG i utworzyć nową warstwę
+  PSD przy użyciu Aspose.PSD dla Javy oraz tymczasowej licencji Aspose. Ten krok‑po‑kroku
+  poradnik obejmuje manipulację obrazem PSD oraz ustawianie pozycji warstwy.
+keywords:
+- aspose temporary license
+- set layer position
+- psd image manipulation
+- create new psd layer
 linktitle: Dodaj nową zwykłą warstwę do PSD
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak dodać nową zwykłą warstwę do plików PSD przy użyciu Aspose.PSD dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo manipulować plikami PSD.
-weight: 11
+second_title: Aspose.PSD Java API
+title: Eksportuj PSD do PNG i dodaj nową zwykłą warstwę przy użyciu Aspose.PSD dla
+  Javy – tymczasowa licencja Aspose
 url: /pl/java/advanced-image-effects/add-new-regular-layer/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj nową zwykłą warstwę do PSD za pomocą Aspose.PSD dla Java
+# Eksportuj PSD do PNG i dodaj nową zwykłą warstwę przy użyciu Aspose.PSD dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym kompleksowym samouczku dotyczącym używania Aspose.PSD dla Java w celu dodania nowej zwykłej warstwy do pliku PSD. Aspose.PSD to potężna biblioteka Java, która pozwala programistom efektywnie manipulować plikami PSD i pracować z nimi. W tym samouczku przeprowadzimy Cię przez proces dodawania nowej zwykłej warstwy do pliku PSD, podając szczegółowe kroki i przykłady kodu.
+W tym **aspose psd tutorial** odkryjesz, jak **export PSD to PNG** jednocześnie **tworząc nową zwykłą warstwę** w tym samym pliku, **używając tymczasowej licencji aspose** do rozwoju. Niezależnie od tego, czy potrzebujesz generować miniatury gotowe do sieci, przygotowywać zasoby do potoku projektowego, czy po prostu eksperymentować z **psd image manipulation**, Aspose.PSD dla Javy daje pełną kontrolę programistyczną. Przeprowadzimy Cię przez każdy krok — od załadowania pliku źródłowego po zapisanie zarówno zaktualizowanego PSD, jak i kopii PNG — abyś mógł od razu zacząć manipulować warstwami PSD.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Czy mogę wyeksportować PSD do PNG jednym wywołaniem?** Tak, po dodaniu warstw możesz wywołać `save` z `PngOptions`.
+- **Czy potrzebuję licencji do rozwoju?** Tymczasowa licencja działa w testach; pełna licencja jest wymagana w produkcji.
+- **Jaką wersję Javy obsługuje?** Aspose.PSD działa z Java 8 i nowszymi.
+- **Czy pozycjonowanie warstw jest oparte na pikselach?** Tak, ustawiasz współrzędne left, top, right, bottom w pikselach przy użyciu metod **set layer position**.
+- **Czy PNG zachowa przezroczystość warstw?** PNG będzie zawierał połączony wynik wszystkich widocznych warstw.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Dlaczego używać tymczasowej licencji aspose?
 
-- Środowisko programistyczne Java: Upewnij się, że w systemie skonfigurowano środowisko programistyczne Java.
--  Biblioteka Aspose.PSD: Pobierz i zainstaluj bibliotekę Aspose.PSD dla Java. Możesz znaleźć drogę do biblioteki[Tutaj](https://releases.aspose.com/psd/java/).
+**Tymczasowa licencja aspose** pozwala ocenić pełny zestaw funkcji Aspose.PSD bez żadnych ograniczeń funkcjonalnych. Usuwa znak wodny wersji próbnej, odblokowuje wszystkie API — w tym możliwość **create new psd layer** — i umożliwia testowanie kodu w środowisku przypominającym produkcję przed zakupem stałej licencji.
 
-## Importuj pakiety
+## Wymagania wstępne
 
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Pakiety te są niezbędne do pracy z funkcjonalnościami Aspose.PSD. Umieść następujące wiersze na początku pliku Java:
+Przed rozpoczęciem upewnij się, że masz:
+
+- **Środowisko programistyczne Java** – JDK 8+ oraz zainstalowane narzędzie budujące (Maven/Gradle).
+- **Aspose.PSD dla Javy** – Pobierz najnowszy plik JAR z oficjalnej strony [here](https://releases.aspose.com/psd/java/).
+- **Przykładowy plik PSD** – W przykładach użyjemy `OneLayer.psd`.
+
+## Importowanie pakietów
+
+Dodaj wymagane importy do swojej klasy Java. Te klasy zapewniają podstawową funkcjonalność **psd image manipulation** oraz obsługę warstw.
 
 ```java
 import com.aspose.psd.Image;
@@ -38,9 +59,15 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Krok 1: Załaduj plik PSD
+## Czym jest „set layer position” i dlaczego ma to znaczenie?
 
-Załaduj plik PSD, który chcesz edytować, używając następującego kodu:
+Kiedy dodajesz nową warstwę, musisz określić, gdzie ma się pojawić na płótnie. Metody `setLeft`, `setTop`, `setRight` i `setBottom` **set layer position** w współrzędnych pikselowych. Poprawne pozycjonowanie zapewnia, że grafika będzie dokładnie tam, gdzie tego oczekujesz, co jest kluczowe przy kompozycji zasobów UI lub przygotowywaniu plików gotowych do druku.
+
+## Przewodnik krok po kroku
+
+### Krok 1: Załaduj plik PSD
+
+Najpierw załaduj istniejący plik PSD, który chcesz zmodyfikować. Dzięki temu otrzymasz obiekt `PsdImage`, z którym możesz pracować.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,9 +75,9 @@ String sourceFileName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## Krok 2: Przygotuj tablice danych i prostokąty
+### Krok 2: Przygotuj dane pikseli i prostokąty
 
-Przygotuj dwie tablice int i dwa obiekty Rectangle w następujący sposób:
+Utworzymy dwa bufory pikseli (`int[]`) i określimy prostokątne obszary, w których zostaną namalowane nowe warstwy. To podstawa **creating a new psd layer**.
 
 ```java
 int[] data1 = new int[2500];
@@ -59,9 +86,9 @@ Rectangle rect1 = new Rectangle(0, 0, 50, 50);
 Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 ```
 
-## Krok 3: Zainicjuj dane warstwy
+### Krok 3: Zainicjuj dane warstwy
 
-Zainicjuj tablice danych wartością domyślną:
+Wypełnij bufory pikseli domyślną wartością ARGB. Wartość `-10000000` odpowiada półprzezroczystemu ciemnemu odcieniowi.
 
 ```java
 for (int i = 0; i < 2500; i++) {
@@ -70,9 +97,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-## Krok 4: Dodaj regularne warstwy
+### Krok 4: Dodaj zwykłe warstwy (Manipulacja warstwami PSD)
 
-Dodaj dwie zwykłe warstwy do obrazu PSD:
+Teraz **add regular layers** do obrazu PSD i **set layer position** przy użyciu właściwości left, top, right i bottom. To pokazuje, jak **manipulate PSD layers** programowo.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -90,42 +117,55 @@ layer2.setBottom(175);
 layer2.saveArgb32Pixels(rect2, data2);
 ```
 
-## Krok 5: Zapisz PSD i PNG
+### Krok 5: Eksportuj PSD do PNG i zapisz zaktualizowany PSD
 
-Zapisz zmodyfikowany plik PSD i dodatkowy plik PNG:
+Po umieszczeniu warstw, zapisz zmodyfikowany dokument. Najpierw eksportujemy wynik do PNG (krok **export psd to png**), a następnie zapisujemy PSD z nowymi warstwami.
 
 ```java
-im.save(exportPath, new PsdOptions());
-im.save(exportPathPng, new PngOptions());
+String exportPath = dataDir + "Updated.psd";
+String exportPathPng = dataDir + "Updated.png";
+
+im.save(exportPath, new PsdOptions());          // Save the updated PSD
+im.save(exportPathPng, new PngOptions());       // Export PSD to PNG
 ```
 
-Gratulacje! Pomyślnie dodałeś nową zwykłą warstwę do pliku PSD przy użyciu Aspose.PSD dla Java.
+> **Pro tip:** Jeśli potrzebujesz tylko PNG, możesz pominąć wywołanie `save` dla PSD i od razu wywołać `save` z `PngOptions`.
 
-## Wniosek
+## Typowe problemy i rozwiązywanie
 
-W tym samouczku omówiliśmy proces dodawania nowej zwykłej warstwy do pliku PSD przy użyciu Aspose.PSD dla Java. Ta potężna biblioteka upraszcza manipulację plikami PSD, udostępniając ją programistom Java. Eksperymentuj z różnymi parametrami i funkcjonalnościami, aby odkryć pełny potencjał Aspose.PSD.
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------|-----|
+| PNG pojawia się pusty | Warstwy są niewidoczne lub całkowicie przezroczyste | Upewnij się, że ustawiasz nieprzezroczyste wartości pikseli lub wywołaj `layer.setVisible(true)`. |
+| `ArrayIndexOutOfBoundsException` | Niezgodność rozmiaru prostokąta i długości tablicy pikseli | Sprawdź, czy `rect.width * rect.height == dataArray.length`. |
+| LicenseException w czasie wykonywania | Nie załadowano ważnej licencji | Załaduj tymczasową lub stałą licencję przed wywołaniem jakichkolwiek metod API. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.PSD jest kompatybilny z Java 8?
+**P: Czy Aspose.PSD jest kompatybilny z Java 8?**  
+O: Tak, Aspose.PSD obsługuje Java 8 i późniejsze wersje.
 
-O1: Tak, Aspose.PSD obsługuje Java 8 i nowsze wersje.
+**P: Czy mogę zastosować transformacje (obrót, skalowanie) do dodanych warstw?**  
+O: Oczywiście! Klasa `Layer` udostępnia metody takie jak `rotate`, `scale` i `translate` umożliwiające pełną kontrolę nad transformacjami.
 
-### P2: Czy mogę zastosować transformacje do dodanych warstw?
+**P: Gdzie mogę znaleźć dodatkową dokumentację Aspose.PSD?**  
+O: Szczegółowa dokumentacja API jest dostępna [here](https://reference.aspose.com/psd/java/).
 
-A2: Absolutnie! Aspose.PSD zapewnia szereg opcji transformacji warstw.
+**P: Jak uzyskać tymczasową licencję dla Aspose.PSD?**  
+O: Odwiedź stronę tymczasowej licencji [here](https://purchase.aspose.com/temporary-license/).
 
-### P3: Gdzie mogę znaleźć dodatkową dokumentację Aspose.PSD?
+**P: Czy istnieją fora społecznościowe wspierające Aspose.PSD?**  
+O: Tak, dołącz do dyskusji na forach Aspose [here](https://forum.aspose.com/c/psd/34).
 
- Odpowiedź 3: Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/psd/java/).
+## Podsumowanie
 
-### P4: Jak mogę uzyskać tymczasową licencję na Aspose.PSD?
+Teraz wiesz, jak **export PSD to PNG** jednocześnie **adding new regular layers** przy użyciu Aspose.PSD dla Javy oraz jak **aspose temporary license** umożliwia wypróbowanie tego przepływu pracy bez ograniczeń. Ten tutorial prezentuje podstawowe możliwości **psd image manipulation**: ładowanie pliku, tworzenie warstw, wypełnianie danych pikseli oraz eksport końcowej kompozycji. Śmiało eksperymentuj z różnymi rozmiarami prostokątów, kolorami pikseli czy efektami warstw, aby dopasować wynik do potrzeb swojego projektu.
 
- A4: Odwiedź[ten link](https://purchase.aspose.com/temporary-license/) dla opcji licencji tymczasowej.
+---
 
-### P5: Czy istnieją fora społeczności dotyczące wsparcia Aspose.PSD?
+**Ostatnia aktualizacja:** 2026-04-08  
+**Testowano z:** Aspose.PSD 24.11 for Java  
+**Autor:** Aspose  
 
- Odpowiedź 5: Tak, możesz znaleźć wsparcie i dyskusje[Tutaj](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

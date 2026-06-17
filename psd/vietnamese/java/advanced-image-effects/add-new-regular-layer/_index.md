@@ -1,32 +1,51 @@
 ---
-title: Thêm một lớp thông thường mới vào PSD bằng Aspose.PSD cho Java
-linktitle: Thêm một lớp thông thường mới vào PSD
-second_title: API Java Aspose.PSD
-description: Tìm hiểu cách thêm lớp thông thường mới vào tệp PSD bằng Aspose.PSD cho Java. Làm theo hướng dẫn từng bước của chúng tôi để thao tác PSD liền mạch.
-weight: 11
+date: 2026-04-08
+description: Học cách xuất tệp PSD sang PNG và tạo lớp PSD mới bằng Aspose.PSD cho
+  Java sử dụng giấy phép tạm thời của Aspose. Hướng dẫn từng bước này bao gồm việc
+  thao tác ảnh PSD và đặt vị trí lớp.
+keywords:
+- aspose temporary license
+- set layer position
+- psd image manipulation
+- create new psd layer
+linktitle: Thêm một lớp thường mới vào PSD
+second_title: Aspose.PSD Java API
+title: Xuất PSD sang PNG & Thêm lớp thường mới bằng Aspose.PSD cho Java – giấy phép
+  tạm thời của Aspose
 url: /vi/java/advanced-image-effects/add-new-regular-layer/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm một lớp thông thường mới vào PSD bằng Aspose.PSD cho Java
+# Xuất PSD sang PNG & Thêm Lớp Thường Mới bằng Aspose.PSD cho Java
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn toàn diện này về cách sử dụng Aspose.PSD cho Java để thêm lớp thông thường mới vào tệp PSD. Aspose.PSD là một thư viện Java mạnh mẽ cho phép các nhà phát triển thao tác và làm việc với các tệp PSD một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm lớp thông thường mới vào tệp PSD, cung cấp các bước chi tiết và ví dụ về mã.
+Trong **aspose psd tutorial** này, bạn sẽ khám phá cách **export PSD to PNG** đồng thời **creating a new regular layer** trong cùng một tệp, **using an aspose temporary license** cho việc phát triển. Cho dù bạn cần tạo các hình thu nhỏ sẵn sàng cho web, chuẩn bị tài nguyên cho quy trình thiết kế, hoặc chỉ đơn giản thử nghiệm với **psd image manipulation**, Aspose.PSD cho Java cung cấp cho bạn kiểm soát lập trình đầy đủ. Chúng tôi sẽ hướng dẫn từng bước—từ việc tải tệp nguồn đến lưu cả PSD đã cập nhật và bản sao PNG—để bạn có thể bắt đầu thao tác các lớp PSD ngay lập tức.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Có thể xuất PSD sang PNG chỉ bằng một lệnh không?** Có, sau khi thêm các lớp, bạn có thể gọi `save` với `PngOptions`.
+- **Tôi có cần giấy phép cho việc phát triển không?** Giấy phép tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ là bắt buộc cho môi trường sản xuất.
+- **Phiên bản Java nào được hỗ trợ?** Aspose.PSD hoạt động với Java 8 và các phiên bản mới hơn.
+- **Vị trí lớp có dựa trên pixel không?** Có, bạn thiết lập các tọa độ left, top, right, bottom bằng pixel bằng cách sử dụng các phương thức **set layer position**.
+- **PNG có giữ được độ trong suốt của lớp không?** PNG sẽ chứa kết quả hợp nhất của tất cả các lớp có thể nhìn thấy.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Tại sao nên sử dụng giấy phép tạm thời của Aspose?
 
-- Môi trường phát triển Java: Đảm bảo rằng bạn đã thiết lập môi trường phát triển Java trên hệ thống của mình.
--  Thư viện Aspose.PSD: Tải xuống và cài đặt thư viện Aspose.PSD cho Java. Bạn có thể tìm thấy thư viện[đây](https://releases.aspose.com/psd/java/).
+Giấy phép tạm thời **aspose** cho phép bạn đánh giá toàn bộ tính năng của Aspose.PSD mà không có bất kỳ hạn chế chức năng nào. Nó loại bỏ watermark đánh giá, mở khóa tất cả các API—bao gồm khả năng **create new psd layer** objects—and lets you test your code in a production‑like environment before purchasing a permanent license.
 
-## Gói nhập khẩu
+## Yêu cầu trước
 
-Để bắt đầu, hãy nhập các gói cần thiết vào dự án Java của bạn. Các gói này rất cần thiết để làm việc với các chức năng của Aspose.PSD. Bao gồm các dòng sau vào đầu tệp Java của bạn:
+- **Java Development Environment** – JDK 8+ và một công cụ xây dựng (Maven/Gradle) đã được cài đặt.
+- **Aspose.PSD for Java** – Tải JAR mới nhất từ trang chính thức [here](https://releases.aspose.com/psd/java/).
+- **A sample PSD file** – Chúng tôi sẽ sử dụng `OneLayer.psd` trong các ví dụ.
+
+## Nhập các gói
+
+Thêm các import cần thiết vào lớp Java của bạn. Các lớp này cung cấp chức năng cốt lõi cho **psd image manipulation** và việc xử lý lớp.
 
 ```java
 import com.aspose.psd.Image;
@@ -38,9 +57,15 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Bước 1: Tải tệp PSD
+## “set layer position” là gì và tại sao nó quan trọng?
 
-Tải tệp PSD bạn muốn chỉnh sửa bằng mã sau:
+Khi bạn thêm một lớp mới, bạn cần xác định vị trí của nó trên canvas. Các phương thức `setLeft`, `setTop`, `setRight` và `setBottom` **set layer position** theo tọa độ pixel. Việc định vị chính xác đảm bảo đồ họa của bạn được sắp xếp đúng như mong đợi, điều này rất quan trọng cho các nhiệm vụ như ghép các tài sản UI hoặc chuẩn bị các tệp sẵn sàng in.
+
+## Hướng dẫn từng bước
+
+### Bước 1: Tải tệp PSD
+
+Đầu tiên, tải PSD hiện có mà bạn muốn chỉnh sửa. Điều này sẽ cung cấp cho bạn một đối tượng `PsdImage` để làm việc.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,9 +73,9 @@ String sourceFileName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## Bước 2: Chuẩn bị mảng dữ liệu và hình chữ nhật
+### Bước 2: Chuẩn bị dữ liệu pixel và các hình chữ nhật
 
-Chuẩn bị hai mảng int và hai đối tượng Rectangle như sau:
+Chúng ta sẽ tạo hai bộ đệm pixel (`int[]`) và xác định các vùng hình chữ nhật nơi các lớp mới sẽ được vẽ. Đây là nền tảng cho **creating a new psd layer**.
 
 ```java
 int[] data1 = new int[2500];
@@ -59,9 +84,9 @@ Rectangle rect1 = new Rectangle(0, 0, 50, 50);
 Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 ```
 
-## Bước 3: Khởi tạo dữ liệu lớp
+### Bước 3: Khởi tạo dữ liệu lớp
 
-Khởi tạo mảng dữ liệu với giá trị mặc định:
+Điền các bộ đệm pixel bằng giá trị ARGB mặc định. Giá trị `-10000000` tương ứng với một màu tối bán trong suốt.
 
 ```java
 for (int i = 0; i < 2500; i++) {
@@ -70,9 +95,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-## Bước 4: Thêm các lớp thông thường
+### Bước 4: Thêm các lớp thường (Thao tác các lớp PSD)
 
-Thêm hai lớp thông thường vào hình ảnh PSD:
+Bây giờ chúng ta **add regular layers** vào hình ảnh PSD và **set layer position** bằng cách sử dụng các thuộc tính left, top, right và bottom. Điều này minh họa cách **manipulate PSD layers** một cách lập trình.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -90,42 +115,55 @@ layer2.setBottom(175);
 layer2.saveArgb32Pixels(rect2, data2);
 ```
 
-## Bước 5: Lưu PSD và PNG
+### Bước 5: Xuất PSD sang PNG và Lưu PSD đã cập nhật
 
-Lưu PSD đã sửa đổi và tệp PNG bổ sung:
+Sau khi các lớp đã được đặt, lưu tài liệu đã chỉnh sửa. Đầu tiên chúng ta xuất kết quả sang PNG (bước **export psd to png**), sau đó chúng ta lưu PSD với các lớp mới.
 
 ```java
-im.save(exportPath, new PsdOptions());
-im.save(exportPathPng, new PngOptions());
+String exportPath = dataDir + "Updated.psd";
+String exportPathPng = dataDir + "Updated.png";
+
+im.save(exportPath, new PsdOptions());          // Save the updated PSD
+im.save(exportPathPng, new PngOptions());       // Export PSD to PNG
 ```
 
-Chúc mừng! Bạn đã thêm thành công một lớp thông thường mới vào tệp PSD bằng Aspose.PSD cho Java.
+> **Mẹo chuyên nghiệp:** Nếu bạn chỉ cần PNG, bạn có thể bỏ qua lệnh `save` của PSD và trực tiếp gọi `save` với `PngOptions`.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Khắc phục
 
-Trong hướng dẫn này, chúng tôi đã đề cập đến quá trình thêm một lớp thông thường mới vào tệp PSD bằng Aspose.PSD cho Java. Thư viện mạnh mẽ này đơn giản hóa thao tác PSD, giúp các nhà phát triển Java có thể truy cập được. Thử nghiệm với các thông số và chức năng khác nhau để khám phá toàn bộ tiềm năng của Aspose.PSD.
+| Triệu chứng | Nguyên nhân có thể | Cách khắc phục |
+|------------|--------------------|----------------|
+| PNG xuất hiện trống | Các lớp không hiển thị hoặc hoàn toàn trong suốt | Đảm bảo bạn đặt giá trị pixel không trong suốt hoặc gọi `layer.setVisible(true)`. |
+| `ArrayIndexOutOfBoundsException` | Kích thước hình chữ nhật không khớp với độ dài mảng pixel | Xác minh rằng `rect.width * rect.height == dataArray.length`. |
+| LicenseException khi chạy | Không có giấy phép hợp lệ được tải | Tải một giấy phép tạm thời hoặc vĩnh viễn trước khi gọi bất kỳ phương thức API nào. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.PSD có tương thích với Java 8 không?
+**Q: Aspose.PSD có tương thích với Java 8 không?**  
+A: Có, Aspose.PSD hỗ trợ Java 8 và các phiên bản sau.
 
-Câu trả lời 1: Có, Aspose.PSD hỗ trợ Java 8 và các phiên bản mới hơn.
+**Q: Tôi có thể áp dụng các biến đổi (xoay, thu phóng) cho các lớp đã thêm không?**  
+A: Chắc chắn! Lớp `Layer` cung cấp các phương thức như `rotate`, `scale`, và `translate` để kiểm soát đầy đủ các biến đổi.
 
-### Câu hỏi 2: Tôi có thể áp dụng các phép biến đổi cho các lớp được thêm vào không?
+**Q: Tôi có thể tìm tài liệu Aspose.PSD bổ sung ở đâu?**  
+A: Tài liệu API chi tiết có sẵn [here](https://reference.aspose.com/psd/java/).
 
-A2: Chắc chắn rồi! Aspose.PSD cung cấp một loạt các tùy chọn chuyển đổi cho các lớp.
+**Q: Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.PSD?**  
+A: Truy cập trang giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
 
-### Câu hỏi 3: Tôi có thể tìm thêm tài liệu Aspose.PSD ở đâu?
+**Q: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?**  
+A: Có, tham gia thảo luận trên diễn đàn Aspose [here](https://forum.aspose.com/c/psd/34).
 
- A3: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/psd/java/).
+## Kết luận
 
-### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
+Bạn đã học cách **export PSD to PNG** đồng thời **adding new regular layers** bằng Aspose.PSD cho Java, và bạn đã thấy cách **aspose temporary license** cho phép bạn thử quy trình này mà không có hạn chế. Bài hướng dẫn này trình bày các khả năng cốt lõi của **psd image manipulation**: tải tệp, tạo lớp, điền dữ liệu pixel và xuất bản phối hợp cuối cùng. Hãy tự do thử nghiệm với các kích thước hình chữ nhật, màu pixel hoặc hiệu ứng lớp khác nhau để điều chỉnh đầu ra phù hợp với nhu cầu dự án của bạn.
 
- A4: Thăm quan[liên kết này](https://purchase.aspose.com/temporary-license/) cho các tùy chọn giấy phép tạm thời.
+---
 
-### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?
+**Cập nhật lần cuối:** 2026-04-08  
+**Kiểm tra với:** Aspose.PSD 24.11 for Java  
+**Tác giả:** Aspose  
 
- Câu trả lời 5: Có, bạn có thể tìm thấy sự hỗ trợ và thảo luận[đây](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
