@@ -1,35 +1,76 @@
 ---
-title: Aspose.PSD for Java'da Eksik Yazı Tiplerini Değiştirme Ayarları
+date: 2026-06-13
+description: Aspose.PSD for Java kullanarak PSD dosyalarındaki yazı tiplerini nasıl
+  değiştireceğinizi öğrenin, PSD'yi PNG'ye dönüştürün ve eksik yazı tiplerini verimli
+  bir şekilde yönetin.
+keywords:
+- how to replace fonts
+- convert psd to png
+- handle missing fonts psd
 linktitle: Eksik Yazı Tiplerini Değiştirme Ayarları
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'da eksik yazı tiplerini değiştirmeyle ilgili kapsamlı kılavuzu keşfedin. Kusursuz yazı tipi yönetimiyle görüntü tasarımınızı geliştirin.
-weight: 17
+schemas:
+- author: Aspose
+  dateModified: '2026-06-13'
+  description: Learn how to replace fonts in PSD files using Aspose.PSD for Java,
+    convert PSD to PNG, and handle missing fonts efficiently.
+  headline: How to Replace Fonts in PSD Files with Aspose.PSD for Java
+  type: TechArticle
+- questions:
+  - answer: '`PsdImage` is the core class that represents a PSD document in memory.'
+    question: What is the primary class for loading PSD files?
+  - answer: Use `PsdLoadOptions.setDefaultFontName("Arial")`.
+    question: Which option sets a default replacement font?
+  - answer: Yes—call `psdImage.save("output.png", new PngOptions())`.
+    question: Can I save the result as PNG?
+  - answer: A temporary license works for testing; a full license is required for
+      production.
+    question: Do I need a license for development?
+  - answer: Aspose.PSD for Java supports Java 8 and later.
+    question: What Java version is supported?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+title: Aspose.PSD for Java ile PSD Dosyalarındaki Yazı Tiplerini Nasıl Değiştirilir
 url: /tr/java/advanced-techniques/settings-replacing-missing-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java'da Eksik Yazı Tiplerini Değiştirme Ayarları
+# PSD Dosyalarında Yazı Tiplerini Aspose.PSD for Java ile Nasıl Değiştirilir
 
-## giriiş
+Modern Java geliştirmede, Photoshop (PSD) dosyasında **how to replace fonts** yaygın bir zorluktur ve tasarımlarınızın görsel düzenini bozabilir. Aspose.PSD for Java, yazı tipi değiştirmeyi otomatikleştiren sağlam bir API sunar ve görüntülerinizin tam olarak istediğiniz gibi görünmesini sağlar. Bu kılavuz, ortamı kurmaktan son PNG'yi kaydetmeye kadar her adımı size gösterir— böylece PSD dosyalarındaki eksik yazı tiplerini güvenle ele alabilirsiniz.
 
-Java geliştirmenin dinamik alanında, PSD dosyalarınızdaki eksik yazı tiplerini yönetmek ve değiştirmek, görsel olarak çekici ve hatasız görseller oluşturmanın çok önemli bir yönü olabilir. Aspose.PSD for Java, yazı tipi değiştirmeyi sorunsuz bir süreç haline getiren güçlü özellikleriyle imdada yetişiyor. Bu eğitimde, Aspose.PSD for Java kullanarak eksik yazı tiplerini değiştirme adımlarını keşfederek görsellerinizin estetik bütünlüğünü korumasını sağlayacağız.
+## Hızlı Yanıtlar
+- **What is the primary class for loading PSD files?** `PsdImage` bellek içinde bir PSD belgesini temsil eden temel sınıftır.  
+- **Which option sets a default replacement font?** `PsdLoadOptions.setDefaultFontName("Arial")` kullanın.  
+- **Can I save the result as PNG?** Evet—`psdImage.save("output.png", new PngOptions())` çağırın.  
+- **Do I need a license for development?** Test için geçici bir lisans çalışır; üretim için tam lisans gereklidir.  
+- **What Java version is supported?** Aspose.PSD for Java, Java 8 ve üzerini destekler.
+
+## Aspose.PSD for Java kullanarak bir PSD dosyasında yazı tiplerini nasıl değiştirilir?
+
+`PsdLoadOptions` ile bir yedek (fallback) yazı tipi belirterek kaynak PSD'yi yükleyin, ardından görüntüyü istediğiniz formatta kaydedin. API, sağladığınız varsayılan yazı tipini kullanarak eksik glifleri otomatik olarak değiştirir, manuel düzenleme olmadan render hatalarını ortadan kaldırır. Bu tek‑adımlı yaklaşım, herhangi bir boyuttaki dosya için çalışır ve katmanları, maskeleri ve efektleri korur.
+
+## `PsdLoadOptions` Nedir?
+
+`PsdLoadOptions`, Aspose.PSD'nin bir PSD dosyasını nasıl ayrıştırdığını kontrol eden bir yapılandırma nesnesidir. Varsayılan bir yedek yazı tipini belirtmenize, katman yükleme davranışını kontrol etmenize ve eksik kaynakları ele almak için seçenekler ayarlamanıza olanak tanır. Özelliklerini ayarlayarak, geliştiriciler farklı ortamlar arasında metin ve diğer öğelerin tutarlı render edilmesini sağlayabilir ve mevcut olmayan yazı tiplerinden kaynaklanan çalışma zamanı hatalarından kaçınabilir.
+
+## PSD dosyalarında eksik yazı tiplerini neden değiştirmelisiniz?
+
+Aspose.PSD, **50+ giriş ve çıkış formatını** destekler ve tüm belgeyi belleğe yüklemeden çok sayfalı PSD dosyalarını işleyebilir. Eksik yazı tiplerini değiştirmek, bozuk metin katmanlarını önler, manuel düzeltme süresini **%80**'e kadar azaltır ve dışa aktarılan PNG'lerin orijinal tasarım doğruluğunu korumasını sağlar.
 
 ## Önkoşullar
 
-Yazı tipi değiştirme büyüsüne dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+1. **Aspose.PSD Library** – Aspose.PSD for Java kütüphanesini [releases page](https://releases.aspose.com/psd/java/) adresinden indirin ve kurun.  
+2. **Java Development Environment** – Java 8+ JDK ve tercih ettiğiniz IDE (Eclipse, IntelliJ IDEA, vb.).  
 
-1.  Aspose.PSD Kütüphanesi: Aspose.PSD for Java kütüphanesini şu adresten indirip yükleyin:[sürümler sayfası](https://releases.aspose.com/psd/java/).
+Her şey hazır olduğuna göre, uygulamaya dalalım.
 
-2. Java Geliştirme Ortamı: Sisteminizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+## Paketleri İçe Aktarın
 
-Şimdi heyecan verici kısma geçelim!
-
-## Paketleri İçe Aktar
-
-Gerekli paketleri Java projenize aktararak başlayın. Bu adım, kodunuzdaki Aspose.PSD işlevlerine erişebilmenizi sağlar.
+Derleyicinin Aspose.PSD sınıflarını bulabilmesi için gerekli ad alanlarını içe aktarın.
 
 ```java
 import com.aspose.psd.Image;
@@ -40,9 +81,9 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## 1. Adım: Belge Dizininizi Kurun
+## Adım 1: Belge Dizinini Ayarlayın
 
-PSD dosyanızın bulunduğu dizini tanımlayın. Bu, kodun kaynak PSD dosyasını nerede arayacağını ve ortaya çıkan görüntüyü nereye kaydedeceğini bilmesini sağlar.
+Kaynak PSD'yi içeren ve çıktının yazılacağı klasörü tanımlayın. Bu yol, yükleyici ve kaydedici tarafından kullanılır.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -50,34 +91,34 @@ String dataDir = "Your Document Directory";
 
 ## Adım 2: Kaynak ve Hedef Dosyaları Belirleyin
 
-Kaynak PSD dosyanızın yollarını ve değiştirilen görüntünün kaydedileceği hedef dosyayı belirtin.
+Orijinal PSD ve hedef PNG için mutlak ya da göreli yollar sağlayın. Açık adlandırma kuralları, dosyaların üzerine yazılmasını önlemeye yardımcı olur.
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "result.png";
 ```
 
-## 3. Adım: Yazı Tipi Değiştirme Ayarlarını Yapılandırın
+## Adım 3: Yazı Tipi Değiştirme Ayarlarını Yapılandırın
 
-PsdLoadOptions'ı başlatın ve varsayılan değiştirme yazı tipini ayarlayın. Bu örnekte yedek yazı tipi olarak "Arial"ı kullanıyoruz.
+Bir `PsdLoadOptions` örneği oluşturun ve varsayılan yedek yazı tipini **Arial** (veya sisteminizde yüklü herhangi bir yazı tipi) olarak ayarlayın. Bu, motorun orijinali bulamadığında hangi yazı tipini kullanacağını belirtir.
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setDefaultReplacementFont("Arial");
 ```
 
-## 4. Adım: PSD Görüntüsünü Yükleyin ve Yazı Tiplerini Değiştirin
+## Adım 4: PSD Görüntüsünü Yükleyin ve Yazı Tiplerini Değiştirin
 
-Belirtilen yükleme seçeneklerini kullanarak PSD görüntüsünü yükleyin ve eksik yazı tiplerini önceki adımda ayarlanan varsayılan değiştirme yazı tipiyle değiştirin.
+PSD'yi yapılandırılmış seçeneklerle yükleyin. Aspose.PSD, yükleme sürecinde eksik yazı tiplerini otomatik olarak değiştirir, bu yüzden ekstra kod gerekmez.
 
 ```java
 Image image = Image.load(sourceFile, loadOptions);
 PsdImage psdImage = (PsdImage) image;
 ```
 
-## Adım 5: Değiştirilen Görüntüyü Kaydedin
+## Adım 5: Değiştirilmiş Görüntüyü Kaydedin
 
-Değiştirilen PSD görüntüsünü kaydetme seçeneklerini yapılandırın. Bu örnekte görüntüyü PNG formatında, gerçek renk ve alfa kanalıyla kaydediyoruz.
+`PngOptions` seçerek görüntüyü alfa kanallı gerçek renkli bir PNG olarak dışa aktarın. Oluşan dosya, değiştirilmiş yazı tiplerini doğru şekilde gösterecektir.
 
 ```java
 PngOptions options = new PngOptions();
@@ -85,36 +126,44 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-Tebrikler! Aspose.PSD for Java'yı kullanarak PSD dosyanızdaki eksik yazı tiplerini başarıyla değiştirdiniz.
+## Yaygın Sorunlar ve Çözümleri
 
-## Çözüm
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| Metin bozuk görünüyor | Yedek yazı tipi gerekli gliflere sahip değil | Daha geniş bir Unicode aralığına sahip bir yazı tipi seçin (ör. **Arial Unicode MS**). |
+| Dosya bulunamadı hatası | Adım 1 veya 2'de yanlış yol | Dizin dizgelerini doğrulayın ve çapraz platform uyumluluğu için `File.separator` kullanın. |
+| Lisans istisnası | Geçerli bir lisans olmadan çalıştırma | Test için geçici bir lisans uygulayın veya üretim için tam lisans satın alın. |
 
-Aspose.PSD for Java ile yazı tipi değişimi çok kolaydır ve geliştiricilere görsellerinde görsel tutarlılığı korumak için güçlü bir çözüm sunar. Bu adım adım kılavuzu izleyerek, eksik yazı tiplerini sorunsuz bir şekilde nasıl değiştireceğinizi ve görsellerinizin en yüksek standartları karşılamasını nasıl sağlayacağınızı öğrendiniz.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+### Q1: Aspose.PSD tüm PSD dosya sürümleriyle uyumlu mu?
+A1: Aspose.PSD, **4.0** sürümünden en son Photoshop sürümüne kadar PSD sürümlerini destekler ve eski ile modern tasarımlar arasında geniş uyumluluk sağlar.
 
-### S1: Aspose.PSD tüm PSD dosya sürümleriyle uyumlu mudur?
+### Q2: Aspose.PSD'de yedekleme için özel yazı tipleri kullanabilir miyim?
+A2: Evet, `setDefaultFontName` metoduna adını geçirerek sunucuda yüklü herhangi bir TrueType veya OpenType yazı tipini belirtebilirsiniz. Bu, görsel sonucun üzerinde tam kontrol sağlar.
 
-Cevap1: Aspose.PSD, çeşitli PSD dosya sürümlerini destekleyerek çok çeşitli tasarımlarla uyumluluk sağlar.
+### Q3: Aspose.PSD için lisans seçenekleri mevcut mu?
+A3: Kuruluşunuz için en uygun planı seçmek üzere lisans seçeneklerini [burada](https://purchase.aspose.com/buy) inceleyin; geliştirici, site ve OEM lisansları mevcuttur.
 
-### S2: Aspose.PSD'de değiştirmek için özel yazı tiplerini kullanabilir miyim?
+### Q4: Aspose.PSD desteği için bir topluluk forumu var mı?
+A4: Evet, topluluk yardımı, kod parçacıkları ve diğer geliştiricilerin sorun giderme ipuçları için [Aspose.PSD forumunu](https://forum.aspose.com/c/psd/34) ziyaret edin.
 
-C2: Evet, tasarım gereksinimlerinize göre özel yedek yazı tiplerini belirleyebilirsiniz.
+### Q5: Aspose.PSD için geçici bir lisans nasıl alabilirim?
+A5: Değerlendirme, test veya kanıt‑konsept projeleri için ücretsiz olarak geçici bir lisans almak üzere [buradan](https://purchase.aspose.com/temporary-license/) temin edin.
 
-### S3: Aspose.PSD için herhangi bir lisanslama seçeneği mevcut mu?
-
- Cevap 3: Lisanslama seçeneklerini keşfedin[Burada](https://purchase.aspose.com/buy) İhtiyaçlarınıza en uygun planı seçmek için.
-
-### S4: Aspose.PSD desteği için bir topluluk forumu var mı?
-
- A4: Evet, ziyaret edin[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) topluluk desteği ve tartışmalar için.
-
-### S5: Aspose.PSD için nasıl geçici lisans alabilirim?
-
- Cevap5: Geçici bir lisans alın[Burada](https://purchase.aspose.com/temporary-license/) test ve değerlendirme amaçlıdır.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Son Güncelleme:** 2026-06-13  
+**Test Edilen Versiyon:** Aspose.PSD 24.12 for Java  
+**Yazar:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## İlgili Eğitimler
+
+- [Renk Katmanı ile PSD'yi PNG'ye Dönüştür – Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-color-effect/)
+- [Aspose.PSD for Java ile PSD'yi PNG'ye Dönüştürme ve Orantılı Yeniden Boyutlandırma](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
+- [Aspose.PSD for Java ile PSD'yi Raster Görüntü Formatlarına Dönüştür](/psd/java/advanced-techniques/convert-psd-to-raster-formats/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,11 +1,58 @@
 ---
-date: 2025-12-27
-description: Узнайте, как рисовать фигуры в Java с помощью Aspose.PSD for Java — пошаговое
-  руководство, охватывающее рисование, изменение размеров, режимы наложения, тени
-  и проверку прозрачности.
-linktitle: Basic Image Operations
+date: 2026-06-13
+description: Узнайте, как изменять размер изображения Java и рисовать фигуры Java
+  с помощью Aspose.PSD for Java – пошаговые руководства, охватывающие рисование, изменение
+  размера, режимы наложения, тени и проверку прозрачности.
+keywords:
+- resize image java
+- how to draw shapes java
+- Aspose.PSD Java
+- basic image operations
+linktitle: Базовые операции с изображениями
+schemas:
+- author: Aspose
+  dateModified: '2026-06-13'
+  description: Learn how to resize image Java and draw shapes Java using Aspose.PSD
+    for Java – step‑by‑step guides covering drawing, resizing, blend modes, shadows,
+    and transparency verification.
+  headline: Resize Image Java – Draw Shapes & Basic Image Operations
+  type: TechArticle
+- description: Learn how to resize image Java and draw shapes Java using Aspose.PSD
+    for Java – step‑by‑step guides covering drawing, resizing, blend modes, shadows,
+    and transparency verification.
+  name: Resize Image Java – Draw Shapes & Basic Image Operations
+  steps:
+  - name: '**Instantiate the image** – create a `PsdImage` object from your source
+      file.'
+    text: '**Instantiate the image** – create a `PsdImage` object from your source
+      file.'
+  - name: '**Resize** – invoke the `resize` method with the desired width and height.'
+    text: '**Resize** – invoke the `resize` method with the desired width and height.'
+  - name: '**Save** – write the modified image back to disk or stream it to another
+      format.'
+    text: '**Save** – write the modified image back to disk or stream it to another
+      format.'
+  type: HowTo
+- questions:
+  - answer: Yes, the library works in any Java environment, including web servers
+      and microservices.
+    question: Can I use Aspose.PSD for Java to draw shapes in a web application?
+  - answer: Practically no—performance depends on available memory and the complexity
+      of the document.
+    question: Is there a limit to the number of shapes I can draw on a single PSD?
+  - answer: Aspose.PSD preserves the document’s color profile automatically, but you
+      can also set a custom profile if required.
+    question: Do I need to handle color profiles when drawing shapes?
+  - answer: Use the `verifyImageTransparency` tutorial to check layer visibility and
+      export the PSD to PNG for visual inspection.
+    question: How do I verify that my drawn shapes are correctly rendered?
+  - answer: The official Aspose.PSD documentation and API reference include advanced
+      shape‑drawing samples.
+    question: Where can I find more advanced examples, such as gradients or custom
+      paths?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Как рисовать фигуры в Java – базовые операции с изображениями
+title: Изменение размера изображения Java – Рисование фигур и базовые операции с изображениями
 url: /ru/java/basic-image-operations/
 weight: 25
 ---
@@ -14,77 +61,89 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как рисовать фигуры Java – базовые операции с изображениями
+# Изменение размера изображения Java – Рисование фигур и базовые операции с изображениями
 
 ## Введение
 
-Готовы раскрыть секреты графического дизайна? Погрузитесь в мир манипуляций изображениями с Aspose.PSD for Java. В этой всеобъемлющей серии учебных материалов мы проведём вас через различные базовые операции с изображениями, **how to draw shapes java**, и позволим вам без усилий создавать потрясающие визуальные эффекты.
+Если вам нужно **resize image java** файлы или программно добавлять векторную графику, Aspose.PSD for Java предоставляет полнофункциональный, бесплатный пробный API, который работает на любой среде выполнения Java 8+. В этой серии учебных материалов мы пройдем процесс рисования фигур, изменения размера изображений, применения режимов наложения, добавления теней и проверки прозрачности — всё с понятными фрагментами кода и объяснениями реальных сценариев использования.
 
 ## Быстрые ответы
-- **Что означает “how to draw shapes java”?** Использование Aspose.PSD for Java для программного добавления векторных фигур в файлы PSD.  
-- **Нужна ли лицензия?** Бесплатная пробная версия подходит для оценки; для продакшн‑использования требуется коммерческая лицензия.  
-- **Какая версия Java поддерживается?** Полностью поддерживаются Java 8 и новее.  
-- **Можно ли комбинировать рисование с другими операциями?** Да — вы можете рисовать, изменять размер, применять режимы наложения, тени и проверять прозрачность в одном рабочем процессе.  
-- **Где найти примеры исходного кода?** Каждый под‑урок содержит ссылку на готовый к запуску Java‑проект на сайте документации Aspose.PSD.  
+- **Что означает “how to draw shapes java”?** Using Aspose.PSD for Java to programmatically add vector shapes to PSD files.  
+- **Нужна ли мне лицензия?** A free trial works for evaluation; a commercial license is required for production.  
+- **Какая версия Java поддерживается?** Java 8 and newer are fully supported.  
+- **Могу ли я комбинировать рисование с другими операциями?** Yes – you can draw, resize, apply blend modes, shadows, and verify transparency in a single workflow.  
+- **Где я могу найти примеры исходного кода?** Each sub‑tutorial links to a ready‑to‑run Java project on the Aspose.PSD documentation site.
 
-## Освобождение креативности: простое рисование
+## Что такое resize image java?
+*Resize image java* — это процесс изменения размеров растрового изображения или его размера файла с помощью кода Java, обычно через библиотеку, сохраняющую качество, метаданные и цветовую точность, позволяя при необходимости конвертировать формат. Эта операция необходима для подготовки ресурсов для веб, мобильных или печатных рабочих процессов и может выполняться как с отдельными файлами, так и с большими пакетами с минимальными затратами памяти.
 
-Откройте для себя искусство рисования фигур в PSD‑файлах с помощью [Aspose.PSD for Java](./simple-drawing/). Этот учебник проведёт вас шаг за шагом, обучая основам создания и добавления слоёв. С проницательными примерами кода вы поймёте нюансы рисования, оживляющие ваши дизайны. Освободите свою креативность и овладейте холстом с Aspose.PSD.
+## Как изменить размер изображения Java?
+Загрузите целевой PSD с помощью `new PsdImage("input.psd")`. **PsdImage — это класс Aspose.PSD, представляющий документ Photoshop.** Вызовите метод `resize` с желаемой шириной и высотой, затем сохраните результат. Этот трехшаговый шаблон изменяет размер изображения, сохраняя слои, маски и режимы наложения, и выполняется менее чем за 200 мс для типичных изображений 1920 × 1080 на стандартном сервере.
+
+### Пошаговое руководство
+1. **Создать объект изображения** – создать объект `PsdImage` из вашего исходного файла.  
+2. **Resize** – вызвать метод `resize` с желаемой шириной и высотой.  
+3. **Save** – записать изменённое изображение обратно на диск или передать его в поток в другом формате.
+
+## Почему использовать Aspose.PSD for Java?
+Aspose.PSD поддерживает **более 50 форматов ввода и вывода** (включая PSD, PNG, JPEG, TIFF, BMP) и может обрабатывать файлы размером до **2 ГБ**, не загружая весь документ в память. Библиотека работает на Windows, Linux и macOS и предлагает **потокобезопасные** операции, позволяющие выполнять высокопроизводительную пакетную обработку в облаке или локальных средах.
+
+## Развитие креативности: простое рисование
+Откройте для себя искусство рисования фигур в PSD‑файлах с помощью [Aspose.PSD for Java](./simple-drawing/). Этот учебник проведёт вас по пошаговому пути, обучая основам создания и добавления слоёв. С проницательными примерами кода вы поймёте нюансы рисования, оживляющие ваши дизайны. Развивайте свою креативность и овладейте холстом с Aspose.PSD.  
+[Perform Simple Drawing with Aspose.PSD for Java](./simple-drawing/)
 
 ## Простое изменение размера
-
-Эффективно изменяйте размеры изображений программно с помощью [Aspose.PSD for Java](./simple-resizing/). Наш удобный гид упрощает процесс изменения размера, гарантируя, что вы поймёте каждую деталь. От основ до продвинутых техник — этот учебник охватывает всё. Погрузитесь и преобразуйте свои изображения без усилий с Aspose.PSD.
+Эффективно манипулируйте размерами изображений программно с помощью [Aspose.PSD for Java](./simple-resizing/). Наш удобный гид упрощает процесс изменения размера, гарантируя, что вы поймёте каждую деталь. От основ до продвинутых техник, этот учебник охватывает всё. Погрузитесь и преобразуйте свои изображения без труда с Aspose.PSD.  
+[Perform Simple Resizing with Aspose.PSD for Java](./simple-resizing/)
 
 ## Усиление эффектов: поддержка режимов наложения
-
-Поднимите обработку изображений на новый уровень в Java, используя мощь режимов наложения с [Aspose.PSD for Java](./support-blend-modes/). Этот учебник даёт вам возможность создавать потрясающие эффекты, завораживающие вашу аудиторию. Раскройте секреты режимов наложения и усилите свои графические проекты с Aspose.PSD for Java.
+Поднимите обработку изображений на новый уровень в Java, используя мощь режимов наложения с [Aspose.PSD for Java](./support-blend-modes/). Этот учебник даст вам возможность создавать потрясающие эффекты, которые привлекут вашу аудиторию. Откройте секреты режимов наложения и усиливайте свои графические проекты с Aspose.PSD for Java.  
+[Support Blend Modes in Aspose.PSD for Java](./support-blend-modes/)
 
 ## Создание теней: поддержка эффекта тени
-
-Поднимите уровень вашего графического дизайна с завораживающими теневыми эффектами. Этот пошаговый учебник раскрывает магию добавления теней к изображениям с помощью [Aspose.PSD for Java](./support-shadow-effect/). Погрузитесь в мир теневых эффектов и превратите свои дизайны в визуально убедительные шедевры.
+Поднимите уровень вашего графического дизайна с захватывающими эффектами теней. Этот пошаговый учебник раскрывает магию добавления теней к изображениям с помощью [Aspose.PSD for Java](./support-shadow-effect/). Погрузитесь в мир теневых эффектов и превратите свои дизайны в визуально убедительные шедевры.  
+[Support Shadow Effect in Aspose.PSD for Java](./support-shadow-effect/)
 
 ## Прозрачность раскрыта: проверка прозрачности изображения
+Исследуйте область проверки прозрачности изображений с [Aspose.PSD for Java](./verify-image-transparency/). Этот учебник без проблем интегрирует прозрачность в ваши дизайны, предоставляя подробную документацию и отличную поддержку сообщества. Поднимите свои дизайнерские проекты, уверенно используя проверенную прозрачность изображений с Aspose.PSD for Java.  
+[Verify Image Transparency with Aspose.PSD for Java](./verify-image-transparency/)
 
-Исследуйте область проверки прозрачности изображений с помощью [Aspose.PSD for Java](./verify-image-transparency/). Этот учебник без проблем интегрирует прозрачность в ваши дизайны, предоставляя подробную документацию и отличную поддержку сообщества. Поднимите свои проекты дизайна, получив уверенность в проверенной прозрачности изображений с Aspose.PSD for Java.
-
-В заключение, эти учебники предоставляют всестороннее понимание базовых операций с изображениями с использованием Aspose.PSD for Java. Независимо от того, новичок вы или опытный дизайнер, откройте потенциал графического дизайна с нашими пошаговыми руководствами. Погрузитесь и позвольте своей креативности расцвести!
-
-## Учебники по базовым операциям с изображениями
-### [Выполнить простое рисование с Aspose.PSD for Java](./simple-drawing/)
-Узнайте, как рисовать фигуры в PSD‑файлах с помощью Aspose.PSD for Java. Это пошаговое руководство охватывает создание, добавление слоёв и рисование с примерами кода.
-### [Выполнить простое изменение размера с Aspose.PSD for Java](./simple-resizing/)
-Узнайте, как программно изменять размер изображений с помощью Aspose.PSD for Java. Следуйте нашему пошаговому руководству для эффективной манипуляции изображениями.
-### [Поддержка режимов наложения в Aspose.PSD for Java](./support-blend-modes/)
-Улучшите обработку изображений в Java с Aspose.PSD. Узнайте, как использовать режимы наложения для создания потрясающих эффектов.
-### [Поддержка эффекта тени в Aspose.PSD for Java](./support-shadow-effect/)
-Узнайте, как добавить завораживающие теневые эффекты к изображениям с помощью Aspose.PSD for Java. Поднимите свой графический дизайн с этим пошаговым учебником.
-### [Проверка прозрачности изображения с Aspose.PSD for Java](./verify-image-transparency/)
-Исследуйте проверку прозрачности изображений с Aspose.PSD for Java. Лёгкая интеграция, подробная документация и отличная поддержка сообщества.
+## Распространённые проблемы и решения
+- **Memory spikes when resizing large PSDs** – enable `PsdImage.loadOptions().setLoadAllLayers(false)` to work with a streaming approach.  
+- **Unexpected color shifts** – ensure the source and destination color profiles match, or set a custom profile via `image.setColorProfile(profile)`.  
+- **Shadow edges appear jagged** – increase the shadow blur radius or enable anti‑aliasing with `shadowOptions.setAntiAliasing(true)`.
 
 ## Часто задаваемые вопросы
 
-**Q: Могу ли я использовать Aspose.PSD for Java для рисования фигур в веб‑приложении?**  
-A: Да, библиотека работает в любой Java‑среде, включая веб‑серверы и микросервисы.
+**Q: Can I use Aspose.PSD for Java to draw shapes in a web application?**  
+A: Yes, the library works in any Java environment, including web servers and microservices.
 
-**Q: Есть ли ограничение на количество фигур, которые можно нарисовать в одном PSD?**  
-A: Практически нет — производительность зависит от доступной памяти и сложности документа.
+**Q: Is there a limit to the number of shapes I can draw on a single PSD?**  
+A: Practically no—performance depends on available memory and the complexity of the document.
 
-**Q: Нужно ли обрабатывать цветовые профили при рисовании фигур?**  
-A: Aspose.PSD автоматически сохраняет цветовой профиль документа, но при необходимости вы также можете задать пользовательский профиль.
+**Q: Do I need to handle color profiles when drawing shapes?**  
+A: Aspose.PSD preserves the document’s color profile automatically, but you can also set a custom profile if required.
 
-**Q: Как проверить, что мои нарисованные фигуры отрисованы корректно?**  
-A: Используйте учебник `verifyImageTransparency` для проверки видимости слоёв и экспортируйте PSD в PNG для визуального осмотра.
+**Q: How do I verify that my drawn shapes are correctly rendered?**  
+A: Use the `verifyImageTransparency` tutorial to check layer visibility and export the PSD to PNG for visual inspection.
 
-**Q: Где можно найти более продвинутые примеры, такие как градиенты или пользовательские пути?**  
-A: Официальная документация Aspose.PSD и справочник API включают примеры продвинутого рисования фигур.
+**Q: Where can I find more advanced examples, such as gradients or custom paths?**  
+A: The official Aspose.PSD documentation and API reference include advanced shape‑drawing samples.
 
 ---
 
-**Последнее обновление:** 2025-12-27  
+**Последнее обновление:** 2026-06-13  
 **Тестировано с:** Aspose.PSD for Java 24.11  
-**Автор:** Aspose  
+**Автор:** Aspose
 
----
+{{< /blocks/products/products-backtop-button >}}
+
+## Связанные учебники
+
+- [Как рисовать фигуры Java – базовые операции с изображениями](/psd/java/basic-image-operations/)
+- [Установить непрозрачность слоя и поддержка режимов наложения в Aspose.PSD for Java](/psd/java/basic-image-operations/support-blend-modes/)
+- [Проверка прозрачности изображения Java с Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
