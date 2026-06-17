@@ -1,32 +1,50 @@
 ---
-title: Voeg een verloopopvullaag toe in PSD-bestanden met Java
-linktitle: Voeg een verloopopvullaag toe in PSD-bestanden met Java
-second_title: Aspose.PSD Java-API
-description: Wijzig verloopopvullagen in PSD-bestanden met Aspose.PSD voor Java. Leer hoe u kleuren, transparantie en andere verloopeigenschappen programmatisch kunt wijzigen.
-weight: 15
+date: 2026-03-23
+description: Leer hoe u gradientvullingen in PSD‑bestanden kunt maken met Java en
+  Aspose.PSD. Deze gids laat zien hoe u PSD‑gradientlagen kunt bewerken, kleuren,
+  transparantie en andere eigenschappen programmeringsmatig kunt aanpassen.
+linktitle: Create Gradient Fill PSD with Java – Add Gradient Fill Layer
+second_title: Aspose.PSD Java API
+title: Maak een Gradient Fill‑PSD met Java – Voeg een Gradient Fill‑laag toe
 url: /nl/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg een verloopopvullaag toe in PSD-bestanden met Java
+# Gradientvullingslaag toevoegen in PSD-bestanden met Java
 
-## Invoering
+## Inleiding
 
-Heb je ooit verlangd naar dat extra vleugje visuele magie voor je PSD-bestanden? Verlopen bieden een prachtige manier om diepte en dimensie aan uw ontwerpen toe te voegen. Maar wat als u deze gradiënten programmatisch wilt manipuleren met behulp van Java? Aspose.PSD komt te hulp! Met deze uitgebreide handleiding kunt u verloopopvullagen in PSD-bestanden wijzigen met behulp van Aspose.PSD, waarbij u stap voor stap door het spannende proces wordt geleid.
+Heb je ooit dat extra vleugje visuele magie voor je PSD‑bestanden gewenst en je afgevraagd **hoe je een gradient‑vulling PSD maakt** met Java? Gradients geven je ontwerpen diepte, maar handmatig aanpassen kan tijdrovend zijn. Met **Aspose.PSD for Java** kun je programmatic PSD‑gradients bewerken, kleuren wijzigen, transparantie aanpassen en elke eigenschap fijn afstellen — wat je tijd bespaart en consistentie garandeert over tientallen bestanden.
 
-## Vereisten
+## Snelle antwoorden
+- **Welke bibliotheek laat je PSD‑gradients bewerken in Java?** Aspose.PSD for Java.  
+- **Welke methode laadt een PSD‑bestand?** `Image.load(path)`.  
+- **Hoe wijzig je de hoek van de gradient?** `settings.setAngle(double)`.  
+- **Kun je nieuwe kleurpunten toevoegen?** Ja — maak `GradientColorPoint`‑objecten aan en voeg ze toe aan de lijst met kleurpunten.  
+- **Heb je een licentie nodig voor productiegebruik?** Een commerciële licentie is vereist; een gratis proefversie is beschikbaar voor evaluatie.
 
-Voordat je erin duikt, zorg ervoor dat je het volgende hebt:
+## Wat betekent “create gradient fill PSD”?
+Een gradient‑vulling PSD maken betekent programmatic een gradient‑gebaseerde vullingslaag in een Photoshop‑document invoegen of wijzigen. Dit maakt geautomatiseerde styling, batch‑verwerking en dynamische beeldgeneratie mogelijk zonder Photoshop te openen.
 
--  Java Development Kit (JDK): Een stabiele versie van JDK is nodig om Java-code uit te voeren. U kunt het downloaden van de Oracle-website:[Link naar Oracle JDK-downloadpagina]
--  Aspose.PSD voor Java: Met deze krachtige bibliotheek kunt u met PSD-bestanden werken in uw Java-toepassingen. Download het van de Aspose-website:[Link naar Aspose.PSD voor Java-download] (gratis proefversie beschikbaar)
+## Waarom Aspose.PSD gebruiken om PSD‑gradients te bewerken?
+- **Volledige .PSD‑ondersteuning** – werkt met alle laagtypen, inclusief smart objects.  
+- **Geen Photoshop nodig** – draait op elke server of CI‑pipeline.  
+- **Fijnmazige controle** – pas hoek, offsets, dithering, kleurpunten en transparantiepunten aan via een nette Java‑API.  
+
+## Voorvereisten
+
+Voordat je begint, zorg dat je het volgende hebt:
+
+- Java Development Kit (JDK):  Een stabiele versie van de JDK is nodig om Java‑code uit te voeren. Je kunt deze downloaden van de Oracle‑website: [Link to Oracle JDK download page]
+- Aspose.PSD for Java: Deze krachtige bibliotheek stelt je in staat om met PSD‑bestanden te werken in je Java‑applicaties. Download hem van de Aspose‑website: [Link to Aspose.PSD for Java download] (Gratis proefversie beschikbaar)
 
 ## Pakketten importeren
 
-Laten we beginnen met het importeren van de essentiële Aspose.PSD-pakketten die nodig zijn voor het werken met PSD-bestanden:
+Laten we beginnen met het importeren van de essentiële Aspose.PSD‑pakketten die nodig zijn voor het werken met PSD‑bestanden:
 
 ```java
 import com.aspose.psd.Color;
@@ -45,13 +63,15 @@ import java.util.Collections;
 import java.util.List;
 ```
 
-Deze import biedt toegang tot klassen en methoden voor het laden, manipuleren en opslaan van PSD-bestanden.
+Deze imports geven toegang tot klassen en methoden voor het laden, manipuleren en opslaan van PSD‑bestanden.
 
-Maak je nu klaar voor de spannende reis van het aanpassen van verloopopvullagen!
+Maak je nu klaar voor de spannende reis van het aanpassen van gradient‑vullingslagen!
 
-## Stap 1: Laad het PSD-bestand
+## Hoe een gradient‑vulling PSD maken met Java
 
- Eerst moeten we het PSD-bestand laden dat de verloopopvullaag bevat die u wilt wijzigen. Gebruik de`Image.load` methode, waarbij het bestandspad wordt opgegeven:
+### Stap 1: Laad het PSD‑bestand
+
+Eerst moeten we het PSD‑bestand laden dat de gradient‑vullingslaag bevat die je wilt aanpassen. Gebruik de `Image.load`‑methode en geef het bestandspad op:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -60,27 +80,27 @@ String outputFile = dataDir + "ComplexGradientFillLayer_output.psd";
 PsdImage image = (PsdImage)Image.load(sourceFileName);
 ```
 
- Dit codefragment laadt het PSD-bestand vanuit de opgegeven map en slaat het op in de`image` variabel.
+Dit codefragment laadt het PSD‑bestand uit de opgegeven map en slaat het op in de variabele `image`.
 
-## Stap 2: Identificeer de verloopopvullaag
+### Stap 2: Identificeer de gradient‑vullingslaag
 
- PSD-bestanden kunnen meerdere lagen bevatten. We moeten de specifieke laag isoleren die de verloopvulling bevat die we willen bewerken. Herhaal de`image.getLayers()` array om de gewenste laag te vinden:
+PSD‑bestanden kunnen talloze lagen bevatten. We moeten de specifieke laag isoleren die de gradient‑vulling bevat die we willen bewerken. Loop door de `image.getLayers()`‑array om de gewenste laag te vinden:
 
 ```java
 for (int i = 0; i < image.getLayers().length; i++) {
 if (image.getLayers()[i] instanceof FillLayer) {
    FillLayer fillLayer = (FillLayer) image.getLayers()[i];
-   // Verdere controles en wijzigingen zullen hier plaatsvinden
+   // Further checks and modifications will happen here
    break;
 }
 }
 ```
 
- Deze lus controleert elke laag. Als een laag een`FillLayer` , het wordt gegoten naar de`FillLayer` typen en opgeslagen in de`fillLayer`variabele voor verdere verwerking. We kunnen extra controles binnen de lus toevoegen als u specifieke criteria heeft voor het identificeren van de doellaag (bijvoorbeeld de naam van de laag).
+Deze lus controleert elke laag. Als een laag een `FillLayer` is, wordt deze gecast naar het type `FillLayer` en opgeslagen in de variabele `fillLayer` voor verdere verwerking. Je kunt extra controles toevoegen binnen de lus als je specifieke criteria hebt voor het identificeren van de doel­laag (bijv. laagnaam).
 
-## Stap 3: Controleer het verloopvullingstype
+### Stap 3: Verifieer het type gradient‑vulling
 
-Niet alle opvullagen maken gebruik van verlopen. Dit codefragment bevestigt of de geïdentificeerde laag inderdaad een verloopvulling bevat:
+Niet alle vullingslagen gebruiken gradients. Dit codefragment bevestigt of de geïdentificeerde laag inderdaad een gradient‑vulling bevat:
 
 ```java
 if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
@@ -88,29 +108,31 @@ if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
 }
 ```
 
- Als de`getFillType` methode keert niet terug`FillType.Gradient`, wordt er een uitzondering gegenereerd, wat aangeeft dat we met de verkeerde laag werken.
+Als de `getFillType`‑methode niet `FillType.Gradient` retourneert, wordt er een uitzondering gegooid, wat aangeeft dat we met de verkeerde laag werken.
 
-## Stap 4: Verloopeigenschappen openen en wijzigen
+## Hoe een PSD‑gradient bewerken met Aspose.PSD
 
- De magie gebeurt hier! Aspose.PSD biedt toegang tot verschillende eigenschappen voor verloopvulling via de`IGradientFillSettings` interface. We kunnen ze indien nodig ophalen en aanpassen:
+### Stap 4: Toegang tot en wijziging van gradient‑eigenschappen
+
+Hier gebeurt de magie! Aspose.PSD biedt toegang tot verschillende gradient‑vullingseigenschappen via de `IGradientFillSettings`‑interface. We kunnen ze ophalen en aanpassen naar behoefte:
 
 ```java
 IGradientFillSettings settings = (IGradientFillSettings) fillLayer.getFillSettings();
 
-// Eigenschappen wijzigen (vervangen door gewenste waarden)
-settings.setAngle(0.0);  // Hoek instellen op 0 graden
-settings.setDither(false);  // Schakel dithering uit
-settings.setAlignWithLayer(true); // Lijn het verloop uit met de laag
-settings.setReverse(true);  // Omgekeerde gradiëntrichting
-settings.setHorizontalOffset(25);  // Horizontale offset instellen
-settings.setVerticalOffset(-15);  // Verticale offset instellen
+// Modify properties (replace with desired values)
+settings.setAngle(0.0);  // Set angle to 0 degrees
+settings.setDither(false);  // Disable dithering
+settings.setAlignWithLayer(true); // Align gradient with layer
+settings.setReverse(true);  // Reverse gradient direction
+settings.setHorizontalOffset(25);  // Set horizontal offset
+settings.setVerticalOffset(-15);  // Set vertical offset
 ```
 
- Deze code haalt de`IGradientFillSettings`object en wijzigt vervolgens eigenschappen zoals hoek, dithering, uitlijning en offsets. Vervang de opgegeven waarden door de gewenste instellingen om het verloopeffect te bereiken dat u voor ogen heeft.
+Deze code haalt het `IGradientFillSettings`‑object op en wijzigt vervolgens eigenschappen zoals hoek, dithering, uitlijning en offsets. Vervang de meegeleverde waarden door jouw gewenste instellingen om het gradient‑effect te bereiken dat je voor ogen hebt.
 
-## Stap 5: Kleur- en transparantiepunten manipuleren
+### Stap 5: Kleur‑ en transparantiepunten manipuleren
 
-Verlopen worden gedefinieerd door kleur- en transparantiepunten langs een spectrum. Met Aspose.PSD kunt u deze punten wijzigen voor nauwkeurige controle:
+Gradients worden gedefinieerd door kleur‑ en transparantiepunten langs een spectrum. Aspose.PSD stelt je in staat deze punten te wijzigen voor precieze controle:
 
 ```java
 List<IGradientColorPoint> colorPoints = new ArrayList<IGradientColorPoint>();
@@ -118,64 +140,76 @@ Collections.addAll(colorPoints, settings.getColorPoints());
 List<IGradientTransparencyPoint> transparencyPoints = new ArrayList<IGradientTransparencyPoint>();
 Collections.addAll(transparencyPoints, settings.getTransparencyPoints());
 
-// Voeg een nieuw kleurpunt toe
+// Add a new color point
 GradientColorPoint gr1 = new GradientColorPoint();
 gr1.setColor(Color.getViolet());
 gr1.setLocation(4096);
 gr1.setMedianPointLocation(75);
 colorPoints.add(gr1);
 
-// Wijzig een bestaand kleurpunt
+// Modify an existing color point
 colorPoints.get(1).setLocation(3000);
 
-// Voeg een nieuw transparantiepunt toe
+// Add a new transparency point
 GradientTransparencyPoint gr2 = new GradientTransparencyPoint();
 gr2.setOpacity(80.0);
 gr2.setLocation(4096);
 gr2.setMedianPointLocation(25);
 transparencyPoints.add(gr2);
 
-// Wijzig een bestaand transparantiepunt
+// Modify an existing transparency point
 transparencyPoints.get(2).setLocation(3000);
 
 settings.setColorPoints(colorPoints.toArray(new IGradientColorPoint[0]));
 settings.setTransparencyPoints(transparencyPoints.toArray(new IGradientTransparencyPoint[0]));
 ```
 
-## Stap 6: Update en bewaar het PSD-bestand
+### Stap 6: Werk bij en sla het PSD‑bestand op
 
-Nadat u de nodige wijzigingen heeft aangebracht, werkt u de opvullaag bij en slaat u het PSD-bestand op:
+Zodra je de nodige aanpassingen hebt gedaan, werk je de vullingslaag bij en sla je het PSD‑bestand op:
 
 ```java
 fillLayer.update();
 image.save(outputFile, new PsdOptions(image));
 ```
 
- De`fillLayer.update()` methode past de wijzigingen toe op de verloopopvullaag, en`image.save` slaat het gewijzigde PSD-bestand op in het opgegeven uitvoerpad.
+De methode `fillLayer.update()` past de wijzigingen toe op de gradient‑vullingslaag, en `image.save` slaat het aangepaste PSD‑bestand op naar het opgegeven uitvoerpad.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Je beheerst met succes de kunst van het wijzigen van verloopopvullagen in PSD-bestanden met Aspose.PSD voor Java! Door deze stappen te volgen, kunt u uw creativiteit de vrije loop laten en verbluffende visuele effecten creëren met programmatische precisie.
+- **Uitzondering “Wrong Fill Layer”** – Zorg ervoor dat je een `FillLayer` target die daadwerkelijk een gradient gebruikt. Controleer de laagnaam of index vóór het casten.  
+- **Kleurpunten laten wijzigingen niet zien** – Na het wijzigen van de puntenlijst, roep altijd `settings.setColorPoints(...)` en `settings.setTransparencyPoints(...)` aan om de updates terug naar de laag te pushen.  
+- **Prestaties bij grote PSD’s** – Als je veel bestanden verwerkt, hergebruik dan dezelfde `PsdOptions`‑instantie en sluit afbeeldingen direct af met `image.dispose()` om geheugen vrij te maken.
 
 ## Veelgestelde vragen
 
-### Kan ik meerdere kleur- en transparantiepunten aan een verloop toevoegen?
-Absoluut! U kunt zoveel kleur- en transparantiepunten toevoegen als nodig is om het gewenste verloopeffect te bereiken. Maak gewoon nieuwe punten aan en voeg ze toe aan de respectievelijke lijsten.
+**V: Kan ik meerdere kleur‑ en transparantiepunten aan een gradient toevoegen?**  
+A: Zeker! Je kunt zoveel kleur‑ en transparantiepunten toevoegen als nodig is om het gewenste gradient‑effect te bereiken. Maak gewoon nieuwe punten aan en voeg ze toe aan de respectieve lijsten.
 
-### Hoe verwijder ik een kleur- of transparantiepunt uit een verloop?
- Om een punt te verwijderen, gebruikt u de juiste lijst`remove` methode. Bijvoorbeeld,`colorPoints.remove(index)` zou het kleurpunt op de opgegeven index verwijderen.
+**V: Hoe verwijder ik een kleur‑ of transparantiepunt uit een gradient?**  
+A: Gebruik de `remove`‑methode van de lijst, bijv. `colorPoints.remove(index)`, om het ongewenste punt te verwijderen voordat je `setColorPoints` aanroept.
 
-### Kan ik het verlooptype (lineair, radiaal, enz.) wijzigen?
-Aspose.PSD ondersteunt momenteel lineaire gradiënten. Hoewel andere verlooptypen mogelijk worden ondersteund in toekomstige versies, kunt u vergelijkbare effecten bereiken door kleur- en transparantiepunten op een creatieve manier te manipuleren.
+**V: Kan ik het gradient‑type (lineair, radiaal, enz.) wijzigen?**  
+A: Aspose.PSD ondersteunt momenteel lineaire gradients. Toekomstige releases kunnen meer types toevoegen, maar je kunt andere effecten simuleren door kleur‑ en transparantiepunten te manipuleren.
 
-### Is er sprake van prestatie-impact bij het wijzigen van gradiënten?
-De prestatie-impact hangt af van de complexiteit van de gradiënt en het aantal aangebrachte wijzigingen. Voor de meeste praktische gebruiksgevallen zouden de prestaties acceptabel moeten zijn. Voor grootschalige beeldverwerking kunt u echter overwegen uw code te optimaliseren voor efficiëntie.
+**V: Heeft het bewerken van gradients invloed op de prestaties?**  
+A: De impact hangt af van de complexiteit van de gradient en het aantal aanpassingen. Voor typische scenario’s is de overhead minimaal, maar batch‑verwerking van grote bestanden kan profiteren van geheugen‑beheer‑optimalisaties.
 
-### Kan ik deze techniek toepassen op meerdere kleurverlooplagen in een PSD-bestand?
-Ja, u kunt door de lagen heen lopen en de wijzigingen toepassen op elke verlooplaag die aan uw criteria voldoet.
+**V: Kan ik deze techniek toepassen op meerdere gradient‑vullingslagen in één PSD‑bestand?**  
+A: Ja. Loop door `image.getLayers()`, controleer elke `FillLayer` op `FillType.Gradient`, en pas dezelfde aanpassingen toe waar nodig.
+
+**V: Heb ik een commerciële licentie nodig voor productiegebruik?**  
+A: Een geldige Aspose.PSD‑licentie is vereist voor productie‑implementaties. Een gratis proefversie is beschikbaar voor evaluatiedoeleinden.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Laatst bijgewerkt:** 2026-03-23  
+**Getest met:** Aspose.PSD for Java 24.11 (latest)  
+**Auteur:** Aspose

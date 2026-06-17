@@ -1,88 +1,123 @@
 ---
-title: Deteksi File PSD yang Diratakan menggunakan Aspose.PSD untuk Java
-linktitle: Deteksi File PSD yang Diratakan menggunakan Aspose.PSD untuk Java
-second_title: Asumsikan.PSD Java API
-description: Pelajari cara mendeteksi file PSD yang diratakan menggunakan Aspose.PSD untuk Java, langkah demi langkah dalam tutorial komprehensif ini.
-weight: 10
+date: 2026-03-23
+description: Pelajari cara mendeteksi file PSD yang telah dipipihkan menggunakan Aspose.PSD
+  untuk Java, langkah demi langkah dalam tutorial komprehensif ini.
+linktitle: Detect Flattened PSD Files using Aspose.PSD for Java
+second_title: Aspose.PSD Java API
+title: Mendeteksi PSD yang Datar Menggunakan Aspose.PSD untuk Java
 url: /id/java/psd-image-modification-conversion/detect-flattened-psd-files/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Deteksi File PSD yang Diratakan menggunakan Aspose.PSD untuk Java
+# Deteksi PSD yang Datar Menggunakan Aspose.PSD untuk Java
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di dunia manipulasi file PSD (Photoshop Document) dengan Aspose.PSD untuk Java! Jika Anda pernah perlu bekerja dengan lapisan dalam file Photoshop tetapi tidak tahu harus mulai dari mana, Anda berada di tempat yang tepat. Dalam tutorial ini, kita akan mempelajari cara mendeteksi apakah file PSD diratakan menggunakan Aspose.PSD. Meratakan PSD berarti semua lapisannya digabungkan menjadi satu lapisan terpadu, yang dapat membuat pengeditan menjadi sedikit rumit setelahnya. Di akhir panduan ini, Anda akan diperlengkapi untuk memeriksa aspek penting dari file PSD Anda. Duduklah dengan tenang, ambil kopi Anda, dan mari selami!
+Jika Anda perlu **mendeteksi file PSD yang datar** secara programatis, Anda berada di tempat yang tepat. Pada tutorial ini kami akan menunjukkan cara menggunakan Aspose.PSD untuk Java guna menentukan apakah sebuah dokumen Photoshop telah datar—artinya semua lapisan digabung menjadi satu lapisan latar belakang. Mengetahui hal ini sebelumnya akan menghindarkan Anda dari batasan pengeditan yang tidak terduga di kemudian hari. Siapkan IDE favorit Anda, dan mari kita mulai!
+
+## Jawaban Cepat
+- **Apa arti “PSD yang datar”?** Semua lapisan digabung menjadi satu, menghilangkan kemampuan pengeditan.  
+- **Perpustakaan mana yang dapat mendeteksinya?** Aspose.PSD untuk Java menyediakan metode `isFlatten()`.  
+- **Apakah saya memerlukan lisensi untuk pengujian?** Versi percobaan gratis tersedia; lisensi diperlukan untuk produksi.  
+- **Versi Java apa yang dibutuhkan?** JDK 8 atau lebih tinggi.  
+- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit untuk pemeriksaan dasar.
+
+## Apa Itu File PSD yang Datar?
+File PSD yang datar adalah dokumen Photoshop di mana setiap lapisan telah digabung menjadi satu lapisan komposit. Ini mengurangi ukuran file tetapi membuat pengeditan berbasis lapisan selanjutnya tidak mungkin kecuali Anda memiliki cadangan yang belum datar.
+
+## Mengapa Mendeteksi PSD yang Datar?
+Mendeteksi PSD yang datar sejak awal memungkinkan Anda memutuskan apakah akan:
+- Meminta pengguna menyediakan versi yang dapat diedit.
+- Menerapkan pemrosesan seluruh gambar alih-alih operasi spesifik lapisan.
+- Menghindari kesalahan runtime saat mencoba mengakses lapisan yang tidak ada.
 
 ## Prasyarat
 
-Sebelum kita terjun ke dalam kesenangan coding, ada beberapa hal yang Anda perlukan untuk memastikan Anda siap untuk memulai. Inilah yang Anda butuhkan:
+Sebelum kita masuk ke kode, pastikan Anda memiliki:
 
-1. Java Development Kit (JDK): Pastikan Anda telah menginstal JDK. Versi 8 atau lebih tinggi direkomendasikan untuk menggunakan Aspose.PSD.
-2.  Aspose.PSD untuk Java: Anda memerlukan perpustakaan Aspose.PSD. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/psd/java/).
-3. Pemahaman Dasar Java: Pahami dasar-dasar pemrograman Java, termasuk cara mengimpor perpustakaan dan menjalankan aplikasi Java.
-4. IDE: Lingkungan pengembangan terintegrasi (IDE) apa pun seperti IntelliJ IDEA, Eclipse, atau NetBeans, tempat Anda dapat menulis dan mengeksekusi kode Java.
+1. **Java Development Kit (JDK)** – versi 8 atau lebih baru.  
+2. **Aspose.PSD untuk Java** – unduh perpustakaan dari [sini](https://releases.aspose.com/psd/java/).  
+3. **Pengetahuan dasar Java** – Anda harus nyaman mengimpor perpustakaan dan menjalankan program Java sederhana.  
+4. **IDE** – IntelliJ IDEA, Eclipse, NetBeans, atau editor apa pun yang Anda sukai.
 
-Sekarang kita telah membahas hal-hal penting, mari kita mulai kodenya!
+Setelah dasar‑dasarnya tercakup, mari lanjut ke implementasinya.
 
-## Paket Impor
+## Impor Paket
 
-Di bagian atas file Java Anda, impor kelas Aspose.PSD yang diperlukan. Pernyataan import Anda akan terlihat seperti ini:
+Di bagian atas file sumber Java Anda, impor kelas Aspose.PSD yang diperlukan:
 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-Sekarang mari selami inti fungsinya: mendeteksi apakah file PSD diratakan. Berikut rincian langkah demi langkah.
+## Cara Mendeteksi File PSD yang Datar
 
-## Langkah 1: Siapkan Direktori Data
+Berikut adalah panduan langkah‑demi‑langkah. Setiap langkah menyertakan penjelasan singkat diikuti oleh kode yang harus Anda salin.
 
-Pertama, Anda perlu menentukan di mana file PSD Anda berada. Ini penting karena program kita akan mencari di sana untuk memuat file.
+### Langkah 1: Siapkan Direktori Data
+
+Tentukan folder yang berisi file PSD yang ingin Anda periksa.
 
 ```java
-String dataDir = "Your Document Directory"; // Perbarui jalur ini
+String dataDir = "Your Document Directory"; // Update this path
 ```
 
-## Langkah 2: Muat File PSD
+### Langkah 2: Muat File PSD
 
- Selanjutnya, kita akan memuat file PSD sebagai gambar. Di sinilah keajaiban terjadi—menggunakan`Image.load()` metode ini memungkinkan kita mengimpor file PSD dengan mudah.
+Gunakan `Image.load()` untuk membuka file PSD sebagai objek `PsdImage`.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-## Langkah 3: Periksa apakah PSD sudah Rata
+### Langkah 3: Periksa Apakah PSD Datar
 
-Setelah file PSD kami dimuat, kami dapat memeriksa apakah file tersebut sudah rata. Itu`isFlatten()` metode`PsdImage` akan melakukan apa yang kita perlukan. Metode ini mengembalikan nilai boolean yang menunjukkan apakah PSD diratakan atau tidak.
+Panggil metode `isFlatten()`. Metode ini mengembalikan `true` bila file datar dan `false` bila tidak.
 
 ```java
 System.out.println(psdImage.isFlatten());
 ```
 
+Konsol akan mencetak `true` untuk dokumen yang datar dan `false` untuk yang masih memiliki lapisan terpisah.
+
+## Masalah Umum dan Solusinya
+
+- **FileNotFoundException** – Pastikan `dataDir` mengarah ke folder yang tepat dan nama file cocok persis, termasuk sensitivitas huruf.  
+- **Unsupported file format** – Pastikan file merupakan PSD yang valid; format kompatibel Photoshop lainnya (misalnya PSB) mungkin memerlukan penanganan berbeda.  
+- **LicenseException** – Jika Anda melihat kesalahan lisensi, instal lisensi Aspose.PSD yang valid atau gunakan versi percobaan untuk evaluasi.
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Apa itu file PSD yang datar?**  
+J: File PSD yang datar memiliki semua lapisannya digabung menjadi satu lapisan latar belakang, sehingga pengeditan berbasis lapisan tidak lagi memungkinkan.
+
+**T: Bisakah saya mengembalikan PSD yang sudah datar?**  
+J: Tidak. Setelah lapisan digabung, struktur lapisan asli tidak dapat dipulihkan tanpa cadangan versi yang belum datar.
+
+**T: Apakah Aspose.PSD mendukung format file lain?**  
+J: Ya. Aspose.PSD dapat menangani PSD, PSB, BMP, JPEG, PNG, TIFF, dan banyak format gambar lainnya.
+
+**T: Bagaimana cara memulai dengan Aspose?**  
+J: Cukup unduh perpustakaan dari [sini](https://releases.aspose.com/psd/java/) dan tambahkan file JAR ke classpath proyek Anda.
+
+**T: Apakah ada cara menguji Aspose.PSD secara gratis?**  
+J: Tentu! Anda dapat memulai percobaan gratis dengan mengunduh versi percobaan dari [tautan ini](https://releases.aspose.com/).
+
 ## Kesimpulan
 
-Selamat! Anda sekarang telah mempelajari cara mendeteksi file PSD yang diratakan menggunakan Aspose.PSD untuk Java. Kami tidak hanya menjelajahi kodenya selangkah demi selangkah, namun kami juga menyoroti prasyarat penting untuk mendalami subjek ini. Keterampilan ini membuka pintu bagi banyak kemungkinan menarik lainnya dalam pemrosesan gambar, terutama ketika bekerja dengan file Photoshop.
+Anda kini tahu cara **mendeteksi PSD yang datar** menggunakan Aspose.PSD untuk Java. Pemeriksaan sederhana ini membantu Anda menentukan jalur pemrosesan yang tepat untuk gambar Anda dan mencegah hambatan pengeditan yang tidak terduga. Jangan ragu untuk menjelajahi fitur Aspose.PSD lainnya seperti manipulasi lapisan, konversi gambar, dan penanganan metadata untuk lebih meningkatkan alur kerja Anda.
 
-## FAQ
+---
 
-### Apa itu file PSD yang diratakan?
-File PSD yang diratakan mengacu pada file yang semua lapisannya telah digabungkan menjadi satu lapisan, sehingga pengeditan lebih lanjut menjadi lebih rumit.
+**Terakhir Diperbarui:** 2026-03-23  
+**Diuji Dengan:** Aspose.PSD untuk Java 24.11 (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
 
-### Bisakah saya meratakan file PSD setelah diratakan?
-Sayangnya, setelah PSD diratakan, Anda tidak dapat memulihkan masing-masing lapisan kecuali Anda memiliki cadangan versi yang tidak diratakan.
-
-### Apakah Aspose.PSD mendukung format file lain?
-Ya! Aspose.PSD dapat menangani berbagai format gambar, menyediakan fungsionalitas luas untuk manipulasi gambar.
-
-### Bagaimana cara memulai Aspose?
- Cukup unduh perpustakaan dari[Di Sini](https://releases.aspose.com/psd/java/) dan mengintegrasikannya ke dalam proyek Java Anda.
-
-### Apakah ada cara untuk menguji Aspose.PSD secara gratis?
- Sangat! Anda dapat memulai uji coba gratis dengan mengunduh versi uji coba dari[tautan ini](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

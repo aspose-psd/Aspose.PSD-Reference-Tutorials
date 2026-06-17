@@ -1,32 +1,50 @@
 ---
-title: Agregue una capa de relleno degradado en archivos PSD con Java
-linktitle: Agregue una capa de relleno degradado en archivos PSD con Java
-second_title: API de Java Aspose.PSD
-description: Modifique capas de relleno degradado en archivos PSD usando Aspose.PSD para Java. Aprenda a cambiar los colores, la transparencia y otras propiedades de degradado mediante programación.
-weight: 15
+date: 2026-03-23
+description: Aprende a crear archivos PSD con relleno de degradado usando Java y Aspose.PSD.
+  Esta guía muestra cómo editar capas de degradado en PSD, ajustar colores, transparencia
+  y otras propiedades de forma programática.
+linktitle: Create Gradient Fill PSD with Java – Add Gradient Fill Layer
+second_title: Aspose.PSD Java API
+title: Crear PSD con relleno de degradado en Java – Añadir capa de relleno de degradado
 url: /es/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregue una capa de relleno degradado en archivos PSD con Java
+# Agregar capa de relleno de degradado en archivos PSD con Java
 
 ## Introducción
 
-¿Alguna vez has deseado ese toque extra de magia visual para tus archivos PSD? Los degradados ofrecen una forma sorprendente de agregar profundidad y dimensión a sus diseños. Pero, ¿qué sucede si desea manipular estos gradientes mediante programación usando Java? ¡Aspose.PSD viene al rescate! Esta guía completa le permitirá modificar capas de relleno de degradado dentro de archivos PSD utilizando Aspose.PSD, llevándole paso a paso a través del apasionante proceso.
+¿Alguna vez has deseado ese toque extra de magia visual para tus archivos PSD y te preguntas **cómo crear un relleno de degradado PSD** con Java? Los degradados le dan profundidad a tus diseños, pero ajustarlos manualmente puede ser tedioso. Con **Aspose.PSD for Java**, puedes editar programáticamente los degradados PSD, cambiar colores, ajustar la transparencia y afinar cada propiedad, ahorrándote tiempo y garantizando consistencia en docenas de archivos.
+
+## Respuestas rápidas
+- **¿Qué biblioteca le permite editar degradados PSD en Java?** Aspose.PSD for Java.  
+- **¿Qué método carga un archivo PSD?** `Image.load(path)`.  
+- **¿Cómo cambia el ángulo del degradado?** `settings.setAngle(double)`.  
+- **¿Puede agregar nuevos puntos de color?** Sí—cree objetos `GradientColorPoint` y añádalos a la lista de puntos de color.  
+- **¿Necesita una licencia para uso en producción?** Se requiere una licencia comercial; hay una prueba gratuita disponible para evaluación.
+
+## ¿Qué es “crear un relleno de degradado PSD”?
+Crear un relleno de degradado PSD significa insertar o modificar programáticamente una capa de relleno basada en degradado dentro de un documento de Photoshop. Esto permite estilizado automatizado, procesamiento por lotes y generación dinámica de imágenes sin abrir Photoshop.
+
+## ¿Por qué usar Aspose.PSD para editar degradados PSD?
+- **Compatibilidad total con .PSD** – funciona con todos los tipos de capas, incluidos los objetos inteligentes.  
+- **No se requiere Photoshop** – se ejecuta en cualquier servidor o canal de CI.  
+- **Control granular** – ajuste ángulo, desplazamientos, tramado, puntos de color y puntos de transparencia mediante una API Java limpia.  
 
 ## Requisitos previos
 
 Antes de sumergirse, asegúrese de tener lo siguiente:
 
--  Kit de desarrollo de Java (JDK): es necesaria una versión estable de JDK para ejecutar el código Java. Puedes descargarlo desde el sitio web de Oracle:[Enlace a la página de descarga de Oracle JDK]
--  Aspose.PSD para Java: esta poderosa biblioteca le permite trabajar con archivos PSD en sus aplicaciones Java. Descárgalo del sitio web de Aspose:[Enlace a descarga de Aspose.PSD para Java] (Prueba gratuita disponible)
+- Java Development Kit (JDK):  Una versión estable del JDK es necesaria para ejecutar código Java. Puede descargarla desde el sitio web de Oracle: [Link to Oracle JDK download page]
+- Aspose.PSD for Java: Esta poderosa biblioteca le permite trabajar con archivos PSD en sus aplicaciones Java. Descárguela desde el sitio web de Aspose: [Link to Aspose.PSD for Java download] (Prueba gratuita disponible)
 
 ## Importar paquetes
 
-Comencemos importando los paquetes Aspose.PSD esenciales necesarios para trabajar con archivos PSD:
+Comencemos importando los paquetes esenciales de Aspose.PSD necesarios para trabajar con archivos PSD:
 
 ```java
 import com.aspose.psd.Color;
@@ -45,13 +63,15 @@ import java.util.Collections;
 import java.util.List;
 ```
 
-Estas importaciones brindan acceso a clases y métodos para cargar, manipular y guardar archivos PSD.
+Estas importaciones proporcionan acceso a clases y métodos para cargar, manipular y guardar archivos PSD.
 
-¡Ahora, prepárate para el emocionante viaje de modificar capas de relleno degradado!
+¡Ahora, prepárese para el emocionante viaje de modificar capas de relleno de degradado!
 
-## Paso 1: cargue el archivo PSD
+## Cómo crear un relleno de degradado PSD con Java
 
- Primero, necesitamos cargar el archivo PSD que contiene la capa de relleno degradado que desea modificar. Utilice el`Image.load` método, especificando la ruta del archivo:
+### Paso 1: Cargar el archivo PSD
+
+Primero, necesitamos cargar el archivo PSD que contiene la capa de relleno de degradado que desea modificar. Use el método `Image.load`, especificando la ruta del archivo:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -60,27 +80,27 @@ String outputFile = dataDir + "ComplexGradientFillLayer_output.psd";
 PsdImage image = (PsdImage)Image.load(sourceFileName);
 ```
 
- Este fragmento de código carga el archivo PSD desde el directorio especificado y lo almacena en el`image` variable.
+Este fragmento de código carga el archivo PSD del directorio especificado y lo almacena en la variable `image`.
 
-## Paso 2: identificar la capa de relleno de degradado
+### Paso 2: Identificar la capa de relleno de degradado
 
- Los archivos PSD pueden contener numerosas capas. Necesitamos aislar la capa específica que contiene el relleno degradado que queremos editar. Iterar a través del`image.getLayers()` matriz para encontrar la capa deseada:
+Los archivos PSD pueden contener numerosas capas. Necesitamos aislar la capa específica que contiene el relleno de degradado que queremos editar. Itere a través del arreglo `image.getLayers()` para encontrar la capa deseada:
 
 ```java
 for (int i = 0; i < image.getLayers().length; i++) {
 if (image.getLayers()[i] instanceof FillLayer) {
    FillLayer fillLayer = (FillLayer) image.getLayers()[i];
-   // Se realizarán más comprobaciones y modificaciones aquí.
+   // Further checks and modifications will happen here
    break;
 }
 }
 ```
 
- Este bucle comprueba cada capa. Si una capa es una`FillLayer` , está lanzado al`FillLayer` tipo y almacenado en el`fillLayer`variable para su posterior procesamiento. Podemos agregar comprobaciones adicionales dentro del bucle si tiene criterios específicos para identificar la capa de destino (por ejemplo, nombre de la capa).
+Este bucle verifica cada capa. Si una capa es un `FillLayer`, se convierte al tipo `FillLayer` y se almacena en la variable `fillLayer` para procesamiento posterior. Podemos agregar verificaciones adicionales dentro del bucle si tiene criterios específicos para identificar la capa objetivo (p. ej., nombre de la capa).
 
-## Paso 3: verificar el tipo de relleno degradado
+### Paso 3: Verificar el tipo de relleno de degradado
 
-No todas las capas de relleno utilizan degradados. Este fragmento de código confirma si la capa identificada realmente contiene un relleno degradado:
+No todas las capas de relleno utilizan degradados. Este fragmento de código confirma si la capa identificada realmente contiene un relleno de degradado:
 
 ```java
 if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
@@ -88,29 +108,31 @@ if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
 }
 ```
 
- si el`getFillType` el método no regresa`FillType.Gradient`, se genera una excepción, lo que indica que estamos trabajando con la capa incorrecta.
+Si el método `getFillType` no devuelve `FillType.Gradient`, se lanza una excepción, indicando que estamos trabajando con la capa incorrecta.
 
-## Paso 4: acceder y modificar las propiedades del degradado
+## Cómo editar el degradado PSD usando Aspose.PSD
 
- ¡La magia sucede aquí! Aspose.PSD proporciona acceso a varias propiedades de relleno degradado a través del`IGradientFillSettings` interfaz. Podemos recuperarlos y modificarlos según sea necesario:
+### Paso 4: Acceder y modificar las propiedades del degradado
+
+¡La magia ocurre aquí! Aspose.PSD brinda acceso a varias propiedades de relleno de degradado a través de la interfaz `IGradientFillSettings`. Podemos obtenerlas y modificarlas según sea necesario:
 
 ```java
 IGradientFillSettings settings = (IGradientFillSettings) fillLayer.getFillSettings();
 
-// Modificar propiedades (reemplazar con los valores deseados)
-settings.setAngle(0.0);  // Establecer el ángulo en 0 grados
-settings.setDither(false);  // Deshabilitar el tramado
-settings.setAlignWithLayer(true); // Alinear degradado con capa
-settings.setReverse(true);  // Dirección de gradiente inverso
-settings.setHorizontalOffset(25);  // Establecer desplazamiento horizontal
-settings.setVerticalOffset(-15);  // Establecer desplazamiento vertical
+// Modify properties (replace with desired values)
+settings.setAngle(0.0);  // Set angle to 0 degrees
+settings.setDither(false);  // Disable dithering
+settings.setAlignWithLayer(true); // Align gradient with layer
+settings.setReverse(true);  // Reverse gradient direction
+settings.setHorizontalOffset(25);  // Set horizontal offset
+settings.setVerticalOffset(-15);  // Set vertical offset
 ```
 
- Este código recupera el`IGradientFillSettings`objeto y luego modifica propiedades como ángulo, tramado, alineación y desplazamientos. Reemplace los valores proporcionados con la configuración deseada para lograr el efecto de degradado que imagina.
+Este código recupera el objeto `IGradientFillSettings` y luego modifica propiedades como ángulo, tramado, alineación y desplazamientos. Reemplace los valores proporcionados con la configuración deseada para lograr el efecto de degradado que imagina.
 
-## Paso 5: manipular los puntos de color y transparencia
+### Paso 5: Manipular puntos de color y de transparencia
 
-Los degradados se definen por puntos de color y transparencia a lo largo de un espectro. Aspose.PSD le permite modificar estos puntos para un control preciso:
+Los degradados se definen mediante puntos de color y de transparencia a lo largo de un espectro. Aspose.PSD le permite modificar estos puntos para un control preciso:
 
 ```java
 List<IGradientColorPoint> colorPoints = new ArrayList<IGradientColorPoint>();
@@ -118,31 +140,31 @@ Collections.addAll(colorPoints, settings.getColorPoints());
 List<IGradientTransparencyPoint> transparencyPoints = new ArrayList<IGradientTransparencyPoint>();
 Collections.addAll(transparencyPoints, settings.getTransparencyPoints());
 
-// Agregar un nuevo punto de color
+// Add a new color point
 GradientColorPoint gr1 = new GradientColorPoint();
 gr1.setColor(Color.getViolet());
 gr1.setLocation(4096);
 gr1.setMedianPointLocation(75);
 colorPoints.add(gr1);
 
-// Modificar un punto de color existente
+// Modify an existing color point
 colorPoints.get(1).setLocation(3000);
 
-// Agregar un nuevo punto de transparencia
+// Add a new transparency point
 GradientTransparencyPoint gr2 = new GradientTransparencyPoint();
 gr2.setOpacity(80.0);
 gr2.setLocation(4096);
 gr2.setMedianPointLocation(25);
 transparencyPoints.add(gr2);
 
-// Modificar un punto de transparencia existente
+// Modify an existing transparency point
 transparencyPoints.get(2).setLocation(3000);
 
 settings.setColorPoints(colorPoints.toArray(new IGradientColorPoint[0]));
 settings.setTransparencyPoints(transparencyPoints.toArray(new IGradientTransparencyPoint[0]));
 ```
 
-## Paso 6: actualice y guarde el archivo PSD
+### Paso 6: Actualizar y guardar el archivo PSD
 
 Una vez que haya realizado las modificaciones necesarias, actualice la capa de relleno y guarde el archivo PSD:
 
@@ -151,31 +173,43 @@ fillLayer.update();
 image.save(outputFile, new PsdOptions(image));
 ```
 
- El`fillLayer.update()` El método aplica los cambios a la capa de relleno degradado y`image.save` guarda el archivo PSD modificado en la ruta de salida especificada.
+El método `fillLayer.update()` aplica los cambios a la capa de relleno de degradado, y `image.save` guarda el archivo PSD modificado en la ruta de salida especificada.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-¡Has dominado con éxito el arte de modificar capas de relleno degradado en archivos PSD usando Aspose.PSD para Java! Si sigue estos pasos, podrá dar rienda suelta a su creatividad y crear impresionantes efectos visuales con precisión programática.
+- **Excepción “Wrong Fill Layer”** – Asegúrese de que está apuntando a un `FillLayer` que realmente utiliza un degradado. Verifique el nombre o índice de la capa antes de convertir.  
+- **Los puntos de color no reflejan los cambios** – Después de modificar la lista de puntos, siempre llame a `settings.setColorPoints(...)` y `settings.setTransparencyPoints(...)` para enviar las actualizaciones a la capa.  
+- **Rendimiento en PSD grandes** – Si procesa muchos archivos, reutilice la misma instancia de `PsdOptions` y cierre las imágenes rápidamente con `image.dispose()` para liberar memoria.
 
 ## Preguntas frecuentes
 
-### ¿Puedo agregar varios puntos de color y transparencia a un degradado?
-¡Absolutamente! Puede agregar tantos puntos de color y transparencia como sea necesario para lograr el efecto de degradado deseado. Simplemente cree nuevos puntos y agréguelos a las listas respectivas.
+**P: ¿Puedo agregar múltiples puntos de color y de transparencia a un degradado?**  
+R: ¡Absolutamente! Puede agregar tantos puntos de color y de transparencia como necesite para lograr el efecto de degradado deseado. Simplemente cree nuevos puntos y añádalos a las listas correspondientes.
 
-### ¿Cómo elimino un punto de color o transparencia de un degradado?
- Para eliminar un punto, utilice la lista adecuada.`remove` método. Por ejemplo,`colorPoints.remove(index)` eliminaría el punto de color en el índice especificado.
+**P: ¿Cómo elimino un punto de color o de transparencia de un degradado?**  
+R: Use el método `remove` de la lista, por ejemplo, `colorPoints.remove(index)`, para borrar el punto no deseado antes de llamar a `setColorPoints`.
 
-### ¿Puedo cambiar el tipo de degradado (lineal, radial, etc.)?
-Aspose.PSD actualmente admite gradientes lineales. Si bien es posible que se admitan otros tipos de degradado en versiones futuras, puede lograr efectos similares manipulando los puntos de color y transparencia de forma creativa.
+**P: ¿Puedo cambiar el tipo de degradado (lineal, radial, etc.)?**  
+R: Aspose.PSD actualmente soporta degradados lineales. Futuras versiones pueden agregar más tipos, pero puede simular otros efectos manipulando los puntos de color y de transparencia.
 
-### ¿Hay un impacto en el rendimiento al modificar los gradientes?
-El impacto en el rendimiento depende de la complejidad del gradiente y del número de modificaciones realizadas. Para la mayoría de los casos de uso prácticos, el rendimiento debería ser aceptable. Sin embargo, para el procesamiento de imágenes a gran escala, considere optimizar su código para lograr eficiencia.
+**P: ¿Hay un impacto en el rendimiento al modificar degradados?**  
+R: El impacto depende de la complejidad del degradado y del número de modificaciones. Para casos de uso típicos la sobrecarga es mínima, pero el procesamiento por lotes de archivos grandes puede beneficiarse de ajustes en la gestión de memoria.
 
-### ¿Puedo aplicar esta técnica a varias capas de relleno degradado en un archivo PSD?
-Sí, puede recorrer las capas y aplicar las modificaciones a cada capa de relleno degradado que cumpla con sus criterios.
+**P: ¿Puedo aplicar esta técnica a múltiples capas de relleno de degradado en un archivo PSD?**  
+R: Sí. Itere a través de `image.getLayers()`, verifique cada `FillLayer` para `FillType.Gradient` y aplique las mismas modificaciones según sea necesario.
+
+**P: ¿Necesito una licencia comercial para uso en producción?**  
+R: Se requiere una licencia válida de Aspose.PSD para implementaciones en producción. Hay una prueba gratuita disponible para propósitos de evaluación.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Última actualización:** 2026-03-23  
+**Probado con:** Aspose.PSD for Java 24.11 (latest)  
+**Autor:** Aspose
