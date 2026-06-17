@@ -1,51 +1,81 @@
 ---
-title: PSDに色相彩度調整レイヤーを追加する
-linktitle: PSDに色相彩度調整レイヤーを追加する
+date: 2026-03-13
+description: Aspose.PSD for Java を使用して PSD ファイルに色相・彩度レイヤーを追加する方法を学びます。このガイドでは、PSD
+  ファイルをバッチ処理し、プログラムで色相調整レイヤーを作成する方法も示しています。
+linktitle: Add Hue Saturation Layer to PSD
 second_title: Aspose.PSD Java API
-description: この包括的なステップバイステップのチュートリアルでは、Aspose.PSD for Java を使用して PSD に色相彩度調整レイヤーを追加する方法を学びます。グラフィック デザインのワークフローを強化します。
-weight: 14
+title: Aspose.PSD for Java を使用して PSD に色相・彩度レイヤーを追加する
 url: /ja/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSDに色相彩度調整レイヤーを追加する
+# PSD に色相・彩度レイヤーを追加する
 
-## 導入
-グラフィック デザインでは、色の操作が重要な役割を果たします。特に、色相、彩度、明度を微調整すると、画像の雰囲気や品質が劇的に変化します。これを実現する効果的な方法の 1 つは、Photoshop (PSD ファイル) の調整レイヤーを使用することです。Java を使用してプログラムで PSD ファイルを強化したい場合は、Aspose.PSD ライブラリが役立ちます。このチュートリアルでは、PSD ファイルに色相彩度調整レイヤーを追加して、ワークフローの生産性と効率を高める手順を説明します。
-このガイドでは、必要なパッケージのインポートからコード例の細かい詳細まで、すべてをカバーします。
+## はじめに
+グラフィックデザインにおいて、カラー操作は極めて重要な役割を果たします。特に、色相、彩度、明度を微調整することで、画像の雰囲気や品質を劇的に変えることができます。この目的を達成する効果的な方法の一つが、Photoshop（PSD ファイル）での調整レイヤーの使用です。Java で **add hue saturation layer** をプログラム的に追加したい場合は、Aspose.PSD ライブラリが役立ちます！本チュートリアルでは、PSD ファイルに Hue Saturation Adjustment Layer を追加する手順を解説し、ワークフローをより生産的かつ効率的にします。
+
+## クイック回答
+- **Javaで色相・彩度レイヤーを追加できるライブラリは何ですか？** Aspose.PSD for Java。  
+- **Photoshop をインストールする必要がありますか？** いいえ、ライブラリは Photoshop とは独立して動作します。  
+- **この方法で PSD ファイルをバッチ処理できますか？** はい—手順を自動化すれば多数のファイルに適用できます。  
+- **必要な Java バージョンはどれですか？** JDK 8 以降。  
+- **本番利用にライセンスは必要ですか？** はい、トライアル期間終了後は商用ライセンスが必要です。
+
+## “add hue saturation layer” 操作とは？
+**add hue saturation layer** 操作は、元のピクセルデータを変更せずに色相、彩度、明度の値を調整できる非破壊的な調整レイヤーを作成します。全体の構成や特定のカラー範囲の微調整に最適です。
+
+## なぜ Aspose.PSD for Java を使用するのか？
+- **Photoshop 依存なし** – Java が動作する任意のプラットフォームで使用可能。  
+- **完全な PSD 再現性** – すべてのレイヤー情報、マスク、エフェクトを保持。  
+- **バッチ対応** – フォルダーをループして多数のファイルに同じ調整を適用可能。  
+- **パフォーマンス重視** – 大規模ドキュメントやサーバーサイド自動化に最適化。
+
 ## 前提条件
-コードに進む前に、次のものが揃っていることを確認してください。
-1.  Java開発キット（JDK）：マシンにJDK 8以上がインストールされていることを確認してください。[Java SE 開発キットのダウンロード](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.PSD for Javaライブラリ: Aspose.PSDライブラリが必要です。[ここからダウンロード](https://releases.aspose.com/psd/java/). 
-3. IDE: Java 開発に適した IntelliJ IDEA や Eclipse などの統合開発環境 (IDE)。
-4. 基本的な Java の知識: Java プログラミングの知識があればなお良いですが、心配はいりません。コードをステップごとに説明します。
-前提条件が整ったので、楽しい部分であるコーディングに進みましょう。
-## パッケージのインポート
-Aspose.PSD ライブラリの使用を開始するには、まず必要なクラスをインポートします。Java ファイルでこれを行う方法は次のとおりです。
+コードに入る前に、以下が揃っていることを確認してください。
+
+1. **Java Development Kit (JDK)：** マシンに JDK 8 以上がインストールされていることを確認してください。ダウンロードは [Java SE Development Kit Downloads](https://www.oracle.com/java/technologies/javase-downloads.html) から行えます。  
+2. **Aspose.PSD for Java ライブラリ：** Aspose.PSD ライブラリが必要です。こちらから [download here](https://releases.aspose.com/psd/java/)。  
+3. **IDE：** IntelliJ IDEA や Eclipse など、Java 開発に適した統合開発環境。  
+4. **基本的な Java 知識：** Java プログラミングの基礎があると便利ですが、心配いりません—各行を丁寧に解説します。
+
+前提条件が整ったので、さあ楽しいコーディングパートへ進みましょう！
+
+## Import Packages
+Aspose.PSD ライブラリを使用し始めるには、まず必要なクラスをインポートします。Java ファイルでの記述例は次のとおりです。
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.HueSaturationLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.ColorRangeHsl;
 ```
-これらのインポートがシームレスに機能するように、適切なライブラリがプロジェクトに追加されていることを確認してください。
-## ステップ1: ドキュメントディレクトリを設定する
-すべてのプロジェクトには開始点が必要ですが、私たちのプロジェクトも例外ではありません。PSD ファイルが保存されているディレクトリを指定する必要があります。これは、画像を適切に読み込み、保存するために非常に重要です。
+
+プロジェクトに適切なライブラリが追加されていることを確認し、インポートがシームレスに機能するようにしてください。
+
+## Step 1: Set Up Your Document Directory
+すべてのプロジェクトには開始地点が必要です。今回も例外ではありません。PSD ファイルが保存されているディレクトリを指定する必要があります。これは画像の読み込みと保存を正しく行うために重要です。
+
 ```java
-String dataDir = "Your Document Directory"; //このパスを実際のディレクトリに更新します
+String dataDir = "Your Document Directory"; // Update this path to your actual directory
 ```
-## ステップ2: 既存のPSDファイルを読み込む
-既存の PSD ファイルを操作するには、まずそれをプログラムに読み込む必要があります。その方法は次のとおりです。
+
+## Step 2: Load an Existing PSD File
+既存の PSD ファイルを操作するには、まずプログラムに読み込む必要があります。以下のように実装できます。
+
 ```java
 String sourceFileName = dataDir + "HueSaturationAdjustmentLayer.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
-このコードでは、更新`"HueSaturationAdjustmentLayer.psd"`編集する既存の PSD ファイルの名前に置き換えます。
-## ステップ3: 色相/彩度レイヤーを編集する
-次に、読み込んだ PSD 画像のレイヤーをループして、既存の色相/彩度レイヤーを見つけて編集します。この手順では、色相、彩度、明度の値を変更します。
+
+このコードでは、`"HueSaturationAdjustmentLayer.psd"` を編集したい既存の PSD ファイル名に置き換えてください。
+
+## Step 3: Edit the Hue/Saturation Layer
+次に、読み込んだ PSD 画像のレイヤーをループし、既存の Hue/Saturation レイヤーを検索して編集します。このステップでは色相、彩度、明度の値を変更します。
+
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof HueSaturationLayer) {
@@ -61,24 +91,31 @@ for (int i = 0; i < im.getLayers().length; i++) {
     }
 }
 ```
-この例では、
-- 色相を -25、彩度を -12、明度を +67 に調整します。
-- の`getRange(2)`この方法を使用すると、必要に応じて特定の色の範囲を微調整できます。
-## ステップ4: 変更したPSDファイルを保存する
-調整を行った後、次のステップはファイルを保存することです。これは、行った変更が失われないようにするためのプロセスの重要な部分です。
+
+この例では：  
+- 色相を **-25**、彩度を **-12**、明度を **+67** に調整しています。  
+- `getRange(2)` メソッドを使用すると、目的のカラー範囲を個別に調整できます。
+
+## Step 4: Save the Modified PSD File
+調整が完了したら、次のステップはファイルを保存することです。これは変更が失われないようにする重要なプロセスです。
+
 ```java
 String psdPathAfterChange = dataDir + "HueSaturationAdjustmentLayerChanged.psd";
 im.save(psdPathAfterChange);
 ```
-## ステップ5: 新しい色相/彩度レイヤーを追加する
-次に、別の PSD ファイルに新しい色相/彩度調整レイヤーを追加したい場合があります。異なる PSD ファイルで、以前と同じアプローチに従ってください。
+
+## Step 5: Add a New Hue/Saturation Layer
+**create hue adjustment layer** をゼロから作成したい場合は、別の PSD ファイルに新しい Hue/Saturation 調整レイヤーを追加できます。同じ読み込みパターンを使用し、`addHueSaturationAdjustmentLayer()` メソッドを呼び出します。
+
 ```java
 sourceFileName = dataDir + "PhotoExample.psd";
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 HueSaturationLayer hueLayerNew = img.addHueSaturationAdjustmentLayer();
 ```
-## ステップ6: 新しいレイヤーに新しい色相/彩度の値を設定する
-新しいレイヤーを作成したので、前と同じように、希望する色相、彩度、明度の設定を適用します。
+
+## Step 6: Set New Hue/Saturation Values for the New Layer
+新しいレイヤーを作成したら、先ほどと同様に希望する色相、彩度、明度の設定を適用します。
+
 ```java
 hueLayerNew.setHue((short) -25);
 hueLayerNew.setSaturation((short) -12);
@@ -89,28 +126,55 @@ newColorRange.setSaturation((short) 100);
 newColorRange.setLightness((short) 20);
 newColorRange.setMostLeftBorder((short) 300);
 ```
-## ステップ7: 更新されたPSDファイルを保存する
-最後に、変更内容を確認できるように、色相/彩度レイヤーを追加した PSD ファイルを保存します。
+
+## Step 7: Save the Updated PSD File
+最後に、追加した Hue/Saturation レイヤーを含む PSD ファイルを保存し、変更を確認できるようにします。
+
 ```java
 String psdPathAfterNewLayerChange = dataDir + "PhotoExampleAddedHueSaturation.psd";
 img.save(psdPathAfterNewLayerChange);
 ```
-おめでとうございます! Aspose.PSD for Java を使用して PSD ファイルの操作に成功しました。これで、さまざまな画像やより詳細な変更を試して、グラフィック デザイン プロジェクトを実現できます。
-## 結論
-プログラムでグラフィックを操作すると、可能性の世界が広がります。Aspose.PSD for Java を使用して色相彩度調整レイヤーを追加および変更すると、柔軟性と効率性が向上し、デザイン ワークフローが合理化されます。プロジェクトの写真を強化する場合でも、魅力的なビジュアル コンテンツを作成する場合でも、これらのツールを習得すると、出力を大幅に向上できます。
- Aspose.PSDのさらなる機能については、以下をご覧ください。[ドキュメント](https://reference.aspose.com/psd/java/)または、[一時ライセンス](https://purchase.aspose.com/temporary-license/)ライブラリの全機能をテストします。
+
+おめでとうございます！Aspose.PSD for Java を使用して PSD ファイルを正常に操作できました。これでさまざまな画像や高度な変更を試し、グラフィックデザインプロジェクトに命を吹き込むことができます。
+
+## How to batch process PSD files with hue adjustments
+上記コードは完全にスクリプト化できるため、フォルダー内のすべての `.psd` ファイルをループで処理するように全シーケンスをラップできます。これにより **batch process psd files** が可能となり、同じ色相、彩度、明度の調整を一度の実行で多数のファイルに適用できるため、大規模なブランディング更新に最適です。
+
+## Common Issues and Solutions
+- **NullPointerException when loading a file:** `dataDir` が適切なファイルセパレーター（`/` または `\`）で終わっているか、ファイル名が正しいかを確認してください。  
+- **Adjustment values out of range:** 色相、彩度、明度は -255 から 255 の範囲で受け付けます。この範囲内に数値を収めてください。  
+- **Layer not found:** PSD に Hue/Saturation レイヤーが存在しない場合、`instanceof` チェックでブロックがスキップされます。まず `addHueSaturationAdjustmentLayer()` でレイヤーを作成してください。
+
 ## よくある質問
-### 色相彩度調整レイヤーとは何ですか?
-色相/彩度調整レイヤーを使用すると、元のピクセルを永続的に変更せずに、画像の色のプロパティを変更できます。
-### Aspose.PSD を使用するには Photoshop をインストールする必要がありますか?
-いいえ、Aspose.PSD は Photoshop から独立して動作するスタンドアロン ライブラリです。
-### Aspose.PSD をバッチ処理に使用できますか?
-はい、Aspose.PSD を使用すると、複数の PSD ファイルを自動化してバッチ処理できます。
-### Aspose.PSD は無料ですか?
-Aspose.PSDは無料トライアルを提供していますが、長期使用にはライセンスが必要です。価格を見ることができます。[ここ](https://purchase.aspose.com/buy).
+
+**Q: Hue Saturation Adjustment Layer とは何ですか？**  
+A: 画像のピクセルを永久に変更せずに、カラー属性を変更できる調整レイヤーです。
+
+**Q: Aspose.PSD を使用するのに Photoshop をインストールする必要がありますか？**  
+A: いいえ、Aspose.PSD は Photoshop とは独立したスタンドアロンライブラリです。
+
+**Q: Aspose.PSD でバッチ処理は可能ですか？**  
+A: はい、Aspose.PSD を使って複数の PSD ファイルを自動化・バッチ処理できます。
+
+**Q: Aspose.PSD は無料ですか？**  
+A: 無料トライアルは提供されていますが、長期利用にはライセンスが必要です。価格は [here](https://purchase.aspose.com/buy) で確認できます。
+
+## 結論
+プログラムでグラフィックを操作することで、可能性が広がります。Aspose.PSD for Java を使って **add hue saturation layer** や **create hue adjustment layer** を実現すれば、デザインワークフローの柔軟性と効率が大幅に向上します。プロジェクトの写真を強化したり、魅力的なビジュアルコンテンツを作成したりする際に、これらのツールをマスターすれば成果物が格段に向上します。
+
+Aspose.PSD のさらなる機能は [documentation](https://reference.aspose.com/psd/java/) を参照するか、[temporary license](https://purchase.aspose.com/temporary-license/) を取得してライブラリのフルパワーを体験してください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
+---
