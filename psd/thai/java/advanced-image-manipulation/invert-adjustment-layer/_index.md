@@ -1,10 +1,16 @@
 ---
-date: 2026-02-07
-description: เรียนรู้วิธีใช้ไลบรารีการประมวลผลภาพ Java Aspose.PSD เพื่อใช้หลายเลเยอร์การปรับค่า
-  รวมถึงเลเยอร์การปรับค่า Invert เพื่อการจัดการไฟล์ PSD อย่างราบรื่น
-linktitle: Invert Adjustment Layer
+date: 2026-04-22
+description: เรียนรู้วิธีใช้ไลบรารีการประมวลผลภาพ Java Aspose.PSD เพื่อใช้หลายเลเยอร์ปรับแต่ง
+  รวมถึงเลเยอร์ปรับแต่ง Invert สำหรับการจัดการไฟล์ PSD อย่างราบรื่น
+keywords:
+- image processing java library
+- how to add invert
+- invert colors psd
+- batch process psd images
+- apply multiple adjustment layers
+linktitle: เลเยอร์ปรับค่ากลับสี
 second_title: Aspose.PSD Java API
-title: 'ไลบรารี Java สำหรับการประมวลผลภาพ: กลับชั้นโดยใช้ Aspose.PSD'
+title: 'ไลบรารี Java สำหรับการประมวลผลภาพ: กลับสีเลเยอร์ด้วย Aspose.PSD'
 url: /th/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
@@ -17,42 +23,36 @@ weight: 14
 
 ## บทนำ
 
-หากคุณกำลังมองหา **image processing java library** ที่แข็งแกร่ง Aspose.PSD สำหรับ Java เป็นหนึ่งในตัวเลือกที่หลากหลายที่สุดในตลาด ในบทเรียนนี้เราจะอธิบายขั้นตอนการเพิ่ม **Invert Adjustment Layer** ลงในไฟล์ PSD ซึ่งเป็นเทคนิคที่คุณสามารถผสานกับชั้นปรับค่าอื่น ๆ เพื่อสร้างเอฟเฟกต์ภาพที่ซับซ้อน ไม่ว่าคุณจะสร้างเครื่องมือประมวลผลแบบแบตช์หรือโปรแกรมแก้ไขภาพเดี่ยว คู่มือนี้จะให้เส้นทางที่ชัดเจนเป็นขั้นตอนเพื่อทำงานให้เสร็จเร็วขึ้น
+หากคุณกำลังมองหา **image processing java library** ที่แข็งแกร่ง Aspose.PSD for Java เป็นหนึ่งในตัวเลือกที่หลากหลายที่สุดในตลาด ในบทเรียนนี้เราจะอธิบายวิธีเพิ่ม **Invert Adjustment Layer** ลงในไฟล์ PSD ซึ่งเป็นเทคนิคที่คุณสามารถผสานกับชั้นปรับค่าอื่น ๆ เพื่อสร้างเอฟเฟกต์ภาพที่ซับซ้อน ไม่ว่าคุณจะสร้างเครื่องมือประมวลผลเป็นชุด, บริการภาพฝั่งเซิร์ฟเวอร์, หรือโปรแกรมแก้ไขภาพเดี่ยว คู่มือนี้จะให้เส้นทางที่ชัดเจนและเป็นขั้นตอนเพื่อทำงานให้เสร็จเร็วและเชื่อถือได้
 
 ## คำตอบอย่างรวดเร็ว
-- **ชั้น Invert Adjustment Layer ทำอะไร?** มันจะกลับค่าของสีทั้งหมดในพื้นที่ที่เลือก ทำให้ได้เอฟเฟกต์ภาพลบ (negative)  
-- **ไลบรารีใดให้ฟีเจอร์นี้?** Aspose.PSD ซึ่งเป็น **image processing java library** ชั้นนำ  
-- **ฉันสามารถซ้อนกับการปรับค่าอื่นได้หรือไม่?** ได้ – คุณสามารถ **apply multiple adjustment layers** เช่น Brightness/Contrast, Hue/Saturation และอื่น ๆ  
-- **ต้องมีลิขสิทธิ์สำหรับการพัฒนาหรือไม่?** มีการทดลองใช้ฟรี; จำเป็นต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์จริง  
-- **การทำงานนี้ใช้เวลานานแค่ไหน?** ปกติใช้เวลาน้อยกว่า 10 นาทีสำหรับกรณีการใช้งานพื้นฐาน  
+- **What does the Invert Adjustment Layer do?** มันกลับค่าสีทั้งหมดในพื้นที่ที่เลือก, สร้างเอฟเฟกต์ภาพลบ (เช่น, มัน **converts PSD to negative**).  
+- **Which library provides this feature?** Aspose.PSD, a leading **image processing java library**.  
+- **Can I stack it with other adjustments?** Yes – you can **apply multiple adjustment layers** such as Brightness/Contrast, Hue/Saturation, and more.  
+- **Do I need a license for development?** A free trial is available; a license is required for production use.  
+- **How long does the implementation take?** Typically under 10 minutes for a basic use‑case.
 
 ## ชั้นปรับค่า Invert คืออะไร?
 
-ชั้น Invert Adjustment Layer เป็นการแก้ไขแบบไม่ทำลาย (non‑destructive) ที่สลับค่าของ RGB ของพิกเซลทุกพิกเซลที่มันส่งผล เนื่องจากอยู่บนสุดของสแตกเลเยอร์ คุณสามารถสลับการมองเห็นหรือจัดลำดับใหม่ได้โดยไม่ทำให้ข้อมูลภาพต้นฉบับเปลี่ยนแปลงอย่างถาวร
-
-## วิธีการ invert ชั้นโดยใช้ Aspose.PSD
-
-ด้านล่างนี้คุณจะเห็นขั้นตอนที่ชัดเจนเกี่ยวกับ **how to invert layer** ในไฟล์ PSD ขั้นตอนถูกออกแบบให้เรียบง่ายเพื่อให้คุณมุ่งเน้นที่แนวคิดมากกว่ารหัสโครงสร้าง
+ชั้นปรับค่า Invert เป็นการแก้ไขแบบไม่ทำลายที่สลับค่ารหัสสี RGB ของพิกเซลทุกพิกเซลที่มันส่งผลกระทบ เนื่องจากมันอยู่บนสุดของสแตกชั้น, คุณสามารถสลับการมองเห็นหรือจัดลำดับใหม่ได้โดยไม่ทำให้ข้อมูลภาพต้นฉบับเปลี่ยนแปลงอย่างถาวร นี่เป็นวิธีที่ง่ายที่สุดในการ **invert colors PSD** ไฟล์หรือสร้างภาพลบแบบถ่ายภาพ
 
 ## ทำไมต้องใช้ Aspose.PSD เป็นไลบรารีการประมวลผลภาพ Java ของคุณ?
 
-- **Full PSD support** – อ่าน, แก้ไข, และเขียนไฟล์ Photoshop ได้โดยไม่ต้องติดตั้ง Photoshop  
-- **Cross‑platform** – ทำงานบน Java runtime ใดก็ได้ (Java 6+)  
-- **Rich adjustment features** – มีเมธอดในตัวสำหรับการแก้ไขทั่วไปหลายอย่าง ทำให้ง่ายต่อการ **apply multiple adjustment layers** ในเวิร์กโฟลเดียว  
-- **Performance‑optimized** – จัดการไฟล์ขนาดใหญ่ได้อย่างมีประสิทธิภาพ ซึ่งจำเป็นสำหรับการประมวลผลแบบแบตช์  
+- **Full PSD support** – อ่าน, แก้ไข, และเขียนไฟล์ Photoshop โดยไม่ต้องติดตั้ง Photoshop.  
+- **Cross‑platform** – ทำงานบน Java runtime ใดก็ได้ (Java 6+).  
+- **Rich adjustment features** – มีเมธอดในตัวสำหรับการแก้ไขทั่วไปหลายอย่าง ทำให้ง่ายต่อการ **apply multiple adjustment layers** ในเวิร์กโฟลเดียว.  
+- **Performance‑optimized** – จัดการไฟล์ขนาดใหญ่ได้อย่างมีประสิทธิภาพ ซึ่งจำเป็นสำหรับ **batch process psd images**.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่มทำงาน โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+1. **Aspose.PSD Library** – ดาวน์โหลดจากเว็บไซต์อย่างเป็นทางการ [here](https://releases.aspose.com/psd/java/).  
+2. **Java Development Environment** – ติดตั้งและกำหนดค่า JDK 6.0 หรือใหม่กว่า.  
 
-1. **Aspose.PSD Library** – ดาวน์โหลดจากเว็บไซต์อย่างเป็นทางการ [here](https://releases.aspose.com/psd/java/)  
-2. **Java Development Environment** – ติดตั้งและกำหนดค่า JDK 6.0 หรือใหม่กว่า  
-
-ตอนนี้มาดูโค้ดกันเลย
+ตอนนี้, เรามาเจาะลึกโค้ดกัน
 
 ## นำเข้าแพ็กเกจ
 
-เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็น การนำเข้าตัวนี้จะให้คุณเข้าถึง API การจัดการภาพหลักและฟังก์ชันเฉพาะของ PSD
+เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็น การนำเข้าต่าง ๆ นี้ให้คุณเข้าถึง API การจัดการภาพหลักและฟังก์ชันเฉพาะของ PSD.
 
 ```java
 import com.aspose.psd.Image;
@@ -62,7 +62,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
 
-กำหนดโฟลเดอร์ที่เก็บไฟล์ PSD ต้นฉบับและที่ที่ผลลัพธ์จะถูกบันทึก
+กำหนดโฟลเดอร์ที่บรรจุไฟล์ PSD ต้นฉบับของคุณและที่ที่ผลลัพธ์จะถูกบันทึก.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -70,7 +70,7 @@ String dataDir = "Your Document Directory";
 
 ## ขั้นตอนที่ 2: โหลดไฟล์ PSD
 
-โหลดไฟล์ต้นฉบับเข้าสู่วัตถุ `PsdImage` ซึ่งเป็นตัวแทนของเอกสาร PSD ทั้งหมดในหน่วยความจำ
+โหลดไฟล์ต้นฉบับเข้าสู่วัตถุ `PsdImage` วัตถุนี้แทนเอกสาร PSD ทั้งหมดในหน่วยความจำ.
 
 ```java
 String filePath = dataDir + "InvertStripes_before.psd";
@@ -81,7 +81,7 @@ PsdImage im = (PsdImage)Image.load(filePath);
 
 ## ขั้นตอนที่ 3: เพิ่มชั้นปรับค่า Invert
 
-เรียกเมธอดในตัวเพื่อแทรก Invert Adjustment Layer ที่ด้านบนของสแตกเลเยอร์ปัจจุบัน คุณสามารถเพิ่มเลเยอร์อื่น ๆ (เช่น Brightness, Hue) ต่อไปเพื่อ **apply multiple adjustment layers**
+เรียกเมธอดในตัวเพื่อแทรก Invert Adjustment Layer บนสุดของสแตกชั้นปัจจุบัน คุณสามารถเพิ่มชั้นอื่น ๆ ต่อไป (เช่น Brightness, Hue) เพื่อ **apply multiple adjustment layers**.
 
 ```java
 im.addInvertAdjustmentLayer();
@@ -89,46 +89,54 @@ im.addInvertAdjustmentLayer();
 
 ## ขั้นตอนที่ 4: บันทึกผลลัพธ์
 
-บันทึก PSD ที่แก้ไขแล้วลงดิสก์ ไฟล์ที่บันทึกจะมี Invert Adjustment Layer อยู่และสามารถเปิดใน Photoshop หรือโปรแกรมดู PSD ใดก็ได้
+บันทึก PSD ที่แก้ไขแล้วลงดิสก์ ไฟล์ที่บันทึกแล้วจะมี Invert Adjustment Layer อยู่และสามารถเปิดใน Photoshop หรือโปรแกรมดู PSD ที่รองรับได้.
 
 ```java
 im.save(outputPath);
 ```
 
-### สิ่งที่เกิดขึ้นคืออะไร?
+### เกิดอะไรขึ้น?
 
-- โหลด PSD เข้าไปในหน่วยความจำ  
-- เพิ่ม Invert Adjustment Layer เป็นเลเยอร์บนสุด  
-- บันทึกภาพโดยคงการแก้ไขแบบไม่ทำลายไว้  
+- PSD ถูกโหลดเข้าสู่หน่วยความจำ.  
+- Invert Adjustment Layer ถูกเพิ่มเป็นชั้นบนสุด.  
+- ภาพถูกบันทึก, รักษาการแก้ไขแบบไม่ทำลาย.
 
-คุณได้ใช้ Aspose.PSD, **image processing java library**, เพื่อจัดการไฟล์ PSD อย่างสำเร็จแล้ว
+คุณได้ใช้ Aspose.PSD, **image processing java library** ที่ประสบความสำเร็จในการจัดการไฟล์ PSD.
+
+## การประมวลผลชุดไฟล์ PSD ด้วยการปรับค่า invert
+
+หากคุณต้องการใช้เอฟเฟกต์ invert เดียวกันกับไฟล์หลายสิบหรือหลายร้อยไฟล์, คุณสามารถใส่โค้ดข้างต้นในลูปง่าย ๆ ที่วนผ่านไดเรกทอรีของ PSDs เนื่องจากไลบรารีนี้ **performance‑optimized**, การประมวลผลชุดขนาดใหญ่ยังคงเร็ว, และคุณสามารถรวมขั้นตอน invert กับการปรับค่าอื่น ๆ (เช่น brightness, hue) ในลูปเดียวกัน.
+
+## การแปลง PSD เป็นภาพลบ
+
+Invert Adjustment Layer โดยพื้นฐานคือการทำงาน **convert PSD to negative** โดยการเพิ่มชั้นนี้เป็นรายการบนสุด, คุณจะได้เอฟเฟกต์ลบเต็มรูปแบบโดยไม่ทำให้ข้อมูลพิกเซลต้นฉบับเปลี่ยนแปลงอย่างถาวร คุณสามารถลบหรือปิดการใช้งานชั้นนี้ในภายหลังเพื่อกลับสู่ลักษณะเดิม.
 
 ## ปัญหาและเคล็ดลับทั่วไป
 
 | ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|-------|----------|
 | **NullPointerException on `Image.load`** | เส้นทางไฟล์ไม่ถูกต้องหรือไฟล์หาย | ตรวจสอบ `dataDir` และชื่อไฟล์; ใช้เส้นทางเต็มสำหรับการทดสอบ |
-| **Layer order not as expected** | การเพิ่มเลเยอร์หลังจากที่มีอยู่ทำให้ลำดับเปลี่ยน | ใช้ `im.addInvertAdjustmentLayer()` ก่อนเพิ่มการปรับค่าอื่น ๆ หรือจัดลำดับเลเยอร์ใหม่ผ่าน `im.getLayers()` |
-| **Performance slowdown on large PSDs** | โหลดไฟล์ขนาดใหญ่มากเข้าสู่หน่วยความจำ | พิจารณาประมวลผลหน้าเป็นชิ้น ๆ หรือเพิ่มขนาด heap ของ JVM (`-Xmx2g`) |
+| **Layer order not as expected** | การเพิ่มชั้นหลังจากที่มีอยู่แล้วทำให้การจัดเรียงเปลี่ยน | ใช้ `im.addInvertAdjustmentLayer()` ก่อนเพิ่มการปรับค่าอื่น ๆ, หรือจัดลำดับชั้นใหม่ผ่าน `im.getLayers()` |
+| **Performance slowdown on large PSDs** | โหลดไฟล์ขนาดใหญ่มากเข้าสู่หน่วยความจำ | พิจารณาประมวลผลหน้าเป็นส่วน ๆ หรือเพิ่มขนาด heap ของ JVM (`-Xmx2g`) |
 
 ## คำถามที่พบบ่อย
 
-**ถาม: Aspose.PSD รองรับทุกเวอร์ชันของ Java หรือไม่?**  
-ตอบ: Aspose.PSD รองรับ Java 6.0 และเวอร์ชันที่ใหม่กว่า
+**Q: Aspose.PSD รองรับเวอร์ชัน Java ทั้งหมดหรือไม่?**  
+A: Aspose.PSD รองรับ Java 6.0 ขึ้นไป.
 
-**ถาม: ฉันสามารถใช้หลายชั้นปรับค่าในหนึ่งการดำเนินการได้หรือไม่?**  
-ตอบ: ได้, คุณสามารถซ้อนหลายชั้นปรับค่า เช่น Invert, Brightness, และ Hue/Saturation เพื่อสร้างเอฟเฟกต์ที่ซับซ้อนได้
+**Q: ฉันสามารถใช้หลายชั้นปรับค่าในหนึ่งการดำเนินการได้หรือไม่?**  
+A: ได้, คุณสามารถสแต็กหลายชั้นปรับค่า เช่น Invert, Brightness, และ Hue/Saturation เพื่อสร้างเอฟเฟกต์ซับซ้อนได้.
 
-**ถาม: ฉันจะหาเอกสารเพิ่มเติมสำหรับ Aspose.PSD ได้จากที่ไหน?**  
-ตอบ: ดูเอกสาร [here](https://reference.aspose.com/psd/java/) สำหรับคู่มือและอ้างอิง API อย่างครบถ้วน
+**Q: ฉันสามารถหาเอกสารเพิ่มเติมสำหรับ Aspose.PSD ได้ที่ไหน?**  
+A: ดูเอกสาร [here](https://reference.aspose.com/psd/java/) สำหรับคู่มือและอ้างอิง API อย่างครบถ้วน.
 
-**ถาม: มีการทดลองใช้ฟรีสำหรับ Aspose.PSD หรือไม่?**  
-ตอบ: มี, คุณสามารถสำรวจการทดลองใช้ฟรี [here](https://releases.aspose.com/)  
+**Q: มีการทดลองใช้ฟรีสำหรับ Aspose.PSD หรือไม่?**  
+A: มี, คุณสามารถสำรวจการทดลองใช้ฟรี [here](https://releases.aspose.com/).
 
-**ถาม: ฉันจะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.PSD ได้อย่างไร?**  
-ตอบ: คุณสามารถขอรับลิขสิทธิ์ชั่วคราว [here](https://purchase.aspose.com/temporary-license/)  
+**Q: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD ได้อย่างไร?**  
+A: คุณสามารถขอรับใบอนุญาตชั่วคราว [here](https://purchase.aspose.com/temporary-license/).
 
-**อัปเดตล่าสุด:** 2026-02-07  
+**อัปเดตล่าสุด:** 2026-04-22  
 **ทดสอบด้วย:** Aspose.PSD 24.12 for Java  
 **ผู้เขียน:** Aspose  
 
