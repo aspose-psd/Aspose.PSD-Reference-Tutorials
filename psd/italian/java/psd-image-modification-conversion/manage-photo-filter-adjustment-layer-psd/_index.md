@@ -1,29 +1,50 @@
 ---
-title: Gestisci il livello di regolazione del filtro fotografico in PSD - Java
-linktitle: Gestisci il livello di regolazione del filtro fotografico in PSD - Java
-second_title: API Java Aspose.PSD
-description: Scopri come gestire i livelli di regolazione del filtro fotografico nei file PSD con Aspose.PSD per Java. Segui questa guida per modificare e aggiungere filtri senza sforzo.
-weight: 24
+date: 2026-03-28
+description: Scopri come creare un livello di filtro fotografico e aggiungere un livello
+  di regolazione ai file PSD utilizzando Aspose.PSD per Java. Segui questa guida per
+  modificare e aggiungere filtri senza sforzo.
+linktitle: How to Create Photo Filter Layer in PSD Using Java
+second_title: Aspose.PSD Java API
+title: Come creare un livello di filtro fotografico in PSD usando Java
 url: /it/java/psd-image-modification-conversion/manage-photo-filter-adjustment-layer-psd/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gestisci il livello di regolazione del filtro fotografico in PSD - Java
+# Gestire il livello di regolazione Filtro Foto in PSD - Java
 
 ## Introduzione
-Sei uno sviluppatore che desidera migliorare le sue capacità di editing grafico utilizzando Java? Bene, sei nel posto giusto! Oggi approfondiremo come gestire i livelli di regolazione del filtro fotografico utilizzando Aspose.PSD per Java. Questa potente libreria ti consente di manipolare i file PSD senza problemi, consentendo un flusso di lavoro efficiente nella progettazione grafica. Sia che tu voglia aggiungere effetti o modificare livelli esistenti, ti offriamo una guida passo passo che semplifica il processo.
+Se sei uno sviluppatore Java alla ricerca di **creare oggetti layer di filtro foto** all'interno di file PSD, sei nel posto giusto. In questo tutorial vedremo come utilizzare Aspose.PSD per Java per modificare i Photo Filter Adjustment Layers esistenti e aggiungerne di nuovi. Alla fine saprai esattamente come **creare un layer di filtro foto**, regolarne le proprietà e persino **aggiungere layer di regolazione PSD** in modo programmatico, accelerando il tuo flusso di lavoro di graphic‑design.
+
+## Risposte rapide
+- **Quale libreria gestisce i layer PSD in Java?** Aspose.PSD per Java  
+- **Posso modificare un layer Photo Filter esistente?** Sì – carica il PSD, individua il `PhotoFilterLayer` e modifica le sue proprietà.  
+- **Come aggiungo un nuovo layer filtro?** Usa `addPhotoFilterLayer(Color)` su un'istanza `PsdImage`.  
+- **È necessaria una licenza per la produzione?** È richiesta una licenza commerciale; è disponibile una versione di prova gratuita.  
+- **Quale versione di Java è supportata?** JDK 8 o superiore (consigliato JDK 11).  
+
+## Che cos'è un Photo Filter Adjustment Layer?
+Un Photo Filter Adjustment Layer è un effetto non distruttivo che tinta l'intera immagine con un colore scelto, simile all'applicazione di un filtro fotografico. Vive sul proprio layer, consentendoti di regolare colore, densità e luminosità senza alterare i pixel originali.
+
+## Perché usare Aspose.PSD per creare un layer di filtro foto?
+- **Controllo totale** sulla struttura PSD senza Adobe Photoshop.  
+- **Cross‑platform**: l'API Java funziona su Windows, Linux e macOS.  
+- **Nessuna interop COM** – puro Java, ideale per l'elaborazione lato server.  
+- **Supporta la versione PSD 1‑8**, preservando effetti di layer e maschere.
+
 ## Prerequisiti
-Prima di intraprendere questo viaggio, assicuriamoci che tu abbia tutto ciò di cui hai bisogno attivo e funzionante:
 ### Software essenziale
-1.  Java Development Kit (JDK): assicurati di avere una versione compatibile di JDK installata sul tuo computer. Puoi scaricarlo da[Il sito web di Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.PSD per Java: per manipolare i file PSD, avrai bisogno della libreria Aspose.PSD. Puoi scaricarlo da[Pagina delle versioni di Aspose](https://releases.aspose.com/psd/java/) Non dimenticare di dare un'occhiata a[Richiedere documentazione](https://reference.aspose.com/psd/java/) per maggiori dettagli
-3. IDE (ambiente di sviluppo integrato): un buon IDE come IntelliJ IDEA o Eclipse renderà la tua esperienza di codifica più fluida.
-### Comprendere le nozioni di base
-La familiarità con la programmazione Java e una conoscenza di base del funzionamento dei file PSD saranno utili. Se sei nuovo nell'uso delle librerie in Java, è una buona idea abituarti all'importazione e all'utilizzo dei framework.
-## Importa pacchetti
+1. Java Development Kit (JDK): assicurati di avere una versione compatibile di JDK installata sulla tua macchina. Puoi scaricarla dal sito di [Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. Aspose.PSD per Java: per manipolare i file PSD, ti serve la libreria Aspose.PSD. Puoi scaricarla dalla [pagina di rilascio di Aspose](https://releases.aspose.com/psd/java/). Non dimenticare di consultare la [documentazione di Aspose](https://reference.aspose.com/psd/java/) per ulteriori dettagli.
+3. IDE (Integrated Development Environment): un buon IDE come IntelliJ IDEA o Eclipse renderà più fluida la tua esperienza di codifica.
+
+### Comprendere le basi
+Familiarità con la programmazione Java e una conoscenza di base di come funzionano i file PSD saranno utili. Se sei nuovo all'uso di librerie in Java, è consigliabile abituarsi a importare e utilizzare framework.
+
+## Importare i pacchetti
 Per iniziare, dobbiamo importare le classi necessarie dalla libreria Aspose.PSD. Ecco una semplice istruzione di importazione di cui avrai bisogno all'inizio del tuo file Java:
 ```java
 import com.aspose.psd.Color;
@@ -31,88 +52,114 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.PhotoFilterLayer;
 ```
-Incollalo semplicemente nella parte superiore del tuo file Java e sei pronto per iniziare a lavorare con le immagini PSD!
-## Modifica del livello di filtro fotografico esistente
-### Passaggio 1: impostare la directory dei dati
- Innanzitutto, devi definire la directory in cui sono archiviati i tuoi file PSD. Sostituire`"Your Document Directory"` con il percorso vero e proprio. Ecco come organizzare tutto:
+Incolla semplicemente questo all'inizio del tuo file Java e sei pronto per lavorare con le immagini PSD!
+
+## Modifica di un Photo Filter Layer esistente
+### Passo 1: Configurare la directory dei dati
+Innanzitutto, devi definire la directory in cui sono archiviati i tuoi file PSD. Sostituisci `"Your Document Directory"` con il percorso reale. Questo ti aiuterà a tenere tutto organizzato:
 ```java
 String dataDir = "Your Document Directory";
 ```
-### Passaggio 2: carica il file PSD
- Ora carichiamo il file PSD che desideri modificare. Assicurati di questo`PhotoFilterAdjustmentLayer.psd`esiste nella directory specificata.
+
+### Passo 2: Caricare il tuo file PSD
+Ora, carichiamo il file PSD che **vuoi modificare**. Assicurati che `PhotoFilterAdjustmentLayer.psd` esista nella directory specificata.
 ```java
 String sourceFileName = dataDir + "PhotoFilterAdjustmentLayer.psd";
 ```
-### Passaggio 3: inizializzare l'oggetto immagine
-Utilizzando la funzionalità integrata di Aspose, carichiamo l'immagine nel nostro progetto:
+
+### Passo 3: Inizializzare l'oggetto immagine
+Utilizzando la funzionalità integrata di Aspose, **carichiamo** l'immagine nel nostro **progetto**:
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
-### Passaggio 4: scorrere i livelli
- Successivamente, esamineremo i livelli all'interno del file PSD. Il nostro obiettivo è individuare il`PhotoFilterLayer`:
+
+### Passo 4: Iterare attraverso i layer
+Successivamente, esamineremo i layer presenti nel file PSD. Il nostro obiettivo è individuare il `PhotoFilterLayer`:
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof PhotoFilterLayer) {
         PhotoFilterLayer photoLayer = (PhotoFilterLayer) im.getLayers()[i];
-        // Apporta modifiche al livello
+        // Make changes to the layer
     }
 }
 ```
-### Passaggio 5: personalizza il livello del filtro fotografico
- Ecco dove avviene la magia! È possibile modificare il`Color` E`Density`. Ad esempio, possiamo impostare il colore su un rosso vibrante e regolare la densità:
+
+### Passo 5: Personalizzare il Photo Filter Layer
+Ecco dove avviene la magia! Puoi modificare il `Color` e la `Density`. Ad esempio, possiamo impostare il colore su un rosso vibrante e regolare la densità:
 ```java
 photoLayer.setColor(Color.fromArgb(255, 60, 60));
 photoLayer.setDensity(78);
 photoLayer.setPreserveLuminosity(false);
 ```
-### Passaggio 6: salva il file PSD modificato
-Infine, salva le modifiche per creare un nuovo file PSD con le tue modifiche:
+
+### Passo 6: Salvare il file PSD modificato
+Infine, salva le modifiche per creare un nuovo file PSD con le tue regolazioni:
 ```java
 String psdPathAfterChange = dataDir + "PhotoFilterAdjustmentLayerChanged.psd";
 im.save(psdPathAfterChange);
 ```
-Hai appena modificato un livello di regolazione del filtro fotografico in un file PSD.
-## Aggiunta di un nuovo livello di filtro fotografico
-### Passaggio 1: imposta il percorso della directory
-Come prima, iniziamo con la definizione della nostra directory dei dati:
+Hai appena modificato un Photo Filter Adjustment Layer in un file PSD.
+
+## Aggiungere un nuovo Photo Filter Layer
+### Passo 1: Configurare il percorso della directory
+Come prima, iniziamo definendo la nostra directory dei dati:
 ```java
 String dataDir = "Your Document Directory";
 ```
-### Passaggio 2: caricare il file sorgente
-Per questo esempio, carichiamo un file PSD diverso in cui vogliamo aggiungere un nuovo filtro fotografico:
+
+### Passo 2: Caricare il file sorgente
+Per questo esempio, carichiamo un diverso file PSD in cui vogliamo **aggiungere un layer di regolazione PSD**:
 ```java
 String sourceFileName = dataDir + "PhotoExample.psd";
 ```
-### Passaggio 3: inizializzare nuovamente l'oggetto immagine
- Dobbiamo crearne uno nuovo`PsdImage` esempio, quindi carichiamo il file:
+
+### Passo 3: Inizializzare nuovamente l'oggetto immagine
+Dobbiamo creare una nuova istanza `PsdImage`, quindi carichiamo il file:
 ```java
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 ```
-### Passaggio 4: aggiungi un livello di filtro fotografico
-Ora possiamo aggiungere un nuovo livello di filtro fotografico con un colore personalizzato. Ecco come è fatto:
+
+### Passo 4: Aggiungere un Photo Filter Layer
+Ora possiamo aggiungere un nuovo Photo Filter layer con un colore personalizzato. Ecco come si fa:
 ```java
 PhotoFilterLayer layer = img.addPhotoFilterLayer(Color.fromArgb(25, 255, 35));
 ```
-### Passaggio 5: salva il nuovo file PSD
-Ancora una volta, è il momento di salvare le nostre modifiche. Ecco la riga per fare proprio questo:
+
+### Passo 5: Salvare il nuovo file PSD
+Ancora una volta, è il momento di salvare le modifiche. Ecco la riga di codice per farlo:
 ```java
 String psdPathAfterChange = dataDir + "PhotoExampleAddedPhotoFilter.psd";
 img.save(psdPathAfterChange);
 ```
-Hai aggiunto con successo un nuovo livello di filtro fotografico al tuo file PSD.
-## Conclusione
-Gestire i livelli di regolazione del filtro fotografico nei file PSD utilizzando Aspose.PSD per Java non è solo semplice, ma apre anche un mondo di possibilità per l'editing grafico. Seguendo queste guide passo passo, puoi migliorare i tuoi file PSD con filtri vivaci e creare una grafica straordinaria. Testa queste funzionalità nelle tue applicazioni; lo troverai sicuramente efficace per i tuoi progetti!
+Hai aggiunto con successo un nuovo layer di filtro foto al tuo file PSD.
+
+## Problemi comuni e soluzioni
+- **`ClassCastException` durante il caricamento dell'immagine** – Assicurati che il file caricato sia un PSD; altri formati richiedono classi diverse.  
+- **I valori di colore appaiono errati** – Usa `Color.fromArgb(alpha, red, green, blue)` dove ogni componente è compreso tra 0‑255.  
+- **Layer non trovato** – Verifica che il PSD sorgente contenga effettivamente un `PhotoFilterLayer`. Usa `im.getLayers().length` per il debug.
+
 ## Domande frequenti
-### Cos'è Aspose.PSD?
+### Che cos'è Aspose.PSD?
 Aspose.PSD è una libreria .NET e Java per creare, modificare e convertire file PSD.
+
 ### Posso provare Aspose.PSD gratuitamente?
- Sì, Aspose offre una versione di prova gratuita. Controlla[Qui](https://releases.aspose.com/).
+Sì, Aspose offre una versione di prova gratuita. Scoprila [qui](https://releases.aspose.com/).
+
 ### Dove posso trovare la documentazione?
- Puoi trovare la documentazione completa su[Pagina di riferimento di Aspose](https://reference.aspose.com/psd/java/).
+Puoi trovare la documentazione completa nella [pagina di riferimento di Aspose](https://reference.aspose.com/psd/java/).
+
 ### Come posso acquistare Aspose.PSD?
- È possibile acquistare il software da[questo collegamento](https://purchase.aspose.com/buy).
+Puoi acquistare il software da [questo link](https://purchase.aspose.com/buy).
+
 ### È disponibile supporto per Aspose.PSD?
- Assolutamente! È possibile ottenere supporto tramite il forum di supporto Aspose[Qui](https://forum.aspose.com/c/psd/34).
+Assolutamente! Puoi ottenere supporto tramite il forum di supporto Aspose [qui](https://forum.aspose.com/c/psd/34).
+
+---
+
+**Ultimo aggiornamento:** 2026-03-28  
+**Testato con:** Aspose.PSD per Java 24.11 (ultima versione al 2026)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

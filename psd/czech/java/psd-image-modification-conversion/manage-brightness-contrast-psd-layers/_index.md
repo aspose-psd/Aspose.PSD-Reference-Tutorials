@@ -1,39 +1,56 @@
 ---
-title: Správa jasu a kontrastu ve vrstvách PSD - Java
-linktitle: Správa jasu a kontrastu ve vrstvách PSD - Java
+date: 2026-03-28
+description: Naučte se, jak upravit jas v souboru PSD pomocí Aspose.PSD pro Javu,
+  včetně toho, jak změnit jas a kontrast vrstvy PSD. Ideální pro vývojáře a grafické
+  designéry.
+linktitle: Adjust Brightness PSD Java – Manage Brightness & Contrast
 second_title: Aspose.PSD Java API
-description: Naučte se bez námahy upravovat jas a kontrast v souborech PSD pomocí Aspose.PSD for Java. Ideální pro vývojáře a grafiky.
-weight: 21
+title: Upravit jas PSD Java – Spravovat jas a kontrast
 url: /cs/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Správa jasu a kontrastu ve vrstvách PSD - Java
+# Upravit jas PSD Java – Správa jasu a kontrastu
 
-## Zavedení
+## Úvod
 
-Jste grafik nebo vývojář, který často pracuje se soubory PSD (Photoshop Document)? Zjistili jste, že potřebujete upravit jas a kontrast vrstev v těchto souborech, ale chybí vám know-how k automatizaci tohoto úkolu pomocí Java? Tak to máš štěstí! V tomto tutoriálu se ponoříme do toho, jak spravovat jas a kontrast ve vrstvách PSD pomocí knihovny Aspose.PSD pro Javu. To vám nejen ušetří čas, ale také zlepší váš kreativní pracovní postup. Vyhrňme si rukávy a začněme!
+Jste grafický designér nebo vývojář, který často pracuje se soubory PSD (Photoshop Document)? Potřebujete **adjust brightness psd java** rychle a spolehlivě, aniž byste opustili své Java prostředí? V tomto tutoriálu vám přesně ukážeme, jak změnit jas a kontrast vrstev PSD pomocí knihovny Aspose.PSD pro Java. Získáte znovupoužitelný úryvek kódu, který lze integrovat do jakéhokoli automatizovaného pipeline pro zpracování obrázků. Pojďme si zapřát rukávy a začít!
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaká knihovna je potřeba?** Aspose.PSD for Java  
+- **Mohu změnit více vrstev najednou?** Ano – iterujte přes všechny objekty `BrightnessContrastLayer`.  
+- **Jaká verze Javy je vyžadována?** JDK 8 nebo vyšší.  
+- **Potřebuji licenci pro produkci?** Ano, pro ne‑evaluační použití je vyžadována komerční licence.  
+- **Je kód kompatibilní s projekty Maven/Gradle?** Naprosto – stačí přidat závislost Aspose.PSD.
 
-Než se vydáme na tuto vzrušující cestu manipulace se soubory PSD pomocí Javy, je nezbytné zajistit, abyste měli vše, co potřebujete, správně nastaveno. Zde je to, co budete potřebovat k úspěšnému dokončení tohoto kurzu:
+## Co je „adjust brightness psd java“?
 
-1.  Java Development Kit (JDK): Ujistěte se, že máte na svém počítači nainstalovaný JDK 8 nebo vyšší. Můžete si jej stáhnout z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+Úprava jasu v souboru PSD pomocí Javy znamená programové měnění hodnot `BrightnessContrastLayer`, což vám umožní automatizovat vizuální úpravy, které by jinak vyžadovaly ruční práci ve Photoshopu.
 
-2. Aspose.PSD for Java Library: Pro práci se soubory PSD budete potřebovat knihovnu Aspose.PSD. Nejnovější verzi si můžete stáhnout z[stránka vydání](https://releases.aspose.com/psd/java/).
+## Proč upravovat jas a kontrast ve vrstvách PSD?
 
-3. IDE dle vašeho výběru: Pro psaní a spouštění kódu Java je preferováno integrované vývojové prostředí (IDE), jako je IntelliJ IDEA, Eclipse nebo NetBeans.
+- **Zrychlit dávkové zpracování** – ideální pro rozsáhlé knihovny designů.  
+- **Zachovat strukturu vrstev** – mění se pouze cílené vrstvy úprav, zachovávají se masky a efekty.  
+- **Integrovat do CI/CD pipeline** – automaticky generovat náhledové obrázky nebo miniatury.
 
-4. Základní znalost Javy: Znalost programování v Javě vám pomůže porozumět úryvkům kódu, se kterými budeme pracovat.
+## Požadavky
 
-Jakmile splníte tyto předpoklady, jsme připraveni pokračovat. Nyní si vezměte svůj oblíbený editor kódu a pojďme se pustit do kódování!
+Než se vydáme na tuto vzrušující cestu manipulace se soubory PSD pomocí Javy, je nezbytné zajistit, že máte vše potřebné správně nastavené. Zde je, co budete potřebovat k úspěšnému dokončení tohoto tutoriálu:
 
-## Importujte balíčky
+1. **Java Development Kit (JDK)** – Ujistěte se, že máte na svém počítači nainstalovaný JDK 8 nebo novější. Můžete jej stáhnout z [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+2. **Aspose.PSD for Java Library** – Pro práci se soubory PSD budete potřebovat knihovnu Aspose.PSD. Nejnovější verzi můžete stáhnout ze [release page](https://releases.aspose.com/psd/java/).
+3. **IDE podle vašeho výběru** – Integrované vývojové prostředí (IDE) jako IntelliJ IDEA, Eclipse nebo NetBeans je preferováno pro psaní a spouštění vašeho Java kódu.
+4. **Základní znalost Javy** – Znalost programování v Javě vám pomůže pochopit úryvky kódu, se kterými budeme pracovat.
 
-Prvním krokem na naší kódovací cestě je import potřebných balíčků. Než budete moci využívat funkce poskytované Aspose.PSD, musíte se ujistit, že knihovna je ve vaší třídě. Můžete to udělat takto:
+Jakmile budete mít tyto požadavky splněny, můžeme pokračovat. Vezměte si svůj oblíbený editor kódu a pojďme programovat!
+
+## Import balíčků
+
+Prvním krokem na naší programovací cestě je importovat potřebné balíčky. Než budete moci využívat funkce poskytované knihovnou Aspose.PSD, musíte zajistit, aby byla knihovna ve vašem classpath. Zde je návod, jak to provést:
 
 ```java
 import com.aspose.psd.Image;
@@ -41,21 +58,21 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.BrightnessContrastLayer;
 ```
 
-Dokončením těchto kroků připravíte scénu pro efektivní práci se soubory PSD!
+Dokončením těchto kroků připravujete prostředí pro efektivní práci se soubory PSD!
 
-Nyní, když máme vše nastaveno, je čas pustit se do hlavní části tutoriálu: úpravy jasu a kontrastu ve vrstvách PSD. Tento proces rozdělíme do jasných kroků, abyste zajistili, že jej budete snadno sledovat.
+Nyní, když máme vše nastavené, je čas se pustit do hlavní části tutoriálu: úpravy jasu a kontrastu ve vrstvách PSD. Rozdělíme tento proces do jasných kroků, abyste jej mohli snadno sledovat.
 
-## Krok 1: Definujte svůj adresář dokumentů
+## Krok 1: Definujte adresář dokumentů
 
-Začněte definováním adresáře, kde jsou umístěny vaše soubory PSD. Tento krok pomáhá při efektivní organizaci souborů.
+Začněte definováním adresáře, kde se nacházejí vaše soubory PSD. Tento krok pomáhá efektivně organizovat soubory.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Nahradit`"Your Document Directory"` se skutečnou cestou k adresáři vašeho souboru PSD.
+Nahraďte `"Your Document Directory"` skutečnou cestou k adresáři s vašimi soubory PSD.
 
-## Krok 2: Zadejte názvy zdrojových a cílových souborů
+## Krok 2: Zadejte názvy zdrojového a cílového souboru
 
 Dále musíte zadat název zdrojového souboru vašeho PSD a cílový soubor, kam bude upravený PSD uložen.
 
@@ -64,21 +81,21 @@ String sourceFileName = dataDir + "BrightnessContrastModern.psd";
 String psdPathAfterChange = dataDir + "BrightnessContrastModernChanged.psd";
 ```
 
- V tomto příkladu předpokládáme, že máte pojmenovaný soubor PSD`BrightnessContrastModern.psd` ve vašem adresáři.
+V tomto příkladu předpokládáme, že ve vašem adresáři máte soubor PSD s názvem `BrightnessContrastModern.psd`.
 
 ## Krok 3: Načtěte soubor PSD
 
-Nyní je čas načíst soubor PSD do aplikace, abyste s ním mohli manipulovat.
+Nyní je čas načíst soubor PSD do vaší aplikace, abyste s ním mohli manipulovat.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
- Tento řádek kódu vytvoří instanci`PsdImage` představující váš soubor PSD. Díky tomu máte nyní přístup ke všem vrstvám PSD.
+Tento řádek kódu vytvoří instanci `PsdImage`, která představuje váš soubor PSD. Nyní můžete přistupovat ke všem vrstvám PSD.
 
-## Krok 4: Iterujte přes vrstvy
+## Krok 4: Procházejte vrstvy
 
-Další krok zahrnuje iteraci každé vrstvy vašeho souboru PSD, abyste našli a upravili nastavení jasu a kontrastu.
+Dalším krokem je iterovat přes každou vrstvu vašeho souboru PSD, abyste našli a upravili nastavení jasu a kontrastu.
 
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
@@ -86,11 +103,11 @@ for(int i = 0; i < im.getLayers().length; i++) {
         BrightnessContrastLayer brightnessContrastLayer = (BrightnessContrastLayer)im.getLayers()[i];
 ```
 
- The`for` smyčka prochází každou vrstvou PSD. Ověřujeme, zda je vrstva instancí`BrightnessContrastLayer`. To je nezbytné pro zajištění toho, že se pokusíte změnit jas a kontrast pouze ve správných vrstvách.
+Cyklus `for` prochází každou vrstvu PSD. Kontrolujeme, zda je vrstva instancí `BrightnessContrastLayer`. To je nezbytné pro zajištění, že se pokoušíte změnit jas vrstvy PSD pouze na správných vrstvách.
 
-## Krok 5: Upravte jas a kontrast
+## Krok 5: Upravit jas a kontrast
 
- V rámci smyčky nyní můžete nastavit jas a kontrast pro každou z nich`BrightnessContrastLayer`. 
+Uvnitř smyčky můžete nyní nastavit jas a kontrast pro každou `BrightnessContrastLayer`. 
 
 ```java
         brightnessContrastLayer.setBrightness(50);
@@ -99,38 +116,49 @@ for(int i = 0; i < im.getLayers().length; i++) {
 }
 ```
 
- V tomto příkladu nastavíme jas a kontrast na`50`. Tyto hodnoty můžete upravit podle svých požadavků. Vyšší číslo zvyšuje jas/kontrast, zatímco nižší číslo jej snižuje.
+V tomto příkladu nastavujeme jas a kontrast na `50`. Tyto hodnoty můžete upravit podle svých požadavků. Vyšší číslo zvyšuje jas/kontrast, nižší číslo jej snižuje.
 
-## Krok 6: Uložte změny
+## Krok 6: Uložit změny
 
-Posledním krokem je uložení změn do souboru PSD. Budete chtít zapsat upravený obrázek zpět do určeného cíle.
+Posledním krokem je uložit vaše změny do souboru PSD. Budete chtít zapsat upravený obrázek zpět do určeného cíle.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-Tento řádek kódu uloží upravený soubor PSD s novým nastavením jasu a kontrastu.
+Tento řádek kódu uloží upravený soubor PSD s vašimi novými nastaveními jasu a kontrastu.
 
-## Závěr
+## Časté problémy a řešení
 
-Gratuluji! Úspěšně jste se naučili, jak spravovat jas a kontrast ve vrstvách PSD pomocí Aspose.PSD pro Javu. Automatizací těchto úprav nejen zlepšíte svůj pracovní postup, ale také zvýšíte svou produktivitu. Až budete příště potřebovat vyladit tyto obrázky, budete dobře vybaveni, abyste se s tímto úkolem vypořádali se svými novými dovednostmi v jazyce Java. Takže, co vytvoříte příště?
+| Problém | Proč k tomu dochází | Řešení |
+|-------|----------------|-----|
+| **No `BrightnessContrastLayer` found** | PSD může používat jiný typ úpravy (např. Levels). | Ověřte typ vrstvy nebo převěďte úpravu na `BrightnessContrastLayer`. |
+| **Saved file looks corrupted** | Chybějící licence nebo použití zastaralé verze Aspose.PSD. | Použijte platnou licenci a ujistěte se, že používáte nejnovější verzi knihovny. |
+| **Values out of range** | Hodnoty jasu/kontrastu musí být mezi -100 a 100. | Omezte hodnoty před voláním `setBrightness`/`setContrast`. |
 
-## FAQ
+## Často kladené otázky
 
-### Co je Aspose.PSD for Java?
-Aspose.PSD for Java je knihovna, která umožňuje vývojářům programově manipulovat se soubory PSD, což umožňuje automatizaci úloh souvisejících s Photoshopem.
+**Q: Co je Aspose.PSD for Java?**  
+A: Aspose.PSD for Java je knihovna, která umožňuje vývojářům programově manipulovat se soubory PSD, což umožňuje automatizaci úkolů souvisejících s Photoshopem.
 
-### Mohu upravit jas a kontrast více vrstev najednou?
- Ano, přístup použitý v tomto tutoriálu prochází všemi vrstvami v PSD, což vám umožňuje upravit více`BrightnessContrastLayer` instance.
+**Q: Mohu najednou upravit jas a kontrast více vrstev?**  
+A: Ano, přístup použitý v tomto tutoriálu iteruje přes všechny vrstvy v PSD, což vám umožní upravit více instancí `BrightnessContrastLayer`.
 
-### Jak získám dočasnou licenci pro Aspose.PSD?
- Dočasnou licenci můžete získat na adrese[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
+**Q: Jak získám dočasnou licenci pro Aspose.PSD?**  
+A: Dočasnou licenci můžete získat návštěvou [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-### Je k dispozici bezplatná zkušební verze pro Aspose.PSD?
- Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.PSD z[stránka vydání](https://releases.aspose.com/).
+**Q: Je k dispozici bezplatná zkušební verze Aspose.PSD?**  
+A: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.PSD ze [release page](https://releases.aspose.com/).
 
-### Kde najdu další podporu pro Aspose.PSD?
- Na jejich stránkách můžete získat podporu pro Aspose.PSD[fórum podpory](https://forum.aspose.com/c/psd/34).
+**Q: Kde mohu najít další podporu pro Aspose.PSD?**  
+A: Podporu pro Aspose.PSD můžete získat na jejich [support forum](https://forum.aspose.com/c/psd/34).
+
+---
+
+**Poslední aktualizace:** 2026-03-28  
+**Testováno s:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

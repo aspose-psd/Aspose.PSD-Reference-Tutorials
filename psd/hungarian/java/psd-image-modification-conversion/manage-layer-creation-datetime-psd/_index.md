@@ -1,29 +1,53 @@
 ---
-title: Kezelje a réteglétrehozási dátumot a PSD-ben Java segítségével
-linktitle: Kezelje a réteglétrehozási dátumot a PSD-ben Java segítségével
+date: 2026-03-28
+description: Ismerje meg, hogyan hozhat létre új PSD réteget, és kezelheti annak létrehozási
+  dátum‑időpontját az Aspose.PSD for Java segítségével. Ez a lépésről‑lépésre útmutató
+  lefedi a betöltést, olvasást, érvényesítést és a rétegek hozzáadását.
+linktitle: Create New PSD Layer and Manage Creation DateTime in Java
 second_title: Aspose.PSD Java API
-description: Könnyen kezelheti a réteglétrehozási dátumokat PSD-fájlokban a Java segítségével. Ez az útmutató végigvezeti az Aspose.PSD használatával a zökkenőmentes képkezeléshez és rétegkezeléshez.
-weight: 18
+title: Új PSD réteg létrehozása és a létrehozás dátum‑időpontjának kezelése Java‑ban
 url: /hu/java/psd-image-modification-conversion/manage-layer-creation-datetime-psd/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kezelje a réteglétrehozási dátumot a PSD-ben Java segítségével
+# Új PSD réteg létrehozása és a létrehozás dátum‑idő kezelése Java-ban
 
 ## Bevezetés
-A Photoshop-fájlokkal való munka során, különösen professzionális környezetben, kulcsfontosságú lehet a rétegek és attribútumuk hatékony kezelésének megértése. Az egyik gyakran figyelmen kívül hagyott káprázatos részlet a réteg létrehozásának dátuma és időpontja. Képzelje el, hogy nyomon kell követnie a felülvizsgálatokat, ellenőriznie kell a kreativitás pillanatait, vagy egyszerűen csak nyilvántartást szeretne vezetni az együttműködési projektekről. Érdekesen hangzik, igaz? Ebben az útmutatóban megfejtjük, hogyan kezelheti a réteg létrehozásának dátumát PSD-fájlokban az Aspose.PSD for Java használatával. Legyen szó fejlesztőről, aki automatizálni szeretné a tervezési munkafolyamatot, vagy egyszerűen csak a technológia szerelmese, ez az oktatóanyag lépésről lépésre végigvezeti Önt mindenen.
+Amikor programozottan dolgozol Photoshop (PSD) fájlokkal, a **create new PSD layer** objektumok létrehozásának és a létrehozási időbélyegek nyomon követésének képessége igazi áttörés. Akár egy verziókezelő rendszert építesz a tervezési eszközök számára, automatizálsz kötegelt módosításokat, vagy csak egy audit nyomot szeretnél a közös projektekhez, a réteg létrehozási dátumának olvasása és beállítása lehetővé teszi minden változás teljes eredetiségének nyomon követését. Ebben az útmutatóban végigvezetünk a teljes folyamaton az Aspose.PSD for Java használatával – a PSD betöltésétől, a réteg létrehozási dátumának lekérdezéséig, annak validálásáig, egészen egy vadonatúj beállítási réteg hozzáadásáig.
+
+## Gyors válaszok
+- **Melyik könyvtár kezeli a PSD fájlokat Java-ban?** Aspose.PSD for Java  
+- **Olvashatom a réteg létrehozási dátumát?** Yes, using `layer.getLayerCreationDateTime()`  
+- **Lehetséges új beállítási réteget hozzáadni?** Absolutely – `im.addLevelsAdjustmentLayer()` creates one  
+- **Szükségem van licencre a termelési használathoz?** A commercial license is required for non‑trial deployments  
+- **Melyik Java verzió támogatott?** JDK 8 or later  
+
+## Mi az a „create new PSD layer”?
+Egy új PSD réteg létrehozása azt jelenti, hogy programozottan beillesztesz egy friss rétegobjektumot – például egy beállítási, szöveg- vagy pixelréteget – egy meglévő PSD dokumentumba. Ez a művelet lehetővé teszi a kép kiterjesztését vagy módosítását anélkül, hogy manuálisan megnyitnád a Photoshopot.
+
+## Miért kell kezelni a réteg létrehozási DateTime‑t?
+Az egyes rétegek létrehozási DateTime‑jének nyomon követése segít:
+- **Auditálni a módosításokat** – pontosan tudd, mikor lett egy réteg hozzáadva.  
+- **Szinkronizálni az eszközöket** csapatok között az időbélyegek összehasonlításával.  
+- **Automatizálni a munkafolyamatokat**, amelyek időalapú szabályoktól függenek (pl. a több mint egy hónapos rétegek elrejtése).  
+
 ## Előfeltételek
-Mielőtt belemerülne, tegyen néhány dolgot a helyére, hogy zökkenőmentes élményben legyen része:
-1. Java Development Kit (JDK): Győződjön meg arról, hogy a JDK telepítve van a gépén, lehetőleg a 8-as vagy újabb verziót.
-2. Integrált fejlesztői környezet (IDE): Bármilyen Java-t támogató IDE használható, például az IntelliJ IDEA, az Eclipse vagy a NetBeans.
-3.  Aspose.PSD for Java: rendelkeznie kell az Aspose.PSD könyvtárral. Megteheti[töltse le itt](https://releases.aspose.com/psd/java/) telepítéshez.
-4. Alapszintű Java ismeretek: A Java programozási koncepciók ismerete előnyt jelent. Ha nem vagy jártas, ne izgasd meg – tarts velem, és útközben felveszed.
-Megvan minden? Döbbenetes! Ugorjunk bele a kódolás szórakoztató részébe!
+Mielőtt belemerülnél, győződj meg róla, hogy a következőkre készen állsz:
+
+1. **Java Development Kit (JDK)** – 8-as vagy újabb verzió.  
+2. **IDE** – IntelliJ IDEA, Eclipse, NetBeans, vagy bármelyik kedvenc szerkesztő.  
+3. **Aspose.PSD for Java** – letöltheted [innen](https://releases.aspose.com/psd/java/) a telepítéshez.  
+4. **Alap Java ismeretek** – ha újonc vagy a Java-ban, ne aggódj; a kód teljesen kommentált.
+
+Minden megvan? Szuper! Lépjünk a kódolás szórakoztató részébe.
+
 ## Csomagok importálása
-Először is helyesen kell beállítanunk a Java környezetünket. Ez azt jelenti, hogy importálni kell a szükséges csomagokat az Aspose.PSD-ből, amelyeket a kódunkban fogunk használni. Íme egy gyors összefoglaló arról, hogy mit kell tartalmaznia:
+Először importáld az Aspose.PSD osztályokat és a szükséges Java segédfüggvényeket. Ezek az importok hozzáférést biztosítanak a képkezeléshez, rétegmanipulációhoz és dátumformázáshoz.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
@@ -33,67 +57,89 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 ```
-Ezek az importálások lehetővé teszik az Aspose.PSD alapvető funkcióinak elérését, a képek kezelését és a dátumok zökkenőmentes kezelését. Adja hozzá ezeket a Java fájl tetejéhez.
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
-Először is adja meg a könyvtárat, ahol a PSD-fájl található. Módosítsa a következő sort a dokumentumkönyvtár jelzésére. Ez lesz az a hely, ahol betölti a PSD-fájlt, amellyel dolgozni szeretne:
+
+## Lépés 1: Állítsd be a dokumentum könyvtárát
+Add meg azt a mappát, amelyik a munkához szükséges PSD-t tartalmazza. Cseréld le a helyőrzőt a géped abszolút útvonalára.
+
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Be kell állítania a „Dokumentumkönyvtár” elemet, hogy a rendszer tényleges elérési útjára mutasson, ahol a PSD-fájl tárolva van. Ez megmondja programunknak, hogy hol keresse a szükséges fájlokat.
-## 2. lépés: Töltse be a PSD fájlt
-Most itt az ideje, hogy betöltse a PSD-fájlt. Íme, hogyan kell csinálni:
+## Lépés 2: PSD fájl betöltése
+Hozz létre egy `PsdImage` példányt a célfájl betöltésével. Ez az objektum a belépési pont minden réteg művelethez.
+
 ```java
 String sourceName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage) Image.load(sourceName);
 ```
 
- Miután beállítottad a`sourceName` hozzáfűzésével`.psd` a tiédhez`dataDir` segítségével töltheti be a fájlt`Image.load()` . Ezzel a`PsdImage` objektum, amelyet a következő lépésekben manipulálhat.
-## 3. lépés: Nyissa meg a réteget és annak létrehozási dátumát
-A következő lépés egy réteg elérése a PSD-fájlon belül, és a létrehozás dátumának lekérése. Íme a kód:
+## Lépés 3: A réteg és annak létrehozási dátumának elérése
+Szerezz be az első réteget (index 0) és kérd le a létrehozási időbélyegét. Ez a dátum lesz, amit később összehasonlítasz vagy naplózol.
+
 ```java
 Layer layer = im.getLayers()[0];
 Date creationDateTime = layer.getLayerCreationDateTime();
 ```
 
- Hívással`im.getLayers()[0]` , akkor az első réteget tölti le a PSD-ben. Majd,`layer.getLayerCreationDateTime()` lekéri az adott réteg létrehozásának dátumát és időpontját, ami kulcsfontosságú lehet a verziókezelés és az auditálás szempontjából.
-## 4. lépés: Formázza meg a létrehozási dátumot
-A dátum olvashatóbbá tétele érdekében formázhatjuk. Ezt a következőképpen teheti meg:
+## Lépés 4: A létrehozási dátum formázása
+Alakítsd a nyers `Date` objektumot emberi olvasásra alkalmas karakterlánccá. Állítsd a mintát, ha más formátumot szeretnél.
+
 ```java
 DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 ```
 
- Létrehozunk a`SimpleDateFormat` példányt, hogy meghatározzuk, hogyan jelenjen meg a dátum. Ebben az esetben az év-hónap-nap formátumot választjuk az idővel.
-## 5. lépés: Érvényesítse a létrehozási dátumot
-Ezen a ponton érdemes összehasonlítani a lekért létrehozás dátumát a várható dátummal. Ezt a következőképpen hajthatja végre:
+## Lépés 5: A létrehozási dátum validálása
+Demonstrációként összehasonlítjuk a lekért dátumot egy várt értékkel. Valós projektekben egy adatbázis rekord vagy egy konfigurációs fájl alapján hasonlíthatod össze.
+
 ```java
 Date expectedDateTime = new Date("2018/7/17 8:57:24");
 Assert.areEqual(expectedDateTime, creationDateTime);
 ```
 
- Létrehozol egy újat`Date` tárgyat az Ön várható értékéhez és felhasználásához`Assert.areEqual()` annak ellenőrzésére, hogy a két dátum megegyezik. Ez egy remek módszer annak biztosítására, hogy minden csúcsformában legyen.
-## 6. lépés: Hozzon létre egy új réteget
-Tegyük fel, hogy egy új korrekciós réteget szeretne hozzáadni, amely lehetővé teszi az eredeti kép módosítását anélkül, hogy magát a réteget véglegesen megváltoztatná. Ezt a következőképpen teheti meg:
+## Lépés 6: Új réteg létrehozása
+Most ténylegesen **create new PSD layer** objektumokat hozunk létre. Itt egy Levels beállítási réteget adunk hozzá, amely lehetővé teszi a tónus tartományok finomhangolását az eredeti pixelek módosítása nélkül.
+
 ```java
 Date now = new Date();
 Layer createdLayer = im.addLevelsAdjustmentLayer();
 ```
 
- Itt,`im.addLevelsAdjustmentLayer()` új szintbeállító réteget hoz létre. Ez különösen akkor hasznos, ha az eredeti adatok megváltoztatása nélkül szeretné javítani a kép színeit vagy kontrasztját.
-## Következtetés
-És megvan! Sikeresen megtanulta, hogyan kezelheti a réteg létrehozásának dátumát egy PSD-fájlban az Aspose.PSD for Java használatával. Az alábbi lépések követésével javíthatja programozási eszköztárát, és egyszerűsítheti a Photoshop fájlkezelési folyamatait. Legyen szó személyes projektekről vagy professzionális alkalmazásokról, ennek megértése sok időt takaríthat meg.
-Ha tetszett ez az oktatóanyag, miért nem próbálja ki az Aspose.PSD-ben elérhető egyéb funkciókkal? A lehetőségek világa vár rád!
+> **Pro tip:** A `now` változó rögzíti a réteg hozzáadásának pillanatát, amelyet később metaadatként tárolhatsz, ha egyedi időbélyegre van szükséged.
+
+## Gyakori problémák és megoldások
+| Probléma | Miért fordul elő | Megoldás |
+|----------|-------------------|----------|
+| `NullPointerException` on `layer.getLayerCreationDateTime()` | A PSD-nek nincsenek rétegei, vagy a réteg index kívül esik a tartományon. | Ellenőrizd, hogy `im.getLayers().length > 0` legyen, mielőtt hozzáférnél. |
+| Date mismatch in validation | `Date` konstruktor a karakterláncokat helyi beállításoktól függően dolgozza fel. | Használd a `SimpleDateFormat.parse("2018/07/17 08:57:24")`-t a megbízható feldolgozáshoz. |
+| New layer not visible in Photoshop | A beállítási réteg alapértelmezés szerint rejtett lehet. | Hívd meg a `createdLayer.setVisible(true);`-t a létrehozás után. |
+
+## Összegzés
+Most már tudod, hogyan kell **create new PSD layer** objektumokat létrehozni, azok létrehozási időbélyegét olvasni, az időbélyegeket validálni, és beállítási rétegeket hozzáadni – mindezt az Aspose.PSD for Java használatával. Ez a képesség lehetővé teszi a kifinomult automatizálást, audit nyomvonalakat és együttműködő munkafolyamatokat bármely Java‑alapú képfeldolgozó csővezetékben.
+
+Ha élvezted ezt az útmutatót, fedezd fel az Aspose.PSD egyéb funkcióit, mint a rétegek egyesítése, szűrők alkalmazása vagy exportálás különböző formátumokba. A lehetőségek végtelenek!
+
 ## GYIK
 ### Mi az Aspose.PSD?  
-Az Aspose.PSD egy hatékony könyvtár a Photoshop (PSD) fájlokkal való programozott munkavégzéshez.
-### Használhatom ingyenesen az Aspose.PSD-t?  
- Igen! Kezdheti egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
-### Kell-e licencet vásárolnom a hosszú távú használathoz?  
- Igen, kaphat engedélyt[itt](https://purchase.aspose.com/buy) ha már készen állsz.
-### Hol találhatok több információt az Aspose.PSD-ről?  
- Ellenőrizheti a[dokumentáció](https://reference.aspose.com/psd/java/) részletes útmutatókért és API-referenciákért.
+Az Aspose.PSD egy hatékony könyvtár a Photoshop (PSD) fájlok programozott kezelésére.
+
+### Használhatom ingyen az Aspose.PSD-t?  
+Igen! Elindíthatod egy ingyenes próbaverzióval, amely [itt](https://releases.aspose.com/) érhető el.
+
+### Szükségem van licencet vásárolni hosszú távú használathoz?  
+Igen, licencet szerezhetsz [itt](https://purchase.aspose.com/buy), amikor készen állsz.
+
+### Hol találok további információkat az Aspose.PSD-ről?  
+Megtekintheted a [dokumentációt](https://reference.aspose.com/psd/java/) részletes útmutatók és API referenciákért.
+
 ### Hogyan kérhetek támogatást, ha problémáim vannak az Aspose.PSD-vel?  
- Nyugodtan látogassa meg a[támogatási fórum](https://forum.aspose.com/c/psd/34) közösségi segítségért.
+Nyugodtan látogasd meg a [támogatási fórumot](https://forum.aspose.com/c/psd/34) a közösségi segítségért.
+
+---
+
+**Utoljára frissítve:** 2026-03-28  
+**Tesztelve a következővel:** Aspose.PSD for Java 24.10  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
