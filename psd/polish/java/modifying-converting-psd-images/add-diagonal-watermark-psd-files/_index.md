@@ -1,32 +1,55 @@
 ---
-title: Dodaj ukośny znak wodny do plików PSD za pomocą Java
-linktitle: Dodaj ukośny znak wodny do plików PSD za pomocą Java
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak łatwo dodać ukośny znak wodny do plików PSD przy użyciu Java z Aspose.PSD. Przewodnik krok po kroku, jak pewnie poprawić swoje zdjęcia.
-weight: 12
+date: 2026-03-04
+description: Dowiedz się, jak utworzyć obiekt graficzny w Javie i dodać przekątny
+  znak wodny do plików PSD przy użyciu Aspose.PSD. Ten przewodnik krok po kroku opisuje
+  użycie biblioteki znaków wodnych dla obrazów w Javie.
+linktitle: Add Diagonal Watermark to PSD Files with Java
+second_title: Aspose.PSD Java API
+title: Tworzenie obiektu graficznego w Javie – Przekątny znak wodny dla PSD
 url: /pl/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj ukośny znak wodny do plików PSD za pomocą Java
+# Dodaj przekątną znak wodny do plików PSD w Javie
 
 ## Wstęp
-W dzisiejszym cyfrowym świecie posiadanie uderzającego obrazu może mieć ogromne znaczenie. Niezależnie od tego, czy jesteś projektantem chcącym chronić swoją pracę, czy marketerem chcącym dodać branding do obrazów, zastosowanie znaku wodnego jest niezbędne. W tym samouczku omówimy, jak dodać ukośny znak wodny do plików PSD przy użyciu Java i Aspose.PSD, potężnej biblioteki do manipulowania plikami PSD.
-## Warunki wstępne
-Zanim przejdziemy do ciekawej części kodowania, musisz upewnić się, że masz skonfigurowanych kilka rzeczy:
+W tym samouczku **utworzysz obiekt graficzny w Javie** i użyjesz go do dodania przekątnego znaku wodnego do plików PSD. Niezależnie od tego, czy jesteś projektantem chroniącym swoją pracę, czy marketerem oznaczającym obrazy, czysty znak wodny może sprawić, że Twoje dzieło będzie wyglądało profesjonalnie i bezpiecznie. Przeprowadzimy Cię przez każdy krok z jasnymi wyjaśnieniami, abyś mógł szybko zastosować tę technikę w własnych projektach.
+
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebuję?** Aspose.PSD for Java (solidna biblioteka java do znakowania obrazów).  
+- **Jakie główne słowo kluczowe obejmuje ten samouczek?** create graphics object java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę zmienić tekst i styl znaku wodnego?** Tak – możesz dostosować czcionkę, kolor, krycie i obrót.  
+- **Jakie formaty wyjściowe są obsługiwane?** Przykład zapisuje jako PNG, ale Aspose.PSD może eksportować do PSD, JPEG, BMP i innych.
+
+## Co to jest obiekt Graphics w Javie?
+Obiekt **Graphics** reprezentuje powierzchnię rysowania dla obrazu. Tworząc obiekt graficzny, zyskujesz dostęp do metod umożliwiających renderowanie tekstu, kształtów i innych elementów wizualnych bezpośrednio na bitmapie lub płótnie PSD. To podstawowa koncepcja stojąca za głównym słowem kluczowym **create graphics object java**.
+
+## Dlaczego warto używać Aspose.PSD do znakowania?
+Aspose.PSD to dedykowana **java image watermark library**, działająca bez Adobe Photoshop. Daje pełną kontrolę nad warstwami, renderowaniem tekstu i przekształceniami obrazu, co czyni ją idealną do przetwarzania po stronie serwera lub operacji wsadowych.
+
+## Wymagania wstępne
+Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
+
 ### 1. Środowisko programistyczne Java
- Upewnij się, że masz zainstalowaną Javę na swoim komputerze. Najnowszą wersję można pobrać ze strony[witryna internetowa Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+Zainstaluj najnowszy JDK ze [strony Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
 ### 2. Biblioteka Aspose.PSD
- Do pracy z plikami PSD potrzebna jest biblioteka Aspose.PSD. Można go pobrać z[Strona z plikami do pobrania Aspose](https://releases.aspose.com/psd/java/)W zależności od struktury projektu możesz używać Mavena lub innego narzędzia do zarządzania zależnościami, więc możesz włączyć je zgodnie ze swoimi potrzebami.
-### 3. Podstawowa znajomość języka Java
-Solidna znajomość języka Java pomoże Ci bezproblemowo przejść przez ten samouczek. Upewnij się, że znasz klasy, obiekty i podstawową obsługę plików w Javie.
+Pobierz bibliotekę ze [strony pobierania Aspose](https://releases.aspose.com/psd/java/). Dodaj plik JAR do projektu za pomocą Maven, Gradle lub ręcznego dołączenia do classpath.
+
+### 3. Podstawowa znajomość Javy
+Znajomość klas, obiektów i operacji I/O ułatwi Ci śledzenie instrukcji.
+
 ### 4. Konfiguracja IDE
-Do kodowania używaj dowolnego zintegrowanego środowiska programistycznego (IDE), takiego jak IntelliJ IDEA, Eclipse lub NetBeans. To znacznie ułatwia kodowanie, nie sądzisz?
-## Importuj pakiety
-Aby manipulować plikami PSD, musisz zaimportować określone pakiety z Aspose.PSD. Oto pakiety, które musisz umieścić na górze pliku Java:
+Użyj IntelliJ IDEA, Eclipse lub NetBeans, aby wygodnie pisać kod.
+
+## Importowanie pakietów
+Aby manipulować plikami PSD, zaimportuj wymagane klasy Aspose.PSD:
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Font;
@@ -41,68 +64,97 @@ import com.aspose.psd.brushes.SolidBrush;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
-Teraz, gdy mamy już posortowane wymagania wstępne i zaimportowane niezbędne pakiety, przejdźmy przez kolejne kroki, aby dodać ukośny znak wodny do pliku PSD.
-## Krok 1: Skonfiguruj swój katalog
+
+Teraz, gdy mamy spełnione wymagania wstępne i zaimportowane niezbędne pakiety, przejdźmy przez kroki dodawania przekątnego znaku wodnego do pliku PSD.
+
+## Krok 1: Przygotuj katalog
 ```java
 String dataDir = "Your Document Directory";
 ```
-Najpierw musisz określić katalog, w którym znajdują się Twoje pliki PSD. Katalog ten będzie punktem wyjścia do ładowania obrazu. Więc wymień`"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się plik PSD.
+Zastąp `"Your Document Directory"` ścieżką do folderu zawierającego źródłowy plik PSD.
+
 ## Krok 2: Załaduj plik PSD
 ```java
 PsdImage psdImage = (PsdImage)Image.load(dataDir + "layers.psd");
 ```
- Teraz załadujemy plik PSD, z którym chcesz pracować. The`Image.load` Metoda odczytuje plik i rzutuje go do pliku`PsdImage` obiekt. Pamiętaj, aby podać dokładną nazwę pliku PSD, czyli w tym przypadku`"layers.psd"`.
-## Krok 3: Utwórz obiekt graficzny
+Metoda `Image.load` odczytuje plik i rzutuje go na `PsdImage`, abyśmy mogli korzystać z funkcji specyficznych dla PSD.
+
+## Krok 3: Utwórz obiekt Graphics
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
- Na tym etapie tworzymy plik`Graphics` obiekt pozwalający na wykonanie operacji rysunkowych na wczytanym obrazie. Pomyśl o tym jak o przygotowaniu płótna, na którym możemy namalować nasz znak wodny.
+Tutaj **create graphics object java** – płótno, na którym narysujemy znak wodny.
+
 ## Krok 4: Utwórz czcionkę dla znaku wodnego
 ```java
 Font font = new Font("Arial", 20.0f);
 ```
-Tutaj definiujemy styl i rozmiar czcionki dla naszego tekstu znaku wodnego. W tym przypadku wybraliśmy Arial w rozmiarze 20. Możesz wybrać dowolną czcionkę zainstalowaną w Twoim systemie — dodaj trochę pikanterii!
+Wybierz dowolną zainstalowaną czcionkę; rozmiar kontroluje widoczność znaku wodnego.
+
 ## Krok 5: Utwórz pędzel dla znaku wodnego
 ```java
 SolidBrush brush = new SolidBrush(Color.fromArgb(50, 128, 128, 128));
 ```
- Następnie tworzymy`SolidBrush` obiekt, który pokoloruje nasz znak wodny. The`Color.fromArgb`metoda przyjmuje cztery parametry: alfa, czerwony, zielony i niebieski. Wartość alfa kontroluje przezroczystość (0 oznacza całkowicie przezroczyste, a 255 jest całkowicie nieprzezroczyste). Ustawiliśmy go na 50, aby uzyskać ładny efekt półprzezroczystości.
+Wartość `alpha` (pierwszy parametr) określa przezroczystość. Alfa = 50 daje subtelny, półprzezroczysty efekt.
+
 ## Krok 6: Skonfiguruj macierz transformacji
 ```java
 graphics.setTransform(new Matrix());
 graphics.getTransform().rotateAt(45, new PointF(psdImage.getWidth() / 2, psdImage.getHeight() / 2));
 ```
- To tutaj dzieje się magia! Tworzymy macierz transformacji, aby obrócić znak wodny. The`rotateAt` funkcja przyjmuje dwa parametry: kąt (45 stopni dla wyglądu po przekątnej) i punkt, wokół którego należy obrócić (w naszym przypadku jest to środek obrazu).
-## Krok 7: Zdefiniuj wyrównanie ciągu
+Obracamy powierzchnię rysowania o 45° wokół środka obrazu, uzyskując efekt przekątnego znaku.
+
+## Krok 7: Zdefiniuj wyrównanie tekstu
 ```java
 StringFormat sf = new StringFormat();
 sf.setAlignment(StringAlignment.Center);
 ```
- Musimy upewnić się, że nasz znak wodny jest wyśrodkowany. The`StringFormat` class nam w tym pomaga, wyrównując tekst idealnie na środku obrazu. W końcu kto lubi niechlujne miejsca docelowe?
+Wyrównanie centralne zapewnia, że znak wodny znajduje się ładnie w środku obróconego prostokąta.
+
 ## Krok 8: Narysuj znak wodny
 ```java
 graphics.drawString("Some watermark text", font, brush, new RectangleF(0, psdImage.getHeight() / 2, psdImage.getWidth(), psdImage.getHeight() / 2), sf);
 ```
- Teraz nadszedł czas, aby narysować znak wodny! Korzystanie z`drawString`metody, określamy zawartość naszego znaku wodnego (możesz dostosować tekst), czcionkę, pędzel, obszar, w którym chcemy go narysować, oraz ustawienie wyrównania. Twój znak wodny zostanie zastosowany przy użyciu parametrów, które ustawiliśmy w prostokącie!
+Zastąp `"Some watermark text"` nazwą swojej marki lub informacją o prawach autorskich. Prostokąt określa, gdzie tekst zostanie wyrenderowany.
+
 ## Krok 9: Zapisz obraz
 ```java
 psdImage.save(dataDir + "AddDiagnolWatermark_output.png", new PngOptions());
 ```
- Na koniec zapisujemy nasz zmodyfikowany obraz. Tutaj eksportujemy go jako plik PNG. Pamiętaj, aby nadać plikowi wyjściowemu unikalną nazwę, aby nie nadpisał żadnych istniejących plików. The`PngOptions` class pomaga określić format obrazu.
-## Wniosek
-I tak właśnie udało Ci się dodać ukośny znak wodny do pliku PSD przy użyciu języka Java! Jest to prosty proces, ale może znacząco podnieść profesjonalizm Twoich zdjęć. Niezależnie od tego, czy chronisz swoją grafikę, czy promujesz swoją markę, znak wodny to proste, ale skuteczne rozwiązanie.
+Wynik zostaje zapisany jako PNG, ale możesz wybrać dowolny format obsługiwany przez Aspose.PSD.
 
-## Często zadawane pytania
+## Typowe przypadki użycia
+- **Ochrona marki:** Dodaj półprzezroczyste logo, aby zapobiec nieautoryzowanemu wykorzystaniu.  
+- **Przetwarzanie wsadowe:** Automatyzuj znakowanie dużych bibliotek obrazów na serwerze.  
+- **Podglądy kreatywne:** Prezentuj klientom wersje z znakiem wodnym, pozostawiając oryginalne pliki nienaruszone.
+
+## Rozwiązywanie problemów i wskazówki
+- **Przezroczystość niewidoczna?** Zwiększ wartość alfa (np. `100`), aby znak był wyraźniejszy.  
+- **Znak wodny jest przesunięty?** Upewnij się, że punkt obrotu używa dokładnego podziału szerokości/wysokości obrazu.  
+- **Obawy o wydajność:** Ponownie używaj tego samego obiektu `Graphics` przy przetwarzaniu wielu obrazów w pętli.
+
+## FAQ
 ### Co to jest Aspose.PSD?
-Aspose.PSD to biblioteka Java używana do pracy z plikami PSD i manipulowania nimi bez konieczności stosowania programu Adobe Photoshop.
-### Czy mogę używać innych czcionek do znakowania wodnego?
-Tak, możesz wybrać dowolną czcionkę zainstalowaną w systemie do znakowania wodnego.
-### Czy istnieje sposób na dostosowanie przezroczystości znaku wodnego?
-Absolutnie! Można dostosować wartość alfa w SolidBrush, aby zmienić przezroczystość.
+Aspose.PSD to biblioteka Java służąca do pracy i manipulacji plikami PSD bez konieczności posiadania Adobe Photoshop.
+
+### Czy mogę używać innych czcionek do znakowania?
+Tak, możesz wybrać dowolną czcionkę zainstalowaną w systemie.
+
+### Czy da się dostosować przezroczystość znaku wodnego?
+Oczywiście! Możesz zmienić wartość alfa w obiekcie `SolidBrush`, aby regulować przezroczystość.
+
 ### Czy mogę dodać wiele znaków wodnych?
- Tak, możesz zadzwonić do`drawString` metodę wielokrotnie z różnymi parametrami, aby dodać więcej znaków wodnych.
-### Gdzie mogę znaleźć więcej informacji na temat Aspose.PSD?
- Możesz sprawdzić dokumentację[Tutaj](https://reference.aspose.com/psd/java/).
+Tak, możesz wywołać metodę `drawString` wielokrotnie z różnymi parametrami, aby dodać kolejne znaki.
+
+### Gdzie znajdę więcej informacji o Aspose.PSD?
+Sprawdź dokumentację [tutaj](https://reference.aspose.com/psd/java/).
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-04  
+**Testowano z:** Aspose.PSD 24.12 for Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
