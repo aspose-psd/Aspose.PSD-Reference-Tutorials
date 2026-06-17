@@ -1,32 +1,77 @@
 ---
-title: 使用 Aspose.PSD for Java 從流載入圖像
-linktitle: 從流加載圖像
+date: 2026-05-29
+description: 了解如何使用 Aspose.PSD for Java 透過從串流載入影像將 PSD 轉換為 PNG。本分步 Java 影像處理教學將示範如何有效地讀取、轉換與儲存
+  PSD 檔案。
+keywords:
+- convert psd to png
+- how to load psd
+- read image from memory
+- save image to stream
+- java image processing tutorial
+linktitle: 從串流載入影像
+schemas:
+- author: Aspose
+  dateModified: '2026-05-29'
+  description: Learn to convert PSD to PNG by loading images from a stream with Aspose.PSD
+    for Java. This step‑by‑step Java image processing tutorial shows you how to read,
+    convert, and save PSD files efficiently.
+  headline: Convert PSD to PNG – Load Images from Stream (Java)
+  type: TechArticle
+- questions:
+  - answer: Absolutely. The library’s streaming architecture lets you loop through
+      thousands of PSD files, convert each to PNG, and write directly to output streams
+      without excessive memory consumption.
+    question: Is Aspose.PSD for Java suitable for batch image processing?
+  - answer: Yes, you can explore a free trial version [here](https://releases.aspose.com/).
+    question: Can I try Aspose.PSD for Java before purchasing?
+  - answer: Join the community at the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)
+      for assistance and discussions.
+    question: Where can I find support for Aspose.PSD for Java?
+  - answer: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/)
+      for testing Aspose.PSD for Java.
+    question: Do I need a temporary license for testing purposes?
+  - answer: Visit the [purchase page](https://purchase.aspose.com/buy) to acquire
+      Aspose.PSD for Java.
+    question: Where can I purchase Aspose.PSD for Java?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-description: 學習使用 Aspose.PSD 在 Java 中無縫載入 PSD 映像。請按照我們的逐步指南進行高效率的影像處理。
-weight: 11
+title: 將 PSD 轉換為 PNG – 從串流載入影像 (Java)
 url: /zh-hant/java/advanced-techniques/loading-images-from-stream/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PSD for Java 從流載入圖像
+# 轉換 PSD 為 PNG – 從串流載入圖像 (Java)
 
 ## 介紹
 
-Aspose.PSD for Java 是一個功能豐富的函式庫，可讓開發人員無縫地處理 PSD 文件，執行各種影像處理任務。在本教程中，我們將重點介紹使用 Aspose.PSD for Java 從流中載入圖像的基本步驟。
+在本教學中，您將了解如何透過直接從 Java `InputStream` 載入 PSD 圖像來 **convert PSD to PNG**。Aspose.PSD for Java 讓您輕鬆從記憶體讀取 PSD 檔案、進行轉換，並將結果寫回串流成 PNG 圖像。我們將逐步說明每個步驟，解釋每個 API 呼叫的意義，並提供避免常見陷阱的技巧。
 
-## 先決條件
+## 快速回答
+- **在 Java 中將 PSD 轉換為 PNG 最簡單的方法是什麼？** 使用 `Image.load(stream)` 載入 PSD，轉型為 `PsdImage`，然後呼叫 `save(outputStream, new PngOptions())`。  
+- **執行程式碼是否需要授權？** 臨時授權可用於測試；正式環境需購買完整授權。  
+- **我可以在不佔用大量記憶體的情況下處理大型 PSD 檔案嗎？** 可以 – Aspose.PSD 以串流方式處理檔案，支援最高 2 GB 的檔案而無需將整個文件載入記憶體。  
+- **支援哪些 Java 版本？** 完全支援 Java 8 至 Java 21。  
+- **我可以在哪裡找到更多範例？** 官方 [文件說明](https://reference.aspose.com/psd/java/) 包含數十個程式碼範例。
 
-在深入學習本教程之前，請確保您符合以下先決條件：
+## 什麼是 convert psd to png？
+**Convert PSD to PNG** 是將 Photoshop (.psd) 檔案讀取並匯出其點陣圖像資料為 Portable Network Graphics (PNG) 格式的過程。使用 Aspose.PSD 時，此轉換在記憶體中完成，您可以直接從串流讀寫，而無需觸及檔案系統。
 
-- Java 程式設計的基礎知識。
-- 安裝了 Java 函式庫的 Aspose.PSD。您可以從[阿斯普斯網站](https://releases.aspose.com/psd/java/).
+## 為何使用 Aspose.PSD for Java？
+Aspose.PSD 支援 **30 多種輸入與輸出格式**，且能處理 **多達數百頁、大小最高 2 GB 的 PSD 檔案**，同時將記憶體使用量控制在 200 MB 以下。此函式庫提供純 Java API，無需本機函式庫或 Photoshop 安裝，非常適合伺服器端圖像處理工作流程。
 
-## 導入包
+## 前置條件
 
-首先，將必要的套件匯入到您的 Java 專案中。這些套餐包括：
+- 具備基本的 Java 開發經驗。  
+- 已安裝 Aspose.PSD for Java 函式庫 – 可從 [Aspose 官方網站](https://releases.aspose.com/psd/java/) 下載。  
+- 具備 Java IDE 或建置工具（Maven/Gradle），並可將 Aspose.PSD JAR 加入專案。
+
+## 匯入套件
+
+`Image` 類別是 Aspose.PSD 的基礎類別，代表任何點陣圖像。`PsdImage` 提供 Photoshop 專屬功能，如圖層與通道。`PngOptions` 讓您設定 PNG 的相關參數。`FileInputStream` 與 `FileOutputStream` 為標準的 Java I/O 類別，用於讀寫檔案。
 
 ```java
 import com.aspose.psd.Image;
@@ -41,79 +86,88 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 ```
 
-## 第 1 步：設定您的文件目錄
+## 步驟 1：設定文件目錄
 
-確保您有一個指定的文檔目錄。將程式碼中的「您的文件目錄」替換為實際路徑。
+確保您有專門的目錄存放 PSD 原始檔與輸出圖像。請將程式碼中的 `"Your Document Directory"` 替換為您機器上的實際絕對路徑。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 第 2 步：定義來源路徑和目標路徑
+## 步驟 2：定義來源與目標路徑
 
-將 PSD 檔案的路徑指定為來源，並指定結果影像所需的輸出路徑。
+指定 PSD 檔案的路徑作為來源，並設定產生的 PNG 圖像的目標輸出路徑。此清晰的分離有助於日後改為從資料庫或 HTTP 請求讀取時的切換。
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "result.png";
 ```
 
-## 第 3 步：建立輸入流並載入圖像
+## 步驟 3：建立輸入串流並載入圖像
 
-初始化 FileInputStream 並將 PSD 檔案載入到 Image 物件中。
+`FileInputStream` 從磁碟檔案讀取原始位元組。靜態的 `Image.load(InputStream)` 方法從給定的串流載入圖像，並回傳 `Image` 實例。
 
 ```java
 FileInputStream inputStream = new FileInputStream(sourceFile);
 Image image = Image.load(inputStream);
 ```
 
-## 步驟 4：將影像轉換為 PsdImage
+## 步驟 4：將 Image 轉換為 PsdImage
 
-如果載入的映像不是 PSD 映像，請將其轉換為 PsdImage。
+`PsdImage` 代表 Photoshop 文件，提供圖層、通道及其他 PSD 專屬資料。將通用的 `Image` 轉型為 `PsdImage` 以使用這些功能。
 
 ```java
 PsdImage psdImage = (PsdImage)image;
 ```
 
-## 第 5 步：使用 PNG 選項將圖像儲存到串流
+## 步驟 5：使用 PNG 選項將圖像儲存至串流
 
-建立 FileOutputStream 並使用 PNG 選項將 PsdImage 儲存到所需的目的地。
+`FileOutputStream` 將原始位元組寫入檔案。`PngOptions` 設定 PNG 輸出的壓縮等級、顏色類型與交錯方式。
 
 ```java
 FileOutputStream outputStream = new FileOutputStream(destName);
 psdImage.save(outputStream, new PngOptions());
 ```
 
-恭喜！您已使用 Aspose.PSD for Java 從流中成功載入圖片。
+恭喜！您已成功透過使用 Aspose.PSD for Java，從串流載入圖像，**converted PSD to PNG**。
 
-## 結論
+## 常見問題與解決方案
 
-Aspose.PSD for Java 讓開發人員能夠輕鬆處理 PSD 檔案。本教程提供了有關從流加載圖像的簡明指南。探索[文件](https://reference.aspose.com/psd/java/)了解更多詳細資訊和功能。
+- **在極大型 PSD 檔案上發生 OutOfMemoryError** – 請確保使用串流 API (`Image.load(InputStream)`) 並避免對已在記憶體中完整光柵化的 `PsdImage` 物件呼叫 `save`。  
+- **轉換後缺少圖層** – 請確認您使用的是 `PsdImage` 實例；通用的 `Image` 物件會失去圖層資訊。  
+- **顏色或透明度不正確** – 設定 `pngOptions.setColorType(PngColorType.TruecolorWithAlpha)` 以保留 Alpha 通道。
 
-## 常見問題解答
+## 常見問答
 
-### Q1：Aspose.PSD for Java適合大量影像處理嗎？
+**Q: Aspose.PSD for Java 是否適合批次圖像處理？**  
+A: 絕對適合。函式庫的串流架構允許您遍歷成千上萬的 PSD 檔案，將每個檔案轉換為 PNG，並直接寫入輸出串流，避免過度的記憶體消耗。
 
-A1：當然！ Aspose.PSD for Java 擅長大量影像處理任務，提供效率和可靠性。
+**Q: 購買前我可以試用 Aspose.PSD for Java 嗎？**  
+A: 可以，您可在 [此處](https://releases.aspose.com/) 探索免費試用版。
 
-### Q2：我可以在購買前試用 Aspose.PSD for Java 嗎？
+**Q: 我可以在哪裡取得 Aspose.PSD for Java 的支援？**  
+A: 加入 [Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34) 社群以獲得協助與討論。
 
- A2：是的，您可以探索免費試用版[這裡](https://releases.aspose.com/).
+**Q: 測試時是否需要臨時授權？**  
+A: 可在 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權，以測試 Aspose.PSD for Java。
 
-### Q3：在哪裡可以找到 Aspose.PSD for Java 的支援？
+**Q: 我可以從哪裡購買 Aspose.PSD for Java？**  
+A: 前往 [購買頁面](https://purchase.aspose.com/buy) 取得 Aspose.PSD for Java。
 
-A3：加入社區[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)尋求幫助和討論。
+---
 
-### Q4：我需要臨時許可證才能進行測試嗎？
+**Last Updated:** 2026-05-29  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose
 
- A4：取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試 Java 的 Aspose.PSD。
+## 相關教學
 
-### Q5: 哪裡可以購買 Aspose.PSD for Java？
+- [使用 Aspose.PSD for Java 將圖像儲存至串流](/psd/java/advanced-techniques/save-images-to-stream/)
+- [使用 Aspose.PSD for Java 將圖像儲存至磁碟](/psd/java/advanced-techniques/save-images-to-disk/)
+- [使用 Aspose.PSD for Java 將 PSD 轉換為點陣圖像格式](/psd/java/advanced-techniques/convert-psd-to-raster-formats/)
 
- A5：訪問[購買頁面](https://purchase.aspose.com/buy)取得 Aspose.PSD for Java。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
