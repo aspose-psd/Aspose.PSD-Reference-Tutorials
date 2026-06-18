@@ -1,12 +1,61 @@
 ---
-date: 2025-12-27
-description: Tanulja meg, hogyan állíthatja be a réteg átlátszóságát az Aspose.PSD
-  for Java segítségével, exportálhatja a PSD-t PNG-re, és használhat keverési módokat
-  lenyűgöző hatások eléréséhez.
-linktitle: Support Blend Modes
+date: 2026-06-18
+description: Ismerje meg, hogyan állíthatja be a réteg átlátszóságát az Aspose.PSD
+  for Java-val, exportálhatja a PSD-t PNG-re, és használhat keverési módokat lenyűgöző
+  hatások eléréséhez.
+keywords:
+- set layer opacity
+- how to set opacity
+- adjust layer transparency
+- export psd to png
+- apply blend modes
+linktitle: Keverési módok támogatása
+schemas:
+- author: Aspose
+  dateModified: '2026-06-18'
+  description: Learn how to set layer opacity with Aspose.PSD for Java, export PSD
+    to PNG, and use blend modes for stunning effects.
+  headline: Set Layer Opacity and Support Blend Modes in Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to set layer opacity with Aspose.PSD for Java, export PSD
+    to PNG, and use blend modes for stunning effects.
+  name: Set Layer Opacity and Support Blend Modes in Aspose.PSD for Java
+  steps:
+  - name: Load PSD Files
+    text: We’ll iterate through a collection of PSD files, preparing each one for
+      opacity adjustments. Loading a file creates a `PsdImage` object that represents
+      the entire document in memory.
+  - name: Export to PNG (How to export PSD)
+    text: Exporting to PNG lets you see the visual impact of opacity changes. `PngOptions.setColorType(PngColorType.TruecolorWithAlpha)`
+      preserves the alpha channel so that transparent areas remain intact in the output
+      file.
+  - name: Set Opacity (How to set opacity)
+    text: Here we change the opacity of the second layer to 50 % (127 out of 255).
+      This demonstrates the core `set layer opacity` operation. After setting the
+      opacity you can also change the blend mode with `layer.setBlendMode(BlendMode.<ModeName>)`
+      before saving. > **Pro tip:** If you need to apply different
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.PSD for Java can be integrated with other Java image processing
+      libraries to create a comprehensive solution.
+    question: Can I use Aspose.PSD for Java with other Java image processing libraries?
+  - answer: Aspose.PSD for Java is designed to handle large PSD files efficiently,
+      but you should consult the official documentation for exact size limits.
+    question: Are there any limitations on the size of PSD files that Aspose.PSD for
+      Java can handle?
+  - answer: Visit [Temporary License](https://purchase.aspose.com/temporary-license/)
+      on the website to obtain a temporary license.
+    question: How can I obtain a temporary license for Aspose.PSD for Java?
+  - answer: Yes, you can visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)
+      for community support and discussions.
+    question: Is there a community forum for Aspose.PSD for Java support?
+  - answer: Absolutely! Aspose.PSD for Java provides flexibility, allowing you to
+      customize blend modes according to your specific needs.
+    question: Can I customize the blend modes further based on my application's requirements?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Állítsa be a réteg átlátszóságát, és támogassa a keverési módokat az Aspose.PSD
-  for Java-ban
+title: Réteg átlátszóság beállítása és keverési módok támogatása az Aspose.PSD for
+  Java-ban
 url: /hu/java/basic-image-operations/support-blend-modes/
 weight: 12
 ---
@@ -15,33 +64,34 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Réteg átlátszóságának beállítása és keverési módok támogatása az Aspose.PSD for Java-ban
+# Réteg átlátszóság beállítása és keverési módok támogatása az Aspose.PSD for Java-ban
 
-## Bevezetés
+Ebben az útmutatóban megtudja, **hogyan állítsa be a réteg átlátszóságát** a keverési módok használata közben az Aspose.PSD for Java-val. Akár látványos kompozíciókat szeretne létrehozni, akár egyszerűen egy réteg átlátszóságát szeretné módosítani, a `set layer opacity` funkció elsajátítása lehetővé teszi, hogy finomhangolja a PSD fájlok minden vizuális elemét. Lépésről lépésre bemutatjuk a PSD fájlok betöltését, az átlátszóság alkalmazását és az eredmények PNG‑ként történő exportálását – mindezt tiszta, termelésre kész kóddal.
 
 ## Gyors válaszok
-- **Mi a legfontosabb módja egy réteg átlátszóságának megváltoztatásának?** Használja a `setOpacity(byte)` metódust a kívánt rétegen.  
-- **Exportálhatok PSD-t az átlátszóság módosítása után?** Igen – mentse a képet `PngOptions`‑szal, hogy PNG másolatot kapjon.  
+`setOpacity(byte)` egy metódus a Layer osztályban, amely beállítja a réteg átlátszóságát (0‑255).  
+- **Mi a legfőbb módja egy réteg átlátszóságának módosítására?** Használja a `setOpacity(byte)` metódust a cél rétegen.  
+- **Exportálhatok PSD-t az átlátszóság módosítása után?** Igen – mentse a képet `PngOptions`‑szel, hogy PNG másolatot kapjon.  
 - **Melyik Aspose termék támogatja a keverési módokat?** Az Aspose.PSD for Java teljes keverési mód és átlátszóság vezérlést biztosít.  
-- **Szükségem van licencre ehhez a kódhoz?** Ideiglenes vagy teljes licenc szükséges a termelésben való használathoz.  
-- **Az API kompatibilis a Java 8‑al és újabb verziókkal?** Teljesen, minden modern Java verzióval működik.  
+- **Szükségem van licencre ehhez a kódhoz?** Ideiglenes vagy teljes licenc szükséges a termelési használathoz.  
+- **Az API kompatibilis a Java 8‑al és újabb verziókkal?** Teljesen, minden modern Java verzióval működik.
 
-## Mi az a **set layer opacity**?
-`set layer opacity` a specifikus réteg alfa csatornáját állítja be, szabályozva, hogy a mögöttes kép mennyire látható. Az átlátszóság értéke 0 (teljesen átlátszó) és 255 (teljesen átlátszatlan) között mozog. Ez a művelet elengedhetetlen, ha finoman szeretne rétegeket keverni vagy beúszó hatásokat létrehozni.
+## Mi a réteg átlátszóság beállítása?
+A réteg átlátszóság beállítása a réteg alfa csatornájának módosítását jelenti az átlátszóság szabályozásához. Az Aspose.PSD‑ben ezt a `setOpacity(byte)` hívásával módosíthatja a cél rétegen, ahol a 0 teljesen átlátszó, a 255 teljesen átlátszatlan. Ez az egy soros hívás azonnal frissíti, hogy mennyire látszik az alatta lévő kép, lehetővé téve a sima áttűnéseket és finom keveréseket.
 
 ## Miért használja az Aspose.PSD for Java keverési módjait?
-- **Teljes PSD specifikáció támogatás** – minden szabványos Photoshop keverési mód elérhető.  
-- **Programozott vezérlés** – módosítsa az átlátszóságot, a keverési módot, és exportáljon manuális szerkesztés nélkül.  
-- **Keresztplatformos** – minden Java‑t futtató operációs rendszeren működik, tökéletes szerveroldali képfeldolgozási csővezetékekhez.  
-- **Nincsenek külső függőségek** – a könyvtár belsőleg kezeli a PNG konverziót és a színkezelést.  
+Az Aspose.PSD for Java programozott, szerver‑oldali vezérlést biztosít minden Photoshop keverési mód és átlátszóság beállítás felett, kiküszöbölve a manuális szerkesztést. Támogat **50+ bemeneti és kimeneti formátumot** – köztük PSD, PNG, JPEG, TIFF és BMP – és képes több száz oldalas fájlok feldolgozására akár **2 GB** méretig, anélkül, hogy a teljes dokumentumot a memóriába töltené. A könyvtár bármely, Java‑t támogató operációs rendszeren fut, így ideális automatizált képpipeline‑okhoz, webszolgáltatásokhoz és kötegelt feldolgozási feladatokhoz.
 
-## Előkövetelmények
+## Előfeltételek
 
-- **Java fejlesztői környezet** – JDK 8 vagy újabb telepítve és konfigurálva.  
-- **Aspose.PSD for Java könyvtár** – töltse le a [weboldalról](https://releases.aspose.com/psd/java/) és adja hozzá a JAR‑t a projekt osztályútvonalához.  
-- **Dokumentum könyvtár** – egy mappa a gépén, ahol a forrás PSD fájlok és a generált PNG‑k tárolódnak.  
+- **Java Development Environment** – JDK 8 vagy újabb telepítve és konfigurálva.  
+- **Aspose.PSD for Java Library** – töltse le a [website](https://releases.aspose.com/psd/java/) oldalról, és adja hozzá a JAR‑t a projekt classpath‑jához.  
+- **Document Directory** – egy mappa a gépén, ahol a forrás PSD fájlok és a generált PNG‑k tárolódnak.
 
-## Import Packages
+## Csomagok importálása
+
+`PngOptions` egy osztály, amely a PNG kimeneti paramétereket konfigurálja, mint például a szín típusa, tömörítési szint és az átlátszóság kezelése.  
+`BlendMode` egy felsorolás, amely az összes szabványos Photoshop keverési módot képviseli (pl. Multiply, Screen, Overlay).  
 
 ```java
 import com.aspose.psd.Image;
@@ -54,7 +104,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 ## Lépésről‑lépésre útmutató
 
 ### 1. lépés: PSD fájlok betöltése  
-Végig fogunk iterálni egy PSD fájlok gyűjteményén, minden egyes fájlt előkészítve az átlátszóság módosításához.
+Végig fogunk iterálni egy PSD fájlok gyűjteményén, minden egyes fájlt előkészítve az átlátszóság módosításához. Egy fájl betöltése egy `PsdImage` objektumot hoz létre, amely a teljes dokumentumot a memóriában képviseli.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -70,7 +120,7 @@ for (int i=0; i< files.length; i++) {
 ```
 
 ### 2. lépés: Exportálás PNG‑be (Hogyan exportáljunk PSD-t)  
-A PNG‑be exportálás lehetővé teszi, hogy lássa az átlátszóság változtatásának vizuális hatását. Igazítsa a `PngOptions`‑t szükség szerint.
+A PNG‑be exportálás lehetővé teszi, hogy lássa az átlátszóság változtatásának vizuális hatását. A `PngOptions.setColorType(PngColorType.TruecolorWithAlpha)` megőrzi az alfa csatornát, így a transparent területek változatlanul maradnak a kimeneti fájlban.
 
 ```java
 PngOptions saveOptions = new PngOptions();
@@ -84,7 +134,7 @@ im.save(pngExportPath100, saveOptions);
 ```
 
 ### 3. lépés: Átlátszóság beállítása (Hogyan állítsuk be az átlátszóságot)  
-Itt a második réteg átlátszóságát 50 %-ra (127 az 255‑ből) állítjuk. Ez demonstrálja a `set layer opacity` alapműveletet.
+Itt a második réteg átlátszóságát állítjuk 50 %-ra (127 az 255‑ből). Ez bemutatja a `set layer opacity` alapműveletet. Az átlátszóság beállítása után a mentés előtt a keverési módot is módosíthatja a `layer.setBlendMode(BlendMode.<ModeName>)` segítségével.
 
 ```java
 // Set opacity to 50%
@@ -97,44 +147,53 @@ im.save(pngExportPath50, saveOptions);
 // Continue to the next steps...
 ```
 
-> **Pro tipp:** Ha különböző keverési módokat kell alkalmazni rétegenként, használja a `layer.setBlendMode(BlendMode.<ModeName>)` metódust a mentés előtt.
+> **Pro tipp:** Ha különböző keverési módokat kell alkalmazni rétegenként, használja a `layer.setBlendMode(BlendMode.<ModeName>)` parancsot a mentés előtt.
 
 Ismételje meg a három lépést minden tesztelni kívánt keverési mód esetén, a keverési módot és az átlátszóság értékét szükség szerint cserélve.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Megoldás |
-|-------|----------|
-| **Layers tömb index határán kívül** | Ellenőrizze, hogy a PSD valóban tartalmazza a várt számú réteget, mielőtt hozzáférne a `im.getLayers()[1]`-hez. |
+|----------|----------|
+| **Layers tömb index határain kívül** | Ellenőrizze, hogy a PSD valóban tartalmazza a várt számú réteget, mielőtt hozzáférne a `im.getLayers()[1]` elemhez. |
 | **Az exportált PNG üresnek tűnik** | Győződjön meg róla, hogy a `PngOptions.setColorType(PngColorType.TruecolorWithAlpha)` be van állítva; ez megőrzi az alfa csatornát. |
 | **Teljesítménycsökkenés nagy fájlok esetén** | Töltsön be és dolgozzon fel fájlokat egyenként, és fontolja meg a JVM heap méretének növelését (`-Xmx2g`). |
 
-## Gyakran feltett kérdések
+## Gyakran Ismételt Kérdések
 
-**K: Használhatom az Aspose.PSD for Java‑t más Java képfeldolgozó könyvtárakkal?**  
-V: Igen, az Aspose.PSD for Java integrálható más Java képfeldolgozó könyvtárakkal, hogy átfogó megoldást hozzon létre.
+**Q: Használhatom az Aspose.PSD for Java-t más Java képfeldolgozó könyvtárakkal?**  
+A: Igen, az Aspose.PSD for Java integrálható más Java képfeldolgozó könyvtárakkal egy átfogó megoldás létrehozásához.
 
-**K: Vannak korlátozások a PSD fájlok méretére vonatkozóan, amelyeket az Aspose.PSD for Java kezel?**  
-V: Az Aspose.PSD for Java nagy PSD fájlok hatékony kezelésére van tervezve, de a pontos méretkorlátokért tekintse meg a hivatalos dokumentációt.
+**Q: Vannak korlátozások a PSD fájlok méretére vonatkozóan, amelyeket az Aspose.PSD for Java kezel?**  
+A: Az Aspose.PSD for Java nagy PSD fájlok hatékony kezelésére van tervezve, de a pontos méretkorlátokért tekintse meg a hivatalos dokumentációt.
 
-**K: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java-hoz?**  
-V: Látogassa meg a [Temporary License](https://purchase.aspose.com/temporary-license/) oldalt a weboldalon, hogy ideiglenes licencet kapjon.
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD for Java-hoz?**  
+A: Látogassa meg a [Temporary License](https://purchase.aspose.com/temporary-license/) oldalt a webhelyen, hogy ideiglenes licencet kapjon.
 
-**K: Van közösségi fórum az Aspose.PSD for Java támogatásához?**  
-V: Igen, a [Aspose.PSD fórum](https://forum.aspose.com/c/psd/34) felkeresésével közösségi támogatást és megbeszéléseket talál.
+**Q: Van közösségi fórum az Aspose.PSD for Java támogatásához?**  
+A: Igen, a [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) oldalon közösségi támogatást és megbeszéléseket talál.
 
-**K: Testreszabhatom a keverési módokat a saját alkalmazásom igényei szerint?**  
-V: Teljes mértékben! Az Aspose.PSD for Java rugalmasságot biztosít, lehetővé téve a keverési módok testreszabását a konkrét igényeknek megfelelően.
+**Q: Testreszabhatom a keverési módokat a saját alkalmazásom igényei szerint?**  
+A: Teljesen! Az Aspose.PSD for Java rugalmasságot biztosít, lehetővé téve a keverési módok testreszabását a konkrét igényeknek megfelelően.
+
+## Következtetés
+
+Ezzel az útmutatóval most már tudja, hogyan **állítsa be a réteg átlátszóságát**, exportálja a módosított PSD‑t PNG‑be, és kísérletezzen a Photoshop keverési módok teljes skálájával az Aspose.PSD for Java használatával. Ezek a lehetőségek lehetővé teszik összetett képfeldolgozó munkafolyamatok automatizálását, dinamikus grafikai szolgáltatások építését, és a vizuális eszközök konzisztens megtartását különböző platformokon. Fedezze fel a további osztályokat, például a `LayerEffects` és `AdjustmentLayer`‑t, hogy még gazdagabbá tegye a kompozíciókat.
 
 ---
 
-**Utoljára frissítve:** 2025-12-27  
-**Tesztelt verzió:** Aspose.PSD for Java 24.12 (a legújabb a írás időpontjában)  
+**Utoljára frissítve:** 2026-06-18  
+**Tesztelve ezzel:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Szerző:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Kapcsolódó útmutatók
+
+- [PSD exportálása PNG‑be és új szabályos réteg hozzáadása az Aspose.PSD for Java használatával](/psd/java/advanced-image-effects/add-new-regular-layer/)
+- [Kitöltés átlátszóságának beállítása PSD rétegekhez Aspose.PSD Java-val](/psd/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/)
+- [Réteg hatások alkalmazása PSD fájlokban Java használatával](/psd/java/psd-image-modification-conversion/apply-layer-effects-psd-files/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

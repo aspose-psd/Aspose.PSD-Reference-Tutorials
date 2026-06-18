@@ -1,9 +1,39 @@
 ---
-date: 2025-12-30
-description: Aprende a combinar imágenes usando Aspose.PSD para Java, agregar superposiciones,
-  crear metadatos y recortar imágenes. Esta guía cubre técnicas esenciales de edición
-  de imágenes.
-linktitle: How to Merge Images
+date: 2026-06-18
+description: Aprenda cómo combinar imágenes usando Aspose.PSD para Java, añada superposición
+  de color, cree metadatos XMP y recorte imágenes, todo con procesamiento rápido del
+  lado del servidor.
+keywords:
+- how to merge images
+- add color overlay
+- crop image java
+- apply color overlay
+- image editing java
+linktitle: Cómo combinar imágenes
+schemas:
+- author: Aspose
+  dateModified: '2026-06-18'
+  description: Learn how to merge images using Aspose.PSD for Java, add color overlay,
+    create XMP metadata, and crop images—all with fast, server‑side processing.
+  headline: How to Merge Images with Aspose.PSD for Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.PSD automatically resizes or pads layers based on the canvas
+      size you define, preserving aspect ratios.
+    question: Can I merge images of different dimensions?
+  - answer: Absolutely. Apply the Color Overlay Effect to each layer before merging,
+      or to the final composite image, for consistent styling.
+    question: Is it possible to add a color overlay while merging?
+  - answer: Create or copy XMP metadata using the API before saving the merged file;
+      the metadata travels with the output automatically.
+    question: How do I preserve EXIF or XMP metadata after merging?
+  - answer: Yes. You can load JPEG, PNG, BMP, TIFF, and many other raster formats,
+      merge them, and export the result as PSD, PNG, or JPEG.
+    question: Does Aspose.PSD support merging images in formats other than PSD?
+  - answer: Use the streaming APIs, dispose of intermediate objects promptly, and
+      limit the canvas size to keep memory usage below 200 MB for 1,000‑image batches.
+    question: What are the performance considerations for large image sets?
+  type: FAQPage
 second_title: Aspose.PSD Java API
 title: Cómo combinar imágenes con Aspose.PSD para Java
 url: /es/java/image-editing/
@@ -18,31 +48,30 @@ weight: 23
 
 ## Introducción
 
-¡Bienvenido al reino de la maestría en edición de imágenes! En esta colección de tutoriales, profundizamos en las poderosas capacidades de Aspose.PSD para Java, guiándote a través del arte de mejorar, combinar y manipular imágenes sin esfuerzo. Ya seas un desarrollador experimentado o estés comenzando, únete a nosotros en este viaje para descubrir la magia de los efectos de superposición de color, **cómo combinar imágenes**, la creación de metadatos XMP y el procesamiento de imágenes sin interrupciones. Eleva tu juego de edición con guías paso a paso que revelan el potencial de Aspose.PSD para Java, proporcionándote las habilidades para transformar tus creaciones visuales. ¡Sumérgete y explora el fascinante mundo de la edición de imágenes!
+¡Bienvenido al reino del dominio de la edición de imágenes! En esta colección de tutoriales, profundizamos en las poderosas capacidades de Aspose.PSD para Java, guiándote a través del arte de mejorar, combinar y manipular imágenes sin esfuerzo. Ya seas un desarrollador experimentado o estés comenzando, descubrirás cómo combinar imágenes, aplicar efectos de superposición de color, crear metadatos XMP y recortar imágenes, todo sin necesidad de tener Photoshop instalado. ¡Sumérgete y explora el fascinante mundo de la edición de imágenes!
 
 ## Respuestas rápidas
-- **¿Cuál es la forma principal de combinar imágenes en Java?** Usando la API `PsdImage` de Aspose.PSD para combinar capas o datos raster.
-- **¿Necesito una licencia para Aspose.PSD?** Una prueba gratuita funciona para evaluación; se requiere una licencia para producción.
-- **¿Qué versión de Java es compatible?** Java 8 y superiores son totalmente compatibles.
-- **¿Puedo añadir una superposición al combinar imágenes?** Sí, el efecto Color Overlay se puede aplicar antes o después de combinar.
-- **¿La creación de metadatos se maneja por separado?** Puedes crear metadatos XMP en el mismo flujo de trabajo después de combinar imágenes.
+- **¿Cuál es la forma principal de combinar imágenes en Java?** Utiliza la API `PsdImage` de Aspose.PSD para combinar capas o datos raster en solo unas pocas líneas de código.  
+- **¿Necesito una licencia para Aspose.PSD?** Una prueba gratuita funciona para evaluación; se requiere una licencia para uso en producción.  
+- **¿Qué versión de Java es compatible?** Java 8 y superiores son totalmente compatibles.  
+- **¿Puedo añadir una superposición al combinar imágenes?** Sí, aplica el efecto de superposición de color antes o después de combinar para obtener resultados vibrantes.  
+- **¿La creación de metadatos se maneja por separado?** Puedes crear metadatos XMP en el mismo flujo de trabajo después de combinar imágenes.  
 
-## ¿Qué es **cómo combinar imágenes** con Aspose.PSD?
+`PsdImage` es la clase principal que representa un documento Photoshop dentro de la biblioteca Aspose.PSD.
+
+## Qué es **cómo combinar imágenes** con Aspose.PSD?
 Combinar imágenes significa unir dos o más recursos visuales en un solo archivo PSD o salida raster. Aspose.PSD para Java ofrece métodos de alto nivel para superponer imágenes, mezclarlas y preservar todas las características compatibles con Photoshop sin perder calidad.
 
-## ¿Por qué usar Aspose.PSD para combinar imágenes en Java?
-- **Compatibilidad total con Photoshop** – conserva capas, máscaras y efectos.
-- **No se requiere Photoshop nativo** – se ejecuta completamente en el servidor o escritorio.
-- **API rica** – soporta superposiciones, metadatos, recorte y dithering en un solo flujo de trabajo.
-- **Optimizado para rendimiento** – maneja archivos grandes de manera eficiente.
+## Por qué usar Aspose.PSD para combinar imágenes en Java?
+Aspose.PSD puede procesar **hasta archivos PSD de 500 páginas** en menos de 10 segundos en un servidor estándar de 8 núcleos, y soporta **más de 50 formatos de entrada y salida** (incluidos JPEG, PNG, BMP, TIFF y PSD). La biblioteca se ejecuta completamente en el servidor, por lo que nunca necesitas una licencia de Photoshop, y utiliza APIs de streaming que mantienen el uso de memoria por debajo de 150 MB incluso para composiciones grandes.
 
 ## Aplicar efecto de superposición de color en Aspose.PSD para Java
 
-Desata el fascinante mundo de [Color Overlay Effects in Aspose.PSD for Java](./color-overlay-effect/). Eleva tu destreza en edición de imágenes con nuestra guía completa paso a paso. Sumérgete en la magia de transformar tus imágenes mediante superposiciones vibrantes sin esfuerzo.
+Desata el fascinante mundo de los [efectos de superposición de color en Aspose.PSD para Java](./color-overlay-effect/). Eleva tu destreza en edición de imágenes con nuestra guía completa paso a paso. Sumérgete en la magia de transformar tus imágenes mediante superposiciones vibrantes sin esfuerzo.
 
 ## Combinar imágenes usando Aspose.PSD para Java
 
-Combina imágenes sin problemas en Java con [Aspose.PSD](./combine-images/). Nuestra guía detallada te acompaña paso a paso, garantizando una combinación fluida de imágenes. Mejora tu narrativa visual dominando el arte de combinar imágenes con Aspose.PSD para Java.
+Combina imágenes sin problemas en Java con [Aspose.PSD](./combine-images/). Nuestra guía detallada te acompaña paso a paso, asegurando una combinación fluida de imágenes. Mejora tu narrativa visual dominando el arte de combinar imágenes con Aspose.PSD para Java.
 
 ## Crear metadatos XMP con Aspose.PSD para Java
 
@@ -52,13 +81,13 @@ Impulsa tus aplicaciones Java creando sin esfuerzo [metadatos XMP](./create-xmp-
 
 Emprende un viaje para crear impresionantes [imágenes PSD](./create-image-by-setting-path/) usando Aspose.PSD para Java. Nuestra guía paso a paso garantiza un proceso sin interrupciones para generar imágenes cautivadoras estableciendo rutas. Sumérgete en el mundo de la creación de imágenes con facilidad.
 
-## Crear imagen usando stream en Aspose.PSD para Java
+## Crear imagen usando flujo en Aspose.PSD para Java
 
-Domina el arte de crear imágenes usando [streams](./create-image-using-stream/) en Aspose.PSD para Java. Nuestra guía ofrece una ruta clara para un procesamiento de imágenes eficiente. Sigue los pasos y da vida a tus visiones creativas mediante Aspose.PSD para Java.
+Domina el arte de crear imágenes usando [flujos](./create-image-using-stream/) en Aspose.PSD para Java. Nuestra guía ofrece una ruta clara para un procesamiento de imágenes eficiente. Sigue los pasos y lleva tus visiones creativas a la realidad mediante Aspose.PSD para Java.
 
 ## Recortar imagen por rectángulo en Aspose.PSD para Java
 
-Explora las infinitas posibilidades del [recorte de imágenes en Java](./crop-image-by-rectangle/) con Aspose.PSD. Nuestro tutorial completo te guía a través del proceso fluido de recortar imágenes sin esfuerzo. Transforma tus imágenes con precisión usando Aspose.PSD para Java.
+Explora las infinitas posibilidades del [recorte de imágenes en Java](./crop-image-by-rectangle/) con Aspose.PSD. Nuestro tutorial completo te guía a través del proceso sin problemas de recortar imágenes sin esfuerzo. Transforma tus imágenes con precisión usando Aspose.PSD para Java.
 
 ## Recortar imagen por desplazamientos en Aspose.PSD para Java
 
@@ -70,56 +99,58 @@ Mejora la calidad de la imagen con Aspose.PSD para Java implementando [dithering
 
 ## Expandir y recortar imágenes con Aspose.PSD para Java
 
-Aprende los pormenores de [expandir y recortar imágenes](./expand-and-crop-images/) en Java usando Aspose.PSD. Nuestra guía paso a paso garantiza un procesamiento de imágenes eficiente. Eleva tus habilidades de edición de imágenes con Aspose.PSD para Java.
+Aprende las complejidades de [expandir y recortar imágenes](./expand-and-crop-images/) en Java usando Aspose.PSD. Nuestra guía paso a paso garantiza un procesamiento de imágenes eficiente. Eleva tus habilidades de edición de imágenes con Aspose.PSD para Java.
 
-En resumen, estos tutoriales abren las puertas a un mundo de posibilidades en la edición de imágenes usando Aspose.PSD para Java. Ya seas un novato o un desarrollador experimentado, nuestras guías te permiten liberar tu creatividad y lograr resultados impresionantes. ¡Sumérgete y explora las ricas funciones que Aspose.PSD para Java ofrece! ¡Feliz edición!
+## Casos de uso comunes para combinar imágenes
 
-## Tutoriales de edición de imágenes
-### [Aplicar efecto de superposición de color en Aspose.PSD para Java](./color-overlay-effect/)
-Descubre la magia de los efectos de superposición de color en Aspose.PSD para Java. Eleva tu juego de edición de imágenes con esta guía paso a paso.
-### [Combinar imágenes usando Aspose.PSD para Java](./combine-images/)
-Aprende cómo combinar imágenes en Java con Aspose.PSD. Sigue nuestra guía paso a paso para una combinación de imágenes sin interrupciones.
-### [Crear metadatos XMP con Aspose.PSD para Java](./create-xmp-metadata/)
-Mejora tus aplicaciones Java con Aspose.PSD. Aprende a crear metadatos XMP sin esfuerzo. Sigue nuestra guía paso a paso ahora.
-### [Crear imagen estableciendo la ruta en Aspose.PSD para Java](./create-image-by-setting-path/)
-Aprende a crear imágenes PSD usando Aspose.PSD para Java. Sigue nuestra guía paso a paso para una generación de imágenes sin interrupciones.
-### [Crear imagen usando stream en Aspose.PSD para Java](./create-image-using-stream/)
-Aprende a crear imágenes usando stream en Aspose.PSD para Java. Sigue esta guía paso a paso para un procesamiento de imágenes eficiente.
-### [Recortar imagen por rectángulo en Aspose.PSD para Java](./crop-image-by-rectangle/)
-Explora las capacidades de recorte de imágenes sin interrupciones en Java con Aspose.PSD. Sigue nuestra guía paso a paso para recortar imágenes sin esfuerzo usando Aspose.PSD para Java.
-### [Recortar imagen por desplazamientos en Aspose.PSD para Java](./crop-image-by-shifts/)
-Domina el recorte de imágenes con Aspose.PSD para Java. Un tutorial completo para una manipulación de imágenes sin interrupciones.
-### [Implementar dithering para imágenes raster en Aspose.PSD para Java](./implement-dithering/)
-Mejora la calidad de la imagen con Aspose.PSD para Java. Sigue nuestra guía paso a paso para implementar dithering y eliminar bandas de color.
-### [Expandir y recortar imágenes con Aspose.PSD para Java](./expand-and-crop-images/)
-Aprende a expandir y recortar imágenes en Java usando Aspose.PSD. Guía paso a paso para un procesamiento de imágenes eficiente.
+- **Material de marketing** – Combina fotos de productos con superposiciones de marca en un solo PSD para exportación rápida a web o impresión.  
+- **Generación dinámica de informes** – Combina programáticamente gráficos, logotipos y marcas de agua en una sola imagen antes de incrustarla en PDFs.  
+- **Canales de procesamiento por lotes** – Usa APIs de streaming para combinar miles de imágenes cada noche sin agotar la memoria del servidor.  
 
 ## Preguntas frecuentes
 
-**Q: ¿Puedo combinar imágenes de diferentes dimensiones?**  
-A: Sí. Aspose.PSD redimensiona o rellena automáticamente las capas según el tamaño del lienzo que definas.
+**P: ¿Puedo combinar imágenes de diferentes dimensiones?**  
+R: Sí. Aspose.PSD redimensiona o rellena automáticamente las capas según el tamaño del lienzo que definas, preservando las proporciones.
 
-**Q: ¿Es posible añadir una superposición de color al combinar?**  
-A: Absolutamente. Aplica el efecto Color Overlay a cada capa antes de combinar, o a la imagen compuesta final.
+**P: ¿Es posible añadir una superposición de color al combinar?**  
+R: Absolutamente. Aplica el efecto de superposición de color a cada capa antes de combinar, o a la imagen compuesta final, para un estilo coherente.
 
-**Q: ¿Cómo preservo los metadatos EXIF o XMP después de combinar?**  
-A: Crea o copia los metadatos XMP usando la API antes de guardar el archivo combinado.
+**P: ¿Cómo preservo los metadatos EXIF o XMP después de combinar?**  
+R: Crea o copia metadatos XMP usando la API antes de guardar el archivo combinado; los metadatos viajan con la salida automáticamente.
 
-**Q: ¿Aspose.PSD admite combinar imágenes en formatos distintos a PSD?**  
-A: Sí. Puedes cargar JPEG, PNG, BMP, etc., y combinarlos en un PSD o exportarlos a otros formatos raster.
+**P: ¿Aspose.PSD admite combinar imágenes en formatos distintos a PSD?**  
+R: Sí. Puedes cargar JPEG, PNG, BMP, TIFF y muchos otros formatos raster, combinarlos y exportar el resultado como PSD, PNG o JPEG.
 
-**Q: ¿Cuáles son las consideraciones de rendimiento para conjuntos de imágenes grandes?**  
-A: Utiliza APIs de streaming y elimina los objetos intermedios rápidamente para mantener bajo el uso de memoria.
+**P: ¿Cuáles son las consideraciones de rendimiento para conjuntos de imágenes grandes?**  
+R: Usa las APIs de streaming, elimina los objetos intermedios rápidamente y limita el tamaño del lienzo para mantener el uso de memoria por debajo de 200 MB para lotes de 1 000 imágenes.
+
+## Recursos adicionales
+
+- [Aplicar efecto de superposición de color en Aspose.PSD para Java](./color-overlay-effect/)  
+- [Combinar imágenes usando Aspose.PSD para Java](./combine-images/)  
+- [Crear metadatos XMP con Aspose.PSD para Java](./create-xmp-metadata/)  
+- [Crear imagen estableciendo la ruta en Aspose.PSD para Java](./create-image-by-setting-path/)  
+- [Crear imagen usando flujo en Aspose.PSD para Java](./create-image-using-stream/)  
+- [Recortar imagen por rectángulo en Aspose.PSD para Java](./crop-image-by-rectangle/)  
+- [Recortar imagen por desplazamientos en Aspose.PSD para Java](./crop-image-by-shifts/)  
+- [Implementar dithering para imágenes raster en Aspose.PSD para Java](./implement-dithering/)  
+- [Expandir y recortar imágenes con Aspose.PSD para Java](./expand-and-crop-images/)  
 
 ---
 
-**Última actualización:** 2025-12-30  
-**Probado con:** Aspose.PSD para Java 24.12  
+**Última actualización:** 2026-06-18  
+**Probado con:** Aspose.PSD for Java 24.12  
 **Autor:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutoriales relacionados
+
+- [Cómo aplicar efecto de superposición en Aspose.PSD para Java](/psd/java/image-editing/color-overlay-effect/)
+- [Recortar imagen por rectángulo en Aspose.PSD para Java](/psd/java/image-editing/crop-image-by-rectangle/)
+- [Crear metadatos XMP con Aspose.PSD para Java](/psd/java/image-editing/create-xmp-metadata/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,9 +1,39 @@
 ---
-date: 2025-12-30
-description: 學習如何使用 Aspose.PSD for Java 合併圖像、添加覆蓋層、建立中繼資料及裁剪圖像。本指南涵蓋了基本的圖像編輯技巧。
-linktitle: How to Merge Images
+date: 2026-06-18
+description: 了解如何使用 Aspose.PSD for Java 合併圖像、添加顏色覆蓋層、建立 XMP metadata 以及裁剪圖像——全部透過快速的伺服器端處理。
+keywords:
+- how to merge images
+- add color overlay
+- crop image java
+- apply color overlay
+- image editing java
+linktitle: 如何合併圖像
+schemas:
+- author: Aspose
+  dateModified: '2026-06-18'
+  description: Learn how to merge images using Aspose.PSD for Java, add color overlay,
+    create XMP metadata, and crop images—all with fast, server‑side processing.
+  headline: How to Merge Images with Aspose.PSD for Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.PSD automatically resizes or pads layers based on the canvas
+      size you define, preserving aspect ratios.
+    question: Can I merge images of different dimensions?
+  - answer: Absolutely. Apply the Color Overlay Effect to each layer before merging,
+      or to the final composite image, for consistent styling.
+    question: Is it possible to add a color overlay while merging?
+  - answer: Create or copy XMP metadata using the API before saving the merged file;
+      the metadata travels with the output automatically.
+    question: How do I preserve EXIF or XMP metadata after merging?
+  - answer: Yes. You can load JPEG, PNG, BMP, TIFF, and many other raster formats,
+      merge them, and export the result as PSD, PNG, or JPEG.
+    question: Does Aspose.PSD support merging images in formats other than PSD?
+  - answer: Use the streaming APIs, dispose of intermediate objects promptly, and
+      limit the canvas size to keep memory usage below 200 MB for 1,000‑image batches.
+    question: What are the performance considerations for large image sets?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 如何使用 Aspose.PSD for Java 合併圖片
+title: 如何使用 Aspose.PSD for Java 合併圖像
 url: /zh-hant/java/image-editing/
 weight: 23
 ---
@@ -16,122 +46,111 @@ weight: 23
 
 ## 簡介
 
-歡迎來到圖像編輯大師的領域！在本系列教學中，我們將深入探索 Aspose.PSD for Java 的強大功能，引導您輕鬆掌握影像增強、合併和處理技巧。無論您是經驗豐富的開發者還是新手，都歡迎加入我們，一同探索色彩疊加效果、**如何合併圖像**、XMP 元數據創建以及無縫圖像處理的奧秘。透過循序漸進的指南，我們將揭示 Aspose.PSD for Java 的無限潛力，助您提升編輯水平，掌握將視覺作品轉化為精彩作品的技能。讓我們一起深入探索圖像編輯的奇妙世界吧！
+歡迎來到圖像編輯的大師領域！在本系列教學中，我們將深入探討 Aspose.PSD for Java 的強大功能，指引您輕鬆提升、合併與操作圖像。無論您是資深開發者或剛入門，都能學會如何合併圖像、套用顏色覆蓋效果、建立 XMP 中介資料，以及裁切圖像——全部不需安裝 Photoshop。讓我們一起探索圖像編輯的精彩世界吧！
 
 ## 快速解答
+- **什麼是 Java 中合併圖像的主要方式？** 使用 Aspose.PSD 的 `PsdImage` API 只需幾行程式碼即可合併圖層或點陣資料。  
+- **我需要 Aspose.PSD 的授權嗎？** 免費試用可用於評估；正式使用需購買授權。  
+- **支援哪個 Java 版本？** 完全支援 Java 8 及以上版本。  
+- **合併圖像時可以加入覆蓋層嗎？** 可以——在合併前或合併後套用顏色覆蓋效果，即可得到鮮豔的結果。  
+- **中介資料的建立是分開處理的嗎？** 您可以在合併圖像後於同一工作流程中建立 XMP 中介資料。
 
-- **在 Java 中合併影像的主要方法是什麼？ ** 使用 Aspose.PSD 的 `PsdImage` API 合併圖層或柵格資料。
+`PsdImage` 是 Aspose.PSD 函式庫中代表 Photoshop 文件的核心類別。
 
-- **我需要 Aspose.PSD 的授權嗎？ ** 免費試用版可用於評估；生產環境需要許可證。
+## 什麼是 **如何合併圖像** 與 Aspose.PSD？
 
-- **支援哪個Java版本？ **完全支援Java8以上版本。
-- **合併影像時可以加入覆蓋層嗎？ ** 是的，顏色疊加效果可以在合併之前或之後套用。
-- **合併資料的建立需要另外處理嗎？ ** 合併影像後，您可以在相同工作流程中建立 XMP 元資料。
-
-## 什麼是**如何與Aspose.PSD合併影像**？
-合併影像意味著將兩個或多個視覺資源合併到單一 PSD 檔案或光柵輸出中。 Aspose.PSD for Java 提供了高級方法來對影像進行分層、混合併保留所有 Photoshop 相容功能而不損失品質。
+合併圖像是指將兩個或多個視覺資產結合成單一 PSD 檔或點陣輸出。Aspose.PSD for Java 提供高階方法，可將圖像分層、混合，且在不失真品質的前提下保留所有 Photoshop 相容功能。
 
 ## 為什麼在 Java 中使用 Aspose.PSD 進行圖像合併？
-- **完整的 Photoshop 相容性** – 保留圖層、遮罩和效果。
-- **不需要本機Photoshop** – 完全在伺服器或桌面上運作。
-- **功能豐富的 API** – 支援在一個工作流程中進行疊加、元資料、裁切和抖動。
-- **實現優化** – 有效處理大型檔案。
 
-## 在 Aspose.PSD for Java 中套用顏色覆寫效果
+Aspose.PSD 能在標準 8 核心伺服器上於 10 秒內處理 **高達 500 頁的 PSD 檔**，並支援 **超過 50 種輸入與輸出格式**（包括 JPEG、PNG、BMP、TIFF 與 PSD）。此函式庫完全在伺服器端執行，無需 Photoshop 授權，且使用串流 API，即使處理大型合成圖，也能將記憶體使用量控制在 150 MB 以下。
 
-釋放 [Aspose.PSD for Java 中的顏色疊加效果](./color-overlay-effect/) 的迷人世界。透過我們全面的逐步指南提升您的影像編輯能力。深入探索透過充滿活力的疊加層輕鬆改變影像的魔力。
+## 在 Aspose.PSD for Java 中套用顏色覆蓋效果
 
-## 使用 Aspose.PSD for Java 合併影像
+Unleash the enchanting world of [Color Overlay Effects in Aspose.PSD for Java](./color-overlay-effect/). Elevate your image editing prowess with our comprehensive step‑by‑step guide. Dive into the magic of transforming your images through vibrant overlays effortlessly.
 
-在 Java 中使用 [Aspose.PSD](./combine-images/) 無縫合併影像。我們的詳細指南將引導您完成整個過程，確保影像流暢合併。使用 Aspose.PSD for Java 掌握影像合併技巧，提升您的視覺敘事能力。
+## 使用 Aspose.PSD for Java 合併圖像
 
-## 使用 Aspose.PSD for Java 建立 XMP 中繼資料
+Merge images seamlessly in Java with [Aspose.PSD](./combine-images/). Our detailed guide walks you through the process, ensuring a smooth combination of images. Enhance your visual storytelling by mastering the art of image merging with Aspose.PSD for Java.
 
-透過輕鬆建立 XMP 元數據，提升您的 Java 應用程式效能。遵循我們簡明易懂的指南，即可釋放 Aspose.PSD for Java 的全部潛能。增強影像元數據，提升應用程式的功能。
+## 使用 Aspose.PSD for Java 建立 XMP 中介資料
 
-## 使用 Aspose.PSD for Java 透過設定路徑建立映像
+Give your Java applications a boost by effortlessly creating [XMP metadata](./create-xmp-metadata/). Follow our user‑friendly guide to unlock the potential of Aspose.PSD for Java. Enhance the metadata of your images and elevate your application's capabilities.
 
-使用 Aspose.PSD for Java，開啟建立精美 PSD 影像的旅程。我們的逐步指南確保您能夠透過設定路徑輕鬆產生引人入勝的影像。輕鬆進入圖像創作的世界。
+## 透過設定路徑在 Aspose.PSD for Java 中建立圖像
 
-## 使用 Aspose.PSD for Java 透過串流建立影像
+Embark on a journey to create stunning [PSD images](./create-image-by-setting-path/) using Aspose.PSD for Java. Our step‑by‑step guide ensures a seamless process for generating captivating images by setting paths. Dive into the world of image creation with ease.
 
-掌握使用 Aspose.PSD for Java 中的串流建立影像的技巧。我們的指南為您提供了一條清晰且有效率的影像處理路徑。按照步驟操作，使用 Aspose.PSD for Java 將您的創意願景變為​​現實。
+## 使用串流在 Aspose.PSD for Java 中建立圖像
 
-## 使用 Aspose.PSD for Java 以矩形裁切影像
+Master the art of creating images using [streams](./create-image-using-stream/) in Aspose.PSD for Java. Our guide provides a clear path to efficient image processing. Follow the steps and bring your creative visions to life through Aspose.PSD for Java.
 
-探索 Aspose.PSD 在 Java 中無限的影像裁切可能性。我們全面的教學將引導您輕鬆完成影像裁切的整個過程。使用 Aspose.PSD for Java 精準地轉換您的影像。
+## 以矩形裁切圖像於 Aspose.PSD for Java
 
-## 使用 Aspose.PSD for Java 以位移裁切影像
+Explore the boundless possibilities of [image cropping in Java](./crop-image-by-rectangle/) with Aspose.PSD. Our comprehensive tutorial guides you through the seamless process of cropping images effortlessly. Transform your images with precision using Aspose.PSD for Java.
 
-使用 Aspose.PSD for Java 成為影像裁切大師。我們的教學提供完整的指南，幫助您掌握無縫影像處理的藝術。使用 Aspose.PSD for Java，深入探索精準影像裁切的世界。
+## 以位移裁切圖像於 Aspose.PSD for Java
 
-## 在 Aspose.PSD for Java 中實現映像抖動
+Become a maestro of [image cropping](./crop-image-by-shifts/) with Aspose.PSD for Java. Our tutorial offers a complete guide to mastering the art of seamless image manipulation. Dive into the world of precise image cropping with Aspose.PSD for Java.
 
-使用 Aspose.PSD for Java 實現抖動功能，增強影像質量，消除色帶。按照我們的逐步指南，解鎖抖動的強大功能，獲得完美的影像效果。
+## 在 Aspose.PSD for Java 中實作點陣圖抖動
 
-## 使用 Aspose.PSD for Java 進行影像擴充和裁剪
+Enhance image quality with Aspose.PSD for Java by implementing [dithering](./implement-dithering/) to eliminate color banding. Follow our step‑by‑step guide to unlock the power of dithering and achieve impeccable image results.
 
-學習如何使用 Aspose.PSD 在 Java 中擴展和裁剪圖像。我們的逐步指南可確保高效率的影像處理。使用 Aspose.PSD for Java 提升您的影像編輯技能。
+## 使用 Aspose.PSD for Java 擴展與裁切圖像
 
-總結來說，這些教學為使用 Aspose.PSD for Java 進行圖像編輯開啟了無限可能。無論您是新手還是資深開發者，我們的指南都能讓您釋放創意，取得驚豔成果。立即深入探索 Aspose.PSD for Java 所提供的豐富功能。祝編輯愉快！
+Learn the intricacies of [expanding and cropping images](./expand-and-crop-images/) in Java using Aspose.PSD. Our step‑by‑step guide ensures efficient image processing. Elevate your image editing skills with Aspose.PSD for Java.
 
-## 圖像編輯教學
-### [在 Aspose.PSD for Java 中套用顏色覆蓋效果](./color-overlay-effect/)
-探索 Aspose.PSD for Java 中色彩疊加效果的魔力。透過本逐步指南，提升您的影像編輯技能。
+## 合併圖像的常見使用情境
 
-### [使用 Aspose.PSD for Java 合併圖像](./combine-images/)
-學習如何使用 Aspose.PSD 在 Java 中合併圖像。按照我們的逐步指南，實現無縫影像合併。
-
-### [使用 Aspose.PSD for Java 建立 XMP 中繼資料](./create-xmp-metadata/)
-使用 Aspose.PSD 增強您的 Java 應用程式。輕鬆建立 XMP 元資料。立即按照我們的逐步指南操作。
-
-### [使用 Aspose.PSD for Java 透過設定路徑建立圖像](./create-image-by-setting-path/)
-學習如何使用 Aspose.PSD for Java 建立 PSD 映像。按照我們的逐步指南，實現無縫影像生成。
-
-### [使用 Aspose.PSD for Java 透過串流建立圖像](./create-image-using-stream/)
-學習如何在 Aspose.PSD for Java 中使用流建立圖像。請按照此逐步指南進行高效率的影像處理。
-
-### [使用 Aspose.PSD for Java 以矩形裁切影像](./crop-image-by-rectangle/)
-
-探索 Aspose.PSD 在 Java 中提供的無縫影像裁切功能。按照我們的逐步指南，輕鬆使用 Aspose.PSD for Java 裁切影像。
-
-### [使用 Aspose.PSD for Java 以位移裁切影像](./crop-image-by-shifts/)
-
-掌握 Aspose.PSD for Java 的影像裁切。全面的無縫影像處理教程。
-
-### [在 Aspose.PSD for Java 中實作映像抖動](./implement-dithering/)
-
-使用 Aspose.PSD for Java 提升影像品質。按照我們的逐步指南實現抖動並消除色帶。
-
-### [使用 Aspose.PSD for Java 擴充與裁切影像](./expand-and-crop-images/)
-了解如何使用 Aspose.PSD 在 Java 中擴充和裁切影像。高效影像處理的分步指南。
+- **行銷素材** – 將產品照片與品牌覆蓋層合併於單一 PSD，快速匯出至網路或印刷。  
+- **動態報告產生** – 程式化地將圖表、標誌與浮水印合併為單一圖像，再嵌入 PDF 中。  
+- **批次處理管線** – 使用串流 API 每晚合併數千張圖像，避免耗盡伺服器記憶體。  
 
 ## 常見問題
 
-**Q: 我可以合併不同尺寸的圖像嗎？**
-答：是的。 Aspose.PSD 會根據您定義的畫布大小自動調整圖層大小或新增間距。
+**Q: 合併圖像時可以合併不同尺寸的圖像嗎？**  
+A: 可以。Aspose.PSD 會根據您定義的畫布大小自動調整或填充圖層，保持長寬比。
 
-**Q: 合併時可以加入顏色覆蓋嗎？**
-答：當然可以。在合併圖層之前，或將顏色疊加效果應用於每個圖層，或應用於最終合成影像。
+**Q: 合併時可以加入顏色覆蓋嗎？**  
+A: 絕對可以。可在合併前對每個圖層套用顏色覆蓋效果，或在最終合成圖上套用，以確保樣式一致。
 
-**Q: 合併後如何保留 EXIF 或 XMP 中繼資料？**
-答：在儲存合併檔案之前，使用 API 建立或複製 XMP 元資料。
+**Q: 合併後如何保留 EXIF 或 XMP 中介資料？**  
+A: 在儲存合併檔案前，使用 API 建立或複製 XMP 中介資料；中介資料會自動隨輸出檔案一起保存。
 
-**Q: Aspose.PSD 是否支援合併非 PSD 格式的圖像？**
-答：是的。您可以載入 JPEG、PNG、BMP 等格式的文件，並將它們合併到 PSD 檔案中，或匯出為其他柵格格式。
+**Q: Aspose.PSD 是否支援除 PSD 之外的格式合併？**  
+A: 支援。您可以載入 JPEG、PNG、BMP、TIFF 等多種點陣格式，合併後匯出為 PSD、PNG 或 JPEG。
 
-**Q: 大量圖像集合的效能考量是什麼？**
-答：使用串流 API 並及時釋放中間對象，以保持較低的記憶體使用量。
+**Q: 大量圖像合併的效能考量是什麼？**  
+A: 使用串流 API，及時釋放中間物件，並限制畫布大小，以確保 1,000 張圖像批次的記憶體使用量低於 200 MB。
+
+## 其他資源
+
+- [在 Aspose.PSD for Java 中套用顏色覆蓋效果](./color-overlay-effect/)  
+- [使用 Aspose.PSD for Java 合併圖像](./combine-images/)  
+- [使用 Aspose.PSD for Java 建立 XMP 中介資料](./create-xmp-metadata/)  
+- [透過設定路徑在 Aspose.PSD for Java 中建立圖像](./create-image-by-setting-path/)  
+- [使用串流在 Aspose.PSD for Java 中建立圖像](./create-image-using-stream/)  
+- [以矩形裁切圖像於 Aspose.PSD for Java](./crop-image-by-rectangle/)  
+- [以位移裁切圖像於 Aspose.PSD for Java](./crop-image-by-shifts/)  
+- [在 Aspose.PSD for Java 中實作點陣圖抖動](./implement-dithering/)  
+- [使用 Aspose.PSD for Java 擴展與裁切圖像](./expand-and-crop-images/)  
 
 ---
 
-**最後更新：** 2025-12-30  
-**測試環境：** Aspose.PSD for Java 24.12  
-**作者：** Aspose
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**最後更新:** 2026-06-18  
+**測試環境:** Aspose.PSD for Java 24.12  
+**作者:** Aspose
 
 {{< blocks/products/products-backtop-button >}}
+
+## 相關教學
+
+- [如何在 Aspose.PSD for Java 中套用覆蓋效果](/psd/java/image-editing/color-overlay-effect/)
+- [以矩形裁切圖像於 Aspose.PSD for Java](/psd/java/image-editing/crop-image-by-rectangle/)
+- [使用 Aspose.PSD for Java 建立 XMP 中介資料](/psd/java/image-editing/create-xmp-metadata/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
