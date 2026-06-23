@@ -1,12 +1,58 @@
 ---
-date: 2026-02-09
-description: Μάθετε πώς να μετατρέπετε PSD σε PNG και να αλλάζετε το μέγεθος των εικόνων
-  αναλογικά σε Java χρησιμοποιώντας το Aspose.PSD. Αυτός ο βήμα‑βήμα οδηγός καλύπτει
-  την προσωρινή αποθήκευση εικόνων, την αλλαγή μεγέθους και την αποθήκευση ως PNG.
-linktitle: Convert PSD to PNG & Resize Proportionally
+date: 2026-06-23
+description: Μάθετε πώς να μετατρέψετε το PSD σε PNG και να αλλάξετε το μέγεθος των
+  εικόνων αναλογικά σε Java χρησιμοποιώντας το Aspose.PSD. Αυτό το step‑by‑step tutorial
+  καλύπτει την προσωρινή αποθήκευση εικόνων, την αλλαγή μεγέθους και την αποθήκευση
+  ως PNG.
+keywords:
+- convert psd to png
+- save psd as png
+- how to cache image
+- resize image without distortion
+- proportional image scaling
+linktitle: Μετατροπή PSD σε PNG & Αναλογική αλλαγή μεγέθους
+schemas:
+- author: Aspose
+  dateModified: '2026-06-23'
+  description: Learn how to convert PSD to PNG and resize images proportionally in
+    Java using Aspose.PSD. This step‑by‑step tutorial covers image caching, resizing,
+    and saving as PNG.
+  headline: How to Convert PSD to PNG and Resize Proportionally with Aspose.PSD for
+    Java
+  type: TechArticle
+- description: Learn how to convert PSD to PNG and resize images proportionally in
+    Java using Aspose.PSD. This step‑by‑step tutorial covers image caching, resizing,
+    and saving as PNG.
+  name: How to Convert PSD to PNG and Resize Proportionally with Aspose.PSD for Java
+  steps:
+  - name: '**Java Development Kit (JDK)** – Java 8 or later installed.'
+    text: '**Java Development Kit (JDK)** – Java 8 or later installed.'
+  - name: '**Aspose.PSD for Java** – download the latest JAR from the official site [here](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD for Java** – download the latest JAR from the official site [here](https://releases.aspose.com/psd/java/).'
+  - name: A sample PSD file (`sample.psd`) placed in a directory you can reference
+      from your project.
+    text: A sample PSD file (`sample.psd`) placed in a directory you can reference
+      from your project.
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD supports PSD, PNG, JPEG, BMP, GIF, and many more. See the full
+      list in the [documentation](https://reference.aspose.com/psd/java/). For the
+      full API reference, see the guide **here**.
+    question: Is Aspose.PSD compatible with all image formats?
+  - answer: Yes. Purchase a commercial license on the [Aspose store](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.PSD for commercial projects?
+  - answer: Absolutely – request a temporary license [here](https://purchase.aspose.com/temporary-license/)
+      for evaluation purposes.
+    question: Are temporary licenses available for testing?
+  - answer: The [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) is a great place
+      to ask questions and share solutions.
+    question: Where can I find community support?
+  - answer: Detailed API docs are available [here](https://reference.aspose.com/psd/java/).
+    question: How do I access the full API reference?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Πώς να μετατρέψετε PSD σε PNG και να αλλάξετε το μέγεθος αναλογικά με το Aspose.PSD
-  για Java
+title: Πώς να μετατρέψετε το PSD σε PNG και να αλλάξετε το μέγεθος αναλογικά με το
+  Aspose.PSD για Java
 url: /el/java/advanced-image-manipulation/resize-image-proportionally/
 weight: 17
 ---
@@ -19,49 +65,51 @@ weight: 17
 
 ## Εισαγωγή
 
-Αν χρειάζεστε **μετατροπή PSD σε PNG** διατηρώντας την αρχική αναλογία διαστάσεων, βρίσκεστε στο σωστό μέρος. Σε αυτό το **Aspose.PSD Java** tutorial θα περάσουμε από ένα πλήρες **java image processing tutorial** που δείχνει πώς να **αλλάζετε το μέγεθος της εικόνας** αναλογικά, να κάνετε cache την εικόνα για βέλτιστη απόδοση και, τέλος, να αποθηκεύσετε το αποτέλεσμα ως PNG. Στο τέλος θα μπορείτε να ενσωματώσετε αυτή τη ροή εργασίας σε οποιοδήποτε pipeline επεξεργασίας εικόνας βασισμένο σε Java.
+Αν χρειάζεστε **convert PSD to PNG** ενώ διατηρείτε την αρχική αναλογία διαστάσεων, βρίσκεστε στο σωστό μέρος. Σε αυτό το **Aspose.PSD Java** tutorial θα περάσουμε από ένα πλήρες **java image processing tutorial** που δείχνει **how to resize image** αρχεία αναλογικά, αποθηκεύει την εικόνα στην κρυφή μνήμη για βέλτιστη απόδοση, και τέλος αποθηκεύει το αποτέλεσμα ως PNG. Στο τέλος θα μπορείτε να ενσωματώσετε αυτή τη ροή εργασίας σε οποιοδήποτε Java‑based image‑processing pipeline.
 
 ## Γρήγορες Απαντήσεις
-- **Μπορεί το Aspose.PSD να μετατρέψει PSD σε PNG;** Ναι – απλώς φορτώστε το PSD και αποθηκεύστε το με `PngOptions`.
-- **Υποστηρίζει η βιβλιοθήκη αναλογική αλλαγή μεγέθους;** Απόλυτα· χρησιμοποιήστε `resizeWidthProportionally` και `resizeHeightProportionally`.
-- **Πρέπει πρώτα να κάνω cache την εικόνα;** Το caching (`image.cacheData()`) βελτιώνει την απόδοση για μεγάλα αρχεία PSD.
-- **Ποια έκδοση της Java απαιτείται;** Η Java 8 ή νεότερη υποστηρίζεται πλήρως.
-- **Απαιτείται άδεια για παραγωγή;** Ναι, μια εμπορική άδεια αφαιρεί τα υδατογραφήματα αξιολόγησης.
+- **Μπορεί το Aspose.PSD να μετατρέψει PSD σε PNG;** Yes – simply load the PSD and save it with `PngOptions`.
+- **Υποστηρίζει η βιβλιοθήκη αναλογική αλλαγή μεγέθους;** Absolutely; use `resizeWidthProportionally` and `resizeHeightProportionally`.
+- **Χρειάζεται να αποθηκεύσω την εικόνα στην κρυφή μνήμη πρώτα;** Caching (`image.cacheData()`) improves performance for large PSD files.
+- **Ποια έκδοση Java απαιτείται;** Java 8 or newer is fully supported.
+- **Απαιτείται άδεια για παραγωγή;** Yes, a commercial license removes evaluation watermarks.
 
-## Τι είναι η “μετατροπή PSD σε PNG” και γιατί είναι σημαντική;
+## Τι είναι το “convert PSD to PNG” και γιατί είναι σημαντικό;
 
-Η μετατροπή ενός εγγράφου Photoshop (PSD) σε αρχείο portable network graphics (PNG) σας επιτρέπει να μοιραστείτε σχεδιασμένα επίπεδα ως ελαφρύ, φιλικό προς το web φορμάτ. Το PNG διατηρεί τη διαφάνεια και την απώλεια ποιότητας, καθιστώντας το ιδανικό για UI assets, μικρογραφίες ή οποιοδήποτε σενάριο όπου η πιστότητα της εικόνας μετράει.
+**convert PSD to PNG** σημαίνει τη μετατροπή ενός πολυεπίπεδου εγγράφου Photoshop σε ένα μονοεπίπεδο, lossless PNG αρχείο που διατηρεί τη διαφάνεια και την οπτική πιστότητα. Αυτή η μετατροπή σας επιτρέπει να μοιράζεστε σχέδια χωρίς να απαιτείται Photoshop, δημιουργεί web‑ready assets και μικρογραφίες, και αφαιρεί βαριά PSD αρχεία από τους browsers των πελατών ενώ διατηρεί την ποιότητα που απαιτείται για UI components και branding.
 
 ## Γιατί να αλλάζετε το μέγεθος της εικόνας αναλογικά σε Java;
 
-Η αλλαγή μεγέθους **πώς να αλλάξετε το μέγεθος της εικόνας** χωρίς παραμόρφωση της αναλογίας εξασφαλίζει ότι τα γραφικά φαίνονται φυσικά σε διαφορετικές οθόνες. Το API του `Aspose.PSD` παρέχει ειδικές μεθόδους για **αναλογική αλλαγή μεγέθους εικόνας**, οι οποίες υπολογίζουν αυτόματα το αντίστοιχο ύψος ή πλάτος, αποφεύγοντας τα σφάλματα μαθηματικών υπολογισμών.
+Η αλλαγή μεγέθους μιας εικόνας **without distortion** διατηρεί την αρχική αναλογία πλάτους‑ύψους, ώστε τα γραφικά να διατηρούν την προοριζόμενη εμφάνιση σε οποιοδήποτε μέγεθος οθόνης. Οι μέθοδοι αναλογικής κλιμάκωσης του Aspose.PSD υπολογίζουν αυτόματα τη χαμένη διάσταση, εξαλείφοντας τους χειροκίνητους υπολογισμούς και τον κίνδυνο παραμορφωμένων ή συμπιεσμένων οπτικών στοιχείων.
 
 ## Γιατί αυτό είναι σημαντικό για τους προγραμματιστές
 
-- **Μειωμένο μέγεθος αρχείου PSD** – Με τη σμίκρυνση μεγάλων PSD πριν τη μετατροπή, μειώνετε τη χρήση μνήμης και επιταχύνετε την επεξεργασία.  
-- **Συνεπής απόδοση UI** – Η αναλογική αλλαγή μεγέθους εγγυάται ότι τα εικονίδια και τα γραφικά διατηρούν την οπτική ισορροπία σε όλες τις συσκευές.  
-- **Χωρίς εξάρτηση από το Photoshop** – Μπορείτε να εκτελείτε αυτές τις λειτουργίες σε διακομιστή ή pipeline CI χωρίς εγκατάσταση του Photoshop.
+Για τους προγραμματιστές, η αναλογική αλλαγή μεγέθους και η μετατροπή PSD‑to‑PNG μειώνουν την κατανάλωση μνήμης και βελτιώνουν τους χρόνους φόρτωσης, εξασφαλίζοντας ότι οι εφαρμογές διαχειρίζονται μεγάλα γραφικά αποδοτικά. Με την πρώιμη κλιμάκωση των εικόνων, διατηρείτε τη σταθερότητα του UI rendering σε όλες τις συσκευές και εξαλείφετε την ανάγκη για Photoshop σε διακομιστές κατασκευής, κάτι που απλοποιεί την ανάπτυξη και μειώνει τα λειτουργικά κόστη.
+
+- **Reduced PSD file size** – Με τη μείωση μεγέθους μεγάλων PSD πριν τη μετατροπή, μειώνετε τη χρήση μνήμης και επιταχύνετε την επεξεργασία downstream.  
+- **Consistent UI rendering** – Η αναλογική αλλαγή μεγέθους εγγυάται ότι τα εικονίδια και τα γραφικά διατηρούν την οπτική τους ισορροπία σε όλες τις συσκευές.  
+- **No Photoshop dependency** – Μπορείτε να εκτελείτε αυτές τις λειτουργίες σε διακομιστή ή CI pipeline χωρίς εγκατάσταση Photoshop.
 
 ## Προαπαιτούμενα
 
-Πριν βουτήξουμε στον κώδικα, βεβαιωθείτε ότι έχετε:
-
-1. **Java Development Kit (JDK)** – Εγκατεστημένη Java 8 ή νεότερη.  
-2. **Aspose.PSD for Java** – κατεβάστε το τελευταίο JAR από την επίσημη ιστοσελίδα [εδώ](https://releases.aspose.com/psd/java/).  
-3. Ένα δείγμα αρχείου PSD (`sample.psd`) τοποθετημένο σε κατάλογο που μπορείτε να αναφέρετε από το πρότζεκτ σας.
+1. **Java Development Kit (JDK)** – Java 8 ή νεότερη έκδοση εγκατεστημένη.  
+2. **Aspose.PSD for Java** – κατεβάστε το πιο πρόσφατο JAR από την επίσημη ιστοσελίδα [here](https://releases.aspose.com/psd/java/).  
+3. Ένα δείγμα αρχείου PSD (`sample.psd`) τοποθετημένο σε έναν φάκελο που μπορείτε να αναφέρετε από το έργο σας.
 
 ## Εισαγωγή Πακέτων
 
-Προσθέστε τις απαραίτητες εισαγωγές στην κλάση Java. Αυτές οι κλάσεις σας δίνουν πρόσβαση στη φόρτωση εικόνας, caching, αλλαγή μεγέθους και επιλογές εξόδου PNG.
+Η κλάση `PsdImage` είναι το βασικό αντικείμενο του Aspose.PSD που αντιπροσωπεύει ένα αρχείο PSD στη μνήμη. Εισάγετε τα απαραίτητα namespaces για να εργαστείτε με φόρτωση, caching, αλλαγή μεγέθους και εξαγωγή PNG.
 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Βήμα 1: Φόρτωση της εικόνας PSD
+## Βήμα 1: Φόρτωση της Εικόνας PSD
 
-Αρχικά, φορτώστε το πηγαίο αρχείο PSD. Αν το αρχείο είναι μεγάλο, το caching των δεδομένων εικόνας μειώνει την κατανάλωση μνήμης όταν εκτελείτε επόμενες λειτουργίες.
+**Direct answer:** Φορτώστε το αρχείο πηγής με `new PsdImage("sample.psd")`; στη συνέχεια καλέστε `image.cacheData()` για προφόρτωση των δεδομένων εικόνας, κάτι που αποτρέπει επαναλαμβανόμενες αναγνώσεις δίσκου σε μεταγενέστερες λειτουργίες.
+
+`cacheData()` φορτώνει ολόκληρο το PSD στη μνήμη, επιτρέποντας ταχύτερη επόμενη επεξεργασία. Η μέθοδος `cacheData()` διαβάζει ολόκληρο το έγγραφο στη μνήμη, επιτρέποντας ταχύτερη επόμενη επεξεργασία για μεγάλα αρχεία. Πρώτα, φορτώστε το αρχικό αρχείο PSD. Αν το αρχείο είναι μεγάλο, η caching των δεδομένων εικόνας μειώνει την κατανάλωση μνήμης όταν εκτελείτε επόμενες λειτουργίες.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -75,9 +123,13 @@ if (!image.isCached()) {
 }
 ```
 
-## Βήμα 2: Αλλαγή Μεγέθους Εικόνας Αναλογικά (Java)
+## Βήμα 2: Αναλογική Αλλαγή Μεγέθους Εικόνας (Java)
 
-Τώρα αποφασίστε τις νέες διαστάσεις. Σε αυτό το παράδειγμα μειώνουμε την εικόνα στο **μισό** του αρχικού μεγέθους διατηρώντας την αναλογία. Μπορείτε να προσαρμόσετε το επιθυμητό πλάτος ή ύψος όπως χρειάζεται.
+**Direct answer:** Καλέστε `image.resizeWidthProportionally(targetWidth)` (ή `resizeHeightProportionally`) για να μειώσετε την εικόνα ενώ διατηρείται αυτόματα η αρχική αναλογία διαστάσεων.
+
+`resizeWidthProportionally(int targetWidth)` κλιμακώνει το πλάτος της εικόνας και υπολογίζει αυτόματα το αντίστοιχο ύψος για να διατηρήσει την αρχική αναλογία διαστάσεων. Τώρα αποφασίστε τις νέες διαστάσεις. Σε αυτό το παράδειγμα μειώνουμε την εικόνα στο **half** του αρχικού μεγέθους διατηρώντας την αναλογία. Μπορείτε να προσαρμόσετε το target width ή height όπως χρειάζεται.
+
+Η μέθοδος `resizeWidthProportionally` υπολογίζει το αντίστοιχο ύψος βάσει της αρχικής αναλογίας, έτσι η εικόνα αλλάζει μέγεθος **without distortion**. Χρησιμοποιήστε οποιαδήποτε μέθοδο—το Aspose.PSD διαχειρίζεται τη συμπληρωματική διάσταση για εσάς.
 
 ```java
 int newWidth = image.getWidth() / 2;
@@ -87,11 +139,15 @@ int newHeight = image.getHeight() / 2;
 image.resizeHeightProportionally(newHeight);
 ```
 
-> **Συμβουλή:** Χρησιμοποιήστε είτε `resizeWidthProportionally` *ή* `resizeHeightProportionally`—η βιβλιοθήκη υπολογίζει αυτόματα τη δεύτερη διάσταση για να διατηρήσει την εικόνα αναλογική.
+> **Pro tip:** Χρησιμοποιήστε είτε `resizeWidthProportionally` *or* `resizeHeightProportionally`—η βιβλιοθήκη υπολογίζει αυτόματα τη δεύτερη διάσταση για να διατηρήσει την εικόνα αναλογική.
 
 ## Βήμα 3: Αποθήκευση της Αλλαγμένης Εικόνας ως PNG
 
-Τέλος, εξάγετε την αλλαγμένη εικόνα σε φορμάτ PNG. Αυτό το βήμα ολοκληρώνει τη **μετατροπή PSD σε PNG** ροή εργασίας.
+**Direct answer:** Δημιουργήστε μια παρουσία `PngOptions`, αναθέστε την στην εικόνα, και καλέστε `image.save("output.png", pngOptions)` για να γράψετε το αλλαγμένο αρχείο σε μορφή PNG.
+
+`PngOptions` καθορίζει ρυθμίσεις για την εξαγωγή PNG όπως επίπεδο συμπίεσης και βάθος χρώματος. Τέλος, εξάγετε την αλλαγμένη εικόνα σε μορφή PNG. Αυτό το βήμα ολοκληρώνει τη ροή εργασίας **convert PSD to PNG**.
+
+Όταν εκτελεστεί ο κώδικας, θα βρείτε ένα αρχείο PNG που είναι στο μισό του μεγέθους του αρχικού PSD, με την ίδια οπτική ποιότητα και χωρίς παραμόρφωση.
 
 ```java
 String destName = dataDir + "SimpleResizeImageProportionally_out.png";
@@ -100,50 +156,55 @@ image.save(destName, new PngOptions());
 
 Όταν εκτελεστεί ο κώδικας, θα βρείτε ένα αρχείο PNG που είναι στο μισό του μεγέθους του αρχικού PSD, με την ίδια οπτική ποιότητα και χωρίς παραμόρφωση.
 
-## Κοινά Προβλήματα & Λύσεις
+## Συνηθισμένα Προβλήματα & Λύσεις
 
 | Πρόβλημα | Αιτία | Διόρθωση |
 |----------|-------|----------|
 | **OutOfMemoryError** | Μεγάλο PSD χωρίς caching | Καλέστε `image.cacheData()` πριν την αλλαγή μεγέθους |
-| **Κενό PNG αρχείο** | Λανθασμένη διαδρομή αρχείου | Επαληθεύστε το `dataDir` και τα δικαιώματα εγγραφής |
-| **Η αναλογία φαίνεται λανθασμένη** | Χρήση και πλάτους και ύψους χειροκίνητα | Χρησιμοποιήστε τις μεθόδους αναλογικής αλλαγής μεγέθους που παρέχει το Aspose.PSD |
+| **Blank PNG output** | Λανθασμένη διαδρομή αρχείου | Επαληθεύστε το `dataDir` και τα δικαιώματα εγγραφής |
+| **Aspect ratio looks off** | Χρήση τόσο του πλάτους όσο και του ύψους χειροκίνητα | Χρησιμοποιήστε τις αναλογικές μεθόδους που παρέχει το Aspose.PSD |
 
 ## Συμβουλές για Μείωση του Μεγέθους Αρχείου PSD
 
-- **Κόψτε περιττά επίπεδα** πριν τη φόρτωση του αρχείου.  
-- **Αλλάξτε το μέγεθος αναλογικά** όπως φαίνεται παραπάνω για να μειώσετε τις διαστάσεις νωρίς.  
-- **Αποθηκεύστε ως PNG με κατάλληλο βάθος χρώματος** για να αποφύγετε περιττά δεδομένα.
+- **Crop unnecessary layers** before loading the file.  
+- **Resize proportionally** as shown above to shrink dimensions early.  
+- **Save as PNG with appropriate bit depth** to avoid excess data.
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Είναι το Aspose.PSD συμβατό με όλα τα φορμάτ εικόνας;**  
-Α: Το Aspose.PSD υποστηρίζει PSD, PNG, JPEG, BMP, GIF και πολλά άλλα. Δείτε τη πλήρη λίστα στην [τεκμηρίωση](https://reference.aspose.com/psd/java/).
+**Q: Είναι το Aspose.PSD συμβατό με όλες τις μορφές εικόνας;**  
+A: Το Aspose.PSD υποστηρίζει PSD, PNG, JPEG, BMP, GIF, και πολλά άλλα. Δείτε τη πλήρη λίστα στην [documentation](https://reference.aspose.com/psd/java/). Για την πλήρη αναφορά API, δείτε τον οδηγό **here**.
 
-**Ε: Μπορώ να χρησιμοποιήσω το Aspose.PSD για εμπορικά έργα;**  
-Α: Ναι. Αγοράστε εμπορική άδεια στο [Aspose store](https://purchase.aspose.com/buy).
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.PSD για εμπορικά έργα;**  
+A: Ναι. Αγοράστε εμπορική άδεια στο [Aspose store](https://purchase.aspose.com/buy).
 
-**Ε: Διατίθενται προσωρινές άδειες για δοκιμή;**  
-Α: Απόλυτα – ζητήστε προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
+**Q: Υπάρχουν προσωρινές άδειες διαθέσιμες για δοκιμή;**  
+A: Απόλυτα – ζητήστε μια προσωρινή άδεια [here](https://purchase.aspose.com/temporary-license/) για σκοπούς αξιολόγησης.
 
-**Ε: Πού μπορώ να βρω υποστήριξη από την κοινότητα;**  
-Α: Το [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) είναι εξαιρετικό μέρος για ερωτήσεις και ανταλλαγή λύσεων.
+**Q: Πού μπορώ να βρω υποστήριξη κοινότητας;**  
+A: Το [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) είναι ένας εξαιρετικός χώρος για ερωτήσεις και λύσεις.
 
-**Ε: Πώς έχω πρόσβαση στην πλήρη αναφορά API;**  
-Α: Λεπτομερή τεκμηρίωση API είναι διαθέσιμη [εδώ](https://reference.aspose.com/psd/java/).
+**Q: Πώς μπορώ να έχω πρόσβαση στην πλήρη αναφορά API;**  
+A: Λεπτομερή τεκμηρίωση API είναι διαθέσιμη [here](https://reference.aspose.com/psd/java/).
 
 ## Συμπέρασμα
 
-Τώρα ξέρετε πώς να **μετατρέψετε PSD σε PNG**, **αλλάζετε το μέγεθος της εικόνας αναλογικά**, και να διαχειρίζεστε το caching αποδοτικά χρησιμοποιώντας το Aspose.PSD για Java. Ενσωματώστε αυτά τα βήματα στις δικές σας εφαρμογές για γρήγορη, υψηλής ποιότητας επεξεργασία εικόνας χωρίς εξάρτηση από εγκατεστημένο Photoshop. Αυτή η **aspose psd java** προσέγγιση αποτελεί αξιόπιστο μέρος οποιουδήποτε **java image processing tutorial** και σας βοηθά να κρατάτε τα μεγέθη αρχείων PSD υπό έλεγχο διατηρώντας την οπτική ακεραιότητα.
+Τώρα γνωρίζετε πώς να **convert PSD to PNG**, **resize image proportionally**, και να διαχειρίζεστε την caching αποδοτικά χρησιμοποιώντας το Aspose.PSD για Java. Ενσωματώστε αυτά τα βήματα στις δικές σας εφαρμογές για γρήγορη, υψηλής ποιότητας επεξεργασία εικόνας χωρίς εξάρτηση από εγκατεστημένο Photoshop. Αυτή η προσέγγιση **aspose psd java** είναι αξιόπιστο μέρος οποιουδήποτε **java image processing tutorial** και σας βοηθά να διατηρείτε τα μεγέθη αρχείων PSD υπό έλεγχο διατηρώντας την οπτική πιστότητα.
 
 ---
 
-**Τελευταία Ενημέρωση:** 2026-02-09  
-**Δοκιμή Με:** Aspose.PSD 24.12 for Java  
-**Συγγραφέας:** Aspose
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-06-23  
+**Tested With:** Aspose.PSD 24.12 for Java  
+**Author:** Aspose
 
 {{< blocks/products/products-backtop-button >}}
+
+## Σχετικά Μαθήματα
+
+- [Απλή Αλλαγή Μεγέθους με Aspose.PSD – Βιβλιοθήκη Java Image Manipulation](/psd/java/basic-image-operations/simple-resizing/)
+- [Αλλαγή Μεγέθους Εικόνας Java - Χρήση της Εν enumeration Resize Type στο Aspose.PSD για Java](/psd/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/)
+- [Κλιμάκωση Εικόνας Υψηλής Ποιότητας με Bicubic Resampler στο Aspose.PSD για Java](/psd/java/advanced-image-manipulation/implement-bicubic-resampler/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
