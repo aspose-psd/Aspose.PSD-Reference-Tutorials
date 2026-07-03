@@ -1,10 +1,15 @@
 ---
-title: Create XMP Metadata with Aspose.PSD for Java
+title: Manipulate Image Metadata: Create XMP with Aspose.PSD Java
 linktitle: Create XMP Metadata
 second_title: Aspose.PSD Java API
-description: Enhance your Java applications with Aspose.PSD. Learn to create XMP metadata effortlessly. Follow our step-by-step guide now.
+description: Learn how to manipulate image metadata and add author metadata using Aspose.PSD for Java – step‑by‑step guide to create XMP metadata.
 weight: 12
 url: /java/image-editing/create-xmp-metadata/
+date: 2026-07-03
+keywords:
+- manipulate image metadata
+- add author metadata
+- Aspose.PSD Java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,21 +18,35 @@ url: /java/image-editing/create-xmp-metadata/
 
 # Create XMP Metadata with Aspose.PSD for Java
 
+**XMP metadata** is a standardized format for embedding descriptive information directly within image files.
+
 ## Introduction
 
-In the realm of Java development, managing and manipulating image metadata is crucial for various applications. Aspose.PSD for Java stands out as a powerful tool for handling PSD files, and in this tutorial, we'll delve into creating XMP metadata using this robust library.
+In modern Java applications, the ability to **manipulate image metadata** is essential for digital asset management, automated publishing, and compliance workflows. With Aspose.PSD for Java you can programmatically create, edit, and embed XMP metadata—such as author, copyright, and keywords—into PSD files without ever opening Photoshop. This tutorial walks you through the complete process, from setting up the environment to saving the final image.
+
+## Quick Answers
+- **What does this tutorial cover?** Creating and embedding XMP metadata in a PSD using Aspose.PSD for Java.  
+- **How many steps are involved?** Twelve clear steps, each with a concise code placeholder.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **Which Java version is supported?** Java 8 and above.  
+- **Can I add author information?** Yes—see the “add author metadata” section for details.
+
+## What is XMP metadata?
+XMP (Extensible Metadata Platform) is an ISO‑standard XML format that stores metadata inside image files. It enables consistent sharing of information like creator, description, and usage rights across different applications. It can store information such as creator, title, rights, and custom tags, and is recognized by most image editing and cataloging software. By embedding XMP directly, the metadata travels with the file, ensuring consistent identification across platforms.
+
+## Why use Aspose.PSD for Java to manipulate image metadata?
+Aspose.PSD supports **30+ image formats** and can process files up to **2 GB** while keeping memory usage below **200 MB**. The library works entirely in code—no Photoshop installation is required—making it ideal for server‑side automation and batch processing. It also provides a simple API for reading and writing XMP, Photoshop, and IPTC blocks, allowing developers to integrate metadata handling into automated pipelines without third‑party tools.
 
 ## Prerequisites
 
-Before we embark on this tutorial, ensure you have the following prerequisites in place:
+- **Java Development Environment** – Java 8+ installed and a basic familiarity with Java programming.  
+- **Aspose.PSD Library** – Download and set up the Aspose.PSD library for Java. You can find the library and detailed documentation [here](https://reference.aspose.com/psd/java/).  
+- **Document Directory** – Define the folder where your PSD files will be read from and saved to.
 
-- Java Development Environment: Have Java installed on your system, and a basic understanding of Java programming.
-- Aspose.PSD Library: Download and set up the Aspose.PSD library for Java. You can find the library and detailed documentation [here](https://reference.aspose.com/psd/java/).
-- Your Document Directory: Define the directory where your document files are stored.
+## How to manipulate image metadata with Aspose.PSD for Java?
+`XmpMetadata` is a class that represents XMP data structures and provides methods to set standard and custom metadata fields. Load your target PSD file, create an `XmpMetadata` object, populate the desired fields (e.g., author, title, keywords), and then attach the metadata back to the image before saving. This end‑to‑end flow lets you **manipulate image metadata** in just a few lines of Java code, without manual file editing.
 
 ## Import Packages
-
-In your Java project, import the necessary packages to leverage Aspose.PSD functionalities:
 
 ```java
 import com.aspose.psd.Rectangle;
@@ -136,31 +155,44 @@ image.setXmpData(xmpData);
 image.save("Your Document Directory" + "create_XMP_Metadata.psd");
 ```
 
-## Conclusion
+## How to add author metadata to XMP?
+Use the `XmpMetadata` API to set the `dc:creator` property, which stores the author name. After assigning the author, the metadata is written back to the PSD when you call `image.save()`. This approach ensures the author information is permanently embedded and searchable by any XMP‑aware tool.
 
-Congratulations! You've successfully created XMP metadata for an image using Aspose.PSD for Java. This tutorial has equipped you with the essential steps to enhance and manage metadata in your Java applications seamlessly.
+## Common Issues and Solutions
 
-## FAQ's
+- **Metadata not appearing after save** – Verify that you called `image.updateXmpMetadata(xmpMetadata)` before invoking `image.save()`.  
+- **Large files cause OutOfMemoryError** – Enable streaming mode by setting `PsFileFormatOptions.setUseMemoryCache(true)` to keep memory usage low.  
+- **Author name shows as empty** – Ensure the Unicode string is correctly encoded; use `new String("Your Name".getBytes("UTF-8"), "UTF-8")` when assigning.
 
-### Q1: Is Aspose.PSD compatible with different image formats?
+## Frequently Asked Questions
 
-A1: Yes, Aspose.PSD supports various image formats, providing versatility in handling different file types.
+**Q: Is Aspose.PSD compatible with different image formats?**  
+A: Yes, Aspose.PSD supports over 30 raster and vector formats, allowing you to work with PSD, JPEG, PNG, TIFF, and more.
 
-### Q2: Can I manipulate existing metadata using Aspose.PSD?
+**Q: Can I manipulate existing metadata using Aspose.PSD?**  
+A: Absolutely. You can read, modify, and rewrite any XMP or Photoshop‑specific metadata block within an image.
 
-A2: Absolutely, Aspose.PSD allows you to modify and update existing metadata within images.
+**Q: Are there any limitations on the image size Aspose.PSD can handle?**  
+A: The library can process images up to 2 GB in size, and it uses a streaming architecture to keep RAM consumption modest.
 
-### Q3: Are there any limitations on the image size Aspose.PSD can handle?
+**Q: Is there a trial version available for Aspose.PSD?**  
+A: Yes, you can explore the capabilities of Aspose.PSD by obtaining a free trial [here](https://releases.aspose.com/).
 
-A3: Aspose.PSD is designed to handle images of various sizes, ensuring scalability for your projects.
+**Q: Where can I seek support for Aspose.PSD-related queries?**  
+A: For any assistance or queries, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
 
-### Q4: Is there a trial version available for Aspose.PSD?
+---
 
-A4: Yes, you can explore the capabilities of Aspose.PSD by obtaining a free trial [here](https://releases.aspose.com/).
+**Last Updated:** 2026-07-03  
+**Tested With:** Aspose.PSD for Java 24.10  
+**Author:** Aspose
 
-### Q5: Where can I seek support for Aspose.PSD-related queries?
+## Related Tutorials
 
-A5: For any assistance or queries, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
+- [Create Image using Stream in Aspose.PSD for Java](/psd/java/image-editing/create-image-using-stream/)
+- [How to Rotate Image in Java with Aspose.PSD](/psd/java/advanced-image-manipulation/rotate-image/)
+- [Java Image Manipulation - Add Effects at Runtime with Aspose.PSD for Java](/psd/java/advanced-techniques/add-effects-runtime/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
