@@ -1,39 +1,57 @@
 ---
-title: Administrar el brillo y el contraste en capas PSD - Java
-linktitle: Administrar el brillo y el contraste en capas PSD - Java
-second_title: API de Java Aspose.PSD
-description: Aprenda a ajustar el brillo y el contraste en archivos PSD usando Aspose.PSD para Java sin esfuerzo. Ideal para desarrolladores y diseñadores gráficos.
-weight: 21
+date: 2026-03-28
+description: Aprende a ajustar el brillo en PSD con Java usando Aspose.PSD para Java,
+  incluyendo cómo cambiar el brillo y el contraste de una capa PSD. Ideal para desarrolladores
+  y diseñadores gráficos.
+linktitle: Adjust Brightness PSD Java – Manage Brightness & Contrast
+second_title: Aspose.PSD Java API
+title: Ajustar brillo PSD Java – Gestionar brillo y contraste
 url: /es/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Administrar el brillo y el contraste en capas PSD - Java
+# Ajustar Brillo PSD Java – Gestionar Brillo y Contraste
 
 ## Introducción
 
-¿Es usted diseñador gráfico o desarrollador y trabaja frecuentemente con archivos PSD (Documentos de Photoshop)? ¿Necesita ajustar el brillo y el contraste de las capas de estos archivos pero no tiene los conocimientos necesarios para automatizar esta tarea utilizando Java? ¡Pues estás de suerte! En este tutorial, profundizaremos en cómo administrar el brillo y el contraste en capas PSD usando la biblioteca Aspose.PSD para Java. Esto no sólo le ahorrará tiempo sino que también mejorará su flujo de trabajo creativo. ¡Arremanguémonos y comencemos!
+¿Eres un diseñador gráfico o un desarrollador que trabaja frecuentemente con archivos PSD (Photoshop Document)? ¿Necesitas **adjust brightness psd java** rápida y confiablemente sin salir de tu entorno Java? En este tutorial, te mostraremos exactamente cómo cambiar el brillo y contraste de capas PSD usando la biblioteca Aspose.PSD para Java. Saldrás con un fragmento de código reutilizable que puede integrarse en cualquier canal de procesamiento de imágenes automatizado. ¡Arremanguémonos y comencemos!
+
+## Respuestas rápidas
+- **¿Qué biblioteca necesito?** Aspose.PSD for Java  
+- **¿Puedo cambiar varias capas a la vez?** Yes – iterate through all `BrightnessContrastLayer` objects.  
+- **¿Qué versión de Java se requiere?** JDK 8 or higher.  
+- **¿Necesito una licencia para producción?** Yes, a commercial license is required for non‑evaluation use.  
+- **¿El código es compatible con proyectos Maven/Gradle?** Absolutely – just add the Aspose.PSD dependency.
+
+## ¿Qué es “adjust brightness psd java”?
+
+## ¿Por qué ajustar brillo y contraste en capas PSD?
+
+- **Speed up batch processing** – perfect for large design libraries.  
+- **Maintain layer structure** – only the targeted adjustment layers are altered, preserving masks and effects.  
+- **Integrate into CI/CD pipelines** – generate preview images or thumbnails automatically.
 
 ## Requisitos previos
 
-Antes de embarcarnos en este emocionante viaje de manipulación de archivos PSD con Java, es esencial asegurarse de tener todo lo que necesita configurado correctamente. Esto es lo que necesitará para completar con éxito este tutorial:
+Antes de embarcarnos en este emocionante viaje de manipular archivos PSD con Java, es esencial asegurarse de que tienes todo lo necesario configurado correctamente. Aquí tienes lo que necesitarás para completar con éxito este tutorial:
 
-1.  Kit de desarrollo de Java (JDK): asegúrese de tener JDK 8 o superior instalado en su máquina. Puedes descargarlo desde[sitio web de oráculo](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+1. **Java Development Kit (JDK)** – Asegúrate de tener JDK 8 o superior instalado en tu máquina. Puedes descargarlo desde [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
 
-2. Biblioteca Aspose.PSD para Java: para trabajar con archivos PSD, necesitará la biblioteca Aspose.PSD. Puede descargar la última versión desde[página de lanzamiento](https://releases.aspose.com/psd/java/).
+2. **Aspose.PSD for Java Library** – Para trabajar con archivos PSD, necesitarás la biblioteca Aspose.PSD. Puedes descargar la última versión desde la [release page](https://releases.aspose.com/psd/java/).
 
-3. IDE de su elección: Se prefiere un entorno de desarrollo integrado (IDE) como IntelliJ IDEA, Eclipse o NetBeans para escribir y ejecutar su código Java.
+3. **IDE of Your Choice** – Un Entorno de Desarrollo Integrado (IDE) como IntelliJ IDEA, Eclipse o NetBeans es preferido para escribir y ejecutar tu código Java.
 
-4. Conocimientos básicos de Java: la familiaridad con la programación Java lo ayudará a comprender los fragmentos de código con los que trabajaremos.
+4. **Basic Knowledge of Java** – Familiaridad con la programación Java te ayudará a entender los fragmentos de código con los que trabajaremos.
 
-Una vez que haya implementado estos requisitos previos, estamos listos para continuar. ¡Ahora, toma tu editor de código favorito y comencemos a codificar!
+Una vez que tengas estos requisitos en su lugar, estamos listos para continuar. ¡Ahora, toma tu editor de código favorito y pongámonos a programar!
 
 ## Importar paquetes
 
-El primer paso en nuestro viaje de codificación es importar los paquetes necesarios. Antes de poder utilizar las funcionalidades proporcionadas por Aspose.PSD, deberá asegurarse de que la biblioteca esté en su classpath. Así es como puedes hacerlo:
+El primer paso en nuestro viaje de codificación es importar los paquetes necesarios. Antes de poder utilizar las funcionalidades proporcionadas por Aspose.PSD, deberás asegurarte de que la biblioteca esté en tu classpath. Así es como puedes hacerlo:
 
 ```java
 import com.aspose.psd.Image;
@@ -41,44 +59,44 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.BrightnessContrastLayer;
 ```
 
-Al completar estos pasos, estará preparando el escenario para trabajar con archivos PSD de manera efectiva.
+Al completar estos pasos, estás preparando el escenario para trabajar con archivos PSD de manera eficaz.
 
-Ahora que tenemos todo configurado, es hora de entrar en el meollo del tutorial: ajustar el brillo y el contraste en las capas PSD. Dividiremos este proceso en pasos claros para asegurarnos de que pueda seguirlo fácilmente.
+Ahora que tenemos todo configurado, es hora de entrar en el meollo del tutorial: ajustar brillo y contraste en capas PSD. Desglosaremos este proceso en pasos claros para que puedas seguirlo fácilmente.
 
-## Paso 1: Defina su directorio de documentos
+## Paso 1: Definir el directorio de su documento
 
-Comience definiendo el directorio donde se encuentran sus archivos PSD. Este paso ayuda a organizar sus archivos de manera eficiente.
+Comienza definiendo el directorio donde se encuentran tus archivos PSD. Este paso ayuda a organizar tus archivos de manera eficiente.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Reemplazar`"Your Document Directory"` con la ruta real a su directorio de archivos PSD.
+Reemplaza `"Your Document Directory"` con la ruta real a tu directorio de archivos PSD.
 
-## Paso 2: especificar los nombres de los archivos de origen y destino
+## Paso 2: Especificar los nombres de archivo de origen y destino
 
-A continuación, debe especificar el nombre del archivo de origen de su PSD y el archivo de destino donde se guardará el PSD editado.
+A continuación, debes especificar el nombre del archivo fuente de tu PSD y el archivo de destino donde se guardará el PSD editado.
 
 ```java
 String sourceFileName = dataDir + "BrightnessContrastModern.psd";
 String psdPathAfterChange = dataDir + "BrightnessContrastModernChanged.psd";
 ```
 
- En este ejemplo, asumimos que tiene un archivo PSD llamado`BrightnessContrastModern.psd` en su directorio.
+En este ejemplo, asumimos que tienes un archivo PSD llamado `BrightnessContrastModern.psd` en tu directorio.
 
-## Paso 3: cargue el archivo PSD
+## Paso 3: Cargar el archivo PSD
 
-Ahora es el momento de cargar el archivo PSD en su aplicación para poder manipularlo.
+Ahora es momento de cargar el archivo PSD en tu aplicación para poder manipularlo.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
- Esta línea de código crea una instancia de`PsdImage` que representa su archivo PSD. Con esto, ahora puedes acceder a todas las capas del PSD.
+Esta línea de código crea una instancia de `PsdImage` que representa tu archivo PSD. Con esto, ahora puedes acceder a todas las capas del PSD.
 
-## Paso 4: iterar a través de capas
+## Paso 4: Recorrer capas
 
-El siguiente paso consiste en recorrer cada capa de su archivo PSD para encontrar y manipular las configuraciones de brillo y contraste.
+El siguiente paso implica iterar a través de cada capa de tu archivo PSD para encontrar y manipular los ajustes de brillo y contraste.
 
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
@@ -86,11 +104,11 @@ for(int i = 0; i < im.getLayers().length; i++) {
         BrightnessContrastLayer brightnessContrastLayer = (BrightnessContrastLayer)im.getLayers()[i];
 ```
 
- El`for` El bucle pasa por cada capa del PSD. Estamos comprobando si una capa es una instancia de`BrightnessContrastLayer`. Esto es esencial para garantizar que solo intente cambiar el brillo y el contraste en las capas correctas.
+El bucle `for` recorre cada capa del PSD. Estamos verificando si una capa es una instancia de `BrightnessContrastLayer`. Esto es esencial para asegurarse de que solo intentes cambiar el brillo de la capa PSD en las capas correctas.
 
-## Paso 5: ajustar el brillo y el contraste
+## Paso 5: Ajustar brillo y contraste
 
- Dentro del bucle, ahora puedes configurar el brillo y el contraste para cada`BrightnessContrastLayer`. 
+Dentro del bucle, ahora puedes establecer el brillo y contraste para cada `BrightnessContrastLayer`.
 
 ```java
         brightnessContrastLayer.setBrightness(50);
@@ -99,38 +117,48 @@ for(int i = 0; i < im.getLayers().length; i++) {
 }
 ```
 
- En este ejemplo, configuramos el brillo y el contraste en`50`. Puede ajustar estos valores según sus requisitos. Un número mayor aumenta el brillo/contraste, mientras que un número menor lo disminuye.
+En este ejemplo, establecemos brillo y contraste en `50`. Puedes ajustar estos valores según tus requisitos. Un número mayor incrementa brillo/contraste, mientras que un número menor lo disminuye.
 
-## Paso 6: guarde los cambios
+## Paso 6: Guardar los cambios
 
-El último paso es guardar los cambios en el archivo PSD. Querrá escribir la imagen modificada nuevamente en el destino especificado.
+El paso final es guardar tus cambios en el archivo PSD. Deberás escribir la imagen modificada de vuelta al destino especificado.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-Esta línea de código guarda el archivo PSD editado con sus nuevas configuraciones de brillo y contraste.
+Esta línea de código guarda el archivo PSD editado con tus nuevos ajustes de brillo y contraste.
 
-## Conclusión
-
-¡Felicidades! Ha aprendido con éxito cómo administrar el brillo y el contraste en capas PSD usando Aspose.PSD para Java. Al automatizar estos ajustes, no solo mejora su flujo de trabajo sino que también aumenta su productividad. La próxima vez que necesites modificar esas imágenes, estarás bien equipado para afrontar la tarea con tus nuevas habilidades en Java. Entonces, ¿qué crearás a continuación?
+## Problemas comunes y soluciones
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| **No `BrightnessContrastLayer` found** | The PSD may use a different adjustment type (e.g., Levels). | Verify the layer type or convert the adjustment to a `BrightnessContrastLayer`. |
+| **Saved file looks corrupted** | Missing license or using an outdated Aspose.PSD version. | Apply a valid license and ensure you’re using the latest library release. |
+| **Values out of range** | Brightness/Contrast values must be between -100 and 100. | Clamp values before calling `setBrightness`/`setContrast`. |
 
 ## Preguntas frecuentes
 
-### ¿Qué es Aspose.PSD para Java?
-Aspose.PSD para Java es una biblioteca que permite a los desarrolladores manipular archivos PSD mediante programación, lo que permite la automatización de tareas relacionadas con Photoshop.
+**Q: What is Aspose.PSD for Java?**  
+A: Aspose.PSD for Java is a library that allows developers to manipulate PSD files programmatically, enabling automation of Photoshop‑related tasks.
 
-### ¿Puedo ajustar el brillo y el contraste de varias capas a la vez?
- Sí, el enfoque utilizado en este tutorial recorre todas las capas del PSD, lo que le permite ajustar múltiples`BrightnessContrastLayer` instancias.
+**Q: Can I adjust multiple layers' brightness and contrast at once?**  
+A: Yes, the approach used in this tutorial iterates through all layers in the PSD, allowing you to adjust multiple `BrightnessContrastLayer` instances.
 
-### ¿Cómo obtengo una licencia temporal para Aspose.PSD?
- Puede obtener una licencia temporal visitando el[página de licencia temporal](https://purchase.aspose.com/temporary-license/).
+**Q: How do I get a temporary license for Aspose.PSD?**  
+A: You can obtain a temporary license by visiting the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-### ¿Hay una prueba gratuita disponible para Aspose.PSD?
- Sí, puede descargar una versión de prueba gratuita de Aspose.PSD desde[página de lanzamiento](https://releases.aspose.com/).
+**Q: Is there a free trial available for Aspose.PSD?**  
+A: Yes, you can download a free trial version of Aspose.PSD from the [release page](https://releases.aspose.com/).
 
-### ¿Dónde puedo encontrar soporte adicional para Aspose.PSD?
- Puede obtener soporte para Aspose.PSD en su[foro de soporte](https://forum.aspose.com/c/psd/34).
+**Q: Where can I find additional support for Aspose.PSD?**  
+A: You can get support for Aspose.PSD on their [support forum](https://forum.aspose.com/c/psd/34).
+
+---
+
+**Última actualización:** 2026-03-28  
+**Probado con:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

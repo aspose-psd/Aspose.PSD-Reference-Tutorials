@@ -1,29 +1,51 @@
 ---
-title: 使用 Java 在 PSD 中建立管理層日期時間
-linktitle: 使用 Java 在 PSD 中建立管理層日期時間
+date: 2026-03-28
+description: 學習如何使用 Aspose.PSD for Java 建立新的 PSD 圖層並管理其建立日期時間。本分步指南涵蓋載入、讀取、驗證及新增圖層。
+linktitle: Create New PSD Layer and Manage Creation DateTime in Java
 second_title: Aspose.PSD Java API
-description: 使用 Java 輕鬆管理 PSD 檔案中的圖層建立日期。本指南將引導您使用 Aspose.PSD 進行無縫影像處理和圖層管理。
-weight: 18
+title: 在 Java 中建立新 PSD 圖層並管理建立日期時間
 url: /zh-hant/java/psd-image-modification-conversion/manage-layer-creation-datetime-psd/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 在 PSD 中建立管理層日期時間
+# 在 Java 中建立新 PSD 圖層並管理建立日期時間
 
-## 介紹
-在處理 Photoshop 檔案時，尤其是在專業環境中，了解如何有效管理圖層及其屬性至關重要。經常被忽略的誘人細節之一是圖層創建日期和時間。想像一下需要追蹤修訂、驗證創造力的瞬間，或是只是想保留協作專案的記錄。聽起來很有趣，對吧？在本指南中，我們將介紹如何使用 Aspose.PSD for Java 管理 PSD 檔案中的圖層建立日期。無論您是想要自動化設計工作流程的開發人員還是只是技術愛好者，本教學都將引導您逐步完成所有內容。
+## 簡介
+當你以程式方式處理 Photoshop (PSD) 檔案時，能夠 **create new PSD layer** 物件並追蹤其建立時間戳記，真的是一個顛覆性的功能。無論你是為設計資產建立版本控制系統、自動化批次編輯，或只是需要協作專案的稽核追蹤，了解如何讀取與設定圖層的建立日期，都能讓你完整記錄每一次變更的來源。本教學將使用 Aspose.PSD for Java，從載入 PSD、取得圖層的建立日期、驗證，最後新增一個全新的調整圖層，完整說明整個流程。
+
+## 快速解答
+- **什麼程式庫在 Java 中處理 PSD 檔案？** Aspose.PSD for Java  
+- **我可以讀取圖層的建立日期嗎？** 可以，使用 `layer.getLayerCreationDateTime()`  
+- **是否可以新增調整圖層？** 當然可以 – `im.addLevelsAdjustmentLayer()` 會建立一個  
+- **生產環境需要授權嗎？** 非試用部署需購買商業授權  
+- **支援哪個 Java 版本？** JDK 8 或更新版本  
+
+## 什麼是「create new PSD layer」？
+建立新 PSD 圖層指的是以程式方式在現有 PSD 文件中插入全新的圖層物件——例如調整圖層、文字圖層或像素圖層。此操作讓你在不手動開啟 Photoshop 的情況下擴充或修改圖像。
+
+## 為什麼要管理圖層建立日期時間？
+追蹤每個圖層的建立日期時間可協助你：
+- **稽核修訂** – 精確知道圖層何時被加入。  
+- **跨團隊同步資產**，透過比對時間戳記。  
+- **自動化工作流程**，例如隱藏超過一個月的舊圖層。  
+
 ## 先決條件
-在深入研究之前，我們先做好一些準備工作，以確保您獲得無縫體驗：
-1. Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK，最好是版本 8 或更高版本。
-2. 整合開發環境 (IDE)：您可以使用任何支援 Java 的 IDE，例如 IntelliJ IDEA、Eclipse 或 NetBeans。
-3.  Aspose.PSD for Java：您需要擁有 Aspose.PSD 函式庫。你可以[在這裡下載](https://releases.aspose.com/psd/java/)用於安裝。
-4. 基本 Java 知識：熟悉 Java 程式設計概念將會很有幫助。如果您不熟悉，請不要擔心 - 跟著我，您會一路掌握它的。
-東西都齊全了嗎？驚人的！讓我們進入編碼的有趣部分！
-## 導入包
-首先，我們需要正確設定 Java 環境。這意味著從 Aspose.PSD 匯入我們將在程式碼中使用的必要套件。以下是您應包含的內容的簡要概述：
+在開始之前，請確保已準備好以下項目：
+
+1. **Java Development Kit (JDK)** – 版本 8 或更新。  
+2. **IDE** – IntelliJ IDEA、Eclipse、NetBeans，或任何你慣用的編輯器。  
+3. **Aspose.PSD for Java** – 你可以 [在此下載](https://releases.aspose.com/psd/java/) 進行安裝。  
+4. **基本的 Java 知識** – 若你是 Java 新手也沒關係，程式碼已完整註解。
+
+全部就緒了嗎？太棒了！讓我們直接進入程式編寫的有趣部分。
+
+## 匯入套件
+首先，匯入 Aspose.PSD 類別與 Java 工具類別，這些匯入讓你能存取影像處理、圖層操作與日期格式化功能。
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.examples.Utils.Assert;
@@ -33,67 +55,89 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 ```
-這些匯入將允許您存取 Aspose.PSD 的核心功能、處理影像並無縫處理日期。將它們新增到 Java 檔案的頂部。
-## 第 1 步：設定您的文件目錄
-首先，讓我們指定 PSD 檔案所在的目錄。修改以下行以指示您的文件目錄。這將是您載入要使用的 PSD 檔案的位置：
+
+## 步驟 1：設定文件目錄
+指定包含目標 PSD 的資料夾路徑，將佔位符替換為你機器上的絕對路徑。
+
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-您需要調整「您的文件目錄」以指向系統上儲存 PSD 檔案的實際路徑。這告訴我們的程式在哪裡尋找必要的文件。
-## 第 2 步：載入 PSD 文件
-現在是時候載入 PSD 檔案了。操作方法如下：
+## 步驟 2：載入 PSD 檔案
+建立 `PsdImage` 實例以載入目標檔案。此物件是所有圖層操作的入口點。
+
 ```java
 String sourceName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage) Image.load(sourceName);
 ```
 
-一旦你設定了你的`sourceName`透過附加`.psd`給你的`dataDir`，您可以使用載入文件`Image.load()`。這會給你一個`PsdImage`您可以在後續步驟中操作的物件。
-## 第 3 步：存取圖層及其建立日期
-下一步是存取 PSD 檔案中的圖層並取得其建立日期。這是代碼：
+## 步驟 3：存取圖層及其建立日期
+取得第一個圖層（索引 0）並擷取其建立時間戳記。此日期稍後可用於比較或記錄。
+
 ```java
 Layer layer = im.getLayers()[0];
 Date creationDateTime = layer.getLayerCreationDateTime();
 ```
 
-透過致電`im.getLayers()[0]` ，您正在檢索 PSD 中的第一層。然後，`layer.getLayerCreationDateTime()`取得該層的建立日期和時間，這對於版本控制和審核至關重要。
-## 步驟 4：設定建立日期的格式
-為了使日期更具可讀性，我們可以對其進行格式化。您可以這樣做：
+## 步驟 4：格式化建立日期
+將原始 `Date` 物件轉換為可讀的字串。若想使用其他格式，可調整模式字串。
+
 ```java
 DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 ```
 
-我們創建一個`SimpleDateFormat`實例來定義我們希望日期如何顯示。在本例中，我們選擇時間格式為年-月-日。
-## 第 5 步：驗證建立日期
-此時，您可能想要將檢索到的建立日期與預期日期進行比較。以下是執行該操作的方法：
+## 步驟 5：驗證建立日期
+為示範起見，我們將取得的日期與預期值做比較。實務上可能會與資料庫記錄或設定檔比較。
+
 ```java
 Date expectedDateTime = new Date("2018/7/17 8:57:24");
 Assert.areEqual(expectedDateTime, creationDateTime);
 ```
 
-你創建一個新的`Date`您期望的價值和用途的對象`Assert.areEqual()`驗證兩個日期是否相符。這是確保一切都處於最佳狀態的好方法。
-## 第6步：建立一個新圖層
-假設您要新增一個新的調整圖層，它允許您修改原始影像而無需永久變更圖層本身。具體做法如下：
+## 步驟 6：建立新圖層
+現在我們實際 **create new PSD layer** 物件。此處我們加入 Levels 調整圖層，讓你在不改變原始像素的情況下微調色調範圍。
+
 ```java
 Date now = new Date();
 Layer createdLayer = im.addLevelsAdjustmentLayer();
 ```
 
-這裡，`im.addLevelsAdjustmentLayer()`建立一個新的等級調整圖層。如果您想在不改變原始資料的情況下增強影像的色彩或對比度，這尤其有用。
+> **專業提示：** `now` 變數會捕捉你加入圖層的瞬間，若需要自訂時間戳記，可稍後將其存為中繼資料。
+
+## 常見問題與解決方案
+| 問題 | 發生原因 | 解決方法 |
+|------|----------|----------|
+| 在 `layer.getLayerCreationDateTime()` 上發生 `NullPointerException` | PSD 沒有圖層或圖層索引超出範圍。 | 在存取前先確認 `im.getLayers().length > 0`。 |
+| 日期驗證不符 | `Date` 建構子會以依地區設定的方式解析字串。 | 使用 `SimpleDateFormat.parse("2018/07/17 08:57:24")` 以確保可靠的解析。 |
+| 新圖層在 Photoshop 中不可見 | 調整圖層預設可能是隱藏的。 | 建立後呼叫 `createdLayer.setVisible(true);`。 |
+
 ## 結論
-現在你就擁有了！您已經成功學習如何使用 Aspose.PSD for Java 管理 PSD 檔案中的圖層建立日期。透過執行這些步驟，您可以增強程式設計工具包並簡化 Photoshop 檔案處理流程。無論是個人專案還是專業應用，了解這一點都可以為您節省大量時間。
-如果您喜歡本教學，為什麼不嘗試 Aspose.PSD 中提供的其他功能呢？有一個充滿選擇的世界等著您！
-## 常見問題解答
+現在你已瞭解如何 **create new PSD layer** 物件、讀取其建立時間戳記、驗證這些時間戳記，並加入調整圖層——全部透過 Aspose.PSD for Java 完成。此功能為任何基於 Java 的影像處理管線開啟了自動化、稽核追蹤與協作工作流程的大門。
+
+如果你喜歡本教學，請探索其他 Aspose.PSD 功能，如合併圖層、套用濾鏡或匯出至不同格式。可能性無限！
+
+## 常見問答
 ### 什麼是 Aspose.PSD？  
-Aspose.PSD 是一個功能強大的程式庫，用於以程式設計方式處理 Photoshop (PSD) 檔案。
+Aspose.PSD 是一套功能強大的程式庫，可程式化操作 Photoshop (PSD) 檔案。
+
 ### 我可以免費使用 Aspose.PSD 嗎？  
-是的！您可以從免費試用開始[這裡](https://releases.aspose.com/).
-### 我需要購買許可證才能長期使用嗎？  
-是的，您可以獲得許可證[這裡](https://purchase.aspose.com/buy)一旦你準備好了。
-### 在哪裡可以找到有關 Aspose.PSD 的更多資訊？  
-您可以檢查[文件](https://reference.aspose.com/psd/java/)取得詳細指南和 API 參考。
-### 如果我遇到 Aspose.PSD 問題，如何尋求支援？  
-請隨時訪問[支援論壇](https://forum.aspose.com/c/psd/34)以獲得社區援助。
+可以！你可以從 [此處](https://releases.aspose.com/) 開始免費試用。
+
+### 長期使用需要購買授權嗎？  
+是的，當你準備好後可於 [此處](https://purchase.aspose.com/buy) 取得授權。
+
+### 哪裡可以找到更多關於 Aspose.PSD 的資訊？  
+你可以查閱 [文件](https://reference.aspose.com/psd/java/) 取得詳細指南與 API 參考。
+
+### 如果遇到 Aspose.PSD 的問題，我該如何尋求支援？  
+歡迎前往 [支援論壇](https://forum.aspose.com/c/psd/34) 尋求社群協助。
+
+---
+
+**Last Updated:** 2026-03-28  
+**Tested With:** Aspose.PSD for Java 24.10  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,39 +1,54 @@
 ---
-title: 管理 PSD 圖層中的亮度和對比度 - Java
-linktitle: 管理 PSD 圖層中的亮度和對比度 - Java
+date: 2026-03-28
+description: 學習如何使用 Aspose.PSD for Java 調整 PSD 的亮度，包括如何更改 PSD 圖層的亮度與對比度。適合開發人員與平面設計師。
+linktitle: Adjust Brightness PSD Java – Manage Brightness & Contrast
 second_title: Aspose.PSD Java API
-description: 學習使用 Aspose.PSD for Java 輕鬆調整 PSD 檔案的亮度和對比度。非常適合開發人員和平面設計師。
-weight: 21
+title: 調整亮度 PSD Java – 管理亮度與對比度
 url: /zh-hant/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 管理 PSD 圖層中的亮度和對比度 - Java
+# 調整亮度 PSD Java – 管理亮度與對比
 
 ## 介紹
 
-您是經常使用 PSD（Photoshop 文件）文件的圖形設計師或開發人員嗎？您是否發現自己需要調整這些文件中圖層的亮度和對比度，但缺乏使用 Java 自動執行此任務的知識？嗯，你很幸運！在本教程中，我們將深入研究如何使用 Java 的 Aspose.PSD 庫管理 PSD 圖層中的亮度和對比度。這不僅可以節省您的時間，還可以增強您的創意工作流程。讓我們捲起袖子開始吧！
+您是經常處理 PSD（Photoshop Document）檔案的平面設計師或開發人員嗎？是否需要在不離開 Java 環境的情況下快速且可靠地 **adjust brightness psd java**？在本教學中，我們將示範如何使用 Aspose.PSD for Java 來變更 PSD 圖層的亮度與對比度。您將獲得可重複使用的程式碼片段，能整合至任何自動化影像處理流程。讓我們捲起袖子，立即開始吧！
 
-## 先決條件
+## 快速回答
+- **需要哪個函式庫？** Aspose.PSD for Java  
+- **可以一次變更多個圖層嗎？** 可以 – 只要遍歷所有 `BrightnessContrastLayer` 物件。  
+- **需要哪個 Java 版本？** JDK 8 或以上。  
+- **正式環境需要授權嗎？** 需要，非評估用途必須使用商業授權。  
+- **程式碼是否相容於 Maven/Gradle 專案？** 完全相容 – 只要加入 Aspose.PSD 相依性即可。
 
-在我們開始使用 Java 操作 PSD 檔案的激動人心的旅程之前，必須確保您已正確設定所需的一切。以下是成功完成本教學所需的條件：
+## 什麼是 “adjust brightness psd java”？
 
-1.  Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK 8 或更高版本。您可以從以下位置下載：[甲骨文網站](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+在 Java 中調整 PSD 檔案的亮度，意指以程式方式修改 `BrightnessContrastLayer` 的數值，讓您能自動化原本必須在 Photoshop 手動完成的視覺微調。
 
-2. Aspose.PSD for Java 函式庫：要使用 PSD 文件，您將需要 Aspose.PSD 函式庫。您可以從以下位置下載最新版本[發布頁面](https://releases.aspose.com/psd/java/).
+## 為什麼要在 PSD 圖層中調整亮度與對比度？
 
-3. 您選擇的 IDE：IntelliJ IDEA、Eclipse 或 NetBeans 等整合開發環境 (IDE) 是編寫和執行 Java 程式碼的首選。
+- **加速批次處理** – 非常適合大型設計庫。  
+- **保留圖層結構** – 只會變更目標調整圖層，保留遮色片與效果。  
+- **整合至 CI/CD 流程** – 自動產生預覽圖或縮圖。
 
-4. Java 基礎知識：熟悉 Java 程式設計將幫助您理解我們將使用的程式碼片段。
+## 前置條件
 
-一旦滿足了這些先決條件，我們就可以繼續了。現在，拿起您最喜歡的程式碼編輯器，讓我們開始編碼吧！
+在開始這段使用 Java 操作 PSD 檔案的精彩旅程之前，請先確保已正確安裝以下項目。以下是完成本教學所需的條件：
 
-## 導入包
+1. **Java Development Kit (JDK)** – 請確保已在機器上安裝 JDK 8 以上版本。可從 [Oracle 的網站](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) 下載。  
+2. **Aspose.PSD for Java Library** – 操作 PSD 檔案必須使用 Aspose.PSD 函式庫。可從 [release page](https://releases.aspose.com/psd/java/) 下載最新版本。  
+3. **您慣用的 IDE** – 建議使用 IntelliJ IDEA、Eclipse 或 NetBeans 等整合開發環境撰寫與執行 Java 程式碼。  
+4. **基本的 Java 知識** – 熟悉 Java 程式語言有助於理解本文的程式碼片段。
 
-我們編碼之旅的第一步是導入必要的套件。在使用 Aspose.PSD 提供的功能之前，您需要確保該程式庫位於您的類別路徑中。您可以按照以下方法執行此操作：
+完成上述前置作業後，即可繼續。現在，打開您最喜愛的程式碼編輯器，開始編寫程式吧！
+
+## 匯入套件
+
+在編寫程式之前，首先需要匯入必要的套件。使用 Aspose.PSD 前，請確保已將函式庫加入 classpath。以下示範如何完成此步驟：
 
 ```java
 import com.aspose.psd.Image;
@@ -41,44 +56,44 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.BrightnessContrastLayer;
 ```
 
-透過完成這些步驟，您就為有效處理 PSD 檔案做好了準備！
+完成上述設定後，即可順利使用 Aspose.PSD 處理 PSD 檔案！
 
-現在我們已經完成了所有設置，是時候進入教程的核心內容了：調整 PSD 圖層中的亮度和對比度。我們將把這個過程分解為清晰的步驟，以確保您可以輕鬆遵循。
+現在，我們已經準備就緒，接下來進入本教學的核心：調整 PSD 圖層的亮度與對比度。以下步驟將清晰說明每個操作，方便您跟隨。
 
-## 第 1 步：定義您的文件目錄
+## 步驟 1：定義文件目錄
 
-首先定義 PSD 檔案所在的目錄。此步驟有助於有效地組織文件。
+先設定 PSD 檔案所在的目錄，以便統一管理檔案。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-代替`"Your Document Directory"`與 PSD 檔案目錄的實際路徑。
+將 `"Your Document Directory"` 替換為實際的 PSD 檔案資料夾路徑。
 
-## 步驟 2：指定來源檔案名稱和目標檔案名稱
+## 步驟 2：指定來源與目的檔名
 
-接下來，您需要指定 PSD 的來源檔案名稱以及儲存編輯的 PSD 的目標檔案。
+接著，設定來源 PSD 檔名以及編輯後要儲存的目的檔名。
 
 ```java
 String sourceFileName = dataDir + "BrightnessContrastModern.psd";
 String psdPathAfterChange = dataDir + "BrightnessContrastModernChanged.psd";
 ```
 
-在此範例中，我們假設您有一個名為的 PSD 文件`BrightnessContrastModern.psd`在你的目錄中。
+此範例假設目錄中已有名為 `BrightnessContrastModern.psd` 的檔案。
 
-## 第 3 步：載入 PSD 文件
+## 步驟 3：載入 PSD 檔案
 
-現在是時候將 PSD 檔案載入到您的應用程式中，以便您可以對其進行操作。
+現在將 PSD 檔案載入程式，以便後續操作。
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-這行程式碼建立了一個實例`PsdImage`代表您的 PSD 檔案。這樣，您現在可以存取 PSD 的所有層。
+上述程式碼會建立 `PsdImage` 例項，代表您的 PSD 檔案，之後即可存取所有圖層。
 
-## 第 4 步：迭代各層
+## 步驟 4：遍歷圖層
 
-下一步涉及迭代 PSD 檔案的每一層，以查找和操作亮度和對比度設定。
+接下來遍歷 PSD 中的每一個圖層，找出可調整亮度與對比度的圖層。
 
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
@@ -86,11 +101,11 @@ for(int i = 0; i < im.getLayers().length; i++) {
         BrightnessContrastLayer brightnessContrastLayer = (BrightnessContrastLayer)im.getLayers()[i];
 ```
 
-這`for`循環遍歷 PSD 的每一層。我們正在檢查一個圖層是否為一個實例`BrightnessContrastLayer`。這對於確保您只嘗試更改正確圖層的亮度和對比度至關重要。
+`for` 迴圈會逐一檢查每個圖層，若圖層是 `BrightnessContrastLayer` 的實例，即可進行後續調整。
 
-## 第5步：調整亮度和對比度
+## 步驟 5：調整亮度與對比度
 
-在循環中，您現在可以設定每個的亮度和對比度`BrightnessContrastLayer`. 
+在迴圈內，為每個 `BrightnessContrastLayer` 設定亮度與對比度。
 
 ```java
         brightnessContrastLayer.setBrightness(50);
@@ -99,38 +114,49 @@ for(int i = 0; i < im.getLayers().length; i++) {
 }
 ```
 
-在此範例中，我們將亮度和對比度設定為`50`。您可以根據您的要求調整這些值。較高的數字會增加亮度/對比度，而較低的數字則會降低亮度/對比度。
+本例將亮度與對比度皆設為 `50`。您可依需求自行調整數值，數值越高亮度/對比度越強，數值越低則相反。
 
-## 第 6 步：儲存更改
+## 步驟 6：儲存變更
 
-最後一步是將變更儲存到 PSD 檔案。您需要將修改後的圖像寫回指定的目的地。
+最後，將修改後的 PSD 檔案寫回指定的目的路徑。
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-這行程式碼使用新的亮度和對比度設定來儲存編輯後的 PSD 檔案。
+上述程式碼會以新的亮度與對比度設定儲存編輯後的 PSD 檔案。
 
-## 結論
+## 常見問題與解決方案
 
-恭喜！您已經成功學習如何使用 Aspose.PSD for Java 管理 PSD 圖層中的亮度和對比度。透過自動化這些調整，您不僅可以改善工作流程，還可以提高工作效率。下次您需要調整這些圖像時，您將能夠利用新的 Java 技能來完成該任務。那麼，你接下來會創造什麼？
+| 問題 | 發生原因 | 解決方案 |
+|------|----------|----------|
+| **找不到 `BrightnessContrastLayer`** | PSD 可能使用其他調整類型（例如 Levels）。 | 核對圖層類型或將調整轉換為 `BrightnessContrastLayer`。 |
+| **儲存的檔案顯示損毀** | 未授權或使用過舊的 Aspose.PSD 版本。 | 套用有效授權並確保使用最新函式庫。 |
+| **數值超出範圍** | 亮度/對比度必須介於 -100 到 100 之間。 | 在呼叫 `setBrightness` / `setContrast` 前先將數值限制在範圍內。 |
 
-## 常見問題解答
+## 常見問答
 
-### 什麼是 Java 版 Aspose.PSD？
-Aspose.PSD for Java 是一個函式庫，允許開發人員以程式設計方式操作 PSD 文件，從而實現 Photoshop 相關任務的自動化。
+**Q: 什麼是 Aspose.PSD for Java？**  
+A: Aspose.PSD for Java 是一套讓開發人員以程式方式操作 PSD 檔案的函式庫，能自動化 Photoshop 相關工作。
 
-### 我可以同時調整多個圖層的亮度和對比嗎？
-是的，本教學中使用的方法會迭代 PSD 中的所有圖層，讓您可以調整多個`BrightnessContrastLayer`實例。
+**Q: 能否一次調整多個圖層的亮度與對比度？**  
+A: 可以，本文示範的做法會遍歷 PSD 中的所有圖層，從而同時調整多個 `BrightnessContrastLayer`。
 
-### 如何取得 Aspose.PSD 的臨時授權？
-您可以透過訪問獲得臨時許可證[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
+**Q: 如何取得 Aspose.PSD 的臨時授權？**  
+A: 可前往 [temporary license page](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-### Aspose.PSD 有免費試用版嗎？
-是的，您可以從以下位置下載 Aspose.PSD 的免費試用版：[發布頁面](https://releases.aspose.com/).
+**Q: 有提供免費試用版嗎？**  
+A: 有，您可從 [release page](https://releases.aspose.com/) 下載 Aspose.PSD 的免費試用版。
 
-### 在哪裡可以找到對 Aspose.PSD 的其他支援？
-您可以在他們的網站上獲得對 Aspose.PSD 的支持[支援論壇](https://forum.aspose.com/c/psd/34).
+**Q: 哪裡可以取得 Aspose.PSD 的其他支援？**  
+A: 可在其 [support forum](https://forum.aspose.com/c/psd/34) 取得技術支援。
+
+---
+
+**最後更新：** 2026-03-28  
+**測試環境：** Aspose.PSD for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

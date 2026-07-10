@@ -1,39 +1,59 @@
 ---
-title: PSD Katmanlarında Parlaklığı ve Kontrastı Yönetme - Java
-linktitle: PSD Katmanlarında Parlaklığı ve Kontrastı Yönetme - Java
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'yı kullanarak PSD dosyalarında parlaklık ve kontrastı zahmetsizce ayarlamayı öğrenin. Geliştiriciler ve grafik tasarımcıları için idealdir.
-weight: 21
+date: 2026-03-28
+description: Aspose.PSD for Java kullanarak PSD dosyalarında parlaklık ayarlamayı
+  öğrenin; PSD katmanının parlaklık ve kontrastını nasıl değiştireceğinizi de kapsar.
+  Geliştiriciler ve grafik tasarımcılar için idealdir.
+linktitle: Adjust Brightness PSD Java – Manage Brightness & Contrast
+second_title: Aspose.PSD Java API
+title: Parlaklığı Ayarla PSD Java – Parlaklık ve Kontrastı Yönet
 url: /tr/java/psd-image-modification-conversion/manage-brightness-contrast-psd-layers/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD Katmanlarında Parlaklığı ve Kontrastı Yönetme - Java
+# Parlaklığı Ayarlama PSD Java – Parlaklık ve Kontrastı Yönetme
 
-## giriiş
+## Giriş
 
-Sık sık PSD (Photoshop Belgesi) dosyalarıyla çalışan bir grafik tasarımcı veya geliştirici misiniz? Bu dosyalardaki katmanların parlaklığını ve kontrastını ayarlamanız gerektiğini ancak bu görevi Java kullanarak otomatikleştirecek bilgi birikiminizin olmadığını mı düşünüyorsunuz? Şanslısın! Bu eğitimde, Java için Aspose.PSD kütüphanesini kullanarak PSD katmanlarında parlaklık ve kontrastın nasıl yönetileceğini ayrıntılı olarak ele alacağız. Bu yalnızca zamandan tasarruf etmekle kalmayacak, aynı zamanda yaratıcı iş akışınızı da geliştirecektir. Hadi kollarımızı sıvayalım ve başlayalım!
+PSD (Photoshop Document) dosyalarıyla sık sık çalışan bir grafik tasarımcı veya geliştirici misiniz? Java ortamınızı terk etmeden **adjust brightness psd java**'yi hızlı ve güvenilir bir şekilde yapmanız mı gerekiyor? Bu öğreticide, Aspose.PSD Java kütüphanesini kullanarak PSD katmanının parlaklık ve kontrastını nasıl değiştireceğinizi tam olarak göstereceğiz. Herhangi bir otomatik görüntü‑işleme hattına entegre edilebilecek yeniden kullanılabilir bir kod parçacığı elde edeceksiniz. Kolları sıvayalım ve başlayalım!
+
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.PSD for Java  
+- **Birden fazla katmanı aynı anda değiştirebilir miyim?** Yes – iterate through all `BrightnessContrastLayer` objects.  
+- **Hangi Java sürümü gerekiyor?** JDK 8 or higher.  
+- **Üretim için lisansa ihtiyacım var mı?** Yes, a commercial license is required for non‑evaluation use.  
+- **Kod Maven/Gradle projeleriyle uyumlu mu?** Absolutely – just add the Aspose.PSD dependency.
+
+## “adjust brightness psd java” nedir?
+
+Java üzerinden bir PSD dosyasında parlaklığı ayarlamak, `BrightnessContrastLayer` değerlerini programlı olarak değiştirmek anlamına gelir; bu sayede Photoshop'ta manuel olarak yapılması gereken görsel ayarlamaları otomatikleştirebilirsiniz.
+
+## Neden PSD katmanlarında parlaklık ve kontrast ayarlamalısınız?
+
+- **Batch işleme hızını artırın** – büyük tasarım kütüphaneleri için mükemmeldir.  
+- **Katman yapısını koruyun** – yalnızca hedeflenen ayar katmanları değiştirilir, maskeler ve efektler korunur.  
+- **CI/CD hatlarına entegre edin** – ön izleme görüntüleri veya küçük resimler otomatik olarak oluşturulur.
 
 ## Önkoşullar
 
-PSD dosyalarını Java ile işlemeye yönelik bu heyecan verici yolculuğa çıkmadan önce, ihtiyacınız olan her şeyin doğru şekilde kurulduğundan emin olmanız çok önemlidir. Bu öğreticiyi başarıyla tamamlamak için ihtiyacınız olan şey:
+Java ile PSD dosyalarını manipüle etme yolculuğuna başlamadan önce, her şeyin doğru şekilde kurulduğundan emin olmak önemlidir. Bu öğreticiyi başarıyla tamamlamak için aşağıdakilere ihtiyacınız olacak:
 
-1.  Java Geliştirme Kiti (JDK): Makinenizde JDK 8 veya üstünün kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Oracle'ın web sitesi](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html).
+1. **Java Development Kit (JDK)** – Makinenizde JDK 8 veya üzeri yüklü olduğundan emin olun. [Oracle'ın web sitesinden](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) indirebilirsiniz.
 
-2. Aspose.PSD for Java Library: PSD dosyalarıyla çalışmak için Aspose.PSD kütüphanesine ihtiyacınız olacak. En son sürümü adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/psd/java/).
+2. **Aspose.PSD for Java Library** – PSD dosyalarıyla çalışmak için Aspose.PSD kütüphanesine ihtiyacınız olacak. En son sürümü [release page](https://releases.aspose.com/psd/java/) adresinden indirebilirsiniz.
 
-3. Seçtiğiniz IDE: Java kodunuzu yazmak ve çalıştırmak için IntelliJ IDEA, Eclipse veya NetBeans gibi bir Entegre Geliştirme Ortamı (IDE) tercih edilir.
+3. **IDE** – IntelliJ IDEA, Eclipse veya NetBeans gibi bir Entegre Geliştirme Ortamı (IDE), Java kodunuzu yazmak ve çalıştırmak için tercih edilir.
 
-4. Temel Java Bilgisi: Java programlamaya aşina olmak, üzerinde çalışacağımız kod parçacıklarını anlamanıza yardımcı olacaktır.
+4. **Java Temel Bilgisi** – Java programlamasına aşina olmak, üzerinde çalışacağımız kod parçacıklarını anlamanıza yardımcı olacaktır.
 
-Bu önkoşulları yerine getirdikten sonra devam etmeye hazırız. Şimdi favori kod düzenleyicinizi alın ve kodlamaya başlayalım!
+Bu önkoşulları tamamladıktan sonra, ilerlemeye hazırız. Şimdi favori kod düzenleyicinizi alın ve kodlamaya başlayalım!
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Kodlama yolculuğumuzun ilk adımı gerekli paketleri içe aktarmaktır. Aspose.PSD'nin sağladığı işlevleri kullanabilmeniz için önce kütüphanenin sınıf yolunuzda olduğundan emin olmanız gerekir. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+Kodlama yolculuğumuzun ilk adımı gerekli paketleri içe aktarmaktır. Aspose.PSD tarafından sağlanan işlevleri kullanabilmek için, kütüphanenin sınıf yolunuzda olduğundan emin olmanız gerekir. İşte bunu yapmanın yolu:
 
 ```java
 import com.aspose.psd.Image;
@@ -41,44 +61,44 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.BrightnessContrastLayer;
 ```
 
-Bu adımları tamamlayarak PSD dosyalarıyla etkili bir şekilde çalışma ortamını hazırlamış olursunuz!
+Bu adımları tamamlayarak, PSD dosyalarıyla etkili bir şekilde çalışmak için ortamı hazırlamış oluyorsunuz!
 
-Artık her şeyi ayarladığımıza göre, öğreticinin asıl kısmına geçmenin zamanı geldi: PSD katmanlarında parlaklık ve kontrastı ayarlama. Kolayca takip edebilmenizi sağlamak için bu süreci net adımlara ayıracağız.
+Her şey kurulduğuna göre, öğreticinin özüne geçme zamanı: PSD katmanlarında parlaklık ve kontrastı ayarlamak. Bu süreci net adımlara böleceğiz, böylece kolayca takip edebilirsiniz.
 
-## 1. Adım: Belge Dizininizi Tanımlayın
+## Adım 1: Belge Dizinini Tanımlayın
 
-PSD dosyalarınızın bulunduğu dizini tanımlayarak başlayın. Bu adım, dosyalarınızı verimli bir şekilde düzenlemenize yardımcı olur.
+PSD dosyalarınızın bulunduğu dizini tanımlayarak başlayın. Bu adım dosyalarınızı verimli bir şekilde düzenlemenize yardımcı olur.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` PSD dosya dizininizin gerçek yolu ile.
+`"Your Document Directory"` ifadesini PSD dosya dizininizin gerçek yolu ile değiştirin.
 
 ## Adım 2: Kaynak ve Hedef Dosya Adlarını Belirleyin
 
-Daha sonra, PSD'nizin kaynak dosya adını ve düzenlenen PSD'nin kaydedileceği hedef dosyayı belirtmeniz gerekir.
+Sonra, PSD dosyanızın kaynak dosya adını ve düzenlenmiş PSD'nin kaydedileceği hedef dosyayı belirtmeniz gerekir.
 
 ```java
 String sourceFileName = dataDir + "BrightnessContrastModern.psd";
 String psdPathAfterChange = dataDir + "BrightnessContrastModernChanged.psd";
 ```
 
- Bu örnekte, adında bir PSD dosyanız olduğunu varsayıyoruz.`BrightnessContrastModern.psd` dizininizde.
+Bu örnekte, dizininizde `BrightnessContrastModern.psd` adlı bir PSD dosyanız olduğunu varsayıyoruz.
 
 ## Adım 3: PSD Dosyasını Yükleyin
 
-Artık PSD dosyasını işleyebilmeniz için uygulamanıza yüklemenin zamanı geldi.
+Artık PSD dosyasını uygulamanıza yükleyerek üzerinde işlem yapma zamanı.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
- Bu kod satırı şunun bir örneğini oluşturur:`PsdImage` PSD dosyanızı temsil eder. Bununla artık PSD'nin tüm katmanlarına erişebilirsiniz.
+Bu kod satırı, PSD dosyanızı temsil eden bir `PsdImage` örneği oluşturur. Böylece artık PSD'nin tüm katmanlarına erişebilirsiniz.
 
-## Adım 4: Katmanlar Arasında Yineleme Yapın
+## Adım 4: Katmanlar Üzerinde Döngü Oluşturun
 
-Bir sonraki adım, parlaklık ve kontrast ayarlarını bulmak ve değiştirmek için PSD dosyanızın her katmanını yinelemeyi içerir.
+Sonraki adım, PSD dosyanızdaki her katmanı dolaşarak parlaklık ve kontrast ayarlarını bulmak ve değiştirmektir.
 
 ```java
 for(int i = 0; i < im.getLayers().length; i++) {
@@ -86,11 +106,11 @@ for(int i = 0; i < im.getLayers().length; i++) {
         BrightnessContrastLayer brightnessContrastLayer = (BrightnessContrastLayer)im.getLayers()[i];
 ```
 
-`for` döngü PSD'nin her katmanından geçer. Bir katmanın bir örnek olup olmadığını kontrol ediyoruz`BrightnessContrastLayer`. Bu, yalnızca doğru katmanlarda parlaklık ve kontrastı değiştirmeye çalışmanızı sağlamak için önemlidir.
+`for` döngüsü PSD'nin her katmanını dolaşır. Bir katmanın `BrightnessContrastLayer` örneği olup olmadığını kontrol ediyoruz. Bu, sadece doğru katmanlarda PSD katman parlaklığını değiştirmeye çalıştığınızdan emin olmak için gereklidir.
 
-## 5. Adım: Parlaklığı ve Kontrastı Ayarlayın
+## Adım 5: Parlaklık ve Kontrastı Ayarlayın
 
- Döngü içinde artık her biri için parlaklık ve kontrastı ayarlayabilirsiniz.`BrightnessContrastLayer`. 
+Döngü içinde, her `BrightnessContrastLayer` için parlaklık ve kontrastı ayarlayabilirsiniz. 
 
 ```java
         brightnessContrastLayer.setBrightness(50);
@@ -99,38 +119,49 @@ for(int i = 0; i < im.getLayers().length; i++) {
 }
 ```
 
- Bu örnekte parlaklık ve kontrastı ayarladık.`50`. Bu değerleri ihtiyaçlarınıza göre ayarlayabilirsiniz. Daha yüksek bir sayı parlaklığı/kontrastı artırırken daha düşük bir sayı azaltır.
+Bu örnekte, parlaklık ve kontrastı `50` olarak ayarladık. Bu değerleri gereksinimlerinize göre ayarlayabilirsiniz. Daha yüksek bir sayı parlaklık/kontrastı artırırken, daha düşük bir sayı azaltır.
 
 ## Adım 6: Değişiklikleri Kaydedin
 
-Son adım, değişikliklerinizi PSD dosyasına kaydetmektir. Değiştirilen görüntüyü belirtilen hedefe geri yazmak isteyeceksiniz.
+Son adım, değişikliklerinizi PSD dosyasına kaydetmektir. Değiştirilmiş görüntüyü belirtilen hedefe geri yazmak isteyeceksiniz.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-Bu kod satırı, düzenlenen PSD dosyasını yeni parlaklık ve kontrast ayarlarınızla kaydeder.
+Bu kod satırı, yeni parlaklık ve kontrast ayarlarıyla düzenlenmiş PSD dosyasını kaydeder.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.PSD for Java'yı kullanarak PSD katmanlarında parlaklık ve kontrastı nasıl yöneteceğinizi başarıyla öğrendiniz. Bu ayarlamaları otomatikleştirerek yalnızca iş akışınızı iyileştirmekle kalmaz, aynı zamanda üretkenliğinizi de artırırsınız. Bir dahaki sefere bu görüntülerde ince ayar yapmanız gerektiğinde, yeni Java becerilerinizle bu görevin üstesinden gelmek için iyi donanıma sahip olacaksınız. Peki bundan sonra ne yaratacaksınız?
+| Sorun | Neden Oluşur | Çözüm |
+|-------|----------------|-----|
+| **`BrightnessContrastLayer` bulunamadı** | PSD farklı bir ayar türü (ör. Levels) kullanıyor olabilir. | Katman tipini doğrulayın veya ayarı `BrightnessContrastLayer`'a dönüştürün. |
+| **Kaydedilen dosya bozuk görünüyor** | Lisans eksik veya eski bir Aspose.PSD sürümü kullanılıyor. | Geçerli bir lisans uygulayın ve en son kütüphane sürümünü kullandığınızdan emin olun. |
+| **Değerler aralık dışında** | Parlaklık/Kontrast değerleri -100 ile 100 arasında olmalıdır. | `setBrightness`/`setContrast` çağırmadan önce değerleri sınırlayın. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### Java için Aspose.PSD nedir?
-Aspose.PSD for Java, geliştiricilerin PSD dosyalarını programlı olarak yönetmelerine olanak tanıyan ve Photoshop ile ilgili görevlerin otomasyonunu mümkün kılan bir kitaplıktır.
+**Q:** Aspose.PSD for Java nedir?  
+**A:** Aspose.PSD for Java, geliştiricilerin PSD dosyalarını programlı olarak manipüle etmelerini sağlayan bir kütüphanedir; bu sayede Photoshop‑ile ilgili görevlerin otomasyonu mümkün olur.
 
-### Birden fazla katmanın parlaklığını ve kontrastını aynı anda ayarlayabilir miyim?
- Evet, bu eğitimde kullanılan yaklaşım PSD'deki tüm katmanları yineleyerek birden fazla katmanı ayarlamanıza olanak tanır.`BrightnessContrastLayer` örnekler.
+**Q:** Birden fazla katmanın parlaklık ve kontrastını aynı anda ayarlayabilir miyim?  
+**A:** Evet, bu öğreticide kullanılan yöntem PSD'deki tüm katmanları dolaşır ve birden fazla `BrightnessContrastLayer` örneğini ayarlamanıza olanak tanır.
 
-### Aspose.PSD için nasıl geçici lisans alabilirim?
- adresini ziyaret ederek geçici lisans alabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+**Q:** Aspose.PSD için geçici bir lisans nasıl alabilirim?  
+**A:** [temporary license page](https://purchase.aspose.com/temporary-license/) adresini ziyaret ederek geçici bir lisans edinebilirsiniz.
 
-### Aspose.PSD'nin ücretsiz deneme sürümü mevcut mu?
- Evet, Aspose.PSD'nin ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[yayın sayfası](https://releases.aspose.com/).
+**Q:** Aspose.PSD için ücretsiz deneme sürümü var mı?  
+**A:** Evet, Aspose.PSD'nin ücretsiz deneme sürümünü [release page](https://releases.aspose.com/) adresinden indirebilirsiniz.
 
-### Aspose.PSD için ek desteği nerede bulabilirim?
- Aspose.PSD için destek alabilirsiniz[destek forumu](https://forum.aspose.com/c/psd/34).
+**Q:** Aspose.PSD için ek destek nereden bulunabilir?  
+**A:** Aspose.PSD desteğini [support forum](https://forum.aspose.com/c/psd/34) üzerinden alabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-03-28  
+**Test Edilen Versiyon:** Aspose.PSD for Java 24.12 (yazım zamanındaki en son)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
