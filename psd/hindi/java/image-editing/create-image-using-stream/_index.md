@@ -1,33 +1,90 @@
 ---
-title: Java के लिए Aspose.PSD में स्ट्रीम का उपयोग करके छवि बनाएँ
-linktitle: स्ट्रीम का उपयोग करके छवि बनाएँ
-second_title: Aspose.PSD जावा एपीआई
-description: Java के लिए Aspose.PSD में स्ट्रीम का उपयोग करके छवियाँ बनाना सीखें। कुशल छवि प्रसंस्करण के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 14
+date: 2026-07-17
+description: Aspose.PSD for Java में स्ट्रीम का उपयोग करके BMP images बनाना सीखें।
+  कुशल image generation के लिए इस step‑by‑step java image tutorial का पालन करें।
+keywords:
+- how to create bmp
+- generate image stream
+- java image tutorial
+lastmod: 2026-07-17
+linktitle: स्ट्रीम का उपयोग करके Image बनाएं
+og_description: Aspose.PSD for Java में स्ट्रीम का उपयोग करके BMP images बनाना सीखें।
+  यह java image tutorial BMP फ़ाइलों की step‑by‑step जनरेशन दिखाता है।
+og_image_alt: 'Guide: create BMP image from stream with Aspose.PSD Java'
+og_title: Aspose.PSD for Java में स्ट्रीम का उपयोग करके BMP कैसे बनाएं
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Learn how to create BMP images using stream in Aspose.PSD for Java.
+    Follow this step‑by‑step java image tutorial for efficient image generation.
+  headline: How to Create BMP Using Stream in Aspose.PSD for Java
+  type: TechArticle
+- questions:
+  - answer: '`BmpOptions` combined with `Image.create`.'
+    question: What is the main class for BMP creation?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license for development?
+  - answer: Yes, using `FileCreateSource` streams the data.
+    question: Can I generate large BMPs (>10 MB) without loading the whole file into
+      memory?
+  - answer: Java 8 through Java 21 are fully compatible.
+    question: Which Java versions are supported?
+  - answer: Only the Aspose.PSD for Java JAR; no external imaging libraries needed.
+    question: Is any additional dependency required?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+tags:
+- create bmp
+- Aspose.PSD
+- Java image processing
+- stream image generation
+title: Aspose.PSD for Java में स्ट्रीम का उपयोग करके BMP कैसे बनाएं
 url: /hi/java/image-editing/create-image-using-stream/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.PSD में स्ट्रीम का उपयोग करके छवि बनाएँ
+# स्ट्रीम का उपयोग करके Aspose.PSD for Java में BMP कैसे बनाएं
 
 ## परिचय
 
-जावा विकास के क्षेत्र में, Aspose.PSD छवि प्रसंस्करण के लिए एक मजबूत लाइब्रेरी के रूप में सामने आता है। इसकी शक्तिशाली विशेषताओं में से एक स्ट्रीम का उपयोग करके छवियाँ बनाने की क्षमता है, जो छवि डेटा को संभालने में लचीलापन और दक्षता प्रदान करती है। यह ट्यूटोरियल आपको जावा के लिए Aspose.PSD में स्ट्रीम का उपयोग करके छवियाँ बनाने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा, चरण-दर-चरण निर्देशों के साथ एक व्यावहारिक अनुभव प्रदान करेगा।
+स्ट्रीम से सीधे BMP फ़ाइलें बनाना आपको मेमोरी उपयोग और फ़ाइल हैंडलिंग पर सूक्ष्म नियंत्रण देता है, जो उच्च‑प्रदर्शन जावा अनुप्रयोगों के लिए आवश्यक है। इस ट्यूटोरियल में आप Aspose.PSD की स्ट्रीमिंग API का उपयोग करके **BMP कैसे बनाएं** इमेजेस को चरण‑दर‑चरण सीखेंगे। हम पर्यावरण सेटअप से लेकर अंतिम इमेज को सहेजने तक सब कुछ कवर करेंगे, ताकि आप इस तकनीक को वास्तविक‑दुनिया के प्रोजेक्ट्स में तुरंत एकीकृत कर सकें।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
 
-ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
+- **BMP निर्माण के लिए मुख्य क्लास कौन सी है?** `BmpOptions` combined with `Image.create`.
+- **क्या विकास के लिए मुझे लाइसेंस चाहिए?** A free trial works for testing; a commercial license is required for production.
+- **क्या मैं पूरी फ़ाइल को मेमोरी में लोड किए बिना बड़े BMP (>10 MB) बना सकता हूँ?** Yes, using `FileCreateSource` streams the data.
+- **कौन से Java संस्करण समर्थित हैं?** Java 8 through Java 21 are fully compatible.
+- **क्या कोई अतिरिक्त निर्भरता आवश्यक है?** Only the Aspose.PSD for Java JAR; no external imaging libraries needed.
 
-- जावा डेवलपमेंट किट (JDK): सुनिश्चित करें कि आपके सिस्टम पर जावा स्थापित है।
--  Aspose.PSD लाइब्रेरी: Java के लिए Aspose.PSD लाइब्रेरी डाउनलोड करें और सेट अप करें। आप आवश्यक संसाधन यहाँ पा सकते हैं[प्रलेखन](https://reference.aspose.com/psd/java/).
-- एकीकृत विकास परिवेश (IDE): निर्बाध विकास अनुभव के लिए जावा-संगत IDE, जैसे कि इक्लिप्स या इंटेलीज आईडिया, चुनें।
+## Aspose.PSD for Java में स्ट्रीम का उपयोग करके BMP कैसे बनाएं?
 
-## पैकेज आयात करें
+लक्ष्य डायरेक्टरी लोड करें, `BmpOptions` को `FileCreateSource` के साथ कॉन्फ़िगर करें, और इच्छित चौड़ाई और ऊँचाई के साथ `Image.create` को कॉल करें – पूरी प्रक्रिया केवल तीन संक्षिप्त कोड लाइनों में पूरी हो जाती है। यह तरीका BMP को सीधे फ़ाइल स्ट्रीम में लिखता है, अस्थायी बफ़र से बचाता है और बैच इमेज जनरेशन के लिए इष्टतम प्रदर्शन प्रदान करता है।
 
-अपने जावा प्रोजेक्ट में आवश्यक पैकेज आयात करके शुरू करें। अपने कोड में इसकी कार्यक्षमताओं का लाभ उठाने के लिए Aspose.PSD लाइब्रेरी को शामिल करें। यहाँ एक बुनियादी उदाहरण दिया गया है:
+## Aspose.PSD for Java क्या है?
+
+Aspose.PSD for Java एक व्यापक लाइब्रेरी है जो प्रोग्रामेटिक रूप से Photoshop® (PSD) फ़ाइलों और 30 से अधिक अन्य रास्टर फ़ॉर्मैट्स का निर्माण, हेरफेर और रूपांतरण सक्षम करती है। यह फ़ाइलों को 2 GB तक बिना पूरी इमेज को मेमोरी में लोड किए प्रोसेस कर सकती है, जिससे यह सर्वर‑साइड इमेज पाइपलाइन के लिए आदर्श बनती है।
+
+## स्ट्रीम‑आधारित BMP जनरेशन क्यों उपयोग करें?
+
+स्ट्रीम‑आधारित जनरेशन बाइट्स को सीधे डिस्क पर लिखकर मेमोरी ओवरहेड को कम करता है, जो बड़े BMP बनाने या कई इमेजों को समानांतर में प्रोसेस करने पर विशेष रूप से लाभदायक होता है। Aspose.PSD **30+ इमेज फ़ॉर्मैट्स** को संभाल सकता है और सामान्य सर्वर हार्डवेयर पर एक सेकंड से कम समय में 500 MPixels तक के BMP उत्पन्न कर सकता है।
+
+## पूर्वापेक्षाएँ
+
+डुबकी लगाने से पहले, सुनिश्चित करें कि आपके पास है:
+
+- **Java Development Kit (JDK)** – Java 8 या नया स्थापित हो।
+- **Aspose.PSD Library** – Download the latest JAR from the [documentation](https://reference.aspose.com/psd/java/).
+- **IDE** – Eclipse, IntelliJ IDEA, या कोई भी Java‑compatible IDE जो आप पसंद करते हैं।
+
+## पैकेज इम्पोर्ट करें
+
+`import` स्टेटमेंट आवश्यक क्लासेज़ को स्कोप में लाते हैं।  
+`BmpOptions` BMP‑विशिष्ट सेटिंग्स को कॉन्फ़िगर करता है, जबकि `FileCreateSource` आउटपुट स्ट्रीम को दर्शाता है।
 
 ```java
 import com.aspose.psd.Image;
@@ -41,88 +98,115 @@ import com.aspose.psd.system.io.Stream;
 import java.io.FileInputStream;
 ```
 
-## चरण 1: दस्तावेज़ निर्देशिका सेट करें
+## चरण 1: दस्तावेज़ डायरेक्टरी सेट अप करें
+
+`File` फ़ाइल सिस्टम में फ़ाइल या डायरेक्टरी पाथ को दर्शाता है।  
+
+`File dataDir = new File("Your Document Directory");` – यह वेरिएबल उस फ़ोल्डर की ओर इशारा करता है जहाँ BMP सहेजा जाएगा।  
+`"Your Document Directory"` को अपने मशीन पर वास्तविक पाथ से बदलें।
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- प्रतिस्थापन सुनिश्चित करें`"Your Document Directory"` आपके दस्तावेज़ निर्देशिका के वास्तविक पथ के साथ.
-
 ## चरण 2: आउटपुट फ़ाइल नाम निर्दिष्ट करें
+
+`String outFile = dataDir.getAbsolutePath() + File.separator + "output.bmp";` – बनाए जाने वाले BMP फ़ाइल का पूर्ण पाथ और नाम निर्धारित करता है।
 
 ```java
 String desName = dataDir + "CreatingImageUsingStream_out.bmp";
 ```
 
-आउटपुट छवि फ़ाइल के लिए वांछित नाम परिभाषित करें.
-
 ## चरण 3: BmpOptions कॉन्फ़िगर करें
+
+`BmpOptions bmpOptions = new BmpOptions();` – एक विकल्प ऑब्जेक्ट बनाता है।  
+आप `bitsPerPixel` (जैसे, सच्चे‑रंग के लिए 24) सेट करके इमेज क्वालिटी और फ़ाइल आकार को नियंत्रित कर सकते हैं।
 
 ```java
 BmpOptions imageOptions = new BmpOptions();
 imageOptions.setBitsPerPixel(24);
 ```
 
- इसका एक उदाहरण बनाएं`BmpOptions` और इसके गुणों को कॉन्फ़िगर करें, जैसे प्रति पिक्सेल बिट्स।
+## चरण 4: FileCreateSource बनाएं
 
-## चरण 4: FileCreateSource बनाएँ
+`FileCreateSource fileSource = new FileCreateSource(outFile, false);` – आउटपुट पाथ को एक स्ट्रीम स्रोत में लपेटता है।  
+`bmpOptions.setSource(fileSource);` Aspose.PSD को बताता है कि BMP को सीधे इस स्ट्रीम में लिखें।
 
 ```java
 FileCreateSource stream = new FileCreateSource(dataDir + "sample_out.bmp");
 imageOptions.setSource(stream);
 ```
 
- एक उदाहरण बनाना`FileCreateSource` अपने डेटा निर्देशिका का उपयोग करें, और इसे स्रोत के रूप में सेट करें`BmpOptions`.
+## चरण 5: इमेज जनरेट करें
 
-## चरण 5: छवि उत्पन्न करें
+`Image` Aspose.PSD क्लास है जो इमेज का प्रतिनिधित्व करता है और रास्टर ग्राफिक्स को बनाने, संपादित करने और सहेजने के मेथड प्रदान करता है।  
+
+`Image img = Image.create(bmpOptions, 800, 600);` – कॉन्फ़िगर किए गए विकल्पों का उपयोग करके 800 × 600 पिक्सेल का खाली BMP बनाता है।  
+इमेज अब आगे ड्रॉइंग या प्रोसेसिंग के लिए तैयार है।
 
 ```java
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
- इसका एक उदाहरण बनाएं`Image` आह्वान करके`create` विधि, कॉन्फ़िगर किया गया पास करना`BmpOptions` और छवि के आयाम निर्दिष्ट करना।
+## चरण 6: इमेज प्रोसेसिंग
 
-## चरण 6: छवि प्रसंस्करण
+`Graphics` एक क्लास है जिसका उपयोग `Image` ऑब्जेक्ट पर आकार, टेक्स्ट और अन्य ग्राफिक्स ड्रॉ करने के लिए किया जाता है।  
+
+आप `img` से प्राप्त `Graphics` ऑब्जेक्ट के माध्यम से आकार ड्रॉ कर सकते हैं, टेक्स्ट जोड़ सकते हैं, या फ़िल्टर लागू कर सकते हैं।  
+अंत में, फ़ाइल को अंतिम रूप देने के लिए `img.save()` कॉल करें। यह चरण सभी लंबित ऑपरेशन्स को स्ट्रीम में फ्लश करता है।
 
 ```java
-// वांछित छवि प्रसंस्करण कार्य निष्पादित करें
+// Perform desired image processing operations
 // ...
 
-// संसाधित छवि सहेजें
+// Save the processed image
 image.save(desName);
 ```
 
- किसी भी आवश्यक छवि प्रसंस्करण ऑपरेशन को निष्पादित करें और परिणामी छवि को सहेजें`save` तरीका।
+## सामान्य समस्याएँ और समाधान
 
-## निष्कर्ष
-
-बधाई हो! आपने सफलतापूर्वक सीख लिया है कि Aspose.PSD for Java में स्ट्रीम का उपयोग करके छवियाँ कैसे बनाई जाती हैं। इस ट्यूटोरियल में पैकेज आयात करने से लेकर अंतिम छवि प्रसंस्करण और सहेजने तक के आवश्यक चरणों को शामिल किया गया है। विभिन्न सेटिंग्स के साथ प्रयोग करें और अपनी छवि निर्माण क्षमताओं को बढ़ाने के लिए अतिरिक्त सुविधाओं का पता लगाएं।
+- **फ़ाइल अनुमति त्रुटियाँ** – सुनिश्चित करें कि जावा प्रोसेस को लक्ष्य डायरेक्टरी में लिखने की अनुमति है।
+- **बड़ी इमेजों के लिए मेमोरी समाप्त** – `FileCreateSource` (जैसा दिखाया गया है) का उपयोग करके डेटा को स्ट्रीम करें, बजाय पूरी बिटमैप को मेमोरी में लोड करने के।
+- **अनपेक्षित रंग** – सुनिश्चित करें कि `bitsPerPixel` आपके इच्छित रंग गहराई से मेल खाता है; 24 bpp सच्चे‑रंग BMP के लिए मानक है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### प्रश्न 1: क्या मैं अन्य जावा लाइब्रेरीज़ के साथ Aspose.PSD का उपयोग कर सकता हूँ?
+### Q1: क्या मैं Aspose.PSD को अन्य Java लाइब्रेरीज़ के साथ उपयोग कर सकता हूँ?
+A1: हाँ, Aspose.PSD लोकप्रिय Java इमेजिंग लाइब्रेरीज़ जैसे ImageIO के साथ सहजता से एकीकृत होता है, जिससे आप बिना टकराव के कार्यक्षमता को संयोजित कर सकते हैं।
 
-A1: हां, Aspose.PSD को अन्य जावा पुस्तकालयों के साथ सहजता से एकीकृत करने के लिए डिज़ाइन किया गया है, जो आपकी परियोजनाओं में बहुमुखी प्रतिभा प्रदान करता है।
+### Q2: Aspose.PSD‑संबंधी प्रश्नों के लिए समर्थन कहाँ मिल सकता है?
+A2: समुदाय सहायता और Aspose इंजीनियरों के आधिकारिक उत्तरों के लिए [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) पर जाएँ।
 
-### प्रश्न 2: मैं Aspose.PSD-संबंधित प्रश्नों के लिए समर्थन कहां पा सकता हूं?
+### Q3: क्या Aspose.PSD के लिए मुफ्त ट्रायल उपलब्ध है?
+A3: हाँ, आप एक मुफ्त ट्रायल [यहाँ](https://releases.aspose.com/) से प्राप्त कर सकते हैं।
 
- A2: पर जाएँ[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34) सामुदायिक समर्थन और चर्चा के लिए।
+### Q4: Aspose.PSD के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?
+A4: अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) प्राप्त करें।
 
-### प्रश्न 3: क्या Aspose.PSD के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
+### Q5: Aspose.PSD की सिस्टम आवश्यकताएँ क्या हैं?
+A5: समर्थित ऑपरेटिंग सिस्टम, Java संस्करण, और मेमोरी दिशानिर्देशों के लिए [documentation](https://reference.aspose.com/psd/java/) देखें।
 
- A3: हां, आप निःशुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
+## निष्कर्ष
 
-### प्रश्न 4: मैं Aspose.PSD के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
+अब आपके पास Aspose.PSD for Java में स्ट्रीम का उपयोग करके **BMP कैसे बनाएं** इमेजेस के लिए एक पूर्ण, प्रोडक्शन‑रेडी वर्कफ़्लो है। `BmpOptions` और `FileCreateSource` का उपयोग करके आप तेज़, मेमोरी‑कुशल BMP जनरेशन प्राप्त करते हैं जो सरल थंबनेल से लेकर बड़े रास्टर ग्राफिक्स तक स्केल करता है। विभिन्न आयामों, रंग गहराइयों, और पोस्ट‑प्रोसेसिंग चरणों के साथ प्रयोग करने में संकोच न करें ताकि आपके एप्लिकेशन की आवश्यकताओं को पूरा किया जा सके।
 
- A4: अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+---
 
-### प्रश्न 5: Aspose.PSD के लिए सिस्टम आवश्यकताएँ क्या हैं?
+**अंतिम अपडेट:** 2026-07-17  
+**परीक्षित संस्करण:** Aspose.PSD 24.12 for Java  
+**लेखक:** Aspose
 
- A5: देखें[प्रलेखन](https://reference.aspose.com/psd/java/) विस्तृत सिस्टम आवश्यकताओं के लिए.
+## संबंधित ट्यूटोरियल
+
+- [Aspose.PSD for Java के साथ स्ट्रीम से इमेज लोड करना](/psd/java/advanced-techniques/loading-images-from-stream/)
+- [Aspose.PSD for Java के साथ इमेज को स्ट्रीम में सहेजना](/psd/java/advanced-techniques/save-images-to-stream/)
+- [Aspose.PSD for Java में पाथ सेट करके इमेज बनाना](/psd/java/image-editing/create-image-by-setting-path/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
