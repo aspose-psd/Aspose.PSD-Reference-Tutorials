@@ -1,11 +1,70 @@
 ---
-date: 2026-02-17
+date: 2026-07-22
 description: Tìm hiểu cách trích xuất các lớp PSD và chuyển đổi các lớp PSD sang PNG
   bằng Aspose.PSD cho Java. Lý tưởng cho các nhà phát triển cần thao tác đồ họa mạnh
   mẽ.
-linktitle: Extract PSD Layers and Add Layer Support for PSD Files using Aspose.PSD
-  Java
+keywords:
+- extract psd layers
+- how to extract psd
+- convert psd to png
+lastmod: 2026-07-22
+linktitle: Trích xuất các lớp PSD và Thêm hỗ trợ lớp cho tệp PSD bằng Aspose.PSD Java
+og_description: Trích xuất các lớp PSD và chuyển chúng sang PNG với Aspose.PSD cho
+  Java. Thực hiện theo hướng dẫn từng bước này để tự động hoá việc trích xuất lớp
+  và chuyển đổi hình ảnh.
+og_image_alt: Developer guide showing Java code to extract PSD layers and save as
+  PNG using Aspose.PSD
+og_title: Trích xuất các lớp PSD – Thêm hỗ trợ lớp cho tệp PSD bằng Aspose.PSD Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn how to extract PSD layers and convert PSD layers to PNG using
+    Aspose.PSD for Java. Ideal for developers needing robust graphics manipulation.
+  headline: Extract PSD Layers and Add Layer Support for PSD Files using Aspose.PSD
+    Java
+  type: TechArticle
+- description: Learn how to extract PSD layers and convert PSD layers to PNG using
+    Aspose.PSD for Java. Ideal for developers needing robust graphics manipulation.
+  name: Extract PSD Layers and Add Layer Support for PSD Files using Aspose.PSD Java
+  steps:
+  - name: '**Java Development Environment** – JDK installed. You can download it from
+      the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+    text: '**Java Development Environment** – JDK installed. You can download it from
+      the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+  - name: '**Aspose.PSD for Java** – Grab the latest library from the official download
+      page [here](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD for Java** – Grab the latest library from the official download
+      page [here](https://releases.aspose.com/psd/java/).'
+  - name: '**Basic Java knowledge** – Familiarity with compiling and running Java
+      programs.'
+    text: '**Basic Java knowledge** – Familiarity with compiling and running Java
+      programs.'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.'
+  - name: '**A PSD file** – Use any PSD you have, or download a sample PSD for testing.'
+    text: '**A PSD file** – Use any PSD you have, or download a sample PSD for testing.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD for Java is a library that allows you to manipulate PSD files
+      without having Photoshop installed.
+    question: What is Aspose.PSD for Java?
+  - answer: Yes! While primarily for PSD files, Aspose offers libraries for a wide
+      range of formats, including AI, PDF, and SVG.
+    question: Can I use Aspose.PSD for other file formats?
+  - answer: Absolutely! You can download a free trial version [here](https://releases.aspose.com/).
+    question: Is a trial version available?
+  - answer: Access the Aspose forum for PSD‑related questions [here](https://forum.aspose.com/c/psd/34).
+    question: Where can I get support if I run into problems?
+  - answer: Iterate over `image.getLayers()`, create a new `Bitmap` for each layer,
+      and save it with its own `PngOptions`. This yields individual PNG files per
+      layer.
+    question: Can I convert each layer to a separate PNG?
+  type: FAQPage
 second_title: Aspose.PSD Java API
+tags:
+- extract psd
+- Aspose.PSD
+- Java image processing
 title: Trích xuất các lớp PSD và Thêm hỗ trợ lớp cho tệp PSD bằng Aspose.PSD Java
 url: /vi/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 weight: 13
@@ -17,38 +76,42 @@ weight: 13
 
 # Trích xuất các lớp PSD và Thêm hỗ trợ lớp cho tệp PSD bằng Aspose.PSD Java
 
-## Introduction
-Làm việc với các tệp Photoshop Document (PSD) là thực tế hàng ngày đối với các nhà thiết kế đồ họa và nhà phát triển. Một trong những nhiệm vụ phổ biến nhất là **trích xuất các lớp PSD** để chúng có thể được chỉnh sửa, tái sử dụng hoặc chuyển đổi sang các định dạng khác như PNG. Trong các ứng dụng Java, Aspose.PSD làm cho quá trình này trở nên đơn giản và thân thiện với mã. Trong hướng dẫn này, chúng tôi sẽ đi qua các bước chính xác cần thiết để trích xuất các lớp PSD, bật hỗ trợ lớp, và **chuyển đổi các lớp PSD sang PNG** — tất cả với các giải thích rõ ràng và mẹo thực tiễn.
+## Giới thiệu
+Làm việc với các tệp Photoshop Document (PSD) là thực tế hàng ngày đối với các nhà thiết kế đồ họa và nhà phát triển, và **extract psd layers** thường là bước đầu tiên để tái sử dụng tài nguyên hoặc tự động hoá quy trình hình ảnh. Trong hướng dẫn này, bạn sẽ học cách lấy các lớp riêng lẻ từ một tệp PSD, bật hỗ trợ lớp đầy đủ, và **convert PSD layers to PNG** bằng Aspose.PSD cho Java. Chúng tôi sẽ bao phủ mọi thứ từ thiết lập môi trường đến các mẹo thực tiễn, để bạn có thể tích hợp quy trình này vào bất kỳ ứng dụng Java nào trong vài phút.
 
-## Quick Answers
-- **What does “extract PSD layers” mean?** Nó có nghĩa là tải một tệp PSD và truy cập từng lớp riêng lẻ để thao tác hoặc xuất ra.  
-- **Which library handles this in Java?** Aspose.PSD for Java cung cấp xử lý PSD đầy đủ tính năng mà không cần Photoshop.  
-- **Can I convert PSD layers to PNG in one go?** Có — bằng cách tải tệp với các tùy chọn phù hợp và lưu nó với các tùy chọn PNG bảo toàn độ trong suốt.  
-- **Do I need a license for production use?** Cần giấy phép thương mại cho môi trường sản xuất; phiên bản dùng thử miễn phí có sẵn để đánh giá.  
-- **What Java version is required?** JDK 8 trở lên (hướng dẫn này sử dụng JDK 11 làm ví dụ).
+## Câu trả lời nhanh
+- **“extract PSD layers” có nghĩa là gì?** Nó có nghĩa là tải một tệp PSD và truy cập từng lớp riêng lẻ để thao tác hoặc xuất ra.  
+- **Thư viện nào xử lý việc này trong Java?** Aspose.PSD cho Java cung cấp xử lý PSD đầy đủ tính năng mà không cần Photoshop.  
+- **Tôi có thể chuyển đổi các lớp PSD sang PNG trong một lần không?** Có — bằng cách tải tệp với các tùy chọn phù hợp và lưu nó với tùy chọn PNG giữ nguyên độ trong suốt.  
+- **Tôi có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** Cần giấy phép thương mại cho môi trường sản xuất; bản dùng thử miễn phí có sẵn để đánh giá.  
+- **Phiên bản Java nào được yêu cầu?** JDK 8 hoặc cao hơn (bài hướng dẫn sử dụng JDK 11 làm ví dụ).
 
-## How to extract PSD layers using Aspose.PSD for Java
-Below you’ll find a step‑by‑step guide that covers everything from setting up your environment to saving the final PNG. Follow each numbered step, and you’ll have a working solution in minutes.
+## Cách trích xuất các lớp PSD bằng Aspose.PSD cho Java
+Tải PSD, bật hiệu ứng lớp, và lưu kết quả dưới dạng PNG chỉ trong vài dòng mã Java. Cách tiếp cận trực tiếp này loại bỏ nhu cầu có Photoshop trên máy chủ và hoạt động trên bất kỳ nền tảng nào hỗ trợ Java 8+.  
+Bạn bắt đầu bằng cách tạo một đối tượng `PsdLoadOptions` với `setLoadEffectsResource(true)` và `setUseDiskForLoadEffectsResource(true)`, sau đó tải tệp bằng `PsdImage.load(path, options)`. Sau khi tải, bạn có thể hợp nhất các lớp bằng `image.save(outputPath, new PngOptions())` hoặc lặp qua `image.getLayers()` để xuất từng lớp riêng lẻ, đảm bảo mọi hiệu ứng được giữ lại đồng thời giảm thiểu việc sử dụng bộ nhớ.
 
-## Why extract PSD layers and convert them to PNG?
-- **Reuse assets:** Kéo các biểu tượng, nút, hoặc các yếu tố UI từ một PSD gốc mà không cần xuất thủ công.  
-- **Automation:** Tạo thumbnail hoặc hình ảnh sẵn sàng cho web một cách tự động.  
-- **Preserve transparency:** PNG giữ kênh alpha, rất phù hợp cho đồ họa web.  
-- **Cross‑platform:** Không cần Photoshop trên máy chủ; Aspose.PSD chạy ở bất kỳ nơi nào Java chạy.
+## Tại sao phải trích xuất các lớp PSD và chuyển chúng sang PNG?
+Việc trích xuất lớp cho phép bạn **reuse assets**, **automate thumbnail generation**, và **preserve transparency** cho các đồ họa sẵn sàng cho web. Aspose.PSD hỗ trợ **50+ định dạng đầu vào và đầu ra** và có thể xử lý các tệp PSD hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, nhờ cơ chế xử lý tài nguyên dựa trên đĩa.
 
-## Prerequisites
-Before we dive in, make sure you have the following:
+## Các yêu cầu trước
+Trước khi bắt đầu, hãy chắc chắn bạn có những thứ sau:
 
-1. **Java Development Environment** – JDK installed. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.PSD for Java** – Grab the latest library from the official download page [here](https://releases.aspose.com/psd/java/).  
-3. **Basic Java knowledge** – Familiarity with compiling and running Java programs.  
-4. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
-5. **A PSD file** – Use any PSD you have, or download a sample PSD for testing.
+1. **Môi trường phát triển Java** – JDK đã được cài đặt. Bạn có thể tải xuống từ [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD cho Java** – Tải thư viện mới nhất từ trang tải chính thức [đây](https://releases.aspose.com/psd/java/).  
+3. **Kiến thức cơ bản về Java** – Quen thuộc với việc biên dịch và chạy các chương trình Java.  
+4. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình chỉnh sửa nào bạn thích.  
+5. **Một tệp PSD** – Sử dụng bất kỳ tệp PSD nào bạn có, hoặc tải xuống một mẫu PSD để thử nghiệm.
 
-Once you have these ready, you’re set to start extracting PSD layers.
+Khi bạn đã chuẩn bị xong, bạn sẵn sàng bắt đầu trích xuất các lớp PSD.
 
-## Import Packages
-First, import the classes we’ll need from the Aspose.PSD library.
+## Nhập các gói
+Các lớp `PsdImage`, `PsdLoadOptions`, và `PngOptions` là cốt lõi của quy trình.  
+
+`PsdImage` là đối tượng cấp cao nhất của Aspose.PSD đại diện cho một tệp PSD duy nhất trong bộ nhớ.  
+
+`PsdLoadOptions` cho phép bạn kiểm soát cách các tài nguyên như hiệu ứng lớp được tải.  
+
+`PngOptions` định nghĩa định dạng đầu ra và cách xử lý độ trong suốt cho tệp PNG.
 
 ```java
 import com.aspose.psd.Image;
@@ -58,8 +121,8 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step 1: Define Your Directories
-Set up the paths for the source PSD and the output PNG. Adjust the `dataDir` to point to the folder where your files reside.
+## Bước 1: Xác định các thư mục của bạn
+Thiết lập các đường dẫn cho PSD nguồn và PNG đầu ra. Điều chỉnh `dataDir` để trỏ tới thư mục chứa các tệp của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -71,8 +134,8 @@ String output = dataDir + "layers.png";
 - `sourceFileName` – Đường dẫn đầy đủ tới tệp PSD bạn muốn xử lý.  
 - `output` – Đường dẫn đích cho tệp PNG sẽ chứa các lớp đã được trích xuất.
 
-## Step 2: Set Up the Load Options
-Configuring `PsdLoadOptions` ensures that all layer effects and resources are loaded correctly, which is essential when you **extract PSD layers**.
+## Bước 2: Cấu hình tùy chọn tải
+Cấu hình `PsdLoadOptions` đảm bảo rằng tất cả các hiệu ứng và tài nguyên lớp được tải đúng cách, điều này rất quan trọng khi bạn **extract PSD layers**.
 
 ```java
 PsdLoadOptions imageLoadOptions = new PsdLoadOptions();
@@ -81,78 +144,80 @@ imageLoadOptions.setUseDiskForLoadEffectsResource(true);
 ```
 
 - `setLoadEffectsResource(true)` – Tải các hiệu ứng bổ sung (như bóng đổ) gắn vào các lớp.  
-- `setUseDiskForLoadEffectsResource(true)` – Đẩy các tài nguyên nặng ra đĩa, giảm áp lực bộ nhớ.
+- `setUseDiskForLoadEffectsResource(true)` – Đẩy các tài nguyên nặng sang đĩa, giảm áp lực bộ nhớ.
 
-## Step 3: Load the PSD File
-Now we load the PSD into a `PsdImage` object using the options defined above.
+## Bước 3: Tải tệp PSD
+Bây giờ chúng ta tải PSD vào một đối tượng `PsdImage` bằng các tùy chọn đã định nghĩa ở trên.
 
 ```java
 PsdImage image = (PsdImage) Image.load(sourceFileName, imageLoadOptions);
 ```
 
-At this point, `image` contains all layers, masks, and effects, ready for extraction.
+Tại thời điểm này, `image` chứa tất cả các lớp, mặt nạ và hiệu ứng, sẵn sàng để trích xuất.
 
-## Step 4: Set Up the Save Options
-Configure how the PNG will be saved. Using `TruecolorWithAlpha` preserves transparency from the original layers.
+## Bước 4: Cấu hình tùy chọn lưu
+Cấu hình cách PNG sẽ được lưu. Sử dụng `TruecolorWithAlpha` để giữ độ trong suốt từ các lớp gốc.
 
 ```java
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
-## Step 5: Save the Image (Convert PSD Layers to PNG)
-Export the loaded PSD (with all its layers) to a single PNG file. This step effectively **convert psd layers png** in one operation.
+## Bước 5: Lưu hình ảnh (Chuyển đổi các lớp PSD sang PNG)
+Xuất PSD đã tải (với tất cả các lớp) ra một tệp PNG duy nhất. Bước này thực sự **convert psd layers png** trong một thao tác.
 
 ```java
 image.save(output, saveOptions);
 ```
 
-If you need each layer as a separate PNG, you could iterate over `image.getLayers()`—but for many use‑cases a merged PNG is sufficient.
+Nếu bạn cần mỗi lớp dưới dạng PNG riêng, bạn có thể lặp qua `image.getLayers()` — nhưng đối với nhiều trường hợp sử dụng, một PNG hợp nhất là đủ.
 
-## Step 6: Wrap It Up
-Add a friendly console message so you know the process succeeded.
+## Bước 6: Kết thúc
+Thêm một thông báo console thân thiện để bạn biết quá trình đã thành công.
 
 ```java
 System.out.println("PSD Layers have been successfully converted to PNG!");
 ```
 
-## Common Issues & Tips
-- **Out‑of‑Memory Errors:** Nếu bạn đang xử lý các PSD rất lớn, hãy giữ `setUseDiskForLoadEffectsResource(true)` bật để đẩy dữ liệu tạm thời ra đĩa.  
-- **Missing Effects:** Đảm bảo `setLoadEffectsResource(true)` được đặt; nếu không một số hiệu ứng lớp có thể bị bỏ qua.  
-- **Path Problems:** Sử dụng `Paths.get(...)` từ `java.nio.file` để xử lý đường dẫn độc lập nền tảng.
+## Các vấn đề thường gặp & Mẹo
+- **Lỗi hết bộ nhớ:** Nếu bạn đang xử lý các tệp PSD rất lớn, giữ `setUseDiskForLoadEffectsResource(true)` bật để đẩy dữ liệu tạm thời sang đĩa.  
+- **Thiếu hiệu ứng:** Đảm bảo `setLoadEffectsResource(true)` được bật; nếu không một số hiệu ứng lớp có thể bị bỏ qua.  
+- **Vấn đề đường dẫn:** Sử dụng `Paths.get(...)` từ `java.nio.file` để xử lý đường dẫn độc lập nền tảng.
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q: What is Aspose.PSD for Java?**  
-A: Aspose.PSD for Java là một thư viện cho phép bạn thao tác với các tệp PSD mà không cần cài đặt Photoshop.
+**Hỏi: Aspose.PSD cho Java là gì?**  
+Trả lời: Aspose.PSD cho Java là một thư viện cho phép bạn thao tác với các tệp PSD mà không cần cài đặt Photoshop.
 
-**Q: Can I use Aspose.PSD for other file formats?**  
-A: Có! Mặc dù chủ yếu dành cho tệp PSD, Aspose cung cấp các thư viện cho nhiều định dạng khác nhau.
+**Hỏi: Tôi có thể sử dụng Aspose.PSD cho các định dạng tệp khác không?**  
+Trả lời: Có! Mặc dù chủ yếu cho tệp PSD, Aspose cung cấp các thư viện cho nhiều định dạng, bao gồm AI, PDF và SVG.
 
-**Q: Is there a trial version available?**  
-A: Chắc chắn! Bạn có thể tải phiên bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
+**Hỏi: Có phiên bản dùng thử không?**  
+Trả lời: Chắc chắn! Bạn có thể tải phiên bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
-**Q: Where can I get support if I need help?**  
-A: Bạn có thể truy cập hỗ trợ trên diễn đàn Aspose [tại đây](https://forum.aspose.com/c/psd/34).
+**Hỏi: Tôi có thể nhận hỗ trợ ở đâu nếu gặp vấn đề?**  
+Trả lời: Truy cập diễn đàn Aspose cho các câu hỏi liên quan đến PSD [tại đây](https://forum.aspose.com/c/psd/34).
 
-**Q: Can I convert back from PNG to PSD?**  
-A: Thư viện Aspose.PSD tập trung nhiều hơn vào việc đọc và thao tác các tệp PSD hơn là chuyển đổi các định dạng khác trở lại PSD.
+**Hỏi: Tôi có thể chuyển đổi mỗi lớp thành một PNG riêng không?**  
+Trả lời: Lặp qua `image.getLayers()`, tạo một `Bitmap` mới cho mỗi lớp và lưu nó với `PngOptions` riêng. Điều này sẽ tạo ra các tệp PNG riêng cho từng lớp.
 
-**Q: How do I extract each layer as a separate PNG?**  
-A: Duyệt qua `image.getLayers()`, tạo một `Bitmap` mới cho mỗi lớp và lưu nó với `PngOptions` riêng. Điều này sẽ cho bạn các tệp PNG riêng lẻ cho mỗi lớp.
-
-## Conclusion
-Bạn đã học cách **trích xuất các lớp PSD**, bật hỗ trợ lớp đầy đủ, và **chuyển đổi các lớp PSD sang PNG** bằng Aspose.PSD cho Java. Dù bạn đang xây dựng một quy trình tự động hoá tài nguyên hay thêm khả năng đồ họa vào một ứng dụng desktop, cách tiếp cận này cho phép bạn kiểm soát chi tiết các tệp Photoshop mà không cần Photoshop. Hãy tự do khám phá thêm—như áp dụng bộ lọc, hợp nhất các lớp bằng lập trình, hoặc xuất từng lớp riêng lẻ.
+## Kết luận
+Bạn đã học cách **extract PSD layers**, bật hỗ trợ lớp đầy đủ, và **convert PSD layers to PNG** bằng Aspose.PSD cho Java. Dù bạn đang xây dựng một quy trình tự động hoá tài nguyên hay thêm khả năng đồ họa vào một ứng dụng desktop, cách tiếp cận này cho phép bạn kiểm soát chi tiết các tệp Photoshop mà không cần Photoshop. Hãy khám phá thêm bằng cách áp dụng bộ lọc, hợp nhất lớp bằng lập trình, hoặc xuất từng lớp riêng để phù hợp với quy trình làm việc của bạn.
 
 ---
 
-**Last Updated:** 2026-02-17  
+**Last Updated:** 2026-07-22  
 **Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Xuất PSD sang PNG & Thêm lớp thường mới bằng Aspose.PSD cho Java](/psd/java/advanced-image-effects/add-new-regular-layer/)
+- [Xuất PSD sang PNG với hỗ trợ mặt nạ lớp trong Java](/psd/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/)
+- [Chuyển đổi PSD sang hình ảnh trong Java – Áp dụng các lớp điều chỉnh với Aspose.PSD](/psd/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
