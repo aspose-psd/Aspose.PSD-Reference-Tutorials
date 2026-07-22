@@ -12,14 +12,6 @@ url: /nl/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 weight: 13
 ---
 
-.
-
-Make sure not to translate URLs.
-
-Translate bullet points.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

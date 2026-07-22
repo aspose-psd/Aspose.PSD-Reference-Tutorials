@@ -9,14 +9,6 @@ url: /zh/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 weight: 13
 ---
 
- >}}
-
-Now produce final content with translations.
-
-Be careful to preserve markdown formatting, bold, etc.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

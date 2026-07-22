@@ -9,13 +9,7 @@ url: /ko/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
-codes unchanged.
-
-Now produce final content.
-
-Be careful with markdown formatting.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

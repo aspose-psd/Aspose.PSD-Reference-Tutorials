@@ -11,9 +11,7 @@ url: /ru/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 weight: 13
 ---
 
-Make sure to preserve all.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

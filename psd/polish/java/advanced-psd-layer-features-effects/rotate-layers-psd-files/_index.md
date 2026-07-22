@@ -10,16 +10,6 @@ url: /pl/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
- 2026-02-17  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose  
-
-Keep as is.
-
-Then closing shortcodes.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

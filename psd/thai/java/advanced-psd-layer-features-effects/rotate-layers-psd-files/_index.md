@@ -9,20 +9,6 @@ url: /th/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
- bold.
-
-Also list of Quick Answers: bullet list.
-
-Translate each question and answer but keep code parts like `PngColorType.TruecolorWithAlpha` unchanged.
-
-Also "## What is “convert PSD to PNG”?" translate.
-
-Continue.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

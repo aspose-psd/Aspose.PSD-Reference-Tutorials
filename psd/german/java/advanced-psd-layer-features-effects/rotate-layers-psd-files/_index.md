@@ -10,7 +10,7 @@ url: /de/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

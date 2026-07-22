@@ -12,11 +12,7 @@ url: /es/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
 weight: 13
 ---
 
-/products/products-backtop-button >}}
-
-Make sure not to translate shortcodes.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
