@@ -1,5 +1,5 @@
 ---
-title: "How to Convert PSD to PNG with 16-bit Grayscale Color Mode in Java"
+title: "Convert PSD to PNG with 16‑bit Grayscale Using Aspose.PSD for Java"
 linktitle: "Convert PSD to PNG – 16-bit Grayscale – Java"
 second_title: "Aspose.PSD Java API"
 description: "Learn how to convert PSD to PNG while setting PSD color mode to 16-bit grayscale using Aspose.PSD for Java. Step‑by‑step guide with code examples."

@@ -1,5 +1,5 @@
 ---
-title: How to Export PSD as PNG with Clipping Mask – Aspose.PSD Java
+title: Managing Clipping Masks in Photoshop Files
 linktitle: How to Export PSD as PNG with Clipping Mask – Aspose.PSD Java
 second_title: Aspose.PSD Java API
 description: Learn how to export PSD as PNG while keeping transparency and clipping mask support using Aspose.PSD for Java. This step‑by‑step guide shows how to save PSD as PNG quickly.

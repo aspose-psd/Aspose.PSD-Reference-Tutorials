@@ -1,5 +1,5 @@
 ---
-title: Invert Adjustment Layer: Support Nvrt Resource in PSD Files using Java
+title: 'How to Extract Nvrt Resource from Invert Adjustment Layers with Aspose.PSD for Java'
 linktitle: Support Nvrt Resource in PSD Files using Java
 second_title: Aspose.PSD Java API
 description: Learn how to load PSD files in Java, read PSD layers, and work with the invert adjustment layer to support the Nvrt resource using Aspose.PSD.

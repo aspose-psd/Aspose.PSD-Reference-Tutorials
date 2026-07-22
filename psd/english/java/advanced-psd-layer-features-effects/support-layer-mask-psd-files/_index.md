@@ -1,6 +1,6 @@
 ---
-title: How to Export PSD to PNG with Layer Mask Support in Java
-linktitle: Export PSD to PNG with Layer Mask Support in Java
+title: Convert PSD to PNG with Layer Mask Support Using Aspose.PSD for Java
+linktitle: Convert PSD to PNG with Layer Mask Support Using Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to export PSD to PNG with layer mask support using Aspose.PSD for Java – a step‑by‑step guide for java image conversion.
 weight: 18
