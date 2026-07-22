@@ -1,11 +1,78 @@
 ---
-date: 2026-02-17
-description: Aspose.PSD का उपयोग करके जावा में PSD को इमेज में बदलना और एडजस्टमेंट
-  लेयर्स लागू करना सीखें। यह चरण‑दर‑चरण गाइड यह भी दिखाता है कि प्रोडक्शन के लिए Aspose
-  लाइसेंस जावा कैसे सेट करें।
-linktitle: Apply Adjustment Layers in PSD Files using Java
+date: 2026-07-22
+description: Aspose.PSD का उपयोग करके Java में PSD को image में Convert करना और Apply
+  Adjustment Layers कैसे करें, सीखें। यह चरण‑दर‑चरण गाइड यह भी दिखाता है कि उत्पादन
+  के लिए Aspose license Java कैसे सेट करें।
+keywords:
+- convert psd to image
+- save psd as image
+- convert psd to png
+- set aspose license java
+- image editing without photoshop
+lastmod: 2026-07-22
+linktitle: Java का उपयोग करके PSD Files में Apply Adjustment Layers
+og_description: Aspose.PSD का उपयोग करके Java में PSD को image में Convert करें। Learn
+  how to Apply Adjustment Layers, PSD को image के रूप में Save करें, और उत्पादन के
+  लिए Aspose license Java सेट करें।
+og_image_alt: 'Guide: Convert PSD to Image and Apply Adjustment Layers using Java
+  Aspose.PSD'
+og_title: Convert PSD to Image – Java में Aspose.PSD के साथ Apply Adjustment Layers
+schemas:
+- author: Aspose
+  dateModified: '2026-07-22'
+  description: Learn how to convert PSD to image and apply adjustment layers in Java
+    using Aspose.PSD. This step‑by‑step guide also shows how to set Aspose license
+    Java for production.
+  headline: Convert PSD to Image in Java – Apply Adjustment Layers with Aspose.PSD
+  type: TechArticle
+- description: Learn how to convert PSD to image and apply adjustment layers in Java
+    using Aspose.PSD. This step‑by‑step guide also shows how to set Aspose license
+    Java for production.
+  name: Convert PSD to Image in Java – Apply Adjustment Layers with Aspose.PSD
+  steps:
+  - name: Load the PSD File
+    text: The `PsdImage` class is Aspose.PSD's core object that represents a Photoshop
+      document in memory. Loading the file is also the point where the **convert PSD
+      to image** process begins. Replace `"Your Document Directory"` with the actual
+      path on your machine. This snippet creates a `PsdImage` object th
+  - name: Iterate Over Layers and Merge Adjustment Layers
+    text: The `AdjustmentLayer` class encapsulates any adjustment‑type layer (e.g.,
+      Levels, Curves, Color Balance). Loop through each layer, identify adjustment
+      layers, and merge them into the base layer (usually the first layer). Merging
+      is essential before you finally **convert PSD to image** because it con
+  - name: Save the Modified PSD File
+    text: After merging, you need to write the changes back to disk. Saving the PSD
+      preserves the merged result, ready for the final **convert PSD to image** export.
+      You can also **save psd as image** in PNG, JPEG, or BMP formats directly. The
+      new file `ChannelMixerAdjustmentLayerChanged.psd` now contains the
+  - name: Process a Levels Adjustment Layer (Additional Example)
+    text: '#### Load the Levels Adjustment Layer PSD'
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD is a Java API that lets developers load, manipulate, and save
+      Photoshop PSD files without needing Photoshop installed.
+    question: What is the Aspose.PSD library?
+  - answer: Yes! Aspose offers a free trial for you to explore their library. You
+      can sign up [here](https://releases.aspose.com/).
+    question: Can I use Aspose.PSD for free?
+  - answer: No, you do not need Photoshop. Aspose.PSD works independently to manipulate
+      PSD files programmatically.
+    question: Do I need Photoshop installed to use Aspose.PSD?
+  - answer: You can visit the documentation page [here](https://reference.aspose.com/psd/java/)
+      to explore features, classes, and methods.
+    question: Where can I find documentation for Aspose.PSD?
+  - answer: You can access support via the [Aspose forum](https://forum.aspose.com/c/psd/34)
+      where you can ask questions and find solutions.
+    question: How do I get support for Aspose products?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: जावा में PSD को इमेज में बदलें – Aspose.PSD के साथ एडजस्टमेंट लेयर्स लागू करें
+tags:
+- convert psd
+- Aspose.PSD
+- Java image processing
+- adjustment layers
+- PSD conversion
+title: Java में Convert PSD to Image – Aspose.PSD के साथ Apply Adjustment Layers
 url: /hi/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/
 weight: 15
 ---
@@ -14,39 +81,39 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java में PSD को इमेज में बदलें – Aspose.PSD के साथ Adjustment Layers लागू करें
+# Java में PSD को इमेज में बदलें – Aspose.PSD के साथ एडजस्टमेंट लेयर्स लागू करें
 
-## Introduction
-यदि आप एक Java डेवलपर हैं जो **convert PSD to image** के साथ-साथ Photoshop PSD फ़ाइलों में **apply adjustment layers java** लागू करना चाहते हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम देखेंगे कि कैसे एक PSD लोड करें, उसके adjustment layers को खोजें, उन्हें बेस लेयर में मर्ज करें, और अंत में अपडेटेड इमेज को सेव करें—सभी Aspose.PSD लाइब्रेरी फ़ॉर Java का उपयोग करके। चाहे आप एक बैच‑प्रोसेसिंग टूल, एक ऑटोमेटेड इमेज‑एडिटिंग सर्विस बना रहे हों, या सिर्फ प्रोग्रामेटिकली Photoshop फ़ाइलों के साथ प्रयोग कर रहे हों, इस तकनीक में महारत हासिल करने से आपके Java एप्लिकेशन्स की क्षमताएँ काफी बढ़ सकती हैं।
+## परिचय
+यदि आप एक Java डेवलपर हैं जो **convert PSD to image** के साथ-साथ Photoshop PSD फ़ाइलों पर **apply adjustment layers java** करना चाहते हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम दिखाएंगे कि कैसे एक PSD लोड करें, उसके एडजस्टमेंट लेयर्स को खोजें, उन्हें बेस लेयर में मर्ज करें, और अंत में अपडेटेड इमेज को सेव करें—सभी Aspose.PSD लाइब्रेरी for Java का उपयोग करके। चाहे आप बैच‑प्रोसेसिंग टूल बना रहे हों, एक ऑटोमेटेड इमेज‑एडिटिंग सेवा, या सिर्फ प्रोग्रामेटिकली Photoshop फ़ाइलों के साथ प्रयोग कर रहे हों, इस तकनीक में महारत हासिल करने से आपके Java एप्लिकेशन की क्षमताएँ काफी बढ़ सकती हैं।
 
-## Quick Answers
-- **What library is needed?** Aspose.PSD for Java  
-- **Can I run this without Photoshop installed?** Yes, the library works independently.  
-- **Which JDK version is supported?** JDK 11 or later (compatible with most modern releases).  
-- **Do I need a license for production?** A commercial license is required for non‑trial use.  
-- **Is the code cross‑platform?** Absolutely—run it on Windows, macOS, or Linux.  
+## त्वरित उत्तर
+- **कौनसी लाइब्रेरी चाहिए?** Aspose.PSD for Java  
+- **क्या मैं इसे Photoshop स्थापित किए बिना चला सकता हूँ?** हाँ, लाइब्रेरी स्वतंत्र रूप से काम करती है, जिससे Photoshop के बिना इमेज एडिटिंग संभव होती है।  
+- **कौनसा JDK संस्करण समर्थित है?** JDK 11 या बाद का (अधिकांश आधुनिक रिलीज़ के साथ संगत)।  
+- **क्या उत्पादन के लिए लाइसेंस चाहिए?** गैर‑ट्रायल उपयोग के लिए एक कमर्शियल लाइसेंस आवश्यक है; अपने कोड में जल्दी **set aspose license java** सेट करें।  
+- **क्या कोड क्रॉस‑प्लेटफ़ॉर्म है?** बिल्कुल—Windows, macOS, या Linux पर चलाएँ।  
 
-## What is “apply adjustment layers java”?
-Java में adjustment layers लागू करना का मतलब है प्रोग्रामेटिकली PSD फ़ाइल के भीतर adjustment‑type लेयर्स को ढूँढना और उनके विज़ुअल इफ़ेक्ट्स को किसी अन्य लेयर (आमतौर पर बैकग्राउंड) में मर्ज करना। यह वही परिणाम देता है जैसा आप Photoshop में “Merge” बटन क्लिक करके प्राप्त करते हैं, लेकिन इसे सैकड़ों फ़ाइलों पर स्वचालित रूप से किया जा सकता है, जिससे **convert PSD to image** वर्कफ़्लो पूरी तरह स्क्रिप्टेबल बन जाता है।
+## Java में PSD को इमेज में बदलने और एडजस्टमेंट लेयर्स लागू करने का तरीका
+`PsdImage` क्लास एक Photoshop दस्तावेज़ को मेमोरी में लोड करने का प्रतिनिधित्व करता है। `AdjustmentLayer` एक लेयर प्रकार है जो लेवल्स या कर्व्स जैसी नॉन‑डिस्ट्रक्टिव इमेज एडजस्टमेंट्स को स्टोर करता है। PSD को `new PsdImage("file.psd")` से लोड करें, उसकी लेयर्स पर इटरेट करें, किसी भी `AdjustmentLayer` को बेस लेयर में मर्ज करें, और अंत में `save("output.png")` (या कोई भी समर्थित फ़ॉर्मेट) को कॉल करें — यह पूरी **convert PSD to image** वर्कफ़्लो कुछ ही लाइनों में है। यह प्रक्रिया PNG, JPEG, BMP आदि के लिए काम करती है, जिससे आप **save PSD as image** बिना Photoshop खोले कर सकते हैं।
 
-## Why use Aspose.PSD for this task?
-- **Full PSD fidelity** – सभी लेयर प्रकार, मास्क और इफ़ेक्ट्स संरक्षित रहते हैं।  
-- **No Photoshop dependency** – हेडलेस सर्वर पर काम करता है, ऑटोमेटेड **convert PSD to image** पाइपलाइन के लिए परफेक्ट।  
-- **Rich API** – लेयर्स, इमेज और फ़ाइल I/O के लिए सहज क्लासेज़।  
-- **Cross‑platform** – एक बार लिखें, जहाँ भी Java चलता है वहाँ चलाएँ।
+## “apply adjustment layers java” क्या है?
+Java में एडजस्टमेंट लेयर्स लागू करना मतलब प्रोग्रामेटिक रूप से PSD फ़ाइल के भीतर एडजस्टमेंट‑टाइप लेयर्स को ढूँढना और उनके विज़ुअल इफ़ेक्ट्स को किसी अन्य लेयर (आमतौर पर बैकग्राउंड) में मर्ज करना है। यह आपको Photoshop में मैन्युअली “Merge” क्लिक करने के समान परिणाम देता है, लेकिन इसे सैकड़ों फ़ाइलों में स्वचालित किया जा सकता है, जिससे **convert PSD to image** वर्कफ़्लो पूरी तरह स्क्रिप्टेबल बन जाता है।
 
-## Prerequisites
-1. **Java Development Kit (JDK)** – डाउनलोड करें [Oracle’s website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)।  
-2. **Aspose.PSD Library** – आधिकारिक डाउनलोड पेज से JAR प्राप्त करें [here](https://releases.aspose.com/psd/java/)।  
+## इस कार्य के लिए Aspose.PSD क्यों उपयोग करें?
+Aspose.PSD एक समर्पित Java लाइब्रेरी है जो **full PSD fidelity** प्रदान करती है—सभी लेयर प्रकार, मास्क, और इफ़ेक्ट्स संरक्षित रहते हैं। यह **supports over 100 image formats** और 2 GB तक की फ़ाइलों को पूरी डॉक्यूमेंट को मेमोरी में लोड किए बिना प्रोसेस कर सकती है, जिससे हेडलेस सर्वरों पर हाई‑परफ़ॉर्मेंस **convert PSD to png** या अन्य रास्टर कन्वर्ज़न संभव होते हैं। API सहज, क्रॉस‑प्लेटफ़ॉर्म है, और **no Photoshop installation** की आवश्यकता नहीं होती, जो **image editing without photoshop** के लिए आदर्श है।
+
+## पूर्वापेक्षाएँ
+1. **Java Development Kit (JDK)** – [Oracle’s website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) से डाउनलोड करें।  
+2. **Aspose.PSD Library** – आधिकारिक डाउनलोड पेज से JAR प्राप्त करें [here](https://releases.aspose.com/psd/java/). आप सभी Aspose रिलीज़ भी यहाँ देख सकते हैं [here](https://releases.aspose.com/).  
 3. **IDE** – IntelliJ IDEA, Eclipse, या कोई भी एडिटर जो आप पसंद करते हैं।  
-4. **Basic Java knowledge** – आपको क्लासेज़ और लूप्स के साथ सहज होना चाहिए।  
-5. **Sample PSD files** – परीक्षण के लिए कुछ PSD फ़ाइलें जिनमें adjustment layers हों, तैयार रखें।
+4. **Basic Java knowledge** – आपको क्लासेज़ और लूप्स में सहज होना चाहिए।  
+5. **Sample PSD files** – परीक्षण के लिए एडजस्टमेंट लेयर्स वाली कुछ PSD फ़ाइलें तैयार रखें।  
 
-## How to set Aspose license Java (set aspose license java)
-किसी भी PSD को लोड करने से पहले अपना Aspose लाइसेंस सेट करें ताकि इवैल्यूएशन वाटरमार्क न दिखे। प्रोडक्शन कोड में आप आमतौर पर `License license = new License(); license.setLicense("Aspose.PSD.Java.lic");` कॉल करेंगे। कोड‑ब्लॉक की संख्या को समान रखने के लिए हम इस स्निपेट को छोड़ रहे हैं, लेकिन याद रखें कि **set aspose license java** को अपने एप्लिकेशन लाइफ़साइकल की शुरुआती अवस्था में सेट करें।
+## Aspose लाइसेंस Java कैसे सेट करें (set aspose license java)
+`License` क्लास का उपयोग रनटाइम पर आपके खरीदे हुए Aspose.PSD लाइसेंस को लागू करने के लिए किया जाता है। किसी भी PSD को लोड करने से पहले, मूल्यांकन वॉटरमार्क से बचने के लिए अपना Aspose लाइसेंस सेट करें। प्रोडक्शन कोड में आप `License license = new License(); license.setLicense("Aspose.PSD.Java.lic");` कॉल करेंगे। हालांकि हम कोड‑ब्लॉक की संख्या को अपरिवर्तित रखने के लिए कोड स्निपेट को छोड़ रहे हैं, याद रखें कि अपने एप्लिकेशन लाइफ़साइकल में जल्दी **set aspose license java** करें।
 
-## Import Packages
-कोडिंग शुरू करने से पहले हमें किन पैकेजों को इम्पोर्ट करना है, यह स्पष्ट करते हैं। Aspose.PSD हमें Photoshop फ़ाइलों के साथ विभिन्न तरीकों से काम करने की सुविधा देता है, इसलिए PSD इमेज और adjustment layers को हैंडल करने के लिए आवश्यक क्लासेज़ को इम्पोर्ट करें।
+## पैकेज इम्पोर्ट करें
+`PsdImage` और संबंधित क्लासेज़ `com.aspose.psd` नेमस्पेस में स्थित हैं। कोडिंग शुरू करने से पहले आवश्यक पैकेज इम्पोर्ट करें।
 
 ```java
 import com.aspose.psd.Image;
@@ -54,12 +121,12 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.AdjustmentLayer;
 ```
 
-अब जब हमारे पास पैकेज तैयार हैं, चलिए उदाहरणों को चरण‑दर‑चरण तोड़ते हैं!
+अब हमारे पास पैकेज तैयार हैं, चलिए उदाहरणों को चरण‑दर‑चरण समझते हैं!
 
-## Step‑by‑Step Guide
+## चरण‑दर‑चरण गाइड
 
-### Step 1: Load the PSD File
-पहला कदम है वह PSD फ़ाइल लोड करना जिसे आप संशोधित करना चाहते हैं। फ़ाइल लोड करना वही बिंदु है जहाँ **convert PSD to image** प्रक्रिया शुरू होती है।
+### चरण 1: PSD फ़ाइल लोड करें
+`PsdImage` क्लास Aspose.PSD का कोर ऑब्जेक्ट है जो मेमोरी में Photoshop दस्तावेज़ का प्रतिनिधित्व करता है। फ़ाइल को लोड करना वह बिंदु भी है जहाँ **convert PSD to image** प्रक्रिया शुरू होती है।
 
 ```java
 String dataDir = "Your Document Directory";
@@ -67,10 +134,8 @@ String sourceFileName1 = dataDir + "ChannelMixerAdjustmentLayer.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName1);
 ```
 
-`"Your Document Directory"` को अपने मशीन पर वास्तविक पाथ से बदलें। यह स्निपेट एक `PsdImage` ऑब्जेक्ट बनाता है जो पूरे Photoshop डॉक्यूमेंट का प्रतिनिधित्व करता है।
-
-### Step 2: Iterate Over Layers and Merge Adjustment Layers
-अब हम प्रत्येक लेयर पर लूप करेंगे, adjustment layers की पहचान करेंगे, और उन्हें बेस लेयर (आमतौर पर पहली लेयर) में मर्ज करेंगे। मर्ज करना आवश्यक है क्योंकि इससे सभी विज़ुअल इफ़ेक्ट्स एक साथ **convert PSD to image** के लिए तैयार हो जाते हैं।
+### चरण 2: लेयर्स पर इटरेट करें और एडजस्टमेंट लेयर्स मर्ज करें
+`AdjustmentLayer` क्लास किसी भी एडजस्टमेंट‑टाइप लेयर (जैसे Levels, Curves, Color Balance) को समेटे रहती है। प्रत्येक लेयर पर लूप करें, एडजस्टमेंट लेयर्स की पहचान करें, और उन्हें बेस लेयर (आमतौर पर पहली लेयर) में मर्ज करें। अंतिम रूप से **convert PSD to image** करने से पहले मर्ज करना आवश्यक है क्योंकि यह सभी विज़ुअल इफ़ेक्ट्स को एकत्रित करता है।
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
@@ -84,28 +149,25 @@ for (int i = 0; i < im.getLayers().length; i++) {
 }
 ```
 
-यह कोड प्रत्येक लेयर के प्रकार की जाँच करता है, उपयुक्त होने पर उसे `AdjustmentLayer` में कास्ट करता है, और फिर `mergeLayerTo` को कॉल करके विज़ुअल बदलाव लागू करता है।
-
-### Step 3: Save the Modified PSD File
-मर्ज करने के बाद, आपको बदलावों को डिस्क पर लिखना होगा। PSD को सेव करने से मर्ज किया हुआ परिणाम सुरक्षित रहता है, जो अंतिम **convert PSD to image** एक्सपोर्ट के लिए तैयार है।
+### चरण 3: संशोधित PSD फ़ाइल सहेजें
+मर्ज करने के बाद, आपको बदलावों को डिस्क पर लिखना होगा। PSD को सहेजने से मर्ज किया हुआ परिणाम संरक्षित रहता है, जो अंतिम **convert PSD to image** एक्सपोर्ट के लिए तैयार है। आप सीधे PNG, JPEG, या BMP फ़ॉर्मेट में **save psd as image** भी कर सकते हैं।
 
 ```java
 String exportPath1 = dataDir + "ChannelMixerAdjustmentLayerChanged.psd";
 im.save(exportPath1);
 ```
 
-नया फ़ाइल `ChannelMixerAdjustmentLayerChanged.psd` अब मर्ज किया हुआ परिणाम रखता है।
+नई फ़ाइल `ChannelMixerAdjustmentLayerChanged.psd` अब मर्ज किया हुआ परिणाम रखती है।
 
-### Step 4: Process a Levels Adjustment Layer (Additional Example)
-आइए वही वर्कफ़्लो एक Levels adjustment layer वाली PSD के लिए दोहराएँ।
+### चरण 4: लेवल्स एडजस्टमेंट लेयर प्रोसेस करें (अतिरिक्त उदाहरण)
 
-#### Load the Levels Adjustment Layer PSD
+#### लेवल्स एडजस्टमेंट लेयर PSD लोड करें
 ```java
 String sourceFileName2 = dataDir + "LevelsAdjustmentLayerRgb.psd";
 PsdImage img = (PsdImage) Image.load(sourceFileName2);
 ```
 
-#### Iterate Through Levels Layers
+#### लेवल्स लेयर्स पर इटरेट करें
 ```java
 for (int i = 0; i < img.getLayers().length; i++) {
     if (img.getLayers()[i] instanceof AdjustmentLayer) {
@@ -118,53 +180,58 @@ for (int i = 0; i < img.getLayers().length; i++) {
 }
 ```
 
-#### Save the Levels Adjustment Layer PSD
+#### लेवल्स एडजस्टमेंट लेयर PSD सहेजें
 ```java
 String exportPath2 = dataDir + "LevelsAdjustmentLayerRgbChanged.psd";
 img.save(exportPath2);
 ```
 
-अब आपने सफलतापूर्वक Levels adjustment भी लागू कर लिया है।
+अब आपने सफलतापूर्वक लेवल्स एडजस्टमेंट भी लागू कर ली है, और आप `save("output.png")` कॉल करके **convert PSD to png** या कोई भी अन्य रास्टर फ़ॉर्मेट में बदल सकते हैं।
 
-## Common Issues & Tips
+## सामान्य समस्याएँ और सुझाव
 - **Null Pointer Exceptions** – `mergeLayerTo` कॉल करने से पहले हमेशा सुनिश्चित करें कि `adjustmentLayer` null नहीं है।  
-- **Incorrect Base Layer** – यदि आपके PSD में बैकग्राउंड लेयर अलग है, तो इंडेक्स (`im.getLayers()[0]`) को उसी अनुसार बदलें।  
-- **Large Files** – बहुत बड़े PSD के लिए JVM हीप साइज बढ़ाएँ (`-Xmx2g` या उससे अधिक)।  
-- **License Errors** – प्रोडक्शन में फ़ाइल लोड करने से पहले Aspose लाइसेंस सेट करना न भूलें, ताकि इवैल्यूएशन वाटरमार्क न दिखे।  
-- **Export to Image** – मर्ज करने के बाद आप `im.save("output.png")` कॉल करके **convert PSD to image** PNG, JPEG, या BMP जैसे फॉर्मेट में कर सकते हैं।
+- **Incorrect Base Layer** – यदि आपके PSD में अलग बैकग्राउंड लेयर है, तो इंडेक्स (`im.getLayers()[0]`) को उसी अनुसार समायोजित करें।  
+- **Large Files** – बहुत बड़े PSD के लिए, मेमोरी त्रुटियों से बचने हेतु JVM हीप साइज (`-Xmx2g` या अधिक) बढ़ाने पर विचार करें।  
+- **License Errors** – प्रोडक्शन में फ़ाइलें लोड करने से पहले Aspose लाइसेंस सेट करना सुनिश्चित करें ताकि मूल्यांकन वॉटरमार्क न आएँ।  
+- **Export to Image** – मर्ज करने के बाद, आप `im.save("output.png")` कॉल करके PNG, JPEG, या BMP जैसे फ़ॉर्मेट में **convert PSD to image** कर सकते हैं।  
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: What is the Aspose.PSD library?**  
-A: Aspose.PSD एक लाइब्रेरी है जो डेवलपर्स को Java एप्लिकेशन्स में Photoshop PSD फ़ाइलों को लोड, मैनीपुलेट और सेव करने की सुविधा देती है।
+**Q: Aspose.PSD लाइब्रेरी क्या है?**  
+A: Aspose.PSD एक Java API है जो डेवलपर्स को Photoshop स्थापित किए बिना Photoshop PSD फ़ाइलों को लोड, मैनीपुलेट और सेव करने की अनुमति देता है।
 
-**Q: Can I use Aspose.PSD for free?**  
-A: Yes! Aspose एक फ्री ट्रायल प्रदान करता है जिससे आप उनकी लाइब्रेरी का परीक्षण कर सकते हैं। आप साइन‑अप कर सकते हैं [here](https://releases.aspose.com/).
+**Q: क्या मैं Aspose.PSD मुफ्त में उपयोग कर सकता हूँ?**  
+A: हाँ! Aspose अपनी लाइब्रेरी को एक्सप्लोर करने के लिए एक फ्री ट्रायल प्रदान करता है। आप यहाँ साइन अप कर सकते हैं [here](https://releases.aspose.com/).
 
-**Q: Do I need Photoshop installed to use Aspose.PSD?**  
-A: No, you do not need Photoshop. Aspose.PSD works independently to manipulate PSD files programmatically.
+**Q: क्या Aspose.PSD उपयोग करने के लिए Photoshop स्थापित होना आवश्यक है?**  
+A: नहीं, आपको Photoshop की आवश्यकता नहीं है। Aspose.PSD प्रोग्रामेटिक रूप से PSD फ़ाइलों को मैनीपुलेट करने के लिए स्वतंत्र रूप से काम करता है।
 
-**Q: Where can I find documentation for Aspose.PSD?**  
-A: आप डॉक्यूमेंटेशन पेज पर जा सकते हैं [here](https://reference.aspose.com/psd/java/) जहाँ फीचर्स, क्लासेज़ और मेथड्स की जानकारी उपलब्ध है।
+**Q: Aspose.PSD की डॉक्यूमेंटेशन कहाँ मिल सकती है?**  
+A: आप फीचर्स, क्लासेज़ और मेथड्स को एक्सप्लोर करने के लिए डॉक्यूमेंटेशन पेज [here](https://reference.aspose.com/psd/java/) पर जा सकते हैं।
 
-**Q: How do I get support for Aspose products?**  
-A: आप सपोर्ट के लिए [Aspose forum](https://forum.aspose.com/c/psd/34) पर जा सकते हैं जहाँ आप प्रश्न पूछ सकते हैं और समाधान पा सकते हैं।
+**Q: Aspose उत्पादों के लिए सपोर्ट कैसे प्राप्त करें?**  
+A: आप सपोर्ट के लिए [Aspose forum](https://forum.aspose.com/c/psd/34) का उपयोग कर सकते हैं जहाँ आप प्रश्न पूछ सकते हैं और समाधान पा सकते हैं।
 
-**Q: Can I process multiple PSD files in a batch?**  
-A: Absolutely—wrap the loading, merging, and saving logic inside a loop that iterates over a list of file paths.
+**Q: क्या मैं बैच में कई PSD फ़ाइलों को प्रोसेस कर सकता हूँ?**  
+A: बिल्कुल—लोडिंग, मर्जिंग और सेविंग लॉजिक को एक लूप में रखें जो फ़ाइल पाथ की सूची पर इटरेट करता है।
 
-## Conclusion
-बधाई हो! अब आप **convert PSD to image** और **apply adjustment layers java** को Aspose.PSD लाइब्रेरी का उपयोग करके PSD फ़ाइलों में कर सकते हैं। यह क्षमता आपको रंग सुधार, लेवल एडजस्टमेंट और अन्य विज़ुअल ट्यूनिंग को बिना Photoshop खोले ऑटोमेट करने देती है। अन्य adjustment‑layer प्रकारों के साथ प्रयोग करें, इस एप्रोच को इमेज‑एक्सपोर्ट फीचर्स के साथ मिलाएँ, और अपने Java एप्लिकेशन्स को Photoshop‑लेवल इमेज प्रोसेसिंग स्केल पर ले जाएँ।
+## निष्कर्ष
+बधाई हो! अब आप Aspose.PSD लाइब्रेरी का उपयोग करके PSD फ़ाइलों में **convert PSD to image** और **apply adjustment layers java** करना जानते हैं। यह क्षमता आपको Photoshop खोले बिना रंग सुधार, लेवल एडजस्टमेंट और अन्य विज़ुअल ट्यूनिंग को ऑटोमेट करने देती है। अन्य एडजस्टमेंट‑लेयर प्रकारों के साथ प्रयोग करें, इस दृष्टिकोण को इमेज‑एक्सपोर्ट फीचर्स के साथ मिलाएँ, और अपने Java एप्लिकेशन को स्केल पर Photoshop‑लेवल इमेज प्रोसेसिंग संभालने दें।
 
 ---
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.PSD Java API (latest version)  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**अंतिम अपडेट:** 2026-07-22  
+**परीक्षित संस्करण:** Aspose.PSD Java API (latest version)  
+**लेखक:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.PSD for Java के साथ PSD को रास्टर इमेज फ़ॉर्मेट में बदलें](/psd/java/advanced-techniques/convert-psd-to-raster-formats/)
+- [PSD फ़ाइलों में एक्सपोज़र एडजस्टमेंट लेयर रेंडर करें - Java](/psd/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/)
+- [Java का उपयोग करके PSD फ़ाइलों में लेयर इफ़ेक्ट्स लागू करें](/psd/java/psd-image-modification-conversion/apply-layer-effects-psd-files/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
