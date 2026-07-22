@@ -1,10 +1,11 @@
 ---
-date: 2025-12-15
-description: Aprenda a converter PSD para PNG e girar camadas PSD em Java usando Aspose.PSD.
-  Guia passo a passo com exemplos de código.
+date: 2026-02-17
+description: Aprenda a converter PSD para PNG, preservar a transparência do PNG e
+  girar camadas PSD em Java usando Aspose.PSD. Guia passo a passo com exemplos de
+  código.
 linktitle: Convert PSD to PNG and Rotate Layers in PSD Files using Java
 second_title: Aspose.PSD Java API
-title: Converter PSD para PNG e Girar Camadas em Arquivos PSD usando Java
+title: Converter PSD para PNG e girar camadas em arquivos PSD usando Java
 url: /pt/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
@@ -16,7 +17,7 @@ weight: 21
 # Converter PSD para PNG e Rotacionar Camadas em Arquivos PSD usando Java
 
 ## Introdução
-Se você precisa **converter PSD para PNG** enquanto também rotaciona camadas, este guia é para você. Seja construindo uma ferramenta de processamento em lote ou integrando manipulação de imagens em um serviço web, fazê‑lo programaticamente economiza tempo e elimina a dependência do Adobe Photoshop. Neste tutorial vamos mostrar **como rotacionar camadas PSD** e exportar o resultado como PNG usando a biblioteca Aspose.PSD para Java. Vamos arregaçar as mangas e deixar seu fluxo de trabalho de design funcionando perfeitamente!
+Se você precisa **converter PSD para PNG** enquanto também rotaciona camadas, este guia é para você. Seja construindo uma ferramenta de processamento em lote, um serviço web que necessita de manipulação de imagens em tempo real, ou simplesmente automatizando um fluxo de trabalho de design, fazê‑lo programaticamente economiza tempo e elimina a dependência do Adobe Photoshop. Neste tutorial vamos percorrer **como rotacionar camadas PSD** e exportar o resultado como PNG usando a biblioteca Aspose.PSD para Java. Vamos arregaçar as mangas e deixar seu fluxo de trabalho de design rodando suavemente!
 
 ## Respostas Rápidas
 - **Qual biblioteca posso usar?** Aspose.PSD para Java  
@@ -26,28 +27,29 @@ Se você precisa **converter PSD para PNG** enquanto também rotaciona camadas, 
 - **A saída PNG é transparente?** Sim, quando você define `PngColorType.TruecolorWithAlpha`
 
 ## O que é “converter PSD para PNG”?
-Converter um documento Photoshop (PSD) para uma imagem PNG significa extrair o conteúdo visual — incluindo todas as camadas, máscaras e transparência — para um formato raster amplamente suportado. PNG preserva canais alfa, tornando‑o ideal para gráficos web, miniaturas e processamento adicional de imagens.
+Converter um documento Photoshop (PSD) para uma imagem PNG significa extrair o conteúdo visual — incluindo todas as camadas, máscaras e transparência — para um formato raster amplamente suportado. PNG preserva canais alfa, tornando‑o ideal para gráficos web, miniaturas e processamento de imagens adicional.
 
 ## Por que usar Aspose.PSD para Java para converter PSD para PNG e rotacionar camadas PSD?
-- **Sem necessidade de Photoshop** – funciona em qualquer servidor ou ambiente CI  
+- **Sem necessidade do Photoshop** – funciona em qualquer servidor ou ambiente CI  
 - **Suporte total a camadas** – mantém transparência e efeitos de camada intactos  
 - **API simples** – rotacione, vire e salve com apenas algumas chamadas de método  
 - **Multiplataforma** – roda no Windows, Linux e macOS  
+- **Conversão de imagem Java** facilitada com uma única biblioteca  
 
 ## Pré‑requisitos
 Antes de mergulharmos no código, certifique‑se de que você tem o seguinte:
 
-- **Java Development Kit (JDK)** – faça o download no [site da Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-- **Ambiente de Desenvolvimento Integrado (IDE)** – IntelliJ IDEA, Eclipse ou NetBeans servem perfeitamente.  
-- **Biblioteca Aspose.PSD para Java** – obtenha o JAR mais recente na [página de lançamentos](https://releases.aspose.com/psd/java/).  
+- **Java Development Kit (JDK)** – baixe no [site da Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Ambiente de Desenvolvimento Integrado (IDE)** – IntelliJ IDEA, Eclipse ou NetBeans servem bem.  
+- **Biblioteca Aspose.PSD para Java** – obtenha o JAR mais recente na [página de releases](https://releases.aspose.com/psd/java/).  
 - **Conhecimento básico de Java** – familiaridade com classes, objetos e tratamento de exceções.
 
 ## Guia Passo a Passo
 
-### Etapa 1: Configurar Seu Projeto Java
+### Passo 1: Configurar Seu Projeto Java
 Crie um novo projeto Java na sua IDE e adicione o JAR do Aspose.PSD ao caminho de compilação do projeto.
 
-### Etapa 2: Importar Classes Necessárias
+### Passo 2: Importar Classes Necessárias
 Adicione as importações a seguir no topo do seu arquivo fonte Java:
 
 ```java
@@ -58,10 +60,10 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-Essas classes dão acesso ao carregamento de imagens, rotação e opções específicas para PNG.
+Essas classes dão acesso ao carregamento de imagens, rotação e opções específicas de PNG.
 
-### Etapa 3: Definir Caminhos de Arquivo
-Especifique onde seu PSD de origem está localizado e onde os arquivos de saída devem ser gravados.
+### Passo 3: Definir Caminhos de Arquivo
+Especifique onde está o PSD de origem e onde os arquivos de saída devem ser gravados.
 
 ```java
 String dataDir = "Your Document Directory"; // Change this to your actual document directory.
@@ -72,7 +74,7 @@ String psdPath = dataDir + "RotateFlipTest2617.psd"; // Output PSD file path
 
 > **Dica profissional:** Use um caminho absoluto durante os testes para evitar erros de “arquivo não encontrado”.
 
-### Etapa 4: Carregar o Arquivo PSD
+### Passo 4: Carregar o Arquivo PSD
 Carregue o PSD em um objeto manipulável.
 
 ```java
@@ -81,18 +83,18 @@ PsdImage im = (PsdImage) Image.load(sourceFile);
 
 Agora `im` representa todo o documento Photoshop, incluindo todas as camadas.
 
-### Etapa 5: Rotacionar a Imagem (Como rotacionar PSD)
-Escolha um tipo de rotação a partir de `RotateFlipType`. Neste exemplo rotacionamos 270° e invertemos ambos os eixos.
+### Passo 5: Rotacionar a Imagem (Como rotacionar PSD)
+Escolha um tipo de rotação em `RotateFlipType`. Neste exemplo rotacionamos 270° e invertemos ambos os eixos.
 
 ```java
 int flipType = RotateFlipType.Rotate270FlipXY; // Choose the rotation type
 im.rotateFlip(flipType); // Rotate the image
 ```
 
-Sinta‑se à vontade para experimentar outros valores, como `Rotate90FlipNone` ou `Rotate180FlipX`.
+Sinta‑se à vontade para experimentar outros valores como `Rotate90FlipNone` ou `Rotate180FlipX`. Esta é a parte **como rotacionar PSD** do tutorial.
 
-### Etapa 6: Salvar a Imagem Rotacionada como PNG (converter PSD para PNG)
-Configure as opções PNG para manter a transparência e, em seguida, salve.
+### Passo 6: Salvar a Imagem Rotacionada como PNG (converter PSD para PNG)
+Configure as opções de PNG para manter a transparência e, em seguida, salve.
 
 ```java
 PngOptions options = new PngOptions();
@@ -100,10 +102,10 @@ options.setColorType(PngColorType.TruecolorWithAlpha); // Preserve transparency
 im.save(pngPath, options); // Save the rotated image
 ```
 
-O PNG resultante mantém a transparência das camadas, ficando pronto para uso na web.
+O PNG resultante preserva a transparência das camadas, garantindo **preservar transparência PNG** para uso posterior.
 
-### Etapa 7: Salvar o PSD Modificado (opcional)
-Se também precisar de um novo PSD com a rotação aplicada, salve‑o novamente.
+### Passo 7: Salvar o PSD Modificado (opcional)
+Se também precisar de um novo PSD com a rotação aplicada, salve-o novamente.
 
 ```java
 im.save(psdPath);
@@ -114,47 +116,47 @@ Agora você tem tanto uma pré‑visualização PNG quanto um arquivo PSD atuali
 ## Problemas Comuns e Soluções
 - **Arquivo não encontrado:** Verifique se `dataDir` termina com um separador de caminho (`/` ou `\`).  
 - **OutOfMemoryError em PSDs grandes:** Aumente o tamanho do heap da JVM (`-Xmx2g`).  
-- **Transparência perdida:** Certifique‑se de que `PngColorType.TruecolorWithAlpha` está definido; caso contrário o PNG será salvo sem alfa.
+- **Transparência perdida:** Certifique‑se de que `PngColorType.TruecolorWithAlpha` está definido; caso contrário o PNG será salvo sem alfa.  
+- **Inversão da imagem PSD não se comporta como esperado:** Verifique a constante `RotateFlipType` selecionada; algumas constantes combinam rotação e inversão em um único passo.
 
 ## Perguntas Frequentes
-### Posso rotacionar uma camada específica em um arquivo PSD?
-Sim, você pode usar `Layer.rotateFlip()` em camadas individuais após iterar sobre `im.getLayers()`.
 
-### Existe alguma limitação de desempenho com Aspose.PSD para Java?
-A biblioteca lida eficientemente com a maioria dos arquivos, mas PSDs extremamente grandes (>500 MB) podem exigir memória adicional.
+**P: Posso rotacionar uma camada específica em um arquivo PSD?**  
+R: Sim, você pode usar `Layer.rotateFlip()` em camadas individuais após iterar por `im.getLayers()`.
 
-### Aspose.PSD é gratuito para uso?
-A Aspose oferece um teste gratuito, mas uma licença paga é necessária para produção. Consulte a [licença temporária](https://purchase.aspose.com/temporary-license/) para testes.
+**P: Existe alguma limitação de desempenho com Aspose.PSD para Java?**  
+R: A biblioteca lida eficientemente com a maioria dos arquivos, mas PSDs extremamente grandes (>500 MB) podem exigir memória adicional.
 
-### Onde encontro documentação detalhada?
-Você pode encontrar documentação completa em [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/).
+**P: Aspose.PSD é gratuito para uso?**  
+R: Aspose oferece um teste gratuito, mas uma licença paga é necessária para produção. Consulte a [licença temporária](https://purchase.aspose.com/temporary-license/) para testes.
 
-### E se eu encontrar problemas ao usar Aspose.PSD?
-Peça ajuda no [Aspose Support Forum](https://forum.aspose.com/c/psd/34).
+**P: Onde encontro documentação detalhada?**  
+R: Você pode acessar a documentação completa em [Aspose.PSD Documentation](https://reference.aspose.com/psd/java/).
 
-## Perguntas Frequentes Adicionais
+**P: E se eu encontrar problemas ao usar Aspose.PSD?**  
+R: Procure ajuda no [Aspose Support Forum](https://forum.aspose.com/c/psd/34).
 
-**Q: A conversão de PSD para PNG preserva os efeitos de camada?**  
-A: Sim, ao salvar com `PngColorType.TruecolorWithAlpha`, a maioria dos efeitos visuais são rasterizados no PNG.
+**P: Converter PSD para PNG preserva efeitos de camada?**  
+R: Sim, ao salvar com `PngColorType.TruecolorWithAlpha`, a maioria dos efeitos visuais são rasterizados no PNG.
 
-**Q: Posso processar vários arquivos PSD em lote?**  
-A: Absolutamente. Envolva o código em um loop que itere sobre um diretório de arquivos PSD.
+**P: Posso processar vários arquivos PSD em lote?**  
+R: Absolutamente. Envolva o código em um loop que itere sobre um diretório de arquivos PSD.
 
-**Q: É possível definir o nível de compressão do PNG?**  
-A: A classe `PngOptions` oferece o método `setCompressionLevel(int)` para ajuste fino.
+**P: É possível definir o nível de compressão do PNG?**  
+R: A classe `PngOptions` oferece o método `setCompressionLevel(int)` para ajuste fino.
 
-**Q: Preciso fechar o objeto de imagem?**  
-A: `PsdImage` implementa `Closeable`; chame `im.close()` em um bloco `finally` ou use try‑with‑resources.
+**P: Preciso fechar o objeto de imagem?**  
+R: `PsdImage` implementa `Closeable`; chame `im.close()` em um bloco `finally` ou use try‑with‑resources.
 
-**Q: O PNG rotacionado terá as mesmas dimensões do original?**  
-A: Rotacionar em 90° ou 270° troca largura e altura. O PNG refletirá a nova orientação.
+**P: O PNG rotacionado terá as mesmas dimensões do original?**  
+R: Rotacionar em 90° ou 270° troca largura e altura. O PNG refletirá a nova orientação.
 
 ## Conclusão
-Aproveitando o Aspose.PSD para Java, você pode **converter PSD para PNG** e **rotacionar camadas PSD** com apenas algumas linhas de código. Essa abordagem elimina a necessidade do Photoshop, acelera fluxos de trabalho automatizados e lhe dá controle total sobre a saída de imagens. Experimente em seus próprios projetos e veja quanto tempo você economiza!
+Ao aproveitar o Aspose.PSD para Java, você pode **converter PSD para PNG**, **preservar transparência PNG** e **rotacionar camadas PSD** com apenas algumas linhas de código. Essa abordagem elimina a necessidade do Photoshop, acelera fluxos de trabalho automatizados e oferece controle total sobre a saída de imagens. Experimente em seus próprios projetos e veja quanto tempo você economiza!
 
 ---
 
-**Última atualização:** 2025-12-15  
+**Última atualização:** 2026-02-17  
 **Testado com:** Aspose.PSD para Java 24.11  
 **Autor:** Aspose  
 

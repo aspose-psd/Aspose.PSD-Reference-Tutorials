@@ -5,7 +5,7 @@ second_title: "Aspose.PSD Java API"
 description: "Learn how to extract PSD layers and convert PSD layers to PNG using Aspose.PSD for Java. Ideal for developers needing robust graphics manipulation."
 weight: 13
 url: /java/advanced-psd-layer-features-effects/add-layer-support-psd-files/
-date: 2025-12-10
+date: 2026-02-17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -24,13 +24,14 @@ Working with Photoshop Document (PSD) files is a daily reality for graphic desig
 - **Do I need a license for production use?** A commercial license is required for production; a free trial is available for evaluation.  
 - **What Java version is required?** JDK 8 or higher (the tutorial uses JDK 11 as an example).
 
-## What is “extract PSD layers”?
-Extracting PSD layers refers to reading a PSD file’s internal structure and retrieving each layer as an independent image object. This enables you to edit, hide, reorder, or export layers individually—exactly what designers do in Photoshop, but programmatically.
+## How to extract PSD layers using Aspose.PSD for Java
+Below you’ll find a step‑by‑step guide that covers everything from setting up your environment to saving the final PNG. Follow each numbered step, and you’ll have a working solution in minutes.
 
 ## Why extract PSD layers and convert them to PNG?
 - **Reuse assets:** Pull icons, buttons, or UI elements from a master PSD without manual exporting.  
 - **Automation:** Generate thumbnails or web‑ready images on the fly.  
 - **Preserve transparency:** PNG retains alpha channels, making it perfect for web graphics.  
+- **Cross‑platform:** No need for Photoshop on the server; Aspose.PSD runs anywhere Java does.
 
 ## Prerequisites
 Before we dive in, make sure you have the following:
@@ -142,7 +143,7 @@ You’ve now learned how to **extract PSD layers**, enable full layer support, a
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-17  
 **Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
