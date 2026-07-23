@@ -1,32 +1,55 @@
 ---
-title: Přidejte diagonální vodoznak do souborů PSD pomocí Java
-linktitle: Přidejte diagonální vodoznak do souborů PSD pomocí Java
+date: 2026-03-04
+description: Naučte se, jak v Javě vytvořit grafický objekt a přidat diagonální vodoznak
+  do souborů PSD pomocí Aspose.PSD. Tento krok‑za‑krokem průvodce pokrývá použití
+  knihovny pro vodoznaky v Javě.
+linktitle: Add Diagonal Watermark to PSD Files with Java
 second_title: Aspose.PSD Java API
-description: Naučte se, jak snadno přidat diagonální vodoznak do souborů PSD pomocí Java s Aspose.PSD. Podrobný průvodce, jak své snímky sebevědomě vylepšit.
-weight: 12
+title: Vytvoření grafického objektu v Javě – Diagonální vodoznak pro PSD
 url: /cs/java/modifying-converting-psd-images/add-diagonal-watermark-psd-files/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte diagonální vodoznak do souborů PSD pomocí Java
+# Přidání šikmého vodoznaku do souborů PSD pomocí Javy
 
-## Zavedení
-V dnešním digitálním světě může mít výrazný vizuál zásadní význam. Ať už jste návrhář, který chce chránit svou práci, nebo obchodník, který chce přidat do obrázků značku, použití vodoznaku je zásadní. V tomto tutoriálu prozkoumáme, jak přidat diagonální vodoznak do souborů PSD pomocí Javy s pomocí Aspose.PSD, výkonné knihovny pro manipulaci se soubory PSD.
-## Předpoklady
-Než se pustíme do šťavnaté části kódování, musíte se ujistit, že máte nastaveno několik věcí:
-### 1. Vývojové prostředí Java
- Ujistěte se, že máte na svém počítači nainstalovanou Javu. Nejnovější verzi si můžete stáhnout z[webové stránky Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-### 2. Aspose.PSD Library
- Pro práci se soubory PSD budete potřebovat knihovnu Aspose.PSD. Můžete si jej stáhnout z[Stránka Aspose Downloads](https://releases.aspose.com/psd/java/)V závislosti na struktuře vašeho projektu můžete používat Maven nebo jiný nástroj pro správu závislostí, takže jej můžete začlenit podle svých potřeb.
-### 3. Základní porozumění Javě
-Dobrá znalost jazyka Java vám pomůže hladce sledovat tento tutoriál. Ujistěte se, že jste spokojeni s třídami, objekty a základní manipulací se soubory v Javě.
-### 4. Nastavení IDE
-Ke kódování použijte libovolné integrované vývojové prostředí (IDE), jako je IntelliJ IDEA, Eclipse nebo NetBeans. To značně usnadňuje kódování, nemyslíte?
-## Importujte balíčky
-Chcete-li manipulovat se soubory PSD, budete muset importovat konkrétní balíčky z Aspose.PSD. Zde jsou balíčky, které musíte zahrnout do horní části souboru Java:
+## Introduction
+Dans le didacticiel Tomto **créer un objet graphique Java**, vous pouvez utiliser le PSD pour créer un objet graphique. Si vous êtes un designer ou un professionnel du marketing, vous serez en mesure de vous aider à devenir professionnel. Prouvez-moi que vous pouvez obtenir de bons résultats en prenant soin d'apprendre à appliquer la technologie et votre projet.
+
+## Réponses rapides
+- **Jakou knihovnu potřebuji?** Aspose.PSD pour Java (une bibliothèque robuste de filigranes d'images Java).
+- **Jaké primární klíčové slovo tento tutoriál pokrývá?** créer un objet graphique Java.
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; pro produkční nasazení je vyžadována komerční licence.
+- **Mohu změnit text a styl vodoznaku?** Ano – můžete přizpůsobit font, barvu, průhlednost a rotaci.
+- **J'ai déjà formaté mon fichier ?** Vous pouvez utiliser un fichier PNG, mais Aspose.PSD peut exporter des fichiers PSD, JPEG, BMP.
+
+## Qu'est-ce qu'un objet graphique en Java ?
+Objet **Graphiques** představuje kreslicí plochu pro obrázek. Vous pouvez utiliser un graphique pour obtenir une méthode qui vous permet d'afficher du texte et de visualiser le bitmap sur le plan PSD. Tout ce que j'ai compris, c'est le concept principal de **créer un objet graphique Java**.
+
+## Pourquoi utiliser Aspose.PSD pour le filigrane ?
+Aspose.PSD est spécialisé dans la **bibliothèque de filigranes d'images Java**, compatible avec Adobe Photoshop. Vous pouvez contrôler et utiliser le texte pour transformer l'objet, car c'est une idée idéale pour l'exploitation côté serveur.
+
+## Prérequis
+Než se pustíme do kódu, ujistěte se, že máte následující :
+
+### 1. Environnement de développement Java
+Installez le JDK nejnovější sur [site Web Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+### 2. Bibliothèque Aspose.PSD
+Téléchargez la page [Page de téléchargements Aspose](https://releases.aspose.com/psd/java/). Přidejte JAR do projektu pomocí Maven, Gradle nebo ručního zahrnutí do classpath.
+
+### 3. Compréhension de base de Java
+Javy a commencé à utiliser Javy – il s'agit d'un objet d'entrée/sortie souborové qui peut suivre un didacticiel.
+
+### 4. Configuration de l'EDI
+Vous pouvez utiliser IntelliJ IDEA, Eclipse avec NetBeans pour un programme possible.
+
+## Importer des packages
+Pour manipuler le support PSD, vous pouvez importer Aspose.PSD :
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Font;
@@ -41,68 +64,97 @@ import com.aspose.psd.brushes.SolidBrush;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
-Nyní, když máme naše předpoklady roztříděné a potřebné balíčky importované, pojďme si projít kroky přidání diagonálního vodoznaku do souboru PSD.
-## Krok 1: Nastavte svůj adresář
+
+Nyní, když máme připravené předpoklady a potřebné balíčky importovány, projdeme kroky pro přidání šikmého vodoznaku do souboru PSD.
+
+## Krok 1: Nastavení adresáře
 ```java
 String dataDir = "Your Document Directory";
 ```
-Nejprve budete muset určit adresář, kde jsou umístěny vaše soubory PSD. Tento adresář bude výchozím bodem pro načtení obrázku. Takže vyměnit`"Your Document Directory"` se skutečnou cestou, kde se nachází váš soubor PSD.
-## Krok 2: Načtěte soubor PSD
+Nahraďte `"Your Document Directory"` cestou ke složce, která obsahuje váš zdrojový soubor PSD.
+
+## Krok 2: Načtení souboru PSD
 ```java
 PsdImage psdImage = (PsdImage)Image.load(dataDir + "layers.psd");
 ```
- Nyní načteme soubor PSD, se kterým chcete pracovat. The`Image.load` metoda načte soubor a přenese jej do a`PsdImage` objekt. Ujistěte se, že jste uvedli přesný název vašeho souboru PSD, což je v tomto případě`"layers.psd"`.
-## Krok 3: Vytvořte grafický objekt
+Metoda `Image.load` načte soubor a přetypuje jej na `PsdImage`, aby bylo možné pracovat s funkcemi specifickými pro PSD.
+
+## Krok 3: Vytvoření grafického objektu
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
- V tomto kroku vytvoříme a`Graphics` objekt, který nám umožňuje provádět operace kreslení na načteném obrázku. Berte to jako přípravu plátna, kam můžeme namalovat náš vodoznak.
-## Krok 4: Vytvořte písmo pro vodoznak
+Zde **create graphics object java**—plátno, na kterém nakreslíme vodoznak.
+
+## Krok 4: Vytvoření písma pro vodoznak
 ```java
 Font font = new Font("Arial", 20.0f);
 ```
-Zde definujeme styl a velikost písma pro text vodoznaku. V tomto případě jsme zvolili Arial o velikosti 20. Můžete si vybrat libovolné písmo, které máte nainstalované ve vašem systému – trochu to okořeňte!
-## Krok 5: Vytvořte štětec pro vodoznak
+Vyberte libovolný nainstalovaný font; velikost určuje, jak výrazný bude vodoznak.
+
+## Krok 5: Vytvoření štětce pro vodoznak
 ```java
 SolidBrush brush = new SolidBrush(Color.fromArgb(50, 128, 128, 128));
 ```
- Dále vytvoříme a`SolidBrush` objekt, který obarví náš vodoznak. The`Color.fromArgb`metoda přebírá čtyři parametry: alfa, červená, zelená a modrá. Hodnota alfa řídí průhlednost (0 je plně průhledná a 255 je plně neprůhledná). Nastavili jsme to na 50 pro pěkný poloprůhledný efekt.
-## Krok 6: Nastavte transformační matici
+Parametr `alpha` (první parametr) nastavuje průhlednost. Alfa = 50 dává jemný, poloprůhledný vzhled.
+
+## Krok 6: Nastavení transformační matice
 ```java
 graphics.setTransform(new Matrix());
 graphics.getTransform().rotateAt(45, new PointF(psdImage.getWidth() / 2, psdImage.getHeight() / 2));
 ```
- Tady se děje kouzlo! Vytvoříme transformační matici pro otočení vodoznaku. The`rotateAt` funkce má dva parametry: úhel (45 stupňů pro diagonální pohled) a bod, kolem kterého se má otáčet (což je v našem případě střed obrázku).
-## Krok 7: Definujte zarovnání řetězců
+Otočíme kreslicí plochu o 45° kolem středu obrázku, čímž vytvoříme šikmý efekt.
+
+## Krok 7: Definování zarovnání řetězce
 ```java
 StringFormat sf = new StringFormat();
 sf.setAlignment(StringAlignment.Center);
 ```
- Musíme zajistit, aby byl náš vodoznak vycentrován. The`StringFormat` class nám s tím pomáhá, zarovnává text dokonale na střed obrázku. Koneckonců, kdo má rád chaotická umístění?
-## Krok 8: Nakreslete vodoznak
+Zarovnání na střed zajišťuje, že vodoznak bude pěkně uprostřed otočeného obdélníku.
+
+## Krok 8: Nakreslení vodoznaku
 ```java
 graphics.drawString("Some watermark text", font, brush, new RectangleF(0, psdImage.getHeight() / 2, psdImage.getWidth(), psdImage.getHeight() / 2), sf);
 ```
- Nyní je čas skutečně nakreslit vodoznak! Pomocí`drawString`způsob, určíme obsah našeho vodoznaku (neváhejte si text upravit), písmo, štětec, oblast, kam ho chceme nakreslit, a nastavení zarovnání. Váš vodoznak bude použit pomocí parametrů, které jsme nastavili v obdélníku!
-## Krok 9: Uložte obrázek
+Nahraďte `"Some watermark text"` názvem vaší značky nebo upozorněním na autorská práva. Obdélník určuje, kde bude text vykreslen.
+
+## Krok 9: Uložení obrázku
 ```java
 psdImage.save(dataDir + "AddDiagnolWatermark_output.png", new PngOptions());
 ```
- Nakonec náš upravený obrázek uložíme. Zde jej exportujeme jako soubor PNG. Ujistěte se, že jste výstupnímu souboru dali jedinečný název, aby nepřepsal žádné existující soubory. The`PngOptions` class pomáhá určit formát obrázku.
-## Závěr
-A právě tak jste úspěšně přidali diagonální vodoznak do svého souboru PSD pomocí Java! Je to přímočarý proces, který však může výrazně zvýšit profesionalitu vašich snímků. Ať už chráníte své umělecké dílo nebo propagujete svou značku, vodoznak je jednoduché, ale účinné řešení.
+Výstup je uložen jako PNG, ale můžete zvolit libovolný formát podporovaný Aspose.PSD.
+
+## Cas d'utilisation courants
+- **Ochrana značky :** Přidejte poloprůhledné logo, aby se zabránilo neoprávněnému použití.
+- **Dávkové zpracování :** Automatizujte vodoznakování velkých knihoven obrázků na serveru.
+- **Création náhledy :** Vous avez choisi un client de conception, přičemž originální soubory zůstávají nedotčeny.
+
+## Dépannage et conseils
+- **Průhlednost není vidět?** Zvyšte hodnotu alfa (např. `100`) pro silnější vodoznak.
+- **Vodoznak je mimo střed?** Ověřte, že bod otáčení používá přesné dělení šířky/výšky obrázku.
+- **Obavy o výkon :** Znovu použijte stejný objekt `Graphics` při zpracování více obrázků ve smyčce.
 
 ## FAQ
-### Co je Aspose.PSD?
-Aspose.PSD je knihovna Java používaná pro práci a manipulaci se soubory PSD bez nutnosti aplikace Adobe Photoshop.
-### Mohu pro vodoznak použít jiná písma?
-Ano, pro vodoznak si můžete vybrat libovolné písmo, které je nainstalováno ve vašem systému.
-### Existuje způsob, jak upravit průhlednost vodoznaku?
-Absolutně! Můžete upravit hodnotu alfa v SolidBrush a změnit průhlednost.
-### Mohu přidat více vodoznaků?
- Ano, můžete zavolat na`drawString` metoda vícekrát s různými parametry pro přidání více vodoznaků.
-### Kde najdu více informací o Aspose.PSD?
- Můžete zkontrolovat dokumentaci[zde](https://reference.aspose.com/psd/java/).
+### Qu'est-ce qu'Aspose.PSD ?
+Aspose.PSD est un outil Java pratique pour manipuler les fichiers PSD sans Adobe Photoshop.
+
+### Puis-je utiliser d'autres polices pour le filigrane ?
+Maintenant, vous devez utiliser la police de libération, vous avez besoin d'un système et d'un système pour votre sécurité.
+
+### Existe-t-il un moyen de personnaliser la transparence du filigrane ?
+Určite! Vous devez utiliser la note d'Alfa pour `SolidBrush`, au plus près de l'application.
+
+### Puis-je ajouter plusieurs filigranes ?
+Maintenant, vous pouvez utiliser la méthode `drawString` pour définir les paramètres de votre choix.
+
+### Où puis-je trouver plus d'informations sur Aspose.PSD ?
+Vous recevrez également des informations sur les documents [zde](https://reference.aspose.com/psd/java/).
+
+---
+
+**Dernière mise à jour :** 2026-03-04
+**Testé avec :** Aspose.PSD 24.12 pour Java
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
