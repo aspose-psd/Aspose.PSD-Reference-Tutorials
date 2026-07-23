@@ -10,23 +10,7 @@ url: /vi/java/advanced-psd-layer-features-effects/support-soco-resource-psd-file
 weight: 22
 ---
 
- edit multiple PSD files in a batch?** => "Câu hỏi: Tôi có thể chỉnh sửa nhiều tệp PSD cùng lúc không?" but keep bold formatting. Keep **Q:** etc.
-
-We'll translate the question text after **Q:**.
-
-Answers translate.
-
-**Last Updated:** keep date.
-
-**Tested With:** keep.
-
-**Author:** keep.
-
-Then closing shortcodes.
-
-Make sure to keep all markdown formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

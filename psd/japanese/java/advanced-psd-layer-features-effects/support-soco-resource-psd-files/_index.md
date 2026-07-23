@@ -8,17 +8,7 @@ url: /ja/java/advanced-psd-layer-features-effects/support-soco-resource-psd-file
 weight: 22
 ---
 
-:** Aspose.PSD 24.11 for Java" keep.
-
-"**Author:** Aspose" keep.
-
-Then closing shortcodes.
-
-Now produce final content with all translations.
-
-Be careful to keep markdown formatting exactly.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -154,20 +144,20 @@ finally {
 
 ## よくある質問
 
-**Q: Can I edit multiple PSD files in a batch?**  
-A: Absolutely. Wrap the code inside a loop that iterates over a list of file paths and apply the same SoCo modification to each file.
+**Q: 複数のPSDファイルを一括編集できますか？** 
+A: はい、可能です。ファイルパスのリストをループ処理するコードで囲み、各ファイルに同じSoCoの変更を適用してください。
 
-**Q: Does changing the SoCo color affect other layers?**  
-A: No. The change is isolated to the specific `FillLayer` that contains the SoCo resource you edit.
+**Q: SoCoの色を変更すると、他のレイヤーに影響しますか？** 
+A: いいえ。変更は、編集対象のSoCoリソースを含む特定の`FillLayer`に限定されます。
 
-**Q: What if the PSD has no SoCo resource?**  
-A: The inner loop will simply skip the layer. You can add a fallback to create a new SoCo resource if needed.
+**Q: PSDファイルにSoCoリソースがない場合はどうすればいいですか？** 
+A: 内側のループは、そのレイヤーをスキップします。必要に応じて、新しいSoCoリソースを作成するフォールバック処理を追加することもできます。
 
-**Q: Is there a way to preview the color change before saving?**  
-A: You can export the `PsdImage` to a common format like PNG (`im.save("preview.png")`) to verify the result.
+**Q: 保存前に色の変更をプレビューする方法はありますか？** 
+A: `PsdImage`をPNGなどの一般的な形式にエクスポート（`im.save("preview.png")`）することで、結果を確認できます。
 
-**Q: Do I need to close the image manually?**  
-A: The `finally` block with `im.dispose()` ensures all native resources are released, even if an exception occurs.
+**Q: イメージを手動で閉じる必要がありますか？** 
+A: `finally` ブロック内の `im.dispose()` は、例外が発生した場合でも、すべてのネイティブリソースが確実に解放されるようにします。
 
 ---
 

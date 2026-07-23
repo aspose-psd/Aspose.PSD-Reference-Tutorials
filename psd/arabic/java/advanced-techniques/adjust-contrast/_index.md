@@ -9,14 +9,6 @@ url: /ar/java/advanced-techniques/adjust-contrast/
 weight: 22
 ---
 
- names, URLs.
-
-Let's produce Arabic.
-
-We'll keep bold formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

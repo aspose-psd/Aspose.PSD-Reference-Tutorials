@@ -11,23 +11,7 @@ url: /fr/java/advanced-techniques/adjust-contrast/
 weight: 22
 ---
 
- besoins spécifiques."
-
-Then horizontal rule "---"
-
-Then "**Last Updated:** 2026-02-25" keep same.
-
-"**Tested With:** Aspose.PSD for Java 24.12" keep.
-
-"**Author:** Aspose" keep.
-
-Then closing shortcodes.
-
-Also there is a backtop button shortcode after.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

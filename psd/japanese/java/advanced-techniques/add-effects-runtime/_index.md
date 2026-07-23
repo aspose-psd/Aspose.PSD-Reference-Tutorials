@@ -14,38 +14,38 @@ weight: 20
 
 # Aspose.PSD for Java で実行時にエフェクトを追加する
 
-## Introduction
+## はじめに
 
 Java 開発の世界では、**java image manipulation** が頻繁に必要となります。特に、動的なビジュアルスタイルでグラフィックを強化したい場合です。強力で汎用性の高い Java ライブラリである Aspose.PSD for Java を使用すれば、画像に **実行時にエフェクトを追加** することが簡単にできます。このチュートリアルでは、正確な手順を順に解説し、各ステップの重要性を説明し、すぐに自分のプロジェクトでエフェクトを適用できる実用的なヒントを提供します。
 
-## Quick Answers
+## よくある質問
 - **java image manipulation に役立つライブラリは？** Aspose.PSD for Java。  
 - **実行時にエフェクトを追加できますか？** はい—レイヤーエフェクト API を使用してカラーオーバーレイ、シャドウなどを適用できます。  
 - **開発にライセンスは必要ですか？** テスト用の一時ライセンスで動作しますが、本番環境ではフルライセンスが必要です。  
 - **必要な JDK バージョンは？** 最近の JDK（8 以上）。  
 - **無料トライアルはどこからダウンロードできますか？** 前提条件に記載された Aspose.PSD ダウンロードページから入手できます。
 
-## What is java image manipulation?
+## Java画像処理とは？
 Java image manipulation とは、Java ライブラリを使用してラスタ画像をプログラム上で作成、編集、または強化することを指します。リサイズ、フィルタリング、レイヤーの合成、ビジュアルエフェクトの適用などが含まれ、これらはすべて Aspose.PSD が Photoshop 形式の PSD ファイルに対して提供する機能です。
 
-## Why use Aspose.PSD for java image manipulation?
+## Java画像処理にAspose.PSDを使う理由
 - **Full PSD support** – レイヤー、マスク、調整データを保持。  
 - **No native Photoshop required** – 完全に Java だけで動作。  
 - **Runtime flexibility** – 実行時にエフェクトを追加、変更、削除可能。  
 - **Cross‑platform** – JDK が動作する任意の OS で利用可能。
 
-## Why this matters for developers
+## 開発者にとってなぜこれが重要なのか
 実行時にエフェクトを追加できることで、動的なグラフィックエンジンの構築やカスタムサムネイルの生成、オンザフライでの透かし作成が可能になります。ユーザーリクエストに応じて画像を個別にパーソナライズする Web サービスや、資産を一括処理するデスクトップツールに最適です。
 
-## Common Use Cases
-| Use case | Benefit |
+## 一般的なユースケース
+| ユースケース | メリット |
 |----------|---------|
 | **User‑generated content** | ブランドカラーやオーバーレイを瞬時に適用。 |
 | **Automated thumbnail creation** | ドロップシャドウやグローを追加して洗練された外観に。 |
 | **Dynamic UI themes** | ユーザー設定に応じてレイヤーエフェクトを切り替え。 |
 | **Batch processing pipelines** | 大量の画像セットをプログラムで自動的に強化。 |
 
-## Prerequisites
+## 前提条件
 
 チュートリアルに入る前に、以下の前提条件が整っていることを確認してください。
 
@@ -55,7 +55,7 @@ Java image manipulation とは、Java ライブラリを使用してラスタ画
 
 3. **Document Directory** – ドキュメント用のディレクトリを作成し、パスを覚えておきます。例では `Your Document Directory` と呼ばれるディレクトリを使用します。
 
-## Import Packages
+## パッケージのインポート
 
 Java プロジェクトで Aspose.PSD for Java の機能を利用するために、必要なパッケージをインポートします。
 
@@ -69,7 +69,7 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.ColorOverlayEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-## Step 1: Load the PSD Image
+## ステップ1：PSD画像を読み込む
 
 エフェクトを適用したい PSD 画像を読み込みます。適切なファイルパスを設定してください。
 
@@ -83,7 +83,7 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-## Step 2: Add Color Overlay Effect
+## ステップ2：カラーオーバーレイ効果を追加する
 
 このステップでは、PSD 画像の特定レイヤーにカラーオーバーレイエフェクトを追加します。**プログラムでエフェクトを追加する方法** を示す例です。
 
@@ -94,7 +94,7 @@ effect.setOpacity((byte)128);
 effect.setBlendMode(BlendMode.Normal);
 ```
 
-## Step 3: Save the Modified Image
+## ステップ3：変更した画像を保存する
 
 最後に、エフェクトが適用された画像を新しいファイルとして保存します。
 
@@ -102,34 +102,33 @@ effect.setBlendMode(BlendMode.Normal);
 im.save(exportPath);
 ```
 
-Congratulations! You've successfully added effects at runtime using Aspose.PSD for Java, a key technique in modern java image manipulation.
+おめでとうございます！Aspose.PSD for Java を使用して、実行時にエフェクトを追加することに成功しました。これは、最新の Java 画像処理における重要なテクニックです。
 
-## Common Issues and Solutions
+## よくある問題と解決策
 
-| Issue | Cause | Fix |
+| 問題 | 原因 | 解決策 |
 |-------|-------|-----|
 | **Effect not visible** | `loadOptions.setLoadEffectsResource(true)` が省略されている | PSD を読み込む前にフラグを設定してください。 |
 | **Opacity looks wrong** | 127 を超える符号付き `byte` を使用している | 示されたように `(byte)128` にキャストするか、符号なし int を使用して 255 で割ります。 |
 | **Layer index out of bounds** | レイヤー番号が間違っている | `im.getLayers().length` でレイヤー数を確認するか、Photoshop で PSD を検査してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
-**Q: Can I apply multiple effects to a single layer?**  
-A: Yes, you can chain calls such as `addDropShadow()`, `addInnerGlow()`, etc., on the same layer’s blending options.
+**Q: 1つのレイヤーに複数のエフェクトを適用できますか？** 
+A: はい、同じレイヤーのブレンドオプションに`addDropShadow()`、`addInnerGlow()`などの関数呼び出しを連結して適用できます。
 
-**Q: Is Aspose.PSD compatible with various image formats?**  
-A: Yes, Aspose.PSD supports PSD, BMP, JPEG, PNG, TIFF, and more, allowing you to convert between formats after manipulation.
+**Q: Aspose.PSDは様々な画像フォーマットに対応していますか？** 
+A: はい、Aspose.PSDはPSD、BMP、JPEG、PNG、TIFFなどに対応しており、画像編集後にフォーマット変換を行うことができます。
 
-**Q: How can I get a temporary license for Aspose.PSD for Java?**  
-A: You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+**Q: Aspose.PSD for Javaの一時ライセンスを取得するにはどうすればよいですか？** 
+A: 一時ライセンスは[こちら](https://purchase.aspose.com/temporary-license/)から取得できます。
 
-**Q: Where can I seek assistance for any issues or queries related to Aspose.PSD?**  
-A: Visit the Aspose.PSD [support forum](https://forum.aspose.com/c/psd/34) to get help and connect with the community.
+**Q: Aspose.PSDに関する問題や質問について、どこでサポートを受けられますか？** A: Aspose.PSDのサポートフォーラム（https://forum.aspose.com/c/psd/34）にアクセスして、サポートを受けたり、コミュニティと交流したりしてください。
 
-**Q: Is there a free trial available for Aspose.PSD for Java?**  
-A: Yes, you can explore the free trial version [here](https://releases.aspose.com/).
+**Q: Aspose.PSD for Javaの無料トライアルはありますか？** 
+A: はい、無料トライアル版は[こちら](https://releases.aspose.com/)でご利用いただけます。
 
-## Conclusion
+## まとめ
 
 Aspose.PSD for Java は **java image manipulation** をシンプルにし、Java エコシステムを離れることなく動的なビジュアルエフェクトを追加できる強力なツールキットを提供します。本ガイドに従えば、実行時にカラーオーバーレイなどの **エフェクトを追加する方法** を習得でき、Web、デスクトップ、モバイルアプリケーション向けによりリッチで魅力的なグラフィックを作成できるようになります。
 

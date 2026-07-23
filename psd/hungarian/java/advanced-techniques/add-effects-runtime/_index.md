@@ -10,8 +10,6 @@ url: /hu/java/advanced-techniques/add-effects-runtime/
 weight: 20
 ---
 
- markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

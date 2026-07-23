@@ -10,15 +10,7 @@ url: /it/java/advanced-techniques/adjust-contrast/
 weight: 22
 ---
 
-Tested With:" translate.
-
-- "Author:" translate.
-
-- The shortcodes at bottom remain.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

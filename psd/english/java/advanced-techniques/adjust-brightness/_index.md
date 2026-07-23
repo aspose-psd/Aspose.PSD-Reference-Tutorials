@@ -1,5 +1,5 @@
 ---
-title: Java Image Processing Tutorial: Adjust Brightness of an Image with Aspose.PSD for Java
+title: Java Image Processing Tutorial - Adjust Brightness of an Image with Aspose.PSD for Java
 linktitle: Adjust Brightness of an Image
 second_title: Aspose.PSD Java API
 description: In this java image processing tutorial you’ll learn how to adjust brightness of an image using Aspose.PSD for Java. Follow the step‑by‑step guide.

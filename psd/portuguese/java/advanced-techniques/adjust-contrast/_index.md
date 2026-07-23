@@ -9,9 +9,7 @@ url: /pt/java/advanced-techniques/adjust-contrast/
 weight: 22
 ---
 
-codes.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

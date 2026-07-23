@@ -9,62 +9,40 @@ url: /th/java/advanced-techniques/adjust-contrast/
 weight: 22
 ---
 
-- How to Adjust Contrast of an Image heading and description.
-
-- Convert PSD to TIFF Using Aspose.PSD heading and description.
-
-- Common Issues and Solutions heading and bullet list.
-
-- Frequently Asked Questions heading and Q&A.
-
-- Conclusion heading and paragraph.
-
-- Last Updated, Tested With, Author lines.
-
-All other content like shortcodes remain.
-
-We need to keep markdown links unchanged.
-
-Translate text but keep technical terms in English.
-
-Let's translate.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # วิธีแปลง PSD เป็น TIFF และปรับคอนทราสต์ด้วย Aspose.PSD for Java
 
-## Introduction
+## การแนะนำ
 
-หากคุณต้องการ **แปลง PSD เป็น TIFF** พร้อมกับการปรับคุณภาพภาพให้ดีขึ้น คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะเดินผ่านขั้นตอนทั้งหมดโดยใช้ Aspose.PSD for Java — ไลบรารี **java image manipulation** ที่แข็งแกร่ง คุณจะได้เรียนรู้วิธีเพิ่ม **image contrast adjustment**, แคชข้อมูล raster ขนาดใหญ่เพื่อประสิทธิภาพ, และสุดท้าย **save image as TIFF** สำหรับการประมวลผลต่อไป ไปดูกันเลย!
+** แปลง PSD เป็น TIFF** ฟังก์ชั่นนี้จำเป็นต้องใช้ภาพคุณภาพที่คุณมาถูกที่แล้วในบทแนะนำนี้เราจะใช้ขั้นตอนทั้งหมดส่วนประกอบ Aspose.PSD สำหรับ Java — ไลบรารี **java image manipulation** คุณจะได้ฟังเพิ่ม **การปรับความคมชัดของภาพ**, แคชข้อมูล raster ขนาดใหญ่เพื่อประสิทธิภาพ, และสุดท้าย **บันทึกภาพเป็น TIFF** สำหรับการทำงานร่วมกันต่อไป!
 
-## Quick Answers
-- **“adjust contrast” หมายถึงอะไร?** มันเปลี่ยนความแตกต่างระหว่างพิกเซลที่มืดที่สุดและสว่างที่สุด ทำให้รายละเอียดเด่นชัดขึ้น  
-- **ไลบรารีใดจัดการเรื่องนี้?** Aspose.PSD for Java – ชุดเครื่องมือการประมวลผลภาพครบวงจร  
-- **ต้องมีลิขสิทธิ์หรือไม่?** **temporary aspose license** ใช้สำหรับการทดสอบได้; ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานจริง  
-- **ฉันสามารถ **convert PSD to TIFF** ได้หรือไม่?** แน่นอน – เราจะใช้ `TiffOptions` เพื่อส่งออกภาพที่ผ่านการปรับแล้ว  
-- **โค้ดใช้เวลารันนานแค่ไหน?** ปกติภายในไม่กี่วินาทีสำหรับไฟล์ PSD ขนาดมาตรฐานบนฮาร์ดแวร์สมัยใหม่
+## คำตอบด่วน
+- **“ปรับคอนทราสต์” ส่วนอะไร?** มันเปลี่ยนระหว่างส่วนมืดที่มืดที่สุดและสว่างที่สุดการควบคุมรายละเอียดขึ้น
+- **ไลบรารี่ใดๆ ในเรื่องนั้น?** Aspose.PSD for Java – บทความวิจัยภาพรวมของภาพ
+- **ต้องมีลิขสิทธิ์หรือไม่** **ใบอนุญาตชั่วคราว** การทดสอบได้; ต้องลิขสิทธิ์เต็มๆเลยจริง
+- **การ **แปลง PSD เป็น TIFF** ทำได้ใช่ไหม** แน่นอนว่า – ใช้ `TiffOptions` เพื่อส่งออกภาพในการปรับแล้ว
+- **โค้ดทดสอบประสิทธิภาพ?** อีกครั้งภายในสำหรับไฟล์ PSD ขนาดมาตรฐานบนฮาร์ดแวร์ที่ทันสมัย
 
-## What is Image Contrast Adjustment?
-การปรับคอนทราสต์จะเปลี่ยนช่วงโทนของภาพโดยขยายความแตกต่างระหว่างพื้นที่สว่างและมืด ซึ่งมีประโยชน์อย่างยิ่งเมื่อภาพดูแบนหลังการสแกนหรือเมื่อเตรียมกราฟิกสำหรับการพิมพ์
+## การปรับคอนทราสต์ของภาพคืออะไร?
+เพื่อให้คอนทราสต์เปลี่ยนช่วงโทนของภาพโดยการขยายพื้นที่ระหว่างพื้นที่สว่างและมืดซึ่งจะมีประโยชน์เมื่อภาพดูแบนด์สแกนหลังหรือเมื่อเตรียมกราฟิกสำหรับการพิมพ์
 
-## Why Use Aspose.PSD for Java?
-- **Rich format support** – เปิด, แก้ไข, และ **save image as TIFF**, PNG, JPEG และรูปแบบอื่น ๆ อีกมากมาย  
-- **High performance** – การแคชและการปรับแต่ง raster‑image ลดภาระหน่วยความจำ, สำคัญสำหรับไฟล์ PSD ขนาดใหญ่  
-- **Straight‑forward API** – การเรียกเมธอดแบบหนึ่งบรรทัดเช่น `adjustContrast` ทำให้โค้ดอ่านง่ายและบำรุงรักษาได้  
-- **Comprehensive java image manipulation** ที่เหมาะกับสคริปต์ง่าย ๆ หรือแอปพลิเคชันระดับองค์กร
+## เหตุใดจึงต้องใช้ Aspose.PSD สำหรับ Java
+- **รองรับรูปแบบ Rich** – เปิด, การแสดง, และ **บันทึกภาพเป็น TIFF**, PNG, JPEG และรูปแบบอื่นๆ ของภาพเคลื่อนไหว
+- **ประสิทธิภาพสูง** – การแคชและข้อมูลแรสเตอร์-รูปภาพลดความเสถียร, สำคัญสำหรับไฟล์ PSD ขนาดใหญ่
+- **Straight‑forward API** – การเรียกเมธอดแบบหนึ่งบรรทัดเช่น `adjustContrast` เพื่อให้อ่านโค้ดของการบำรุงรักษาได้
+- **การจัดการภาพ Java ที่ครอบคลุม** สามารถเข้ากันได้ง่าย ๆ หรือแอปพลิเคชันระดับองค์กร
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่ม, โปรดตรวจสอบว่าคุณมี:
+ก่อนเริ่ม, กรุณาตรวจสอบคุณ:
 
-- ความรู้พื้นฐานด้านการเขียนโปรแกรม Java  
-- ไลบรารี Aspose.PSD for Java ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/psd/java/)
+- ความรู้พื้นฐานด้าน Java
+- ไลบรารี Aspose.PSD สำหรับ Java ดาวน์โหลดแล้วดาวน์โหลดดาวน์โหลด [ที่นี่](https://releases.aspose.com/psd/java/)
 
-## Import Packages
+## แพคเกจนำเข้า
 
 เพิ่มการ import ที่จำเป็นลงในคลาส Java ของคุณ:
 
@@ -77,7 +55,7 @@ import com.aspose.psd.fileformats.tiff.enums.TiffPhotometrics;
 import com.aspose.psd.imageoptions.TiffOptions;
 ```
 
-## Step 1: Load the Image
+## ขั้นตอนที่ 1: โหลดภาพ
 
 ```java
 String dataDir = "Your Document Directory";
@@ -89,7 +67,7 @@ Image image = Image.load(sourceFile);
 
 เราจะโหลดไฟล์ PSD ต้นฉบับ (`sample.psd`) เข้าไปในอ็อบเจกต์ `Image` ซึ่งเป็นจุดเริ่มต้นสำหรับการประมวลผลต่อไปทั้งหมด
 
-## Step 2: Cast to RasterImage and Cache Data
+## ขั้นตอนที่ 2: แปลงเป็น RasterImage และแคชข้อมูล
 
 ```java
 // Cast object of Image to RasterImage
@@ -103,7 +81,7 @@ if (!rasterImage.isCached()) {
 
 การแคสต์เป็น `RasterImage` ทำให้เราสามารถทำงานระดับพิกเซลได้ การแคชข้อมูลช่วยเพิ่มประสิทธิภาพ โดยเฉพาะไฟล์ขนาดใหญ่
 
-## How to Adjust Contrast of an Image
+## วิธีการปรับความคมชัดของภาพ
 
 ```java
 // Adjust the contrast
@@ -112,7 +90,7 @@ rasterImage.adjustContrast(50);
 
 เมธอด `adjustContrast` รับค่าจำนวนเต็มที่แทนเปอร์เซ็นต์การเปลี่ยนแปลง ในตัวอย่างนี้เราปรับคอนทราสต์เพิ่ม **50 %**
 
-## Convert PSD to TIFF Using Aspose.PSD
+## แปลง PSD เป็น TIFF โดยใช้ Aspose.PSD
 
 ```java
 // Create an instance of TiffOptions for the resultant image
@@ -128,34 +106,34 @@ rasterImage.save(destName, tiffOptions);
 
 ที่นี่เราตั้งค่า `TiffOptions` (bits per sample, photometric interpretation) และ **save image as TIFF** ขั้นตอนนี้ทำให้การ **convert PSD to TIFF** เสร็จสมบูรณ์
 
-## Common Issues and Solutions
-- **Image not cached:** ควรเรียก `cacheData()` เสมอสำหรับ PSD ขนาดใหญ่เพื่อหลีกเลี่ยง `OutOfMemoryError`  
-- **Unexpected color shift:** ตรวจสอบว่า `setPhotometric` ตรงกับสีเป้าหมายของคุณ (RGB vs. CMYK)  
-- **File not found:** ตรวจสอบให้แน่ใจว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่ถูกต้องและชื่อไฟล์สะกดถูกต้อง
+## ปัญหาทั่วไปและแนวทางแก้ไข
+- **รูปภาพไม่ถูกแคช:** โดยทั่วไปเรียก `cacheData()` เสมอสำหรับ PSD ขนาดใหญ่ตลอด `OutOfMemoryError`
+- **การเปลี่ยนสีที่ไม่คาดคิด:** คอนโซล `setPhotometric` สีทึบสีเป้าหมายของคุณ (RGB เทียบกับ CMYK)
+- **ไม่พบไฟล์:** แผงควบคุมสำหรับ `dataDir` ชี้ไปยังความถูกต้องและชื่อไฟล์สะกดถูกต้อง
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-### Q1: Aspose.PSD รองรับรูปแบบภาพต่าง ๆ หรือไม่?
+### Q1: Aspose.PSD รองรับรูปแบบภาพที่แตกต่างกันอย่างมาก?
 
-A1: ใช่, Aspose.PSD รองรับรูปแบบภาพหลายประเภท ให้ความยืดหยุ่นในโครงการของคุณ
+คำตอบที่ 1: จริง, Aspose.PSD นำเสนอรูปแบบภาพที่แสดงถึงข้อมูลของคุณ
 
-### Q2: จะขอรับ temporary license สำหรับ Aspose.PSD ได้อย่างไร?
+### คำถามที่ 2: จะต้องขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD ได้อย่างไร?
 
-A2: คุณสามารถรับ temporary license ได้จาก [here](https://purchase.aspose.com/temporary-license/)
+A2: ไม่เคยได้รับใบอนุญาตชั่วคราวจาก [ที่นี่](https://purchase.aspose.com/temporary-license/)
 
-### Q3: จะหาเอกสารของ Aspose.PSD ได้จากที่ไหน?
+### Q3: เอกสารของ Aspose.PSD จากที่ไหน?
 
-A3: เอกสารพร้อมให้บริการที่ [here](https://reference.aspose.com/psd/java/)
+A3: เอกสารพร้อมให้บริการที่ [ที่นี่](https://reference.aspose.com/psd/java/)
 
-### Q4: มีตัวเลือกการสนับสนุนอะไรบ้างสำหรับ Aspose.PSD?
+### Q4: คุณต้องการอะไรบ้างสำหรับ Aspose.PSD?
 
-A4: สำหรับการสนับสนุน, เยี่ยมชม [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)
+A4: สำหรับความต้องการของคุณอีกครั้ง [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)
 
-### Q5: สามารถซื้อ Aspose.PSD ได้หรือไม่?
+### Q5: ยังคง Aspose.PSD ได้หรือไม่?
 
-A5: ได้, คุณสามารถซื้อ Aspose.PSD ได้จาก [here](https://purchase.aspose.com/buy)
+A5: ได้อีกต่อไปแล้ว Aspose.PSD ได้จาก [ที่นี่](https://purchase.aspose.com/buy)
 
-## Conclusion
+## บทสรุป
 
 ตอนนี้คุณรู้แล้วว่า **how to convert PSD to TIFF** และทำ **image contrast adjustment** ด้วย Aspose.PSD for Java ขั้นตอนเหล่านี้ให้การควบคุมคุณภาพภาพอย่างละเอียดพร้อมกับโค้ดที่สะอาดและบำรุงรักษาง่าย อย่าลังเลที่จะลองเมธอดการปรับอื่น ๆ เช่น `adjustBrightness` หรือ `adjustGamma` เพื่อให้ตรงกับความต้องการของคุณ
 

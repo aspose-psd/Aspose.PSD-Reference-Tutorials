@@ -9,10 +9,6 @@ url: /it/java/advanced-psd-layer-features-effects/support-soco-resource-psd-file
 weight: 22
 ---
 
- solido nei file PSD usando Java". Keep "PSD" and "Java".
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -9,11 +9,7 @@ url: /nl/java/advanced-techniques/adjust-contrast/
 weight: 22
 ---
 
- content with all translations.
-
-Be careful to keep bold formatting, code formatting, etc.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

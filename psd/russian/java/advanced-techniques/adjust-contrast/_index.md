@@ -11,15 +11,7 @@ url: /ru/java/advanced-techniques/adjust-contrast/
 weight: 22
 ---
 
-CODE_BLOCK_0}}; we keep them.
-
-Check any inline code: `sample.psd`, `Image`, `RasterImage`, `adjustContrast`, `TiffOptions`, `cacheData()`, `OutOfMemoryError`, `setPhotometric`, `dataDir`. Keep unchanged.
-
-Check bold: we kept **...**.
-
-Check nested bold: the bullet with **Can I **convert PSD to TIFF**?**. We kept same formatting. Might need to escape? Keep as is.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

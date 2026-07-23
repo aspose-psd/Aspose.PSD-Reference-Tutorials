@@ -16,34 +16,34 @@ weight: 22
 
 # Cara Mengonversi PSD ke TIFF dan Menyesuaikan Kontras dengan Aspose.PSD untuk Java
 
-## Introduction
+## Perkenalan
 
-Jika Anda perlu **mengonversi PSD ke TIFF** sekaligus menyesuaikan kualitas visual grafik Anda, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan membahas alur kerja lengkap menggunakan Aspose.PSD untuk Java—sebuah perpustakaan **manipulasi gambar java** yang kuat. Anda akan belajar cara meningkatkan **penyesuaian kontras gambar**, menyimpan data raster besar untuk kinerja, dan akhirnya **menyimpan gambar sebagai TIFF** untuk pemrosesan lanjutan. Mari kita mulai!
+Jika Anda perlu **mengonversi PSD ke TIFF** sekaligus menyesuaikan kualitas visual grafik Anda, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan membahas alur kerja lengkap menggunakan Aspose.PSD untuk Java—sebuah perpustakaan **manipulasi gambar java** yang kuat. Anda akan belajar cara meningkatkan **penyesuaian kontras gambar**, menyimpan data raster besar untuk kinerja, dan terakhir **menyimpan gambar sebagai TIFF** untuk memproses lanjutan. Mari kita mulai!
 
-## Quick Answers
-- **Apa arti “adjust contrast”?** Itu mengubah perbedaan antara piksel paling gelap dan paling terang, membuat detail lebih menonjol.  
-- **Perpustakaan mana yang menangani ini?** Aspose.PSD untuk Java – toolkit pemrosesan gambar lengkap.  
-- **Apakah saya memerlukan lisensi?** **Lisensi aspose sementara** dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.  
-- **Apakah saya dapat **mengonversi PSD ke TIFF**?** Tentu saja – kami akan menggunakan `TiffOptions` untuk mengekspor gambar yang telah diproses.  
+## Jawaban Cepat
+- **Apa arti “menyesuaikan kontras”?** Itu mengubah perbedaan antara piksel paling gelap dan paling terang, membuat detail lebih menonjol.
+- **Perpustakaan mana yang menangani ini?** Aspose.PSD untuk Java – toolkit pemrosesan gambar lengkap.
+- **Apakah saya memerlukan lisensi?** **Lisensi aspose sementara** dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.
+- **Apakah saya dapat **mengonversi PSD ke TIFF**?** Tentu saja – kami akan menggunakan `TiffOptions` untuk mengekspor gambar yang telah diproses.
 - **Berapa lama kode ini berjalan?** Biasanya kurang dari satu detik untuk file PSD berukuran standar pada perangkat keras modern.
 
 ## Penyesuaian Kontras Gambar
-Penyesuaian kontras mengubah rentang tonal sebuah gambar, memperkuat perbedaan antara area terang dan gelap. Ini sangat berguna ketika gambar tampak datar setelah dipindai atau saat menyiapkan grafik untuk pencetakan.
+Penyesuaian kontras mengubah rentang tonal sebuah gambar, memperkuat perbedaan antara area terang dan gelap. Ini sangat berguna ketika gambar tampak datar setelah tiba atau saat menyiapkan grafik untuk diaduk.
 
-## Why Use Aspose.PSD for Java?
-- **Dukungan format yang kaya** – membuka, mengedit, dan **menyimpan gambar sebagai TIFF**, PNG, JPEG, dan banyak lagi.  
-- **Kinerja tinggi** – caching dan optimisasi gambar raster mengurangi beban memori, penting untuk file PSD besar.  
-- **API yang sederhana** – pemanggilan metode tunggal seperti `adjustContrast` membuat kode mudah dibaca dan dipelihara.  
+## Mengapa Menggunakan Aspose.PSD untuk Java?
+- **Dukungan format yang kaya** – membuka, mengedit, dan **menyimpan gambar sebagai TIFF**, PNG, JPEG, dan banyak lagi.
+- **Kinerja tinggi** – caching dan optimalisasi gambar raster mengurangi beban memori, penting untuk file PSD besar.
+- **API yang sederhana** – memanggil metode tunggal seperti `adjustContrast` membuat kode mudah dibaca dan dipelihara.
 - **Kemampuan manipulasi gambar java yang komprehensif** yang cocok untuk skrip sederhana maupun aplikasi tingkat perusahaan.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki:
 
-- Pengetahuan dasar pemrograman Java.  
+- Pengetahuan dasar pemrograman Java.
 - Perpustakaan Aspose.PSD untuk Java terpasang. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/psd/java/).
 
-## Import Packages
+## Impor Paket
 
 Tambahkan impor yang diperlukan ke kelas Java Anda:
 

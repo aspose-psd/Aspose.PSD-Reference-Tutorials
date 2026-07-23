@@ -9,8 +9,6 @@ url: /sv/java/advanced-psd-layer-features-effects/support-soco-resource-psd-file
 weight: 22
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
