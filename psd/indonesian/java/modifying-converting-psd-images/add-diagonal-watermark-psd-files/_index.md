@@ -16,38 +16,38 @@ weight: 12
 
 # Tambahkan Watermark Diagonal ke File PSD dengan Java
 
-## Introduction
-Dalam tutorial ini Anda akan **create graphics object java** dan menggunakannya untuk menambahkan watermark diagonal ke file PSD. Baik Anda seorang desainer yang melindungi karya seni Anda maupun pemasar yang memberi merek pada gambar, watermark yang bersih dapat membuat pekerjaan Anda terlihat profesional dan aman. Kami akan menjelaskan setiap langkah dengan penjelasan yang jelas, sehingga Anda dapat dengan cepat menerapkan teknik ini dalam proyek Anda sendiri.
+## Perkenalan
+Dalam tutorial ini Anda akan **membuat objek grafis java** dan menggunakannya untuk menambahkan watermark diagonal ke file PSD. Baik Anda seorang desainer yang melindungi karya seni Anda maupun pemasar yang memberi merek pada gambar, watermark yang bersih dapat membuat pekerjaan Anda terlihat profesional dan aman. Kami akan menjelaskan setiap langkah dengan penjelasan yang jelas, sehingga Anda dapat dengan cepat menerapkan teknik ini dalam proyek Anda sendiri.
 
-## Quick Answers
-- **Library apa yang saya perlukan?** Aspose.PSD untuk Java (sebuah library watermark gambar java yang kuat).  
-- **Kata kunci utama apa yang dibahas dalam tutorial ini?** create graphics object java.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi.  
-- **Bisakah saya mengubah teks dan gaya watermark?** Ya – Anda dapat menyesuaikan font, warna, opacity, dan rotasi.  
-- **Format output apa yang didukung?** Contoh menyimpan sebagai PNG, tetapi Aspose.PSD dapat mengekspor ke PSD, JPEG, BMP, dan lainnya.
+## Jawaban Cepat
+- **Library apa yang saya perlukan?** Aspose.PSD untuk Java (sebuah watermark perpustakaan gambar java yang kuat).
+- **Kata kunci utama apa yang dibahas dalam tutorial ini?** membuat objek grafis java.
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi.
+- ** membujuk saya mengubah teks dan gaya watermark?** Ya – Anda dapat menyesuaikan font, warna, opacity, dan rotasi.
+- **Format output apa yang didukung?** Contoh penyimpanan sebagai PNG, tetapi Aspose.PSD dapat mengekspor ke PSD, JPEG, BMP, dan lainnya.
 
-## What is a Graphics Object in Java?
-Objek **Graphics** mewakili permukaan gambar untuk menggambar. Dengan membuat objek graphics, Anda mendapatkan akses ke metode yang memungkinkan Anda merender teks, bentuk, dan elemen visual lainnya langsung pada bitmap atau kanvas PSD. Inilah konsep inti di balik kata kunci utama **create graphics object java**.
+## Apa itu Objek Grafik di Java?
+Objek **Graphics** mewakili permukaan gambar untuk menggambar. Dengan membuat objek grafis, Anda mendapatkan akses ke metode yang memungkinkan Anda merender teks, bentuk, dan elemen visual lainnya langsung pada bitmap atau kanvas PSD. Inilah konsep inti di balik kata kunci utama **membuat objek grafis java**.
 
-## Why Use Aspose.PSD for Watermarking?
-Aspose.PSD adalah **java image watermark library** khusus yang berfungsi tanpa Adobe Photoshop. Library ini memberi Anda kontrol penuh atas lapisan, rendering teks, dan transformasi gambar, menjadikannya ideal untuk pemrosesan sisi‑server atau operasi batch.
+## Mengapa Menggunakan Aspose.PSD untuk Memberi Tanda Air?
+Aspose.PSD adalah **java image watermark library** khusus yang berfungsi tanpa Adobe Photoshop. Library ini memberi Anda kontrol penuh atas lapisan, rendering teks, dan transformasi gambar, menjadikannya ideal untuk memproses sisi‑server atau batch operasi.
 
-## Prerequisites
+## Prasyarat
 Sebelum kita masuk ke kode, pastikan Anda memiliki hal‑hal berikut:
 
-### 1. Java Development Environment
-Instal JDK terbaru dari [Java website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+### 1. Lingkungan Pengembangan Java
+Instal JDK terbaru dari [situs web Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### 2. Aspose.PSD Library
-Unduh library dari [Aspose Downloads page](https://releases.aspose.com/psd/java/). Tambahkan JAR ke proyek Anda melalui Maven, Gradle, atau penyertaan classpath manual.
+### 2. Perpustakaan Aspose.PSD
+Unduh perpustakaan dari [halaman Unduhan Aspose](https://releases.aspose.com/psd/java/). Tambahkan JAR ke proyek Anda melalui Maven, Gradle, atau penyertaan classpath manual.
 
-### 3. Basic Understanding of Java
-Pemahaman tentang kelas, objek, dan I/O file akan membantu Anda mengikuti tutorial dengan lancar.
+### 3. Pemahaman Dasar Java
+Pemahaman tentang kelas, objek, dan file I/O akan membantu Anda mengikuti tutorial dengan lancar.
 
-### 4. IDE Setup
+### 4. Pengaturan IDE
 Gunakan IntelliJ IDEA, Eclipse, atau NetBeans untuk pengalaman coding yang nyaman.
 
-## Import Packages
+## Impor Paket
 Untuk memanipulasi file PSD, impor kelas Aspose.PSD yang diperlukan:
 
 ```java
@@ -67,75 +67,75 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 Setelah prasyarat kami siap dan paket yang diperlukan telah diimpor, mari kita jalankan langkah‑langkah untuk menambahkan watermark diagonal ke file PSD.
 
-## Step 1: Set Up Your Directory
+## Langkah 1: Siapkan Direktori Anda
 ```java
 String dataDir = "Your Document Directory";
 ```
 Ganti `"Your Document Directory"` dengan jalur folder yang berisi file sumber PSD Anda.
 
-## Step 2: Load the PSD File
+## Langkah 2: Muat File PSD
 ```java
 PsdImage psdImage = (PsdImage)Image.load(dataDir + "layers.psd");
 ```
 Metode `Image.load` membaca file dan meng‑cast‑nya menjadi `PsdImage` sehingga kita dapat bekerja dengan fitur khusus PSD.
 
-## Step 3: Create a Graphics Object
+## Langkah 3: Buat Objek Grafis
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
 Di sini kami **create graphics object java**—kanvas tempat kami akan menggambar watermark.
 
-## Step 4: Create a Font for the Watermark
+## Langkah 4: Buat Font untuk Tanda Air
 ```java
 Font font = new Font("Arial", 20.0f);
 ```
 Pilih font yang terpasang; ukuran font mengontrol seberapa menonjol watermark muncul.
 
-## Step 5: Create a Brush for the Watermark
+## Langkah 5: Buat Kuas untuk Tanda Air
 ```java
 SolidBrush brush = new SolidBrush(Color.fromArgb(50, 128, 128, 128));
 ```
 Nilai `alpha` (parameter pertama) menentukan tingkat transparansi. Alpha sebesar 50 memberikan tampilan semi‑transparent yang halus.
 
-## Step 6: Set Up the Transform Matrix
+## Langkah 6: Atur Matriks Transformasi
 ```java
 graphics.setTransform(new Matrix());
 graphics.getTransform().rotateAt(45, new PointF(psdImage.getWidth() / 2, psdImage.getHeight() / 2));
 ```
 Kami memutar permukaan gambar 45° di sekitar pusat gambar, menciptakan efek diagonal.
 
-## Step 7: Define String Alignment
+## Langkah 7: Tentukan Penyelarasan String
 ```java
 StringFormat sf = new StringFormat();
 sf.setAlignment(StringAlignment.Center);
 ```
 Penjajaran tengah memastikan watermark berada dengan rapi di tengah persegi panjang yang diputar.
 
-## Step 8: Draw the Watermark
+## Langkah 8: Gambar Tanda Air
 ```java
 graphics.drawString("Some watermark text", font, brush, new RectangleF(0, psdImage.getHeight() / 2, psdImage.getWidth(), psdImage.getHeight() / 2), sf);
 ```
 Ganti `"Some watermark text"` dengan nama merek atau pernyataan hak cipta Anda. Persegi panjang menentukan area tempat teks dirender.
 
-## Step 9: Save the Image
+## Langkah 9: Simpan Gambar
 ```java
 psdImage.save(dataDir + "AddDiagnolWatermark_output.png", new PngOptions());
 ```
 Output disimpan sebagai PNG, tetapi Anda dapat memilih format apa pun yang didukung oleh Aspose.PSD.
 
-## Common Use Cases
-- **Perlindungan merek:** Tambahkan logo semi‑transparent untuk mencegah penggunaan tidak sah.  
-- **Pemrosesan batch:** Otomatiskan penambahan watermark untuk perpustakaan gambar besar di server.  
+## Kasus Penggunaan Umum
+- **Perlindungan merek:** Tambahkan logo semi‑transparan untuk mencegah penggunaan tidak sah.
+- **Pemrosesan batch:** Otomatiskan penambahan watermark ke perpustakaan gambar besar di server.
 - **Pratinjau kreatif:** Tampilkan draf ber‑watermark kepada klien sambil menjaga file asli tetap tidak tersentuh.
 
-## Troubleshooting & Tips
-- **Transparansi tidak terlihat?** Tingkatkan nilai alpha (misalnya `100`) untuk watermark yang lebih kuat.  
-- **Watermark muncul tidak terpusat?** Pastikan titik rotasi menggunakan pembagian lebar/tinggi gambar yang tepat.  
+## Pemecahan Masalah & Tip
+- **Transparansi tidak terlihat?** Tingkatkan nilai alpha (misalnya `100`) untuk watermark yang lebih kuat.
+- **Watermark muncul tidak berakhir?** Pastikan titik rotasi menggunakan pembagian lebar/tinggi gambar yang tepat.
 - **Kekhawatiran performa:** Gunakan kembali objek `Graphics` yang sama saat memproses banyak gambar dalam sebuah loop.
 
-## FAQ's
+## FAQ
 ### Apa itu Aspose.PSD?
-Aspose.PSD adalah library Java yang digunakan untuk bekerja dengan dan memanipulasi file PSD tanpa memerlukan Adobe Photoshop.
+Aspose.PSD adalah perpustakaan Java yang digunakan untuk bekerja dengan dan memanipulasi file PSD tanpa memerlukan Adobe Photoshop.
 
 ### Bisakah saya menggunakan font lain untuk watermark?
 Ya, Anda dapat memilih font apa pun yang terpasang di sistem Anda untuk watermark.
@@ -143,7 +143,7 @@ Ya, Anda dapat memilih font apa pun yang terpasang di sistem Anda untuk watermar
 ### Apakah ada cara menyesuaikan transparansi watermark?
 Tentu saja! Anda dapat mengatur nilai alpha pada `SolidBrush` untuk mengubah tingkat transparansi.
 
-### Bisakah saya menambahkan beberapa watermark?
+### Dapatkah saya menambahkan beberapa tanda air?
 Ya, Anda dapat memanggil metode `drawString` beberapa kali dengan parameter berbeda untuk menambahkan lebih banyak watermark.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.PSD?
@@ -151,9 +151,9 @@ Anda dapat memeriksa dokumentasinya [di sini](https://reference.aspose.com/psd/j
 
 ---
 
-**Last Updated:** 2026-03-04  
-**Tested With:** Aspose.PSD 24.12 for Java  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 04-03-2026
+**Diuji Dengan:** Aspose.PSD 24.12 untuk Java
+**Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

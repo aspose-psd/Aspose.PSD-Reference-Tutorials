@@ -17,38 +17,38 @@ weight: 12
 # Přidání šikmého vodoznaku do souborů PSD pomocí Javy
 
 ## Introduction
-V tomto tutoriálu **create graphics object java** a použijete jej k přidání šikmého vodoznaku do souborů PSD. Ať už jste designér chránící své dílo nebo marketér značící obrázky, čistý vodoznak může učinit vaši práci profesionální a zabezpečenou. Provedeme vás každým krokem s jasnými vysvětleními, takže můžete rychle aplikovat techniku ve svých projektech.
+Dans le didacticiel Tomto **créer un objet graphique Java**, vous pouvez utiliser le PSD pour créer un objet graphique. Si vous êtes un designer ou un professionnel du marketing, vous serez en mesure de vous aider à devenir professionnel. Prouvez-moi que vous pouvez obtenir de bons résultats en prenant soin d'apprendre à appliquer la technologie et votre projet.
 
-## Quick Answers
-- **Jakou knihovnu potřebuji?** Aspose.PSD for Java (a robust java image watermark library).  
-- **Jaké primární klíčové slovo tento tutoriál pokrývá?** create graphics object java.  
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; pro produkční nasazení je vyžadována komerční licence.  
-- **Mohu změnit text a styl vodoznaku?** Ano – můžete přizpůsobit font, barvu, průhlednost a rotaci.  
-- **Jaké výstupní formáty jsou podporovány?** Příklad ukládá jako PNG, ale Aspose.PSD může exportovat do PSD, JPEG, BMP a dalších.
+## Réponses rapides
+- **Jakou knihovnu potřebuji?** Aspose.PSD pour Java (une bibliothèque robuste de filigranes d'images Java).
+- **Jaké primární klíčové slovo tento tutoriál pokrývá?** créer un objet graphique Java.
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; pro produkční nasazení je vyžadována komerční licence.
+- **Mohu změnit text a styl vodoznaku?** Ano – můžete přizpůsobit font, barvu, průhlednost a rotaci.
+- **J'ai déjà formaté mon fichier ?** Vous pouvez utiliser un fichier PNG, mais Aspose.PSD peut exporter des fichiers PSD, JPEG, BMP.
 
-## What is a Graphics Object in Java?
-Objekt **Graphics** představuje kreslicí plochu pro obrázek. Vytvořením grafického objektu získáte přístup k metodám, které umožňují vykreslovat text, tvary a další vizuální prvky přímo na bitmapu nebo plátno PSD. Toto je základní koncept za primárním klíčovým slovem **create graphics object java**.
+## Qu'est-ce qu'un objet graphique en Java ?
+Objet **Graphiques** představuje kreslicí plochu pro obrázek. Vous pouvez utiliser un graphique pour obtenir une méthode qui vous permet d'afficher du texte et de visualiser le bitmap sur le plan PSD. Tout ce que j'ai compris, c'est le concept principal de **créer un objet graphique Java**.
 
-## Why Use Aspose.PSD for Watermarking?
-Aspose.PSD je specializovaná **java image watermark library**, která funguje bez Adobe Photoshopu. Poskytuje plnou kontrolu nad vrstvami, vykreslováním textu a transformacemi obrázku, což ji činí ideální pro server‑side zpracování nebo dávkové operace.
+## Pourquoi utiliser Aspose.PSD pour le filigrane ?
+Aspose.PSD est spécialisé dans la **bibliothèque de filigranes d'images Java**, compatible avec Adobe Photoshop. Vous pouvez contrôler et utiliser le texte pour transformer l'objet, car c'est une idée idéale pour l'exploitation côté serveur.
 
-## Prerequisites
-Než se pustíme do kódu, ujistěte se, že máte následující:
+## Prérequis
+Než se pustíme do kódu, ujistěte se, že máte následující :
 
-### 1. Java Development Environment
-Instalujte nejnovější JDK z [Java website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+### 1. Environnement de développement Java
+Installez le JDK nejnovější sur [site Web Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### 2. Aspose.PSD Library
-Stáhněte knihovnu ze [Aspose Downloads page](https://releases.aspose.com/psd/java/). Přidejte JAR do projektu pomocí Maven, Gradle nebo ručního zahrnutí do classpath.
+### 2. Bibliothèque Aspose.PSD
+Téléchargez la page [Page de téléchargements Aspose](https://releases.aspose.com/psd/java/). Přidejte JAR do projektu pomocí Maven, Gradle nebo ručního zahrnutí do classpath.
 
-### 3. Basic Understanding of Java
-Základní znalost Javy – třídy, objekty a souborové I/O vám pomůže plynule sledovat tutoriál.
+### 3. Compréhension de base de Java
+Javy a commencé à utiliser Javy – il s'agit d'un objet d'entrée/sortie souborové qui peut suivre un didacticiel.
 
-### 4. IDE Setup
-Použijte IntelliJ IDEA, Eclipse nebo NetBeans pro pohodlné programování.
+### 4. Configuration de l'EDI
+Vous pouvez utiliser IntelliJ IDEA, Eclipse avec NetBeans pour un programme possible.
 
-## Import Packages
-Pro manipulaci se soubory PSD importujte potřebné třídy Aspose.PSD:
+## Importer des packages
+Pour manipuler le support PSD, vous pouvez importer Aspose.PSD :
 
 ```java
 import com.aspose.psd.Color;
@@ -67,93 +67,93 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 Nyní, když máme připravené předpoklady a potřebné balíčky importovány, projdeme kroky pro přidání šikmého vodoznaku do souboru PSD.
 
-## Step 1: Set Up Your Directory
+## Krok 1: Nastavení adresáře
 ```java
 String dataDir = "Your Document Directory";
 ```
 Nahraďte `"Your Document Directory"` cestou ke složce, která obsahuje váš zdrojový soubor PSD.
 
-## Step 2: Load the PSD File
+## Krok 2: Načtení souboru PSD
 ```java
 PsdImage psdImage = (PsdImage)Image.load(dataDir + "layers.psd");
 ```
 Metoda `Image.load` načte soubor a přetypuje jej na `PsdImage`, aby bylo možné pracovat s funkcemi specifickými pro PSD.
 
-## Step 3: Create a Graphics Object
+## Krok 3: Vytvoření grafického objektu
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
 Zde **create graphics object java**—plátno, na kterém nakreslíme vodoznak.
 
-## Step 4: Create a Font for the Watermark
+## Krok 4: Vytvoření písma pro vodoznak
 ```java
 Font font = new Font("Arial", 20.0f);
 ```
 Vyberte libovolný nainstalovaný font; velikost určuje, jak výrazný bude vodoznak.
 
-## Step 5: Create a Brush for the Watermark
+## Krok 5: Vytvoření štětce pro vodoznak
 ```java
 SolidBrush brush = new SolidBrush(Color.fromArgb(50, 128, 128, 128));
 ```
 Parametr `alpha` (první parametr) nastavuje průhlednost. Alfa = 50 dává jemný, poloprůhledný vzhled.
 
-## Step 6: Set Up the Transform Matrix
+## Krok 6: Nastavení transformační matice
 ```java
 graphics.setTransform(new Matrix());
 graphics.getTransform().rotateAt(45, new PointF(psdImage.getWidth() / 2, psdImage.getHeight() / 2));
 ```
 Otočíme kreslicí plochu o 45° kolem středu obrázku, čímž vytvoříme šikmý efekt.
 
-## Step 7: Define String Alignment
+## Krok 7: Definování zarovnání řetězce
 ```java
 StringFormat sf = new StringFormat();
 sf.setAlignment(StringAlignment.Center);
 ```
 Zarovnání na střed zajišťuje, že vodoznak bude pěkně uprostřed otočeného obdélníku.
 
-## Step 8: Draw the Watermark
+## Krok 8: Nakreslení vodoznaku
 ```java
 graphics.drawString("Some watermark text", font, brush, new RectangleF(0, psdImage.getHeight() / 2, psdImage.getWidth(), psdImage.getHeight() / 2), sf);
 ```
 Nahraďte `"Some watermark text"` názvem vaší značky nebo upozorněním na autorská práva. Obdélník určuje, kde bude text vykreslen.
 
-## Step 9: Save the Image
+## Krok 9: Uložení obrázku
 ```java
 psdImage.save(dataDir + "AddDiagnolWatermark_output.png", new PngOptions());
 ```
 Výstup je uložen jako PNG, ale můžete zvolit libovolný formát podporovaný Aspose.PSD.
 
-## Common Use Cases
-- **Ochrana značky:** Přidejte poloprůhledné logo, aby se zabránilo neoprávněnému použití.  
-- **Dávkové zpracování:** Automatizujte vodoznakování velkých knihoven obrázků na serveru.  
-- **Kreativní náhledy:** Ukazujte vodoznakované koncepty klientům, přičemž originální soubory zůstávají nedotčeny.
+## Cas d'utilisation courants
+- **Ochrana značky :** Přidejte poloprůhledné logo, aby se zabránilo neoprávněnému použití.
+- **Dávkové zpracování :** Automatizujte vodoznakování velkých knihoven obrázků na serveru.
+- **Création náhledy :** Vous avez choisi un client de conception, přičemž originální soubory zůstávají nedotčeny.
 
-## Troubleshooting & Tips
-- **Průhlednost není vidět?** Zvyšte hodnotu alfa (např. `100`) pro silnější vodoznak.  
-- **Vodoznak je mimo střed?** Ověřte, že bod otáčení používá přesné dělení šířky/výšky obrázku.  
-- **Obavy o výkon:** Znovu použijte stejný objekt `Graphics` při zpracování více obrázků ve smyčce.
+## Dépannage et conseils
+- **Průhlednost není vidět?** Zvyšte hodnotu alfa (např. `100`) pro silnější vodoznak.
+- **Vodoznak je mimo střed?** Ověřte, že bod otáčení používá přesné dělení šířky/výšky obrázku.
+- **Obavy o výkon :** Znovu použijte stejný objekt `Graphics` při zpracování více obrázků ve smyčce.
 
-## FAQ's
-### What is Aspose.PSD?
-Aspose.PSD je Java knihovna pro práci a manipulaci se soubory PSD bez nutnosti Adobe Photoshopu.
+## FAQ
+### Qu'est-ce qu'Aspose.PSD ?
+Aspose.PSD est un outil Java pratique pour manipuler les fichiers PSD sans Adobe Photoshop.
 
-### Can I use other fonts for watermarking?
-Ano, můžete zvolit libovolný font, který je nainstalován ve vašem systému, pro vodoznakování.
+### Puis-je utiliser d'autres polices pour le filigrane ?
+Maintenant, vous devez utiliser la police de libération, vous avez besoin d'un système et d'un système pour votre sécurité.
 
-### Is there a way to customize the watermark's transparency?
-Určitě! Můžete upravit hodnotu alfa v `SolidBrush`, abyste změnili průhlednost.
+### Existe-t-il un moyen de personnaliser la transparence du filigrane ?
+Určite! Vous devez utiliser la note d'Alfa pour `SolidBrush`, au plus près de l'application.
 
-### Can I add multiple watermarks?
-Ano, můžete volat metodu `drawString` vícekrát s různými parametry a přidat tak více vodoznaků.
+### Puis-je ajouter plusieurs filigranes ?
+Maintenant, vous pouvez utiliser la méthode `drawString` pour définir les paramètres de votre choix.
 
-### Where can I find more information about Aspose.PSD?
-Více informací najdete v dokumentaci [zde](https://reference.aspose.com/psd/java/).
+### Où puis-je trouver plus d'informations sur Aspose.PSD ?
+Vous recevrez également des informations sur les documents [zde](https://reference.aspose.com/psd/java/).
 
 ---
 
-**Last Updated:** 2026-03-04  
-**Tested With:** Aspose.PSD 24.12 for Java  
-**Author:** Aspose  
+**Dernière mise à jour :** 2026-03-04
+**Testé avec :** Aspose.PSD 24.12 pour Java
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

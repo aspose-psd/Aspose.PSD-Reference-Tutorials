@@ -1,6 +1,6 @@
 ---
-title: How to Edit PSD: Add Curves Adjustment Layer Using Java
-linktitle: How to Edit PSD: Add Curves Adjustment Layer Using Java
+title: How to Edit PSD - Add Curves Adjustment Layer Using Java
+linktitle: How to Edit PSD - Add Curves Adjustment Layer Using Java
 second_title: Aspose.PSD Java API
 description: Learn how to edit PSD files and how to add curves adjustment layers using Aspose.PSD for Java. Follow this step‑by‑step guide to enhance your images quickly.
 weight: 11

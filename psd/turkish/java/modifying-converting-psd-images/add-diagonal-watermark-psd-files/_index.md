@@ -16,39 +16,41 @@ weight: 12
 
 # Java ile PSD Dosyalarına Çapraz Filigran Ekleme
 
-## Introduction
-Bu öğreticide **create graphics object java** oluşturacak ve bunu PSD dosyalarına çapraz bir filigran eklemek için kullanacaksınız. İster eserlerinizi koruyan bir tasarımcı, ister görsellere marka ekleyen bir pazarlamacı olun, temiz bir filigran çalışmanızı profesyonel ve güvenli gösterir. Her adımı net açıklamalarla anlatacağız, böylece tekniği kendi projelerinizde hızlıca uygulayabilirsiniz.
+## Giriiş
+Bu öğreticide **grafik nesnesi oluşturma java** oluşturacak ve bunu PSD dosyalarını çapraz bir filigran seçmek için kullanacaksınız. İster işinizi koruyan bir tasarımcı, ister görsellere marka ekleyen bir pazarlamacı olun, temiz bir filigran çalışmanızı profesyonel ve güvenli gösterir. Her adımı net açıklamalarla anlatacağız, bu sayede teknolojiyi kendi projelerinizde özetle uygulayabilirsiniz.
 
-## Quick Answers
-- **What library do I need?** Aspose.PSD for Java (a robust java image watermark library).  
-- **Which primary keyword does this tutorial cover?** create graphics object java.  
-- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
-- **Can I change the watermark text and style?** Yes – you can customize font, color, opacity, and rotation.  
-- **What output formats are supported?** The example saves as PNG, but Aspose.PSD can export to PSD, JPEG, BMP, and more.
+## Hızlı Yanıtlar
+- **Hangi kütüphaneye ihtiyacım var?** Aspose.PSD for Java (sağlam bir Java resim filigran kütüphanesi).
+- **Bu eğitim hangi birincil anahtar kelimeyi kapsıyor?** Java grafik nesnesi oluşturun.
+- **Lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü test amacıyla çalışır; Üretim için ticari lisans gereklidir.
+- **Filigran metnini ve stilini değiştirebilir miyim?** Evet – yazı tipini, rengi, opaklığı ve döndürmeyi özelleştirebilirsiniz.
+- **Hangi çıktı formatları destekleniyor?** Örnek PNG olarak kaydediliyor, ancak Aspose.PSD PSD, JPEG, BMP ve daha fazlasına dışa aktarabiliyor.
 
-## What is a Graphics Object in Java?
-A **Graphics** object represents a drawing surface for an image. By creating a graphics object, you gain access to methods that let you render text, shapes, and other visual elements directly onto the bitmap or PSD canvas. This is the core concept behind the primary keyword **create graphics object java**.
+## Java'da Grafik Nesnesi Nedir?
 
-## Why Use Aspose.PSD for Watermarking?
-Aspose.PSD is a dedicated **java image watermark library** that works without Adobe Photoshop. It gives you full control over layers, text rendering, and image transformations, making it ideal for server‑side processing or batch operations.
+Bir **Grafik** nesnesi, bir görüntü için çizim yüzeyini temsil eder. Bir grafik nesnesi oluşturarak, metin, şekiller ve diğer görsel öğeleri doğrudan bitmap veya PSD tuvaline işlemenizi sağlayan yöntemlere erişim kazanırsınız. Bu, **create graphics object java** anahtar kelimesinin ardındaki temel kavramdır.
 
-## Prerequisites
-Before we dive into the code, make sure you have the following:
+## Filigranlama için Aspose.PSD Neden Kullanılmalı?
 
-### 1. Java Development Environment
-Install the latest JDK from the [Java website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+Aspose.PSD, Adobe Photoshop olmadan çalışan özel bir **Java görüntü filigran kütüphanesidir**. Katmanlar, metin işleme ve görüntü dönüşümleri üzerinde tam kontrol sağlar ve bu da onu sunucu tarafı işleme veya toplu işlemler için ideal hale getirir.
 
-### 2. Aspose.PSD Library
-Download the library from the [Aspose Downloads page](https://releases.aspose.com/psd/java/). Add the JAR to your project via Maven, Gradle, or manual classpath inclusion.
+## Önkoşullar
+Koda geçmeden önce şunlara sahip olduğunuzdan emin olun:
 
-### 3. Basic Understanding of Java
-Familiarity with classes, objects, and file I/O will help you follow along smoothly.
+### 1. Java Geliştirme Ortamı
+En son JDK'yı [Java web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) yükleyin.
 
-### 4. IDE Setup
-Use IntelliJ IDEA, Eclipse, or NetBeans for a comfortable coding experience.
+### 2. Aspose.PSD Kütüphanesi
+Kütüphaneyi [Aspose İndirmeler sayfasından](https://releases.aspose.com/psd/java/) indirin. JAR dosyasını Maven, Gradle veya manuel sınıf yolu ekleme yoluyla projenize ekleyin.
 
-## Import Packages
-To manipulate PSD files, import the required Aspose.PSD classes:
+### 3. Java'nın Temel Anlayışı
+Sınıflar, nesneler ve dosya G/Ç'ye aşinalık, sorunsuz bir şekilde ilerlemenize yardımcı olacaktır.
+
+### 4. IDE Kurulumu
+Rahat bir kodlama deneyimi için IntelliJ IDEA, Eclipse veya NetBeans kullanın.
+
+## Paketleri İçe Aktarma
+PSD dosyalarını düzenlemek için gerekli Aspose.PSD sınıflarını içe aktarın:
 
 ```java
 import com.aspose.psd.Color;
@@ -67,93 +69,98 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 Now that we have our prerequisites sorted and the necessary packages imported, let’s walk through the steps to add a diagonal watermark to a PSD file.
 
-## Step 1: Set Up Your Directory
+## Adım 1: Dizininizi Kurun
 ```java
 String dataDir = "Your Document Directory";
 ```
 Replace `"Your Document Directory"` with the folder path that holds your PSD source file.
 
-## Step 2: Load the PSD File
+## Adım 2: PSD Dosyasını Yükleyin
 ```java
 PsdImage psdImage = (PsdImage)Image.load(dataDir + "layers.psd");
 ```
 The `Image.load` method reads the file and casts it to a `PsdImage` so we can work with PSD‑specific features.
 
-## Step 3: Create a Graphics Object
+## Adım 3: Bir Grafik Nesnesi Oluşturun
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
 Here we **create graphics object java**—the canvas on which we’ll draw the watermark.
 
-## Step 4: Create a Font for the Watermark
+## Adım 4: Filigran İçin Bir Yazı Tipi Oluşturun
 ```java
 Font font = new Font("Arial", 20.0f);
 ```
 Pick any installed font; the size controls how prominent the watermark appears.
 
-## Step 5: Create a Brush for the Watermark
+## Adım 5: Filigran İçin Bir Fırça Oluşturun
 ```java
 SolidBrush brush = new SolidBrush(Color.fromArgb(50, 128, 128, 128));
 ```
 The `alpha` value (first parameter) sets transparency. An alpha of 50 gives a subtle, semi‑transparent look.
 
-## Step 6: Set Up the Transform Matrix
+## Adım 6: Dönüştürme Matrisini Kurun
 ```java
 graphics.setTransform(new Matrix());
 graphics.getTransform().rotateAt(45, new PointF(psdImage.getWidth() / 2, psdImage.getHeight() / 2));
 ```
 We rotate the drawing surface 45° around the image center, creating the diagonal effect.
 
-## Step 7: Define String Alignment
+## Adım 7: Dize Hizalamasını Tanımlayın
 ```java
 StringFormat sf = new StringFormat();
 sf.setAlignment(StringAlignment.Center);
 ```
 Center alignment ensures the watermark sits nicely in the middle of the rotated rectangle.
 
-## Step 8: Draw the Watermark
+## Adım 8: Filigranı Çizin
 ```java
 graphics.drawString("Some watermark text", font, brush, new RectangleF(0, psdImage.getHeight() / 2, psdImage.getWidth(), psdImage.getHeight() / 2), sf);
 ```
 Replace `"Some watermark text"` with your brand name or copyright notice. The rectangle defines where the text is rendered.
 
-## Step 9: Save the Image
+## Adım 9: Resmi Kaydedin
 ```java
 psdImage.save(dataDir + "AddDiagnolWatermark_output.png", new PngOptions());
 ```
 The output is saved as PNG, but you can choose any format supported by Aspose.PSD.
 
-## Common Use Cases
-- **Brand protection:** Add a semi‑transparent logo to prevent unauthorized reuse.  
-- **Batch processing:** Automate watermarking for large image libraries on a server.  
-- **Creative previews:** Show watermarked drafts to clients while keeping the original files untouched.
+## Yaygın Kullanım Alanları
+- **Marka koruması:** Yetkisiz yeniden kullanımı önlemek için yarı saydam bir logo ekleyin.
 
-## Troubleshooting & Tips
-- **Transparency not visible?** Increase the alpha value (e.g., `100`) for a stronger watermark.  
-- **Watermark appears off‑center?** Verify the rotation point uses the image’s exact width/height division.  
-- **Performance concerns:** Reuse the same `Graphics` object when processing multiple images in a loop.
+- **Toplu işlem:** Sunucudaki büyük resim kütüphaneleri için filigran eklemeyi otomatikleştirin.
 
-## FAQ's
-### What is Aspose.PSD?
-Aspose.PSD is a Java library used for working with and manipulating PSD files without requiring Adobe Photoshop.
+- **Yaratıcı önizlemeler:** Orijinal dosyaları değiştirmeden, filigranlı taslakları müşterilerinize gösterin.
 
-### Can I use other fonts for watermarking?
-Yes, you can choose any font that is installed on your system for watermarking.
+## Sorun Giderme ve İpuçları
+- **Saydamlık görünmüyor mu?** Daha güçlü bir filigran için alfa değerini (örneğin, `100`) artırın.
 
-### Is there a way to customize the watermark's transparency?
-Absolutely! You can adjust the alpha value in the SolidBrush to change the transparency.
+- **Filigran merkezden uzak mı görünüyor?** Döndürme noktasının resmin tam genişlik/yükseklik bölümünü kullandığından emin olun.
 
-### Can I add multiple watermarks?
-Yes, you can call the `drawString` method multiple times with different parameters to add more watermarks.
+- **Performans sorunları:** Bir döngüde birden fazla resim işlerken aynı `Graphics` nesnesini yeniden kullanın.
 
-### Where can I find more information about Aspose.PSD?
-You can check the documentation [here](https://reference.aspose.com/psd/java/).
+## SSS
+
+### Aspose.PSD nedir?
+Aspose.PSD, Adobe Photoshop gerektirmeden PSD dosyalarıyla çalışmak ve bunları manipüle etmek için kullanılan bir Java kütüphanesidir.
+
+### Filigran için başka yazı tipleri kullanabilir miyim?
+Evet, sisteminizde yüklü olan herhangi bir yazı tipini filigran için kullanabilirsiniz.
+
+### Filigranın şeffaflığını özelleştirmenin bir yolu var mı?
+Kesinlikle! Şeffaflığı değiştirmek için SolidBrush'taki alfa değerini ayarlayabilirsiniz.
+
+### Birden fazla filigran ekleyebilir miyim?
+Evet, daha fazla filigran eklemek için `drawString` yöntemini farklı parametrelerle birden fazla kez çağırabilirsiniz.
+
+### Aspose.PSD hakkında daha fazla bilgiyi nerede bulabilirim?
+Belgeleri [burada](https://reference.aspose.com/psd/java/) inceleyebilirsiniz.
 
 ---
 
-**Last Updated:** 2026-03-04  
-**Tested With:** Aspose.PSD 24.12 for Java  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-03-04
+**Test Edilen Sürüm:** Aspose.PSD 24.12 for Java
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
