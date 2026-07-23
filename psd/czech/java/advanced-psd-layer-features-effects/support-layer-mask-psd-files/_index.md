@@ -1,10 +1,10 @@
 ---
-date: 2025-12-17
-description: Naučte se, jak exportovat PSD do PNG při zachování masky vrstev pomocí
-  Aspose.PSD pro Java – krok za krokem průvodce konverzí obrázků v Javě.
+date: 2026-02-20
+description: Naučte se, jak exportovat PSD do PNG s podporou masky vrstev pomocí Aspose.PSD
+  pro Javu – krok za krokem průvodce konverzí obrázků v Javě.
 linktitle: Export PSD to PNG with Layer Mask Support in Java
 second_title: Aspose.PSD Java API
-title: Export PSD do PNG s podporou masky vrstvy v Javě
+title: Jak exportovat PSD do PNG s podporou masky vrstvy v Javě
 url: /cs/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 weight: 18
 ---
@@ -16,32 +16,38 @@ weight: 18
 # Export PSD do PNG s podporou masky vrstvy v Javě
 
 ## Úvod
-Když potřebujete **exportovat PSD do PNG** a zachovat složité masky vrstev, spolehlivá knihovna pro Javu vám může ušetřit hodiny ruční práce. V tomto tutoriálu projdeme celý proces pomocí Aspose.PSD Java API, od načtení souboru PSD až po uložení jako PNG obrázku s plnou podporou alfa kanálu. Ať už vytváříte nástroj pro dávkové zpracování, automatizovaný pipeline pro assety, nebo jen potřebujete rychlý konverzní skript, najdete zde jasné, konverzační kroky, které úkol učiní přímočarým.
+Pokud hledáte **how to export PSD** soubory do PNG při zachování složitých masek vrstev, jste na správném místě. Když potřebujete **export PSD to PNG** a zachovat tyto masky nedotčeny, spolehlivá knihovna pro Javu vám může ušetřit hodiny ruční práce. V tomto tutoriálu projdeme celý proces pomocí **Aspose.PSD Java API**, od načtení PSD souboru až po jeho uložení jako PNG obrázek s plnou podporou alfa kanálu. Ať už vytváříte nástroj pro dávkové zpracování, automatizovanou pipeline pro assety, nebo jen potřebujete rychlý konverzní skript, najdete jasné, konverzační kroky, které úkol učiní přímočarým.
 
 ## Rychlé odpovědi
-- **Co znamená „export PSD do PNG“?** Převod souboru Photoshop PSD na rastrový obrázek PNG při zachování vizuální věrnosti.  
-- **Která knihovna podporuje masky vrstev?** Aspose.PSD pro Javu poskytuje vestavěnou podporu pro masky a alfa kanály.  
-- **Potřebuji licenci?** Bezplatná zkušební verze stačí pro testování; pro produkční použití je vyžadována komerční licence.  
-- **Mohu to spustit na libovolném OS?** Ano – Java API je platformně nezávislé.  
-- **Jak dlouho trvá konverze?** Obvykle méně než sekunda pro soubory standardní velikosti.
+- **What does “export PSD to PNG” mean?** Převod souboru Photoshop PSD na rastrový obrázek PNG při zachování vizuální věrnosti.  
+- **Which library handles layer masks?** Aspose.PSD for Java poskytuje vestavěnou podporu pro masky a alfa kanály.  
+- **Do I need a license?** Bezplatná zkušební verze funguje pro testování; pro produkční použití je vyžadována komerční licence.  
+- **Can I run this on any OS?** Ano – Java API je platformově nezávislé.  
+- **How long does the conversion take?** Obvykle méně než sekunda pro soubory standardní velikosti.
 
-## Co je „export PSD do PNG“ a proč je důležitý?
-Exportování PSD do PNG je nezbytné, když chcete sdílet Photoshop grafiku na webu, vložit ji do aplikací nebo generovat náhledy. PNG zachovává průhlednost, což ho činí ideálním pro assety obsahující masky vrstev. Automatizací převodu pomocí Javy eliminujete ruční exportní kroky a zajistíte konzistentní výsledky napříč velkými dávkami.
+## Jak exportovat PSD do PNG s podporou masky vrstvy
+Exportování PSD do PNG je nezbytné, když chcete sdílet Photoshop grafiku na webu, vložit ji do aplikací nebo vytvořit miniatury. PNG zachovává průhlednost, což je ideální pro assety, které obsahují masky vrstev. Automatizací konverze pomocí Javy odstraníte ruční kroky exportu a zajistíte konzistentní výsledky napříč velkými dávkami.
 
-## Požadavky
-Než se pustíme do kódu, ujistěte se, že máte následující:
+## Proč použít Aspose.PSD Java pro tento úkol?
+- **Full mask handling** – API čte masky PSD a automaticky je zapisuje do alfa kanálu PNG.  
+- **Java image conversion** – Není potřeba externí nástroje; vše běží uvnitř vašeho Java procesu.  
+- **Batch‑ready** – Kombinujte kód s cyklem pro provedení **batch PSD to PNG** konverzí během několika minut.  
+- **Cross‑platform** – Funguje na Windows, macOS a Linuxu bez nativních závislostí.
 
-- **Java Development Kit (JDK)** – ověřte pomocí `java -version`. Pokud potřebujete, stáhněte z [webu Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-- **Aspose.PSD knihovna** – získejte nejnovější JAR ze [stránky ke stažení](https://releases.aspose.com/psd/java/) nebo přidejte pomocí Maven/Gradle.  
+## Předpoklady
+Než se ponoříme do kódu, ujistěte se, že máte následující:
+
+- **Java Development Kit (JDK)** – ověřte pomocí `java -version`. Stáhněte z [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html), pokud je potřeba.  
+- **Aspose.PSD library** – získejte nejnovější JAR ze [download page](https://releases.aspose.com/psd/java/) nebo jej přidejte pomocí Maven/Gradle.  
 - **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor, který preferujete pro vývoj v Javě.
 
-### 1. Vývojové prostředí Javy
-Aktuální JDK (11 nebo novější) zajišťuje kompatibilitu s Aspose.PSD API.
+### 1. Vývojové prostředí Java
+Recent JDK (11 nebo novější) zajišťuje kompatibilitu s Aspose.PSD API.
 
-### 2. Aspose.PSD knihovna
-Knihovna zpracovává **java image conversion**, parsování masek a možnosti exportu do PNG.
+### 2. Knihovna Aspose.PSD
+Knihovna zpracovává **java image conversion**, parsování masek a možnosti exportu PNG.
 
-### 3. IDE (Integrated Development Environment)
+### 3. IDE (Integrované vývojové prostředí)
 Použití IDE usnadňuje ladění a nastavení projektu.
 
 ## Import balíčků
@@ -54,86 +60,86 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Export PSD do PNG s podporou masky vrstvy
-Níže je kompletní, krok‑za‑krokem workflow pro **save psd as png** při zachování masek.
+## Průvodce krok za krokem
 
 ### Krok 1: Nastavte adresář projektu
-Definujte složku, která obsahuje zdrojový PSD a bude uchovávat výstupní PNG.
+Definujte složku, která obsahuje zdrojové PSD a bude obsahovat výstupní PNG.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Nahraďte `Your Document Directory` absolutní cestou ve vašem systému.
+Nahraďte `Your Document Directory` absolutní cestou na vašem počítači.
 
-### Krok 2: Uveďte zdrojový soubor PSD
-Ukazatel na PSD, který chcete převést. V tomto příkladu používáme soubor, který obsahuje složitou masku.
+### Krok 2: Určete zdrojový PSD soubor
+Ukazujte na PSD, který chcete převést. V tomto příkladu používáme soubor, který obsahuje složitou masku.
 
 ```java
 String sourceFileName = dataDir + "MaskComplex.psd";
 ```
 
-### Krok 3: Definujte cestu pro export PNG
+### Krok 3: Definujte cestu exportu pro PNG
 Řekněte programu, kam má zapsat výsledný PNG soubor.
 
 ```java
 String exportPath = dataDir + "MaskComplex.png";
 ```
 
-### Krok 4: Načtěte soubor PSD
-Toto je **how to load psd** krok. Metoda `Image.load` načte soubor do objektu `PsdImage`.
+### Krok 4: Načtěte PSD soubor
+Toto je krok **how to load PSD**. Metoda `Image.load` načte soubor do objektu `PsdImage`.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
 ### Krok 5: Nastavte možnosti exportu PNG
-Konfigurujte PNG tak, aby zachovalo alfa kanál, což je klíčové pro průhlednost masky vrstvy.
+Nastavte PNG tak, aby zachovávalo alfa kanál, což je klíčové pro průhlednost masky vrstvy.
 
 ```java
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
-### Krok 6: Uložte soubor PNG
-Nakonec proveďte operaci **convert psd to png**.
+### Krok 6: Uložte PNG soubor
+Nakonec proveďte operaci **convert PSD to PNG**.
 
 ```java
 im.save(exportPath, saveOptions);
 ```
 
-Pokud je vše nastaveno správně, najdete `MaskComplex.png` ve výstupní složce, zobrazující maskované oblasti původního PSD dokonale.
+Pokud je vše nastaveno správně, najdete `MaskComplex.png` ve vašem výstupním adresáři, který dokonale zobrazuje maskované oblasti původního PSD.
 
 ## Časté problémy a řešení
-- **Chyby „soubor nenalezen“** – Zkontrolujte `dataDir` a ujistěte se, že název PSD souboru přesně odpovídá, včetně velikosti písmen.  
-- **Chybějící průhlednost** – Ověřte, že je použito `saveOptions.setColorType(PngColorType.TruecolorWithAlpha)`; jinak bude PNG uloženo bez alfa kanálu.  
-- **Nedostatek paměti pro velké soubory** – Zvažte zvýšení velikosti haldy JVM (`-Xmx2g`) při zpracování velmi velkých PSD.
+- **File‑not‑found errors** – Zkontrolujte `dataDir` a ujistěte se, že název PSD souboru přesně odpovídá, včetně citlivosti na velikost písmen.  
+- **Missing transparency** – Ověřte, že je použito `saveOptions.setColorType(PngColorType.TruecolorWithAlpha)`; jinak bude PNG uloženo bez alfa kanálu.  
+- **Out‑of‑memory for large files** – Zvažte zvýšení velikosti haldy JVM (`-Xmx2g`) při zpracování velmi velkých PSD souborů.  
+- **Batch conversion tip** – Zabalte výše uvedené kroky do `for` smyčky, která iteruje přes seznam názvů PSD souborů, aby se dosáhlo **batch PSD to PNG** zpracování.
 
 ## Často kladené otázky
 
 **Q: Co je maska vrstvy v souborech PSD?**  
-A: Maska vrstvy řídí průhlednost vrstvy, umožňuje skrýt nebo odhalit části obrázku bez trvalého vymazání pixelů.
+**A:** Maska vrstvy řídí průhlednost vrstvy, což vám umožňuje skrýt nebo odhalit části obrázku bez trvalého vymazání pixelů.
 
-**Q: Můžu pracovat se soubory PSD bez programovacích znalostí?**  
-A: Zatímco Aspose.PSD vyžaduje kód, grafičtí designéři mohou pro ruční konverzi použít Photoshop nebo jiné GUI nástroje.
+**Q: Mohu pracovat se soubory PSD bez programovacích znalostí?**  
+**A:** I když Aspose.PSD vyžaduje kód, grafičtí designéři mohou pro ruční konverzi použít Photoshop nebo jiné GUI nástroje.
 
-**Q: Je Aspose.PSD zdarma?**  
-A: Bezplatná zkušební verze je k dispozici na stránce ke stažení; pro komerční projekty je nutná placená licence.
+**Q: Je Aspose.PSD zdarma k použití?**  
+**A:** Bezplatná zkušební verze je k dispozici na stránce ke stažení; pro komerční projekty je vyžadována placená licence.
 
 **Q: Co se stane, pokud můj PSD soubor neobsahuje žádné masky?**  
-A: Konverze stále funguje; výsledný PNG prostě nebude mít efekty maskované průhlednosti.
+**A:** Konverze stále funguje; výsledné PNG jednoduše nebude mít efekty maskované průhlednosti.
 
 **Q: Kde mohu získat podporu, pokud mám problémy?**  
-A: Navštivte [support forum](https://forum.aspose.com/c/psd/34) pro pomoc od odborníků Aspose a komunity.
+**A:** Navštivte [support forum](https://forum.aspose.com/c/psd/34) pro pomoc od odborníků Aspose a komunity.
 
 ## Závěr
-Nyní jste se naučili, jak **exportovat PSD do PNG** při zachování masek vrstev pomocí Aspose.PSD Java API. Tento přístup zjednodušuje **java image conversion**, podporuje dávkové zpracování a zajišťuje, že vaše vizuální assety si zachovají zamýšlenou průhlednost. Klidně experimentujte s různými PNG možnostmi nebo integrujte tento workflow do větších automatizačních pipeline.
+Nyní jste se naučili **how to export PSD to PNG** při zachování masek vrstev pomocí Aspose.PSD Java API. Tento přístup zjednodušuje **java image conversion**, podporuje dávkové zpracování a zajišťuje, že vaše vizuální assety si zachovají zamýšlenou průhlednost. Klidně experimentujte s různými možnostmi PNG nebo integrujte tento workflow do větších automatizačních pipeline.
 
 ---
 
-**Poslední aktualizace:** 2025-12-17  
-**Testováno s:** Aspose.PSD for Java 24.12  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-20  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

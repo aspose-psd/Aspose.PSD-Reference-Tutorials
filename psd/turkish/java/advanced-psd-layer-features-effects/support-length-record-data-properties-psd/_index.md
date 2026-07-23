@@ -1,12 +1,11 @@
 ---
-date: 2025-12-17
-description: Aspose.PSD for Java kullanarak uzunluk kayıt verisi özelliklerini destekleyerek
-  PSD vektör şekillerini nasıl değiştireceğinizi öğrenin. Kod örnekleriyle adım adım
+date: 2026-02-20
+description: Aspose.PSD for Java kullanarak uzun kayıt özelliklerini nasıl destekleyeceğinizi
+  ve PSD dosyalarını toplu işleme alacağınızı öğrenin. Kod örnekleriyle adım adım
   rehber.
 linktitle: Support Length Record Data Properties in PSD - Java
 second_title: Aspose.PSD Java API
-title: PSD vektör şekillerini nasıl değiştirilir – Java’da Uzunluk Kayıt Veri Özelliklerini
-  Destekleme
+title: Uzunluk Kayıt Özelliklerini Destekle – PSD Vektör Şekillerini Değiştir (Java)
 url: /tr/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
 weight: 14
 ---
@@ -15,35 +14,35 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD'de Uzunluk Kaydı Veri Özelliklerini Destekleme - Java
+# Uzunluk Kayıt Özelliklerini Destekleme – PSD Vektör Şekillerini Değiştirme (Java)
 
-## Giriş
-Eğer programlı olarak **modify PSD vector shapes** yapmanız gerekiyorsa, Aspose.PSD for Java kütüphanesi Photoshop dosyaları üzerinde Java kodunuzdan tam kontrol sağlar. Bu öğreticide, uzunluk kaydı veri özelliklerini desteklemek için bilmeniz gereken her şeyi adım adım inceleyeceğiz—vektor şekil katmanlarını düzenlemek istediğinizde kritik bir adımdır. Sonunda bir PSD dosyasını açabilecek, vektör şekil özelliklerini ayarlayabilecek ve güncellenmiş dosyayı IDE'nizden çıkmadan kaydedebileceksiniz. Hadi başlayalım!
+## Giriiş
+Programlı olarak **PSD vektör şekillerini değiştirmek istiyorsanız**, Aspose.PSD for Java kütüphanesi, Photoshop dosyalarının Java üzerinde okunmasızdan tam kontrol edilmesini sağlar. Bu öğretirken, **uzunluk kayıt belirtme destekleme** konusunda gereken her şeyi adım adım ince başlatmak—vektör şekil katmanlarını düzenlemek istediğinizde kritik bir adımdır. Sonunda, bir PSD verilerini açabilecek, vektör simge özelliklerini ayarlayabileceğiniz ve güncellendiğini IDE'nizden çıkmadan kaydedebileceksiniz. Hadi başla!
 
 ## Hızlı Yanıtlar
-- **“modify PSD vector shapes” ne anlama geliyor?** Bir PSD dosyası içindeki vektör tabanlı katmanların geometrisini, yol işlemlerini veya diğer özelliklerini ayarlamak.  
-- **Bu işlemi hangi kütüphane yapar?** Aspose.PSD for Java.  
-- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
-- **Uygulama ne kadar sürer?** Temel bir şekil değiştirme betiği için yaklaşık 10‑15 dakika.  
-- **Ana önkoşullar nelerdir?** Java JDK, Aspose.PSD for Java ve örnek bir PSD dosyası.
+- **“PSD vektör şekillerinin değişmesi” ne anlama geliyor?** Bir PSD dosyasındaki taşıyıcı tabanlı katmanların geometrisini, yol gelişmeleri veya diğer özellikleri ayarlanır.
+- **Bu işlem hangi kütüphanede yapılıyor?** Aspose.PSD for Java.
+- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.
+- **Uygulama ne kadar sürer?** Temel bir şekil‑değiştirme betiği için yaklaşık 10‑15dakika.
+- **Ana önkoşullar nelerdir?** JavaJDK, Aspose.PSD for Java ve örnek bir PSD dosyası.
 
-## “modify PSD vector shapes” nedir?
-PSD vektör şekillerini değiştirmek, temel vektör yol verilerini—örneğin uzunluk kayıtları ve yol işlemleri—değiştirmeyi içerir; böylece şekillerin görsel görünümü buna göre güncellenir. Bu, otomatik grafik boru hatları, toplu işleme veya özel tasarım araçları için özellikle faydalıdır.
+## “Destek uzunluğu kaydı özellikleri” nedir?
+Uzunluk kayıt özelliğini destekleme, bir PSD'deki her vektör yolunu gösteren `LengthRecord`u çalıştırır ve bunları güncellemek anlamına gelir. Bu değişiklikler, şekillerin nasıl birleştirileceği, birbirine ulaşacağı veya birbirinden çıkacağının kontrol edilmesini sağlar.
 
-## PSD vektör şekillerini değiştirmek için Aspose.PSD for Java neden kullanılmalı?
-- **Photoshop gerekmez** – herhangi bir sunucuda PSD dosyalarıyla doğrudan çalışın.  
-- **Zengin API** – katmanlara, kaynaklara ve vektör verilerine güçlü tipli sınıflarla erişin.  
-- **Çapraz platform** – herhangi bir JDK ile Windows, Linux veya macOS'ta çalıştırın.  
-- **Performansa odaklı** – verimli bellek yönetimi ve hızlı kaydetme işlemleri.
+## Uzunluk kaydı özelliklerini desteklemek için neden Aspose.PSD for Java kullanmalısınız?
+- **Photoshop'a gerek yoktur** – PSD dosyalarıyla doğrudan herhangi bir sunucuda bulunabilir.
+- **Zengin API** – katmanlara, kaynaklara ve istatistiklere sahip güçlü tipli sınıflarla erişin.
+- **Çapraz‑platform** – Windows, Linux veya macOS üzerinde herhangi bir JDK dosyası çalıştırılır.
+- **Performansa odaklı** – verimli bellek yönetimi ve hızlı kayıt işlemleri.
 
 ## Önkoşullar
-1. **Java Development Kit (JDK)** – [Oracle'ın web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirin veya tercih ettiğiniz paket yöneticisini kullanın.  
-2. **Aspose.PSD for Java** – en son JAR dosyasını [Aspose sürüm sayfasından](https://releases.aspose.com/psd/java/) edinin.  
-3. **IDE** – IntelliJ IDEA, Eclipse veya herhangi bir Java uyumlu editör.  
-4. **Bir PSD dosyası** – Photoshop'ta oluşturun veya deneme amaçlı bir örnek PSD alın.  
-5. **Temel Java bilgisi** – sınıflar, nesneler ve istisna yönetimi konularına aşina olun.
+1. **Java Development Kit (JDK)** – [Oracle'ın web sitesinde](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirin veya tercih ettiğiniz paket yöneticisini kullanın.
+2. **Aspose.PSD for Java** – en yeni JAR sürümü [Aspose sürüm sayfasından](https://releases.aspose.com/psd/java/) başlatır.
+3. **IDE** – IntelliJ IDEA, Eclipse veya herhangi bir Java uyumlu editör.
+4. **Bir PSD dosyası** – Photoshop'ta birleştirme veya deneme amaçlı bir örnek PSD alın.
+5. **Temel Java bilgisi** – sınıflar, nesneler ve istisna yönetimi konularına hakim olun.
 
-## Paketleri İçe Aktarma
+## Paketleri İçe Aktar
 İlk olarak, PSD dosyaları ve vektör şekil kaynaklarıyla çalışmak için ihtiyaç duyacağınız sınıfları içe aktarın.
 
 ```java
@@ -55,8 +54,8 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.LengthRe
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathOperations;
 ```
 
-## Adım 1: Kaynak ve Çıktı Dizinlerinizi Ayarlayın
-Orijinal PSD'nin nerede bulunduğunu ve değiştirilmiş dosyanın nereye kaydedileceğini tanımlayın.
+## Adım 1: Kaynak ve Çıkış Dizinlerinizi Ayarlayın
+Orijinal PSD'nin bulunduğu yeri ve değiştirilmiş dosyanın kaydedileceği yeri tanımlayın.
 
 ```java
 String sourceDir = "Your Source Directory";
@@ -66,14 +65,14 @@ String outPsdFilePath = outputDir + "out_PathOperationsShape.psd";
 ```
 
 ## Adım 2: PSD Dosyasını Yükleyin
-`Image.load` kullanarak dosyayı açın ve PSD‑özel özellikler için `PsdImage` tipine dönüştürün.
+Dosyayı açmak için `Image.load` kullanın ve PSD‑özel özellikler için `PsdImage` tipine dönüştürün.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(inPsdFilePath);
 ```
 
-## Adım 3: Katmandaki Vsms Kaynağını Bulun
-Vektör şekil verileri bir `VsmsResource` içinde bulunur. İkinci katmanın kaynakları arasında döngü yaparak onu bulun.
+## Adım 3: Katmanda Vsms Kaynağını Bulun
+Vektör şekil verileri bir `VsmsResource` içinde bulunur. İkinci katmanın kaynakları arasında dolaşarak bunu bulun.
 
 ```java
 VsmsResource resource = null;
@@ -94,8 +93,8 @@ LengthRecord lengthRecord1 = (LengthRecord) resource.getPaths()[7];
 LengthRecord lengthRecord2 = (LengthRecord) resource.getPaths()[11];
 ```
 
-## Adım 5: Yol İşlem Özelliklerini Değiştirin
-Şimdi `PathOperations`'ı değiştirerek **modify PSD vector shapes** yapabilirsiniz. Bu, şekillerin nasıl etkileşeceğini belirler (ör. dışlama, kesişim, çıkarma).
+## Adım 5: Yol İşlemi Özelliklerini Değiştirin
+Şimdi `PathOperations` değerlerini değiştirerek **PSD vektör şekillerini** modifiye edebilirsiniz. Bu, şekillerin nasıl etkileşeceğini (ör. dışlama, kesişim, çıkarma) belirler.
 
 ```java
 lengthRecord0.setPathOperations(PathOperations.ExcludeOverlappingShapes);
@@ -103,7 +102,7 @@ lengthRecord1.setPathOperations(PathOperations.IntersectShapeAreas);
 lengthRecord2.setPathOperations(PathOperations.SubtractFrontShape);
 ```
 
-## Adım 6: Değiştirilmiş PSD Dosyasını Kaydedin
+## Adım 6: Değiştirilen PSD Dosyasını Kaydedin
 Değişikliklerinizi yeni bir dosyaya kaydedin.
 
 ```java
@@ -111,41 +110,44 @@ psdImage.save(outPsdFilePath);
 ```
 
 ## Adım 7: Kaynakları Temizleyin
-Belleği serbest bırakmak için `PsdImage`'i yok edin.
+Belleği serbest bırakmak için `PsdImage` nesnesini dispose edin.
 
 ```java
 psdImage.dispose();
 ```
 
+## Destek uzunluğu kayıt özellikleriyle PSD dosyaları toplu olarak nasıl işlenir
+Aynı vektör‑şekil düzeni birçok PSD'ye uygulamanız yapılır, satır kodu bir dizideki dosyalar üzerinde dönen bir döngüye yerleştirilmiştir. Her yineleme için `inPsdFilePath` ve `outPsdFilePath` değerlerini güncelleyin; Böylece **PSD'lerin toplu işleme** verimli bir şekilde yapabilirsiniz.
+
 ## Yaygın Tuzaklar ve İpuçları
-- **Null kontrolleri** – yolları erişmeden önce `resource`'un `null` olmadığını her zaman doğrulayın.  
-- **Yol indeks sınırları** – kullandığınız indekslerin (`[2]`, `[7]`, `[11]`) düzenlediğiniz belirli PSD'de mevcut olduğundan emin olun.  
-- **Lisans** – geçerli bir lisans olmadan çalıştırmak, kaydedilen PSD'ye bir filigran ekleyecektir.  
+- **Null kontrolleri** – `resource` nesnesinin kayıtlarından önce her zaman `null` olmadığını doğrulayın.
+- **Yol indeks sınırları** – indekslerin (`[2]`, `[7]`, `[11]`) ilgili PSD içinde mevcut olduğundan emin olun.
+- **Lisans** – geçerli bir lisans olmadan kullanabilirsiniz, giriş PSD'ye bir dosya ekleyecektir.
 
-## Sonuç
-Artık Aspose.PSD for Java ile uzunluk kaydı veri özelliklerini destekleyerek **modify PSD vector shapes** nasıl yapılır konusunda tam, uçtan uca bir örneğe sahipsiniz. Varlık boru hatlarını otomatikleştiriyor ya da özel bir tasarım aracı geliştiriyor olun, bu API'ler vektör katmanlarını manuel Photoshop çalışması olmadan manipüle etme esnekliği sağlar. Diğer `PathOperations` ile deney yaparak veya karmaşık şekiller için birden fazla `LengthRecord` düzenlemesini birleştirerek daha fazla keşfedin.
+## Çözüm
+Artık Aspose.PSD for Java ile parça kayıt özelliklerini destekleyerek **PSD vektör şekillerini değiştirme** konusunda eksiksiz bir uçtan‑uca örneğe uygunluğu. İster varlıkları hatlarını otomatik hale getirin, ister özel bir tasarım aracı geliştiriyor olun, bu API’ler vektör katmanlarını manuel Photoshop müdahalesi olmadan manipüle etme içerir. Diğer `PathOperations` deneyerek veya birden fazla `LengthRecord` düzenlemesini birleştirerek daha karmaşık sözler oluşturabilirsiniz.
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**Q:** Vektör şekil katmanı içermeyen bir PSD'yi nasıl ele alırım?  
-**A:** `VsmsResource` bulunmayacak, bu yüzden `resource` `null` kalır. Bir kontrol ekleyin ve değiştirme adımını atlayın ya da kullanıcıyı bilgilendirin.
+**S: Vektör şekil dağıtımlarının bir PSD'si nasıl alınır?**
+A: `VsmsResource` bulunmayacak, bu nedenle `resource` `null` kalacak. Bir kontrol değişikliği değişiklik adımını atın veya kullanıcıyı bilgilendirin.
 
-**Q:** Dolgu rengi veya çizgi kalınlığı gibi diğer özellikleri değiştirebilir miyim?  
-**A:** Evet, `LengthRecord` dolgu, çizgi ve opaklık için ek ayarlayıcılar sağlar. Tam detaylar için API belgelerine bakın.
+**S: Doldurma rengi veya çizgi sızıntıları gibi diğer özellikler ortaya çıkabilir mi?**
+C: Evet, `LengthRecord` doldurma, çizgi ve opaklık için ek ayarlayıcı yöntemler sunar. Ayrıntılar için API bilgilerine bakın.
 
-**Q:** Birden fazla PSD dosyasını toplu işleme yapmak mümkün mü?  
-**A:** Kesinlikle. Kodu, PSD dosyalarının bulunduğu bir dizinde dönen bir döngüye sarın ve her seferinde giriş ve çıkış yollarını ayarlayın.
+**S: Birden fazla PSD toplamı toplu işlem yapmak mümkün mü?**
+C: elbette. Kodu bir dizideki PSD dosyaları üzerinde dönen bir döngüye yerleştirerek, her fırsata giriş ve çıkış programlarını düzenler.
 
-**Q:** Dosya yolundan yüklerken akışları manuel olarak kapatmam gerekir mi?  
-**A:** `Image.load` yöntemi dosya akışlarını dahili olarak yönetir, ancak bir `InputStream`'den yüklüyorsanız, kullanım sonrası kapatmayı unutmayın.
+**S: Dosya akışı sırasında yüklemeleri manuel olarak kapatmam gerekir mi?**
+A: `Image.load` yöntemi dosya aktarımlarını dahili olarak yönetir, ancak bir `InputStream` üzerinden yüklüyorsanız, kullanımdan sonra kapatmayı unutmayın.
 
-**Q:** Bu API'ler için hangi Aspose.PSD sürümü gereklidir?  
-**A:** `LengthRecord` ve `PathOperations` sınıfları Aspose.PSD 20.10'dan itibaren mevcuttur. En son sürümün kullanılması önerilir.
+**S: Bu API'ler için hangi Aspose.PSD sürümü gerekiyor?**
+A: `LengthRecord` ve `PathOperations` sınıfları Aspose.PSD 20.10'dan itibaren mevcuttur. Yeni sürümün kullanılması tavsiye edilir.
 
 ---
 
-**Son Güncelleme:** 2025-12-17  
-**Test Edildi:** Aspose.PSD for Java 24.11  
+**Son Güncelleme:** 2026-02-20
+**Şunlarla Test Edildi:** Java 24.11 için Aspose.PSD
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,10 +1,10 @@
 ---
-date: 2025-12-17
-description: Tanulja meg, hogyan exportálhatja a PSD-t PNG-be a rétegmaszkok megőrzésével
-  az Aspose.PSD for Java használatával – egy lépésről‑lépésre útmutató a Java képkonverzióhoz.
+date: 2026-02-20
+description: Tanulja meg, hogyan exportálhat PSD-t PNG-re rétegmaszk támogatással
+  az Aspose.PSD for Java segítségével – egy lépésről‑lépésre útmutató a Java képkonvertáláshoz.
 linktitle: Export PSD to PNG with Layer Mask Support in Java
 second_title: Aspose.PSD Java API
-title: PSD exportálása PNG-be rétegmaszk támogatással Java-ban
+title: Hogyan exportáljunk PSD-t PNG-re rétegmaszk támogatással Java-ban
 url: /hu/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 weight: 18
 ---
@@ -13,39 +13,45 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD exportálása PNG-be rétegmaszk támogatással Java-ban
+# Export PSD to PNG with Layer Mask Support in Java
 
 ## Bevezetés
-Amikor **PSD exportálásra PNG-be** van szükséged, miközben a komplex rétegmaszkokat érintetlenül szeretnéd megtartani, egy megbízható Java könyvtár órákat takaríthat meg a manuális munkában. Ebben az útmutatóban végigvezetünk a teljes folyamaton az Aspose.PSD Java API használatával, a PSD fájl betöltésétől a teljes alfa‑csatorna támogatással rendelkező PNG kép mentéséig. Akár kötegelt feldolgozó eszközt, automatizált asset pipeline‑t építesz, vagy csak egy gyors konverziós szkriptre van szükséged, világos, beszélgetős lépéseket találsz, amelyek egyszerűvé teszik a feladatot.
+Ha **hogyan exportáljunk PSD** fájlokat PNG-be, miközben megőrzik a komplex rétegmaszkokat, akkor jó helyen jársz. Amikor **PSD‑t PNG‑be kell exportálni** a maszkok érintetlenül hagyásával, egy megbízható Java könyvtár órákat takaríthat meg a kézi munkából. Ebben az útmutatóban végigvezetünk a teljes folyamaton a **Aspose.PSD Java API** használatával, a PSD fájl betöltésétől a PNG képként való mentésig, amely teljes alfa‑csatorna támogatással rendelkezik. Akár kötegelt feldolgozó eszközt, automatizált asset pipeline‑t építesz, vagy csak egy gyors konverziós szkriptre van szükséged, világos, beszélgetős lépéseket találsz, amelyek egyszerűvé teszik a feladatot.
 
 ## Gyors válaszok
-- **Mi a “PSD exportálás PNG-be” jelentése?** Egy Photoshop PSD fájl PNG raszteres képpé konvertálása, miközben megőrzi a vizuális hűséget.  
-- **Melyik könyvtár kezeli a rétegmaszkokat?** Az Aspose.PSD for Java beépített támogatást nyújt a maszkokhoz és az alfa csatornákhoz.  
-- **Szükségem van licencre?** Egy ingyenes próba verzió tesztelésre megfelelő; kereskedelmi licenc szükséges a termelésben való használathoz.  
+- **Mit jelent a “export PSD to PNG”?** Egy Photoshop PSD fájl PNG raszteres képpé konvertálása, miközben megőrzi a vizuális hűséget.  
+- **Melyik könyvtár kezeli a rétegmaszkokat?** Az Aspose.PSD for Java beépített támogatást nyújt a maszkok és alfa csatornák számára.  
+- **Szükség van licencre?** Egy ingyenes próba verzió teszteléshez elegendő; kereskedelmi használathoz licenc szükséges.  
 - **Futtatható bármely operációs rendszeren?** Igen – a Java API platform‑független.  
-- **Mennyi időt vesz igénybe a konverzió?** Általában egy másodpercnél kevesebb a standard méretű fájlok esetén.
+- **Mennyi időt vesz igénybe a konverzió?** Általában egy másodpercnél kevesebb a standard méretű fájloknál.
 
-## Mi az a “PSD exportálás PNG-be” és miért fontos?
-A PSD PNG‑be exportálása elengedhetetlen, ha Photoshop műalkotást szeretnél megosztani a weben, beágyazni alkalmazásokba vagy miniatűröket generálni. A PNG megőrzi az átlátszóságot, így ideális olyan eszközök számára, amelyek rétegmaszkokat tartalmaznak. A konverzió Java‑val történő automatizálásával megszünteted a manuális export lépéseket, és biztosítod a konzisztens eredményeket nagy mennyiségű fájl esetén.
+## Hogyan exportáljunk PSD‑t PNG‑be rétegmaszk támogatással
+A PSD‑t PNG‑be exportálni akkor fontos, amikor a Photoshop műalkotást weben szeretnéd megosztani, alkalmazásokba beágyazni, vagy bélyegképeket generálni. A PNG megőrzi a transzparenciát, így ideális a rétegmaszkokat tartalmazó assetekhez. A konverzió Java‑val történő automatizálásával megszüntetheted a kézi export lépéseket, és biztosíthatod a konzisztens eredményeket nagy mennyiségű fájl esetén.
 
-## Előkövetelmények
-Mielőtt a kódba merülnénk, győződj meg róla, hogy a következőkkel rendelkezel:
+## Miért használjuk az Aspose.PSD Java‑t ehhez a feladathoz?
+- **Teljes maszkkezelés** – Az API automatikusan beolvassa a PSD maszkokat és a PNG alfa csatornába írja őket.  
+- **Java képkonverzió** – Nincs szükség külső eszközökre; minden a Java folyamatodban fut.  
+- **Kötegelt feldolgozásra kész** – Kombináld a kódot egy ciklussal, és végezz **batch PSD to PNG** konverziókat percek alatt.  
+- **Keresztplatformos** – Windows, macOS és Linux rendszereken működik natív függőségek nélkül.
 
-- **Java Development Kit (JDK)** – ellenőrizd a `java -version` paranccsal. Töltsd le az [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html), ha szükséges.  
-- **Aspose.PSD library** – szerezd be a legújabb JAR‑t a [letöltési oldalról](https://releases.aspose.com/psd/java/), vagy add hozzá Maven/Gradle‑on keresztül.  
-- **IDE** – IntelliJ IDEA, Eclipse vagy bármely kedvelt szerkesztő a Java fejlesztéshez.
+## Előfeltételek
+Mielőtt a kódba merülnél, győződj meg róla, hogy a következők rendelkezésre állnak:
+
+- **Java Development Kit (JDK)** – ellenőrizd a `java -version` paranccsal. Ha szükséges, töltsd le az [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+- **Aspose.PSD library** – szerezd be a legújabb JAR‑t a [letöltési oldalról](https://releases.aspose.com/psd/java/) vagy add hozzá Maven/Gradle‑on keresztül.  
+- **IDE** – IntelliJ IDEA, Eclipse vagy bármely kedvenc Java fejlesztői környezet.
 
 ### 1. Java fejlesztői környezet
-A legújabb JDK (11 vagy újabb) biztosítja a kompatibilitást az Aspose.PSD API‑val.
+Egy friss JDK (11 vagy újabb) biztosítja a kompatibilitást az Aspose.PSD API‑val.
 
-### 2. Aspose.PSD könyvtár
+### 2. Aspose.PSD library
 A könyvtár kezeli a **java image conversion**‑t, a maszkok feldolgozását és a PNG export beállításait.
 
 ### 3. IDE (Integrated Development Environment)
-IDE használata egyszerűsíti a hibakeresést és a projekt beállítását.
+IDE használata megkönnyíti a hibakeresést és a projekt beállítását.
 
-## Csomagok importálása
-Add hozzá a szükséges importokat a Java osztályodhoz. Ezek a osztályok lehetővé teszik PSD fájlok betöltését, maszkok kezelését és a PNG export beállításainak konfigurálását.
+## Import Packages
+Add the required imports to your Java class. These classes let you load PSD files, work with masks, and configure PNG export settings.
 
 ```java
 import com.aspose.psd.Image;
@@ -54,11 +60,10 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## PSD exportálása PNG-be rétegmaszk támogatással
-Az alábbiakban a teljes, lépésről‑lépésre munkafolyamatot találod a **save psd as png** művelethez, a maszkok megőrzésével.
+## Lépésről‑lépésre útmutató
 
-### 1. lépés: Projekt könyvtár beállítása
-Határozd meg a mappát, amely a forrás PSD‑t tartalmazza, és amelyben a kimeneti PNG lesz.
+### Lépés 1: Projektkönyvtár beállítása
+Határozd meg azt a mappát, amely a forrás‑PSD‑t tartalmazza, és ahol a kimeneti PNG‑t tárolni szeretnéd.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -66,72 +71,73 @@ String dataDir = "Your Document Directory";
 
 Cseréld le a `Your Document Directory`‑t a géped abszolút útvonalára.
 
-### 2. lépés: Forrás PSD fájl megadása
-Mutass a konvertálni kívánt PSD‑re. Ebben a példában egy komplex maszkot tartalmazó fájlt használunk.
+### Lépés 2: A forrás‑PSD fájl megadása
+Mutasd meg a konvertálni kívánt PSD‑t. Ebben a példában egy komplex maszkkal rendelkező fájlt használunk.
 
 ```java
 String sourceFileName = dataDir + "MaskComplex.psd";
 ```
 
-### 3. lépés: Export útvonal meghatározása a PNG-hez
-Mondd meg a programnak, hová írja a létrehozott PNG fájlt.
+### Lépés 3: Export útvonal meghatározása a PNG‑hez
+Add meg a programnak, hogy hová írja a létrehozott PNG fájlt.
 
 ```java
 String exportPath = dataDir + "MaskComplex.png";
 ```
 
-### 4. lépés: PSD fájl betöltése
-Ez a **how to load psd** lépés. Az `Image.load` metódus beolvassa a fájlt egy `PsdImage` objektumba.
+### Lépés 4: PSD fájl betöltése
+Ez a **how to load PSD** lépés. Az `Image.load` metódus beolvassa a fájlt egy `PsdImage` objektumba.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-### 5. lépés: PNG export beállítások konfigurálása
-Állítsd be a PNG‑t úgy, hogy megtartsa az alfa csatornát, ami a rétegmaszk átlátszóságához elengedhetetlen.
+### Lépés 5: PNG export beállítások konfigurálása
+Állítsd be a PNG‑t úgy, hogy megőrizze az alfa csatornát, ami a rétegmaszk átlátszóságához elengedhetetlen.
 
 ```java
 PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
-### 6. lépés: PNG fájl mentése
-Végül hajtsd végre a **convert psd to png** műveletet.
+### Lépés 6: PNG fájl mentése
+Végül hajtsd végre a **convert PSD to PNG** műveletet.
 
 ```java
 im.save(exportPath, saveOptions);
 ```
 
-Ha minden helyesen van beállítva, megtalálod a `MaskComplex.png` fájlt a kimeneti mappádban, amely tökéletesen megjeleníti az eredeti PSD maszkolt területeit.
+Ha minden helyesen van beállítva, a `MaskComplex.png` fájlt megtalálod a kimeneti mappában, amely tökéletesen megjeleníti az eredeti PSD maszkolt területeit.
 
 ## Gyakori problémák és megoldások
-- **File‑not‑found hibák** – Ellenőrizd a `dataDir`‑t, és győződj meg róla, hogy a PSD fájl neve pontosan egyezik, beleértve a kis‑ és nagybetűket is.  
-- **Átlátszóság hiánya** – Ellenőrizd, hogy a `saveOptions.setColorType(PngColorType.TruecolorWithAlpha)` alkalmazva van; ellenkező esetben a PNG alfa csatorna nélkül lesz mentve.  
-- **Memóriahiány nagy fájlok esetén** – Fontold meg a JVM heap méretének növelését (`-Xmx2g`) nagyon nagy PSD‑k feldolgozásakor.
+- **File‑not‑found hibák** – Ellenőrizd a `dataDir`‑t, és győződj meg róla, hogy a PSD fájl neve pontosan egyezik, beleértve a kis‑nagy betűket is.  
+- **Átlátszóság hiánya** – Győződj meg arról, hogy a `saveOptions.setColorType(PngColorType.TruecolorWithAlpha)` alkalmazva van; ellenkező esetben a PNG alfa csatorna nélkül lesz mentve.  
+- **Memóriahiány nagy fájloknál** – Nagyon nagy PSD‑k feldolgozásakor növeld a JVM heap méretét (`-Xmx2g`).  
+- **Kötegelt konverzió tipp** – A fenti lépéseket egy `for` ciklusba ágyazva, amely PSD fájlneveket iterál, könnyedén elvégezhető a **batch PSD to PNG** feldolgozás.
 
-## Gyakran feltett kérdések
+## Gyakran Ismételt Kérdések
 
 **Q: Mi az a rétegmaszk a PSD fájlokban?**  
-A: A rétegmaszk egy réteg átlátszóságát szabályozza, lehetővé téve a kép részeinek elrejtését vagy megjelenítését anélkül, hogy a pixeleket véglegesen törölnéd.
+A: A rétegmaszk egy réteg átlátszóságát szabályozza, lehetővé téve a kép részeinek elrejtését vagy felfedését anélkül, hogy a pixeleket véglegesen törölnéd.
 
 **Q: Dolgozhatok PSD fájlokkal programozási tudás nélkül?**  
-A: Bár az Aspose.PSD kódolást igényel, a grafikus tervezők használhatják a Photoshopot vagy más GUI eszközöket a manuális konverzióhoz.
+A: Bár az Aspose.PSD kódot igényel, a grafikus tervezők használhatják a Photoshopot vagy más GUI eszközöket a manuális konverzióhoz.
 
-**Q: Ingyenesen használható az Aspose.PSD?**  
-A: A letöltési oldalról elérhető egy ingyenes próba, de kereskedelmi projektekhez fizetett licenc szükséges.
+**Q: Ingyenes-e az Aspose.PSD használata?**  
+A: A letöltési oldalról elérhető egy ingyenes próba verzió; kereskedelmi projektekhez fizetett licenc szükséges.
 
-**Q: Mi történik, ha a PSD fájlom nem tartalmaz maszkokat?**  
-A: A konverzió továbbra is működik; a létrehozott PNG egyszerűen nem fog maszkos átlátszósági hatásokat tartalmazni.
+**Q: Mi történik, ha a PSD fájlom nem tartalmaz maszkot?**  
+A: A konverzió továbbra is működik; a létrehozott PNG egyszerűen nem fog maszk‑átlátszósági hatást tartalmazni.
 
-**Q: Hol kaphatok támogatást, ha problémám van?**  
-A: Látogasd meg a [support fórumot](https://forum.aspose.com/c/psd/34) az Aspose szakértőktől és a közösségtől való segítségért.
+**Q: Hol kaphatok támogatást, ha problémám adódik?**  
+A: Látogasd meg a [support forumot](https://forum.aspose.com/c/psd/34) az Aspose szakértőktől és a közösségtől származó segítségért.
 
 ## Következtetés
-Most már megtanultad, hogyan **exportálj PSD-t PNG-be** a rétegmaszkok megőrzésével az Aspose.PSD Java API használatával. Ez a megközelítés egyszerűsíti a **java image conversion** folyamatot, támogatja a kötegelt feldolgozást, és biztosítja, hogy a vizuális eszközeid megtartsák a kívánt átlátszóságot. Nyugodtan kísérletezz különböző PNG beállításokkal, vagy integráld ezt a munkafolyamatot nagyobb automatizációs csővezetékekbe.
+Most már megtanultad, **hogyan exportáljunk PSD‑t PNG‑be** a rétegmaszkok megőrzésével az Aspose.PSD Java API‑val. Ez a megközelítés egyszerűsíti a **java image conversion**‑t, támogatja a kötegelt feldolgozást, és biztosítja, hogy a vizuális assetek megtartsák a kívánt átlátszóságot. Nyugodtan kísérletezz különböző PNG beállításokkal, vagy integráld ezt a munkafolyamatot nagyobb automatizációs csővezetékekbe.
 
 ---
 
-**Last Updated:** 2025-12-17  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.PSD for Java 24.12  
 **Author:** Aspose  
 
