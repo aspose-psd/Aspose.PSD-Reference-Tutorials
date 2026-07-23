@@ -14,25 +14,25 @@ weight: 20
 
 # Java を使用して PSD ファイルにカラー フィル レイヤーを追加する
 
-## Introduction
+## はじめに
 Photoshop ファイルをプログラムで操作し、デザインに色を加えたいことはありませんか？ **PSD にフィルを追加する方法** を知りたいなら、ここが最適です。このチュートリアルでは、Java と Aspose.PSD ライブラリを使用して PSD（Photoshop Document）ファイルにカラー フィル レイヤーを追加する手順を解説します。PSD をデジタル キャンバスと考えてください――数行のコードでカラー フィル レイヤーの作成、色の設定、ファイルの保存ができるようになります。
 
-## Quick Answers
-- **What library is needed?** Aspose.PSD for Java  
-- **Primary use case?** Programmatically add or change PSD fill colors  
-- **How long does implementation take?** About 10‑15 minutes for a basic scenario  
-- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production  
-- **Supported Java version?** Java 8 and above  
+## よくある質問
+- **必要なライブラリは？** Aspose.PSD for Java
+- **主な用途は？** プログラムによるPSDの塗りつぶし色の追加または変更
+- **実装にかかる時間は？** 基本的なシナリオであれば約10～15分
+- **ライセンスは必要ですか？** 無料トライアルは評価用としてご利用いただけます。本番環境での使用には商用ライセンスが必要です。
+- **サポートされているJavaバージョンは？** Java 8以降
 
-## What is a Color Fill Layer?
+## カラー塗りつぶしレイヤーとは？
 カラー フィル レイヤーは、Photoshop ドキュメント内の他のレイヤーの上に配置される単色のオーバーレイです。背景色の追加、マスクの作成、個々のピクセルを編集せずにデザインのビジュアルテーマを素早く変更する際に使用されます。
 
-## Why add a color fill layer with code?
+## コードでカラー塗りつぶしレイヤーを追加する理由
 - **Automation:** 多数のファイルに対して一貫したブランディング資産を自動生成。  
 - **Batch processing:** 手作業ではなく、数秒で数十個の PSD を更新。  
 - **Dynamic designs:** ユーザー入力やデータ ソースに応じて、リアルタイムに色を変更。
 
-## Prerequisites
+## 前提条件
 コードに入る前に、以下が揃っていることを確認してください。
 
 1. **Java Development Kit (JDK)** – JDK 8 以上がインストール済み。  
@@ -40,7 +40,7 @@ Photoshop ファイルをプログラムで操作し、デザインに色を加�
 3. **IDE** – IntelliJ IDEA、Eclipse、NetBeans、またはお好みのエディタ。  
 4. **Basic Java knowledge** – オブジェクト、ループ、例外処理に慣れていること。
 
-## Import Packages
+## パッケージのインポート
 基本が整ったので、必要なクラスをインポートします。これらのインポートにより、PSD の操作とフィル レイヤーの操作が可能になります。
 
 ```java
@@ -52,9 +52,9 @@ import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.IColorFillSettings;
 ```
 
-## How to Add Fill – Step‑by‑Step Guide
+## 塗りつぶしの追加方法 – ステップバイステップガイド
 
-### Step 1: Set Up Your Environment
+### ステップ1：環境設定
 ソース PSD の場所と、編集後のファイルを保存する場所を定義し、ドキュメントをロードします。
 
 ```java
@@ -68,7 +68,7 @@ PsdImage im = (PsdImage) Image.load(sourceFileName);
 - `sourceFileName` は変更対象の元ファイルです。  
 - `exportPath` は **add color fill layer** が適用された新しいファイルを書き出す場所です。  
 
-### Step 2: Loop Through the Layers
+### ステップ2：レイヤーのループ処理
 既存のフィル レイヤーを検索し、必要に応じて変更または新規作成します。
 
 ```java
@@ -80,7 +80,7 @@ for (int i = 0; i < im.getLayers().length; i++) {
 - `for` ループは PSD 内のすべてのレイヤーを走査します。  
 - `instanceof FillLayer` のチェックにより、フィル レイヤーのみを対象にします。
 
-### Step 3: Verify the Fill Type
+### ステップ3：塗りつぶしタイプの確認
 対象レイヤーが **color fill layer** であることを確認してから、色の変更を行います。
 
 ```java
@@ -91,7 +91,7 @@ if (fillLayer.getFillSettings().getFillType() != FillType.Color) {
 
 フィル タイプが `FillType.Color` でない場合は、中止してグラデーションやパターン フィルの誤変更を防ぎます。
 
-### Step 4: Set the Fill Color
+### ステップ4：塗りつぶし色の設定
 ここで **set fill layer color** を実行します。例ではレイヤーを赤に変更していますが、`Color.getRed()` を `Color.getBlue()` や `new Color(255, 165, 0)`（オレンジ）など、必要な任意の `Color` に置き換えて構いません。
 
 ```java
@@ -103,7 +103,7 @@ fillLayer.update();
 - `settings.setColor(...)` が実際のフィル色を変更します。  
 - `fillLayer.update()` がレイヤーを更新し、新しい色を適用します。  
 
-### Step 5: Save the Changes
+### ステップ5：変更の保存
 最後に、変更された PSD をディスクに書き出します。
 
 ```java
@@ -113,37 +113,30 @@ break;
 
 - `break` により、最初に見つかった該当フィル レイヤーの更新後にループを終了します。これは **change PSD fill color** を一度だけ行う場合に一般的な動作です。
 
-## Common Issues & Tips
+## よくある問題とヒント
 - **No FillLayer found:** PSD にフィル レイヤーが無い場合は、`new FillLayer(im)` で作成し、`im.getLayers()` に追加してください。  
 - **Color not updating:** 色設定後に必ず `fillLayer.update()` を呼び出すことを確認してください。  
 - **File not saved:** `exportPath` が書き込み可能なディレクトリを指しているか、書き込み権限があるかを確認してください。  
 
-## Frequently Asked Questions
+## よくある質問
 
-**Q: What is Aspose.PSD?**  
+**Q: Aspose.PSDとは何ですか？**
 A: Aspose.PSD は、Adobe Photoshop を必要とせずに Photoshop PSD ファイルの作成、編集、変換を可能にする強力な Java ライブラリです。
 
-**Q: Can I use Aspose.PSD for free?**  
-A: Yes, a free trial is available on the [Aspose Releases page](https://releases.aspose.com/).  
+**Q: Aspose.PSDを無料で利用できますか？** 
+A: はい、[Asposeリリースぺージ](https://releases.aspose.com/) から無料トライアルをご利用いただけます。
 
-**Q: Which file formats can I work with besides PSD?**  
-A: Aspose.PSD supports PSD, PSB, BMP, JPEG, PNG, GIF, TIFF, and more.
+**Q: PSD以外にどのようなファイル形式に対応していますか？** 
+A: Aspose.PSDは、PSD、PSB、BMP、JPEG、PNG、GIF、TIFFなどに対応しています。
 
-**Q: How do I get support if I run into problems?**  
-A: You can ask questions on the [Aspose Support Forum](https://forum.aspose.com/c/psd/34).  
+**Q: 問題が発生した場合、どのようにサポートを受けられますか？** 
+A: [Asposeサポートフォーラム](https://forum.aspose.com/c/psd/34) でご質問いただけます。
 
-**Q: Where can I purchase a full license?**  
-A: Licenses are sold through the [Aspose Purchase page](https://purchase.aspose.com/buy).
+**Q: フルライセンスはどこで購入できますか？** 
+A: ライセンスは[Aspose購入ぺージ](https://purchase.aspose.com/buy) からご購入いただけます。
 
-## Conclusion
+## まとめ
 Java でプログラム的に Photoshop ドキュメントに **fill を追加する方法** が分かりました。カラー フィル レイヤーを作成または取得し、色を設定して結果を保存するだけで、繰り返しのデザイン作業を自動化したり、動的なアセットを生成したり、PSD 操作を大規模な Java アプリケーションに組み込むことができます。ぜひ試してみてください――異なる色で実験したり、複数のフィル レイヤーを追加したり、他の Aspose.PSD 機能と組み合わせて強力な画像処理パイプラインを構築してみましょう。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -152,3 +145,10 @@ Java でプログラム的に Photoshop ドキュメントに **fill を追加�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -138,15 +138,15 @@ A: Licence se prodávají přes [stránku nákupu Aspose](https://purchase.aspos
 ## Závěr
 Nyní už víte **jak přidat výplň** do Photoshop dokumentu programově pomocí Javy. Vytvořením nebo nalezením vrstvy výplně barvou, nastavením její barvy a uložením výsledku můžete automatizovat opakující se úkoly v designu, generovat dynamické materiály nebo integrovat manipulaci s PSD do větších Java aplikací. Vyzkoušejte to – experimentujte s různými barvami, přidejte více vrstev výplně nebo zkombinujte tuto techniku s dalšími funkcemi Aspose.PSD pro výkonné pipeline zpracování obrázků.
 
+---
+
+**Poslední aktualizace:** 2026-03-02  
+**Testováno s:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-03-02  
-**Testováno s:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Autor:** Aspose

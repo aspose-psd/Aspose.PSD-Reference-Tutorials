@@ -128,13 +128,6 @@ Aspose.PSD for Java предоставляет вам мощный набор и
 ### [Создание миниатюр из PSD‑файлов с помощью Java](./create-thumbnails-psd-files/)
 Узнайте, как без труда создавать миниатюры из PSD‑файлов с помощью Java и Aspose.PSD. Следуйте нашему пошаговому руководству для бесшовной обработки изображений.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я добавить диагональный водяной знак в PSD, который уже содержит слои коррекции?**  
@@ -157,3 +150,10 @@ A: Все последние выпуски (2023‑2025) поддерживаю
 **Последнее обновление:** 2026-03-02  
 **Тестировано с:** Aspose.PSD 24.11 for Java  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

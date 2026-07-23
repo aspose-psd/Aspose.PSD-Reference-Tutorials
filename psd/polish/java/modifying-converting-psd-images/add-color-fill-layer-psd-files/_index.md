@@ -141,13 +141,6 @@ O: Licencje są sprzedawane poprzez [stronę zakupu Aspose](https://purchase.asp
 ## Zakończenie
 Teraz wiesz **jak dodać wypełnienie** do dokumentu Photoshop programowo przy użyciu Javy. Tworząc lub znajdując warstwę wypełnienia kolorem, ustawiając jej kolor i zapisując wynik, możesz automatyzować powtarzalne zadania projektowe, generować dynamiczne zasoby lub integrować manipulację PSD z większymi aplikacjami Java. Spróbuj — eksperymentuj z różnymi kolorami, dodawaj wiele warstw wypełnienia lub łącz tę technikę z innymi funkcjami Aspose.PSD, aby uzyskać potężne potoki przetwarzania obrazów.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2026-03-02  
@@ -155,3 +148,10 @@ Teraz wiesz **jak dodać wypełnienie** do dokumentu Photoshop programowo przy u
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

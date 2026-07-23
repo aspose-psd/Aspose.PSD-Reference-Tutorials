@@ -172,19 +172,19 @@ img1.save(psdPathAfterChangeCmyk);
 
 ## คำถามที่พบบ่อย
 
-**Q: What is the difference between `RgbChannelMixerLayer` and `CmykChannelMixerLayer`?**  
-A: ตัวแรกทำงานกับช่องสี Red, Green, Blue (สำหรับหน้าจอ/การแสดงผล) ส่วนตัวหลังจัดการกับ Cyan, Magenta, Yellow, และ Black (สำหรับการพิมพ์)
+**ถาม: อะไรคือความแตกต่างระหว่าง `RgbChannelMixerLayer` และ `CmykChannelMixerLayer`?**
+A: ใช้กับช่องสี Red, Green, Blue (สำหรับหน้าจอ/ขาตั้งกล้อง) ส่วนตัวหลัง Cyan, Magenta, Yellow, และ Black (สำหรับการพิมพ์)
 
-**Q: Can I add multiple Channel Mixer Adjustment Layers to the same PSD?**  
-A: ใช่ – เรียก `addChannelMixerAdjustmentLayer()` ได้หลายครั้งตามต้องการ; แต่ละเลเยอร์ทำงานอย่างอิสระ
+**ถาม: ฉันสามารถเพิ่มเลเยอร์การปรับมิกเซอร์แชนเนลหลายเลเยอร์ลงใน PSD เดียวกันได้หรือไม่**
+A: เป็นไปได้ – เรียก `addChannelMixerAdjustmentLayer()` ได้ตามความต้องการ; คุณสามารถทำงานอย่างเป็นอิสระได้
 
-**Q: Do I need a license for development?**  
-A: เวอร์ชันทดลองฟรีใช้ได้สำหรับการทดสอบ หากต้องการใช้งานในผลิตภัณฑ์จริงต้องมีลิขสิทธิ์เชิงพาณิชย์ คุณสามารถ [ซื้อไลเซนส์ได้ที่นี่](https://purchase.aspose.com/buy)
+**ถาม: ฉันต้องมีใบอนุญาตเพื่อการพัฒนาหรือไม่**
+ตอบ: ทดลองทดลองฟรีใช้ได้สำหรับความพยายามในการใช้งานในผลิตภัณฑ์จริงต้องมีลิขสิทธิ์เป็นครั้งแรก [ซื้อไลเซนส์ที่นี่](https://purchase.aspose.com/buy)
 
-**Q: Where can I get help if I run into problems?**  
-A: ตรวจสอบ [support forum](https://forum.aspose.com/c/psd/34) อย่างเป็นทางการสำหรับการช่วยเหลือจากชุมชนและทีมงาน Aspose
+**ถาม: ฉันจะขอความช่วยเหลือได้ที่ไหนหากประสบปัญหา**
+A: การตัด [support forum](https://forum.aspose.com/c/psd/34) อย่างเป็นทางการสำหรับการให้ความช่วยเหลือจากชุมชนและทีมงาน Aspose
 
-**Q: Is a temporary license available for short‑term projects?**  
+**ถาม: มีใบอนุญาตชั่วคราวสำหรับโครงการระยะสั้นหรือไม่**  
 A: มี – คุณสามารถขอได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)
 
 **อัปเดตล่าสุด:** 2026-03-02  

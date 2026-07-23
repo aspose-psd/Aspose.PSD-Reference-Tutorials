@@ -140,15 +140,15 @@ C: Lisanslar [Aspose Purchase page](https://purchase.aspose.com/buy) üzerinden 
 ## Sonuç
 Artık Java ile bir Photoshop belgesine programlı olarak **doldurma nasıl eklenir** biliyorsunuz. Bir renk doldurma katmanı oluşturarak ya da bulup, rengini ayarlayarak ve sonucu kaydederek tekrarlayan tasarım görevlerini otomatikleştirebilir, dinamik varlıklar üretebilir veya PSD manipülasyonunu daha büyük Java uygulamalarına entegre edebilirsiniz. Deneyin—farklı renklerle deney yapın, birden fazla doldurma katmanı ekleyin veya bu tekniği diğer Aspose.PSD özellikleriyle birleştirerek güçlü görüntü işleme boru hatları oluşturun.
 
+---
+
+**Son Güncelleme:** 2026-03-02  
+**Test Edilen Versiyon:** Aspose.PSD for Java 24.11 (yazım anındaki en son sürüm)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-03-02  
-**Test Edilen Versiyon:** Aspose.PSD for Java 24.11 (yazım anındaki en son sürüm)  
-**Yazar:** Aspose

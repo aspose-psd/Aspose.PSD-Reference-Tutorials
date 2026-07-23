@@ -138,13 +138,6 @@ A: Licenses are sold through the [Aspose Purchase page](https://purchase.aspose.
 ## Conclusion
 You now know **how to add fill** to a Photoshop document programmatically with Java. By creating or locating a color fill layer, setting its color, and saving the result, you can automate repetitive design tasks, generate dynamic assets, or integrate PSD manipulation into larger Java applications. Give it a try—experiment with different colors, add multiple fill layers, or combine this technique with other Aspose.PSD features for powerful image processing pipelines.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-03-02  
@@ -152,3 +145,10 @@ You now know **how to add fill** to a Photoshop document programmatically with J
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -143,13 +143,6 @@ Levels Adjustment Layer 對於校正色調範圍與提升影像對比度至關�
 ### [Create Thumbnails from PSD Files using Java](./create-thumbnails-psd-files/)
 學習如何使用 Java 與 Aspose.PSD 輕鬆從 PSD 檔案建立縮圖。依循我們的一步一步指南，實現順暢的影像處理。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在已包含調整圖層的 PSD 中新增對角水印嗎？**  
@@ -172,3 +165,10 @@ A: 所有近期的發行版本（2023‑2025）皆支援 Java 8+，包括 Java
 **最後更新：** 2026-03-02  
 **測試環境：** Aspose.PSD 24.11 for Java  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

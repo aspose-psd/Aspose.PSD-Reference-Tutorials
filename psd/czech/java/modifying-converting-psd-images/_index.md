@@ -129,13 +129,6 @@ Naučte se vytvářet indexované PSD soubory pomocí Aspose.PSD pro Java v naš
 ### [Create Thumbnails from PSD Files using Java](./create-thumbnails-psd-files/)
 Naučte se snadno vytvářet miniatury z PSD souborů pomocí Java a Aspose.PSD. Postupujte podle našeho krok‑za‑krokem průvodce pro plynulé zpracování obrázků.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu přidat šikmý vodoznak do PSD, který již obsahuje vrstvy úprav?**  
@@ -158,3 +151,10 @@ A: Všechny nedávné vydání (2023‑2025) podporují Java 8+, včetně Java
 **Poslední aktualizace:** 2026-03-02  
 **Testováno s:** Aspose.PSD 24.11 for Java  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

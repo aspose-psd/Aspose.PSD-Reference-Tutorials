@@ -128,13 +128,6 @@ Learn to create indexed PSD files with Aspose.PSD for Java in our step-by-step g
 ### [Skapa miniatyrbilder från PSD‑filer med Java](./create-thumbnails-psd-files/)
 Learn how to effortlessly create thumbnails from PSD files using Java and Aspose.PSD. Follow our step-by-step guide for seamless image processing.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Kan jag lägga till en diagonal vattenstämpel i en PSD som redan innehåller justeringslager?**  
@@ -157,3 +150,10 @@ A: Alla senaste releaser (2023‑2025) stödjer Java 8+, inklusive Java 11, 
 **Last Updated:** 2026-03-02  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -142,12 +142,6 @@ Aspose.PSD for Java を使用して PSD ファイルのキャッシュ再割り�
 ### [Java と Aspose.PSD で PSD からサムネイルを作成](./create-thumbnails-psd-files/)
 Java と Aspose.PSD を使用して PSD ファイルからサムネイルを簡単に作成する方法を学び、シームレスな画像処理のためのステップバイステップガイドです。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -171,3 +165,10 @@ A: 2023‑2025 年のすべての最新リリースは Java 8+ をサポート
 **最終更新日：** 2026-03-02  
 **テスト環境：** Aspose.PSD 24.11 for Java  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

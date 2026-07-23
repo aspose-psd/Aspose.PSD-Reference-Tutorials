@@ -92,14 +92,14 @@ image.save(dataDir + "ConvertFromPsb_out.psd", options);
 
 ## 자주 묻는 질문
 
-**Q: What makes a java image conversion library different from generic image APIs?**  
-A: A specialized library like Aspose.PSD understands Photoshop‑specific structures (layers, channels, masks) and can preserve them during conversion, which generic APIs often cannot.
+**질문: 자바 이미지 변환 라이브러리는 일반 이미지 API와 어떤 점이 다른가요?**
+답변: Aspose.PSD와 같은 특수 라이브러리는 Photoshop 고유의 구조(레이어, 채널, 마스크)를 이해하고 변환 과정에서 이러한 구조를 유지할 수 있습니다. 일반 API는 이러한 기능을 제공하지 못하는 경우가 많습니다.
 
-**Q: Is there a limit on the size of PSB files I can convert?**  
-A: The library supports large PSB files (up to 2 GB). Memory consumption depends on the JVM heap size, so allocate sufficient memory for very large files.
+**질문: 변환할 수 있는 PSB 파일 크기에 제한이 있나요?**
+답변: 이 라이브러리는 대용량 PSB 파일(최대 2GB)을 지원합니다. 메모리 사용량은 JVM 힙 크기에 따라 달라지므로, 매우 큰 파일의 경우 충분한 메모리를 할당해야 합니다.
 
-**Q: How do I handle password‑protected PSB files?**  
-A: Load the file with `Image.load(path, new LoadOptions(password))` to supply the required password before conversion.
+**질문: 암호로 보호된 PSB 파일은 어떻게 처리하나요?**
+답변: 변환 전에 `Image.load(path, new LoadOptions(password))`를 사용하여 필요한 암호를 지정하고 파일을 로드합니다.
 
 ---
 

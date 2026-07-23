@@ -139,15 +139,15 @@ A: ไลเซนส์จำหน่ายผ่าน [Aspose Purchase page]
 ## สรุป
 ตอนนี้คุณรู้ **วิธีเพิ่มสีเติม** ในเอกสาร Photoshop ด้วยโปรแกรม Java แล้ว โดยการสร้างหรือค้นหาเลเยอร์สีเติม ตั้งค่าสีของมัน และบันทึกผลลัพธ์ คุณสามารถอัตโนมัติงานออกแบบที่ทำซ้ำ ๆ สร้างสินทรัพย์แบบไดนามิก หรือรวมการจัดการ PSD เข้าไปในแอปพลิเคชัน Java ขนาดใหญ่ ลองดู—ทดลองกับสีต่าง ๆ เพิ่มหลายเลเยอร์สีเติม หรือผสานเทคนิคนี้กับฟีเจอร์อื่นของ Aspose.PSD เพื่อสร้างกระบวนการประมวลผลภาพที่ทรงพลัง
 
+---
+
+**อัปเดตล่าสุด:** 2026-03-02  
+**ทดสอบด้วย:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-03-02  
-**ทดสอบด้วย:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**ผู้เขียน:** Aspose

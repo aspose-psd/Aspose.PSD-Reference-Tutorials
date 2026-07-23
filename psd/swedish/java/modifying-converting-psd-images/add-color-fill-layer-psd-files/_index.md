@@ -141,15 +141,15 @@ A: Licenser säljs via [Aspose Purchase page](https://purchase.aspose.com/buy).
 ## Slutsats
 Du vet nu **how to add fill** till ett Photoshop‑dokument programatiskt med Java. Genom att skapa eller hitta ett färgfyllnadslager, sätta dess färg och spara resultatet kan du automatisera repetitiva designuppgifter, generera dynamiska resurser eller integrera PSD‑manipulation i större Java‑applikationer. Prova det – experimentera med olika färger, lägg till flera fyllnadslager, eller kombinera denna teknik med andra Aspose.PSD‑funktioner för kraftfulla bildbehandlingspipelines.
 
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose

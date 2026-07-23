@@ -15,25 +15,25 @@ weight: 10
 
 # PSD (Java) में एडजस्टमेंट लेयर – चैनल मिक्सर कैसे जोड़ें
 
-## Introduction
+## परिचय
 यदि आप कभी यह सोचते रहे हैं **एडजस्टमेंट लेयर कैसे जोड़ें** ताकि आपके Photoshop फ़ाइलों में अतिरिक्त पॉप आए, तो आप सही जगह पर हैं। एडजस्टमेंट लेयर आपको रंग, कंट्रास्ट और टोन को मूल पिक्सेल को स्थायी रूप से बदले बिना समायोजित करने देती है। इस ट्यूटोरियल में हम Aspose.PSD लाइब्रेरी फॉर Java का उपयोग करके **Channel Mixer Adjustment Layer** को RGB और CMYK दोनों PSD फ़ाइलों में जोड़ने की प्रक्रिया बताएँगे। अंत तक आपके पास किसी भी PSD प्रोजेक्ट में काम करने योग्य एक ठोस, पुन: उपयोग योग्य पैटर्न होगा।
 
-## Quick Answers
+## क्विक जवाब
 - **Channel Mixer Adjustment Layer क्या करता है?** यह आपको लाल, हरा, नीला (या सियान, मैजेंटा, येलो, ब्लैक) चैनलों को रीमिक्स करके कस्टम कलर इफ़ेक्ट बनाने देता है।  
 - **कौन सी लाइब्रेरी उपयोग की गई है?** Aspose.PSD for Java – एक शुद्ध‑Java API जो PSD फ़ाइलों को पढ़ती, संपादित करती और लिखती है।  
 - **क्या मुझे लाइसेंस चाहिए?** विकास के लिए फ्री ट्रायल काम करता है; उत्पादन के लिए व्यावसायिक लाइसेंस आवश्यक है।  
 - **क्या मैं दोनों RGB और CMYK फ़ाइलों के साथ काम कर सकता हूँ?** हाँ – ट्यूटोरियल दोनों कलर मॉडल को कवर करता है।  
 - **इम्प्लीमेंटेशन में कितना समय लगेगा?** बेसिक सेटअप के लिए लगभग 10‑15 मिनट।
 
-## What is a Channel Mixer Adjustment Layer?
+## चैनल मिक्सर एडजस्टमेंट लेयर क्या है?
 Channel Mixer Adjustment Layer एक नॉन‑डिस्ट्रक्टिव Photoshop फीचर है जो आपको प्रत्येक रंग चैनल के योगदान को अन्य चैनलों में नियंत्रित करने देता है। इन योगदानों को समायोजित करके आप नाटकीय रंग बदलाव, कलर कास्ट सुधार या विशिष्ट कलात्मक लुक हासिल कर सकते हैं।
 
-## Why use Aspose.PSD for Java?
+## Java के लिए Aspose.PSD का इस्तेमाल क्यों करें?
 - **Pure Java** – कोई नेटिव डिपेंडेंसी नहीं, किसी भी Java प्रोजेक्ट में आसानी से इंटीग्रेट हो जाता है।  
 - **Full PSD support** – लेयर्स, मास्क, एडजस्टमेंट लेयर्स, और दोनों RGB/CMYK कलर स्पेस।  
 - **Performance‑focused** – बड़े फ़ाइलों और बैच प्रोसेसिंग के लिए ऑप्टिमाइज़्ड।
 
-## Prerequisites
+## ज़रूरी शर्तें
 
 1. **Java Development Environment** – JDK 8+ और IntelliJ IDEA या Eclipse जैसे IDE।  
 2. **Aspose.PSD for Java Library** – आप इसे [download the library here](https://releases.aspose.com/psd/java/) से डाउनलोड कर सकते हैं।  
@@ -43,7 +43,7 @@ Channel Mixer Adjustment Layer एक नॉन‑डिस्ट्रक्ट
 
 एक बार जब सब तैयार हो जाए, चलिए चैनलों को मिक्स करना शुरू करते हैं!
 
-## Import Packages
+## पैकेज इंपोर्ट करें
 
 पहले आवश्यक Aspose.PSD क्लासेज़ को अपने प्रोजेक्ट में इम्पोर्ट करें:
 
@@ -57,7 +57,7 @@ import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.RgbChannelMixerLay
 
 इन इम्पोर्ट्स से आपको PSD हैंडलिंग और उस विशेष चैनल‑मिक्सर लेयर टाइप्स तक पहुंच मिलती है जिनके साथ हम काम करेंगे।
 
-## Step 1: Load Your PSD File
+## स्टेप 1: अपनी PSD फ़ाइल लोड करें
 
 अब हम उस PSD को खोलते हैं जिसे हम एडिट करना चाहते हैं। इसे फ़ाइल को अनलॉक करने जैसा समझें ताकि हम उसकी लेयर स्टैक को देख सकें।
 
@@ -70,7 +70,7 @@ PsdImage im = (PsdImage) Image.load(sourceFileName);
 
 `"Your Document Directory"` को उस वास्तविक फ़ोल्डर पाथ से बदलें जिसमें आपके PSD फ़ाइलें मौजूद हैं।
 
-## Step 2: Modify the RGB Channel Mixer Layer
+## स्टेप 2: RGB चैनल मिक्सर लेयर को मॉडिफ़ाई करें
 
 फ़ाइल लोड होने के बाद, हम किसी भी मौजूदा RGB Channel Mixer लेयर को ढूँढकर उनके चैनल वैल्यूज़ को ट्यून कर सकते हैं।
 
@@ -89,7 +89,7 @@ for (int i = 0; i < im.getLayers().length; i++) {
 - **Identify** `RgbChannelMixerLayer` इंस्टेंस को पहचानें।  
 - **Adjust** चैनलों को इस तरह बदलें: रेड में ब्लू जोड़ें, ब्लू से ग्रीन घटाएँ, और ग्रीन के लिए एक कॉन्स्टेंट सेट करें। इससे एक जीवंत, कस्टम कलर बैलेंस बनता है।
 
-## Step 3: Save the Adjusted PSD
+## स्टेप 3: एडजस्टेड PSD को सेव करें
 
 समायोजन करने के बाद, बदलावों को डिस्क पर लिखें।
 
@@ -100,7 +100,7 @@ im.save(psdPathAfterChange);
 
 आपका RGB‑एडजस्टेड PSD अब निर्दिष्ट लोकेशन पर सेव हो गया है।
 
-## Step 4: Load the CMYK PSD File
+## स्टेप 4: CMYK PSD फ़ाइल लोड करें
 
 प्रिंट‑ओरिएंटेड प्रोजेक्ट्स के लिए हम अक्सर CMYK में काम करते हैं। चलिए CMYK फ़ाइल के लिए वही प्रक्रिया दोहराते हैं।
 
@@ -109,7 +109,7 @@ String sourceFileNameCmyk = dataDir + "ChannelMixerAdjustmentLayerCmyk.psd";
 PsdImage img = (PsdImage) Image.load(sourceFileNameCmyk);
 ```
 
-## Step 5: Modify the CMYK Channel Mixer Layer
+## स्टेप 5: CMYK चैनल मिक्सर लेयर को मॉडिफ़ाई करें
 
 CMYK चैनल अलग तरह से व्यवहार करते हैं, इसलिए हम प्रत्येक कंपोनेंट को उसी अनुसार समायोजित करेंगे।
 
@@ -127,7 +127,7 @@ for (int i = 0; i < img.getLayers().length; i++) {
 
 ये समायोजन आपको प्रत्येक इंक के इंटरैक्शन को फाइन‑ट्यून करने देते हैं, जो सटीक प्रिंट कलर्स के लिए अत्यंत महत्वपूर्ण है।
 
-## Step 6: Save After CMYK Adjustments
+## स्टेप 6: CMYK एडजस्टमेंट के बाद सेव करें
 
 CMYK बदलावों को स्थायी बनाएं:
 
@@ -136,7 +136,7 @@ String psdPathAfterChangeCmyk = dataDir + "ChannelMixerAdjustmentLayerCmykChange
 img.save(psdPathAfterChangeCmyk);
 ```
 
-## Step 7: Adding a New Channel Mixer Layer
+## स्टेप 7: एक नई चैनल मिक्सर लेयर जोड़ना
 
 कभी‑कभी आपको स्क्रैच से शुरू करके मौजूदा PSD में एक नई एडजस्टमेंट लेयर जोड़नी पड़ती है। यह तरीका देखें:
 
@@ -151,7 +151,7 @@ newlayer.getChannelByIndex(0).setConstant((short) 50);
 
 हम एक PSD लोड करते हैं, नया `ChannelMixerLayer` बनाते हैं, और दो चैनलों के लिए कॉन्स्टेंट वैल्यू सेट करते हैं। रचनात्मक इफ़ेक्ट्स के लिए अन्य चैनल इंडेक्स के साथ प्रयोग करने में स्वतंत्र महसूस करें।
 
-## Step 8: Save Your Final Creation
+## स्टेप 8: अपना फ़ाइनल क्रिएशन सेव करें
 
 अंत में, वह PSD लिखें जिसमें अब नया एडजस्टमेंट लेयर शामिल है।
 
@@ -159,37 +159,37 @@ newlayer.getChannelByIndex(0).setConstant((short) 50);
 img1.save(psdPathAfterChangeCmyk);
 ```
 
-## Common Issues & Troubleshooting
+## आम दिक्कतें और ट्रबलशूटिंग
 
-| Symptom | Likely Cause | Fix |
+| लक्षण | संभावित कारण | ठीक करें |
 |---------|--------------|-----|
-| **`ClassCastException` when loading** | Trying to load a non‑PSD file with `Image.load` | Ensure the file extension is `.psd` and the file is a valid Photoshop document. |
-| **No changes visible in Photoshop** | Layer visibility is turned off or the adjustment layer is placed below a mask | Verify `layer.isVisible()` is `true` and check the layer order. |
-| **Unexpected color shift** | Using values outside the -100 to 100 range | Keep channel values within the supported short range. |
-| **Saving fails with `IOException`** | Destination folder does not exist or lacks write permissions | Create the folder first or adjust file system permissions. |
+| **लोड करते समय `ClassCastException`** | `Image.load` के साथ एक नॉन-PSD फ़ाइल लोड करने की कोशिश कर रहा हूँ | पक्का करें कि फ़ाइल एक्सटेंशन `.psd` है और फ़ाइल एक वैलिड Photoshop डॉक्यूमेंट है। |
+| **Photoshop में कोई बदलाव दिखाई नहीं दे रहा है** | लेयर विज़िबिलिटी बंद है या एडजस्टमेंट लेयर मास्क के नीचे है | वेरिफ़ाई करें कि `layer.isVisible()` `true` है और लेयर ऑर्डर चेक करें। |
+| **अनचाहा कलर शिफ़्ट** | -100 से 100 रेंज के बाहर के वैल्यू का इस्तेमाल करना | चैनल वैल्यू को सपोर्टेड शॉर्ट रेंज में रखें। |
+| **`IOException` के साथ सेव करने में फ़ेल हो रहा है** | डेस्टिनेशन फ़ोल्डर मौजूद नहीं है या उसमें लिखने की परमिशन नहीं है | पहले फ़ोल्डर बनाएँ या फ़ाइल सिस्टम परमिशन एडजस्ट करें। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
-**Q: What is the difference between `RgbChannelMixerLayer` and `CmykChannelMixerLayer`?**  
-A: The former works with Red, Green, Blue channels (screen/display), while the latter manipulates Cyan, Magenta, Yellow, and Black (print) channels.
+**सवाल: `RgbChannelMixerLayer` और `CmykChannelMixerLayer` में क्या अंतर है?**
+जवाब: पहला रेड, ग्रीन, ब्लू चैनल (स्क्रीन/डिस्प्ले) के साथ काम करता है, जबकि दूसरा स्यान, मैजेंटा, येलो और ब्लैक (प्रिंट) चैनल को मैनेज करता है।
 
-**Q: Can I add multiple Channel Mixer Adjustment Layers to the same PSD?**  
-A: Yes – call `addChannelMixerAdjustmentLayer()` as many times as needed; each layer operates independently.
+**सवाल: क्या मैं एक ही PSD में कई चैनल मिक्सर एडजस्टमेंट लेयर जोड़ सकता हूँ?**
+जवाब: हाँ – ज़रूरत के हिसाब से `addChannelMixerAdjustmentLayer()` को कॉल करें; हर लेयर अलग से काम करती है।
 
-**Q: Do I need a license for development?**  
-A: A free trial works for testing. For production you’ll need a commercial license. You can [buy a license here](https://purchase.aspose.com/buy).
+**सवाल: क्या मुझे डेवलपमेंट के लिए लाइसेंस चाहिए?**
+जवाब: टेस्टिंग के लिए एक फ्री ट्रायल काम करता है। प्रोडक्शन के लिए आपको एक कमर्शियल लाइसेंस चाहिए होगा। आप [यहाँ लाइसेंस खरीद सकते हैं](https://purchase.aspose.com/buy)।
 
-**Q: Where can I get help if I run into problems?**  
-A: Check the official [support forum](https://forum.aspose.com/c/psd/34) for community assistance and Aspose staff responses.
+**सवाल: अगर मुझे कोई दिक्कत आती है तो मुझे मदद कहाँ से मिल सकती है?**
+जवाब: कम्युनिटी मदद और Aspose स्टाफ के जवाबों के लिए ऑफिशियल [सपोर्ट फोरम](https://forum.aspose.com/c/psd/34) देखें।
 
-**Q: Is a temporary license available for short‑term projects?**  
-A: Yes – you can request one [here](https://purchase.aspose.com/temporary-license/).
+**सवाल: क्या शॉर्ट-टर्म प्रोजेक्ट्स के लिए टेम्पररी लाइसेंस उपलब्ध है?**
+जवाब: हाँ – आप [यहाँ](https://purchase.aspose.com/temporary-license/) के लिए रिक्वेस्ट कर सकते हैं।
 
 ---
 
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.PSD for Java 24.12 (latest)  
-**Author:** Aspose  
+**पिछला अपडेट:** 2026-03-02
+**इसके साथ टेस्ट किया गया:** Aspose.PSD for Java 24.12 (लेटेस्ट)
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

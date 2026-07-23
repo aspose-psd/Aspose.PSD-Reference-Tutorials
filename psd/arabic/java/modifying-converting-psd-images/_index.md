@@ -141,13 +141,6 @@ Aspose.PSD for Java يمنحك مجموعة قوية من الأدوات **add d
 ### [إنشاء صور مصغرة من ملفات PSD باستخدام Java](./create-thumbnails-psd-files/)
 تعرّف على كيفية إنشاء صور مصغرة من ملفات PSD بسهولة باستخدام Java وAspose.PSD. اتبع دليلنا خطوة‑بخطوة لمعالجة صور سلسة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **Q: هل يمكنني إضافة علامة مائية مائلة إلى PSD يحتوي بالفعل على طبقات تعديل؟**  
@@ -170,3 +163,10 @@ A: جميع الإصدارات الحديثة (2023‑2025) تدعم Java 8+،
 **آخر تحديث:** 2026-03-02  
 **تم الاختبار مع:** Aspose.PSD 24.11 for Java  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

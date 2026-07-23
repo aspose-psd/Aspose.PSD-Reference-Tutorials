@@ -17,36 +17,36 @@ weight: 10
 # Comment ajouter un calque de réglage – Mixeur de canaux dans PSD (Java)
 
 ## Introduction
-Si vous vous êtes déjà demandé **comment ajouter un calque de réglage** pour donner à vos fichiers Photoshop ce petit plus, vous êtes au bon endroit. Les calques de réglage vous permettent d’ajuster les couleurs, le contraste et les tons sans modifier de façon permanente les pixels d’origine. Dans ce tutoriel, nous allons parcourir l’ajout d’un **calque de réglage Mixeur de canaux** aux fichiers PSD RGB et CMYK en utilisant la bibliothèque Aspose.PSD pour Java. À la fin, vous disposerez d’un modèle solide et réutilisable pour la manipulation des couleurs qui fonctionne sur n’importe quel projet PSD.
+Si vous vous êtes déjà demandé **comment ajouter un calque de réglage** pour donner à vos fichiers Photoshop ce petit plus, vous êtes au bon endroit. Les calques de réglage vous permettent d’ajuster les couleurs, le contraste et les tons sans modifier de façon permanente les pixels d’origine. Dans ce tutoriel, nous allons parcourir l’ajout d’un **calque de réglage Mixeur de canaux** aux fichiers PSD RGB et CMYK en utilisant la bibliothèque Aspose.PSD pour Java. À la fin, vous disposez d’un modèle solide et réutilisable pour la manipulation des couleurs qui fonctionne sur n’importe quel projet PSD.
 
-## Quick Answers
-- **Que fait un calque de réglage Mixeur de canaux ?** Il vous permet de remixer les canaux rouge, vert, bleu (ou cyan, magenta, jaune, noir) pour créer des effets de couleur personnalisés.  
-- **Quelle bibliothèque est utilisée ?** Aspose.PSD pour Java – une API pure‑Java qui lit, édite et écrit des fichiers PSD.  
-- **Ai‑je besoin d’une licence ?** Une version d’essai gratuite suffit pour le développement ; une licence commerciale est requise pour la production.  
-- **Puis‑je travailler avec des fichiers RGB et CMYK ?** Oui – le tutoriel couvre les deux modèles de couleur.  
-- **Combien de temps prend l’implémentation ?** Environ 10‑15 minutes pour une configuration de base.
+## Réponses rapides
+- **Que fait un calque de réglage Mixeur de canaux ?** Il vous permet de remixer les canaux rouge, vert, bleu (ou cyan, magenta, jaune, noir) pour créer des effets de couleur personnalisés.
+- **Quelle bibliothèque est utilisée ?** Aspose.PSD pour Java – une API pure‑Java qui lit, édite et écrit des fichiers PSD.
+- **Ai‑je besoin d’une licence ?** Une version d’essai gratuite suffit pour le développement ; une licence commerciale est requise pour la production.
+- **Puis‑je travailler avec des fichiers RGB et CMYK ?** Oui – le tutoriel couvre les deux modèles de couleur.
+- **Combien de temps prend l’implémentation ?** Environ 10‑15minutes pour une configuration de base.
 
-## What is a Channel Mixer Adjustment Layer?
+## Qu'est-ce qu'un calque de réglage du mixeur de canaux ?
 Un calque de réglage Mixeur de canaux est une fonctionnalité non destructive de Photoshop qui vous permet de contrôler la contribution de chaque canal de couleur aux autres. En ajustant ces contributions, vous pouvez créer des décalages de couleur spectaculaires, corriger des dominantes de couleur ou obtenir un rendu artistique spécifique.
 
-## Why use Aspose.PSD for Java?
-- **Pure Java** – aucune dépendance native, facile à intégrer dans n’importe quel projet Java.  
-- **Support complet du PSD** – calques, masques, calques de réglage, et espaces colorimétriques RGB/CMYK.  
+## Pourquoi utiliser Aspose.PSD pour Java ?
+- **Pure Java** – aucune dépendance native, facile à intégrer dans n'importe quel projet Java.
+- **Support complet du PSD** – calques, masques, calques de réglage, et espaces colorimétriques RGB/CMYK.
 - **Performance‑focused** – optimisé pour les gros fichiers et le traitement par lots.
 
-## Prerequisites
+## Prérequis
 
-Avant de commencer, assurez‑vous d’avoir les éléments suivants :
+Avant de commencer, assurez-vous d’avoir les éléments suivants :
 
-1. **Environnement de développement Java** – JDK 8+ et un IDE tel qu’IntelliJ IDEA ou Eclipse.  
-2. **Bibliothèque Aspose.PSD pour Java** – vous pouvez [télécharger la bibliothèque ici](https://releases.aspose.com/psd/java/).  
-3. **Connaissances de base en Java** – familiarité avec les objets, les boucles et la gestion des exceptions.  
-4. **Fichiers PSD** – au moins un PSD RGB et un PSD CMYK pour expérimenter.  
+1. **Environnement de développement Java** – JDK8+ et un IDE tel qu'IntelliJIDEA ou Eclipse.
+2. **Bibliothèque Aspose.PSD pour Java** – vous pouvez [télécharger la bibliothèque ici](https://releases.aspose.com/psd/java/).
+3. **Connaissances de base en Java** – familiarité avec les objets, les boucles et la gestion des exceptions.
+4. **Fichiers PSD** – au moins un PSD RGB et un PSD CMYK pour expérimenter.
 5. **Accès Internet** – pratique pour consulter la [documentation Aspose](https://reference.aspose.com/psd/java/).
 
-Une fois tout prêt, commençons à mixer ces canaux !
+Une fois tout prêt, commençons à mixer ces canaux !
 
-## Import Packages
+## Importer des packages
 
 Tout d’abord, importez les classes Aspose.PSD nécessaires dans votre projet :
 
@@ -60,7 +60,7 @@ import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.RgbChannelMixerLay
 
 Ces imports vous donnent accès à la manipulation des PSD ainsi qu’aux types de calques mixeur de canaux que nous allons utiliser.
 
-## Step 1: Load Your PSD File
+## Étape 1 : Charger votre fichier PSD
 
 Nous ouvrons maintenant le PSD que nous voulons modifier. Considérez cela comme le déverrouillage du fichier afin de pouvoir explorer sa pile de calques.
 
@@ -73,7 +73,7 @@ PsdImage im = (PsdImage) Image.load(sourceFileName);
 
 Remplacez `"Your Document Directory"` par le dossier réel contenant vos fichiers PSD.
 
-## Step 2: Modify the RGB Channel Mixer Layer
+## Étape 2 : Modifier le calque de mélange RVB
 
 Avec le fichier chargé, nous pouvons localiser les calques Mixeur de canaux RGB existants et ajuster leurs valeurs de canal.
 
@@ -92,7 +92,7 @@ for (int i = 0; i < im.getLayers().length; i++) {
 - **Identifier** les instances de `RgbChannelMixerLayer`.  
 - **Ajuster** les canaux : ajouter du bleu au rouge, soustraire du vert du bleu, et définir une constante pour le vert. Cela crée un équilibre de couleur vif et personnalisé.
 
-## Step 3: Save the Adjusted PSD
+## Étape 3 : Enregistrer le fichier PSD modifié
 
 Après les ajustements, écrivez les modifications sur le disque.
 
@@ -103,7 +103,7 @@ im.save(psdPathAfterChange);
 
 Votre PSD ajusté en RGB est maintenant stocké à l’emplacement spécifié.
 
-## Step 4: Load the CMYK PSD File
+## Étape 4 : Charger le fichier PSD CMJN
 
 Pour les projets destinés à l’impression, nous travaillons souvent en CMYK. Répétons le processus avec un fichier CMYK.
 
@@ -112,7 +112,7 @@ String sourceFileNameCmyk = dataDir + "ChannelMixerAdjustmentLayerCmyk.psd";
 PsdImage img = (PsdImage) Image.load(sourceFileNameCmyk);
 ```
 
-## Step 5: Modify the CMYK Channel Mixer Layer
+## Étape 5 : Modifier le calque de mélange CMJN
 
 Les canaux CMYK se comportent différemment, nous ajustons donc chaque composant en conséquence.
 
@@ -130,7 +130,7 @@ for (int i = 0; i < img.getLayers().length; i++) {
 
 Ces ajustements vous permettent d’affiner la façon dont chaque encre interagit, ce qui est crucial pour des couleurs d’impression précises.
 
-## Step 6: Save After CMYK Adjustments
+## Étape 6 : Enregistrer après les modifications CMJN
 
 Persistez les modifications CMYK :
 
@@ -139,7 +139,7 @@ String psdPathAfterChangeCmyk = dataDir + "ChannelMixerAdjustmentLayerCmykChange
 img.save(psdPathAfterChangeCmyk);
 ```
 
-## Step 7: Adding a New Channel Mixer Layer
+## Étape 7 : Ajouter un nouveau calque de mélange
 
 Parfois, il faut repartir de zéro et ajouter un nouveau calque de réglage à un PSD existant. Voici comment :
 
@@ -154,7 +154,7 @@ newlayer.getChannelByIndex(0).setConstant((short) 50);
 
 Nous chargeons un PSD, créons un nouveau `ChannelMixerLayer`, et définissons des valeurs constantes pour deux canaux. N’hésitez pas à expérimenter avec d’autres indices de canal pour des effets créatifs.
 
-## Step 8: Save Your Final Creation
+## Étape 8 : Enregistrer votre création finale
 
 Enfin, écrivez le PSD qui contient maintenant le calque de réglage fraîchement ajouté.
 
@@ -162,16 +162,16 @@ Enfin, écrivez le PSD qui contient maintenant le calque de réglage fraîchemen
 img1.save(psdPathAfterChangeCmyk);
 ```
 
-## Common Issues & Troubleshooting
+## Problèmes courants et dépannage
 
-| Symptôme | Cause probable | Solution |
-|----------|----------------|----------|
-| **`ClassCastException` lors du chargement** | Tentative de charger un fichier non‑PSD avec `Image.load` | Vérifiez que l’extension du fichier est `.psd` et que le fichier est un document Photoshop valide. |
-| **Aucun changement visible dans Photoshop** | La visibilité du calque est désactivée ou le calque de réglage est placé sous un masque | Assurez‑vous que `layer.isVisible()` est `true` et vérifiez l’ordre des calques. |
+| Symptôme | Cause probable | Solutions |
+|--------------|----------------|----------|
+| **`ClassCastException` lors du chargement** | Tentative de charger un fichier non‑PSD avec `Image.load` | Vérifiez que l'extension du fichier est `.psd` et que le fichier est un document Photoshop valide. |
+| **Aucun changement visible dans Photoshop** | La visibilité du calque est désactivée ou le calque de réglage est placé sous un masque | Assurez-vous que `layer.isVisible()` est `true` et vérifiez l’ordre des calques. |
 | **Décalage de couleur inattendu** | Utilisation de valeurs hors de la plage -100 à 100 | Gardez les valeurs de canal dans la plage courte prise en charge. |
-| **Échec de l’enregistrement avec `IOException`** | Le dossier de destination n’existe pas ou les permissions d’écriture sont insuffisantes | Créez d’abord le dossier ou ajustez les permissions du système de fichiers. |
+| **Échec de l’enregistrement avec `IOException`** | Le dossier de destination n’existe pas ou les autorisations d’écriture sont insuffisantes | Créez d’abord le dossier ou ajustez les autorisations du système de fichiers. |
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
 **Q : Quelle est la différence entre `RgbChannelMixerLayer` et `CmykChannelMixerLayer` ?**  
 R : Le premier travaille avec les canaux Rouge, Vert, Bleu (écran/affichage), tandis que le second manipule les canaux Cyan, Magenta, Jaune et Noir (impression).

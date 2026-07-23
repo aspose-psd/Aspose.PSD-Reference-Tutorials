@@ -90,14 +90,14 @@ Yes, Aspose.PSD for Java can be seamlessly integrated into both desktop and web-
 For further assistance, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
 
 ## คำถามที่พบบ่อย
-**Q: What makes a java image conversion library different from generic image APIs?**  
-A: A specialized library like Aspose.PSD understands Photoshop‑specific structures (layers, channels, masks) and can preserve them during conversion, which generic APIs often cannot.
+**ถาม: อะไรทำให้ไลบรารีแปลงรูปภาพ Java แตกต่างจาก API รูปภาพทั่วไป?**
+ตอบ: ไลบรารีเฉพาะทางอย่าง Aspose.PSD เข้าใจโครงสร้างเฉพาะของ Photoshop (เลเยอร์ ช่องสัญญาณ มาสก์) และสามารถรักษาโครงสร้างเหล่านั้นไว้ได้ในระหว่างการแปลง ซึ่ง API ทั่วไปมักทำไม่ได้
 
-**Q: Is there a limit on the size of PSB files I can convert?**  
-A: The library supports large PSB files (up to 2 GB). Memory consumption depends on the JVM heap size, so allocate sufficient memory for very large files.
+**ถาม: มีข้อจำกัดเกี่ยวกับขนาดของไฟล์ PSB ที่ฉันสามารถแปลงได้หรือไม่?**
+ตอบ: ไลบรารีรองรับไฟล์ PSB ขนาดใหญ่ (สูงสุด 2GB) การใช้หน่วยความจำขึ้นอยู่กับขนาดฮีปของ JVM ดังนั้นควรจัดสรรหน่วยความจำให้เพียงพอสำหรับไฟล์ขนาดใหญ่มาก
 
-**Q: How do I handle password‑protected PSB files?**  
-A: Load the file with `Image.load(path, new LoadOptions(password))` to supply the required password before conversion.
+**ถาม: ฉันจะจัดการกับไฟล์ PSB ที่ป้องกันด้วยรหัสผ่านได้อย่างไร?**
+ตอบ: โหลดไฟล์ด้วย `Image.load(path, new LoadOptions(password))` เพื่อใส่รหัสผ่านที่จำเป็นก่อนการแปลง
 
 **อัปเดตล่าสุด:** 2026-03-02  
 **ทดสอบด้วย:** Aspose.PSD for Java 24.12  

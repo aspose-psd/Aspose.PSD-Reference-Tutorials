@@ -141,15 +141,15 @@ A: Licenceket a [Aspose vásárlási oldalon](https://purchase.aspose.com/buy) l
 ## Összegzés
 Most már tudod, **hogyan adjunk hozzá kitöltést** egy Photoshop dokumentumhoz programozottan Java‑val. Színkitöltő réteg létrehozásával vagy megtalálásával, a szín beállításával és a fájl mentésével automatizálhatod az ismétlődő tervezési feladatokat, dinamikus eszközöket generálhatsz, vagy PSD manipulációt integrálhatsz nagyobb Java‑alkalmazásokba. Próbáld ki – kísérletezz különböző színekkel, adj hozzá több kitöltő réteget, vagy kombináld ezt a technikát más Aspose.PSD funkciókkal a hatékony képfeldolgozó csővezetékekért.
 
+---
+
+**Utoljára frissítve:** 2026-03-02  
+**Tesztelt verzió:** Aspose.PSD for Java 24.11 (a legújabb a kiadás időpontjában)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2026-03-02  
-**Tesztelt verzió:** Aspose.PSD for Java 24.11 (a legújabb a kiadás időpontjában)  
-**Szerző:** Aspose

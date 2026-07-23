@@ -125,32 +125,32 @@ Aspose.PSD for Java 为您提供了一套强大的工具，可 **add diagonal wa
 ### [使用 Java 从 PSD 文件创建缩略图](./create-thumbnails-psd-files/)
 学习如何使用 Java 和 Aspose.PSD 轻松从 PSD 文件创建缩略图。遵循我们的步骤指南，实现无缝的图像处理。
 
+## 常见问题
+
+**问：我能否在已包含调整图层的 PSD 文件中添加斜角水印？**  
+A: 是的。Aspose.PSD 允许您在已有的图层（包括色相饱和度、曲线和颜色填充图层）之上叠加水印，而无需将文件展平。
+
+**问：是否可以批量处理多个 PSD 文件以添加相同的水印？** 
+A: 绝对可以。您可以遍历目录，加载每个 PSD，应用水印并保存结果——全部在一个 Java 程序中完成。
+
+**问：调整图层教程（色相/饱和度、曲线、颜色填充）是否会影响水印的可见性？** 
+A: 调整图层会影响底层图像数据，但如果在这些调整之后再添加水印，则光栅化的水印层不会受到影响。您也可以将水印放在单独的图层上，以获得完整控制。
+
+**问：处理大型 PSD 文件时，我应该注意哪些内存限制？**
+A: 使用 “Control Cache Reallocation” 教程中描述的缓存重新分配控制，可限制 RAM 使用，尤其是在批量处理高分辨率文件时。
+
+**问：哪些版本的 Aspose.PSD 与 Java 11 及更高版本兼容？** 
+A: 所有近期发布（2023‑2025）的版本均支持 Java 8+，包括 Java 11、17 及更高版本。请查阅产品发布说明以获取您所使用的具体版本信息。
+
+---
+
+**上次更新：** 2026-03-02
+**测试版本：** Aspose.PSD 24.11 for Java
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## 常见问题
-
-**Q: Can I add a diagonal watermark to a PSD that already contains adjustment layers?**  
-A: 是的。Aspose.PSD 允许您在已有的图层（包括色相饱和度、曲线和颜色填充图层）之上叠加水印，而无需将文件展平。
-
-**Q: Is it possible to batch‑process multiple PSD files to add the same watermark?**  
-A: 绝对可以。您可以遍历目录，加载每个 PSD，应用水印并保存结果——全部在一个 Java 程序中完成。
-
-**Q: Do the adjustment‑layer tutorials (hue saturation, curves, color fill) affect the watermark visibility?**  
-A: 调整图层会影响底层图像数据，但如果在这些调整之后再添加水印，则光栅化的水印层不会受到影响。您也可以将水印放在单独的图层上，以获得完整控制。
-
-**Q: What memory considerations should I keep in mind when working with large PSD files?**  
-A: 使用 “Control Cache Reallocation” 教程中描述的缓存重新分配控制，可限制 RAM 使用，尤其是在批量处理高分辨率文件时。
-
-**Q: Which versions of Aspose.PSD are compatible with Java 11 and newer?**  
-A: 所有近期发布（2023‑2025）的版本均支持 Java 8+，包括 Java 11、17 及更高版本。请查阅产品发布说明以获取您所使用的具体版本信息。
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose

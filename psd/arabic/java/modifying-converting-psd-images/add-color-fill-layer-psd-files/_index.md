@@ -139,15 +139,15 @@ break;
 ## الخلاصة
 أنت الآن تعرف **كيفية إضافة تعبئة** إلى مستند Photoshop برمجياً باستخدام Java. من خلال إنشاء أو تحديد طبقة تعبئة لونية، ضبط لونها، وحفظ النتيجة، يمكنك أتمتة مهام التصميم المتكررة، توليد أصول ديناميكية، أو دمج تعديل PSD في تطبيقات Java أكبر. جرّب ذلك—جرب ألوانًا مختلفة، أضف طبقات تعبئة متعددة، أو اجمع هذه التقنية مع ميزات Aspose.PSD الأخرى لإنشاء خطوط معالجة صور قوية.
 
+---
+
+**آخر تحديث:** 2026-03-02  
+**تم الاختبار باستخدام:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-03-02  
-**تم الاختبار باستخدام:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**المؤلف:** Aspose

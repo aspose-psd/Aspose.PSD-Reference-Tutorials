@@ -129,13 +129,6 @@ Aspose.PSD for Java ile adım‑adım rehberimizde indexed PSD dosyaları oluşt
 ### [Java ile PSD Dosyalarından Küçük Resimler Oluştur](./create-thumbnails-psd-files/)
 Java ve Aspose.PSD kullanarak PSD dosyalarından küçük resimler oluşturmayı zahmetsizce öğrenin. Sorunsuz görüntü işleme için adım‑adım rehberimizi izleyin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Varolan ayar katmanları içeren bir PSD'ye diyagonal filigran ekleyebilir miyim?**  
@@ -158,3 +151,10 @@ C: 2023‑2025 arasındaki tüm son sürümler Java 8+ (Java 11, 17 ve sonra
 **Son Güncelleme:** 2026-03-02  
 **Test Edilen Versiyon:** Aspose.PSD 24.11 for Java  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

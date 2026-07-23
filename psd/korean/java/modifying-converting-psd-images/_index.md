@@ -128,13 +128,6 @@ Aspose.PSD for Java를 사용해 인덱스 PSD 파일을 만드는 단계별 가
 ### [Java를 사용해 PSD 파일에서 썸네일 만들기](./create-thumbnails-psd-files/)
 Java와 Aspose.PSD를 사용해 PSD 파일에서 썸네일을 손쉽게 만드는 방법을 단계별 가이드로 따라 이미지 처리를 원활하게 수행하세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 이미 조정 레이어가 포함된 PSD에 대각선 워터마크를 추가할 수 있나요?**  
@@ -155,3 +148,10 @@ A: 최신 릴리스(2023‑2025) 모두 Java 8+를 지원하며, Java 11, 17
 **마지막 업데이트:** 2026-03-02  
 **테스트 환경:** Aspose.PSD 24.11 for Java  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

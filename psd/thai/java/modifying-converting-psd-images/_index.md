@@ -127,13 +127,6 @@ Level Adjustment Layer มีความสำคัญต่อการแก
 ### [สร้าง Thumbnails จากไฟล์ PSD ด้วย Java](./create-thumbnails-psd-files/)
 เรียนรู้วิธีสร้าง Thumbnails จากไฟล์ PSD อย่างง่ายดายด้วย Java และ Aspose.PSD ทำตามคู่มือขั้นตอนของเราเพื่อการประมวลผลภาพที่ราบรื่น
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถเพิ่มลายน้ำแนวทแยงลงใน PSD ที่มี Adjustment Layer อยู่แล้วได้หรือไม่?**  
@@ -154,3 +147,10 @@ A: ทุกเวอร์ชันล่าสุด (2023‑2025) รอง�
 **อัปเดตล่าสุด:** 2026-03-02  
 **ทดสอบด้วย:** Aspose.PSD 24.11 for Java  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

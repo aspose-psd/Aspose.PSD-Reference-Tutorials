@@ -131,13 +131,6 @@ Apprenez à créer des fichiers PSD indexés avec Aspose.PSD for Java grâce à 
 ### [Create Thumbnails from PSD Files using Java](./create-thumbnails-psd-files/)
 Apprenez à créer sans effort des miniatures à partir de fichiers PSD en utilisant Java et Aspose.PSD. Suivez notre guide pas à pas pour un traitement d’image fluide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Puis‑je ajouter un filigrane diagonal à un PSD qui contient déjà des calques d’ajustement ?**  
@@ -160,3 +153,10 @@ A : Toutes les versions récentes (2023‑2025) prennent en charge Java 8+, 
 **Dernière mise à jour :** 2026-03-02  
 **Testé avec :** Aspose.PSD 24.11 for Java  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

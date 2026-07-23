@@ -140,13 +140,6 @@ break;
 ## निष्कर्ष
 अब आप जानते हैं कि **PSD में फ़िल कैसे जोड़ें** प्रोग्रामेटिक रूप से Java के साथ। एक कलर फ़िल लेयर बनाकर या खोजकर, उसका रंग सेट करके, और परिणाम को सहेजकर, आप दोहराव वाले डिज़ाइन कार्यों को ऑटोमेट कर सकते हैं, डायनेमिक एसेट्स जेनरेट कर सकते हैं, या PSD मैनिपुलेशन को बड़े Java एप्लिकेशन में इंटीग्रेट कर सकते हैं। एक बार कोशिश करें—विभिन्न रंगों के साथ प्रयोग करें, कई फ़िल लेयर्स जोड़ें, या इस तकनीक को अन्य Aspose.PSD फीचर्स के साथ मिलाकर शक्तिशाली इमेज प्रोसेसिंग पाइपलाइन बनाएं।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2026-03-02  
@@ -154,3 +147,10 @@ break;
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -141,13 +141,6 @@ break;
 ## Заключение
 Теперь вы знаете **как добавить заливку** в документ Photoshop программно с помощью Java. Создавая или находя слой заливки цветом, задавая его цвет и сохраняя результат, вы можете автоматизировать повторяющиеся задачи дизайна, генерировать динамические ресурсы или интегрировать работу с PSD в более крупные Java‑приложения. Попробуйте — поэкспериментируйте с разными цветами, добавляйте несколько слоёв заливки или комбинируйте эту технику с другими возможностями Aspose.PSD для создания мощных конвейеров обработки изображений.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-03-02  
@@ -155,3 +148,10 @@ break;
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

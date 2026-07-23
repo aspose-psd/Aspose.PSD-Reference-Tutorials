@@ -140,15 +140,15 @@ A: Giấy phép được bán qua [trang Mua Aspose](https://purchase.aspose.com
 ## Kết luận
 Bạn giờ đã biết **cách thêm fill** vào tài liệu Photoshop một cách lập trình bằng Java. Bằng cách tạo hoặc tìm một lớp đổ màu, đặt màu cho nó, và lưu kết quả, bạn có thể tự động hoá các nhiệm vụ thiết kế lặp lại, tạo ra các tài sản động, hoặc tích hợp việc thao tác PSD vào các ứng dụng Java lớn hơn. Hãy thử—thử nghiệm với các màu khác nhau, thêm nhiều lớp đổ, hoặc kết hợp kỹ thuật này với các tính năng khác của Aspose.PSD để có các pipeline xử lý ảnh mạnh mẽ.
 
+---
+
+**Cập nhật lần cuối:** 2026-03-02  
+**Kiểm tra với:** Aspose.PSD for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-03-02  
-**Kiểm tra với:** Aspose.PSD for Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
-**Tác giả:** Aspose

@@ -128,13 +128,6 @@ Naucz się tworzyć indeksowane pliki PSD przy użyciu Aspose.PSD for Java w nas
 ### [Utwórz miniatury z plików PSD przy użyciu Java](./create-thumbnails-psd-files/)
 Naucz się bez wysiłku tworzyć miniatury z plików PSD przy użyciu Java i Aspose.PSD. Skorzystaj z naszego przewodnika krok po kroku, aby zapewnić płynne przetwarzanie obrazów.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę dodać przekątny znak wodny do PSD, który już zawiera warstwy dopasowania?**  
@@ -157,3 +150,10 @@ A: Wszystkie najnowsze wydania (2023‑2025) obsługują Java 8+, w tym Java�
 **Last Updated:** 2026-03-02  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

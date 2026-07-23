@@ -141,13 +141,6 @@ R: Las licencias se venden a través de la [Aspose Purchase page](https://purcha
 ## Conclusión
 Ahora sabes **cómo añadir relleno** a un documento Photoshop de forma programática con Java. Creando o localizando una capa de relleno de color, estableciendo su color y guardando el resultado, puedes automatizar tareas de diseño repetitivas, generar activos dinámicos o integrar la manipulación de PSD en aplicaciones Java más grandes. Pruébalo: experimenta con diferentes colores, añade múltiples capas de relleno o combina esta técnica con otras funcionalidades de Aspose.PSD para crear potentes flujos de procesamiento de imágenes.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2026-03-02  
@@ -155,3 +148,10 @@ Ahora sabes **cómo añadir relleno** a un documento Photoshop de forma program�
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

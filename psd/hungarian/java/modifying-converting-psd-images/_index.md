@@ -128,13 +128,6 @@ Tanuld meg, hogyan hozz létre indexált PSD fájlokat az Aspose.PSD for Java se
 ### [Miniatűrök létrehozása PSD fájlokból Java‑val](./create-thumbnails-psd-files/)
 Tanuld meg, hogyan hozz létre könnyedén miniaturákat PSD fájlokból Java‑val és az Aspose.PSD‑vel. Kövesd lépésről‑lépésre útmutatónkat a zökkenőmentes képfeldolgozáshoz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Hozzáadhatok átlós vízjelet egy már beállítási rétegeket tartalmazó PSD-hez?**  
@@ -157,3 +150,10 @@ A: Minden legújabb kiadás (2023‑2025) támogatja a Java 8+, beleértve a J
 **Last Updated:** 2026-03-02  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

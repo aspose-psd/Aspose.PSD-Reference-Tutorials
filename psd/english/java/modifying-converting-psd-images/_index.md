@@ -125,13 +125,6 @@ Learn to create indexed PSD files with Aspose.PSD for Java in our step-by-step g
 ### [Create Thumbnails from PSD Files using Java](./create-thumbnails-psd-files/)
 Learn how to effortlessly create thumbnails from PSD files using Java and Aspose.PSD. Follow our step-by-step guide for seamless image processing.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I add a diagonal watermark to a PSD that already contains adjustment layers?**  
@@ -154,3 +147,10 @@ A: All recent releases (2023‑2025) support Java 8+, including Java 11, 17,
 **Last Updated:** 2026-03-02  
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

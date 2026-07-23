@@ -141,15 +141,15 @@ A: Licenças são vendidas através da [página de compra da Aspose](https://pur
 ## Conclusão
 Agora você sabe **como adicionar preenchimento** a um documento Photoshop programaticamente com Java. Ao criar ou localizar uma camada de preenchimento de cor, definir sua cor e salvar o resultado, você pode automatizar tarefas de design repetitivas, gerar ativos dinâmicos ou integrar a manipulação de PSD em aplicações Java maiores. Experimente—teste diferentes cores, adicione múltiplas camadas de preenchimento ou combine esta técnica com outros recursos do Aspose.PSD para pipelines poderosos de processamento de imagens.
 
+---
+
+**Última atualização:** 2026-03-02  
+**Testado com:** Aspose.PSD for Java 24.11 (mais recente no momento da escrita)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-03-02  
-**Testado com:** Aspose.PSD for Java 24.11 (mais recente no momento da escrita)  
-**Autor:** Aspose

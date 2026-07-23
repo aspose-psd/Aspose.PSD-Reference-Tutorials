@@ -130,13 +130,6 @@ weight: 21
 ### [Δημιουργία Μικρογραφιών από Αρχεία PSD με Java](./create-thumbnails-psd-files/)
 Μάθετε πώς να δημιουργείτε εύκολα μικρογραφίες από αρχεία PSD χρησιμοποιώντας Java και Aspose.PSD. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για απρόσκοπτη επεξεργασία εικόνας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να προσθέσω ένα διαγώνιο υδατογράφημα σε PSD που ήδη περιέχει στρώσεις προσαρμογών;**  
@@ -159,3 +152,10 @@ A: Όλες οι πρόσφατες κυκλοφορίες (2023‑2025) υπο�
 **Τελευταία Ενημέρωση:** 2026-03-02  
 **Δοκιμή Με:** Aspose.PSD 24.11 for Java  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

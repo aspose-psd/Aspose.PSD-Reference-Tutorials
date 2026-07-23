@@ -139,15 +139,15 @@ A: [Aspose 구매 페이지](https://purchase.aspose.com/buy)에서 라이선스
 ## 결론
 이제 Java와 Aspose.PSD를 사용해 **PSD에 채우기를 추가**하는 방법을 알게 되었습니다. 색상 채우기 레이어를 만들거나 찾고, 색상을 설정한 뒤 저장함으로써 반복적인 디자인 작업을 자동화하고, 동적 자산을 생성하거나, PSD 조작을 더 큰 Java 애플리케이션에 통합할 수 있습니다. 다양한 색상을 실험해 보고, 여러 채우기 레이어를 추가하거나, 다른 Aspose.PSD 기능과 결합해 강력한 이미지 처리 파이프라인을 구축해 보세요.
 
+---
+
+**마지막 업데이트:** 2026-03-02  
+**테스트 환경:** Aspose.PSD for Java 24.11 (작성 시 최신 버전)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-03-02  
-**테스트 환경:** Aspose.PSD for Java 24.11 (작성 시 최신 버전)  
-**작성자:** Aspose

@@ -17,33 +17,33 @@ weight: 20
 
 # Kleurvullingslaag toevoegen aan PSD‑bestanden met Java
 
-## Introduction
-Heb je ooit Photoshop‑bestanden programmatically moeten manipuleren, misschien om een vleugje kleur aan een ontwerp toe te voegen? Als je je afvraagt **how to add fill** aan een PSD, ben je hier op de juiste plek. In deze tutorial lopen we stap voor stap door hoe je een kleurvullingslaag toevoegt aan PSD (Photoshop Document)‑bestanden met Java en de Aspose.PSD‑bibliotheek. Beschouw je PSD als een digitaal canvas — aan het einde weet je hoe je een kleurvullingslaag maakt, de vul‑laagkleur instelt en het bijgewerkte bestand opslaat in slechts een paar regels code.
+## Introductie
+Heb je ooit Photoshop‑bestanden programmatisch moeten manipuleren, misschien om een ​​praktische kleur aan een ontwerp toe te voegen? Als je afvraagt ​​**how to add fill** aan een PSD, ben je hier op de juiste plek. In deze tutorial lopen we stap voor stap door hoe je een kleurvullingslaag toevoegt aan PSD (Photoshop Document)‑bestanden met Java en de Aspose.PSD‑bibliotheek. Bekijk je PSD als een digitaal canvas – aan het einde weet je hoe je een kleurvullingslaag maakt, de vul‑laagkleur stelt en de bijgewerkte bestand opslaat in slechts een paar regels code.
 
-## Quick Answers
-- **What library is needed?** Aspose.PSD for Java  
-- **Primary use case?** Programmatically add or change PSD fill colors  
-- **How long does implementation take?** About 10‑15 minutes for a basic scenario  
-- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production  
-- **Supported Java version?** Java 8 and above  
+## Snelle antwoorden
+- **Welke bibliotheek is nodig?** Aspose.PSD voor Java
+- **Primair gebruiksscenario?** Programmatisch PSD-opvulkleuren toevoegen of wijzigen
+- **Hoe lang duurt de implementatie?** Ongeveer 10‑15 minuten voor een basisscenario
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt ter evaluatie; Voor de productie is een commerciële licentie vereist
+- **Ondersteunde Java-versie?** Java8 en hoger
 
-## What is a Color Fill Layer?
-Een kleurvullingslaag is een effen‑kleur overlay die bovenop andere lagen in een Photoshop‑document ligt. Het wordt vaak gebruikt om een achtergrondkleur toe te voegen, maskers te creëren of snel het visuele thema van een ontwerp te wijzigen zonder individuele pixels te bewerken.
+## Wat is een kleuropvullaag?
+Een kleurvullingslaag is een effen-kleur-overlay die bovenop andere lagen in een Photoshop-document ligt. Het wordt vaak gebruikt om een ​​achtergrondkleur toe te voegen, maskers te creëren of snel het visuele thema van een ontwerp te wijzigen zonder individuele pixels te bewerken.
 
-## Why add a color fill layer with code?
-- **Automation:** Genereer consistente branding‑assets over veel bestanden.  
-- **Batch processing:** Werk tientallen PSD‑s in seconden bij in plaats van handmatig.  
-- **Dynamic designs:** Verander kleuren on‑the‑fly op basis van gebruikersinvoer of gegevensbronnen.
+## Waarom een ​​kleuropvullaag met code toevoegen?
+- **Automatisering:** Genereer consistente merkmiddelen over veel bestanden.
+- **Batchverwerking:** Werk tientallen PSD‑s in seconden bij in plaats van handmatig.
+- **Dynamische ontwerpen:** Verander kleuren on-the-fly op basis van gebruikersinvoer van gegevensbronnen.
 
-## Prerequisites
+## Vereisten
 Voordat we in de code duiken, zorgen we ervoor dat je alles hebt wat je nodig hebt:
 
-1. **Java Development Kit (JDK)** – JDK 8 of nieuwer geïnstalleerd.  
-2. **Aspose.PSD Library** – Download de nieuwste JAR van de [Aspose Releases page](https://releases.aspose.com/psd/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans, of elke editor die je verkiest.  
-4. **Basic Java knowledge** – Vertrouwdheid met objecten, loops en exception handling.
+1. **Java Development Kit (JDK)** – JDK8 of nieuwer geïnstalleerd.
+2. **Aspose.PSD Library** – Download de nieuwste JAR van de [Aspose Releases page](https://releases.aspose.com/psd/java/).
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans, of elke editor die je verkiest.
+4. **Basiskennis van Java** – Vertrouwelijkheid met objecten, loops en exception handling.
 
-## Import Packages
+## Pakketten importeren
 Nu we de basis hebben, importeren we de benodigde klassen. Deze imports geven ons toegang tot PSD‑verwerking en manipulatie van vullagen.
 
 ```java
@@ -55,9 +55,9 @@ import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.IColorFillSettings;
 ```
 
-## How to Add Fill – Step‑by‑Step Guide
+## Vulling toevoegen – Stapsgewijze handleiding
 
-### Step 1: Set Up Your Environment
+### Stap 1: Je omgeving instellen
 Definieer waar je bron‑PSD zich bevindt en waar het bewerkte bestand wordt opgeslagen, en laad vervolgens het document.
 
 ```java
@@ -71,7 +71,7 @@ PsdImage im = (PsdImage) Image.load(sourceFileName);
 - `sourceFileName` is het originele bestand dat je gaat aanpassen.  
 - `exportPath` is waar het nieuwe bestand met de **add color fill layer** wordt weggeschreven.  
 
-### Step 2: Loop Through the Layers
+### Stap 2: Doorloop de lagen
 We moeten eventuele bestaande vullagen vinden zodat we ze kunnen aanpassen of een nieuwe kunnen maken.
 
 ```java
@@ -83,7 +83,7 @@ for (int i = 0; i < im.getLayers().length; i++) {
 - De `for`‑loop doorloopt elke laag in de PSD.  
 - De `instanceof FillLayer`‑check zorgt ervoor dat we alleen met vullagen werken.
 
-### Step 3: Verify the Fill Type
+### Stap 3: Controleer het vullingstype
 Zorg ervoor dat de gevonden laag een **color fill layer** is voordat je probeert de kleur te wijzigen.
 
 ```java
@@ -94,7 +94,7 @@ if (fillLayer.getFillSettings().getFillType() != FillType.Color) {
 
 Als het vultype niet `FillType.Color` is, stoppen we om te voorkomen dat we per ongeluk gradient‑ of patroonvullagen aanpassen.
 
-### Step 4: Set the Fill Color
+### Stap 4: Stel de vullingskleur in
 Hier stellen we de **set fill layer color** in. Het voorbeeld verandert de laag naar rood, maar je kunt `Color.getRed()` vervangen door elke andere `Color` die je nodig hebt (bijv. `Color.getBlue()`, `new Color(255, 165, 0)` voor oranje).
 
 ```java
@@ -106,7 +106,7 @@ fillLayer.update();
 - `settings.setColor(...)` wijzigt de daadwerkelijke vulkleur.  
 - `fillLayer.update()` ververst de laag zodat de nieuwe kleur wordt toegepast.  
 
-### Step 5: Save the Changes
+### Stap 5: Sla de wijzigingen op
 Schrijf tenslotte de aangepaste PSD terug naar de schijf.
 
 ```java
@@ -116,30 +116,36 @@ break;
 
 - De `break` stopt de loop nadat de eerste overeenkomende vullag is bijgewerkt, wat meestal is wat je wilt wanneer je slechts één **change PSD fill color** één keer hoeft uit te voeren.
 
-## Common Issues & Tips
-- **No FillLayer found:** Als je PSD geen vullag bevat, moet je er een maken met `new FillLayer(im)` en toevoegen aan `im.getLayers()`.  
-- **Color not updating:** Zorg ervoor dat je `fillLayer.update()` aanroept na het instellen van de kleur.  
-- **File not saved:** Controleer of `exportPath` naar een schrijfbare map wijst en dat je toestemming hebt om daar bestanden te schrijven.  
+## Veelvoorkomende problemen en tips
+- **Geen FillLayer gevonden:** Als je PSD geen vullag bevat, moet je er een maken met `new FillLayer(im)` en toevoegen aan `im.getLayers()`.
+- **Kleur wordt niet bijgewerkt:** Zorg ervoor dat je `fillLayer.update()` aanroept na het instellen van de kleur.
+- **Bestand niet opgeslagen:** Controleer of `exportPath` naar een schrijfbare kaart wijst en dat je toestemming hebt om daar bestanden te schrijven.
 
-## Frequently Asked Questions
+## Veelgestelde vragen
 
-**Q: What is Aspose.PSD?**  
-A: Aspose.PSD is a robust Java library that lets you create, edit, and convert Photoshop PSD files without needing Adobe Photoshop.
+**V: Wat is Aspose.PSD?**
+A: Aspose.PSD is een robuuste Java-bibliotheek waarmee u Photoshop PSD-bestanden kunt maken, bewerken en converteren zonder dat u Adobe Photoshop nodig hebt.
 
-**Q: Can I use Aspose.PSD for free?**  
-A: Yes, a free trial is available on the [Aspose Releases page](https://releases.aspose.com/).  
+**V: Kan ik Aspose.PSD gratis gebruiken?**
+A: Ja, er is een gratis proefversie beschikbaar op de [Aspose Releases-pagina](https://releases.aspose.com/).
 
-**Q: Which file formats can I work with besides PSD?**  
-A: Aspose.PSD supports PSD, PSB, BMP, JPEG, PNG, GIF, TIFF, and more.
+**V: Met welke bestandsformaten kan ik naast PSD werken?**
+A: Aspose.PSD ondersteunt PSD, PSB, BMP, JPEG, PNG, GIF, TIFF en meer.
 
-**Q: How do I get support if I run into problems?**  
-A: You can ask questions on the [Aspose Support Forum](https://forum.aspose.com/c/psd/34).  
+**V: Hoe krijg ik ondersteuning als ik problemen ondervind?**
+A: U kunt vragen stellen op het [Aspose Support Forum](https://forum.aspose.com/c/psd/34).
 
-**Q: Where can I purchase a full license?**  
-A: Licenses are sold through the [Aspose Purchase page](https://purchase.aspose.com/buy).
+**V: Waar kan ik een volledige licentie kopen?**
+A: Licenties worden verkocht via de [Aspose Purchase-pagina](https://purchase.aspose.com/buy).
 
-## Conclusion
+## Conclusie
 Je weet nu **how to add fill** aan een Photoshop‑document programmatically met Java. Door een kleurvullingslaag te maken of te vinden, de kleur in te stellen en het resultaat op te slaan, kun je repetitieve ontwerptaken automatiseren, dynamische assets genereren of PSD‑manipulatie integreren in grotere Java‑applicaties. Probeer het — experimenteer met verschillende kleuren, voeg meerdere vullagen toe, of combineer deze techniek met andere Aspose.PSD‑functies voor krachtige beeldverwerkings‑pipelines.
+
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -147,9 +153,3 @@ Je weet nu **how to add fill** aan een Photoshop‑document programmatically met
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose

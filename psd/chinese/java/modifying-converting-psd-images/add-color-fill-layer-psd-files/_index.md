@@ -138,13 +138,6 @@ A: 许可证可通过 [Aspose Purchase page](https://purchase.aspose.com/buy) �
 ## 结论
 现在你已经掌握了 **如何以编程方式向 Photoshop 文档添加填充**。通过创建或定位颜色填充图层、设置其颜色并保存结果，你可以自动化重复的设计任务、生成动态资产，或将 PSD 操作集成到更大的 Java 应用程序中。动手试试吧——尝试不同颜色、添加多个填充图层，或将此技术与其他 Aspose.PSD 功能结合，构建强大的图像处理流水线。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新:** 2026-03-02  
@@ -152,3 +145,10 @@ A: 许可证可通过 [Aspose Purchase page](https://purchase.aspose.com/buy) �
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

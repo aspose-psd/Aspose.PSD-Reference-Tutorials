@@ -128,13 +128,6 @@ Aprenda a criar arquivos PSD indexados com Aspose.PSD for Java em nosso guia pas
 ### [Create Thumbnails from PSD Files using Java](./create-thumbnails-psd-files/)
 Aprenda como criar miniaturas de arquivos PSD de forma simples usando Java e Aspose.PSD. Siga nosso guia passo a passo para um processamento de imagens sem interrupções.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso adicionar uma marca d'água diagonal a um PSD que já contém camadas de ajuste?**  
@@ -157,3 +150,10 @@ A: Todas as versões recentes (2023‑2025) suportam Java 8+, incluindo Java�
 **Última Atualização:** 2026-03-02  
 **Testado com:** Aspose.PSD 24.11 for Java  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

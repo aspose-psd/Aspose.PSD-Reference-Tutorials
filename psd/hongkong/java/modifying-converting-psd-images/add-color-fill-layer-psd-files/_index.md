@@ -138,15 +138,15 @@ A: 授權可透過 [Aspose Purchase page](https://purchase.aspose.com/buy) 購�
 ## 結論
 現在你已了解如何以 Java 程式方式 **為 Photoshop 文件新增填充**。透過建立或定位顏色填充圖層、設定其顏色，並儲存結果，你可以自動化重複的設計工作、產生動態資產，或將 PSD 操作整合到更大的 Java 應用程式中。試試看吧——嘗試不同的顏色、加入多個填充圖層，或將此技巧與其他 Aspose.PSD 功能結合，打造強大的影像處理管線。
 
+---
+
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose

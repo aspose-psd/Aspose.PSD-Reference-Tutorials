@@ -142,28 +142,21 @@ Học cách tạo các tệp PSD Indexed với Aspose.PSD cho Java trong hướn
 ### [Tạo Hình Thu Nhỏ từ Tệp PSD bằng Java](./create-thumbnails-psd-files/)
 Tìm hiểu cách tạo hình thu nhỏ từ các tệp PSD một cách dễ dàng bằng Java và Aspose.PSD. Thực hiện hướng dẫn từng bước của chúng tôi để xử lý hình ảnh liền mạch.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu Hỏi Thường Gặp
 
-**Q: Can I add a diagonal watermark to a PSD that already contains adjustment layers?**  
-A: Có. Aspose.PSD cho phép bạn xếp một watermark lên trên các lớp hiện có, bao gồm hue saturation, curves và color fill layers, mà không cần flatten (phẳng) tệp.
+**Hỏi: Tôi có thể thêm hình mờ chéo vào PSD đã chứa các lớp điều chỉnh không?**
+A: Có. Aspose.PSD cho phép bạn xếp một hình mờ lên trên các lớp hiện có, bao gồm độ bão hòa màu sắc, đường cong và lớp tô màu mà không cần làm phẳng (phẳng) tệp.
 
-**Q: Is it possible to batch‑process multiple PSD files to add the same watermark?**  
-A: Chắc chắn. Bạn có thể lặp qua một thư mục, tải mỗi tệp PSD, áp dụng watermark và lưu kết quả — tất cả trong một chương trình Java duy nhất.
+**Hỏi: Có thể xử lý hàng loạt nhiều tệp PSD để thêm cùng một hình mờ không?**
+A: Chắc chắn. Bạn có thể duyệt qua một thư mục, tải từng tệp PSD, áp dụng hình mờ và lưu kết quả — tất cả trong một chương trình Java duy nhất.
 
-**Q: Do the adjustment‑layer tutorials (hue saturation, curves, color fill) affect the watermark visibility?**  
-A: Các lớp điều chỉnh ảnh hưởng đến dữ liệu hình ảnh nền nhưng không ảnh hưởng đến lớp watermark đã raster nếu bạn thêm watermark sau các điều chỉnh đó. Bạn cũng có thể đặt watermark trên một lớp riêng để kiểm soát hoàn toàn.
+**Q: Các hướng dẫn về lớp điều chỉnh (độ bão hòa màu sắc, đường cong, màu tô) có ảnh hưởng đến khả năng hiển thị hình mờ không?**
+A: Các ảnh điều chỉnh lớp này ảnh hưởng đến hình nền dữ liệu nhưng không ảnh hưởng đến lớp hình mờ đã raster nếu bạn thêm hình mờ sau các điều chỉnh đó. Bạn cũng có thể đặt hình mờ trên một lớp riêng để kiểm soát hoàn toàn.
 
-**Q: What memory considerations should I keep in mind when working with large PSD files?**  
-A: Sử dụng các điều khiển phân bổ lại cache được mô tả trong hướng dẫn “Control Cache Reallocation” để giới hạn việc sử dụng RAM, đặc biệt khi xử lý các tệp có độ phân giải cao theo batch.
+**Hỏi: Tôi nên lưu ý những điều gì về bộ nhớ khi làm việc với các tệp PSD lớn?**
+A: Sử dụng các bộ nhớ đệm phân tách điều khiển được mô tả trong hướng dẫn “Control Cache Reallocation” để hạn chế việc sử dụng RAM, đặc biệt khi xử lý các tệp có độ phân giải cao theo lô.
 
-**Q: Which versions of Aspose.PSD are compatible with Java 11 and newer?**  
+**Hỏi: Phiên bản nào của Aspose.PSD tương thích với Java11 trở lên?**  
 A: Tất cả các bản phát hành gần đây (2023‑2025) hỗ trợ Java 8+, bao gồm Java 11, 17 và các phiên bản sau. Kiểm tra ghi chú phát hành sản phẩm để biết phiên bản chính xác bạn đang sử dụng.
 
 ---
@@ -171,3 +164,10 @@ A: Tất cả các bản phát hành gần đây (2023‑2025) hỗ trợ Java�
 **Cập nhật lần cuối:** 2026-03-02  
 **Được kiểm tra với:** Aspose.PSD 24.11 for Java  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

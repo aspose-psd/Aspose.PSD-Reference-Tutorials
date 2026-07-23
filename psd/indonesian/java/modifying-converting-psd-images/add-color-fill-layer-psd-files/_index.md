@@ -17,33 +17,32 @@ weight: 20
 
 # Tambahkan Layer Isi Warna ke File PSD menggunakan Java
 
-## Introduction
-Pernahkah Anda perlu memanipulasi file Photoshop secara programatik, mungkin untuk menambahkan sentuhan warna pada sebuah desain? Jika Anda bertanya‑tanya **how to add fill** ke sebuah PSD, Anda berada di tempat yang tepat. Pada tutorial ini kami akan menjelaskan cara menambahkan layer isi warna ke file PSD (Photoshop Document) menggunakan Java dan pustaka Aspose.PSD. Anggap PSD Anda sebagai kanvas digital—pada akhir Anda akan tahu cara membuat layer isi warna, mengatur warna layer isi, dan menyimpan file yang telah diperbarui hanya dengan beberapa baris kode.
+## Perkenalan
+Pernahkah Anda perlu memanipulasi file Photoshop secara terprogram, mungkin untuk menambahkan sentuhan warna pada sebuah desain? Jika Anda bertanya‑tanya **cara menambahkan isian** ke sebuah PSD, Anda berada di tempat yang tepat. Pada tutorial ini kami akan menjelaskan cara menambahkan layer isi warna ke file PSD (Photoshop Document) menggunakan Java dan pustaka Aspose.PSD. Anggap PSD Anda sebagai kanvas digital—pada akhir Anda akan mengetahui cara membuat lapisan isi warna, mengatur warna lapisan isi, dan menyimpan file yang telah diperbarui hanya dengan beberapa baris kode.
 
-## Quick Answers
-- **What library is needed?** Aspose.PSD for Java  
-- **Primary use case?** Programmatically add or change PSD fill colors  
-- **How long does implementation take?** About 10‑15 minutes for a basic scenario  
-- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production  
-- **Supported Java version?** Java 8 and above  
+## Jawaban Cepat
+- **Perpustakaan apa yang dibutuhkan?** Aspose.PSD untuk Java
+- **Kasus penggunaan utama?** Menambahkan atau mengubah warna isian PSD secara terprogram
+- **Berapa lama waktu penerapannya?** Sekitar 10‑15 menit untuk skenario dasar
+- **Apakah saya memerlukan lisensi?** Uji coba gratis berfungsi untuk evaluasi; izin komersial diperlukan untuk produksi
+- **Versi Java yang didukung?** Java8 dan yang lebih baru
 
-## What is a Color Fill Layer?
-Layer isi warna adalah lapisan overlay berwarna solid yang berada di atas lapisan lain dalam dokumen Photoshop. Biasanya digunakan untuk menambahkan warna latar belakang, membuat masker, atau dengan cepat mengubah tema visual sebuah desain tanpa mengedit piksel secara individual.
+## Apa itu Lapisan Isi Warna?
+Lapisan isi warna adalah lapisan overlay berwarna solid yang berada di atas lapisan lain dalam dokumen Photoshop. Biasanya digunakan untuk menambahkan warna latar belakang, membuat masker, atau dengan cepat mengubah tema visual sebuah desain tanpa mengedit secara piksel individual.
 
-## Why add a color fill layer with code?
-- **Automation:** Menghasilkan aset merek yang konsisten di banyak file.  
-- **Batch processing:** Memperbarui puluhan PSD dalam hitungan detik alih‑alih melakukannya secara manual.  
-- **Dynamic designs:** Mengubah warna secara dinamis berdasarkan masukan pengguna atau sumber data.
+## Mengapa menambahkan lapisan isian warna dengan kode?
+- **Automation:** Menghasilkan aset merek yang konsisten di banyak file.
+- **Pemrosesan batch:** Memperbarui puluhan PSD dalam hitungan detik alih‑alih melakukannya secara manual.
+- **Desain dinamis:** Mengubah warna secara dinamis berdasarkan masukan pengguna atau sumber data.
 
-## Prerequisites
-Sebelum kita masuk ke kode, pastikan Anda memiliki semua yang diperlukan:
+## Prasyarat
+Sebelum kita memasukkan kode, pastikan Anda memiliki semua yang diperlukan:
 
-1. **Java Development Kit (JDK)** – JDK 8 atau lebih baru terpasang.  
-2. **Aspose.PSD Library** – Unduh JAR terbaru dari [Aspose Releases page](https://releases.aspose.com/psd/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans, atau editor apa pun yang Anda sukai.  
-4. **Basic Java knowledge** – Familiarity with objects, loops, and exception handling.
+1. **Java Development Kit (JDK)** – JDK8 atau lebih baru terpasang.
+2. **Aspose.PSD Library** – Unduh JAR terbaru dari [Aspose Releases page](https://releases.aspose.com/psd/java/).
+3. **IDE** – IntelliJ IDEA, Eclipse, NetBeans, atau editor apa pun yang Anda sukai. 4. **Pengetahuan dasar Java** – Familiaritas dengan objek, perulangan, dan penanganan pengecualian.
 
-## Import Packages
+## Mengimpor Paket
 Sekarang setelah dasar‑dasarnya tercakup, mari impor kelas‑kelas yang diperlukan. Impor ini memberi kita akses ke penanganan PSD dan manipulasi layer isi.
 
 ```java
@@ -55,9 +54,9 @@ import com.aspose.psd.fileformats.psd.layers.fillsettings.FillType;
 import com.aspose.psd.fileformats.psd.layers.fillsettings.IColorFillSettings;
 ```
 
-## How to Add Fill – Step‑by‑Step Guide
+## Cara Menambahkan Isi – Panduan Langkah demi Langkah
 
-### Step 1: Set Up Your Environment
+### Langkah 1: Siapkan Lingkungan Anda
 Tentukan di mana PSD sumber berada dan ke mana file yang telah diedit akan disimpan, lalu muat dokumennya.
 
 ```java
@@ -71,7 +70,7 @@ PsdImage im = (PsdImage) Image.load(sourceFileName);
 - `sourceFileName` adalah file asli yang akan Anda modifikasi.  
 - `exportPath` adalah lokasi file baru dengan **add color fill layer** yang akan ditulis.  
 
-### Step 2: Loop Through the Layers
+### Langkah 2: Lakukan Perulangan Melalui Lapisan
 Kita perlu menemukan setiap layer isi yang ada sehingga dapat memodifikasinya atau membuat yang baru.
 
 ```java
@@ -83,7 +82,7 @@ for (int i = 0; i < im.getLayers().length; i++) {
 - Loop `for` mengiterasi setiap layer dalam PSD.  
 - Pemeriksaan `instanceof FillLayer` memastikan kita hanya bekerja dengan layer isi.
 
-### Step 3: Verify the Fill Type
+### Langkah 3: Verifikasi Jenis Isi
 Pastikan layer yang kita temukan adalah **color fill layer** sebelum mencoba mengubah warnanya.
 
 ```java
@@ -94,7 +93,7 @@ if (fillLayer.getFillSettings().getFillType() != FillType.Color) {
 
 Jika tipe isi bukan `FillType.Color`, proses dihentikan untuk menghindari perubahan tidak sengaja pada isi gradien atau pola.
 
-### Step 4: Set the Fill Color
+### Langkah 4: Atur Warna Isi
 Di sinilah kita **set fill layer color**. Contoh ini mengubah layer menjadi merah, tetapi Anda dapat mengganti `Color.getRed()` dengan `Color` lain yang Anda butuhkan (misalnya `Color.getBlue()`, `new Color(255, 165, 0)` untuk oranye).
 
 ```java
@@ -106,7 +105,7 @@ fillLayer.update();
 - `settings.setColor(...)` mengubah warna isi yang sebenarnya.  
 - `fillLayer.update()` memperbarui layer sehingga warna baru diterapkan.  
 
-### Step 5: Save the Changes
+### Langkah 5: Simpan Perubahan
 Akhirnya, tulis kembali PSD yang telah dimodifikasi ke disk.
 
 ```java
@@ -116,30 +115,36 @@ break;
 
 - `break` menghentikan loop setelah layer isi pertama yang cocok diperbarui, yang biasanya yang Anda inginkan ketika hanya perlu **change PSD fill color** sekali.
 
-## Common Issues & Tips
-- **No FillLayer found:** Jika PSD Anda tidak mengandung layer isi, Anda perlu membuatnya menggunakan `new FillLayer(im)` dan menambahkannya ke `im.getLayers()`.  
-- **Color not updating:** Pastikan Anda memanggil `fillLayer.update()` setelah mengatur warna.  
-- **File not saved:** Verifikasi bahwa `exportPath` mengarah ke direktori yang dapat ditulisi dan Anda memiliki izin menulis file di sana.  
+## Masalah & Tip Umum
+- **FillLayer tidak ditemukan:** Jika PSD Anda tidak mengandung lapisan isi, Anda perlu membuatnya menggunakan `new FillLayer(im)` dan menambahkannya ke `im.getLayers()`.
+- **Warna tidak diperbarui:** Pastikan Anda memanggil `fillLayer.update()` setelah mengatur warna.
+- **File tidak disimpan:** Verifikasi bahwa `exportPath` mengarah ke direktori yang dapat ditulisi dan Anda memiliki izin menulis file di sana.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: What is Aspose.PSD?**  
-A: Aspose.PSD is a robust Java library that lets you create, edit, and convert Photoshop PSD files without needing Adobe Photoshop.
+**T: Apa itu Aspose.PSD?**
+J: Aspose.PSD adalah perpustakaan Java tangguh yang memungkinkan Anda membuat, mengedit, dan mengonversi file Photoshop PSD tanpa memerlukan Adobe Photoshop.
 
-**Q: Can I use Aspose.PSD for free?**  
-A: Yes, a free trial is available on the [Aspose Releases page](https://releases.aspose.com/).  
+**T: Bisakah saya menggunakan Aspose.PSD secara gratis?**
+J: Ya, uji coba gratis tersedia di [halaman Aspose Releases](https://releases.aspose.com/).
 
-**Q: Which file formats can I work with besides PSD?**  
-A: Aspose.PSD supports PSD, PSB, BMP, JPEG, PNG, GIF, TIFF, and more.
+**Q: Format file apa yang dapat saya gunakan selain PSD?**
+J: Aspose.PSD mendukung PSD, PSB, BMP, JPEG, PNG, GIF, TIFF, dan banyak lagi.
 
-**Q: How do I get support if I run into problems?**  
-A: You can ask questions on the [Aspose Support Forum](https://forum.aspose.com/c/psd/34).  
+**Q: Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?**
+J: Anda dapat mengajukan pertanyaan di [Forum Dukungan Aspose](https://forum.aspose.com/c/psd/34).
 
-**Q: Where can I purchase a full license?**  
-A: Licenses are sold through the [Aspose Purchase page](https://purchase.aspose.com/buy).
+**T: Di mana saya dapat membeli lisensi penuh?**
+J: Lisensi dijual melalui [halaman Pembelian Aspose](https://purchase.aspose.com/buy).
 
-## Conclusion
-Anda kini tahu **how to add fill** ke dokumen Photoshop secara programatik dengan Java. Dengan membuat atau menemukan layer isi warna, mengatur warnanya, dan menyimpan hasilnya, Anda dapat mengotomatiskan tugas desain berulang, menghasilkan aset dinamis, atau mengintegrasikan manipulasi PSD ke dalam aplikasi Java yang lebih besar. Cobalah—eksperimen dengan warna berbeda, tambahkan beberapa layer isi, atau gabungkan teknik ini dengan fitur Aspose.PSD lainnya untuk pipeline pemrosesan gambar yang kuat.
+## Kesimpulan
+Anda kini tahu **cara menambahkan isian** ke dokumen Photoshop secara terprogram dengan Java. Dengan membuat atau menemukan lapisan isi warna, mengatur warnanya, dan menyimpan hasilnya, Anda dapat mengotomatiskan tugas desain berulang, menghasilkan aset dinamis, atau mengintegrasikan manipulasi PSD ke dalam aplikasi Java yang lebih besar. Saya—eksperimen dengan warna berbeda, tambahkan beberapa lapisan isi, atau gabungkan teknik ini dengan fitur Aspose.PSD lainnya untuk pipeline memproses gambar yang kuat.
+
+---
+
+**Terakhir Diperbarui:** 2026-03-02
+**Diuji Dengan:** Aspose.PSD untuk Java 24.11 (versi terbaru pada saat penulisan)
+**Pengarang:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -147,9 +152,3 @@ Anda kini tahu **how to add fill** ke dokumen Photoshop secara programatik denga
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-02  
-**Tested With:** Aspose.PSD for Java 24.11 (latest at time of writing)  
-**Author:** Aspose
