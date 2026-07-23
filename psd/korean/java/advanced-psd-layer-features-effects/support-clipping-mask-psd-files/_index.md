@@ -9,13 +9,7 @@ url: /ko/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-file
 weight: 16
 ---
 
--section >}} etc.
-
-Also final backtop button shortcode.
-
-Make sure to keep all markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

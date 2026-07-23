@@ -162,19 +162,19 @@ Nyní jste úspěšně **converted PSD to PNG** a zachovali jste vysoce kvalitn�
 
 ## Často kladené otázky
 
-**Q: What is 16-bit grayscale color mode?**  
-A: Poskytuje 65 536 odstínů šedi, což přináší mnohem více tonálního detailu než standardní 8‑bit (256 odstínů).
+**Otázka: Co je to 16bitový barevný režim ve stupních šedi?**
+A: Poskytuje 65536 odstínů šedi, což přináší mnohem více tonálního detailu než standardní 8-bit (256 odstínů).
 
-**Q: Can I use Aspose.PSD for non‑grayscale images?**  
+**Otázka: Mohu použít Aspose.PSD pro obrázky bez odstínů šedi?**
 A: Rozhodně! Aspose.PSD podporuje RGB, CMYK, Lab a mnoho dalších barevných režimů.
 
-**Q: Is there a trial version of Aspose.PSD?**  
-A: Ano, můžete vyzkoušet bezplatnou zkušební verzi Aspose.PSD. Stačí přejít na [Aspose download page](https://releases.aspose.com/).
+**Otázka: Existuje zkušební verze Aspose.PSD?**
+A: Ano, můžete vyzkoušet bezplatnou zkušební verzi Aspose.PSD. Stačí přejít na [stránku pro stažení Aspose](https://releases.aspose.com/).
 
-**Q: Where can I find more examples of using Aspose.PSD?**  
-A: Můžete se podívat na [documentation](https://reference.aspose.com/psd/java/) pro podrobnější příklady a tutoriály.
+**Otázka: Kde najdu další příklady použití Aspose.PSD?**
+A: Můžete se podívat na [dokumentaci](https://reference.aspose.com/psd/java/) pro podrobnější příklady a tutoriály.
 
-**Q: How do I purchase a license for Aspose.PSD?**  
+**Otázka: Jak si koupím licenci pro Aspose.PSD?** 
 A: Licenci můžete zakoupit na [Aspose purchase page](https://purchase.aspose.com/buy).
 
 **Poslední aktualizace:** 2026-02-20  

@@ -10,8 +10,6 @@ url: /nl/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-file
 weight: 16
 ---
 
- no extra spaces. Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -105,19 +103,19 @@ Image.load(sourceFileName).save(exportPath, new PngOptions(){{
 
 ## Veelgestelde vragen
 
-**Q: What is a clipping mask in PSD files?**  
-A: Een clipping mask gebruikt de opacity van één laag om de zichtbaarheid van een andere te beperken, waardoor complexe composities mogelijk zijn zonder de lagen permanent te wijzigen.
+**V: Wat is een knipmasker in PSD-bestanden?**
+A: Een knipmasker gebruikt de dekking van één laag om de zichtbaarheid van een andere te verborgen, waardoor complexe composities mogelijk zijn zonder de lagen permanent te wijzigen.
 
-**Q: Can I use Aspose.PSD to edit PSD files?**  
+**V: Kan ik Aspose.PSD gebruiken om PSD-bestanden te bewerken?**
 A: Ja, je kunt lagen bewerken, effecten toepassen en exporteren naar formaten zoals PNG of JPEG.
 
-**Q: Where can I find documentation for Aspose.PSD?**  
-A: Je kunt uitgebreide documentatie voor Aspose.PSD for Java [here](https://reference.aspose.com/psd/java/) vinden.
+**V: Waar kan ik documentatie vinden voor Aspose.PSD?**
+A: Je kunt uitgebreide documentatie voor Aspose.PSD voor Java [hier](https://reference.aspose.com/psd/java/) vinden.
 
-**Q: Is there a trial version available for Aspose.PSD?**  
-A: Ja! Je kunt een gratis proefversie van Aspose.PSD [here](https://releases.aspose.com/) verkrijgen.
+**V: Is er een proefversie beschikbaar voor Aspose.PSD?**
+EEN: Ja! Je kunt [hier](https://releases.aspose.com/) een gratis proefversie van Aspose.PSD verkrijgen.
 
-**Q: How do I get support for Aspose.PSD issues?**  
+**V: Hoe krijg ik ondersteuning voor problemen met Aspose.PSD?** 
 A: Voor vragen of problemen kun je ondersteuning krijgen via het Aspose‑forum [here](https://forum.aspose.com/c/psd/34).
 
 ## Conclusie

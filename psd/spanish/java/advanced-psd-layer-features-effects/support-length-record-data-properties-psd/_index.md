@@ -11,29 +11,7 @@ url: /es/java/advanced-psd-layer-features-effects/support-length-record-data-pro
 weight: 14
 ---
 
-Record` and `PathOperations` classes are available since Aspose.PSD 20.10. Using the latest version is recommended.
-
-Translate.
-
-Then the footer:
-
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose  
-
-Translate labels but keep dates.
-
-Then closing shortcodes unchanged.
-
-Also include backtop button shortcode unchanged.
-
-Now produce final content.
-
-Let's craft Spanish translation.
-
-Be careful to keep markdown formatting.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

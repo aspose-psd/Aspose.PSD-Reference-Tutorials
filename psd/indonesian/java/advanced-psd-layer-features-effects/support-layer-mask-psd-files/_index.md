@@ -9,13 +9,7 @@ url: /id/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 weight: 18
 ---
 
- with all translations.
-
-Check for any missed items: The initial three shortcodes at top and bottom must be preserved.
-
-Make sure to keep markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

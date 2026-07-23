@@ -11,8 +11,6 @@ url: /de/java/advanced-psd-layer-features-effects/support-length-record-data-pro
 weight: 14
 ---
 
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

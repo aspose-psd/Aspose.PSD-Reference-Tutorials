@@ -10,13 +10,7 @@ url: /de/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/
 weight: 18
 ---
 
- Was ist eine Ebenenmaske... etc.
-
-Similarly for others.
-
-Also keep **Q:** and **A:**.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

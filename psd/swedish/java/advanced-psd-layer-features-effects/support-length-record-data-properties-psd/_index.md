@@ -9,9 +9,7 @@ url: /sv/java/advanced-psd-layer-features-effects/support-length-record-data-pro
 weight: 14
 ---
 
- sure code block placeholders remain unchanged.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

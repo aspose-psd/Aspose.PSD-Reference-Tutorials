@@ -10,18 +10,6 @@ url: /hu/java/advanced-psd-layer-features-effects/support-length-record-data-pro
 weight: 14
 ---
 
-/products-backtop-button >}}
-
-Now translate each piece.
-
-We must keep code block placeholders as is.
-
-Let's produce final markdown.
-
-Be careful with Hungarian special characters.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

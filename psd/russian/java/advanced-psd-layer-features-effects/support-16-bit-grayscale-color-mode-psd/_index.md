@@ -10,27 +10,6 @@ url: /ru/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color
 weight: 11
 ---
 
-, so we keep placeholders unchanged. The rest of text we translate.
-
-We must keep shortcodes at top and bottom unchanged.
-
-Let's produce the translated version.
-
-We need to translate:
-
-- The introductory paragraph, quick answers, why convert, prerequisites list, etc.
-
-Make sure to keep markdown formatting.
-
-Also translate table content.
-
-Also translate FAQ.
-
-Make sure to keep URLs unchanged.
-
-Also keep "Last Updated" etc.
-
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

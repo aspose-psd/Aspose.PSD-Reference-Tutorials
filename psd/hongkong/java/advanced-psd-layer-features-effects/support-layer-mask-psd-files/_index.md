@@ -116,19 +116,19 @@ im.save(exportPath, saveOptions);
 
 ## 常見問答
 
-**Q: What is a layer mask in PSD files?**  
+**Q：PSD 檔案中的圖層蒙版是什麼？**  
 A: 圖層遮罩控制圖層的透明度，讓你在不永久刪除像素的情況下隱藏或顯示圖像的部分區域。
 
-**Q: Can I work with PSD files without programming knowledge?**  
+**Q：我沒有程式設計知識，可以處理 PSD 檔案嗎？**  
 A: 雖然 Aspose.PSD 需要撰寫程式碼，但平面設計師仍可使用 Photoshop 或其他 GUI 工具手動轉換。
 
-**Q: Is Aspose.PSD free to use?**  
+**Q：Aspose.PSD 可以免費使用嗎？**  
 A: 下載頁面提供免費試用；商業專案則需購買授權。
 
-**Q: What happens if my PSD file contains no masks?**  
+**Q：如果我的 PSD 檔案不包含任何蒙版會怎樣？**  
 A: 即使 PSD 沒有遮罩，轉換仍會正常執行，只是產生的 PNG 不會有遮罩透明效果。
 
-**Q: Where can I get support if I have issues?**  
+**Q：如果遇到問題，我可以在哪裡獲得支援？**  
 A: 前往 [support forum](https://forum.aspose.com/c/psd/34) 取得 Aspose 專家與社群的協助。
 
 ## 結論

@@ -9,12 +9,6 @@ url: /hi/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color
 weight: 11
 ---
 
-Let's craft translation.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

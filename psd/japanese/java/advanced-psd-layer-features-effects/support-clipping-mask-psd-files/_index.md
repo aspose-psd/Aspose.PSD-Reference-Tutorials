@@ -15,23 +15,23 @@ weight: 16
 
 # Aspose.PSD Java で PSD ファイルのクリッピングマスクをサポート
 
-## Introduction
+## はじめに
 **PSD を PNG にエクスポート** してクリッピングマスク情報を保持したい場合、Aspose.PSD for Java を使えば簡単です。このチュートリアルでは、PSD ファイルをプログラムで処理し、クリッピングマスクを適用し、**PSD を PNG に保存** して完全な透過性をサポートする手順を詳しく解説します。最後まで読むと、Java プロジェクトにすぐ組み込める再利用可能なコードスニペットが手に入ります。
 
-## Quick Answers
+## よくある質問
 - **このライブラリは何をするものですか？** Java で Photoshop PSD ファイルの読み取り、編集、エクスポートを行います。  
 - **クリッピングマスクを保持できますか？** はい – PNG にエクスポートする際にマスクが保持されます。  
 - **ロスレスエクスポートに使用されるフォーマットは？** TruecolorWithAlpha を指定した PNG。  
 - **本番環境でライセンスは必要ですか？** 商用ライセンスが必要です。無料トライアルも利用可能です。  
 - **必要な Java バージョンは？** JDK 8 以上。
 
-## How to Export PSD as PNG with Clipping Mask
+## クリッピングマスク付きPSDファイルをPNG形式でエクスポートする方法
 PSD ファイルを PNG にエクスポートすると、レイヤー構造を持つ Photoshop ドキュメントがフラットなラスタ画像に変換され、透過情報が保持されます。これは、Web 用画像が必要なときや **透過 PNG を保持** したいとき、または自動化パイプラインで PSD を PNG にバッチ変換する場合に特に有用です。
 
-## Why Use Aspose.PSD for This Task?
+## このタスクにAspose.PSDを使用する理由
 Aspose.PSD は、クリッピングマスク、調整レイヤー、ブレンドモードなどの複雑な Photoshop 機能を、Photoshop をインストールせずに処理できます。自動化ワークフロー、バッチ処理、またはサーバーサイドアプリケーションでデザイン資産を統合し、**PSD を PNG にエクスポート** する必要があるシナリオに最適です。
 
-## Prerequisites
+## 前提条件
 コードに入る前に、以下を準備してください。
 
 1. **Java Development Kit (JDK)** – 少なくとも JDK 8。[Oracle のウェブサイト](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)からダウンロードしてください。  
@@ -39,9 +39,9 @@ Aspose.PSD は、クリッピングマスク、調整レイヤー、ブレンド
 3. **IDE** – IntelliJ IDEA、Eclipse、またはお好みのエディタ。  
 4. **基本的な Java の知識** – ファイル I/O やオブジェクト指向の概念に慣れているとスムーズです。
 
-## Export PSD as PNG – Step‑by‑Step Guide
+## PSDファイルをPNG形式でエクスポートする手順
 
-### Step 1: Define Your Document Directory
+### ステップ1：ドキュメントディレクトリを定義する
 まず、ソース PSD が格納されているディレクトリと、PNG を出力するディレクトリをプログラムに知らせます。
 
 ```java
@@ -50,7 +50,7 @@ String dataDir = "Your Document Directory";
 
 `"Your Document Directory"` を、PSD ファイルが保存されているマシン上の絶対パスに置き換えてください。
 
-### Step 2: Load the PSD File
+### ステップ2：PSDファイルを読み込む
 次に、PSD を `PsdImage` オブジェクトにロードし、レイヤーやマスクにアクセスできるようにします。
 
 ```java
@@ -58,7 +58,7 @@ String sourceFileName = dataDir + "ClippingMaskComplex.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-### Step 3: Setup Export Options
+### ステップ3：エクスポートオプションを設定する
 PNG エクスポート設定を構成します。`TruecolorWithAlpha` を使用すると、クリッピングマスクによって作成された透過領域が保持され、**透過 PNG を保持** できます。
 
 ```java
@@ -66,7 +66,7 @@ PngOptions saveOptions = new PngOptions();
 saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
-### Step 4: Export the Image
+### ステップ4：画像をエクスポートする
 それでは、クリッピングマスク付きの PSD を PNG ファイルとして保存します。
 
 ```java
@@ -76,14 +76,14 @@ im.save(exportPath, saveOptions);
 
 生成された PNG は、ウェブページ、モバイルアプリ、またはラスタ画像を受け付ける任意の場所で直接使用できます。
 
-### Step 5: Clean Up Resources
+### ステップ5：リソースをクリーンアップする
 処理が完了したら必ず `PsdImage` を破棄し、ネイティブメモリを解放してください。
 
 ```java
 im.dispose();
 ```
 
-### How to Save PSD to PNG in One Line
+### PSDファイルをPNG形式で1行で保存する方法
 コンパクトに記述したい場合、以下の 1 行で同じ処理が可能です。
 
 ```java
@@ -94,13 +94,13 @@ Image.load(sourceFileName).save(exportPath, new PngOptions(){{
 
 *(上記の展開版は、可読性とデバッグのしやすさのために示しています。)*
 
-## Common Issues and Solutions
+## よくある問題とその解決策
 - **透過が失われる:** `PngColorType.TruecolorWithAlpha` が設定されているか確認してください。設定しないと PNG が不透明になります。  
 - **ファイルが見つからない:** `dataDir` の末尾が正しいパス区切り文字 (`/` または `\\`) で終わっているか確認してください。  
 - **OutOfMemoryError:** 大きなファイルやバッチ処理を行う場合は、`PsdImage` を速やかに破棄してください。  
 - **バッチ変換:** 多数のファイルを変換する際は、ループでステップを回し、`PngOptions` を再利用してパフォーマンスを向上させます。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: PSD ファイルのクリッピングマスクとは何ですか？**  
 A: クリッピングマスクは、あるレイヤーの不透明度を利用して別のレイヤーの表示領域を制限し、レイヤーを永久的に変更せずに複雑な合成を実現します。
@@ -117,7 +117,7 @@ A: はい！無料トライアル版は[こちら](https://releases.aspose.com/)
 **Q: Aspose.PSD のサポートはどこで受けられますか？**  
 A: ご質問や問題は Aspose フォーラムの[こちら](https://forum.aspose.com/c/psd/34)からサポートを受けられます。
 
-## Conclusion
+## まとめ
 これで **PSD を PNG にエクスポート** しながらクリッピングマスクを保持する方法を学びました。Aspose.PSD for Java を使えば、デザインパイプラインの自動化、バックエンドサービスへの Photoshop 資産の統合、手動エクスポートなしでのビジュアル忠実度の維持が可能です。レイヤー結合、カラー調整、バッチ処理など、他の Aspose.PSD 機能も活用してワークフローをさらに効率化しましょう。
 
 ---

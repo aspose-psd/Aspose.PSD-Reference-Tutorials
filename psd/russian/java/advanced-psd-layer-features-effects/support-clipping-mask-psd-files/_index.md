@@ -10,13 +10,6 @@ url: /ru/java/advanced-psd-layer-features-effects/support-clipping-mask-psd-file
 weight: 16
 ---
 
-Similarly other links.
-
-Let's translate.
-
-Start with shortcodes unchanged.
-
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

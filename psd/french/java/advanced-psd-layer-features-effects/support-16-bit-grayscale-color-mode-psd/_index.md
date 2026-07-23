@@ -11,14 +11,6 @@ url: /fr/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color
 weight: 11
 ---
 
-_BLOCK_0}} not code fences. Should keep them unchanged.
-
-We need to translate text inside code blocks? The placeholders are not actual code, but we shouldn't translate them. So just leave as is.
-
-We need to translate table content.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

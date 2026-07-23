@@ -8,15 +8,7 @@ url: /zh-hant/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-
 weight: 11
 ---
 
-}}
-
-All preserved.
-
-Now produce final content with translations.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,13 +9,7 @@ url: /ko/java/advanced-psd-layer-features-effects/support-length-record-data-pro
 weight: 14
 ---
 
-
-
-All good.
-
-Now produce final output with all content. Ensure shortcodes remain.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

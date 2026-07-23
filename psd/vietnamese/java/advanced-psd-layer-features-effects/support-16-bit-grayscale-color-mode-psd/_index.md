@@ -10,15 +10,7 @@ url: /vi/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color
 weight: 11
 ---
 
- Frequently Asked Questions" -> "## Câu hỏi thường gặp". Then each Q/A translate.
-
-Make sure to keep markdown formatting for Q/A.
-
-Then last updated etc translate.
-
-Then closing shortcodes.
-
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
