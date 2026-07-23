@@ -1,10 +1,10 @@
 ---
-date: 2025-12-21
-description: Naučte se, jak upravit kontrast obrázků pomocí Aspose.PSD pro Javu, přední
-  knihovny pro manipulaci s obrázky v Javě, a efektivně převádět PSD do TIFF.
-linktitle: Adjust Contrast of an Image
+date: 2026-02-25
+description: Naučte se, jak převést PSD na TIFF a upravit kontrast obrázku pomocí
+  Aspose.PSD pro Javu, přední knihovny pro manipulaci s obrázky v Javě.
+linktitle: Convert PSD to TIFF and Adjust Contrast
 second_title: Aspose.PSD Java API
-title: Jak upravit kontrast obrázku pomocí Aspose.PSD pro Javu
+title: Jak převést PSD na TIFF a upravit kontrast pomocí Aspose.PSD pro Javu
 url: /cs/java/advanced-techniques/adjust-contrast/
 weight: 22
 ---
@@ -13,33 +13,36 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak upravit kontrast obrázku pomocí Aspose.PSD pro Java
+# Jak převést PSD na TIFF a upravit kontrast pomocí Aspose.PSD pro Java
 
 ## Úvod
 
-Pokud hledáte **jak upravit kontrast** ve svých Java projektech, jste na správném místě. Aspose.PSD pro Java je výkonná **java image manipulation library**, která vám umožní jemně doladit vlastnosti obrázku, jako je kontrast, jas a další. V tomto tutoriálu projdeme přesné kroky, jak zvýšit kontrast PSD souboru a následně **převést PSD na TIFF** pro další workflow.
+Pokud potřebujete **convert PSD to TIFF** a zároveň doladit vizuální kvalitu svých grafik, jste na správném místě. V tomto tutoriálu projdeme kompletní workflow pomocí Aspose.PSD pro Java – robustní knihovny pro **java image manipulation**. Naučíte se, jak zvýšit **image contrast adjustment**, kešovat velká rastrová data pro výkon a nakonec **save image as TIFF** pro následné zpracování. Pojďme na to!
 
 ## Rychlé odpovědi
-- **Co znamená „upravit kontrast“?** Změní rozdíl mezi nejtmavšími a nejjasnějšími pixely, čímž zvýrazní detaily.
-- **Která knihovna to provádí?** Aspose.PSD pro Java – kompletní nástroj pro zpracování obrázků.
-- **Potřebuji licenci?** Dočasná licence stačí pro testování; plná licence je vyžadována pro produkci.
-- **Mohu výsledek uložit jako TIFF?** Ano, použijeme `TiffOptions` pro export zpracovaného obrázku.
-- **Jak dlouho kód běží?** Obvykle pod jednou sekundou pro standardní PSD soubory.
+- **What does “adjust contrast” mean?** Mění rozdíl mezi nejsvětlejšími a nejtmavšími pixely, čímž zvýrazní detaily.  
+- **Which library handles this?** Aspose.PSD pro Java – kompletní sada nástrojů pro zpracování obrázků.  
+- **Do I need a license?** Dočasná **temporary aspose license** funguje pro testování; pro produkci je vyžadována plná licence.  
+- **Can I **convert PSD to TIFF**?** Určitě – použijeme `TiffOptions` k exportu zpracovaného obrázku.  
+- **How long does the code take to run?** Obvykle méně než sekunda pro standardně velké PSD soubory na moderním hardware.
 
-## Co je úprava kontrastu?
-Úprava kontrastu mění tonální rozsah obrázku, zesiluje rozdíl mezi světlými a tmavými oblastmi. To je zvláště užitečné, když obrázky po skenování vypadají ploché nebo při přípravě grafiky pro tisk.
+## Co je úprava kontrastu obrázku?
+
+Úprava kontrastu mění tonální rozsah obrázku, zesiluje rozdíl mezi světlými a tmavými oblastmi. To je zvláště užitečné, když obrázky vypadají po skenování ploché nebo při přípravě grafik pro tisk.
 
 ## Proč použít Aspose.PSD pro Java?
-- **Bohatá podpora formátů** – otevírejte, upravujte a ukládejte PSD, TIFF, PNG, JPEG a mnoho dalších.
-- **Vysoký výkon** – kešování a optimalizace rastrových obrázků snižují paměťovou zátěž.
-- **Jednoduché API** – jednorázové volání metod jako `adjustContrast` zvyšuje čitelnost kódu.
 
-## Předpoklady
+- **Rich format support** – otevírejte, upravujte a **save image as TIFF**, PNG, JPEG a mnoho dalších.  
+- **High performance** – kešování a optimalizace rastrových obrázků snižují paměťovou zátěž, což je klíčové pro velké PSD soubory.  
+- **Straight‑forward API** – volání jedné metody jako `adjustContrast` činí kód čitelným a udržovatelným.  
+- **Comprehensive java image manipulation** – komplexní schopnosti **java image manipulation**, které vyhovují jak jednoduchým skriptům, tak podnikovým aplikacím.
 
-Než se pustíte do práce, ujistěte se, že máte:
+## Požadavky
 
-- Základní znalosti programování v Javě.
-- Nainstalovanou knihovnu Aspose.PSD pro Java. Stáhnout ji můžete [zde](https://releases.aspose.com/psd/java/).
+Než se pustíte dál, ujistěte se, že máte:
+
+- Základní znalosti programování v Java.  
+- Nainstalovanou knihovnu Aspose.PSD pro Java. Můžete si ji stáhnout [zde](https://releases.aspose.com/psd/java/).
 
 ## Import balíčků
 
@@ -64,7 +67,7 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-Načteme zdrojový PSD soubor (`sample.psd`) do objektu `Image`, který slouží jako výchozí bod pro veškeré další zpracování.
+Načteme zdrojový PSD soubor (`sample.psd`) do objektu `Image`, který slouží jako vstupní bod pro veškeré další zpracování.
 
 ## Krok 2: Přetypování na RasterImage a kešování dat
 
@@ -78,7 +81,7 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-Přetypování na `RasterImage` nám poskytuje přístup k operacím na úrovni pixelů. Kešování zlepšuje výkon, zejména u velkých souborů.
+Přetypování na `RasterImage` nám umožňuje přístup k operacím na úrovni pixelů. Kešování zlepšuje výkon, zejména u velkých souborů.
 
 ## Jak upravit kontrast obrázku
 
@@ -103,12 +106,12 @@ String destName = dataDir + "AdjustContrast_out.tiff";
 rasterImage.save(destName, tiffOptions);
 ```
 
-Zde nakonfigurujeme `TiffOptions` (bits per sample, photometric interpretation) a zapíšeme kontrastně vylepšený obrázek do TIFF souboru.
+Zde nastavíme `TiffOptions` (bity na vzorek, fotometrickou interpretaci) a **save image as TIFF**. Tento krok dokončuje workflow **convert PSD to TIFF**.
 
 ## Časté problémy a řešení
-- **Obrázek není kešován:** Vždy zavolejte `cacheData()` pro velké PSD soubory, aby se předešlo `OutOfMemoryError`.
-- **Neočekávaný posun barev:** Ověřte, že `setPhotometric` odpovídá cílovému barevnému prostoru (RGB vs. CMYK).
-- **Soubor nenalezen:** Ujistěte se, že `dataDir` ukazuje na správnou složku a že název souboru je napsán správně.
+- **Image not cached:** Vždy zavolejte `cacheData()` pro velké PSD soubory, aby se předešlo `OutOfMemoryError`.  
+- **Unexpected color shift:** Ověřte, že `setPhotometric` odpovídá cílovému barevnému prostoru (RGB vs. CMYK).  
+- **File not found:** Ujistěte se, že `dataDir` ukazuje na správnou složku a že název souboru je napsán správně.
 
 ## Často kladené otázky
 
@@ -116,9 +119,9 @@ Zde nakonfigurujeme `TiffOptions` (bits per sample, photometric interpretation) 
 
 A1: Ano, Aspose.PSD podporuje různé formáty obrázků, což poskytuje flexibilitu ve vašich projektech.
 
-### Q2: Jak mohu získat dočasnou licenci pro Aspose.PSD?
+### Q2: Jak získat dočasnou licenci pro Aspose.PSD?
 
-A2: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
+A2: Dočasnou licenci získáte [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q3: Kde najdu dokumentaci k Aspose.PSD?
 
@@ -128,19 +131,19 @@ A3: Dokumentace je k dispozici [zde](https://reference.aspose.com/psd/java/).
 
 A4: Pro podporu navštivte [forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
 
-### Q5: Mohu si zakoupit Aspose.PSD?
+### Q5: Můžu si zakoupit Aspose.PSD?
 
-A5: Ano, Aspose.PSD můžete koupit [zde](https://purchase.aspose.com/buy).
+A5: Ano, Aspose.PSD si můžete koupit [zde](https://purchase.aspose.com/buy).
 
 ## Závěr
 
-Nyní víte **jak upravit kontrast** PSD obrázku pomocí Aspose.PSD pro Java a jak **převést PSD na TIFF** pro další zpracování. Tyto kroky vám poskytují detailní kontrolu nad kvalitou obrazu při zachování čistého a udržovatelného kódu. Nebojte se experimentovat s dalšími metodami úpravy obrázku, jako je `adjustBrightness` nebo `adjustGamma`, aby vyhovovaly vašim konkrétním potřebám.
+Nyní víte **how to convert PSD to TIFF** a jak provést **image contrast adjustment** pomocí Aspose.PSD pro Java. Tyto kroky vám poskytují detailní kontrolu nad kvalitou obrázku a zároveň udržují kód čistý a udržovatelný. Neváhejte experimentovat s dalšími metodami úprav, jako jsou `adjustBrightness` nebo `adjustGamma`, aby vyhovovaly vašim konkrétním potřebám.
 
 ---
 
-**Poslední aktualizace:** 2025-12-21  
-**Testováno s:** Aspose.PSD pro Java 24.12  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,11 +1,11 @@
 ---
-title: "Java Image Manipulation - Add Effects at Runtime with Aspose.PSD for Java"
+title: "Java Image Manipulation Tutorial – Add Effects at Runtime"
 linktitle: Add Effects at Runtime
 second_title: Aspose.PSD Java API
 description: "Explore java image manipulation with Aspose.PSD for Java and learn how to add effects at runtime. This tutorial shows you step‑by‑step how to add effects to images."
 weight: 20
 url: /java/advanced-techniques/add-effects-runtime/
-date: 2025-12-19
+date: 2026-02-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -34,15 +34,26 @@ Java image manipulation refers to programmatically creating, editing, or enhanci
 - **Runtime flexibility** – add, modify, or remove effects on the fly.  
 - **Cross‑platform** – runs on any OS that supports the JDK.
 
+## Why this matters for developers
+Adding effects at runtime lets you build dynamic graphics engines, generate custom thumbnails, or create on‑the‑fly watermarks without manual Photoshop work. It’s ideal for web services that need to personalize images per user request, or desktop tools that batch‑process assets.
+
+## Common Use Cases
+| Use case | Benefit |
+|----------|---------|
+| **User‑generated content** | Apply brand colors or overlays instantly. |
+| **Automated thumbnail creation** | Add drop shadows or glows for a polished look. |
+| **Dynamic UI themes** | Switch layer effects based on user preferences. |
+| **Batch processing pipelines** | Programmatically enhance large image sets. |
+
 ## Prerequisites
 
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 
-1. Java Development Kit (JDK): Ensure that you have Java installed on your system. You can download the latest JDK from [here](https://www.oracle.com/java/technologies/javase-downloads.html).
+1. **Java Development Kit (JDK)** – Ensure that you have Java installed on your system. You can download the latest JDK from [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-2. Aspose.PSD for Java Library: You need to have the Aspose.PSD for Java library. If you haven't already, download it from the [Aspose.PSD Java documentation](https://reference.aspose.com/psd/java/).
+2. **Aspose.PSD for Java Library** – You need to have the Aspose.PSD for Java library. If you haven't already, download it from the [Aspose.PSD Java documentation](https://reference.aspose.com/psd/java/).
 
-3. Document Directory: Set up a directory for your documents, and remember the path. In the provided example, the directory is referred to as `Your Document Directory`.
+3. **Document Directory** – Set up a directory for your documents, and remember the path. In the provided example, the directory is referred to as `Your Document Directory`.
 
 ## Import Packages
 
@@ -122,9 +133,9 @@ A: Yes, you can explore the free trial version [here](https://releases.aspose.co
 
 Aspose.PSD for Java simplifies **java image manipulation**, giving you a robust toolkit for adding dynamic visual effects without leaving the Java ecosystem. By following this guide, you now know **how to add effects** such as color overlays at runtime, enabling you to create richer, more engaging graphics for web, desktop, or mobile applications.
 
----  
+---
 
-**Last Updated:** 2025-12-19  
+**Last Updated:** 2026-02-25  
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 
