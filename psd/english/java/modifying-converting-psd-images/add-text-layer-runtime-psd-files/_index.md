@@ -1,6 +1,6 @@
 ---
-title: Add Text to PSD Files at Runtime Using Java
-linktitle: Add Text Layer on Runtime in PSD Files using Java
+title: Add Text to PSD Files at Runtime Using Aspose.PSD for Java
+linktitle: Add Text Layer on Runtime in PSD Files using Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to add text to PSD files at runtime using Java and Aspose.PSD. Follow this step‑by‑step guide to create a text layer in a PSD quickly.
 weight: 17
@@ -145,9 +145,6 @@ You’ve now seen how easy it is to **add text to PSD** files at runtime using J
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
 
 ---
@@ -157,3 +154,6 @@ You’ve now seen how easy it is to **add text to PSD** files at runtime using J
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

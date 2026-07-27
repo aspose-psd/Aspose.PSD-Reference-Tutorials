@@ -1,5 +1,5 @@
 ---
-title: "How to Adjust Levels – Add Level Adjustment Layer in PSD"
+title: "How to Adjust Levels – Add Level Adjustment Layer in PSD using Aspose.PSD for Java"
 linktitle: Add Level Adjustment Layer in PSD
 second_title: Aspose.PSD Java API
 description: "Learn how to adjust levels by adding a Level Adjustment Layer in PSD files using Aspose.PSD for Java. Master tonal tweaks quickly."
@@ -140,3 +140,4 @@ A: You can apply for a temporary license [here](https://purchase.aspose.com/temp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

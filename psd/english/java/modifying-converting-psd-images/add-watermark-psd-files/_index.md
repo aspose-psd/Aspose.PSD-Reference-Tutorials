@@ -1,6 +1,6 @@
 ---
-title: "How to Create Image Watermark in PSD Files with Aspose.PSD for Java"
-linktitle: "How to Create Image Watermark in PSD Files with Aspose.PSD for Java"
+title: "How to Add Image Watermark to PSD Files Using Aspose.PSD for Java"
+linktitle: "How to Add Image Watermark to PSD Files Using Aspose.PSD for Java"
 second_title: "Aspose.PSD Java API"
 description: "Learn how to create image watermark in PSD files using Aspose.PSD for Java – a quick guide for psd image processing and protecting your graphics."
 weight: 18
@@ -159,6 +159,6 @@ You’ve now learned how to **create image watermark** in a PSD file using Aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

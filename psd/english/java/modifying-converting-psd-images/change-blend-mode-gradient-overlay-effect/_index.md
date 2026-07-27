@@ -1,5 +1,5 @@
 ---
-title: Change Layer Blend Mode in Gradient Overlay Effect
+title: Change Layer Blend Mode in Gradient Overlay Effect with Aspose.PSD for Java
 linktitle: Change Blend Mode in Gradient Overlay Effect
 second_title: Aspose.PSD Java API
 description: Learn how to change layer blend mode and add gradient overlay effect in PSD files using Aspose.PSD for Java. Step‑by‑step guide for editing PSD layers.
@@ -137,6 +137,5 @@ You’ve now learned how to **change layer blend mode** and **add gradient overl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
