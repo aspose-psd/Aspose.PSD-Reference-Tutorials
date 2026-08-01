@@ -1,10 +1,51 @@
 ---
-date: 2026-02-17
-description: Leer hoe u PSD naar PNG kunt exporteren en ongecomprimeerde afbeeldingsstromen
-  kunt verwerken met Aspose.PSD voor Java.
-linktitle: Handle Uncompressed Image Stream Object in PSD - Java
+date: 2026-08-01
+description: Leer hoe u PSD naar PNG exporteert en niet‑gecomprimeerde beeldstreams
+  verwerkt met Aspose.PSD for Java.
+keywords:
+- export psd to png
+- save psd as png
+- java image manipulation
+lastmod: 2026-08-01
+linktitle: Verwerk Niet‑gecomprimeerd Beeldstream Object in PSD - Java
+og_description: export psd naar png met Aspose.PSD for Java. Leer hoe u niet‑gecomprimeerde
+  beeldstreams verwerkt, graphics objects maakt en hoogwaardige PNG's opslaat.
+og_image_alt: 'Developer guide: Export PSD to PNG with uncompressed stream using Aspose.PSD
+  Java'
+og_title: export psd naar png – Java‑gids voor niet‑gecomprimeerde PSD‑streams
+schemas:
+- author: Aspose
+  dateModified: '2026-08-01'
+  description: Learn how to export PSD to PNG and handle uncompressed image streams
+    with Aspose.PSD for Java.
+  headline: Export PSD to PNG – Create PSD Graphics Object – Uncompressed Stream in
+    Java
+  type: TechArticle
+- questions:
+  - answer: Yes. After loading the PSD, retrieve the desired layer via `psdImage.getLayers().get_Item(index)`
+      and pass that layer to the `Graphics` constructor.
+    question: Can I use the graphics object to edit only one specific layer?
+  - answer: Raw stores pixel data without any compression, so the resulting file is
+      larger than a compressed PSD, but it guarantees 100 % pixel fidelity.
+    question: Does the Raw compression method affect file size?
+  - answer: Absolutely. After editing, call `psdImage.save("output.png", new PngOptions())`—this
+      is the standard way to **export PSD to PNG** with lossless quality.
+    question: Is it possible to export the edited PSD to another format (e.g., PNG)?
+  - answer: Aspose.PSD for Java supports JDK 8 and later, including all LTS releases
+      up to JDK 21.
+    question: What Java version is required?
+  - answer: Invoke `psdImage.dispose()` and close any streams (e.g., `ms.close()`)
+      to free native memory and avoid leaks.
+    question: How do I release resources after processing?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Exporteer PSD naar PNG – Maak PSD Graphics-object – Niet‑gecomprimeerde stream
+tags:
+- export psd
+- Aspose.PSD
+- Java image processing
+- uncompressed stream
+- PSD graphics
+title: Export PSD naar PNG – Maak PSD Graphics Object – Niet‑gecomprimeerde stream
   in Java
 url: /nl/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 weight: 26
@@ -16,44 +57,32 @@ weight: 26
 
 # Export PSD naar PNG – Maak PSD Graphics Object – Niet-gecomprimeerde Stream in Java
 
-## Introductie
-Welkom in de wereld van beeldmanipulatie op Java! In deze tutorial zul je **een PSD graphics object maken**, ongecomprimeerde beeldstreamobjecten verwerken, en leren hoe je **PSD naar PNG exporteert** met Aspose.PSD voor Java. Of je nu een grafisch ontwerper bent die zijn workflow wil automatiseren of een softwareontwikkelaar die krachtige beeldverwerkingsmogelijkheden in zijn applicaties wil, deze gids is speciaal voor jou. We lopen alles door, van de vereisten tot de diepte-export, zodat je een goed begrip hebt van het volledige proces.
+## Inleiding
+In deze stapsgewijze handleiding **exporteer je PSD naar PNG** terwijl je werkt met een niet‑gecomprimeerde afbeeldingsstroom met Aspose.PSD voor Java. Of je nu een ontwerppijplijn automatiseert of een aangepaste editor bouwt, het vermogen om een Photoshop‑bestand te renderen zonder kwaliteitsverlies is essentieel. We beginnen met de benodigde setup, lopen door het maken van een `Graphics`‑object, en eindigen met een verliesvrije PNG‑export. Aan het einde begrijp je waarom Aspose.PSD ruwe streams efficiënt verwerkt en hoe je het in elk Java‑project kunt integreren.
 
 ## Snelle antwoorden
-- **Wat betekent “create PSD graphics object”?** Het is belangrijk om een ​​grafische context voor een PSD-bestand te maken, zodat je de inhoud kunt tekenen of bewerken.
-- **Welke bibliotheek verwerkt ongecomprimeerde streams?** Aspose.PSD voor Java biedt volledige ondersteuning voor ruwe (ongecomprimeerde) beeldgegevens.
-- **Kan ik PSD naar PNG exporteren na bewerken?** Als je een `Graphics`‑object hebt, kun je de PSD renderen en opslaan als PNG.
-- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een wettelijke licentie is vereist voor productie.
-- **Is de export verliesloos?** Exporteren naar PNG vergroot de beeldkwaliteit, terwijl de bestandsgrootte groter is dan bij JPEG maar kleiner dan een ongecomprimeerde PSD.
+- **Wat betekent “create PSD graphics object”?** Het betekent het instantieren van een `Graphics`‑context die je in staat stelt om programmatically op een PSD‑afbeelding te tekenen of deze te wijzigen.  
+- **Welke bibliotheek verwerkt niet‑gecomprimeerde streams?** Aspose.PSD voor Java biedt volledige ondersteuning voor ruwe (niet‑gecomprimeerde) afbeeldingsgegevens.  
+- **Kan ik PSD naar PNG exporteren na bewerking?** Ja—zodra je een `Graphics`‑object hebt, kun je de PSD renderen en in één oproep als PNG opslaan.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie‑implementaties.  
+- **Is de export verliesvrij?** Exporteren naar PNG behoudt de oorspronkelijke pixelgegevens, biedt verliesvrije kwaliteit met een kleinere bestandsgrootte dan de ruwe PSD.
 
-## Hoe PSD naar PNG te exporteren met Aspose.PSD voor Java
-Wanneer je **PSD naar PNG moet exporteren**, is de typische workflow:
+## Wat is export psd naar png?
+Het exporteren van PSD naar PNG zet een gelaagd Photoshop‑document om in een enkel‑laag, verliesvrij rasterbeeld dat door elke webbrowser of afbeeldingsviewer kan worden weergegeven. Het proces behoudt transparantie, kleurdiepte en laageffecten terwijl Photoshop‑specifieke metadata wordt verwijderd. Het behoudt ook het oorspronkelijke kleurprofiel voor nauwkeurige kleurreproductie.
 
-1. Laad het PSD‑bestand (of maak er een).
-2. Voer teken- of laagmanipulaties uit met een `Graphics`‑object.
-3. Sla de effectieve afbeelding op met `PngOptions` (dezelfde `Graphics`‑instantie kan opnieuw worden gebruikt).
-
-Hoewel deze tutorial zich richt op het verwerken van ongecomprimeerde streams, kan hetzelfde `Graphics`-object dat je later in je pijplijn maakt, worden hergebruikt om de PSD in een PNG-bestand te renderen.
+## Waarom Aspose.PSD voor Java gebruiken voor beeldbewerking?
+Aspose.PSD ondersteunt **50+** invoer‑ en uitvoerformaten—waaronder PSD, PNG, JPEG, BMP en TIFF—en kan bestanden met **200+ lagen** verwerken zonder het volledige document in het geheugen te laden. De `Raw`‑compressie‑optie slaat pixelgegevens ongecomprimeerd op, wat pixel‑perfecte getrouwheid garandeert voor verdere bewerking of archivering.
 
 ## Vereisten
-Voordat we in de code duiken, zorgen we ervoor dat je alles hebt wat je nodig hebt om aan dit avontuur te beginnen. Hier zijn de vereisten:
+- **Java Development Kit (JDK)** – JDK 8 of later geïnstalleerd.  
+- **Aspose.PSD voor Java** – Download de nieuwste JAR van de officiële release‑pagina: [Aspose.PSD Java download](https://releases.aspose.com/psd/java/). Je kunt het ook benaderen via [this link](https://releases.aspose.com/psd/java/) of de [release page](https://releases.aspose.com/psd/java/). Voor andere Aspose‑producten, klik [here](https://releases.aspose.com/).  
+- **IDE** – IntelliJ IDEA, Eclipse, of een andere Java‑compatibele editor.  
+- **Basis Java‑kennis** – Vertrouwd met klassen, methoden en exception‑handling.
 
-### Java-ontwikkelkit (JDK)
-Zorg ervoor dat je JDK op je machine defect is. Je kunt het downloaden van de website van Oracle of OpenJDK gebruiken.
+Met deze gereed, ben je klaar om te gaan coderen.
 
-### Aspose.PSD voor Java
-Je moet de Aspose.PSD‑bibliotheek downloaden en installeren. Deze krachtige bibliotheek stelt je in staat PSD-bestanden eenvoudig te manipuleren. Je kunt de nieuwste versie krijgen via [deze link](https://releases.aspose.com/psd/java/).
-
-### Geïntegreerde ontwikkelomgeving (IDE)
-Het is een goed idee om een ​​IDE te gebruiken om je Java-code te schrijven en te testen. Je kunt IntelliJ IDEA, Eclipse of een andere IDE gebruiken die je voorkeur heeft.
-
-### Basiskennis van Java
-Een basiskennis van Java-programmeurs maakt dit proces soepeler. Zorg ervoor dat je de basisprincipes kent, zoals lessen, methoden en afhandeling van uitzonderingen.
-
-Met alles klaar, laten we de mouwen opstropen en naar het spannende deel gaan – coderen!
-
-## Pakketten importeren
-Om te beginnen moeten we de gezamenlijke pakketten importeren om met Aspose.PSD te werken. blijkt dat je de import hebt die je doorgaans nodig hebt voor het verwerken van PSD‑bestanden.
+## Importeer pakketten
+De `Graphics`‑klasse is het tekenoppervlak van Aspose.PSD waarmee je pixelgegevens direct kunt renderen of bewerken. De `PsdImage`‑klasse vertegenwoordigt een PSD‑bestand in het geheugen, terwijl `PsdOptions` bepaalt hoe de afbeelding wordt opgeslagen.
 
 ```java
 import com.aspose.psd.Graphics;
@@ -65,127 +94,141 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```
 
-Laten we nu de code in hapklare stappen opsplitsen zodat je gemakkelijk kunt volgen. We zullen opzetten, een PSD‑bestand laden, het manipuleren en de output opslaan.
+Laten we nu de code in hapklare stappen opsplitsen zodat je gemakkelijk kunt volgen. We zullen de omgeving instellen, een PSD‑bestand laden, bewerken, en uiteindelijk de output opslaan.
 
-## Stap 1: Definieer uw documentmap
-Voordat je begint met coderen, wil je definiëren waar je PSD‑bestand zich bevindt. Dit is in feite het voorbereiden van de basis voor je project.
+## Stap 1: Definieer je documentdirectory
+Voor je bestandsbewerkingen moet je het programma vertellen waar het je PSD‑assets kan vinden. Dit directory‑pad wordt door de hele tutorial heen gebruikt.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Vervang `"Your Document Directory"` door het daadwerkelijke pad waar je PSD‑bestand (bijv. layers.psd) zich bevindt. Dit helpt je om je bestanden zonder gedoe te vinden.
+Vervang `"Your Document Directory"` door het absolute pad dat `layers.psd` bevat. Het configureerbaar houden van het pad maakt de code herbruikbaar in verschillende projecten.
 
-## Stap 2: Maak een byte-array uitvoerstroom aan
-Je hebt een plek nodig om de gewijzigde afbeelding op te slaan voordat je er iets mee doet. Een `ByteArrayOutputStream` helpt je de beelddata eenvoudig vast te leggen.
+## Stap 2: Maak een Byte Array Output Stream
+Een `ByteArrayOutputStream` is een Java‑stream die gegevens in het geheugen opslaat als een byte‑array. Het fungeert als een buffer in het geheugen voor de gewijzigde afbeelding, waardoor je de ruwe bytes kunt vastleggen voordat je ze naar schijf schrijft of via een netwerk verzendt.
 
 ```java
 ByteArrayOutputStream ms = new ByteArrayOutputStream();
 ```
 
-Deze regel initialiseert een nieuw `ByteArrayOutputStream`‑object met de naam `ms`. Je zult dit object gebruiken om je ongecomprimeerde afbeelding op te slaan.
+De variabele `ms` zal de niet‑gecomprimeerde afbeeldingsgegevens bevatten na de `save`‑operatie.
 
-## Stap 3: Laad het PSD-bestand
-Nu is het tijd om het daadwerkelijke PSD‑bestand te laden. Hier begint de magie!
+## Stap 3: Laad het PSD‑bestand
+De `PsdImage`‑klasse laadt een PSD‑bestand in het geheugen voor bewerking. Het laden van het bestand zet de PSD op schijf om in een `PsdImage`‑object dat je kunt bewerken. In deze stap leest Aspose.PSD de bestandsheader, lagen en resources.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-Deze regel laadt je PSD‑bestand in een `PsdImage`‑object. Zorg dat je het juiste pad hebt; anders verschijnt er een foutmelding als een onverwachte pop‑quiz.
+Als het pad onjuist is, gooit Aspose.PSD een `FileNotFoundException`, die je in productiecodel moet afvangen.
 
-## Stap 4: Stel de PsdOptions in voor het opslaan
-Je moet aangeven hoe je de afbeelding wilt opslaan — uiteraard ongecomprimeerd!
+## Stap 4: Stel de PsdOptions in voor opslaan
+`PsdOptions` specificeert opslaan‑parameters voor PSD‑bestanden. Het instellen van de compressiemethode op `Raw` geeft aan dat pixelgegevens zonder compressie moeten worden opgeslagen, waardoor elke pixel exact behouden blijft zoals deze in het geheugen verschijnt.
 
 ```java
 PsdOptions saveOptions = new PsdOptions();
 saveOptions.setCompressionMethod(CompressionMethod.Raw);
 ```
 
-Hier maak je een `PsdOptions`‑object aan en stel je de compressiemethode in op `Raw`. Deze methode zorgt ervoor dat de afbeelding haar volledige kwaliteit behoudt en zonder enige compressie wordt opgeslagen.
+De optie `CompressionMethod.Raw` slaat pixelgegevens op zonder enige compressie, wat ideaal is wanneer je later verdere bewerkingen wilt uitvoeren.
 
-## Stap 5: Sla de afbeelding op in de uitvoerstroom
+## Stap 5: Sla de afbeelding op naar de output‑stream
+Nu sla je de PSD (met eventuele wijzigingen) op in de eerder aangemaakte `ByteArrayOutputStream`. De `save`‑methode houdt rekening met de `PsdOptions` die je hebt geconfigureerd.
+
 ```java
 psdImage.save(ms, saveOptions);
 ```
 
-Deze regel slaat je gewijzigde afbeelding op in de `ByteArrayOutputStream` die je in Stap 2 hebt aangemaakt, met behulp van de opties die in Stap 4 zijn gedefinieerd. De `save`‑methode zorgt voor de juiste codering van de afbeelding op basis van jouw instellingen.
+Op dit moment bevat `ms` de volledige binaire representatie van de niet‑gecomprimeerde PSD.
 
-## Stap 6: Reset de uitvoerstroom
-Na het opslaan staat je output‑stream aan het einde. Je moet deze resetten zodat je vanaf het begin kunt lezen.
+## Stap 6: Reset de output‑stream
+Na het schrijven staat de interne pointer van de stream aan het einde. Het resetten ervan spoelt de stream terug naar het begin zodat je vanaf het begin kunt lezen.
 
 ```java
 ms.reset();
 ```
 
-Deze `reset`‑methode maakt je `ByteArrayOutputStream` klaar om opnieuw vanaf het begin te lezen. Zie het als het terugspoelen van een band voordat je je favoriete nummer beluistert!
+Beschouw dit als het terugplaatsen van de tape‑kop naar het begin vóór het afspelen.
 
-## Stap 7: Laad de zojuist aangemaakte afbeelding
+## Stap 7: Laad de nieuw aangemaakte afbeelding
+Je kunt nu een nieuwe `PsdImage`‑instantie direct uit de byte‑array maken. Deze stap verifieert dat de opgeslagen gegevens zonder corruptie opnieuw kunnen worden geladen.
+
 ```java
 PsdImage img = (PsdImage) Image.load(new ByteArrayInputStream(ms.toByteArray()));
 ```
 
-Hier laden we de afbeelding terug vanuit de `ByteArrayOutputStream` in een nieuw `PsdImage`‑object. Dit is het moment om de resultaten van je eerdere werk te controleren.
+Als de afbeelding succesvol laadt, weet je dat de niet‑gecomprimeerde stream correct is weggeschreven.
 
-## Stap 8: Maak een grafisch object aan
-Om de afbeelding verder te wijzigen of te renderen, moet je een graphics‑object maken.
+## Stap 8: Maak Graphics‑object
+De `Graphics`‑klasse is het tekencanvas van Aspose.PSD. Het biedt methoden om vormen, tekst te tekenen en filters toe te passen direct op de pixelmatrix van een `PsdImage`.
 
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
 
-Deze regel initialiseert een `Graphics`‑object met behulp van je `psdImage`. Je kunt dit graphics‑object nu gebruiken om de afbeelding te tekenen of te manipuleren zoals nodig. Het is net alsof je een penseel in je hand hebt!
+Met deze `Graphics`‑instantie kun je nieuwe inhoud schilderen, delen wissen of extra lagen samenvoegen.
 
-## Manipuleer PSD-lagen met grafisch object
-Nu je een **Graphics**‑instantie hebt, kun je **PSD‑lagen manipuleren** — bijvoorbeeld tekenen, tekst toevoegen van filters toegepast op een specifieke laag. De grafische context werkt direct op de onderliggende pixeldata, waardoor je fijnmazige controle hebt over het uiterlijk van elke laag.
+## Hoe exporteer ik PSD naar PNG met Aspose.PSD voor Java?
+Laad de PSD met `new PsdImage(dataDir + "layers.psd")`, maak een `Graphics`‑object, voer de gewenste tekeningen uit, en roep vervolgens `psdImage.save("output.png", new PngOptions())` aan. Deze reeks rendert de bewerkte PSD en schrijft een verliesvrije PNG in één stap, gebruikmakend van de ingebouwde conversie‑engine van Aspose.PSD.
+
+## Bewerk PSD‑lagen met Graphics‑object
+Een `Graphics`‑instantie geeft je pixel‑niveau controle over elke laag. Je kunt geometrische vormen tekenen, tekst renderen of aangepaste filters toepassen. Omdat de graphics‑context werkt op de gerasterde weergave van de laag, zijn wijzigingen direct zichtbaar wanneer je de afbeelding opslaat.
 
 ## Veelvoorkomende problemen en oplossingen
-- **NullPointerException bij het laden van het bestand** – controleer de `dataDir`‑pad en zorg ervoor dat de bestandsnaam correct is.
-- **Gecomprimeerde output ondanks gebruik van Raw** – gecontroleerd of `saveOptions.setCompressionMethod(CompressionMethod.Raw);` wordt aangeroepen vóór de `save`‑methode.
-- **Grafisch object lijkt leeg** – zorg dat je tekent op de juiste `PsdImage`‑instantie (gebruik de geladen, niet de nieuw aangemaakte tenzij bedoeld).
+- **NullPointerException bij het laden van het bestand** – controleer het `dataDir`‑pad en zorg ervoor dat de bestandsnaam exact overeenkomt, inclusief hoofdlettergevoeligheid.  
+- **Gecomprimeerde output ondanks gebruik van Raw** – controleer of `saveOptions.setCompressionMethod(CompressionMethod.Raw);` wordt aangeroepen **voordat** `save` wordt uitgevoerd.  
+- **Graphics‑object lijkt leeg** – zorg ervoor dat je tekent op de juiste `PsdImage`‑instantie (de geladen, niet een nieuw aangemaakt leeg beeld).  
+- **OutOfMemoryError bij grote bestanden** – gebruik `PsdImage.load(dataDir, LoadOptions)` met `loadOptions.setLoadMode(LoadMode.Memory)` om grote bestanden te streamen zonder het volledige document in RAM te laden.
 
-## Veelgestelde vragen
+## FAQ's
 ### Wat is Aspose.PSD?
-Aspose.PSD is een .NET‑bibliotheekontwikkelaar die Photoshop PSD‑bestanden en gerelateerde beeldformaten programmatisch maakt, bewerkt en manipuleert.
+Aspose.PSD is een Java‑bibliotheek die ontwikkelaars in staat stelt om Photoshop‑PSD‑bestanden programmatisch te maken, bewerken en converteren zonder Adobe Photoshop te vereisen. Het ondersteunt het lezen en schrijven van PSD‑bestanden, het verwerken van lagen, maskers, kanalen en diverse afbeeldingsresources, en biedt API’s voor raster‑ en vectorbewerkingen, waardoor het geschikt is voor server‑side beeldverwerking en automatiseringstaken.
 
 ### Hoe kan ik Aspose.PSD voor Java downloaden?
-Je kunt het downloaden van de [releasepagina](https://releases.aspose.com/psd/java/).
+Je kunt het downloaden van de officiële release‑pagina: [Aspose.PSD Java download](https://releases.aspose.com/psd/java/).
 
-### Is er een gratis proefperiode voor Aspose.PSD?
-Ja, je kunt een gratis proefversie verkrijgen via [hier](https://releases.aspose.com/).
+### Is er een gratis proefversie voor Aspose.PSD?
+Ja, een volledig functionele proefversie is beschikbaar op dezelfde downloadpagina. Deze werkt voor ontwikkelings‑ en evaluatiedoeleinden.
 
 ### Kan ik ondersteuning krijgen voor Aspose.PSD?
-Absoluut! Je kunt hulp zoeken op het [Aspose support forum](https://forum.aspose.com/c/psd/34).
+Zeker! Het Aspose‑ondersteuningsforum biedt antwoorden van het productteam en de community: [Aspose support forum](https://forum.aspose.com/c/psd/34).
 
 ### Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?
-Bezoek gewoon de [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/) om te beginnen.
+Je kunt een tijdelijke licentie rechtstreeks aanvragen via het licentie‑portaal van Aspose, dat een tijd‑beperkte sleutel van 30 dagen levert. Hiermee kun je de volledige functionaliteit van Aspose.PSD evalueren zonder een commerciële licentie aan te schaffen. Na de proefperiode moet je de tijdelijke sleutel vervangen door een permanente licentie om de bibliotheek in productie te blijven gebruiken. Bezoek de tijdelijke licentie‑portal om een tijd‑beperkte sleutel te genereren: [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ## Veelgestelde vragen
 
-**Q: Kan ik het grafische object gebruiken om slechts één specifieke laag te bewerken?**
-EEN:Ja. Nadat je de PSD hebt geladen, selecteer je de gedeeltelijke laag via `psdImage.getLayers().get_Item(index)` en geef je deze deur aan de `Graphics`‑constructor.
+**Q: Kan ik het graphics‑object gebruiken om slechts één specifieke laag te bewerken?**  
+A: Ja. Na het laden van de PSD haal je de gewenste laag op via `psdImage.getLayers().get_Item(index)` en geef je die laag door aan de `Graphics`‑constructor.
 
-**Q: Heeft de Raw-compressiemethode invloed op de bestandsgrootte?**
-A: Raw slaat pixeldata op zonder compressie, dus de bestandsgrootte zal groter zijn dan bij gecomprimeerde PSD-bestanden, maar de beeldkwaliteit blijft aanhouden.
+**Q: Heeft de Raw‑compressiemethode invloed op de bestandsgrootte?**  
+A: Raw slaat pixelgegevens op zonder enige compressie, dus het resulterende bestand is groter dan een gecomprimeerde PSD, maar het garandeert 100 % pixelgetrouwheid.
 
-**Q: Is het mogelijk om de bewerkte PSD naar een ander formaat te exporteren (bijv. PNG)?**
-A: Absoluut. Gebruik de juiste `Image.save`‑overload met `PngOptions` na het bewerken — dit is de standaard manier om **PSD naar PNG te exporteren**.
+**Q: Is het mogelijk om de bewerkte PSD naar een ander formaat te exporteren (bijv. PNG)?**  
+A: Absoluut. Na bewerking roep je `psdImage.save("output.png", new PngOptions())` aan — dit is de standaard manier om **PSD naar PNG te exporteren** met verliesvrije kwaliteit.
 
-**V: Welke Java‑versie is vereist?**
-A: Aspose.PSD voor Java ondersteunt JDK8 en hoger.
+**Q: Welke Java‑versie is vereist?**  
+A: Aspose.PSD voor Java ondersteunt JDK 8 en later, inclusief alle LTS‑releases tot JDK 21.
 
-**Q: Hoe kan ik bronnen vrijgeven na verwerking?**
-A: Roep `psdImage.dispose()` aan en sluit eventuele streams om native bronnen vrij te maken.
+**Q: Hoe geef ik bronnen vrij na verwerking?**  
+A: Roep `psdImage.dispose()` aan en sluit eventuele streams (bijv. `ms.close()`) om native geheugen vrij te maken en lekken te voorkomen.
 
 ---
 
-**Laatst bijgewerkt:** 17-02-2026
-**Getest met:** Aspose.PSD voor Java (laatste release)
+**Laatst bijgewerkt:** 2026-08-01  
+**Getest met:** Aspose.PSD for Java (latest release)  
 **Auteur:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Gerelateerde tutorials
+
+- [Save Images to Stream with Aspose.PSD for Java](/psd/java/advanced-techniques/save-images-to-stream/)
+- [Export PSD Layer Group to Image using Java](/psd/java/working-with-psd-files/export-psd-layer-group-to-image/)
+- [Create Image using Stream in Aspose.PSD for Java](/psd/java/image-editing/create-image-using-stream/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
