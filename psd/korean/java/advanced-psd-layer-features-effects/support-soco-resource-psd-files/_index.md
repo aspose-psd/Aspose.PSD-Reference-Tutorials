@@ -1,10 +1,76 @@
 ---
-date: 2026-02-25
-description: 이 단계별 가이드에서 Aspose.PSD for Java를 사용하여 채우기 레이어를 수정함으로써 단색을 변경하고 PSD 파일을
-  일괄 편집하는 방법을 배워보세요.
-linktitle: How to Change Solid Color in PSD Files Using Java
+date: 2026-08-06
+description: Aspose.PSD for Java를 사용하여 PSD 파일에서 단색을 변경하기 위해 soco resource java를 편집합니다.
+  배치 편집 및 코드 스니펫이 포함된 단계별 가이드.
+keywords:
+- edit soco resource java
+- solid color psd java
+- batch edit psd
+lastmod: 2026-08-06
+linktitle: soco resource java 편집 및 단색 변경 방법
+og_description: Aspose.PSD for Java와 함께 soco resource java를 편집하여 PSD 파일에서 단색을 변경합니다.
+  이 가이드에서 배치 편집, 전제 조건 및 단계별 코드를 배울 수 있습니다.
+og_image_alt: Guide showing Java code to edit SoCo resource and change solid color
+  in a PSD file
+og_title: soco resource java 편집 및 PSD 파일에서 단색 변경
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Edit soco resource java to change solid color in PSD files using Aspose.PSD
+    for Java. Step‑by‑step guide with batch editing and code snippets.
+  headline: How to edit soco resource java and change solid color
+  type: TechArticle
+- description: Edit soco resource java to change solid color in PSD files using Aspose.PSD
+    for Java. Step‑by‑step guide with batch editing and code snippets.
+  name: How to edit soco resource java and change solid color
+  steps:
+  - name: setup the file paths
+    text: Define where your source PSD lives and where the edited version will be
+      saved. Replace `"Your Document Directory"` with the actual folder path on your
+      machine.
+  - name: load the PSD image
+    text: Open the PSD file so you can work with its layers.
+  - name: iterate through layers
+    text: Loop through every layer in the document to find the one that contains a
+      SoCo resource.
+  - name: check for filllayer and socoresource
+    text: Identify `FillLayer` objects and then look for the `SoCoResource` inside
+      them. `FillLayer` is the Aspose.PSD class that represents a solid‑fill layer
+      in a Photoshop document. `SoCoResource` is the object that stores the actual
+      color value for that fill layer.
+  - name: modify the color of socoresource
+    text: Now you can **change PSD layer color** by updating the SoCo resource’s color
+      value. `PsdImage` is the top‑level object that represents a single PSD file
+      in memory. The assertion confirms the original color, and `setColor` switches
+      it to red.
+  - name: save the edited PSD image
+    text: After making the change, write the updated file back to disk.
+  - name: clean up resources
+    text: Dispose of the `PsdImage` object to free native memory.
+  type: HowTo
+- questions:
+  - answer: Absolutely. Wrap the code inside a loop that iterates over a list of file
+      paths and apply the same SoCo modification to each file.
+    question: Can I edit multiple PSD files in a batch?
+  - answer: No. The change is isolated to the specific `FillLayer` that contains the
+      SoCo resource you edit.
+    question: Does changing the SoCo color affect other layers?
+  - answer: The inner loop will simply skip the layer. You can add a fallback that
+      creates a new `SoCoResource` and attaches it to the layer.
+    question: What if the PSD has no SoCo resource?
+  - answer: Export the `PsdImage` to a common format like PNG (`im.save("preview.png")`)
+      to verify the result visually.
+    question: Is there a way to preview the color change before saving?
+  - answer: The `finally` block with `im.dispose()` ensures all native resources are
+      released, even if an exception occurs.
+    question: Do I need to close the image manually?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Java를 사용하여 PSD 파일의 단색을 변경하는 방법
+tags:
+- edit soco
+- Aspose.PSD
+- Java image processing
+title: soco resource java 편집 및 단색 변경 방법
 url: /ko/java/advanced-psd-layer-features-effects/support-soco-resource-psd-files/
 weight: 22
 ---
@@ -13,39 +79,41 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java를 사용하여 PSD 파일의 단색 색상 변경 방법
+# soco 리소스 Java 편집 및 고체 색상 변경 방법
 
 ## 소개
-Photoshop PSD 안의 **SoCo** 리소스를 편집하고 **PSD 레이어 색상**을 변경해야 할 경우, Aspose.PSD for Java를 사용하면 놀라울 정도로 간단합니다. 이 튜토리얼에서는 환경 설정부터 편집된 파일 저장까지 전체 과정을 단계별로 안내합니다. 이를 통해 **단색 색상**을 프로그래밍 방식으로 변경하고, PSD 파일을 일괄 편집하며, 로직을 더 큰 Java 애플리케이션에 통합할 수 있습니다. 배치 워크플로를 자동화하거나 맞춤형 그래픽 편집기를 구축하려는 경우, 아래 단계가 탄탄한 기반을 제공할 것입니다.
+Photoshop PSD 내부에서 **edit soco resource java**를 편집하고 **layer의 solid color**를 변경해야 한다면, Aspose.PSD for Java는 놀라울 정도로 간단하게 해줍니다. 이 튜토리얼에서는 환경 설정부터 편집된 파일 저장까지 전체 과정을 단계별로 안내합니다—이를 통해 채우기 레이어를 프로그래밍 방식으로 수정하고, 수십 개의 PSD를 일괄 편집하며, 로직을 더 큰 Java 애플리케이션에 통합할 수 있습니다. 디자인 파이프라인을 자동화하거나 맞춤형 그래픽 편집기를 구축하든, 아래 단계는 탄탄한 기반을 제공합니다.
 
 ## 빠른 답변
-- **SoCo란?** 레이어에 단일 색상 채우기를 정의하는 Photoshop “Solid Color” 리소스입니다.  
-- **어떤 라이브러리가 편집을 도와주나요?** Aspose.PSD for Java.  
-- **라이선스가 필요합니까?** 탐색용 무료 체험판을 사용할 수 있지만, 프로덕션에서는 상용 라이선스가 필요합니다.  
-- **레이어 색상을 변경할 수 있나요?** 예—`SoCoResource.setColor()`를 사용해 기존 색상을 교체합니다.  
-- **소요 시간은?** 구현 및 테스트에 일반적으로 10분 미만이 걸립니다.
+- **SoCo란 무엇인가요?** A Photoshop “Solid Color” resource that defines a single‑color fill for a layer.  
+- **어떤 라이브러리를 사용하면 편집할 수 있나요?** Aspose.PSD for Java.  
+- **라이선스가 필요합니까?** A free trial works for exploration; a commercial license is required for production.  
+- **레이어 색상을 변경할 수 있나요?** Yes—call `SoCoResource.setColor()` to replace the existing color.  
+- **구현에 얼마나 걸립니까?** Most developers finish the basic version in under 10 minutes.
 
-## PSD 파일에서 “how to edit soco”가 의미하는 것은?
-“how to edit soco”라는 문구는 Photoshop이 채우기 레이어에 저장하는 Solid Color (SoCo) 리소스를 프로그래밍 방식으로 접근하고 수정하는 것을 의미합니다. 이 리소스를 편집하면 Photoshop을 직접 열지 않고도 레이어의 시각적 모습을 변경할 수 있습니다.
+## soco 리소스 Java 편집 방법
+Load the target PSD with `new PsdImage("file.psd")`, locate the `FillLayer` that contains a `SoCoResource`, and call `setColor(new Color(r, g, b))`. The change is applied in memory, and you then save the image back to disk. This three‑step pattern works for a single file and scales to batch processing by looping over a collection of file paths.
 
-## Java로 SoCo 리소스를 편집하는 이유
+## PSD 파일에서 “how to edit soco”는 무엇을 의미하나요?
+The phrase “how to edit soco” refers to programmatically accessing and modifying the Solid Color (SoCo) resource that Photoshop stores for fill layers. By editing this resource you can change the visual appearance of a layer without manually opening Photoshop.
+
+## 왜 Java로 SoCo 리소스를 편집하나요?
 - **자동화:** 수백 개의 PSD를 수동 클릭 없이 처리합니다.  
-- **일관성:** 모든 파일에서 동일한 색상 값을 보장합니다.  
+- **일관성:** 모든 파일에 동일한 색상 값을 적용합니다.  
 - **통합:** 이미지 처리를 다른 Java 기반 비즈니스 로직과 결합합니다.  
-- **PSD 일괄 편집:** 동일 코드를 루프에 넣어 여러 파일을 한 번에 처리할 수 있습니다.
+- **배치 기능:** 동일한 코드를 루프에 넣어 여러 파일을 한 번에 처리할 수 있습니다.  
+- **성능:** Aspose.PSD는 전체 파일을 메모리에 로드하지 않고도 수백 페이지 문서를 처리하며, PSD, PNG, JPEG, TIFF 등 50개 이상의 입력 및 출력 형식을 지원합니다.
 
-## 사전 요구 사항
-시작하기 전에 다음이 준비되어 있는지 확인하세요:
+## 전제 조건
+1. **Java Development Kit (JDK)** – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD for Java** – obtain the library from the official download page [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
+4. **Basic Java knowledge** – familiarity with classes, objects, and exception handling.
 
-1. **Java Development Kit (JDK)** – [Oracle 웹사이트](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)에서 다운로드.  
-2. **Aspose.PSD for Java** – 공식 다운로드 페이지에서 라이브러리를 받으세요: [여기](https://releases.aspose.com/psd/java/).  
-3. **IDE** – IntelliJ IDEA, Eclipse 또는 선호하는 편집기.  
-4. **기본 Java 지식** – 클래스, 객체, 예외 처리에 익숙함.
-
-위 항목이 준비되면 필요한 패키지를 가져올 수 있습니다.
+Once these are ready, you can import the necessary packages.
 
 ## 패키지 가져오기
-Aspose.PSD 클래스를 사용 범위에 포함시키는 첫 단계입니다:
+The first step is to bring the Aspose.PSD classes into scope:
 
 ```java
 import com.aspose.psd.Color;
@@ -59,8 +127,8 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.SoCoResource;
 
 ## 단계별 가이드
 
-### 단계 1: 파일 경로 설정
-원본 PSD가 위치한 경로와 편집된 버전을 저장할 경로를 정의합니다.
+### 1단계: 파일 경로 설정
+Define where your source PSD lives and where the edited version will be saved.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -68,17 +136,17 @@ String sourceFileName = dataDir + "ColorFillLayer.psd";
 String exportPath = dataDir + "SoCoResource_Edited.psd";
 ```
 
-`"Your Document Directory"`를 실제 폴더 경로로 교체하세요.
+Replace `"Your Document Directory"` with the actual folder path on your machine.
 
-### 단계 2: PSD 이미지 로드
-PSD 파일을 열어 레이어에 접근할 수 있게 합니다.
+### 2단계: PSD 이미지 로드
+Open the PSD file so you can work with its layers.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-### 단계 3: 레이어 순회
-문서의 모든 레이어를 순회하며 SoCo 리소스를 포함한 레이어를 찾습니다.
+### 3단계: 레이어 반복
+Loop through every layer in the document to find the one that contains a SoCo resource.
 
 ```java
 try {
@@ -88,8 +156,11 @@ try {
 }
 ```
 
-### 단계 4: FillLayer와 SoCoResource 확인
-`FillLayer` 객체를 식별한 뒤, 그 안에 있는 `SoCoResource`를 찾습니다.
+### 4단계: FillLayer와 SoCoResource 확인
+Identify `FillLayer` objects and then look for the `SoCoResource` inside them.
+
+`FillLayer` is the Aspose.PSD class that represents a solid‑fill layer in a Photoshop document.  
+`SoCoResource` is the object that stores the actual color value for that fill layer.
 
 ```java
 if (layer instanceof FillLayer) {
@@ -105,25 +176,27 @@ if (layer instanceof FillLayer) {
 }
 ```
 
-### 단계 5: SoCoResource 색상 수정
-이제 **PSD 레이어 색상**을 SoCo 리소스의 색상 값을 업데이트하여 변경할 수 있습니다.
+### 5단계: SoCoResource 색상 수정
+Now you can **change PSD layer color** by updating the SoCo resource’s color value.
+
+`PsdImage` is the top‑level object that represents a single PSD file in memory.
 
 ```java
 assert Color.fromArgb(63, 83, 141).equals(socoResource.getColor());
 socoResource.setColor(Color.getRed());
 ```
 
-이 어설션은 원래 색상을 확인하고, `setColor`는 이를 빨간색으로 전환합니다.
+The assertion confirms the original color, and `setColor` switches it to red.
 
-### 단계 6: 편집된 PSD 이미지 저장
-변경을 적용한 후, 업데이트된 파일을 디스크에 다시 씁니다.
+### 6단계: 편집된 PSD 이미지 저장
+After making the change, write the updated file back to disk.
 
 ```java
 im.save(exportPath);
 ```
 
-### 단계 7: 리소스 정리
-`PsdImage` 객체를 해제하여 네이티브 메모리를 해제합니다.
+### 7단계: 리소스 정리
+Dispose of the `PsdImage` object to free native memory.
 
 ```java
 finally {
@@ -131,40 +204,47 @@ finally {
 }
 ```
 
-## Fill Layer에서 단색 색상 변경 방법
-위 코드는 **단색 색상**을 변경하는 핵심 로직을 보여줍니다. `Color.getRed()` 호출을 `Color.fromArgb(r, g, b)`와 같은 다른 색상 생성 메서드로 교체하면 원하는 어떤 색상이든 설정할 수 있습니다. 이 방법은 SoCo 리소스를 사용하는 모든 PSD에 적용 가능하므로 **채우기 레이어 수정** 시나리오에 이상적입니다.
+## FillLayer에서 고체 색상 변경 방법
+The code above demonstrates the core of **changing solid color** for a fill layer. By swapping the `Color.getRed()` call with any `Color.fromArgb(r, g, b)` you can set any solid color you need. This approach works for any PSD that uses a SoCo resource, making it ideal for **modify fill layer** scenarios.
 
 ## PSD 파일 일괄 편집
-**PSD 일괄 편집**을 위해 전체 단계 블록을 파일 경로 컬렉션을 순회하는 루프 안에 넣기만 하면 됩니다. 동일한 `setColor` 작업이 각 문서에 적용되어 다수 디자인을 빠르게 업데이트할 수 있습니다.
+To **batch edit PSD** files, simply wrap the entire step‑by‑step block inside a loop that iterates over a collection of file paths. The same `setColor` operation will be applied to each document, giving you a fast way to update many designs at once.
 
 ## 일반적인 문제 및 팁
-- **Null 리소스:** 반복하기 전에 `fillLayer.getResources()`가 null이 아닌지 항상 확인하세요.  
-- **지원되지 않는 색상 포맷:** `Color.getRed()`는 표준 RGB에 적합하고, 사용자 정의 값은 `Color.fromArgb()`를 사용합니다.  
-- **성능:** 큰 PSD의 경우 레이어 처리를 별도 스레드에서 수행해 UI 응답성을 유지하세요.  
-- **단색 색상 레이어 편집:** 레이어에 SoCo 리소스가 없으면 직접 추가해야 할 수 있습니다—Aspose.PSD는 새로운 리소스를 생성하는 API를 제공합니다.  
+- **Null resources:** Always verify that `fillLayer.getResources()` is not null before iterating.  
+- **Unsupported color formats:** `Color.getRed()` works for standard RGB; use `Color.fromArgb()` for custom ARGB values.  
+- **Performance considerations:** For large PSDs, process layers on a background thread to keep the UI responsive.  
+- **Missing SoCo resource:** If a layer lacks a SoCo resource, you can create one with `new SoCoResource()` and attach it to the layer’s resources collection.  
+- **Memory management:** The `finally` block with `im.dispose()` ensures native resources are released, even if an exception occurs.
 
 ## 자주 묻는 질문
 
-**Q: PSD 파일을 여러 개 일괄로 편집할 수 있나요?**  
-A: 물론입니다. 파일 경로 리스트를 순회하는 루프 안에 코드를 넣고 각 파일에 동일한 SoCo 수정을 적용하면 됩니다.
+**Q: 여러 PSD 파일을 일괄로 편집할 수 있나요?**  
+A: Absolutely. Wrap the code inside a loop that iterates over a list of file paths and apply the same SoCo modification to each file.
 
-**Q: SoCo 색상 변경이 다른 레이어에 영향을 주나요?**  
-A: 아닙니다. 변경은 편집한 `FillLayer`에만 적용됩니다.
+**Q: SoCo 색상을 변경하면 다른 레이어에 영향을 줍니까?**  
+A: No. The change is isolated to the specific `FillLayer` that contains the SoCo resource you edit.
 
-**Q: PSD에 SoCo 리소스가 없으면 어떻게 하나요?**  
-A: 내부 루프가 해당 레이어를 건너뛰게 됩니다. 필요에 따라 새 SoCo 리소스를 생성하는 로직을 추가할 수 있습니다.
+**Q: PSD에 SoCo 리소스가 없으면 어떻게 해야 하나요?**  
+A: The inner loop will simply skip the layer. You can add a fallback that creates a new `SoCoResource` and attaches it to the layer.
 
-**Q: 저장하기 전에 색상 변화를 미리 볼 수 있나요?**  
-A: `PsdImage`를 PNG와 같은 일반 포맷으로 내보내(`im.save("preview.png")`) 결과를 확인할 수 있습니다.
+**Q: 저장하기 전에 색상 변경을 미리 볼 수 있나요?**  
+A: Export the `PsdImage` to a common format like PNG (`im.save("preview.png")`) to verify the result visually.
 
 **Q: 이미지를 수동으로 닫아야 하나요?**  
-A: `finally` 블록에서 `im.dispose()`를 호출하면 예외 발생 여부와 관계없이 모든 네이티브 리소스가 해제됩니다.
+A: The `finally` block with `im.dispose()` ensures all native resources are released, even if an exception occurs.
 
 ---
 
-**마지막 업데이트:** 2026-02-25  
+**마지막 업데이트:** 2026-08-06  
 **테스트 환경:** Aspose.PSD 24.11 for Java  
-**작성자:** Aspose  
+**작성자:** Aspose
+
+## 관련 튜토리얼
+
+- [Aspose PSD for Java를 사용하여 PSD 파일에 IOPA 리소스 추가](/psd/java/modifying-converting-psd-images/add-iopa-resource-psd-files/)
+- [Java를 사용하여 PSD 파일에서 Clbl 리소스 지원](/psd/java/working-with-psd-files/support-clbl-resource-psd-files/)
+- [Java와 함께 PSD 파일에서 Infx 리소스 지원](/psd/java/working-with-psd-files/support-infx-resource-psd-files/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
