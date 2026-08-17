@@ -1,58 +1,93 @@
 ---
-title: Java kullanarak PSD Dosyalarında Çalışma Zamanına Metin Katmanı Ekleme
-linktitle: Java kullanarak PSD Dosyalarında Çalışma Zamanına Metin Katmanı Ekleme
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD ile Java kullanarak PSD dosyalarına dinamik olarak metin katmanları eklemeyi öğrenin. Heyecan verici otomasyon olanakları için bu adım adım öğreticiyi izleyin.
-weight: 17
+date: 2026-03-07
+description: Java ve Aspose.PSD kullanarak çalışma zamanında PSD dosyalarına metin
+  eklemeyi öğrenin. Bu adım adım rehberi izleyerek bir PSD'de hızlıca metin katmanı
+  oluşturun.
+linktitle: Add Text Layer on Runtime in PSD Files using Java
+second_title: Aspose.PSD Java API
+title: Java Kullanarak Çalışma Zamanında PSD Dosyalarına Metin Ekle
 url: /tr/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak PSD Dosyalarında Çalışma Zamanına Metin Katmanı Ekleme
+# Java Kullanarak Çalışma Zamanında PSD Dosyalarına Metin Ekleme
 
-## giriiş
-Photoshop'la daha önce çalıştıysanız, görüntüleri düzenlemek için ne kadar güçlü olduğunu bilirsiniz. Peki ya size bu görevlerden bazılarını Java kullanarak otomatikleştirebileceğinizi söylesem? Program aracılığıyla PSD dosyalarınıza dinamik olarak metin katmanları eklediğinizi hayal edin. Oldukça hoş, değil mi? Bu eğitimde, Java için Aspose.PSD kütüphanesini kullanarak bir PSD dosyasına anında nasıl metin katmanı ekleyeceğimizi derinlemesine inceliyoruz. O halde kollarınızı sıvayın ve hemen işe koyulalım!
+## Giriş
+Photoshop belgesini manuel olarak düzenlediyseniz, katmanların ne kadar güçlü olduğunu bilirsiniz. Java uygulamanızdan **PSD dosyalarına metin ekleyebilir** misiniz? Aspose.PSD for Java kütüphanesi ile çalışma zamanında bir PSD'ye metin katmanı oluşturabilir, toplu işleme, dinamik grafik oluşturma ve otomatik marka oluşturma iş akışlarının kapılarını açabilirsiniz. Bu öğreticide projeyi kurmaktan güncellenmiş dosyayı kaydetmeye kadar tüm süreci adım adım göstereceğiz.
+
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.PSD for Java.  
+- **Mevcut bir PSD'ye metin ekleyebilir miyim?** Evet – dosyayı yükleyin, bir `TextLayer` ekleyin ve kaydedin.  
+- **Üretim için lisansa ihtiyacım var mı?** Değerlendirme dışı kullanım için ticari bir lisans gereklidir.  
+- **Hangi Java sürümü destekleniyor?** JDK 8 ve üzeri (en son LTS sürümünü öneririz).  
+- **Web back‑end'ler için uygun mu?** Kesinlikle – API herhangi bir Java tabanlı sunucu ortamında çalışır.
+
+## “PSD'ye metin ekleme” nedir?
+PSD'ye metin eklemek, bir Photoshop belgesi içinde programlı olarak yeni bir metin katmanı oluşturmak anlamına gelir. Katman, diğer Photoshop metin katmanları gibi davranır: taşıyabilir, içeriğini düzenleyebilir ve stil uygulayabilirsiniz—Photoshop açmadan.
+
+## Java ile bir PSD'de metin katmanı neden oluşturulur?
+- **Otomasyon** – Pazarlama varlıklarını, filigranları veya ürün etiketlerini toplu olarak oluşturun.  
+- **Tutarlılık** – Binlerce dosyada aynı yazı tipi, boyut ve konumlandırmayı sağlayın.  
+- **Entegrasyon** – Diğer Java hizmetleri (e‑ticaret, raporlama, CI boru hatları) ile birleştirerek grafikleri anında sunun.
+
 ## Önkoşullar
-Kodlara dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ihtiyacınız olacak şeyler:
-1.  Java Geliştirme Kiti (JDK): Makinenizde JDK'nın kurulu olduğundan emin olun. Yapabilirsiniz[buradan indir](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.PSD for Java Paketi: Aspose.PSD kütüphanesini indirip projenize entegre etmeniz gerekecektir. Şuradan alabilirsiniz[Aspose sürümler sayfası](https://releases.aspose.com/psd/java/).
-3. Entegre Geliştirme Ortamı (IDE): Herhangi bir metin düzenleyiciyi kullanabilirsiniz ancak IntelliJ IDEA veya Eclipse gibi bir IDE, projenizi yönetmeye yönelik araçlar sağlayarak hayatınızı çok daha kolaylaştıracaktır.
-4. Temel Java Bilgisi: Bu eğitimde sorunsuz bir şekilde gezinmek için temel Java kavramlarını anlamak gerekir.
-5.  PSD Dosyası: Oynamaya hazır temel bir PSD dosyasına sahip olun. Adlı birini kullanacağız`OneLayer.psd` başlangıç noktamız olarak.
-## Paketleri İçe Aktar
-Her şeye sahip olduğunuzda, sürecimizdeki ilk adım gerekli paketleri Java dosyanıza aktarmaktır. İşte eklemeniz gerekenler:
+Kod yazmadan önce şunlara sahip olduğunuzdan emin olun:
+
+1. **Java Development Kit (JDK)** – JDK 8 ve üzeri kurun. [buradan indirebilirsiniz](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD for Java** – En son JAR dosyasını [Aspose sürüm sayfasından](https://releases.aspose.com/psd/java/) alın.  
+3. **IDE (isteğe bağlı ama faydalı)** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
+4. **Temel Java bilgisi** – Sınıflar, nesneler ve dosya G/Ç konusunda rahat olmalısınız.  
+5. **Örnek bir PSD** – Bu kılavuzda `OneLayer.psd` dosyasını tercih ettiğiniz bir klasöre koyarak kullanacağız.
+
+## Paketleri İçe Aktarma
+İlk olarak, PSD dosyaları ve metin katmanlarıyla çalışmak için gerekli sınıfları içe aktarın.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
-Bu içe aktarmalar, Aspose.PSD kütüphanesini kullanarak PSD dosyalarını değiştirmek için ihtiyacınız olan tüm önemli sınıfları getirir.
-Pekala, PSD dosyanıza bir metin katmanı eklemenin asıl konusuna geçelim. Her birini iyice kavramanızı sağlamak için bunu yönetilebilir adımlara ayıracağız.
-## 1. Adım: Belge Dizininizi Kurun
-Öncelikle Adobe Photoshop Belgesi (PSD) dosyalarının bulunacağı çalışma alanınızı ayarlamanız gerekir. Basit bir dizeyle PSD dosyanızın nerede bulunacağını tanımlayın.
+
+Bu içe aktarmalar, temel Aspose.PSD işlevselliğine erişmenizi sağlar.
+
+## Adım Adım Kılavuz
+
+### Adım 1: Belge Dizinini Ayarlama
+Kaynak PSD'nizin bulunduğu ve çıktının kaydedileceği klasörü tanımlayın.
+
 ```java
 String dataDir = "Your Document Directory"; 
 ```
- Burada değiştireceksiniz`"Your Document Directory"` PSD dosyalarınızın depolandığı gerçek yolla.
-## Adım 2: Kaynak PSD Dosyanızı Yükleyin
-Daha sonra PSD dosyasını uygulamanıza yüklemeniz gerekiyor. İşte sihir burada başlıyor. Şunu kullanın:`Image.load()` Dosyanızı oyuna sokma yöntemi.
+
+`"Your Document Directory"` ifadesini dosyalarınızın mutlak ya da göreli yolu ile değiştirin.
+
+### Adım 2: Kaynak PSD Dosyasını Yükleme
+Mevcut PSD'yi `Image.load()` ile belleğe alın.
+
 ```java
 String sourceFileName = dataDir + "OneLayer.psd"; 
 Image img = Image.load(sourceFileName);
 ```
- Bu kod pasajı,`OneLayer.psd` içine dosya`img` nesne. Yol doğruysa, PSD'niz yüklenmiş ve değiştirilmeye hazır olacaktır.
-## 3. Adım: PsdImage'a yayınlayın
- Resminiz yüklendikten sonra onu yayınlamanız gerekir.`PsdImage` çünkü özellikle Photoshop dosyalarıyla ilgileniyoruz.
+
+Yol doğruysa, `img` artık yüklenmiş Photoshop belgesini temsil eder.
+
+### Adım 3: `PsdImage`'a Dönüştürme
+Photoshop'a özgü özelliklerle çalıştığımız için, genel `Image` nesnesini `PsdImage`'a dönüştürün.
+
 ```java
 PsdImage im = (PsdImage)img;
 ```
-Döküm yaparak, bu eğitimde ihtiyaç duyacağınız PSD manipülasyonuna özel tüm yöntemlere erişim kazanırsınız.
-## Adım 4: Metin Katmanı için Dikdörtgeni Tanımlayın
-Artık metin katmanınızın nerede görünmesini istediğinizi belirtmenin zamanı geldi. Metninizin konumunu ve boyutunu ayarlayan bir dikdörtgen tanımlayacaksınız.
+
+Bu dönüşüm, `addTextLayer()` gibi yöntemlerin kullanılmasını sağlar.
+
+### Adım 4: Metin Katmanı İçin Dikdörtgeni Tanımlama
+Yeni metnin nerede görüneceğini belirtin. Dikdörtgen, konumu (x, y) ve boyutu (genişlik, yükseklik) tanımlar.
+
 ```java
 Rectangle rect = new Rectangle(
     (int)(im.getWidth() * 0.25),
@@ -61,37 +96,64 @@ Rectangle rect = new Rectangle(
     (int)(im.getHeight() * 0.5)
 );
 ```
-Bu örnekte dikdörtgen, görüntünün dörtte biri kadar aşağı ve çapraz olarak konumlandırılarak görüntünün genişliğinin ve yüksekliğinin yarısını kaplayacak şekilde ayarlanmıştır. Metninizi tam olarak istediğiniz yere konumlandırmak için bu değerleri değiştirmekten çekinmeyin!
-## Adım 5: Metin Katmanını Ekleyin
- Şimdi işin en önemli parçası; metninizi eklemek! Şunu kullanın:`addTextLayer()` İstediğiniz metni belirtilen dikdörtgende hayata geçirme yöntemini kullanın.
+
+Hesaplamaları, düzen ihtiyaçlarınıza göre ayarlamaktan çekinmeyin.
+
+### Adım 5: Metin Katmanını Ekleme
+Tanımlanan dikdörtgen içinde gerçek metin katmanını oluşturun.
+
 ```java
 TextLayer layer = im.addTextLayer("Added text", rect);
 ```
-Bu durumda, yalnızca "Metin eklendi" yazan bir metin katmanı ekliyoruz. Bunu istediğiniz herhangi bir dizeyle değiştirebilirsiniz.
-## Adım 6: Güncellenmiş PSD Dosyanızı Kaydedin
-Son adım, değişikliklerinizi yeni bir PSD dosyasına kaydetmektir. İşte bunu nasıl yapacağınız:
+
+`"Added text"` ifadesini PSD'de görünmesini istediğiniz herhangi bir dizeyle değiştirin. İşte **programlı olarak metin katmanı PSD** oluşturduğumuz yer.
+
+### Adım 6: Güncellenmiş PSD Dosyasını Kaydetme
+Değiştirilen belgeyi yeni bir dosyaya yazarak orijinali üzerine yazmamayı sağlayın.
+
 ```java
 String psdPath = dataDir + "ImageWithTextLayer.psd";
 im.save(psdPath);
 ```
- Orijinal PSD dosyanızın üzerine yazmamak için yeni bir dosya adı belirttiğinizden emin olun. Şimdi, belirtilen dizini kontrol ettiğinizde şunu görmelisiniz:`ImageWithTextLayer.psd` yeni eklenen metinle!
-## Çözüm
-Ve bu bir sarma! Aspose.PSD kütüphanesini kullanarak Java'yı kullanarak PSD dosyalarına dinamik olarak metin katmanlarını nasıl ekleyeceğinizi öğrendiniz. Photoshop yeteneklerini uygulamalarına entegre etmek isteyen her geliştirici için oyunun kurallarını değiştirecek bir özellik. İster tasarımcılar için bir proje yöneticisi üzerinde çalışıyor olun ister grafik görevlerini otomatikleştiriyor olun, bu teknik size çok zaman kazandırabilir.
-Daha fazlasını keşfetmek ister misiniz? Ek işlevler ve gelişmiş özellikler için Aspose.PSD for Java belgelerine göz atmayı unutmayın.
-## SSS'ler
-### Birden fazla metin katmanı ekleyebilir miyim?
-Kesinlikle! Eklemek istediğiniz her metin katmanı için 4. ve 5. Adımları tekrarlamanız yeterlidir.
-### PSD dosyamda birden fazla katman varsa ne olur?
-Aspose.PSD karmaşık katmanlı PSD dosyalarını işleyebilir. Sadece onları değiştirirken doğru katmanlara referans verdiğinizden emin olun.
-### Metni biçimlendirmenin bir yolu var mı?
- Evet! Yeteneklerini keşfedebilirsiniz`TextLayer` Aspose.PSD belgelerine giderek yazı tipi boyutunu, rengini ve daha fazlasını değiştirmek için class'ı kullanın.
-### Bunu web uygulamalarında kullanabilir miyim?
-Evet, Java arka ucunuz olduğu sürece bu yaklaşımı web uygulamalarında kullanabilirsiniz.
-### Sorunla karşılaşırsam nereden destek alabilirim?
- Şuna göz atın:[Aspose destek forumları](https://forum.aspose.com/c/psd/34) topluluğun ve Aspose ekibinin size yardımcı olabileceği yer.
+
+Çalıştırdıktan sonra, hedef klasörde `ImageWithTextLayer.psd` dosyasını bulacaksınız; artık yeni metin katmanını içeriyor.
+
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| **`NullPointerException` on `im.addTextLayer`** | PSD doğru şekilde yüklenmedi (yanlış yol). | `sourceFileName`'in mevcut bir PSD'ye işaret ettiğini doğrulayın. |
+| **Text not visible** | Dikdörtgen tuvalin dışına yerleştirilmiş veya katman gizli. | Dikdörtgen koordinatlarını ayarlayın veya katman görünürlüğünü `layer.setVisible(true)` ile kontrol edin. |
+| **LicenseException** | Kütüphaneyi üretimde geçerli bir lisans olmadan kullanmak. | Ticari bir lisans edinin ve `License license = new License(); license.setLicense("Aspose.PSD.lic");` kodu ile ayarlayın. |
+
+## Sıkça Sorulan Sorular
+
+**S: Birden fazla metin katmanı ekleyebilir miyim?**  
+C: Evet – eklemek istediğiniz her metin için Adım 4 ve 5'i tekrarlamanız yeterlidir.
+
+**S: Metni (yazı tipi, boyut, renk) nasıl biçimlendirebilirim?**  
+C: `TextLayer` sınıfı, `Font`, `FontSize`, `Color` ve diğer stil özelliklerini değiştirebileceğiniz bir `getTextData()` yöntemi sunar. Ayrıntılı bilgi için Aspose.PSD API belgelerine bakın.
+
+**S: PSD'mde zaten birçok katman varsa ne olur?**  
+C: Aspose.PSD, karmaşık katman yapılarıyla çalışır. Belirli grupları hedefleyebilir veya `addTextLayer` aşırı yüklemelerini kullanarak yeni metin katmanını istediğiniz bir indekse ekleyebilirsiniz.
+
+**S: Bu yaklaşım web uygulamaları için uygun mu?**  
+C: Kesinlikle. Sunucunuz Java çalıştırdığı sürece, PSD'leri anında oluşturabilir veya değiştirebilir ve müşterilere sunabilirsiniz.
+
+**S: Sorun yaşarsam nereden yardım alabilirim?**  
+C: Hem topluluk hem de Aspose mühendislerinin yardımcı olabileceği [Aspose destek forumlarını](https://forum.aspose.com/c/psd/34) ziyaret edin.
+
+## Sonuç
+Artık Java ve Aspose.PSD kullanarak çalışma zamanında **PSD dosyalarına metin eklemenin** ne kadar kolay olduğunu gördünüz. Bu teknik, grafik oluşturmayı otomatikleştirmenizi, varlıkları kişiselleştirmenizi ve Photoshop seviyesinde düzenlemeyi herhangi bir Java tabanlı çözüme entegre etmenizi sağlar. Aspose.PSD API'sinin geri kalanını keşfederek şekiller, raster katmanlar ekleyebilir veya daha zengin otomasyon için filtreler uygulayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose

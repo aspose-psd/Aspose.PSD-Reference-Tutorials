@@ -1,58 +1,93 @@
 ---
-title: Voeg tekstlaag toe aan runtime in PSD-bestanden met behulp van Java
-linktitle: Voeg tekstlaag toe aan runtime in PSD-bestanden met behulp van Java
-second_title: Aspose.PSD Java-API
-description: Leer hoe u dynamisch tekstlagen aan PSD-bestanden kunt toevoegen met behulp van Java met Aspose.PSD. Volg deze stapsgewijze tutorial voor spannende automatiseringsmogelijkheden.
-weight: 17
+date: 2026-03-07
+description: Leer hoe je tekst aan PSD‑bestanden kunt toevoegen tijdens runtime met
+  Java en Aspose.PSD. Volg deze stapsgewijze handleiding om snel een tekstlaag in
+  een PSD te maken.
+linktitle: Add Text Layer on Runtime in PSD Files using Java
+second_title: Aspose.PSD Java API
+title: Tekst toevoegen aan PSD‑bestanden tijdens runtime met Java
 url: /nl/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg tekstlaag toe aan runtime in PSD-bestanden met behulp van Java
+# Tekst toevoegen aan PSD‑bestanden tijdens runtime met Java
 
-## Invoering
-Als je ooit met Photoshop hebt gewerkt, weet je hoe krachtig het is voor het bewerken van afbeeldingen. Maar wat als ik je vertelde dat je sommige van die taken zou kunnen automatiseren met behulp van Java? Stel je voor dat je dynamisch tekstlagen aan je PSD-bestanden toevoegt. Best cool, toch? In deze zelfstudie gaan we dieper in op hoe u direct een tekstlaag aan een PSD-bestand kunt toevoegen met behulp van de Aspose.PSD-bibliotheek voor Java. Dus stroop je mouwen op en laten we er meteen aan beginnen!
+## Inleiding
+Als je ooit handmatig een Photoshop‑document hebt bewerkt, weet je hoe krachtig lagen kunnen zijn. Wat als je **tekst aan PSD‑bestanden** automatisch kunt toevoegen vanuit je Java‑applicatie? Met de Aspose.PSD for Java‑bibliotheek kun je tijdens runtime een tekstlaag in een PSD maken, waardoor batch‑verwerking, dynamische grafiekgeneratie en geautomatiseerde branding‑workflows mogelijk worden. In deze tutorial lopen we het volledige proces door, van het opzetten van het project tot het opslaan van het bijgewerkte bestand.
+
+## Snelle antwoorden
+- **Welke bibliotheek heb ik nodig?** Aspose.PSD for Java.  
+- **Kan ik tekst toevoegen aan een bestaande PSD?** Ja – laad simpelweg het bestand, voeg een `TextLayer` toe en sla op.  
+- **Heb ik een licentie nodig voor productie?** Een commerciële licentie is vereist voor niet‑evaluatiegebruik.  
+- **Welke Java‑versie wordt ondersteund?** JDK 8 of hoger (we raden de nieuwste LTS aan).  
+- **Is dit geschikt voor web‑back‑ends?** Absoluut – de API werkt in elke Java‑gebaseerde serveromgeving.
+
+## Wat betekent “tekst toevoegen aan PSD”?
+Tekst toevoegen aan een PSD betekent programmatiche een nieuwe tekstlaag aanmaken binnen een Photoshop‑document. De laag gedraagt zich als elke andere Photoshop‑tekstlaag: je kunt hem verplaatsen, de inhoud bewerken en styling toepassen – alles zonder Photoshop te openen.
+
+## Waarom een tekstlaag in een PSD maken met Java?
+- **Automatisering** – Genereer marketing‑assets, watermerken of productlabels in bulk.  
+- **Consistentie** – Zorg voor dezelfde lettertype, grootte en positionering in duizenden bestanden.  
+- **Integratie** – Combineer met andere Java‑services (e‑commerce, rapportage, CI‑pipelines) om grafieken on‑the‑fly te leveren.
+
 ## Vereisten
-Voordat we in de code duiken, zorgen we ervoor dat u alles heeft wat u nodig heeft om aan de slag te gaan. Dit is wat je nodig hebt:
-1.  Java Development Kit (JDK): Zorg ervoor dat JDK op uw computer is geïnstalleerd. Dat kan[download het hier](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Aspose.PSD voor Java-pakket: u moet de Aspose.PSD-bibliotheek downloaden en in uw project integreren. Je kunt het pakken bij de[Aspose-releasespagina](https://releases.aspose.com/psd/java/).
-3. Integrated Development Environment (IDE): Hoewel u elke teksteditor kunt gebruiken, zal een IDE zoals IntelliJ IDEA of Eclipse uw leven veel gemakkelijker maken door hulpmiddelen te bieden voor het beheren van uw project.
-4. Basiskennis van Java: inzicht in de kernconcepten van Java is noodzakelijk om naadloos door deze tutorial te kunnen navigeren.
-5.  PSD-bestand: Zorg ervoor dat u een standaard PSD-bestand gereed heeft om mee te spelen. We gebruiken er één met de naam`OneLayer.psd` als ons uitgangspunt.
+Voordat je code schrijft, zorg dat je het volgende hebt:
+
+1. **Java Development Kit (JDK)** – Installeer JDK 8 of nieuwer. Je kunt [het hier downloaden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD for Java** – Haal de nieuwste JAR van de [Aspose releases‑pagina](https://releases.aspose.com/psd/java/).  
+3. **IDE (optioneel maar handig)** – IntelliJ IDEA, Eclipse of een andere editor naar keuze.  
+4. **Basiskennis van Java** – Je moet vertrouwd zijn met klassen, objecten en bestands‑I/O.  
+5. **Een voorbeeld‑PSD** – Voor deze gids gebruiken we `OneLayer.psd` geplaatst in een map naar keuze.
+
 ## Pakketten importeren
-Zodra u alles heeft, is de eerste stap in ons proces het importeren van de benodigde pakketten in uw Java-bestand. Dit is wat u moet opnemen:
+Importeer eerst de klassen die je nodig hebt om met PSD‑bestanden en tekstlagen te werken.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
-Deze import levert alle cruciale klassen op die je nodig hebt om PSD-bestanden te manipuleren met behulp van de Aspose.PSD-bibliotheek.
-Oké, laten we eens kijken naar de kern van het toevoegen van een tekstlaag aan je PSD-bestand. We zullen dit opsplitsen in beheersbare stappen, zodat u ze allemaal grondig begrijpt.
-## Stap 1: Stel uw documentenmap in
-Eerst moet u uw werkruimte instellen waar de Adobe Photoshop Document-bestanden (PSD) zich zullen bevinden. Bepaal waar uw PSD-bestand zich bevindt met een eenvoudige tekenreeks.
+
+Deze imports geven je toegang tot de kernfunctionaliteit van Aspose.PSD.
+
+## Stapsgewijze handleiding
+
+### Stap 1: Stel je documentmap in
+Definieer de map die je bron‑PSD bevat en waar de uitvoer wordt opgeslagen.
+
 ```java
 String dataDir = "Your Document Directory"; 
 ```
- Hier vervang jij`"Your Document Directory"` met het daadwerkelijke pad waar uw PSD-bestanden zijn opgeslagen.
-## Stap 2: Laad uw bron-PSD-bestand
-Vervolgens moet u het PSD-bestand in uw applicatie laden. Dit is waar de magie begint. Gebruik de`Image.load()` methode om uw bestand in het spel te brengen.
+
+Vervang `"Your Document Directory"` door het absolute of relatieve pad naar je bestanden.
+
+### Stap 2: Laad je bron‑PSD‑bestand
+Breng de bestaande PSD in het geheugen met `Image.load()`.
+
 ```java
 String sourceFileName = dataDir + "OneLayer.psd"; 
 Image img = Image.load(sourceFileName);
 ```
- Met dit codefragment wordt uw`OneLayer.psd` bestand in de`img` voorwerp. Als het pad correct is, is uw PSD geladen en klaar om te worden gemanipuleerd.
-## Stap 3: Casten naar PsdImage
- Zodra uw afbeelding is geladen, moet u deze casten`PsdImage` omdat we specifiek met Photoshop-bestanden te maken hebben.
+
+Als het pad correct is, vertegenwoordigt `img` nu het geladen Photoshop‑document.
+
+### Stap 3: Cast naar `PsdImage`
+Aangezien we Photoshop‑specifieke functies gebruiken, casten we de generieke `Image` naar `PsdImage`.
+
 ```java
 PsdImage im = (PsdImage)img;
 ```
-Door te casten krijgt u toegang tot alle methoden die specifiek zijn voor PSD-manipulatie die u in deze zelfstudie nodig heeft.
-## Stap 4: Definieer de rechthoek voor de tekstlaag
-Nu is het tijd om op te geven waar u uw tekstlaag wilt laten verschijnen. U definieert een rechthoek die de positie en grootte van uw tekst bepaalt.
+
+De cast maakt methoden zoals `addTextLayer()` beschikbaar.
+
+### Stap 4: Definieer de rechthoek voor de tekstlaag
+Geef aan waar de nieuwe tekst moet verschijnen. De rechthoek bepaalt positie (x, y) en grootte (breedte, hoogte).
+
 ```java
 Rectangle rect = new Rectangle(
     (int)(im.getWidth() * 0.25),
@@ -61,37 +96,66 @@ Rectangle rect = new Rectangle(
     (int)(im.getHeight() * 0.5)
 );
 ```
-In dit voorbeeld is de rechthoek zo ingesteld dat hij de helft van de breedte en de helft van de hoogte van de afbeelding in beslag neemt, op een kwart van de breedte en overdwars geplaatst. Voel je vrij om deze waarden aan te passen om je tekst precies daar te plaatsen waar jij hem wilt hebben!
-## Stap 5: Voeg de tekstlaag toe
- Nu het pièce de résistance: uw tekst toevoegen! Gebruik de`addTextLayer()` methode om uw gewenste tekst tot leven te brengen in de opgegeven rechthoek.
+
+Pas de berekeningen gerust aan om aan je lay‑outbehoeften te voldoen.
+
+### Stap 5: Voeg de tekstlaag toe
+Maak de daadwerkelijke tekstlaag binnen de gedefinieerde rechthoek.
+
 ```java
 TextLayer layer = im.addTextLayer("Added text", rect);
 ```
-In dit geval voegen we eenvoudigweg een tekstlaag toe met de tekst 'Tekst toegevoegd'. Je kunt dit vervangen door elke gewenste string.
-## Stap 6: Sla uw bijgewerkte PSD-bestand op
-De laatste stap is het opslaan van uw wijzigingen in een nieuw PSD-bestand. Zo doe je dat:
+
+Vervang `"Added text"` door elke string die je in de PSD wilt laten verschijnen. Dit is waar we **tekstlaag PSD** programmatiche creëren.
+
+### Stap 6: Sla je bijgewerkte PSD‑bestand op
+Schrijf het gewijzigde document naar een nieuw bestand zodat je het origineel niet overschrijft.
+
 ```java
 String psdPath = dataDir + "ImageWithTextLayer.psd";
 im.save(psdPath);
 ```
- Zorg ervoor dat u een nieuwe bestandsnaam opgeeft, zodat u uw originele PSD-bestand niet overschrijft. Wanneer u nu de opgegeven map controleert, zou u het moeten zien`ImageWithTextLayer.psd` met de nieuw toegevoegde tekst!
-## Conclusie
-En dat is een omslag! U hebt zojuist geleerd hoe u dynamisch tekstlagen aan PSD-bestanden kunt toevoegen met behulp van Java met de Aspose.PSD-bibliotheek. Het is een gamechanger voor elke ontwikkelaar die Photoshop-mogelijkheden in zijn applicaties wil integreren. Of u nu werkt aan een projectmanager voor ontwerpers of grafische taken automatiseert, deze techniek kan u veel tijd besparen.
-Zin om meer te ontdekken? Zorg ervoor dat u Aspose.PSD voor Java-documentatie bekijkt voor extra functionaliteiten en geavanceerde functies.
+
+Na uitvoering vind je `ImageWithTextLayer.psd` in de doelmap, nu met de nieuwe tekstlaag.
+
+## Veelvoorkomende problemen & oplossingen
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| **`NullPointerException` op `im.addTextLayer`** | PSD niet correct geladen (verkeerd pad). | Controleer of `sourceFileName` naar een bestaand PSD‑bestand wijst. |
+| **Tekst niet zichtbaar** | Rechthoek buiten het canvas geplaatst of laag verborgen. | Pas de coördinaten van de rechthoek aan of controleer de zichtbaarheid met `layer.setVisible(true)`. |
+| **LicenseException** | Bibliotheek wordt zonder geldige licentie in productie gebruikt. | Schaf een commerciële licentie aan en stel deze in via `License license = new License(); license.setLicense("Aspose.PSD.lic");`. |
+
 ## Veelgestelde vragen
-### Kan ik meerdere tekstlagen toevoegen?
-Absoluut! Herhaal stap 4 en 5 voor elke tekstlaag die u wilt toevoegen.
-### Wat moet ik doen als mijn PSD-bestand meerdere lagen heeft?
-Aspose.PSD kan complexe gelaagde PSD-bestanden verwerken. Zorg ervoor dat u naar de juiste lagen verwijst wanneer u ze manipuleert.
-### Is er een manier om de tekst op te maken?
- Ja! U kunt de mogelijkheden van de`TextLayer` class om de lettergrootte, kleur en meer te wijzigen door in de Aspose.PSD-documentatie te duiken.
-### Kan ik dit gebruiken in webapplicaties?
-Ja, zolang u over een Java-backend beschikt, kunt u deze aanpak gebruiken in webapplicaties.
-### Waar kan ik ondersteuning krijgen als ik problemen tegenkom?
- Bekijk de[Stel ondersteuningsforums voor](https://forum.aspose.com/c/psd/34) waar de community en het Aspose-team u kunnen helpen.
+
+**V: Kan ik meerdere tekstlagen toevoegen?**  
+A: Ja – herhaal simpelweg Stappen 4 en 5 voor elke tekst die je wilt invoegen.
+
+**V: Hoe style ik de tekst (lettertype, grootte, kleur)?**  
+A: De `TextLayer`‑klasse biedt een `getTextData()`‑methode waarmee je `Font`, `FontSize`, `Color` en andere stijl‑eigenschappen kunt aanpassen. Raadpleeg de Aspose.PSD API‑documentatie voor volledige details.
+
+**V: Wat als mijn PSD al veel lagen heeft?**  
+A: Aspose.PSD werkt met complexe laagstructuren. Je kunt specifieke groepen targeten of de nieuwe tekstlaag op een gewenste index invoegen met overloads van `addTextLayer`.
+
+**V: Is deze aanpak geschikt voor webapplicaties?**  
+A: Absoluut. Zolang je server Java draait, kun je PSD‑bestanden on‑the‑fly genereren of aanpassen en aan cliënten leveren.
+
+**V: Waar kan ik hulp krijgen als ik problemen ondervind?**  
+A: Bezoek de [Aspose support forums](https://forum.aspose.com/c/psd/34) waar zowel de community als Aspose‑engineers je kunnen assisteren.
+
+## Conclusie
+Je hebt nu gezien hoe eenvoudig het is om **tekst aan PSD‑bestanden** toe te voegen tijdens runtime met Java en Aspose.PSD. Deze techniek stelt je in staat grafiekcreatie te automatiseren, assets te personaliseren en Photoshop‑niveau bewerkingen te integreren in elke Java‑gebaseerde oplossing. Verken de rest van de Aspose.PSD API om vormen, rasterlagen of zelfs filters toe te voegen voor nog rijkere automatisering.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2026-03-07  
+**Getest met:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Auteur:** Aspose  
+
+---

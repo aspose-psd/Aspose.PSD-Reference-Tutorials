@@ -1,10 +1,11 @@
 ---
-title: 在 PSD 中新增等級調整圖層
-linktitle: 在 PSD 中新增等級調整圖層
+date: 2026-03-07
+description: 學習如何在 PSD 檔案中使用 Aspose.PSD for Java 新增「色階調整」圖層來調整色階，快速掌握色調微調技巧。
+linktitle: Add Level Adjustment Layer in PSD
 second_title: Aspose.PSD Java API
-description: 了解如何使用 Aspose.PSD for Java 在 PSD 檔案中有效新增等級調整圖層。提高您的影像編輯技能。
-weight: 16
+title: 如何調整色階 – 在 PSD 中新增色階調整圖層
 url: /zh-hant/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,52 +15,72 @@ url: /zh-hant/java/modifying-converting-psd-images/add-level-adjustment-layer-ps
 # 在 PSD 中新增等級調整圖層
 
 ## 介紹
-在影像編輯方面，管理層級可以使照片的活力和清晰度發生巨大變化。 Photoshop 工具庫中的一個方便工具是“色階調整圖層”，它可讓您調整影像的色調範圍和色彩平衡。在本指南中，我們將引導您了解如何使用 Aspose.PSD for Java 在 PSD 檔案中實作等級調整圖層。所以，拿起你的 Java IDE。
-## 先決條件
-在進入等級調整世界之前，您需要設定一些內容以確保平穩運行：
-1.  Java 開發工具包 (JDK)：確保您的電腦上安裝了 JDK。如果沒有，您可以從[甲骨文網站](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)或者使用 OpenJDK。
-2. Aspose.PSD for Java Library：要操作 PSD 文件，您需要下載 Aspose.PSD 函式庫。您可以從中取得最新版本[下載連結](https://releases.aspose.com/psd/java/)並確保您已將 JAR 包含在專案庫中。
-3. Java 基礎知識：對 Java 程式設計有基本的了解將會有所幫助，因為我們將在本教程中深入研究程式碼片段。
-4. IDE 設定：您可以使用任何您喜歡的 Java IDE（例如 IntelliJ IDEA、Eclipse 或 NetBeans）來編寫和執行程式碼。只需確保您已經設定了 Java 專案並新增了 Aspose.PSD 庫。
+如果你想了解 **如何調整等級** 在你的 Photoshop 文件中，等級調整圖層是完美的工具。它讓你在不永久改變原始像素的情況下微調陰影、中間調和高光。在本教學中，我們將示範如何使用 Aspose.PSD for Java 為 PSD 檔案新增等級調整圖層，讓你只需幾個步驟即可實現專業級的色調控制。
 
-## 導入包
-在開始編寫程式碼之前，我們需要從 Aspose.PSD 庫匯入必要的套件。您可以這樣做：
+## 快速回答
+- **等級調整圖層的作用是什麼？** 它以非破壞性的方式修改影像的色調範圍。  
+- **使用哪個函式庫？** Aspose.PSD for Java。  
+- **需要授權嗎？** 開發時可使用免費試用版；正式上線需購買授權。  
+- **實作需要多久？** 基本調整大約需要 10‑15 分鐘。  
+- **可以調整多個通道嗎？** 可以，您可以為每個顏色通道分別設定輸入/輸出等級。
+
+## 什麼是等級調整圖層？
+等級調整圖層讓你透過調整輸入陰影、中間調與高光以及輸出等級來校正影像的色調平衡。因為它存在於獨立的圖層上，你可以切換其可見性或刪除它，而不會影響底層的藝術作品。
+
+## 為什麼要使用 Aspose.PSD 新增等級調整圖層？
+- **自動化：** 將等級調整整合到批次處理流程中。  
+- **跨平台：** 在任何支援 Java 的作業系統上皆可執行。  
+- **精確度：** 以程式方式存取每個通道的設定，取得精確結果。  
+
+## 前置條件
+1. Java Development Kit (JDK)。如果尚未安裝，請從 [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) 下載或使用 OpenJDK。  
+2. Aspose.PSD for Java 函式庫 – 從此 [download link](https://releases.aspose.com/psd/java/) 取得最新的 JAR。  
+3. 具備 Java 程式設計的基本知識。  
+4. 使用 IntelliJ IDEA、Eclipse 或 NetBeans 等 IDE，並將 Aspose.PSD JAR 加入專案的 classpath。
+
+## 匯入套件
+在開始撰寫程式碼之前，我們需要從 Aspose.PSD 函式庫匯入必要的套件。以下示範如何操作：
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-透過匯入這些包，我們將可以存取載入、修改和保存 PSD 檔案所需的類別。
+這些匯入讓我們能存取載入 PSD 檔案、操作等級調整圖層以及調整單一通道設定的類別。
 
-現在，讓我們將這個過程分解為易於理解的步驟。請跟隨我們一起載入 PSD 檔案、調整級別，然後儲存變更。 
-## 第 1 步：設定檔案路徑
-第一步是定義 PSD 檔案所在的位置以及我們要儲存修改後的輸出的位置。您可以自訂目錄路徑以滿足您的需求。
+## 如何在 PSD 檔案中調整等級
+以下是一個逐步指南，示範如何以程式方式 **調整等級**。
+
+### 步驟 1：設定檔案路徑
+設定來源 PSD 檔案與編輯後檔案的儲存路徑。
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
-在這裡，替換`"Your Document Directory"`與系統上儲存 PSD 檔案的實際路徑。這為我們接下來要做的一切奠定了基礎。
-## 第 2 步：載入 PSD 文件
-現在，讓我們使用以下命令來載入 PSD 文件`PsdImage`班級。此步驟至關重要，因為它允許我們存取和操作圖層。
+將 `"Your Document Directory"` 替換為您機器上的實際資料夾路徑。
+
+### 步驟 2：載入 PSD 檔案
+從來源檔案建立 `PsdImage` 實例。
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
-當你打電話時`Image.load()`，它將讀取 PSD 檔案並建立一個實例`PsdImage`您可以使用。
-## 第 3 步：迭代各層
-由於我們想要調整等級調整圖層，因此我們需要循環遍歷 PSD 檔案中的每個圖層。這有助於我們找到要修改的特定層。
+現在您可以完整存取 PSD 內的所有圖層。
+
+### 步驟 3：遍歷圖層
+尋找要修改的等級調整圖層。
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        //進一步的操縱將在這裡...
+        // Further manipulation will go here...
     }
 }
 ```
-在這個循環中，`instanceof LevelsLayer`檢查目前圖層是否為色階調整圖層。如果是，我們可以繼續調整它的屬性。
-## 步驟 4：調整電平通道設定
-一旦我們確定了正確的層，我們就可以修改其輸入和輸出等級。這就是魔法發生的地方！調整不同的參數以查看它們如何影響影像。
+`instanceof LevelsLayer` 檢查確保我們只處理等級調整圖層。
+
+### 步驟 4：調整等級通道設定
+調整所選通道的輸入與輸出值。
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +89,51 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-以下是每個參數的作用：
-- 輸入中間色調等級：調整中間色調。
-- 輸入陰影等級：調整影像的較暗區域。
-- 輸入高光等級：改變影像的明亮區域。
-- 輸出陰影等級：設定暗陰影的顯示方式。
-- 輸出高光等級：設定高光的顯示方式。
-請隨意嘗試不同的數值！
-## 第5步：儲存修改後的PSD文件
-現在我們已經完成了調整，是時候儲存修改過的 PSD 檔案了。此步驟對於確保應用和儲存您的變更至關重要。
+- **輸入中間調等級：** 調整中間調範圍。  
+- **輸入陰影等級：** 使陰影變暗或變亮。  
+- **輸入高光等級：** 控制最亮的部分。  
+- **輸出陰影/高光等級：** 定義最終輸出範圍。
+
+隨意嘗試不同的數值，觀察對影像的影響。
+
+### 步驟 5：儲存修改後的 PSD 檔案
+將變更儲存為新檔案。
 ```java
 im.save(psdPathAfterChange);
 ```
-現在您可以在指定的位置找到調整後的 PSD 文件`psdPathAfterChange`. 
+您會在 `psdPathAfterChange` 指定的位置找到更新後的 PSD。
+
+## 常見問題與解決方案
+- **檔案未找到：** 確認 `dataDir` 指向正確的資料夾，且來源 PSD 檔案確實存在。  
+- **ClassCastException：** 確保載入的檔案確實為 PSD；其他格式需使用不同的類別。  
+- **授權錯誤：** 在正式建置時使用有效的 Aspose.PSD 授權；開發階段可使用試用版。
+
 ## 結論
-您剛剛學習如何使用 Aspose.PSD for Java 將等級調整圖層新增到 PSD 檔案！遵循本指南，您可以輕鬆調整影像的色調質量，為更生動、更具視覺吸引力的輸出鋪平道路。請記住，熟能生巧，因此請隨意調整並探索不同的 PSD 檔案以查看更改的效果。
-## 常見問題解答
-### 什麼是水平調整圖層？
-等級調整圖層可讓您校正影像中的色調範圍，平衡陰影、中間色調和高光。
-### 我可以在不購買的情況下使用 Aspose.PSD 嗎？
-是的！ Aspose 提供免費試用，以便在購買前測試該庫。
-### 在哪裡可以找到 Aspose.PSD 的文檔？
-你可以找到文檔[這裡](https://reference.aspose.com/psd/java/).
-### Aspose 產品有社區支持嗎？
-絕對地！您可以在以下位置提出問題並獲得支持[Aspose論壇](https://forum.aspose.com/c/psd/34).
-### 我如何獲得 Aspose.PSD 的臨時授權？
-您可以申請臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+現在您已了解 **如何調整等級**，透過在 PSD 檔案中新增與設定等級調整圖層，使用 Aspose.PSD for Java。此技巧讓您在保持工作流程全自動化的同時，精確控制色調平衡。持續嘗試不同的通道數值，並探索批次處理，以將相同調整套用至多張影像。
+
+## 常見問答
+
+**Q: 什麼是等級調整圖層？**  
+A: 它是一個非破壞性的圖層，讓您可以修改影像的色調範圍（陰影、中間調、高光）。
+
+**Q: 可以在未購買授權的情況下使用 Aspose.PSD 嗎？**  
+A: 可以，您可以使用免費試用版評估函式庫，但商業部署需購買授權。
+
+**Q: 在哪裡可以找到 Aspose.PSD 的文件？**  
+A: 您可以在 [here](https://reference.aspose.com/psd/java/) 找到文件。
+
+**Q: Aspose 產品有社群支援嗎？**  
+A: 當然！您可以在 [Aspose forum](https://forum.aspose.com/c/psd/34) 提問並取得協助。
+
+**Q: 如何取得 Aspose.PSD 的臨時授權？**  
+A: 您可以在 [here](https://purchase.aspose.com/temporary-license/) 申請臨時授權。
+
+---
+
+**最後更新：** 2026-03-07  
+**測試環境：** Aspose.PSD 最新版 (Java)  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

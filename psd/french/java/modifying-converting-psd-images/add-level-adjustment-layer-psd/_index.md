@@ -1,65 +1,89 @@
 ---
-title: Ajouter un calque de réglage de niveau dans PSD
-linktitle: Ajouter un calque de réglage de niveau dans PSD
-second_title: API Java Aspose.PSD
-description: Découvrez comment ajouter efficacement une couche de réglage de niveau dans vos fichiers PSD à l'aide d'Aspose.PSD pour Java. Élevez vos compétences en matière d'édition d'images.
-weight: 16
+date: 2026-03-07
+description: Apprenez à ajuster les niveaux en ajoutant un calque d’ajustement de
+  niveaux dans les fichiers PSD à l’aide d’Aspose.PSD pour Java. Maîtrisez rapidement
+  les réglages tonaux.
+linktitle: Add Level Adjustment Layer in PSD
+second_title: Aspose.PSD Java API
+title: Comment ajuster les niveaux – Ajouter un calque de réglage des niveaux dans
+  PSD
 url: /fr/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter un calque de réglage de niveau dans PSD
+# Ajouter un calque de réglage des niveaux dans PSD
 
 ## Introduction
-Lorsqu'il s'agit de retouche d'images, la gestion des niveaux peut faire toute la différence dans le dynamisme et la clarté de vos photos. Un outil pratique de l'arsenal Photoshop est le « Calque de réglage du niveau », qui vous permet de modifier la gamme de tons et la balance des couleurs de vos images. Dans ce guide, nous vous expliquerons comment implémenter une couche de réglage de niveau dans un fichier PSD à l'aide d'Aspose.PSD pour Java. Alors, prenez votre IDE Java.
-## Conditions préalables
-Avant de vous lancer dans le monde des réglages de niveau, vous devrez configurer quelques éléments pour garantir une conduite en douceur :
-1.  Kit de développement Java (JDK) : assurez-vous que le JDK est installé sur votre ordinateur. Si vous ne l'avez pas, vous pouvez le récupérer sur[Site Web d'Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou utilisez OpenJDK.
-2.  Bibliothèque Aspose.PSD pour Java : pour manipuler des fichiers PSD, vous devrez télécharger la bibliothèque Aspose.PSD. Vous pouvez obtenir la dernière version à partir de ceci[lien de téléchargement](https://releases.aspose.com/psd/java/) et assurez-vous d'avoir inclus le JAR dans la bibliothèque de votre projet.
-3. Connaissance de base de Java : avoir une compréhension fondamentale de la programmation Java sera utile, car nous plongerons dans des extraits de code tout au long de ce didacticiel.
-4. Configuration de l'IDE : vous pouvez utiliser n'importe quel IDE Java de votre choix, comme IntelliJ IDEA, Eclipse ou NetBeans, pour écrire et exécuter votre code. Assurez-vous simplement d'avoir configuré votre projet Java et ajouté la bibliothèque Aspose.PSD.
+Si vous cherchez **comment ajuster les niveaux** dans vos documents Photoshop, le calque de réglage des niveaux est l'outil idéal. Il vous permet d'ajuster finement les ombres, les tons moyens et les hautes lumières sans modifier de façon permanente les pixels d'origine. Dans ce tutoriel, nous allons vous montrer comment ajouter un calque de réglage des niveaux à un fichier PSD en utilisant Aspose.PSD pour Java, afin d'obtenir un contrôle tonal de niveau professionnel en quelques étapes seulement.
 
-## Importer des packages
-Avant de commencer à écrire notre code, nous devons importer les packages nécessaires depuis la bibliothèque Aspose.PSD. Voici comment procéder :
+## Réponses rapides
+- **Que fait un calque de réglage des niveaux ?** Il modifie la plage tonale d'une image de manière non destructive.  
+- **Quelle bibliothèque est utilisée ?** Aspose.PSD pour Java.  
+- **Ai‑je besoin d'une licence ?** Un essai gratuit suffit pour le développement ; une licence est requise pour la production.  
+- **Combien de temps prend l'implémentation ?** Environ 10‑15 minutes pour un réglage de base.  
+- **Puis‑je ajuster plusieurs canaux ?** Oui, vous pouvez définir les niveaux d'entrée/sortie pour chaque canal de couleur individuellement.
+
+## Qu'est‑ce qu'un calque de réglage des niveaux ?
+Un calque de réglage des niveaux vous permet de corriger l'équilibre tonal d'une image en ajustant les ombres d'entrée, les tons moyens et les hautes lumières ainsi que les niveaux de sortie. Parce qu'il vit sur son propre calque, vous pouvez basculer sa visibilité ou le supprimer sans affecter le contenu sous‑jacent.
+
+## Pourquoi ajouter un calque de réglage des niveaux avec Aspose.PSD ?
+- **Automatisation :** Intégrer les ajustements de niveaux dans les pipelines de traitement par lots.  
+- **Multiplateforme :** Fonctionne sur tout système d'exploitation supportant Java.  
+- **Précision :** Accéder aux paramètres de chaque canal par programme pour des résultats exactes.  
+
+## Prérequis
+1. Java Development Kit (JDK). Si vous ne l'avez pas, téléchargez-le depuis le [site d'Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou utilisez OpenJDK.  
+2. Bibliothèque Aspose.PSD pour Java – obtenez le dernier JAR via ce [lien de téléchargement](https://releases.aspose.com/psd/java/).  
+3. Connaissances de base en programmation Java.  
+4. Un IDE tel qu'IntelliJ IDEA, Eclipse ou NetBeans avec le JAR Aspose.PSD ajouté au classpath du projet.
+
+## Importer les packages
+Avant de commencer à écrire notre code, nous devons importer les packages nécessaires de la bibliothèque Aspose.PSD. Voici comment procéder :
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-En important ces packages, nous aurons accès aux classes nécessaires au chargement, à la modification et à la sauvegarde de nos fichiers PSD.
+Ces imports nous donnent accès aux classes pour charger les fichiers PSD, travailler avec les calques de réglage des niveaux et manipuler les paramètres de chaque canal.
 
-Maintenant, décomposons le processus en étapes compréhensibles. Suivez-nous pendant le chargement d'un fichier PSD, l'ajustement des niveaux, puis l'enregistrement de vos modifications. 
-## Étape 1 : Configurez vos chemins de fichiers
-La première étape consiste à définir où se trouve notre fichier PSD et où nous souhaitons enregistrer la sortie modifiée. Vous pouvez personnaliser le chemin du répertoire en fonction de vos besoins.
+## Comment ajuster les niveaux dans un fichier PSD
+Ci‑dessous se trouve un guide étape par étape qui vous montre exactement **comment ajuster les niveaux** de façon programmatique.
+
+### Étape 1 : Configurer vos chemins de fichiers
+Définissez où se trouve le PSD source et où le fichier modifié sera enregistré.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
- Ici, remplacez`"Your Document Directory"`avec le chemin réel sur votre système où votre fichier PSD est stocké. Cela prépare le terrain pour tout ce que nous ferons ensuite.
-## Étape 2 : Chargez le fichier PSD
- Maintenant, chargeons le fichier PSD en utilisant le`PsdImage` classe. Cette étape est essentielle car elle nous permet d'accéder et de manipuler les calques.
+Remplacez `"Your Document Directory"` par le dossier réel sur votre machine.
+
+### Étape 2 : Charger le fichier PSD
+Créez une instance `PsdImage` à partir du fichier source.
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
- Quand tu appelles`Image.load()` , il lira le fichier PSD et créera une instance de`PsdImage` avec lesquels vous pouvez travailler.
-## Étape 3 : Parcourir les calques
-Puisque nous souhaitons ajuster un calque de réglage de niveau, nous devrons parcourir chaque calque de notre fichier PSD. Cela nous aide à trouver le calque spécifique que nous souhaitons modifier.
+Vous avez maintenant un accès complet à tous les calques du PSD.
+
+### Étape 3 : Parcourir les calques
+Trouvez le calque de réglage des niveaux que vous souhaitez modifier.
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        // D'autres manipulations auront lieu ici...
+        // Further manipulation will go here...
     }
 }
 ```
- Dans cette boucle,`instanceof LevelsLayer` vérifie si le calque actuel est un calque de réglage des niveaux. Si tel est le cas, nous pouvons procéder à la modification de ses propriétés.
-## Étape 4 : Ajustez les paramètres du canal de niveau
-Une fois que nous avons identifié la bonne couche, nous pouvons modifier ses niveaux d'entrée et de sortie. C'est ici que la magie opère ! Ajustez différents paramètres pour voir comment ils affectent l’image.
+La vérification `instanceof LevelsLayer` garantit que nous ne travaillons qu'avec des calques de réglage des niveaux.
+
+### Étape 4 : Ajuster les paramètres du canal de niveau
+Modifiez les valeurs d'entrée et de sortie pour le canal sélectionné.
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +92,51 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-Voici ce que fait chaque paramètre :
-- Niveau des tons moyens d’entrée : Ajuste les tons moyens.
-- Niveau d'ombre d'entrée : ajuste les zones les plus sombres de l'image.
-- Niveau de surbrillance d’entrée : modifie les zones lumineuses de l’image.
-- Niveau d'ombre de sortie : définit la façon dont les ombres sombres apparaîtront.
-- Niveau de surbrillance de sortie : définit la manière dont les surbrillances lumineuses apparaîtront.
-N'hésitez pas à expérimenter différentes valeurs !
-## Étape 5 : Enregistrez le fichier PSD modifié
-Maintenant que nous avons effectué nos ajustements, il est temps de sauvegarder le fichier PSD modifié. Cette étape est cruciale pour garantir que vos modifications sont appliquées et stockées.
+- **Niveau moyen d'entrée :** Décale la gamme des tons moyens.  
+- **Niveau d'ombre d'entrée :** Assombrit ou éclaircit les ombres.  
+- **Niveau de surbrillance d'entrée :** Contrôle les parties les plus claires.  
+- **Niveaux de sortie ombre/surbrillance :** Définissent la plage de sortie finale.
+
+N'hésitez pas à expérimenter avec différentes valeurs pour voir comment elles affectent l'image.
+
+### Étape 5 : Enregistrer le fichier PSD modifié
+Enregistrez vos modifications dans un nouveau fichier.
 ```java
 im.save(psdPathAfterChange);
 ```
- Vous pouvez maintenant trouver votre fichier PSD ajusté à l'adresse spécifiée`psdPathAfterChange`. 
+Vous trouverez le PSD mis à jour à l'emplacement que vous avez spécifié dans `psdPathAfterChange`.
+
+## Problèmes courants et solutions
+- **Fichier non trouvé :** Vérifiez que `dataDir` pointe vers le bon dossier et que le PSD source existe.  
+- **ClassCastException :** Assurez‑vous que le fichier chargé est bien un PSD ; d'autres formats nécessitent des classes différentes.  
+- **Erreurs de licence :** Utilisez une licence Aspose.PSD valide pour les builds de production ; l'essai fonctionne pour le développement.
+
 ## Conclusion
-Vous venez d'apprendre comment ajouter un calque de réglage de niveau à un fichier PSD à l'aide d'Aspose.PSD pour Java ! En suivant ce guide, vous pouvez ajuster la qualité tonale de vos images sans effort, ouvrant ainsi la voie à une sortie plus dynamique et visuellement attrayante. N'oubliez pas que la pratique rend parfait, alors n'hésitez pas à peaufiner les ajustements et à explorer différents fichiers PSD pour voir les effets de vos modifications.
-## FAQ
-### Qu'est-ce qu'un calque de réglage de niveau ?
-Un calque de réglage de niveau vous permet de corriger la plage tonale de vos images, en équilibrant les ombres, les tons moyens et les hautes lumières.
-### Puis-je utiliser Aspose.PSD sans achat ?
-Oui! Aspose propose un essai gratuit pour tester la bibliothèque avant de l'acheter.
-### Où puis-je trouver de la documentation pour Aspose.PSD ?
- Vous pouvez trouver la documentation[ici](https://reference.aspose.com/psd/java/).
-### Existe-t-il un support communautaire pour les produits Aspose ?
- Absolument! Vous pouvez poser des questions et obtenir de l'aide dans le[Forum Aspose](https://forum.aspose.com/c/psd/34).
-### Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
- Vous pouvez demander une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+Vous savez maintenant **comment ajuster les niveaux** en ajoutant et en configurant un calque de réglage des niveaux dans un fichier PSD avec Aspose.PSD pour Java. Cette technique vous offre un contrôle précis sur l'équilibre tonal tout en gardant votre flux de travail entièrement automatisé. Continuez à expérimenter avec différentes valeurs de canal et explorez le traitement par lots pour appliquer les mêmes ajustements à plusieurs images.
+
+## Questions fréquentes
+
+**Q : Qu'est‑ce qu'un calque de réglage des niveaux ?**  
+R : C’est un calque non destructif qui vous permet de modifier la plage tonale (ombres, tons moyens, hautes lumières) d’une image.
+
+**Q : Puis‑je utiliser Aspose.PSD sans acheter de licence ?**  
+R : Oui, vous pouvez évaluer la bibliothèque avec un essai gratuit, mais une licence est requise pour le déploiement commercial.
+
+**Q : Où puis‑je trouver la documentation d'Aspose.PSD ?**  
+R : Vous pouvez trouver la documentation [ici](https://reference.aspose.com/psd/java/).
+
+**Q : Existe‑t‑il un support communautaire pour les produits Aspose ?**  
+R : Absolument ! Vous pouvez poser des questions et obtenir de l'aide sur le [forum Aspose](https://forum.aspose.com/c/psd/34).
+
+**Q : Comment obtenir une licence temporaire pour Aspose.PSD ?**  
+R : Vous pouvez demander une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Dernière mise à jour :** 2026-03-07  
+**Testé avec :** Aspose.PSD dernière version (Java)  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

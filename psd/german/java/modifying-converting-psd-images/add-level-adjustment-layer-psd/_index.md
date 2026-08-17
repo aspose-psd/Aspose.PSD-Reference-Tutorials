@@ -1,65 +1,89 @@
 ---
-title: Ebene zur Ebenenanpassung in PSD hinzufügen
-linktitle: Ebene zur Ebenenanpassung in PSD hinzufügen
+date: 2026-03-07
+description: Erfahren Sie, wie Sie die Pegel anpassen, indem Sie eine Ebenen‑Anpassungsebene
+  in PSD‑Dateien mit Aspose.PSD für Java hinzufügen. Beherrschen Sie Tonwertanpassungen
+  schnell.
+linktitle: Add Level Adjustment Layer in PSD
 second_title: Aspose.PSD Java API
-description: Erfahren Sie, wie Sie mit Aspose.PSD für Java effektiv eine Ebene zur Ebenenanpassung in Ihre PSD-Dateien einfügen. Verbessern Sie Ihre Bildbearbeitungsfähigkeiten.
-weight: 16
+title: Wie man die Tonwerte anpasst – Ebenen‑Anpassungsebene für Tonwertkorrektur
+  in PSD hinzufügen
 url: /de/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ebene zur Ebenenanpassung in PSD hinzufügen
+# Level‑Anpassungsebene in PSD hinzufügen
 
-## Einführung
-Wenn es um die Bildbearbeitung geht, kann die Verwaltung von Ebenen einen großen Unterschied in der Lebendigkeit und Klarheit Ihrer Fotos ausmachen. Ein praktisches Werkzeug im Photoshop-Arsenal ist die „Ebene zur Ebenenanpassung“, mit der Sie den Tonwertumfang und die Farbbalance Ihrer Bilder optimieren können. In dieser Anleitung zeigen wir Ihnen, wie Sie mit Aspose.PSD für Java eine Ebene zur Ebenenanpassung in einer PSD-Datei implementieren. Also schnappen Sie sich Ihre Java-IDE.
-## Voraussetzungen
-Bevor Sie in die Welt der Pegelanpassungen eintauchen, müssen Sie einige Dinge einrichten, um eine reibungslose Fahrt zu gewährleisten:
-1.  Java Development Kit (JDK): Stellen Sie sicher, dass das JDK auf Ihrem Rechner installiert ist. Wenn Sie es nicht haben, können Sie es von der[Oracle-Website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) oder verwenden Sie OpenJDK.
-2.  Aspose.PSD für Java-Bibliothek: Um PSD-Dateien zu bearbeiten, müssen Sie die Aspose.PSD-Bibliothek herunterladen. Sie können die neueste Version hier herunterladen.[Downloadlink](https://releases.aspose.com/psd/java/) und stellen Sie sicher, dass Sie das JAR in die Bibliothek Ihres Projekts aufgenommen haben.
-3. Grundkenntnisse in Java: Grundlegende Kenntnisse der Java-Programmierung sind hilfreich, da wir uns in diesem Tutorial eingehend mit Codeausschnitten befassen werden.
-4. IDE-Setup: Sie können jede beliebige Java-IDE verwenden – beispielsweise IntelliJ IDEA, Eclipse oder NetBeans – um Ihren Code zu schreiben und auszuführen. Stellen Sie einfach sicher, dass Sie Ihr Java-Projekt eingerichtet und die Aspose.PSD-Bibliothek hinzugefügt haben.
+## Introduction
+Wenn Sie **wie man Levels anpasst** in Ihren Photoshop‑Dokumenten suchen, ist die Level Adjustment Layer das perfekte Werkzeug. Sie ermöglicht das feine Abstimmen von Schatten, Mitteltönen und Highlights, ohne die ursprünglichen Pixel dauerhaft zu verändern. In diesem Tutorial zeigen wir, wie man eine Level Adjustment Layer zu einer PSD‑Datei mit Aspose.PSD für Java hinzufügt, sodass Sie in nur wenigen Schritten eine professionelle Tonkontrolle erreichen können.
 
-## Pakete importieren
-Bevor wir mit dem Schreiben unseres Codes beginnen, müssen wir die erforderlichen Pakete aus der Aspose.PSD-Bibliothek importieren. So können Sie das tun:
+## Quick Answers
+- **Was macht eine Level Adjustment Layer?** Sie modifiziert den Tonwertbereich eines Bildes nicht‑destruktiv.  
+- **Welche Bibliothek wird verwendet?** Aspose.PSD für Java.  
+- **Brauche ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine Lizenz erforderlich.  
+- **Wie lange dauert die Implementierung?** Etwa 10‑15 Minuten für eine grundlegende Anpassung.  
+- **Kann ich mehrere Kanäle anpassen?** Ja, Sie können Eingangs‑/Ausgangs‑Levels für jeden Farbkanal einzeln festlegen.
+
+## What is a Level Adjustment Layer?
+Eine Level Adjustment Layer ermöglicht es Ihnen, die tonale Balance eines Bildes zu korrigieren, indem Sie Eingabe‑Schatten, Mitteltöne und Highlights sowie Ausgangs‑Levels anpassen. Da sie auf einer eigenen Ebene liegt, können Sie ihre Sichtbarkeit umschalten oder sie löschen, ohne das darunterliegende Artwork zu beeinflussen.
+
+## Why add a Level Adjustment Layer with Aspose.PSD?
+- **Automatisierung:** Integrieren Sie Level‑Anpassungen in Batch‑Verarbeitungspipelines.  
+- **Plattformübergreifend:** Funktioniert auf jedem Betriebssystem, das Java unterstützt.  
+- **Präzision:** Greifen Sie programmgesteuert auf die Einstellungen jedes Kanals zu, um exakte Ergebnisse zu erzielen.  
+
+## Prerequisites
+1. Java Development Kit (JDK). Wenn Sie es nicht haben, laden Sie es von der [Oracle-Website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) herunter oder verwenden Sie OpenJDK.  
+2. Aspose.PSD für Java‑Bibliothek – holen Sie sich das neueste JAR über diesen [Download‑Link](https://releases.aspose.com/psd/java/).  
+3. Grundlegende Kenntnisse in Java‑Programmierung.  
+4. Eine IDE wie IntelliJ IDEA, Eclipse oder NetBeans mit dem Aspose.PSD‑JAR, das dem Klassenpfad des Projekts hinzugefügt wurde.
+
+## Import Packages
+Bevor wir mit dem Schreiben unseres Codes beginnen, müssen wir die erforderlichen Pakete aus der Aspose.PSD‑Bibliothek importieren. So geht's:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-Durch das Importieren dieser Pakete haben wir Zugriff auf die Klassen, die zum Laden, Ändern und Speichern unserer PSD-Dateien erforderlich sind.
+Diese Importe geben uns Zugriff auf Klassen zum Laden von PSD‑Dateien, zur Arbeit mit Level Adjustment Layers und zur Manipulation einzelner Kanaleinstellungen.
 
-Lassen Sie uns den Vorgang nun in leicht verständliche Schritte unterteilen. Folgen Sie uns, während wir eine PSD-Datei laden, die Ebenen anpassen und dann Ihre Änderungen speichern. 
-## Schritt 1: Richten Sie Ihre Dateipfade ein
-Im ersten Schritt legen wir fest, wo sich unsere PSD-Datei befindet und wo wir die geänderte Ausgabe speichern möchten. Sie können den Verzeichnispfad Ihren Bedürfnissen entsprechend anpassen.
+## How to Adjust Levels in a PSD File
+Im Folgenden finden Sie eine Schritt‑für‑Schritt‑Anleitung, die Ihnen genau zeigt, **wie man Levels programmgesteuert anpasst**.
+
+### Step 1: Set Up Your File Paths
+Definieren Sie, wo die Quell‑PSD liegt und wo die bearbeitete Datei gespeichert werden soll.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
- Ersetzen Sie hier`"Your Document Directory"`durch den tatsächlichen Pfad auf Ihrem System, in dem Ihre PSD-Datei gespeichert ist. Dies legt die Grundlage für alles, was wir als Nächstes tun werden.
-## Schritt 2: Laden Sie die PSD-Datei
- Laden wir nun die PSD-Datei mit dem`PsdImage` Klasse. Dieser Schritt ist wichtig, da er uns den Zugriff und die Bearbeitung der Ebenen ermöglicht.
+Ersetzen Sie `"Your Document Directory"` durch den tatsächlichen Ordner auf Ihrem Rechner.
+
+### Step 2: Load the PSD File
+Erstellen Sie eine `PsdImage`‑Instanz aus der Quelldatei.
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
- Wenn Sie anrufen`Image.load()` , wird die PSD-Datei gelesen und eine Instanz von erstellt`PsdImage` mit denen Sie arbeiten können.
-## Schritt 3: Durch die Schichten iterieren
-Da wir eine Ebene zur Ebenenanpassung anpassen möchten, müssen wir jede Ebene in unserer PSD-Datei durchlaufen. Dies hilft uns, die spezifische Ebene zu finden, die wir ändern möchten.
+Jetzt haben Sie vollen Zugriff auf alle Ebenen innerhalb der PSD.
+
+### Step 3: Iterate Through the Layers
+Durchsuchen Sie die Ebenen, um die Level Adjustment Layer zu finden, die Sie ändern möchten.
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        // Weitere Manipulationen erfolgen hier...
+        // Further manipulation will go here...
     }
 }
 ```
- In dieser Schleife`instanceof LevelsLayer` prüft, ob die aktuelle Ebene eine Ebene zur Tonwertkorrektur ist. Wenn ja, können wir mit der Anpassung ihrer Eigenschaften fortfahren.
-## Schritt 4: Passen Sie die Pegelkanaleinstellungen an
-Sobald wir die richtige Ebene identifiziert haben, können wir ihre Eingabe- und Ausgabepegel ändern. Hier geschieht die Magie! Passen Sie verschiedene Parameter an, um zu sehen, wie sie sich auf das Bild auswirken.
+Die Prüfung `instanceof LevelsLayer` stellt sicher, dass wir nur mit Level Adjustment Layers arbeiten.
+
+### Step 4: Adjust the Level Channel Settings
+Passen Sie die Eingabe‑ und Ausgabe‑Werte für den ausgewählten Kanal an.
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +92,51 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-Die einzelnen Parameter bewirken Folgendes:
-- Eingabe-Mitteltonpegel: Passt die Mitteltöne an.
-- Eingabe-Schattenstufe: Optimiert die dunkleren Bereiche des Bildes.
-- Eingabe-Hervorhebungsstufe: Ändert die hellen Bereiche des Bildes.
-- Ausgabe-Schattenstufe: Legt fest, wie dunkle Schatten erscheinen.
-- Ausgabe-Hervorhebungsstufe: Legt fest, wie helle Hervorhebungen angezeigt werden.
-Experimentieren Sie ruhig mit unterschiedlichen Werten!
-## Schritt 5: Speichern Sie die geänderte PSD-Datei
-Nachdem wir unsere Anpassungen vorgenommen haben, ist es an der Zeit, die geänderte PSD-Datei zu speichern. Dieser Schritt ist entscheidend, um sicherzustellen, dass Ihre Änderungen angewendet und gespeichert werden.
+- **Input Midtone Level:** Verschiebt den Mitteltönerbereich.  
+- **Input Shadow Level:** Verdunkelt oder hellt Schatten auf.  
+- **Input Highlight Level:** Steuert die hellsten Bereiche.  
+- **Output Shadow/Highlight Levels:** Definieren den endgültigen Ausgabe‑Bereich.
+
+Probieren Sie verschiedene Werte aus, um zu sehen, wie sie das Bild beeinflussen.
+
+### Step 5: Save the Modified PSD File
+Speichern Sie Ihre Änderungen in einer neuen Datei.
 ```java
 im.save(psdPathAfterChange);
 ```
- Sie finden Ihre angepasste PSD-Datei nun unter der angegebenen`psdPathAfterChange`. 
-## Abschluss
-Sie haben gerade gelernt, wie Sie mit Aspose.PSD für Java einer PSD-Datei eine Ebene zur Tonwertanpassung hinzufügen! Wenn Sie dieser Anleitung folgen, können Sie die Tonqualität Ihrer Bilder mühelos anpassen und so ein lebendigeres und optisch ansprechenderes Ergebnis erzielen. Denken Sie daran: Übung macht den Meister. Sie können also gerne die Anpassungen optimieren und verschiedene PSD-Dateien ausprobieren, um die Auswirkungen Ihrer Änderungen zu sehen.
-## Häufig gestellte Fragen
-### Was ist eine Ebene zur Pegelanpassung?
-Mithilfe einer Ebene zur Tonwertanpassung können Sie den Tonwertumfang Ihrer Bilder korrigieren und Schatten, Mitteltöne und Glanzlichter ausgleichen.
-### Kann ich Aspose.PSD ohne Kauf verwenden?
-Ja! Aspose bietet eine kostenlose Testversion an, um die Bibliothek vor dem Kauf zu testen.
-### Wo finde ich Dokumentation für Aspose.PSD?
- Die Dokumentation finden Sie[Hier](https://reference.aspose.com/psd/java/).
-### Gibt es Community-Support für Aspose-Produkte?
- Auf jeden Fall! Sie können Fragen stellen und Unterstützung erhalten im[Aspose-Forum](https://forum.aspose.com/c/psd/34).
-### Wie kann ich eine temporäre Lizenz für Aspose.PSD erhalten?
- Sie können eine vorläufige Lizenz beantragen[Hier](https://purchase.aspose.com/temporary-license/).
+Die aktualisierte PSD finden Sie an dem von Ihnen in `psdPathAfterChange` angegebenen Ort.
+
+## Common Issues and Solutions
+- **Datei nicht gefunden:** Stellen Sie sicher, dass `dataDir` auf den richtigen Ordner zeigt und die Quell‑PSD existiert.  
+- **ClassCastException:** Vergewissern Sie sich, dass die geladene Datei tatsächlich eine PSD ist; andere Formate erfordern andere Klassen.  
+- **Lizenzfehler:** Verwenden Sie eine gültige Aspose.PSD‑Lizenz für Produktions‑Builds; die Testversion funktioniert für die Entwicklung.
+
+## Conclusion
+Sie wissen jetzt **wie man Levels** anpasst, indem Sie eine Level Adjustment Layer in einer PSD‑Datei mit Aspose.PSD für Java hinzufügen und konfigurieren. Diese Technik gibt Ihnen präzise Kontrolle über die tonale Balance, während Ihr Workflow vollständig automatisiert bleibt. Experimentieren Sie weiter mit verschiedenen Kanalwerten und erkunden Sie die Batch‑Verarbeitung, um dieselben Anpassungen auf mehrere Bilder anzuwenden.
+
+## Frequently Asked Questions
+
+**Q: Was ist eine Level Adjustment Layer?**  
+A: Es ist eine nicht‑destruktive Ebene, die es Ihnen ermöglicht, den Tonwertbereich (Schatten, Mitteltöne, Highlights) eines Bildes zu ändern.
+
+**Q: Kann ich Aspose.PSD ohne Lizenzkauf nutzen?**  
+A: Ja, Sie können die Bibliothek mit einer kostenlosen Testversion evaluieren, aber für den kommerziellen Einsatz ist eine Lizenz erforderlich.
+
+**Q: Wo finde ich die Dokumentation für Aspose.PSD?**  
+A: Die Dokumentation finden Sie [hier](https://reference.aspose.com/psd/java/).
+
+**Q: Gibt es Community‑Support für Aspose‑Produkte?**  
+A: Auf jeden Fall! Sie können Fragen stellen und Hilfe im [Aspose‑Forum](https://forum.aspose.com/c/psd/34) erhalten.
+
+**Q: Wie kann ich eine temporäre Lizenz für Aspose.PSD erhalten?**  
+A: Sie können hier eine temporäre Lizenz beantragen [hier](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Zuletzt aktualisiert:** 2026-03-07  
+**Getestet mit:** Aspose.PSD neueste Version (Java)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

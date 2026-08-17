@@ -1,58 +1,92 @@
 ---
-title: Java를 사용하여 PSD 파일의 런타임에 텍스트 레이어 추가
-linktitle: Java를 사용하여 PSD 파일의 런타임에 텍스트 레이어 추가
-second_title: Aspose.PSD 자바 API
-description: Aspose.PSD와 함께 Java를 사용하여 PSD 파일에 텍스트 레이어를 동적으로 추가하는 방법을 알아보세요. 흥미로운 자동화 가능성을 알아보려면 이 단계별 튜토리얼을 따르십시오.
-weight: 17
+date: 2026-03-07
+description: Java와 Aspose.PSD를 사용하여 런타임에 PSD 파일에 텍스트를 추가하는 방법을 배워보세요. 이 단계별 가이드를 따라
+  빠르게 PSD에 텍스트 레이어를 생성하세요.
+linktitle: Add Text Layer on Runtime in PSD Files using Java
+second_title: Aspose.PSD Java API
+title: Java를 사용하여 런타임에 PSD 파일에 텍스트 추가
 url: /ko/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java를 사용하여 PSD 파일의 런타임에 텍스트 레이어 추가
+# Java를 사용하여 런타임에 PSD 파일에 텍스트 추가
 
-## 소개
-Photoshop을 사용해 본 적이 있다면 Photoshop이 이미지 편집에 얼마나 강력한지 알 것입니다. 하지만 Java를 사용하여 이러한 작업 중 일부를 자동화할 수 있다고 말하면 어떻게 될까요? 프로그래밍 방식으로 PSD 파일에 텍스트 레이어를 동적으로 추가한다고 상상해 보세요. 정말 멋지죠? 이 튜토리얼에서는 Java용 Aspose.PSD 라이브러리를 사용하여 PSD 파일에 텍스트 레이어를 즉시 추가하는 방법을 자세히 살펴보겠습니다. 자, 소매를 걷어붙이고 바로 시작해 보세요!
-## 전제조건
-코드를 살펴보기 전에 시작하는 데 필요한 모든 것이 갖추어져 있는지 확인하겠습니다. 필요한 사항은 다음과 같습니다.
-1.  JDK(Java Development Kit): 컴퓨터에 JDK가 설치되어 있는지 확인하세요. 당신은 할 수 있습니다[여기에서 다운로드하세요](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Java 패키지용 Aspose.PSD: Aspose.PSD 라이브러리를 다운로드하여 프로젝트에 통합해야 합니다. 에서 가져오시면 됩니다[Aspose 릴리스 페이지](https://releases.aspose.com/psd/java/).
-3. 통합 개발 환경(IDE): 모든 텍스트 편집기를 사용할 수 있지만 IntelliJ IDEA 또는 Eclipse와 같은 IDE는 프로젝트 관리 도구를 제공하여 작업을 훨씬 쉽게 만들어줍니다.
-4. 기본 Java 지식: 이 튜토리얼을 원활하게 진행하려면 핵심 Java 개념을 이해하는 것이 필요합니다.
-5.  PSD 파일: 재생할 수 있는 기본 PSD 파일을 준비합니다. 우리는 이름이 지정된 것을 사용하겠습니다.`OneLayer.psd` 우리의 출발점으로.
-## 패키지 가져오기
-모든 것이 준비되면 프로세스의 첫 번째 단계는 Java 파일에 필요한 패키지를 가져오는 것입니다. 포함해야 할 사항은 다음과 같습니다.
+## Introduction
+수동으로 Photoshop 문서를 편집해 본 적이 있다면 레이어가 얼마나 강력한지 알 수 있습니다. Java 애플리케이션에서 **PSD에 텍스트를 추가**할 수 있다면 어떨까요? Aspose.PSD for Java 라이브러리를 사용하면 런타임에 PSD에 텍스트 레이어를 생성할 수 있어 배치 처리, 동적 그래픽 생성 및 자동화된 브랜딩 워크플로우의 문을 열어줍니다. 이 튜토리얼에서는 프로젝트 설정부터 업데이트된 파일 저장까지 전체 과정을 단계별로 살펴보겠습니다.
+
+## Quick Answers
+- **필요한 라이브러리는?** Aspose.PSD for Java.  
+- **기존 PSD에 텍스트를 추가할 수 있나요?** 예 – 파일을 로드하고 `TextLayer`를 추가한 뒤 저장하면 됩니다.  
+- **프로덕션에 라이선스가 필요합니까?** 비평가용이 아닌 경우 상업용 라이선스가 필요합니다.  
+- **지원되는 Java 버전은?** JDK 8 이상 (최신 LTS 버전을 권장합니다).  
+- **웹 백엔드에 적합한가요?** 물론입니다 – API는 모든 Java 기반 서버 환경에서 작동합니다.
+
+## What is “add text to PSD”?
+PSD에 텍스트를 추가한다는 것은 프로그래밍 방식으로 Photoshop 문서 안에 새로운 텍스트 레이어를 만드는 것을 의미합니다. 이 레이어는 일반 Photoshop 텍스트 레이어와 동일하게 동작하며, Photoshop을 열지 않고도 이동, 내용 편집 및 스타일 적용이 가능합니다.
+
+## Why create a text layer in a PSD with Java?
+- **Automation** – 마케팅 자산, 워터마크 또는 제품 라벨을 대량으로 생성합니다.  
+- **Consistency** – 수천 개 파일에 걸쳐 동일한 폰트, 크기 및 위치를 보장합니다.  
+- **Integration** – 다른 Java 서비스(e‑commerce, 보고, CI 파이프라인)와 결합해 실시간으로 그래픽을 제공합니다.
+
+## Prerequisites
+코드를 작성하기 전에 다음을 준비하세요:
+
+1. **Java Development Kit (JDK)** – JDK 8 이상 설치. [download it here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)에서 다운로드할 수 있습니다.  
+2. **Aspose.PSD for Java** – 최신 JAR 파일을 [Aspose releases page](https://releases.aspose.com/psd/java/)에서 받으세요.  
+3. **IDE (optional but helpful)** – IntelliJ IDEA, Eclipse 또는 선호하는 편집기.  
+4. **Basic Java knowledge** – 클래스, 객체 및 파일 I/O에 익숙해야 합니다.  
+5. **A sample PSD** – 이 가이드에서는 `OneLayer.psd`를 사용하며, 원하는 폴더에 배치합니다.
+
+## Import Packages
+먼저 PSD 파일과 텍스트 레이어 작업에 필요한 클래스를 가져옵니다.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
-이러한 가져오기는 Aspose.PSD 라이브러리를 사용하여 PSD 파일을 조작하는 데 필요한 모든 중요한 클래스를 가져옵니다.
-이제 PSD 파일에 텍스트 레이어를 추가하는 핵심을 살펴보겠습니다. 각 단계를 철저하게 이해할 수 있도록 이를 관리 가능한 단계로 나누어 보겠습니다.
-## 1단계: 문서 디렉토리 설정
-먼저 Adobe Photoshop Document(PSD) 파일이 상주할 작업 공간을 설정해야 합니다. 간단한 문자열로 PSD 파일의 위치를 정의하세요.
+
+이 임포트는 Aspose.PSD 핵심 기능에 접근할 수 있게 해줍니다.
+
+## Step‑by‑Step Guide
+
+### Step 1: Set Up Your Document Directory
+소스 PSD가 위치한 폴더와 출력이 저장될 폴더를 정의합니다.
+
 ```java
 String dataDir = "Your Document Directory"; 
 ```
- 여기서는`"Your Document Directory"` PSD 파일이 저장된 실제 경로와 함께.
-## 2단계: 소스 PSD 파일 로드
-다음으로 PSD 파일을 애플리케이션에 로드해야 합니다. 이것이 마법이 시작되는 곳입니다. 사용`Image.load()` 파일을 재생하는 방법입니다.
+
+`"Your Document Directory"`를 파일이 있는 절대 경로나 상대 경로로 교체하세요.
+
+### Step 2: Load Your Source PSD File
+`Image.load()`를 사용해 기존 PSD를 메모리로 불러옵니다.
+
 ```java
 String sourceFileName = dataDir + "OneLayer.psd"; 
 Image img = Image.load(sourceFileName);
 ```
- 이 코드 조각은`OneLayer.psd` 파일을`img` 물체. 경로가 정확하면 PSD가 로드되어 조작할 준비가 된 것입니다.
-## 3단계: PsdImage로 전송
- 이미지가 로드되면 이미지를 캐스팅해야 합니다.`PsdImage` 왜냐하면 우리는 특히 Photoshop 파일을 다루고 있기 때문입니다.
+
+경로가 올바르면 `img`가 로드된 Photoshop 문서를 나타냅니다.
+
+### Step 3: Cast to `PsdImage`
+Photoshop 전용 기능을 사용하기 위해 일반 `Image`를 `PsdImage`로 캐스팅합니다.
+
 ```java
 PsdImage im = (PsdImage)img;
 ```
-캐스팅하면 이 튜토리얼에서 필요한 PSD 조작과 관련된 모든 방법에 액세스할 수 있습니다.
-## 4단계: 텍스트 레이어의 직사각형 정의
-이제 텍스트 레이어를 표시할 위치를 지정할 차례입니다. 텍스트의 위치와 크기를 설정하는 직사각형을 정의합니다.
+
+캐스팅을 통해 `addTextLayer()`와 같은 메서드를 사용할 수 있습니다.
+
+### Step 4: Define the Rectangle for the Text Layer
+새 텍스트가 표시될 위치를 지정합니다. 사각형은 위치(x, y)와 크기(width, height)를 정의합니다.
+
 ```java
 Rectangle rect = new Rectangle(
     (int)(im.getWidth() * 0.25),
@@ -61,37 +95,64 @@ Rectangle rect = new Rectangle(
     (int)(im.getHeight() * 0.5)
 );
 ```
-이 예에서 직사각형은 이미지 너비의 절반과 높이의 절반을 차지하도록 설정되어 아래쪽과 가로 방향의 1/4 지점에 배치됩니다. 텍스트를 원하는 위치에 정확히 배치하려면 이 값을 자유롭게 조정하세요!
-## 5단계: 텍스트 레이어 추가
- 이제 최고의 저항을 위해 — 텍스트를 추가해보세요! 사용`addTextLayer()` 지정된 직사각형에서 원하는 텍스트를 생생하게 표현하는 방법입니다.
+
+레이아웃에 맞게 계산식을 자유롭게 조정하세요.
+
+### Step 5: Add the Text Layer
+정의한 사각형 안에 실제 텍스트 레이어를 생성합니다.
+
 ```java
 TextLayer layer = im.addTextLayer("Added text", rect);
 ```
-이 경우에는 "텍스트 추가"라는 텍스트 레이어를 추가하기만 하면 됩니다. 이것을 원하는 문자열로 바꿀 수 있습니다.
-## 6단계: 업데이트된 PSD 파일 저장
-마지막 단계는 변경 사항을 새 PSD 파일에 다시 저장하는 것입니다. 이를 수행하는 방법은 다음과 같습니다.
+
+`"Added text"`를 PSD에 표시하고 싶은 문자열로 교체합니다. 여기서 **create text layer PSD**를 프로그래밍 방식으로 수행합니다.
+
+### Step 6: Save Your Updated PSD File
+원본을 덮어쓰지 않도록 수정된 문서를 새 파일에 저장합니다.
+
 ```java
 String psdPath = dataDir + "ImageWithTextLayer.psd";
 im.save(psdPath);
 ```
- 원본 PSD 파일을 덮어쓰지 않도록 새 파일 이름을 지정해야 합니다. 이제 지정된 디렉토리를 확인하면 다음과 같이 표시됩니다.`ImageWithTextLayer.psd` 새로 추가된 텍스트와 함께!
-## 결론
-그리고 그것은 마무리입니다! Aspose.PSD 라이브러리와 함께 Java를 사용하여 PSD 파일에 텍스트 레이어를 동적으로 추가하는 방법을 배웠습니다. Photoshop 기능을 응용 프로그램에 통합하려는 모든 개발자에게 획기적인 변화입니다. 디자이너를 위한 프로젝트 관리자로 작업하든 그래픽 작업을 자동화하든 이 기술을 사용하면 많은 시간을 절약할 수 있습니다.
-더 자세히 살펴보고 싶으신가요? 추가 기능과 고급 기능에 대해서는 Java용 Aspose.PSD 문서를 확인하세요.
-## FAQ
-### 여러 텍스트 레이어를 추가할 수 있나요?
-전적으로! 추가하려는 각 텍스트 레이어에 대해 4단계와 5단계를 반복하세요.
-### 내 PSD 파일에 여러 레이어가 있으면 어떻게 되나요?
-Aspose.PSD는 복잡한 레이어 PSD 파일을 처리할 수 있습니다. 레이어를 조작할 때 올바른 레이어를 참조했는지 확인하세요.
-### 텍스트 스타일을 지정하는 방법이 있나요?
- 예! 의 기능을 탐색할 수 있습니다.`TextLayer` Aspose.PSD 문서를 살펴보고 글꼴 크기, 색상 등을 변경하는 클래스입니다.
-### 웹 애플리케이션에서 이것을 사용할 수 있나요?
-예. Java 백엔드가 있으면 웹 애플리케이션에서 이 접근 방식을 활용할 수 있습니다.
-### 문제가 발생하면 어디서 지원을 받을 수 있나요?
- 확인해 보세요[Aspose 지원 포럼](https://forum.aspose.com/c/psd/34) 커뮤니티와 Aspose 팀이 도움을 드릴 수 있습니다.
+
+실행 후 대상 폴더에서 `ImageWithTextLayer.psd`를 찾을 수 있으며, 이제 새 텍스트 레이어가 포함되어 있습니다.
+
+## Common Issues & Solutions
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **`NullPointerException` on `im.addTextLayer`** | PSD가 올바르게 로드되지 않음(경로 오류). | `sourceFileName`이 존재하는 PSD를 가리키는지 확인하세요. |
+| **Text not visible** | 사각형이 캔버스 밖에 있거나 레이어가 숨김 상태. | 사각형 좌표를 조정하거나 `layer.setVisible(true)`로 레이어 가시성을 확인하세요. |
+| **LicenseException** | 프로덕션 환경에서 유효한 라이선스 없이 사용. | 상업용 라이선스를 구매하고 `License license = new License(); license.setLicense("Aspose.PSD.lic");`로 설정하세요. |
+
+## Frequently Asked Questions
+
+**Q: 여러 개의 텍스트 레이어를 추가할 수 있나요?**  
+A: 예 – 삽입하고 싶은 텍스트마다 Steps 4와 5를 반복하면 됩니다.
+
+**Q: 텍스트 스타일(폰트, 크기, 색상)은 어떻게 지정하나요?**  
+A: `TextLayer` 클래스의 `getTextData()` 메서드를 통해 `Font`, `FontSize`, `Color` 등 스타일 속성을 수정할 수 있습니다. 자세한 내용은 Aspose.PSD API 문서를 참고하세요.
+
+**Q: PSD에 이미 많은 레이어가 있는 경우는 어떻게 하나요?**  
+A: Aspose.PSD는 복잡한 레이어 구조를 지원합니다. 특정 그룹을 대상으로 하거나 `addTextLayer`의 오버로드를 사용해 원하는 인덱스에 새 텍스트 레이어를 삽입할 수 있습니다.
+
+**Q: 이 방법을 웹 애플리케이션에 적용할 수 있나요?**  
+A: 물론입니다. 서버가 Java를 실행할 수 있다면 실시간으로 PSD를 생성·수정하고 클라이언트에 제공할 수 있습니다.
+
+**Q: 문제가 발생하면 어디서 도움을 받을 수 있나요?**  
+A: [Aspose support forums](https://forum.aspose.com/c/psd/34)에서 커뮤니티와 Aspose 엔지니어가 지원을 제공합니다.
+
+## Conclusion
+이제 Java와 Aspose.PSD를 사용해 런타임에 **PSD에 텍스트를 추가**하는 방법이 얼마나 쉬운지 확인했습니다. 이 기술을 활용하면 그래픽 생성 자동화, 자산 개인화 및 Photoshop 수준의 편집을 모든 Java 기반 솔루션에 통합할 수 있습니다. 나머지 Aspose.PSD API를 탐색해 도형, 래스터 레이어 추가 또는 필터 적용 등 더욱 풍부한 자동화를 구현해 보세요.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose

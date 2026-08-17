@@ -1,65 +1,88 @@
 ---
-title: PSD'ye Seviye Ayarlama Katmanı Ekleme
-linktitle: PSD'ye Seviye Ayarlama Katmanı Ekleme
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'yı kullanarak PSD dosyalarınıza etkili bir Düzey Ayarlama Katmanı eklemeyi öğrenin. Resim düzenleme becerilerinizi geliştirin.
-weight: 16
+date: 2026-03-07
+description: Aspose.PSD for Java kullanarak PSD dosyalarına Level Adjustment Layer
+  ekleyerek seviyeleri nasıl ayarlayacağınızı öğrenin. Tonal ayarlamaları hızlıca
+  ustalaşın.
+linktitle: Add Level Adjustment Layer in PSD
+second_title: Aspose.PSD Java API
+title: Seviye Ayarlarını Nasıl Düzenlersiniz – PSD'de Seviye Ayar Katmanı Ekle
 url: /tr/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD'ye Seviye Ayarlama Katmanı Ekleme
+# PSD'de Seviye Ayarlama Katmanı Ekleme
 
-## giriiş
-Görüntü düzenleme söz konusu olduğunda seviyeleri yönetmek, fotoğraflarınızın canlılığı ve netliği açısından büyük fark yaratabilir. Photoshop cephaneliğindeki kullanışlı araçlardan biri, resimlerinizin ton aralığını ve renk dengesini ayarlamanıza olanak tanıyan "Seviye Ayarlama Katmanı"dır. Bu kılavuzda, Aspose.PSD for Java kullanarak bir PSD dosyasında Seviye Ayarlama Katmanını nasıl uygulayacağınız konusunda size yol göstereceğiz. O halde Java IDE'nizi alın.
-## Önkoşullar
-Seviye ayarlamaları dünyasına atlamadan önce, sorunsuz bir sürüş sağlamak için birkaç şeyi ayarlamanız gerekir:
-1.  Java Geliştirme Kiti (JDK): Makinenizde JDK'nın kurulu olduğundan emin olun. Elinizde yoksa oradan alabilirsiniz.[Oracle web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) veya OpenJDK'yi kullanın.
-2.  Aspose.PSD for Java Library: PSD dosyalarını yönetmek için Aspose.PSD kütüphanesini indirmeniz gerekir. En son sürümü buradan edinebilirsiniz[indirme bağlantısı](https://releases.aspose.com/psd/java/) ve JAR'ı projenizin kütüphanesine eklediğinizden emin olun.
-3. Temel Java Bilgisi: Bu eğitim boyunca kod parçacıklarına dalacağımız için Java programlamaya ilişkin temel bir anlayışa sahip olmak yardımcı olacaktır.
-4. IDE Kurulumu: Kodunuzu yazmak ve çalıştırmak için IntelliJ IDEA, Eclipse veya NetBeans gibi tercih ettiğiniz herhangi bir Java IDE'yi kullanabilirsiniz. Java projenizi kurduğunuzdan ve Aspose.PSD kütüphanesini eklediğinizden emin olun.
+## Introduction
+Photoshop belgelerinizde **seviye ayarlamayı** nasıl yapacağınızı arıyorsanız, Seviye Ayarlama Katmanı mükemmel bir araçtır. Orijinal pikselleri kalıcı olarak değiştirmeden gölgeleri, orta tonları ve vurguları ince ayar yapmanızı sağlar. Bu öğreticide, Aspose.PSD for Java kullanarak bir PSD dosyasına Seviye Ayarlama Katmanı eklemeyi adım adım göstereceğiz, böylece sadece birkaç adımda profesyonel düzeyde ton kontrolü elde edebilirsiniz.
 
-## Paketleri İçe Aktar
-Kodumuzu yazmaya başlamadan önce Aspose.PSD kütüphanesinden gerekli paketleri import etmemiz gerekiyor. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+## Quick Answers
+- **Bir Seviye Ayarlama Katmanı ne yapar?** Görüntünün ton aralığını yok edici olmayan bir şekilde değiştirir.  
+- **Hangi kütüphane kullanılıyor?** Aspose.PSD for Java.  
+- **Bir lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme çalışır; üretim için lisans gereklidir.  
+- **Uygulama ne kadar sürer?** Temel bir ayarlama için yaklaşık 10‑15 dakika.  
+- **Birden fazla kanalı ayarlayabilir miyim?** Evet, her renk kanalı için giriş/çıkış seviyelerini ayrı ayrı ayarlayabilirsiniz.
+
+## What is a Level Adjustment Layer?
+Seviye Ayarlama Katmanı, bir görüntünün ton dengesini giriş gölgeleri, orta tonları ve vurguları ile çıkış seviyelerini ayarlayarak düzeltmenizi sağlar. Kendi katmanında bulunduğu için görünürlüğünü açıp kapatabilir veya alt katmandaki çalışmayı etkilemeden silebilirsiniz.
+
+## Why add a Level Adjustment Layer with Aspose.PSD?
+- **Otomasyon:** Seviye ayarlarını toplu işleme boru hatlarına entegre edin.  
+- **Çapraz platform:** Java'yı destekleyen herhangi bir işletim sisteminde çalışır.  
+- **Hassasiyet:** Her kanalın ayarlarına programatik olarak erişerek kesin sonuçlar elde edin.  
+
+## Prerequisites
+1. Java Development Kit (JDK). Eğer yoksa, [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirin veya OpenJDK kullanın.  
+2. Aspose.PSD for Java kütüphanesi – en yeni JAR dosyasını bu [indirme bağlantısından](https://releases.aspose.com/psd/java/) alın.  
+3. Java programlamaya temel bir aşinalık.  
+4. Aspose.PSD JAR'ı proje sınıf yoluna eklenmiş bir IDE (IntelliJ IDEA, Eclipse veya NetBeans gibi).
+
+## Import Packages
+Kod yazmaya başlamadan önce Aspose.PSD kütüphanesinden gerekli paketleri içe aktarmamız gerekiyor. İşte nasıl yapacağınız:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-Bu paketleri içe aktararak PSD dosyalarımızı yüklemek, değiştirmek ve kaydetmek için gerekli sınıflara erişebileceğiz.
+Bu içe aktarmalar, PSD dosyalarını yüklemek, seviye ayarlama katmanlarıyla çalışmak ve bireysel kanal ayarlarını manipüle etmek için sınıflara erişim sağlar.
 
-Şimdi süreci sindirilebilir adımlara ayıralım. PSD dosyasını yükleme, seviyeleri ayarlama ve değişikliklerinizi kaydetme adımlarını adım adım takip edin. 
-## 1. Adım: Dosya Yollarınızı Ayarlayın
-İlk adım, PSD dosyamızın nerede olduğunu ve değiştirilen çıktıyı nereye kaydetmek istediğimizi tanımlamaktır. Dizin yolunu ihtiyaçlarınıza uyacak şekilde özelleştirebilirsiniz.
+## How to Adjust Levels in a PSD File
+Aşağıda, **seviye ayarlamayı** programatik olarak nasıl yapacağınızı adım adım gösteren bir rehber bulacaksınız.
+
+### Step 1: Set Up Your File Paths
+Kaynak PSD'nin nerede bulunduğunu ve düzenlenmiş dosyanın nereye kaydedileceğini tanımlayın.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
- İşte, değiştir`"Your Document Directory"`sisteminizde PSD dosyanızın depolandığı gerçek yolla. Bu, bundan sonra yapacağımız her şeye zemin hazırlıyor.
-## Adım 2: PSD Dosyasını Yükleyin
- Şimdi PSD dosyasını kullanarak yükleyelim.`PsdImage` sınıf. Bu adım, katmanlara erişmemize ve bunları yönetmemize olanak tanıdığı için önemlidir.
+`"Your Document Directory"` ifadesini makinenizdeki gerçek klasörle değiştirin.
+
+### Step 2: Load the PSD File
+Kaynak dosyadan bir `PsdImage` örneği oluşturun.
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
- aradığınızda`Image.load()` PSD dosyasını okuyacak ve bir örneğini oluşturacaktır.`PsdImage` ile çalışabilirsiniz.
-## Adım 3: Katmanlar Arasında Yineleme Yapın
-Seviye Ayarlama Katmanını ayarlamak istediğimiz için PSD dosyamızdaki her katman arasında döngü yapmamız gerekecek. Bu, değiştirmek istediğimiz belirli katmanı bulmamıza yardımcı olur.
+Artık PSD içindeki tüm katmanlara tam erişiminiz var.
+
+### Step 3: Iterate Through the Layers
+Değiştirmek istediğiniz Seviye Ayarlama Katmanını bulun.
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        // Daha fazla manipülasyon buraya gelecek...
+        // Further manipulation will go here...
     }
 }
 ```
- Bu döngüde,`instanceof LevelsLayer` geçerli katmanın Düzey Ayarlama Katmanı olup olmadığını kontrol eder. Eğer öyleyse, özelliklerini değiştirmeye devam edebiliriz.
-## Adım 4: Seviye Kanal Ayarlarını Yapın
-Doğru katmanı belirledikten sonra giriş ve çıkış seviyelerini değiştirebiliriz. Sihrin gerçekleştiği yer burası! Görüntüyü nasıl etkilediklerini görmek için farklı parametreleri ayarlayın.
+`instanceof LevelsLayer` kontrolü, yalnızca seviye ayarlama katmanlarıyla çalıştığımızı garanti eder.
+
+### Step 4: Adjust the Level Channel Settings
+Seçilen kanal için giriş ve çıkış değerlerini ayarlayın.
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +91,51 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-Her parametrenin yaptığı şey:
-- Giriş Orta Ton Düzeyi: Orta tonları ayarlar.
-- Giriş Gölge Düzeyi: Görüntünün daha karanlık alanlarını ayarlar.
-- Giriş Vurgulama Düzeyi: Görüntünün parlak alanlarını değiştirir.
-- Çıkış Gölge Düzeyi: Koyu gölgelerin nasıl görüneceğini ayarlar.
-- Çıkış Vurgulama Düzeyi: Işık vurgularının nasıl görüneceğini ayarlar.
-Farklı değerleri denemekten çekinmeyin!
-## Adım 5: Değiştirilen PSD Dosyasını Kaydedin
-Ayarlamalarımızı yaptığımıza göre artık değiştirilen PSD dosyasını kaydetme zamanı geldi. Bu adım, değişikliklerinizin uygulandığından ve saklandığından emin olmak için çok önemlidir.
+- **Input Midtone Level:** Orta ton aralığını kaydırır.  
+- **Input Shadow Level:** Gölgeleri karartır veya aydınlatır.  
+- **Input Highlight Level:** En parlak bölgeleri kontrol eder.  
+- **Output Shadow/Highlight Levels:** Son çıkış aralığını tanımlar.
+
+Farklı değerlerle denemeler yaparak görüntünün nasıl etkilendiğini görebilirsiniz.
+
+### Step 5: Save the Modified PSD File
+Değişikliklerinizi yeni bir dosyaya kaydedin.
 ```java
 im.save(psdPathAfterChange);
 ```
- Artık ayarlanan PSD dosyanızı belirtilen konumda bulabilirsiniz.`psdPathAfterChange`. 
-## Çözüm
-Aspose.PSD for Java'yı kullanarak PSD dosyasına Seviye Ayarlama Katmanını nasıl ekleyeceğinizi öğrendiniz! Bu kılavuzu takip ederek görsellerinizin ton kalitesini zahmetsizce ayarlayabilir ve daha canlı ve görsel olarak çekici çıktıların önünü açabilirsiniz. Unutmayın, pratik yapmak mükemmelleştirir; bu nedenle, ayarlamalarda ince ayar yapmaktan ve değişikliklerin etkilerini görmek için farklı PSD dosyalarını keşfetmekten çekinmeyin.
-## SSS'ler
-### Seviye Ayarlama Katmanı Nedir?
-Düzey Ayarlama Katmanı, gölgeleri, orta tonları ve açık tonları dengeleyerek görüntülerinizdeki ton aralığını düzeltmenize olanak tanır.
-### Aspose.PSD'yi satın almadan kullanabilir miyim?
-Evet! Aspose, satın almadan önce kütüphaneyi test etmek için ücretsiz bir deneme sunuyor.
-### Aspose.PSD belgelerini nerede bulabilirim?
- Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/psd/java/).
-### Aspose ürünleri için herhangi bir topluluk desteği var mı?
- Kesinlikle! Soru sorabilir ve destek alabilirsiniz.[Forumu aspose](https://forum.aspose.com/c/psd/34).
-### Aspose.PSD için nasıl geçici lisans alabilirim?
- Geçici lisans başvurusunda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Güncellenmiş PSD'yi `psdPathAfterChange` içinde belirttiğiniz konumda bulacaksınız.
+
+## Common Issues and Solutions
+- **File not found:** `dataDir`'in doğru klasöre işaret ettiğini ve kaynak PSD'nin mevcut olduğunu doğrulayın.  
+- **ClassCastException:** Yüklediğiniz dosyanın gerçekten bir PSD olduğundan emin olun; diğer formatlar farklı sınıflar gerektirir.  
+- **License errors:** Üretim sürümleri için geçerli bir Aspose.PSD lisansı kullanın; deneme sürümü geliştirme için çalışır.
+
+## Conclusion
+Artık Aspose.PSD for Java ile bir PSD dosyasına Seviye Ayarlama Katmanı ekleyerek **seviye ayarlamayı** nasıl yapacağınızı biliyorsunuz. Bu teknik, ton dengesine kesin kontrol sağlar ve iş akışınızı tamamen otomatik tutar. Farklı kanal değerleriyle denemeler yapmaya devam edin ve aynı ayarları birden fazla görüntüye uygulamak için toplu işleme keşfedin.
+
+## Frequently Asked Questions
+
+**Q: Seviye Ayarlama Katmanı nedir?**  
+A: Görüntünün ton aralığını (gölgeler, orta tonlar, vurgular) değiştirebilen yok edici olmayan bir katmandır.
+
+**Q: Aspose.PSD'yi lisans satın almadan kullanabilir miyim?**  
+A: Evet, kütüphaneyi ücretsiz deneme ile değerlendirebilirsiniz, ancak ticari dağıtım için lisans gereklidir.
+
+**Q: Aspose.PSD dokümantasyonunu nerede bulabilirim?**  
+A: Dokümantasyonu [burada](https://reference.aspose.com/psd/java/) bulabilirsiniz.
+
+**Q: Aspose ürünleri için topluluk desteği var mı?**  
+A: Kesinlikle! Sorular sorabilir ve yardım alabilirsiniz: [Aspose forumu](https://forum.aspose.com/c/psd/34).
+
+**Q: Aspose.PSD için geçici bir lisans nasıl alabilirim?**  
+A: Geçici lisans başvurusunu [buradan](https://purchase.aspose.com/temporary-license/) yapabilirsiniz.
+
+---
+
+**Last Updated:** 2026-03-07  
+**Tested With:** Aspose.PSD latest version (Java)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

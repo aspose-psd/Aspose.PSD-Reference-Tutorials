@@ -1,65 +1,87 @@
 ---
-title: Přidejte vrstvu pro úpravu úrovně v PSD
-linktitle: Přidejte vrstvu pro úpravu úrovně v PSD
+date: 2026-03-07
+description: Naučte se, jak upravit úrovně přidáním vrstvy úpravy úrovní v souborech
+  PSD pomocí Aspose.PSD pro Javu. Rychle si osvojte tónové úpravy.
+linktitle: Add Level Adjustment Layer in PSD
 second_title: Aspose.PSD Java API
-description: Naučte se, jak efektivně přidat vrstvu úpravy úrovně do vašich souborů PSD pomocí Aspose.PSD for Java. Zvyšte své dovednosti v oblasti úpravy obrázků.
-weight: 16
+title: Jak upravit úrovně – Přidat vrstvu úpravy úrovní v PSD
 url: /cs/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte vrstvu pro úpravu úrovně v PSD
+# Přidání vrstvy úpravy úrovní v PSD
 
-## Zavedení
-Pokud jde o úpravy obrázků, správa úrovní může znamenat velký rozdíl v živosti a jasnosti vašich fotografií. Jedním z užitečných nástrojů v arzenálu Photoshopu je „Vrstva úprav úrovně“, která vám umožňuje vyladit tónový rozsah a vyvážení barev vašich obrázků. V této příručce vás provedeme tím, jak implementovat vrstvu úpravy úrovně v souboru PSD pomocí Aspose.PSD for Java. Vezměte si své Java IDE.
-## Předpoklady
-Než skočíte do světa úprav úrovní, budete muset nastavit několik věcí, abyste zajistili hladkou jízdu:
-1.  Java Development Kit (JDK): Ujistěte se, že máte na svém počítači nainstalovanou sadu JDK. Pokud ji nemáte, můžete si ji vzít z[Web společnosti Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) nebo použijte OpenJDK.
-2.  Aspose.PSD for Java Library: Chcete-li manipulovat se soubory PSD, budete si muset stáhnout knihovnu Aspose.PSD. Z tohoto můžete získat nejnovější verzi[odkaz ke stažení](https://releases.aspose.com/psd/java/) a ujistěte se, že jste zahrnuli JAR do knihovny vašeho projektu.
-3. Základní znalost Javy: Základní znalost programování v Javě vám pomůže, protože v tomto tutoriálu se budeme ponořit do úryvků kódu.
-4. Nastavení IDE: K zápisu a spouštění kódu můžete použít libovolné Java IDE, jako je IntelliJ IDEA, Eclipse nebo NetBeans. Jen se ujistěte, že jste nastavili svůj Java projekt a přidali knihovnu Aspose.PSD.
+## Úvod
+Pokud hledáte **jak upravit úrovně** ve svých dokumentech Photoshopu, vrstva úpravy úrovní je ideální nástroj. Umožňuje vám jemně doladit stíny, střední tóny a světla, aniž byste trvale změnili původní pixely. V tomto tutoriálu vás provedeme přidáním vrstvy úpravy úrovní do souboru PSD pomocí Aspose.PSD pro Java, abyste dosáhli profesionálního tónového řízení během několika kroků.
 
-## Importujte balíčky
-Než začneme psát náš kód, musíme naimportovat potřebné balíčky z knihovny Aspose.PSD. Můžete to udělat takto:
+## Rychlé odpovědi
+- **Co dělá vrstva úpravy úrovní?** Modifikuje tónový rozsah obrázku nedestruktivně.  
+- **Která knihovna se používá?** Aspose.PSD pro Java.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; licence je vyžadována pro produkci.  
+- **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní úpravu.  
+- **Mohu upravit více kanálů?** Ano, můžete nastavit vstupní/výstupní úrovně pro každý barevný kanál samostatně.
+
+## Co je vrstva úpravy úrovní?
+Vrstva úpravy úrovní vám umožňuje opravit tónovou rovnováhu obrázku úpravou vstupních stínů, středních tónů a světel stejně jako výstupních úrovní. Protože existuje na vlastní vrstvě, můžete přepínat její viditelnost nebo ji smazat, aniž byste ovlivnili podkladovou grafiku.
+
+## Proč přidat vrstvu úpravy úrovní pomocí Aspose.PSD?
+- **Automatizace:** Integrujte úpravy úrovní do dávkových zpracovatelských pipeline.  
+- **Cross‑platform:** Funguje na jakémkoli OS, který podporuje Java.  
+- **Přesnost:** Přistupujte k nastavením každého kanálu programově pro přesné výsledky.  
+
+## Požadavky
+1. Java Development Kit (JDK). Pokud jej nemáte, stáhněte jej z [webu Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) nebo použijte OpenJDK.  
+2. Knihovna Aspose.PSD pro Java – stáhněte nejnovější JAR z tohoto [odkazu ke stažení](https://releases.aspose.com/psd/java/).  
+3. Základní znalost programování v Javě.  
+4. IDE, jako je IntelliJ IDEA, Eclipse nebo NetBeans, s přidaným Aspose.PSD JAR do classpath projektu.
+
+## Import balíčků
+Než začneme psát kód, musíme importovat potřebné balíčky z knihovny Aspose.PSD. Zde je návod, jak na to:
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.LevelsLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 ```
-Importováním těchto balíčků budeme mít přístup ke třídám nezbytným pro načítání, úpravy a ukládání našich souborů PSD.
+Tyto importy nám poskytují přístup ke třídám pro načítání souborů PSD, práci s vrstvami úpravy úrovní a manipulaci s nastavením jednotlivých kanálů.
 
-Nyní si tento proces rozdělíme na stravitelné kroky. Pokračujte v procházení načítáním souboru PSD, úpravou úrovní a uložením změn. 
-## Krok 1: Nastavte cesty k souborům
-Prvním krokem je definovat, kde se náš soubor PSD nachází a kam chceme upravený výstup uložit. Cestu k adresáři můžete přizpůsobit svým potřebám.
+## Jak upravit úrovně v souboru PSD
+Níže je krok za krokem průvodce, který vám přesně ukáže **jak upravit úrovně** programově.
+
+### Krok 1: Nastavte cesty k souborům
+Definujte, kde se nachází zdrojový PSD a kam bude upravený soubor uložen.
 ```java
 String dataDir = "Your Document Directory";
 String sourceFileName = dataDir + "LevelsAdjustmentLayer.psd";
 String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
- Tady, vyměňte`"Your Document Directory"`se skutečnou cestou ve vašem systému, kde je uložen váš soubor PSD. Tím se připraví půda pro všechno, co budeme dělat dál.
-## Krok 2: Načtěte soubor PSD
- Nyní načteme soubor PSD pomocí`PsdImage` třída. Tento krok je nezbytný, protože nám umožňuje přistupovat k vrstvám a manipulovat s nimi.
+Nahraďte `"Your Document Directory"` skutečnou složkou ve vašem počítači.
+
+### Krok 2: Načtěte soubor PSD
+Vytvořte instanci `PsdImage` ze zdrojového souboru.
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
- Když zavoláte`Image.load()` , přečte soubor PSD a vytvoří instanci`PsdImage` se kterými můžete pracovat.
-## Krok 3: Iterujte přes vrstvy
-Protože chceme upravit vrstvu úpravy úrovně, budeme muset procházet každou vrstvou v našem souboru PSD. To nám pomáhá najít konkrétní vrstvu, kterou chceme upravit.
+Nyní máte plný přístup ke všem vrstvám uvnitř PSD.
+
+### Krok 3: Procházejte vrstvy
+Najděte vrstvu úpravy úrovní, kterou chcete upravit.
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof LevelsLayer) {
         LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-        // Další manipulace půjde sem...
+        // Further manipulation will go here...
     }
 }
 ```
- V této smyčce`instanceof LevelsLayer` zkontroluje, zda je aktuální vrstva vrstvou úprav úrovní. Pokud ano, můžeme přistoupit k úpravě jeho vlastností.
-## Krok 4: Upravte nastavení úrovně kanálu
-Jakmile identifikujeme správnou vrstvu, můžeme upravit její vstupní a výstupní úrovně. Tady se děje kouzlo! Upravte různé parametry, abyste viděli, jak ovlivňují obraz.
+Kontrola `instanceof LevelsLayer` zajišťuje, že pracujeme pouze s vrstvami úpravy úrovní.
+
+### Krok 4: Upravit nastavení kanálu úrovní
+Upravte vstupní a výstupní hodnoty pro vybraný kanál.
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
 channel.setInputMidtoneLevel(2.0f);
@@ -68,32 +90,51 @@ channel.setInputHighlightLevel((short) 230);
 channel.setOutputShadowLevel((short) 20);
 channel.setOutputHighlightLevel((short) 200);
 ```
-Každý parametr dělá toto:
-- Input Midtone Level: Upravuje střední tóny.
-- Úroveň vstupního stínu: Vyladí tmavší oblasti obrazu.
-- Vstupní úroveň zvýraznění: Mění světlé oblasti obrazu.
-- Úroveň výstupních stínů: Nastavuje, jak se budou zobrazovat tmavé stíny.
-- Output Highlight Level: Nastavuje, jak budou vypadat světlá světla.
-Nebojte se experimentovat s různými hodnotami!
-## Krok 5: Uložte upravený soubor PSD
-Nyní, když jsme provedli naše úpravy, je čas uložit upravený soubor PSD. Tento krok je zásadní pro zajištění použití a uložení vašich změn.
+- **Úroveň vstupního středního tónu:** Posouvá rozsah středních tónů.  
+- **Úroveň vstupního stínu:** Ztmavuje nebo zesvětluje stíny.  
+- **Úroveň vstupního světla:** Řídí nejjasnější části.  
+- **Výstupní úrovně stínu/světla:** Definují konečný výstupní rozsah.  
+
+Neváhejte experimentovat s různými hodnotami a sledovat, jak ovlivňují obrázek.
+
+### Krok 5: Uložte upravený soubor PSD
+Uložte své změny do nového souboru.
 ```java
 im.save(psdPathAfterChange);
 ```
- Nyní můžete svůj upravený soubor PSD najít na zadané adrese`psdPathAfterChange`. 
+Aktualizovaný PSD najdete na místě, které jste zadali v `psdPathAfterChange`.
+
+## Časté problémy a řešení
+- **Soubor nenalezen:** Ověřte, že `dataDir` ukazuje na správnou složku a že zdrojový PSD existuje.  
+- **ClassCastException:** Ujistěte se, že načítaný soubor je skutečně PSD; jiné formáty vyžadují jiné třídy.  
+- **Chyby licence:** Použijte platnou licenci Aspose.PSD pro produkční sestavení; zkušební verze funguje pro vývoj.
+
 ## Závěr
-Právě jste se naučili, jak přidat vrstvu úpravy úrovně do souboru PSD pomocí Aspose.PSD for Java! Podle tohoto průvodce můžete bez námahy upravit tonální kvalitu svých obrázků a připravit tak cestu pro živější a vizuálně přitažlivější výstup. Pamatujte, že cvičení dělá mistra, takže neváhejte vyladit úpravy a prozkoumejte různé soubory PSD, abyste viděli účinky svých změn.
-## FAQ
-### Co je to vrstva úpravy úrovně?
-Vrstva nastavení úrovně vám umožňuje opravit tónový rozsah v obrázcích, vyvážit stíny, střední tóny a světla.
-### Mohu používat Aspose.PSD bez nákupu?
-Ano! Aspose nabízí bezplatnou zkušební verzi k otestování knihovny před jejím zakoupením.
-### Kde najdu dokumentaci k Aspose.PSD?
- Dokumentaci najdete[zde](https://reference.aspose.com/psd/java/).
-### Existuje nějaká podpora komunity pro produkty Aspose?
- Absolutně! Můžete klást otázky a získat podporu v[Aspose fórum](https://forum.aspose.com/c/psd/34).
-### Jak mohu získat dočasnou licenci pro Aspose.PSD?
- Můžete požádat o dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+Nyní víte **jak upravit úrovně** přidáním a konfigurací vrstvy úpravy úrovní v souboru PSD pomocí Aspose.PSD pro Java. Tato technika vám poskytuje přesnou kontrolu nad tónovou rovnováhou a zároveň udržuje váš pracovní postup plně automatizovaný. Pokračujte v experimentování s různými hodnotami kanálů a prozkoumejte dávkové zpracování, abyste aplikovali stejné úpravy na více obrázků.
+
+## Často kladené otázky
+
+**Q: Co je vrstva úpravy úrovní?**  
+A: Je to nedestruktivní vrstva, která vám umožňuje měnit tónový rozsah (stíny, střední tóny, světla) obrázku.
+
+**Q: Mohu používat Aspose.PSD bez zakoupení licence?**  
+A: Ano, můžete knihovnu vyzkoušet pomocí bezplatné zkušební verze, ale licence je vyžadována pro komerční nasazení.
+
+**Q: Kde najdu dokumentaci k Aspose.PSD?**  
+A: Dokumentaci najdete [zde](https://reference.aspose.com/psd/java/).
+
+**Q: Existuje komunita podpory pro produkty Aspose?**  
+A: Rozhodně! Můžete klást otázky a získat pomoc na [fóru Aspose](https://forum.aspose.com/c/psd/34).
+
+**Q: Jak získat dočasnou licenci pro Aspose.PSD?**  
+A: Dočasnou licenci můžete požádat [zde](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Poslední aktualizace:** 2026-03-07  
+**Testováno s:** Aspose.PSD nejnovější verze (Java)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

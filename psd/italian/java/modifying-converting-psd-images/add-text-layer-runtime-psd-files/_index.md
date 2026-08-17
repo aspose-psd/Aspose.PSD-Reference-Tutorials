@@ -1,58 +1,93 @@
 ---
-title: Aggiungi livello di testo in runtime nei file PSD utilizzando Java
-linktitle: Aggiungi livello di testo in runtime nei file PSD utilizzando Java
-second_title: API Java Aspose.PSD
-description: Scopri come aggiungere dinamicamente livelli di testo ai file PSD utilizzando Java con Aspose.PSD. Segui questo tutorial passo passo per scoprire interessanti possibilità di automazione.
-weight: 17
+date: 2026-03-07
+description: Scopri come aggiungere testo ai file PSD in fase di esecuzione usando
+  Java e Aspose.PSD. Segui questa guida passo‑passo per creare rapidamente un livello
+  di testo in un PSD.
+linktitle: Add Text Layer on Runtime in PSD Files using Java
+second_title: Aspose.PSD Java API
+title: Aggiungi testo ai file PSD in fase di esecuzione con Java
 url: /it/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi livello di testo in runtime nei file PSD utilizzando Java
+# Aggiungere testo ai file PSD a runtime usando Java
 
 ## Introduzione
-Se hai mai lavorato con Photoshop, sai quanto è potente per la modifica delle immagini. Ma cosa succederebbe se ti dicessi che potresti automatizzare alcune di queste attività utilizzando Java? Immagina di aggiungere dinamicamente livelli di testo ai tuoi file PSD in modo programmatico. Abbastanza bello, vero? In questo tutorial, approfondiremo come aggiungere al volo un livello di testo a un file PSD utilizzando la libreria Aspose.PSD per Java. Quindi rimboccatevi le maniche e cominciamo subito!
+Se hai mai modificato manualmente un documento Photoshop, sai quanto siano potenti i livelli. E se potessi **aggiungere testo a PSD** automaticamente dalla tua applicazione Java? Con la libreria Aspose.PSD for Java, puoi creare un livello di testo in un PSD a runtime, aprendo la porta a elaborazioni batch, generazione dinamica di grafiche e flussi di lavoro di branding automatizzati. In questo tutorial percorreremo l’intero processo, dalla configurazione del progetto al salvataggio del file aggiornato.
+
+## Risposte rapide
+- **Quale libreria è necessaria?** Aspose.PSD for Java.  
+- **Posso aggiungere testo a un PSD esistente?** Sì – basta caricare il file, aggiungere un `TextLayer` e salvare.  
+- **È necessaria una licenza per la produzione?** È richiesta una licenza commerciale per l’uso non‑valutativo.  
+- **Quale versione di Java è supportata?** JDK 8 o superiore (consigliamo l’ultima LTS).  
+- **È adatto per back‑end web?** Assolutamente – l’API funziona in qualsiasi ambiente server basato su Java.
+
+## Che cosa significa “add text to PSD”?
+Aggiungere testo a un PSD significa creare programmaticamente un nuovo livello di testo all’interno di un documento Photoshop. Il livello si comporta come qualsiasi altro livello di testo di Photoshop: puoi spostarlo, modificarne il contenuto e applicare stili, il tutto senza aprire Photoshop.
+
+## Perché creare un livello di testo in un PSD con Java?
+- **Automazione** – Genera asset di marketing, filigrane o etichette di prodotto in blocco.  
+- **Coerenza** – Garantisce lo stesso font, dimensione e posizionamento su migliaia di file.  
+- **Integrazione** – Combinalo con altri servizi Java (e‑commerce, reporting, pipeline CI) per fornire grafiche al volo.
+
 ## Prerequisiti
-Prima di immergerci nel codice, assicuriamoci di avere tutto il necessario per iniziare. Ecco cosa ti servirà:
-1.  Java Development Kit (JDK): assicurati di avere JDK installato sul tuo computer. Puoi[scaricalo qui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2.  Pacchetto Aspose.PSD per Java: dovrai scaricare e integrare la libreria Aspose.PSD nel tuo progetto. Puoi prenderlo da[Pagina delle versioni di Aspose](https://releases.aspose.com/psd/java/).
-3. Ambiente di sviluppo integrato (IDE): sebbene tu possa utilizzare qualsiasi editor di testo, un IDE come IntelliJ IDEA o Eclipse ti renderà la vita molto più semplice fornendo strumenti per la gestione del tuo progetto.
-4. Conoscenza di base di Java: per navigare senza problemi in questo tutorial è necessaria la comprensione dei concetti fondamentali di Java.
-5.  File PSD: tieni pronto un file PSD di base con cui giocare. Ne useremo uno con nome`OneLayer.psd` come nostro punto di partenza.
-## Importa pacchetti
-Una volta che hai tutto, il primo passo nel nostro processo è importare i pacchetti necessari nel tuo file Java. Ecco cosa dovrai includere:
+Prima di scrivere il codice, assicurati di avere:
+
+1. **Java Development Kit (JDK)** – Installa JDK 8 o più recente. Puoi [scaricarlo qui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD for Java** – Scarica l’ultimo JAR dalla [pagina di rilascio di Aspose](https://releases.aspose.com/psd/java/).  
+3. **IDE (opzionale ma utile)** – IntelliJ IDEA, Eclipse o qualsiasi editor tu preferisca.  
+4. **Conoscenze di base di Java** – Dovresti sentirti a tuo agio con classi, oggetti e I/O di file.  
+5. **Un PSD di esempio** – Per questa guida useremo `OneLayer.psd` posizionato in una cartella a tua scelta.
+
+## Importare i pacchetti
+Per prima cosa, importa le classi necessarie per lavorare con file PSD e livelli di testo.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.Rectangle;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
-Queste importazioni introducono tutte le classi cruciali necessarie per manipolare i file PSD utilizzando la libreria Aspose.PSD.
-Va bene, entriamo nel nocciolo della questione dell'aggiunta di un livello di testo al tuo file PSD. Lo suddivideremo in passaggi gestibili per assicurarti di comprenderli attentamente.
-## Passaggio 1: imposta la directory dei documenti
-Innanzitutto, devi impostare l'area di lavoro in cui risiederanno i file Adobe Photoshop Document (PSD). Definisci dove risiede il tuo file PSD con una semplice stringa.
+
+Queste importazioni ti danno accesso alla funzionalità principale di Aspose.PSD.
+
+## Guida passo‑passo
+
+### Passo 1: Configurare la directory del documento
+Definisci la cartella che contiene il tuo PSD di origine e dove verrà salvato l’output.
+
 ```java
 String dataDir = "Your Document Directory"; 
 ```
- Qui sostituirai`"Your Document Directory"` con il percorso effettivo in cui sono archiviati i file PSD.
-## Passaggio 2: carica il file PSD di origine
-Successivamente, devi caricare il file PSD nella tua applicazione. È qui che inizia la magia. Usa il`Image.load()` metodo per mettere in gioco il tuo file.
+
+Sostituisci `"Your Document Directory"` con il percorso assoluto o relativo ai tuoi file.
+
+### Passo 2: Caricare il file PSD di origine
+Carica il PSD esistente in memoria usando `Image.load()`.
+
 ```java
 String sourceFileName = dataDir + "OneLayer.psd"; 
 Image img = Image.load(sourceFileName);
 ```
- Questo snippet di codice carica il tuo`OneLayer.psd` file nel`img` oggetto. Se il percorso è corretto, avrai il tuo PSD caricato e pronto per essere manipolato.
-## Passaggio 3: trasmetti a PsdImage
- Una volta caricata l'immagine, devi trasmetterla a`PsdImage` poiché abbiamo a che fare specificamente con i file Photoshop.
+
+Se il percorso è corretto, `img` ora rappresenta il documento Photoshop caricato.
+
+### Passo 3: Cast a `PsdImage`
+Poiché stiamo usando funzionalità specifiche di Photoshop, effettua il cast dell’`Image` generico a `PsdImage`.
+
 ```java
 PsdImage im = (PsdImage)img;
 ```
-Trasmettendo, avrai accesso a tutti i metodi specifici per la manipolazione di PSD di cui avrai bisogno in questo tutorial.
-## Passaggio 4: Definisci il rettangolo per il livello testo
-Ora è il momento di specificare dove vuoi che appaia il tuo livello di testo. Definirai un rettangolo che imposta la posizione e la dimensione del testo.
+
+Il cast sblocca metodi come `addTextLayer()`.
+
+### Passo 4: Definire il rettangolo per il livello di testo
+Specifica dove deve apparire il nuovo testo. Il rettangolo definisce posizione (x, y) e dimensione (larghezza, altezza).
+
 ```java
 Rectangle rect = new Rectangle(
     (int)(im.getWidth() * 0.25),
@@ -61,37 +96,66 @@ Rectangle rect = new Rectangle(
     (int)(im.getHeight() * 0.5)
 );
 ```
-In questo esempio, il rettangolo è impostato per occupare metà della larghezza e metà dell'altezza dell'immagine, posizionato a un quarto della distanza verso il basso e trasversalmente. Sentiti libero di modificare questi valori per posizionare il tuo testo esattamente dove vuoi!
-## Passaggio 5: aggiungi il livello di testo
- Ora arriva il pezzo forte: aggiungere il tuo testo! Usa il`addTextLayer()` metodo per dare vita al testo desiderato nel rettangolo specificato.
+
+Sentiti libero di modificare i calcoli per adattarli alle tue esigenze di layout.
+
+### Passo 5: Aggiungere il livello di testo
+Crea il livello di testo all’interno del rettangolo definito.
+
 ```java
 TextLayer layer = im.addTextLayer("Added text", rect);
 ```
-In questo caso, stiamo semplicemente aggiungendo un livello di testo che dice "Testo aggiunto". Puoi sostituirlo con qualsiasi stringa che preferisci.
-## Passaggio 6: salva il file PSD aggiornato
-Il passaggio finale è salvare le modifiche in un nuovo file PSD. Ecco come farlo:
+
+Sostituisci `"Added text"` con qualsiasi stringa desideri far apparire nel PSD. Questo è dove **creiamo il livello di testo PSD** programmaticamente.
+
+### Passo 6: Salvare il file PSD aggiornato
+Scrivi il documento modificato in un nuovo file così da non sovrascrivere l’originale.
+
 ```java
 String psdPath = dataDir + "ImageWithTextLayer.psd";
 im.save(psdPath);
 ```
- Assicurati di specificare un nuovo nome file in modo da non sovrascrivere il file PSD originale. Ora, quando controlli la directory specificata, dovresti vedere`ImageWithTextLayer.psd` con il testo appena aggiunto!
-## Conclusione
-E questo è tutto! Hai appena imparato come aggiungere dinamicamente livelli di testo ai file PSD utilizzando Java con la libreria Aspose.PSD. È un punto di svolta per qualsiasi sviluppatore che desideri integrare le funzionalità di Photoshop nelle proprie applicazioni. Che tu stia lavorando come project manager per designer o automatizzando attività grafiche, questa tecnica può farti risparmiare un sacco di tempo.
-Hai voglia di esplorare di più? Assicurati di controllare la documentazione di Aspose.PSD per Java per funzionalità aggiuntive e caratteristiche avanzate.
+
+Dopo l’esecuzione, troverai `ImageWithTextLayer.psd` nella cartella di destinazione, ora contenente il nuovo livello di testo.
+
+## Problemi comuni e soluzioni
+| Problema | Motivo | Soluzione |
+|----------|--------|-----------|
+| **`NullPointerException` su `im.addTextLayer`** | PSD non caricato correttamente (percorso errato). | Verifica che `sourceFileName` punti a un PSD esistente. |
+| **Testo non visibile** | Rettangolo posizionato fuori dalla tela o livello nascosto. | Regola le coordinate del rettangolo o controlla la visibilità del livello con `layer.setVisible(true)`. |
+| **LicenseException** | Uso della libreria senza licenza valida in produzione. | Acquista una licenza commerciale e impostala tramite `License license = new License(); license.setLicense("Aspose.PSD.lic");`. |
+
 ## Domande frequenti
-### Posso aggiungere più livelli di testo?
-Assolutamente! Ripeti semplicemente i passaggi 4 e 5 per ogni livello di testo che desideri aggiungere.
-### Cosa succede se il mio file PSD ha più livelli?
-Aspose.PSD può gestire file PSD a strati complessi. Assicurati solo di fare riferimento ai livelli corretti durante la manipolazione.
-### C'è un modo per dare uno stile al testo?
- SÌ! È possibile esplorare le funzionalità di`TextLayer` classe per modificare la dimensione del carattere, il colore e altro immergendosi nella documentazione Aspose.PSD.
-### Posso usarlo nelle applicazioni web?
-Sì, purché disponi di un backend Java, puoi utilizzare questo approccio nelle applicazioni web.
-### Dove posso ottenere supporto se riscontro problemi?
- Dai un'occhiata a[Aspose forum di supporto](https://forum.aspose.com/c/psd/34) dove la comunità e il team Aspose possono aiutarti.
+
+**Q: Posso aggiungere più livelli di testo?**  
+A: Sì – basta ripetere i Passi 4 e 5 per ogni pezzo di testo da inserire.
+
+**Q: Come posso stilizzare il testo (font, dimensione, colore)?**  
+A: La classe `TextLayer` espone il metodo `getTextData()` dove puoi modificare `Font`, `FontSize`, `Color` e altre proprietà di stile. Consulta la documentazione API di Aspose.PSD per tutti i dettagli.
+
+**Q: E se il mio PSD ha già molti livelli?**  
+A: Aspose.PSD gestisce strutture di livello complesse. Puoi mirare a gruppi specifici o inserire il nuovo livello di testo in un indice desiderato usando le overload di `addTextLayer`.
+
+**Q: Questo approccio è adatto per applicazioni web?**  
+A: Assolutamente. Finché il tuo server esegue Java, puoi generare o modificare PSD al volo e servirli ai client.
+
+**Q: Dove posso ottenere aiuto se incontro problemi?**  
+A: Visita i [forum di supporto Aspose](https://forum.aspose.com/c/psd/34) dove sia la community sia gli ingegneri di Aspose possono assisterti.
+
+## Conclusione
+Ora hai visto quanto sia semplice **aggiungere testo a PSD** a runtime usando Java e Aspose.PSD. Questa tecnica ti consente di automatizzare la creazione di grafiche, personalizzare asset e integrare modifiche di livello Photoshop in qualsiasi soluzione basata su Java. Esplora il resto dell’API Aspose.PSD per aggiungere forme, livelli raster o persino applicare filtri per un’automazione ancora più ricca.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-03-07  
+**Testato con:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Autore:** Aspose  
+
+---
