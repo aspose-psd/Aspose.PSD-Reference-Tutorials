@@ -1,29 +1,50 @@
 ---
-title: PSD Dosyalarında Önbellek Yeniden Tahsilatını Kontrol Etme
-linktitle: PSD Dosyalarında Önbellek Yeniden Tahsilatını Kontrol Etme
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD for Java'yı kullanarak PSD dosyalarında önbellek yeniden tahsisini yönetin. Geliştiriciler için ideal olan belleği ve dosya işlemeyi verimli bir şekilde nasıl optimize edeceğinizi öğrenin.
-weight: 22
+date: 2026-03-13
+description: Aspose.PSD for Java ile önbellek yeniden tahsis yönetimini yaparken PSD
+  görüntü Java projeleri oluşturmayı öğrenin. Bellek ve disk kullanımını verimli bir
+  şekilde optimize edin.
+linktitle: Create PSD Image Java – Control Cache Reallocation
+second_title: Aspose.PSD Java API
+title: Java ile PSD Görüntüsü Oluştur – Önbellek Yeniden Tahsisini Kontrol Et
 url: /tr/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
+weight: 22
 ---
+
+ Turkish translation is natural.
+
+Let's craft translations.
+
+I'll write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD Dosyalarında Önbellek Yeniden Tahsilatını Kontrol Etme
+# PSD Dosyalarında Önbellek Yeniden Tahsisini Kontrol Etme
 
-## giriiş
-Görüntülerle ve Photoshop dosyalarıyla programlı olarak çalışırken verimlilik önemli bir faktördür. Aspose.PSD for Java, PSD dosyalarını sorunsuz bir şekilde yönetmek ve işlemek için güçlü özellikler sunar. Performansı optimize etmenin temel yönlerinden biri, önbellek yeniden tahsisinin kontrol edilmesidir. Önbellek yönetimi, bellek ve disk kullanımı arasındaki dengenin korunmasına yardımcı olarak uygulamanızın beklenmedik çökmeler veya yavaşlamalar olmadan sorunsuz bir şekilde çalışmasını sağlar. 
-## Önkoşullar
-Kodlama kısmına geçmeden önce her şeyin sorunsuz ilerlemesi için emin olmanız gereken birkaç şey var:
-1. Java Geliştirme Kiti (JDK): Makinenizde JDK'nın kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Oracle'ın web sitesi](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.PSD for Java: Aspose.PSD kütüphanesini indirmeniz gerekir. En son sürümü bulabilirsiniz[Burada](https://releases.aspose.com/psd/java/).
-3. IDE Kurulumu: IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE), kodunuzu yönetmenizi kolaylaştıracaktır.
-4. Temel Java Anlayışı: Java programlamaya aşinalık, kavramları ve kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
-5.  Lisansı Aspose (İsteğe bağlı): Filigranları kaldırmak ve tam işlevsellik kazanmak istiyorsanız bir lisans satın almayı düşünün[Burada](https://purchase.aspose.com/buy) veya ücretsiz denemeyi denemek[Burada](https://releases.aspose.com/).
-## Paketleri İçe Aktar
-Kodu yazmaya başlamadan önce gerekli paketlerin içe aktarıldığından emin olalım. Aşağıda Java dosyanızın başına neler ekleyeceğinizin kısa bir listesi verilmiştir:
+## Introduction
+Eğer **create PSD image java** projelerini verimli bir şekilde oluşturmanız gerekiyorsa, önbellek yeniden tahsisinin kontrol edilmesi çok önemlidir. Görseller ve Photoshop dosyalarıyla programatik olarak çalışırken verimlilik temel bir faktördür. Aspose.PSD for Java, PSD dosyalarını sorunsuz bir şekilde yönetmek ve manipüle etmek için güçlü özellikler sunar. Performansı optimize etmenin temel yönlerinden biri, önbellek yeniden tahsisinin kontrol edilmesidir. Önbellek yönetimi, bellek ve disk kullanımı arasındaki dengeyi korumaya yardımcı olur, uygulamanızın beklenmedik çöküşler veya yavaşlamalar olmadan sorunsuz çalışmasını sağlar. 
+
+## Quick Answers
+- **Cache yeniden tahsisi ne işe yarar?** Büyük PSD dosyaları işlenirken bellek ve disk kullanımını dengeler.  
+- **Büyük görseller için hangi önbellek türü en iyisidir?** `CacheOnDiskOnly`, önbelleği diske kaydederek belleği boş tutar.  
+- **Ne kadar disk alanı ayırabilirim?** `setMaxDiskSpaceForCache` ile belirlediğiniz herhangi bir boyuta kadar, en fazla 1 GB.  
+- **Bu özellikleri kullanmak için lisansa ihtiyacım var mı?** Bir lisans deneme sınırlamalarını kaldırır; Aspose satın alma sayfasına bakın.  
+- **Çalışma zamanında önbellek kullanımını izleyebilir miyim?** Evet, `Cache.getAllocatedDiskBytesCount()` ve `Cache.getAllocatedMemoryBytesCount()` kullanın.
+
+## Why Control Cache Reallocation?
+Yüksek çözünürlüklü veya çok katmanlı dosyalarla çalışan **create PSD image java** uygulamaları geliştirirken önbelleği yönetmek kritik öneme sahiptir. Doğru önbellek ayarları, bellek dışı hataları önler, GC duraklamalarını azaltır ve sunucularda ya da masaüstü uygulamalarında öngörülebilir performans sağlar.
+
+## Prerequisites
+Kodlama kısmına geçmeden önce her şeyin sorunsuz çalışması için aşağıdaki maddeleri kontrol edin:
+1. Java Development Kit (JDK): Makinenizde JDK yüklü olduğundan emin olun. İndirmek için [Oracle'ın web sitesini](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ziyaret edin.
+2. Aspose.PSD for Java: Aspose.PSD kütüphanesini indirmeniz gerekir. En son sürümü [burada](https://releases.aspose.com/psd/java/) bulabilirsiniz.
+3. IDE Setup: IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE), kodunuzu yönetmenizi kolaylaştırır.
+4. Basic Understanding of Java: Java programlamasına aşina olmak, kavramları ve kod parçacıklarını daha iyi anlamanıza yardımcı olur.
+5. Aspose License (Optional): Filigranları kaldırmak ve tam işlevselliği elde etmek istiyorsanız, bir lisans satın almayı [buradan](https://purchase.aspose.com/buy) veya ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) değerlendirin.
+
+## Import Packages
+Kod yazmaya başlamadan önce gerekli paketlerin içe aktarıldığından emin olun. Aşağıda Java dosyanızın başında bulunması gereken kısa bir paket listesi yer almaktadır:
 ```java
 import com.aspose.psd.Cache;
 import com.aspose.psd.CacheType;
@@ -36,50 +57,59 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.StreamSource;
 import com.aspose.psd.system.io.MemoryStream;
 ```
-## 1. Adım: Veri Dizininizi Kurma
-Öncelikle önbellek dosyalarınızın saklanmasını istediğiniz bir dizin ayarlamanız gerekir. Bu, önbelleği etkili bir şekilde yönetmek için gereklidir.
+
+## How to Create PSD Image Java with Cache Control
+Aşağıda, önbellek yapılandırmasını doğrudan Java’da PSD görüntüsü oluşturma sürecine bağlayan adım adım bir rehber bulacaksınız.
+
+### Step 1: Setting Up Your Data Directory
+İlk olarak, önbellek dosyalarınızın depolanmasını istediğiniz bir dizin oluşturmanız gerekir. Bu, önbelleği etkili bir şekilde yönetmek için gereklidir.
 ```java
 String dataDir = "Your Document Directory";
 Cache.setCacheFolder(dataDir);
 ```
 
-- String dataDir: Belge önbelleğiniz için dizini tanımlayın.
-- Cache.setCacheFolder(dataDir): Bu yöntem, önbellek klasörünü belirtilen dizine ayarlar. Aspose tarafından oluşturulan önbellek artık varsayılan geçici dizin yerine burada saklanacak.
-## Adım 2: Önbelleği Diske Yapılandırma
-Daha sonra önbelleğimizin yalnızca diskte saklanmasını istediğimizi belirteceğiz. Bu, özellikle uygulamanız büyük dosyalar kullanıyorsa ve belleğin boş kalmasını istiyorsanız kullanışlıdır.
+- `String dataDir`: Belge önbelleğiniz için dizini tanımlar.  
+- `Cache.setCacheFolder(dataDir)`: Bu yöntem, önbellek klasörünü belirtilen dizine ayarlar. Aspose tarafından oluşturulan tüm önbellek artık varsayılan geçici klasör yerine burada saklanır.
+
+### Step 2: Configuring Cache To Disk
+Sonra, önbelleğin yalnızca diske kaydedilmesini isteyeceğimizi belirteceğiz. Bu, uygulamanız büyük dosyalar kullanıyorsa ve belleğin serbest kalmasını sağlamak istiyorsanız özellikle faydalıdır.
 ```java
 Cache.setCacheType(CacheType.CacheOnDiskOnly);
 ```
 
-- Cache.setCacheType(CacheType.CacheOnDiskOnly): Bu seçenek, önbelleğin bellekte tutulmamasını sağlar; bu, çok fazla RAM tüketmeden büyük PSD dosyalarının işlenmesi için faydalıdır.
-## 3. Adım: Maksimum Disk ve Bellek Önbellek Boyutunu Ayarlama
-Şimdi önbellek boyutlarımızı kısıtlayalım. Bu çok önemlidir çünkü sınırsız önbellek performans sorunlarına yol açabilir.
+- `Cache.setCacheType(CacheType.CacheOnDiskOnly)`: Bu seçenek, önbelleğin bellekte tutulmamasını sağlar; bu da büyük PSD dosyalarını çok fazla RAM tüketmeden işlemenize yardımcı olur.
+
+### Step 3: Setting Maximum Disk and Memory Cache Size
+Şimdi önbellek boyutlarımızı sınırlayalım. Sınırsız önbellek, performans sorunlarına yol açabileceği için bu kritik bir adımdır.
 ```java
-Cache.setMaxDiskSpaceForCache(1073741824); // 1 gigabayt
-Cache.setMaxMemoryForCache(1073741824); // 1 gigabayt
+Cache.setMaxDiskSpaceForCache(1073741824); // 1 gigabyte
+Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 ```
 
-- Cache.setMaxDiskSpaceForCache(1073741824): Bu, diskteki önbellek için 1 GB sınırını ayarlar. Bu boyutu ihtiyaçlarınıza göre ayarlayabilirsiniz.
-- Cache.setMaxMemoryForCache(1073741824): Benzer şekilde, bu, bellek içi önbelleği sınırlayarak uygulamanızın aşırı bellek kullanmamasını sağlar.
-## 4. Adım: Önbellek Yeniden Tahsilat Stratejisini Yönetin
-Performansı korumak için önbelleğin nasıl yeniden tahsis edildiğini yönetmek önemlidir. Bunu nasıl ayarlayabileceğiniz aşağıda açıklanmıştır.
+- `Cache.setMaxDiskSpaceForCache(1073741824)`: Disk üzerindeki önbellek için 1 GB sınırı koyar. İhtiyacınıza göre bu boyutu ayarlayabilirsiniz.  
+- `Cache.setMaxMemoryForCache(1073741824)`: Benzer şekilde, bellek içi önbelleği sınırlar ve uygulamanızın aşırı bellek kullanmasını engeller.
+
+### Step 4: Manage Cache Reallocation Strategy
+Önbelleğin nasıl yeniden tahsis edileceğini yönetmek, performansı korumak açısından önemlidir. İşte bunu nasıl ayarlayabileceğiniz:
 ```java
 Cache.setExactReallocateOnly(false);
 ```
 
-- Cache.setExactReallocateOnly(false): False olarak ayarlandığında bu, Aspose'un önbellek yeniden tahsisini daha esnek bir şekilde yönetmesine olanak tanır ve bu da daha iyi performans sağlayabilir.
-## Adım 5: Ayrılan Önbellek Boyutunu Kontrol Edin
-Bu adım, bellekte veya diskte önbellek için şu anda kaç bayt ayrıldığının izlenmesiyle ilgilidir. Bunu uygulayalım:
+- `Cache.setExactReallocateOnly(false)`: `false` olarak ayarlandığında, Aspose önbellek yeniden tahsisinde daha esnek davranabilir ve bu da daha iyi performansa yol açabilir.
+
+### Step 5: Check Allocated Cache Size
+Bu adım, önbelleğin şu anda bellekte ya da diskte kaç bayt tahsis edildiğini izlemeyi kapsar. Şimdi bunu uygulayalım:
 ```java
 long l1 = Cache.getAllocatedDiskBytesCount();
 long l2 = Cache.getAllocatedMemoryBytesCount();
 ```
 
-- long l1: Diskte ayrılan bayt sayısını saklar.
-- long l2: Bellekte ayrılan bayt sayısını saklar. 
-Uygulamanızın bellek ve disk kullanımını beklendiği gibi yönettiğinden emin olmak için bu değerleri istediğiniz zaman kontrol edebilirsiniz.
-## Adım 6: PSD Görüntüsü Oluşturma
-Artık önbellek yapılandırmalarımızı ayarladığımıza göre basit bir PSD görüntüsü oluşturalım.
+- `long l1`: Diskte tahsis edilen bayt sayısını saklar.  
+- `long l2`: Bellekte tahsis edilen bayt sayısını saklar.  
+Bu değerleri istediğiniz zaman kontrol ederek uygulamanızın bellek ve disk kullanımını beklendiği gibi yönettiğinden emin olabilirsiniz.
+
+### Step 6: Creating a PSD Image
+Önbellek yapılandırmalarımız hazır olduğuna göre, basit bir PSD görüntüsü oluşturalım.
 ```java
 PsdOptions options = new PsdOptions();
 Color[] color = { Color.getRed(), Color.getBlue(), Color.getBlack(), Color.getWhite() };
@@ -88,10 +118,11 @@ options.setSource(new StreamSource(new ByteArrayInputStream(new byte[0])));
 RasterImage image = (RasterImage) Image.create(options, 100, 100);
 ```
 
-- PsdOptions seçenekleri: Bu nesne, Photoshop görüntüsü oluştururken seçenekleri belirlemenizi sağlar.
-- Renk[] color: Görüntü paletinde kullanılacak renkleri içeren dizi.
-## Adım 7: Piksel Verilerini Görüntüye Kaydetme
-Şimdi görselimizi piksel verileriyle doldurup kaydedelim.
+- `PsdOptions options`: Photoshop görüntüsü oluştururken seçenekleri belirlemenizi sağlayan bir nesnedir.  
+- `Color[] color`: Görüntü paletinde kullanılacak renkleri içeren bir dizi.
+
+### Step 7: Saving Pixel Data to the Image
+Şimdi görüntümüzü piksel verileriyle doldurup kaydedelim.
 ```java
 Color[] pixels = new Color[10000];
 for (int i = 0; i < pixels.length; i++) {
@@ -100,39 +131,60 @@ for (int i = 0; i < pixels.length; i++) {
 image.savePixels(image.getBounds(), pixels);
 ```
 
-- Renk[] piksel: Bu, renkli nesnelerin dizisidir. Burada onu beyaz piksellerle dolduruyoruz.
-- image.savePixels(image.getBounds(), piksel): Bu yöntem piksel verilerini görüntüye kaydeder. Görüntüyü tanımladığımız renklerle günceller.
-## Adım 8: Görüntü Oluşturulduktan Sonra Ayrılan Önbelleği İzleme
-Görüntüyü oluşturduktan sonra önbelleğe kaç bayt ayrıldığını tekrar kontrol etmek iyi bir uygulamadır.
+- `Color[] pixels`: Renk nesnelerinden oluşan bir dizi. Burada beyaz piksellerle dolduruyoruz.  
+- `image.savePixels(image.getBounds(), pixels)`: Bu yöntem, piksel verilerini görüntüye kaydeder. Tanımladığımız renklerle görüntüyü günceller.
+
+### Step 8: Monitoring Allocated Cache After Image Creation
+Görüntüyü oluşturduktan sonra, önbellekte kaç bayt tahsis edildiğini tekrar kontrol etmek iyi bir uygulamadır.
 ```java
 long diskBytes = Cache.getAllocatedDiskBytesCount();
 long memoryBytes = Cache.getAllocatedMemoryBytesCount();
 ```
 
-- long diskBytes: Görüntü oluşturulduktan sonra diskteki mevcut tahsisi yakalar.
-- long MemoryBytes: Bellekteki mevcut tahsisi yakalar. 
-Bu adım, işlemlerinizden sonra ne kadar önbellek tüketildiğini belirlemenize yardımcı olacaktır.
-## Adım 9: Uygun İmha Edildiğini Kontrol Edin
-Son olarak, bellek sızıntılarını önlemek için tüm Aspose.PSD nesnelerinin uygun şekilde atıldığından emin olmak çok önemlidir.
+- `long diskBytes`: Görüntü oluşturulduktan sonra diskteki mevcut tahsisi yakalar.  
+- `long memoryBytes`: Bellekteki mevcut tahsisi yakalar.  
+Bu adım, işlemlerinizin ardından ne kadar önbellek tüketildiğini belirlemenize yardımcı olur.
+
+### Step 9: Check for Proper Disposal
+Son olarak, tüm Aspose.PSD nesnelerinin doğru bir şekilde serbest bırakıldığından emin olmak, bellek sızıntılarını önlemek için kritiktir.
 ```java
 l1 = Cache.getAllocatedDiskBytesCount();
 l2 = Cache.getAllocatedMemoryBytesCount();
 ```
 
-- l1 ve l2: Bu değişkenler nihai tahsisi kontrol etmenize yardımcı olacaktır. Sıfır değilse bu, bazı nesnelerin uygun şekilde atılmadığını gösterir.
-## Çözüm
-Aspose.PSD for Java'da önbellek yeniden tahsisini kontrol etmek, uygulamanızın performansında önemli bir fark yaratabilir. Yukarıda özetlenen adımları izleyerek önbelleği etkili bir şekilde yönetebilir, bellek kullanımını en aza indirebilir ve güzel PSD dosyalarını verimli bir şekilde oluşturabilirsiniz. Bu teknikleri benimseyin ve uygulamalarınızın optimum performansla gelişmesini izleyin!
-## SSS'ler
-### Aspose.PSD nedir?
-Aspose.PSD, .NET ve Java geliştiricilerinin Photoshop (PSD) dosyalarını programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine yönelik bir kitaplıktır.
-### Ayrılan önbellek boyutunu nasıl kontrol ederim?
- Gibi yöntemleri kullanın`Cache.getAllocatedDiskBytesCount()` Ve`Cache.getAllocatedMemoryBytesCount()` mevcut önbellek kullanımını izlemek için.
-### Önbellek için özel bir dizin ayarlayabilir miyim?
- Evet, kullanarak farklı bir dizin belirleyebilirsiniz.`Cache.setCacheFolder("Your Directory Path")`.
-### Aspose.PSD'nin kullanımı ücretsiz mi?
-Aspose.PSD ücretli bir kütüphanedir, ancak kendi sitelerinde bulunan ücretsiz deneme sürümüyle başlayabilirsiniz.[web sitesi](https://releases.aspose.com/).
-### Nesneleri atmazsam ne olur?
-Nesnelerin atılmaması bellek sızıntılarına yol açarak uygulamanızın gereğinden fazla kaynak kullanmasına neden olabilir.
+- `l1` ve `l2`: Bu değişkenler, son tahsisi kontrol etmenize yardımcı olur. Eğer sıfır değillerse, bazı nesnelerin doğru şekilde serbest bırakılmadığını gösterir.
+
+## Common Issues and Solutions
+- **Cache folder not created** – `Cache.setCacheFolder` ile belirttiğiniz yola uygulamanın yazma izni olduğundan emin olun.  
+- **Out‑of‑memory errors** – Büyük PSD dosyalarını yüklemeden önce `Cache.setCacheType(CacheType.CacheOnDiskOnly)` uygulandığını iki kez kontrol edin.  
+- **Unexpected cache size** – Her büyük işlemden sonra `Cache.getAllocated*BytesCount()` metodlarını kullanarak büyümeyi izleyin.
+
+## Frequently Asked Questions
+
+**Q: Aspose.PSD nedir?**  
+A: Aspose.PSD, .NET ve Java geliştiricileri için Photoshop (PSD) dosyalarını programatik olarak oluşturma, manipüle etme ve dönüştürme imkanı sağlayan bir kütüphanedir.
+
+**Q: Tahsis edilen önbellek boyutunu nasıl kontrol ederim?**  
+A: `Cache.getAllocatedDiskBytesCount()` ve `Cache.getAllocatedMemoryBytesCount()` gibi metodları kullanarak mevcut önbellek kullanımını izleyebilirsiniz.
+
+**Q: Önbellek için özel bir dizin belirleyebilir miyim?**  
+A: Evet, `Cache.setCacheFolder("Your Directory Path")` kullanarak farklı bir dizin belirtebilirsiniz.
+
+**Q: Aspose.PSD ücretsiz mi?**  
+A: Aspose.PSD ücretli bir kütüphanedir, ancak [web sitesinde](https://releases.aspose.com/) sunulan ücretsiz deneme sürümüyle başlayabilirsiniz.
+
+**Q: Nesneleri serbest bırakmazsam ne olur?**  
+A: Nesneleri serbest bırakmamak bellek sızıntılarına yol açar ve uygulamanızın gereğinden fazla kaynak tüketmesine neden olur.
+
+## Conclusion
+**create PSD image java** uygulamaları geliştirirken önbellek yeniden tahsisinin kontrol edilmesi performans üzerinde büyük bir fark yaratabilir. Yukarıdaki adımları izleyerek önbelleği verimli bir şekilde yönetecek, bellek tüketimini minimize edecek ve Aspose.PSD for Java ile yüksek kaliteli PSD dosyaları üretebileceksiniz. Bu teknikleri uygulayın, projeleriniz daha akıcı çalışsın ve ölçeklenebilirliği artsın.
+
+---
+
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

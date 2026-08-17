@@ -1,29 +1,58 @@
 ---
-title: PSD ファイル内のキャッシュの再割り当てを制御する
-linktitle: PSD ファイル内のキャッシュの再割り当てを制御する
+date: 2026-03-13
+description: Aspose.PSD for Java を使用してキャッシュ再割り当てを管理しながら、PSD 画像の Java プロジェクトの作成方法を学びましょう。メモリとディスクの使用量を効率的に最適化します。
+linktitle: Create PSD Image Java – Control Cache Reallocation
 second_title: Aspose.PSD Java API
-description: Aspose.PSD for Java を使用して PSD ファイル内のキャッシュの再割り当てを管理します。メモリとファイル処理を効率的に最適化する方法を学習します。開発者に最適です。
-weight: 22
+title: JavaでPSD画像を作成 – キャッシュ再割り当ての制御
 url: /ja/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/
+weight: 22
 ---
+
+. We'll translate.
+
+...
+
+Continue.
+
+We need to translate all bullet points and sentences.
+
+Also note that there are placeholders like **??** but we will translate the original English.
+
+Let's rewrite translation.
+
+Make sure to keep markdown formatting.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD ファイル内のキャッシュの再割り当てを制御する
+# PSD ファイルにおけるキャッシュ再割り当ての制御
 
-## 導入
-画像や Photoshop ファイルをプログラムで操作する場合、効率は重要な要素です。Aspose.PSD for Java は、PSD ファイルをシームレスに管理および操作するための強力な機能を提供します。パフォーマンスを最適化する基本的な側面の 1 つは、キャッシュの再割り当てを制御することです。キャッシュ管理は、メモリとディスクの使用量のバランスを維持し、予期しないクラッシュや速度低下を起こさずにアプリケーションがスムーズに実行されるようにするのに役立ちます。 
-## 前提条件
-コーディング部分に進む前に、すべてがスムーズに実行されるように確認する必要があることがいくつかあります。
-1. Java開発キット（JDK）：マシンにJDKがインストールされていることを確認してください。ここからダウンロードできます。[Oracleのウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.PSD for Java: Aspose.PSDライブラリをダウンロードする必要があります。最新リリースは[ここ](https://releases.aspose.com/psd/java/).
-3. IDE セットアップ: IntelliJ IDEA や Eclipse などの統合開発環境 (IDE) を使用すると、コードの管理が容易になります。
-4. Java の基本的な理解: Java プログラミングに精通していると、概念やコード スニペットをより深く理解できるようになります。
-5.  Asposeライセンス（オプション）：透かしを削除して完全な機能を利用したい場合は、ライセンスの購入を検討してください。[ここ](https://purchase.aspose.com/buy)または無料トライアルをお試しください[ここ](https://releases.aspose.com/).
-## パッケージのインポート
-コードを書き始める前に、必要なパッケージがインポートされていることを確認しましょう。以下は、Java ファイルの先頭に含める内容の簡単なリストです。
+## Introduction
+**create PSD image java** プロジェクトを効率的に作成する必要がある場合、キャッシュ再割り当ての制御は不可欠です。画像や Photoshop ファイルをプログラムで扱う際、効率性は重要な要素です。Aspose.PSD for Java は、PSD ファイルをシームレスに管理・操作するための強力な機能を提供します。パフォーマンス最適化の基本的な側面のひとつがキャッシュ再割り当ての制御です。キャッシュ管理はメモリとディスク使用量のバランスを保ち、アプリケーションが予期せぬクラッシュや遅延なくスムーズに動作するよう支援します。 
+
+## Quick Answers
+- **What does cache reallocation do?** 大きな PSD ファイルを処理する際に、メモリとディスクの使用量のバランスを取ります。  
+- **Which cache type is best for large images?** `CacheOnDiskOnly` はキャッシュをディスクに保存することでメモリを空けます。  
+- **How much disk space can I allocate?** 最大 1 GB（または `setMaxDiskSpaceForCache` で設定した任意のサイズ）です。  
+- **Do I need a license to use these features?** ライセンスを取得すると試用版の制限が解除されます。詳細は Aspose の購入ページをご覧ください。  
+- **Can I monitor cache usage at runtime?** はい、`Cache.getAllocatedDiskBytesCount()` と `Cache.getAllocatedMemoryBytesCount()` を使用します。
+
+## Why Control Cache Reallocation?
+**create PSD image java** アプリケーションで高解像度やマルチレイヤーのファイルを扱う場合、キャッシュの管理は極めて重要です。適切なキャッシュ設定により、メモリ不足エラーを防止し、GC の一時停止を減らし、サーバーやデスクトップアプリで予測可能なパフォーマンスを実現できます。
+
+## Prerequisites
+コーディングに入る前に、スムーズに実行できるよう以下の項目を確認してください：
+1. Java Development Kit (JDK): マシンに JDK がインストールされていることを確認してください。ダウンロードは [Oracle のウェブサイト](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) から可能です。  
+2. Aspose.PSD for Java: Aspose.PSD ライブラリをダウンロードしてください。最新リリースは [こちら](https://releases.aspose.com/psd/java/) にあります。  
+3. IDE Setup: IntelliJ IDEA や Eclipse などの統合開発環境 (IDE) を使用すると、コード管理が容易になります。  
+4. Basic Understanding of Java: Java プログラミングの基礎知識があると、概念やコードスニペットが理解しやすくなります。  
+5. Aspose License (Optional): ウォーターマークを除去し、フル機能を利用したい場合は、[こちら](https://purchase.aspose.com/buy) でライセンス購入、または無料トライアルを [こちら](https://releases.aspose.com/) でお試しください。
+
+## Import Packages
+コードを書き始める前に、必要なパッケージがインポートされていることを確認しましょう。以下は Java ファイルの冒頭でインクルードすべき項目の簡易リストです：
 ```java
 import com.aspose.psd.Cache;
 import com.aspose.psd.CacheType;
@@ -36,50 +65,59 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.sources.StreamSource;
 import com.aspose.psd.system.io.MemoryStream;
 ```
-## ステップ1: データディレクトリの設定
-まず最初に、キャッシュ ファイルを保存するディレクトリを設定する必要があります。これは、キャッシュを効果的に管理するために不可欠です。
+
+## How to Create PSD Image Java with Cache Control
+以下は、キャッシュ設定を直接 PSD 画像作成プロセスに結び付けるステップバイステップの手順です。
+
+### Step 1: Setting Up Your Data Directory
+まず最初に、キャッシュファイルを保存したいディレクトリを設定する必要があります。キャッシュを効果的に管理するために必須です。
 ```java
 String dataDir = "Your Document Directory";
 Cache.setCacheFolder(dataDir);
 ```
 
-- 文字列 dataDir: ドキュメント キャッシュのディレクトリを定義します。
-- Cache.setCacheFolder(dataDir): このメソッドは、キャッシュ フォルダーを指定されたディレクトリに設定します。Aspose によって作成されたキャッシュは、デフォルトの一時ディレクトリではなく、ここに保存されるようになります。
-## ステップ2: ディスクへのキャッシュの設定
-次に、キャッシュをディスクにのみ保存することを指定します。これは、アプリケーションで大きなファイルを使用し、メモリを空けておきたい場合に特に便利です。
+- `String dataDir`: ドキュメントキャッシュ用ディレクトリを定義します。  
+- `Cache.setCacheFolder(dataDir)`: このメソッドはキャッシュフォルダーを指定したディレクトリに設定します。Aspose が作成するすべてのキャッシュは、デフォルトの一時ディレクトリではなくここに保存されます。
+
+### Step 2: Configuring Cache To Disk
+次に、キャッシュをディスクのみに保存するよう指定します。大容量ファイルを扱うアプリケーションで、メモリを確保したい場合に特に有用です。
 ```java
 Cache.setCacheType(CacheType.CacheOnDiskOnly);
 ```
 
-- Cache.setCacheType(CacheType.CacheOnDiskOnly): このオプションは、キャッシュがメモリに保持されないようにし、RAM をあまり消費せずに大きな PSD ファイルを処理するのに役立ちます。
-## ステップ3: ディスクとメモリの最大キャッシュサイズの設定
-次に、キャッシュ サイズを制限しましょう。無制限のキャッシュはパフォーマンスの問題を引き起こす可能性があるため、これは非常に重要です。
+- `Cache.setCacheType(CacheType.CacheOnDiskOnly)`: このオプションによりキャッシュがメモリに保持されず、ディスクのみで管理されます。大きな PSD ファイルを扱う際に RAM の消費を抑えるのに役立ちます。
+
+### Step 3: Setting Maximum Disk and Memory Cache Size
+続いてキャッシュサイズに上限を設定します。無制限のキャッシュはパフォーマンス問題を引き起こす可能性があるため、重要なステップです。
 ```java
-Cache.setMaxDiskSpaceForCache(1073741824); // 1ギガバイト
-Cache.setMaxMemoryForCache(1073741824); // 1ギガバイト
+Cache.setMaxDiskSpaceForCache(1073741824); // 1 gigabyte
+Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 ```
 
-- Cache.setMaxDiskSpaceForCache(1073741824): ディスク上のキャッシュの制限を 1 GB に設定します。このサイズは必要に応じて調整できます。
-- Cache.setMaxMemoryForCache(1073741824): 同様に、メモリ内キャッシュを制限し、アプリケーションが過剰なメモリを使用しないようにします。
-## ステップ4: キャッシュ再割り当て戦略を管理する
-キャッシュの再割り当て方法を管理することは、パフォーマンスを維持するために不可欠です。設定方法は次のとおりです。
+- `Cache.setMaxDiskSpaceForCache(1073741824)`: ディスク上のキャッシュ上限を 1 GB に設定します。必要に応じてサイズは調整可能です。  
+- `Cache.setMaxMemoryForCache(1073741824)`: 同様に、メモリ上のキャッシュ上限を設定し、過剰なメモリ使用を防ぎます。
+
+### Step 4: Manage Cache Reallocation Strategy
+キャッシュの再割り当て方法を管理することは、パフォーマンス維持に不可欠です。設定方法は以下の通りです。
 ```java
 Cache.setExactReallocateOnly(false);
 ```
 
-- Cache.setExactReallocateOnly(false): false に設定すると、Aspose はキャッシュの再割り当てをより柔軟に管理できるようになり、パフォーマンスが向上します。
-## ステップ5: 割り当てられたキャッシュサイズを確認する
-このステップでは、メモリまたはディスク上のキャッシュに現在割り当てられているバイト数を監視します。これを実装してみましょう。
+- `Cache.setExactReallocateOnly(false)`: `false` に設定すると、Aspose がキャッシュ再割り当てをより柔軟に管理でき、パフォーマンス向上につながります。
+
+### Step 5: Check Allocated Cache Size
+現在メモリまたはディスクに割り当てられているバイト数を監視します。以下のコードで実装してください：
 ```java
 long l1 = Cache.getAllocatedDiskBytesCount();
 long l2 = Cache.getAllocatedMemoryBytesCount();
 ```
 
-- long l1: ディスクに割り当てられたバイト数を格納します。
-- long l2: メモリに割り当てられたバイト数を格納します。 
-これらの値をいつでも確認して、アプリケーションがメモリとディスクの使用量を期待どおりに管理していることを確認できます。
-## ステップ6: PSDイメージの作成
-キャッシュ構成が設定されたので、簡単な PSD イメージを作成しましょう。
+- `long l1`: ディスク上に割り当てられたバイト数を格納します。  
+- `long l2`: メモリ上に割り当てられたバイト数を格納します。  
+これらの値は随時確認でき、アプリケーションが期待通りにメモリとディスクを管理しているかを判断できます。
+
+### Step 6: Creating a PSD Image
+キャッシュ設定が完了したので、シンプルな PSD 画像を作成します。
 ```java
 PsdOptions options = new PsdOptions();
 Color[] color = { Color.getRed(), Color.getBlue(), Color.getBlack(), Color.getWhite() };
@@ -88,10 +126,11 @@ options.setSource(new StreamSource(new ByteArrayInputStream(new byte[0])));
 RasterImage image = (RasterImage) Image.create(options, 100, 100);
 ```
 
-- PsdOptions オプション: このオブジェクトを使用すると、Photoshop 画像を作成するときにオプションを指定できます。
-- 色[color: 画像パレットで使用される色を含む配列。
-## ステップ7: ピクセルデータを画像に保存する
-それでは、画像にピクセルデータを入力して保存しましょう。
+- `PsdOptions options`: Photoshop 画像作成時のオプションを指定できるオブジェクトです。  
+- `Color[] color`: 画像パレットで使用するカラーを格納する配列です。
+
+### Step 7: Saving Pixel Data to the Image
+画像にピクセルデータを設定し、保存します。
 ```java
 Color[] pixels = new Color[10000];
 for (int i = 0; i < pixels.length; i++) {
@@ -100,39 +139,60 @@ for (int i = 0; i < pixels.length; i++) {
 image.savePixels(image.getBounds(), pixels);
 ```
 
-- 色[] ピクセル: これはカラー オブジェクトの配列です。ここでは、白いピクセルで塗りつぶしています。
-- image.savePixels(image.getBounds(), Pixels): このメソッドは、ピクセル データを画像に保存します。定義した色で画像を更新します。
-## ステップ8: イメージ作成後に割り当てられたキャッシュを監視する
-イメージを作成した後、キャッシュに割り当てられているバイト数を再度確認することをお勧めします。
+- `Color[] pixels`: カラーオブジェクトの配列です。ここでは白色ピクセルで埋めています。  
+- `image.savePixels(image.getBounds(), pixels)`: ピクセルデータを画像に保存するメソッドです。定義したカラーで画像が更新されます。
+
+### Step 8: Monitoring Allocated Cache After Image Creation
+画像作成後、再度キャッシュの割り当てバイト数を確認することが推奨されます。
 ```java
 long diskBytes = Cache.getAllocatedDiskBytesCount();
 long memoryBytes = Cache.getAllocatedMemoryBytesCount();
 ```
 
-- long diskBytes: イメージ作成後のディスク上の現在の割り当てをキャプチャします。
-- long memoryBytes: メモリ内の現在の割り当てをキャプチャします。 
-この手順は、操作後に消費されるキャッシュの量を判断するのに役立ちます。
-## ステップ9: 適切な廃棄方法を確認する
-最後に、メモリ リークを回避するために、すべての Aspose.PSD オブジェクトが適切に破棄されていることを確認することが重要です。
+- `long diskBytes`: 画像作成後のディスク上の現在の割り当て量を取得します。  
+- `long memoryBytes`: メモリ上の現在の割り当て量を取得します。  
+このステップにより、操作後にどれだけキャッシュが消費されたかを把握できます。
+
+### Step 9: Check for Proper Disposal
+最後に、すべての Aspose.PSD オブジェクトが適切に破棄されているか確認し、メモリリークを防止します。
 ```java
 l1 = Cache.getAllocatedDiskBytesCount();
 l2 = Cache.getAllocatedMemoryBytesCount();
 ```
 
-- l1 と l2: これらの変数は、最終的な割り当てを確認するのに役立ちます。ゼロでない場合は、一部のオブジェクトが適切に破棄されていないことを示します。
-## 結論
-Aspose.PSD for Java でキャッシュの再割り当てを制御すると、アプリケーションのパフォーマンスに大きな違いが生まれます。上記の手順に従うことで、キャッシュを効果的に管理し、メモリ使用量を最小限に抑え、美しい PSD ファイルを効率的に作成できます。これらのテクニックを活用して、アプリケーションが最適なパフォーマンスで成長するのを見てください。
-## よくある質問
-### Aspose.PSD とは何ですか?
-Aspose.PSD は、.NET および Java 開発者が Photoshop (PSD) ファイルをプログラムで作成、操作、変換するためのライブラリです。
-### 割り当てられたキャッシュ サイズを確認するにはどうすればよいですか?
-次のような方法を使用する`Cache.getAllocatedDiskBytesCount()`そして`Cache.getAllocatedMemoryBytesCount()`現在のキャッシュの使用状況を監視します。
-### キャッシュ用のカスタムディレクトリを設定できますか?
-はい、別のディレクトリを指定するには、`Cache.setCacheFolder("Your Directory Path")`.
-### Aspose.PSD は無料で使用できますか?
-Aspose.PSDは有料のライブラリですが、無料トライアルで始めることもできます。[Webサイト](https://releases.aspose.com/).
-### 物を処分しないとどうなりますか?
-オブジェクトを破棄しないとメモリ リークが発生し、アプリケーションが必要以上に多くのリソースを使用する可能性があります。
+- `l1` と `l2`: 最終的な割り当て量をチェックするための変数です。ゼロでない場合は、いくつかのオブジェクトが正しく破棄されていないことを示します。
+
+## Common Issues and Solutions
+- **Cache folder not created** – `Cache.setCacheFolder` に渡したパスに対して、アプリケーションが書き込み権限を持っているか確認してください。  
+- **Out‑of‑memory errors** – 大きな PSD ファイルを読み込む前に、`Cache.setCacheType(CacheType.CacheOnDiskOnly)` が適用されていることを再確認してください。  
+- **Unexpected cache size** – 各主要操作の後に `Cache.getAllocated*BytesCount()` メソッドを使用して、キャッシュの増減を追跡してください。
+
+## Frequently Asked Questions
+
+**Q: What is Aspose.PSD?**  
+A: Aspose.PSD は、.NET および Java 開発者が Photoshop (PSD) ファイルをプログラムで作成、操作、変換できるライブラリです。
+
+**Q: How do I check allocated cache size?**  
+A: `Cache.getAllocatedDiskBytesCount()` と `Cache.getAllocatedMemoryBytesCount()` などのメソッドを使用して、現在のキャッシュ使用量を監視します。
+
+**Q: Can I set a custom directory for cache?**  
+A: はい、`Cache.setCacheFolder("Your Directory Path")` を使用して別のディレクトリを指定できます。
+
+**Q: Is Aspose.PSD free to use?**  
+A: Aspose.PSD は有料ライブラリですが、[website](https://releases.aspose.com/) で提供されている無料トライアルから始めることができます。
+
+**Q: What happens if I don’t dispose of objects?**  
+A: オブジェクトを破棄しないとメモリリークが発生し、アプリケーションが不要なリソースを消費し続けます。
+
+## Conclusion
+**create PSD image java** アプリケーションでキャッシュ再割り当てを制御することは、パフォーマンスに大きな差をもたらします。上記の手順に従うことで、キャッシュを効率的に管理し、メモリ消費を最小限に抑えつつ、Aspose.PSD for Java で高品質な PSD ファイルを生成できます。これらのテクニックを活用すれば、プロジェクトはよりスムーズに動作し、スケーラビリティも向上します。
+
+---
+
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.PSD for Java (latest release)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

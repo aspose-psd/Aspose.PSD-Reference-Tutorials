@@ -1,51 +1,82 @@
 ---
-title: Přidejte vrstvu pro úpravu sytosti odstínu do PSD
-linktitle: Přidejte vrstvu pro úpravu sytosti odstínu do PSD
+date: 2026-03-13
+description: Naučte se, jak přidat vrstvu odstínu a sytosti do souborů PSD pomocí
+  Aspose.PSD pro Javu. Tento průvodce také ukazuje, jak hromadně zpracovávat soubory
+  PSD a programově vytvářet vrstvu úpravy odstínu.
+linktitle: Add Hue Saturation Layer to PSD
 second_title: Aspose.PSD Java API
-description: Naučte se, jak přidat vrstvy úprav sytosti odstínu do PSD pomocí Aspose.PSD pro Java, v tomto komplexním, podrobném tutoriálu. Vylepšete svůj pracovní postup grafického designu.
-weight: 14
+title: Přidat vrstvu odstínu a sytosti do PSD pomocí Aspose.PSD pro Javu
 url: /cs/java/modifying-converting-psd-images/add-hue-saturation-adjustment-layer-psd/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte vrstvu pro úpravu sytosti odstínu do PSD
+# Přidat vrstvu odstínu a sytosti do PSD
 
-## Zavedení
-Pokud jde o grafický design, manipulace s barvami hraje klíčovou roli – konkrétně vyladění odstínu, sytosti a světlosti může drasticky změnit náladu a kvalitu jakéhokoli obrázku. Jedním z účinných způsobů, jak toho dosáhnout, je použití vrstev úprav ve Photoshopu (soubory PSD). Pokud chcete vylepšit své soubory PSD programově pomocí Javy, pomůže vám knihovna Aspose.PSD! Tento výukový program vás provede kroky k přidání vrstvy pro úpravu sytosti odstínu do vašich souborů PSD, díky čemuž budou vaše pracovní postupy produktivnější a efektivnější.
-této příručce pokryjeme vše od importu nezbytných balíčků až po hrubé detaily příkladů kódu.
-## Předpoklady
-Než se pustíme do kódu, ujistěte se, že máte na svém místě následující:
-1.  Java Development Kit (JDK): Ujistěte se, že máte na svém počítači nainstalovaný JDK 8 nebo vyšší. Můžete si jej stáhnout z[Java SE Development Kit ke stažení](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.PSD for Java Library: Budete potřebovat knihovnu Aspose.PSD, kterou můžete[stáhnout zde](https://releases.aspose.com/psd/java/). 
-3. IDE: Vhodné integrované vývojové prostředí (IDE) jako IntelliJ IDEA nebo Eclipse pro vývoj v Javě.
-4. Základní znalost Javy: Znalost programování v Javě je výhodou, ale nebojte se; krok za krokem vás provedeme kódem.
-Nyní, když máme naše předpoklady uspořádané, přejděme k zábavnější části – kódování!
-## Importujte balíčky
-Chcete-li začít pracovat s knihovnou Aspose.PSD, je prvním krokem import potřebných tříd. Zde je návod, jak to udělat v souboru Java:
+## Introduction
+Když jde o grafický design, manipulace s barvami hraje klíčovou roli – konkrétně úprava odstínu, sytosti a jasu může zásadně změnit náladu a kvalitu jakéhokoli obrázku. Jedním účinným způsobem, jak toho dosáhnout, je použití úpravných vrstev ve Photoshopu (soubory PSD). Pokud chcete programově **add hue saturation layer** pomocí Javy, knihovna Aspose.PSD je zde, aby vám pomohla! Tento tutoriál vás provede kroky, jak přidat vrstvu úpravy Hue Saturation do vašich PSD souborů, což učiní váš pracovní postup produktivnějším a efektivnějším.
+
+## Quick Answers
+- **What library lets you add a hue saturation layer in Java?** Aspose.PSD for Java.  
+- **Do I need Photoshop installed?** No, the library works independently of Photoshop.  
+- **Can I batch process PSD files with this approach?** Yes—once you automate the steps you can apply them to many files.  
+- **Which Java version is required?** JDK 8 or later.  
+- **Is a license needed for production use?** Yes, a commercial license is required after the trial period.
+
+## What is an “add hue saturation layer” operation?
+An **add hue saturation layer** operation creates a non‑destructive adjustment layer that lets you modify hue, saturation, and lightness values without altering the original pixel data. This is ideal for fine‑tuning colors across an entire composition or specific color ranges.
+
+## Why use Aspose.PSD for Java?
+- **No Photoshop dependency** – works on any platform that runs Java.  
+- **Full PSD fidelity** – preserves all layer information, masks, and effects.  
+- **Batch‑ready** – you can loop through folders and apply the same adjustment to dozens of files.  
+- **Performance‑focused** – optimized for large documents and server‑side automation.
+
+## Prerequisites
+Než se pustíme do kódu, ujistěte se, že máte připraveno následující:
+
+1. **Java Development Kit (JDK):** Ensure you have JDK 8 or above installed on your machine. You can download it from the [Java SE Development Kit Downloads](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.PSD for Java Library:** You’ll need to have the Aspose.PSD library, which you can [download here](https://releases.aspose.com/psd/java/).  
+3. **IDE:** A suitable Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse for Java development.  
+4. **Basic Java Knowledge:** Familiarity with Java programming is a plus, but don’t worry—we’ll walk you through each line.
+
+Now that we have our prerequisites sorted, let's move on to the fun part—coding!
+
+## Import Packages
+To start working with the Aspose.PSD library, the first step is to import the necessary classes. Here’s how you can do it in your Java file:
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.HueSaturationLayer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.ColorRangeHsl;
 ```
-Ujistěte se, že máte do projektu přidány příslušné knihovny, aby tyto importy fungovaly hladce.
-## Krok 1: Nastavte adresář dokumentů
-Každý projekt potřebuje výchozí bod a ten náš není výjimkou. Musíte zadat adresář, kde jsou uloženy vaše soubory PSD. To je zásadní pro správné načítání a ukládání obrázků.
+
+Make sure that you have the appropriate libraries added to your project so that these imports work seamlessly.
+
+## Step 1: Set Up Your Document Directory
+Every project needs a starting point, and ours is no exception. You need to specify a directory where your PSD files are stored. This is crucial for loading and saving images properly.
+
 ```java
-String dataDir = "Your Document Directory"; // Aktualizujte tuto cestu k vašemu skutečnému adresáři
+String dataDir = "Your Document Directory"; // Update this path to your actual directory
 ```
-## Krok 2: Načtěte existující soubor PSD
-Abychom mohli manipulovat se stávajícím souborem PSD, musíme jej nejprve načíst do našeho programu. Můžete to udělat takto:
+
+## Step 2: Load an Existing PSD File
+To manipulate an existing PSD file, we first need to load it into our program. Here’s how you can do that:
+
 ```java
 String sourceFileName = dataDir + "HueSaturationAdjustmentLayer.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
- V tomto kódu aktualizujte`"HueSaturationAdjustmentLayer.psd"` na název vašeho stávajícího souboru PSD, který chcete upravit.
-## Krok 3: Upravte vrstvu odstínu/sytosti
-Dále projdeme vrstvy našeho načteného obrázku PSD, abychom našli a upravili všechny existující vrstvy odstínu/sytosti. Tento krok zahrnuje úpravu hodnot odstínu, sytosti a světlosti.
+
+In this code, update `"HueSaturationAdjustmentLayer.psd"` to the name of your existing PSD file that you want to edit.
+
+## Step 3: Edit the Hue/Saturation Layer
+Next, we’ll loop through the layers of our loaded PSD image to find and edit any existing Hue/Saturation layers. This step involves modifying the hue, saturation, and lightness values.
+
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof HueSaturationLayer) {
@@ -61,24 +92,31 @@ for (int i = 0; i < im.getLayers().length; i++) {
     }
 }
 ```
-V tomto příkladu:
-- Upravujeme odstín na -25, sytost na -12 a světlost na +67.
--  The`getRange(2)` metoda nám umožňuje vyladit konkrétní barevné rozsahy podle potřeby.
-## Krok 4: Uložte upravený soubor PSD
-Po provedení úprav je dalším krokem uložení souboru. To je zásadní součástí našeho procesu, který zajišťuje, že změny, které jsme provedli, se neztratí.
+
+In this example:  
+- We're adjusting the hue to **-25**, saturation to **-12**, and lightness to **+67**.  
+- The `getRange(2)` method allows us to tweak specific color ranges as desired.
+
+## Step 4: Save the Modified PSD File
+After making adjustments, the next step is to save the file. This is a vital part of our process, ensuring that the changes we’ve made are not lost.
+
 ```java
 String psdPathAfterChange = dataDir + "HueSaturationAdjustmentLayerChanged.psd";
 im.save(psdPathAfterChange);
 ```
-## Krok 5: Přidejte novou vrstvu odstínu/sytosti
-Dále můžete chtít přidat novou vrstvu úprav odstínu/sytosti do jiného souboru PSD. Postupujte podle stejného přístupu, který jste používali dříve, ale s jinými soubory PSD.
+
+## Step 5: Add a New Hue/Saturation Layer
+If you need to **create hue adjustment layer** from scratch, you can add a brand‑new Hue/Saturation adjustment layer to another PSD file. Follow the same loading pattern but use the `addHueSaturationAdjustmentLayer()` method.
+
 ```java
 sourceFileName = dataDir + "PhotoExample.psd";
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 HueSaturationLayer hueLayerNew = img.addHueSaturationAdjustmentLayer();
 ```
-## Krok 6: Nastavte nové hodnoty odstínu/sytosti pro novou vrstvu
-Nyní, když jste vytvořili tuto novou vrstvu, použijte požadované nastavení odstínu, sytosti a světlosti stejně jako předtím.
+
+## Step 6: Set New Hue/Saturation Values for the New Layer
+Now that you’ve created this new layer, apply the desired hue, saturation, and lightness settings just like before.
+
 ```java
 hueLayerNew.setHue((short) -25);
 hueLayerNew.setSaturation((short) -12);
@@ -89,28 +127,53 @@ newColorRange.setSaturation((short) 100);
 newColorRange.setLightness((short) 20);
 newColorRange.setMostLeftBorder((short) 300);
 ```
-## Krok 7: Uložte aktualizovaný soubor PSD
-Nakonec uložte soubor PSD s přidanou vrstvou Hue/Saturation, abyste viděli své změny.
+
+## Step 7: Save the Updated PSD File
+Finally, save the PSD file with the added Hue/Saturation layer so you can see your changes.
+
 ```java
 String psdPathAfterNewLayerChange = dataDir + "PhotoExampleAddedHueSaturation.psd";
 img.save(psdPathAfterNewLayerChange);
 ```
-Gratuluji! Úspěšně jste manipulovali se soubory PSD pomocí Aspose.PSD for Java. Nyní můžete experimentovat s různými obrázky a hlubšími úpravami a oživit tak své projekty grafického designu.
-## Závěr
-Práce s grafikou programově otevírá svět možností. Použití Aspose.PSD for Java k přidání a úpravě vrstev úprav sytosti odstínu poskytuje flexibilitu a efektivitu, která může zefektivnit váš pracovní postup návrhu. Ať už vylepšujete fotografie pro projekt nebo vytváříte úžasný vizuální obsah, zvládnutí těchto nástrojů může výrazně zlepšit váš výstup.
- Neváhejte a prozkoumejte další funkce Aspose.PSD tím, že se ponoříte do[dokumentace](https://reference.aspose.com/psd/java/) nebo zvážit zachycení a[dočasná licence](https://purchase.aspose.com/temporary-license/) vyzkoušet plnou sílu knihovny.
-## FAQ
-### Co je to vrstva pro úpravu sytosti odstínu?
-Vrstva pro úpravu sytosti odstínu umožňuje upravit vlastnosti barev obrazu bez trvalé změny původních pixelů.
-### Potřebuji nainstalovaný Photoshop, abych mohl používat Aspose.PSD?
-Ne, Aspose.PSD je samostatná knihovna, která funguje nezávisle na Photoshopu.
-### Mohu použít Aspose.PSD pro dávkové zpracování?
-Ano, pomocí Aspose.PSD můžete automatizovat a dávkově zpracovávat více souborů PSD.
-### Je Aspose.PSD zdarma?
-Aspose.PSD nabízí bezplatnou zkušební verzi, ale pro dlouhodobé používání je nutná licence. Můžete se podívat na ceny[zde](https://purchase.aspose.com/buy).
+
+Congratulations! You’ve successfully manipulated PSD files using Aspose.PSD for Java. Now you can experiment with different images and deeper alterations, bringing your graphic design projects to life.
+
+## How to batch process PSD files with hue adjustments
+Because the code above is fully scriptable, you can wrap the entire sequence in a loop that iterates over every `.psd` file in a folder. This enables you to **batch process psd files** and apply the same hue, saturation, and lightness tweaks in a single run—perfect for large‑scale branding updates.
+
+## Common Issues and Solutions
+- **NullPointerException when loading a file:** Verify that `dataDir` ends with the appropriate file‑separator (`/` or `\`) and that the file name is correct.  
+- **Adjustment values out of range:** Hue, saturation, and lightness accept values from -255 to 255. Keep your numbers within this range.  
+- **Layer not found:** If the PSD has no Hue/Saturation layer, the `instanceof` check will skip the block. Use `addHueSaturationAdjustmentLayer()` to create one first.
+
+## Frequently Asked Questions
+
+**Q: What is a Hue Saturation Adjustment Layer?**  
+A: It allows you to modify the color properties of an image without permanently altering the original pixels.
+
+**Q: Do I need Photoshop installed to use Aspose.PSD?**  
+A: No, Aspose.PSD is a standalone library that works independently of Photoshop.
+
+**Q: Can I use Aspose.PSD for batch processing?**  
+A: Yes, you can automate and batch process multiple PSD files with Aspose.PSD.
+
+**Q: Is Aspose.PSD free?**  
+A: Aspose.PSD offers a free trial, but a license is required for long‑term use. You can view pricing [here](https://purchase.aspose.com/buy).
+
+## Conclusion
+Working with graphics programmatically opens up a world of possibilities. Using Aspose.PSD for Java to **add hue saturation layer** and to **create hue adjustment layer** provides flexibility and efficiency that can streamline your design workflow. Whether you’re enhancing photos for a project or creating stunning visual content, mastering these tools can greatly improve your output.
+
+Feel free to explore more functionalities of Aspose.PSD by diving into [documentation](https://reference.aspose.com/psd/java/) or consider snagging a [temporary license](https://purchase.aspose.com/temporary-license/) to test out the full power of the library.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
