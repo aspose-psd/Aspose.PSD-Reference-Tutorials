@@ -1,6 +1,6 @@
 ---
-title: "Create PSD Image Java – Control Cache Reallocation"
-linktitle: "Create PSD Image Java – Control Cache Reallocation"
+title: "Create PSD Image with Aspose.PSD for Java – Control Cache Reallocation"
+linktitle: "Create PSD Image with Aspose.PSD for Java – Control Cache Reallocation"
 second_title: "Aspose.PSD Java API"
 description: "Learn how to create PSD image java projects while managing cache reallocation with Aspose.PSD for Java. Optimize memory and disk usage efficiently."
 weight: 22
@@ -24,16 +24,16 @@ If you need to **create PSD image java** projects efficiently, controlling cache
 - **Do I need a license to use these features?** A license removes trial limitations; see the Aspose purchase page.  
 - **Can I monitor cache usage at runtime?** Yes, use `Cache.getAllocatedDiskBytesCount()` and `Cache.getAllocatedMemoryBytesCount()`.
 
-## Why Control Cache Reallocation?
+## Why control cache reallocation?
 Managing cache is crucial when you **create PSD image java** applications that handle high‑resolution or multi‑layer files. Proper cache settings prevent out‑of‑memory errors, reduce GC pauses, and give you predictable performance on servers or desktop apps.
 
 ## Prerequisites
 Before we jump into the coding part, there are a few things you need to ensure so that everything runs smoothly:
 1. Java Development Kit (JDK): Ensure that you have JDK installed on your machine. You can download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.PSD for Java: You need to download the Aspose.PSD library. You can find the latest release [here](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD for Java: You need to download the Aspose.PSD library. You can find the latest release on the [Aspose.PSD for Java release page](https://releases.aspose.com/psd/java/).
 3. IDE Setup: An Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse will make it easier for you to manage your code.
 4. Basic Understanding of Java: Familiarity with Java programming will help you understand the concepts and code snippets better.
-5. Aspose License (Optional): If you wish to remove watermarks and gain full functionality, consider purchasing a license [here](https://purchase.aspose.com/buy) or trying the free trial [here](https://releases.aspose.com/).
+5. Aspose License (Optional): If you wish to remove watermarks and gain full functionality, consider purchasing a license on the [Aspose.PSD license purchase page](https://purchase.aspose.com/buy) or trying the free trial on the [Aspose.PSD free trial download page](https://releases.aspose.com/).
 
 ## Import Packages
 Before we start writing the code, let’s make sure we have the necessary packages imported. Below is a brief list of what to include at the beginning of your Java file:
@@ -53,7 +53,7 @@ import com.aspose.psd.system.io.MemoryStream;
 ## How to Create PSD Image Java with Cache Control
 Below is a step‑by‑step walkthrough that ties cache configuration directly to the process of creating a PSD image in Java.
 
-### Step 1: Setting Up Your Data Directory
+### Step 1: setting up your data directory
 First things first, you’ll need to set up a directory where you want your cache files to be stored. This is essential for managing the cache effectively.
 ```java
 String dataDir = "Your Document Directory";
@@ -63,7 +63,7 @@ Cache.setCacheFolder(dataDir);
 - `String dataDir`: Define the directory for your document cache.  
 - `Cache.setCacheFolder(dataDir)`: This method sets the cache folder to the specified directory. Any cache created by Aspose will now be stored here instead of the default temporary directory.
 
-### Step 2: Configuring Cache To Disk
+### Step 2: configuring cache to disk
 Next, we’ll specify that we want our cache to be stored on disk only. This is particularly useful if your application uses large files and you want to ensure that memory remains free.
 ```java
 Cache.setCacheType(CacheType.CacheOnDiskOnly);
@@ -71,7 +71,7 @@ Cache.setCacheType(CacheType.CacheOnDiskOnly);
 
 - `Cache.setCacheType(CacheType.CacheOnDiskOnly)`: This option ensures that the cache is not held in memory, which is beneficial for handling large PSD files without consuming too much RAM.
 
-### Step 3: Setting Maximum Disk and Memory Cache Size
+### Step 3: setting maximum disk and memory cache size
 Now, let's restrict our cache sizes. This is crucial because unlimited cache can lead to performance issues.
 ```java
 Cache.setMaxDiskSpaceForCache(1073741824); // 1 gigabyte
@@ -81,7 +81,7 @@ Cache.setMaxMemoryForCache(1073741824); // 1 gigabyte
 - `Cache.setMaxDiskSpaceForCache(1073741824)`: This sets a limit of 1 GB for the cache on disk. You can adjust this size depending on your needs.  
 - `Cache.setMaxMemoryForCache(1073741824)`: Similarly, this limits the in‑memory cache, ensuring that your application does not use excessive memory.
 
-### Step 4: Manage Cache Reallocation Strategy
+### Step 4: manage cache reallocation strategy
 Managing how cache is reallocated is essential for maintaining performance. Here’s how you can set it up.
 ```java
 Cache.setExactReallocateOnly(false);
@@ -89,7 +89,7 @@ Cache.setExactReallocateOnly(false);
 
 - `Cache.setExactReallocateOnly(false)`: When set to `false`, this allows Aspose to manage cache reallocation more flexibly, which can lead to better performance.
 
-### Step 5: Check Allocated Cache Size
+### Step 5: check allocated cache size
 This step is about monitoring how many bytes are currently allocated for the cache in memory or on disk. Let’s implement that:
 ```java
 long l1 = Cache.getAllocatedDiskBytesCount();
@@ -100,7 +100,7 @@ long l2 = Cache.getAllocatedMemoryBytesCount();
 - `long l2`: Stores the count of bytes allocated in memory.  
 You can check these values at any time to ensure your application is managing memory and disk usage as expected.
 
-### Step 6: Creating a PSD Image
+### Step 6: creating a PSD image
 Now that we have our cache configurations set up, let’s create a simple PSD image.
 ```java
 PsdOptions options = new PsdOptions();
@@ -126,7 +126,7 @@ image.savePixels(image.getBounds(), pixels);
 - `Color[] pixels`: This is an array of color objects. Here, we’re filling it with white pixels.  
 - `image.savePixels(image.getBounds(), pixels)`: This method saves the pixel data to the image. It updates the image with the colors we've defined.
 
-### Step 8: Monitoring Allocated Cache After Image Creation
+### Step 8: monitoring allocated cache after image creation
 After creating the image, it’s a good practice to check how many bytes are allocated for the cache again.
 ```java
 long diskBytes = Cache.getAllocatedDiskBytesCount();
@@ -137,7 +137,7 @@ long memoryBytes = Cache.getAllocatedMemoryBytesCount();
 - `long memoryBytes`: Captures the current allocation in memory.  
 This step will help you determine how much cache is being consumed after your operations.
 
-### Step 9: Check for Proper Disposal
+### Step 9: check for proper disposal
 Lastly, it's crucial to ensure that all Aspose.PSD objects were disposed of properly to avoid memory leaks.
 ```java
 l1 = Cache.getAllocatedDiskBytesCount();
@@ -146,12 +146,12 @@ l2 = Cache.getAllocatedMemoryBytesCount();
 
 - `l1` and `l2`: These variables will help you check the final allocation. If they’re not zero, it indicates some objects haven’t been disposed of properly.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Cache folder not created** – Verify that the application has write permissions for the path you passed to `Cache.setCacheFolder`.  
 - **Out‑of‑memory errors** – Double‑check that `Cache.setCacheType(CacheType.CacheOnDiskOnly)` is applied before loading large PSD files.  
 - **Unexpected cache size** – Use the `Cache.getAllocated*BytesCount()` methods after each major operation to track growth.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.PSD?**  
 A: Aspose.PSD is a library for .NET and Java developers to create, manipulate, and convert Photoshop (PSD) files programmatically.
@@ -163,7 +163,7 @@ A: Use methods like `Cache.getAllocatedDiskBytesCount()` and `Cache.getAllocated
 A: Yes, you can specify a different directory by using `Cache.setCacheFolder("Your Directory Path")`.
 
 **Q: Is Aspose.PSD free to use?**  
-A: Aspose.PSD is a paid library, but you can start with a free trial available on their [website](https://releases.aspose.com/).
+A: Aspose.PSD is a paid library, but you can start with a free trial available on their [Aspose.PSD download page](https://releases.aspose.com/).
 
 **Q: What happens if I don’t dispose of objects?**  
 A: Not disposing of objects can lead to memory leaks, causing your application to use more resources than necessary.
