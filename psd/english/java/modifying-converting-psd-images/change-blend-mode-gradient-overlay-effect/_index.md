@@ -1,5 +1,5 @@
 ---
-title: Change Layer Blend Mode in Gradient Overlay Effect with Aspose.PSD for Java
+title: Change Layer Blend Mode in Gradient Overlay Effect using Java
 linktitle: Change Blend Mode in Gradient Overlay Effect
 second_title: Aspose.PSD Java API
 description: Learn how to change layer blend mode and add gradient overlay effect in PSD files using Aspose.PSD for Java. Step‑by‑step guide for editing PSD layers.
@@ -34,7 +34,7 @@ Changing a layer’s blend mode switches the mathematical formula that combines 
 
 ## Prerequisites
 1. **Java Development Kit (JDK)** – download from [Oracle’s website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.PSD for Java** – obtain the library from [here](https://releases.aspose.com/psd/java/).  
+2. **Aspose.PSD for Java** – obtain the library from [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
 3. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
 4. **Basic Java knowledge** – you should be comfortable with classes, objects, and exception handling.  
 
@@ -52,7 +52,7 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.GradientOverlayEffect;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set Your File Paths
+### Step 1: set your file paths
 Define where the source PSD lives and where the edited file will be saved.
 
 ```java
@@ -62,14 +62,14 @@ String inPsdFilePath = sourceDir + "psdnet585.psd";
 String outPsdFilePath = outputDir + "out_psdnet585.psd";
 ```
 
-### Step 2: Load the PSD File
+### Step 2: load the PSD file
 Create a `PsdImage` instance by loading the source file.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(inPsdFilePath);
 ```
 
-### Step 3: Access the Target Layer and Add Gradient Overlay Effect
+### Step 3: access the target layer and add gradient overlay effect
 Here we grab the second layer (index 1) and ensure it has a gradient overlay effect attached.
 
 ```java
@@ -79,7 +79,7 @@ try {
 
 > **Pro tip:** Verify the layer index matches the layer you intend to edit; PSD layers are zero‑based.
 
-### Step 4: Change the Blend Mode
+### Step 4: change the blend mode
 Now we actually **change layer blend mode** by setting a new value from the `BlendMode` enum.
 
 ```java
@@ -88,7 +88,7 @@ Now we actually **change layer blend mode** by setting a new value from the `Ble
 
 Feel free to experiment with other modes such as `BlendMode.Multiply` or `BlendMode.Screen` to see how they affect your design.
 
-### Step 5: Save the Modified File and Clean Up
+### Step 5: save the modified file and clean up
 Persist the changes and release resources.
 
 ```java
@@ -100,27 +100,27 @@ Persist the changes and release resources.
 
 Saving writes all modifications—including the new **gradient overlay effect** and updated blend mode—to the output PSD.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **File not found error:** Double‑check the paths in `sourceDir` and `outputDir`. Use absolute paths if relative ones fail.  
 - **Layer index out of range:** Ensure the PSD actually contains a layer at the specified index; you can iterate `psdImage.getLayers()` to list them.  
 - **Unsupported blend mode:** The `BlendMode` enum only includes modes that Photoshop supports; using an undefined value will throw an exception.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.PSD for Java?**  
 A: Aspose.PSD for Java is a library that lets developers manipulate Photoshop PSD files programmatically without needing Photoshop installed.
 
 **Q: Can I use Aspose.PSD for free?**  
-A: You can start with a free trial — download it [here](https://releases.aspose.com/). A commercial license is required for production use.
+A: You can start with a free trial — download it [Aspose.PSD free trial download page](https://releases.aspose.com/). A commercial license is required for production use.
 
 **Q: What kinds of operations can I perform on PSD files?**  
 A: You can edit layers, modify effects, change text, work with masks, and more—including the ability to **change layer blend mode**.
 
 **Q: Is there a way to get support if I run into issues?**  
-A: Yes! Visit the Aspose support forum [here](https://forum.aspose.com/c/psd/34) for community and staff assistance.
+A: Yes! Visit the Aspose PSD support forum [Aspose PSD support forum](https://forum.aspose.com/c/psd/34) for community and staff assistance.
 
 **Q: Can I purchase a temporary license for Aspose.PSD?**  
-A: Absolutely! Apply for a temporary license [here](https://purchase.aspose.com/temporary-license/) to test full features without restrictions.
+A: Absolutely! Apply for a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/) to test full features without restrictions.
 
 **Q: How do I know which blend mode to choose?**  
 A: It depends on the visual effect you need—`Multiply` darkens, `Screen` lightens, `Overlay` combines both, and `Subtract` removes color values. Try a few to see what works best for your design.
@@ -132,10 +132,11 @@ You’ve now learned how to **change layer blend mode** and **add gradient overl
 
 **Last Updated:** 2026-03-07  
 **Tested With:** Aspose.PSD for Java 24.12  
-**Author:** Aspose  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

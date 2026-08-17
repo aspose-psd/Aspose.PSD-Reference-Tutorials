@@ -1,6 +1,6 @@
 ---
-title: "How to Add Image Watermark to PSD Files Using Aspose.PSD for Java"
-linktitle: "How to Add Image Watermark to PSD Files Using Aspose.PSD for Java"
+title: "How to Add a Watermark to an Image Using Java"
+linktitle: "How to Add a Watermark to an Image Using Java"
 second_title: "Aspose.PSD Java API"
 description: "Learn how to create image watermark in PSD files using Aspose.PSD for Java – a quick guide for psd image processing and protecting your graphics."
 weight: 18
@@ -57,7 +57,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 ## How to **create image watermark** – Step‑by‑Step Guide
 
-### Step 1: Set Up Your Directory
+### Step 1: set up your directory
 First off, we need to set the path for where your PSD file resides. This is crucial because Java needs to know where to find your files.
 
 ```java
@@ -66,7 +66,7 @@ String dataDir = "Your Document Directory";
 
 Replace `Your Document Directory` with the actual folder that contains `layers.psd`.
 
-### Step 2: Load the PSD File
+### Step 2: load the PSD file
 Next, we’ll load the PSD file and cast it into a `PsdImage`. This step transforms the file into a format that we can manipulate.
 
 ```java
@@ -75,21 +75,21 @@ PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 
 Think of this as opening a book so you can start writing on its pages.
 
-### Step 3: Create a Graphics Object
+### Step 3: create a graphics object
 With our PSD file now loaded, we need to create a `Graphics` object. This lets us perform drawing operations—essentially like picking up a paintbrush for your canvas.
 
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
 
-### Step 4: Define the Font for Your Watermark
+### Step 4: define the font for your watermark
 Now it’s time to choose how your watermark will look. We'll use Arial with a font size of 20. Feel free to swap the font name or size to match your brand style.
 
 ```java
 Font font = new Font("Arial", 20.0f);
 ```
 
-### Step 5: Create a Solid Brush for Watermarking
+### Step 5: create a solid brush for watermarking
 A solid brush gives your watermark its color and opacity. We'll set the alpha to 50 (out of 255) for a semi‑transparent gray.
 
 ```java
@@ -98,7 +98,7 @@ SolidBrush brush = new SolidBrush(Color.fromArgb(50, 128, 128, 128));
 
 Here, `Color.fromArgb(50, 128, 128, 128)` creates a gray color with 50% opacity—perfect for a subtle signature.
 
-### Step 6: Set String Alignment for Your Watermark
+### Step 6: set string alignment for your watermark
 To ensure the watermark appears right at the center of the image, we’ll configure string alignment options.
 
 ```java
@@ -125,12 +125,12 @@ psdImage.save(dataDir + "AddWatermark_output.png", new PngOptions());
 
 Executing this line creates a new PNG file that contains your watermark.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Watermark not visible?** Verify the alpha value in `Color.fromArgb()`; a lower value makes the watermark more transparent.  
 - **Incorrect dimensions?** Ensure you’re using `psdImage.getWidth()` and `psdImage.getHeight()` for the rectangle so the text scales with the image size.  
 - **License exceptions?** A temporary evaluation license works for testing, but a full license is required for production use.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I customize the watermark text?**  
 A: Absolutely! Just replace the string in the `drawString` method with your desired text.
@@ -154,11 +154,11 @@ You’ve now learned how to **create image watermark** in a PSD file using Aspos
 
 **Last Updated:** 2026-03-07  
 **Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,5 +1,5 @@
 ---
-title: "How to Adjust Levels – Add Level Adjustment Layer in PSD using Aspose.PSD for Java"
+title: "Add Level Adjustment Layer to PSD Files with Aspose.PSD for Java"
 linktitle: Add Level Adjustment Layer in PSD
 second_title: Aspose.PSD Java API
 description: "Learn how to adjust levels by adding a Level Adjustment Layer in PSD files using Aspose.PSD for Java. Master tonal tweaks quickly."
@@ -34,7 +34,7 @@ A Level Adjustment Layer lets you correct the tonal balance of an image by adjus
 
 ## Prerequisites
 1. Java Development Kit (JDK). If you don’t have it, download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or use OpenJDK.  
-2. Aspose.PSD for Java library – get the latest JAR from this [download link](https://releases.aspose.com/psd/java/).  
+2. Aspose.PSD for Java library – get the latest JAR from the [Aspose.PSD Java download page](https://releases.aspose.com/psd/java/).  
 3. Basic knowledge of Java programming.  
 4. An IDE such as IntelliJ IDEA, Eclipse, or NetBeans with the Aspose.PSD JAR added to the project’s classpath.
 
@@ -51,7 +51,7 @@ These imports give us access to classes for loading PSD files, working with leve
 ## How to Adjust Levels in a PSD File
 Below is a step‑by‑step guide that shows you exactly **how to adjust levels** programmatically.
 
-### Step 1: Set Up Your File Paths
+### Step 1: set up your file paths
 Define where the source PSD resides and where the edited file will be saved.
 ```java
 String dataDir = "Your Document Directory";
@@ -60,14 +60,14 @@ String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 ```
 Replace `"Your Document Directory"` with the actual folder on your machine.
 
-### Step 2: Load the PSD File
+### Step 2: load the PSD file
 Create a `PsdImage` instance from the source file.
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 Now you have full access to all layers inside the PSD.
 
-### Step 3: Iterate Through the Layers
+### Step 3: iterate through the layers
 Find the Level Adjustment Layer you want to modify.
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
@@ -79,7 +79,7 @@ for (int i = 0; i < im.getLayers().length; i++) {
 ```
 The `instanceof LevelsLayer` check ensures we only work with level adjustment layers.
 
-### Step 4: Adjust the Level Channel Settings
+### Step 4: adjust the level channel settings
 Tweak the input and output values for the selected channel.
 ```java
 LevelChannel channel = levelsLayer.getChannel(0);
@@ -96,14 +96,14 @@ channel.setOutputHighlightLevel((short) 200);
 
 Feel free to experiment with different values to see how they affect the image.
 
-### Step 5: Save the Modified PSD File
+### Step 5: save the modified PSD file
 Persist your changes to a new file.
 ```java
 im.save(psdPathAfterChange);
 ```
 You’ll find the updated PSD at the location you specified in `psdPathAfterChange`.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **File not found:** Verify that `dataDir` points to the correct folder and that the source PSD exists.  
 - **ClassCastException:** Ensure the file you load is indeed a PSD; other formats require different classes.  
 - **License errors:** Use a valid Aspose.PSD license for production builds; the trial works for development.
@@ -111,7 +111,7 @@ You’ll find the updated PSD at the location you specified in `psdPathAfterChan
 ## Conclusion
 You now know **how to adjust levels** by adding and configuring a Level Adjustment Layer in a PSD file with Aspose.PSD for Java. This technique gives you precise control over tonal balance while keeping your workflow fully automated. Keep experimenting with different channel values and explore batch processing to apply the same adjustments to multiple images.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is a Level Adjustment Layer?**  
 A: It’s a non‑destructive layer that lets you modify the tonal range (shadows, mid‑tones, highlights) of an image.
@@ -120,13 +120,13 @@ A: It’s a non‑destructive layer that lets you modify the tonal range (shadow
 A: Yes, you can evaluate the library with a free trial, but a license is required for commercial deployment.
 
 **Q: Where can I find documentation for Aspose.PSD?**  
-A: You can find the documentation [here](https://reference.aspose.com/psd/java/).
+A: You can find the documentation on the [Aspose.PSD Java API documentation](https://reference.aspose.com/psd/java/).
 
 **Q: Is there community support for Aspose products?**  
 A: Absolutely! You can ask questions and get help in the [Aspose forum](https://forum.aspose.com/c/psd/34).
 
 **Q: How can I get a temporary license for Aspose.PSD?**  
-A: You can apply for a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A: You can apply for a temporary license on the [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 ---
 
@@ -134,10 +134,17 @@ A: You can apply for a temporary license [here](https://purchase.aspose.com/temp
 **Tested With:** Aspose.PSD latest version (Java)  
 **Author:** Aspose  
 
+
+
+
+
+
+
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}

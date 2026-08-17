@@ -1,5 +1,5 @@
 ---
-title: Add Text to PSD Files at Runtime Using Aspose.PSD for Java
+title: Add Text Layer to Image Files at Runtime Using Java
 linktitle: Add Text Layer on Runtime in PSD Files using Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to add text to PSD files at runtime using Java and Aspose.PSD. Follow this step‑by‑step guide to create a text layer in a PSD quickly.
@@ -35,7 +35,7 @@ Adding text to a PSD means programmatically creating a new text layer inside a P
 ## Prerequisites
 Before writing code, make sure you have:
 
-1. **Java Development Kit (JDK)** – Install JDK 8 or newer. You can [download it here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+1. **Java Development Kit (JDK)** – Install JDK 8 or newer. You can [download JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
 2. **Aspose.PSD for Java** – Grab the latest JAR from the [Aspose releases page](https://releases.aspose.com/psd/java/).  
 3. **IDE (optional but helpful)** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
 4. **Basic Java knowledge** – You should be comfortable with classes, objects, and file I/O.  
@@ -55,7 +55,7 @@ These imports give you access to the core Aspose.PSD functionality.
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set Up Your Document Directory
+### Step 1: set up your document directory
 Define the folder that holds your source PSD and where the output will be saved.
 
 ```java
@@ -64,7 +64,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the absolute or relative path to your files.
 
-### Step 2: Load Your Source PSD File
+### Step 2: load your source PSD file
 Bring the existing PSD into memory using `Image.load()`.
 
 ```java
@@ -97,7 +97,7 @@ Rectangle rect = new Rectangle(
 
 Feel free to adjust the calculations to suit your layout needs.
 
-### Step 5: Add the Text Layer
+### Step 5: add the text layer
 Create the actual text layer inside the defined rectangle.
 
 ```java
@@ -106,7 +106,7 @@ TextLayer layer = im.addTextLayer("Added text", rect);
 
 Replace `"Added text"` with any string you want to appear in the PSD. This is where we **create text layer PSD** programmatically.
 
-### Step 6: Save Your Updated PSD File
+### Step 6: save your updated PSD file
 Write the modified document to a new file so you don’t overwrite the original.
 
 ```java
@@ -116,14 +116,14 @@ im.save(psdPath);
 
 After execution, you’ll find `ImageWithTextLayer.psd` in the target folder, now containing the new text layer.
 
-## Common Issues & Solutions
+## Common issues & solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | **`NullPointerException` on `im.addTextLayer`** | PSD not loaded correctly (wrong path). | Verify `sourceFileName` points to an existing PSD. |
 | **Text not visible** | Rectangle placed outside the canvas or layer hidden. | Adjust rectangle coordinates or check layer visibility with `layer.setVisible(true)`. |
 | **LicenseException** | Using the library without a valid license in production. | Acquire a commercial license and set it via `License license = new License(); license.setLicense("Aspose.PSD.lic");`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I add multiple text layers?**  
 A: Yes – simply repeat Steps 4 and 5 for each piece of text you want to insert.
@@ -143,9 +143,9 @@ A: Visit the [Aspose support forums](https://forum.aspose.com/c/psd/34) where bo
 ## Conclusion
 You’ve now seen how easy it is to **add text to PSD** files at runtime using Java and Aspose.PSD. This technique empowers you to automate graphic creation, personalize assets, and integrate Photoshop‑level editing into any Java‑based solution. Explore the rest of the Aspose.PSD API to add shapes, raster layers, or even apply filters for even richer automation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
 
 ---
 
@@ -155,5 +155,9 @@ You’ve now seen how easy it is to **add text to PSD** files at runtime using J
 
 ---
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
