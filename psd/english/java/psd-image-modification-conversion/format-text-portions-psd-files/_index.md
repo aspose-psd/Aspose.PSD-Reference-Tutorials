@@ -41,11 +41,11 @@ Editing text layers PSD means accessing the text data stored inside a Photoshop 
 Before we jump into coding, make sure you have the following:
 
 1. **Java Development Kit (JDK)** – Java 8+ installed and configured.  
-2. **Aspose.PSD for Java Library** – Download it from [here](https://releases.aspose.com/psd/java/) or start with a [free trial](https://releases.aspose.com/).  
+2. **Aspose.PSD for Java Library** – Download it from [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/) or start with a [free trial](https://releases.aspose.com/).  
 3. **IDE for Java Development** – IntelliJ IDEA, Eclipse, or NetBeans, with the Aspose.PSD JAR added to your project’s classpath.  
 4. **Basic Knowledge of Java** – Familiarity with objects, loops, and exception handling.
 
-## Importing Necessary Packages
+## Importing necessary packages
 
 When using Aspose.PSD for Java, you'll need to import specific packages to access the classes and methods you'll use. Let's check them out:
 
@@ -63,7 +63,7 @@ import com.aspose.psd.internal.Exceptions.Exception;
 
 These imports give you access to the essential functionalities of Aspose.PSD that we'll require in our example.
 
-## Step 1: Define Your Directories
+## Step 1: define your directories
 
 Before we start working with the PSD file, we need to define where our source PSD file is located and where we want to save the modified file.
 
@@ -76,7 +76,7 @@ String outPsdFilePath = outputDir + "ThreeColorsParagraph_out.psd";
 
 Replace the placeholder paths with the actual locations on your machine.
 
-## Step 2: Load the PSD File
+## Step 2: load the PSD file
 
 The next step is to load the PSD file you want to work with. Aspose makes this super simple.
 
@@ -86,7 +86,7 @@ PsdImage psdImage = (PsdImage) Image.load(inPsdFilePath);
 
 `Image.load` opens the file so we can start inspecting its layers.
 
-## Step 3: Loop Through the Layers
+## Step 3: loop through the layers
 
 Once the PSD file is loaded, it’s time to dig into its layers. Not all layers contain text, and we want to find only the text layers. Let's filter them out:
 
@@ -101,7 +101,7 @@ for (Layer layer : psdImage.getLayers()) {
 
 The loop iterates over every layer, and we skip any that aren’t instances of `TextLayer`.
 
-## Step 4: Access Text Portions
+## Step 4: access text portions
 
 After we identify a text layer, we can access its text portions for editing. This is where the magic begins!
 
@@ -112,7 +112,7 @@ ITextPortion[] portions = textLayer.getTextData().getItems();
 
 Think of text portions as the individual words or sentences that you can edit independently.
 
-## Step 5: Modify Text Portions
+## Step 5: modify text portions
 
 Now, let’s edit the text. We’ll change existing text, remove some portions, and even add new text:
 
@@ -130,7 +130,7 @@ textLayer.getTextData().addPortion(createdPortion);
 
 You can see how straightforward it is to rewrite or delete parts of the paragraph.
 
-## Step 6: Justify and Style Text
+## Step 6: justify and style text
 
 After modifying the text, we may want to adjust the styling. Are you ready for a make‑over? Let's adjust text justification and colors:
 
@@ -148,7 +148,7 @@ portions[2].getStyle().setFillColor(Color.getLightBlue());
 
 Here we **change text color PSD** for each portion by setting a different `fillColor`. This gives each word its own visual identity.
 
-## Step 7: Update Layer Data
+## Step 7: update layer data
 
 After making all those changes, we need to ensure those changes are reflected in the layer data:
 
@@ -158,7 +158,7 @@ textLayer.getTextData().updateLayerData();
 
 This call commits the modifications back to the underlying PSD structure.
 
-## Step 8: Save the Modified PSD File
+## Step 8: save the modified PSD file
 
 Finally, let’s save the changes we made to the PSD file:
 
@@ -168,7 +168,7 @@ psdImage.save(outPsdFilePath, new PsdOptions(psdImage));
 
 Specify the output path where you want the edited file to be written.
 
-## Step 9: Dispose of Resources
+## Step 9: dispose of resources
 
 To keep memory usage low, always dispose of the image resources when you’re finished:
 
@@ -180,7 +180,7 @@ finally {
 
 Cleaning up prevents memory leaks, especially when processing many files in a batch.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -189,7 +189,7 @@ Cleaning up prevents memory leaks, especially when processing many files in a ba
 | **File not found** | Incorrect path in `sourceDir` or `outputDir`. | Use absolute paths or double‑check relative paths. |
 | **License not set** | Trial version may add watermarks. | Apply a valid license with `License license = new License(); license.setLicense("Aspose.PSD.lic");` |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### What is Aspose.PSD for Java?
 Aspose.PSD for Java is a library that allows developers to manipulate and work with Photoshop PSD files programmatically.
@@ -204,7 +204,7 @@ You need the Java Development Kit (JDK) installed, the Aspose.PSD library, and b
 Yes, the free trial may have certain limitations regarding the features available, such as watermarking or limited usage.
 
 ### Where can I find more information about Aspose.PSD?
-You can check the documentation for detailed usage scenarios and API references [here](https://reference.aspose.com/psd/java/).
+You can check the documentation for detailed usage scenarios and API references [Aspose.PSD for Java API reference](https://reference.aspose.com/psd/java/).
 
 ---
 

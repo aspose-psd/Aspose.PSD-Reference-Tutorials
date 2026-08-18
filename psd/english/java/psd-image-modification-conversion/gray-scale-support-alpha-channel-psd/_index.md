@@ -62,7 +62,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 ## How to create PNG with transparency from a PSD
 
-### Step 1: Set Up Your Document Directory
+### Step 1: set up your document directory
 
 First things first, let’s establish where your files will live. We will set up a document directory to store our PSD and output files. You can change the directory path to whatever suits your project structure.
 
@@ -72,7 +72,7 @@ String dataDir = "Your Document Directory";
 
 *Explanation:* This variable will act as a base path when loading and saving files. Make sure to update it with your actual directory path.
 
-### Step 2: Load the PSD File
+### Step 2: load the PSD file
 
 Next, let’s load the PSD file into our program. This is crucial as we want to manipulate the image data.
 
@@ -82,7 +82,7 @@ PsdImage psdImage = (PsdImage) Image.load(dataDir + "sample.psd");
 
 *Explanation:* Here, we’re utilizing the `Image.load` method to read the PSD file and cast it to `PsdImage`. This allows us to access additional PSD‑specific functionalities.
 
-### Step 3: Create PNG Options for Output
+### Step 3: create PNG options for output
 
 Now that we have our PSD image loaded, let’s prepare options for saving it. We want to ensure the output maintains the quality we desire.
 
@@ -93,7 +93,7 @@ pngOptions.setColorType(PngColorType.TruecolorWithAlpha);
 
 *Explanation:* We create a new instance of `PngOptions` and set its color type to `TruecolorWithAlpha`. This means we want a full‑color image that also retains transparency—perfect for images with alpha channels!
 
-### Step 4: Save to PNG Format
+### Step 4: save to PNG format
 
 Now comes the moment of truth: saving our manipulated PSD file as a PNG.
 
@@ -103,7 +103,7 @@ psdImage.save(dataDir + "GrayScaleSupportForAlpha_out.png", pngOptions);
 
 *Explanation:* We use the `save` method to write out the PNG file. The file will be saved in the specified directory, and with our chosen PNG options, it should properly support the alpha channel.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | How to Fix |
 |-------|----------------|------------|
@@ -138,12 +138,12 @@ Congratulations, you’ve successfully utilized Aspose.PSD for Java to **create 
 **Tested With:** Aspose.PSD 24.12 for Java  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ## FAQ's
 
@@ -154,10 +154,17 @@ Aspose.PSD is a library that allows developers to work with PSD files in Java, e
 You can download it from the [Aspose releases page](https://releases.aspose.com/psd/java/).
 
 ### Do I need a license to use Aspose.PSD?
-If you want to use all features without restrictions, obtaining a license is recommended. Temporary licenses are available [here](https://purchase.aspose.com/temporary-license/).
+If you want to use all features without restrictions, obtaining a license is recommended. Temporary licenses are available [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 ### Can I use Aspose.PSD for free?
-Yes, Aspose provides a free trial option available at [this link](https://releases.aspose.com/).
+Yes, Aspose provides a free trial option available at [Aspose PSD releases page](https://releases.aspose.com/).
 
 ### Where can I find support for Aspose.PSD issues?
 You can seek assistance from the Aspose support forum: [Aspose PSD support](https://forum.aspose.com/c/psd/34).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

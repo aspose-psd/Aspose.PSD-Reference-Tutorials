@@ -34,7 +34,7 @@ Below is a complete, step‑by‑step guide that shows exactly how to **load ima
 Before jumping into our coding adventure, make sure you have the following:
 
 - **Java Development Kit (JDK)** – JDK 8 or later.  
-- **Aspose.PSD Library** – Download it [here](https://releases.aspose.com/psd/java/).  
+- **Aspose.PSD Library** – Download it from the [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
 - **An IDE** – IntelliJ IDEA, Eclipse, NetBeans, or any editor you prefer.  
 - **Basic Java knowledge** – Familiarity with Java syntax will help you follow along smoothly.
 
@@ -63,7 +63,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the actual path on your machine.
 
-## Step 2: Define Your File Paths
+## Step 2: define your file paths
 
 Specify the input JPEG file and the output PSD file paths.
 
@@ -84,7 +84,7 @@ Image im = Image.load(filePath);
 
 At this point the image data is available in memory and ready to be turned into a layer.
 
-## Step 4: Create a New PSD Image
+## Step 4: create a new PSD image
 
 Create a blank PSD canvas where the new layer will be placed. Adjust the dimensions to match your source image if needed.
 
@@ -112,7 +112,7 @@ image.addLayer(layer);
 
 Your PSD now contains the JPEG as a separate layer.
 
-## Step 7: Save the Modified PSD File
+## Step 7: save the modified PSD file
 
 Persist the changes by saving the PSD to disk.
 
@@ -139,7 +139,7 @@ try {
 
 Proper disposal of layers prevents memory leaks, especially when processing many images.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -159,7 +159,7 @@ Aspose.PSD for Java is a powerful library used to manipulate Adobe Photoshop fil
 
 ### Can I use Aspose.PSD for free?
 
-Yes, Aspose offers a free trial, which you can access [here](https://releases.aspose.com/).
+Yes, Aspose offers a free trial, which you can access the [Aspose free trial download page](https://releases.aspose.com/).
 
 ### Is it necessary to dispose of layers after use?
 
@@ -171,7 +171,7 @@ You can load various raster images (like JPEG, PNG) into PSD layers using Aspose
 
 ### Where can I find more documentation on Aspose.PSD?
 
-You can find comprehensive documentation [here](https://reference.aspose.com/psd/java/).
+You can find comprehensive documentation on the [Aspose.PSD Java API documentation](https://reference.aspose.com/psd/java/).
 
 **Additional Q&A**
 

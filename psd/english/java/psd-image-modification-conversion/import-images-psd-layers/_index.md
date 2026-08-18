@@ -27,7 +27,7 @@ When it comes to working with PSD files, knowing **how to import psd** files pro
 ## What is “how to import psd”?
 Importing a PSD means programmatically loading a Photoshop document, modifying its layers (for example, adding an image), and then saving the updated file. This approach is ideal for batch processing, automated graphics generation, or integrating design assets into larger applications.
 
-## Why Use Aspose.PSD for Java?
+## Why use Aspose.PSD for java?
 Aspose.PSD provides a fully managed, license‑free API that abstracts the complex PSD file format. You get:
 - Direct access to layers, masks, and channel data.  
 - No need for Photoshop or third‑party native libraries.  
@@ -36,8 +36,8 @@ Aspose.PSD provides a fully managed, license‑free API that abstracts the compl
 ## Prerequisites
 Before we jump into the fun stuff, let’s make sure you’re ready to roll! Here’s what you need:
 
-- Java Development Kit (JDK): Ensure you have JDK installed on your machine. You can download the latest version from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-- Aspose.PSD for Java: You need the Aspose.PSD library. You can download it from the [release link](https://releases.aspose.com/psd/java/). This library is essential as it provides all the necessary functionalities to manipulate PSD files.  
+- Java Development Kit (JDK): Ensure you have JDK installed on your machine. You can download the latest version from the [Oracle JDK download page](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+- Aspose.PSD for Java: You need the Aspose.PSD library. You can download it from the [Aspose.PSD for Java download](https://releases.aspose.com/psd/java/). This library is essential as it provides all the necessary functionalities to manipulate PSD files.  
 - IDE: A good Integrated Development Environment (like IntelliJ IDEA or Eclipse) will simplify coding and debugging.  
 - Basic Java Knowledge: Familiarity with basic Java concepts will help you follow along easily.  
 
@@ -46,7 +46,7 @@ With these prerequisites checked off your list, you're all set to start your PSD
 ## How to Import PSD Images to Layers
 Below is a clear, numbered walkthrough that explains **how to add image** to a PSD layer, **set layer coordinates**, and **fill psd layer color**.
 
-### Step 1: Import Required Packages
+### Step 1: import required packages
 First, we bring in the Aspose.PSD classes we’ll need. This sets the stage for the rest of the code.
 
 ```java
@@ -58,7 +58,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-### Step 2: Set the Document Directory
+### Step 2: set the document directory
 Define where your source PSD lives and where the result will be saved.
 
 ```java
@@ -67,7 +67,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the actual path on your file system where your PSD files are located.
 
-### Step 3: Load Your PSD File
+### Step 3: load your PSD file
 Open the PSD so we can work with its layers.
 
 ```java
@@ -76,7 +76,7 @@ PsdImage image = (PsdImage) Image.load(dataDir + "sample.psd");
 
 Make sure `"sample.psd"` matches the filename you want to edit.
 
-### Step 4: Extract the Target Layer
+### Step 4: extract the target layer
 Pick the layer that will receive the new image. Here we use the second layer (index 1).
 
 ```java
@@ -85,7 +85,7 @@ Layer layer = image.getLayers()[1];
 
 If you need a different layer, simply change the index.
 
-### Step 5: Create a New Image to Import
+### Step 5: create a new image to import
 Now we’ll **add image psd layer** by creating a fresh `PsdImage` that we’ll draw onto.
 
 ```java
@@ -94,7 +94,7 @@ PsdImage drawImage = new PsdImage(200, 200);
 
 You can adjust the width and height to match your source picture.
 
-### Step 6: Fill the Image Surface (Set Layer Color)
+### Step 6: fill the image surface (Set layer color)
 Let’s **fill psd layer color** with a bright yellow background. This demonstrates how to set a solid color before drawing.
 
 ```java
@@ -113,7 +113,7 @@ layer.drawImage(new Point(10, 10), drawImage);
 
 The `Point(10, 10)` call **sets layer coordinates** (X = 10, Y = 10). Change these values to position the image exactly where you need it.
 
-### Step 8: Save the Updated PSD File
+### Step 8: save the updated PSD file
 Finally, write the changes back to disk.
 
 ```java
@@ -122,12 +122,12 @@ image.save(dataDir + "ImportImageToPSDLayer_out.psd");
 
 Give the output file a meaningful name; the example appends `_out` to keep the original untouched.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Image appears blank** – Ensure you called `Graphics.clear()` before drawing; otherwise the canvas may be transparent.  
 - **Wrong layer is modified** – Remember that layer indices start at 0. Double‑check the index you use in `getLayers()`.  
 - **Unsupported color profile** – Aspose.PSD handles most profiles, but if you see color shifts, try converting the source image to sRGB before importing.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.PSD for Java?**  
 A: Aspose.PSD for Java is a library that enables developers to work with PSD files, allowing the manipulation of layers, images, and other features programmatically.
@@ -136,13 +136,13 @@ A: Aspose.PSD for Java is a library that enables developers to work with PSD fil
 A: Yes! Aspose has libraries for various programming languages, including .NET, C++, and Python.
 
 **Q: Is there a free version of Aspose.PSD for Java?**  
-A: Yes, Aspose provides [a free trial](https://releases.aspose.com/) you can download and start experimenting with.
+A: Yes, Aspose provides [a free trial download](https://releases.aspose.com/) you can download and start experimenting with.
 
 **Q: What should I do if I encounter issues?**  
 A: You can visit the [Aspose Support Forum](https://forum.aspose.com/c/psd/34) to get assistance from the community and Aspose experts.
 
 **Q: How do I buy a license for Aspose.PSD for Java?**  
-A: You can purchase a license by visiting the [Aspose purchase page](https://purchase.aspose.com/buy).
+A: You can purchase a license by visiting the [Aspose.PSD license purchase page](https://purchase.aspose.com/buy).
 
 ---
 

@@ -57,7 +57,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 These imports give you access to image loading, PNG options, and layer manipulation.
 
-## Step 1: Define Your Document Directory
+## Step 1: define your document directory
 
 Specify where the source PSD and the resulting PNG files live:
 
@@ -67,7 +67,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the absolute or relative path to `sample.psd`.
 
-## Step 2: Load the PSD File
+## Step 2: load the PSD file
 
 Load the PSD into a `PsdImage` object so you can work with its layers:
 
@@ -77,7 +77,7 @@ PsdImage psdImage = (PsdImage) Image.load(dataDir + "sample.psd");
 
 Casting to `PsdImage` unlocks layer‑specific functionality.
 
-## Step 3: Configure PNG Options
+## Step 3: configure PNG options
 
 Set up the PNG export parameters. Using `TruecolorWithAlpha` keeps transparency intact:
 
@@ -86,7 +86,7 @@ PngOptions pngOptions = new PngOptions();
 pngOptions.setColorType(PngColorType.TruecolorWithAlpha);
 ```
 
-## Step 4: Loop Through Layers and Export Each One
+## Step 4: loop through layers and export each one
 
 Iterate over every layer and save it as an individual PNG file. This loop enables **batch export psd layers** automatically:
 
@@ -99,13 +99,13 @@ for (int i = 0; i < psdImage.getLayers().length; i++) {
 
 Each iteration produces `layer_out1.png`, `layer_out2.png`, and so on.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **FileNotFoundException** – Verify that `dataDir` points to the correct folder and that `sample.psd` exists.  
 - **OutOfMemoryError** – For very large PSD files, consider processing layers in smaller batches or increasing the JVM heap size (`-Xmx`).  
 - **Missing Transparency** – Ensure `pngOptions.setColorType(PngColorType.TruecolorWithAlpha)` is set; otherwise, PNG will be saved without an alpha channel.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### What is Aspose.PSD for Java?
 Aspose.PSD for Java is a powerful library that enables developers to create, modify, convert, and render Photoshop files without needing Adobe Photoshop.
@@ -117,10 +117,23 @@ Yes, Aspose.PSD supports BMP, TIFF, JPEG, and many other raster formats. Simply 
 Absolutely! You can try Aspose.PSD for free by downloading it from their [free trial page](https://releases.aspose.com/).
 
 ### What if I encounter issues while using Aspose.PSD?
-You can seek help and support from the Aspose community. Visit their support forums [here](https://forum.aspose.com/c/psd/34).
+You can seek help and support from the Aspose community. Visit the [Aspose PSD support forums](https://forum.aspose.com/c/psd/34).
 
 ### Where can I purchase a license for Aspose.PSD?
-You can easily buy a license for Aspose.PSD from their purchase page [here](https://purchase.aspose.com/buy).
+You can easily buy a license for Aspose.PSD from the [Aspose PSD purchase page](https://purchase.aspose.com/buy).
+
+
+
+
+
+
+
+
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.PSD for Java 24.12 (latest)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -128,9 +141,3 @@ You can easily buy a license for Aspose.PSD from their purchase page [here](http
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-26  
-**Tested With:** Aspose.PSD for Java 24.12 (latest)  
-**Author:** Aspose
