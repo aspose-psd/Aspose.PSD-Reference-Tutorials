@@ -1,5 +1,5 @@
 ---
-title: How to Delete Temporary Files While Exporting Images in a Multi‑Threaded Environment – Aspose.PSD for Java
+title: How to Delete Temporary Files While Exporting Images in a Multi‑Threaded Environment
 linktitle: Export Images in Multi‑Threaded Environment
 second_title: Aspose.PSD Java API
 description: Learn how to export images with Aspose.PSD for Java, convert PSD to raster and delete temporary files in a multi‑threaded setup. Boost performance and keep your workspace clean.
@@ -35,7 +35,7 @@ When you export images from a PSD file, you often create intermediate files (e.g
 ## Prerequisites
 - Basic knowledge of Java programming.  
 - A Java development environment (JDK 1.7+).  
-- Aspose.PSD for Java library downloaded and installed. You can find the download link [here](https://releases.aspose.com/psd/java/).
+- Aspose.PSD for Java library downloaded and installed. You can find the download page for Aspose.PSD for Java [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).
 
 ## Import Packages
 Add the required imports to your Java class. These classes give you access to color handling, raster image manipulation, and stream‑based loading.
@@ -53,14 +53,14 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 ```
 
-## Step 1: Set Up Document Directory  
+## Step 1: set up document directory
 Specify where your source PSD files live. Keeping the path in a variable makes it easy to reuse across threads.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Load PSD Image  
+## Step 2: load PSD image
 Open the PSD file as a stream and configure `PsdOptions` so Aspose.PSD knows where to read the data from.
 
 ```java
@@ -70,7 +70,7 @@ PsdOptions psdOptions = new PsdOptions();
 psdOptions.setSource(new StreamSource(fileStream));
 ```
 
-## Step 3: Process the Image – Convert PSD to Raster & Save Pixels  
+## Step 3: process the image – convert PSD to raster & save pixels
 Create a `RasterImage` from the PSD options, modify a few pixels, and then save the raster data back to the file system. This demonstrates **convert psd to raster** and the **save pixels java** workflow.
 
 ```java
@@ -83,7 +83,7 @@ image.savePixels(new Rectangle(0, 0, 2, 2), pixels);
 image.save();
 ```
 
-## Step 4: Clean Up – Delete Temporary Files  
+## Step 4: clean up – delete temporary files
 After the export finishes, it’s a best practice to delete any temporary files you created (including the original PSD if it was a copy). This is the core of our **delete temporary files** strategy.
 
 ```java
@@ -95,14 +95,14 @@ if (f.exists()) {
 
 > **Pro tip:** Wrap the clean‑up code in a `finally` block or use Java’s try‑with‑resources to guarantee deletion even if an exception occurs.
 
-## Common Issues & Solutions
+## Common issues & solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | `FileNotFoundException` on `FileInputStream` | Wrong path or missing file permissions | Verify `dataDir` and ensure the application has read/write rights. |
 | Images not saved correctly | Not calling `image.save()` after `savePixels` | Ensure `image.save()` is executed after pixel modifications. |
 | Temporary files remain after crash | Clean‑up code not reached | Use a shutdown hook or finally block to guarantee deletion. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Is Aspose.PSD compatible with all Java versions?
 Aspose.PSD is compatible with Java 1.7 and later versions.
@@ -111,13 +111,13 @@ Aspose.PSD is compatible with Java 1.7 and later versions.
 Yes, Aspose.PSD supports multi‑threading, allowing you to process multiple images concurrently.
 
 ### Where can I find additional documentation for Aspose.PSD?
-You can refer to the documentation [here](https://reference.aspose.com/psd/java/).
+You can refer to the documentation [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/).
 
 ### Is there a free trial available for Aspose.PSD for Java?
-Yes, you can access the free trial [here](https://releases.aspose.com/).
+Yes, you can access the free trial [free trial download page](https://releases.aspose.com/).
 
 ### How can I obtain a temporary license for Aspose.PSD?
-Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
+Visit the temporary license request page [temporary license request page](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
 
 **Additional Q&A**
 

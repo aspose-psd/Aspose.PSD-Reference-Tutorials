@@ -1,5 +1,5 @@
 ---
-title: "rgb to cmyk java: Mastering Color Conversion with Aspose.PSD"
+title: "Convert RGB to CMYK in Java with Aspose.PSD"
 linktitle: "Color Conversion using Default Profiles"
 second_title: "Aspose.PSD Java API"
 description: "Learn how to convert rgb to cmyk java using Aspose.PSD with default color profiles. Follow this step‑by‑step guide for vibrant image conversion."
@@ -57,42 +57,42 @@ Begin by defining the path to your document directory. This is where the source 
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Create a PSD Image
+## Step 2: create a PSD image
 Generate a new PSD image with a specified width and height. This blank canvas will later receive pixel data that we will convert.
 
 ```java
 PsdImage image = new PsdImage(500, 500);
 ```
 
-## Step 3: Fill Image Data
+## Step 3: fill image data
 Populate the image with pixel data, incorporating color variations. In a real project you would load or generate pixel arrays; the placeholder illustrates where that logic belongs.
 
 ```java
 // ... [Code for filling image data]
 ```
 
-## Step 4: Save Newly Created Pixels
+## Step 4: save newly created pixels
 After you have filled the pixel buffer, persist those changes back to the PSD object.
 
 ```java
 image.saveArgb32Pixels(image.getBounds(), pixels);
 ```
 
-## Step 5: Save the Newly Created Image Using Default Profiles
+## Step 5: save the newly created image using default profiles
 Saving the image without specifying a color profile automatically applies Aspose.PSD’s **default RGB profile**, giving you a ready‑to‑use file.
 
 ```java
 image.save(dataDir + "Default.jpg");
 ```
 
-## Step 6: Update Image Color Profile
+## Step 6: update image color profile
 Now we **update image color profile** from the default RGB to a CMYK profile. This step is the core of the **rgb to cmyk java** conversion.
 
 ```java
 // ... [Code for updating color profiles]
 ```
 
-## Step 7: Save Resultant Image with New Profiles
+## Step 7: save resultant image with new profiles
 Finally, export the image as a JPEG while explicitly setting the compression mode to CMYK. This demonstrates how to **use default color profiles** for the output file.
 
 ```java
@@ -101,14 +101,14 @@ options.setColorType(JpegCompressionColorMode.Cmyk);
 image.save(dataDir + "Cmyk_Default_profiles.jpg", options);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
 | **Colors look washed out** | The source image may already be in a limited color space. | Ensure the source PSD uses a full‑range RGB profile before conversion. |
 | **`NullPointerException` on `pixels`** | The pixel array was never initialized. | Populate `pixels` with a proper ARGB32 int[] before calling `saveArgb32Pixels`. |
 | **Output file size is huge** | Default JPEG quality is 100 %. | Adjust `options.setQuality(85)` to reduce size while keeping quality acceptable. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.PSD for Java with other Java image processing libraries?**  
 A: Yes, Aspose.PSD can be integrated alongside libraries such as ImageIO or TwelveMonkeys for pre‑ or post‑processing tasks.

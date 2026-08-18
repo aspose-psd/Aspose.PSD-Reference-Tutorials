@@ -1,5 +1,5 @@
 ---
-title: How to convert psd to png while cropping with Aspose.PSD for Java
+title: Convert PSD to PNG with Cropping using Aspose.PSD for Java
 linktitle: Cropping PSD when Converting to PNG
 second_title: Aspose.PSD Java API
 description: Learn how to convert psd to png and crop PSD files using Aspose.PSD for Java. This guide shows step‑by‑step image processing in Java applications.
@@ -12,7 +12,7 @@ date: 2026-03-21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to convert psd to png while cropping with Aspose.PSD for Java
+# Convert PSD to PNG with Cropping using Aspose.PSD for Java
 
 ## Introduction
 In the dynamic world of Java development, mastering efficient image processing is crucial. In this tutorial you’ll learn **how to convert psd to png** and crop the image in a single workflow using the powerful Aspose.PSD for Java library. By the end of this step‑by‑step guide, you’ll be able to add precise cropping to your PNG exports and make your Java applications handle PSD assets with confidence.
@@ -46,10 +46,10 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step 1: Set Up Your Project
+## Step 1: set up your project
 Begin by creating a Java project and adding the Aspose.PSD for Java library to your project's classpath. This gives you access to all the image‑processing classes you’ll need.
 
-## Step 2: Load PSD Image
+## Step 2: load PSD image
 ```java
 String dataDir = "Your Document Directory";
 String srcPath = dataDir + "sample.psd";
@@ -58,21 +58,21 @@ RasterImage image = (RasterImage)Image.load(srcPath);
 ```
 *Here we load the source PSD file into a `RasterImage` object, which provides raster‑based operations such as cropping.*
 
-## Step 3: Define Crop Region
+## Step 3: define crop region
 ```java
 // Create an instance of Rectangle class by passing x, y, width, and height
 Rectangle cropRegion = new Rectangle(0, 0, 350, 450);
 ```
 *The `Rectangle` defines the area you want to keep. Adjust the `x`, `y`, `width`, and `height` values to suit your design. This step directly answers the “define crop region” keyword.*
 
-## Step 4: Crop PSD Image
+## Step 4: crop PSD image
 ```java
 // Call the crop method of Image class and pass the Rectangle instance
 image.crop(cropRegion);
 ```
 *Calling `crop` modifies the image in‑memory, discarding everything outside the specified rectangle.*
 
-## Step 5: Set PNG Export Options
+## Step 5: set PNG export options
 ```java
 // Create an instance of PngOptions class
 PngOptions pngOptions = new PngOptions();
@@ -87,12 +87,12 @@ image.save(destName, pngOptions);
 ```
 *The `save` method performs the **convert psd to png** operation while preserving the crop you defined.*
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 - **Incorrect rectangle dimensions:** Make sure the width and height do not exceed the original image size, otherwise an exception will be thrown.  
 - **Memory usage with large PSDs:** Dispose of the `RasterImage` object (`image.dispose()`) after saving to free native resources.  
 - **License not set:** If you run the code without a valid license, a watermark will appear on the output PNG.
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Can I crop PSD files with irregular shapes using Aspose.PSD for Java?
 Yes, Aspose.PSD for Java allows you to define a custom crop region, enabling you to crop images into various shapes.
 
@@ -106,7 +106,7 @@ Yes, a valid license is required for commercial use. You can obtain it from [Asp
 Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) to seek assistance, share your experiences, and report any issues you encounter.
 
 ### Can I try Aspose.PSD for Java before purchasing?
-Certainly! Explore the library's features with a free trial available [here](https://releases.aspose.com/).
+Certainly! Explore the library's features with a free trial available on the [Aspose.PSD free trial page](https://releases.aspose.com/).
 
 ---
 

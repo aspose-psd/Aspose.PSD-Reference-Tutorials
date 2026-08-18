@@ -1,5 +1,5 @@
 ---
-title: How to Use ICC Profiles for Color Conversion in Aspose.PSD
+title: How to Use ICC Profiles for Color Conversion in Java
 linktitle: Color Conversion using ICC Profiles
 second_title: Aspose.PSD Java API
 description: Learn how to use ICC profiles to convert color profiles, apply ICC profile settings, and set RGB profile when creating PSD images with Aspose.PSD for Java.
@@ -56,7 +56,7 @@ import java.io.FileNotFoundException;
 ## How to Use ICC Profiles for Color Conversion
 Below is a step‑by‑step guide that shows **how to convert color** using ICC profiles while **creating a PSD image**.
 
-### Step 1: Create a New Image (Create PSD Image)
+### Step 1: create a new image (Create PSD image)
 First, instantiate a blank `PsdImage`. This gives you a canvas you can fill with pixel data.
 
 ```java
@@ -64,7 +64,7 @@ String dataDir = "Your Document Directory";
 PsdImage image = new PsdImage(500, 500);
 ```
 
-### Step 2: Fill Image Data
+### Step 2: fill image data
 Populate the image with raw ARGB pixel values. In a real‑world scenario you might load pixel data from another source, but here we simply illustrate the process.
 
 ```java
@@ -79,14 +79,14 @@ for (int i = 0; i < count; i++) {
 image.saveArgb32Pixels(image.getBounds(), pixels);
 ```
 
-### Step 3: Save Image with Default ICC Profiles
+### Step 3: save image with default ICC profiles
 Saving at this point writes the image using the library’s default color profiles. This step helps you see the difference after applying custom profiles later.
 
 ```java
 image.save(dataDir + "Default_profiles.jpg");
 ```
 
-### Step 4: Update Color Profiles (Apply ICC Profile & Set RGB Profile)
+### Step 4: update color profiles (Apply ICC profile & set RGB profile)
 Load the external ICC files and assign them to the image. This is where we **apply icc profile** and **set rgb profile**.
 
 ```java
@@ -100,7 +100,7 @@ image.setRgbColorProfile(rgbprofile);
 image.setCmykColorProfile(cmykprofile);
 ```
 
-### Step 5: Save Image with New YCCK Profiles
+### Step 5: save image with new YCCK profiles
 Finally, export the image as a JPEG using the YCCK color mode, which respects the CMYK profile we just set.
 
 ```java
@@ -111,14 +111,14 @@ image.save(dataDir + "Ycck_profiles.jpg", options);
 
 By following these steps you have **converted the color profile** of a PSD image, **applied ICC profiles**, and **set the RGB profile** for accurate rendering.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | Colors look washed out after conversion | Wrong profile assigned or missing profile data | Verify that the ICC files correspond to the source image’s color space. |
 | `FileNotFoundException` when loading ICC files | Incorrect `dataDir` path | Use an absolute path or ensure the files are placed in the specified directory. |
 | JPEG saved without YCCK colors | `JpegOptions` not set to `Ycck` | Call `options.setColorType(JpegCompressionColorMode.Ycck)` before saving. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 **Q: Can I use custom ICC profiles with Aspose.PSD for Java?**  
 A: Yes, simply replace the provided ICC files with your own and point the `StreamSource` to the new files.
 
@@ -136,13 +136,20 @@ A: They guarantee consistent color across different devices, simplify workflow a
 
 ---
 
+
+
+
+
+
+
+
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.PSD for Java (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2026-03-21  
-**Tested With:** Aspose.PSD for Java (latest)  
-**Author:** Aspose
