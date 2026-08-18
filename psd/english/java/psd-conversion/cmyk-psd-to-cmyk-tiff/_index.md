@@ -1,5 +1,5 @@
 ---
-title: How to Convert PSD to TIFF – Mastering CMYK PSD to CMYK TIFF Conversion with Aspose.PSD
+title: Convert CMYK PSD to CMYK TIFF with Aspose.PSD for Java
 linktitle: Convert CMYK PSD to CMYK TIFF
 second_title: Aspose.PSD Java API
 description: Learn how to convert PSD to TIFF using Aspose.PSD for Java – a step‑by‑step guide to convert CMYK PSD to CMYK TIFF efficiently.
@@ -32,7 +32,7 @@ Aspose.PSD offers a pure‑Java API with no external dependencies, enabling you 
 ## Prerequisites
 Before you start, make sure you have:
 
-- **Aspose.PSD for Java Library** – download it from [here](https://releases.aspose.com/psd/java/).  
+- **Aspose.PSD for Java Library** – download it from [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
 - **Java Development Environment** – JDK 8 or higher installed and configured.  
 - **Sample CMYK PSD File** – a PSD file that you want to convert.
 
@@ -57,7 +57,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the actual absolute or relative path on your machine.
 
-### Step 2: Specify Source and Destination Files
+### Step 2: specify source and destination files
 Next, build the full file names for the input PSD and the output TIFF.
 
 ```java
@@ -67,7 +67,7 @@ String destName = dataDir + "output.tiff";
 
 Feel free to rename `sample.psd` and `output.tiff` to match your naming conventions.
 
-### Step 3: Load the PSD Image
+### Step 3: load the PSD image
 Load the PSD file into an `Image` object. Aspose.PSD automatically detects the color mode (CMYK in this case).
 
 ```java
@@ -85,7 +85,7 @@ image.save(destName, new TiffOptions(TiffExpectedFormat.TiffLzwCmyk));
 
 The `TiffExpectedFormat.TiffLzwCmyk` option tells Aspose.PSD to generate a CMYK TIFF with LZW compression, which is ideal for print workflows.
 
-## Common Issues & Pro Tips
+## Common issues & pro tips
 - **File not found** – Double‑check the `dataDir` path and ensure the PSD file name is correct.  
 - **Out‑of‑memory errors** – For very large PSDs, consider increasing the JVM heap size (`-Xmx2g`).  
 - **Color shift** – Verify that the source PSD is truly CMYK; converting an RGB PSD with the CMYK option may produce unexpected colors.  
@@ -94,7 +94,7 @@ The `TiffExpectedFormat.TiffLzwCmyk` option tells Aspose.PSD to generate a CMYK 
 ## Conclusion
 Congratulations! You’ve successfully learned how to **convert PSD to TIFF** using Aspose.PSD for Java. This approach gives you full programmatic control over image conversion, making it easy to integrate into batch processing pipelines, web services, or desktop utilities.
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Is Aspose.PSD compatible with all versions of Java?
 Yes, Aspose.PSD for Java is designed to be compatible with all major versions of Java.
 
@@ -105,7 +105,7 @@ Absolutely! Aspose.PSD supports the conversion of PSD files with various color m
 Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
 
 ### Do I need a temporary license for testing?
-Yes, you can obtain a temporary license for testing from [here](https://purchase.aspose.com/temporary-license/).
+Yes, you can obtain a temporary license for testing from [Aspose temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 ### What are the key advantages of using Aspose.PSD for Java?
 Aspose.PSD provides a rich set of features, including high‑fidelity rendering, manipulation of layers, and support for various image formats.

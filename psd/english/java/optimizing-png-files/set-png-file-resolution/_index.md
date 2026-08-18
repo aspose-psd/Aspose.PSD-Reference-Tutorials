@@ -1,6 +1,6 @@
 ---
-title: Change PNG resolution java using Aspose.PSD
-linktitle: Change PNG resolution java using Aspose.PSD
+title: Change PNG Resolution in Java with Aspose.PSD API
+linktitle: Change PNG Resolution in Java with Aspose.PSD API
 second_title: Aspose.PSD Java API
 description: Learn how to change PNG resolution java and set image resolution java with Aspose.PSD for Java. Follow this step‑by‑step guide to optimize your images quickly.
 weight: 13
@@ -12,7 +12,7 @@ date: 2026-03-18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Change PNG resolution java using Aspose.PSD
+# Change PNG Resolution in Java with Aspose.PSD API
 
 ## Introduction
 If you need to **change PNG resolution java** quickly and reliably, you’re in the right place. In this tutorial we’ll walk through the exact steps required to adjust PNG file resolution with Aspose.PSD for Java. Whether you’re building a batch‑processing tool, a web service, or just polishing a few assets, the same approach works everywhere. Grab your favorite IDE, and let’s get started!
@@ -34,7 +34,7 @@ Aspose.PSD provides a high‑level API that abstracts the low‑level PNG handli
 Before you start, make sure you have:
 
 1. **Java Development Kit (JDK) 8+** – the code runs on any recent JDK.  
-2. **Aspose.PSD for Java** – download it from the [download link](https://releases.aspose.com/psd/java/).  
+2. **Aspose.PSD for Java** – download it from the [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
 3. **An IDE** – IntelliJ IDEA, Eclipse, or VS Code with Java support.  
 4. **A sample PSD file** – we’ll convert it to PNG and change its resolution.  
 5. **Basic Java knowledge** – you’ll understand the snippets without any extra explanation.
@@ -49,10 +49,10 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step 1: Set Up Your Java Project
+## Step 1: set up your java project
 Create a new Java project (or Maven/Gradle module) and add the Aspose.PSD JAR to the build path. If you’re using Maven, add the appropriate dependency from the Aspose repository.
 
-## Step 2: Define Your Document Directory
+## Step 2: define your document directory
 Tell the program where to find the source PSD file and where to write the output PNG.
 
 ```java
@@ -61,7 +61,7 @@ String dataDir = "Your Document Directory"; // Update with your folder path
 
 Replace `"Your Document Directory"` with the absolute or relative path that contains `sample.psd`.
 
-## Step 3: Load the PSD Image
+## Step 3: load the PSD image
 Use the `PsdImage` class to read the PSD file from disk.
 
 ```java
@@ -70,7 +70,7 @@ PsdImage psdImage = (PsdImage) Image.load(dataDir + "sample.psd");
 
 Make sure the file name matches the actual PSD you want to process.
 
-## Step 4: Create and Configure PNG Options
+## Step 4: create and configure PNG options
 Here’s where we actually **change PNG resolution java**. We instantiate `PngOptions` and set the horizontal and vertical DPI values via `ResolutionSetting`.
 
 ```java
@@ -80,7 +80,7 @@ options.setResolutionSettings(new ResolutionSetting(72, 96)); // 72 DPI horizont
 
 Feel free to replace `72` and `96` with any values that suit your target device. This is the core of the **set image resolution java** operation.
 
-## Step 5: Save the Resulting PNG
+## Step 5: save the resulting PNG
 Finally, export the PSD as a PNG with the new resolution metadata.
 
 ```java
@@ -89,7 +89,7 @@ psdImage.save(dataDir + "SettingResolution_output.png", options);
 
 The file `SettingResolution_output.png` will appear in the same folder, now carrying the DPI values you specified.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 - **Incorrect path** – Double‑check `dataDir` ends with a file‑separator (`/` or `\`).  
 - **Unsupported DPI** – Most browsers ignore DPI values above 300; keep them reasonable.  
 - **Memory usage** – Large PSDs can consume significant RAM; consider disposing of `psdImage` after saving (`psdImage.dispose()`).  
@@ -111,7 +111,7 @@ Aspose.PSD handles many common issues, but if a file is severely corrupted, it m
 ### Is Aspose.PSD suitable for high‑performance applications?
 Yes, it’s designed to handle large files efficiently and is suitable for performance‑intensive image processing tasks.
 
-## Frequently Asked Questions
+## Frequently asked questions
 **Q: How do I programmatically set a different DPI for horizontal and vertical axes?**  
 A: Use `new ResolutionSetting(horizontalDpi, verticalDpi)` as shown in the PNG options example.  
 

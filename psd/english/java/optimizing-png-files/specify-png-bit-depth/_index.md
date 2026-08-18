@@ -1,5 +1,5 @@
 ---
-title: How to Convert PSD to PNG with Specified Bit Depth Using Aspose.PSD for Java
+title: Convert PSD to PNG with Specified Bit Depth Using Aspose.PSD for Java
 linktitle: Specify PNG Bit Depth in Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to convert psd to png while changing png bit depth with Aspose.PSD for Java – step‑by‑step guide with code samples.
@@ -34,7 +34,7 @@ Aspose.PSD for Java provides a high‑level API that abstracts the complexity of
 Before we dive into the code, make sure you have the following:
 
 1. **Java Development Kit (JDK)** – download it from [Oracle’s website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.PSD for Java** – obtain the latest JAR from [this link](https://releases.aspose.com/psd/java/).  
+2. **Aspose.PSD for Java** – obtain the latest JAR from the [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
 3. **Basic Java knowledge** – you should be comfortable with classes, methods, and exception handling.  
 4. **An IDE** such as IntelliJ IDEA or Eclipse (optional but recommended).  
 5. **A sample PSD file** – place it in a folder you’ll reference in the code.
@@ -53,14 +53,14 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 These statements import the classes that we’ll be using throughout the tutorial, enabling us to load PSD files and save them as PNG images with the specified bit depth.
 
-## Step 1: Set Up Your Document Directory
+## Step 1: set up your document directory
 Before diving into image processing, let’s define a directory where our images will be stored. This is like creating a folder for your art supplies before starting a craft project.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Load the PSD Image
+## Step 2: load the PSD image
 Next up, we need to load the PSD image file you want to convert. Think of this as opening up a canvas where you’ll do all your work.
 
 ```java
@@ -69,7 +69,7 @@ PsdImage psdImage = (PsdImage)Image.load(dataDir + "sample.psd");
 
 Here, we are making use of the `Image.load()` method to read our sample PSD file and cast it to `PsdImage` to access PSD‑specific properties.
 
-## Step 3: Create PNG Options
+## Step 3: create PNG options
 Once we have our canvas open, we need a set of options for how we want to save our image. This is essentially choosing your colors and brush styles before you start painting.
 
 ```java
@@ -78,7 +78,7 @@ PngOptions options = new PngOptions();
 
 In this step, we’re initializing an instance of `PngOptions`, which allows us to specify the parameters for our PNG output.
 
-## Step 4: Set the Desired Color Type
+## Step 4: set the desired color type
 Now we decide what kind of colors we want in our final PNG image. Are you going for a colorful palette or a monochromatic style? Let’s make that decision!
 
 ```java
@@ -87,7 +87,7 @@ options.setColorType(PngColorType.Grayscale);
 
 In this example, we set the color type to grayscale. You could also choose `PngColorType.TrueColor` if you want a full‑color image. This is the part where we **create grayscale png**.
 
-## Step 5: Specify the Bit Depth
+## Step 5: specify the bit depth
 Next, let’s specify the bit depth. This is similar to telling your printer how finely it should print your image – the more bits, the more detail!
 
 ```java
@@ -96,7 +96,7 @@ options.setBitDepth((byte)1);
 
 Here, we set the bit depth to **1 bit**, which is suitable for simple grayscale images. You can change the value to 2, 4, 8, or 16 depending on your quality requirements – a classic example of how to **change png bit depth**.
 
-## Step 6: Save the PNG Image
+## Step 6: save the PNG image
 Finally, it's time to save your masterpiece! This step concludes our project as we effectively transfer our artwork from the editing canvas to a gallery wall.
 
 ```java
@@ -105,12 +105,12 @@ psdImage.save(dataDir + "SpecifyBitDepth_out.png", options);
 
 Using the `save()` method of `PsdImage`, we save the converted file, applying the options we defined. Voila! Our image is now saved with the custom bit depth.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **`NullPointerException` when loading the PSD** – double‑check that `dataDir` points to the correct folder and that `sample.psd` exists.  
 - **Unsupported bit depth** – Aspose.PSD supports 1, 2, 4, 8, and 16 bits for PNG. Using any other value will throw an `IllegalArgumentException`.  
 - **Color type mismatch** – if you set a bit depth that isn’t compatible with the chosen `PngColorType`, the library will automatically adjust to the nearest supported setting.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.PSD for Java?**  
 A: Aspose.PSD for Java is a library for working with PSD files in Java applications, allowing you to manipulate and convert images.
@@ -119,10 +119,10 @@ A: Aspose.PSD for Java is a library for working with PSD files in Java applicati
 A: You can set the bit depth by using the `options.setBitDepth((byte)n)` method, replacing `n` with your desired depth.
 
 **Q: Can I use Aspose.PSD for free?**  
-A: Yes, you can try out the library with a free trial which you can find [here](https://releases.aspose.com/).
+A: Yes, you can try out the library with a free trial available on the [Aspose.PSD free trial download](https://releases.aspose.com/).
 
 **Q: Where can I get a support license for Aspose?**  
-A: For a temporary license, you can apply [here](https://purchase.aspose.com/temporary-license/).
+A: For a temporary license, you can apply via the [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 **Q: What type of images can I convert?**  
 A: Aspose.PSD primarily deals with PSD files, but it supports conversion to various formats like PNG, JPEG, and TIFF.

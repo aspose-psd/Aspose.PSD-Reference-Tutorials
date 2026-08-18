@@ -28,7 +28,7 @@ When you need to **convert PSD to PNG** while preserving or defining a transpare
 Before we jump into the code, let’s make sure you’re set up correctly.
 
 1. Java Development Kit (JDK): Ensure you have JDK installed on your system. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-2. Aspose.PSD for Java Library: You need to include the Aspose.PSD library in your Java project. You can [download it here](https://releases.aspose.com/psd/java/).
+2. Aspose.PSD for Java Library: You need to include the Aspose.PSD library in your Java project. You can download the Aspose.PSD for Java library from the official release page: [Aspose.PSD for Java release page](https://releases.aspose.com/psd/java/).
 3. Integrated Development Environment (IDE): While you can write Java code in any text editor, using an IDE like IntelliJ IDEA or Eclipse can greatly enhance your productivity.
 
 Once you have these prerequisites in place, you're ready to go!
@@ -47,14 +47,14 @@ Now that we’re all set up, let’s break down the process of setting transpare
 ## How to Convert PSD to PNG Using Aspose.PSD for Java
 Below is the complete workflow—from preparing your workspace to saving the final PNG with a transparent background.
 
-## Step 1: Set Up Your Environment
+## Step 1: set up your environment
 First things first, you need to get your working directory ready. This is where your PSD source file and the resulting PNG image will reside. You can create a directory structure on your local machine that suits your project needs. For this example, let’s say our directory is:
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Load the PSD Image
+## Step 2: load the PSD image
 Next, you want to load your PSD file. This step initializes your image object and allows you to manipulate it.
 
 ```java
@@ -63,14 +63,14 @@ PsdImage psdImage = (PsdImage)Image.load(dataDir + "sample.psd");
 
 Make sure the `sample.psd` file exists in the folder you specified; otherwise, the load operation will fail.
 
-## Step 3: Initialize the PNG Image
+## Step 3: initialize the PNG image
 Once the PSD file is loaded, it’s time to create a new PNG image object based on the PSD data. Think of it as taking a snapshot of the PSD that you can later tweak.
 
 ```java
 PsdImage pngImage = new PsdImage(psdImage);
 ```
 
-## Step 4: Set PNG Transparency Options
+## Step 4: set PNG transparency options
 Now we get to the crux of the task: **how to set transparency** for the PNG. In this step, you specify which color should be treated as transparent.
 
 ```java
@@ -80,7 +80,7 @@ pngImage.setTransparentColor(true);
 
 Here we’re making white the transparent color, which is useful when the original PSD has a white background you want to remove. This is the core of the *transparent color PNG* feature.
 
-## Step 5: Save the PNG Image
+## Step 5: save the PNG image
 After specifying the transparency, it’s time to save your new PNG image. This is where all your hard work pays off!
 
 ```java
@@ -89,7 +89,7 @@ pngImage.save(dataDir + "Specify_Transparency_result.png");
 
 The resulting file, `Specify_Transparency_result.png`, will have the chosen color fully transparent, ready for use on the web, in mobile apps, or anywhere else you need a clean PNG.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **File not found** – Double‑check the `dataDir` path and ensure `sample.psd` exists.
 - **Transparent color not applied** – Verify that the color you set actually exists in the image; otherwise the API may leave the image unchanged.
 - **License exception** – If you see a licensing error, make sure you’ve applied a valid Aspose.PSD license or are running in trial mode.
@@ -107,7 +107,7 @@ Aspose.PSD for Java is a library that allows developers to work with Photoshop (
 Yes, Aspose.PSD supports conversion between various image formats, including PNG, BMP, JPG, and more.
 
 ### Is there a trial version available?
-Absolutely! You can download a free trial version of Aspose.PSD [here](https://releases.aspose.com/).
+Absolutely! You can download a free trial version of Aspose.PSD from the Aspose.PSD free trial download page: [Aspose.PSD free trial download page](https://releases.aspose.com/).
 
 ### How do I get help if I encounter issues?
 You can visit the [Aspose Support Forum](https://forum.aspose.com/c/psd/34) for assistance and community support.
@@ -115,7 +115,7 @@ You can visit the [Aspose Support Forum](https://forum.aspose.com/c/psd/34) for 
 ### Can I set multiple transparent colors?
 Currently, the library allows you to set one transparent color per PNG image. However, you can manipulate various layers in the PSD file before exporting if needed.
 
-## Frequently Asked Questions
+## Frequently asked questions
 **Q: Does Aspose.PSD support Java 17?**  
 A: Yes, the library is compatible with Java 8 and newer, including Java 17.
 
