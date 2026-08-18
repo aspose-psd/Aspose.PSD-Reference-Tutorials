@@ -1,6 +1,6 @@
 ---
-title: Detect Flattened PSD Using Aspose.PSD for Java
-linktitle: Detect Flattened PSD Files using Aspose.PSD for Java
+title: How to Determine If a Photoshop File Is Flattened Using Java
+linktitle: Determine Flattened Photoshop Files Using Java
 second_title: Aspose.PSD Java API
 description: Learn how to detect flattened PSD files using Aspose.PSD for Java, step by step in this comprehensive tutorial.
 weight: 10
@@ -28,7 +28,7 @@ If you need to **detect flattened PSD** files programmatically, you’ve come to
 ## What is a Flattened PSD File?
 A flattened PSD file is a Photoshop document where every layer has been merged into a single composite layer. This reduces file size but makes further layer‑based edits impossible unless you have an unflattened backup.
 
-## Why Detect a Flattened PSD?
+## Why detect a flattened PSD?
 Detecting a flattened PSD early lets you decide whether to:
 - Prompt the user to supply an editable version.
 - Apply image‑wide processing instead of layer‑specific operations.
@@ -39,7 +39,7 @@ Detecting a flattened PSD early lets you decide whether to:
 Before we dive into code, make sure you have:
 
 1. **Java Development Kit (JDK)** – version 8 or newer.  
-2. **Aspose.PSD for Java** – download the library from [here](https://releases.aspose.com/psd/java/).  
+2. **Aspose.PSD for Java** – download the library from the Aspose.PSD for Java release page.  
 3. **Basic Java knowledge** – you should be comfortable with importing libraries and running a simple Java program.  
 4. **An IDE** – IntelliJ IDEA, Eclipse, NetBeans, or any editor you prefer.
 
@@ -58,7 +58,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 
 Below is a step‑by‑step guide. Each step includes a short explanation followed by the exact code you need to copy.
 
-### Step 1: Set Up the Data Directory
+### Step 1: set up the data directory
 
 Specify the folder that contains the PSD files you want to examine.
 
@@ -66,7 +66,7 @@ Specify the folder that contains the PSD files you want to examine.
 String dataDir = "Your Document Directory"; // Update this path
 ```
 
-### Step 2: Load the PSD File
+### Step 2: load the PSD file
 
 Use `Image.load()` to open the PSD file as a `PsdImage` object.
 
@@ -84,13 +84,13 @@ System.out.println(psdImage.isFlatten());
 
 The console will print `true` for a flattened document and `false` for one that still contains separate layers.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **FileNotFoundException** – Verify that `dataDir` points to the correct folder and that the file name matches exactly, including case sensitivity.  
 - **Unsupported file format** – Ensure the file is a valid PSD; other Photoshop‑compatible formats (e.g., PSB) may require different handling.  
 - **LicenseException** – If you see a licensing error, install a valid Aspose.PSD license or use the trial version for evaluation.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is a flattened PSD file?**  
 A: A flattened PSD file has all its layers merged into a single background layer, making further layer‑based edits impossible.
@@ -102,10 +102,10 @@ A: No. Once layers are merged, the original layer structure cannot be recovered 
 A: Yes. Aspose.PSD can handle PSD, PSB, BMP, JPEG, PNG, TIFF, and many more image formats.
 
 **Q: How do I get started with Aspose?**  
-A: Simply download the library from [here](https://releases.aspose.com/psd/java/) and add the JAR files to your project’s classpath.
+A: Simply download the library from the Aspose.PSD for Java release page and add the JAR files to your project’s classpath.
 
 **Q: Is there a way to test Aspose.PSD for free?**  
-A: Absolutely! You can start a free trial by downloading a trial version from [this link](https://releases.aspose.com/).
+A: Absolutely! You can start a free trial by downloading a trial version from the Aspose releases page.
 
 ## Conclusion
 

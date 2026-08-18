@@ -1,6 +1,6 @@
 ---
-title: Save PSD as PNG with Layer Effects using Java
-linktitle: Save PSD as PNG with Layer Effects using Java
+title: Export PSD to PNG with Layer Effects using Aspose.PSD for Java
+linktitle: Export PSD to PNG with Layer Effects using Aspose.PSD for Java
 second_title: Aspose.PSD Java API
 description: Learn how to save PSD as PNG, convert PSD to PNG, and export PSD to PNG using Aspose.PSD for Java. This tutorial shows applying layer effects and exporting the result.
 weight: 19
@@ -12,7 +12,7 @@ date: 2026-03-23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save PSD as PNG with Layer Effects using Java
+# Export PSD to PNG with Layer Effects using Aspose.PSD for Java
 
 ## Introduction
 
@@ -55,7 +55,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 ## How to save PSD as PNG – Step‑by‑Step Guide
 
-### Step 1: Define File Paths
+### Step 1: define file paths
 
 First, tell the program where to find the source PSD and where to write the resulting PNG.
 
@@ -65,7 +65,7 @@ String sourceFileName = dataDir + "LayerWithText.psd";
 String exportPath = dataDir+ "LayerEffectsForPSD.png";
 ```
 
-### Step 2: Load the PSD File (Preserve Effects)
+### Step 2: load the PSD file (Preserve effects)
 
 Loading the file is like pre‑heating the oven. By enabling the effects‑related options we ensure the layer styles are kept.
 
@@ -94,7 +94,7 @@ image.save(exportPath, options);
 
 When the code finishes, `LayerEffectsForPSD.png` contains the visual representation of the original PSD, complete with all layer effects.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Problem | Solution |
 |---------|----------|
@@ -102,7 +102,7 @@ When the code finishes, `LayerEffectsForPSD.png` contains the visual representat
 | **Missing transparency** | Ensure `options.setColorType(PngColorType.TruecolorWithAlpha)` is set before saving. |
 | **Effects not appearing** | Verify `loadOptions.setLoadEffectsResource(true)` is called; without it the effects are ignored. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I modify layer effects directly using Aspose.PSD?**  
 A: Absolutely! The API exposes each layer’s `EffectList`, allowing you to add, remove, or change effects programmatically.

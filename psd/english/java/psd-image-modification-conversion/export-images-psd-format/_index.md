@@ -1,8 +1,8 @@
 ---
-title: How to Save Image as PSD with Java using Aspose.PSD
+title: Export Image to PSD Format with Java using Aspose.PSD
 linktitle: Export Images to PSD Format with Java
 second_title: Aspose.PSD Java API
-description: Learn how to save image as PSD using Aspose.PSD for Java. Step‑by‑step guide to set PSD color mode, convert bitmap to PSD and export images programmatically.
+description: Learn how to export an image to PSD using Aspose.PSD for Java. Step‑by‑step guide to set PSD color mode, convert bitmap to PSD and export images programmatically.
 weight: 11
 url: /java/psd-image-modification-conversion/export-images-psd-format/
 date: 2026-03-23
@@ -12,7 +12,7 @@ date: 2026-03-23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Save Image as PSD with Java using Aspose.PSD
+# Export Image to PSD Format with Java using Aspose.PSD
 
 ## How to Save Image as PSD with Java
 
@@ -40,7 +40,7 @@ Saving an image as PSD means exporting a raster graphic into Adobe Photoshop’s
 Before we start, make sure you have the following:
 
 1. **Basic Java knowledge** – you should be comfortable with compiling and running Java programs.  
-2. **Aspose.PSD for Java library** – you can [download it here](https://releases.aspose.com/psd/java/).  
+2. **Aspose.PSD for Java library** – you can [download the Aspose.PSD for Java library](https://releases.aspose.com/psd/java/).  
 3. **Java Development Kit (JDK)** – JDK 8 or newer installed on your machine.  
 4. **IDE or Text Editor** – IntelliJ IDEA, Eclipse, VS Code, or any editor you prefer.  
 5. **Understanding of image concepts** – color modes, compression, and bitmap basics help but aren’t mandatory.
@@ -63,7 +63,7 @@ import com.aspose.psd.imageoptions.PsdOptions;
 
 These imports give us access to drawing utilities, color handling, and PSD‑specific options.
 
-## Step 1: Initialize Your Document Directory
+## Step 1: initialize your document directory
 
 Define where the generated PSD file will be saved:
 
@@ -83,7 +83,7 @@ PsdImage bmpImage = new PsdImage(300, 300);
 
 Feel free to change `300, 300` to match the dimensions you need.
 
-## Step 3: Fill Image Data
+## Step 3: fill image data
 
 Add some graphics to the bitmap so the resulting PSD isn’t just a blank canvas:
 
@@ -97,7 +97,7 @@ graphics.drawRectangle(pen, bmpImage.getBounds());
 - `graphics.clear(Color.getWhite())` paints the whole canvas white.  
 - The brown pen draws a rectangle that outlines the image bounds.
 
-## Step 4: Set PSD Options (Set PSD Color Mode)
+## Step 4: set PSD options (Set PSD color mode)
 
 Here we configure how the file will be saved. This is where we **set PSD color mode** to RGB, choose compression, and specify the Photoshop version:
 
@@ -112,7 +112,7 @@ psdOptions.setVersion(4);
 - `CompressionMethod.Raw` – stores pixel data without compression for maximum quality.  
 - `setVersion(4)` – saves the file in Photoshop 4.0 format, which is widely compatible.
 
-## Step 5: Save the Image
+## Step 5: save the image
 
 Finally, export the bitmap as a PSD file—this is the core **save image as PSD** operation:
 
@@ -122,13 +122,13 @@ bmpImage.save(dataDir + "ExportImageToPSD_output.psd", psdOptions);
 
 The file `ExportImageToPSD_output.psd` will appear in the directory you specified.
 
-## Common Use Cases
+## Common use cases
 
 - **Automated report generation** where charts need to be editable in Photoshop.  
 - **Batch conversion** of PNG/JPEG assets to PSD for designers who require layers.  
 - **Server‑side image composition** for web services that deliver PSD templates to clients.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -137,7 +137,7 @@ The file `ExportImageToPSD_output.psd` will appear in the directory you specifie
 | **Unsupported color mode** | Use `ColorModes.Cmyk` if you need CMYK output; remember to adjust your graphics accordingly. |
 | **LicenseException** at runtime | Install a valid Aspose.PSD license or run in trial mode (evaluation watermark may appear). |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.PSD for Java?**  
 A: Aspose.PSD for Java is a robust API that enables developers to create, edit, convert, and render Photoshop PSD files without using Adobe Photoshop.
@@ -146,7 +146,7 @@ A: Aspose.PSD for Java is a robust API that enables developers to create, edit, 
 A: Yes, you can open an existing PSD with `new PsdImage("input.psd")`, make changes, and save it back.
 
 **Q: Is there a free trial available?**  
-A: Absolutely! You can download a free trial of Aspose.PSD [here](https://releases.aspose.com/).
+A: Absolutely! You can [download a free trial of Aspose.PSD](https://releases.aspose.com/).
 
 **Q: Where can I find more documentation?**  
 A: You can check out the comprehensive [documentation](https://reference.aspose.com/psd/java/) to learn more about using Aspose.PSD.
