@@ -1,88 +1,122 @@
 ---
-title: 使用 Aspose.PSD for Java 检测扁平化 PSD 文件
-linktitle: 使用 Aspose.PSD for Java 检测扁平化 PSD 文件
+date: 2026-03-23
+description: 在本综合教程中，逐步学习如何使用 Aspose.PSD for Java 检测已展平的 PSD 文件。
+linktitle: Detect Flattened PSD Files using Aspose.PSD for Java
 second_title: Aspose.PSD Java API
-description: 在本综合教程中逐步学习如何使用 Aspose.PSD for Java 检测扁平化的 PSD 文件。
-weight: 10
+title: 使用 Aspose.PSD for Java 检测已扁平化的 PSD
 url: /zh/java/psd-image-modification-conversion/detect-flattened-psd-files/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PSD for Java 检测扁平化 PSD 文件
+# 检测使用 Aspose.PSD for Java 的已平面化 PSD
 
 ## 介绍
 
-欢迎使用 Aspose.PSD for Java 进入 PSD（Photoshop 文档）文件操作的世界！如果您曾经需要处理 Photoshop 文件中的图层，但不知道从哪里开始，那么您来对地方了。在本教程中，我们将深入研究如何使用 Aspose.PSD 检测 PSD 文件是否被压平。压平 PSD 意味着将其所有图层合并为一个统一的图层，这可能会使之后的编辑变得有点棘手。在本指南结束时，您将能够检查 PSD 文件的这一关键方面。坐稳，喝杯咖啡，让我们开始吧！
+如果您需要以编程方式检测已平面化的 PSD 文件，您来对地方了。在本教程中，我们将展示如何使用 Aspose.PSD for Java 来确定 Photoshop 文档是否已被平面化——即所有图层已合并为单一背景图层。提前了解可以避免后续编辑限制。打开您喜欢的 IDE，开始吧！
+
+## 快速答案
+- **“flattened PSD” 是什么意思？** 所有图层合并为一个，失去可编辑性。  
+- **哪个库可以检测它？** Aspose.PSD for Java 提供 `isFlatten()` 方法。  
+- **测试是否需要许可证？** 提供免费试用；生产环境需要许可证。  
+- **需要哪个 Java 版本？** JDK 8 或更高。  
+- **实现需要多长时间？** 基本检查通常在 10 分钟以内。
+
+## 什么是已平面化的 PSD 文件？
+已平面化的 PSD 文件是指所有图层已合并为单一复合图层的 Photoshop 文档。这会减小文件大小，但除非您拥有未平面化的备份，否则无法进行基于图层的进一步编辑。
+
+## 为什么要检测已平面化的 PSD？
+提前检测已平面化的 PSD 可让您决定是否：
+- 提示用户提供可编辑的版本。
+- 执行全图像处理，而不是针对特定图层的操作。
+- 避免在访问不存在的图层时出现运行时错误。
 
 ## 先决条件
 
-在我们开始编码之前，您需要做一些事情来确保您已准备好开始。以下是您需要的东西：
+在深入代码之前，请确保您已具备以下条件：
 
-1. Java 开发工具包 (JDK)：请确保您已安装 JDK。建议使用 8 或更高版本来使用 Aspose.PSD。
-2.  Aspose.PSD for Java：您需要 Aspose.PSD 库。您可以从以下网址下载[这里](https://releases.aspose.com/psd/java/).
-3. 对 Java 的基本了解：掌握 Java 编程基础知识，包括如何导入库和运行 Java 应用程序。
-4. IDE：任何集成开发环境 (IDE)，例如 IntelliJ IDEA、Eclipse 或 NetBeans，您可以在其中编写和执行 Java 代码。
+1. **Java Development Kit (JDK)** – 版本 8 或更新。  
+2. **Aspose.PSD for Java** – 从 [here](https://releases.aspose.com/psd/java/) 下载库。  
+3. **基本的 Java 知识** – 您应熟悉导入库并运行简单的 Java 程序。  
+4. **IDE** – IntelliJ IDEA、Eclipse、NetBeans 或您喜欢的任何编辑器。
 
-现在我们已经了解了基本内容，让我们开始编写代码吧！
+现在基础已覆盖，让我们继续实现。
 
 ## 导入包
 
-在 Java 文件的顶部，导入必要的 Aspose.PSD 类。您的导入语句应如下所示：
+在 Java 源文件的顶部，导入您需要的 Aspose.PSD 类：
 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-现在让我们深入了解该功能的核心：检测 PSD 文件是否扁平。以下是分步说明。
+## 如何检测已平面化的 PSD 文件
 
-## 步骤 1：设置数据目录
+下面是一份逐步指南。每一步都包含简短说明以及需要复制的完整代码。
 
-首先，您需要指定 PSD 文件的位置。这很重要，因为我们的程序将在那里查找并加载文件。
+### 步骤 1：设置数据目录
+
+指定包含您要检查的 PSD 文件的文件夹。
 
 ```java
-String dataDir = "Your Document Directory"; //更新此路径
+String dataDir = "Your Document Directory"; // Update this path
 ```
 
-## 步骤2：加载PSD文件
+### 步骤 2：加载 PSD 文件
 
-接下来，我们将 PSD 文件加载为图像。这就是奇迹发生的地方——使用`Image.load()`方法允许我们轻松导入 PSD 文件。
+使用 `Image.load()` 将 PSD 文件打开为 `PsdImage` 对象。
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-## 步骤 3：检查 PSD 是否扁平
+### 步骤 3：检查 PSD 是否已平面化
 
-一旦我们加载了 PSD 文件，我们就可以检查它是否被压平了。`isFlatten()`方法`PsdImage`正是我们需要的。此方法返回一个布尔值，表示 PSD 是否扁平。
+调用 `isFlatten()` 方法。当文件已平面化时返回 `true`，否则返回 `false`。
 
 ```java
 System.out.println(psdImage.isFlatten());
 ```
 
+控制台将为已平面化的文档打印 `true`，为仍包含独立图层的文档打印 `false`。
+
+## 常见问题及解决方案
+
+- **FileNotFoundException** – 确认 `dataDir` 指向正确的文件夹，且文件名完全匹配，包括大小写。  
+- **Unsupported file format** – 确保文件是有效的 PSD；其他 Photoshop 兼容格式（例如 PSB）可能需要不同的处理。  
+- **LicenseException** – 如果出现许可证错误，请安装有效的 Aspose.PSD 许可证或使用试用版进行评估。
+
+## 常见问答
+
+**Q: 什么是已平面化的 PSD 文件？**  
+A: 已平面化的 PSD 文件将所有图层合并为单一背景图层，导致无法进行进一步的基于图层的编辑。
+
+**Q: 在 PSD 已平面化后还能恢复吗？**  
+A: 不能。图层一旦合并，除非有未平面化的备份，否则无法恢复原始图层结构。
+
+**Q: Aspose.PSD 支持其他文件格式吗？**  
+A: 支持。Aspose.PSD 能处理 PSD、PSB、BMP、JPEG、PNG、TIFF 等多种图像格式。
+
+**Q: 如何开始使用 Aspose？**  
+A: 只需从 [here](https://releases.aspose.com/psd/java/) 下载库，并将 JAR 文件添加到项目的类路径中。
+
+**Q: 有免费试用 Aspose.PSD 的方式吗？**  
+A: 当然！您可以通过从 [this link](https://releases.aspose.com/) 下载试用版来开始免费试用。
+
 ## 结论
 
-恭喜！您现在已经学会了如何使用 Aspose.PSD for Java 检测扁平化的 PSD 文件。我们不仅逐步探索了代码，还强调了深入研究该主题的基本先决条件。这项技能为图像处理中的许多其他令人兴奋的可能性打开了大门，尤其是在处理 Photoshop 文件时。
+现在您已经了解如何使用 Aspose.PSD for Java **检测已平面化的 PSD** 文件。此简单检查帮助您为图像选择正确的处理路径，避免意外的编辑障碍。欢迎探索 Aspose.PSD 的其他功能，如图层操作、图像转换和元数据处理，以进一步提升工作流。
 
-## 常见问题解答
+---
 
-### 什么是扁平化 PSD 文件？
-扁平化的 PSD 文件是指所有图层都合并为一个图层的文件，这使得进一步的编辑变得更加麻烦。
+**最后更新：** 2026-03-23  
+**测试环境：** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**作者：** Aspose  
 
-### 我可以在 PSD 文件被扁平化之后将其取消扁平化吗？
-不幸的是，一旦 PSD 被压平，您就无法恢复各个图层，除非您有未压平版本的备份。
-
-### Aspose.PSD 支持其他文件格式吗？
-是的！Aspose.PSD 可以处理各种图像格式，为图像处理提供广泛的功能。
-
-### 如何开始使用 Aspose？
-只需从[这里](https://releases.aspose.com/psd/java/)并将其集成到您的 Java 项目中。
-
-### 有没有办法免费测试 Aspose.PSD？
-当然可以！你可以从以下网址下载试用版，开始免费试用[此链接](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

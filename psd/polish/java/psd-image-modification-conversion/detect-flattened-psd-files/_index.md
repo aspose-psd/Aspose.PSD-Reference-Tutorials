@@ -1,88 +1,123 @@
 ---
-title: Wykryj spłaszczone pliki PSD za pomocą Aspose.PSD dla Java
-linktitle: Wykryj spłaszczone pliki PSD za pomocą Aspose.PSD dla Java
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak wykryć spłaszczone pliki PSD za pomocą Aspose.PSD dla Java, krok po kroku w tym obszernym samouczku.
-weight: 10
+date: 2026-03-23
+description: Dowiedz się, jak wykrywać spłaszczone pliki PSD przy użyciu Aspose.PSD
+  dla Javy, krok po kroku w tym kompleksowym samouczku.
+linktitle: Detect Flattened PSD Files using Aspose.PSD for Java
+second_title: Aspose.PSD Java API
+title: Wykrywanie spłaszczonych plików PSD przy użyciu Aspose.PSD dla Javy
 url: /pl/java/psd-image-modification-conversion/detect-flattened-psd-files/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wykryj spłaszczone pliki PSD za pomocą Aspose.PSD dla Java
+# Wykrywanie spłaszczonych plików PSD przy użyciu Aspose.PSD dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w świecie manipulacji plikami PSD (dokument Photoshop) za pomocą Aspose.PSD dla Java! Jeśli kiedykolwiek musiałeś pracować z warstwami w plikach Photoshopa, ale nie wiedziałeś od czego zacząć, jesteś we właściwym miejscu. W tym samouczku przyjrzymy się, jak wykryć, czy plik PSD jest spłaszczony za pomocą Aspose.PSD. Spłaszczenie pliku PSD oznacza, że wszystkie jego warstwy zostają scalone w jedną, ujednoliconą warstwę, co może później sprawić, że edycja będzie nieco trudniejsza. Pod koniec tego przewodnika będziesz w stanie sprawdzić ten kluczowy aspekt plików PSD. Usiądź wygodnie, weź kawę i zanurzmy się!
+Jeśli potrzebujesz **wykrywać spłaszczone pliki PSD** programowo, trafiłeś we właściwe miejsce. W tym samouczku pokażemy, jak używać Aspose.PSD dla Javy, aby określić, czy dokument Photoshop został spłaszczony — co oznacza, że wszystkie warstwy zostały połączone w jedną warstwę tła. Znajomość tego z wyprzedzeniem chroni przed nieoczekiwanymi ograniczeniami edycji później. Otwórz ulubione IDE i zaczynamy!
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „spłaszczony PSD”?** Wszystkie warstwy są połączone w jedną, co usuwa możliwość edycji.  
+- **Która biblioteka może to wykryć?** Aspose.PSD dla Javy udostępnia metodę `isFlatten()`.  
+- **Czy potrzebna jest licencja do testów?** Dostępna jest darmowa wersja próbna; licencja jest wymagana w produkcji.  
+- **Jaka wersja Javy jest wymagana?** JDK 8 lub nowszy.  
+- **Jak długo trwa implementacja?** Zazwyczaj poniżej 10 minut dla podstawowego sprawdzenia.
 
-Zanim zaczniemy zabawę z kodowaniem, musisz spełnić kilka warunków, aby być gotowym na rozpoczęcie pracy. Oto, czego potrzebujesz:
+## Czym jest spłaszczony plik PSD?
+Spłaszczony plik PSD to dokument Photoshop, w którym każda warstwa została połączona w jedną warstwę kompozycyjną. Zmniejsza to rozmiar pliku, ale uniemożliwia dalszą edycję opartą na warstwach, chyba że posiadasz nie spłaszczoną kopię zapasową.
 
-1. Zestaw Java Development Kit (JDK): Upewnij się, że masz zainstalowany pakiet JDK. Do korzystania z Aspose.PSD zalecana jest wersja 8 lub wyższa.
-2.  Aspose.PSD dla Java: Będziesz potrzebować biblioteki Aspose.PSD. Można go pobrać z[Tutaj](https://releases.aspose.com/psd/java/).
-3. Podstawowa znajomość języka Java: Znajomość podstaw programowania w języku Java, w tym importowania bibliotek i uruchamiania aplikacji Java.
-4. IDE: dowolne zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA, Eclipse lub NetBeans, w którym można pisać i wykonywać kod Java.
+## Dlaczego wykrywać spłaszczony PSD?
+Wykrywanie spłaszczonego PSD wcześnie pozwala zdecydować, czy:
+- Poprosić użytkownika o dostarczenie wersji edytowalnej.
+- Zastosować przetwarzanie całego obrazu zamiast operacji specyficznych dla warstw.
+- Uniknąć błędów w czasie wykonywania przy próbie dostępu do nieistniejących warstw.
 
-Skoro już omówiliśmy najważniejsze kwestie, przejdźmy do kodu!
+## Wymagania wstępne
 
-## Importuj pakiety
+Zanim przejdziemy do kodu, upewnij się, że masz:
 
-Na górze pliku Java zaimportuj niezbędne klasy Aspose.PSD. Twoje instrukcje importu powinny wyglądać mniej więcej tak:
+1. **Java Development Kit (JDK)** – wersja 8 lub nowsza.  
+2. **Aspose.PSD for Java** – pobierz bibliotekę z [tutaj](https://releases.aspose.com/psd/java/).  
+3. **Podstawowa znajomość Javy** – powinieneś być zaznajomiony z importowaniem bibliotek i uruchamianiem prostego programu w Javie.  
+4. **IDE** – IntelliJ IDEA, Eclipse, NetBeans lub dowolny edytor, który preferujesz.
+
+Teraz, gdy podstawy są omówione, przejdźmy do implementacji.
+
+## Importowanie pakietów
+
+Na początku swojego pliku źródłowego Java zaimportuj klasy Aspose.PSD, które będą potrzebne:
 
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-Przejdźmy teraz do sedna funkcjonalności: wykrywania, czy plik PSD jest spłaszczony. Oto podział krok po kroku.
+## Jak wykrywać spłaszczone pliki PSD
 
-## Krok 1: Skonfiguruj katalog danych
+Poniżej znajduje się przewodnik krok po kroku. Każdy krok zawiera krótkie wyjaśnienie oraz dokładny kod, który należy skopiować.
 
-Najpierw musisz określić, gdzie znajdują się Twoje pliki PSD. Jest to istotne, ponieważ nasz program będzie tam szukać, aby załadować plik.
+### Krok 1: Ustaw katalog danych
+
+Określ folder, który zawiera pliki PSD, które chcesz zbadać.
 
 ```java
-String dataDir = "Your Document Directory"; // Zaktualizuj tę ścieżkę
+String dataDir = "Your Document Directory"; // Update this path
 ```
 
-## Krok 2: Załaduj plik PSD
+### Krok 2: Załaduj plik PSD
 
- Następnie załadujemy plik PSD jako obraz. To tutaj dzieje się magia – używanie`Image.load()` metoda pozwala nam łatwo zaimportować nasz plik PSD.
+Użyj `Image.load()`, aby otworzyć plik PSD jako obiekt `PsdImage`.
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-## Krok 3: Sprawdź, czy PSD jest spłaszczony
+### Krok 3: Sprawdź, czy PSD jest spłaszczony
 
-Po załadowaniu pliku PSD możemy sprawdzić, czy jest on spłaszczony. The`isFlatten()` metoda`PsdImage` zrobi dokładnie to, czego potrzebujemy. Ta metoda zwraca wartość logiczną wskazującą, czy PSD jest spłaszczony, czy nie.
+Wywołaj metodę `isFlatten()`. Zwraca ona `true`, gdy plik jest spłaszczony, oraz `false` w przeciwnym wypadku.
 
 ```java
 System.out.println(psdImage.isFlatten());
 ```
 
-## Wniosek
+Konsola wypisze `true` dla spłaszczonego dokumentu i `false` dla tego, który nadal zawiera oddzielne warstwy.
 
-Gratulacje! Nauczyłeś się teraz, jak wykrywać spłaszczone pliki PSD za pomocą Aspose.PSD dla Java. Nie tylko zbadaliśmy kod krok po kroku, ale także podkreśliliśmy niezbędne warunki wstępne, aby zagłębić się w ten temat. Ta umiejętność otwiera drzwi do wielu innych ekscytujących możliwości przetwarzania obrazu, zwłaszcza podczas pracy z plikami Photoshopa.
+## Typowe problemy i rozwiązania
 
-## Często zadawane pytania
+- **FileNotFoundException** – Zweryfikuj, że `dataDir` wskazuje prawidłowy folder i że nazwa pliku dokładnie się zgadza, łącznie z uwzględnieniem wielkości liter.  
+- **Unsupported file format** – Upewnij się, że plik jest prawidłowym PSD; inne formaty kompatybilne z Photoshopem (np. PSB) mogą wymagać innego podejścia.  
+- **LicenseException** – Jeśli pojawi się błąd licencyjny, zainstaluj ważną licencję Aspose.PSD lub użyj wersji próbnej do oceny.
 
-### Co to jest spłaszczony plik PSD?
-Spłaszczony plik PSD oznacza plik, w którym wszystkie warstwy zostały scalone w jedną warstwę, co utrudnia dalszą edycję.
+## Najczęściej zadawane pytania
 
-### Czy mogę spłaszczyć plik PSD po jego spłaszczeniu?
-Niestety po spłaszczeniu pliku PSD nie można odzyskać poszczególnych warstw, chyba że masz kopię zapasową niespłaszczonej wersji.
+**P: Co to jest spłaszczony plik PSD?**  
+A: Spłaszczony plik PSD ma wszystkie warstwy połączone w jedną warstwę tła, co uniemożliwia dalszą edycję opartą na warstwach.
 
-### Czy Aspose.PSD obsługuje inne formaty plików?
-Tak! Aspose.PSD obsługuje różne formaty obrazów, zapewniając rozbudowaną funkcjonalność manipulacji obrazami.
+**P: Czy mogę odspłaszczyć plik PSD po jego spłaszczeniu?**  
+A: Nie. Gdy warstwy zostaną połączone, oryginalna struktura warstw nie może zostać odzyskana bez kopii zapasowej nie spłaszczonej wersji.
 
-### Jak zacząć korzystać z Aspose?
- Wystarczy pobrać bibliotekę z[Tutaj](https://releases.aspose.com/psd/java/) i zintegruj go z projektem Java.
+**P: Czy Aspose.PSD obsługuje inne formaty plików?**  
+A: Tak. Aspose.PSD obsługuje PSD, PSB, BMP, JPEG, PNG, TIFF i wiele innych formatów graficznych.
 
-### Czy istnieje sposób na bezpłatne przetestowanie Aspose.PSD?
- Absolutnie! Możesz rozpocząć bezpłatny okres próbny, pobierając wersję próbną ze strony[ten link](https://releases.aspose.com/).
+**P: Jak rozpocząć pracę z Aspose?**  
+A: Po prostu pobierz bibliotekę z [tutaj](https://releases.aspose.com/psd/java/) i dodaj pliki JAR do ścieżki klas swojego projektu.
+
+**P: Czy istnieje sposób na darmowe przetestowanie Aspose.PSD?**  
+A: Oczywiście! Możesz rozpocząć darmowy okres próbny, pobierając wersję próbną z [tego linku](https://releases.aspose.com/).
+
+## Podsumowanie
+
+Teraz wiesz, jak **wykrywać spłaszczone pliki PSD** przy użyciu Aspose.PSD dla Javy. To proste sprawdzenie pomaga wybrać właściwą ścieżkę przetwarzania obrazów i zapobiega nieoczekiwanym przeszkodom w edycji. Śmiało eksploruj inne funkcje Aspose.PSD, takie jak manipulacja warstwami, konwersja obrazów i obsługa metadanych, aby jeszcze bardziej usprawnić swoje przepływy pracy.
+
+---
+
+**Last Updated:** 2026-03-23  
+**Testowane z:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

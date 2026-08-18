@@ -1,32 +1,48 @@
 ---
-title: 使用 Java 在 PSD 檔案中新增漸層填滿層
-linktitle: 使用 Java 在 PSD 檔案中新增漸層填滿層
+date: 2026-03-23
+description: 學習如何使用 Java 及 Aspose.PSD 建立漸層填充的 PSD 檔案。本指南示範如何以程式方式編輯 PSD 漸層圖層、調整顏色、透明度及其他屬性。
+linktitle: Create Gradient Fill PSD with Java – Add Gradient Fill Layer
 second_title: Aspose.PSD Java API
-description: 使用 Aspose.PSD for Java 修改 PSD 檔案中的漸層填滿圖層。了解如何以程式設計方式變更顏色、透明度和其他漸層屬性。
-weight: 15
+title: 使用 Java 建立漸層填充 PSD – 新增漸層填充圖層
 url: /zh-hant/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Java 在 PSD 檔案中新增漸層填滿層
+# 在 PSD 檔案中使用 Java 新增漸層填色圖層
 
 ## 介紹
 
-是否曾經渴望為 PSD 檔案增添額外的視覺魔力？漸變提供了一種令人驚嘆的方式來增加設計的深度和維度。但是，如果您想使用 Java 以程式設計方式操作這些漸層該怎麼辦？ Aspose.PSD 來救援！這份綜合指南將使您能夠使用 Aspose.PSD 修改 PSD 檔案中的漸層填充層，帶您逐步完成令人興奮的過程。
+是否曾渴望為你的 PSD 檔案增添一抹視覺魔法，並好奇 **如何使用 Java 建立 gradient fill PSD**？漸層能為設計增添層次感，但手動調整往往繁瑣。透過 **Aspose.PSD for Java**，你可以以程式方式編輯 PSD 漸層、變更顏色、調整透明度，並微調每項屬性——節省時間且確保大量檔案的一致性。
 
-## 先決條件
+## 快速解答
+- **哪個函式庫可以在 Java 中編輯 PSD 漸層？** Aspose.PSD for Java。  
+- **哪個方法用於載入 PSD 檔案？** `Image.load(path)`。  
+- **如何變更漸層角度？** `settings.setAngle(double)`。  
+- **可以新增顏色點嗎？** 可以——建立 `GradientColorPoint` 物件並加入顏色點清單。  
+- **生產環境是否需要授權？** 需要商業授權；亦提供免費試用供評估使用。
 
-在投入之前，請確保您具備以下條件：
+## 什麼是「create gradient fill PSD」？
+建立 gradient fill PSD 意指以程式方式在 Photoshop 文件中插入或修改基於漸層的填色圖層。這讓自動化樣式、批次處理與動態影像產生成為可能，且無需開啟 Photoshop。
 
--  Java 開發工具包 (JDK)：執行 Java 程式碼需要穩定版本的 JDK。您可以從 Oracle 網站下載它：[連結到Oracle JDK下載頁面]
--  Aspose.PSD for Java：這個功能強大的函式庫允許您在 Java 應用程式中使用 PSD 檔案。從 Aspose 網站下載：[Aspose.PSD for Java 下載連結]（可免費試用）
+## 為什麼選擇 Aspose.PSD 來編輯 PSD 漸層？
+- **完整的 .PSD 支援** – 可處理所有圖層類型，包括智慧物件。  
+- **不需 Photoshop** – 可在任何伺服器或 CI 流程中執行。  
+- **細緻的控制** – 透過簡潔的 Java API 調整角度、偏移、抖動、顏色點與透明度點等屬性。
 
-## 導入包
+## 前置條件
 
-讓我們先匯入處理 PSD 檔案所需的基本 Aspose.PSD 套件：
+在開始之前，請確保具備以下環境：
+
+- Java Development Kit (JDK)：需要穩定版的 JDK 來執行 Java 程式碼。可從 Oracle 官方網站下載：[Link to Oracle JDK download page]  
+- Aspose.PSD for Java：此功能強大的函式庫讓你在 Java 應用程式中操作 PSD 檔案。從 Aspose 官方網站下載：[Link to Aspose.PSD for Java download]（提供免費試用）
+
+## 匯入套件
+
+讓我們先匯入操作 PSD 檔案所需的 Aspose.PSD 套件：
 
 ```java
 import com.aspose.psd.Color;
@@ -45,13 +61,15 @@ import java.util.Collections;
 import java.util.List;
 ```
 
-這些導入提供對用於載入、操作和保存 PSD 檔案的類別和方法的存取。
+上述匯入提供了載入、操作與儲存 PSD 檔案的類別與方法。
 
-現在，繫好安全帶，開始修改漸層填充層的令人興奮的旅程！
+現在，讓我們踏上修改漸層填色圖層的精彩旅程！
 
-## 第 1 步：載入 PSD 文件
+## 如何使用 Java 建立 Gradient Fill PSD
 
-首先，我們需要載入包含要修改的漸層填滿圖層的 PSD 檔案。使用`Image.load`方法，指定檔案路徑：
+### 步驟 1：載入 PSD 檔案
+
+首先，需要載入包含目標漸層填色圖層的 PSD 檔案。使用 `Image.load` 方法並指定檔案路徑：
 
 ```java
 String dataDir = "Your Document Directory";
@@ -60,27 +78,27 @@ String outputFile = dataDir + "ComplexGradientFillLayer_output.psd";
 PsdImage image = (PsdImage)Image.load(sourceFileName);
 ```
 
-此程式碼片段從指定目錄載入 PSD 檔案並將其儲存在`image`多變的。
+此程式碼片段會從指定目錄載入 PSD 檔案，並將其存入 `image` 變數。
 
-## 步驟2：識別漸層填充層
+### 步驟 2：識別 Gradient Fill 圖層
 
-PSD 檔案可以包含多個圖層。我們需要隔離包含要編輯的漸層填滿的特定圖層。迭代通過`image.getLayers()`數組來找出所需的層：
+PSD 檔案可能包含多個圖層，我們需要找出包含漸層填色的特定圖層。遍歷 `image.getLayers()` 陣列以尋找目標圖層：
 
 ```java
 for (int i = 0; i < image.getLayers().length; i++) {
 if (image.getLayers()[i] instanceof FillLayer) {
    FillLayer fillLayer = (FillLayer) image.getLayers()[i];
-   //進一步的檢查和修改將在這裡進行
+   // Further checks and modifications will happen here
    break;
 }
 }
 ```
 
-該循環檢查每一層。如果一個層是一個`FillLayer`，它被投射到`FillLayer`類型並儲存在`fillLayer`用於進一步處理的變數。如果您有識別目標圖層的特定標準（例如圖層名稱），我們可以在循環中新增額外的檢查。
+此迴圈會檢查每個圖層。若圖層為 `FillLayer`，則會轉型為 `FillLayer` 類型並存入 `fillLayer` 變數以供後續處理。若有特定條件（例如圖層名稱），可在迴圈內加入額外檢查。
 
-## 步驟 3：驗證漸層填滿類型
+### 步驟 3：驗證 Gradient Fill 類型
 
-並非所有填滿層都使用漸層。此程式碼片段確認所辨識的圖層是否確實包含漸層填滿：
+並非所有填色圖層都使用漸層。以下程式碼會確認已識別的圖層確實包含 Gradient Fill：
 
 ```java
 if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
@@ -88,29 +106,31 @@ if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
 }
 ```
 
-如果`getFillType`方法不返回`FillType.Gradient`，拋出異常，表示我們正在使用錯誤的層。
+若 `getFillType` 方法未回傳 `FillType.Gradient`，則會拋出例外，表示目前操作的圖層不是漸層填色圖層。
 
-## 第 4 步：存取和修改漸變屬性
+## 使用 Aspose.PSD 編輯 PSD 漸層
 
-魔法就在這裡發生！ Aspose.PSD 透過以下方式提供對各種漸變填充屬性的訪問`IGradientFillSettings`介面.我們可以根據需要檢索和修改它們：
+### 步驟 4：存取並修改漸層屬性
+
+魔法就在這裡！Aspose.PSD 透過 `IGradientFillSettings` 介面提供對各種漸層填色屬性的存取。我們可以依需求取得並修改它們：
 
 ```java
 IGradientFillSettings settings = (IGradientFillSettings) fillLayer.getFillSettings();
 
-//修改屬性（替換為所需值）
-settings.setAngle(0.0);  //將角度設定為 0 度
-settings.setDither(false);  //禁用抖動
-settings.setAlignWithLayer(true); //將漸層與圖層對齊
-settings.setReverse(true);  //反轉梯度方向
-settings.setHorizontalOffset(25);  //設定水平偏移
-settings.setVerticalOffset(-15);  //設定垂直偏移
+// Modify properties (replace with desired values)
+settings.setAngle(0.0);  // Set angle to 0 degrees
+settings.setDither(false);  // Disable dithering
+settings.setAlignWithLayer(true); // Align gradient with layer
+settings.setReverse(true);  // Reverse gradient direction
+settings.setHorizontalOffset(25);  // Set horizontal offset
+settings.setVerticalOffset(-15);  // Set vertical offset
 ```
 
-此程式碼檢索`IGradientFillSettings`對象，然後修改角度、抖動、對齊和偏移等屬性。將提供的值替換為您所需的設置，以實現您設想的漸變效果。
+此程式碼取得 `IGradientFillSettings` 物件，並修改角度、抖動、對齊方式與偏移等屬性。請將範例值替換為你想要的設定，以實現理想的漸層效果。
 
-## 第 5 步：操縱顏色和透明度點
+### 步驟 5：操作顏色與透明度點
 
-漸變由光譜上的顏色和透明度點定義。 Aspose.PSD可讓您修改這些點以進行精確控制：
+漸層是由色彩點與透明度點在光譜上定義的。Aspose.PSD 允許你精確調整這些點：
 
 ```java
 List<IGradientColorPoint> colorPoints = new ArrayList<IGradientColorPoint>();
@@ -118,64 +138,74 @@ Collections.addAll(colorPoints, settings.getColorPoints());
 List<IGradientTransparencyPoint> transparencyPoints = new ArrayList<IGradientTransparencyPoint>();
 Collections.addAll(transparencyPoints, settings.getTransparencyPoints());
 
-//新增色點
+// Add a new color point
 GradientColorPoint gr1 = new GradientColorPoint();
 gr1.setColor(Color.getViolet());
 gr1.setLocation(4096);
 gr1.setMedianPointLocation(75);
 colorPoints.add(gr1);
 
-//修改現有色點
+// Modify an existing color point
 colorPoints.get(1).setLocation(3000);
 
-//增加新的透明點
+// Add a new transparency point
 GradientTransparencyPoint gr2 = new GradientTransparencyPoint();
 gr2.setOpacity(80.0);
 gr2.setLocation(4096);
 gr2.setMedianPointLocation(25);
 transparencyPoints.add(gr2);
 
-//修改現有的透明點
+// Modify an existing transparency point
 transparencyPoints.get(2).setLocation(3000);
 
 settings.setColorPoints(colorPoints.toArray(new IGradientColorPoint[0]));
 settings.setTransparencyPoints(transparencyPoints.toArray(new IGradientTransparencyPoint[0]));
 ```
 
-## 第 6 步：更新並儲存 PSD 文件
+### 步驟 6：更新並儲存 PSD 檔案
 
-進行必要的修改後，更新填滿圖層並儲存 PSD 檔案：
+完成所有修改後，更新填色圖層並儲存 PSD 檔案：
 
 ```java
 fillLayer.update();
 image.save(outputFile, new PsdOptions(image));
 ```
 
-這`fillLayer.update()`方法將變更應用於漸變填充層，並且`image.save`將修改後的 PSD 檔案儲存到指定的輸出路徑。
+`fillLayer.update()` 方法會將變更套用至漸層填色圖層，`image.save` 則會將修改後的 PSD 檔案寫入指定的輸出路徑。
 
-## 結論
+## 常見問題與解決方案
 
-您已經成功掌握了使用 Aspose.PSD for Java 修改 PSD 檔案中的漸層填滿圖層的藝術！透過遵循這些步驟，您可以釋放您的創造力，並以程式設計精確度創造令人驚嘆的視覺效果。
+- **例外 “Wrong Fill Layer”** – 請確認目標圖層確實是使用漸層的 `FillLayer`。在轉型前檢查圖層名稱或索引。  
+- **顏色點未反映變更** – 修改點清單後，務必呼叫 `settings.setColorPoints(...)` 與 `settings.setTransparencyPoints(...)`，將更新寫回圖層。  
+- **大型 PSD 的效能** – 若處理大量檔案，請重複使用同一個 `PsdOptions` 實例，並在完成後立即以 `image.dispose()` 釋放記憶體。
 
-## 常見問題解答
+## 常見問答
 
-### 我可以為漸層添加多個顏色和透明度點嗎？
-絕對地！您可以根據需要添加任意數量的顏色和透明度點，以實現所需的漸層效果。只需建立新點並將它們添加到相應的清單中即可。
+**Q: 可以在漸層中加入多個顏色與透明度點嗎？**  
+A: 當然可以！你可以依需求新增任意數量的顏色與透明度點，只要建立新點並加入相應的清單即可。
 
-### 如何從漸層中刪除顏色或透明度點？
-要刪除點，請使用適當的列表`remove`方法。例如，`colorPoints.remove(index)`將刪除指定索引處的色點。
+**Q: 如何從漸層中移除某個顏色或透明度點？**  
+A: 使用清單的 `remove` 方法，例如 `colorPoints.remove(index)`，在呼叫 `setColorPoints` 前將不需要的點刪除。
 
-### 我可以更改漸層類型（線性、徑向等）嗎？
-Aspose.PSD 目前支援線性漸層。雖然未來版本可能支援其他漸變類型，但您可以透過創造性地操作顏色和透明度點來實現類似的效果。
+**Q: 能改變漸層類型（線性、徑向等）嗎？**  
+A: 目前 Aspose.PSD 只支援線性漸層。未來版本可能會加入更多類型，亦可透過調整顏色與透明度點模擬其他效果。
 
-### 修改漸層會對性能產生影響嗎？
-性能影響取決於梯度的複雜性和修改的數量。對於大多數實際用例，效能應該是可以接受的。但是，對於大規模影像處理，請考慮優化程式碼以提高效率。
+**Q: 修改漸層會不會影響效能？**  
+A: 影響程度取決於漸層的複雜度與修改次數。一般使用情境下開銷很小，但若批次處理大型檔案，建議進行記憶體管理優化。
 
-### 我可以將此技術應用於 PSD 檔案中的多個漸層填充層嗎？
-是的，您可以迭代圖層並將修改套用到滿足您的條件的每個漸層填滿圖層。
+**Q: 能否將此技巧套用於 PSD 檔案中的多個 Gradient Fill 圖層？**  
+A: 可以。遍歷 `image.getLayers()`，檢查每個 `FillLayer` 的 `FillType` 是否為 `FillType.Gradient`，然後對需要的圖層套用相同的修改。
+
+**Q: 生產環境是否需要商業授權？**  
+A: 需要有效的 Aspose.PSD 授權才能在生產環境部署。亦提供免費試用供評估使用。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**最後更新：** 2026-03-23  
+**測試環境：** Aspose.PSD for Java 24.11 (latest)  
+**作者：** Aspose

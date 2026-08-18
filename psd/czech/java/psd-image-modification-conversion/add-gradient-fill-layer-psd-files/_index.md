@@ -1,32 +1,50 @@
 ---
-title: Přidejte vrstvu přechodové výplně do souborů PSD pomocí Java
-linktitle: Přidejte vrstvu přechodové výplně do souborů PSD pomocí Java
+date: 2026-03-23
+description: Naučte se, jak vytvářet soubory PSD s gradientním výplní pomocí Javy
+  a Aspose.PSD. Tento průvodce ukazuje, jak programově upravovat gradientové vrstvy
+  v PSD, nastavovat barvy, průhlednost a další vlastnosti.
+linktitle: Create Gradient Fill PSD with Java – Add Gradient Fill Layer
 second_title: Aspose.PSD Java API
-description: Upravte vrstvy přechodové výplně v souborech PSD pomocí Aspose.PSD for Java. Naučte se programově měnit barvy, průhlednost a další vlastnosti přechodu.
-weight: 15
+title: Vytvořte PSD s gradientovým výplní v Javě – Přidejte vrstvu gradientové výplně
 url: /cs/java/psd-image-modification-conversion/add-gradient-fill-layer-psd-files/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte vrstvu přechodové výplně do souborů PSD pomocí Java
+# Přidání vrstvy výplně gradientem do souborů PSD pomocí Javy
 
-## Zavedení
+## Úvod
 
-Toužili jste někdy po extra doteku vizuální magie pro vaše soubory PSD? Přechody nabízejí úžasný způsob, jak přidat hloubku a rozměr vašim návrhům. Ale co když chcete programově manipulovat s těmito přechody pomocí Javy? Aspose.PSD přichází na pomoc! Tento komplexní průvodce vám umožní upravit vrstvy přechodové výplně v souborech PSD pomocí Aspose.PSD a provede vás krok za krokem vzrušujícím procesem.
+Toužili jste někdy po tom extra doteku vizuální magie pro vaše soubory PSD a přemýšleli **jak vytvořit gradientní výplň PSD** pomocí Javy? Gradienty dodávají vašim návrhům hloubku, ale ruční jejich úprava může být únavná. S **Aspose.PSD for Java** můžete programově upravovat gradienty v PSD, měnit barvy, nastavovat průhlednost a jemně ladit každou vlastnost — šetříte tak čas a zajišťujete konzistenci napříč desítkami souborů.
+
+## Rychlé odpovědi
+- **Která knihovna umožňuje upravovat gradienty v PSD v Javě?** Aspose.PSD for Java.  
+- **Která metoda načítá soubor PSD?** `Image.load(path)`.  
+- **Jak změnit úhel gradientu?** `settings.setAngle(double)`.  
+- **Lze přidat nové barevné body?** Ano — vytvořte objekty `GradientColorPoint` a přidejte je do seznamu barevných bodů.  
+- **Je potřeba licence pro produkční použití?** Komerční licence je vyžadována; k vyzkoušení je k dispozici bezplatná zkušební verze.
+
+## Co znamená „create gradient fill PSD“?
+Vytvoření gradientní výplně PSD znamená programově vložit nebo upravit vrstvu výplně založenou na gradientu uvnitř dokumentu Photoshopu. To umožňuje automatizované stylování, dávkové zpracování a dynamické generování obrázků bez nutnosti otevírat Photoshop.
+
+## Proč použít Aspose.PSD k úpravě gradientů v PSD?
+- **Plná podpora .PSD** — funguje se všemi typy vrstev, včetně chytrých objektů.  
+- **Není potřeba Photoshop** — běží na jakémkoli serveru nebo v CI pipeline.  
+- **Detailní kontrola** — nastavujte úhel, posuny, dithering, barevné body a průhlednost pomocí čistého Java API.  
 
 ## Předpoklady
 
-Před potápěním se ujistěte, že máte následující:
+Před zahájením se ujistěte, že máte následující:
 
--  Java Development Kit (JDK): Ke spuštění kódu Java je nezbytná stabilní verze JDK. Můžete si jej stáhnout z webu Oracle:[Odkaz na stránku stahování Oracle JDK]
--  Aspose.PSD for Java: Tato výkonná knihovna vám umožňuje pracovat se soubory PSD ve vašich aplikacích Java. Stáhněte si jej z webu Aspose:[Odkaz na Aspose.PSD pro stažení Java] (K dispozici je bezplatná zkušební verze)
+- Java Development Kit (JDK):  Stabilní verze JDK je nezbytná pro spuštění Java kódu. Stáhnout ji můžete z webu Oracle: [Link to Oracle JDK download page]
+- Aspose.PSD for Java: Tato výkonná knihovna vám umožní pracovat se soubory PSD ve vašich Java aplikacích. Stáhněte ji z webu Aspose: [Link to Aspose.PSD for Java download] (k dispozici bezplatná zkušební verze)
 
-## Importujte balíčky
+## Import balíčků
 
-Začněme importem základních balíčků Aspose.PSD potřebných pro práci se soubory PSD:
+Začneme importem nezbytných balíčků Aspose.PSD potřebných pro práci se soubory PSD:
 
 ```java
 import com.aspose.psd.Color;
@@ -47,11 +65,13 @@ import java.util.List;
 
 Tyto importy poskytují přístup ke třídám a metodám pro načítání, manipulaci a ukládání souborů PSD.
 
-Nyní se připoutejte na vzrušující cestu úpravy vrstev přechodové výplně!
+Nyní se připravte na vzrušující cestu úprav gradientních výplní!
 
-## Krok 1: Načtěte soubor PSD
+## Jak vytvořit gradientní výplň PSD pomocí Javy
 
- Nejprve musíme načíst soubor PSD obsahující vrstvu přechodové výplně, kterou chcete upravit. Použijte`Image.load` metoda s uvedením cesty k souboru:
+### Krok 1: Načtení souboru PSD
+
+Nejprve musíme načíst soubor PSD, který obsahuje vrstvu gradientní výplně, kterou chcete upravit. Použijte metodu `Image.load` a uveďte cestu k souboru:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -60,27 +80,27 @@ String outputFile = dataDir + "ComplexGradientFillLayer_output.psd";
 PsdImage image = (PsdImage)Image.load(sourceFileName);
 ```
 
- Tento fragment kódu načte soubor PSD ze zadaného adresáře a uloží jej do`image` variabilní.
+Tento úryvek kódu načte soubor PSD ze zadaného adresáře a uloží jej do proměnné `image`.
 
-## Krok 2: Identifikujte vrstvu přechodové výplně
+### Krok 2: Identifikace vrstvy gradientní výplně
 
- Soubory PSD mohou obsahovat mnoho vrstev. Musíme izolovat konkrétní vrstvu obsahující přechodovou výplň, kterou chceme upravit. Iterujte přes`image.getLayers()` pole pro nalezení požadované vrstvy:
+Soubory PSD mohou obsahovat mnoho vrstev. Musíme izolovat konkrétní vrstvu, která obsahuje gradientní výplň, kterou chceme editovat. Projděte pole `image.getLayers()` a najděte požadovanou vrstvu:
 
 ```java
 for (int i = 0; i < image.getLayers().length; i++) {
 if (image.getLayers()[i] instanceof FillLayer) {
    FillLayer fillLayer = (FillLayer) image.getLayers()[i];
-   // Zde budou probíhat další kontroly a úpravy
+   // Further checks and modifications will happen here
    break;
 }
 }
 ```
 
- Tato smyčka kontroluje každou vrstvu. Pokud je vrstva a`FillLayer` , je to obsazeno do`FillLayer` typu a uloženy v`fillLayer`proměnná pro další zpracování. Můžeme přidat další kontroly v rámci smyčky, pokud máte specifická kritéria pro identifikaci cílové vrstvy (např. název vrstvy).
+Tato smyčka kontroluje každou vrstvu. Pokud je vrstva typu `FillLayer`, je přetypována na `FillLayer` a uložena do proměnné `fillLayer` pro další zpracování. V cyklu můžete přidat další podmínky, pokud máte specifické kritéria pro identifikaci cílové vrstvy (např. název vrstvy).
 
-## Krok 3: Ověřte typ výplně gradientu
+### Krok 3: Ověření typu výplně gradientu
 
-Ne všechny vrstvy výplně využívají přechody. Tento fragment kódu potvrzuje, zda identifikovaná vrstva skutečně obsahuje přechodovou výplň:
+Ne všechny výplňové vrstvy používají gradienty. Tento úryvek kódu potvrzuje, že identifikovaná vrstva skutečně obsahuje gradientní výplň:
 
 ```java
 if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
@@ -88,29 +108,31 @@ if (fillLayer.getFillSettings().getFillType() != FillType.Gradient) {
 }
 ```
 
- Pokud`getFillType` metoda se nevrací`FillType.Gradient`, je vyvolána výjimka indikující, že pracujeme s nesprávnou vrstvou.
+Pokud metoda `getFillType` nevrátí `FillType.Gradient`, vyvolá se výjimka, která signalizuje, že pracujete se špatnou vrstvou.
 
-## Krok 4: Otevřete a upravte vlastnosti přechodu
+## Jak upravit gradient v PSD pomocí Aspose.PSD
 
- Tady se děje kouzlo! Aspose.PSD poskytuje přístup k různým vlastnostem přechodové výplně prostřednictvím`IGradientFillSettings` rozhraní. Můžeme je načíst a upravit podle potřeby:
+### Krok 4: Přístup a úprava vlastností gradientu
+
+Zde se děje kouzlo! Aspose.PSD poskytuje přístup k různým vlastnostem gradientní výplně přes rozhraní `IGradientFillSettings`. Můžete je načíst a upravit podle potřeby:
 
 ```java
 IGradientFillSettings settings = (IGradientFillSettings) fillLayer.getFillSettings();
 
-// Upravit vlastnosti (nahradit požadovanými hodnotami)
-settings.setAngle(0.0);  // Nastavte úhel na 0 stupňů
-settings.setDither(false);  // Zakázat dithering
-settings.setAlignWithLayer(true); // Zarovnejte přechod s vrstvou
-settings.setReverse(true);  // Obrácený směr gradientu
-settings.setHorizontalOffset(25);  // Nastavte vodorovné odsazení
-settings.setVerticalOffset(-15);  // Nastavte svislé odsazení
+// Modify properties (replace with desired values)
+settings.setAngle(0.0);  // Set angle to 0 degrees
+settings.setDither(false);  // Disable dithering
+settings.setAlignWithLayer(true); // Align gradient with layer
+settings.setReverse(true);  // Reverse gradient direction
+settings.setHorizontalOffset(25);  // Set horizontal offset
+settings.setVerticalOffset(-15);  // Set vertical offset
 ```
 
- Tento kód načte`IGradientFillSettings`objekt a poté upraví vlastnosti, jako je úhel, rozklad, zarovnání a odsazení. Nahraďte poskytnuté hodnoty požadovanými nastaveními, abyste dosáhli efektu přechodu, jaký si představujete.
+Tento kód získá objekt `IGradientFillSettings` a následně upraví vlastnosti jako úhel, dithering, zarovnání a posuny. Nahraďte uvedené hodnoty svými požadovanými nastaveními, abyste dosáhli požadovaného gradientního efektu.
 
-## Krok 5: Manipulujte s barvami a body průhlednosti
+### Krok 5: Manipulace s barevnými a průhlednostními body
 
-Přechody jsou definovány barvami a body průhlednosti podél spektra. Aspose.PSD vám umožňuje upravit tyto body pro přesné ovládání:
+Gradienty jsou definovány barevnými a průhlednostními body podél spektra. Aspose.PSD vám umožní tyto body upravovat pro přesnou kontrolu:
 
 ```java
 List<IGradientColorPoint> colorPoints = new ArrayList<IGradientColorPoint>();
@@ -118,64 +140,76 @@ Collections.addAll(colorPoints, settings.getColorPoints());
 List<IGradientTransparencyPoint> transparencyPoints = new ArrayList<IGradientTransparencyPoint>();
 Collections.addAll(transparencyPoints, settings.getTransparencyPoints());
 
-// Přidejte nový barevný bod
+// Add a new color point
 GradientColorPoint gr1 = new GradientColorPoint();
 gr1.setColor(Color.getViolet());
 gr1.setLocation(4096);
 gr1.setMedianPointLocation(75);
 colorPoints.add(gr1);
 
-// Upravit existující barevný bod
+// Modify an existing color point
 colorPoints.get(1).setLocation(3000);
 
-// Přidejte nový bod průhlednosti
+// Add a new transparency point
 GradientTransparencyPoint gr2 = new GradientTransparencyPoint();
 gr2.setOpacity(80.0);
 gr2.setLocation(4096);
 gr2.setMedianPointLocation(25);
 transparencyPoints.add(gr2);
 
-// Upravte stávající bod průhlednosti
+// Modify an existing transparency point
 transparencyPoints.get(2).setLocation(3000);
 
 settings.setColorPoints(colorPoints.toArray(new IGradientColorPoint[0]));
 settings.setTransparencyPoints(transparencyPoints.toArray(new IGradientTransparencyPoint[0]));
 ```
 
-## Krok 6: Aktualizujte a uložte soubor PSD
+### Krok 6: Aktualizace a uložení souboru PSD
 
-Jakmile provedete potřebné úpravy, aktualizujte vrstvu výplně a uložte soubor PSD:
+Po provedení potřebných úprav aktualizujte výplňovou vrstvu a uložte soubor PSD:
 
 ```java
 fillLayer.update();
 image.save(outputFile, new PsdOptions(image));
 ```
 
- The`fillLayer.update()` metoda aplikuje změny na vrstvu přechodové výplně a`image.save` uloží upravený soubor PSD do zadané výstupní cesty.
+Metoda `fillLayer.update()` aplikuje změny na vrstvu gradientní výplně a `image.save` uloží upravený soubor PSD na zadanou výstupní cestu.
 
-## Závěr
+## Časté problémy a řešení
 
-Úspěšně jste zvládli umění úpravy vrstev přechodové výplně v souborech PSD pomocí Aspose.PSD pro Java! Dodržováním těchto kroků můžete popustit uzdu své kreativitě a vytvářet úžasné vizuální efekty s programovou přesností.
+- **Výjimka „Wrong Fill Layer“** — Ujistěte se, že cílíte na `FillLayer`, která skutečně používá gradient. Před přetypováním zkontrolujte název nebo index vrstvy.  
+- **Barevné body neodrážejí změny** — Po úpravě seznamu bodů vždy zavolejte `settings.setColorPoints(...)` a `settings.setTransparencyPoints(...)`, aby se změny propíchly zpět do vrstvy.  
+- **Výkon u velkých PSD** — Pokud zpracováváte mnoho souborů, znovu použijte stejnou instanci `PsdOptions` a obrázky okamžitě uvolněte pomocí `image.dispose()`, aby se uvolnila paměť.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu do přechodu přidat více barevných a průhledných bodů?
-Absolutně! Můžete přidat tolik barevných a průhledných bodů, kolik potřebujete, abyste dosáhli požadovaného efektu přechodu. Stačí vytvořit nové body a přidat je do příslušných seznamů.
+**Q: Mohu přidat více barevných a průhlednostních bodů do gradientu?**  
+A: Rozhodně! Můžete přidat libovolný počet barevných i průhlednostních bodů, které potřebujete k dosažení požadovaného gradientního efektu. Stačí vytvořit nové body a přidat je do příslušných seznamů.
 
-### Jak odstraním barvu nebo bod průhlednosti z přechodu?
- K odstranění bodu použijte příslušný seznam`remove` metoda. Například,`colorPoints.remove(index)` by odstranil barevný bod na zadaném indexu.
+**Q: Jak odebrat barevný nebo průhlednostní bod z gradientu?**  
+A: Použijte metodu `remove` seznamu, např. `colorPoints.remove(index)`, k odstranění nechtěného bodu před voláním `setColorPoints`.
 
-### Mohu změnit typ přechodu (lineární, radiální atd.)?
-Aspose.PSD aktuálně podporuje lineární přechody. Zatímco v budoucích verzích mohou být podporovány jiné typy přechodů, podobných efektů můžete dosáhnout kreativní manipulací s barvami a body průhlednosti.
+**Q: Můžu změnit typ gradientu (lineární, radiální atd.)?**  
+A: Aspose.PSD v současnosti podporuje lineární gradienty. Budoucí verze mohou přidat další typy, ale jiné efekty můžete simulovat úpravou barevných a průhlednostních bodů.
 
-### Má úprava přechodů vliv na výkon?
-Dopad na výkon závisí na složitosti gradientu a počtu provedených úprav. Pro většinu praktických případů použití by měl být výkon přijatelný. Pro zpracování obrázků ve velkém měřítku však zvažte optimalizaci kódu pro efektivitu.
+**Q: Má úprava gradientů dopad na výkon?**  
+A: Dopad závisí na složitosti gradientu a počtu provedených úprav. Pro běžné scénáře je režie minimální, ale při dávkovém zpracování velkých souborů může pomoci optimalizace správy paměti.
 
-### Mohu použít tuto techniku na více vrstev přechodové výplně v souboru PSD?
-Ano, můžete procházet vrstvami a aplikovat úpravy na každou vrstvu přechodové výplně, která splňuje vaše kritéria.
+**Q: Lze tuto techniku použít na více vrstev gradientní výplně v jednom souboru PSD?**  
+A: Ano. Projděte `image.getLayers()`, zkontrolujte každou `FillLayer` na `FillType.Gradient` a aplikujte stejné úpravy podle potřeby.
+
+**Q: Potřebuji komerční licenci pro produkční nasazení?**  
+A: Platná licence Aspose.PSD je vyžadována pro produkční nasazení. K vyzkoušení je k dispozici bezplatná zkušební verze.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Poslední aktualizace:** 2026-03-23  
+**Testováno s:** Aspose.PSD for Java 24.11 (latest)  
+**Autor:** Aspose
