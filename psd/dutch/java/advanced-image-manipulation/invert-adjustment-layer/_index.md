@@ -1,9 +1,15 @@
 ---
-date: 2026-02-07
-description: Leer hoe u de Java-afbeeldingsverwerkingsbibliotheek Aspose.PSD kunt
-  gebruiken om meerdere aanpassingslagen, waaronder de Invert‑aanpassingslaag, toe
-  te passen voor naadloze PSD‑manipulatie.
-linktitle: Invert Adjustment Layer
+date: 2026-04-22
+description: Leer hoe je de Java‑bibliotheek voor beeldverwerking Aspose.PSD kunt
+  gebruiken om meerdere aanpassingslagen toe te passen, waaronder de Invert‑aanpassingslaag,
+  voor naadloze PSD‑manipulatie.
+keywords:
+- image processing java library
+- how to add invert
+- invert colors psd
+- batch process psd images
+- apply multiple adjustment layers
+linktitle: Aanpassingslaag Inverteren
 second_title: Aspose.PSD Java API
 title: 'Afbeeldingsverwerking Java‑bibliotheek: Laag inverteren met Aspose.PSD'
 url: /nl/java/advanced-image-manipulation/invert-adjustment-layer/
@@ -16,31 +22,27 @@ weight: 14
 
 # Invert Adjustment Layer in Aspose.PSD voor Java
 
-## Introductie
+## Inleiding
 
-Als je op zoek bent naar een robuuste **image processing java library**, is Aspose.PSD for Java een van de meest veelzijdige opties op de markt. In deze tutorial laten we zien hoe je een **Invert Adjustment Layer** toevoegt aan een PSD‑bestand, een techniek die je kunt combineren met andere aanpassingslagen om verfijnde visuele effecten te bereiken. Of je nu een batch‑verwerkingstool of een enkele‑afbeeldingseditor bouwt, deze gids biedt je een duidelijke, stapsgewijze route om het werk snel te voltooien.
+Als je op zoek bent naar een robuuste **image processing java library**, is Aspose.PSD for Java een van de meest veelzijdige opties op de markt. In deze tutorial laten we zien hoe je een **Invert Adjustment Layer** aan een PSD‑bestand kunt toevoegen, een techniek die je kunt combineren met andere aanpassingslagen om verfijnde visuele effecten te bereiken. Of je nu een batch‑verwerkingstool, een server‑side image service, of een enkele‑afbeeldingseditor bouwt, deze gids biedt je een duidelijke, stap‑voor‑stap route om het werk snel en betrouwbaar te voltooien.
 
 ## Snelle antwoorden
-- **Wat doet de Invert Adjustment Layer?** Het keert alle kleurwaarden in het geselecteerde gebied om, waardoor een negatief‑beeld effect ontstaat.  
-- **Welke bibliotheek biedt deze functie?** Aspose.PSD, een toonaangevende image processing java library.  
-- **Kan ik het stapelen met andere aanpassingen?** Ja – je kunt **apply multiple adjustment layers** toepassen, zoals Brightness/Contrast, Hue/Saturation, en meer.  
-- **Heb ik een licentie nodig voor ontwikkeling?** Er is een gratis proefversie beschikbaar; een licentie is vereist voor productiegebruik.  
+- **Wat doet de Invert Adjustment Layer?** Het keert alle kleurwaarden in het geselecteerde gebied om, waardoor een negatief‑beeld effect ontstaat (d.w.z. het **convert PSD to negative**).  
+- **Welke bibliotheek biedt deze functie?** Aspose.PSD, een toonaangevende **image processing java library**.  
+- **Kan ik het stapelen met andere aanpassingen?** Ja – je kunt **apply multiple adjustment layers** zoals Brightness/Contrast, Hue/Saturation, en meer.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie is beschikbaar; een licentie is vereist voor productiegebruik.  
 - **Hoe lang duurt de implementatie?** Meestal minder dan 10 minuten voor een basisgeval.
 
 ## Wat is de Invert Adjustment Layer?
 
-De Invert Adjustment Layer is een niet‑destructieve bewerking die de RGB-waarden van elke pixel die het beïnvloedt omdraait. Omdat het bovenop de lagenstapel zit, kun je de zichtbaarheid togglen of de volgorde wijzigen zonder de oorspronkelijke afbeeldingsgegevens permanent te wijzigen.
+De Invert Adjustment Layer is een niet‑destructieve bewerking die de RGB‑waarden van elke pixel die het beïnvloedt omdraait. Omdat het bovenop de laagstapel zit, kun je de zichtbaarheid ervan in- of uitschakelen of de volgorde wijzigen zonder de oorspronkelijke afbeeldingsgegevens permanent te wijzigen. Dit is de gemakkelijkste manier om **invert colors PSD** bestanden te inverteren of een fotografisch negatief te creëren.
 
-## Hoe een laag omkeren met Aspose.PSD
-
-Hieronder zie je precies hoe je **een laag omkeert** in een PSD‑bestand. De stappen zijn opzettelijk eenvoudig zodat je je kunt concentreren op het concept in plaats van op boilerplate‑code.
-
-## Waarom Aspose.PSD gebruiken als jouw Image Processing Java Library?
+## Waarom Aspose.PSD gebruiken als uw Image Processing Java Library?
 
 - **Full PSD support** – lees, bewerk en schrijf Photoshop‑bestanden zonder Photoshop geïnstalleerd te hebben.  
 - **Cross‑platform** – werkt op elke Java‑runtime (Java 6+).  
-- **Rich adjustment features** – bevat ingebouwde methoden voor veel voorkomende bewerkingen, waardoor het eenvoudig is om **multiple adjustment layers** toe te passen in een enkele workflow.  
-- **Performance‑optimized** – verwerkt grote bestanden efficiënt, wat essentieel is voor batchverwerking.
+- **Rich adjustment features** – bevat ingebouwde methoden voor veelvoorkomende bewerkingen, waardoor het eenvoudig is om **apply multiple adjustment layers** in één workflow toe te passen.  
+- **Performance‑optimized** – verwerkt grote bestanden efficiënt, wat essentieel is voor **batch process psd images**.  
 
 ## Vereisten
 
@@ -63,7 +65,7 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 
 ## Stap 1: Documentmap instellen
 
-Definieer de map die je bron‑PSD‑bestand bevat en waar de output wordt opgeslagen.
+Definieer de map die je bron‑PSD‑bestand bevat en waar de uitvoer wordt opgeslagen.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -82,15 +84,15 @@ PsdImage im = (PsdImage)Image.load(filePath);
 
 ## Stap 3: Invert Adjustment Layer toevoegen
 
-Roep de ingebouwde methode aan om een Invert Adjustment Layer toe te voegen bovenop de huidige lagenstapel. Je kunt later meer lagen toevoegen (bijv. Brightness, Hue) om **multiple adjustment layers** toe te passen.
+Roep de ingebouwde methode aan om een Invert Adjustment Layer bovenop de huidige laagstapel in te voegen. Je kunt later meer lagen toevoegen (bijv. Brightness, Hue) om **apply multiple adjustment layers**.
 
 ```java
 im.addInvertAdjustmentLayer();
 ```
 
-## Stap 4: Output opslaan
+## Stap 4: Uitvoer opslaan
 
-Sla de gewijzigde PSD op schijf op. Het opgeslagen bestand bevat nu de Invert Adjustment Layer en kan worden geopend in Photoshop of elke PSD‑compatibele viewer.
+Sla de gewijzigde PSD op schijf op. Het opgeslagen bestand bevat nu de Invert Adjustment Layer en kan geopend worden in Photoshop of elke PSD‑compatibele viewer.
 
 ```java
 im.save(outputPath);
@@ -99,39 +101,47 @@ im.save(outputPath);
 ### Wat is er net gebeurd?
 
 - De PSD is in het geheugen geladen.  
-- Een Invert Adjustment Layer is toegevoegd als bovenste laag.  
+- Er is een Invert Adjustment Layer toegevoegd als bovenste laag.  
 - De afbeelding is opgeslagen, waarbij de niet‑destructieve bewerking behouden blijft.
 
 Je hebt nu met succes Aspose.PSD, een **image processing java library**, gebruikt om een PSD‑bestand te manipuleren.
 
+## Batchverwerking van PSD‑afbeeldingen met invert‑aanpassing
+
+Als je hetzelfde invert‑effect op tientallen of honderden bestanden wilt toepassen, kun je de bovenstaande code in een eenvoudige lus plaatsen die over een map met PSD‑bestanden itereren. Omdat de bibliotheek **performance‑optimized** is, blijft het verwerken van grote batches snel, en kun je de invert‑stap combineren met andere aanpassingen (bijv. brightness, hue) in dezelfde lus.
+
+## Een PSD converteren naar een negatief beeld
+
+De Invert Adjustment Layer is in wezen de **convert PSD to negative** bewerking. Door deze laag als bovenste item toe te voegen, bereik je een volledig negatief effect zonder de oorspronkelijke pixelgegevens permanent te wijzigen. Je kunt later de laag verwijderen of uitschakelen om terug te keren naar het oorspronkelijke uiterlijk.
+
 ## Veelvoorkomende problemen & tips
 
 | Probleem | Oorzaak | Oplossing |
-|-------|-------|----------|
-| **NullPointerException on `Image.load`** | Incorrect file path or missing file | Verify `dataDir` and file name; use absolute paths for testing |
-| **Layer order not as expected** | Adding layers after existing ones changes stacking | Use `im.addInvertAdjustmentLayer()` before adding other adjustments, or reorder layers via `im.getLayers()` |
-| **Performance slowdown on large PSDs** | Loading very large files into memory | Consider processing pages in chunks or increasing JVM heap size (`-Xmx2g`) |
+|----------|---------|-----------|
+| **NullPointerException op `Image.load`** | Onjuist bestandspad of ontbrekend bestand | Controleer `dataDir` en bestandsnaam; gebruik absolute paden voor testen |
+| **Laagvolgorde niet zoals verwacht** | Lagen toevoegen na bestaande verandert de stapeling | Gebruik `im.addInvertAdjustmentLayer()` voordat je andere aanpassingen toevoegt, of herschik lagen via `im.getLayers()` |
+| **Prestatievertraging bij grote PSD's** | Zeer grote bestanden in het geheugen laden | Overweeg pagina's in delen te verwerken of vergroot de JVM-heapgrootte (`-Xmx2g`) |
 
 ## Veelgestelde vragen
 
-**Q: Is Aspose.PSD compatibel met alle Java‑versies?**  
+**V: Is Aspose.PSD compatibel met alle Java‑versies?**  
 A: Aspose.PSD ondersteunt Java 6.0 en latere versies.
 
-**Q: Kan ik meerdere aanpassingslagen in één bewerking toepassen?**  
-A: Ja, je kunt verschillende aanpassingslagen stapelen — zoals Invert, Brightness en Hue/Saturation — om complexe effecten te bereiken.
+**V: Kan ik meerdere aanpassingslagen in één bewerking toepassen?**  
+A: Ja, je kunt meerdere aanpassingslagen stapelen — zoals Invert, Brightness en Hue/Saturation — om complexe effecten te bereiken.
 
-**Q: Waar kan ik extra documentatie voor Aspose.PSD vinden?**  
-A: Raadpleeg de documentatie [here](https://reference.aspose.com/psd/java/) voor uitgebreide handleidingen en API‑referenties.
+**V: Waar kan ik extra documentatie voor Aspose.PSD vinden?**  
+A: Verwijs naar de documentatie [here](https://reference.aspose.com/psd/java/) voor uitgebreide handleidingen en API‑referenties.
 
-**Q: Is er een gratis proefversie beschikbaar voor Aspose.PSD?**  
-A: Ja, je kunt de gratis proefversie verkennen [here](https://releases.aspose.com/).
+**V: Is er een gratis proefversie beschikbaar voor Aspose.PSD?**  
+A: Ja, je kunt de gratis proefversie [here](https://releases.aspose.com/) verkennen.
 
-**Q: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?**  
-A: Je kunt een tijdelijke licentie verkrijgen [here](https://purchase.aspose.com/temporary-license/).
+**V: Hoe kan ik een tijdelijke licentie voor Aspose.PSD verkrijgen?**  
+A: Je kunt een tijdelijke licentie [here](https://purchase.aspose.com/temporary-license/) verkrijgen.
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-07  
+**Laatst bijgewerkt:** 2026-04-22  
 **Getest met:** Aspose.PSD 24.12 for Java  
 **Auteur:** Aspose  
 

@@ -1,11 +1,17 @@
 ---
-date: 2026-02-07
-description: Pelajari cara mengubah warna garis pada file PSD menggunakan Aspose.PSD
-  untuk Java. Ikuti panduan langkah demi langkah ini untuk memodifikasi warna lapisan
-  garis, opasitas, dan lainnya.
-linktitle: Add Stroke Layer Color
+date: 2026-04-22
+description: Pelajari cara mengubah warna stroke di Java dengan Aspose.PSD untuk Java.
+  Ikuti panduan langkah demi langkah ini untuk memodifikasi warna lapisan stroke,
+  opasitas, dan lainnya.
+keywords:
+- change stroke color java
+- modify stroke opacity
+- apply stroke effect
+- psd stroke tutorial
+- add stroke layer psd
+linktitle: Tambah Warna Lapisan Garis
 second_title: Aspose.PSD Java API
-title: Cara Mengubah Warna Garis di Aspose.PSD untuk Java
+title: Cara Mengubah Warna Stroke di Java Menggunakan Aspose.PSD
 url: /id/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
@@ -14,40 +20,42 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengubah Warna Garis di Aspose.PSD untuk Java
+# Cara Mengubah Warna Stroke Java Menggunakan Aspose.PSD
 
-## Introduction
+## Pendahuluan
 
-Jika Anda perlu **cara mengubah warna garis** dalam dokumen Photoshop secara programatis, Aspose.PSD untuk Java mempermudahnya. Dalam tutorial ini kami akan menjelaskan cara menambahkan lapisan garis, mengubah warnanya, menyesuaikan opasitas, dan menyimpan hasilnya. Pada akhir Anda juga akan melihat cara memodifikasi garis pada lapisan yang sudah ada, memberi Anda kontrol kreatif penuh dari kode Java Anda.
+Jika Anda perlu **change stroke color java** dalam dokumen Photoshop secara programatis, Aspose.PSD untuk Java mempermudahnya. Dalam tutorial ini kami akan menjelaskan cara menambahkan lapisan stroke, mengubah warnanya, menyesuaikan opasitas, dan menyimpan hasilnya. Pada akhir tutorial Anda juga akan melihat cara memodifikasi stroke pada lapisan yang sudah ada, memberi Anda kontrol kreatif penuh dari kode Java Anda.
 
-## Quick Answers
-- **Perpustakaan apa yang diperlukan?** Aspose.PSD for Java (versi terbaru).  
-- **Apakah saya dapat mengubah warna garis?** Ya – gunakan `ColorFillSettings` untuk mengatur `Color` apa pun.  
+## Jawaban Cepat
+- **Library apa yang diperlukan?** Aspose.PSD for Java (versi terbaru).  
+- **Apakah saya dapat mengubah warna stroke?** Ya – gunakan `ColorFillSettings` untuk mengatur `Color` apa pun.  
 - **Apakah saya memerlukan lisensi?** Lisensi sementara dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi.  
 - **Versi Java mana yang didukung?** Java 8 atau lebih tinggi.  
-- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit untuk perubahan garis dasar.
+- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit untuk perubahan stroke dasar.
 
-## What is a Stroke Layer in a PSD?
-Lapisan garis adalah efek vektor yang menggambar outline di sekitar konten sebuah lapisan. Itu dapat disesuaikan dengan warna, ketebalan, opasitas, dan mode campuran. Memodifikasi efek ini secara programatis memungkinkan branding otomatis, pemrosesan batch, atau pembuatan grafik dinamis.
+## Apa Itu Lapisan Stroke dalam PSD?
 
-## Why Use Aspose.PSD to Change Stroke Color?
+Lapisan stroke adalah efek vektor yang menggambar garis tepi di sekitar isi sebuah lapisan. Efek ini dapat disesuaikan dengan warna, ketebalan, opasitas, dan mode perpaduan. Memodifikasi efek ini secara programatis memungkinkan branding otomatis, pemrosesan batch, atau pembuatan grafik dinamis.
+
+## Mengapa Menggunakan Aspose.PSD untuk Mengubah Warna Stroke?
+
 - **Tidak memerlukan Photoshop** – bekerja sepenuhnya di Java.  
 - **Kepatuhan penuh pada spesifikasi PSD** – semua fitur PSD modern didukung.  
 - **Kinerja tinggi** – memproses file besar dengan cepat.  
-- **Lintas‑platform** – berjalan di OS apa pun dengan JVM.
+- **Lintas platform** – dapat dijalankan pada sistem operasi apa pun dengan JVM.
 
-## How to Change Stroke Color Programmatically
-Berikut adalah panduan singkat langkah‑demi‑langkah yang menunjukkan cara mengubah warna garis menggunakan Aspose.PSD untuk Java. Setiap langkah mencakup penjelasan singkat diikuti oleh blok kode asli (tidak diubah).
+## Cara Mengubah Warna Stroke Java Secara Programatis
+Berikut adalah panduan singkat langkah demi langkah yang menunjukkan secara tepat cara mengubah warna stroke menggunakan Aspose.PSD untuk Java. Setiap langkah mencakup penjelasan singkat diikuti oleh blok kode asli (tidak diubah).
 
-### Prerequisites
+### Prasyarat
 
-- **Perpustakaan Aspose.PSD** – unduh dari [official documentation](https://reference.aspose.com/psd/java/).  
+- **Aspose.PSD Library** – unduh dari [dokumentasi resmi](https://reference.aspose.com/psd/java/).  
 - **Java Development Kit (JDK)** – versi 8 atau lebih baru.  
-- **IDE** – Eclipse, IntelliJ IDEA, atau editor Java yang kompatibel apa pun.
+- **IDE** – Eclipse, IntelliJ IDEA, atau editor yang kompatibel dengan Java apa pun.
 
-### Import Packages
+### Impor Paket
 
-Pertama, impor kelas yang Anda perlukan. Ini memberi proyek Anda akses ke penanganan PSD dan API efek‑garis.
+Pertama, impor kelas-kelas yang Anda perlukan. Ini memberi proyek Anda akses ke penanganan PSD dan API efek stroke.
 
 ```java
 import com.aspose.psd.Color;
@@ -62,13 +70,13 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-### Step 1: Set Up Your Project
+### Langkah 1: Siapkan Proyek Anda
 
-Buat proyek Java baru, tambahkan JAR Aspose.PSD ke jalur build, dan verifikasi perpustakaan dimuat tanpa error.
+Buat proyek Java baru, tambahkan JAR Aspose.PSD ke jalur build, dan verifikasi bahwa pustaka dimuat tanpa error.
 
-### Step 2: Load the PSD File
+### Langkah 2: Muat File PSD
 
-Aktifkan pemuatan sumber daya efek sehingga informasi garis tersedia.
+Aktifkan pemuatan sumber daya efek sehingga informasi stroke tersedia.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -82,15 +90,15 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-### Step 3: Access the Stroke Effect Layer
+### Langkah 3: Akses Lapisan Efek Stroke
 
-Ambil efek garis pertama dari lapisan kedua (indeks 1).
+Ambil efek stroke pertama dari lapisan kedua (indeks 1).
 
 ```java
 StrokeEffect colorStroke = (StrokeEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-### Step 4: Validate Stroke Properties
+### Langkah 4: Validasi Properti Stroke
 
 Konfirmasi properti yang ada sebelum melakukan perubahan. Ini membantu menghindari hasil yang tidak terduga.
 
@@ -100,9 +108,9 @@ Assert.areEqual(255, colorStroke.getOpacity());
 Assert.areEqual(true, colorStroke.isVisible());
 ```
 
-### Step 5: Set Color and Opacity (How to Change Stroke Color)
+### Langkah 5: Atur Warna dan Opasitas (Cara Mengubah Warna Stroke)
 
-Di sini kami **mengubah warna garis** menjadi kuning dan mengurangi opasitas menjadi 50 % (127 / 255).
+Di sini kami **change stroke color** menjadi kuning dan mengurangi opasitas menjadi 50 % (127 / 255).
 
 ```java
 ColorFillSettings fillSettings = (ColorFillSettings)colorStroke.getFillSettings();
@@ -111,47 +119,59 @@ fillSettings.setColor(Color.getYellow());
 colorStroke.setOpacity((byte)127);
 ```
 
-### Step 6: Save the Modified PSD
+### Langkah 6: Simpan PSD yang Dimodifikasi
 
-Tulis gambar yang telah diperbarui kembali ke disk. File baru kini berisi garis yang telah dimodifikasi.
+Tuliskan gambar yang diperbarui kembali ke disk. File baru kini berisi stroke yang telah dimodifikasi.
 
 ```java
 im.save(exportPath);
 ```
 
-## Common Use Cases for Changing Stroke Color
-- **Otomatisasi branding:** Terapkan warna perusahaan pada logo di ratusan aset PSD dalam satu proses batch.  
-- **Pembuatan UI dinamis:** Ubah warna garis secara langsung berdasarkan tema yang dipilih pengguna dalam alat desain berbasis web.  
-- **Persiapan pra‑cetak:** Pastikan semua warna garis memenuhi spesifikasi cetak sebelum mengirim file ke percetakan.
+## Cara Memodifikasi Opasitas Stroke
 
-## Common Pitfalls & Tips
+Jika Anda hanya perlu menyesuaikan opasitas sambil mempertahankan warna asli, ubah nilai `setOpacity` (0‑255). Misalnya, `colorStroke.setOpacity((byte)200);` akan membuat stroke kira‑kira 78 % opak.
 
-- **Pemeriksaan null** – selalu pastikan bahwa `getEffects()` mengembalikan array yang tidak null sebelum melakukan casting.  
-- **Indeks lapisan** – lapisan PSD menggunakan indeks nol; pastikan Anda menargetkan lapisan yang tepat.  
-- **Format warna** – `Color.getYellow()` hanya contoh; Anda dapat membuat warna kustom dengan `new Color(r, g, b)`.  
-- **Rentang opasitas** – opasitas adalah byte (0–255); nilai di atas 255 akan dipotong.  
-- **Pemuat sumber daya** – lupa `loadOptions.setLoadEffectsResource(true)` akan menghasilkan array efek `null`.
+## Cara Menerapkan Efek Stroke
 
-## Frequently Asked Questions
+Untuk menambahkan efek stroke baru ke lapisan yang belum memiliki, buat instance `StrokeEffect`, konfigurasikan `ColorFillSettings`-nya, dan lampirkan ke `BlendingOptions` lapisan. Metode `setColor` dan `setOpacity` yang sama digunakan untuk menentukan tampilan.
 
-**T: Bisakah saya menggunakan Aspose.PSD dengan perpustakaan grafis Java lainnya?**  
-J: Ya, Aspose.PSD dapat digabungkan dengan perpustakaan seperti Apache Commons Imaging atau Java2D untuk fungsionalitas tambahan.
+## Tutorial Stroke PSD: Tambahkan Lapisan Stroke ke PSD
 
-**T: Apakah Aspose.PSD kompatibel dengan format file PSD terbaru?**  
-J: Tentu saja. Perpustakaan ini secara rutin diperbarui untuk mendukung spesifikasi Photoshop terbaru.
+Langkah-langkah di atas menggambarkan penambahan stroke ke lapisan yang ada. Untuk lapisan stroke yang benar‑benar baru, duplikat lapisan target, lalu terapkan `StrokeEffect`. Pendekatan ini berguna ketika Anda ingin menjaga lapisan asli tetap tidak tersentuh.
 
-**T: Bagaimana cara menangani pengecualian saat menggunakan Aspose.PSD?**  
-J: Lihat [support forum](https://forum.aspose.com/c/psd/34) untuk pemecahan masalah terperinci dan contoh kode penanganan error.
+## Contoh Penggunaan Umum untuk Mengubah Warna Stroke
+- **Branding automation:** Terapkan warna perusahaan ke logo pada ratusan aset PSD dalam satu proses batch.  
+- **Dynamic UI generation:** Ubah warna stroke secara dinamis berdasarkan tema yang dipilih pengguna dalam alat desain berbasis web.  
+- **Pre‑flight preparation:** Pastikan semua warna stroke memenuhi spesifikasi cetak sebelum mengirim file ke percetakan.
 
-**T: Bisakah saya mencoba Aspose.PSD sebelum membeli?**  
-J: Tentu! Dapatkan [free trial](https://releases.aspose.com/) untuk menjelajahi semua fitur.
+## Kesalahan Umum & Tips
 
-**T: Di mana saya dapat memperoleh lisensi sementara untuk Aspose.PSD?**  
-J: Dapatkan [temporary license](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi perpustakaan di lingkungan pengembangan Anda.
+- **Null checks** – selalu pastikan bahwa `getEffects()` mengembalikan array non‑null sebelum melakukan casting.  
+- **Layer index** – lapisan PSD menggunakan indeks mulai dari nol; pastikan Anda menargetkan lapisan yang tepat.  
+- **Color format** – `Color.getYellow()` hanya contoh; Anda dapat membuat warna kustom dengan `new Color(r, g, b)`.  
+- **Opacity range** – opasitas adalah byte (0–255); nilai di atas 255 akan dipotong.  
+- **Resource loading** – melupakan `loadOptions.setLoadEffectsResource(true)` akan menghasilkan array efek `null`.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menggunakan Aspose.PSD dengan perpustakaan grafis Java lainnya?**  
+A: Ya, Aspose.PSD dapat digabungkan dengan perpustakaan seperti Apache Commons Imaging atau Java2D untuk fungsionalitas tambahan.
+
+**Q: Apakah Aspose.PSD kompatibel dengan format file PSD terbaru?**  
+A: Tentu saja. Pustaka ini secara rutin diperbarui untuk mendukung spesifikasi Photoshop terbaru.
+
+**Q: Bagaimana cara menangani pengecualian saat menggunakan Aspose.PSD?**  
+A: Lihat [forum dukungan](https://forum.aspose.com/c/psd/34) untuk pemecahan masalah detail dan contoh kode penanganan error.
+
+**Q: Bisakah saya mencoba Aspose.PSD sebelum membeli?**  
+A: Tentu! Dapatkan [versi percobaan gratis](https://releases.aspose.com/) untuk menjelajahi semua fitur.
+
+**Q: Di mana saya dapat memperoleh lisensi sementara untuk Aspose.PSD?**  
+A: Dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi pustaka di lingkungan pengembangan Anda.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-07  
+**Terakhir Diperbarui:** 2026-04-22  
 **Diuji Dengan:** Aspose.PSD 24.11 for Java  
 **Penulis:** Aspose  
 
