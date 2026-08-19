@@ -1,32 +1,53 @@
 ---
-title: Ajouter une nouvelle couche régulière au PSD avec Aspose.PSD pour Java
-linktitle: Ajouter un nouveau calque régulier au PSD
-second_title: API Java Aspose.PSD
-description: Découvrez comment ajouter une nouvelle couche régulière aux fichiers PSD à l'aide d'Aspose.PSD pour Java. Suivez notre guide étape par étape pour une manipulation transparente du PSD.
-weight: 11
+date: 2026-04-08
+description: Apprenez à exporter un PSD en PNG et à créer un nouveau calque PSD avec
+  Aspose.PSD pour Java en utilisant une licence temporaire Aspose. Ce tutoriel étape
+  par étape couvre la manipulation d’images PSD et la définition de la position du
+  calque.
+keywords:
+- aspose temporary license
+- set layer position
+- psd image manipulation
+- create new psd layer
+linktitle: Ajouter un nouveau calque normal au PSD
+second_title: Aspose.PSD Java API
+title: Exporter le PSD en PNG et ajouter un nouveau calque normal avec Aspose.PSD
+  pour Java – licence temporaire Aspose
 url: /fr/java/advanced-image-effects/add-new-regular-layer/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter une nouvelle couche régulière au PSD avec Aspose.PSD pour Java
+# Exporter PSD en PNG et ajouter un nouveau calque régulier avec Aspose.PSD pour Java
 
 ## Introduction
 
-Bienvenue dans ce didacticiel complet sur l'utilisation d'Aspose.PSD pour Java pour ajouter une nouvelle couche régulière à un fichier PSD. Aspose.PSD est une puissante bibliothèque Java qui permet aux développeurs de manipuler et de travailler efficacement avec les fichiers PSD. Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'une nouvelle couche régulière à un fichier PSD, en vous fournissant des étapes détaillées et des exemples de code.
+Dans ce **aspose psd tutorial** vous découvrirez comment **exporter PSD en PNG** tout en **créant un nouveau calque régulier** dans le même fichier, **en utilisant une licence temporaire aspose** pour le développement. Que vous ayez besoin de générer des vignettes prêtes pour le web, de préparer des ressources pour un pipeline de conception, ou simplement d'expérimenter avec la **manipulation d'images psd**, Aspose.PSD pour Java vous offre un contrôle programmatique complet. Nous parcourrons chaque étape — du chargement du fichier source à l'enregistrement à la fois du PSD mis à jour et d'une copie PNG — afin que vous puissiez commencer à manipuler les calques PSD immédiatement.
 
-## Conditions préalables
+## Réponses rapides
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+- **Puis-je exporter PSD en PNG en un seul appel ?** Oui, après avoir ajouté des calques vous pouvez appeler `save` avec `PngOptions`.
+- **Ai-je besoin d'une licence pour le développement ?** Une licence temporaire fonctionne pour les tests ; une licence complète est requise pour la production.
+- **Quelle version de Java est prise en charge ?** Aspose.PSD fonctionne avec Java 8 et les versions ultérieures.
+- **Le positionnement des calques est-il basé sur les pixels ?** Oui, vous définissez les coordonnées gauche, haut, droite, bas en pixels en utilisant les méthodes **set layer position**.
+- **Le PNG conservera-t-il la transparence du calque ?** Le PNG contiendra le résultat fusionné de tous les calques visibles.
 
-- Environnement de développement Java : assurez-vous qu'un environnement de développement Java est configuré sur votre système.
--  Bibliothèque Aspose.PSD : téléchargez et installez la bibliothèque Aspose.PSD pour Java. Vous pouvez trouver la bibliothèque[ici](https://releases.aspose.com/psd/java/).
+## Pourquoi utiliser une licence temporaire aspose ?
 
-## Importer des packages
+Une **licence temporaire aspose** vous permet d'évaluer l'ensemble complet des fonctionnalités d'Aspose.PSD sans aucune restriction fonctionnelle. Elle supprime le filigrane d'évaluation, débloque toutes les API — y compris la capacité de **créer de nouveaux calques psd** — et vous permet de tester votre code dans un environnement proche de la production avant d'acheter une licence permanente.
 
-Pour commencer, importez les packages nécessaires dans votre projet Java. Ces packages sont essentiels pour travailler avec les fonctionnalités Aspose.PSD. Incluez les lignes suivantes au début de votre fichier Java :
+## Prérequis
+
+- **Environnement de développement Java** – JDK 8+ et un outil de construction (Maven/Gradle) installé.
+- **Aspose.PSD pour Java** – Téléchargez le JAR le plus récent depuis le site officiel [ici](https://releases.aspose.com/psd/java/).
+- **Un fichier PSD d'exemple** – Nous utiliserons `OneLayer.psd` dans les exemples.
+
+## Importer les packages
+
+Ajoutez les imports requis à votre classe Java. Ces classes fournissent la fonctionnalité principale pour la **manipulation d'images psd** et la gestion des calques.
 
 ```java
 import com.aspose.psd.Image;
@@ -38,9 +59,15 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## Étape 1 : Charger le fichier PSD
+## Qu’est‑ce que « set layer position » et pourquoi est‑ce important ?
 
-Chargez le fichier PSD que vous souhaitez modifier en utilisant le code suivant :
+Lorsque vous ajoutez un nouveau calque, vous devez définir où il apparaît sur le canevas. Les méthodes `setLeft`, `setTop`, `setRight` et `setBottom` **set layer position** en coordonnées de pixels. Un positionnement correct garantit que vos graphiques s'alignent exactement comme prévu, ce qui est crucial pour des tâches telles que le compositing d'éléments UI ou la préparation de fichiers prêts à l'impression.
+
+## Guide étape par étape
+
+### Étape 1 : Charger le fichier PSD
+
+Tout d'abord, chargez le PSD existant que vous souhaitez modifier. Cela vous fournit un objet `PsdImage` avec lequel vous pouvez travailler.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -48,9 +75,9 @@ String sourceFileName = dataDir + "OneLayer.psd";
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## Étape 2 : préparer les tableaux de données et les rectangles
+### Étape 2 : Préparer les données de pixels et les rectangles
 
-Préparez deux tableaux int et deux objets Rectangle comme suit :
+Nous créerons deux tampons de pixels (`int[]`) et définirons les zones rectangulaires où les nouveaux calques seront peints. C'est la base pour **créer un nouveau calque psd**.
 
 ```java
 int[] data1 = new int[2500];
@@ -59,9 +86,9 @@ Rectangle rect1 = new Rectangle(0, 0, 50, 50);
 Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 ```
 
-## Étape 3 : initialiser les données de couche
+### Étape 3 : Initialiser les données du calque
 
-Initialisez les tableaux de données avec une valeur par défaut :
+Remplissez les tampons de pixels avec une valeur ARGB par défaut. La valeur `-10000000` correspond à une teinte sombre semi‑transparente.
 
 ```java
 for (int i = 0; i < 2500; i++) {
@@ -70,9 +97,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-## Étape 4 : Ajouter des calques réguliers
+### Étape 4 : Ajouter des calques réguliers (Manipuler les calques PSD)
 
-Ajoutez deux calques réguliers à l'image PSD :
+Nous **ajoutons maintenant des calques réguliers** à l'image PSD et **définissons la position du calque** en utilisant les propriétés left, top, right et bottom. Cela montre comment **manipuler les calques PSD** de façon programmatique.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -90,42 +117,55 @@ layer2.setBottom(175);
 layer2.saveArgb32Pixels(rect2, data2);
 ```
 
-## Étape 5 : Enregistrer le PSD et le PNG
+### Étape 5 : Exporter le PSD en PNG et enregistrer le PSD mis à jour
 
-Enregistrez le PSD modifié et un fichier PNG supplémentaire :
+Une fois les calques en place, enregistrez le document modifié. D'abord nous exportons le résultat en PNG (l'étape **export psd to png**), puis nous persistons le PSD avec les nouveaux calques.
 
 ```java
-im.save(exportPath, new PsdOptions());
-im.save(exportPathPng, new PngOptions());
+String exportPath = dataDir + "Updated.psd";
+String exportPathPng = dataDir + "Updated.png";
+
+im.save(exportPath, new PsdOptions());          // Save the updated PSD
+im.save(exportPathPng, new PngOptions());       // Export PSD to PNG
 ```
 
-Félicitations! Vous avez ajouté avec succès une nouvelle couche régulière à un fichier PSD à l'aide d'Aspose.PSD pour Java.
+> **Astuce :** Si vous n'avez besoin que du PNG, vous pouvez ignorer l'appel `save` du PSD et invoquer directement `save` avec `PngOptions`.
+
+## Problèmes courants et dépannage
+
+| Symptôme | Cause probable | Solution |
+|----------|----------------|----------|
+| Le PNG apparaît vide | Les calques sont invisibles ou totalement transparents | Assurez‑vous de définir des valeurs de pixels non transparentes ou d'appeler `layer.setVisible(true)`. |
+| `ArrayIndexOutOfBoundsException` | Incohérence entre la taille du rectangle et la longueur du tableau de pixels | Vérifiez que `rect.width * rect.height == dataArray.length`. |
+| LicenseException à l'exécution | Aucune licence valide chargée | Chargez une licence temporaire ou permanente avant d'appeler toute méthode API. |
+
+## Questions fréquemment posées
+
+**Q : Aspose.PSD est‑il compatible avec Java 8 ?**  
+R : Oui, Aspose.PSD prend en charge Java 8 et les versions ultérieures.
+
+**Q : Puis‑je appliquer des transformations (rotation, mise à l'échelle) aux calques ajoutés ?**  
+R : Absolument ! La classe `Layer` fournit des méthodes telles que `rotate`, `scale` et `translate` pour un contrôle complet des transformations.
+
+**Q : Où puis‑je trouver une documentation supplémentaire sur Aspose.PSD ?**  
+R : La documentation détaillée de l'API est disponible [ici](https://reference.aspose.com/psd/java/).
+
+**Q : Comment obtenir une licence temporaire pour Aspose.PSD ?**  
+R : Visitez la page de licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+
+**Q : Existe‑t‑il des forums communautaires pour le support d'Aspose.PSD ?**  
+R : Oui, rejoignez les discussions sur les forums Aspose [ici](https://forum.aspose.com/c/psd/34).
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons couvert le processus d'ajout d'une nouvelle couche régulière à un fichier PSD à l'aide d'Aspose.PSD pour Java. Cette puissante bibliothèque simplifie la manipulation des PSD, la rendant accessible aux développeurs Java. Expérimentez avec différents paramètres et fonctionnalités pour explorer tout le potentiel d’Aspose.PSD.
+Vous avez maintenant appris comment **exporter PSD en PNG** tout en **ajoutant de nouveaux calques réguliers** avec Aspose.PSD pour Java, et vous avez vu comment une **licence temporaire aspose** vous permet d'essayer ce flux de travail sans restrictions. Ce tutoriel met en avant les capacités essentielles de **manipulation d'images psd** : charger un fichier, créer des calques, remplir les données de pixels et exporter la composition finale. N'hésitez pas à expérimenter avec différentes tailles de rectangles, couleurs de pixels ou effets de calque pour adapter le résultat aux besoins de votre projet.
 
-## FAQ
+---
 
-### Q1 : Aspose.PSD est-il compatible avec Java 8 ?
+**Dernière mise à jour :** 2026-04-08  
+**Testé avec :** Aspose.PSD 24.11 for Java  
+**Auteur :** Aspose  
 
-A1 : Oui, Aspose.PSD prend en charge Java 8 et les versions ultérieures.
-
-### Q2 : Puis-je appliquer des transformations aux calques ajoutés ?
-
-A2 : Absolument ! Aspose.PSD fournit une gamme d'options de transformation pour les calques.
-
-### Q3 : Où puis-je trouver de la documentation supplémentaire sur Aspose.PSD ?
-
- A3 : Vous pouvez vous référer à la documentation[ici](https://reference.aspose.com/psd/java/).
-
-### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.PSD ?
-
- A4 : Visite[ce lien](https://purchase.aspose.com/temporary-license/) pour les options de licence temporaire.
-
-### Q5 : Existe-t-il des forums communautaires pour le support d'Aspose.PSD ?
-
- A5 : Oui, vous pouvez trouver du soutien et des discussions[ici](https://forum.aspose.com/c/psd/34).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

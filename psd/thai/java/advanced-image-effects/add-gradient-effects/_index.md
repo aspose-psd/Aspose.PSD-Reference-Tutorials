@@ -1,9 +1,13 @@
 ---
-date: 2025-12-02
-description: เรียนรู้วิธีการใช้เอฟเฟกต์ไล่สีในภาพ Java ด้วย Aspose.PSD ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อการรวมระบบอย่างราบรื่น
-linktitle: Add Gradient Effects
+date: 2026-04-08
+description: เรียนรู้วิธีสร้างเอฟเฟกต์ไล่สีแบบรัศมีในภาพ Java ด้วย Aspose.PSD. ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อการผสานรวมที่ราบรื่น.
+keywords:
+- create radial gradient
+- gradient overlay effect
+- Aspose.PSD Java
+linktitle: เพิ่มเอฟเฟกต์ไล่สี
 second_title: Aspose.PSD Java API
-title: วิธีใช้เอฟเฟกต์ไล่สีใน Aspose.PSD สำหรับ Java
+title: วิธีสร้างเอฟเฟกต์ไล่สีรัศมีใน Aspose.PSD สำหรับ Java
 url: /th/java/advanced-image-effects/add-gradient-effects/
 weight: 10
 ---
@@ -12,31 +16,31 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีการใช้เอฟเฟกต์ไล่สีใน Aspose.PSD สำหรับ Java
+# วิธีสร้างเอฟเฟกต์การไล่สีแบบรัศมีใน Aspose.PSD สำหรับ Java
 
 ## บทนำ
 
-ยินดีต้อนรับสู่บทแนะนำ **วิธีการใช้เอฟเฟกต์ไล่สี** ใน Aspose.PSD สำหรับ Java! หากคุณต้องการเพิ่มความสวยงามให้กับภาพของคุณด้วยการทับไล่สีที่น่าทึ่ง คุณมาถูกที่แล้ว ในคู่มือนี้เราจะพาคุณผ่านกระบวนการโดยใช้ Aspose.PSD ซึ่งเป็นไลบรารี Java ที่ทรงพลังสำหรับการประมวลผลภาพ เมื่อจบบทเรียนนี้คุณจะสามารถเพิ่ม ปรับแต่ง และบันทึกเอฟเฟกต์ไล่สีได้อย่างโปรแกรมเมติก
+Welcome to the tutorial on **วิธีสร้างการไล่สีแบบรัศมี** effects in Aspose.PSD for Java! If you're looking to enhance your images with stunning gradient overlays, you're in the right place. In this guide we'll walk you through the process using Aspose.PSD, a powerful Java library for image processing. By the end of this tutorial you’ll be comfortable adding, customizing, and saving radial gradient overlays programmatically.
 
-## คำตอบสั้น
-- **ฉันทำอะไรได้บ้าง?** เพิ่ม แก้ไข และผสานไล่สีบนเลเยอร์ PSD  
-- **ต้องใช้ไลบรารีอะไร?** Aspose.PSD สำหรับ Java (เวอร์ชันล่าสุด)  
-- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองฟรีสำหรับการพัฒนา; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
-- **ใช้เวลานานเท่าไหร่ในการทำ?** ประมาณ 10‑15 นาทีสำหรับการทับไล่สีพื้นฐาน  
-- **รองรับ Java 8+ หรือไม่?** ใช่, API รองรับ Java 8 และ runtime ที่ใหม่กว่า
+## คำตอบอย่างรวดเร็ว
+- **What can I achieve?** Add, edit, and blend radial gradient overlays on PSD layers.  
+- **Which library is required?** Aspose.PSD for Java (latest version).  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **How long does implementation take?** Roughly 10‑15 minutes for a basic radial gradient overlay.  
+- **Is it compatible with Java 8+?** Yes, the API supports Java 8 and newer runtimes.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มทำตามบทแนะนำ โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งานแล้ว:
+Before we dive into the tutorial, make sure you have the following prerequisites in place:
 
-1. **Aspose.PSD สำหรับ Java Library** – ตรวจสอบว่าคุณได้ดาวน์โหลดและติดตั้งไลบรารี Aspose.PSD สำหรับ Java แล้ว คุณสามารถค้นหาไลบรารีและเอกสารได้ [ที่นี่](https://reference.aspose.com/psd/java/)  
-2. **สภาพแวดล้อมการพัฒนา Java** – ตั้งค่าสภาพแวดล้อมการพัฒนา Java บนเครื่องของคุณ (JDK 8 หรือสูงกว่า, IDE ที่คุณชอบ)
+1. **Aspose.PSD for Java Library** – Ensure you have downloaded and installed the Aspose.PSD for Java library. You can find the library and its documentation [ที่นี่](https://reference.aspose.com/psd/java/).  
+2. **Java Development Environment** – Set up a Java development environment on your machine (JDK 8 or higher, IDE of your choice).
 
-เมื่อคุณเตรียมทุกอย่างเรียบร้อยแล้ว ให้ดำเนินการตามขั้นตอนต่อไป
+Now that you have everything set up, let's proceed with the step‑by‑step guide.
 
 ## นำเข้าแพ็กเกจ
 
-เริ่มต้นโดยการนำเข้าแพ็กเกจที่จำเป็นในโปรเจกต์ Java ของคุณ เพื่อให้เข้าถึงฟังก์ชันของ Aspose.PSD ตัวอย่างพื้นฐานมีดังนี้:
+Start by importing the necessary packages in your Java project. This ensures that you have access to the Aspose.PSD functionality. Here's a basic example:
 
 ```java
 import com.aspose.psd.Color;
@@ -51,13 +55,13 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.GradientOverlayEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-## เอฟเฟกต์ไล่สี (Gradient Overlay Effect) คืออะไร?
+## Gradient Overlay Effect คืออะไร?
 
-**เอฟเฟกต์ไล่สี** คือสไตล์ของเลเยอร์ที่ทาสีเปลี่ยนแปลงอย่างราบรื่นระหว่างสองสีหรือมากกว่านั้นบนพื้นที่ที่เลือก ใน Photoshop (และไฟล์ PSD) เอฟเฟกต์นี้สามารถผสาน สี และตำแหน่งได้เพื่อสร้างการออกแบบที่ซับซ้อน Aspose.PSD เปิดเผยเอฟเฟกต์นี้ผ่านคลาส `GradientOverlayEffect` ซึ่งทำให้คุณอ่านและแก้ไขคุณสมบัติได้โดยโปรแกรม
+A **gradient overlay effect** is a layer‑style that paints a smooth transition between two or more colors across a selected area. In Photoshop (and therefore in PSD files), this effect can be blended, colored, and positioned to create sophisticated visual designs. Aspose.PSD exposes this effect through the `GradientOverlayEffect` class, allowing you to read and modify its properties programmatically.
 
-## วิธีการใช้เอฟเฟกต์ไล่สี
+## วิธีสร้างเอฟเฟกต์การไล่สีแบบรัศมี
 
-ด้านล่างเราจะแบ่งการทำงานออกเป็นขั้นตอนที่เป็นลำดับเลขชัดเจน แต่ละขั้นตอนจะมีคำอธิบายสั้น ๆ ตามด้วยบล็อกโค้ดต้นฉบับ (ไม่เปลี่ยนแปลง)
+Below we break the implementation into clear, numbered steps. Each step includes a short explanation followed by the original code block (unchanged).
 
 ### ขั้นตอนที่ 1: โหลดไฟล์ PSD และเข้าถึง Gradient Overlay
 
@@ -75,7 +79,7 @@ PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 GradientOverlayEffect gradientOverlay = (GradientOverlayEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-ในขั้นตอนนี้ เราโหลดไฟล์ PSD และดึง `GradientOverlayEffect` ตัวแรกจากเลเยอร์ที่สอง (ดัชนี 1) การเรียก `loadOptions.setLoadEffectsResource(true)` ทำให้ทรัพยากรของเอฟเฟกต์พร้อมสำหรับการแก้ไข
+In this step, we load a PSD file and retrieve the first `GradientOverlayEffect` from the second layer (index 1). The `loadOptions.setLoadEffectsResource(true)` call ensures that effect resources are available for editing.
 
 ### ขั้นตอนที่ 2: ตรวจสอบการตั้งค่าเริ่มต้น
 
@@ -87,9 +91,9 @@ Assert.areEqual(true, gradientOverlay.isVisible());
 // ... (additional verifications)
 ```
 
-ก่อนทำการเปลี่ยนแปลง ควรตรวจสอบโหมดการผสาน ความทึบแสง และการมองเห็นของเอฟเฟกต์ เพื่อให้คุณเข้าใจสถานะพื้นฐานของไล่สี
+Before making changes, it’s a good practice to confirm the current blend mode, opacity, and visibility. This helps you understand the baseline state of the gradient overlay.
 
-### ขั้นตอนที่ 3: ปรับการตั้งค่าไล่สี
+### ขั้นตอนที่ 3: ปรับแต่งการตั้งค่า Gradient
 
 ```java
 // Modify gradient settings
@@ -99,7 +103,7 @@ gradientOverlay.setBlendMode(BlendMode.Lighten);
 // ... (additional modifications)
 ```
 
-ที่นี่คุณสามารถกำหนดสี ความทึบแสง และโหมดการผสานของไล่สีได้ ตัวอย่างจะเปลี่ยนสีเป็นสีเขียว ลดความทึบแสงเป็น 193 (จาก 255) และสลับโหมดการผสานเป็น **Lighten** คุณสามารถทดลองค่า `BlendMode` อื่น ๆ เช่น `Multiply`, `Screen`, หรือ `Overlay` ได้ตามต้องการ
+Here you can customize the gradient’s color, opacity, and blend mode. The example changes the color to green, reduces opacity to 193 (out of 255), and switches the blend mode to **Lighten**. Feel free to experiment with other `BlendMode` values such as `Multiply`, `Screen`, or `Overlay`.
 
 ### ขั้นตอนที่ 4: บันทึกภาพที่แก้ไขแล้ว
 
@@ -108,7 +112,7 @@ gradientOverlay.setBlendMode(BlendMode.Lighten);
 im.save(exportPath);
 ```
 
-หลังจากปรับแต่งเสร็จ ให้บันทึกการเปลี่ยนแปลงโดยการเซฟไฟล์ PSD ไปยังไฟล์ใหม่ ขั้นตอนนี้ทำให้ไฟล์ต้นฉบับยังคงไม่ถูกแก้ไข
+After applying your modifications, persist the changes by saving the PSD to a new file. This step ensures the original file remains untouched.
 
 ### ขั้นตอนที่ 5: ตรวจสอบการเปลี่ยนแปลง
 
@@ -120,63 +124,73 @@ GradientOverlayEffect gradientOverlayEffect = (GradientOverlayEffect)img.getLaye
 // ... (additional verifications)
 ```
 
-โหลดไฟล์ที่บันทึกไว้ใหม่ (หรือไฟล์ต้นฉบับ ขึ้นกับกระบวนการทำงานของคุณ) แล้วตรวจสอบ `GradientOverlayEffect` อีกครั้งเพื่อยืนยันว่าการเปลี่ยนแปลงได้ถูกนำไปใช้อย่างถูกต้อง
+Reload the saved file (or the original, depending on your workflow) and re‑inspect the gradient overlay to confirm that your changes were applied correctly.
+
+## ทำไมต้องสร้าง Radial Gradient Overlays?
+
+Radial gradients add depth and focus to designs, making elements appear three‑dimensional or spotlighted. They’re ideal for:
+
+- **Background fills** that draw the eye toward a central subject.  
+- **Button or icon highlights** where a subtle glow is needed.  
+- **Creative photo effects** like vignettes or light bursts.  
+
+Using Aspose.PSD lets you automate these effects across many files, saving hours of manual Photoshop work.
 
 ## ปัญหาที่พบบ่อยและเคล็ดลับ
 
-- **เอฟเฟกต์ไม่แสดง:** ตรวจสอบให้แน่ใจว่า `gradientOverlay.isVisible()` คืนค่า `true` บางไฟล์ PSD ซ่อนเอฟเฟกต์โดยค่าเริ่มต้น  
-- **ดัชนีเลเยอร์ไม่ถูกต้อง:** เลเยอร์เริ่มนับจากศูนย์; ตรวจสอบให้แน่ใจว่าคุณกำหนดเลเยอร์ที่ต้องการ (`im.getLayers()[1]` หมายถึงเลเยอร์ที่สอง)  
-- **การแปลงประเภทความทึบแสง:** เมธอด `setOpacity` รับค่าเป็น `byte` การส่งค่า `int` จะทำให้เกิดข้อผิดพลาดในการคอมไพล์; ให้ทำการแคสต์ตามตัวอย่าง  
-- **การโหลดทรัพยากร:** หากพบค่า `null` เมื่อเข้าถึงเอฟเฟกต์ ตรวจสอบว่าได้ตั้งค่า `loadOptions.setLoadEffectsResource(true)` ก่อนโหลดภาพแล้วหรือไม่
-
-## สรุป
-
-ขอแสดงความยินดี! คุณได้เรียนรู้ **วิธีการใช้เอฟเฟกต์ไล่สี** กับภาพของคุณโดยใช้ Aspose.PSD สำหรับ Java ด้วยการทำตามขั้นตอนข้างต้น คุณสามารถเพิ่ม แก้ไข และบันทึกไล่สีได้โดยโปรแกรมเมติก ทำให้คุณมีอิสระในการสร้างสรรค์ PSD assets อย่างเต็มที่ ทดลองใช้สี โหมดการผสาน และค่าความทึบแสงต่าง ๆ เพื่อให้ได้ผลลัพธ์ที่ต้องการ
+- **Effect Not Visible:** Ensure `gradientOverlay.isVisible()` returns `true`. Some PSD files hide effects by default.  
+- **Incorrect Layer Index:** Layers are zero‑based; double‑check you are targeting the correct layer (`im.getLayers()[1]` refers to the second layer).  
+- **Opacity Casting:** The `setOpacity` method expects a `byte`. Passing an `int` will cause a compilation error; cast explicitly as shown.  
+- **Resource Loading:** If you encounter `null` when accessing effects, verify that `loadOptions.setLoadEffectsResource(true)` is set before loading the image.
 
 ## คำถามที่พบบ่อย
 
-### Q1: ฉันสามารถใช้หลายเอฟเฟกต์ไล่สีบนภาพเดียวได้หรือไม่?
+### Q1: ฉันสามารถใช้เอฟเฟกต์ไล่สีหลายแบบบนภาพเดียวได้หรือไม่?
 
-A1: ใช่, คุณสามารถใช้หลายเอฟเฟกต์ไล่สีโดยทำซ้ำขั้นตอนการแก้ไขสำหรับแต่ละเอฟเฟกต์
+A1: Yes, you can apply multiple gradient effects by repeating the modification steps for each effect.
 
-### Q2: มีเอฟเฟกต์อื่น ๆ ที่สามารถผสานกับไล่สีได้บ้าง?
+### Q2: มีเอฟเฟกต์อื่น ๆ ที่ฉันสามารถรวมกับ gradient overlays ได้หรือไม่?
 
-A2: Aspose.PSD มีเอฟเฟกต์หลากหลายรวมถึงเงา, แสงเรืองแสง, และอื่น ๆ สำรวจเอกสารเพื่อดูตัวเลือกเพิ่มเติม
+A2: Aspose.PSD provides a variety of effects, including shadows, glows, and more. Explore the documentation for more options.
 
-### Q3: จะ troubleshoot หากเอฟเฟกต์ไม่แสดงผลอย่างถูกต้องได้อย่างไร?
+### Q3: ฉันจะแก้ไขปัญหาเมื่อเอฟเฟกต์ไม่แสดงผลอย่างถูกต้องได้อย่างไร?
 
-A3: ตรวจสอบเอกสารและฟอรั่มชุมชนที่ [Aspose.PSD Support](https://forum.aspose.com/c/psd/34) เพื่อขอความช่วยเหลือ
+A3: Check the documentation and community forums at [Aspose.PSD Support](https://forum.aspose.com/c/psd/34) for assistance.
 
-### Q4: มีรุ่นทดลองสำหรับ Aspose.PSD สำหรับ Java หรือไม่?
+### Q4: มีเวอร์ชันทดลองสำหรับ Aspose.PSD for Java หรือไม่?
 
-A4: มี, คุณสามารถดาวน์โหลดรุ่นทดลองฟรีได้ [ที่นี่](https://releases.aspose.com/)
+A4: Yes, you can get a free trial [ที่นี่](https://releases.aspose.com/).
 
-### Q5: จะซื้อไลเซนส์สำหรับ Aspose.PSD สำหรับ Java ได้จากที่ไหน?
+### Q5: ฉันจะซื้อไลเซนส์สำหรับ Aspose.PSD for Java ได้จากที่ไหน?
 
-A5: เยี่ยมชม [หน้า purchase](https://purchase.aspose.com/buy) เพื่อข้อมูลการจัดซื้อไลเซนส์
+A5: Visit the [purchase page](https://purchase.aspose.com/buy) for licensing information.
 
-## คำถามที่พบบ่อยเพิ่มเติม
+## คำถามเพิ่มเติม
 
-**ถาม: สามารถเปลี่ยนทิศทางของไล่สีโดยโปรแกรมได้หรือไม่?**  
-ตอบ: ได้. ใช้เมธอด `GradientOverlayEffect.setAngle(float angle)` เพื่อกำหนดมุมไล่สีเป็นองศา
+**Q: ฉันสามารถเปลี่ยนทิศทางของ gradient ได้โดยโปรแกรมหรือไม่?**  
+A: Yes. Use the `GradientOverlayEffect.setAngle(float angle)` method to set the gradient angle in degrees.
 
-**ถาม: Aspose.PSD รองรับไล่สีแบบรัศมีหรือไม่?**  
-ตอบ: รองรับเต็มที่. ตั้งค่า `GradientStyle.Radial` ผ่านคุณสมบัติของ `GradientOverlayEffect`
+**Q: Aspose.PSD รองรับ radial gradients หรือไม่?**  
+A: Absolutely. Set the gradient style to `GradientStyle.Radial` via the `GradientOverlayEffect` properties.
 
-**ถาม: ไล่สีจะคงอยู่เมื่อแปลง PSD ไปเป็นฟอร์แมตอื่น (เช่น PNG) หรือไม่?**  
-ตอบ: เมื่อคุณเรสเตอร์ไล่สี (เช่น บันทึกเป็น PNG) ผลลัพธ์ภาพที่เห็นจะคงอยู่ แต่เอฟเฟกต์เองจะกลายเป็นข้อมูลพิกเซล
+**Q: Gradient overlays จะคงอยู่เมื่อแปลง PSD ไปเป็นรูปแบบอื่น (เช่น PNG) หรือไม่?**  
+A: When you rasterize the PSD (e.g., save as PNG), the visual result of the gradient overlay is retained, but the effect itself becomes part of the pixel data.
 
-**ถาม: จะลบไล่สีออกจากเลเยอร์ได้อย่างไร?**  
-ตอบ: ดึง `BlendingOptions` ของเลเยอร์, ค้นหา `GradientOverlayEffect` ในคอลเลกชัน `Effects`, แล้วใช้ `remove(effect)` เพื่อลบออก
+**Q: ฉันจะลบ gradient overlay จากเลเยอร์ได้อย่างไร?**  
+A: Retrieve the layer’s `BlendingOptions`, locate the `GradientOverlayEffect` in the `Effects` collection, and remove it using `remove(effect)`.
 
-**ถาม: สามารถทำให้ไล่สีเคลื่อนไหวได้หรือไม่?**  
-ตอบ: แม้ Aspose.PSD จะไม่รองรับการทำแอนิเมชันโดยตรง คุณสามารถสร้างชุดไฟล์ PSD ที่มีพารามิเตอร์ไล่สีแตกต่างกันแล้วนำมาประกอบเป็นวิดีโอหรือ GIF ด้วยไลบรารีอื่น
+**Q: สามารถทำให้ gradient เปลี่ยนแปลงแบบอนิเมชันได้หรือไม่?**  
+A: While Aspose.PSD does not directly handle animation, you can generate a sequence of PSD files with varying gradient parameters and then assemble them into a video or GIF using another library.
+
+## สรุป
+
+Congratulations! You've learned **วิธีสร้างการไล่สีแบบรัศมี** effects to your images using Aspose.PSD for Java. By following the steps above, you can programmatically add, modify, and save gradient overlays, giving you full creative control over PSD assets. Experiment with different colors, blend modes, and opacity values to achieve the visual impact you need.
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-02  
-**ทดสอบกับ:** Aspose.PSD สำหรับ Java 24.12 (เวอร์ชันล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2026-04-08  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
