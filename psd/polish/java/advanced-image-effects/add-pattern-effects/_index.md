@@ -1,11 +1,17 @@
 ---
-date: 2025-11-30
-description: Dowiedz się, jak dodać efekty nakładania wzoru do plików PSD przy użyciu
+date: 2026-04-12
+description: Dowiedz się, jak dodać efekt nakładki wzoru PSD do plików PSD przy użyciu
   Aspose.PSD dla Javy. Przewodnik krok po kroku z przykładami kodu i wskazówkami rozwiązywania
   problemów.
-linktitle: Add Pattern Overlay
+keywords:
+- pattern overlay psd
+- apply texture overlay
+- change pattern overlay color
+- add pattern overlay
+- create custom psd pattern
+linktitle: Dodaj nakładkę wzoru
 second_title: Aspose.PSD Java API
-title: Dodaj efekty nakładania wzoru w Aspose.PSD dla Javy
+title: 'Nakładka wzoru PSD: Dodaj efekty przy użyciu Aspose.PSD dla Javy'
 url: /pl/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
@@ -14,37 +20,35 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodawanie efektu nakładki wzoru w Aspose.PSD dla Javy
+# Pattern Overlay PSD: Dodaj efekty przy użyciu Aspose.PSD dla Javy
 
-## Wprowadzenie
-
-Jeśli potrzebujesz **dodać nakładkę wzoru** do plików Photoshop (PSD) z poziomu aplikacji Java, Aspose.PSD dla Javy umożliwia to w prosty sposób. W tym samouczku przeprowadzimy Cię przez ładowanie pliku PSD, edycję ustawień nakładki wzoru oraz zapis wyniku — wszystko przy użyciu przejrzystego, gotowego do produkcji kodu. Po zakończeniu zrozumiesz, dlaczego nakładki wzoru są przydatne w brandingu, tworzeniu tekstur i dynamicznej generacji obrazów.
+Jeśli potrzebujesz **dodać nakładkę wzoru** do swoich plików Photoshop (PSD) z aplikacji Java, Aspose.PSD for Java ułatwia to zadanie. W tym samouczku przeprowadzimy Cię przez ładowanie pliku PSD, edycję ustawień nakładki wzoru oraz zapisanie wyniku — wszystko przy użyciu przejrzystego, gotowego do produkcji kodu. Po zakończeniu zrozumiesz, dlaczego nakładki wzoru są przydatne do brandingu, tworzenia tekstur i dynamicznego generowania obrazów.
 
 ## Szybkie odpowiedzi
-- **Co mogę osiągnąć?** Dodawać lub modyfikować efekty nakładki wzoru na dowolnej warstwie PSD.  
-- **Wymagana biblioteka?** Aspose.PSD dla Javy (najnowsza wersja).  
+- **Co mogę osiągnąć?** Dodaj lub zmodyfikuj efekty nakładki wzoru na dowolnej warstwie PSD.  
+- **Wymagana biblioteka?** Aspose.PSD for Java (najnowsza wersja).  
 - **Wymagania wstępne?** JDK 8+, plik JAR Aspose.PSD oraz przykładowy plik PSD.  
 - **Typowy czas implementacji?** Około 10–15 minut dla podstawowej nakładki.  
-- **Czy mogę ponownie używać kodu?** Tak — to samo podejście działa dla każdego PSD z zasobami wzoru.
+- **Czy mogę ponownie użyć kodu?** Tak — to samo podejście działa dla każdego PSD z zasobami wzoru.
 
-## Co to jest nakładka wzoru?
+## Czym jest Pattern Overlay PSD?
 
-Nakładka wzoru to efekt warstwy, który powiela mały bitmap (wzór) na całej wybranej warstwie. Jest powszechnie używana do tekstur, znaków firmowych lub dekoracyjnych teł. Dzięki Aspose.PSD możesz programowo zmieniać kolory wzoru, przesunięcia, tryb mieszania oraz nawet zastępować podstawowe dane wzoru.
+Pattern Overlay PSD to efekt warstwy, który powiela mały bitmap (wzór) na wybranej warstwie. Jest powszechnie używany do tekstur, znaków brandingowych lub dekoracyjnych teł. Dzięki Aspose.PSD możesz programowo zmieniać kolory wzoru, przesunięcia, tryb mieszania oraz nawet zastąpić podstawowe dane wzoru.
 
-## Dlaczego warto używać Aspose.PSD dla Javy do dodawania nakładki wzoru?
+## Dlaczego używać Aspose.PSD dla Javy do dodawania nakładki wzoru?
 
 - **Pełna wierność PSD:** Zachowuje wszystkie funkcje Photoshopa bez utraty informacji o warstwach.  
-- **Brak wymogu natywnego Photoshopa:** Działa na dowolnym serwerze lub w środowisku CI.  
+- **Nie wymaga natywnego Photoshopa:** Działa na dowolnym serwerze lub w środowisku CI.  
 - **Bogate API:** Bezpośredni dostęp do trybów mieszania, krycia i zasobów wzoru.  
-- **Wieloplatformowość:** Działa na Windows, Linux i macOS przy użyciu tego samego kodu.
+- **Wieloplatformowy:** Działa na Windows, Linux i macOS przy użyciu tego samego kodu.
 
 ## Wymagania wstępne
 
 Zanim rozpoczniesz, upewnij się, że masz:
 
-- Zainstalowany Java Development Kit (JDK).  
-- Bibliotekę Aspose.PSD dla Javy dodaną do ścieżki klas projektu. Możesz ją pobrać ze [strony Aspose.PSD](https://releases.aspose.com/psd/java/).  
-- Przykładowy plik PSD (np. `PatternOverlay.psd`) zawierający już efekt nakładki wzoru na jednej z warstw.
+- Zainstalowany Java Development Kit (JDK) na swoim komputerze.  
+- Bibliotekę Aspose.PSD for Java dodaną do classpath projektu. Możesz ją pobrać ze [strony Aspose.PSD](https://releases.aspose.com/psd/java/).  
+- Przykładowy plik PSD (np. `PatternOverlay.psd`), który już zawiera efekt nakładki wzoru na jednej z warstw.
 
 ## Importowanie pakietów
 
@@ -71,7 +75,7 @@ import java.util.UUID;
 
 ### Krok 1: Załaduj obraz PSD
 
-Najpierw wczytaj źródłowy plik PSD, włączając ładowanie zasobów efektów:
+Najpierw załaduj źródłowy plik PSD, włączając ładowanie zasobów efektów:
 
 ```java
 // Load the PSD image
@@ -88,7 +92,7 @@ PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 
 ### Krok 2: Wyodrębnij istniejące informacje o nakładce wzoru
 
-Pobierz `PatternOverlayEffect` z docelowej warstwy (zakładamy, że jest to druga warstwa, indeks 1):
+Pobierz `PatternOverlayEffect` z docelowej warstwy (tutaj zakładamy, że jest to druga warstwa, indeks 1):
 
 ```java
 // Extract information about the pattern overlay
@@ -99,7 +103,7 @@ Jeśli Twój PSD używa innej kolejności warstw, dostosuj indeks odpowiednio.
 
 ### Krok 3: Zmodyfikuj ustawienia nakładki wzoru
 
-Teraz możesz zmienić kolor, krycie, tryb mieszania oraz przesunięcia. Zmiany te bezpośrednio wpływają na renderowanie wzoru na warstwie:
+Teraz możesz zmienić kolor, krycie, tryb mieszania i przesunięcia. Te zmiany bezpośrednio wpływają na sposób renderowania wzoru na warstwie:
 
 ```java
 // Modify pattern overlay settings
@@ -111,7 +115,7 @@ settings.setHorizontalOffset(15);
 settings.setVerticalOffset(11);
 ```
 
-> **Dlaczego to ważne:** Zmiana trybu mieszania na `Difference` tworzy wyrazisty kontrast wizualny, przydatny do podkreślania detali tekstury.
+> **Dlaczego to ważne:** Zmiana trybu mieszania na `Difference` tworzy wyraźny kontrast wizualny, przydatny do podkreślania szczegółów tekstury.
 
 ### Krok 4: Edytuj podstawowe dane wzoru
 
@@ -136,9 +140,9 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-> **Typowy błąd:** Zapomnienie o aktualizacji `PatternId` spowoduje pozostawienie starego wzoru, co skutkuje ignorowaniem wprowadzonych zmian.
+> **Częsty błąd:** Zapomnienie o aktualizacji `PatternId` spowoduje pozostawienie starego wzoru, co spowoduje zignorowanie zmiany wizualnej.
 
-### Krok 5: Zapisz zmodyfikowany obraz
+### Krok 5: Zapisz edytowany obraz
 
 Zachowaj zmiany w nowym pliku. Przed zapisem aktualizujemy także nazwę i identyfikator wzoru w ustawieniach:
 
@@ -161,43 +165,55 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 // Add assertions to ensure the changes have been applied successfully
 ```
 
-Tutaj możesz dodać asercje w stylu testów jednostkowych (np. sprawdzające, czy `patternOverlayEffect.getOpacity()` równa się `193`), aby zautomatyzować weryfikację.
+Możesz dodać tutaj asercje w stylu testów jednostkowych (np. sprawdzając, czy `patternOverlayEffect.getOpacity()` równa się `193`), aby zautomatyzować weryfikację.
 
-## Typowe problemy i rozwiązania
+## Jak zastosować nakładkę tekstury przy użyciu Aspose.PSD
 
-| Problem | Przyczyna | Rozwiązanie |
+Jeśli Twoim celem jest **zastosowanie nakładki tekstury** zamiast prostego wzoru, możesz użyć tego samego obiektu `PatternFillSettings`, ale dostarczyć większy bitmap, który reprezentuje teksturę. Dostosuj `horizontalOffset` i `verticalOffset`, aby powielać teksturę w razie potrzeby.
+
+## Jak zmienić kolor nakładki wzoru
+
+Zmiana koloru nakładki jest tak prosta, jak wywołanie `settings.setColor(...)`. Przykład w **Kroku 3** pokazuje przełączenie koloru na zielony. Możesz eksperymentować z dowolną stałą `Color` lub stworzyć własną wartość ARGB.
+
+## Jak stworzyć własny wzór PSD
+
+Pętla w **Kroku 4** pokazuje, jak programowo stworzyć własny wzór. Poprzez wypełnienie tablicy `int[]` własnymi wartościami ARGB i określenie rozmiaru prostokąta, możesz wygenerować dowolny powtarzalny wzór — idealny do budowania specyficznych dla marki tekstur w locie.
+
+## Częste problemy i rozwiązania
+
+| Issue | Reason | Fix |
 |-------|--------|-----|
-| **Wzór się nie zmienia** | `PatternId` nie zaktualizowano lub wybrano niewłaściwy indeks warstwy | Upewnij się, że modyfikujesz właściwy `PattResource` i wywołujesz `settings.setPatternId(...)`. |
-| **Kolory są odwrócone** | Nieumyślne ustawienie trybu mieszania na `Difference` | Wybierz tryb mieszania pasujący do zamierzeń projektowych (np. `Normal`, `Overlay`). |
-| **Eksportowany PSD traci warstwy** | Używana przestarzała wersja Aspose.PSD | Zaktualizuj do najnowszej wersji Aspose.PSD dla Javy. |
-| **`NullPointerException` przy `getEffects()[0]`** | Warstwa nie ma zastosowanych efektów | Zweryfikuj, czy warstwa rzeczywiście zawiera `PatternOverlayEffect` przed rzutowaniem. |
+| **Wzór się nie zmienia** | `PatternId` nie zaktualizowano lub nieprawidłowy indeks warstwy | Upewnij się, że modyfikujesz właściwy `PattResource` i wywołujesz `settings.setPatternId(...)`. |
+| **Kolory wydają się odwrócone** | Tryb mieszania ustawiony na `Difference` nieumyślnie | Wybierz tryb mieszania, który odpowiada zamierzeniom projektu (np. `Normal`, `Overlay`). |
+| **Eksportowany PSD traci warstwy** | Używanie przestarzałej wersji Aspose.PSD | Uaktualnij do najnowszej wersji Aspose.PSD for Java. |
+| **`NullPointerException` przy `getEffects()[0]`** | Warstwa nie ma zastosowanych efektów | Sprawdź, czy warstwa rzeczywiście zawiera `PatternOverlayEffect` przed rzutowaniem. |
 
 ## Najczęściej zadawane pytania
 
-**P: Czy mogę używać Aspose.PSD dla Javy razem z innymi bibliotekami przetwarzania obrazu w Javie?**  
-O: Aspose.PSD dla Javy działa niezależnie, ale możesz go łączyć z bibliotekami takimi jak ImageIO czy TwelveMonkeys w celu obsługi dodatkowych formatów.
+**Q: Czy mogę używać Aspose.PSD for Java z innymi bibliotekami przetwarzania obrazów w Javie?**  
+A: Aspose.PSD for Java działa niezależnie, ale możesz go łączyć z bibliotekami takimi jak ImageIO lub TwelveMonkeys, aby uzyskać dodatkowe wsparcie formatów.
 
-**P: Gdzie znajdę szczegółową dokumentację Aspose.PSD dla Javy?**  
-O: Odwiedź [dokumentację Aspose.PSD dla Javy](https://reference.aspose.com/psd/java/) po pełną referencję API.
+**Q: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD for Java?**  
+A: Odwołaj się do [dokumentacji Aspose.PSD for Java](https://reference.aspose.com/psd/java/), aby uzyskać pełną referencję API.
 
-**P: Czy dostępna jest darmowa wersja próbna Aspose.PSD dla Javy?**  
-O: Tak, darmową wersję próbną możesz pobrać ze [strony pobierania Aspose.PSD](https://releases.aspose.com/).
+**Q: Czy dostępna jest darmowa wersja próbna Aspose.PSD for Java?**  
+A: Tak, możesz pobrać darmową wersję próbną ze [strony pobierania Aspose.PSD](https://releases.aspose.com/).
 
-**P: Jak uzyskać wsparcie techniczne dla Aspose.PSD dla Javy?**  
-O: Wejdź na [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) po pomoc społeczności lub wykup plan wsparcia dla bezpośredniej pomocy.
+**Q: Jak mogę uzyskać wsparcie dla Aspose.PSD for Java?**  
+A: Odwiedź [forum Aspose.PSD](https://forum.aspose.com/c/psd/34), aby uzyskać pomoc społeczności lub zakup plan wsparcia, aby otrzymać bezpośrednią pomoc.
 
-**P: Czy mogę otrzymać tymczasową licencję na Aspose.PSD dla Javy?**  
-O: Tak, tymczasowa licencja jest dostępna na [stronie licencji tymczasowej Aspose](https://purchase.aspose.com/temporary-license/).
+**Q: Czy mogę uzyskać tymczasową licencję na Aspose.PSD for Java?**  
+A: Tak, tymczasowa licencja jest dostępna na [stronie tymczasowych licencji Aspose](https://purchase.aspose.com/temporary-license/).
 
 ## Zakończenie
 
-Nauczyłeś się teraz, jak **dodać efekty nakładki wzoru** do plików PSD przy użyciu Aspose.PSD dla Javy. Manipulując trybami mieszania, kryciem, przesunięciami oraz podstawowym bitmapem wzoru, możesz tworzyć dynamiczne tekstury i elementy brandingowe bezpośrednio z kodu Java. Zachęcamy do eksperymentowania z różnymi kolorami, wzorami i trybami mieszania, aby dopasować je do stylu wizualnego Twojego projektu.
+Teraz wiesz, jak **dodać efekty nakładki wzoru** do plików PSD przy użyciu Aspose.PSD for Java. Manipulując trybami mieszania, kryciem, przesunięciami i podstawowym bitmapem wzoru, możesz tworzyć dynamiczne tekstury i elementy brandingowe bezpośrednio z kodu Java. Śmiało eksperymentuj z różnymi kolorami, wzorami i trybami mieszania, aby dopasować je do stylu wizualnego Twojego projektu.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-11-30  
-**Testowane z:** Aspose.PSD dla Javy 24.12 (najnowsza w momencie pisania)  
-**Autor:** Aspose  
+**Last Updated:** 2026-04-12  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
