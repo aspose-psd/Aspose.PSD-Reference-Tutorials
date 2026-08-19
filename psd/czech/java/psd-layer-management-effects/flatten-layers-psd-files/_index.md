@@ -1,37 +1,59 @@
 ---
-title: Sloučit vrstvy v souborech PSD pomocí Aspose.PSD Java
-linktitle: Sloučit vrstvy v souborech PSD pomocí Aspose.PSD Java
+date: 2026-04-03
+description: Naučte se, jak snížit velikost souboru PSD zploštěním vrstev pomocí Aspose.PSD
+  pro Javu. Tento krok‑za‑krokem průvodce ukazuje, jak rychle zploštit soubory PSD.
+keywords:
+- reduce psd file size
+- how to flatten psd
+- flatten visible layers psd
+linktitle: Zmenšete velikost souboru PSD sloučením vrstev – Aspose.PSD Java
 second_title: Aspose.PSD Java API
-description: Sloučit a sloučit vrstvy v souborech PSD bez námahy pomocí Aspose.PSD pro Java. Postupujte podle tohoto podrobného průvodce pro zjednodušení správy souborů PSD.
-weight: 13
+title: Zmenšete velikost souboru PSD zploštěním vrstev – Aspose.PSD Java
 url: /cs/java/psd-layer-management-effects/flatten-layers-psd-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sloučit vrstvy v souborech PSD pomocí Aspose.PSD Java
+# Zmenšení velikosti souboru PSD zploštěním vrstev – Aspose.PSD Java
 
-## Zavedení
+## Úvod
 
-Už jste někdy zjistili, že pracujete se soubory Photoshopu a přáli jste si jednodušší způsob, jak spravovat tyto složité vrstvy? Tak to máš štěstí! Dnes se ponoříme do světa Aspose.PSD for Java, mocného nástroje, díky kterému je práce se soubory PSD programově hračkou. Jednou z užitečných funkcí, kterou prozkoumáme, je zploštění vrstev. Ať už chcete sloučit celý obrázek nebo selektivně sloučit konkrétní vrstvy, Aspose.PSD pro Java vás pokryje. Tento tutoriál vás provede procesem krok za krokem a zajistí, že budete připraveni se svými soubory PSD s jistotou pracovat.
+Pokud jste někdy otevřeli dokument Photoshopu a přemýšleli, jak **reduce PSD file size**, zploštění vrstev je jeden z nejúčinnějších triků. S Aspose.PSD pro Java můžete programově zploštit celý PSD nebo sloučit jen vrstvy, které si vyberete, což vám poskytuje jemnou kontrolu nad velikostí souboru bez ztráty vizuální kvality. V tomto tutoriálu projdeme oba přístupy – zploštění celého obrázku a sloučení konkrétních vrstev – abyste mohli rychle zmenšit své PSD soubory a udržet plynulý pracovní postup.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co dělá flattening?** Spojuje viditelné vrstvy do jedné vrstvy pozadí, odstraňuje informace o vrstvách a často snižuje velikost souboru.  
+- **Mohu zploštit jen vybrané vrstvy?** Ano, můžete sloučit konkrétní vrstvy a ostatní nechat nedotčené.  
+- **Potřebuji licenci?** Ano, pro vývoj stačí bezplatná zkušební verze; pro produkci je vyžadována komerční licence.  
+- **Jaká verze Javy je požadována?** JDK 8 nebo vyšší.  
+- **Ovlivní flattening kvalitu obrazu?** Ne, vizuální vzhled zůstává stejný; mění se pouze struktura vrstev.
 
-Než se pustíme do kódu, ujistěte se, že máte vše, co potřebujete:
+## Co je „reduce PSD file size“?
 
-1. Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovaný JDK 8 nebo vyšší.
-2.  Aspose.PSD for Java: Stáhněte si a přidejte knihovnu Aspose.PSD do svého projektu. Můžete to najít[zde](https://releases.aspose.com/psd/java/).
-3. Integrované vývojové prostředí (IDE): IDE jako IntelliJ IDEA nebo Eclipse vám usnadní práci s kódováním.
-4. Základní znalost Javy: I když je tento tutoriál vhodný pro začátečníky, některé základní znalosti Javy vám pomohou snáze pokračovat.
-5. Ukázkový soubor PSD: Připravte si soubor PSD, se kterým můžete experimentovat. K demonstraci procesu zploštění použijeme jeden s více vrstvami.
+Zmenšení velikosti souboru PSD znamená odstranění zbytečných dat – jako jsou nadbytečné vrstvy, skryté kanály nebo nadměrná metadata – aby se soubor stal lehčím a rychleji se načítal, sdílel nebo zpracovával. Zploštění vrstev je běžná technika, protože odstraňuje samostatné objekty vrstev a zachovává finální kompozitní obrázek.
 
-Nyní, když jsme dostali to podstatné z cesty, pojďme k zábavnější části – práci s kódem!
+## Proč zploštit vrstvy pomocí Aspose.PSD pro Java?
 
-## Importujte balíčky
+- **Automatizace:** Není nutné ručně otevírat Photoshop; integrujte přímo do svých Java aplikací.  
+- **Přesnost:** Zvolte, zda zploštit celý dokument nebo jen viditelné vrstvy (`flattenImage`) nebo sloučit vybrané vrstvy (`mergeLayers`).  
+- **Výkon:** Menší soubory se načítají rychleji a spotřebovávají méně paměti v následných procesech.  
+- **Cross‑platform:** Funguje na jakémkoli OS, který podporuje Javu.
 
-Chcete-li začít, budete muset importovat potřebné balíčky do svého projektu Java. Tyto balíčky vám umožní pracovat se soubory PSD pomocí Aspose.PSD for Java.
+## Požadavky
+
+1. **Java Development Kit (JDK):** Nainstalovaný JDK 8 nebo novější.  
+2. **Aspose.PSD pro Java:** Stáhněte knihovnu z [here](https://releases.aspose.com/psd/java/).  
+3. **IDE:** IntelliJ IDEA, Eclipse nebo jakékoli Java‑kompatibilní IDE.  
+4. **Základní znalost Javy:** Užitečná, ale není povinná pro sledování kroků.  
+5. **Ukázkový PSD:** Soubor s více vrstvami (použijeme `ThreeRegularLayersSemiTransparent.psd`).
+
+Nyní, když máme vše připravené, ponořme se do kódu.
+
+## Import balíčků
+
+Nejprve importujte základní třídy Aspose.PSD:
 
 ```java
 import com.aspose.psd.Image;
@@ -39,15 +61,13 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-Tyto importy nám umožní načíst soubory PSD, manipulovat s vrstvami a uložit změny. Nyní si rozdělme proces sloučení vrstev do zvládnutelných kroků.
+Tyto importy nám umožňují načíst PSD soubory, pracovat s jejich vrstvami a uložit výsledky.
 
-## Krok 1: Zploštění celého obrázku PSD
+## Krok 1: Zploštění celého PSD obrázku
 
-Prvním úkolem je zploštit celý PSD obraz. To je užitečné, když chcete zkombinovat všechny vrstvy do jedné vrstvy, což usnadňuje správu a export obrazu.
+Zploštění celého obrázku je nejrychlejší způsob, jak **reduce PSD file size**, protože odstraňuje všechna jednotlivá data vrstev.
 
-### 1.1 Načtěte soubor PSD
-
- Nejprve načteme soubor PSD do našeho programu. Tento soubor by měl být umístěn ve vašem projektovém adresáři, který budeme nazývat`Your Document Directory`.
+### 1.1 Načtení PSD souboru
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,46 +75,32 @@ String sourceFileName = dataDir + "ThreeRegularLayersSemiTransparent.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-Tento fragment kódu načte soubor PSD s názvem`ThreeRegularLayersSemiTransparent.psd` z vašeho zadaného adresáře.
-
-### 1.2 Vyrovnat obrázek
-
-Dále celý obrázek srovnáme. Sloučení spojí všechny viditelné vrstvy do jediné vrstvy pozadí.
+### 1.2 Zploštění obrázku
 
 ```java
 im.flattenImage();
 ```
 
-S touto jednou vložkou jsou všechny vrstvy v souboru PSD sloučeny do jedné.
-
-### 1.3 Uložte sloučený obrázek
-
-Nakonec sloučený obrázek uložíme do nového souboru.
+### 1.3 Uložení zploštěného obrázku
 
 ```java
 String exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattened.psd";
 im.save(exportPath);
 ```
 
- Tím se sloučený soubor PSD uloží pod novým názvem`ThreeRegularLayersSemiTransparentFlattened.psd`. Gratuluji! Právě jste srovnali svůj první PSD obrázek pomocí Aspose.PSD pro Javu.
+Váš nový soubor nyní obsahuje jedinou vrstvu pozadí, což obvykle vede k menší velikosti PSD.
 
-## Krok 2: Sloučení konkrétních vrstev
+## Krok 2: Sloučení konkrétních vrstev (Jak selektivně zploštit PSD)
 
-Někdy možná nebudete chtít sloučit celý obrázek, ale sloučit pouze určité vrstvy. Pojďme se podívat, jak toho můžete dosáhnout.
+Někdy chcete **flatten visible layers** nebo sloučit podmnožinu vrstev a přitom nechat ostatní editovatelné.
 
-### 2.1 Znovu načtěte soubor PSD
-
-Protože provádíme jinou operaci, začněte znovu načtením souboru PSD.
+### 2.1 Znovu načíst PSD soubor
 
 ```java
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 ```
 
-Tím se načte stejný soubor PSD, připravený pro operace specifické pro vrstvu.
-
-### 2.2 Identifikujte a vyberte vrstvy
-
-Chcete-li sloučit konkrétní vrstvy, nejprve identifikujte a vyberte vrstvy, které chcete sloučit.
+### 2.2 Identifikace a výběr vrstev
 
 ```java
 Layer bottomLayer = img.getLayers()[0];
@@ -102,63 +108,60 @@ Layer middleLayer = img.getLayers()[1];
 Layer topLayer = img.getLayers()[2];
 ```
 
-Zde vybíráme první, druhou a třetí vrstvu souboru PSD. Tyto vrstvy jsou uloženy v poli a můžete k nim přistupovat pomocí jejich indexu.
-
-### 2.3 Sloučit vrstvy
-
-Nyní sloučíme vybrané vrstvy. Začneme sloučením spodní a střední vrstvy, poté spojíme výsledek s horní vrstvou.
+### 2.3 Sloučení vrstev
 
 ```java
 Layer layer1 = img.mergeLayers(bottomLayer, middleLayer);
 Layer layer2 = img.mergeLayers(layer1, topLayer);
 ```
 
-Tento kód postupně slučuje vrstvy, což vede k jedné kombinované vrstvě.
-
-### 2.4 Nahraďte existující vrstvy sloučenou vrstvou
-
-Po sloučení je třeba nahradit stávající vrstvy v obrázku nově sloučenou vrstvou.
+### 2.4 Nahrazení existujících vrstev sloučenou vrstvou
 
 ```java
 img.setLayers(new Layer[]{layer2});
 ```
 
-Tento krok zajistí, že obrázek nyní bude obsahovat pouze sloučenou vrstvu.
-
-### 2.5 Uložte aktualizovaný soubor PSD
-
-Nakonec uložte aktualizovaný soubor PSD se sloučenými vrstvami.
+### 2.5 Uložení aktualizovaného PSD souboru
 
 ```java
 exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattenedLayerByLayer.psd";
 img.save(exportPath);
 ```
 
-Tím se uloží PSD se sloučenými vrstvami pod novým názvem, což vám umožní zachovat původní soubor nedotčený.
+Nyní PSD obsahuje pouze sloučenou vrstvu, čímž dosáhne zmenšené velikosti souboru při zachování vrstev, které jste chtěli ponechat.
 
-## Závěr
+## Časté problémy a tipy
 
-Práce s vrstvami v souborech PSD může často vypadat jako navigace v labyrintu, ale s Aspose.PSD pro Javu je to jako mít mapu v rukou. Ať už potřebujete sloučit celý obrázek nebo pečlivě sloučit vybrané vrstvy, Aspose.PSD zjednodušuje proces a mění to, co může být skličující úkol, na přímou operaci. Podle tohoto návodu byste nyní měli být pohodlní při manipulaci s vrstvami v souborech PSD pomocí Javy. Proč to tedy nezkusit se svými vlastními projekty a neuvidíte, kolik času a úsilí ušetříte?
+- **Záloha před zploštěním:** Jakmile jsou vrstvy zploštěny, operaci nelze vrátit zpět. Uchovejte si kopii původního PSD.  
+- **Viditelnost má význam:** `flattenImage()` sloučí pouze *viditelné* vrstvy. Skryjte vrstvy, které nechcete zahrnout.  
+- **Spotřeba paměti:** Velké PSD mohou spotřebovat značnou RAM; zvažte zpracování na stroji s dostatečnou pamětí.  
+- **Režimy prolnutí:** Sloučení respektuje režim prolnutí každé vrstvy, takže vizuální výsledek odpovídá tomu, co byste viděli ve Photoshopu.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu vrátit zpět zploštění vrstev v Aspose.PSD?  
-Ne, jakmile sloučíte vrstvy pomocí Aspose.PSD, akce je nevratná. Vždy je dobré ponechat si zálohu původního souboru.
+**Q: Mohu vrátit zploštění vrstev v Aspose.PSD?**  
+A: Ne, zploštění je nevratné. Vždy si uchovávejte zálohu původního souboru.
 
-### Je možné srovnat pouze viditelné vrstvy?  
- Ano, můžete ovládat, které vrstvy se mají sloučit na základě jejich viditelnosti. Před použitím se ujistěte, že jsou viditelné pouze vrstvy, které chcete narovnat`flattenImage` metoda.
+**Q: Je možné zploštit pouze viditelné vrstvy?**  
+A: Ano. `flattenImage()` respektuje viditelnost vrstev, takže před voláním metody skryjte vrstvy, které nechcete zploštit.
 
-### Snižuje sloučení vrstev velikost souboru?  
-Sloučení vrstev může zmenšit velikost souboru, zejména pokud existuje mnoho složitých vrstev. Přesná redukce však závisí na obsahu vrstev.
+**Q: Snižuje zploštění vrstev velikost souboru?**  
+A: Obecně ano. Odstranění dat vrstev a metadat často vede k menšímu PSD, i když přesná úspora závisí na obsahu.
 
-### Mohu sloučit vrstvy s různými režimy prolnutí?  
-Ano, pomocí Aspose.PSD můžete sloučit vrstvy s různými režimy prolnutí a výsledná vrstva si zachová vzhled sloučených vrstev.
+**Q: Mohu sloučit vrstvy s různými režimy prolnutí?**  
+A: Ano. Aspose.PSD sloučí vrstvy a zachová vizuální vzhled vytvořený jejich režimy prolnutí.
 
-### Co se stane, když se pokusím sloučit vrstvy, které spolu nesousedí?  
-Aspose.PSD umožňuje sloučit libovolné vrstvy bez ohledu na jejich pořadí v zásobníku vrstev. Proces slučování zkombinuje vybrané vrstvy podle specifikace.
+**Q: Co se stane, když se pokusím sloučit nesousedící vrstvy?**  
+A: Aspose.PSD umožňuje sloučit libovolné vrstvy bez ohledu na jejich pořadí v zásobníku; výsledek odráží kombinovaný vzhled.
+
+---
+
+**Poslední aktualizace:** 2026-04-03  
+**Testováno s:** Aspose.PSD 24.11 for Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

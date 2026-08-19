@@ -1,37 +1,55 @@
 ---
-title: Zastosuj efekt obrysu z wypełnieniem kolorem w PSD - Java
-linktitle: Zastosuj efekt obrysu z wypełnieniem kolorem w PSD - Java
-second_title: Aspose.PSD API Java
-description: Dowiedz się, jak zastosować efekt obrysu z wypełnieniem kolorem do plików PSD za pomocą Aspose.PSD dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby z łatwością ulepszać swoje obrazy.
-weight: 21
+date: 2026-04-03
+description: Dowiedz się, jak zapisać plik PSD jako PNG z efektem obrysu i wypełnieniem
+  kolorem przy użyciu Aspose.PSD dla Javy. Ten przewodnik krok po kroku pokazuje,
+  jak szybko wyeksportować PSD do PNG.
+keywords:
+- save psd as png
+- export psd to png
+- set stroke color
+- apply layer effects
+- customize stroke width
+linktitle: Zapisz PSD jako PNG z efektem obrysu – Java
+second_title: Aspose.PSD Java API
+title: Zapisz PSD jako PNG z efektem obrysu – Java
 url: /pl/java/psd-layer-management-effects/apply-stroke-effect-color-fill-psd/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastosuj efekt obrysu z wypełnieniem kolorem w PSD - Java
+# Zapisz PSD jako PNG z efektem obramowania i wypełnieniem kolorem – Java
 
-## Wstęp
+## Wprowadzenie
 
-tym przewodniku przeprowadzimy Cię przez proces stosowania efektu obrysu z wypełnieniem kolorem do plików PSD przy użyciu Aspose.PSD dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek krok po kroku ułatwi Ci wykonanie pracy. Omówimy wszystko, od skonfigurowania środowiska po zapisanie końcowego obrazu z zastosowanymi efektami.
+W tym przewodniku dowiesz się, jak **zapisz PSD jako PNG** stosując efekt obramowania z wypełnieniem kolorem przy użyciu Aspose.PSD for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten krok po kroku tutorial ułatwi Ci wykonanie zadania. Omówimy wszystko, od konfiguracji środowiska po eksport końcowego obrazu, abyś mógł szybko **wyeksportować PSD do PNG** w swoich projektach.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co osiąga ten tutorial?** Pokazuje, jak zapisać plik PSD jako PNG po zastosowaniu konfigurowalnego efektu obramowania.  
+- **Jakiej biblioteki użyto?** Aspose.PSD for Java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja jest wymagana w produkcji.  
+- **Czy mogę zmienić kolor obramowania?** Tak – możesz ustawić dowolny kolor za pomocą `ColorFillSettings`.  
+- **Czy przetwarzanie wsadowe jest możliwe?** Oczywiście – otocz kod pętlą, aby przetworzyć wiele plików PSD.
 
-Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz, wraz z tym samouczkiem:
+## Co to jest „zapisz PSD jako PNG”?
+Zapisanie PSD jako PNG oznacza konwersję natywnego, warstwowego pliku Photoshopa do płaskiego, przyjaznego dla sieci formatu obrazu, zachowując jednocześnie wierność wizualną. Jest to przydatne, gdy trzeba wyświetlić zawartość PSD na stronach internetowych, aplikacjach mobilnych lub dowolnej platformie, która nie obsługuje bezpośrednio plików PSD.
 
-1. Zainstalowany zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowany pakiet JDK 8 lub nowszy.
-2.  Biblioteka Aspose.PSD dla Java: Będziesz potrzebować biblioteki Aspose.PSD dla Java. Można go pobrać z[strona internetowa](https://releases.aspose.com/psd/java/).
-3. Zintegrowane środowisko programistyczne (IDE): IDE, takie jak IntelliJ IDEA, Eclipse lub dowolne inne według własnego wyboru.
-4. Przykładowy plik PSD: Przykładowy plik PSD, do którego można zastosować efekt obrysu. Jeśli go nie masz, możesz utworzyć prosty plik PSD w Photoshopie lub pobrać go z Internetu.
-5. Podstawowa znajomość języka Java: Chociaż ten samouczek jest przyjazny dla początkujących, przydatna będzie podstawowa znajomość języka Java.
+## Dlaczego zastosować efekt obramowania z wypełnieniem kolorem?
+Obramowanie dodaje wyraźną ramkę wokół zawartości warstwy, sprawiając, że grafika wyróżnia się na tle złożonych tła. Połączenie go z niestandardowym kolorem wypełnienia pozwala oznakować obrazy, podkreślić elementy interfejsu lub stworzyć przyciągające uwagę miniatury bez opuszczania Photoshopa.
 
-Po spełnieniu tych wymagań wstępnych można przystąpić do stosowania efektu obrysu z wypełnieniem kolorem w plikach PSD.
+## Wymagania wstępne
 
-## Importuj pakiety
+1. **Java Development Kit (JDK) 8+** – upewnij się, że `java` znajduje się w PATH.  
+2. **Aspose.PSD for Java** – pobierz ze [strony internetowej](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor, który preferujesz.  
+4. **Sample PSD** – plik, który już zawiera efekt obramowania (lub dodaj go w Photoshopie).  
+5. **Basic Java knowledge** – będziesz pisać kilka linii kodu, ale nic zaawansowanego.
 
-Aby rozpocząć pracę z Aspose.PSD dla Java, musisz zaimportować niezbędne pakiety do swojego projektu Java. Oto jak możesz to zrobić:
+Gdy będziesz gotowy, możemy rozpocząć kodowanie.
+
+## Importowanie pakietów
 
 ```java
 import com.aspose.psd.Color;
@@ -45,25 +63,21 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-Importy te obejmują wszystkie niezbędne klasy potrzebne do pracy z plikami PSD, stosowania efektów i zapisywania obrazów w żądanym formacie.
+Te importy wprowadzają wszystkie klasy potrzebne do załadowania PSD, modyfikacji jego obramowania oraz zapisania zarówno PSD, jak i PNG.
 
-## Krok 1: Załaduj plik PSD
+## Jak zapisać PSD jako PNG z efektem obramowania
 
- Pierwszym krokiem naszego procesu jest załadowanie pliku PSD, który chcesz zmodyfikować. Aspose.PSD dla Java sprawia, że jest to niezwykle proste dzięki swoim`PsdImage` klasa. Oto jak możesz to zrobić:
+### Krok 1: Załaduj plik PSD
 
-### 1.1 Ustaw ścieżkę katalogu
-
-Najpierw zdefiniuj ścieżkę katalogu, w którym przechowywane są pliki PSD:
+Najpierw wskaż folder, w którym znajduje się źródłowy plik PSD.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się plik PSD.
+Zastąp `"Your Document Directory"` rzeczywistą ścieżką na swoim komputerze.
 
-### 1.2 Załaduj obraz PSD
-
- Teraz załaduj plik PSD za pomocą`PsdLoadOptions` I`PsdImage` zajęcia:
+Teraz załaduj plik, zachowując istniejące zasoby efektów:
 
 ```java
 String sourceFileName = dataDir + "StrokeComplex.psd";
@@ -74,47 +88,33 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
- Tutaj,`PsdLoadOptions`jest skonfigurowany tak, aby ładować zasoby efektów, zapewniając dostępność wszelkich istniejących efektów w PSD.
+### Krok 2: Ustaw kolor obramowania (i opcjonalnie dostosuj szerokość)
 
-## Krok 2: Zastosuj efekt obrysu za pomocą wypełnienia kolorem
-
-Następnym krokiem po załadowaniu pliku PSD jest zastosowanie efektu obrysu na warstwach obrazu. To tutaj dzieje się prawdziwa magia.
-
-Każdy plik PSD może zawierać wiele warstw i do każdej z nich konieczne będzie zastosowanie efektu. Oto jak to zrobić:
+Pętla poniżej przechodzi przez każdą warstwę, pobiera pierwszy `StrokeEffect` i zmienia jego kolor wypełnienia. Możesz również dostosować `setWidth` lub `setPosition` w obiekcie `StrokeEffect`, jeśli potrzebujesz **dostosować szerokość obramowania**.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     StrokeEffect effect = (StrokeEffect) im.getLayers()[i].getBlendingOptions().getEffects()[0];
     ColorFillSettings settings = (ColorFillSettings) effect.getFillSettings();
+    // Set the stroke color – change to any Color you like
     settings.setColor(Color.getDeepPink());
 }
 ```
 
-W tej pętli:
+> **Pro tip:** `Color.getDeepPink()` to tylko przykład. Użyj `new Color(r, g, b)` dla własnych wartości RGB.
 
-- `im.getLayers()`: pobiera wszystkie warstwy z pliku PSD.
-- `StrokeEffect effect`: wyodrębnia efekt obrysu zastosowany do warstwy.
-- `ColorFillSettings settings`: modyfikuje ustawienia wypełnienia efektu obrysu.
-- `settings.setColor(Color.getDeepPink())`: Ustawia kolor obrysu na głęboki róż. Możesz to zmienić na dowolny preferowany kolor.
+### Krok 3: Zapisz zmodyfikowany PSD (opcjonalnie)
 
-## Krok 3: Zapisz zmodyfikowany plik PSD i eksportuj jako PNG
-
-Po zastosowaniu efektu obrysu czas zapisać zmiany i wyeksportować obraz.
-
-### 3.1 Zapisz plik PSD
-
-Aby zapisać zmodyfikowany plik PSD, użyj następującego kodu:
+Jeśli chcesz zachować wersję PSD z zaktualizowanym obramowaniem, zapisz ją w ten sposób:
 
 ```java
 String exportPath = dataDir + "StrokeComplexRendering.psd";
 im.save(exportPath, new PsdOptions());
 ```
 
-Spowoduje to zapisanie pliku z zastosowanym efektem obrysu w określonej ścieżce.
+### Krok 4: Eksportuj obraz jako PNG (główny krok „zapisz PSD jako PNG”)
 
-### 3.2 Eksportuj jako PNG
-
-Aby obraz był bardziej dostępny, możesz wyeksportować go jako plik PNG. Oto jak:
+Na koniec, przekonwertuj edytowany PSD na plik PNG gotowy do użycia w sieci:
 
 ```java
 String exportPathPng = dataDir + "StrokeComplexRendering.png";
@@ -124,32 +124,37 @@ option.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(exportPathPng, option);
 ```
 
-Ten fragment kodu zapisuje obraz jako plik PNG z prawdziwymi kolorami i przezroczystością alfa, dzięki czemu jest gotowy do użycia w aplikacjach internetowych i innych platformach.
+PNG zachowuje głęboko różowy obramowanie ustawione wcześniej, a opcja `TruecolorWithAlpha` zapewnia zachowanie przezroczystości.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Stosowanie efektu obrysu z wypełnieniem kolorem do plików PSD za pomocą Aspose.PSD dla Java jest nie tylko proste, ale także niezwykle wydajne. Za pomocą zaledwie kilku linii kodu możesz zautomatyzować złożone zadania przetwarzania obrazu, oszczędzając czas i wysiłek.
+| Problem | Powód | Rozwiązanie |
+|-------|--------|-----|
+| **`ArrayIndexOutOfBoundsException`** | Warstwa nie ma efektów lub pierwszy efekt nie jest `StrokeEffect`. | Sprawdź, czy warstwa rzeczywiście zawiera obramowanie lub iteruj przez `getEffects()`, aby znaleźć właściwy typ. |
+| **Color not changing** | Możesz edytować kopię ustawień zamiast oryginału. | Upewnij się, że rzutujesz bezpośrednio do `ColorFillSettings` z `effect.getFillSettings()`. |
+| **PNG appears blank** | PSD został załadowany bez rasteryzacji warstwy. | Wywołaj `im.save(..., new PngOptions())` po wszystkich modyfikacjach; unikaj zapisywania oryginalnego `im` przed zmianami. |
 
-Niezależnie od tego, czy pracujesz nad dużą partią obrazów, czy po prostu chcesz zmodyfikować kilka plików, ta metoda zapewnia elastyczne i wydajne rozwiązanie. Teraz, gdy znasz już podstawy, możesz zacząć eksperymentować z różnymi efektami i dostosowaniami, aby Twoje obrazy naprawdę się wyróżniały.
+## Najczęściej zadawane pytania
 
-Gotowy, aby to wypróbować? Pobierz swój przykładowy plik PSD i zacznij dodawać te wspaniałe efekty już dziś!
+**Q: Czy mogę zastosować wiele efektów do jednej warstwy przy użyciu Aspose.PSD for Java?**  
+A: Tak, możesz uzyskać dostęp do opcji mieszania warstwy i dodać dowolną liczbę efektów, w tym cienie, poświaty i obramowania.
 
-## Często zadawane pytania
+**Q: Czy można zautomatyzować proces dla partii plików PSD?**  
+A: Oczywiście. Umieść logikę ładowania, stosowania efektów i zapisywania w pętli `for‑each`, która iteruje po plikach w katalogu.
 
-### Czy mogę zastosować wiele efektów do pojedynczej warstwy przy użyciu Aspose.PSD dla Java?
-Tak, możesz zastosować wiele efektów do pojedynczej warstwy, uzyskując dostęp do opcji mieszania warstwy i dodając żądane efekty.
+**Q: Jak mogę cofnąć zmiany wprowadzone w pliku PSD?**  
+A: Ponownie załaduj oryginalny plik przed zapisaniem jakichkolwiek modyfikacji; Aspose.PSD nie zapewnia stosu cofania.
 
-### Czy można zautomatyzować proces w przypadku partii plików PSD?
-Absolutnie! Możesz przeglądać katalog plików PSD, zastosować efekt obrysu i automatycznie zapisać wyniki.
+**Q: Czy mogę dostosować szerokość i pozycję obramowania?**  
+A: Tak. Użyj `effect.setWidth(float)` i `effect.setPosition(StrokeEffect.Position)`, aby kontrolować grubość i położenie (wewnątrz, na zewnątrz lub wyśrodkowane).
 
-### Jak mogę cofnąć zmiany wprowadzone w pliku PSD przy użyciu Aspose.PSD dla Java?
-Aby cofnąć zmiany, przed zapisaniem jakichkolwiek modyfikacji należy ponownie załadować oryginalny plik PSD. W Aspose.PSD nie ma funkcji bezpośredniego cofania.
+**Q: Czy biblioteka Aspose.PSD for Java jest darmowa?**  
+A: Dostępna jest darmowa wersja próbna do oceny. Pełna funkcjonalność wymaga zakupionej licencji. Zobacz [opcje zakupu](https://purchase.aspose.com/buy) po szczegóły.
 
-### Czy mogę dostosować szerokość i położenie obrysu?
- Tak, Aspose.PSD dla Java umożliwia dostosowanie szerokości, położenia i innych właściwości obrysu poprzez`StrokeEffect` klasa.
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.PSD 24.12 for Java  
+**Author:** Aspose  
 
-### Czy korzystanie z biblioteki Aspose.PSD for Java jest bezpłatne?
- Aspose.PSD dla Java oferuje bezpłatną wersję próbną, ale aby uzyskać pełny dostęp do wszystkich funkcji, należy zakupić licencję. Możesz zwiedzać[kup opcje](https://purchase.aspose.com/buy)na ich stronie internetowej.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

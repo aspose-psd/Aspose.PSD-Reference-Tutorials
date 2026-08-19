@@ -1,37 +1,58 @@
 ---
-title: 使用 Aspose.PSD Java 在 PSD 文件中突出显示图纸颜色
-linktitle: 使用 Aspose.PSD Java 在 PSD 文件中突出显示图纸颜色
+date: 2026-04-03
+description: 学习如何使用 Aspose.PSD for Java 在 PSD 文件中突出显示图层颜色。按照我们的分步指南，提升您在 Java 中的图像处理技能。
+keywords:
+- highlight sheet color psd
+- change psd layer color
+- Aspose.PSD Java
+linktitle: 使用 Aspise.PSD Java 在 PSD 文件中突出显示图层颜色
 second_title: Aspose.PSD Java API
-description: 了解如何使用 Aspose.PSD for Java 突出显示 PSD 文件中的纸张颜色。按照我们的分步指南来提高您在 Java 中的图像处理技能。
-weight: 19
+title: 使用 Aspise.PSD Java 高亮 PSD 文件中的工作表颜色
 url: /zh/java/psd-layer-management-effects/highlight-sheet-color-psd-files/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PSD Java 在 PSD 文件中突出显示图纸颜色
+# 使用 Aspose.PSD Java 高亮 PSD 文件的工作表颜色
 
 ## 介绍
 
-您是否希望深入研究图像处理并使用 Java 增强您的数字创作？无论您是经验丰富的开发人员还是刚刚起步，使用 PSD 文件都可以打开一个无限可能的世界。PSD 文件是分层图像编辑的行业标准，借助 Aspose.PSD for Java 的强大功能，您可以毫不费力地在 Java 应用程序中处理这些文件。今天，我们将介绍如何在 PSD 文件中突出显示纸张颜色，确保您的设计以最鲜明的方式脱颖而出。
+如果您需要以编程方式 **highlight sheet color psd** 文件，您来对地方了。在本教程中，我们将通过一个完整的实战示例，展示如何使用 Aspose.PSD for Java 更改单个图层的工作表颜色。无论您是在构建批处理工具、定制编辑器，还是仅仅自动化重复的设计任务，掌握此技术都能让您对 PSD 资源实现细粒度控制。
+
+## 快速答案
+
+- **“highlight sheet color” 是什么意思？** 它是分配给图层的可视提示，在 Photoshop 的图层面板中显示为彩色条带。  
+- **哪个库在 Java 中处理此功能？** Aspose.PSD for Java 提供 `SheetColorHighlightEnum` 和相关 API。  
+- **我需要许可证才能试用吗？** 有免费试用版；生产环境使用需购买许可证。  
+- **我可以一次更改多个图层吗？** 可以——遍历 `Layer[]` 集合并为每个图层设置高亮。  
+- **需要哪个 Java 版本？** JDK 8 或更高。
+
+## 什么是 “highlight sheet color psd”？
+
+工作表颜色高亮是存储在 PSD 文件中的元数据属性，告诉 Photoshop（以及兼容工具）在图层名称旁绘制彩色条带。它有助于快速识别图层组——可以将其视为可设置为紫色、橙色、黄色等颜色的可视标签。
+
+## 为什么要以编程方式更改 PSD 图层颜色？
+
+- **Automation:** 处理数百个文件而无需手动点击。  
+- **Consistency:** 在设计系统中强制执行命名/颜色方案。  
+- **Integration:** 将 PSD 操作与其他基于 Java 的工作流结合（例如，为移动应用生成资源）。
 
 ## 先决条件
 
-在深入研究代码之前，让我们确保您拥有顺利完成所需的一切。以下是您需要的东西的清单：
+在深入代码之前，请确保您具备以下条件：
 
--  Java 开发工具包 (JDK)：请确保您的计算机上安装了 JDK 8 或更高版本。如果没有，您可以从[Java 网站](https://www.oracle.com/java/technologies/javase-downloads.html).
-- 集成开发环境 (IDE)：IntelliJ IDEA、Eclipse 或 NetBeans 等 IDE 可使编码更加容易。选择您熟悉的 IDE。
-- Aspose.PSD for Java 库：这是节目的明星！您需要下载并在项目中引用 Aspose.PSD for Java 库。您可以从[Aspose 网站](https://releases.aspose.com/psd/java/).
-- 示例 PSD 文件：我们将使用名为`SheetColorHighlightExample.psd`本教程的模板。您可以自行创建，也可以从互联网上下载示例。
-- Java 基础知识：要学习本教程，必须对 Java 编程有基本的了解。
-
-一切就绪后，让我们继续导入必要的包并准备好您的项目。
+- **Java Development Kit (JDK) 8+** – 从 [Java website](https://www.oracle.com/java/technologies/javase-downloads.html) 下载。  
+- **IDE** – IntelliJ IDEA、Eclipse 或 NetBeans（自行选择）。  
+- **Aspose.PSD for Java library** – 从 [Aspose's website](https://releases.aspose.com/psd/java/) 获取。  
+- **Sample PSD file** – `SheetColorHighlightExample.psd`（自行创建或在线获取示例）。  
+- **Basic Java knowledge** – 您应熟悉类、方法和简单的文件 I/O。
 
 ## 导入包
 
-首先，让我们导入启动项目所需的包。这些导入将使我们能够使用 Aspose.PSD for Java 处理 PSD 文件并有效地操作它们。
+首先，导入我们需要的类。这些导入让我们能够访问核心图像处理、图层操作以及工作表颜色高亮的枚举。
 
 ```java
 import com.aspose.psd.Image;
@@ -41,15 +62,13 @@ import com.aspose.psd.fileformats.psd.layers.Layer;
 import com.aspose.psd.fileformats.psd.layers.layerresources.SheetColorHighlightEnum;
 ```
 
-这些导入带来了我们用来操作 PSD 文件所需的类和方法，特别是用于突出显示纸张颜色。
+## 分步指南
 
-## 步骤 1：加载 PSD 文件
+### 步骤 1：加载 PSD 文件
 
-本教程的第一步是加载要处理的 PSD 文件。我们将使用`PsdImage`来自 Aspose.PSD for Java 的类将文件加载到我们的应用程序中。
+#### 1.1 定义文件路径
 
-### 步骤 1.1：定义文件路径
-
-在加载文件之前，让我们定义源和输出 PSD 文件的文件路径。我们将使用字符串变量来存储文件所在的目录路径。
+设置源路径和目标路径。将占位符替换为实际存放 PSD 文件的文件夹。
 
 ```java
 String dataDir = "YOUR DOCUMENT DIRECTORY";
@@ -58,96 +77,79 @@ String sourceFileName = dataDir + "SheetColorHighlightExample.psd";
 String exportPath = dataDir + "SheetColorHighlightExampleChanged.psd";
 ```
 
-代替`"YOUR DOCUMENT DIRECTORY"`替换为 PSD 文件的实际存储路径。此设置可确保您的应用程序知道在哪里找到文件以及在哪里保存修改后的版本。
+#### 1.2 加载 PSD 文件
 
-### 步骤1.2：加载PSD文件
-
-现在我们已经定义了文件路径，让我们使用`Image.load()`方法并将其转换为`PsdImage`.
+使用 `Image.load()` 并将结果强制转换为 `PsdImage`，以便使用 PSD 特有的功能。
 
 ```java
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-这行代码加载 PSD 文件，并将其转换为`PsdImage`对象，它是专门为在 Aspose.PSD for Java 中处理 PSD 文件而设计的。
+### 步骤 2：访问并检查图层
 
-## 步骤 2：访问和操作图层
+图层保存 PSD 的可视内容。我们将读取当前的工作表颜色高亮，以验证初始状态。
 
-在 PSD 文件中，图层是魔法发生的地方。它们允许您分离设计的不同元素并单独操作它们。在此步骤中，我们将访问 PSD 文件的图层并检查其当前的纸张颜色高光。
-
-### 步骤 2.1：访问第一层
-
-让我们首先访问 PSD 文件的第一层并检查其当前的纸张颜色高亮。
+#### 2.1 访问第一层
 
 ```java
 Layer layer1 = im.getLayers()[0];
 Assert.areEqual(SheetColorHighlightEnum.Violet, layer1.getSheetColorHighlight());
 ```
 
-在这里，我们使用`getLayers()`方法。然后我们使用`Assert.areEqual()`验证此图层的纸张颜色高亮是否设置为紫色。此步骤对于确保我们使用正确的图层至关重要。
-
-### 步骤2.2：访问第二层
-
-接下来，我们将访问第二层并检查其纸张颜色高亮。
+#### 2.2 访问第二层
 
 ```java
 Layer layer2 = im.getLayers()[1];
 Assert.areEqual(SheetColorHighlightEnum.Orange, layer2.getSheetColorHighlight());
 ```
 
-同样，我们访问第二个图层并验证其工作表颜色突出显示是否设置为橙色。通过检查这些突出显示，我们可以确保在进行任何更改之前正确识别每个图层。
+### 步骤 3：修改工作表颜色高亮
 
-## 步骤 3：修改工作表颜色突出显示
-
-现在我们已经确定了图层及其当前的工作表颜色突出显示，是时候修改其中一个了。在此步骤中，我们将更改第一个图层的工作表颜色突出显示。
-
-### 步骤 3.1：设置新工作表颜色突出显示
-
-为了使我们的设计脱颖而出，让我们将第一层的纸张颜色突出显示更改为黄色。
+现在我们将把第一层的高亮颜色改为黄色，演示如何以编程方式 **change psd layer color**。
 
 ```java
 layer1.setSheetColorHighlight(SheetColorHighlightEnum.Yellow);
 ```
 
-这行代码将第一层的图纸颜色突出显示更改为黄色。这是一种让您的设计元素脱颖而出的简单而有效的方法。
+### 步骤 4：保存修改后的 PSD 文件
 
-## 步骤 4：保存修改后的 PSD 文件
-
-修改纸张颜色突出显示后，最后一步是将更改保存到新的 PSD 文件中。这样可以确保您的原始文件保持不变，同时您的更改会单独保存。
-
-### 步骤 4.1：保存文件
-
-我们将修改后的PSD文件保存到我们之前定义的路径。
+将更改持久化到新文件，以免修改原始文件。
 
 ```java
 im.save(exportPath);
 ```
 
-此命令将修改保存到位于`exportPath`您之前设置的。现在您既拥有原始文件，又拥有修改后的文件，因此您可以并排比较更改。
+## 常见问题及解决方案
 
-## 结论
+| 问题 | 原因 | 解决方案 |
+|-------|----------------|-----|
+| `Assert` 失败 | 图层当前的高亮颜色与代码预期不符（例如，PSD 不同）。 | 在 Photoshop 中打开 PSD 以验证颜色，或删除 `Assert` 检查以获得更灵活的脚本。 |
+| `im.getLayers()` 上的 `NullPointerException` | 文件未正确加载（路径错误或文件损坏）。 | 再次检查 `sourceFileName` 并确保 PSD 有效。 |
+| 高亮在 Photoshop 中未显示 | Photoshop 缓存图层信息；可能需要重新打开文件。 | 保存后关闭并重新打开 PSD，或在保存前使用 `im.flush()`。 |
 
-恭喜！您已成功使用 Aspose.PSD for Java 操作 PSD 文件中的纸张颜色高亮。通过遵循本分步指南，您现在掌握了以编程方式自定义和增强 PSD 文件的技能，为您的 Java 项目增添了新的创意。
+## 常见问题
 
-Aspose.PSD for Java 是一款功能强大的工具，为处理 PSD 文件提供了无限可能。无论您是突出显示图层、调整颜色还是以其他方式转换设计，此库都提供您所需的所有功能。
+**Q: 什么是 Aspose.PSD for Java？**  
+A: Aspose.PSD for Java 是一个库，使开发者能够在无需安装 Photoshop 的情况下读取、编辑和保存 PSD 文件。
 
-如果您有任何疑问或遇到任何问题，请随时查看 Aspose.PSD 文档、试用免费试用版或寻求社区支持。
+**Q: 我可以将 Aspose.PSD for Java 与其他文件格式一起使用吗？**  
+A: 是的——支持 BMP、PNG、JPEG、GIF、TIFF 等多种格式，允许在 PSD 与这些格式之间相互转换。
 
-## 常见问题解答
+**Q: 使用 Aspose.PSD for Java 对 PSD 文件所做的更改可以撤销吗？**  
+A: 保存后更改是永久的。如果需要恢复，请保留原始文件的备份。
 
-### 什么是 Aspose.PSD for Java？
-Aspose.PSD for Java 是一个库，允许开发人员以编程方式处理 PSD 文件，提供操作 PSD 文件中的图像、图层和其他元素的工具。
+**Q: 如何获取 Aspose.PSD for Java 的许可证？**  
+A: 从 [Aspose website](https://purchase.aspose.com/buy) 购买许可证。如果您在评估阶段，可以请求 [temporary license](https://purchase.aspose.com/temporary-license/) 进行有限期限的试用。
 
-### 我可以将 Aspose.PSD for Java 与其他文件格式一起使用吗？
-是的，Aspose.PSD for Java 支持多种文件格式，包括 BMP、PNG、JPEG、GIF 和 TIFF，允许您将 PSD 文件转换为其他格式，反之亦然。
+**Q: 我可以一次在 PSD 文件中高亮多个图层吗？**  
+A: 当然。遍历 `im.getLayers()` 并根据需要对每个图层调用 `setSheetColorHighlight()`。
 
-### 是否可以撤消使用 Aspose.PSD for Java 对 PSD 文件所做的更改？
-一旦将更改保存到文件，就无法撤消。但是，您可以在进行任何修改之前保留原始文件的备份，以确保在需要时可以恢复到原始文件。
+---
 
-### 如何获取 Aspose.PSD for Java 的许可证？
-您可以从[Aspose 网站](https://purchase.aspose.com/buy) 。如果你还没有准备好承诺，你也可以请求[临时执照](https://purchase.aspose.com/temporary-license/)来评价产品。
+**最后更新：** 2026-04-03  
+**已测试：** Aspose.PSD 24.11 for Java  
+**作者：** Aspose  
 
-### 我可以在 PSD 文件中一次突出显示多个图层吗？
-是的，您可以循环遍历 PSD 文件中的图层，并将所需的纸张颜色高亮单独应用于每个图层。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

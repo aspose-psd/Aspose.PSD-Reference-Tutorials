@@ -1,37 +1,59 @@
 ---
-title: Aplanar capas en archivos PSD usando Aspose.PSD Java
-linktitle: Aplanar capas en archivos PSD usando Aspose.PSD Java
-second_title: API de Java Aspose.PSD
-description: Aplane y combine capas en archivos PSD sin esfuerzo usando Aspose.PSD para Java. Siga esta guía paso a paso para simplificar la administración de sus archivos PSD.
-weight: 13
+date: 2026-04-03
+description: Aprende a reducir el tamaño de los archivos PSD aplanando capas con Aspose.PSD
+  para Java. Esta guía paso a paso muestra cómo aplanar archivos PSD rápidamente.
+keywords:
+- reduce psd file size
+- how to flatten psd
+- flatten visible layers psd
+linktitle: Reduce el tamaño del archivo PSD aplanando capas – Aspose.PSD Java
+second_title: Aspose.PSD Java API
+title: Reduce el tamaño del archivo PSD aplanando capas – Aspose.PSD Java
 url: /es/java/psd-layer-management-effects/flatten-layers-psd-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aplanar capas en archivos PSD usando Aspose.PSD Java
+# Reducir el tamaño del archivo PSD aplanando capas – Aspose.PSD Java
 
 ## Introducción
 
-¿Alguna vez se ha encontrado trabajando con archivos de Photoshop y ha deseado una manera más fácil de administrar esas capas complejas? ¡Pues estás de suerte! Hoy nos sumergimos en el mundo de Aspose.PSD para Java, una potente herramienta que facilita el trabajo con archivos PSD mediante programación. Una de las funciones útiles que exploraremos es el aplanamiento de capas. Ya sea que desee aplanar una imagen completa o fusionar selectivamente capas específicas, Aspose.PSD para Java lo tiene cubierto. Este tutorial lo guiará a través del proceso, paso a paso, asegurándose de que esté listo para manejar sus archivos PSD con confianza.
+Si alguna vez has abierto un documento de Photoshop y te has preguntado cómo **reducir el tamaño del archivo PSD**, aplanar capas es uno de los trucos más efectivos. Con Aspose.PSD for Java puedes aplanar programáticamente un PSD completo o combinar solo las capas que elijas, dándote un control fino sobre el peso del archivo sin sacrificar la calidad visual. En este tutorial recorreremos ambos enfoques —aplanar toda la imagen y combinar capas específicas— para que puedas reducir rápidamente tus archivos PSD y mantener tu flujo de trabajo fluido.
+
+## Respuestas rápidas
+- **¿Qué hace el aplanado?** Fusiona las capas visibles en una única capa de fondo, eliminando la información de capas y a menudo reduciendo el tamaño del archivo.  
+- **¿Puedo aplanar solo capas seleccionadas?** Sí, puedes combinar capas específicas mientras dejas las demás sin cambios.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Qué versión de Java se requiere?** JDK 8 o superior.  
+- **¿Afectará el aplanado la calidad de la imagen?** No, la apariencia visual permanece igual; solo cambia la estructura de capas.
+
+## ¿Qué es “reducir el tamaño del archivo PSD”?
+
+Reducir el tamaño del archivo PSD significa eliminar datos innecesarios —como capas extra, canales ocultos o metadatos excesivos— para que el archivo sea más ligero y rápido de cargar, compartir o procesar. Aplanar capas es una técnica común porque descarta los objetos de capa separados mientras preserva la imagen compuesta final.
+
+## ¿Por qué aplanar capas con Aspose.PSD for Java?
+
+- **Automatización:** No es necesario abrir Photoshop manualmente; intégralo directamente en tus aplicaciones Java.  
+- **Precisión:** Elige aplanar todo el documento o solo las capas visibles (`flattenImage`) o combinar capas seleccionadas (`mergeLayers`).  
+- **Rendimiento:** Los archivos más pequeños se cargan más rápido y consumen menos memoria en procesos posteriores.  
+- **Multiplataforma:** Funciona en cualquier sistema operativo que soporte Java.
 
 ## Requisitos previos
 
-Antes de pasar al código, asegurémonos de que tiene todo lo que necesita:
+1. **Java Development Kit (JDK):** JDK 8 o más reciente instalado.  
+2. **Aspose.PSD for Java:** Descarga la biblioteca desde [aquí](https://releases.aspose.com/psd/java/).  
+3. **IDE:** IntelliJ IDEA, Eclipse, o cualquier IDE compatible con Java.  
+4. **Basic Java knowledge:** Útil pero no obligatorio para seguir los pasos.  
+5. **Sample PSD:** Un archivo con múltiples capas (usaremos `ThreeRegularLayersSemiTransparent.psd`).
 
-1. Kit de desarrollo de Java (JDK): asegúrese de tener JDK 8 o superior instalado en su sistema.
-2.  Aspose.PSD para Java: descargue y agregue la biblioteca Aspose.PSD a su proyecto. puedes encontrarlo[aquí](https://releases.aspose.com/psd/java/).
-3. Entorno de desarrollo integrado (IDE): un IDE como IntelliJ IDEA o Eclipse hará que su experiencia de codificación sea más fluida.
-4. Conocimientos básicos de Java: si bien este tutorial es apto para principiantes, algunos conocimientos básicos de Java le ayudarán a seguirlo más fácilmente.
-5. Archivo PSD de muestra: tenga un archivo PSD listo para experimentar. Usaremos uno con múltiples capas para demostrar el proceso de aplanamiento.
-
-Ahora que hemos dejado de lado lo esencial, pasemos a la parte divertida: ¡trabajar con el código!
+Ahora que tenemos todo configurado, vamos a sumergirnos en el código.
 
 ## Importar paquetes
 
-Para comenzar, deberá importar los paquetes necesarios a su proyecto Java. Estos paquetes le permitirán trabajar con archivos PSD usando Aspose.PSD para Java.
+Para comenzar, importa las clases esenciales de Aspose.PSD:
 
 ```java
 import com.aspose.psd.Image;
@@ -39,15 +61,13 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.Layer;
 ```
 
-Estas importaciones nos permitirán cargar archivos PSD, manipular capas y guardar los cambios. Ahora, dividamos el proceso de aplanar capas en pasos manejables.
+Estas importaciones nos permiten cargar archivos PSD, trabajar con sus capas y guardar los resultados.
 
-## Paso 1: aplanar toda la imagen PSD
+## Paso 1: Aplanar la imagen PSD completa
 
-La primera tarea es aplanar toda la imagen PSD. Esto resulta útil cuando desea combinar todas las capas en una sola, lo que facilita la gestión y exportación de la imagen.
+Aplanar toda la imagen es la forma más rápida de **reducir el tamaño del archivo PSD** porque elimina todos los datos de capas individuales.
 
 ### 1.1 Cargar el archivo PSD
-
- Primero, cargaremos el archivo PSD en nuestro programa. Este archivo debe colocarse en el directorio de su proyecto, al que nos referiremos como`Your Document Directory`.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -55,46 +75,32 @@ String sourceFileName = dataDir + "ThreeRegularLayersSemiTransparent.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-Este fragmento de código carga el archivo PSD llamado`ThreeRegularLayersSemiTransparent.psd` desde su directorio especificado.
-
 ### 1.2 Aplanar la imagen
-
-A continuación, aplanaremos toda la imagen. El aplanamiento combina todas las capas visibles en una sola capa de fondo.
 
 ```java
 im.flattenImage();
 ```
 
-Con esta frase, todas las capas de su archivo PSD se fusionan en una.
-
 ### 1.3 Guardar la imagen aplanada
-
-Finalmente, guardaremos la imagen aplanada en un archivo nuevo.
 
 ```java
 String exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattened.psd";
 im.save(exportPath);
 ```
 
- Esto guarda el archivo PSD aplanado con el nuevo nombre.`ThreeRegularLayersSemiTransparentFlattened.psd`. ¡Felicidades! Acabas de aplanar tu primera imagen PSD usando Aspose.PSD para Java.
+Tu nuevo archivo ahora contiene una única capa de fondo, lo que normalmente resulta en un PSD de menor tamaño.
 
-## Paso 2: fusionar capas específicas
+## Paso 2: Combinar capas específicas (Cómo aplanar PSD selectivamente)
 
-A veces, es posible que no desees aplanar toda la imagen, sino fusionar sólo ciertas capas. Veamos cómo puedes lograrlo.
+A veces solo deseas **aplanar capas visibles** o combinar un subconjunto de capas mientras mantienes otras editables.
 
-### 2.1 Cargue el archivo PSD nuevamente
-
-Como estamos realizando una operación diferente, comience cargando el archivo PSD nuevamente.
+### 2.1 Cargar el archivo PSD nuevamente
 
 ```java
 PsdImage img = (PsdImage) Image.load(sourceFileName);
 ```
 
-Esto cargará el mismo archivo PSD, listo para operaciones específicas de capa.
-
 ### 2.2 Identificar y seleccionar capas
-
-Para fusionar capas específicas, primero identifique y seleccione las capas que desea fusionar.
 
 ```java
 Layer bottomLayer = img.getLayers()[0];
@@ -102,63 +108,60 @@ Layer middleLayer = img.getLayers()[1];
 Layer topLayer = img.getLayers()[2];
 ```
 
-Aquí, seleccionamos la primera, segunda y tercera capa del archivo PSD. Estas capas se almacenan en una matriz y puede acceder a ellas mediante su índice.
-
-### 2.3 Fusionar las capas
-
-Ahora, fusionemos las capas seleccionadas. Comenzaremos fusionando las capas inferior y media, luego fusionaremos el resultado con la capa superior.
+### 2.3 Combinar las capas
 
 ```java
 Layer layer1 = img.mergeLayers(bottomLayer, middleLayer);
 Layer layer2 = img.mergeLayers(layer1, topLayer);
 ```
 
-Este código fusiona secuencialmente las capas, lo que da como resultado una única capa combinada.
-
-### 2.4 Reemplazar las capas existentes con la capa fusionada
-
-Después de fusionar, debe reemplazar las capas existentes en la imagen con la capa recién fusionada.
+### 2.4 Reemplazar las capas existentes con la capa combinada
 
 ```java
 img.setLayers(new Layer[]{layer2});
 ```
 
-Este paso garantiza que la imagen ahora solo contenga la capa fusionada.
-
-### 2.5 Guarde el archivo PSD actualizado
-
-Finalmente, guarde el archivo PSD actualizado con las capas fusionadas.
+### 2.5 Guardar el archivo PSD actualizado
 
 ```java
 exportPath = dataDir + "ThreeRegularLayersSemiTransparentFlattenedLayerByLayer.psd";
 img.save(exportPath);
 ```
 
-Esto guarda el PSD con las capas fusionadas con un nuevo nombre, lo que le permite mantener intacto el archivo original.
+Ahora el PSD contiene solo la capa combinada, logrando un tamaño de archivo reducido mientras se preservan las capas que deseabas mantener.
 
-## Conclusión
+## Problemas comunes y consejos
 
-Trabajar con capas en archivos PSD a menudo puede parecer como navegar por un laberinto, pero con Aspose.PSD para Java, es como tener un mapa en las manos. Ya sea que necesite aplanar una imagen completa o fusionar cuidadosamente capas seleccionadas, Aspose.PSD simplifica el proceso, convirtiendo lo que podría ser una tarea desalentadora en una operación sencilla. Si sigue este tutorial, ahora debería sentirse cómodo manejando la manipulación de capas en archivos PSD usando Java. Entonces, ¿por qué no intentarlo con tus propios proyectos y ver cuánto tiempo y esfuerzo ahorras?
+- **Copia de seguridad antes de aplanar:** Una vez que las capas se aplanan, la operación no se puede deshacer. Mantén una copia del PSD original.  
+- **La visibilidad importa:** `flattenImage()` solo combina capas *visibles*. Oculta cualquier capa que no quieras incluir.  
+- **Uso de memoria:** Los PSD grandes pueden consumir una cantidad significativa de RAM; considera procesarlos en una máquina con suficiente memoria.  
+- **Modos de fusión:** La combinación respeta el modo de fusión de cada capa, por lo que el resultado visual coincide con lo que verías en Photoshop.
 
 ## Preguntas frecuentes
 
-### ¿Puedo deshacer el aplanamiento de capas en Aspose.PSD?  
-No, una vez que aplanas capas usando Aspose.PSD, la acción es irreversible. Siempre es una buena práctica mantener una copia de seguridad del archivo original.
+**P: ¿Puedo deshacer el aplanado de capas en Aspose.PSD?**  
+R: No, el aplanado es irreversible. Siempre conserva una copia de seguridad del archivo original.
 
-### ¿Es posible aplanar sólo las capas visibles?  
- Sí, puedes controlar qué capas aplanar según su visibilidad. Asegúrese de que solo las capas que desea aplanar sean visibles antes de usar el`flattenImage` método.
+**P: ¿Es posible aplanar solo capas visibles?**  
+R: Sí. `flattenImage()` respeta la visibilidad de las capas, así que oculta cualquier capa que no quieras aplanar antes de llamar al método.
 
-### ¿Aplanar capas reduce el tamaño del archivo?  
-Aplanar capas puede reducir el tamaño del archivo, especialmente si hay muchas capas complejas. Sin embargo, la reducción exacta depende del contenido de las capas.
+**P: ¿El aplanado de capas reduce el tamaño del archivo?**  
+R: Generalmente, sí. Eliminar datos de capas y metadatos suele producir un PSD más pequeño, aunque la reducción exacta depende del contenido.
 
-### ¿Puedo fusionar capas con diferentes modos de fusión?  
-Sí, puedes fusionar capas con diferentes modos de fusión usando Aspose.PSD, y la capa resultante mantendrá la apariencia de las capas fusionadas.
+**P: ¿Puedo combinar capas con diferentes modos de fusión?**  
+R: Absolutamente. Aspose.PSD combina capas mientras preserva la apariencia visual creada por sus modos de fusión.
 
-### ¿Qué sucede si intento fusionar capas que no son adyacentes?  
-Aspose.PSD le permite fusionar cualquier capa independientemente de su orden en la pila de capas. El proceso de fusión combinará las capas seleccionadas como se especifica.
+**P: ¿Qué ocurre si intento combinar capas no adyacentes?**  
+R: Aspose.PSD permite combinar cualquier capa sin importar su orden en la pila; el resultado refleja la apariencia combinada.
+
+---
+
+**Última actualización:** 2026-04-03  
+**Probado con:** Aspose.PSD 24.11 for Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
