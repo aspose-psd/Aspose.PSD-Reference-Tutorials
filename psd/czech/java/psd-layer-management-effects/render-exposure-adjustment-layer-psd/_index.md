@@ -1,34 +1,57 @@
 ---
-title: Vrstva úpravy expozice vykreslení v souborech PSD - Java
-linktitle: Vrstva úpravy expozice vykreslení v souborech PSD - Java
+date: 2026-04-05
+description: Naučte se, jak vykreslit vrstvu úpravy expozice v souborech PSD pomocí
+  Aspose.PSD pro Javu. Krok za krokem průvodce s ukázkami kódu pro úpravu a přidání
+  vrstev expozice.
+keywords:
+- render exposure adjustment layer
+- exposure adjustment layer
+- Aspose.PSD Java
+linktitle: Vykreslit vrstvu úpravy expozice v souborech PSD – Java
 second_title: Aspose.PSD Java API
-description: Naučte se vykreslovat a upravovat vrstvy expozice v souborech PSD pomocí Aspose.PSD for Java. Podrobný průvodce s příklady kódu pro úpravu a přidávání vrstev expozice.
-weight: 15
+title: Vykreslit vrstvu úpravy expozice v souborech PSD – Java
 url: /cs/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vrstva úpravy expozice vykreslení v souborech PSD - Java
+# Vykreslení vrstvy úpravy expozice v souborech PSD – Java
 
-## Zavedení
+## Úvod
 
-Pracujete se soubory Photoshop PSD a potřebujete upravit expozici nebo přidat vrstvu úpravy expozice programově? Ať už upravujete stávající vrstvy nebo přidáváte nové, Aspose.PSD pro Java poskytuje výkonný a intuitivní způsob, jak tyto úkoly zvládnout. V této příručce si projdeme, jak používat Aspose.PSD pro Java k vykreslení a úpravě vrstev úprav expozice v souborech PSD. Na konci tohoto tutoriálu budete vědět, jak upravit nastavení expozice ve stávajících vrstvách a přidat nové vrstvy úpravy expozice do souborů PSD. Pojďme se ponořit!
+Pracujete se soubory Photoshop PSD a potřebujete **vykreslit vrstvu úpravy expozice** programově? Ať už upravujete existující vrstvy nebo přidáváte nové, Aspose.PSD pro Java poskytuje výkonný a intuitivní způsob, jak tyto úkoly zvládnout. V tomto průvodci vás provedeme, jak použít Aspose.PSD pro Java k vykreslení a úpravě vrstev úpravy expozice v souborech PSD. Na konci tohoto tutoriálu budete vědět, jak upravit nastavení expozice v existujících vrstvách a přidat nové vrstvy úpravy expozice do vašich souborů PSD. Pojďme na to!
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaká knihovna je potřeba?** Aspose.PSD for Java
+- **Mohu upravit existující vrstvu expozice?** Ano, můžete změnit expozici, offset a korekci gama.
+- **Jak přidám novou vrstvu úpravy expozice?** Použijte `addExposureAdjustmentLayer()` na instanci `PsdImage`.
+- **Je podporován export do PNG?** Rozhodně – použijte `PngOptions` k uložení výsledku jako PNG.
+- **Potřebuji licenci pro produkci?** Pro produkční použití je vyžadována komerční licence; je k dispozici bezplatná zkušební verze.
 
-Než se pustíme do výukového programu, ujistěte se, že máte následující předpoklady:
+## Co je vykreslení vrstvy úpravy expozice?
 
-1. Java Development Kit (JDK): Na vašem počítači musíte mít nainstalovaný JDK. Tato příručka předpokládá, že máte alespoň JDK 8.
-2.  Aspose.PSD for Java: Pro práci se soubory PSD potřebujete knihovnu Aspose.PSD. Můžete si jej stáhnout z[zde](https://releases.aspose.com/psd/java/).
-3. Základní znalost Javy: Znalost programování v Javě vám pomůže snadno se orientovat.
-4. IDE nebo textový editor: K psaní a spouštění kódu Java použijte libovolné IDE, jako je IntelliJ IDEA, Eclipse nebo textový editor podle svého výběru.
+Vrstva úpravy expozice je nedestruktivní vrstva Photoshopu, která mění jas, offset a gama podkladového obrázku. Její vykreslení znamená aplikaci těchto nastavení tak, aby vizuální výsledek odrážel úpravy, které pak můžete exportovat do formátů jako PNG.
 
-## Importujte balíčky
+## Proč použít Aspose.PSD pro Java k vykreslení vrstvy úpravy expozice?
 
-Nejprve importujme potřebné balíčky z Aspose.PSD pro Javu. Tento krok zajišťuje, že náš kód může využívat funkce knihovny pro manipulaci se soubory PSD.
+- **Plná kontrola** – manipulujte s vlastnostmi vrstev bez otevření Photoshopu.
+- **Dávkové zpracování** – automatizujte úpravy napříč mnoha soubory.
+- **Cross‑platform** – běží na libovolném systému s JDK.
+- **Zachovává strukturu PSD** – udržuje vrstvy editovatelné pro budoucí úpravy.
+
+## Požadavky
+
+1. **Java Development Kit (JDK)** – alespoň JDK 8.
+2. **Aspose.PSD for Java** – stáhněte jej z [here](https://releases.aspose.com/psd/java/).
+3. **Základní znalost Javy** – měli byste být obeznámeni se standardní syntaxí Javy.
+4. **IDE nebo textový editor** – IntelliJ IDEA, Eclipse, VS Code nebo jakýkoli editor, který preferujete.
+
+## Import balíčků
+
+Nejprve importujte požadované třídy Aspose.PSD:
 
 ```java
 import com.aspose.psd.Image;
@@ -38,112 +61,124 @@ import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.ExposureLayer;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Krok 1: Načtěte soubor PSD
+## Jak vykreslit vrstvu úpravy expozice – krok za krokem
 
-Chcete-li začít, musíte do aplikace načíst soubor PSD. Můžete to udělat takto:
+### Krok 1: Načtení souboru PSD
+
+Nahraďte `"Your Document Directory"` složkou, která obsahuje vaše soubory PSD. Metoda `Image.load()` vrací objekt `PsdImage`, který vám poskytuje plný přístup k vrstvám dokumentu.
 
 ```java
-String dataDir = "Your Document Directory";  // Definujte adresář dokumentů
-String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  // Cesta k zdrojovému souboru PSD
+String dataDir = "Your Document Directory";  // Define your document directory
+String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  // Source PSD file path
 
-PsdImage im = (PsdImage) Image.load(sourceFileName);  // Načtěte soubor PSD
+PsdImage im = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 ```
 
- V tomto fragmentu kódu nahraďte`"Your Document Directory"` s cestou, kde jsou umístěny vaše soubory PSD. The`Image.load()` metoda načte soubor PSD do instance`PsdImage`, který umožňuje manipulovat s jeho vrstvami.
+### Krok 2: Úprava existující vrstvy úpravy expozice
 
-## Krok 2: Upravte existující vrstvu úpravy expozice
-
-Jakmile je soubor PSD načten, můžete přistupovat ke stávajícím vrstvám a upravovat je. Pokud soubor obsahuje vrstvu úpravy expozice, můžete upravit její vlastnosti:
+Cyklus prochází každou vrstvu, najde jakoukoli `ExposureLayer` a aktualizuje její tři klíčové parametry. Toto je jádro **vykreslení vrstvy úpravy expozice** s vašimi vlastními hodnotami.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof ExposureLayer) {
         ExposureLayer expLayer = (ExposureLayer) im.getLayers()[i];
-        expLayer.setExposure(2);  // Upravte úroveň expozice
-        expLayer.setOffset(-0.25f);  // Nastavte offset
-        expLayer.setGammaCorrection(0.5f);  // Upravte gama korekci
+        expLayer.setExposure(2);  // Adjust the exposure level
+        expLayer.setOffset(-0.25f);  // Set the offset
+        expLayer.setGammaCorrection(0.5f);  // Adjust the gamma correction
     }
 }
 ```
 
- této smyčce iterujeme přes všechny vrstvy souboru PSD. Pokud najdeme`ExposureLayer` , upravíme jej`Exposure`, `Offset` a`GammaCorrection` vlastnosti. To vám umožní doladit vizuální výstup vrstvy úpravy expozice.
+### Krok 3: Uložení upraveného souboru PSD
 
-## Krok 3: Uložte upravený soubor PSD
-
-Po provedení změn je třeba uložit aktualizovaný soubor PSD:
+Upravený PSD zachovává všechny původní vrstvy nedotčené, ale úprava expozice nyní odráží nová nastavení.
 
 ```java
-String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  // Cesta k uložení upraveného souboru PSD
+String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  // Path to save the modified PSD file
 
-im.save(psdPathAfterChange);  // Uložte změny do souboru PSD
+im.save(psdPathAfterChange);  // Save the changes to the PSD file
 ```
 
-Tento řádek uloží upravený soubor PSD do zadané cesty a zachová vaše úpravy expozice.
+### Krok 4: Export výsledku jako PNG
 
-## Krok 4: Exportujte jako PNG
-
-Chcete-li exportovat aktualizovaný soubor PSD jako PNG, postupujte takto:
+Použití `PngOptions` s `TruecolorWithAlpha` zajišťuje, že exportovaný PNG zachová plnou barevnou hloubku a jakoukoli průhlednost z PSD.
 
 ```java
-String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // Cesta k uložení souboru PNG
+String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // Path to save the PNG file
 
-PngOptions saveOptions = new PngOptions();  // Vytvořte možnosti PNG
-saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  // Nastavte typ barvy na Truecolor s Alpha
+PngOptions saveOptions = new PngOptions();  // Create PNG options
+saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-im.save(pngExportPath, saveOptions);  // Uložit jako PNG
+im.save(pngExportPath, saveOptions);  // Save as PNG
 ```
 
- Zde,`PngOptions` se používá ke konfiguraci nastavení exportu PNG.`PngColorType.TruecolorWithAlpha` zajišťuje, že si soubor PNG zachová barevnou hloubku a průhlednost.
+### Krok 5: Přidání nové vrstvy úpravy expozice
 
-## Krok 5: Přidejte novou vrstvu pro úpravu expozice
-
-Pokud chcete do existujícího souboru PSD přidat novou vrstvu úpravy expozice, můžete tak učinit pomocí následujícího kódu:
+Pokud potřebujete **přidat novou vrstvu úpravy expozice** do existujícího dokumentu, použijte následující kód:
 
 ```java
-String sourceFileName = dataDir + "PhotoExample.psd";  // Cesta k zdrojovému souboru PSD
+String sourceFileName = dataDir + "PhotoExample.psd";  // Source PSD file path
 
-PsdImage img = (PsdImage) Image.load(sourceFileName);  // Načtěte soubor PSD
+PsdImage img = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 
-ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  // Přidejte novou vrstvu úpravy expozice
+ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  // Add new exposure adjustment layer
 
-String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  // Cesta k uložení upraveného souboru PSD
-String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // Cesta k uložení souboru PNG
+String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  // Path to save the modified PSD file
+String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // Path to save the PNG file
 
-img.save(psdPathAfterChange);  // Uložte změny do souboru PSD
+img.save(psdPathAfterChange);  // Save the changes to the PSD file
 
-PngOptions options = new PngOptions();  // Vytvořte možnosti PNG
-options.setColorType(PngColorType.TruecolorWithAlpha);  // Nastavte typ barvy na Truecolor s Alpha
+PngOptions options = new PngOptions();  // Create PNG options
+options.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-img.save(pngExportPath, options);  // Uložit jako PNG
+img.save(pngExportPath, options);  // Save as PNG
 ```
 
-tomto kroku se do souboru PSD přidá nová vrstva úpravy expozice se zadanými hodnotami expozice, offsetu a gama korekce. Aktualizované soubory PSD a PNG se poté uloží.
+## Časté problémy a tipy
 
-## Závěr
+- **Vrstva nenalezena** – Ujistěte se, že PSD skutečně obsahuje `ExposureLayer`. Použijte `instanceof ExposureLayer` jak je ukázáno, abyste se vyhnuli `ClassCastException`.
+- **Chyby cesty k souboru** – Používejte absolutní cesty nebo ověřte, že `dataDir` končí oddělovačem souborů (`/` nebo `\`).
+- **Výjimka licence** – Spuštění bez platné licence přidá vodoznak do výstupu. Zaregistrujte licenci brzy v kódu (`License license = new License(); license.setLicense("Aspose.PSD.lic");`).
 
-A tady to máte! Naučili jste se vykreslovat a upravovat vrstvy expozice v souborech PSD pomocí Aspose.PSD for Java. Probrali jsme, jak upravit stávající vrstvy expozice, přidat nové a exportovat svou práci jako soubory PNG. Ať už upravujete fotografie nebo připravujete návrhové podklady, tyto dovednosti rozšíří vaši schopnost programově spravovat soubory PSD. Šťastné kódování!
+## Často kladené otázky
 
-## FAQ
+### Co je Aspose.PSD pro Java?
 
-### Co je Aspose.PSD for Java?
+Aspose.PSD pro Java je knihovna, která vám umožňuje programově vytvářet, upravovat a konvertovat soubory PSD pomocí Javy. Poskytuje komplexní funkčnost pro práci s dokumenty Photoshopu.
 
-Aspose.PSD for Java je knihovna, která umožňuje vytvářet, upravovat a převádět soubory PSD programově pomocí Javy. Poskytuje komplexní funkce pro práci s dokumenty Photoshopu.
+### Mohu použít Aspose.PSD pro Java k manipulaci s jinými typy vrstev?
 
-### Mohu použít Aspose.PSD pro Javu k manipulaci s jinými typy vrstev?
+Ano, Aspose.PSD pro Java podporuje různé typy vrstev, včetně textových vrstev, vrstev úprav a obrazových vrstev, což umožňuje rozsáhlou manipulaci se soubory PSD.
 
-Ano, Aspose.PSD for Java podporuje různé typy vrstev, včetně textových vrstev, vrstev úprav a obrazových vrstev, což umožňuje rozsáhlou manipulaci se soubory PSD.
+### Jak začít s Aspose.PSD pro Java?
 
-### Jak mohu začít s Aspose.PSD pro Javu?
+Můžete začít stažením knihovny z [webové stránky](https://releases.aspose.com/psd/java/) a nahlédnutím do [dokumentace](https://reference.aspose.com/psd/java/) pro podrobné návody a příklady.
 
- Můžete začít stažením knihovny z[webové stránky](https://releases.aspose.com/psd/java/) a s odkazem na[dokumentace](https://reference.aspose.com/psd/java/) pro podrobné návody a příklady.
+### Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Java?
 
-### Je k dispozici bezplatná zkušební verze pro Aspose.PSD pro Javu?
-
- Ano, je k dispozici bezplatná zkušební verze. Můžete si jej stáhnout[zde](https://releases.aspose.com/).
+Ano, je k dispozici bezplatná zkušební verze. Můžete si ji stáhnout [zde](https://releases.aspose.com/).
 
 ### Jak mohu získat podporu pro Aspose.PSD pro Java?
 
- Pro podporu můžete navštívit[Aspose fórum podpory](https://forum.aspose.com/c/psd/34) kde můžete klást otázky a získat pomoc od komunity.
+Pro podporu můžete navštívit [fórum podpory Aspose](https://forum.aspose.com/c/psd/34), kde můžete klást otázky a získat pomoc od komunity.
+
+**Další otázky**
+
+**Q: Mohu dávkově zpracovávat více souborů PSD?**  
+A: Rozhodně. Zabalte logiku načítání, úprav a ukládání do smyčky, která iteruje přes seznam cest k souborům.
+
+**Q: Zachovává knihovna hierarchii vrstev, když přidám novou vrstvu expozice?**  
+A: Ano. Nová vrstva je přidána nad existující vrstvy, čímž zachovává původní hierarchii.
+
+**Q: Do jakých obrazových formátů mohu exportovat kromě PNG?**  
+A: Aspose.PSD podporuje JPEG, BMP, TIFF a několik dalších formátů prostřednictvím odpovídajících tříd `*Options`.
+
+---
+
+**Poslední aktualizace:** 2026-04-05  
+**Testováno s:** Aspose.PSD for Java 24.10  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

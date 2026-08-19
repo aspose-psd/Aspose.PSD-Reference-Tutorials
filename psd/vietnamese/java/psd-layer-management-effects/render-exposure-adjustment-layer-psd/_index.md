@@ -1,10 +1,17 @@
 ---
+date: 2026-04-05
+description: Tìm hiểu cách hiển thị lớp điều chỉnh phơi sáng trong các tệp PSD bằng
+  Aspose.PSD cho Java. Hướng dẫn từng bước kèm ví dụ mã để chỉnh sửa và thêm các lớp
+  phơi sáng.
+keywords:
+- render exposure adjustment layer
+- exposure adjustment layer
+- Aspose.PSD Java
+linktitle: Kết xuất lớp điều chỉnh phơi sáng trong các tệp PSD - Java
+second_title: Aspose.PSD Java API
 title: Kết xuất lớp điều chỉnh phơi sáng trong tệp PSD - Java
-linktitle: Kết xuất lớp điều chỉnh phơi sáng trong tệp PSD - Java
-second_title: API Java Aspose.PSD
-description: Tìm hiểu cách kết xuất và điều chỉnh các lớp phơi sáng trong tệp PSD bằng Aspose.PSD cho Java. Hướng dẫn từng bước với các ví dụ về mã để sửa đổi và thêm các lớp hiển thị.
-weight: 15
 url: /vi/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,20 +22,36 @@ url: /vi/java/psd-layer-management-effects/render-exposure-adjustment-layer-psd/
 
 ## Giới thiệu
 
-Bạn đang làm việc với các tệp PSD của Photoshop và cần điều chỉnh độ phơi sáng hoặc thêm lớp điều chỉnh độ phơi sáng theo chương trình? Cho dù bạn đang điều chỉnh các lớp hiện có hay thêm các lớp mới, Aspose.PSD cho Java đều cung cấp một cách mạnh mẽ và trực quan để xử lý các tác vụ này. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách sử dụng Aspose.PSD cho Java để hiển thị và sửa đổi các lớp điều chỉnh độ phơi sáng trong tệp PSD. Đến cuối hướng dẫn này, bạn sẽ biết cách điều chỉnh cài đặt độ phơi sáng trong các lớp hiện có và thêm các lớp điều chỉnh độ phơi sáng mới vào tệp PSD của mình. Hãy đi sâu vào!
+Bạn đang làm việc với các tệp Photoshop PSD và cần **render exposure adjustment layer** một cách lập trình? Dù bạn đang chỉnh sửa các lớp hiện có hay thêm lớp mới, Aspose.PSD for Java cung cấp một cách mạnh mẽ và trực quan để xử lý các nhiệm vụ này. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách sử dụng Aspose.PSD for Java để render và chỉnh sửa các lớp điều chỉnh phơi sáng trong tệp PSD. Khi kết thúc bài hướng dẫn này, bạn sẽ biết cách điều chỉnh các thiết lập phơi sáng trong các lớp hiện có và thêm lớp điều chỉnh phơi sáng mới vào tệp PSD của mình. Hãy bắt đầu!
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào cần thiết?** Aspose.PSD for Java
+- **Tôi có thể chỉnh sửa một lớp phơi sáng hiện có không?** Có, bạn có thể thay đổi exposure, offset và gamma correction.
+- **Làm thế nào để thêm một lớp điều chỉnh phơi sáng mới?** Sử dụng `addExposureAdjustmentLayer()` trên một thể hiện `PsdImage`.
+- **Xuất PNG có được hỗ trợ không?** Hoàn toàn có – sử dụng `PngOptions` để lưu kết quả dưới dạng PNG.
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần giấy phép thương mại cho việc sử dụng trong sản xuất; bản dùng thử miễn phí có sẵn.
 
-Trước khi chúng ta bắt đầu hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## Lớp điều chỉnh phơi sáng render là gì?
 
-1. Bộ công cụ phát triển Java (JDK): Bạn cần cài đặt JDK trên máy của mình. Hướng dẫn này giả sử bạn có ít nhất JDK 8.
-2.  Aspose.PSD cho Java: Bạn cần thư viện Aspose.PSD để làm việc với các tệp PSD. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/psd/java/).
-3. Kiến thức cơ bản về Java: Làm quen với lập trình Java sẽ giúp bạn dễ dàng theo dõi.
-4. IDE hoặc Trình soạn thảo văn bản: Sử dụng bất kỳ IDE nào như IntelliJ IDEA, Eclipse hoặc trình soạn thảo văn bản mà bạn chọn để viết và chạy mã Java.
+Lớp điều chỉnh phơi sáng là một lớp Photoshop không phá hủy (non‑destructive) thay đổi độ sáng, offset và gamma của hình ảnh nền. Render lớp này có nghĩa là áp dụng các thiết lập đó để kết quả hình ảnh phản ánh các điều chỉnh, sau đó bạn có thể xuất ra các định dạng như PNG.
 
-## Gói nhập khẩu
+## Tại sao nên sử dụng Aspose.PSD for Java để render lớp điều chỉnh phơi sáng?
 
-Trước tiên, hãy nhập các gói cần thiết từ Aspose.PSD cho Java. Bước này đảm bảo rằng mã của chúng tôi có thể sử dụng các tính năng của thư viện để thao tác với tệp PSD.
+- **Kiểm soát đầy đủ** – thao tác các thuộc tính lớp mà không cần mở Photoshop.
+- **Xử lý hàng loạt** – tự động hoá các điều chỉnh trên nhiều tệp.
+- **Đa nền tảng** – chạy trên bất kỳ hệ thống nào có JDK.
+- **Bảo tồn cấu trúc PSD** – giữ các lớp có thể chỉnh sửa cho các lần sửa đổi sau.
+
+## Yêu cầu trước
+
+1. **Java Development Kit (JDK)** – ít nhất JDK 8.
+2. **Aspose.PSD for Java** – tải xuống từ [here](https://releases.aspose.com/psd/java/).
+3. **Kiến thức cơ bản về Java** – bạn nên quen thuộc với cú pháp Java tiêu chuẩn.
+4. **IDE hoặc Trình soạn thảo văn bản** – IntelliJ IDEA, Eclipse, VS Code, hoặc bất kỳ trình soạn thảo nào bạn thích.
+
+## Nhập gói
+
+Đầu tiên, nhập các lớp Aspose.PSD cần thiết:
 
 ```java
 import com.aspose.psd.Image;
@@ -38,112 +61,126 @@ import com.aspose.psd.fileformats.psd.layers.adjustmentlayers.ExposureLayer;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Bước 1: Tải tệp PSD
+## Cách render lớp điều chỉnh phơi sáng – Hướng dẫn từng bước
 
-Để bắt đầu, bạn cần tải tệp PSD của mình vào ứng dụng. Đây là cách bạn có thể làm điều đó:
+### Bước 1: Tải tệp PSD
 
 ```java
-String dataDir = "Your Document Directory";  // Xác định thư mục tài liệu của bạn
-String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  // Đường dẫn tệp PSD nguồn
+String dataDir = "Your Document Directory";  // Define your document directory
+String sourceFileName = dataDir + "ExposureAdjustmentLayer.psd";  // Source PSD file path
 
-PsdImage im = (PsdImage) Image.load(sourceFileName);  // Tải tập tin PSD
+PsdImage im = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 ```
 
- Trong đoạn mã này, thay thế`"Your Document Directory"` với đường dẫn chứa tệp PSD của bạn. các`Image.load()` phương thức tải tệp PSD vào một phiên bản của`PsdImage`, cho phép bạn thao tác các lớp của nó.
+Thay thế `"Your Document Directory"` bằng thư mục chứa các tệp PSD của bạn. Phương thức `Image.load()` trả về một đối tượng `PsdImage` cho phép bạn truy cập đầy đủ vào các lớp của tài liệu.
 
-## Bước 2: Chỉnh sửa lớp điều chỉnh phơi sáng hiện có
-
-Sau khi tải tệp PSD, bạn có thể truy cập và sửa đổi các lớp hiện có. Nếu tệp chứa lớp điều chỉnh độ phơi sáng, bạn có thể điều chỉnh các thuộc tính của nó:
+### Bước 2: Chỉnh sửa một lớp điều chỉnh phơi sáng hiện có
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
     if (im.getLayers()[i] instanceof ExposureLayer) {
         ExposureLayer expLayer = (ExposureLayer) im.getLayers()[i];
-        expLayer.setExposure(2);  // Điều chỉnh mức độ phơi sáng
-        expLayer.setOffset(-0.25f);  // Đặt phần bù
-        expLayer.setGammaCorrection(0.5f);  // Điều chỉnh hiệu chỉnh gamma
+        expLayer.setExposure(2);  // Adjust the exposure level
+        expLayer.setOffset(-0.25f);  // Set the offset
+        expLayer.setGammaCorrection(0.5f);  // Adjust the gamma correction
     }
 }
 ```
 
-Trong vòng lặp này, chúng tôi lặp lại tất cả các lớp của tệp PSD. Nếu chúng ta tìm thấy một`ExposureLayer` , chúng tôi sửa đổi nó`Exposure`, `Offset` , Và`GammaCorrection` của cải. Điều này cho phép bạn tinh chỉnh đầu ra hình ảnh của lớp điều chỉnh độ phơi sáng.
+Vòng lặp duyệt qua mọi lớp, tìm bất kỳ `ExposureLayer` nào và cập nhật ba tham số chính của nó. Đây là phần cốt lõi của **rendering the exposure adjustment layer** với các giá trị tùy chỉnh của bạn.
 
-## Bước 3: Lưu tệp PSD đã sửa đổi
-
-Sau khi thực hiện thay đổi, bạn cần lưu file PSD đã cập nhật:
+### Bước 3: Lưu tệp PSD đã chỉnh sửa
 
 ```java
-String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  // Đường dẫn lưu file PSD đã sửa đổi
+String psdPathAfterChange = dataDir + "ExposureAdjustmentLayerChanged.psd";  // Path to save the modified PSD file
 
-im.save(psdPathAfterChange);  // Lưu các thay đổi vào tệp PSD
+im.save(psdPathAfterChange);  // Save the changes to the PSD file
 ```
 
-Dòng này lưu tệp PSD đã sửa đổi vào đường dẫn đã chỉ định, duy trì các điều chỉnh độ phơi sáng của bạn.
+Tệp PSD đã chỉnh sửa giữ nguyên tất cả các lớp gốc, nhưng lớp điều chỉnh phơi sáng bây giờ phản ánh các thiết lập mới.
 
-## Bước 4: Xuất dưới dạng PNG
-
-Để xuất tệp PSD đã cập nhật dưới dạng PNG, hãy làm theo các bước sau:
+### Bước 4: Xuất kết quả dưới dạng PNG
 
 ```java
-String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // Đường dẫn lưu file PNG
+String pngExportPath = dataDir + "ExposureAdjustmentLayerChanged.png";  // Path to save the PNG file
 
-PngOptions saveOptions = new PngOptions();  // Tạo tùy chọn PNG
-saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  // Đặt loại màu thành Truecolor với Alpha
+PngOptions saveOptions = new PngOptions();  // Create PNG options
+saveOptions.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-im.save(pngExportPath, saveOptions);  // Lưu dưới dạng PNG
+im.save(pngExportPath, saveOptions);  // Save as PNG
 ```
 
- Đây,`PngOptions` được sử dụng để định cấu hình cài đặt xuất PNG.`PngColorType.TruecolorWithAlpha` đảm bảo rằng tệp PNG giữ được độ sâu màu và độ trong suốt.
+Sử dụng `PngOptions` với `TruecolorWithAlpha` đảm bảo PNG xuất ra giữ đầy đủ độ sâu màu và bất kỳ độ trong suốt nào từ PSD.
 
-## Bước 5: Thêm lớp điều chỉnh phơi sáng mới
+### Bước 5: Thêm một lớp điều chỉnh phơi sáng mới
 
-Nếu bạn muốn thêm lớp điều chỉnh độ phơi sáng mới vào tệp PSD hiện có, bạn có thể thực hiện bằng đoạn mã sau:
+Nếu bạn cần **add a new exposure adjustment layer** vào một tài liệu hiện có, hãy sử dụng đoạn mã sau:
 
 ```java
-String sourceFileName = dataDir + "PhotoExample.psd";  // Đường dẫn tệp PSD nguồn
+String sourceFileName = dataDir + "PhotoExample.psd";  // Source PSD file path
 
-PsdImage img = (PsdImage) Image.load(sourceFileName);  // Tải tập tin PSD
+PsdImage img = (PsdImage) Image.load(sourceFileName);  // Load the PSD file
 
-ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  // Thêm lớp điều chỉnh độ phơi sáng mới
+ExposureLayer newLayer = img.addExposureAdjustmentLayer(2, -0.25f, 2f);  // Add new exposure adjustment layer
 
-String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  // Đường dẫn lưu file PSD đã sửa đổi
-String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // Đường dẫn lưu file PNG
+String psdPathAfterChange = dataDir + "PhotoExampleAddedExposure.psd";  // Path to save the modified PSD file
+String pngExportPath = dataDir + "PhotoExampleAddedExposure.png";  // Path to save the PNG file
 
-img.save(psdPathAfterChange);  // Lưu các thay đổi vào tệp PSD
+img.save(psdPathAfterChange);  // Save the changes to the PSD file
 
-PngOptions options = new PngOptions();  // Tạo tùy chọn PNG
-options.setColorType(PngColorType.TruecolorWithAlpha);  // Đặt loại màu thành Truecolor với Alpha
+PngOptions options = new PngOptions();  // Create PNG options
+options.setColorType(PngColorType.TruecolorWithAlpha);  // Set color type to Truecolor with Alpha
 
-img.save(pngExportPath, options);  // Lưu dưới dạng PNG
+img.save(pngExportPath, options);  // Save as PNG
 ```
 
-Trong bước này, một lớp điều chỉnh độ phơi sáng mới sẽ được thêm vào tệp PSD với các giá trị hiệu chỉnh độ phơi sáng, độ lệch và gamma được chỉ định. Sau đó, các tệp PSD và PNG được cập nhật sẽ được lưu.
+Phương thức `addExposureAdjustmentLayer` tạo một lớp điều chỉnh mới với các giá trị exposure, offset và gamma được chỉ định, sau đó bạn có thể render và xuất nó giống như trước.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Mẹo
 
-Và bạn có nó! Bạn đã học cách kết xuất và điều chỉnh các lớp hiển thị trong tệp PSD bằng Aspose.PSD cho Java. Chúng tôi đã đề cập đến cách sửa đổi các lớp phơi sáng hiện có, thêm các lớp mới và xuất tác phẩm của bạn dưới dạng tệp PNG. Cho dù bạn đang chỉnh sửa ảnh hay chuẩn bị nội dung thiết kế, những kỹ năng này sẽ nâng cao khả năng quản lý tệp PSD của bạn theo chương trình. Chúc mừng mã hóa!
+- **Không tìm thấy lớp** – Đảm bảo PSD thực sự chứa một `ExposureLayer`. Sử dụng `instanceof ExposureLayer` như trong ví dụ để tránh `ClassCastException`.
+- **Lỗi đường dẫn tệp** – Sử dụng đường dẫn tuyệt đối hoặc xác minh rằng `dataDir` kết thúc bằng ký tự phân tách tệp (`/` hoặc `\`).
+- **Ngoại lệ giấy phép** – Chạy mà không có giấy phép hợp lệ sẽ thêm watermark vào đầu ra. Đăng ký giấy phép sớm trong mã (`License license = new License(); license.setLicense("Aspose.PSD.lic");`).
 
 ## Câu hỏi thường gặp
 
-### Aspose.PSD cho Java là gì?
+### Aspose.PSD for Java là gì?
 
-Aspose.PSD for Java là thư viện cho phép bạn tạo, chỉnh sửa và chuyển đổi các tệp PSD theo chương trình bằng Java. Nó cung cấp chức năng toàn diện để làm việc với các tài liệu Photoshop.
+Aspose.PSD for Java là một thư viện cho phép bạn tạo, chỉnh sửa và chuyển đổi các tệp PSD một cách lập trình bằng Java. Nó cung cấp chức năng toàn diện để làm việc với tài liệu Photoshop.
 
-### Tôi có thể sử dụng Aspose.PSD cho Java để thao tác với các loại lớp khác không?
+### Tôi có thể sử dụng Aspose.PSD for Java để thao tác các loại lớp khác không?
 
-Có, Aspose.PSD cho Java hỗ trợ nhiều loại lớp khác nhau, bao gồm lớp văn bản, lớp điều chỉnh và lớp hình ảnh, cho phép thao tác rộng rãi trên các tệp PSD.
+Có, Aspose.PSD for Java hỗ trợ nhiều loại lớp, bao gồm lớp văn bản, lớp điều chỉnh và lớp hình ảnh, cho phép thao tác rộng rãi các tệp PSD.
 
-### Làm cách nào để bắt đầu với Aspose.PSD cho Java?
+### Làm thế nào để bắt đầu với Aspose.PSD for Java?
 
- Bạn có thể bắt đầu bằng cách tải xuống thư viện từ[trang web](https://releases.aspose.com/psd/java/) và đề cập đến[tài liệu](https://reference.aspose.com/psd/java/) để biết hướng dẫn chi tiết và ví dụ.
+Bạn có thể bắt đầu bằng cách tải thư viện từ [website](https://releases.aspose.com/psd/java/) và tham khảo [documentation](https://reference.aspose.com/psd/java/) để có hướng dẫn chi tiết và ví dụ.
 
-### Có bản dùng thử miễn phí dành cho Aspose.PSD cho Java không?
+### Có bản dùng thử miễn phí cho Aspose.PSD for Java không?
 
- Có, bản dùng thử miễn phí có sẵn. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/).
+Có, bản dùng thử miễn phí có sẵn. Bạn có thể tải xuống [here](https://releases.aspose.com/).
 
-### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.PSD cho Java?
+### Làm sao tôi có thể nhận hỗ trợ cho Aspose.PSD for Java?
 
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/psd/34) nơi bạn có thể đặt câu hỏi và nhận trợ giúp từ cộng đồng.
+Để được hỗ trợ, bạn có thể truy cập [Aspose support forum](https://forum.aspose.com/c/psd/34) nơi bạn có thể đặt câu hỏi và nhận trợ giúp từ cộng đồng.
+
+**Câu hỏi bổ sung**
+
+**Q: Tôi có thể batch‑process nhiều tệp PSD không?**  
+A: Chắc chắn. Đặt logic tải, chỉnh sửa và lưu trong một vòng lặp lặp qua danh sách các đường dẫn tệp.
+
+**Q: Thư viện có giữ nguyên cấu trúc lớp khi tôi thêm lớp exposure mới không?**  
+A: Có. Lớp mới được thêm lên trên các lớp hiện có, duy trì cấu trúc gốc.
+
+**Q: Tôi có thể xuất sang những định dạng ảnh nào ngoài PNG?**  
+A: Aspose.PSD hỗ trợ JPEG, BMP, TIFF và một số định dạng khác thông qua các lớp `*Options` tương ứng.
+
+---
+
+**Last Updated:** 2026-04-05  
+**Tested With:** Aspose.PSD for Java 24.10  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

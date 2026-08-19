@@ -1,30 +1,50 @@
 ---
-title: Vrstva úprav úrovně vykreslení v souborech PSD - Java
-linktitle: Vrstva úprav úrovně vykreslení v souborech PSD - Java
+date: 2026-04-05
+description: Naučte se, jak exportovat PSD do PNG a bez námahy zvýšit kontrast obrázku
+  pomocí Aspose.PSD pro Javu. Ovládněte vrstvy úpravy úrovní s tímto krok‑za‑krokem
+  průvodcem.
+keywords:
+- export psd to png
+- how to adjust levels
+- batch process psd files
+linktitle: Export PSD do PNG a vykreslení vrstvy úpravy úrovně v Javě
 second_title: Aspose.PSD Java API
-description: Naučte se, jak snadno zlepšit kontrast a živost obrazu pomocí Aspose.PSD pro Java. Master Levels Adjustment Layers s tímto průvodcem krok za krokem.
-weight: 17
+title: Exportovat PSD do PNG a renderovat vrstvu úpravy úrovně v Javě
 url: /cs/java/psd-layer-management-effects/render-level-adjustment-layer-psd/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vrstva úprav úrovně vykreslení v souborech PSD - Java
+# Export PSD do PNG a vykreslení vrstvy úpravy úrovní v Javě
 
-## Zavedení
+## Úvod
 
-Už jste někdy otevřeli soubor PSD, abyste našli obrázek postrádající kontrast nebo živost? Nebojte se, bojovníci za úpravu obrázků! Aspose.PSD for Java přichází k záchraně se svými výkonnými možnostmi manipulace s vrstvami úprav úrovní. Tato příručka vás vybaví znalostmi pro jemné doladění obrázků pomocí Úrovně v vánku. 
+Už jste někdy otevřeli soubor PSD a všimli si, že barvy vypadají ploché nebo kontrast není správný? Můžete rychle **export PSD to PNG** a zároveň jemně doladit obrázek pomocí vrstvy úpravy úrovní pomocí Aspose.PSD pro Javu. V tomto tutoriálu vás provedeme celým procesem – od načtení PSD, úpravy úrovní až po uložení výsledku jako PNG – takže můžete zvýšit živost a během několika minut připravit webové assety.
 
-## Předpoklady
+## Rychlé odpovědi
+- **What does “export PSD to PNG” mean?** Převádí dokument Photoshopu do bezztrátového PNG obrázku při zachování průhlednosti.  
+- **Can I adjust levels before exporting?** Ano, Aspose.PSD vám umožňuje programově upravovat vstupní a výstupní úrovně.  
+- **Do I need a license?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Is batch processing possible?** Rozhodně – můžete umístit kód do smyčky pro zpracování více souborů PSD.  
+- **Which Java version is required?** Doporučuje se Java 8 nebo novější.
 
-- Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou nejnovější verzi JDK. Můžete si jej stáhnout z webu Oracle ([https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)).
-- Aspose.PSD for Java Library: Stáhněte si knihovnu Aspose.PSD for Java ze stránky stahování ([https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/)). K používání všech funkcí budete potřebovat platnou licenci, ale pro začátek je k dispozici bezplatná zkušební verze ([https://releases.aspose.com/](https://releases.aspose.com/)).
+## Co je “export PSD to PNG”?
+Exportování PSD do PNG znamená převést vrstvený soubor Photoshopu a zploštit jej do obrázku Portable Network Graphics. PNG podporuje bezztrátovou kompresi a alfa kanál, což ho činí ideálním pro webovou grafiku a UI assety.
 
-## Importujte balíčky
+## Proč upravit úrovně před exportem?
+Úprava úrovní vám umožní řídit stíny, střední tóny a světla, čímž zlepšuje celkový kontrast a barevnou rovnováhu. Tento krok zajišťuje, že finální PNG vypadá vylepšeně bez nutnosti ruční úpravy ve Photoshopu.
 
-Než se ponoříme do kódu, musíme importovat potřebné třídy Aspose.PSD pro interakci se soubory PSD. Zde je to, co budete potřebovat:
+## Požadavky
+
+- **Java Development Kit (JDK)** – stáhněte nejnovější verzi z webu Oracle ([https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)).  
+- **Aspose.PSD for Java Library** – stáhněte ji z oficiální stránky ke stažení ([https://releases.aspose.com/psd/java/](https://releases.aspose.com/psd/java/)). K dispozici je bezplatná zkušební verze ([https://releases.aspose.com/](https://releases.aspose.com/)).
+
+## Import balíčků
+
+Než se ponoříte do kódu, importujte třídy, které nám poskytují přístup k manipulaci s PSD a exportu do PNG:
 
 ```java
 import com.aspose.psd.Image;
@@ -35,13 +55,11 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.LevelChannel;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
- The`com.aspose.psd` balíček poskytuje přístup k funkcím manipulace s PSD, zatímco`com.aspose.psd.imaging.PngOptions` nám umožňuje definovat možnosti při ukládání obrázku jako PNG.
+## Průvodce krok za krokem
 
-Nyní se pojďme pustit do našeho dobrodružství s úpravou úrovní:
+### Krok 1: Definujte cesty k souborům (Jak automatizovat zpracování PSD)
 
-## Krok 1: Nastavení cest souborů:
-
-- Definujte proměnné pro svůj adresář dokumentů (`dataDir`), název zdrojového souboru PSD (`sourceFileName`), název cílového souboru PSD po úpravě (`psdPathAfterChange`) a konečná cesta exportu PNG (`pngExportPath`). Zvažte použití popisných názvů ke zlepšení čitelnosti kódu.
+Nastavte jasné, popisné proměnné pro zdrojový PSD, upravený PSD a konečnou destinaci exportu PNG.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -51,40 +69,40 @@ String psdPathAfterChange = dataDir + "LevelsAdjustmentLayerChanged.psd";
 String pngExportPath = dataDir + "LevelsAdjustmentLayerChanged.png";
 ```
 
-## Krok 2: Načtení obrázku PSD:
+### Krok 2: Načtěte obrázek PSD
 
--  Použijte`Image.load` způsob, jak otevřít zdrojový soubor PSD a uložit jej do a`PsdImage`objekt (`im`). Aspose.PSD automaticky detekuje formát souboru.
+Použijte `Image.load` k načtení souboru PSD do objektu `PsdImage`. Aspose.PSD automaticky detekuje formát.
 
 ```java
 PsdImage im = (PsdImage)Image.load(sourceFileName);
 ```
 
-## Krok 3: Iterace přes vrstvy:
+### Krok 3: Procházejte vrstvy (Jak upravit úrovně)
 
-- Potřebujeme najít vrstvu pro úpravu úrovní ve vašem PSD. Aspose poskytuje pohodlný způsob, jak iterovat všemi vrstvami pomocí smyčky.
+Projděte každou vrstvu, abyste našli vrstvu úpravy úrovní.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
-   // ... (zde bude přidán kód pro kontrolu vrstvy úrovní)
+   // ... (code to check for Levels Layer will be added here)
 }
 ```
 
-## Krok 4: Identifikace vrstvy úrovní:
+### Krok 4: Identifikujte vrstvu úrovní
 
-- Uvnitř smyčky zkontrolujte, zda aktuální vrstva (`im.getLayers()[i]` ) je příkladem`LevelsLayer` třídy pomocí`instanceof` operátor. 
--  Pokud ano, přeneste vrstvu na a`LevelsLayer` objekt pro další manipulaci.
+Zkontrolujte každou vrstvu pomocí `instanceof LevelsLayer`. Jakmile ji najdete, přetypujte ji, abychom mohli upravit její vlastnosti.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
    if (im.getLayers()[i] instanceof LevelsLayer) {
 	   LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
-	   // ... (zde bude přidán kód pro úpravu úrovní)
+	   // ... (code to adjust levels will be added here)
    }
 }
 ```
-## Krok 5: Jemné doladění úrovní (pokračování):
 
--  Upravte výstupní úrovně pomocí`setOutputShadowLevel` a`setOutputHighlightLevel` ovládat tmavost a světlost výsledného obrazu. Tyto hodnoty určují rozsah vstupních úrovní, které budou mapovány do výstupního rozsahu.
+### Krok 5: Jemně doladit úrovně (Jak upravit úrovně)
+
+Upravte vstupní i výstupní úrovně pro první kanál (obvykle kompozitní kanál). Tyto hodnoty jsou jen příklady; klidně experimentujte.
 
 ```java
 for (int i = 0; i < im.getLayers().length; i++) {
@@ -92,29 +110,29 @@ for (int i = 0; i < im.getLayers().length; i++) {
 	   LevelsLayer levelsLayer = (LevelsLayer) im.getLayers()[i];
 	   LevelChannel channel = levelsLayer.getChannel(0);
 
-	   // Upravit vstupní úrovně (0-255):
-	   channel.setInputShadowLevel((short) 10); // Stíny mírně ztmavte
-	   channel.setInputMidtoneLevel(2.0f);     // Zvyšte střední tóny
-	   channel.setInputHighlightLevel((short) 230); // Omezte odlesky
+	   // Adjust Input Levels (0‑255):
+	   channel.setInputShadowLevel((short) 10); // Darken shadows slightly
+	   channel.setInputMidtoneLevel(2.0f);     // Increase midtones
+	   channel.setInputHighlightLevel((short) 230); // Reduce highlights
 
-	   // Upravit výstupní úrovně (0-255):
-	   channel.setOutputShadowLevel((short) 20); // Dále ztmavte stíny
-	   channel.setOutputHighlightLevel((short) 200); //Rozjasněte odlesky
+	   // Adjust Output Levels (0‑255):
+	   channel.setOutputShadowLevel((short) 20); // Darken shadows further
+	   channel.setOutputHighlightLevel((short) 200); // Brighten highlights
    }
 }
 ```
 
-## Krok 6: Uložení upraveného PSD:
+### Krok 6: Uložte upravený PSD (Jak automatizovat PSD)
 
--  Použijte`save` metoda`PsdImage` objekt pro uložení upraveného obrázku do zadané cesty (`psdPathAfterChange`).
+Uložte změny zpět do nového souboru PSD.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-## Krok 7: Export jako PNG (volitelné):
+### Krok 7: Exportujte jako PNG (Export PSD to PNG)
 
--  Pokud potřebujete verzi PNG upraveného obrázku, vytvořte a`PngOptions` objekt a nastavte typ barvy na`TruecolorWithAlpha` . Poté použijte`save` znovu s cestou exportu PNG a možnostmi.
+Pokud potřebujete verzi PNG, nakonfigurujte `PngOptions` a uložte obrázek.
 
 ```java
 PngOptions saveOptions = new PngOptions();
@@ -122,28 +140,45 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-A tady to máte! Úspěšně jste upravili vrstvu úprav úrovní v souboru PSD pomocí Aspose.PSD for Java. Pochopením těchto kroků a experimentováním s různými hodnotami můžete zlepšit kontrast a celkový vzhled svých obrázků.
+## Běžné případy použití
+
+- **Web asset preparation:** Převést návrhem poskytnuté PSD mockupy do PNG připravených pro prohlížeče.  
+- **Batch processing:** Automatizovat konverzi desítek souborů PSD v CI pipeline.  
+- **Dynamic image generation:** Upravit úrovně za běhu na základě vstupu uživatele před exportem.
+
+## Řešení problémů a tipy
+
+- **Null pointer when accessing layers:** Ujistěte se, že PSD skutečně obsahuje vrstvu úpravy úrovní; jinak přidejte kontrolu na null.  
+- **Unexpected colors after export:** Ověřte, že typ barvy PNG je nastaven na `TruecolorWithAlpha`, aby se zachovala průhlednost.  
+- **Performance with many files:** Znovu použijte stejnou instanci `PsdImage` při zpracování dávky, aby se snížila zátěž paměti.
+
+## Často kladené otázky
+
+**Q: Mohu upravit jednotlivé barevné kanály (RGB) samostatně?**  
+A: Ano. Použijte `levelsLayer.getChannel(index)`, kde `index` = 0 (Red), 1 (Green), 2 (Blue) pro úpravu každého kanálu samostatně.
+
+**Q: Jak mohu zpracovat více vrstev úpravy úrovní v jednom PSD?**  
+A: Smyčka zpracovává každou vrstvu; každá nalezená `LevelsLayer` bude upravena podle kódu uvnitř bloku `if`.
+
+**Q: Existují i jiné způsoby, jak zlepšit kontrast kromě úrovní?**  
+A: Aspose.PSD také nabízí úpravy křivek, jas/kontrast a ekvalizaci histogramu.
+
+**Q: Mohu to automatizovat pro složku souborů PSD?**  
+A: Zabalte celý workflow do smyčky `File[] files = new File(dataDir).listFiles((d, name) -> name.endsWith(".psd"));` a zpracovávejte každý soubor postupně.
+
+**Q: Kde mohu najít další dokumentaci a podporu?**  
+A: Navštivte oficiální referenci ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)) a komunitní fórum ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)).
 
 ## Závěr
 
-Aspose.PSD for Java vám umožňuje převzít kontrolu nad procesem úprav obrázků. Zvládnutím vrstvy úprav úrovní můžete svým fotografiím a návrhům vdechnout nový život. Pamatujte, že praxe dělá mistra, takže neváhejte experimentovat a prozkoumat plný potenciál tohoto mocného nástroje.
- 
-## FAQ
+Ovládnutím workflow **export PSD to PNG** a naučením se **how to adjust levels** programově získáte plnou kontrolu nad kvalitou obrazu, aniž byste opustili své Java prostředí. Ať už připravujete assety pro web, automatizujete design pipeline nebo vytváříte dávkový procesor, Aspose.PSD pro Javu dělá práci jednoduchou a spolehlivou.
 
-### Mohu upravit jednotlivé barevné kanály (RGB) samostatně? 
-Ano, ke každému barevnému kanálu můžete přistupovat pomocí`getChannel` metoda`LevelsLayer` objekt a nezávisle upravovat jeho úrovně.
+---
 
-### Jak zpracuji více vrstev úprav úrovní v PSD?
-Kód prochází všemi vrstvami, takže automaticky zpracuje všechny další vrstvy úrovní nalezené v obrázku.
+**Poslední aktualizace:** 2026-04-05  
+**Testováno s:** Aspose.PSD 24.11 for Java  
+**Autor:** Aspose  
 
-### Existují jiné způsoby, jak upravit kontrast obrazu kromě Úrovně?
-Absolutně! Aspose.PSD nabízí různé nástroje pro úpravu obrazu, jako jsou křivky, jas/kontrast a další.
-
-### Mohu tento proces automatizovat pro více obrázků? 
-Ano, tento kód můžete začlenit do smyčky nebo skriptu pro dávkové zpracování pro efektivní zpracování více souborů PSD.
-
-### Kde najdu další informace a podporu?
-Aspose poskytuje rozsáhlou dokumentaci ([https://reference.aspose.com/psd/java/](https://reference.aspose.com/psd/java/)) a fórum podpory ([https://forum.aspose.com/c/psd/34](https://forum.aspose.com/c/psd/34)) pro jakékoli dotazy nebo problémy, se kterými se můžete setkat.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
