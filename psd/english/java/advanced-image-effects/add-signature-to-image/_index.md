@@ -1,22 +1,28 @@
 ---
-title: "Draw Image on Canvas – Add a Signature with Aspose.PSD for Java"
+title: "Add Signature to Image – Draw Image on Canvas with Aspose.PSD for Java"
 linktitle: "Add a Signature to an Image"
 second_title: "Aspose.PSD Java API"
-description: "Learn how to draw image on canvas and overlay a signature in Java using Aspose.PSD. Follow this step‑by‑step java image processing tutorial and save the result as PNG."
+description: "Learn how to add signature to image by drawing an image on canvas with Aspose.PSD for Java. This java image processing tutorial shows how to save image as PNG and overlay graphics."
 weight: 13
 url: /java/advanced-image-effects/add-signature-to-image/
-date: 2025-12-02
+date: 2026-04-28
+keywords:
+- add signature to image
+- draw image on canvas
+- save image as png
+- java image processing
+- add watermark java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Draw Image on Canvas – Add a Signature with Aspose.PSD for Java
+# Add Signature to Image – Draw Image on Canvas with Aspose.PSD for Java
 
 ## Introduction
 
-Adding a handwritten or digital signature to a picture is a frequent requirement for contracts, invoices, or any document that needs proof of authenticity. With **Aspose.PSD for Java** you can **draw image on canvas** and treat the signature as just another overlay layer. In this **java image processing tutorial** we’ll walk through the entire workflow—from loading the base picture and the signature file, to initializing graphics, drawing the overlay, and finally **save image png java**‑style.
+Adding a handwritten or digital **add signature to image** is a common requirement for contracts, invoices, or any document that needs proof of authenticity. In this tutorial you’ll see how Aspose.PSD for Java lets you **draw image on canvas** and treat the signature as just another overlay layer. We’ll walk through loading the base picture, loading the signature file, initializing a graphics context, drawing the overlay, and finally **save image as PNG**. By the end you’ll have a reusable pattern for any **java image processing** scenario, whether it’s a signature, watermark, or logo.
 
 ## Quick Answers
 - **What does “draw image on canvas” mean?** It refers to rendering one image onto another using the `Graphics` class.  
@@ -99,11 +105,14 @@ In this snippet we **overlay images java** by positioning the signature at the b
 | Output file is huge | Saving without compression | Pass a configured `PngOptions` with `CompressionLevel` set to a higher value. |
 | Nothing is drawn | Graphics not disposed | Call `graphics.dispose()` after drawing (optional, but good practice). |
 
-## Conclusion
+## Additional Tips for Real‑World Use
 
-By following these steps you’ve learned **how to draw image on canvas** and seamlessly **add a signature** using Aspose.PSD for Java. This technique can be extended to watermarks, logos, or any overlay graphics, giving your Java applications powerful **java image processing** capabilities.
+- **Multiple signatures:** Call `graphics.drawImage` repeatedly with different `Image` objects and coordinates.  
+- **Opacity control:** Use `graphics.setOpacity(float opacity)` before drawing to make the signature semi‑transparent.  
+- **Rotating the signature:** Apply `graphics.rotateTransform(angle)` if you need a slanted signature.  
+- **Saving to other formats:** Replace `PngOptions` with `JpegOptions` or `BmpOptions` to output JPEG, BMP, etc.
 
-## FAQ's
+## Frequently Asked Questions
 
 ### Q1: Can I add multiple signatures to an image?
 
@@ -125,7 +134,7 @@ A4: Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for communit
 
 A5: Yes, you can get a [free trial](https://releases.aspose.com/) to explore the features before making a purchase.
 
-## Additional Frequently Asked Questions
+**Additional FAQs**
 
 **Q: How do I change the opacity of the signature?**  
 A: Use `graphics.setOpacity(float opacity)` before calling `drawImage`. Values range from 0.0 (transparent) to 1.0 (opaque).
@@ -136,9 +145,13 @@ A: Yes—apply a transformation matrix via `graphics.rotateTransform(angle)` bef
 **Q: Can I draw the signature onto a JPEG instead of PNG?**  
 A: Absolutely. Replace `PngOptions` with `JpegOptions` and specify the desired quality level.
 
+## Conclusion
+
+By following these steps you’ve learned **how to add signature to image** by **drawing an image on canvas** with Aspose.PSD for Java. The same pattern can be extended to watermarks, logos, or any overlay graphics, giving your Java applications powerful **java image processing** capabilities.
+
 ---
 
-**Last Updated:** 2025-12-02  
+**Last Updated:** 2026-04-28  
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 

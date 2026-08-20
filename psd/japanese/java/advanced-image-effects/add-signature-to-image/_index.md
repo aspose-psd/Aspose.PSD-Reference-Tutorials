@@ -1,10 +1,16 @@
 ---
-date: 2025-12-02
-description: Aspose.PSD を使用して Java でキャンバスに画像を描画し、署名をオーバーレイする方法を学びましょう。このステップバイステップの
-  Java 画像処理チュートリアルに従い、結果を PNG として保存します。
-linktitle: Add a Signature to an Image
+date: 2026-04-28
+description: Aspose.PSD for Java を使用してキャンバス上に画像を描画し、画像に署名を追加する方法を学びます。この Java 画像処理チュートリアルでは、画像を
+  PNG として保存し、グラフィックをオーバーレイする方法を示します。
+keywords:
+- add signature to image
+- draw image on canvas
+- save image as png
+- java image processing
+- add watermark java
+linktitle: 画像に署名を追加する
 second_title: Aspose.PSD Java API
-title: キャンバス上に画像を描く – Aspose.PSD for Javaで署名を追加
+title: 画像に署名を追加 – Aspose.PSD for Javaでキャンバスに画像を描画
 url: /ja/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
@@ -13,33 +19,33 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Canvasに画像を描画 – Aspose.PSD for Javaで署名を追加
+# 画像に署名を追加 – Aspose.PSD for Javaでキャンバスに画像を描画
 
-## Introduction
+## はじめに
 
-手書きまたはデジタル署名を画像に追加することは、契約書、請求書、または真正性の証明が必要なあらゆる文書で頻繁に求められます。**Aspose.PSD for Java** を使用すれば **draw image on canvas** が可能になり、署名を単なるオーバーレイレイヤーとして扱うことができます。この **java image processing tutorial** では、ベース画像と署名ファイルの読み込み、Graphics の初期化、オーバーレイの描画、そして最終的に **save image png java** 形式で保存するまでの全工程を解説します。
+手書きまたはデジタルの **add signature to image** を追加することは、契約書、請求書、または真正性の証明が必要なあらゆる文書で一般的な要件です。このチュートリアルでは、Aspose.PSD for Java が **draw image on canvas** を可能にし、署名を別のオーバーレイレイヤーとして扱う方法を示します。ベース画像の読み込み、署名ファイルの読み込み、Graphics コンテキストの初期化、オーバーレイの描画、そして最終的に **save image as PNG** までの手順を解説します。最後には、**java image processing** のシナリオ全般（署名、透かし、ロゴなど）で再利用できるパターンが手に入ります。
 
-## Quick Answers
-- **“draw image on canvas” とは何ですか？** `Graphics` クラスを使用して、ある画像を別の画像上に描画することを指します。  
-- **Java で署名を追加する方法は？** 署名ファイルを `Image` として読み込み、`Graphics.drawImage` を使用します。  
-- **必要な Aspose.PSD のバージョンは？** 最新の 24.x 系リリースであれば問題なく動作します。  
-- **複数の画像をオーバーレイできますか？** はい、異なるソースで `drawImage` を繰り返し呼び出すだけです。  
-- **ライセンスは必要ですか？** 開発段階ではトライアルで動作しますが、本番環境では商用ライセンスが必要です。
+## クイック回答
+- **draw image on canvas とは何ですか？** `Graphics` クラスを使用して、ある画像を別の画像にレンダリングすることを指します。  
+- **Java で署名を追加する方法は？** 署名ファイルを `Image` としてロードし、`Graphics.drawImage` を使用します。  
+- **必要な Aspose.PSD のバージョンは？** 最近の 24.x リリースであればどれでも構いません。コードは最新のライブラリでも動作します。  
+- **複数の画像をオーバーレイできますか？** はい—異なるソースで `drawImage` 呼び出しを繰り返すだけです。  
+- **ライセンスは必要ですか？** 開発にはトライアルで動作しますが、本番環境では商用ライセンスが必要です。
 
-## What Is “Draw Image on Canvas”?
-Aspose.PSD の用語では、画像をキャンバスに描画することは、`Graphics` コンテキストを介してある `Image` オブジェクトを別の `Image` にペイントすることを意味します。この操作は、ウォーターマーク、ロゴ、署名などの **overlay images java** 技術の基盤となります。
+## “draw image on canvas” とは何か？
+Aspose.PSD の用語では、キャンバスに画像を描画することは、`Graphics` コンテキストを使用してある `Image` オブジェクトを別の `Image` にペイントすることを意味します。この操作は、**overlay images java** のような透かし、ロゴ、署名の追加技術の基盤です。
 
-## Why Use Aspose.PSD for Overlaying a Signature?
-- **Full PSD support** – レイヤー、マスク、透過性をフルに扱えます。  
-- **No native OS dependencies** – 純粋な Java 実装で、サーバーサイド処理に最適です。  
-- **High‑performance rendering** – 大容量ファイルや複雑な構成でも高速にレンダリングできます。  
+## 署名のオーバーレイに Aspose.PSD を使用する理由
+- **Full PSD support** – レイヤー、マスク、透過性を扱えます。  
+- **No native OS dependencies** – 純粋な Java で、サーバーサイド処理に最適です。  
+- **High‑performance rendering** – 大容量ファイルや複雑な構成に最適化されています。  
 
-## Prerequisites
-- Java Development Kit (JDK) 8 以上。  
-- プロジェクトのクラスパスに Aspose.PSD for Java の JAR を追加。  
+## 前提条件
+- Java Development Kit (JDK) 8 以上。  
+- プロジェクトのクラスパスに Aspose.PSD for Java の JAR を追加します。  
 - 2 つの画像ファイル：ベース画像（例: `layers.psd`）と署名画像（`sample.psd`）。  
 
-## Import Packages
+## パッケージのインポート
 
 ```java
 import com.aspose.psd.Graphics;
@@ -50,7 +56,7 @@ import com.aspose.psd.Point;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step 1: Load Primary and Secondary Images
+## 手順 1: 主画像と副画像の読み込み
 
 ```java
 //ExStart:LoadImages
@@ -64,9 +70,9 @@ Image signature = Image.load(dataDir + "sample.psd");
 //ExEnd:LoadImages
 ```
 
-> **Pro tip:** 描画時の予期せぬ色変化を防ぐため、両方の画像を同じカラーモード (RGB) に統一してください。
+> **プロのコツ:** 描画時の予期せぬ色変化を防ぐため、両方の画像を同じカラーモード（RGB）に保ってください。
 
-## Step 2: Initialize Graphics (initialize graphics java)
+## 手順 2: Graphics の初期化 (initialize graphics java)
 
 ```java
 //ExStart:InitializeGraphics
@@ -74,9 +80,9 @@ Graphics graphics = new Graphics(canvas);
 //ExEnd:InitializeGraphics
 ```
 
-`Graphics` オブジェクトは、**draw image on canvas** を実現するためのペイントブラシのようなものです。プライマリ `Image` に対して初期化することで、以降のすべての描画コマンドがそのキャンバスに対して行われます。
+`Graphics` オブジェクトは、**draw image on canvas** を可能にするペイントブラシのようなものです。これを主 `Image` で初期化することで、以降のすべての描画コマンドがそのキャンバスに結び付けられます。
 
-## Step 3: Add Signature to Image (how to add signature)
+## 手順 3: 画像に署名を追加 (how to add signature)
 
 ```java
 //ExStart:AddSignatureToImage
@@ -91,57 +97,65 @@ canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 //ExEnd:AddSignatureToImage
 ```
 
-このコードスニペットでは、署名を画像の右下隅に配置して **overlay images java** を実現しています。別の位置にしたい場合は `Point` の値を調整してください。
+このスニペットでは、署名を右下隅に配置して **overlay images java** を実行しています。別の位置が必要な場合は `Point` の値を調整してください。
 
-## Common Issues & Solutions
-| Symptom | Cause | Fix |
-|---------|-------|-----|
-| 署名が歪んで表示される | キャンバスと署名の DPI が一致していない | 描画前に `signature.resize` を使用するか、両ファイルの DPI を統一してください。 |
-| 出力ファイルが巨大になる | 圧縮なしで保存している | `CompressionLevel` を高めた `PngOptions` を設定して保存してください。 |
-| 描画が全く行われない | Graphics が破棄されていない | 描画後に `graphics.dispose()` を呼び出してください（省略可能ですが推奨）。 |
+## よくある問題と解決策
 
-## Conclusion
+| 症状 | 原因 | 対策 |
+|------|------|------|
+| 署名が歪んで表示される | キャンバスと署名の DPI が一致していない | 描画前に `signature.resize` を使用するか、両ファイルが同じ DPI であることを確認してください。 |
+| 出力ファイルが巨大になる | 圧縮なしで保存している | `CompressionLevel` を高めに設定した `PngOptions` を渡してください。 |
+| 描画されない | Graphics が破棄されていない | 描画後に `graphics.dispose()` を呼び出してください（任意ですが推奨）。 |
 
-本手順に従うことで、**draw image on canvas** の方法と Aspose.PSD for Java を用いた **署名の追加** 方法を習得できました。このテクニックはウォーターマークやロゴなど、任意のオーバーレイ画像にも応用でき、Java アプリケーションに強力な **java image processing** 機能を提供します。
+## 実務での追加ヒント
 
-## FAQ's
+- **Multiple signatures:** 異なる `Image` オブジェクトと座標で `graphics.drawImage` を繰り返し呼び出します。  
+- **Opacity control:** 描画前に `graphics.setOpacity(float opacity)` を使用して署名を半透明にします。  
+- **Rotating the signature:** 斜めの署名が必要な場合は `graphics.rotateTransform(angle)` を適用します。  
+- **Saving to other formats:** `PngOptions` を `JpegOptions` や `BmpOptions` に置き換えて JPEG、BMP などで出力します。
+
+## よくある質問
 
 ### Q1: 画像に複数の署名を追加できますか？
 
-A1: はい、異なる署名画像を使用して手順を繰り返すことで複数の署名を追加できます。
+A1: はい、異なる署名画像で手順を繰り返すことで複数の署名を追加できます。
 
-### Q2: Aspose.PSD は他の画像形式もサポートしていますか？
+### Q2: Aspose.PSD は他の画像形式をサポートしていますか？
 
-A2: はい、Aspose.PSD は幅広い画像形式に対応しており、柔軟な画像処理が可能です。
+A2: はい、Aspose.PSD は幅広い画像形式をサポートしており、画像処理の柔軟性を確保します。
 
-### Q3: Aspose.PSD for Java の使用にライセンスは必要ですか？
+### Q3: Java 用 Aspose.PSD の使用にライセンスは必要ですか？
 
-A3: はい、Aspose.PSD の使用には有効なライセンスが必要です。ライセンスの詳細は [Purchase Aspose.PSD](https://purchase.aspose.com/buy) をご覧ください。
+A3: はい、Aspose.PSD を使用するには有効なライセンスが必要です。ライセンスの詳細は [Purchase Aspose.PSD](https://purchase.aspose.com/buy) をご覧ください。
 
-### Q4: Aspose.PSD のサポートはどこで受けられますか？
+### Q4: Aspose.PSD のサポートはどのように受けられますか？
 
-A4: コミュニティサポートやディスカッションは [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) で提供されています。
+A4: コミュニティサポートやディスカッションは [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) をご利用ください。
 
-### Q5: 購入前に Aspose.PSD for Java を試すことはできますか？
+### Q5: 購入前に Aspose.PSD for Java を試せますか？
 
-A5: はい、[free trial](https://releases.aspose.com/) で機能を確認した上で購入をご検討いただけます。
+A5: はい、購入前に機能を確認できる [free trial](https://releases.aspose.com/) を取得できます。
 
-## Additional Frequently Asked Questions
+**追加の FAQ**
 
 **Q: 署名の不透明度を変更するには？**  
-A: `drawImage` を呼び出す前に `graphics.setOpacity(float opacity)` を使用します。値は 0.0（完全に透明）から 1.0（完全に不透明）までです。
+A: `drawImage` を呼び出す前に `graphics.setOpacity(float opacity)` を使用します。値は 0.0（透明）から 1.0（不透明）までです。
 
 **Q: 署名を回転させることは可能ですか？**  
-A: はい、描画前に `graphics.rotateTransform(angle)` で変換行列を適用してください。
+A: はい—描画前に `graphics.rotateTransform(angle)` で変換行列を適用します。
 
 **Q: PNG ではなく JPEG に署名を描画できますか？**  
-A: もちろん可能です。`PngOptions` を `JpegOptions` に置き換え、希望の品質レベルを指定してください。
+A: もちろんです。`PngOptions` を `JpegOptions` に置き換え、希望の品質レベルを指定してください。
+
+## 結論
+
+これらの手順に従うことで、Aspose.PSD for Java を使用して **draw image on canvas** により **add signature to image** を行う方法を習得しました。同じパターンは透かし、ロゴ、その他のオーバーレイ画像にも拡張でき、Java アプリケーションに強力な **java image processing** 機能を提供します。
 
 ---
 
-**Last Updated:** 2025-12-02  
-**Tested With:** Aspose.PSD for Java 24.11  
-**Author:** Aspose  
+**最終更新日:** 2026-04-28  
+**テスト環境:** Aspose.PSD for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
