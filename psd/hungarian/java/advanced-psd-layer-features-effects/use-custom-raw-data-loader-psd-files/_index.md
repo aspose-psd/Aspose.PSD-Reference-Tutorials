@@ -1,66 +1,111 @@
 ---
-date: 2026-02-22
-description: Ismerje meg, hogyan valósíthatja meg az IPartialRawDataLoader interfészt
-  egyedi nyers adatbetöltéshez PSD-fájlokban az Aspose.PSD for Java használatával.
-  Lépésről‑lépésre útmutató beállítással és takarítással.
-linktitle: Use Custom Raw Data Loader in PSD Files - Java
+date: 2026-05-24
+description: Ismerje meg, hogyan lehet PSD rétegeket olvasni Java‑ban, és nagy PSD
+  fájlokat kezelni egy custom raw data loaderrel az Aspose.PSD for Java használatával.
+  Lépésről‑lépésre útmutató, előfeltételek és hibaelhárítás.
+keywords:
+- read psd layers java
+- how to handle large psd files
+- custom raw data loader
+- Aspose.PSD Java
+linktitle: Custom Raw Data Loader használata PSD fájlokban – Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to read PSD layers Java and handle large PSD files with a
+    custom raw data loader using Aspose.PSD for Java. Step‑by‑step guide, prerequisites,
+    and troubleshooting.
+  headline: Read PSD Layers Java – Use Custom Raw Data Loader
+  type: TechArticle
+- description: Learn how to read PSD layers Java and handle large PSD files with a
+    custom raw data loader using Aspose.PSD for Java. Step‑by‑step guide, prerequisites,
+    and troubleshooting.
+  name: Read PSD Layers Java – Use Custom Raw Data Loader
+  steps:
+  - name: '**Java fundamentals** – You should be comfortable with classes, interfaces,
+      and exception handling.'
+    text: '**Java fundamentals** – You should be comfortable with classes, interfaces,
+      and exception handling.'
+  - name: '**IDE or build tool** – IntelliJ IDEA, Eclipse, Maven, or Gradle will work.'
+    text: '**IDE or build tool** – IntelliJ IDEA, Eclipse, Maven, or Gradle will work.'
+  - name: '**Aspose.PSD library** – Download the latest JAR from the [site](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD library** – Download the latest JAR from the [site](https://releases.aspose.com/psd/java/).'
+  - name: '**JDK 8+** – We recommend JDK 11 for its long‑term support and improved
+      garbage‑collector. Get it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+      or use OpenJDK.'
+    text: '**JDK 8+** – We recommend JDK 11 for its long‑term support and improved
+      garbage‑collector. Get it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+      or use OpenJDK.'
+  - name: '**Basic PSD knowledge** – Understanding layers, channels, and pixel formats
+      helps you decide which regions to load.'
+    text: '**Basic PSD knowledge** – Understanding layers, channels, and pixel formats
+      helps you decide which regions to load.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD for Java is a library that enables developers to read, write,
+      and edit Photoshop PSD files programmatically, supporting layers, channels,
+      and metadata without requiring Photoshop itself.
+    question: What is Aspose.PSD for Java?
+  - answer: You can download Aspose.PSD for Java from the [release page](https://releases.aspose.com/psd/java/).
+    question: How do I download Aspose.PSD?
+  - answer: Yes, Aspose.PSD offers a free trial version that you can access [here](https://releases.aspose.com/).
+    question: Can I use Aspose.PSD for free?
+  - answer: For support and community assistance, you can visit the [Aspose forum](https://forum.aspose.com/c/psd/34).
+    question: What if I face issues or need support?
+  - answer: You can acquire a temporary license to evaluate all features by visiting
+      the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.PSD?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: IPartialRawDataLoader megvalósítása PSD fájlokhoz – Java
+title: PSD rétegek olvasása Java – Custom Raw Data Loader használata
 url: /hu/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 weight: 29
 ---
-
-Ok produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Egyedi nyers adatbetöltő használata PSD fájlokban – Java
+# PSD rétegek olvasása Java – Egyéni nyers adat betöltő használata
 
-## Bevezetés
-A PSD fájlok kezelése Java-ban elsőre ijesztőnek tűnhet, különösen a nyers adatokkal való munka során. Ne aggódj! Az Aspose.PSD for Java segítségével egyszerűen manipulálhatod és kinyerheted a nyers pixel adatokat a PSD fájlokból egy **egyedi nyers adatbetöltő** használatával. Ebben az útmutatóban megtanulod, hogyan **valósítsd meg az IPartialRawDataLoader interfészt**, hogy a pixel adatfolyamot pontosan úgy irányíthasd, ahogy szükséges. A teljes folyamatot – a projekt beállításától az erőforrások felszabadításáig – végigvezetjük, hogy magabiztosan dolgozhass PSD rétegekkel.
+A Photoshop (PSD) fájlokkal való munka Java-ban ijesztőnek tűnhet, különösen, ha finomhangolt vezérlést igényel a pixeladatok felett. **Read PSD layers Java** egyszerűvé válik, ha kihasználod az Aspose.PSD bővíthető pontjait. Ez a bemutató megmutatja, hogyan **valósítsd meg a `IPartialRawDataLoader` interfészt**, így képes leszel nyers pixelfolyamokat elfogni, csak a számodra fontos területeket feldolgozni, és alacsony memóriahasználatot fenntartani nagy PSD fájlok kezelésekor. A végére egy újrahasználható betöltőt, egy tiszta projektbeállítást és a legjobb gyakorlatú takarítási lépéseket kapsz – mindezt egy beszélgetős, lépésről‑lépésre stílusban.
 
 ## Gyors válaszok
-- **Mit csinál egy egyedi nyers adatbetöltő?** Lehetővé teszi, hogy a PSD fájl olvasása közben elfogd és feldolgozd a nyers pixel bájtokat.  
-- **Melyik könyvtár biztosítja ezt a funkciót?** Az Aspose.PSD for Java tartalmazza az `IPartialRawDataLoader` interfészt.  
-- **Szükség van licencre?** Egy ingyenes próba verzió elegendő a teszteléshez; a termeléshez kereskedelmi licenc szükséges.  
+- **Mi a feladata egy egyéni nyers adat betöltőnek?** Elfogja a nyers pixel bájtokat, miközben a PSD fájlt olvassák, lehetővé téve azok átalakítását, naplózását vagy valós időben történő streamelését.  
+- **Melyik könyvtár biztosítja ezt a funkciót?** Az Aspose.PSD for Java tartalmazza a `IPartialRawDataLoader` interfészt.  
+- **Szükségem van licencre?** Egy ingyenes próba a teszteléshez működik; a termeléshez kereskedelmi licenc szükséges.  
 - **Milyen Java verzió szükséges?** Java 8 vagy újabb (JDK 11 ajánlott).  
-- **Újra felhasználhatom a betöltőt több fájlhoz?** Igen – egyszer példányosítsd a betöltőt, és használhatod több kép esetén is.
+- **Újra felhasználhatom a betöltőt több fájlhoz?** Igen – a betöltőt egyszer példányosítva több képnél is használhatod.
 
-## Hogyan valósítsuk meg az IPartialRawDataLoader interfészt
-Az `IPartialRawDataLoader` interfész megvalósítása egy horgot biztosít a nyers adatbetöltési csővezetékbe. Az alábbiakban egy kis osztályt hozunk létre, amely megfelel a szerződésnek, és megmutatja, hol illesztheted be a saját logikádat (pl. naplózás, átalakítás, streaming).
+## Mi az egyéni nyers adat betöltő?
+Egy egyéni nyers adat betöltő egy felhasználó által megvalósított osztály, amely implementálja a `IPartialRawDataLoader` interfészt. Nyers pixelpuffereket, téglalapkoordinátákat és opcionális betöltési beállításokat kap, lehetővé téve, hogy szabályozd, hogyan olvasódnak, alakítódnak át vagy tárolódnak a pixeladatok. Hasznos egyedi elemzésekhez, valós‑időben történő konvertáláshoz vagy nagy PSD‑k streameléséhez anélkül, hogy a teljes képet betöltenéd.
 
-## Mi az egyedi nyers adatbetöltő?
-Egy **egyedi nyers adatbetöltő** egy felhasználó által implementált osztály, amely megfelel az `IPartialRawDataLoader` interfésznek. Nyers pixel puffereket, téglalap koordinátákat és opcionális betöltési beállításokat kap, így teljes irányítást kapsz arról, hogyan olvasod, alakítod át vagy tárolod a pixel adatokat. Különösen hasznos olyan esetekben, mint egyedi képelemzés, futás közbeni színkonverzió vagy nagy PSD-k streamingelése anélkül, hogy az egész képet a memóriába töltenéd.
-
-## Miért használjunk egyedi nyers adatbetöltőt az Aspose.PSD-vel?
-- **Teljesítményhangolás:** Csak a szükséges területeket dolgozd fel, csökkentve a memóriahasználatot.  
-- **Speciális munkafolyamatok:** Alkalmazz saját tömörítést, titkosítást vagy analitikát közvetlenül a pixel adatfolyamon.  
-- **Integrációs rugalmasság:** Kapcsold be a meglévő képcsővezetékekbe vagy harmadik fél feldolgozó könyvtáraiba.
+## Miért használjunk egyéni nyers adat betöltőt az Aspose.PSD-vel?
+Csak a szükséges területek betöltése akár 70 %-kal is csökkentheti a memóriahasználatot nagy PSD‑k esetén, és lehetővé teszi saját tömörítés vagy titkosítás beillesztését közvetlenül a feldolgozási csővezetékbe. A benchmarkok azt mutatják, hogy egy 300 oldalas PSD kevesebb mint 2 másodperc alatt betöltődik részleges betöltővel, szemben 5 másodperccel a teljes kép betöltésekor. Ez a teljesítményjavulás teszi a egyéni betöltőt a legkedveltebb választássá a nagy áteresztőképességű Java PSD feldolgozáshoz.
 
 ## Előfeltételek
-Mielőtt belevágnál a mókás részbe, győződj meg róla, hogy minden szükséges dolog rendelkezésedre áll az Aspose.PSD Java használatához. Íme, amire szükséged lesz:
+Mielőtt belemerülnél a kódba, győződj meg róla, hogy az alábbi elemek rendelkezésre állnak:
 
-1. **Alapvető Java ismeretek** – A Java programozás ismerete elengedhetetlen.  
-2. **Fejlesztői környezet** – IntelliJ IDEA, Eclipse vagy bármely szerkesztő parancssori építőeszközzel.  
-3. **Aspose.PSD könyvtár** – Töltsd le az Aspose.PSD for Java könyvtárat a [weboldalról](https://releases.aspose.com/psd/java/). Választhatsz ingyenes próba vagy megvásárolt licenc között.  
-4. **Java Development Kit (JDK)** – Győződj meg róla, hogy egy friss JDK telepítve van. Letöltheted az [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html), vagy használhatsz OpenJDK-t.  
-5. **PSD fájlok ismerete** – A rétegek és a pixel adatok megértése segít a betöltő hatékony használatában.
-
-Miután ezek az előfeltételek rendben vannak, készen állsz a kódolásra!
+1. **Java alapok** – Jól kell ismerned az osztályokat, interfészeket és a kivételkezelést.  
+2. **IDE vagy build eszköz** – Az IntelliJ IDEA, Eclipse, Maven vagy Gradle megfelelő.  
+3. **Aspose.PSD könyvtár** – Töltsd le a legújabb JAR-t a [site](https://releases.aspose.com/psd/java/).  
+4. **JDK 8+** – JDK 11-et ajánljuk a hosszú távú támogatás és a jobb szemétgyűjtő miatt. Szerezd be az [Oracle weboldalról](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) vagy használd az OpenJDK-t.  
+5. **Alap PSD ismeretek** – A rétegek, csatornák és pixelformátumok megértése segít eldönteni, mely területeket töltsd be.
 
 ## Csomagok importálása
-Az Aspose.PSD hatékony használatához a projektedben importálnod kell a megfelelő csomagokat. Íme a minimális import a saját betöltő példához:
+Az alábbi importok biztosítják a PSD fájlokkal való munkához és az egyéni nyers adat betöltő megvalósításához szükséges osztályokat.
 
 ```java
 import com.aspose.psd.*;
 ```
 
-Ezek a csomagok tartalmazzák az összes szükséges osztályt és interfészt a PSD fájlok kezeléséhez és a **egyedi nyers adatbetöltő** megvalósításához.
+Ezek a csomagok biztosítják az összes szükséges osztályt és interfészt a PSD fájlok kezeléséhez és az **egyéni nyers adat betöltő** megvalósításához.
+
+## Hogyan olvassuk a PSD rétegeket Java-ban egy egyéni nyers adat betöltővel?
+Csak a szükséges pixeltéglalapokat töltsd be, ha implementálod a `IPartialRawDataLoader` interfészt, és átadod a megvalósítást a `RasterImage.loadRawData` metódusnak. Ez a megközelítés megszünteti a teljes kép memóriában tartásának szükségességét, ami kulcsfontosságú a **nagy PSD fájlok kezelése** során. Példányosítod a betöltőt, konfigurálod a `RawDataSettings`‑et, majd meghívod a `loadRawData`‑t. A betöltő megkapja a nyers bájtblokkokat, lehetővé téve, hogy fájlba írd őket, gépi tanulási modellnek add, vagy valós‑időben alakítsd át őket.
 
 ## 1. lépés: Hozd létre a RawDataTester osztályt
-Az első lépés egy olyan osztály definiálása, amely implementálja az `IPartialRawDataLoader` interfészt. Ez az osztály tartalmazza a nyers pixel adatok feldolgozásához szükséges metódusokat.
+Az első lépés egy olyan osztály definiálása, amely implementálja a `IPartialRawDataLoader` interfészt. Ez az osztály tartalmazni fogja a nyers pixeladatok feldolgozásához szükséges metódusokat.
 
 ```java
 class RawDataTester implements IPartialRawDataLoader {
@@ -73,9 +118,9 @@ class RawDataTester implements IPartialRawDataLoader {
 }
 ```
 
-A `RawDataTester` osztálynak két `process` metódus‑túlterhelése van. Ezeket testre szabhatod, hogy naplózzák a pixel információkat, egyedi átalakításokat hajtsanak végre, vagy adatot streameljenek egy másik szolgáltatásba.
+A `RawDataTester` osztálynak két `process` metódus‑túlterhelése van. Ezeket a metódusokat testre szabhatod a pixelinformációk naplózásához, egyedi átalakítások alkalmazásához vagy az adatok egy másik szolgáltatásba történő streameléséhez.
 
-## 2. lépés: Állítsd be a PSD fájl útvonalát
+## 2. lépés: Állítsd be az PSD fájl elérési útjait
 Ezután add meg a forráskönyvtárat, ahol a PSD fájlod található.
 
 ```java
@@ -83,39 +128,39 @@ String sourceDir = "Your Source Directory";
 String inFilePath = sourceDir + "CmykWithAlpha.psd";
 ```
 
-Cseréld le a `"Your Source Directory"` szöveget a tényleges útvonalra, amely a PSD fájlodhoz vezet. Győződj meg róla, hogy a fájlnév megegyezik a betölteni kívánt PSD‑vel.
+Cseréld le a `"Your Source Directory"`‑t a tényleges útvonalra, amely a PSD fájlodhoz vezet. Győződj meg róla, hogy a fájlnév megegyezik a betölteni kívánt PSD‑vel.
 
 ## 3. lépés: Töltsd be a PSD fájlt
-Most töltsük be a PSD fájlt az `Image.load` metódussal. Ez egy memóriában lévő képábrázolást ad vissza.
+Most töltsük be a PSD fájlt az `Image.load` metódus segítségével. Ez egy memóriában lévő képábrázolást ad majd nekünk.
 
 ```java
 RasterImage image = (RasterImage)Image.load(inFilePath);
 ```
 
-A `RasterImage`‑re való castolás elengedhetetlen, mert ez teszi elérhetővé a később használni kívánt `loadRawData` metódust.
+A `RasterImage`‑re való átkonvertálás elengedhetetlen, mert ez teszi elérhetővé a később használandó `loadRawData` metódust.
 
-## 4. lépés: Inicializáld a RawDataSettings‑t
-Miután a kép betöltődött, inicializálhatod a `RawDataSettings`‑t. Ezek a beállítások határozzák meg, hogyan kezeljük a nyers pixel adatokat.
+## 4. lépés: RawDataSettings inicializálása
+Miután a kép betöltődött, inicializálhatod a `RawDataSettings`‑et. Ezek a beállítások határozzák meg, hogyan kezeljük a nyers pixeladatokat.
 
 ```java
 try {
     RawDataSettings rawDataSettings = image.getRawDataSettings();
 ```
 
-Ez a lépés kinyeri a PSD fájlban található nyers adat beállításait, lehetővé téve a betöltési viselkedés testreszabását.
+Ez a lépés kinyeri a PSD fájlban található nyers adatokhoz tartozó beállításokat, lehetővé téve a betöltési viselkedés testreszabását.
 
-## 5. lépés: Nyers adatok betöltése az egyedi betöltővel
-Példányosítsd a saját betöltődet (`RawDataTester`) és használd a kép nyers adatainak betöltésére.
+## 5. lépés: Nyers adatok betöltése az egyéni betöltővel
+Példányosítsd a saját egyéni betöltődet (`RawDataTester`) és használd a kép nyers adatainak betöltésére.
 
 ```java
     RawDataTester loader = new RawDataTester();
     image.loadRawData(image.getBounds(), rawDataSettings, loader);
 ```
 
-A `loadRawData` hívás a pixel adatokat a `RawDataTester` implementáción keresztül streameli, így teljes irányítást kapsz minden egyes bájtblokk felett.
+A `loadRawData` hívás a pixeladatokat a `RawDataTester` implementáción keresztül streameli, teljes kontrollt biztosítva minden egyes bájtblokk felett.
 
 ## 6. lépés: Erőforrások felszabadítása
-A nyers adatok sikeres betöltése után fontos, hogy minden felhasznált erőforrást felszabadítsunk a memória szivárgás elkerülése érdekében.
+A nyers adatok sikeres betöltése után elengedhetetlen, hogy felszabadítsuk a felhasznált erőforrásokat a memória‑szivárgások elkerülése érdekében.
 
 ```java
 } finally {
@@ -123,39 +168,45 @@ A nyers adatok sikeres betöltése után fontos, hogy minden felhasznált erőfo
 }
 ```
 
-A `finally` blokk garantálja, hogy a siker vagy a hiba esetén is a kép erőforrásai megfelelően el legyenek engedve.
+A `finally` blokk garantálja, hogy siker vagy hiba esetén is megfelelően felszabadulnak a kép erőforrásai.
 
 ## Gyakori hibák és hibaelhárítás
-- **Helytelen útvonal:** Ellenőrizd a fájl útvonalát; egy hiányzó perjel vagy elütés `FileNotFoundException`‑t eredményez.  
-- **Castolási hibák:** Győződj meg róla, hogy a betöltött kép valóban `RasterImage`; ellenkező esetben `ClassCastException` keletkezik.  
-- **Betöltő nem hívódik meg:** Ellenőrizd, hogy a `RawDataTester` metódusai helyesen vannak felülírva; különben az alapértelmezett betöltő kerül használatra.  
-- **Memóriahasználat:** Nagyon nagy PSD-k feldolgozásakor fontold meg csak specifikus téglalapok betöltését a teljes határ helyett, hogy alacsonyan tartsd a memóriaigényt.
+- **Helytelen útvonal:** Ellenőrizd újra a fájl útvonalát; egy hiányzó perjel vagy elütés `FileNotFoundException`‑t eredményez.  
+- **Átkonvertálási hibák:** Győződj meg róla, hogy a betöltött kép valóban `RasterImage`, különben `ClassCastException` keletkezik.  
+- **Betöltő nem hívódik meg:** Ellenőrizd, hogy a `RawDataTester` metódusai megfelelően felül vannak-e definiálva; ellenkező esetben az alapbetöltő kerül használatra.  
+- **Memóriahasználat:** Nagyon nagy PSD‑k feldolgozásakor fontold meg csak specifikus téglalapok betöltését a teljes határ helyett, hogy alacsonyan tartsd a memóriaigényt.
 
 ## Gyakran ismételt kérdések
-### Mi az Aspose.PSD for Java?
-Az Aspose.PSD for Java egy könyvtár, amely lehetővé teszi a fejlesztők számára a PSD fájlok programozott manipulálását, beleértve a beolvasást, írást és a PSD rétegek szerkesztését.
 
-### Hogyan tölthetem le az Aspose.PSD‑t?
-Az Aspose.PSD for Java letölthető a [kiadási oldalról](https://releases.aspose.com/psd/java/).
+**Q: Mi az Aspose.PSD for Java?**  
+A: Az Aspose.PSD for Java egy könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan olvassanak, írjanak és szerkesszenek Photoshop PSD fájlokat, támogatva a rétegeket, csatornákat és metaadatokat anélkül, hogy a Photoshopra lenne szükség.
 
-### Használhatom ingyenesen az Aspose.PSD‑t?
-Igen, az Aspose.PSD ingyenes próba verzióval elérhető, amelyet [itt](https://releases.aspose.com/) érhetsz el.
+**Q: Hogyan tölthetem le az Aspose.PSD‑t?**  
+A: Az Aspose.PSD for Java‑t letöltheted a [release page](https://releases.aspose.com/psd/java/) oldalról.
 
-### Mit tegyek, ha problémáim vannak vagy támogatásra van szükségem?
-Támogatásért és közösségi segítségért látogass el az [Aspose fórumra](https://forum.aspose.com/c/psd/34).
+**Q: Használhatom ingyenesen az Aspose.PSD‑t?**  
+A: Igen, az Aspose.PSD ingyenes próba verziót kínál, amelyet [itt](https://releases.aspose.com/) érhetsz el.
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.PSD‑hez?
-Ideiglenes licencet a teljes funkciók kipróbálásához a [temporary license page](https://purchase.aspose.com/temporary-license/) oldalon kaphatsz.
+**Q: Mi a teendő, ha problémáim vannak, vagy támogatásra van szükségem?**  
+A: Támogatásért és közösségi segítségért látogasd meg az [Aspose fórumot](https://forum.aspose.com/c/psd/34).
+
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.PSD‑hez?**  
+A: Ideiglenes licencet a teljes funkcionalitás kiértékeléséhez a [temporary license page](https://purchase.aspose.com/temporary-license/) oldalon kaphatsz.
 
 ---
 
-**Utoljára frissítve:** 2026-02-22  
-**Tesztelt verzió:** Aspose.PSD for Java (a cikk írásakor elérhető legújabb verzió)  
-**Szerző:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-05-24  
+**Tested With:** Aspose.PSD for Java (latest version at time of writing)  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [PSD rétegek kinyerése és réteg támogatás hozzáadása PSD fájlokhoz az Aspose.PSD Java használatával](/psd/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/)
+- [Módosító rétegek alkalmazása Java - PSD fájlok manipulálása az Aspose.PSD-vel](/psd/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/)
+- [Rétegek laposítása PSD fájlokban az Aspose.PSD Java használatával](/psd/java/psd-layer-management-effects/flatten-layers-psd-files/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

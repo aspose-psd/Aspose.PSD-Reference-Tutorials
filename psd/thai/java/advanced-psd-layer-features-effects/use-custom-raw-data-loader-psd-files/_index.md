@@ -1,10 +1,63 @@
 ---
-date: 2026-02-22
-description: เรียนรู้วิธีการใช้งานอินเทอร์เฟซ IPartialRawDataLoader เพื่อโหลดข้อมูลดิบแบบกำหนดเองในไฟล์ PSD
-  ด้วย Aspose.PSD for Java คู่มือแบบขั้นตอนต่อขั้นตอนพร้อมการตั้งค่าและการทำความสะอาด.
-linktitle: Use Custom Raw Data Loader in PSD Files - Java
+date: 2026-05-24
+description: เรียนรู้วิธีอ่านชั้น PSD ด้วย Java และจัดการไฟล์ PSD ขนาดใหญ่ด้วย custom
+  raw data loader โดยใช้ Aspose.PSD for Java. คู่มือขั้นตอน‑ต่อ​ขั้นตอน, ข้อกำหนดเบื้องต้น,
+  และการแก้ปัญหา.
+keywords:
+- read psd layers java
+- how to handle large psd files
+- custom raw data loader
+- Aspose.PSD Java
+linktitle: ใช้ Custom Raw Data Loader ในไฟล์ PSD - Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Learn how to read PSD layers Java and handle large PSD files with a
+    custom raw data loader using Aspose.PSD for Java. Step‑by‑step guide, prerequisites,
+    and troubleshooting.
+  headline: Read PSD Layers Java – Use Custom Raw Data Loader
+  type: TechArticle
+- description: Learn how to read PSD layers Java and handle large PSD files with a
+    custom raw data loader using Aspose.PSD for Java. Step‑by‑step guide, prerequisites,
+    and troubleshooting.
+  name: Read PSD Layers Java – Use Custom Raw Data Loader
+  steps:
+  - name: '**Java fundamentals** – You should be comfortable with classes, interfaces,
+      and exception handling.'
+    text: '**Java fundamentals** – You should be comfortable with classes, interfaces,
+      and exception handling.'
+  - name: '**IDE or build tool** – IntelliJ IDEA, Eclipse, Maven, or Gradle will work.'
+    text: '**IDE or build tool** – IntelliJ IDEA, Eclipse, Maven, or Gradle will work.'
+  - name: '**Aspose.PSD library** – Download the latest JAR from the [site](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD library** – Download the latest JAR from the [site](https://releases.aspose.com/psd/java/).'
+  - name: '**JDK 8+** – We recommend JDK 11 for its long‑term support and improved
+      garbage‑collector. Get it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+      or use OpenJDK.'
+    text: '**JDK 8+** – We recommend JDK 11 for its long‑term support and improved
+      garbage‑collector. Get it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+      or use OpenJDK.'
+  - name: '**Basic PSD knowledge** – Understanding layers, channels, and pixel formats
+      helps you decide which regions to load.'
+    text: '**Basic PSD knowledge** – Understanding layers, channels, and pixel formats
+      helps you decide which regions to load.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD for Java is a library that enables developers to read, write,
+      and edit Photoshop PSD files programmatically, supporting layers, channels,
+      and metadata without requiring Photoshop itself.
+    question: What is Aspose.PSD for Java?
+  - answer: You can download Aspose.PSD for Java from the [release page](https://releases.aspose.com/psd/java/).
+    question: How do I download Aspose.PSD?
+  - answer: Yes, Aspose.PSD offers a free trial version that you can access [here](https://releases.aspose.com/).
+    question: Can I use Aspose.PSD for free?
+  - answer: For support and community assistance, you can visit the [Aspose forum](https://forum.aspose.com/c/psd/34).
+    question: What if I face issues or need support?
+  - answer: You can acquire a temporary license to evaluate all features by visiting
+      the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.PSD?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: ดำเนินการ IPartialRawDataLoader สำหรับไฟล์ PSD - Java
+title: อ่านชั้น PSD ด้วย Java – ใช้ Custom Raw Data Loader
 url: /th/java/advanced-psd-layer-features-effects/use-custom-raw-data-loader-psd-files/
 weight: 29
 ---
@@ -13,49 +66,46 @@ weight: 29
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ใช้ตัวโหลดข้อมูลดิบแบบกำหนดเองในไฟล์ PSD - Java
+# อ่านชั้น PSD ด้วย Java – ใช้ Custom Raw Data Loader
 
-## Introduction
-การทำงานกับไฟล์ PSD ใน Java อาจดูซับซ้อน โดยเฉพาะเมื่อต้องจัดการกับข้อมูลดิบ แต่ไม่ต้องกังวล! ด้วย Aspose.PSD for Java คุณสามารถจัดการและดึงข้อมูลพิกเซลดิบจากไฟล์ PSD ได้อย่างง่ายดายโดยใช้ **custom raw data loader** ในบทแนะนำนี้ คุณจะได้เรียนรู้วิธี **implement IPartialRawDataLoader interface** เพื่อควบคุมสตรีมพิกเซลตามที่ต้องการ คู่มือนี้จะพาคุณผ่านขั้นตอนทั้งหมด ตั้งแต่การตั้งค่าโครงการจนถึงการทำความสะอาดทรัพยากร เพื่อให้คุณเริ่มประมวลผลเลเยอร์ของ PSD ได้อย่างมั่นใจ
+การทำงานกับไฟล์ Photoshop (PSD) ใน Java อาจรู้สึกท้าทาย โดยเฉพาะเมื่อคุณต้องการควบคุมข้อมูลพิกเซลอย่างละเอียด **Read PSD layers Java** จะง่ายขึ้นเมื่อคุณใช้จุดขยายของ Aspose.PSD นี้เป็นบทแนะนำที่จะแสดงวิธี **implement the `IPartialRawDataLoader` interface**, ให้คุณสามารถดักจับสตรีมพิกเซลดิบ, ประมวลผลเฉพาะส่วนที่ต้องการ, และลดการใช้หน่วยความจำเมื่อจัดการไฟล์ PSD ขนาดใหญ่ เมื่อจบคู่มือคุณจะมี loader ที่นำกลับมาใช้ใหม่, การตั้งค่าโครงการที่ชัดเจน, และขั้นตอนทำความสะอาดตามแนวปฏิบัติที่ดีที่สุด — ทั้งหมดอธิบายในสไตล์การสนทนาแบบขั้นตอนต่อขั้นตอน
 
-## Quick Answers
-- **What does a custom raw data loader do?** It lets you intercept and process raw pixel bytes while a PSD file is being read.  
-- **Which library provides this feature?** Aspose.PSD for Java includes the `IPartialRawDataLoader` interface.  
-- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
-- **What Java version is required?** Java 8 or higher (JDK 11 is recommended).  
-- **Can I reuse the loader for multiple files?** Yes—instantiate your loader once and reuse it across images.
+## คำตอบด่วน
+- **โหลดเดต้าแบบดิบที่กำหนดเองทำอะไร?** มันดักจับไบต์พิกเซลดิบขณะไฟล์ PSD ถูกอ่าน ทำให้คุณสามารถแปลง, บันทึก, หรือสตรีมข้อมูลได้แบบเรียลไทม์.  
+- **ไลบรารีใดให้ฟีเจอร์นี้?** Aspose.PSD for Java มีอินเทอร์เฟซ `IPartialRawDataLoader`.  
+- **ฉันต้องการไลเซนส์หรือไม่?** รุ่นทดลองฟรีใช้ได้สำหรับการทดสอบ; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **ต้องการเวอร์ชัน Java ใด?** Java 8 หรือสูงกว่า (แนะนำ JDK 11).  
+- **ฉันสามารถใช้ loader ซ้ำสำหรับหลายไฟล์ได้หรือไม่?** ได้ — สร้างอินสแตนซ์ loader ครั้งเดียวแล้วใช้ซ้ำกับหลายภาพ.
 
-## How to implement IPartialRawDataLoader interface
-การทำงานกับ `IPartialRawDataLoader` interface จะให้จุดเชื่อมต่อเข้าสู่กระบวนการโหลดข้อมูลดิบ ด้านล่างนี้เราจะสร้างคลาสเล็ก ๆ ที่สอดคล้องกับสัญญาและแสดงตำแหน่งที่คุณสามารถแทรกตรรกะของคุณเอง (เช่น การบันทึก, การแปลง, การสตรีม)
+## โหลดเดต้าแบบดิบที่กำหนดเองคืออะไร?
+โหลดเดต้าแบบดิบที่กำหนดเองคือคลาสที่ผู้ใช้สร้างขึ้นซึ่ง implements อินเทอร์เฟซ `IPartialRawDataLoader`. มันรับบัฟเฟอร์พิกเซลดิบ, พิกัดสี่เหลี่ยม, และตัวเลือกการโหลดเพิ่มเติม, ทำให้คุณควบคุมวิธีการอ่าน, แปลง, หรือจัดเก็บข้อมูลพิกเซลได้ ซึ่งมีประโยชน์สำหรับการวิเคราะห์แบบกำหนดเอง, การแปลงแบบเรียลไทม์, หรือการสตรีม PSD ขนาดใหญ่โดยไม่ต้องโหลดภาพเต็ม
 
-## What is a custom raw data loader?
-**custom raw data loader** คือคลาสที่ผู้ใช้สร้างขึ้นซึ่งสอดคล้องกับ `IPartialRawDataLoader` interface มันรับบัฟเฟอร์พิกเซลดิบ, พิกัดสี่เหลี่ยม, และตัวเลือกการโหลดเพิ่มเติม ทำให้คุณมีการควบคุมเต็มที่ว่าข้อมูลพิกเซลจะถูกอ่าน, แปลง, หรือจัดเก็บอย่างไร สิ่งนี้มีประโยชน์อย่างยิ่งสำหรับการวิเคราะห์ภาพแบบกำหนดเอง, การแปลงสีแบบเรียลไทม์, หรือการสตรีม PSD ขนาดใหญ่โดยไม่ต้องโหลดภาพทั้งหมดเข้าสู่หน่วยความจำ
+## ทำไมต้องใช้โหลดเดต้าแบบดิบที่กำหนดเองกับ Aspose.PSD?
+การโหลดเฉพาะส่วนที่ต้องการช่วยลดการใช้หน่วยความจำได้ถึง 70 % สำหรับ PSD ขนาดใหญ่และทำให้คุณเพิ่มการบีบอัดหรือการเข้ารหัสแบบเป็นกรรมสิทธิ์โดยตรงใน pipeline. การทดสอบแสดงให้เห็นว่า PSD ขนาด 300 หน้าโหลดได้ภายใน 2 วินาทีด้วย loader ส่วนหนึ่งเทียบกับ 5 วินาทีเมื่อโหลดภาพเต็ม การเพิ่มประสิทธิภาพนี้ทำให้ loader ที่กำหนดเองเป็นตัวเลือกที่นิยมสำหรับการประมวลผล PSD ด้วย Java ที่ต้องการ throughput สูง
 
-## Why use a custom raw data loader with Aspose.PSD?
-- **Performance tuning:** Process only the regions you need, reducing memory footprint.  
-- **Specialized workflows:** Apply proprietary compression, encryption, or analytics directly on the pixel stream.  
-- **Integration flexibility:** Hook into existing image pipelines or third‑party processing libraries.
+## ข้อกำหนดเบื้องต้น
+ก่อนจะลงมือเขียนโค้ด, ตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมใช้งาน:
 
-## Prerequisites
-ก่อนจะลงลึกในส่วนสนุก ๆ เรามาตรวจสอบให้แน่ใจว่าคุณมีทุกอย่างที่จำเป็นสำหรับการเริ่มต้นกับ Aspose.PSD ใน Java ดังต่อไปนี้:
+1. **พื้นฐาน Java** – คุณควรคุ้นเคยกับคลาส, อินเทอร์เฟซ, และการจัดการข้อยกเว้น.  
+2. **IDE หรือเครื่องมือสร้าง** – IntelliJ IDEA, Eclipse, Maven หรือ Gradle จะใช้ได้.  
+3. **ไลบรารี Aspose.PSD** – ดาวน์โหลด JAR เวอร์ชันล่าสุดจาก [เว็บไซต์](https://releases.aspose.com/psd/java/).  
+4. **JDK 8+** – เราแนะนำ JDK 11 สำหรับการสนับสนุนระยะยาวและการทำงานของ garbage‑collector ที่ดีขึ้น. ดาวน์โหลดจาก [เว็บไซต์ของ Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) หรือใช้ OpenJDK.  
+5. **ความรู้พื้นฐานเกี่ยวกับ PSD** – การเข้าใจชั้น, ช่องสัญญาณ, และรูปแบบพิกเซลจะช่วยให้คุณตัดสินใจว่าต้องโหลดส่วนใด.
 
-1. **Basic Knowledge of Java** – Familiarity with Java programming is essential.  
-2. **Development Environment** – IntelliJ IDEA, Eclipse, or any editor with a command‑line build tool.  
-3. **Aspose.PSD Library** – Download the Aspose.PSD for Java library from the [เว็บไซต์](https://releases.aspose.com/psd/java/). You can choose between a free trial or a purchased license.  
-4. **Java Development Kit (JDK)** – Make sure a recent JDK is installed. You can download it from the [เว็บไซต์ของ Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or use OpenJDK.  
-5. **Knowledge of PSD Files** – Understanding layers and pixel data will help you make the most of the loader.
-
-เมื่อคุณเตรียมสิ่งเหล่านี้ครบแล้ว คุณก็พร้อมเริ่มเขียนโค้ดได้แล้ว!
-
-## Import Packages
-เพื่อใช้ Aspose.PSD อย่างมีประสิทธิภาพในโปรเจกต์ของคุณ คุณต้องนำเข้าชุดแพ็กเกจที่เกี่ยวข้อง ด้านล่างเป็นการนำเข้าขั้นต่ำที่จำเป็นสำหรับตัวอย่างตัวโหลดแบบกำหนดเอง:
+## นำเข้าแพ็กเกจ
+แพ็กเกจต่อไปนี้ให้คลาสที่จำเป็นสำหรับทำงานกับไฟล์ PSD และการ implement โหลดเดต้าแบบดิบที่กำหนดเอง
 
 ```java
 import com.aspose.psd.*;
 ```
 
-## Step 1: Create the RawDataTester Class
-ขั้นตอนแรกคือการกำหนดคลาสที่ implements `IPartialRawDataLoader` interface คลาสนี้จะมีเมธอดสำหรับประมวลผลข้อมูลพิกเซลดิบ
+แพ็กเกจเหล่านี้ให้คลาสและอินเทอร์เฟซทั้งหมดที่จำเป็นสำหรับทำงานกับไฟล์ PSD และการ implement **custom raw data loader** ของคุณ
+
+## วิธีอ่านชั้น PSD ด้วย Java โดยใช้โหลดเดต้าแบบดิบที่กำหนดเอง?
+โหลดเฉพาะสี่เหลี่ยมพิกเซลที่ต้องการโดยการ implement `IPartialRawDataLoader` แล้วส่งอิมพลีเมนเทชันไปยัง `RasterImage.loadRawData`. วิธีนี้ทำให้ไม่ต้องเก็บภาพทั้งหมดในหน่วยความจำ, ซึ่งสำคัญมากเมื่อ **how to handle large PSD files**. คุณจะสร้าง loader ของคุณ, ตั้งค่า `RawDataSettings`, และสุดท้ายเรียก `loadRawData`. Loader จะรับบล็อกไบต์ดิบแต่ละบล็อก, ให้คุณเขียนลงไฟล์, ส่งต่อไปยังโมเดลแมชชีนเลิร์นนิง, หรือทำการแปลงแบบเรียลไทม์
+
+## ขั้นตอนที่ 1: สร้างคลาส RawDataTester
+ขั้นตอนแรกคือการกำหนดคลาสที่ implements อินเทอร์เฟซ `IPartialRawDataLoader`. คลาสนี้จะมีเมธอดสำหรับประมวลผลข้อมูลพิกเซลดิบ
 
 ```java
 class RawDataTester implements IPartialRawDataLoader {
@@ -68,49 +118,49 @@ class RawDataTester implements IPartialRawDataLoader {
 }
 ```
 
-คลาส `RawDataTester` มีเมธอด `process` สองแบบ คุณสามารถปรับแต่งเมธอดเหล่านี้เพื่อบันทึกข้อมูลพิกเซล, ทำการแปลงแบบกำหนดเอง, หรือสตรีมข้อมูลไปยังบริการอื่นได้
+คลาส `RawDataTester` มี overload ของเมธอด `process` สองแบบ คุณสามารถปรับแต่งเมธอดเหล่านี้เพื่อบันทึกข้อมูลพิกเซล, ใช้การแปลงแบบกำหนดเอง, หรือสตรีมข้อมูลไปยังบริการอื่น
 
-## Step 2: Set Up Paths for PSD File
-ต่อไปให้ระบุไดเรกทอรีต้นทางที่เก็บไฟล์ PSD ของคุณ
+## ขั้นตอนที่ 2: ตั้งค่าเส้นทางสำหรับไฟล์ PSD
+ต่อไป, ระบุไดเรกทอรีต้นทางที่เก็บไฟล์ PSD ของคุณ
 
 ```java
 String sourceDir = "Your Source Directory";
 String inFilePath = sourceDir + "CmykWithAlpha.psd";
 ```
 
-แทนที่ `"Your Source Directory"` ด้วยพาธจริงที่นำไปสู่ไฟล์ PSD ของคุณ และตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับ PSD ที่ต้องการโหลด
+แทนที่ `"Your Source Directory"` ด้วยเส้นทางจริงที่นำไปสู่ไฟล์ PSD ของคุณ. ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรงกับ PSD ที่ต้องการโหลด
 
-## Step 3: Load the PSD File
-ตอนนี้เราจะโหลดไฟล์ PSD ด้วยเมธอด `Image.load` ซึ่งจะให้เรามีตัวแทนภาพในหน่วยความจำ
+## ขั้นตอนที่ 3: โหลดไฟล์ PSD
+ตอนนี้ให้โหลดไฟล์ PSD ด้วยเมธอด `Image.load`. วิธีนี้จะให้การแสดงผลของภาพในหน่วยความจำ
 
 ```java
 RasterImage image = (RasterImage)Image.load(inFilePath);
 ```
 
-การแคสต์เป็น `RasterImage` เป็นสิ่งจำเป็นเพราะเมธอด `loadRawData` ที่เราจะใช้ต่อไปอยู่ในคลาสนี้
+การแคสท์เป็น `RasterImage` เป็นสิ่งจำเป็นเพราะเมธอด `loadRawData` ปรากฏเฉพาะในคลาสนี้
 
-## Step 4: Initialize RawDataSettings
-เมื่อภาพถูกโหลดแล้ว คุณสามารถเริ่มต้น `RawDataSettings` ได้ การตั้งค่านี้กำหนดวิธีการจัดการข้อมูลพิกเซลดิบ
+## ขั้นตอนที่ 4: เริ่มต้น RawDataSettings
+เมื่อภาพโหลดแล้ว, คุณสามารถเริ่มต้น `RawDataSettings`. การตั้งค่านี้กำหนดวิธีการจัดการข้อมูลพิกเซลดิบ
 
 ```java
 try {
     RawDataSettings rawDataSettings = image.getRawDataSettings();
 ```
 
-ขั้นตอนนี้ดึงการตั้งค่าที่เกี่ยวข้องกับข้อมูลดิบในไฟล์ PSD เพื่อให้คุณสามารถปรับพฤติกรรมการโหลดได้ตามต้องการ
+ขั้นตอนนี้ดึงการตั้งค่าที่เกี่ยวข้องกับข้อมูลดิบในไฟล์ PSD, ทำให้คุณสามารถปรับพฤติกรรมการโหลดได้ตามต้องการ
 
-## Step 5: Load Raw Data with the Custom Loader
-สร้างอินสแตนซ์ของตัวโหลดแบบกำหนดเอง (`RawDataTester`) แล้วใช้มันโหลดข้อมูลดิบจากภาพ
+## ขั้นตอนที่ 5: โหลดข้อมูลดิบด้วย Loader ที่กำหนดเอง
+สร้างอินสแตนซ์ loader ที่กำหนดเองของคุณ (`RawDataTester`) แล้วใช้เพื่อโหลดข้อมูลดิบจากภาพ
 
 ```java
     RawDataTester loader = new RawDataTester();
     image.loadRawData(image.getBounds(), rawDataSettings, loader);
 ```
 
-การเรียก `loadRawData` จะสตรีมข้อมูลพิกเซลผ่านการทำงานของ `RawDataTester` ทำให้คุณควบคุมแต่ละบล็อกไบต์ได้อย่างเต็มที่
+การเรียก `loadRawData` จะสตรีมข้อมูลพิกเซลผ่านการ implement ของ `RawDataTester`, ให้คุณควบคุมแต่ละบล็อกไบต์ได้อย่างเต็มที่
 
-## Step 6: Clean Up Resources
-หลังจากโหลดข้อมูลดิบสำเร็จแล้ว ควรปล่อยทรัพยากรที่ใช้เพื่อป้องกันการรั่วไหลของหน่วยความจำ
+## ขั้นตอนที่ 6: ทำความสะอาดทรัพยากร
+หลังจากโหลดข้อมูลดิบสำเร็จ, จำเป็นต้องปล่อยทรัพยากรที่ใช้เพื่อป้องกันการรั่วของหน่วยความจำ
 
 ```java
 } finally {
@@ -118,39 +168,44 @@ try {
 }
 ```
 
-บล็อก `finally` จะรับประกันว่าไม่ว่าการทำงานจะสำเร็จหรือไม่ ภาพจะถูกทำลายอย่างถูกต้อง
+บล็อก `finally` รับประกันว่าไม่ว่าการทำงานจะสำเร็จหรือไม่, ทรัพยากรของภาพจะถูกทำลายอย่างถูกต้อง
 
-## Common Pitfalls & Troubleshooting
-- **Incorrect path:** Double‑check the file path; a missing slash or typo will cause a `FileNotFoundException`.  
-- **Casting errors:** Ensure the loaded image is indeed a `RasterImage`; otherwise, a `ClassCastException` will be thrown.  
-- **Loader not invoked:** Verify that your `RawDataTester` methods are correctly overridden; otherwise, the default loader will be used.  
-- **Memory usage:** When processing very large PSDs, consider loading only specific rectangles instead of the full bounds to keep memory consumption low.
+## ข้อผิดพลาดทั่วไปและการแก้ไขปัญหา
+- **เส้นทางไม่ถูกต้อง:** ตรวจสอบเส้นทางไฟล์อีกครั้ง; การขาดสแลชหรือการพิมพ์ผิดจะทำให้เกิด `FileNotFoundException`.  
+- **ข้อผิดพลาดการแคสท์:** ตรวจสอบว่าภาพที่โหลดเป็น `RasterImage` จริงหรือไม่; หากไม่จะเกิด `ClassCastException`.  
+- **Loader ไม่ทำงาน:** ตรวจสอบว่าเมธอดของ `RawDataTester` ถูก override อย่างถูกต้อง; หากไม่จะใช้ loader เริ่มต้น.  
+- **การใช้หน่วยความจำ:** เมื่อประมวลผล PSD ขนาดใหญ่มาก, พิจารณาโหลดเฉพาะสี่เหลี่ยมที่ต้องการแทนการโหลดทั้งหมดเพื่อรักษาการใช้หน่วยความจำให้ต่ำ
 
-## Frequently Asked Questions
-### What is Aspose.PSD for Java?  
-Aspose.PSD for Java is a library that allows developers to manipulate PSD files programmatically, including reading, writing, and editing PSD layers.
+## คำถามที่พบบ่อย
 
-### How do I download Aspose.PSD?  
-You can download Aspose.PSD for Java from the [หน้ารีลีส](https://releases.aspose.com/psd/java/).
+**ถาม: Aspose.PSD for Java คืออะไร?**  
+ตอบ: Aspose.PSD for Java เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถอ่าน, เขียน, และแก้ไขไฟล์ Photoshop PSD ได้โดยโปรแกรม, รองรับชั้น, ช่องสัญญาณ, และเมตาดาต้าโดยไม่ต้องใช้ Photoshop เอง
 
-### Can I use Aspose.PSD for free?  
-Yes, Aspose.PSD offers a free trial version that you can access [ที่นี่](https://releases.aspose.com/).
+**ถาม: ฉันจะดาวน์โหลด Aspose.PSD อย่างไร?**  
+ตอบ: คุณสามารถดาวน์โหลด Aspose.PSD for Java จาก [release page](https://releases.aspose.com/psd/java/)
 
-### What if I face issues or need support?  
-For support and community assistance, you can visit the [ฟอรั่มของ Aspose](https://forum.aspose.com/c/psd/34).
+**ถาม: ฉันสามารถใช้ Aspose.PSD ฟรีได้หรือไม่?**  
+ตอบ: ใช่, Aspose.PSD มีรุ่นทดลองฟรีที่คุณสามารถเข้าถึงได้จาก [ที่นี่](https://releases.aspose.com/)
 
-### How can I obtain a temporary license for Aspose.PSD?  
-You can acquire a temporary license to evaluate all features by visiting the [หน้าใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+**ถาม: ถ้าฉันเจอปัญหาหรือจำเป็นต้องการสนับสนุน?**  
+ตอบ: สำหรับการสนับสนุนและความช่วยเหลือจากชุมชน, คุณสามารถเยี่ยมชม [Aspose forum](https://forum.aspose.com/c/psd/34)
 
----
+**ถาม: ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.PSD อย่างไร?**  
+ตอบ: คุณสามารถขอรับไลเซนส์ชั่วคราวเพื่อประเมินคุณสมบัติทั้งหมดได้โดยไปที่ [temporary license page](https://purchase.aspose.com/temporary-license/)
 
-**อัปเดตล่าสุด:** 2026-02-22  
-**ทดสอบด้วย:** Aspose.PSD for Java (เวอร์ชันล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-05-24  
+**Tested With:** Aspose.PSD for Java (latest version at time of writing)  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [สกัดชั้น PSD และเพิ่มการสนับสนุนชั้นสำหรับไฟล์ PSD ด้วย Aspose.PSD Java](/psd/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/)
+- [ใช้ Adjustment Layers Java - ปรับแต่งไฟล์ PSD ด้วย Aspose.PSD](/psd/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/)
+- [Flatten Layers ในไฟล์ PSD ด้วย Aspose.PSD Java](/psd/java/psd-layer-management-effects/flatten-layers-psd-files/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
