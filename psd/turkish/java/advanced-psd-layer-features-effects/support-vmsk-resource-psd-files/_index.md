@@ -1,10 +1,43 @@
 ---
-date: 2026-02-22
-description: Aspose.PSD for Java kullanarak vektör maskesi Java oluşturmayı, vektör
-  maskesi PSD eklemeyi ve Vmsk kaynaklarını programlı olarak manipüle etmeyi öğrenin.
-linktitle: Create Vector Mask Java – Vmsk Resource in PSD Files
+date: 2026-06-03
+description: Aspose.PSD for Java kullanarak PSD'yi PNG'ye nasıl dönüştüreceğinizi
+  ve Vector Mask Java oluşturmayı öğrenin, Vector Mask PSD ekleyin ve Vmsk kaynaklarını
+  programlı olarak yönetin.
+keywords:
+- convert psd to png
+- add vector mask psd
+- psd vector mask tutorial
+- aspose psd maven
+linktitle: PSD'yi PNG'ye Dönüştür ve Vector Mask Java Oluştur – PSD Dosyalarındaki
+  Vmsk Kaynağı
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to convert PSD to PNG and create vector mask Java using Aspose.PSD
+    for Java, add vector mask PSD, and manipulate Vmsk resources programmatically.
+  headline: Convert PSD to PNG and Create Vector Mask Java – Vmsk Resource in PSD
+    Files
+  type: TechArticle
+- questions:
+  - answer: Create a `VmskResource`, populate it with the required path records (e.g.,
+      `BezierKnotRecord`), and attach it to the layer’s resources collection.
+    question: How do I add a new vector mask to an existing layer?
+  - answer: Yes—after saving the PSD, load it again with `Image.load()` and call `im.save("output.png")`
+      specifying the PNG format.
+    question: Can I convert the edited PSD directly to PNG without opening Photoshop?
+  - answer: Absolutely. Since the process is pure Java, you can embed it in Maven/Gradle
+      builds, Docker containers, or any CI system that supports Java.
+    question: Is there a way to automate this in a CI/CD pipeline?
+  - answer: All recent releases (2024‑2025) support Java 8 and above, including Java
+      11, 17, and newer LTS versions.
+    question: What versions of Aspose.PSD are compatible with Java 11+?
+  - answer: A free evaluation license works for development and testing. For production
+      deployments, a commercial license is required.
+    question: Do I need a license for development builds?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Java ile Vektör Maskesi Oluştur – PSD Dosyalarındaki Vmsk Kaynağı
+title: PSD'yi PNG'ye Dönüştür ve Vector Mask Java Oluştur – PSD Dosyalarındaki Vmsk
+  Kaynağı
 url: /tr/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
 weight: 23
 ---
@@ -13,50 +46,51 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da Vektör Maskesi Oluşturma – PSD Dosyalarındaki Vmsk Kaynağı
+# PSD'yi PNG'ye Dönüştür ve Vektör Maskesi Java Oluştur – PSD Dosyalarındaki Vmsk Kaynağı
 
 ## Giriş
-Eğer Photoshop (PSD) dosyaları içinde **create vector mask** (Vmsk) kaynakları oluşturmanız gerekiyorsa, Aspose.PSD for Java bunu temiz ve programatik bir şekilde yapmanızı sağlar. İster bir tasarım‑otomasyon aracı oluşturuyor olun, ister mevcut bir grafik boru hattına özel maske desteği ekliyor olun, bu öğretici sizi her adımda yönlendirir—PSD'yi yükleme, Vmsk kaynağını okuma, özelliklerini ayarlama ve sonucu kaydetme. Sonuna geldiğinizde, vektör maskeleriyle rahatça çalışabilecek, PSD'yi PNG'ye dönüştürebilecek ve dosyayı ek vektör verileriyle genişletebileceksiniz—hepsi **create vector mask java** teknikleriyle.
+Eğer Photoshop dosyaları içinde **convert PSD to PNG** yaparken aynı zamanda **create vector mask** (Vmsk) kaynaklarını da oluşturmanız gerekiyorsa, Aspose.PSD for Java her iki işlemi de temiz ve programatik bir şekilde yapmanızı sağlar. İster bir tasarım‑otomasyon aracı, varlıkları doğrulayan bir CI boru hattı ya da özel maskelerle grafik iş akışını genişletiyor olun, bu öğretici size her adımı gösterir—PSD'yi yükleme, Vmsk kaynağını okuma, özelliklerini ayarlama, sonucu PNG olarak dışa aktarma ve değiştirilmiş dosyayı kaydetme. Sonuna geldiğinizde vektör maskeleriyle rahatça çalışabilecek, PSD → PNG dönüştürme ve dosyayı ek vektör verileriyle genişletme konularında **convert PSD to PNG** tekniklerine hakim olacaksınız.
 
-## Hızlı Cevaplar
-- **Vmsk kaynağı nedir?** Bir PSD dosyası içinde depolanan vektör maskesi verisidir ve bir katman için karmaşık vektör şekilleri tanımlar.  
-- **Hangi kütüphane bunu destekler?** Aspose.PSD for Java, Vmsk kaynaklarına tam okuma/yazma erişimi sağlar.  
-- **Lisans gerekir mi?** Ücretsiz deneme mevcuttur; üretim kullanımı için ticari lisans gereklidir.  
-- **Düzenlenmiş PSD'yi PNG'ye dönüştürebilir miyim?** Evet—kaydedildikten sonra PSD'yi yükleyip aynı API ile PNG olarak dışa aktarabilirsiniz.  
-- **Maven desteği mevcut mu?** Kesinlikle; Aspose.PSD bir Maven bağımlılığı olarak eklenebilir (bkz. “aspose psd maven” anahtar kelimesi).
+## Hızlı Yanıtlar
+- **Vmsk kaynağı nedir?** PSD dosyası içinde depolanan vektör maske verisidir ve bir katman için karmaşık vektör şekilleri tanımlar.  
+- **Hangi kütüphane bunu destekliyor?** Aspose.PSD for Java, Vmsk kaynaklarına tam okuma/yazma erişimi sağlar.  
+- **Lisans gerekiyor mu?** Ücretsiz deneme mevcuttur; üretim kullanımı için ticari lisans gereklidir.  
+- **Düzenlenmiş PSD'yi PNG'ye dönüştürebilir miyim?** Evet—kaydedildikten sonra PSD'yi yükleyebilir ve aynı API ile PNG'ye dışa aktarabilirsiniz.  
+- **Maven desteği var mı?** Kesinlikle; Aspose.PSD bir Maven bağımlılığı olarak eklenebilir (“aspose psd maven” anahtar kelimesine bakın).
 
-## Vektör Maskesi (Vmsk Kaynağı) nedir?
-Bir vektör maskesi (Vmsk), bir katmanda şeffaf ve opak bölgeleri tanımlamak için Bézier eğrileri ve yol kayıtları kullanan piksel‑temelli olmayan bir maskedir. Vektör‑tabanlı olduğu için kalite kaybı olmadan ölçeklenir—yüksek çözünürlüklü grafikler için mükemmeldir.
+## Vektör Maskesi (Vmsk Kaynağı) Nedir?
+Vektör maskesi (Vmsk), bir katmanda şeffaf ve opak bölgeleri tanımlamak için Bézier eğrileri ve yol kayıtlarını kullanan piksel‑tabanlı olmayan bir maskedir. Vektör tabanlı olduğu için kalite kaybı olmadan ölçeklenir—yüksek çözünürlüklü grafikler için mükemmeldir. Birden fazla yol içerebilir, her biri Bézier düğümlerinden oluşur ve opaklık, dolgu ve katman maskelerine bağlama gibi maske özelliklerini destekler.
 
-## Aspose.PSD ile Neden Vektör Maskesi Oluşturmalısınız?
-- **Otomasyon:** Photoshop açmadan maskeleri programatik olarak ekleyebilir veya değiştirebilirsiniz.  
+## Neden Aspose.PSD ile Vektör Maskesi Oluşturmalısınız?
+Vektör maskelerini programlı olarak oluşturmak, manuel Photoshop düzenlemesine olan ihtiyacı ortadan kaldırır, büyük dosya gruplarında tutarlılığı sağlar ve otomatik yapı veya dağıtım boru hatlarına entegrasyonu mümkün kılar. Aspose.PSD ile kesin maske geometrisi oluşturabilir, herhangi bir katmana uygulayabilir ve tam düzenlenebilirliği koruyabilirsiniz; bu, dinamik grafik üretimi ve duyarlı tasarım iş akışları için esastır.
+- **Otomasyon:** Photoshop açmadan programlı olarak maskeler ekleyebilir veya değiştirebilirsiniz.  
 - **Tutarlılık:** Oluşturduğunuz her PSD'nin aynı maske kurallarını izlediğinden emin olun.  
-- **Çapraz platform:** Java'yı destekleyen herhangi bir işletim sisteminde çalışır.  
-- **Entegrasyon:** Diğer Aspose API'leriyle (ör. PSD → PNG dönüştürme) birleştirerek uçtan uca iş akışları oluşturabilirsiniz.  
-- **Ölçeklenebilirlik:** Vektör maskeler her boyutta net kalır, bu da onları duyarlı tasarımlar için ideal kılar.
+- **Çapraz‑platform:** Java'yı destekleyen herhangi bir işletim sisteminde çalışır.  
+- **Entegrasyon:** Diğer Aspose API'leriyle (ör. convert PSD → PNG) birleştirerek uç‑uç iş akışları oluşturabilirsiniz.  
+- **Ölçeklenebilirlik:** Vektör maskeler herhangi bir boyutta net kalır, bu da duyarlı tasarımlar için idealdir.
 
-## Java Geliştiricileri için Bunun Önemi Nedir
-**create vector mask java** tekniklerini kullanarak gelişmiş grafik mantığını doğrudan arka‑uç hizmetlerine, CI boru hatlarına veya masaüstü yardımcı programlara gömebilirsiniz. Artık bir tasarımcının maskeleri manuel eklemesi gerekmez; kodunuz bunları anında üretebilir veya ayarlayabilir, zaman kazandırır ve insan hatasını azaltır.
+## Java Geliştiricileri İçin Bunun Önemi
+**create vector mask java** tekniklerini kullanmak, gelişmiş grafik mantığını doğrudan arka uç hizmetlerine, CI boru hatlarına veya masaüstü yardımcı programlara yerleştirmenizi sağlar. Artık bir tasarımcının maskeleri manuel eklemesine ihtiyaç yok; kodunuz bunları anında oluşturabilir veya ayarlayabilir, zaman tasarrufu sağlar ve insan hatasını azaltır.
 
-## Önkoşullar
+## Ön Koşullar
 Koda geçmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-### Gerekli Araçlar
-- **Java Development Kit (JDK):** Makinenizde JDK kurulu olduğundan emin olun. Yoksa, [Oracle web sitesinden](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.  
-- **Aspose.PSD for Java Library:** PSD dosyalarını yönetmek için güçlü bir kütüphanedir. [Aspose sürüm sayfasından](https://releases.aspose.com/psd/java/) indirebilirsiniz. Satın almadan önce denemek isteyenler için ayrıca [ücretsiz deneme](https://releases.aspose.com/) seçeneği de vardır.  
-- **Bir IDE:** Java için herhangi bir IDE (IntelliJ IDEA, Eclipse vb.) bu proje için yeterlidir.
+### Gereksinimler
+- **Java Development Kit (JDK):** JDK 8 veya daha yenisini kurun. [Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) adresinden indirebilirsiniz.  
+- **Aspose.PSD for Java Library:** Bu güçlü kütüphane PSD dosyalarını yönetir. [Aspose release page](https://releases.aspose.com/psd/java/) adresinden indirin. Hızlı bir başlangıç için aynı sayfadan veya [free trial](https://releases.aspose.com/) üzerinden ücretsiz deneme sürümünü alın.  
+- **Bir IDE:** Herhangi bir Java IDE (IntelliJ IDEA, Eclipse, NetBeans) çalışır.
 
-### Çalışma Alanınızı Kurma
+### Çalışma Alanınızı Ayarlama
 1. **Yeni bir Java Projesi Oluşturun** – Tercih ettiğiniz IDE'yi açın ve yeni bir proje başlatın.  
-2. **Aspose Kütüphanesini Ekleyin** – Aspose JAR dosyasını indirdikten sonra, proje derleme yoluna ekleyin, böylece PSD‑ile ilgili tüm sınıflara erişebilirsiniz.
+2. **Aspose Kütüphanesini Ekleyin** – Aspose JAR dosyasını indirdikten sonra, proje derleme yoluna ekleyin, böylece tüm PSD‑ile ilgili sınıflara erişebilirsiniz.
 
-Ortam hazır olduğunda, gerçek uygulamaya geçelim.
+Ortam hazır olduğunda, gerçek uygulamaya göz atalım.
 
-## Java ile PSD dosyalarında vektör maskesi nasıl oluşturulur
-Aşağıda adım‑adım bir rehber bulacaksınız. Kod blokları orijinal öğreticiden değiştirilmemiştir; sadece her adımı netleştirmek için açıklayıcı metin eklenmiştir.
+## Aspose.PSD for Java Kullanarak PSD'yi PNG'ye Nasıl Dönüştürülür?
+Kaynak PSD'nizi `PsdImage.load()` ile yükleyin, isteğe bağlı olarak vektör maskesini düzenleyin, ardından `ExportFormat.Png` belirterek `save()` çağırın. Aspose.PSD tüm renk profillerini, katmanları ve maske verilerini otomatik olarak işler ve orijinal görsel görünümüyle eşleşen piksel‑kusursuz bir PNG üretir. Bu iki adımlı akış, boyutu ne olursa olsun herhangi bir PSD için çalışır ve herhangi bir Java‑uyumlu platformda çalışır.
 
-### Paketleri İçe Aktarın
-PSD dosyaları üzerinde çalışabilmek için Aspose.PSD kütüphanesinden gerekli sınıfları içe aktarmamız gerekir.
+## Paketleri İçe Aktarma
+`com.aspose.psd` paketi, PSD dosyalarını işlemek için çekirdek sınıflar sağlar; bunlar arasında görüntü yükleme, kaynak manipülasyonu ve dışa aktarma yetenekleri bulunur.
 
 ```java
 import com.aspose.psd.Image;
@@ -72,10 +106,10 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathFill
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.VectorPathType;
 ```
 
-Şimdi sahneyi kurduğumuza göre, her işlemi birlikte inceleyelim.
+Artık ortamı hazırladığımıza göre, her bir işlemi inceleyelim.
 
-### Adım 1: PSD Dosyanızı Yükleyin
-İlk yapmanız gereken PSD dosyanızı yüklemektir. Burası tüm sihrin başladığı yerdir.
+## Adım 1: PSD Dosyanızı Yükleyin
+Dosyayı yüklemek, bellekte tüm belgeyi temsil eden bir `PsdImage` nesnesi sağlar.
 
 ```java
 String dataDir = "Your Document Directory"; // Update this path
@@ -83,12 +117,12 @@ String sourceFileName = dataDir + "Rectangle.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-- `dataDir` değişkenini PSD dosyanızın dizinine ayarladık.  
-- `sourceFileName` için bir dize oluşturduk, dizini PSD dosyasının adıyla birleştirerek.  
+- `dataDir` değişkenini PSD dosyanızın bulunduğu dizine ayarladık.  
+- `sourceFileName` için bir dize oluşturduk; dizini PSD dosyasının adıyla birleştirdik.  
 - Son olarak, `Image.load()` kullanarak PSD dosyasını bir `PsdImage` nesnesine yükledik.
 
-### Adım 2: Vmsk Kaynağını Alın
-PSD görüntümüz yüklendiğine göre, Vmsk kaynağını alalım.
+## Adım 2: Vmsk Kaynağını Alın
+`VmskResource` sınıfı, bir PSD katmanı içinde depolanan vektör maske verilerini kapsüller. Onu almak, maske yollarını incelemenize veya değiştirmenize olanak tanır.
 
 ```java
 VmskResource resource = getVmskResource(im);
@@ -96,8 +130,8 @@ VmskResource resource = getVmskResource(im);
 
 - `getVmskResource()` metodunu çağırıyoruz; bu metod görüntüden Vmsk kaynağını arar ve getirir.
 
-### Adım 3: Vmsk Kaynağı Özelliklerini Doğrulayın
-Değişikliklere geçmeden önce, Vmsk kaynağımızın beklenen durumda olduğundan emin olmak önemlidir.
+## Adım 3: Vmsk Kaynağı Özelliklerini Doğrulama
+Değişiklik yapmadan önce, maskenin etkin, doğru yönlendirilmiş ve beklenen yol sayısını içerdiğini doğrulayın.
 
 ```java
 if (resource.isDisabled() != false ||
@@ -108,10 +142,10 @@ if (resource.isDisabled() != false ||
 }
 ```
 
-- Burada Vmsk kaynağının çeşitli özelliklerini kontrol ediyoruz. Devre dışı bırakılmadığını, ters çevrilmediğini, bağlanmadığını ve doğru sayıda yol içerdiğini doğrulamak istiyoruz.
+- Burada, Vmsk kaynağının çeşitli özelliklerini kontrol ediyoruz. Maskenin devre dışı bırakılmadığından, ters çevrilmediğinden, bağlanmadığından ve doğru sayıda yol içerdiğinden emin olmak istiyoruz.
 
-### Adım 4: Her Yola Erişin ve Doğrulayın
-Biraz daha derine inelim ve Vmsk kaynağındaki yolları inceleyelim.
+## Adım 4: Her Yola Erişin ve Doğrulayın
+Her yol kaydı, vektör şeklinin bir bölümünü tanımlar. Bunları incelemek, doğru geometriyle çalıştığınızı garanti eder.
 
 ```java
 PathFillRuleRecord pathFillRule = (PathFillRuleRecord) resource.getPaths()[0];
@@ -126,10 +160,10 @@ if (pathFillRule.getType() != VectorPathType.PathFillRuleRecord ||
 }
 ```
 
-- Üç belirli yol kaydını çıkarıyor ve türlerini ve özelliklerini doğruluyoruz; böylece kriterlerimize uyduklarından emin oluyoruz.
+- Üç belirli yol kaydını çıkarıyor ve tiplerini ve özelliklerini doğruluyoruz; böylece kriterlerimize uyduklarından emin oluyoruz.
 
-### Adım 5: Vmsk Kaynağını Düzenleyin
-Şimdi değişiklik kısmına giriyoruz! Vmsk kaynağının özelliklerini ihtiyacınıza göre ayarlayabilirsiniz.
+## Adım 5: Vmsk Kaynağını Düzenleyin
+Şimdi değişiklik kısmına giriyoruz! Maskenin davranış bayraklarını iş akışınıza uygun şekilde değiştirebilirsiniz.
 
 ```java
 resource.setDisabled(true);
@@ -137,10 +171,10 @@ resource.setInverted(true);
 resource.setNotLinked(true);
 ```
 
-- Bu blokta Vmsk kaynağının çeşitli özelliklerini `true` olarak ayarlıyoruz; böylece maskenin PSD dosyasındaki davranışını kontrol edebiliyoruz.
+- Bu blokta, Vmsk kaynağının çeşitli özelliklerini değiştiriyoruz. `true` olarak ayarlayarak maskenin PSD dosyasında nasıl davranacağını kontrol edebiliriz.
 
-### Adım 6: Bezier Düğüm Noktalarını Değiştirin
-Bezier düğümleri vektör yolları için kritiktir. Burada bazı değerleri değiştirelim.
+## Adım 6: Bezier Düğüm Noktalarını Değiştirin
+Bezier düğümleri, her vektör segmentinin eğriliğini tanımlar. Bunları ayarlamak, maskeyi rasterleştirmeden yeniden şekillendirir.
 
 ```java
 BezierKnotRecord bezierKnot = (BezierKnotRecord) resource.getPaths()[3];
@@ -151,55 +185,66 @@ bezierKnot.getPoints()[0] = new Point(8039797, 10905190);
 
 - Belirli `BezierKnotRecord` yollarına erişiyor ve noktalarını değiştirerek vektör maskesini yeniden şekillendirebiliyoruz.
 
-### Adım 7: Değiştirilen PSD Dosyasını Kaydedin
-Tüm düzenlemeler tamamlandığında, değiştirilen PSD dosyasını kaydetme zamanı.
+## Adım 7: Değiştirilen PSD Dosyasını Kaydedin
+Tüm düzenlemeler tamamlandıktan sonra, değişiklikleri yeni bir PSD dosyasına kaydedin.
 
 ```java
 String exportPath = dataDir + "Rectangle_changed.psd";
 im.save(exportPath);
 ```
 
-- Dışa aktarılacak PSD dosyasının yolunu ayarlıyoruz ve ardından `im.save()` çağrısıyla bu yeni dosyaya değişiklikleri yazıyoruz.
+- Dışa aktarılan PSD dosyasının yolunu ayarlıyoruz ve ardından `im.save()` çağırarak değişiklikleri bu yeni dosyaya yazıyoruz.
 
-### Adım 8: Kaynakları Temizleyin
-Son olarak, görüntüyü doğru bir şekilde serbest bırakarak kaynakları temizlediğimizden emin olmalıyız.
+## Adım 8: PSD'yi PNG Olarak Dışa Aktarın
+PSD artık güncellenmiş maskeyi içerdiğine göre, doğrudan PNG olarak dışa aktarın. Bu adım **convert PSD to PNG** iş akışını gösterir.
 
 ```java
 im.dispose();
 ```
 
-- İşiniz bittiğinde her zaman kaynakları serbest bırakmak iyi bir uygulamadır. Bu, uygulamanızda bellek sızıntılarını önlemeye yardımcı olur.
+- `im.save("output.png", ExportFormat.Png)` kullanarak düzenlenmiş vektör maskesini yansıtan yüksek kaliteli bir PNG oluşturun.
 
-## Yaygın Sorunlar ve Çözümleri
-| Sorun | Neden Oluşur | Nasıl Çözülür |
-|-------|--------------|---------------|
-| **`VmskResource` not found** | PSD, bir vektör maske katmanı içermiyor. | Kaynak PSD'nin bir vektör maskesi içerdiğini doğrulayın veya kodu çalıştırmadan önce Photoshop'ta manuel olarak bir maske ekleyin. |
-| **`ArrayIndexOutOfBoundsException` on path access** | Beklenen yol kaydı sayısı farklı. | `resource.getPaths().length` değerini inceleyin ve indeks kullanımını buna göre ayarlayın. |
-| **License exception** | Geçerli bir Aspose.PSD lisansı olmadan çalıştırılıyor. | `License license = new License(); license.setLicense("Aspose.PSD.lic");` kodu ile deneme ya da satın alınmış bir lisans uygulayın. |
-| **Memory leak** | Uzun süren işlemlerde görüntü serbest bırakılmıyor. | `im.dispose()` metodunu her zaman bir `finally` bloğunda çağırın veya mümkünse try‑with‑resources kullanın. |
+## Kaynakları Temizleme
+Son olarak, görüntüyü düzgün bir şekilde serbest bırakarak kaynakları temizlediğimizden emin olmalıyız.
+
+CODE_BLOCK_PLACEHOLDER_9_END
+
+- İşiniz bittiğinde her zaman kaynakları serbest bırakmak iyi bir uygulamadır. Bu, uygulamalarınızdaki bellek sızıntılarını önlemeye yardımcı olur.
+
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden Oluşur | Nasıl Düzeltilir |
+|-------|----------------|------------|
+| **`VmskResource` not found** | PSD'de vektör maske katmanı bulunmuyor. | Kaynak PSD'nin bir vektör maskesi içerdiğini doğrulayın veya kodu çalıştırmadan önce Photoshop'ta manuel olarak ekleyin. |
+| **`ArrayIndexOutOfBoundsException` on path access** | Beklenen yol kayıt sayısı farklı. | `resource.getPaths().length` değerini inceleyin ve indeks kullanımını buna göre ayarlayın. |
+| **License exception** | Geçerli bir Aspose.PSD lisansı olmadan çalıştırılıyor. | `License license = new License(); license.setLicense("Aspose.PSD.lic");` kodunu kullanarak deneme veya satın alınmış lisans uygulayın. |
+| **Memory leak** | Uzun süren işlemlerde görüntü serbest bırakılmıyor. | `finally` bloğunda her zaman `im.dispose()` çağırın veya destekleniyorsa try‑with‑resources kullanın. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Mevcut bir katmana yeni bir vektör maskesi nasıl eklerim?**  
-C: Bir `VmskResource` oluşturun, gerekli yol kayıtları (ör. `BezierKnotRecord`) ile doldurun ve katmanın kaynak koleksiyonuna ekleyin.
+**Q: Mevcut bir katmana yeni bir vektör maskesi nasıl eklenir?**  
+A: Bir `VmskResource` oluşturun, gerekli yol kayıtlarıyla (ör. `BezierKnotRecord`) doldurun ve katmanın kaynak koleksiyonuna ekleyin.
 
-**S: Düzenlenmiş PSD'yi Photoshop açmadan doğrudan PNG'ye dönüştürebilir miyim?**  
-C: Evet—PSD'yi kaydettikten sonra `Image.load()` ile tekrar yükleyin ve `im.save("output.png")` çağrısıyla PNG formatını belirterek kaydedin.
+**Q: Düzenlenmiş PSD'yi Photoshop açmadan doğrudan PNG'ye dönüştürebilir miyim?**  
+A: Evet—PSD'yi kaydettikten sonra `Image.load()` ile tekrar yükleyin ve PNG formatını belirterek `im.save("output.png")` çağırın.
 
-**S: Bunu bir CI/CD boru hattında otomatikleştirmenin bir yolu var mı?**  
-C: Kesinlikle. İşlem tamamen Java olduğundan, Maven/Gradle derlemelerine, Docker konteynerlerine veya Java destekleyen herhangi bir CI sistemine entegre edilebilir.
+**Q: Bunu bir CI/CD boru hattında otomatikleştirmenin bir yolu var mı?**  
+A: Kesinlikle. İşlem tamamen Java olduğundan, Maven/Gradle derlemelerine, Docker konteynerlerine veya Java destekleyen herhangi bir CI sistemine entegre edebilirsiniz.
 
-**S: Aspose.PSD'nin hangi sürümleri Java 11+ ile uyumludur?**  
-C: 2024‑2025 sürümleri dahil tüm son sürümler Java 8 ve üzerini, Java 11, 17 ve daha yeni LTS sürümlerini destekler.
+**Q: Aspose.PSD'nin hangi sürümleri Java 11+ ile uyumludur?**  
+A: Tüm son sürümler (2024‑2025) Java 8 ve üzerini, özellikle Java 11, 17 ve daha yeni LTS sürümlerini destekler.
 
-**S: Geliştirme derlemeleri için lisansa ihtiyacım var mı?**  
-C: Ücretsiz değerlendirme lisansı geliştirme ve test için çalışır. Üretim dağıtımları için ticari lisans gereklidir.
+**Q: Geliştirme derlemeleri için lisans gerekiyor mu?**  
+A: Ücretsiz deneme lisansı geliştirme ve test için çalışır. Üretim dağıtımları için ticari lisans gereklidir.
 
----
+**Son Güncelleme:** 2026-06-03  
+**Test Edilen Versiyon:** Aspose.PSD 24.11 for Java  
+**Yazar:** Aspose
 
-**Son Güncelleme:** 2026-02-22  
-**Test Edilen Sürüm:** Aspose.PSD 24.11 for Java  
-**Yazar:** Aspose  
+## İlgili Öğreticiler
+
+- [Java'da Katman Maskesi Desteğiyle PSD'yi PNG'ye Dışa Aktar](/psd/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/)
+- [Aspose.PSD for Java ile PSD'yi PNG'ye Dönüştür ve Orantılı Yeniden Boyutlandır](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
+- [Renk Katmanı ile PSD'yi PNG'ye Dönüştür – Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-color-effect/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

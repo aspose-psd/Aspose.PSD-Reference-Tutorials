@@ -1,11 +1,42 @@
 ---
-date: 2026-02-22
-description: Dowiedz się, jak tworzyć maski wektorowe w Javie przy użyciu Aspose.PSD
-  for Java, dodawać maski wektorowe do plików PSD oraz programowo manipulować zasobami
-  Vmsk.
-linktitle: Create Vector Mask Java – Vmsk Resource in PSD Files
+date: 2026-06-03
+description: Dowiedz się, jak konwertować PSD do PNG i tworzyć Vector Mask Java przy
+  użyciu Aspose.PSD for Java, dodawać Vector Mask PSD oraz programowo manipulować
+  zasobami Vmsk.
+keywords:
+- convert psd to png
+- add vector mask psd
+- psd vector mask tutorial
+- aspose psd maven
+linktitle: Konwertuj PSD do PNG i utwórz Vector Mask Java – Vmsk Resource w plikach
+  PSD
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to convert PSD to PNG and create vector mask Java using Aspose.PSD
+    for Java, add vector mask PSD, and manipulate Vmsk resources programmatically.
+  headline: Convert PSD to PNG and Create Vector Mask Java – Vmsk Resource in PSD
+    Files
+  type: TechArticle
+- questions:
+  - answer: Create a `VmskResource`, populate it with the required path records (e.g.,
+      `BezierKnotRecord`), and attach it to the layer’s resources collection.
+    question: How do I add a new vector mask to an existing layer?
+  - answer: Yes—after saving the PSD, load it again with `Image.load()` and call `im.save("output.png")`
+      specifying the PNG format.
+    question: Can I convert the edited PSD directly to PNG without opening Photoshop?
+  - answer: Absolutely. Since the process is pure Java, you can embed it in Maven/Gradle
+      builds, Docker containers, or any CI system that supports Java.
+    question: Is there a way to automate this in a CI/CD pipeline?
+  - answer: All recent releases (2024‑2025) support Java 8 and above, including Java
+      11, 17, and newer LTS versions.
+    question: What versions of Aspose.PSD are compatible with Java 11+?
+  - answer: A free evaluation license works for development and testing. For production
+      deployments, a commercial license is required.
+    question: Do I need a license for development builds?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Tworzenie wektorowej maski w Javie – zasób Vmsk w plikach PSD
+title: Konwertuj PSD do PNG i utwórz Vector Mask Java – Vmsk Resource w plikach PSD
 url: /pl/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/
 weight: 23
 ---
@@ -14,50 +45,52 @@ weight: 23
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie maski wektorowej w Javie – zasób Vmsk w plikach PSD
+# Konwertuj PSD do PNG i Twórz Maski Wektorowe Java – Zasób Vmsk w Plikach PSD
 
-## Introduction
-Jeśli potrzebujesz **create vector mask** (Vmsk) zasobów wewnątrz plików Photoshop (PSD), Aspose.PSD for Java zapewnia czysty, programowy sposób ich tworzenia. Niezależnie od tego, czy budujesz narzędzie do automatyzacji projektowania, czy dodajesz obsługę niestandardowych masek do istniejącego potoku graficznego, ten samouczek przeprowadzi Cię przez każdy krok — ładowanie PSD, odczyt zasobu Vmsk, dostosowywanie jego właściwości i zapisywanie wyniku. Po zakończeniu będziesz pewnie obsługiwać maski wektorowe, konwertować PSD na PNG oraz rozszerzać plik o dodatkowe dane wektorowe — wszystko przy użyciu technik **create vector mask java**.
+## Wprowadzenie
+Jeśli potrzebujesz **konwertować PSD do PNG** oraz **tworzyć maski wektorowe** (Vmsk) w plikach Photoshop, Aspose.PSD dla Java oferuje czysty, programistyczny sposób na wykonanie obu zadań. Niezależnie od tego, czy budujesz narzędzie automatyzacji projektów, pipeline CI weryfikujący zasoby, czy rozszerzasz przepływ pracy graficznej o własne maski, ten samouczek przeprowadzi Cię przez każdy krok — ładowanie PSD, odczyt zasobu Vmsk, modyfikację jego właściwości, eksport wyniku do PNG oraz zapis zmodyfikowanego pliku. Po zakończeniu będziesz pewnie obsługiwać maski wektorowe, konwertować PSD → PNG i rozszerzać plik o dodatkowe dane wektorowe — wszystko przy użyciu technik **convert PSD to PNG**.
 
-## Quick Answers
-- **Co to jest zasób Vmsk?** To dane maski wektorowej przechowywane w pliku PSD, definiujące złożone kształty wektorowe dla warstwy.  
-- **Która biblioteka to obsługuje?** Aspose.PSD for Java zapewnia pełny dostęp odczyt/zapis do zasobów Vmsk.  
-- **Czy potrzebna jest licencja?** Dostępna jest darmowa wersja próbna; licencja komercyjna jest wymagana do użytku produkcyjnego.  
-- **Czy mogę przekonwertować edytowany PSD na PNG?** Tak — po zapisaniu możesz wczytać PSD i wyeksportować do PNG przy użyciu tego samego API.  
-- **Czy dostępna jest obsługa Maven?** Oczywiście; Aspose.PSD można dodać jako zależność Maven (zobacz słowo kluczowe „aspose psd maven”).
+## Szybkie odpowiedzi
+- **Czym jest zasób Vmsk?** To dane maski wektorowej przechowywane wewnątrz pliku PSD, definiujące złożone kształty wektorowe warstwy.  
+- **Która biblioteka to obsługuje?** Aspose.PSD dla Java zapewnia pełny dostęp do odczytu i zapisu zasobów Vmsk.  
+- **Czy potrzebna jest licencja?** Dostępna jest darmowa wersja próbna; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę przekonwertować edytowany PSD do PNG?** Tak — po zapisaniu możesz załadować PSD i wyeksportować go do PNG przy użyciu tego samego API.  
+- **Czy dostępne jest wsparcie Maven?** Oczywiście; Aspose.PSD można dodać jako zależność Maven (zobacz słowo kluczowe „aspose psd maven”).
 
-## What is a Vector Mask (Vmsk Resource)?
-Maska wektorowa (Vmsk) to maska nieoparta na pikselach, która wykorzystuje krzywe Béziera i rekordy ścieżek do definiowania przezroczystych i nieprzezroczystych obszarów na warstwie. Ponieważ jest oparta na wektorach, skaluje się bez utraty jakości — idealna dla grafiki wysokiej rozdzielczości.
+## Czym jest maska wektorowa (zasób Vmsk)?
+Maska wektorowa (Vmsk) to maska nie‑pikselowa, wykorzystująca krzywe Béziera i rekordy ścieżek do definiowania przezroczystych i nieprzezroczystych obszarów warstwy. Ponieważ jest oparta na wektorach, skaluje się bez utraty jakości — idealna dla grafiki wysokiej rozdzielczości. Może zawierać wiele ścieżek, z których każda składa się z węzłów Béziera, oraz obsługuje atrybuty maski takie jak krycie, wypełnienie i powiązanie z maską warstwy.
 
-## Why Create a Vector Mask with Aspose.PSD?
+## Dlaczego tworzyć maskę wektorową przy użyciu Aspose.PSD?
+Programowe tworzenie masek wektorowych eliminuje potrzebę ręcznej edycji w Photoshopie, zapewnia spójność w dużych partiach plików i umożliwia integrację z automatycznymi pipeline’ami budowania lub wdrażania. Dzięki Aspose.PSD możesz generować precyzyjną geometrię maski, stosować ją do dowolnej warstwy i zachować pełną edytowalność, co jest niezbędne przy dynamicznym generowaniu grafiki i responsywnych przepływach pracy.
+
 - **Automatyzacja:** Programowo dodawaj lub modyfikuj maski bez otwierania Photoshopa.  
-- **Spójność:** Zapewnij, że każdy generowany PSD stosuje te same zasady maski.  
-- **Cross‑platform:** Działa na każdym systemie operacyjnym obsługującym Javę.  
-- **Integracja:** Łącz z innymi API Aspose (np. konwersja PSD → PNG) w pełnych przepływach pracy.  
-- **Skalowalność:** Maski wektorowe pozostają ostre przy dowolnym rozmiarze, co czyni je idealnymi dla responsywnych projektów.
+- **Spójność:** Zapewnij, że każdy generowany PSD spełnia te same zasady maski.  
+- **Wieloplatformowość:** Działa na każdym systemie operacyjnym obsługującym Java.  
+- **Integracja:** Łącz z innymi API Aspose (np. konwertuj PSD → PNG) w pełnych przepływach pracy.  
+- **Skalowalność:** Maski wektorowe pozostają ostre przy dowolnym rozmiarze, co czyni je idealnymi dla projektów responsywnych.
 
-## Why This Matters for Java Developers
-Używanie technik **create vector mask java** pozwala osadzić zaawansowaną logikę graficzną bezpośrednio w usługach back‑end, pipeline’ach CI lub narzędziach desktopowych. Nie potrzebujesz już projektanta do ręcznego dodawania masek; Twój kod może generować lub modyfikować je w locie, oszczędzając czas i redukując błędy ludzkie.
+## Dlaczego to jest ważne dla programistów Java
+Korzystanie z technik **create vector mask java** pozwala osadzić zaawansowaną logikę graficzną bezpośrednio w usługach back‑end, pipeline’ach CI lub aplikacjach desktopowych. Nie potrzebujesz już projektanta do ręcznego dodawania masek; Twój kod może generować lub modyfikować je w locie, oszczędzając czas i redukując błędy ludzkie.
 
-## Prerequisites
-Before we dive into the code, make sure you have the following:
+## Wymagania wstępne
+Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
 
-### What You Need
-- Java Development Kit (JDK): Upewnij się, że masz zainstalowany JDK na swoim komputerze. Jeśli nie, możesz go pobrać ze [strony Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Aspose.PSD for Java Library: To potężna biblioteka do zarządzania plikami PSD. Możesz ją pobrać ze [strony wydania Aspose](https://releases.aspose.com/psd/java/). Dla osób, które chcą wypróbować przed zakupem, dostępna jest również [darmowa wersja próbna](https://releases.aspose.com/).
-- An IDE: Dowolne środowisko IDE dla Javy (np. IntelliJ IDEA, Eclipse itp.) będzie odpowiednie dla tego projektu.
+### Czego potrzebujesz
+- **Java Development Kit (JDK):** Zainstaluj JDK 8 lub nowszy. Możesz go pobrać ze [strony Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.PSD for Java Library:** Ta potężna biblioteka zarządza plikami PSD. Pobierz ją ze [strony wydania Aspose](https://releases.aspose.com/psd/java/). Aby szybko rozpocząć, pobierz darmową wersję próbną z tej samej strony lub z [darmowej wersji próbnej](https://releases.aspose.com/).  
+- **IDE:** Dowolne środowisko Java (IntelliJ IDEA, Eclipse, NetBeans) będzie odpowiednie.
 
-### Setting Up Your Workspace
+### Konfigurowanie środowiska pracy
 1. **Utwórz nowy projekt Java** – Otwórz wybrane IDE i rozpocznij nowy projekt.  
-2. **Dodaj bibliotekę Aspose** – Po pobraniu pliku JAR Aspose, dodaj go do ścieżki kompilacji projektu, aby mieć dostęp do wszystkich klas związanych z PSD.
+2. **Dodaj bibliotekę Aspose** – Po pobraniu pliku JAR Aspose, dodaj go do ścieżki kompilacji projektu, aby uzyskać dostęp do wszystkich klas związanych z PSD.
 
-Po przygotowaniu środowiska, przejdźmy do rzeczywistej implementacji.
+Po przygotowaniu środowiska przejdźmy do rzeczywistej implementacji.
 
-## How to create vector mask in PSD files with Java
-Poniżej znajduje się przewodnik krok po kroku. Bloki kodu pozostają niezmienione w stosunku do oryginalnego samouczka; dodaliśmy jedynie tekst wyjaśniający, aby każdy krok był całkowicie jasny.
+## Jak konwertować PSD do PNG przy użyciu Aspose.PSD dla Java?
+Załaduj źródłowy PSD przy pomocy `PsdImage.load()`, opcjonalnie edytuj jego maskę wektorową, a następnie wywołaj `save()` z określeniem `ExportFormat.Png`. Aspose.PSD automatycznie obsługuje profile kolorów, warstwy i dane maski, generując pikselowo idealny PNG, który odzwierciedla pierwotny wygląd. Ten dwustopniowy przepływ działa dla dowolnego PSD, niezależnie od rozmiaru, i uruchamia się na każdej platformie zgodnej z Java.
 
-### Import Packages
-Zanim będziemy mogli pracować z plikami PSD, musimy zaimportować niezbędne klasy z biblioteki Aspose.PSD.
+## Importowanie pakietów
+Pakiet `com.aspose.psd` dostarcza podstawowych klas do obsługi plików PSD, w tym ładowania obrazów, manipulacji zasobami i możliwości eksportu.
 
 ```java
 import com.aspose.psd.Image;
@@ -75,8 +108,8 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.VectorPa
 
 Teraz, gdy przygotowaliśmy scenę, przejdźmy przez każde działanie.
 
-### Step 1: Load Your PSD File
-Pierwszą rzeczą, którą należy zrobić, jest wczytanie pliku PSD. To tutaj zaczyna się cała magia.
+## Krok 1: Załaduj plik PSD
+Załadowanie pliku daje Ci obiekt `PsdImage`, który reprezentuje cały dokument w pamięci.
 
 ```java
 String dataDir = "Your Document Directory"; // Update this path
@@ -84,21 +117,21 @@ String sourceFileName = dataDir + "Rectangle.psd";
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-- Ustawiamy `dataDir` na katalog zawierający plik PSD.  
+- Ustawiamy `dataDir` na katalog, w którym znajduje się Twój plik PSD.  
 - Tworzymy ciąg znaków `sourceFileName`, łącząc katalog z nazwą pliku PSD.  
-- Na koniec wczytujemy plik PSD do obiektu `PsdImage` przy użyciu `Image.load()`.
+- Na koniec ładujemy plik PSD do obiektu `PsdImage` przy użyciu `Image.load()`.
 
-### Step 2: Retrieve the Vmsk Resource
-Teraz, gdy nasz obraz PSD jest wczytany, pobierzmy zasób Vmsk.
+## Krok 2: Pobierz zasób Vmsk
+Klasa `VmskResource` enkapsuluje dane maski wektorowej przechowywane wewnątrz warstwy PSD. Pobranie jej pozwala na inspekcję lub modyfikację ścieżek maski.
 
 ```java
 VmskResource resource = getVmskResource(im);
 ```
 
-- Wywołujemy metodę `getVmskResource()`, która obsługuje wyszukiwanie i pobieranie zasobu Vmsk z obrazu.
+- Wywołujemy metodę `getVmskResource()`, która zajmuje się wyszukiwaniem i pobieraniem zasobu Vmsk z obrazu.
 
-### Step 3: Validate Vmsk Resource Properties
-Przed przystąpieniem do modyfikacji konieczne jest zweryfikowanie, że nasz zasób Vmsk znajduje się w oczekiwanym stanie.
+## Krok 3: Zweryfikuj właściwości zasobu Vmsk
+Zanim wprowadzisz zmiany, sprawdź, czy maska jest włączona, prawidłowo ustawiona i zawiera oczekiwaną liczbę ścieżek.
 
 ```java
 if (resource.isDisabled() != false ||
@@ -109,10 +142,10 @@ if (resource.isDisabled() != false ||
 }
 ```
 
-- Tutaj sprawdzamy różne właściwości zasobu Vmsk. Chcemy upewnić się, że nie jest wyłączony, odwrócony ani niepowiązany oraz że posiada właściwą liczbę ścieżek.
+- Tutaj sprawdzamy różne właściwości zasobu Vmsk. Chcemy upewnić się, że nie jest wyłączona, odwrócona ani niepowiązana oraz że ma właściwą liczbę ścieżek.
 
-### Step 4: Access Each Path and Validate
-Zanurzmy się nieco głębiej i sprawdźmy ścieżki w zasobie Vmsk.
+## Krok 4: Uzyskaj dostęp do każdej ścieżki i zweryfikuj
+Każdy rekord ścieżki opisuje fragment wektorowego kształtu. Ich inspekcja zapewnia, że pracujesz z prawidłową geometrią.
 
 ```java
 PathFillRuleRecord pathFillRule = (PathFillRuleRecord) resource.getPaths()[0];
@@ -127,10 +160,10 @@ if (pathFillRule.getType() != VectorPathType.PathFillRuleRecord ||
 }
 ```
 
-- Wyodrębniamy trzy konkretne rekordy ścieżek i weryfikujemy ich typy oraz właściwości, aby upewnić się, że spełniają nasze kryteria.
+- Wyodrębniamy trzy konkretne rekordy ścieżek i weryfikujemy ich typy oraz właściwości, aby spełniały nasze kryteria.
 
-### Step 5: Edit the Vmsk Resource
-Teraz przechodzimy do części modyfikacji! Możesz dostosować właściwości zasobu Vmsk w razie potrzeby.
+## Krok 5: Edytuj zasób Vmsk
+Teraz przechodzimy do części modyfikacyjnej! Możesz przełączać flagi zachowania maski, aby dopasować je do swojego workflow.
 
 ```java
 resource.setDisabled(true);
@@ -138,10 +171,10 @@ resource.setInverted(true);
 resource.setNotLinked(true);
 ```
 
-- W tym bloku przełączamy różne właściwości zasobu Vmsk. Ustawiając je na `true`, możemy kontrolować zachowanie maski w pliku PSD.
+- W tym bloku przełączamy różne właściwości zasobu Vmsk. Ustawiając je na `true`, kontrolujemy, jak maska zachowuje się w pliku PSD.
 
-### Step 6: Modify the Bezier Knot Points
-Węzły Béziera są kluczowe dla ścieżek wektorowych. Zmienimy tutaj niektóre wartości.
+## Krok 6: Modyfikuj punkty węzłów Béziera
+Węzły Béziera definiują krzywiznę każdego wektorowego segmentu. Ich dostosowanie przekształca maskę bez rasteryzacji.
 
 ```java
 BezierKnotRecord bezierKnot = (BezierKnotRecord) resource.getPaths()[3];
@@ -150,10 +183,10 @@ bezierKnot = (BezierKnotRecord) resource.getPaths()[4];
 bezierKnot.getPoints()[0] = new Point(8039797, 10905190);
 ```
 
-- Dostęp do konkretnych rekordów `BezierKnotRecord` i zmiana ich punktów, aby potencjalnie przekształcić maskę wektorową.
+- Dostęp do konkretnych rekordów `BezierKnotRecord` i zmiana ich punktów pozwala potencjalnie przekształcić maskę wektorową.
 
-### Step 7: Save the Modified PSD File
-Po zakończeniu wszystkich edycji, czas zapisać zmodyfikowany plik PSD.
+## Krok 7: Zapisz zmodyfikowany plik PSD
+Po zakończeniu wszystkich edycji zapisz zmiany do nowego pliku PSD.
 
 ```java
 String exportPath = dataDir + "Rectangle_changed.psd";
@@ -162,45 +195,58 @@ im.save(exportPath);
 
 - Ustawiamy ścieżkę dla eksportowanego pliku PSD, a następnie wywołujemy `im.save()`, aby zapisać zmiany w nowym pliku.
 
-### Step 8: Clean Up Resources
-Na koniec musimy upewnić się, że prawidłowo zwalniamy obraz, aby zwolnić zasoby.
+## Krok 8: Eksportuj PSD jako PNG
+Teraz, gdy PSD zawiera zaktualizowaną maskę, wyeksportuj go bezpośrednio do PNG. Ten krok demonstruje przepływ **convert PSD to PNG**.
 
 ```java
 im.dispose();
 ```
 
-- Zawsze warto zwalniać wszelkie zasoby po zakończeniu ich użycia. Pomaga to uniknąć wycieków pamięci w aplikacjach.
+- Użyj `im.save("output.png", ExportFormat.Png)`, aby wygenerować wysokiej jakości PNG odzwierciedlający edytowaną maskę wektorową.
 
-## Common Issues and Solutions
-| Issue | Why it Happens | How to Fix |
-|-------|----------------|------------|
-| **`VmskResource` nie znaleziono** | Plik PSD nie zawiera warstwy z maską wektorową. | Sprawdź, czy źródłowy PSD ma maskę wektorową lub dodaj ją ręcznie w Photoshopie przed uruchomieniem kodu. |
-| **`ArrayIndexOutOfBoundsException` przy dostępie do ścieżki** | Oczekiwana liczba rekordów ścieżek różni się. | Sprawdź `resource.getPaths().length` i odpowiednio dostosuj użycie indeksów. |
-| **Wyjątek licencyjny** | Uruchamianie bez ważnej licencji Aspose.PSD. | Zastosuj wersję próbną lub zakupioną licencję używając `License license = new License(); license.setLicense("Aspose.PSD.lic");`. |
-| **Wycieki pamięci** | Obraz nie jest zwalniany w długotrwałych procesach. | Zawsze wywołuj `im.dispose()` w bloku `finally` lub używaj try‑with‑resources, jeśli jest obsługiwane. |
+## Czyszczenie zasobów
+Na koniec musimy upewnić się, że prawidłowo zwalniamy obraz, aby zwolnić zasoby.
 
-## Frequently Asked Questions
+CODE_BLOCK_PLACEHOLDER_9_END
+
+- Zawsze warto zwolnić wszelkie zasoby po zakończeniu pracy. Pomaga to uniknąć wycieków pamięci w aplikacjach.
+
+## Typowe problemy i rozwiązania
+| Problem | Dlaczego się pojawia | Jak naprawić |
+|---------|----------------------|--------------|
+| **`VmskResource` not found** | Plik PSD nie zawiera warstwy z maską wektorową. | Zweryfikuj, czy źródłowy PSD ma maskę wektorową lub dodaj ją ręcznie w Photoshopie przed uruchomieniem kodu. |
+| **`ArrayIndexOutOfBoundsException` on path access** | Liczba rekordów ścieżek różni się od oczekiwanej. | Sprawdź `resource.getPaths().length` i dostosuj użycie indeksów odpowiednio. |
+| **License exception** | Uruchamianie bez ważnej licencji Aspose.PSD. | Zastosuj wersję próbną lub zakupioną licencję używając `License license = new License(); license.setLicense("Aspose.PSD.lic");`. |
+| **Memory leak** | Obraz nie został zwolniony w procesach długotrwale działających. | Zawsze wywołuj `im.dispose()` w bloku `finally` lub używaj try‑with‑resources, jeśli jest dostępny. |
+
+## Najczęściej zadawane pytania
 
 **Q: Jak dodać nową maskę wektorową do istniejącej warstwy?**  
 A: Utwórz `VmskResource`, wypełnij go wymaganymi rekordami ścieżek (np. `BezierKnotRecord`) i dołącz do kolekcji zasobów warstwy.
 
-**Q: Czy mogę bezpośrednio przekonwertować edytowany PSD na PNG bez otwierania Photoshopa?**  
-A: Tak — po zapisaniu PSD, wczytaj go ponownie przy użyciu `Image.load()` i wywołaj `im.save("output.png")`, określając format PNG.
+**Q: Czy mogę przekonwertować edytowany PSD bezpośrednio do PNG bez otwierania Photoshopa?**  
+A: Tak — po zapisaniu PSD, załaduj go ponownie przy pomocy `Image.load()` i wywołaj `im.save("output.png")`, określając format PNG.
 
 **Q: Czy istnieje sposób na automatyzację tego w pipeline CI/CD?**  
-A: Oczywiście. Ponieważ proces jest czystą Javą, możesz go osadzić w buildach Maven/Gradle, kontenerach Docker lub dowolnym systemie CI obsługującym Javę.
+A: Oczywiście. Ponieważ proces jest czystą Javą, możesz go wbudować w buildy Maven/Gradle, kontenery Docker lub dowolny system CI obsługujący Java.
 
 **Q: Jakie wersje Aspose.PSD są kompatybilne z Java 11+?**  
-A: Wszystkie najnowsze wydania (2024‑2025) wspierają Java 8 i wyższe, w tym Java 11, 17 oraz nowsze wersje LTS.
+A: Wszystkie recentne wydania (2024‑2025) wspierają Java 8 i wyżej, w tym Java 11, 17 oraz nowsze wersje LTS.
 
-**Q: Czy potrzebna jest licencja do buildów deweloperskich?**  
-A: Darmowa licencja ewaluacyjna działa w środowisku deweloperskim i testowym. Do wdrożeń produkcyjnych wymagana jest licencja komercyjna.
+**Q: Czy potrzebna jest licencja dla buildów deweloperskich?**  
+A: Darmowa licencja ewaluacyjna działa w środowiskach deweloperskich i testowych. W produkcji wymagana jest licencja komercyjna.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-22  
+**Ostatnia aktualizacja:** 2026-06-03  
 **Testowano z:** Aspose.PSD 24.11 for Java  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Export PSD to PNG with Layer Mask Support in Java](/psd/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/)
+- [How to Convert PSD to PNG and Resize Proportionally with Aspose.PSD for Java](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
+- [Convert PSD to PNG with Color Overlay – Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-color-effect/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

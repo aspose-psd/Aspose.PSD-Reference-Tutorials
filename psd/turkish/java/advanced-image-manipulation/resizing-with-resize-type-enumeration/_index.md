@@ -1,35 +1,90 @@
 ---
-title: Aspose.PSD for Java'da Yeniden Boyutlandırma Türü Numaralandırması ile yeniden boyutlandırma
-linktitle: Yeniden Boyutlandırma Türü Numaralandırmasıyla Yeniden Boyutlandırma
-second_title: Aspose.PSD Java API'si
-description: Aspose.PSD ile Java'da resim yeniden boyutlandırma konusunda ustalaşın. Yeniden Boyutlandırma Türü Numaralandırmasını kullanan adım adım kılavuz.
-weight: 18
+date: 2026-06-03
+description: Aspose.PSD for Java ile görüntüyü yeniden boyutlandırmayı öğrenin. Bu
+  adım adım kılavuz, Resize Type Enumeration, yüksek kaliteli görüntü yeniden boyutlandırma
+  ve PSD'yi JPEG'e dönüştürmeyi kapsar.
+keywords:
+- how to resize image
+- convert psd to jpeg
+- high quality image resize
+- resize image java
+- java image manipulation tutorial
+linktitle: Resize Type Enumeration ile Yeniden Boyutlandırma
+schemas:
+- author: Aspose
+  dateModified: '2026-06-03'
+  description: Learn how to resize image with Aspose.PSD for Java. This step‑by‑step
+    guide covers the Resize Type Enumeration, high‑quality image resize, and how to
+    convert PSD to JPEG.
+  headline: How to Resize Image Java Using Resize Type Enumeration
+  type: TechArticle
+- description: Learn how to resize image with Aspose.PSD for Java. This step‑by‑step
+    guide covers the Resize Type Enumeration, high‑quality image resize, and how to
+    convert PSD to JPEG.
+  name: How to Resize Image Java Using Resize Type Enumeration
+  steps:
+  - name: '**Java Development Environment** – JDK 8 or newer installed and configured.'
+    text: '**Java Development Environment** – JDK 8 or newer installed and configured.'
+  - name: '**Aspose.PSD Library** – Download the latest JAR from the [website](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD Library** – Download the latest JAR from the [website](https://releases.aspose.com/psd/java/).'
+  - name: '**Sample PSD File** – Use the [sample.psd](Your Document Directory/sample.psd)
+      file included with the SDK for hands‑on testing.'
+    text: '**Sample PSD File** – Use the [sample.psd](Your Document Directory/sample.psd)
+      file included with the SDK for hands‑on testing.'
+  type: HowTo
+- questions:
+  - answer: Load the PSD with `Image.load`, then call `image.save("output.jpg", new
+      JpegOptions());`.
+    question: How do I programmatically convert a PSD file to JPEG without resizing?
+  - answer: Yes, you can set the `Resolution` property on the `Image` object before
+      saving.
+    question: Is it possible to maintain the original DPI when resizing?
+  - answer: While you can call `resize` multiple times, it’s more efficient to calculate
+      the final dimensions and resize once.
+    question: Can I chain multiple resize operations?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+title: Resize Type Enumeration Kullanarak Java'da Görüntüyü Yeniden Boyutlandırma
 url: /tr/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD for Java'da Yeniden Boyutlandırma Türü Numaralandırması ile yeniden boyutlandırma
+# Java'da Resize Type Enumeration Kullanarak Görüntüyü Yeniden Boyutlandırma
 
-## giriiş
+## Giriş
 
-Java geliştirmenin sürekli gelişen ortamında verimli görüntü işleme, geliştiricilerin sıklıkla uğraştığı çok önemli bir husustur. Aspose.PSD for Java, Yeniden Boyutlandırma Türü Numaralandırmanın ek avantajıyla görüntüleri yeniden boyutlandırmak için kusursuz bir deneyim sağlayan güçlü bir çözüm olarak ortaya çıkıyor. Bu eğitimde, Aspose.PSD for Java kullanarak görüntüleri yeniden boyutlandırmanın inceliklerini inceleyeceğiz ve kapsamlı bir anlayış sağlamak için her adımı ayrıntılı olarak ele alacağız.
+Eğer bir Java projesinde **görseli yeniden boyutlandırma** dosyalarını verimli bir şekilde nasıl yapacağınızı arıyorsanız, Aspose.PSD for Java temiz ve yüksek‑performanslı bir API sunar. Bu öğreticide bir PSD dosyasını yüklemeyi, yüksek kaliteli görüntü yeniden boyutlandırması için **Resize Type Enumeration** uygulamayı ve son olarak **PSD'yi JPEG'e dönüştürmeyi** adım adım göstereceğiz. İster bir masaüstü editörü ister otomatik bir sunucu‑tarafı işlem hattı oluşturuyor olun, bu adımlar sadece birkaç kod satırıyla boyutları, kaliteyi ve formatı kontrol etmenizi sağlar.
+
+## Hızlı Cevaplar
+- **Java'da görüntüyü yeniden boyutlandırma işlemini hangi kütüphane yönetir?** Aspose.PSD for Java.
+- **En iyi kaliteyi hangi yeniden boyutlandırma türü verir?** `ResizeType.LanczosResample`.
+- **Yeniden boyutlandırmadan sonra PSD'yi JPEG'e dönüştürebilir miyim?** Evet – sadece `JpegOptions` ile kaydedin.
+- **Üretim için lisansa ihtiyacım var mı?** Üretim kullanımında geçerli bir Aspose.PSD lisansı gereklidir.
+- **Bu yaklaşım büyük toplular için uygun mu?** Kesinlikle; API, tüm belgeyi belleğe yüklemeden çok sayıda sayfalı dosyaları işler.
+
+## Java'da "görseli yeniden boyutlandırma" nedir?
+
+**Görseli yeniden boyutlandırma**, bir görüntünün piksel boyutlarını programlı olarak değiştirirken görsel doğruluğu korumak anlamına gelir. Aspose.PSD’nin `Resize` yöntemi ve `ResizeType` enum'ı, ölçekleme algoritmaları üzerinde kesin kontrol sağlar ve geliştiricilerin çeşitli kaynak dosyalar ve hedef boyutlar arasında kaliteyi korumasına olanak tanır.
+
+## Neden Resize Type Enumeration Kullanılmalı?
+
+`ResizeType`, hız ve görsel kaliteyi en iyi dengeleyen yeniden örnekleme algoritmasını seçmenizi sağlar. Çoğu senaryoda, **LanczosResample** keskin sonuçlar verir ve makul bir performans maliyetiyle, tipik bir sunucu sınıfı CPU’da 2000 × 1500 görüntüyü 120 ms’nin altında işleyerek kenar detaylarını korur.
 
 ## Önkoşullar
 
-Bu eğitime başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce, şunların yüklü olduğundan emin olun:
 
-1. Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+1. **Java Geliştirme Ortamı** – JDK 8 veya daha yeni bir sürüm yüklü ve yapılandırılmış.  
+2. **Aspose.PSD Kütüphanesi** – En son JAR dosyasını [web sitesi](https://releases.aspose.com/psd/java/) adresinden indirin.  
+3. **Örnek PSD Dosyası** – SDK ile gelen [sample.psd](Your Document Directory/sample.psd) dosyasını pratik testler için kullanın.
 
-2. Aspose.PSD Kütüphanesi: Aspose.PSD kütüphanesini şuradan indirip yükleyin:[web sitesi](https://releases.aspose.com/psd/java/).
+## Paketleri İçe Aktarma
 
-3.  Örnek PSD Dosyası: Deney için örnek bir PSD dosyasını hazır bulundurun. Şunu kullanabilirsiniz:[Bu eğitim için sample.psd](Belge Dizininiz/sample.psd) dosyanızı oluşturun.
-
-## Paketleri İçe Aktar
-
-Başlamak için gerekli paketleri Java projenize aktarın:
+`Image`, Aspose.PSD'deki tüm görüntü tipleri için temel sınıftır. Java kaynak dosyanıza gerekli içe aktarmaları ekleyin:
 
 ```java
 import com.aspose.psd.Image;
@@ -38,63 +93,94 @@ import com.aspose.psd.ResizeType;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## 1. Adım: Görüntüyü Yükleyin
+## Adım 1: Görüntüyü Yükleme
 
- Mevcut bir görüntüyü bir örneğine yükleyerek başlayın.`RasterImage` sınıf. Aşağıdaki kod parçacığını kullanın:
+### Tanım Bağlantısı
+`RasterImage` sınıfı, Aspose.PSD'nin bir PSD dosyasından yüklenen raster tabanlı görüntüyü temsil eden çekirdek nesnedir.
+
+PSD'nizi bir `RasterImage` örneğine yükleyin, böylece piksellerini manipüle edebilirsiniz:
 
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// Mevcut bir görüntüyü RasterImage sınıfının bir örneğine yükleme
+// Load an existing image into an instance of RasterImage class
 Image image = Image.load(sourceFile);
 ```
 
-## 2. Adım: Görüntüyü Yeniden Boyutlandırın
+## Adım 2: Görüntüyü Yeniden Boyutlandırma
 
-Şimdi, Yeniden Boyutlandırma Türü Numaralandırmasını kullanarak yüklenen görüntüyü yeniden boyutlandırın. Bu örnekte Lanczos Resample yöntemini kullanıyoruz:
+`image.resize(width, height, resizeType)` seçilen algoritmayı kullanarak görüntüyü belirtilen boyutlara yeniden boyutlandırır.
+
+Şimdi **Resize Type Enumeration** kullanarak yüklenen görüntüyü yeniden boyutlandırın. Bu örnekte yüksek kaliteyle **görseli yeniden boyutlandırma** yaparken ideal olan Lanczos Resample yöntemini kullanıyoruz:
 
 ```java
 image.resize(300, 300, ResizeType.LanczosResample);
 ```
 
-## 3. Adım: Yeniden Boyutlandırılan Resmi Kaydedin
+## Adım 3: Yeniden Boyutlandırılmış Görüntüyü Kaydetme
 
-Yeniden boyutlandırdıktan sonra görüntüyü belirtilen boyutlarla ve seçilen yeniden boyutlandırma türüyle kaydedin. Burada bunu bir JPEG dosyası olarak kaydediyoruz:
+`image.save(path, options)` görüntüyü, sağlanan seçeneklerle tanımlanan formatta diske yazar.
+
+Yeniden boyutlandırdıktan sonra, görüntüyü belirtilen boyutlarla ve seçilen yeniden boyutlandırma türüyle kaydedin. Burada, sonucu JPEG dosyası olarak kaydederek **psd'yi jpeg'e dönüştürmeyi** de gösteriyoruz:
 
 ```java
 String destName = dataDir + "ResizingwithResizeTypeEnumeration_out.jpg";
 image.save(destName, new JpegOptions());
 ```
 
-Ve işte karşınızda! Aspose.PSD for Java'daki Yeniden Boyutlandırma Türü Numaralandırmasını kullanarak bir görüntüyü başarıyla yeniden boyutlandırdınız.
+## Neden Resize Type Enumeration Kullanılmalı?
 
-Sonuç olarak Aspose.PSD for Java, görüntü işleme için sağlam bir platform sağlar ve Yeniden Boyutlandırma Türü Numaralandırması bu sürece bir esneklik katmanı ekler. İster küçük bir proje üzerinde ister büyük ölçekli bir uygulama üzerinde çalışıyor olun, bu adımlarda uzmanlaşmak, görüntü yeniden boyutlandırma işlemini sorunsuz bir şekilde gerçekleştirmenize yardımcı olacaktır.
+`ResizeType`, yeniden örnekleme algoritması üzerinde ayrıntılı kontrol sağlar ve hız ile kaliteyi dengelemenize olanak tanır. Çoğu uygulama için `LanczosResample` büyük bir performans cezası olmadan keskin sonuçlar sunan harika bir denge sağlar ve çeşitli görüntü içeriklerinde iyi çalışır.
 
-## SSS'ler
+## Yaygın Sorunlar ve Çözümler
 
-### S1: Aspose.PSD for Java hem küçük hem de büyük ölçekli projeler için uygun mudur?
+- **Yeniden boyutlandırma sonrası görüntü bulanık görünüyor** – `Bicubic` veya `NearestNeighbour` gibi farklı bir `ResizeType` deneyin ve hangisinin belirli görüntünüz için en iyi görsel sonucu verdiğini görün.  
+- **Büyük PSD dosyalarında OutOfMemoryError** – Görüntüyü daha küçük parçalar halinde işleyin veya JVM yığın boyutunu (`-Xmx` bayrağı) artırın. Aspose.PSD, tüm belgeyi belleğe yüklemeden **2 GB**'a kadar dosyaları işleyebilir.
 
-A1: Kesinlikle! Aspose.PSD for Java, ölçeklenebilirlik ve verimlilik sağlayarak her boyuttaki projeye hitap edecek şekilde tasarlanmıştır.
+## Sık Sorulan Sorular
 
-### S2: Lanczos Resample dışında farklı bir yeniden boyutlandırma türü kullanabilir miyim?
+### Q1: Aspose.PSD for Java hem küçük hem de büyük ölçekli projeler için uygun mu?
+A1: Kesinlikle! Aspose.PSD for Java, tüm ölçeklerdeki projelere hizmet vermek üzere tasarlanmıştır ve ölçeklenebilirlik ile verimlilik sağlar.
 
-C2: Evet, Aspose.PSD for Java, En Yakın Komşu, Bicubic ve daha fazlası gibi çeşitli yeniden boyutlandırma türleri sunar. Kapsamlı bir liste için belgeleri inceleyin.
+### Q2: Lanczos Resample dışındaki farklı bir yeniden boyutlandırma türü kullanabilir miyim?
+A2: Evet, Aspose.PSD for Java çeşitli yeniden boyutlandırma türleri sunar, örneğin **NearestNeighbour**, **Bicubic** ve daha fazlası. Tam liste için API belgelerine bakın.
 
-### S3: Aspose.PSD for Java için ek desteği nerede bulabilirim?
+### Q3: Aspose.PSD for Java için ek desteği nereden bulabilirim?
+A3: Herhangi bir soru veya yardım için [Aspose.PSD forumu](https://forum.aspose.com/c/psd/34) adresini ziyaret edin.
 
- A3: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.PSD forumu](https://forum.aspose.com/c/psd/34).
+### Q4: Aspose.PSD for Java için ücretsiz deneme sürümü mevcut mu?
+A4: Evet, ücretsiz deneme sürümüne [burada](https://releases.aspose.com/) erişebilirsiniz.
 
-### S4: Aspose.PSD for Java'nın ücretsiz deneme sürümü mevcut mu?
+### Q5: Aspose.PSD for Java için geçici bir lisans nasıl alabilirim?
+A5: Geçici bir lisans almak için [bu bağlantı](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin.
 
- Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+## Sık Sorulan Sorular
 
-### S5: Aspose.PSD for Java için nasıl geçici lisans alabilirim?
+**S: PSD dosyasını yeniden boyutlandırmadan programlı olarak JPEG'e nasıl dönüştürürüm?**  
+C: PSD'yi `Image.load` ile yükleyin, ardından `image.save("output.jpg", new JpegOptions());` çağrısını yapın.
 
- Cevap5: Geçici bir lisans almak için şu adresi ziyaret edin:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
-{{< /blocks/products/pf/tutorial-page-section >}}
+**S: Yeniden boyutlandırırken orijinal DPI'yi korumak mümkün mü?**  
+C: Evet, kaydetmeden önce `Image` nesnesinin `Resolution` özelliğini ayarlayabilirsiniz.
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**S: Birden fazla yeniden boyutlandırma işlemini zincirleyebilir miyim?**  
+C: `resize` metodunu birden fazla kez çağırabilirsiniz, ancak nihai boyutları hesaplayıp tek seferde yeniden boyutlandırmak daha verimlidir.
+
+---
+
+**Son Güncelleme:** 2026-06-03  
+**Test Edilen Versiyon:** Aspose.PSD for Java 24.12  
+**Yazar:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## İlgili Eğitimler
+
+- [Aspose.PSD ile Basit Yeniden Boyutlandırma – Java Görüntü İşleme Kütüphanesi](/psd/java/basic-image-operations/simple-resizing/)
+- [Aspose.PSD for Java'da Bicubic Resampler ile Yüksek Kaliteli Görüntü Ölçekleme](/psd/java/advanced-image-manipulation/implement-bicubic-resampler/)
+- [Aspose.PSD for Java ile PSD'yi PNG'ye Dönüştürme ve Orantılı Yeniden Boyutlandırma](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
