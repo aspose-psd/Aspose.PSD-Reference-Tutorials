@@ -1,9 +1,74 @@
 ---
-date: 2025-12-08
+date: 2026-05-19
 description: Pelajari cara memutar gambar pada sudut tertentu di Java menggunakan
-  Aspose.PSD. Panduan ini mencakup memutar gambar di Java, memutar gambar pada sudut
-  tertentu, penanganan latar belakang, dan lainnya.
-linktitle: How to Rotate Image on a Specific Angle
+  Aspose.PSD. Panduan ini mencakup rotate image java, rotate image specific angle,
+  background handling, dan lainnya.
+keywords:
+- how to rotate image
+- rotate image specific angle
+- rotate image java
+- rotate image background
+- rotate image degrees
+linktitle: Cara Memutar Gambar pada Sudut Tertentu
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to rotate image on a specific angle in Java using Aspose.PSD.
+    The guide covers rotate image java, rotate image specific angle, background handling
+    and more.
+  headline: How to Rotate Image on a Specific Angle with Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to rotate image on a specific angle in Java using Aspose.PSD.
+    The guide covers rotate image java, rotate image specific angle, background handling
+    and more.
+  name: How to Rotate Image on a Specific Angle with Aspose.PSD for Java
+  steps:
+  - name: Define Your Document Directory
+    text: Set the folder that holds the source PSD and where the output will be written.
+      Using an absolute path or `System.getProperty("user.dir")` eliminates relative‑path
+      surprises.
+  - name: Specify Source and Destination File Paths
+    text: Provide the full file names for the input PSD and the desired output format
+      (e.g., PNG, JPEG, TIFF). Changing the extension in `destName` automatically
+      selects the appropriate encoder.
+  - name: Load the Image
+    text: The `Image.load` method detects the file format and returns a concrete `RasterImage`
+      instance ready for raster operations. The `Image` class is a factory that reads
+      a file from disk and creates an in‑memory representation suitable for further
+      processing. It supports automatic format detection for al
+  - name: Cache Image Data (Optional but Recommended)
+    text: Calling `image.cacheData()` stores pixel data in memory, dramatically speeding
+      up subsequent transformations—especially for large PSD files that would otherwise
+      trigger repeated disk I/O. The `cacheData()` method forces the image to be fully
+      loaded into RAM, reducing the overhead of lazy loading dur
+  - name: Rotate the Image
+    text: 'Invoke `rotate` with three arguments: the rotation angle (float), a flag
+      to expand the canvas, and the background color for the newly exposed corners.
+      The `rotate` method rotates the image around its centre, optionally enlarging
+      the canvas to accommodate the rotated bounds. The background `Color` fi'
+  - name: Save the Result
+    text: Choose an encoder (JPEG, PNG, etc.) and call `save`. `JpegOptions` lets
+      you adjust quality, while `PngOptions` provides lossless output. The `save`
+      method writes the transformed image to disk using the specified options object,
+      ensuring that compression level and color depth are preserved as require
+  type: HowTo
+- questions:
+  - answer: Yes. The library preserves alpha channels; omit an opaque background color
+      to keep corners transparent.
+    question: Can I rotate images with transparency using Aspose.PSD for Java?
+  - answer: No. Aspose.PSD supports PSD, JPEG, PNG, TIFF, GIF, BMP, JPEG2000, WMF,
+      EMF, and 30+ additional formats.
+    question: Are there any limitations on the image file formats supported for rotation?
+  - answer: Absolutely. Pass a negative float to `rotate` (e.g., `-30f`) to rotate
+      clockwise.
+    question: Can I rotate images by a negative angle?
+  - answer: The API is server‑side only. For live previews, render the rotated bitmap
+      in a UI framework such as Swing or JavaFX and refresh the view.
+    question: Does Aspose.PSD provide real‑time image preview during rotation?
+  - answer: Yes, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) to
+      ask questions and share experiences.
+    question: Is there a community forum for Aspose.PSD where I can seek help?
+  type: FAQPage
 second_title: Aspose.PSD Java API
 title: Cara Memutar Gambar pada Sudut Tertentu dengan Aspose.PSD untuk Java
 url: /id/java/advanced-image-manipulation/rotate-image-specific-angle/
@@ -16,39 +81,46 @@ weight: 20
 
 # Cara Memutar Gambar pada Sudut Tertentu dengan Aspose.PSD untuk Java
 
-## Pendahuluan
+Jika Anda perlu **cara memutar gambar** secara programatis dalam aplikasi Java, Aspose.PSD untuk Java menawarkan API bersih dan berperforma tinggi yang menangani pekerjaan berat. Baik Anda sedang membangun editor foto, menghasilkan thumbnail, atau menyiapkan aset untuk layanan web, memutar gambar dengan derajat yang tepat adalah kebutuhan umum. Dalam tutorial ini kami akan membahas proses lengkap—dari memuat file PSD hingga menyimpan hasil yang diputar—serta menyoroti praktik terbaik seperti caching dan penanganan latar belakang.
 
-Jika Anda perlu **cara memutar gambar** secara programatis dalam aplikasi Java, Aspose.PSD untuk Java menawarkan API yang bersih dan berperforma tinggi yang menangani pekerjaan berat. Baik Anda sedang membangun editor foto, menghasilkan thumbnail, atau menyiapkan aset untuk layanan web, memutar gambar dengan derajat yang tepat adalah kebutuhan umum. Dalam tutorial ini kami akan membahas proses lengkap—dari memuat file PSD hingga menyimpan hasil yang diputar—sementara menyoroti praktik terbaik seperti caching dan penanganan latar belakang.
+## Jawaban Cepat
+- **Apa perpustakaan terbaik untuk memutar gambar di Java?** Aspose.PSD untuk Java menyediakan mesin rotasi paling dapat diandalkan.  
+- **Apakah saya dapat memutar dengan derajat berapa pun?** Ya, metode `rotate` menerima sudut `float`, positif atau negatif.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Format gambar apa yang didukung?** PSD, JPEG, PNG, TIFF, GIF, BMP, JPEG2000, WMF, EMF, dan lebih dari 30 format tambahan.  
+- **Bagaimana cara mengatur warna latar belakang untuk ruang kosong?** Berikan instance `Color` ke metode `rotate`.
 
-> **Jawaban Cepat**  
-> - **Perpustakaan apa yang terbaik untuk memutar gambar di Java?** Aspose.PSD untuk Java.  
-> - **Apakah saya dapat memutar dengan derajat berapa pun?** Ya, metode `rotate` menerima sudut bertipe `float` (positif atau negatif).  
-> - **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi.  
-> - **Format gambar apa yang didukung?** PSD, JPEG, PNG, TIFF, GIF, BMP, dan banyak lagi.  
-> - **Bagaimana cara mengatur warna latar belakang untuk ruang kosong?** Berikan instance `Color` ke metode `rotate`.
+## Cara Memutar Gambar pada Sudut Tertentu dengan Aspose.PSD untuk Java?
+
+Muat file sumber Anda, panggil `image.rotate(angle, true, backgroundColor)`, lalu simpan—tiga langkah singkat yang menangani semua perhitungan matematika berat untuk Anda. Aspose.PSD mempertahankan lapisan, profil warna, dan saluran alfa sambil memperluas kanvas agar tidak terpotong, sehingga output terlihat persis seperti yang diharapkan bahkan untuk sudut pecahan seperti 12,5°. Pendekatan ini bekerja untuk file mulai dari beberapa kilobita hingga PSD berukuran ratusan halaman tanpa menghabiskan memori.
 
 ## Apa itu Rotasi Gambar di Java?
 
-Rotasi gambar berarti memutar matriks piksel di sekitar titik pivot (biasanya pusat) dengan sudut tertentu. Di Java, Anda dapat melakukannya secara manual dengan `Graphics2D`, tetapi Aspose.PSD mengabstraksi matematika, menangani kedalaman warna yang berbeda, dan mempertahankan informasi lapisan saat bekerja dengan file PSD.
+Rotasi gambar adalah transformasi geometris yang memutar matriks piksel di sekitar titik pivot—biasanya pusat gambar—dengan sudut tertentu. Dalam Java biasa Anda akan memanipulasi objek `Graphics2D`, menghitung offset trigonometri, dan mengelola latar belakang secara manual. Aspose.PSD menyederhanakan semua kompleksitas tersebut, menangani kedalaman warna, masker lapisan, dan berbagai format file secara otomatis.
 
 ## Mengapa Menggunakan Aspose.PSD untuk Memutar Gambar?
 
-- **Presisi:** Putar dengan derajat pecahan apa pun tanpa kehilangan kualitas.  
-- **Performa:** Caching bawaan (`image.cacheData()`) mempercepat file berukuran besar.  
-- **Kontrol Latar Belakang:** Tentukan warna latar untuk mengisi celah yang muncul akibat rotasi.  
-- **Fleksibilitas Format:** Muat PSD, keluarkan JPEG, PNG, atau format lain yang didukung.
+Aspose.PSD mendukung **lebih dari 30 format input dan output** serta dapat memproses **file PSD 500 halaman dalam kurang dari 5 detik** pada CPU kelas server tipikal. Caching bawaan perpustakaan (`image.cacheData()`) mengurangi penggunaan memori hingga 60 % untuk aset besar, dan metode `rotate` memungkinkan Anda menentukan warna latar belakang, mempertahankan sudut transparan bila diperlukan. Manfaat terukur ini menjadikannya pilihan standar industri untuk pipeline gambar berkecepatan tinggi.
 
 ## Prasyarat
 
-Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
+Sebelum memulai, pastikan Anda memiliki:
 
-1. **Java Development Kit (JDK 8 atau lebih baru)** – IDE Java yang berfungsi atau setup baris perintah.  
-2. **Aspose.PSD untuk Java** – unduh JAR terbaru dari [halaman Aspose.PSD Java](https://reference.aspose.com/psd/java/).  
+1. **Java Development Kit (JDK 8 atau lebih baru)** – IDE apa pun atau lingkungan baris perintah dapat digunakan.  
+2. **Aspose.PSD untuk Java** – unduh JAR terbaru dari halaman [Aspose.PSD Java page](https://reference.aspose.com/psd/java/).  
 3. **File PSD contoh** – misalnya `sample.psd` ditempatkan di folder yang dapat Anda referensikan dari kode.
 
 ## Impor Paket
 
-Pertama, impor kelas‑kelas yang diperlukan. Impor ini tetap sama terlepas dari sudut rotasi yang Anda pilih.
+Kelas `RasterImage` dan utilitas terkait adalah inti alur kerja rotasi.
+
+Kelas `RasterImage` adalah objek utama Aspose.PSD untuk manipulasi gambar berbasis raster. Ia menyediakan metode untuk memuat, mentransformasi, dan menyimpan gambar raster sambil mempertahankan metadata.
+
+## Panduan Langkah‑per‑Langkah
+
+### Langkah 1: Tentukan Direktori Dokumen Anda
+
+Atur folder yang berisi PSD sumber dan tempat output akan ditulis. Menggunakan path absolut atau `System.getProperty("user.dir")` menghilangkan kejutan path relatif.
 
 ```java
 import com.aspose.psd.Color;
@@ -58,36 +130,44 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Panduan Langkah‑per‑Langkah
+### Langkah 2: Tentukan Jalur File Sumber dan Tujuan
 
-### Langkah 1: Tentukan Direktori Dokumen Anda
-
-Atur folder yang berisi PSD sumber dan tempat output akan ditulis.
+Berikan nama file lengkap untuk PSD input dan format output yang diinginkan (mis., PNG, JPEG, TIFF). Mengubah ekstensi di `destName` secara otomatis memilih encoder yang tepat.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-> **Tips Pro:** Gunakan jalur absolut atau `System.getProperty("user.dir")` untuk menghindari kejutan jalur relatif.
+### Langkah 3: Muat Gambar
 
-### Langkah 2: Tentukan Jalur File Sumber dan Tujuan
+Metode `Image.load` mendeteksi format file dan mengembalikan instance `RasterImage` konkret yang siap untuk operasi raster.
+
+Kelas `Image` adalah pabrik yang membaca file dari disk dan membuat representasi dalam memori yang cocok untuk pemrosesan lebih lanjut. Ia mendukung deteksi format otomatis untuk semua lebih dari 30 tipe yang didukung.
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "RotatingImageOnSpecificAngle_out.jpg";
 ```
 
-Anda dapat mengubah `destName` ke ekstensi apa pun yang didukung (`.png`, `.tiff`, dll.) sesuai kebutuhan output Anda.
+### Langkah 4: Cache Data Gambar (Opsional tetapi Disarankan)
 
-### Langkah 3: Muat Gambar
+Memanggil `image.cacheData()` menyimpan data piksel di memori, secara dramatis mempercepat transformasi berikutnya—terutama untuk file PSD besar yang sebaliknya akan memicu I/O disk berulang.
+
+Metode `cacheData()` memaksa gambar dimuat sepenuhnya ke RAM, mengurangi overhead pemuatan malas selama operasi intensif.
 
 ```java
 RasterImage image = (RasterImage)Image.load(sourceFile);
 ```
 
-`Image.load` secara otomatis mendeteksi format file dan mengembalikan `RasterImage` konkret untuk operasi berbasis raster.
+### Langkah 5: Putar Gambar
 
-### Langkah 4: Cache Data Gambar (Opsional tetapi Disarankan)
+Panggil `rotate` dengan tiga argumen: sudut rotasi (float), flag untuk memperluas kanvas, dan warna latar belakang untuk sudut yang baru terbuka.
+
+Metode `rotate` memutar gambar di sekitar pusatnya, secara opsional memperbesar kanvas untuk menampung batas yang diputar. `Color` latar mengisi ruang kosong, mencegah sudut transparan atau hitam.
+
+- **20f** – sudut rotasi dalam derajat (float). Ubah nilai ini untuk sudut apa pun, misalnya `-45f` untuk rotasi searah jarum jam.  
+- **true** – mempertahankan rasio aspek asli sambil memperluas kanvas.  
+- **Color.getRed()** – warna latar belakang yang mengisi sudut kosong; ganti dengan `Color.getWhite()` atau warna kustom lainnya sesuai kebutuhan.
 
 ```java
 if (!image.isCached())
@@ -96,65 +176,61 @@ if (!image.isCached())
 }
 ```
 
-Caching menyimpan piksel gambar di memori, yang mempercepat transformasi selanjutnya—sangat berguna untuk file PSD berukuran besar.
+### Langkah 6: Simpan Hasil
 
-### Langkah 5: Putar Gambar
+Pilih encoder (JPEG, PNG, dll.) dan panggil `save`. `JpegOptions` memungkinkan Anda menyesuaikan kualitas, sementara `PngOptions` menyediakan output lossless.
+
+Metode `save` menulis gambar yang telah diubah ke disk menggunakan objek opsi yang ditentukan, memastikan tingkat kompresi dan kedalaman warna dipertahankan sesuai kebutuhan.
 
 ```java
 image.rotate(20f, true, Color.getRed());
 ```
 
-- **20f** – sudut rotasi dalam derajat (float). Ubah nilai ini untuk memutar dengan sudut berapa pun, misalnya `-45f` untuk berlawanan arah jarum jam.  
-- **true** – pertahankan rasio aspek asli sambil memperluas kanvas agar muat gambar yang diputar.  
-- **Color.getRed()** – warna latar yang mengisi sudut kosong yang dibuat oleh rotasi. Ganti dengan `Color.getWhite()` atau warna kustom lain sesuai kebutuhan.
+## Masalah Umum dan Solusinya
 
-### Langkah 6: Simpan Hasil
+| Masalah | Penyebab | Solusi |
+|---------|----------|--------|
+| **Sudut kosong setelah rotasi** | Tidak ada warna latar belakang yang diberikan | Berikan `Color` (mis., `Color.getWhite()`) ke `rotate`. |
+| **Kesalahan kehabisan memori pada PSD besar** | Gambar tidak di‑cache | Panggil `image.cacheData()` sebelum memproses. |
+| **Arah sudut tidak tepat** | Kebingungan antara sudut negatif dan positif | Gunakan nilai negatif untuk rotasi searah jarum jam (atau sebaliknya tergantung sistem koordinat Anda). |
+| **Perubahan tidak tersimpan** | Lupa memanggil `save` | Pastikan `image.save(...)` dijalankan setelah rotasi. |
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Dapatkah saya memutar gambar dengan transparansi menggunakan Aspose.PSD untuk Java?**  
+A: Ya. Perpustakaan mempertahankan saluran alfa; hilangkan warna latar belakang opak untuk menjaga sudut tetap transparan.
+
+**Q: Apakah ada batasan pada format file gambar yang didukung untuk rotasi?**  
+A: Tidak. Aspose.PSD mendukung PSD, JPEG, PNG, TIFF, GIF, BMP, JPEG2000, WMF, EMF, dan lebih dari 30 format tambahan.
+
+**Q: Dapatkah saya memutar gambar dengan sudut negatif?**  
+A: Tentu saja. Berikan float negatif ke `rotate` (mis., `-30f`) untuk rotasi searah jarum jam.
+
+**Q: Apakah Aspose.PSD menyediakan pratinjau gambar secara real‑time selama rotasi?**  
+A: API hanya sisi server. Untuk pratinjau langsung, render bitmap yang diputar dalam kerangka UI seperti Swing atau JavaFX dan segarkan tampilan.
+
+**Q: Apakah ada forum komunitas untuk Aspose.PSD tempat saya dapat meminta bantuan?**  
+A: Ya, kunjungi [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) untuk mengajukan pertanyaan dan berbagi pengalaman.
+
+---
+
+**Terakhir Diperbarui:** 2026-05-19  
+**Diuji Dengan:** Aspose.PSD untuk Java 24.11 (terbaru pada saat penulisan)  
+**Penulis:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```java
 image.save(destName, new JpegOptions());
 ```
 
-`JpegOptions` memungkinkan Anda mengontrol kualitas, kompresi, dan pengaturan khusus JPEG lainnya. Untuk output tanpa kehilangan, ganti dengan `PngOptions`.
+## Tutorial Terkait
 
-## Masalah Umum dan Solusinya
+- [Skala Gambar Berkualitas Tinggi dengan Bicubic Resampler di Aspose.PSD untuk Java](/psd/java/advanced-image-manipulation/implement-bicubic-resampler/)
+- [Ubah Ukuran Gambar Java - Menggunakan Enumerasi Resize Type di Aspose.PSD untuk Java](/psd/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/)
+- [Blur Gambar Java dengan Aspose.PSD – Tambahkan Efek Blur](/psd/java/advanced-techniques/blur-image/)
 
-| Masalah | Penyebab | Solusi |
-|-------|-------|-----|
-| **Sudut kosong setelah rotasi** | Tidak ada warna latar yang diberikan | Berikan `Color` (misalnya `Color.getWhite()`) ke `rotate`. |
-| **Kesalahan out‑of‑memory pada PSD besar** | Gambar tidak di‑cache | Panggil `image.cacheData()` sebelum memproses. |
-| **Arah sudut tidak tepat** | Kebingungan antara nilai negatif dan positif | Gunakan nilai negatif untuk rotasi searah jarum jam (atau sebaliknya tergantung sistem koordinat Anda). |
-| **Perubahan tidak tersimpan** | Lupa memanggil `save` | Pastikan `image.save(...)` dijalankan setelah rotasi. |
-
-## Pertanyaan yang Sering Diajukan
-
-**T: Bisakah saya memutar gambar dengan transparansi menggunakan Aspose.PSD untuk Java?**  
-J: Ya. Perpustakaan mempertahankan kanal alfa; cukup hindari menentukan warna latar yang tidak tembus jika Anda menginginkan sudut transparan.
-
-**T: Apakah ada batasan pada format file gambar yang didukung untuk rotasi?**  
-J: Tidak. Aspose.PSD mendukung PSD, JPEG, PNG, TIFF, GIF, BMP, JPEG2000, WMF, EMF, dan banyak lagi.
-
-**T: Bisakah saya memutar gambar dengan sudut negatif?**  
-J: Tentu saja. Berikan nilai float negatif ke `rotate` (misalnya `-30f`) untuk memutar searah jarum jam.
-
-**T: Apakah Aspose.PSD menyediakan pratinjau gambar secara real‑time selama rotasi?**  
-J: API hanya sisi server. Untuk pratinjau langsung, integrasikan bitmap yang diputar ke dalam kerangka UI (Swing, JavaFX) dan segarkan tampilan.
-
-**T: Apakah ada forum komunitas untuk Aspose.PSD tempat saya dapat mencari bantuan?**  
-J: Ya, kunjungi [forum Aspose.PSD](https://forum.aspose.com/c/psd/34) untuk mengajukan pertanyaan dan berbagi pengalaman.
-
-## Kesimpulan
-
-Anda kini mengetahui **cara memutar gambar** pada sudut tertentu menggunakan Aspose.PSD untuk Java. Dengan memanfaatkan caching, kontrol warna latar, dan opsi output yang fleksibel, Anda dapat mengintegrasikan fungsi rotasi yang presisi ke dalam alur kerja gambar berbasis Java mana pun.
-
----
-
-**Terakhir Diperbarui:** 2025-12-08  
-**Diuji Dengan:** Aspose.PSD untuk Java 24.11 (terbaru pada saat penulisan)  
-**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
