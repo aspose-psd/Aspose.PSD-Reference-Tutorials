@@ -1,5 +1,5 @@
 ---
-title: Combine Images Java – Create PSD File by Merging Pictures with Aspose.PSD
+title: Combine Images in Java – Merge Pictures into a PSD File with Aspose.PSD for Java
 linktitle: Combine Images
 second_title: Aspose.PSD Java API
 description: Learn how to combine images java using Aspose.PSD, merge two pictures into a PSD canvas, and generate a layered file in just minutes.
@@ -86,10 +86,10 @@ Aspose.PSD supports **15+ image formats** (including PSD, PNG, JPEG, BMP, TIFF, 
 
 ## Prerequisites
 
-1. **Aspose.PSD Library** – download it from [here](https://releases.aspose.com/psd/java/).  
+1. **Aspose.PSD Library** – download it from the [Aspose.PSD Java release page](https://releases.aspose.com/psd/java/).  
 2. **Java Development Kit (JDK)** – Java 8+ is required; Java 11 or later is recommended for better performance.  
 3. **Working Directory** – a folder on your machine that contains the source images (`example1.png`, `example2.png`) and where the output PSD (`combined.psd`) will be written.  
-4. **License Purchase** – obtain a commercial license [here](https://purchase.aspose.com/buy) for production use.  
+4. **License Purchase** – obtain a commercial license from the [Aspose.PSD commercial license purchase page](https://purchase.aspose.com/buy) for production use.  
 5. **Other Aspose Releases** – explore additional products and updates [here](https://releases.aspose.com/).
 
 ## Import Packages
@@ -101,6 +101,7 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdOptions;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.PsdImageLayer;
+import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.FileCreateSource;
 import com.aspose.psd.graphics.Graphics;
 import com.aspose.psd.Color;
@@ -162,7 +163,7 @@ image.save();
 
 Congratulations! You have successfully **combine images java** and generated a layered PSD file ready for further Photoshop editing.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -170,7 +171,7 @@ Congratulations! You have successfully **combine images java** and generated a l
 | Output PSD is blank | `graphics.clear` called after drawing | Call `graphics.clear(Color.getWhite())` **before** any `drawImage` operations. |
 | License exception at runtime | Missing or expired Aspose.PSD license | Apply a valid license using `License license = new License(); license.setLicense("Aspose.PSD.lic");` before any API call. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.PSD compatible with all image formats?**  
 A: Aspose.PSD natively reads and writes **15+ formats**, including PSD, PNG, JPEG, BMP, TIFF, GIF, and more, making it a versatile choice for image pipelines.
@@ -193,7 +194,7 @@ A: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community
 **Tested With:** Aspose.PSD 24.11 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -202,9 +203,9 @@ A: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community
 - [Resize Image Java - Using Resize Type Enumeration in Aspose.PSD for Java](/psd/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/)
 
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+
+
+
 
 ```java
 import com.aspose.psd.Color;
@@ -240,3 +241,10 @@ graphics.drawImage(Image.load(dataDir + "example2.psd"), 300, 0, 300, 600);
 ```java
 image.save();
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

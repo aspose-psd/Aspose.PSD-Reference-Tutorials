@@ -1,5 +1,5 @@
 ---
-title: "how to edit psd: Adjust Text Layer Bound Box in Java"
+title: "Edit PSD: Adjust Text Layer Bound Box Using Aspose.PSD for Java"
 linktitle: Adjust Text Layer Bound Box in PSD using Java
 second_title: Aspose.PSD Java API
 description: "Learn how to edit PSD files with Aspose.PSD for Java – retrieve and adjust a text bound box in a PSD. Step‑by‑step guide for how to edit psd programmatically."
@@ -14,13 +14,13 @@ keywords:
 - update text bound box
 schemas:
 - type: TechArticle
-  headline: 'how to edit psd: Adjust Text Layer Bound Box in Java'
+  headline: 'Edit PSD: Adjust Text Layer Bound Box Using Aspose.PSD for Java'
   description: Learn how to edit PSD files with Aspose.PSD for Java – retrieve and
     adjust a text bound box in a PSD. Step‑by‑step guide for how to edit psd programmatically.
   dateModified: '2026-06-28'
   author: Aspose
 - type: HowTo
-  name: 'how to edit psd: Adjust Text Layer Bound Box in Java'
+  name: 'Edit PSD: Adjust Text Layer Bound Box Using Aspose.PSD for Java'
   description: Learn how to edit PSD files with Aspose.PSD for Java – retrieve and
     adjust a text bound box in a PSD. Step‑by‑step guide for how to edit psd programmatically.
   steps:
@@ -105,7 +105,7 @@ import com.aspose.psd.fileformats.psd.layers.TextLayer;
 
 These imports give you access to image handling, size manipulation, and the `TextLayer` class that we’ll work with.
 
-## Step 1: Set Up Your File Paths
+## Step 1: set up your file paths
 Specify where your PSD file lives. This is like setting the stage before the performance begins.
 
 `File` objects let Java locate resources on disk.  
@@ -118,7 +118,7 @@ String sourceFileName = dataDir + "LayerWithText.psd";
 
 Replace `"Your Document Directory"` with the actual folder path on your machine.
 
-## Step 2: Load the PSD File
+## Step 2: load the PSD file
 Now we open the PSD so we can interact with its layers.
 
 `Image.load` reads the file and returns a `PsdImage` object ready for manipulation.  
@@ -130,7 +130,7 @@ PsdImage im = (PsdImage) Image.load(sourceFileName);
 
 The `Image.load` method reads the file and returns a `PsdImage` object ready for manipulation.
 
-## Step 3: Retrieve the Text Layer
+## Step 3: retrieve the text layer
 Identify the specific text layer you want to adjust. Layers are zero‑indexed, so `[1]` refers to the second layer.
 
 `TextLayer` is the concrete class for text‑type layers; it exposes text‑specific properties such as font, color, and bounding box.  
@@ -155,7 +155,7 @@ Assert.areEqual(correctOpticalSize, opticalSize);
 
 If the sizes don’t match, the `Assert` will raise an alert, letting you know something’s off.
 
-## Step 5: Get the Bound Box Size
+## Step 5: get the bound box size
 Now we retrieve the **text bound box**—the rectangle that encloses the rendered text.
 
 `getTextBoundBox()` returns a `Size` instance describing the exact rectangle that the text occupies after rendering, taking into account font metrics and line spacing.
@@ -174,21 +174,21 @@ To retrieve the text bound box, first load the PSD file with `Image.load` and ob
 ## How can I adjust the text bound box with Aspose.PSD Java?
 After you have the current bound box, you can modify it by calling `setSize(new Size(width, height))` directly on the `TextLayer`, providing the desired width and height values. Alternatively, you may apply a transformation matrix using the `transform()` method to scale or reposition the text before rasterizing the layer. Both approaches update the visual layout to meet your design requirements.
 
-## Common Use Cases
+## Common use cases
 - **Dynamic thumbnail generation** – adjust text bounds before rasterizing a preview.  
 - **Automated branding** – programmatically replace logo text and ensure it fits within design constraints.  
 - **Batch processing** – iterate over many PSD files to standardize text layer sizes across a product line.
 
-## Troubleshooting & Tips
+## Troubleshooting & tips
 - **Incorrect layer index** – double‑check the order of layers in Photoshop; the index may differ from what you expect.  
 - **License issues** – a trial version may limit certain operations; ensure you have a valid license for production.  
 - **Unexpected sizes** – DPI settings can affect size calculations; verify the PSD’s resolution if numbers look off.  
 - **Performance tip** – reuse the same `PsdImage` instance when processing multiple layers to minimise memory allocations.
 
 ## Conclusion
-You’ve now learned **how to edit PSD** files by retrieving and adjusting a text layer’s bound box using **aspose psd java**. With just a few lines of code you can load a PSD, target a specific layer, verify its dimensions, and ensure the text fits perfectly. For deeper exploration—such as modifying text content, applying effects, or exporting to other formats—check out the full Aspose.PSD documentation [here](https://reference.aspose.com/psd/java/).
+You’ve now learned **how to edit PSD** files by retrieving and adjusting a text layer’s bound box using **aspose psd java**. With just a few lines of code you can load a PSD, target a specific layer, verify its dimensions, and ensure the text fits perfectly. For deeper exploration—such as modifying text content, applying effects, or exporting to other formats—check out the full Aspose.PSD Java API documentation [Aspose.PSD Java API documentation](https://reference.aspose.com/psd/java/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 **Q: What is Aspose.PSD?**  
 A: Aspose.PSD is a robust library that lets developers create, edit, and convert Adobe Photoshop PSD files without needing Photoshop installed.
 
@@ -212,9 +212,9 @@ A: Yes! Download a free trial from the [Aspose website](https://releases.aspose.
 
 ## Related Tutorials
 
-- [How to Edit PSD Text Layers with Aspose.PSD for Java](/psd/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/)
-- [Add Text Layer on Runtime in PSD Files using Java](/psd/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/)
-- [Render Rotated Text Layer in PSD Files using Java](/psd/java/psd-layer-management-effects/render-rotated-text-layer-psd/)
+- [How to Edit PSD Text Layers with Aspose.PSD for Java]({{< relref "/psd/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/" >}})
+- [Add Text Layer on Runtime in PSD Files using Java]({{< relref "/psd/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/" >}})
+- [Render Rotated Text Layer in PSD Files using Java]({{< relref "/psd/java/psd-layer-management-effects/render-rotated-text-layer-psd/" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

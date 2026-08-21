@@ -1,5 +1,5 @@
 ---
-title: How to Set Overlay Opacity Java with Aspose.PSD
+title: Apply a Color Overlay and Set Opacity in Java with Aspose.PSD
 linktitle: Apply Color Overlay Effect
 second_title: Aspose.PSD Java API
 description: Learn how to set overlay opacity java, apply a color overlay, and customize overlay color using Aspose.PSD for Java. Step‑by‑run guide with ready‑to‑run examples.
@@ -12,13 +12,13 @@ keywords:
 - Java PSD color overlay
 schemas:
 - type: TechArticle
-  headline: How to Set Overlay Opacity Java with Aspose.PSD
+  headline: Apply a Color Overlay and Set Opacity in Java with Aspose.PSD
   description: Learn how to set overlay opacity java, apply a color overlay, and customize
     overlay color using Aspose.PSD for Java. Step‑by‑run guide with ready‑to‑run examples.
   dateModified: '2026-06-28'
   author: Aspose
 - type: HowTo
-  name: How to Set Overlay Opacity Java with Aspose.PSD
+  name: Apply a Color Overlay and Set Opacity in Java with Aspose.PSD
   description: Learn how to set overlay opacity java, apply a color overlay, and customize
     overlay color using Aspose.PSD for Java. Step‑by‑run guide with ready‑to‑run examples.
   steps:
@@ -52,7 +52,7 @@ schemas:
       supports Maven or Gradle.
   - question: Can I use Aspose.PSD for commercial projects?
     answer: Yes, you can use it in both personal and commercial applications. Visit
-      [here](https://purchase.aspose.com/buy) for licensing details.
+      the Aspose.PSD licensing page (https://purchase.aspose.com/buy) for licensing details.
   - question: How can I get support for Aspose.PSD?
     answer: Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for community
       help or purchase a [temporary license](https://purchase.aspose.com/temporary-license/)
@@ -88,7 +88,7 @@ Aspose.PSD preserves **100 % PSD fidelity** and supports **50+ input and outpu
 ## Prerequisites
 
 - **Java Development Environment** – JDK 8 or higher installed.  
-- **Aspose.PSD Library** – Download and install the Aspose.PSD library for Java from [here](https://releases.aspose.com/psd/java/).  
+- **Aspose.PSD Library** – Download and install the Aspose.PSD library for Java from the Aspose.PSD Java download page (https://releases.aspose.com/psd/java/).  
 - **PSD Document** – A PSD file (e.g., *ColorOverlay.psd*) that contains at least one layer where you want to add an overlay.  
 
 ## Import Packages
@@ -105,7 +105,7 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set Your Document Directory
+### Step 1: set your document directory
 
 The `File` class represents a file system path.  
 Replace **Your Document Directory** with the absolute path where your PSD files reside.
@@ -114,7 +114,7 @@ Replace **Your Document Directory** with the absolute path where your PSD files 
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Load PSD File with Effects
+### Step 2: load PSD file with effects
 
 `LoadOptions` tells Aspose.PSD how to read the file. Setting `setLoadEffectsResource(true)` ensures existing layer effects, including any colour overlay, are loaded and become accessible.
 
@@ -128,7 +128,7 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
-### Step 3: Access Color Overlay Effect
+### Step 3: access color overlay effect
 
 `Layer` is Aspose.PSD’s representation of a PSD layer. `ColorOverlayEffect` is the specific effect object that controls colour overlay properties.  
 Here we retrieve the first effect of the second layer (index 1). Adjust the indices if your PSD structure differs.
@@ -138,7 +138,7 @@ com.aspose.psd.fileformats.psd.layers.layereffects.ColorOverlayEffect colorOverl
         (im.getLayers()[1].getBlendingOptions().getEffects()[0]);
 ```
 
-### Step 4: Customize Overlay Color and Set Overlay Opacity
+### Step 4: customize overlay color and set overlay opacity
 
 The `ColorOverlayEffect` class represents a color overlay effect applied to a PSD layer.  
 - **Colour** – Use any static colour from `java.awt.Color` or create a custom one with `new Color(r, g, b)`.  
@@ -151,7 +151,7 @@ colorOverlay.setColor(Color.getGreen());
 colorOverlay.setOpacity((byte) 128);
 ```
 
-### Step 5: Save the Modified PSD File
+### Step 5: save the modified PSD file
 
 `save` writes the updated document back to disk. The edited file, *ColorOverlayChanged.psd*, now contains the new overlay colour and opacity.
 
@@ -163,13 +163,13 @@ im.save(psdPathAfterChange);
 
 The `ColorOverlayEffect` class represents a color overlay effect applied to a PSD layer. Load the target PSD, retrieve the `ColorOverlayEffect` from the desired layer, call `setOpacity((byte)128)` (or any value 0‑255), and then save the document. This single‑line change adjusts the overlay’s transparency instantly, without affecting other layer attributes.
 
-## Common Use Cases
+## Common use cases
 
 - **Branding** – Apply a corporate colour overlay to marketing assets in bulk.  
 - **Theming** – Dynamically switch UI mockups between light and dark themes.  
 - **Proofing** – Test how different overlay opacities affect text readability on complex backgrounds.  
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -178,7 +178,7 @@ The `ColorOverlayEffect` class represents a color overlay effect applied to a PS
 | **Opacity appears too light/dark** | Adjust the byte value (0‑255). Remember that 255 is fully opaque. |
 | **Colour not applied** | Verify you are using `colorOverlay.setColor()` with a valid `java.awt.Color` instance. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I apply multiple overlays to a single layer?**  
 A: No, a layer can have only one `ColorOverlayEffect`. To simulate multiple colours, duplicate the layer and apply separate overlays.
@@ -187,7 +187,7 @@ A: No, a layer can have only one `ColorOverlayEffect`. To simulate multiple colo
 A: Yes, it works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that supports Maven or Gradle.
 
 **Q: Can I use Aspose.PSD for commercial projects?**  
-A: Yes, you can use it in both personal and commercial applications. Visit [here](https://purchase.aspose.com/buy) for licensing details.
+A: Yes, you can use it in both personal and commercial applications. Visit the Aspose.PSD licensing page (https://purchase.aspose.com/buy) for licensing details.
 
 **Q: How can I get support for Aspose.PSD?**  
 A: Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for community help or purchase a [temporary license](https://purchase.aspose.com/temporary-license/) for priority support.
@@ -207,10 +207,9 @@ A: Yes, explore the [free trial](https://releases.aspose.com/) version before de
 - [Set Fill Opacity for PSD Layers with Aspose.PSD Java](/psd/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/)
 - [Add Pattern Overlay Effects in Aspose.PSD for Java](/psd/java/advanced-image-effects/add-pattern-effects/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
