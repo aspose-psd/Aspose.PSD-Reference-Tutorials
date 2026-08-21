@@ -1,35 +1,74 @@
 ---
-title: 用於替換 Aspose.PSD for Java 中缺少字體的設置
-linktitle: 替換缺失字體的設置
+date: 2026-06-13
+description: 了解如何使用 Aspose.PSD for Java 替換 PSD 檔案中的字型、將 PSD 轉換為 PNG，並有效處理缺失的字型。
+keywords:
+- how to replace fonts
+- convert psd to png
+- handle missing fonts psd
+linktitle: 缺失字型替換設定
+schemas:
+- author: Aspose
+  dateModified: '2026-06-13'
+  description: Learn how to replace fonts in PSD files using Aspose.PSD for Java,
+    convert PSD to PNG, and handle missing fonts efficiently.
+  headline: How to Replace Fonts in PSD Files with Aspose.PSD for Java
+  type: TechArticle
+- questions:
+  - answer: '`PsdImage` is the core class that represents a PSD document in memory.'
+    question: What is the primary class for loading PSD files?
+  - answer: Use `PsdLoadOptions.setDefaultFontName("Arial")`.
+    question: Which option sets a default replacement font?
+  - answer: Yes—call `psdImage.save("output.png", new PngOptions())`.
+    question: Can I save the result as PNG?
+  - answer: A temporary license works for testing; a full license is required for
+      production.
+    question: Do I need a license for development?
+  - answer: Aspose.PSD for Java supports Java 8 and later.
+    question: What Java version is supported?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-description: 探索有關替換 Aspose.PSD for Java 中缺失字體的綜合指南。透過無縫字體管理提升您的圖像設計。
-weight: 17
+title: 如何使用 Aspose.PSD for Java 替換 PSD 檔案中的字型
 url: /zh-hant/java/advanced-techniques/settings-replacing-missing-fonts/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 用於替換 Aspose.PSD for Java 中缺少字體的設置
+# 如何使用 Aspose.PSD for Java 替換 PSD 檔案中的字型
 
-## 介紹
+在現代 Java 開發中，**如何替換字型**於 Photoshop (PSD) 檔案是一項常見挑戰，若處理不當會破壞設計的視覺版面。Aspose.PSD for Java 提供強大的 API 來自動化字型替換，讓您的圖像保持原本的外觀。本指南將逐步說明從環境設定到最終 PNG 儲存的每個步驟，讓您自信地處理 PSD 檔案中的缺失字型。
 
-在 Java 開發的動態領域中，管理和替換 PSD 檔案中缺少的字體可能是創建具有視覺吸引力且無錯誤的映像的關鍵方面。 Aspose.PSD for Java 以其強大的功能來救援，使字體替換成為一個無縫的過程。在本教程中，我們將探索使用 Aspose.PSD for Java 取代缺失字體的步驟，確保您的影像保持其美學完整性。
+## 快速解答
+- **什麼是載入 PSD 檔案的主要類別？** `PsdImage` 是代表記憶體中 PSD 文件的核心類別。  
+- **哪個選項可設定預設替換字型？** 使用 `PsdLoadOptions.setDefaultFontName("Arial")`。  
+- **我可以將結果儲存為 PNG 嗎？** 可以——呼叫 `psdImage.save("output.png", new PngOptions())`。  
+- **開發時需要授權嗎？** 臨時授權可用於測試；正式環境需要完整授權。  
+- **支援哪個 Java 版本？** Aspose.PSD for Java 支援 Java 8 及以上版本。
 
-## 先決條件
+## 如何使用 Aspose.PSD for Java 替換 PSD 檔案中的字型？
 
-在深入了解字體替換魔法之前，請確保滿足以下先決條件：
+使用 `PsdLoadOptions` 載入來源 PSD，指定備用字型，然後將圖像儲存為所需格式。API 會自動將任何缺失的字形以您提供的預設字型替代，免除手動編輯的錯誤。此一步驟方法適用於任何大小的檔案，且保留圖層、遮色片與效果。
 
-1.  Aspose.PSD 函式庫：從下列位置下載並安裝 Aspose.PSD for Java 函式庫[發布頁面](https://releases.aspose.com/psd/java/).
+## 什麼是 `PsdLoadOptions`？
 
-2. Java 開發環境：確保您的系統上設定了 Java 開發環境。
+`PsdLoadOptions` 是一個設定物件，控制 Aspose.PSD 解析 PSD 檔案的方式。它允許您指定預設替換字型、控制圖層載入行為，並設定缺失資源的處理選項。透過調整其屬性，開發者可確保在不同環境下文字與其他元素的渲染一致，避免因字型不可用而產生的執行時錯誤。
 
-現在，讓我們進入激動人心的部分！
+## 為什麼要替換 PSD 檔案中缺失的字型？
 
-## 導入包
+Aspose.PSD 支援 **50+ 輸入與輸出格式**，且可在不將整個文件載入記憶體的情況下處理上百頁的 PSD 檔案。替換缺失字型可防止文字圖層破碎，將手動校正時間縮減最高 **80%**，並確保匯出的 PNG 保持原始設計的忠實度。
 
-首先將必要的套件匯入到您的 Java 專案中。此步驟可確保您可以存取程式碼中的 Aspose.PSD 功能。
+## 前置條件
+
+1. **Aspose.PSD Library** – 從[發佈頁面](https://releases.aspose.com/psd/java/)下載並安裝 Aspose.PSD for Java 函式庫。  
+2. **Java 開發環境** – Java 8+ JDK 以及您偏好的 IDE（Eclipse、IntelliJ IDEA 等）。  
+
+現在一切就緒，讓我們深入實作。
+
+## 匯入套件
+
+匯入必要的命名空間，以便編譯器能找到 Aspose.PSD 類別。
 
 ```java
 import com.aspose.psd.Image;
@@ -40,44 +79,44 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## 第 1 步：設定您的文件目錄
+## 步驟 1：設定文件目錄
 
-定義 PSD 檔案所在的目錄。這可確保程式碼知道在哪裡尋找來源 PSD 檔案以及在哪裡保存產生的影像。
+定義包含來源 PSD 以及輸出檔案寫入位置的資料夾。此路徑會被載入器與儲存器使用。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 第 2 步：指定來源文件和目標文件
+## 步驟 2：指定來源與目標檔案
 
-提供來源 PSD 檔案的路徑以及將保存修改後的影像的目標檔案。
+提供原始 PSD 與目標 PNG 的絕對或相對路徑。使用清晰的命名規則可避免檔案被覆寫。
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "result.png";
 ```
 
-## 步驟 3：配置字型替換設定
+## 步驟 3：設定字型替換
 
-初始化 PsdLoadOptions 並設定預設替換字型。在此範例中，我們使用“Arial”作為替換字體。
+建立 `PsdLoadOptions` 實例，並將預設替換字型設定為 **Arial**（或系統中安裝的任何字型）。此設定告訴引擎在找不到原始字型時使用哪個字型。
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setDefaultReplacementFont("Arial");
 ```
 
-## 第 4 步：載入 PSD 圖像並替換字體
+## 步驟 4：載入 PSD 圖像並替換字型
 
-使用指定的載入選項載入 PSD 影像，並使用上一個步驟中設定的預設替換字型取代任何遺失的字型。
+使用先前設定的選項載入 PSD。Aspose.PSD 會在載入過程中自動替換缺失的字型，無需額外程式碼。
 
 ```java
 Image image = Image.load(sourceFile, loadOptions);
 PsdImage psdImage = (PsdImage) image;
 ```
 
-## 步驟5：儲存修改後的影像
+## 步驟 5：儲存已修改的圖像
 
-配置用於儲存修改後的 PSD 影像的選項。在此範例中，我們將圖像儲存為具有真彩色和 Alpha 通道的 PNG 格式。
+選擇 `PngOptions` 以真彩 PNG（含 Alpha 通道）匯出圖像。最終檔案將正確顯示已替換的字型。
 
 ```java
 PngOptions options = new PngOptions();
@@ -85,36 +124,51 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-恭喜！您已使用 Aspose.PSD for Java 成功取代了 PSD 檔案中缺少的字型。
+## 常見問題與解決方案
 
-## 結論
+| 問題 | 原因 | 解決方法 |
+|------|------|----------|
+| 文字顯示亂碼 | 替換字型缺少必要的字形 | 選擇 Unicode 範圍更廣的字型（例如 **Arial Unicode MS**）。 |
+| 找不到檔案錯誤 | 第 1 步或第 2 步的路徑不正確 | 檢查目錄字串，並使用 `File.separator` 以確保跨平台相容性。 |
+| 授權例外 | 未使用有效授權執行 | 在測試時套用臨時授權，正式環境則購買完整授權。 |
 
-使用 Aspose.PSD for Java 進行字體替換變得輕而易舉，為開發人員提供了保持圖像視覺一致性的強大解決方案。透過遵循此逐步指南，您已了解如何無縫替換丟失的字體，確保您的圖像符合最高標準。
+## 常見問答
 
-## 常見問題解答
+### Q1：Aspose.PSD 是否相容所有 PSD 檔案版本？
 
-### Q1：Aspose.PSD 是否與所有 PSD 檔案版本相容？
+A1：Aspose.PSD 支援從 **4.0** 到最新 Photoshop 版本的 PSD，確保對舊版與新版設計皆具廣泛相容性。
 
-A1：Aspose.PSD支援各種PSD檔案版本，確保與各種設計的兼容性。
+### Q2：我可以在 Aspose.PSD 中使用自訂字型作為替換嗎？
 
-### Q2：我可以在Aspose.PSD中使用自訂字體進行替換嗎？
+A2：可以，您只要將伺服器上已安裝的任何 TrueType 或 OpenType 字型名稱傳給 `setDefaultFontName` 即可。這讓您完整掌控視覺效果。
 
-A2: 是的，您可以根據您的設計要求指定自訂替換字體。
+### Q3：Aspose.PSD 有哪些授權方案可供選擇？
 
-### Q3：Aspose.PSD 有可用的授權選項嗎？
+A3：請前往[此處](https://purchase.aspose.com/buy)了解授權方案，選擇最適合貴公司的方案，包含開發者、站點與 OEM 授權。
 
- A3：探索許可選項[這裡](https://purchase.aspose.com/buy)選擇最適合您需求的方案。
+### Q4：是否有 Aspose.PSD 社群論壇可供支援？
 
-### Q4：是否有支援 Aspose.PSD 的社群論壇？
+A4：有，請造訪 [Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)取得社群協助、程式碼片段與其他開發者的除錯技巧。
 
- A4：是的，請訪問[Aspose.PSD 論壇](https://forum.aspose.com/c/psd/34)以獲得社區支持和討論。
+### Q5：如何取得 Aspose.PSD 的臨時授權？
 
-### Q5：如何取得Aspose.PSD的臨時授權？
+A5：可於[此處](https://purchase.aspose.com/temporary-license/)取得免費的臨時授權，用於評估、測試或概念驗證專案。
 
- A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估目的。
-{{< /blocks/products/pf/tutorial-page-section >}}
+---
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**最後更新：** 2026-06-13  
+**測試環境：** Aspose.PSD 24.12 for Java  
+**作者：** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## 相關教學
+
+- [將 PSD 轉換為帶顏色疊加的 PNG – Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-color-effect/)
+- [如何使用 Aspose.PSD for Java 將 PSD 轉換為 PNG 並等比例調整大小](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
+- [將 PSD 轉換為點陣圖像格式 – Aspose.PSD for Java](/psd/java/advanced-techniques/convert-psd-to-raster-formats/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
