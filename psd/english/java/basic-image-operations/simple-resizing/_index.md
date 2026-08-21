@@ -1,5 +1,5 @@
 ---
-title: Simple Resizing with Aspose.PSD – Java Image Manipulation Library
+title: How to Perform Simple Resizing with Aspose.PSD – Java Image Manipulation Library
 linktitle: Perform Simple Resizing
 second_title: Aspose.PSD Java API
 description: Learn how to resize image Java using a java image manipulation library. Follow our step‑by‑step guide with Aspose.PSD for Java for efficient image manipulation.
@@ -78,7 +78,7 @@ If you’re a Java developer looking for a reliable **java image manipulation li
 
 A **java image manipulation library** is a set of Java APIs that let you programmatically edit raster graphics—resizing, cropping, format conversion, and layer handling—without external tools. Aspose.PSD provides these capabilities for PSD and many other formats, exposing a clean object‑oriented API for developers.
 
-## Why Use Aspose.PSD for Simple Resizing?
+## Why use Aspose.PSD for simple resizing?
 
 Aspose.PSD delivers **performance‑optimized** algorithms that can process files with 500+ layers in under a second on a typical server, and it works entirely in Java—no native DLLs or external binaries. The library supports **30+ image formats** (including PSD, JPEG, PNG, TIFF, BMP, GIF) and can handle files larger than 200 MB without loading the whole document into memory, making it ideal for high‑throughput server‑side pipelines.
 
@@ -108,7 +108,7 @@ import com.aspose.psd.imageoptions.JpegOptions;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set Your Document Directory
+### Step 1: set your document directory
 
 Define the folder that contains the source PSD file. Replace the placeholder with your actual path.
 
@@ -116,7 +116,7 @@ Define the folder that contains the source PSD file. Replace the placeholder wit
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Specify Source and Destination Paths
+### Step 2: specify source and destination paths
 
 Create full file names for the input PSD and the output JPEG.
 
@@ -125,7 +125,7 @@ String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "SimpleResizing_out.jpg";
 ```
 
-### Step 3: Load the Image
+### Step 3: load the image
 
 `Image.load(path)` reads an image file from the given path and returns an `Image` instance.
 
@@ -135,7 +135,7 @@ Load the PSD into an `Image` object.
 Image image = Image.load(sourceFile);
 ```
 
-### Step 4: Resize the Image
+### Step 4: resize the image
 
 `image.resize(width, height)` changes the image dimensions to the specified pixel size.
 
@@ -145,7 +145,7 @@ Resize to the desired dimensions (e.g., 300 × 300 pixels).
 image.resize(300, 300);
 ```
 
-### Step 5: Save the Resized Image
+### Step 5: save the resized image
 
 `image.save(path, options)` writes the image to the specified file using the given format options.
 
@@ -161,7 +161,7 @@ image.save(destName, new JpegOptions());
 
 Use the `resize(width, height)` method on the `Image` instance, passing the exact pixel values you need. For example, `image.resize(800, 600)` will produce an 800 × 600 pixel output while preserving color depth and metadata. If you want to keep the original aspect ratio, calculate the second dimension based on the original width‑to‑height ratio before calling `resize`.
 
-## Common Issues & Solutions
+## Common issues & solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -169,7 +169,7 @@ Use the `resize(width, height)` method on the `Image` instance, passing the exac
 | **Unsupported format** | Trying to load a non‑PSD file without proper options. | Use the appropriate `Image.load` overload or convert the file first. |
 | **Distorted output** | Incorrect aspect ratio. | Calculate height based on original aspect ratio or use `image.resizeProportionally`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I resize images to specific dimensions using Aspose.PSD for Java?**  
 A: Absolutely. The `resize(width, height)` method lets you define any pixel size you need.
@@ -198,14 +198,13 @@ In this tutorial we demonstrated how a **java image manipulation library** like 
 
 ## Related Tutorials
 
-- [Resize Image Java - Using Resize Type Enumeration in Aspose.PSD for Java](/psd/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/)
-- [High Quality Image Scaling with Bicubic Resampler in Aspose.PSD for Java](/psd/java/advanced-image-manipulation/implement-bicubic-resampler/)
-- [How to Convert PSD to PNG and Resize Proportionally with Aspose.PSD for Java](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
-
+- [Resize Image Java - Using Resize Type Enumeration in Aspose.PSD for Java]({{< relref "/psd/java/advanced-image-manipulation/resizing-with-resize-type-enumeration.md" >}})
+- [High Quality Image Scaling with Bicubic Resampler in Aspose.PSD for Java]({{< relref "/psd/java/advanced-image-manipulation/implement-bicubic-resampler.md" >}})
+- [How to Convert PSD to PNG and Resize Proportionally with Aspose.PSD for Java]({{< relref "/psd/java/advanced-image-manipulation/resize-image-proportionally.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

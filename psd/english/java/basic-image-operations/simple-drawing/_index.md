@@ -1,5 +1,5 @@
 ---
-title: How to Draw Rectangle in PSD with Aspose.PSD for Java
+title: Draw and Save a Rectangle in a PSD using Aspose.PSD for Java
 linktitle: Perform Simple Drawing
 second_title: Aspose.PSD Java API
 description: Learn how to draw rectangle in PSD files using Aspose.PSD for Java. This guide shows step‑by‑step code, adding layers, server‑side image processing and shape drawing.
@@ -14,7 +14,7 @@ keywords:
 - add layer to psd
 schemas:
 - type: TechArticle
-  headline: How to Draw Rectangle in PSD with Aspose.PSD for Java
+  headline: Draw and Save a Rectangle in a PSD using Aspose.PSD for Java
   description: Learn how to draw rectangle in PSD files using Aspose.PSD for Java.
     This guide shows step‑by‑step code, adding layers, server‑side image processing
     and shape drawing.
@@ -81,7 +81,7 @@ The `SolidBrush` class fills shapes with a solid color.
 
 You instantiate `PsdImage` by providing the canvas width and height in pixels, which creates an empty PSD file structure. After setting up any initial layers or background, invoke the `save` method with a file path to write the document to disk. This prepares the image for subsequent editing operations.
 
-## Step 1: Create a New Document
+## Step 1: create a new document
 
 First, create a fresh PSD document with the desired canvas size. This document will host the layer on which we’ll draw.
 
@@ -100,7 +100,7 @@ import com.aspose.psd.fileformats.psd.layers.Layer;
 
 First, create a new `Layer` instance with the same width and height as the parent `PsdImage`. Then add this layer to the image’s `Layers` collection using the `add` method. Once the layer is part of the image, retrieve its `Graphics` object to perform drawing operations; without this step the drawings will not appear.
 
-## Step 2: Add a Layer
+## Step 2: add a layer
 
 Next, add a new blank layer that spans the full width and height of the image. Layers are essential for separating drawing operations.
 
@@ -119,7 +119,7 @@ PsdImage image = new PsdImage(width, height);
 
 Calling `Graphics.clear` with a specific `Color` fills the entire layer with that color, effectively resetting all pixel data. This ensures that any previous content is removed and that the layer starts from a known background, which avoids unexpected transparency or color blending when the PSD is later opened or edited in Photoshop.
 
-## Step 3: Draw Shapes
+## Step 3: draw shapes
 
 We’ll use the `Graphics` class to manipulate the layer’s pixel data. Below are three examples that illustrate clearing the background and drawing rectangles with different colors.
 
@@ -155,7 +155,7 @@ graphic.drawRectangle(new Pen(Color.getRed()), new Rectangle(30, 10, 40, 80));
 
 Use the `save` method on the `PsdImage` object, passing the full file path and optionally specifying the desired image format (PSD by default). This writes all layers, masks, and drawing commands into a single PSD file that complies with the Photoshop specification, allowing it to be opened without warnings.
 
-## Step 4: Save the Changes
+## Step 4: save the changes
 
 Finally, write the modified PSD image to disk. The file will contain the new layer and the drawn shapes.
 
@@ -165,14 +165,14 @@ graphic.drawRectangle(new Pen(new SolidBrush(Color.getBlue())), new Rectangle(10
 //ExEnd:DrawBlueRectangle
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Layer not visible after drawing:** Ensure the layer is added to the image **before** creating the `Graphics` object. The drawing surface must be attached to a valid layer.
 - **Colors appear incorrect:** Verify you are using `Color.getRed()` (or `Color.getBlue()`) rather than constructing a custom RGB value that exceeds the 0‑255 range.
 - **File not saved:** Confirm the `outputDir` path exists and the application has write permissions. On Linux, you may need to adjust folder ownership or use `Files.createDirectories`.
 - **Performance slowdown on large files:** Use `PsdImage`’s `setLoadOptions` to load only required channels, reducing memory consumption for PSDs larger than 200 MB.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I use Aspose.PSD for Java to manipulate existing PSD files?**  
 A1: Yes, Aspose.PSD for Java provides extensive functionality to edit and manipulate existing PSD files, including layer reordering, mask adjustments and vector drawing.
@@ -181,15 +181,15 @@ A1: Yes, Aspose.PSD for Java provides extensive functionality to edit and manipu
 A2: You can visit the [Aspose.PSD for Java Forum](https://forum.aspose.com/c/psd/34) for community‑driven assistance and official Aspose responses.
 
 **Q3: Is there a free trial available for Aspose.PSD for Java?**  
-A3: Yes, you can access the free trial version [here](https://releases.aspose.com/). The trial includes all features but adds a watermark to saved files.
+A3: Yes, you can access the free trial version on the Aspose.PSD releases page.
 
 **Q4: How can I purchase a license for Aspose.PSD for Java?**  
 A4: You can buy a license from the [Aspose.PSD Purchase Page](https://purchase.aspose.com/buy). Licensing options include perpetual, subscription and site licenses.
 
 **Q5: Are temporary licenses available for Aspose.PSD for Java?**  
-A5: Yes, you can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+A5: Yes, you can obtain a temporary license from the Aspose.PSD temporary license page.
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 
 **Q: Can I draw other shapes besides rectangles?**  
 A: Yes, the `Graphics` class also supports drawing ellipses, lines, and custom paths via the `drawPath` method.
@@ -213,7 +213,7 @@ image.save(outPsdFilePath);
 //ExEnd:SaveChanges
 ```
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -222,12 +222,19 @@ image.save(outPsdFilePath);
 - [Crop Image by Rectangle in Aspose.PSD for Java](/psd/java/image-editing/crop-image-by-rectangle/)
 
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+
+
+
 
 ---
 
 **Last Updated:** 2026-06-13  
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

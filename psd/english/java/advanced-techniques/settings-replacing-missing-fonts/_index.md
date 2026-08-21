@@ -1,5 +1,5 @@
 ---
-title: How to Replace Fonts in PSD Files with Aspose.PSD for Java
+title: Replace Missing Fonts in PSD Files Using Aspose.PSD for Java
 linktitle: Settings for Replacing Missing Fonts
 second_title: Aspose.PSD Java API
 description: Learn how to replace fonts in PSD files using Aspose.PSD for Java, convert PSD to PNG, and handle missing fonts efficiently.
@@ -79,7 +79,7 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Step 1: Set Up Your Document Directory
+## Step 1: set up your document directory
 
 Define the folder that contains the source PSD and where the output will be written. This path is used by the loader and saver.
 
@@ -87,7 +87,7 @@ Define the folder that contains the source PSD and where the output will be writ
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Specify Source and Destination Files
+## Step 2: specify source and destination files
 
 Provide absolute or relative paths for the original PSD and the target PNG. Using clear naming conventions helps avoid overwriting files.
 
@@ -96,7 +96,7 @@ String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "result.png";
 ```
 
-## Step 3: Configure Font Replacement Settings
+## Step 3: configure font replacement settings
 
 Create a `PsdLoadOptions` instance and set the default replacement font to **Arial** (or any font installed on your system). This tells the engine which font to use when it can’t find the original one.
 
@@ -105,7 +105,7 @@ PsdLoadOptions loadOptions = new PsdLoadOptions();
 loadOptions.setDefaultReplacementFont("Arial");
 ```
 
-## Step 4: Load PSD Image and Replace Fonts
+## Step 4: load PSD image and replace fonts
 
 Load the PSD using the configured options. Aspose.PSD automatically replaces missing fonts during the load process, so no extra code is required.
 
@@ -114,7 +114,7 @@ Image image = Image.load(sourceFile, loadOptions);
 PsdImage psdImage = (PsdImage) image;
 ```
 
-## Step 5: Save the Modified Image
+## Step 5: save the modified image
 
 Choose `PngOptions` to export the image as a true‑color PNG with an alpha channel. The resulting file will display the substituted fonts correctly.
 
@@ -124,7 +124,7 @@ options.setColorType(PngColorType.TruecolorWithAlpha);
 psdImage.save(destName, options);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -132,7 +132,7 @@ psdImage.save(destName, options);
 | File not found error | Incorrect path in step 1 or 2 | Verify the directory strings and use `File.separator` for cross‑platform compatibility. |
 | License exception | Running without a valid license | Apply a temporary license for testing or purchase a full license for production. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Is Aspose.PSD compatible with all PSD file versions?
 
@@ -144,7 +144,7 @@ A2: Yes, you can specify any TrueType or OpenType font installed on the server b
 
 ### Q3: Are there any licensing options available for Aspose.PSD?
 
-A3: Explore the licensing options [here](https://purchase.aspose.com/buy) to choose the best plan for your organization, including developer, site, and OEM licenses.
+A3: Explore the licensing options on the [Aspose.PSD licensing page](https://purchase.aspose.com/buy) to choose the best plan for your organization, including developer, site, and OEM licenses.
 
 ### Q4: Is there a community forum for Aspose.PSD support?
 
@@ -152,7 +152,7 @@ A4: Yes, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for com
 
 ### Q5: How can I obtain a temporary license for Aspose.PSD?
 
-A5: Get a temporary license [here](https://purchase.aspose.com/temporary-license/) for evaluation, testing, or proof‑of‑concept projects without any cost.
+A5: Get a temporary license on the [Aspose.PSD temporary license page](https://purchase.aspose.com/temporary-license/) for evaluation, testing, or proof‑of‑concept projects without any cost.
 
 ---
 
@@ -160,7 +160,7 @@ A5: Get a temporary license [here](https://purchase.aspose.com/temporary-license
 **Tested With:** Aspose.PSD 24.12 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -168,7 +168,9 @@ A5: Get a temporary license [here](https://purchase.aspose.com/temporary-license
 - [How to Convert PSD to PNG and Resize Proportionally with Aspose.PSD for Java](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
 - [Convert PSD to Raster Image Formats with Aspose.PSD for Java](/psd/java/advanced-techniques/convert-psd-to-raster-formats/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
