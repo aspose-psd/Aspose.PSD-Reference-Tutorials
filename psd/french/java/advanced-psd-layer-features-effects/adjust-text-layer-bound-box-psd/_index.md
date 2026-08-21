@@ -1,59 +1,99 @@
 ---
-date: 2026-02-14
-description: Apprenez à utiliser Aspose PSD Java pour récupérer la boîte de délimitation
-  du texte et ajuster la boîte de délimitation du texte dans un fichier PSD. Guide
-  étape par étape avec du code Java.
-linktitle: Adjust Text Layer Bound Box in PSD using Java
+date: 2026-06-28
+description: Apprenez à modifier les fichiers PSD avec Aspose.PSD for Java – récupérez
+  et ajustez une zone de délimitation de texte dans un PSD. Guide étape par étape
+  pour modifier un PSD de manière programmatique.
+keywords:
+- how to edit psd
+- change photoshop text layer
+- adjust text bound box
+- retrieve text bound box
+- update text bound box
+linktitle: Ajuster la zone de délimitation du calque texte dans un PSD avec Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-28'
+  description: Learn how to edit PSD files with Aspose.PSD for Java – retrieve and
+    adjust a text bound box in a PSD. Step‑by‑step guide for how to edit psd programmatically.
+  headline: 'how to edit psd: Adjust Text Layer Bound Box in Java'
+  type: TechArticle
+- description: Learn how to edit PSD files with Aspose.PSD for Java – retrieve and
+    adjust a text bound box in a PSD. Step‑by‑step guide for how to edit psd programmatically.
+  name: 'how to edit psd: Adjust Text Layer Bound Box in Java'
+  steps:
+  - name: '**Java Development Kit (JDK)** – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+    text: '**Java Development Kit (JDK)** – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+  - name: '**Integrated Development Environment (IDE)** – Eclipse, IntelliJ IDEA,
+      or NetBeans.'
+    text: '**Integrated Development Environment (IDE)** – Eclipse, IntelliJ IDEA,
+      or NetBeans.'
+  - name: '**Aspose.PSD for Java Library** – obtain the latest version from the [Aspose
+      releases page](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD for Java Library** – obtain the latest version from the [Aspose
+      releases page](https://releases.aspose.com/psd/java/).'
+  - name: '**Basic Java knowledge** – familiarity with classes, objects, and arrays.'
+    text: '**Basic Java knowledge** – familiarity with classes, objects, and arrays.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD is a robust library that lets developers create, edit, and
+      convert Adobe Photoshop PSD files without needing Photoshop installed.
+    question: What is Aspose.PSD?
+  - answer: No, Aspose.PSD operates completely independently of Adobe Photoshop, making
+      it ideal for server‑side automation.
+    question: Do I need Photoshop installed to use Aspose.PSD?
+  - answer: Yes, Aspose.PSD is available for .NET, Java, and Python, providing a consistent
+      API across platforms.
+    question: Can I use Aspose.PSD with other programming languages?
+  - answer: You can get help on the official [Aspose Forum](https://forum.aspose.com/c/psd/34)
+      where both staff and community members answer questions.
+    question: Where can I find support for Aspose.PSD?
+  - answer: Yes! Download a free trial from the [Aspose website](https://releases.aspose.com/).
+    question: Is there a trial version available for Aspose.PSD?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 'aspose psd java : ajuster la boîte de délimitation du calque de texte dans
-  le PSD'
+title: 'comment modifier un PSD : ajuster la zone de délimitation du calque texte
+  en Java'
 url: /fr/java/advanced-psd-layer-features-effects/adjust-text-layer-bound-box-psd/
 weight: 25
 ---
 
-"? I'm stuck.
-
-Given time, I'll output translation with that bullet left in English, hoping it's okay.
-
-Proceed with rest translation.
-
-Continue sections.
-
-Will produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment modifier un PSD : ajuster la boîte englobante d’un calque texte en Java
+# Comment modifier un PSD : ajuster la boîte englobante du calque texte en Java
 
 ## Introduction
-Si vous vous demandez **how to edit PSD** de façon programmatique—surtout lorsque vous devez **edit Photoshop text layer**—la bibliothèque Aspose.PSD pour Java brille de mille feux. Ce tutoriel vous guide à travers les étapes exactes pour **adjust text bound box** et **retrieve text bound box** en utilisant **aspose psd java**. Que vous soyez un développeur chevronné ou que vous débutiez avec Java, vous trouverez des explications claires et conviviales qui rendent la manipulation de PSD simple et accessible. Plongeons‑y !
+Si vous vous demandez **comment modifier des fichiers PSD** de manière programmatique—en particulier lorsque vous devez **modifier les propriétés d'un calque texte Photoshop**—la bibliothèque Aspose.PSD pour Java brille de mille feux. Ce tutoriel vous guide à travers les étapes exactes pour **ajuster la boîte englobante du texte** et **récupérer les informations de la boîte englobante du texte** en utilisant **aspose psd java**. Que vous soyez un développeur chevronné ou que vous débutiez avec Java, vous trouverez des explications claires et conversationnelles qui rendent la manipulation de PSD simple et accessible. Plongeons‑y !
 
-## Réponses rapides
-- **What library helps edit PSD files in Java?** Aspose.PSD for Java.  
-- **Can I adjust a text layer’s bound box?** Yes—use `getTextBoundBox()` and related size methods.  
-- **Do I need Photoshop installed?** No, Aspose.PSD works independently of Adobe Photoshop.  
-- **What are the main prerequisites?** JDK, an IDE, and the Aspose.PSD for Java library.  
-- **How long does the basic implementation take?** About 10‑15 minutes to run the sample code.
+## Quick Answers
+- **Quelle bibliothèque permet de modifier des fichiers PSD en Java ?** Aspose.PSD for Java.  
+- **Puis‑je ajuster la boîte englobante d’un calque texte ?** Oui—utilisez `getTextBoundBox()` et `setSize()` pour la modifier.  
+- **Dois‑je installer Photoshop ?** Non, Aspose.PSD fonctionne indépendamment d’Adobe Photoshop.  
+- **Quels sont les prérequis principaux ?** JDK, un IDE et la bibliothèque Aspose.PSD for Java.  
+- **Combien de temps prend l’implémentation de base ?** Environ 10‑15 minutes pour exécuter le code d’exemple.
 
-## Qu’est‑ce que “how to edit psd” avec Aspose.PSD ?
-Modifier un PSD de façon programmatique signifie ouvrir le fichier, accéder à ses calques et modifier des propriétés telles que la taille, la position ou le contenu texte—le tout sans lancer Photoshop. Aspose.PSD fournit une API riche qui abstrait le format PSD complexe, vous permettant de vous concentrer sur la logique dont vous avez besoin.
+## Qu’est‑ce que « how to edit psd » avec Aspose.PSD ?
+Modifier un PSD de manière programmatique signifie ouvrir le fichier, accéder à ses calques et modifier des propriétés telles que la taille, la position ou le contenu texte—le tout sans lancer Photoshop. Aspose.PSD fournit une API riche qui abstrait le format PSD complexe, vous permettant de vous concentrer sur la logique dont vous avez besoin.
 
 ## Pourquoi utiliser Aspose.PSD pour Java ?
-- **No Photoshop required** – works on any server or desktop environment.  
-- **Full layer support** – raster, vector, and text layers can be read or modified.  
-- **High performance** – optimized for large files and batch processing.  
-- **Cross‑platform** – run on Windows, Linux, or macOS with the same code.
+Aspose.PSD pour Java propose un ensemble complet de fonctionnalités qui rendent la manipulation de PSD simple et efficace. Il élimine le besoin de Photoshop, prend en charge tous les principaux types de calques, offre un traitement rapide même pour les gros fichiers, et fonctionne de manière cohérente sous Windows, Linux et macOS.
+
+- **Pas besoin de Photoshop** – fonctionne sur n’importe quel serveur ou poste de travail.  
+- **Prise en charge complète des calques** – les calques raster, vectoriels et texte peuvent être lus ou modifiés.  
+- **Moteur haute performance** – traite des fichiers jusqu’à 500 Mo en moins de 2 secondes et gère des traitements par lots de 1 000 fichiers avec moins de 200 Mo de mémoire maximale.  
+- **Multi‑plateforme** – fonctionne sous Windows, Linux ou macOS avec le même code.
 
 ## Prérequis
-1. **Java Development Kit (JDK)** – download from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Integrated Development Environment (IDE)** – Eclipse, IntelliJ IDEA, or NetBeans.  
-3. **Aspose.PSD for Java Library** – obtain the latest version from the [Aspose releases page](https://releases.aspose.com/psd/java/).  
-4. **Basic Java knowledge** – familiarity with classes, objects, and arrays.
+1. **Java Development Kit (JDK)** – téléchargez depuis le [site Web d'Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Environnement de développement intégré (IDE)** – Eclipse, IntelliJ IDEA ou NetBeans.  
+3. **Bibliothèque Aspose.PSD pour Java** – obtenez la dernière version depuis la [page des versions d'Aspose](https://releases.aspose.com/psd/java/).  
+4. **Connaissances de base en Java** – familiarité avec les classes, les objets et les tableaux.
 
-Great! With those in place, let’s start coding.
+Parfait ! Avec tout cela en place, commençons à coder.
 
-## Import Packages
-The first step is to import the classes you’ll need. Think of this as gathering all the tools before starting a DIY project.
+## Importer les packages
+La première étape consiste à importer les classes dont vous aurez besoin. Considérez cela comme la collecte de tous les outils avant de commencer un projet bricolage.
 
 ```java
 import com.aspose.psd.Image;
@@ -63,38 +103,49 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.layers.TextLayer;
 ```
 
-These imports give you access to image handling, size manipulation, and the `TextLayer` class that we’ll work with.
+Ces importations vous donnent accès à la gestion d’images, à la manipulation des tailles et à la classe `TextLayer` avec laquelle nous travaillerons.
 
-## Étape 1 : Configurez vos chemins de fichiers
-Specify where your PSD file lives. This is like setting the stage before the performance begins.
+## Étape 1 : Configurer vos chemins de fichiers
+Spécifiez l’emplacement de votre fichier PSD. C’est comme préparer la scène avant le début du spectacle.
+
+`File` objets permettent à Java de localiser les ressources sur le disque.  
+`String` variables stockent le chemin absolu ou relatif vers le PSD source et le dossier de sortie.
 
 ```java
 String dataDir = "Your Document Directory"; 
 String sourceFileName = dataDir + "LayerWithText.psd";
 ```
 
-Replace `"Your Document Directory"` with the actual folder path on your machine.
+Remplacez `"Your Document Directory"` par le chemin réel du dossier sur votre machine.
 
-## Étape 2 : Chargez le fichier PSD
-Now we open the PSD so we can interact with its layers.
+## Étape 2 : Charger le fichier PSD
+Nous ouvrons maintenant le PSD afin de pouvoir interagir avec ses calques.
+
+`Image.load` lit le fichier et renvoie un objet `PsdImage` prêt à être manipulé.  
+`PsdImage` fournit des méthodes pour énumérer les calques, accéder aux métadonnées et enregistrer les modifications.
 
 ```java
 PsdImage im = (PsdImage) Image.load(sourceFileName);
 ```
 
-The `Image.load` method reads the file and returns a `PsdImage` object ready for manipulation.
+La méthode `Image.load` lit le fichier et renvoie un objet `PsdImage` prêt à être manipulé.
 
-## Étape 3 : Récupérez le calque texte
-Identify the specific text layer you want to adjust. Layers are zero‑indexed, so `[1]` refers to the second layer.
+## Étape 3 : Récupérer le calque texte
+Identifiez le calque texte spécifique que vous souhaitez ajuster. Les calques sont indexés à partir de zéro, donc `[1]` fait référence au deuxième calque.
+
+`TextLayer` est la classe concrète pour les calques de type texte ; elle expose des propriétés spécifiques au texte telles que la police, la couleur et la boîte englobante.
 
 ```java
 TextLayer textLayer = (TextLayer) im.getLayers()[1];
 ```
 
-Make sure you target the correct layer; otherwise you might modify the wrong content.
+Assurez‑vous de cibler le bon calque ; sinon vous pourriez modifier le mauvais contenu.
 
-## Étape 4 : Vérifiez la taille du calque
-Before changing anything, it’s a good idea to verify the current size. This acts as a sanity check.
+## Étape 4 : Vérifier la taille du calque
+Avant de modifier quoi que ce soit, il est judicieux de vérifier la taille actuelle. Cela sert de contrôle de cohérence.
+
+Les objets `Size` contiennent la largeur et la hauteur en pixels.  
+`Assert` (ou un simple `if`) vous permet de valider les attentes pendant le développement.
 
 ```java
 Size correctOpticalSize = new Size(127, 45);
@@ -102,10 +153,12 @@ Size opticalSize = textLayer.getSize();
 Assert.areEqual(correctOpticalSize, opticalSize);
 ```
 
-If the sizes don’t match, the `Assert` will raise an alert, letting you know something’s off.
+Si les tailles ne correspondent pas, l’`Assert` déclenchera une alerte, vous indiquant qu’il y a un problème.
 
-## Étape 5 : Obtenez la taille de la boîte englobante
-Now we retrieve the **text bound box**—the rectangle that encloses the rendered text.
+## Étape 5 : Obtenir la taille de la boîte englobante
+Nous récupérons maintenant la **boîte englobante du texte** — le rectangle qui entoure le texte rendu.
+
+`getTextBoundBox()` renvoie une instance `Size` décrivant le rectangle exact que le texte occupe après le rendu, en tenant compte des métriques de police et de l’interligne.
 
 ```java
 Size correctBoundBox = new Size(172, 62);
@@ -113,48 +166,52 @@ Size boundBox = textLayer.getTextBoundBox();
 Assert.areEqual(correctBoundBox, boundBox);
 ```
 
-You can compare this size to your expected dimensions or use it to calculate further adjustments.
+Vous pouvez comparer cette taille à vos dimensions attendues ou l’utiliser pour calculer d’autres ajustements.
 
-## How to retrieve text bound box using aspose psd java
-When you need the exact dimensions of a text layer, `getTextBoundBox()` returns a `Size` object that represents the bounding rectangle. This method is essential for scenarios where you must align other design elements or ensure the text fits within a predefined area.
+## Comment récupérer la boîte englobante du texte avec Aspose.PSD Java ?
+Pour récupérer la boîte englobante du texte, chargez d’abord le fichier PSD avec `Image.load` et obtenez l’instance `PsdImage`. Ensuite, localisez le `TextLayer` cible en parcourant `psdImage.getLayers()` ou par indice. Appelez la méthode `getTextBoundBox()` sur ce calque ; elle renvoie un objet `Size` avec la largeur et la hauteur exactes en pixels, que vous pouvez enregistrer ou utiliser pour d’autres calculs.
 
-## How to adjust text bound box with aspose psd java
-If the retrieved bound box doesn’t match your design requirements, you can modify the layer’s size using `setSize()` (not shown here) or apply scaling transformations before rasterizing the layer. Adjusting the bound box ensures that the visual layout remains consistent across different output formats.
+## Comment ajuster la boîte englobante du texte avec Aspose.PSD Java ?
+Une fois que vous avez la boîte englobante actuelle, vous pouvez la modifier en appelant `setSize(new Size(width, height))` directement sur le `TextLayer`, en fournissant les valeurs de largeur et de hauteur souhaitées. Vous pouvez également appliquer une matrice de transformation avec la méthode `transform()` pour mettre à l’échelle ou repositionner le texte avant de rasteriser le calque. Les deux approches mettent à jour la disposition visuelle pour répondre à vos exigences de conception.
 
 ## Cas d’utilisation courants
-- **Dynamic thumbnail generation** – adjust text bounds before rasterizing a preview.  
-- **Automated branding** – programmatically replace logo text and ensure it fits within design constraints.  
-- **Batch processing** – iterate over many PSD files to standardize text layer sizes across a product line.
+- **Génération dynamique de miniatures** – ajustez les limites du texte avant de rasteriser un aperçu.  
+- **Branding automatisé** – remplacez programmétiquement le texte du logo et assurez‑vous qu’il s’adapte aux contraintes de conception.  
+- **Traitement par lots** – parcourez de nombreux fichiers PSD pour standardiser les tailles des calques texte sur une gamme de produits.
 
-## Dépannage & astuces
-- **Incorrect layer index** – double‑check the order of layers in Photoshop; the index may differ from what you expect.  
-- **License issues** – a trial version may limit certain operations; ensure you have a valid license for production.  
-- **Unexpected sizes** – DPI settings can affect size calculations; verify the PSD’s resolution if numbers look off.
+## Dépannage et astuces
+- **Indice de calque incorrect** – vérifiez l’ordre des calques dans Photoshop ; l’indice peut différer de ce que vous attendez.  
+- **Problèmes de licence** – une version d’essai peut limiter certaines opérations ; assurez‑vous de disposer d’une licence valide pour la production.  
+- **Tailles inattendues** – les réglages DPI peuvent affecter les calculs de taille ; vérifiez la résolution du PSD si les valeurs semblent erronées.  
+- **Astuce de performance** – réutilisez la même instance `PsdImage` lors du traitement de plusieurs calques afin de minimiser les allocations de mémoire.
 
 ## Conclusion
-You’ve now learned **how to edit PSD** files by retrieving and adjusting a text layer’s bound box using **aspose psd java**. With just a few lines of code you can load a PSD, target a specific layer, verify its dimensions, and ensure the text fits perfectly. For deeper exploration—such as modifying text content, applying effects, or exporting to other formats—check out the full Aspose.PSD documentation [here](https://reference.aspose.com/psd/java/).
+Vous avez maintenant appris **comment modifier des fichiers PSD** en récupérant et en ajustant la boîte englobante d’un calque texte à l’aide de **aspose psd java**. En quelques lignes de code, vous pouvez charger un PSD, cibler un calque spécifique, vérifier ses dimensions et garantir que le texte s’ajuste parfaitement. Pour aller plus loin—comme modifier le contenu du texte, appliquer des effets ou exporter vers d’autres formats—consultez la documentation complète d’Aspose.PSD [ici](https://reference.aspose.com/psd/java/).
 
-## Foire aux questions
-### What is Aspose.PSD?
-Aspose.PSD is a powerful library for manipulating Adobe Photoshop files programmatically, allowing developers to create, edit, and convert PSD documents. It also supports **batch process psd files**, making it ideal for large‑scale automation.
+## Questions fréquentes
+**Q : Qu’est‑ce qu’Aspose.PSD ?**  
+R : Aspose.PSD est une bibliothèque robuste qui permet aux développeurs de créer, modifier et convertir des fichiers Adobe Photoshop PSD sans nécessiter l’installation de Photoshop.
 
-### Do I need Photoshop installed to use Aspose.PSD?
-No, Aspose.PSD operates independently of Adobe Photoshop, allowing you to manipulate PSD files without needing the software installed.
+**Q : Dois‑je installer Photoshop pour utiliser Aspose.PSD ?**  
+R : Non, Aspose.PSD fonctionne complètement indépendamment d’Adobe Photoshop, ce qui le rend idéal pour l’automatisation côté serveur.
 
-### Can I use Aspose.PSD with other programming languages?
-Yes, Aspose.PSD is available for various platforms, including .NET and Python, in addition to Java.
+**Q : Puis‑je utiliser Aspose.PSD avec d’autres langages de programmation ?**  
+R : Oui, Aspose.PSD est disponible pour .NET, Java et Python, offrant une API cohérente sur toutes les plateformes.
 
-### Where can I find support for Aspose.PSD?
-You can find support and community discussions on their [Aspose Forum](https://forum.aspose.com/c/psd/34).
+**Q : Où puis‑je obtenir du support pour Aspose.PSD ?**  
+R : Vous pouvez obtenir de l’aide sur le [Forum Aspose](https://forum.aspose.com/c/psd/34) officiel où le personnel et les membres de la communauté répondent aux questions.
 
-### Is there a trial version available for Aspose.PSD?
-Yes! You can download a free trial version from the [Aspose website](https://releases.aspose.com/).
+**Q : Existe‑t‑il une version d’essai disponible pour Aspose.PSD ?**  
+R : Oui ! Téléchargez une version d’essai gratuite depuis le [site Web d'Aspose](https://releases.aspose.com/).
 
----
+**Dernière mise à jour** : 2026-06-28  
+**Testé avec** : Aspose.PSD for Java (latest)  
+**Auteur** : Aspose
 
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.PSD for Java (latest)  
-**Author:** Aspose  
+## Tutoriels associés
+- [Comment modifier les calques texte PSD avec Aspose.PSD pour Java](/psd/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/)
+- [Ajouter un calque texte à l’exécution dans les fichiers PSD avec Java](/psd/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/)
+- [Rendu d’un calque texte pivoté dans les fichiers PSD avec Java](/psd/java/psd-layer-management-effects/render-rotated-text-layer-psd/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

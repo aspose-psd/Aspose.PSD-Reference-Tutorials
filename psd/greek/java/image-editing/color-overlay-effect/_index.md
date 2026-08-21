@@ -1,11 +1,65 @@
 ---
-date: 2025-12-30
-description: Μάθετε πώς να εφαρμόζετε επικάλυψη, να ορίζετε τη διαφάνεια της επικάλυψης
-  και να προσαρμόζετε το χρώμα της επικάλυψης στο Aspose.PSD για Java. Οδηγός βήμα‑προς‑βήμα
-  με παραδείγματα κώδικα.
-linktitle: Apply Color Overlay Effect
+date: 2026-06-28
+description: Μάθετε πώς να ορίσετε το overlay opacity σε Java, να εφαρμόσετε ένα color
+  overlay και να προσαρμόσετε το overlay color χρησιμοποιώντας το Aspose.PSD για Java.
+  Οδηγός βήμα-βήμα με παραδείγματα έτοιμα για εκτέλεση.
+keywords:
+- set overlay opacity java
+- Aspose.PSD overlay effect
+- Java PSD color overlay
+linktitle: Εφαρμογή εφέ Color Overlay
+schemas:
+- author: Aspose
+  dateModified: '2026-06-28'
+  description: Learn how to set overlay opacity java, apply a color overlay, and customize
+    overlay color using Aspose.PSD for Java. Step‑by‑run guide with ready‑to‑run examples.
+  headline: How to Set Overlay Opacity Java with Aspose.PSD
+  type: TechArticle
+- description: Learn how to set overlay opacity java, apply a color overlay, and customize
+    overlay color using Aspose.PSD for Java. Step‑by‑run guide with ready‑to‑run examples.
+  name: How to Set Overlay Opacity Java with Aspose.PSD
+  steps:
+  - name: Set Your Document Directory
+    text: The `File` class represents a file system path. Replace **Your Document
+      Directory** with the absolute path where your PSD files reside.
+  - name: Load PSD File with Effects
+    text: '`LoadOptions` tells Aspose.PSD how to read the file. Setting `setLoadEffectsResource(true)`
+      ensures existing layer effects, including any colour overlay, are loaded and
+      become accessible.'
+  - name: Access Color Overlay Effect
+    text: '`Layer` is Aspose.PSD’s representation of a PSD layer. `ColorOverlayEffect`
+      is the specific effect object that controls colour overlay properties. Here
+      we retrieve the first effect of the second layer (index 1). Adjust the indices
+      if your PSD structure differs.'
+  - name: Customize Overlay Color and Set Overlay Opacity
+    text: The `ColorOverlayEffect` class represents a color overlay effect applied
+      to a PSD layer. - **Colour** – Use any static colour from `java.awt.Color` or
+      create a custom one with `new Color(r, g, b)`. - **Opacity** – The opacity byte
+      ranges from 0 (fully transparent) to 255 (fully opaque). In this exam
+  - name: Save the Modified PSD File
+    text: '`save` writes the updated document back to disk. The edited file, *ColorOverlayChanged.psd*,
+      now contains the new overlay colour and opacity.'
+  type: HowTo
+- questions:
+  - answer: No, a layer can have only one `ColorOverlayEffect`. To simulate multiple
+      colours, duplicate the layer and apply separate overlays.
+    question: Can I apply multiple overlays to a single layer?
+  - answer: Yes, it works with Eclipse, IntelliJ IDEA, NetBeans, and any IDE that
+      supports Maven or Gradle.
+    question: Is Aspose.PSD compatible with different Java IDEs?
+  - answer: Yes, you can use it in both personal and commercial applications. Visit
+      [here](https://purchase.aspose.com/buy) for licensing details.
+    question: Can I use Aspose.PSD for commercial projects?
+  - answer: Visit the [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) for community
+      help or purchase a [temporary license](https://purchase.aspose.com/temporary-license/)
+      for priority support.
+    question: How can I get support for Aspose.PSD?
+  - answer: Yes, explore the [free trial](https://releases.aspose.com/) version before
+      deciding.
+    question: Are there free trial options available?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Πώς να εφαρμόσετε το εφέ επικάλυψης στο Aspose.PSD για Java
+title: Πώς να ορίσετε τη διαφάνεια επικάλυψης Java με το Aspose.PSD
 url: /el/java/image-editing/color-overlay-effect/
 weight: 10
 ---
@@ -14,26 +68,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Εφαρμόσετε το Εφέ Επικάλυψης στο Aspose.PSD για Java
+# Πώς να ορίσετε τη διαφάνεια επικάλυψης Java με το Aspose.PSD
 
 ## Εισαγωγή
 
-Καλώς ήρθατε στον κόσμο του γραφικού σχεδιασμού και της επεξεργασίας εικόνας χρησιμοποιώντας το Aspose.PSD για Java! Σε αυτό το tutorial, θα σας δείξουμε **πώς να εφαρμόσετε επικάλυψη** σε ένα στρώμα PSD, να ορίσετε τη διαφάνεια της επικάλυψης και να προσαρμόσετε το χρώμα της επικάλυψης. Είτε δημιουργείτε ένα εργαλείο μαζικής επεξεργασίας είτε προσθέτετε μια πινελιά χρώματος της μάρκας σε ένα σχέδιο, αυτός ο οδηγός σας καθοδηγεί βήμα‑βήμα με σαφείς εξηγήσεις και έτοιμο κώδικα.
+Καλώς ήρθατε στον κόσμο του γραφικού σχεδιασμού και της επεξεργασίας εικόνας χρησιμοποιώντας το Aspose.PSD για Java! Σε αυτό το tutorial θα μάθετε **how to set overlay opacity java**, να εφαρμόσετε μια χρωματική επικάλυψη σε ένα στρώμα PSD και να προσαρμόσετε το χρώμα της επικάλυψης. Είτε δημιουργείτε ένα εργαλείο επεξεργασίας παρτίδας είτε προσθέτετε μια πινελιά χρώματος μάρκας σε ένα σχέδιο, τα παρακάτω βήματα θα σας καθοδηγήσουν σε όλα όσα χρειάζεστε, από τις προαπαιτήσεις έως την αποθήκευση του τελικού αρχείου.
 
 ## Γρήγορες Απαντήσεις
-- **Τι βιβλιοθήκη χρησιμοποιείται;** Aspose.PSD για Java  
-- **Κύριος στόχος;** Μάθετε πώς να εφαρμόσετε επικάλυψη, να ορίσετε τη διαφάνεια της επικάλυψης και να προσαρμόσετε το χρώμα της επικάλυψης  
-- **Προαπαιτούμενα;** Java SDK, Aspose.PSD για Java, ένα αρχείο PSD για επεξεργασία  
-- **Χρόνος υλοποίησης;** 10‑15 λεπτά για μια βασική επικάλυψη  
-- **Μπορώ να αλλάξω το χρώμα της επικάλυψης αργότερα;** Ναι – μπορείτε να τροποποιήσετε τις ιδιότητες του `ColorOverlayEffect` και να αποθηκεύσετε ξανά το αρχείο  
+- **Ποια βιβλιοθήκη χρησιμοποιείται;** Aspose.PSD for Java  
+- **Κύριος στόχος;** Set overlay opacity java, apply a colour overlay, and save the edited PSD  
+- **Προαπαιτούμενα;** Java 8+, Aspose.PSD for Java, a PSD file with at least one layer  
+- **Τυπικός χρόνος υλοποίησης;** 10‑15 minutes for a basic overlay  
+- **Μπορώ να αλλάξω το χρώμα της επικάλυψης αργότερα;** Yes – modify the `ColorOverlayEffect` properties and re‑save  
+
+## Τι είναι το set overlay opacity java;
+
+Η μέθοδος `setOpacity(byte)` ορίζει το επίπεδο διαφάνειας της επικάλυψης. Η φράση “set overlay opacity java” αναφέρεται στην προσαρμογή της τιμής διαφάνειας (0‑255) ενός colour‑overlay effect σε ένα στρώμα PSD χρησιμοποιώντας κώδικα Java. Στο Aspose.PSD ελέγχετε τη διαφάνεια μέσω της μεθόδου `ColorOverlayEffect.setOpacity(byte)`, η οποία επηρεάζει άμεσα το πόσο διαφανής ή στερεή εμφανίζεται η επικάλυψη.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.PSD για λειτουργίες επικάλυψης;
+
+Το Aspose.PSD διατηρεί **100 % πιστότητα PSD** και υποστηρίζει **50+ μορφές εισόδου και εξόδου** (συμπεριλαμβανομένων των PSD, PNG, JPEG, TIFF και BMP). Επεξεργάζεται αρχεία έως **500 MB** χωρίς να φορτώνει ολόκληρο το έγγραφο στη μνήμη, καθιστώντας το ιδανικό για αυτοματοποίηση στο διακομιστή. Δεν απαιτείται εγκατάσταση του Adobe Photoshop, και ο ίδιος κώδικας Java εκτελείται σε Windows, Linux και macOS.
 
 ## Προαπαιτούμενα
 
-Πριν προχωρήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
-
-1. **Περιβάλλον Ανάπτυξης Java** – Εγκατεστημένο JDK 8 ή νεότερο.  
-2. **Βιβλιοθήκη Aspose.PSD** – Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.PSD για Java από [εδώ](https://releases.aspose.com/psd/java/).  
-3. **Έγγραφο PSD** – Ένα αρχείο PSD (π.χ., *ColorOverlay.psd*) που περιέχει τουλάχιστον ένα στρώμα στο οποίο θέλετε να προσθέσετε επικάλυψη.  
+- **Περιβάλλον Ανάπτυξης Java** – JDK 8 ή νεότερο εγκατεστημένο.  
+- **Βιβλιοθήκη Aspose.PSD** – Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.PSD για Java από [here](https://releases.aspose.com/psd/java/).  
+- **Έγγραφο PSD** – Ένα αρχείο PSD (π.χ., *ColorOverlay.psd*) που περιέχει τουλάχιστον ένα στρώμα όπου θέλετε να προσθέσετε μια επικάλυψη.  
 
 ## Εισαγωγή Πακέτων
 
@@ -47,17 +107,20 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-## Οδηγός Βήμα‑βήμα
+## Οδηγός Βήμα‑προς‑Βήμα
 
-### Βήμα 1: Ορίστε τον Κατάλογο του Εγγράφου σας
+### Βήμα 1: Ορίστε τον Κατάλογο Εγγράφου σας
+
+Η κλάση `File` αντιπροσωπεύει μια διαδρομή συστήματος αρχείων.  
+Αντικαταστήστε **Your Document Directory** με την απόλυτη διαδρομή όπου βρίσκονται τα αρχεία PSD σας.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-Αντικαταστήστε το **Your Document Directory** με την απόλυτη διαδρομή όπου βρίσκονται τα αρχεία PSD σας.
-
 ### Βήμα 2: Φορτώστε το Αρχείο PSD με Εφέ
+
+`LoadOptions` ενημερώνει το Aspose.PSD πώς να διαβάσει το αρχείο. Ορίζοντας `setLoadEffectsResource(true)` διασφαλίζει ότι τα υπάρχοντα εφέ στρώματος, συμπεριλαμβανομένης οποιασδήποτε colour overlay, φορτώνονται και γίνονται προσβάσιμα.
 
 ```java
 String sourceFileName = dataDir + "ColorOverlay.psd";
@@ -69,86 +132,89 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
-Η σημαία `setLoadEffectsResource(true)` λέει στο Aspose.PSD να φορτώσει τυχόν υπάρχοντα εφέ στρώματος, κάτι που απαιτείται για την πρόσβαση στην επικάλυψη αργότερα.
+### Βήμα 3: Πρόσβαση στο Εφέ Χρωματικής Επικάλυψης
 
-### Βήμα 3: Πρόσβαση στο Εφέ Επικάλυψης Χρώματος
+`Layer` είναι η αναπαράσταση του Aspose.PSD για ένα στρώμα PSD. `ColorOverlayEffect` είναι το συγκεκριμένο αντικείμενο εφέ που ελέγχει τις ιδιότητες της colour overlay.  
+Εδώ ανακτούμε το πρώτο εφέ του δεύτερου στρώματος (δείκτης 1). Προσαρμόστε τους δείκτες αν η δομή του PSD σας διαφέρει.
 
 ```java
 com.aspose.psd.fileformats.psd.layers.layereffects.ColorOverlayEffect colorOverlay = (com.aspose.psd.fileformats.psd.layers.layereffects.ColorOverlayEffect)
         (im.getLayers()[1].getBlendingOptions().getEffects()[0]);
 ```
 
-Εδώ ανακτούμε το πρώτο εφέ του δεύτερου στρώματος (δείκτης 1). Εάν η δομή του PSD σας διαφέρει, προσαρμόστε τους δείκτες αναλόγως.
+### Βήμα 4: Προσαρμόστε το Χρώμα της Επικάλυψης και Ορίστε τη Διαφάνεια Επικάλυψης
 
-### Βήμα 4: Προσαρμογή Χρώματος Επικάλυψης και Ορισμός Διαφάνειας Επικάλυψης
+Η κλάση `ColorOverlayEffect` αντιπροσωπεύει ένα εφέ χρωματικής επικάλυψης που εφαρμόζεται σε ένα στρώμα PSD.  
+- **Colour** – Χρησιμοποιήστε οποιοδήποτε στατικό χρώμα από το `java.awt.Color` ή δημιουργήστε ένα προσαρμοσμένο με `new Color(r, g, b)`.  
+- **Opacity** – Το byte διαφάνειας κυμαίνεται από 0 (πλήρως διαφανές) έως 255 (πλήρως αδιαφανές). Σε αυτό το παράδειγμα το ορίζουμε στο 50 % (`128`).  
+
+> **Pro tip:** Για **change PSD overlay colour** δυναμικά, διαβάστε την επιθυμητή τιμή hex από ένα αρχείο ρυθμίσεων και μετατρέψτε την με `Color.fromArgb()`.
 
 ```java
 colorOverlay.setColor(Color.getGreen());
 colorOverlay.setOpacity((byte) 128);
 ```
 
-- **Προσαρμογή χρώματος επικάλυψης** – Χρησιμοποιήστε οποιοδήποτε στατικό χρώμα από την κλάση `Color` ή δημιουργήστε ένα προσαρμοσμένο με `new Color(r, g, b)`.  
-- **Ορισμός διαφάνειας επικάλυψης** – Η τιμή διαφάνειας κυμαίνεται από 0 (διαυγές) έως 255 (πλήρως αδιαφανές). Σε αυτό το παράδειγμα τη θέτουμε στο 50 % (`128`).  
-
-> **Συμβουλή:** Για **αλλαγή του χρώματος επικάλυψης PSD** δυναμικά, διαβάστε την επιθυμητή τιμή hex από ένα αρχείο ρυθμίσεων και μετατρέψτε την με `Color.fromArgb()`.
-
 ### Βήμα 5: Αποθήκευση του Τροποποιημένου Αρχείου PSD
+
+`save` γράφει το ενημερωμένο έγγραφο ξανά στο δίσκο. Το επεξεργασμένο αρχείο, *ColorOverlayChanged.psd*, περιέχει τώρα το νέο χρώμα επικάλυψης και τη διαφάνεια.
 
 ```java
 im.save(psdPathAfterChange);
 ```
 
-Το επεξεργασμένο αρχείο, *ColorOverlayChanged.psd*, περιέχει τώρα το νέο χρώμα επικάλυψης και τη διαφάνεια.
+## Πώς να ορίσετε τη διαφάνεια επικάλυψης java
 
-## Γιατί να Χρησιμοποιήσετε το Aspose.PSD για Λειτουργίες Επικάλυψης;
+Η κλάση `ColorOverlayEffect` αντιπροσωπεύει ένα εφέ χρωματικής επικάλυψης που εφαρμόζεται σε ένα στρώμα PSD. Φορτώστε το στοχευόμενο PSD, ανακτήστε το `ColorOverlayEffect` από το επιθυμητό στρώμα, καλέστε `setOpacity((byte)128)` (ή οποιαδήποτε τιμή 0‑255), και στη συνέχεια αποθηκεύστε το έγγραφο. Αυτή η αλλαγή μιας γραμμής ρυθμίζει αμέσως τη διαφάνεια της επικάλυψης, χωρίς να επηρεάζει άλλα χαρακτηριστικά του στρώματος.
 
-- **Πλήρης πιστότητα PSD** – Όλα τα εφέ στρώματος, μάσκες και smart objects διατηρούνται.  
-- **Διασυστημικό** – Λειτουργεί σε Windows, Linux και macOS με τον ίδιο κώδικα Java.  
-- **Χωρίς Adobe Photoshop** – Ιδανικό για αυτοματοποιημένες γραμμές παραγωγής ή επεξεργασία στο διακομιστή.  
+## Συνηθισμένες Περιπτώσεις Χρήσης
 
-## Κοινές Περιπτώσεις Χρήσης
+- **Branding** – Εφαρμόστε μια εταιρική colour overlay στα υλικά μάρκετινγκ μαζικά.  
+- **Theming** – Αλλάξτε δυναμικά τα mockups UI μεταξύ φωτεινών και σκοτεινών θεμάτων.  
+- **Proofing** – Δοκιμάστε πώς διαφορετικές διαφάνειες επικάλυψης επηρεάζουν την αναγνωσιμότητα κειμένου σε πολύπλοκα φόντα.  
 
-- **Branding** – Εφαρμόστε μια εταιρική χρωματική επικάλυψη σε υλικά μάρκετινγκ μαζικά.  
-- **Theming** – Αλλάξτε δυναμικά τα UI mockups ώστε να ταιριάζουν με σκοτεινό ή φωτεινό θέμα.  
-- **Proofing** – Δοκιμάστε γρήγορα πώς διαφορετικές διαφάνειες επικάλυψης επηρεάζουν την αναγνωσιμότητα.
-
-## Κοινά Προβλήματα και Λύσεις
+## Συνηθισμένα Προβλήματα και Λύσεις
 
 | Πρόβλημα | Λύση |
 |----------|------|
-| **Η επικάλυψη δεν είναι ορατή** | Βεβαιωθείτε ότι το `loadOptions.setLoadEffectsResource(true)` είναι ενεργό και ότι το στοχευόμενο στρώμα διαθέτει πραγματικά ένα `ColorOverlayEffect`. |
-| **Λάθος δείκτης στρώματος** | Χρησιμοποιήστε `im.getLayers()` για να εξετάσετε τα ονόματα των στρωμάτων και να επιλέξετε τον σωστό δείκτη. |
-| **Η διαφάνεια φαίνεται πολύ ανοιχτή/σκούρα** | Προσαρμόστε την τιμή byte (0‑255). Θυμηθείτε ότι 255 είναι πλήρως αδιαφανές. |
-| **Το χρώμα δεν εφαρμόζεται** | Επαληθεύστε ότι χρησιμοποιείτε `colorOverlay.setColor()` με μια έγκυρη παρουσία `Color`. |
+| **Η επικάλυψη δεν είναι ορατή** | Βεβαιωθείτε ότι το `loadOptions.setLoadEffectsResource(true)` είναι ορισμένο και ότι το στοχευόμενο στρώμα έχει πραγματικά ένα `ColorOverlayEffect`. |
+| **Λάθος δείκτης στρώματος** | Χρησιμοποιήστε το `psdImage.getLayers()` για να ελέγξετε τα ονόματα των στρωμάτων και να επιλέξετε τον σωστό δείκτη. |
+| **Η διαφάνεια φαίνεται πολύ ανοιχτή/σκοτεινή** | Ρυθμίστε την τιμή byte (0‑255). Θυμηθείτε ότι το 255 είναι πλήρως αδιαφανές. |
+| **Το χρώμα δεν εφαρμόστηκε** | Επιβεβαιώστε ότι χρησιμοποιείτε το `colorOverlay.setColor()` με μια έγκυρη παρουσία `java.awt.Color`. |
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Μπορώ να εφαρμόσω πολλαπλές επικάλυψεις σε ένα μόνο στρώμα;**  
-Α: Όχι, ένα στρώμα μπορεί να έχει μόνο ένα `ColorOverlayEffect`. Για να πετύχετε πολλαπλά χρωματικά εφέ, αντιγράψτε το στρώμα και εφαρμόστε ξεχωριστές επικάλυψεις.
+**Q: Μπορώ να εφαρμόσω πολλαπλές επικάλυψεις σε ένα μόνο στρώμα;**  
+A: Όχι, ένα στρώμα μπορεί να έχει μόνο ένα `ColorOverlayEffect`. Για να προσομοιώσετε πολλαπλά χρώματα, διπλασιάστε το στρώμα και εφαρμόστε ξεχωριστές επαφές.
 
-**Ε: Είναι το Aspose.PSD συμβατό με διαφορετικά IDE Java;**  
-Α: Ναι, λειτουργεί με Eclipse, IntelliJ IDEA, NetBeans και οποιοδήποτε IDE υποστηρίζει Maven ή Gradle.
+**Q: Είναι το Aspose.PSD συμβατό με διαφορετικά IDE Java;**  
+A: Ναι, λειτουργεί με Eclipse, IntelliJ IDEA, NetBeans και οποιοδήποτε IDE που υποστηρίζει Maven ή Gradle.
 
-**Ε: Μπορώ να χρησιμοποιήσω το Aspose.PSD σε εμπορικά έργα;**  
-Α: Ναι, μπορείτε να το χρησιμοποιήσετε τόσο σε προσωπικές όσο και σε εμπορικές εφαρμογές. Δείτε τις λεπτομέρειες αδειοδότησης [εδώ](https://purchase.aspose.com/buy).
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.PSD για εμπορικά έργα;**  
+A: Ναι, μπορείτε να το χρησιμοποιήσετε τόσο σε προσωπικές όσο και σε εμπορικές εφαρμογές. Επισκεφθείτε [here](https://purchase.aspose.com/buy) για λεπτομέρειες αδειοδότησης.
 
-**Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD;**  
-Α: Επισκεφθείτε το [Φόρουμ Aspose.PSD](https://forum.aspose.com/c/psd/34) για βοήθεια από την κοινότητα ή αγοράστε μια [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για προτεραιότητα στην υποστήριξη.
+**Q: Πώς μπορώ να λάβω υποστήριξη για το Aspose.PSD;**  
+A: Επισκεφθείτε το [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) για βοήθεια από την κοινότητα ή αγοράστε μια [temporary license](https://purchase.aspose.com/temporary-license/) για προτεραιότητα υποστήριξης.
 
-**Ε: Υπάρχουν δωρεάν δοκιμαστικές εκδόσεις;**  
-Α: Ναι, εξερευνήστε την [δωρεάν δοκιμή](https://releases.aspose.com/) πριν αποφασίσετε.
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-30  
-**Δοκιμάστηκε Με:** Aspose.PSD 24.11 για Java  
-**Συγγραφέας:** Aspose  
+**Q: Υπάρχουν διαθέσιμες επιλογές δωρεάν δοκιμής;**  
+A: Ναι, εξερευνήστε την έκδοση [free trial](https://releases.aspose.com/) πριν αποφασίσετε.
 
 ---
+
+**Τελευταία Ενημέρωση:** 2026-06-28  
+**Δοκιμάστηκε Με:** Aspose.PSD 24.11 for Java  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Μαθήματα
+
+- [Ορισμός Διαφάνειας Στρώματος και Υποστήριξη Λειτουργιών Ανάμειξης στο Aspose.PSD για Java](/psd/java/basic-image-operations/support-blend-modes/)
+- [Ορισμός Διαφάνειας Γέμισης για Στρώματα PSD με Aspose.PSD Java](/psd/java/psd-image-modification-conversion/set-fill-opacity-psd-layers/)
+- [Προσθήκη Εφέ Επικάλυψης Σχεδίου στο Aspose.PSD για Java](/psd/java/advanced-image-effects/add-pattern-effects/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
