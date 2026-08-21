@@ -1,5 +1,5 @@
 ---
-title: Java Image Processing Tutorial: Crop Image by Rectangle
+title: 'Crop Image by Rectangle with Aspose.PSD for Java'
 linktitle: Crop Image by Rectangle
 second_title: Aspose.PSD Java API
 description: Learn a java image processing tutorial that shows how to crop images by rectangle using Aspose.PSD for Java, a top java image cropping library.
@@ -32,7 +32,7 @@ In this **java image processing tutorial**, you’ll learn how to crop an image 
 ## What is a Java Image Processing Tutorial?
 A **java image processing tutorial** is a step‑by‑step guide that demonstrates how to perform image‑related operations—such as loading, editing, and saving—using Java code and a specific library. This tutorial focuses on cropping, a common task for preparing thumbnails, removing unwanted borders, or extracting regions of interest.
 
-## Why Use Aspose.PSD for Java?
+## Why use Aspose.PSD for java?
 Aspose.PSD for Java is a **java image cropping library** that supports **30+ image formats** and can handle files up to **2 GB** without loading the entire document into memory, giving you high performance on large assets. Its API is fully managed, requires no native dependencies, and works on any Java 8+ runtime.
 
 ## Prerequisites
@@ -40,7 +40,7 @@ Aspose.PSD for Java is a **java image cropping library** that supports **30+ ima
 Before you dive into the tutorial, ensure that you have the following prerequisites in place:
 
 - Java Development Kit (JDK) installed on your machine.  
-- Aspose.PSD for Java library. You can download it from the [website](https://releases.aspose.com/psd/java/).
+- Aspose.PSD for Java library. You can download it from the [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).
 
 ## Import Packages
 
@@ -61,7 +61,7 @@ Now that the imports are ready, let’s walk through the cropping process step b
 
 Load your source PSD, define a `Rectangle` with the desired coordinates, call `crop` on the `RasterImage`, and finally save the result as a JPEG—all in five concise steps. This direct answer gives you the complete workflow before we dive into each individual line of code.
 
-### Step 1: Set up Your Document Directory
+### Step 1: set up your document directory
 
 Create a string that points to the folder containing your PSD files. This makes the later file paths easier to manage.
 
@@ -71,7 +71,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the actual path where your PSD file is located.
 
-### Step 2: Specify Source and Destination Files
+### Step 2: specify source and destination files
 
 Define the full paths for the source PSD and the output JPEG. Using absolute paths avoids confusion when the program runs from a different working directory.
 
@@ -80,7 +80,7 @@ String sourceFile = dataDir + "sample.psd";
 String destName = dataDir + "CroppingByRectangle_out.jpg";
 ```
 
-### Step 3: Load and Cache the Image
+### Step 3: load and cache the image
 
 `RasterImage` represents a rasterized version of an image and provides methods for pixel‑level operations.  
 `cacheData()` loads the image data into memory for faster processing.
@@ -95,7 +95,7 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-### Step 4: Create and Define the Crop Rectangle
+### Step 4: create and define the crop rectangle
 
 The `Rectangle` class represents the area you want to keep. Provide `x`, `y`, `width`, and `height` values that match the region of interest.
 
@@ -103,7 +103,7 @@ The `Rectangle` class represents the area you want to keep. Provide `x`, `y`, `w
 Rectangle rectangle = new Rectangle(20, 20, 20, 20);
 ```
 
-### Step 5: Crop and Save the Image
+### Step 5: crop and save the image
 
 `crop(Rectangle)` trims the image to the specified rectangle.  
 `save(String, ImageOptions)` writes the image to disk in the chosen format.
@@ -117,25 +117,25 @@ rasterImage.save(destName, new JpegOptions());
 
 Repeat these steps as needed, adjusting the rectangle coordinates to suit different images or use cases.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Image not cropping as expected** – Verify that the rectangle coordinates are within the bounds of the original image; out‑of‑range values are ignored.  
 - **OutOfMemoryError on large files** – Ensure you call `cacheData()` and consider increasing the JVM heap size (`-Xmx2g`).  
 - **Unsupported format error** – Aspose.PSD supports PSD, PNG, JPEG, BMP, TIFF, and many more; double‑check the file extension.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.PSD for Java with other Java frameworks?**  
 A: Yes, Aspose.PSD integrates seamlessly with Spring, JavaFX, Android (via Java 8 compatibility), and any standard Java project.
 
 **Q: Is there a free trial available for Aspose.PSD for Java?**  
-A: Yes, you can access the free trial version [here](https://releases.aspose.com/).
+A: Yes, you can access the free trial version on the [Aspose.PSD free trial download page](https://releases.aspose.com/).
 
 **Q: Where can I find additional support or assistance?**  
 A: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community support and discussions.
 
 **Q: How do I obtain a temporary license for Aspose.PSD for Java?**  
-A: You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A: You can acquire a temporary license on the [Aspose.PSD temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Q: What are the supported image formats for cropping in Aspose.PSD for Java?**  
 A: Aspose.PSD for Java supports various formats, including PSD, PNG, JPEG, BMP, TIFF, GIF, and more.

@@ -1,5 +1,5 @@
 ---
-title: Crop Image Java by Shifts with Aspose.PSD
+title: How to Crop an Image in Java by Shifts Using Aspose.PSD
 linktitle: Crop Image by Shifts
 second_title: Aspose.PSD Java API
 description: Learn how to crop image java using Aspose.PSD for Java. This step‑by‑step image cropping tutorial covers loading PSD files, setting shift values, and saving the result.
@@ -53,7 +53,7 @@ schemas:
     answer: Yes, you can find support and engage with the community at [Aspose.PSD
       Forum](https://forum.aspose.com/c/psd/34).
   - question: How can I obtain a temporary license for Aspose.PSD?
-    answer: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain
+    answer: Visit [Aspose.PSD temporary license page](https://purchase.aspose.com/temporary-license/) to obtain
       a temporary license.
   - question: Are there sample projects showcasing Aspose.PSD functionalities?
     answer: Explore the documentation and examples at [Aspose.PSD Java Documentation](https://reference.aspose.com/psd/java/).
@@ -86,7 +86,7 @@ Aspose.PSD supports **30+** image formats and can process multi‑hundred‑page
 
 ### Java Development Kit (JDK)
 
-Make sure you have the latest version of JDK installed on your system. You can download it from [here](https://www.oracle.com/java/technologies/javase-downloads.html).
+Make sure you have the latest version of JDK installed on your system. You can download it from [Oracle Java SE downloads](https://www.oracle.com/java/technologies/javase-downloads.html).
 
 ### Aspose.PSD for Java Library
 
@@ -100,7 +100,7 @@ Choose your favorite Java IDE, such as Eclipse or IntelliJ, for a smooth coding 
 
 Load your source file, define the pixel shifts for each side, and call the `crop` method—this entire workflow can be written in five concise lines of code. The `crop` operation creates a new image that contains only the region you specified, leaving the original file untouched.
 
-### Step 1: Load the Image
+### Step 1: load the image
 
 `Image` is the base class for all image types in Aspose.PSD.  
 `RasterImage` represents a raster image and provides cropping capabilities.  
@@ -111,7 +111,7 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-### Step 2: Cache Image Data
+### Step 2: cache image data
 
 `cacheData()` loads the image data into memory for faster processing.  
 ```java
@@ -122,7 +122,7 @@ String sourceFile = dataDir + "sample.psd";
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 ```
 
-### Step 3: Define Shift Values
+### Step 3: define shift values
 
 Specify the shift values for all four sides of the image (left, top, right, bottom) in pixels.  
 ```java
@@ -131,7 +131,7 @@ if (!rasterImage.isCached()) {
 }
 ```
 
-### Step 4: Apply Cropping
+### Step 4: apply cropping
 
 `crop(left, right, top, bottom)` trims the image by the specified pixel shifts on each side.  
 ```java
@@ -141,7 +141,7 @@ int topShift = 10;
 int bottomShift = 10;
 ```
 
-### Step 5: Save the Results
+### Step 5: save the results
 
 `JpegOptions` defines JPEG encoding settings such as quality and color profile.  
 ```java
@@ -150,13 +150,13 @@ rasterImage.crop(leftShift, rightShift, topShift, bottomShift);
 
 Congratulations! You've successfully cropped an image using Aspose.PSD for Java.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Image appears unchanged:** Verify that the shift values are positive and do not exceed the original dimensions.  
 - **OutOfMemoryError on large files:** Enable caching as shown in Step 2; this forces Aspose.PSD to use a temporary file instead of keeping the whole image in RAM.  
 - **Color shift after cropping:** Ensure you preserve the color profile by calling `image.save(..., new JpegOptions { ColorProfile = image.ColorProfile })` if you need exact color fidelity.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.PSD compatible with all image formats?**  
 A: Yes, Aspose.PSD supports over 30 raster formats, including PSD, JPEG, PNG, BMP, TIFF, and GIF, ensuring broad compatibility.
@@ -168,7 +168,7 @@ A: Absolutely. After each `crop` call you receive a new image object, which you 
 A: Yes, you can find support and engage with the community at [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34).
 
 **Q: How can I obtain a temporary license for Aspose.PSD?**  
-A: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
+A: Visit [Aspose.PSD temporary license page](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
 
 **Q: Are there sample projects showcasing Aspose.PSD functionalities?**  
 A: Explore the documentation and examples at [Aspose.PSD Java Documentation](https://reference.aspose.com/psd/java/).
