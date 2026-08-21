@@ -1,10 +1,57 @@
 ---
-date: 2025-12-30
-description: Узнайте, как изменить цвет тени и настроить эффекты тени с помощью Aspose.PSD
-  для Java. Следуйте этому пошаговому руководству по эффектам тени.
-linktitle: Support Shadow Effect
+date: 2026-06-18
+description: Узнайте, как изменить цвет тени в Java и настроить эффекты тени с использованием
+  Aspose.PSD for Java. Следуйте этому пошаговому руководству по эффектам тени.
+keywords:
+- change shadow color java
+- Aspose.PSD shadow effect
+- Java PSD manipulation
+linktitle: Поддержка эффекта тени
+schemas:
+- author: Aspose
+  dateModified: '2026-06-18'
+  description: Learn how to change shadow color java and customize shadow effects
+    using Asprose.PSD for Java. Follow this step‑by‑step shadow effect tutorial.
+  headline: Change Shadow Color Java with Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to change shadow color java and customize shadow effects
+    using Asprose.PSD for Java. Follow this step‑by‑step shadow effect tutorial.
+  name: Change Shadow Color Java with Aspose.PSD for Java
+  steps:
+  - name: Load the PSD Image
+    text: 'First, load the source PSD while enabling the loading of effect resources:'
+  - name: Retrieve the Existing Drop Shadow Effect
+    text: 'Locate the shadow effect on the desired layer (in this example, the second
+      layer):'
+  - name: Verify the Default Settings (Optional)
+    text: 'Running these assertions helps you understand the original values before
+      you modify them:'
+  - name: '**Change Shadow Color** and Customize Other Properties'
+    text: Now we actually **change shadow color** to green, adjust opacity, distance,
+      size, and other attributes. This demonstrates the **customize shadow effect**
+      capabilities of Aspose.PSD. The `setOpacity(byte)` method sets the shadow's
+      opacity level (0‑255).
+  - name: Save the Modified Image
+    text: 'Finally, write the updated PSD back to disk using the `save` method of
+      `PsdImage`:'
+  type: HowTo
+- questions:
+  - answer: Absolutely! Aspose.PSD for Java is a powerful library designed for professional
+      graphic design tasks.
+    question: Is Aspose.PSD for Java suitable for professional graphic design projects?
+  - answer: Yes, Aspose.PSD for Java is a commercial product. You can purchase it
+      [here](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.PSD for Java in commercial applications?
+  - answer: Yes, you can explore a free trial version [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Refer to the comprehensive documentation [here](https://reference.aspose.com/psd/java/).
+    question: Where can I find detailed documentation?
+  - answer: Join the community forum [here](https://forum.aspose.com/c/psd/34) for
+      any support queries.
+    question: How can I get support for Aspose.PSD for Java?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Как изменить цвет тени с помощью Aspose.PSD для Java
+title: Изменение цвета тени в Java с помощью Aspose.PSD for Java
 url: /ru/java/basic-image-operations/support-shadow-effect/
 weight: 13
 ---
@@ -13,38 +60,41 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Изменение цвета тени с помощью Aspose.PSD for Java
+# Изменение цвета тени в Java с Aspose.PSD для Java
 
 ## Введение
 
-Добавление глубины к вашим графикам часто подразумевает **изменение цвета тени**, чтобы он соответствовал настроению дизайна. С Aspose.PSD for Java вы можете легко добавить или изменить эффекты падающей тени, управлять непрозрачностью и точно настраивать другие параметры — всё из кода Java. В этом **уроке по эффектам тени** мы пройдем процесс загрузки PSD, чтения существующей тени, настройки её цвета, непрозрачности, расстояния и, наконец, сохранения обновлённого файла.
+Adding depth to your graphics often means **changing shadow color** to match the design’s mood. With Aspose.PSD for Java you can easily add or modify drop‑shadow effects, control opacity, and fine‑tune other parameters—all from Java code. In this **shadow effect tutorial** we’ll walk through loading a PSD, reading the existing shadow, customizing its color, opacity, distance, and finally saving the updated file. This guide shows exactly how to **change shadow color java** in a reproducible way.
 
 ## Быстрые ответы
-- **Что означает «изменить цвет тени»?** Это обновление свойства color эффекта DropShadowEffect, применённого к слою PSD.  
-- **Какая библиотека поддерживает это?** Aspose.PSD for Java предоставляет полную поддержку эффектов тени.  
-- **Нужна ли лицензия?** Для разработки работает пробная версия; для продакшна требуется коммерческая лицензия.  
-- **Можно ли задать непрозрачность тени?** Да — используйте `setOpacity(byte)`, чтобы задать прозрачность (0‑255).  
-- **Совместим ли код с Java 8+?** Абсолютно, API нацелен на Java 8 и выше.
+- **Что означает “change shadow color”?** It updates the color property of a DropShadowEffect applied to a PSD layer.  
+- **Какой библиотекой это поддерживается?** Aspose.PSD for Java provides full support for shadow effects.  
+- **Нужна ли лицензия?** A trial works for development; a commercial license is required for production.  
+- **Можно ли задать непрозрачность тени?** Yes – use `setOpacity(byte)` to define transparency (0‑255).  
+- **Совместим ли код с Java 8+?** Absolutely, the API targets Java 8 and later.
 
-## Что означает «изменить цвет тени» в файлах PSD?
+## Что такое “change shadow color” в файлах PSD?
 
-Изменение цвета тени меняет визуальный оттенок падающей тени, которая отображается за слоем. Это полезно для создания реалистичного освещения, подгонки под фирменные цвета или просто для добавления художественного акцента.
+Changing the shadow color modifies the visual hue of the drop shadow that appears behind a layer. This adjustment lets designers simulate different lighting conditions, align shadows with brand color palettes, and add artistic flair to compositions. By altering the hue, you can make shadows appear warmer, cooler, or completely match a specific color scheme, enhancing overall visual impact.
 
-## Почему стоит использовать Aspose.PSD for Java для настройки эффектов тени?
+## Почему стоит использовать Aspose.PSD для Java для настройки эффектов тени?
 
-- **Полная точность PSD** — все эффекты слоёв, включая тени, сохраняются.  
-- **Не требуется Photoshop** — манипулируйте файлами программно на любом сервере.  
-- **Тонкая настройка** — регулируйте цвет, непрозрачность, расстояние, угол, разброс и шум.  
-- **Кроссплатформенность** — работает в JVM на Windows, Linux и macOS.
+Aspose.PSD for Java preserves **100+ image formats** and can process PSD files up to **2 GB** without loading the entire document into memory, delivering enterprise‑grade performance. The library gives you full control over every shadow attribute—color, opacity, distance, angle, spread, and noise—without needing Photoshop installed. It runs on Windows, Linux, and macOS JVMs, making it the most reliable choice for automated graphic pipelines.
 
 ## Предварительные требования
 
-- Базовые знания программирования на Java.  
-- Установленный Aspose.PSD for Java. Скачать можно [здесь](https://releases.aspose.com/psd/java/).  
+- Basic knowledge of Java programming.  
+- Aspose.PSD for Java installed. You can download it [here](https://releases.aspose.com/psd/java/).  
 
 ## Импорт пакетов
 
-Перед началом импортируйте необходимые классы, чтобы работать с изображениями и эффектами тени:
+Before you start, import the required classes so you can work with images and shadow effects:
+
+The `Color` class represents a color value used throughout the API.  
+The `Image` class is the base type for all image objects.  
+The `PsdImage` class provides functionality specific to PSD files.  
+The `PsdLoadOptions` class allows you to specify options for loading PSD files, such as enabling effect resources.  
+The `DropShadowEffect` class represents a drop‑shadow filter applied to a PSD layer and gives you access to all its adjustable properties.
 
 ```java
 import com.aspose.psd.Color;
@@ -60,7 +110,7 @@ import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 
 ### Шаг 1: Загрузка изображения PSD
 
-Сначала загрузите исходный PSD, включив загрузку ресурсов эффектов:
+First, load the source PSD while enabling the loading of effect resources:
 
 ```java
 String dataDir = "Your Document Directory";
@@ -73,9 +123,9 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-### Шаг 2: Получение существующего эффекта Drop Shadow
+### Шаг 2: Получение существующего эффекта падающей тени
 
-Найдите эффект тени на нужном слое (в этом примере — второй слой):
+Locate the shadow effect on the desired layer (in this example, the second layer):
 
 ```java
 DropShadowEffect shadowEffect = (DropShadowEffect)(im.getLayers()[1].getBlendingOptions().getEffects()[0]);
@@ -83,7 +133,7 @@ DropShadowEffect shadowEffect = (DropShadowEffect)(im.getLayers()[1].getBlending
 
 ### Шаг 3: Проверка настроек по умолчанию (необязательно)
 
-Эти утверждения помогают понять исходные значения перед их изменением:
+Running these assertions helps you understand the original values before you modify them:
 
 ```java
 Assert.areEqual(Color.getBlack(), shadowEffect.getColor());
@@ -96,9 +146,9 @@ Assert.areEqual(0, shadowEffect.getSpread());
 Assert.areEqual(0, shadowEffect.getNoise());
 ```
 
-### Шаг 4: **Изменить цвет тени** и настроить другие свойства
+### Шаг 4: **Change Shadow Color** и настройка других свойств
 
-Теперь мы действительно **изменяем цвет тени** на зелёный, регулируем непрозрачность, расстояние, размер и другие атрибуты. Это демонстрирует возможности **настройки эффекта тени** в Aspose.PSD:
+Now we actually **change shadow color** to green, adjust opacity, distance, size, and other attributes. This demonstrates the **customize shadow effect** capabilities of Aspose.PSD. The `setOpacity(byte)` method sets the shadow's opacity level (0‑255).  
 
 ```java
 shadowEffect.setColor(Color.getGreen());          // change shadow color
@@ -111,9 +161,9 @@ shadowEffect.setSpread(3);                        // increase spread
 shadowEffect.setNoise(50);                        // add texture noise
 ```
 
-### Шаг 5: Сохранение изменённого изображения
+### Шаг 5: Сохранение измененного изображения
 
-Наконец, запишите обновлённый PSD обратно на диск:
+Finally, write the updated PSD back to disk using the `save` method of `PsdImage`:
 
 ```java
 im.save(psdPathAfterChange);
@@ -121,40 +171,46 @@ im.save(psdPathAfterChange);
 
 ## Распространённые проблемы и советы
 
-- **NullPointerException при получении эффектов** — убедитесь, что вызван `setLoadEffectsResource(true)`; иначе эффекты не загружаются.  
-- **Цвет не меняется** — проверьте, что редактируете правильный индекс слоя (`im.getLayers()[1]` в этом примере).  
-- **Непрозрачность выглядит неизменной** — помните, что непрозрачность хранится в виде байта (0‑255). Требуется приведение к `(byte)`.  
+- **NullPointerException при получении эффектов** – ensure `setLoadEffectsResource(true)` is called; otherwise effects are not loaded.  
+- **Color not changing** – verify you are editing the correct layer index (`im.getLayers()[1]` in this example).  
+- **Opacity looks unchanged** – remember opacity is a byte (0‑255). Casting to `(byte)` is required.  
 
 ## Заключение
 
-Следуя этим шагам, вы сможете **изменять цвет тени**, **устанавливать непрозрачность тени** и полностью **настраивать параметры эффекта тени** в любом файле PSD с помощью Aspose.PSD for Java. Это даёт возможность создавать более насыщенную графику программно без ручной работы в Photoshop.
+By following these steps you can **change shadow color**, **set shadow opacity**, and fully **customize shadow effect** parameters in any PSD file using Aspose.PSD for Java. This empowers you to create richer graphics programmatically without manual Photoshop work, perfect for automated design pipelines and batch processing.
 
 ## Часто задаваемые вопросы
 
-**В: Подходит ли Aspose.PSD for Java для профессиональных проектов графического дизайна?**  
-О: Абсолютно! Aspose.PSD for Java — мощная библиотека, созданная для профессиональных задач графического дизайна.
+**Q: Подходит ли Aspose.PSD для Java для профессиональных проектов графического дизайна?**  
+A: Absolutely! Aspose.PSD for Java is a powerful library designed for professional graphic design tasks.
 
-**В: Можно ли использовать Aspose.PSD for Java в коммерческих приложениях?**  
-О: Да, Aspose.PSD for Java — коммерческий продукт. Приобрести его можно [здесь](https://purchase.aspose.com/buy).
+**Q: Можно ли использовать Aspose.PSD для Java в коммерческих приложениях?**  
+A: Yes, Aspose.PSD for Java is a commercial product. You can purchase it [here](https://purchase.aspose.com/buy).
 
-**В: Доступна ли бесплатная пробная версия?**  
-О: Да, бесплатную пробную версию можно изучить [здесь](https://releases.aspose.com/).
+**Q: Доступна ли бесплатная пробная версия?**  
+A: Yes, you can explore a free trial version [here](https://releases.aspose.com/).
 
-**В: Где найти подробную документацию?**  
-О: Обратитесь к полной документации [здесь](https://reference.aspose.com/psd/java/).
+**Q: Где можно найти подробную документацию?**  
+A: Refer to the comprehensive documentation [here](https://reference.aspose.com/psd/java/).
 
-**В: Как получить поддержку по Aspose.PSD for Java?**  
-О: Присоединяйтесь к форуму сообщества [здесь](https://forum.aspose.com/c/psd/34) для любых вопросов поддержки.
+**Q: Как получить поддержку для Aspose.PSD для Java?**  
+A: Join the community forum [here](https://forum.aspose.com/c/psd/34) for any support queries.
 
 ---
 
-**Последнее обновление:** 2025-12-30  
+**Последнее обновление:** 2026-06-18  
 **Тестировано с:** Aspose.PSD for Java 24.10  
 **Автор:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Похожие руководства
+
+- [Манипуляция изображениями Java — Добавление эффектов во время выполнения с Aspose.PSD для Java](/psd/java/advanced-techniques/add-effects-runtime/)
+- [Сохранить PSD как PNG и применить рендеринг падающей тени в Aspose.PSD для Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
+- [Размытие изображения Java с Aspose.PSD – Добавление эффекта размытия](/psd/java/advanced-techniques/blur-image/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

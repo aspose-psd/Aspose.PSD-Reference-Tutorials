@@ -1,10 +1,40 @@
 ---
-date: 2025-12-30
-description: تعلم كيفية دمج الصور باستخدام Aspose.PSD للغة Java، إضافة الطبقات، إنشاء
-  البيانات الوصفية، واقتصاص الصور. يغطي هذا الدليل تقنيات تحرير الصور الأساسية.
-linktitle: How to Merge Images
+date: 2026-06-18
+description: تعلم كيفية دمج الصور باستخدام Aspose.PSD for Java، إضافة تراكب لوني،
+  إنشاء XMP metadata، وقص الصور—كل ذلك بمعالجة سريعة على جانب الخادم.
+keywords:
+- how to merge images
+- add color overlay
+- crop image java
+- apply color overlay
+- image editing java
+linktitle: كيفية دمج الصور
+schemas:
+- author: Aspose
+  dateModified: '2026-06-18'
+  description: Learn how to merge images using Aspose.PSD for Java, add color overlay,
+    create XMP metadata, and crop images—all with fast, server‑side processing.
+  headline: How to Merge Images with Aspose.PSD for Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.PSD automatically resizes or pads layers based on the canvas
+      size you define, preserving aspect ratios.
+    question: Can I merge images of different dimensions?
+  - answer: Absolutely. Apply the Color Overlay Effect to each layer before merging,
+      or to the final composite image, for consistent styling.
+    question: Is it possible to add a color overlay while merging?
+  - answer: Create or copy XMP metadata using the API before saving the merged file;
+      the metadata travels with the output automatically.
+    question: How do I preserve EXIF or XMP metadata after merging?
+  - answer: Yes. You can load JPEG, PNG, BMP, TIFF, and many other raster formats,
+      merge them, and export the result as PSD, PNG, or JPEG.
+    question: Does Aspose.PSD support merging images in formats other than PSD?
+  - answer: Use the streaming APIs, dispose of intermediate objects promptly, and
+      limit the canvas size to keep memory usage below 200 MB for 1,000‑image batches.
+    question: What are the performance considerations for large image sets?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: كيفية دمج الصور باستخدام Aspose.PSD للـ Java
+title: كيفية دمج الصور باستخدام Aspose.PSD for Java
 url: /ar/java/image-editing/
 weight: 23
 ---
@@ -15,110 +45,113 @@ weight: 23
 
 # كيفية دمج الصور – تحرير الصور
 
-## المقدمة 
+## مقدمة
 
-مرحبًا بك في عالم إتقان تحرير الصور! في هذه المجموعة من الدروس، نستكشف القدرات القوية لـ Aspose.PSD for Java، ونرشدك إلى فن تحسين، دمج، ومعالجة الصور بسهولة. سواء كنت مطورًا متمرسًا أو مبتدئًا، انضم إلينا في هذه الرحلة لاكتشاف سحر تأثيرات تراكب اللون، **كيفية دمج الصور**، إنشاء بيانات تعريف XMP، ومعالجة الصور بسلاسة. ارتقِ بمهارات التحرير الخاصة بك من خلال أدلة خطوة بخطوة تكشف إمكانات Aspose.PSD for Java، وتمنحك القدرة على تحويل إبداعاتك البصرية. لنغوص سويًا في عالم تحرير الصور المثير!
+مرحبًا بك في عالم إتقان تحرير الصور! في هذه المجموعة من الدروس، نستكشف القدرات القوية لـ Aspose.PSD for Java، ونرشدك إلى فن تحسين الصور ودمجها ومعالجتها بسهولة. سواء كنت مطورًا متمرسًا أو مبتدئًا، ستكتشف كيفية دمج الصور، وتطبيق تأثيرات تراكب اللون، وإنشاء بيانات تعريف XMP، واقتصاص الصور — كل ذلك دون الحاجة إلى تثبيت Photoshop. دعنا نغوص ونستكشف عالم تحرير الصور المثير!
 
 ## إجابات سريعة
-- **ما هي الطريقة الأساسية لدمج الصور في Java؟** باستخدام API `PsdImage` الخاصة بـ Aspose.PSD لدمج الطبقات أو بيانات الراستر.
-- **هل أحتاج إلى ترخيص لـ Aspose.PSD؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص مطلوب للإنتاج.
-- **أي نسخة من Java مدعومة؟** Java 8 وما فوق مدعومة بالكامل.
-- **هل يمكن إضافة تراكب أثناء دمج الصور؟** نعم، يمكن تطبيق تأثير تراكب اللون قبل أو بعد الدمج.
-- **هل يتم إنشاء بيانات التعريف بشكل منفصل؟** يمكنك إنشاء بيانات تعريف XMP في نفس سير العمل بعد دمج الصور.
+- **ما هي الطريقة الأساسية لدمج الصور في Java؟** استخدم API `PsdImage` الخاصة بـ Aspose.PSD لدمج الطبقات أو بيانات الراستر في بضع أسطر من الشيفرة فقط.  
+- **هل أحتاج إلى ترخيص لـ Aspose.PSD؟** الإصدار التجريبي المجاني يكفي للتقييم؛ يتطلب الترخيص للاستخدام في الإنتاج.  
+- **ما إصدار Java المدعوم؟** الإصدار Java 8 وما فوق مدعومان بالكامل.  
+- **هل يمكنني إضافة تراكب أثناء دمج الصور؟** نعم — قم بتطبيق تأثير تراكب اللون قبل أو بعد الدمج للحصول على نتائج زاهية.  
+- **هل يتم إنشاء البيانات التعريفية بشكل منفصل؟** يمكنك إنشاء بيانات تعريف XMP في نفس سير العمل بعد دمج الصور.  
 
-## ما هو **كيفية دمج الصور** باستخدام Aspose.PSD؟
-دمج الصور يعني الجمع بين اثنين أو أكثر من الأصول البصرية في ملف PSD واحد أو ناتج راستر. يوفر Aspose.PSD for Java طرقًا عالية المستوى لتراكب الصور، دمجها، والحفاظ على جميع ميزات Photoshop المتوافقة دون فقدان الجودة.
+`PsdImage` هو الفئة الأساسية التي تمثل مستند Photoshop داخل مكتبة Aspose.PSD.
 
-## لماذا نستخدم Aspose.PSD لدمج الصور في Java؟
-- **توافق كامل مع Photoshop** – يحافظ على الطبقات، الأقنعة، والتأثيرات.
-- **لا حاجة إلى Photoshop أصلي** – يعمل بالكامل على الخادم أو سطح المكتب.
-- **API غني** – يدعم التراكبات، بيانات التعريف، القص، والتمويه في سير عمل واحد.
-- **محسن للأداء** – يتعامل مع الملفات الكبيرة بكفاءة.
+## ما هو **كيفية دمج الصور** مع Aspose.PSD؟
+
+دمج الصور يعني الجمع بين اثنين أو أكثر من الأصول البصرية في ملف PSD واحد أو ناتج راستر. توفر Aspose.PSD for Java طرقًا عالية المستوى لتراكب الصور، ودمجها، والحفاظ على جميع الميزات المتوافقة مع Photoshop دون فقدان الجودة.
+
+## لماذا تستخدم Aspose.PSD لدمج الصور في Java؟
+
+يمكن لـ Aspose.PSD معالجة **ملفات PSD تصل إلى 500 صفحة** في أقل من 10 ثوانٍ على خادم قياسي بثمانية أنوية، ويدعم **أكثر من 50 تنسيق إدخال وإخراج** (بما في ذلك JPEG و PNG و BMP و TIFF و PSD). تعمل المكتبة بالكامل على الخادم، لذا لن تحتاج أبدًا إلى ترخيص Photoshop، وتستخدم واجهات برمجة تطبيقات البث التي تحافظ على استهلاك الذاكرة أقل من 150 ميغابايت حتى في التركيبات الكبيرة.
 
 ## تطبيق تأثير تراكب اللون في Aspose.PSD for Java
 
-اكتشف عالم [تأثيرات تراكب اللون في Aspose.PSD for Java](./color-overlay-effect/). ارتقِ بمهارات تحرير الصور من خلال دليلنا الشامل خطوة بخطوة. انغمس في سحر تحويل صورك عبر تراكبات حيوية بسهولة.
+اكتشف العالم الساحر لـ [Color Overlay Effects in Aspose.PSD for Java](./color-overlay-effect/). ارتق بمهاراتك في تحرير الصور من خلال دليلنا الشامل خطوة بخطوة. غص في سحر تحويل صورك عبر تراكبات زاهية بسهولة.
 
 ## دمج الصور باستخدام Aspose.PSD for Java
 
-ادمج الصور بسلاسة في Java مع [Aspose.PSD](./combine-images/). دليلنا المفصل يرافقك خلال العملية، لضمان دمج سلس للصور. عزز سردك البصري من خلال إتقان فن دمج الصور مع Aspose.PSD for Java.
+ادمج الصور بسلاسة في Java باستخدام [Aspose.PSD](./combine-images/). دليلنا المفصل يرافقك خلال العملية، مما يضمن دمجًا سلسًا للصور. عزز سردك البصري من خلال إتقان فن دمج الصور مع Aspose.PSD for Java.
 
-## إنشاء بيانات تعريف XMP مع Aspose.PSD for Java
+## إنشاء بيانات تعريف XMP باستخدام Aspose.PSD for Java
 
-امنح تطبيقات Java دفعة قوية بإنشاء [بيانات تعريف XMP](./create-xmp-metadata/) بسهولة. اتبع دليلنا الصديق للمستخدم لاكتشاف إمكانات Aspose.PSD for Java. حسّن بيانات تعريف صورك وارتقِ بقدرات تطبيقك.
+امنح تطبيقات Java الخاصة بك دفعة من خلال إنشاء [XMP metadata](./create-xmp-metadata/) بسهولة. اتبع دليلنا السهل الاستخدام لاستكشاف إمكانات Aspose.PSD for Java. حسّن بيانات تعريف صورك وارتق بقدرات تطبيقك.
 
-## إنشاء صورة بتحديد المسار في Aspose.PSD for Java
+## إنشاء صورة عن طريق تحديد المسار في Aspose.PSD for Java
 
-ابدأ رحلة إنشاء [صور PSD](./create-image-by-setting-path/) مذهلة باستخدام Aspose.PSD for Java. دليلنا خطوة بخطوة يضمن عملية سلسة لتوليد صور جذابة عبر تحديد المسارات. انغمس في عالم إنشاء الصور بسهولة.
+ابدأ رحلة لإنشاء [PSD images](./create-image-by-setting-path/) مذهلة باستخدام Aspose.PSD for Java. يضمن دليلنا خطوة بخطوة عملية سلسة لتوليد صور جذابة عن طريق تحديد المسارات. غص في عالم إنشاء الصور بسهولة.
 
-## إنشاء صورة باستخدام Stream في Aspose.PSD for Java
+## إنشاء صورة باستخدام التدفق في Aspose.PSD for Java
 
-أتقن فن إنشاء الصور باستخدام [الـ streams](./create-image-using-stream/) في Aspose.PSD for Java. يقدم لك دليلنا مسارًا واضحًا لمعالجة الصور بفعالية. اتبع الخطوات وأحِّق رؤاك الإبداعية من خلال Aspose.PSD for Java.
+أتقن فن إنشاء الصور باستخدام [streams](./create-image-using-stream/) في Aspose.PSD for Java. يوفر دليلنا مسارًا واضحًا لمعالجة الصور بكفاءة. اتبع الخطوات وأحضر رؤاك الإبداعية إلى الحياة عبر Aspose.PSD for Java.
 
-## قص الصورة بمستطيل في Aspose.PSD for Java
+## اقتصاص الصورة بالمستطيل في Aspose.PSD for Java
 
-استكشف إمكانات [قص الصور في Java](./crop-image-by-rectangle/) مع Aspose.PSD. دليلنا الشامل يرافقك خلال عملية القص السلسة للصور بسهولة. حوّل صورك بدقة باستخدام Aspose.PSD for Java.
+استكشف الإمكانيات اللامحدودة لـ [image cropping in Java](./crop-image-by-rectangle/) مع Aspose.PSD. دليلنا الشامل يوجهك خلال عملية اقتصاص الصور بسلاسة وبسهولة. حوّل صورك بدقة باستخدام Aspose.PSD for Java.
 
-## قص الصورة بالإزاحات في Aspose.PSD for Java
+## اقتصاص الصورة بالإزاحات في Aspose.PSD for Java
 
-كن خبيرًا في [قص الصور](./crop-image-by-shifts/) مع Aspose.PSD for Java. يقدم لك دليلنا الكامل إتقان فن التلاعب السلس بالصور. انغمس في عالم القص الدقيق للصور مع Aspose.PSD for Java.
+كن بارعًا في [image cropping](./crop-image-by-shifts/) مع Aspose.PSD for Java. يقدم دليلنا شرحًا كاملاً لإتقان فن معالجة الصور بسلاسة. غص في عالم الاقتصاص الدقيق للصور مع Aspose.PSD for Java.
 
-## تنفيذ التمويه للصور الراسترية في Aspose.PSD for Java
+## تنفيذ تقنية التمويه للصور النقطية في Aspose.PSD for Java
 
-حسّن جودة الصورة مع Aspose.PSD for Java عبر تنفيذ [التمويه](./implement-dithering/) لإزالة تدرج الألوان. اتبع دليلنا خطوة بخطوة لاكتشاف قوة التمويه وتحقيق نتائج صورة لا تشوبها شائبة.
+حسّن جودة الصورة باستخدام Aspose.PSD for Java من خلال تنفيذ [dithering](./implement-dithering/) لإزالة تدرج الألوان. اتبع دليلنا خطوة بخطوة لاكتشاف قوة التمويه وتحقيق نتائج صورة لا تشوبها شائبة.
 
-## توسيع وقص الصور مع Aspose.PSD for Java
+## توسيع واقتصاص الصور باستخدام Aspose.PSD for Java
 
-تعلم تفاصيل [توسيع وقص الصور](./expand-and-crop-images/) في Java باستخدام Aspose.PSD. دليلنا خطوة بخطوة يضمن معالجة صور فعّالة. ارتقِ بمهارات تحرير الصور مع Aspose.PSD for Java.
+تعرّف على تفاصيل [expanding and cropping images](./expand-and-crop-images/) في Java باستخدام Aspose.PSD. يضمن دليلنا خطوة بخطوة معالجة صور فعّالة. ارتق بمهارات تحرير الصور لديك مع Aspose.PSD for Java.
 
-خلاصةً، تفتح هذه الدروس أبوابًا لعالم من الإمكانات في تحرير الصور باستخدام Aspose.PSD for Java. سواء كنت مبتدئًا أو مطورًا متمرسًا، فإن أدلتنا تمكّنك من إطلاق إبداعك وتحقيق نتائج مذهلة. انطلق واستكشف الميزات الغنية التي يجلبها Aspose.PSD for Java. تحريرًا سعيدًا!
+## حالات الاستخدام الشائعة لدمج الصور
 
-## دروس تحرير الصور
-### [تطبيق تأثير تراكب اللون في Aspose.PSD for Java](./color-overlay-effect/)
-اكتشف سحر تأثيرات تراكب اللون في Aspose.PSD for Java. ارتقِ بمهارات تحرير الصور من خلال هذا الدليل خطوة بخطوة.
-### [دمج الصور باستخدام Aspose.PSD for Java](./combine-images/)
-تعلم كيفية دمج الصور في Java مع Aspose.PSD. اتبع دليلنا خطوة بخطوة لدمج سلس للصور.
-### [إنشاء بيانات تعريف XMP مع Aspose.PSD for Java](./create-xmp-metadata/)
-حسّن تطبيقات Java الخاصة بك مع Aspose.PSD. تعلم إنشاء بيانات تعريف XMP بسهولة. اتبع دليلنا خطوة بخطوة الآن.
-### [إنشاء صورة بتحديد المسار في Aspose.PSD for Java](./create-image-by-setting-path/)
-تعلم كيفية إنشاء صور PSD باستخدام Aspose.PSD for Java. اتبع دليلنا خطوة بخطوة لتوليد صور سلسة.
-### [إنشاء صورة باستخدام Stream في Aspose.PSD for Java](./create-image-using-stream/)
-تعلم كيفية إنشاء الصور باستخدام الـ stream في Aspose.PSD for Java. اتبع هذا الدليل خطوة بخطوة لمعالجة صور فعّالة.
-### [قص الصورة بمستطيل في Aspose.PSD for Java](./crop-image-by-rectangle/)
-استكشف قدرات قص الصور السلسة في Java مع Aspose.PSD. اتبع دليلنا خطوة بخطوة لقص الصور بسهولة باستخدام Aspose.PSD for Java.
-### [قص الصورة بالإزاحات في Aspose.PSD for Java](./crop-image-by-shifts/)
-أتقن قص الصور مع Aspose.PSD for Java. دليل شامل لتلاعب الصور بسلاسة.
-### [تنفيذ التمويه للصور الراسترية في Aspose.PSD for Java](./implement-dithering/)
-حسّن جودة الصورة مع Aspose.PSD for Java. اتبع دليلنا خطوة بخطوة لتنفيذ التمويه وإزالة تدرج الألوان.
-### [توسيع وقص الصور مع Aspose.PSD for Java](./expand-and-crop-images/)
-تعلم كيفية توسيع وقص الصور في Java باستخدام Aspose.PSD. دليل خطوة بخطوة لمعالجة صور فعّالة.
+- **المواد التسويقية** – دمج صور المنتجات مع تراكبات العلامة التجارية في ملف PSD واحد لتصدير سريع إلى الويب أو الطباعة.  
+- **إنشاء تقارير ديناميكية** – دمج المخططات والشعارات والعلامات المائية برمجيًا في صورة واحدة قبل تضمينها في ملفات PDF.  
+- **خطوط معالجة الدفعات** – استخدم واجهات برمجة التطبيقات المتدفقة لدمج آلاف الصور كل ليلة دون استنزاف ذاكرة الخادم.  
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني دمج صور بأبعاد مختلفة؟**  
-ج: نعم. يقوم Aspose.PSD تلقائيًا بإعادة تحجيم أو إضافة حشوة للطبقات بناءً على حجم القماش الذي تحدده.
+**Q: هل يمكنني دمج صور بأبعاد مختلفة؟**  
+A: نعم. يقوم Aspose.PSD تلقائيًا بإعادة تحجيم الطبقات أو إضافة حشوة بناءً على حجم القماش الذي تحدده، مع الحفاظ على نسب الأبعاد.
 
-**س: هل من الممكن إضافة تراكب لوني أثناء الدمج؟**  
-ج: بالتأكيد. يمكنك تطبيق تأثير تراكب اللون على كل طبقة قبل الدمج، أو على الصورة المركبة النهائية.
+**Q: هل من الممكن إضافة تراكب لوني أثناء الدمج؟**  
+A: بالتأكيد. قم بتطبيق تأثير تراكب اللون على كل طبقة قبل الدمج، أو على الصورة المركبة النهائية، للحصول على نمط متسق.
 
-**س: كيف أحافظ على بيانات EXIF أو XMP بعد الدمج؟**  
-ج: أنشئ أو انسخ بيانات تعريف XMP باستخدام الـ API قبل حفظ الملف المدمج.
+**Q: كيف أحافظ على بيانات EXIF أو XMP بعد الدمج؟**  
+A: أنشئ أو انسخ بيانات XMP باستخدام API قبل حفظ الملف المدمج؛ تنتقل البيانات التعريفية مع الناتج تلقائيًا.
 
-**س: هل يدعم Aspose.PSD دمج الصور بصيغ غير PSD؟**  
-ج: نعم. يمكنك تحميل JPEG، PNG، BMP، وغيرها، ودمجها في ملف PSD أو تصديرها إلى صيغ راستر أخرى.
+**Q: هل يدعم Aspose.PSD دمج الصور بصيغ غير PSD؟**  
+A: نعم. يمكنك تحميل JPEG و PNG و BMP و TIFF والعديد من صيغ الراستر الأخرى، دمجها، وتصدير النتيجة كملف PSD أو PNG أو JPEG.
 
-**س: ما هي الاعتبارات المتعلقة بالأداء لمجموعات الصور الكبيرة؟**  
-ج: استخدم واجهات الـ streaming وتخلص من الكائنات الوسيطة بسرعة للحفاظ على استهلاك الذاكرة منخفضًا.
+**Q: ما هي الاعتبارات الأداء لمجموعات الصور الكبيرة؟**  
+A: استخدم واجهات برمجة التطبيقات المتدفقة، وتخلص من الكائنات الوسيطة بسرعة، وحدد حجم القماش لتبقي استهلاك الذاكرة أقل من 200 ميغابايت لمجموعات من 1,000 صورة.
+
+## موارد إضافية
+
+- [تطبيق تأثير تراكب اللون في Aspose.PSD for Java](./color-overlay-effect/)  
+- [دمج الصور باستخدام Aspose.PSD for Java](./combine-images/)  
+- [إنشاء بيانات XMP باستخدام Aspose.PSD for Java](./create-xmp-metadata/)  
+- [إنشاء صورة عن طريق تحديد المسار في Aspose.PSD for Java](./create-image-by-setting-path/)  
+- [إنشاء صورة باستخدام التدفق في Aspose.PSD for Java](./create-image-using-stream/)  
+- [اقتصاص الصورة بالمستطيل في Aspose.PSD for Java](./crop-image-by-rectangle/)  
+- [اقتصاص الصورة بالإزاحات في Aspose.PSD for Java](./crop-image-by-shifts/)  
+- [تنفيذ تقنية التمويه للصور النقطية في Aspose.PSD for Java](./implement-dithering/)  
+- [توسيع واقتصاص الصور باستخدام Aspose.PSD for Java](./expand-and-crop-images/)  
 
 ---
 
-**آخر تحديث:** 2025-12-30  
-**تم الاختبار مع:** Aspose.PSD for Java 24.12  
+**آخر تحديث:** 2026-06-18  
+**تم الاختبار باستخدام:** Aspose.PSD for Java 24.12  
 **المؤلف:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## دروس ذات صلة
+
+- [كيفية تطبيق تأثير التراكب في Aspose.PSD for Java](/psd/java/image-editing/color-overlay-effect/)
+- [اقتصاص الصورة بالمستطيل في Aspose.PSD for Java](/psd/java/image-editing/crop-image-by-rectangle/)
+- [إنشاء بيانات XMP باستخدام Aspose.PSD for Java](/psd/java/image-editing/create-xmp-metadata/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

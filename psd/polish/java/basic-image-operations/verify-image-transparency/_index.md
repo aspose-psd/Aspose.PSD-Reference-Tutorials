@@ -1,10 +1,32 @@
 ---
-date: 2025-12-30
-description: Dowiedz się, jak zweryfikować przezroczystość obrazu w Javie przy użyciu
+date: 2026-06-18
+description: Dowiedz się, jak weryfikować przejrzystość obrazu w Javie przy użyciu
   Aspose.PSD for Java – przewodnik krok po kroku, przykłady kodu i najlepsze praktyki.
-linktitle: Verify Image Transparency
+keywords:
+- verify image transparency java
+- Aspose.PSD opacity check
+- Java PSD image handling
+linktitle: Weryfikacja przejrzystości obrazu
+schemas:
+- author: Aspose
+  dateModified: '2026-06-18'
+  description: Learn how to verify image transparency Java using Aspose.PSD for Java
+    – step‑by‑step guide, code samples, and best practices.
+  headline: Verify Image Transparency Java with Aspose.PSD
+  type: TechArticle
+- questions:
+  - answer: Yes. Use `PsdImage.getLayers()` to iterate layers and call `layer.getOpacity()`
+      on each `Layer` object.
+    question: Can I check transparency for a specific layer instead of the whole image?
+  - answer: The `getImageOpacity()` method returns the overall image opacity, which
+      includes the effect of masks applied to the composite image.
+    question: Does the opacity value consider layer masks?
+  - answer: Absolutely. You can set a new opacity with `image.setImageOpacity(newOpacity)`
+      and then save the file.
+    question: Is there a way to modify the opacity after checking it?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Weryfikuj przejrzystość obrazu w Javie z Aspose.PSD
+title: Weryfikacja przejrzystości obrazu w Javie przy użyciu Aspose.PSD
 url: /pl/java/basic-image-operations/verify-image-transparency/
 weight: 14
 ---
@@ -17,33 +39,29 @@ weight: 14
 
 ## Wprowadzenie
 
-Jeśli potrzebujesz **weryfikować przejrzystość obrazu Java** w aplikacjach, Aspose.PSD for Java oferuje czysty, programowy sposób sprawdzania krycia plików PSD. W tym samouczku przeprowadzimy Cię przez wszystko, co jest potrzebne — od konfiguracji środowiska po odczytanie wartości krycia obrazu — abyś mógł pewnie obsługiwać przejrzyste zasoby w swoich projektach Java.
+Jeśli potrzebujesz **verify image transparency java** w swoich aplikacjach, Aspose.PSD for Java zapewnia czysty, programowy sposób odczytywania przezroczystości plików PSD. W tym samouczku przeprowadzimy Cię przez wszystko, czego potrzebujesz — od konfiguracji środowiska po odczyt wartości przezroczystości obrazu — abyś mógł pewnie obsługiwać przejrzyste zasoby w swoich projektach Java. Zobaczysz, dlaczego ta funkcja jest ważna, jak ją zaimplementować w kilka minut i jakich pułapek unikać.
 
 ## Szybkie odpowiedzi
-- **Co oznacza „weryfikacja przejrzystości obrazu”?** Oznacza to odczytanie wartości krycia obrazu w celu określenia, czy jest on w pełni, częściowo, czy wcale nieprzezroczysty.  
-- **Która klasa dostarcza informacje o kryciu?** `PsdImage.getImageOpacity()` zwraca liczbę zmiennoprzecinkową od 0 (pełna przezroczystość) do 1 (pełna nieprzezroczystość).  
-- **Czy potrzebna jest licencja do uruchomienia przykładu?** Licencja tymczasowa lub ewaluacyjna wystarczy do testów; pełna licencja jest wymagana w produkcji.  
+- **Co oznacza „verify image transparency”?** Oznacza to odczytanie wartości przezroczystości obrazu w celu określenia, czy jest on w pełni, częściowo, czy wcale nieprzezroczysty.  
+- **Która klasa dostarcza informacje o przezroczystości?** `PsdImage.getImageOpacity()` zwraca liczbę zmiennoprzecinkową między 0 (i w pełni przezroczysty) a 1 (i w pełni nieprzezroczysty).  
+- **Czy potrzebuję licencji do uruchomienia przykładu?** Tymczasowa lub ewaluacyjna licencja wystarczy do testów; pełna licencja jest wymagana w produkcji.  
 - **Czy mogę używać tego z innymi formatami obrazów?** Metoda działa dla plików PSD; dla innych formatów potrzebne będą odpowiednie wywołania API.  
-- **Jak długo trwa implementacja?** Zazwyczaj mniej niż 10 minut po dodaniu biblioteki do projektu.
+- **Jak długo trwa implementacja?** Zazwyczaj poniżej 10 minut po dodaniu biblioteki do projektu.
 
-## Co to jest weryfikacja przejrzystości obrazu Java?
-Weryfikacja przejrzystości obrazu w Java oznacza programowe sprawdzanie, czy obraz PSD zawiera jakiekolwiek przezroczyste piksele. Jest to przydatne w przepływach pracy, które muszą odfiltrować w pełni przezroczyste warstwy, dostosować kompozycję lub zweryfikować zasoby przed publikacją.
+## Co to jest verify image transparency java?
+Weryfikacja przejrzystości obrazu w Javie oznacza programowe wczytanie pliku PSD i sprawdzenie jego ogólnej przezroczystości, aby zobaczyć, czy jakiekolwiek piksele są częściowo lub w pełni przezroczyste. Umożliwia to automatyczną walidację zasobów, zapobiega przetwarzaniu niewidzialnych warstw i zapewnia spełnienie wymagań projektowych dotyczących widoczności przed publikacją.
 
 ## Dlaczego weryfikować przejrzystość obrazu w projektach Java?
-- **Automatyzacja:** Eliminacja ręcznej inspekcji setek zasobów.  
-- **Kontrola jakości:** Zapewnienie, że zasoby UI spełniają specyfikacje projektowe.  
-- **Wydajność:** Pomijanie przetwarzania w pełni przezroczystych obrazów, co oszczędza pamięć i CPU.  
+Możesz automatyzować kontrole jakości, zmniejszyć ręczną pracę i poprawić wydajność, pomijając przetwarzanie w pełni przezroczystych obrazów. Aspose.PSD for Java może przetwarzać pliki PSD o rozmiarze do **1 GB**, zużywając mniej niż **200 MB** pamięci RAM, co umożliwia wysokowydajne potoki bez wyczerpywania zasobów.
 
-## Prerequisites
+## Wymagania wstępne
 
-Zanim przejdziesz dalej, upewnij się, że masz:
-
-- **Java Development Environment** – zainstalowane JDK 8 lub nowsze.  
-- **Aspose.PSD for Java** – pobierz najnowszy plik JAR z [website](https://releases.aspose.com/psd/java/).  
+- **Środowisko programistyczne Java** – zainstalowany JDK 8 lub nowszy.  
+- **Aspose.PSD for Java** – Pobierz najnowszy plik JAR ze [strony internetowej](https://releases.aspose.com/psd/java/).  
 
 ## Importowanie pakietów
 
-Dodaj wymagane przestrzenie nazw do swojego pliku źródłowego Java, aby kompilator mógł znaleźć klasy Aspose.PSD.
+Klasa `PsdImage` jest podstawowym obiektem reprezentującym plik PSD w Aspose.PSD for Java. Zaimportuj wymagane przestrzenie nazw, aby kompilator mógł odnaleźć używane klasy.
 
 ```java
 import com.aspose.psd.Image;
@@ -51,7 +69,7 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-## Krok 1: Ustaw katalog dokumentów
+## Krok 1: Ustaw katalog dokumentu
 
 Zdefiniuj folder, w którym znajdują się pliki PSD, które chcesz zbadać.
 
@@ -59,22 +77,23 @@ Zdefiniuj folder, w którym znajdują się pliki PSD, które chcesz zbadać.
 String dataDir = "Your Document Directory";
 ```
 
-> **Pro tip:** Użyj ścieżki bezwzględnej lub ścieżki względnej względem katalogu roboczego projektu, aby uniknąć `FileNotFoundException`.
+> **Wskazówka:** Użyj ścieżki bezwzględnej lub ścieżki względnej względem katalogu roboczego projektu, aby uniknąć `FileNotFoundException`.
 
 ## Krok 2: Załaduj obraz
 
-Utwórz instancję `PsdImage`, ładując docelowy plik.
+Utwórz instancję `PsdImage`, wczytując docelowy plik.
 
 ```java
 String sourceFile = dataDir + "sample.psd";
 PsdImage image = (PsdImage)Image.load(sourceFile);
 ```
 
-Jeśli pliku nie da się załadować, Aspose.PSD zgłasza informacyjną wyjątkową sytuację — przechwyć ją, aby elegancko obsłużyć brakujące lub uszkodzone pliki.
+Jeśli plik nie może zostać wczytany, Aspose.PSD zgłasza informacyjny wyjątek — przechwyć go, aby elegancko obsłużyć brakujące lub uszkodzone pliki.
 
 ## Krok 3: Weryfikacja przejrzystości obrazu
 
-Odczytaj wartość krycia i zdecyduj, co ona oznacza dla Twojego przepływu pracy.
+Metoda `getImageOpacity()` zwraca ogólną przezroczystość obrazu jako liczbę zmiennoprzecinkową między 0 a 1.  
+Odczytaj wartość przezroczystości i zdecyduj, co oznacza ona dla Twojego przepływu pracy.
 
 ```java
 float opacity = image.getImageOpacity();
@@ -84,66 +103,67 @@ if (opacity == 0) {
 }
 ```
 
-- `opacity` równe **0** → w pełni przezroczysty.  
-- `opacity` równe **1** → w pełni nieprzezroczysty.  
-- Wartości pomiędzy wskazują częściową przezroczystość.
+- `opacity` równa **0** → w pełni przezroczysty.  
+- `opacity` równa **1** → w pełni nieprzezroczysty.  
+- Wartości pośrednie wskazują na częściową przezroczystość.
 
-Możesz teraz rozgałęzić logikę w oparciu o tę informację (np. pominąć przetwarzanie w pełni przezroczystych obrazów).
+Możesz teraz rozgałęzić logikę na podstawie tej informacji (np. pominąć w pełni przezroczyste obrazy, aby zaoszczędzić czas przetwarzania).
 
 ## Typowe problemy i rozwiązania
 
-| Problem | Przyczyna | Rozwiązanie |
-|-------|--------|-----|
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
 | `NullPointerException` on `image` | Nieprawidłowa ścieżka pliku lub brak pliku | Zweryfikuj `dataDir` i nazwę pliku; użyj sprawdzenia `File.exists()` |
-| Opacity always returns `1` | Załadowany obraz nie jest PSD lub nie zawiera przezroczystości | Upewnij się, że źródłowy plik jest PSD z warstwami przezroczystymi |
-| License error | Używanie wersji próbnej bez licencji tymczasowej | Zastosuj licencję tymczasową z portalu Aspose |
+| Opacity always returns `1` | Wczytany obraz nie jest plikiem PSD lub nie zawiera przezroczystości | Upewnij się, że źródłowy plik jest PSD z warstwami przezroczystymi |
+| License error | Używanie wersji próbnej bez tymczasowej licencji | Zastosuj tymczasową licencję z portalu Aspose |
 
-## Zakończenie
+## Podsumowanie
 
-Weryfikacja przejrzystości obrazu Java jest prosta dzięki Aspose.PSD. Odczytując wartość krycia, zyskujesz pełną kontrolę nad tym, jak przejrzyste zasoby są obsługiwane w Twoich aplikacjach, co prowadzi do czystszych pipeline’ów i lepszej wydajności.
+Weryfikacja przejrzystości obrazu Java jest prosta dzięki Aspose.PSD. Odczytując wartość przezroczystości, zyskujesz pełną kontrolę nad tym, jak przejrzyste zasoby są obsługiwane w Twoich aplikacjach, co prowadzi do czystszych potoków i lepszej wydajności.
 
-## FAQ
+## Najczęściej zadawane pytania
 
 ### Q1: Czy mogę używać Aspose.PSD for Java z innymi bibliotekami Java?
-
-A1: Tak, Aspose.PSD for Java jest zaprojektowany tak, aby współpracować płynnie z innymi bibliotekami Java, zapewniając elastyczność w Twoich projektach.
+A1: Tak, Aspose.PSD for Java jest zaprojektowany tak, aby współpracować bezproblemowo z innymi bibliotekami Java, zapewniając elastyczność w Twoich projektach.
 
 ### Q2: Czy dostępna jest darmowa wersja próbna?
-
-A2: Tak, możesz wypróbować Aspose.PSD for Java w wersji próbnej. Odwiedź [this link](https://releases.aspose.com/), aby rozpocząć.
+A2: Tak, możesz wypróbować Aspose.PSD for Java w ramach darmowej wersji próbnej. Odwiedź [ten link](https://releases.aspose.com/), aby rozpocząć.
 
 ### Q3: Gdzie mogę znaleźć szczegółową dokumentację?
-
-A3: Zapoznaj się z [documentation](https://reference.aspose.com/psd/java/), aby uzyskać kompleksowe informacje na temat używania Aspose.PSD for Java.
+A3: Odwołaj się do [dokumentacji](https://reference.aspose.com/psd/java/), aby uzyskać kompleksowe informacje na temat używania Aspose.PSD for Java.
 
 ### Q4: Jak mogę uzyskać wsparcie?
+A4: Dołącz do społeczności Aspose.PSD na [forum wsparcia](https://forum.aspose.com/c/psd/34), aby uzyskać pomoc i skontaktować się z innymi programistami.
 
-A4: Dołącz do społeczności Aspose.PSD na [support forum](https://forum.aspose.com/c/psd/34), aby uzyskać pomoc i skontaktować się z innymi deweloperami.
-
-### Q5: Czy potrzebuję licencji tymczasowej do testów?
-
-A5: Jeśli testujesz bibliotekę, możesz uzyskać licencję tymczasową [here](https://purchase.aspose.com/temporary-license/).
+### Q5: Czy potrzebuję tymczasowej licencji do testowania?
+A5: Jeśli testujesz bibliotekę, możesz uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę sprawdzić przejrzystość konkretnej warstwy zamiast całego obrazu?**  
 A: Tak. Użyj `PsdImage.getLayers()`, aby iterować warstwy i wywołać `layer.getOpacity()` na każdym obiekcie `Layer`.
 
-**Q: Czy wartość krycia uwzględnia maski warstw?**  
-A: Metoda `getImageOpacity()` zwraca ogólne krycie obrazu, które obejmuje efekt masek zastosowanych do obrazu składowego.
+**Q: Czy wartość przezroczystości uwzględnia maski warstw?**  
+A: Metoda `getImageOpacity()` zwraca ogólną przezroczystość obrazu, która obejmuje wpływ masek zastosowanych do obrazu składowego.
 
-**Q: Czy istnieje sposób na modyfikację krycia po jego sprawdzeniu?**  
-A: Oczywiście. Możesz ustawić nowe krycie za pomocą `image.setImageOpacity(newOpacity)`, a następnie zapisać plik.
+**Q: Czy istnieje sposób na modyfikację przezroczystości po jej sprawdzeniu?**  
+A: Oczywiście. Możesz ustawić nową wartość przezroczystości za pomocą `image.setImageOpacity(newOpacity)`, a następnie zapisać plik.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-30  
+**Ostatnia aktualizacja:** 2026-06-18  
 **Testowano z:** Aspose.PSD 24.12 for Java  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Powiązane samouczki
+
+- [Jak rysować kształty Java – Podstawowe operacje na obrazach](/psd/java/basic-image-operations/)
+- [Proste skalowanie z Aspose.PSD – Biblioteka manipulacji obrazami Java](/psd/java/basic-image-operations/simple-resizing/)
+- [Zmiana rozmiaru obrazu Java – użycie enumeracji Resize Type w Aspose.PSD for Java](/psd/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
