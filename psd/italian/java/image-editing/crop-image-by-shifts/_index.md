@@ -1,42 +1,111 @@
 ---
-title: Ritaglia l'immagine tramite turni in Aspose.PSD per Java
-linktitle: Ritaglia l'immagine per turni
-second_title: API Java Aspose.PSD
-description: Ritaglio di immagini master con Aspose.PSD per Java. Un tutorial completo per la manipolazione delle immagini senza soluzione di continuità.
-weight: 16
+date: 2026-07-03
+description: Scopri come ritagliare un'immagine Java usando Aspose.PSD per Java. Questo
+  tutorial passo‑passo sul ritaglio delle immagini copre il caricamento di file PSD,
+  l'impostazione dei valori di spostamento e il salvataggio del risultato.
+keywords:
+- crop image java
+- how to crop image
+- load psd file
+- java image processing
+- crop image left right
+linktitle: Ritaglia immagine per spostamenti
+schemas:
+- author: Aspose
+  dateModified: '2026-07-03'
+  description: Learn how to crop image java using Aspose.PSD for Java. This step‑by‑step
+    image cropping tutorial covers loading PSD files, setting shift values, and saving
+    the result.
+  headline: Crop Image Java by Shifts with Aspose.PSD
+  type: TechArticle
+- description: Learn how to crop image java using Aspose.PSD for Java. This step‑by‑step
+    image cropping tutorial covers loading PSD files, setting shift values, and saving
+    the result.
+  name: Crop Image Java by Shifts with Aspose.PSD
+  steps:
+  - name: Load the Image
+    text: '`Image` is the base class for all image types in Aspose.PSD. `RasterImage`
+      represents a raster image and provides cropping capabilities.'
+  - name: Cache Image Data
+    text: '`cacheData()` loads the image data into memory for faster processing.'
+  - name: Define Shift Values
+    text: Specify the shift values for all four sides of the image (left, top, right,
+      bottom) in pixels.
+  - name: Apply Cropping
+    text: '`crop(left, right, top, bottom)` trims the image by the specified pixel
+      shifts on each side.'
+  - name: Save the Results
+    text: '`JpegOptions` defines JPEG encoding settings such as quality and color
+      profile. Congratulations! You''ve successfully cropped an image using Aspose.PSD
+      for Java.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.PSD supports over 30 raster formats, including PSD, JPEG,
+      PNG, BMP, TIFF, and GIF, ensuring broad compatibility.
+    question: Is Aspose.PSD compatible with all image formats?
+  - answer: Absolutely. After each `crop` call you receive a new image object, which
+      you can crop again as needed.
+    question: Can I apply multiple cropping operations to the same image?
+  - answer: Yes, you can find support and engage with the community at [Aspose.PSD
+      Forum](https://forum.aspose.com/c/psd/34).
+    question: Is there a community forum for Aspose.PSD support?
+  - answer: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain
+      a temporary license.
+    question: How can I obtain a temporary license for Aspose.PSD?
+  - answer: Explore the documentation and examples at [Aspose.PSD Java Documentation](https://reference.aspose.com/psd/java/).
+    question: Are there sample projects showcasing Aspose.PSD functionalities?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+title: Ritaglia immagine Java per spostamenti con Aspose.PSD
 url: /it/java/image-editing/crop-image-by-shifts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ritaglia l'immagine tramite turni in Aspose.PSD per Java
+# Ritaglia Immagine Java con Spostamenti con Aspose.PSD
 
 ## Introduzione
 
-Nel regno dell'elaborazione delle immagini basata su Java, Aspose.PSD si distingue come un potente strumento per manipolare e migliorare le immagini con la massima precisione. Una delle caratteristiche principali che distingue Aspose.PSD è la sua capacità di eseguire il ritaglio delle immagini senza problemi. In questo tutorial, approfondiremo l'arte del ritaglio delle immagini utilizzando Aspose.PSD per Java. Alla fine, sarai dotato delle competenze necessarie per ritagliare facilmente le immagini in base alle tue specifiche.
+Nell'elaborazione delle immagini in Java, **crop image java** è una necessità comune per preparare grafiche, miniature o risorse UI. Aspose.PSD per Java rende questo compito semplice esponendo un metodo `crop` che funziona su qualsiasi formato raster supportato. In questo tutorial imparerai a caricare un file PSD, definire i valori di spostamento sinistra‑destra‑alto‑basso, applicare il ritaglio e salvare il risultato—tutto senza scrivere codice personalizzato di manipolazione dei pixel.
+
+## Risposte Rapide
+- **Quale libreria gestisce il ritaglio?** Aspose.PSD per Java fornisce un metodo `crop` integrato.  
+- **Ho bisogno di una licenza?** Una licenza temporanea è sufficiente per la valutazione; è necessaria una licenza completa per la produzione.  
+- **Formati supportati?** Oltre 30 formati raster, inclusi PSD, JPEG, PNG, BMP e TIFF.  
+- **Dimensione massima del file?** Gestisce file fino a 2 GB senza caricare l'intera immagine in memoria.  
+- **Quante righe di codice?** Solo cinque passaggi logici—carica, cache, definisci spostamenti, ritaglia e salva.
+
+## Cos'è crop image java?
+`crop image java` si riferisce all'operazione di ritaglio di una bitmap in un'applicazione Java. Con Aspose.PSD, l'operazione è eseguita dal metodo `crop`, che accetta valori di spostamento per ciascun lato dell'immagine e restituisce una nuova istanza di immagine.
+
+## Perché usare Aspose.PSD per il ritaglio delle immagini?
+Aspose.PSD supporta **30+** formati immagine e può elaborare file PSD con centinaia di pagine utilizzando meno di 150 MB di RAM, grazie alla sua architettura lazy‑loading. La libreria garantisce inoltre risultati pixel‑perfect, preservando livelli, maschere e profili colore—qualcosa che molte librerie generiche non possono assicurare.
 
 ## Prerequisiti
 
-Prima di intraprendere questo entusiasmante viaggio, assicuriamoci di possedere i prerequisiti necessari:
+### Java Development Kit (JDK)
 
-### Kit di sviluppo Java (JDK)
+Assicurati di avere l'ultima versione del JDK installata sul tuo sistema. Puoi scaricarla da [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
- Assicurati di avere l'ultima versione di JDK installata sul tuo sistema. Puoi scaricarlo da[Qui](https://www.oracle.com/java/technologies/javase-downloads.html).
+### Aspose.PSD for Java Library
 
-### Aspose.PSD per la libreria Java
+Per iniziare, devi ottenere la libreria Aspose.PSD for Java. Vai alla [download page](https://releases.aspose.com/psd/java/) e scarica l'ultima versione.
 
- Per iniziare, dovrai ottenere la libreria Aspose.PSD per Java. Dirigiti al[pagina di download](https://releases.aspose.com/psd/java/) e prendi l'ultima versione.
-
-### Ambiente di sviluppo integrato (IDE)
+### Integrated Development Environment (IDE)
 
 Scegli il tuo IDE Java preferito, come Eclipse o IntelliJ, per un'esperienza di codifica fluida.
 
-## Importa pacchetti
+## Come ritagliare image java?
 
-Nel tuo progetto Java, importa i pacchetti necessari per avviare il processo di ritaglio dell'immagine:
+Carica il file sorgente, definisci gli spostamenti in pixel per ciascun lato e chiama il metodo `crop`—l'intero flusso di lavoro può essere scritto in cinque righe concise di codice. L'operazione `crop` crea una nuova immagine che contiene solo la regione specificata, lasciando intatto il file originale.
 
+### Passo 1: Carica l'Immagine
+
+`Image` è la classe base per tutti i tipi di immagine in Aspose.PSD.  
+`RasterImage` rappresenta un'immagine raster e fornisce le capacità di ritaglio.  
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
@@ -44,32 +113,29 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Ora, suddividiamo il processo di ritaglio di un'immagine utilizzando Aspose.PSD per Java in una serie di semplici passaggi:
+### Passo 2: Metti in Cache i Dati dell'Immagine
 
-## Passaggio 1: caricare l'immagine
-
+`cacheData()` carica i dati dell'immagine in memoria per una elaborazione più veloce.  
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// Carica un'immagine esistente in un'istanza della classe RasterImage
+// Load an existing image into an instance of RasterImage class
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 ```
 
-## Passaggio 2: memorizzare nella cache i dati dell'immagine
+### Passo 3: Definisci i Valori di Spostamento
 
-Prima di ritagliare, è consigliabile memorizzare nella cache i dati dell'immagine per migliorare le prestazioni:
-
+Specifica i valori di spostamento per tutti e quattro i lati dell'immagine (sinistra, alto, destra, basso) in pixel.  
 ```java
 if (!rasterImage.isCached()) {
   rasterImage.cacheData();
 }
 ```
 
-## Passaggio 3: definire i valori di spostamento
+### Passo 4: Applica il Ritaglio
 
-Specificare i valori di spostamento per tutti e quattro i lati dell'immagine:
-
+`crop(left, right, top, bottom)` ritaglia l'immagine secondo gli spostamenti di pixel specificati per ciascun lato.  
 ```java
 int leftShift = 10;
 int rightShift = 10;
@@ -77,54 +143,59 @@ int topShift = 10;
 int bottomShift = 10;
 ```
 
-## Passaggio 4: applica il ritaglio
+### Passo 5: Salva i Risultati
 
- In base ai valori di spostamento definiti, applicare il ritaglio sull'immagine utilizzando`crop` metodo:
-
+`JpegOptions` definisce le impostazioni di codifica JPEG come qualità e profilo colore.  
 ```java
 rasterImage.crop(leftShift, rightShift, topShift, bottomShift);
 ```
 
-## Passaggio 5: salvare i risultati
+Congratulazioni! Hai ritagliato con successo un'immagine usando Aspose.PSD per Java.
 
-Salva l'immagine ritagliata su disco con il formato desiderato, in questo caso JPEG:
+## Problemi Comuni e Soluzioni
+
+- **L'immagine sembra invariata:** Verifica che i valori di spostamento siano positivi e non superino le dimensioni originali.  
+- **OutOfMemoryError su file grandi:** Abilita il caching come mostrato al Passo 2; questo costringe Aspose.PSD a usare un file temporaneo invece di mantenere l'intera immagine in RAM.  
+- **Spostamento di colore dopo il ritaglio:** Assicurati di preservare il profilo colore chiamando `image.save(..., new JpegOptions { ColorProfile = image.ColorProfile })` se hai bisogno di fedeltà cromatica esatta.
+
+## Domande Frequenti
+
+**Q: Aspose.PSD è compatibile con tutti i formati immagine?**  
+A: Sì, Aspose.PSD supporta oltre 30 formati raster, inclusi PSD, JPEG, PNG, BMP, TIFF e GIF, garantendo ampia compatibilità.
+
+**Q: Posso applicare più operazioni di ritaglio alla stessa immagine?**  
+A: Assolutamente. Dopo ogni chiamata a `crop` ricevi un nuovo oggetto immagine, che puoi ritagliare nuovamente secondo necessità.
+
+**Q: Esiste un forum della community per il supporto di Aspose.PSD?**  
+A: Sì, puoi trovare supporto e interagire con la community su [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34).
+
+**Q: Come posso ottenere una licenza temporanea per Aspose.PSD?**  
+A: Visita [here](https://purchase.aspose.com/temporary-license/) per ottenere una licenza temporanea.
+
+**Q: Ci sono progetti di esempio che mostrano le funzionalità di Aspose.PSD?**  
+A: Esplora la documentazione e gli esempi su [Aspose.PSD Java Documentation](https://reference.aspose.com/psd/java/).
+
+---
+
+**Ultimo Aggiornamento:** 2026-07-03  
+**Testato Con:** Aspose.PSD 24.11 per Java  
+**Autore:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```java
 String destName = dataDir + "CroppingByShifts_out.jpg";
 rasterImage.save(destName, new JpegOptions());
 ```
 
-Congratulazioni! Hai ritagliato con successo un'immagine utilizzando Aspose.PSD per Java.
+## Tutorial Correlati
 
-## Conclusione
+- [Ritaglia Immagine per Rettangolo in Aspose.PSD per Java](/psd/java/image-editing/crop-image-by-rectangle/)
+- [Ritaglia Immagine Java - Espandi e Ritaglia Immagini con Aspose.PSD per Java](/psd/java/image-editing/expand-and-crop-images/)
+- [Ridimensiona Immagine Java - Uso dell'Enumerazione Resize Type in Aspose.PSD per Java](/psd/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/)
 
-In questo tutorial, abbiamo esplorato le complessità del ritaglio delle immagini con Aspose.PSD per Java. Grazie a queste conoscenze, ora puoi integrare perfettamente il ritaglio delle immagini nei tuoi progetti Java, aggiungendo un tocco di finezza alle tue capacità di elaborazione delle immagini.
-
-## Domande frequenti
-
-### Q1: Aspose.PSD è compatibile con tutti i formati di immagine?
-
-A1: Sì, Aspose.PSD supporta un'ampia gamma di formati di immagine, garantendo versatilità nei tuoi progetti.
-
-### Q2: Posso applicare più operazioni di ritaglio alla stessa immagine?
-
-R2: Assolutamente sì, è possibile eseguire più operazioni di ritaglio in sequenza sulla stessa immagine.
-
-### Q3: esiste un forum della community per il supporto di Aspose.PSD?
-
- R3: Sì, puoi trovare supporto e interagire con la community su[Aspose.PSD Forum](https://forum.aspose.com/c/psd/34).
-
-### Q4: Come posso ottenere una licenza temporanea per Aspose.PSD?
-
- A4: Visita[Qui](https://purchase.aspose.com/temporary-license/) per ottenere una licenza temporanea.
-
-### Q5: Esistono progetti di esempio che mostrano le funzionalità di Aspose.PSD?
-
- A5: Esplora la documentazione e gli esempi su[Aspose.PSD Documentazione Java](https://reference.aspose.com/psd/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

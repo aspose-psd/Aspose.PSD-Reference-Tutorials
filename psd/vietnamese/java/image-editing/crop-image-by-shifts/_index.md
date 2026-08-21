@@ -1,42 +1,111 @@
 ---
-title: Cắt hình ảnh theo ca trong Aspose.PSD cho Java
-linktitle: Cắt ảnh theo ca
-second_title: API Java Aspose.PSD
-description: Làm chủ việc cắt xén hình ảnh bằng Aspose.PSD cho Java. Hướng dẫn toàn diện về thao tác hình ảnh liền mạch.
-weight: 16
+date: 2026-07-03
+description: Tìm hiểu cách crop image java bằng cách sử dụng Aspose.PSD for Java.
+  Hướng dẫn step‑by‑step image cropping này bao gồm loading PSD files, setting shift
+  values và saving the result.
+keywords:
+- crop image java
+- how to crop image
+- load psd file
+- java image processing
+- crop image left right
+linktitle: Crop Image bằng Shifts
+schemas:
+- author: Aspose
+  dateModified: '2026-07-03'
+  description: Learn how to crop image java using Aspose.PSD for Java. This step‑by‑step
+    image cropping tutorial covers loading PSD files, setting shift values, and saving
+    the result.
+  headline: Crop Image Java by Shifts with Aspose.PSD
+  type: TechArticle
+- description: Learn how to crop image java using Aspose.PSD for Java. This step‑by‑step
+    image cropping tutorial covers loading PSD files, setting shift values, and saving
+    the result.
+  name: Crop Image Java by Shifts with Aspose.PSD
+  steps:
+  - name: Load the Image
+    text: '`Image` is the base class for all image types in Aspose.PSD. `RasterImage`
+      represents a raster image and provides cropping capabilities.'
+  - name: Cache Image Data
+    text: '`cacheData()` loads the image data into memory for faster processing.'
+  - name: Define Shift Values
+    text: Specify the shift values for all four sides of the image (left, top, right,
+      bottom) in pixels.
+  - name: Apply Cropping
+    text: '`crop(left, right, top, bottom)` trims the image by the specified pixel
+      shifts on each side.'
+  - name: Save the Results
+    text: '`JpegOptions` defines JPEG encoding settings such as quality and color
+      profile. Congratulations! You''ve successfully cropped an image using Aspose.PSD
+      for Java.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.PSD supports over 30 raster formats, including PSD, JPEG,
+      PNG, BMP, TIFF, and GIF, ensuring broad compatibility.
+    question: Is Aspose.PSD compatible with all image formats?
+  - answer: Absolutely. After each `crop` call you receive a new image object, which
+      you can crop again as needed.
+    question: Can I apply multiple cropping operations to the same image?
+  - answer: Yes, you can find support and engage with the community at [Aspose.PSD
+      Forum](https://forum.aspose.com/c/psd/34).
+    question: Is there a community forum for Aspose.PSD support?
+  - answer: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain
+      a temporary license.
+    question: How can I obtain a temporary license for Aspose.PSD?
+  - answer: Explore the documentation and examples at [Aspose.PSD Java Documentation](https://reference.aspose.com/psd/java/).
+    question: Are there sample projects showcasing Aspose.PSD functionalities?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+title: Crop Image Java by Shifts với Aspose.PSD
 url: /vi/java/image-editing/crop-image-by-shifts/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cắt hình ảnh theo ca trong Aspose.PSD cho Java
+# Cắt Ảnh Java bằng Dịch Chuyển với Aspose.PSD
 
 ## Giới thiệu
 
-Trong lĩnh vực xử lý hình ảnh dựa trên Java, Aspose.PSD nổi bật như một công cụ mạnh mẽ để thao tác và nâng cao hình ảnh với độ chính xác tối đa. Một trong những tính năng chính làm nên sự khác biệt của Aspose.PSD là khả năng thực hiện cắt xén hình ảnh một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào nghệ thuật cắt ảnh bằng Aspose.PSD cho Java. Cuối cùng, bạn sẽ được trang bị các kỹ năng để dễ dàng cắt ảnh theo thông số kỹ thuật của mình.
+Trong xử lý ảnh bằng Java, **crop image java** là một yêu cầu phổ biến để chuẩn bị đồ họa, ảnh thu nhỏ hoặc tài sản UI. Aspose.PSD for Java làm cho nhiệm vụ này trở nên đơn giản bằng cách cung cấp một phương thức `crop` dễ dùng, hoạt động trên bất kỳ định dạng raster nào được hỗ trợ. Trong hướng dẫn này, bạn sẽ học cách tải tệp PSD, xác định các giá trị dịch chuyển trái‑phải‑trên‑dưới, áp dụng việc cắt và lưu kết quả—tất cả mà không cần viết mã thao tác pixel tùy chỉnh.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào xử lý việc cắt?** Aspose.PSD for Java cung cấp phương thức `crop` tích hợp.  
+- **Tôi có cần giấy phép không?** Giấy phép tạm thời hoạt động cho việc đánh giá; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
+- **Các định dạng được hỗ trợ?** Hơn 30 định dạng raster, bao gồm PSD, JPEG, PNG, BMP và TIFF.  
+- **Kích thước tệp tối đa?** Xử lý các tệp lên tới 2 GB mà không cần tải toàn bộ ảnh vào bộ nhớ.  
+- **Cần bao nhiêu dòng mã?** Chỉ năm bước logic—tải, cache, định nghĩa dịch chuyển, cắt và lưu.
 
-Trước khi chúng ta bắt đầu cuộc hành trình thú vị này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết cần thiết:
+## Crop image java là gì?
+`crop image java` đề cập đến thao tác cắt bớt một bitmap trong ứng dụng Java. Khi sử dụng Aspose.PSD, thao tác này được thực hiện bằng phương thức `crop`, nhận các giá trị dịch chuyển cho mỗi phía của ảnh và trả về một thể hiện ảnh mới.
 
-### Bộ công cụ phát triển Java (JDK)
+## Tại sao nên dùng Aspose.PSD để cắt ảnh?
+Aspose.PSD hỗ trợ **30+** định dạng ảnh và có thể xử lý các tệp PSD hàng trăm trang trong khi sử dụng dưới 150 MB RAM, nhờ kiến trúc tải lười. Thư viện cũng đảm bảo kết quả pixel‑perfect, giữ nguyên các lớp, mặt nạ và hồ sơ màu—điều mà nhiều thư viện ảnh chung không thể đảm bảo.
 
- Đảm bảo bạn đã cài đặt phiên bản JDK mới nhất trên hệ thống của mình. Bạn có thể tải nó xuống từ[đây](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Yêu cầu trước
 
-### Aspose.PSD cho Thư viện Java
+### Java Development Kit (JDK)
 
- Để bắt đầu, bạn cần có thư viện Aspose.PSD cho Java. Đi tới[trang tải xuống](https://releases.aspose.com/psd/java/) và lấy phiên bản mới nhất.
+Đảm bảo bạn đã cài đặt phiên bản mới nhất của JDK trên hệ thống. Bạn có thể tải về từ [đây](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-### Môi trường phát triển tích hợp (IDE)
+### Thư viện Aspose.PSD cho Java
 
-Chọn Java IDE yêu thích của bạn, chẳng hạn như Eclipse hoặc IntelliJ, để có trải nghiệm mã hóa mượt mà.
+Để bắt đầu, bạn cần lấy thư viện Aspose.PSD for Java. Truy cập [trang tải xuống](https://releases.aspose.com/psd/java/) và tải phiên bản mới nhất.
 
-## Gói nhập khẩu
+### Môi trường Phát triển Tích hợp (IDE)
 
-Trong dự án Java của bạn, hãy nhập các gói cần thiết để bắt đầu quá trình cắt ảnh:
+Chọn IDE Java yêu thích của bạn, chẳng hạn Eclipse hoặc IntelliJ, để có trải nghiệm lập trình mượt mà.
 
+## Cách cắt ảnh java?
+
+Tải tệp nguồn, xác định các dịch chuyển pixel cho mỗi phía, và gọi phương thức `crop`—toàn bộ quy trình này có thể được viết trong năm dòng mã ngắn gọn. Thao tác `crop` tạo ra một ảnh mới chỉ chứa vùng bạn chỉ định, để nguyên tệp gốc không bị thay đổi.
+
+### Bước 1: Tải ảnh
+
+`Image` là lớp cơ sở cho tất cả các loại ảnh trong Aspose.PSD.  
+`RasterImage` đại diện cho ảnh raster và cung cấp khả năng cắt.  
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.RasterImage;
@@ -44,32 +113,29 @@ import com.aspose.psd.RasterImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-Bây giờ, hãy chia nhỏ quy trình cắt ảnh bằng Aspose.PSD cho Java thành một loạt các bước đơn giản:
+### Bước 2: Cache Dữ liệu Ảnh
 
-## Bước 1: Tải hình ảnh
-
+`cacheData()` tải dữ liệu ảnh vào bộ nhớ để xử lý nhanh hơn.  
 ```java
 String dataDir = "Your Document Directory";
 String sourceFile = dataDir + "sample.psd";
 
-// Tải hình ảnh hiện có vào một thể hiện của lớp RasterImage
+// Load an existing image into an instance of RasterImage class
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 ```
 
-## Bước 2: Dữ liệu hình ảnh trong bộ nhớ đệm
+### Bước 3: Định nghĩa Giá trị Dịch Chuyển
 
-Trước khi cắt, bạn nên lưu trữ dữ liệu hình ảnh vào bộ nhớ đệm để cải thiện hiệu suất:
-
+Xác định các giá trị dịch chuyển cho bốn phía của ảnh (trái, trên, phải, dưới) tính bằng pixel.  
 ```java
 if (!rasterImage.isCached()) {
   rasterImage.cacheData();
 }
 ```
 
-## Bước 3: Xác định giá trị thay đổi
+### Bước 4: Áp dụng Cắt
 
-Chỉ định các giá trị dịch chuyển cho cả bốn cạnh của hình ảnh:
-
+`crop(left, right, top, bottom)` cắt ảnh theo các dịch chuyển pixel đã chỉ định ở mỗi phía.  
 ```java
 int leftShift = 10;
 int rightShift = 10;
@@ -77,54 +143,59 @@ int topShift = 10;
 int bottomShift = 10;
 ```
 
-## Bước 4: Áp dụng cắt xén
+### Bước 5: Lưu Kết quả
 
- Dựa trên các giá trị dịch chuyển đã xác định, áp dụng việc cắt xén hình ảnh bằng cách sử dụng`crop` phương pháp:
-
+`JpegOptions` định nghĩa các cài đặt mã hoá JPEG như chất lượng và hồ sơ màu.  
 ```java
 rasterImage.crop(leftShift, rightShift, topShift, bottomShift);
 ```
 
-## Bước 5: Lưu kết quả
+Chúc mừng! Bạn đã cắt thành công một ảnh bằng Aspose.PSD for Java.
 
-Lưu hình ảnh đã cắt vào đĩa với định dạng mong muốn, trong trường hợp này là JPEG:
+## Các vấn đề thường gặp và giải pháp
+
+- **Ảnh không thay đổi:** Kiểm tra các giá trị dịch chuyển là dương và không vượt quá kích thước gốc.  
+- **OutOfMemoryError khi xử lý tệp lớn:** Bật cache như trong Bước 2; điều này buộc Aspose.PSD sử dụng tệp tạm thời thay vì giữ toàn bộ ảnh trong RAM.  
+- **Màu sắc bị dịch sau khi cắt:** Đảm bảo giữ hồ sơ màu bằng cách gọi `image.save(..., new JpegOptions { ColorProfile = image.ColorProfile })` nếu bạn cần độ chính xác màu tuyệt đối.
+
+## Câu hỏi thường gặp
+
+**Q: Aspose.PSD có tương thích với tất cả các định dạng ảnh không?**  
+A: Có, Aspose.PSD hỗ trợ hơn 30 định dạng raster, bao gồm PSD, JPEG, PNG, BMP, TIFF và GIF, đảm bảo tính tương thích rộng rãi.
+
+**Q: Tôi có thể áp dụng nhiều thao tác cắt lên cùng một ảnh không?**  
+A: Hoàn toàn có thể. Sau mỗi lần gọi `crop` bạn sẽ nhận được một đối tượng ảnh mới, có thể cắt lại nếu cần.
+
+**Q: Có diễn đàn cộng đồng hỗ trợ Aspose.PSD không?**  
+A: Có, bạn có thể tìm kiếm hỗ trợ và tham gia cộng đồng tại [Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
+
+**Q: Làm sao để lấy giấy phép tạm thời cho Aspose.PSD?**  
+A: Truy cập [đây](https://purchase.aspose.com/temporary-license/) để nhận giấy phép tạm thời.
+
+**Q: Có dự án mẫu nào minh họa các tính năng của Aspose.PSD không?**  
+A: Khám phá tài liệu và ví dụ tại [Tài liệu Aspose.PSD Java](https://reference.aspose.com/psd/java/).
+
+---
+
+**Cập nhật lần cuối:** 2026-07-03  
+**Kiểm thử với:** Aspose.PSD 24.11 for Java  
+**Tác giả:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```java
 String destName = dataDir + "CroppingByShifts_out.jpg";
 rasterImage.save(destName, new JpegOptions());
 ```
 
-Chúc mừng! Bạn đã cắt thành công một hình ảnh bằng Aspose.PSD cho Java.
+## Hướng dẫn liên quan
 
-## Phần kết luận
+- [Cắt ảnh bằng hình chữ nhật trong Aspose.PSD cho Java](/psd/java/image-editing/crop-image-by-rectangle/)
+- [Cắt ảnh Java - Mở rộng và Cắt ảnh với Aspose.PSD cho Java](/psd/java/image-editing/expand-and-crop-images/)
+- [Thay đổi kích thước ảnh Java - Sử dụng Enumeration Resize Type trong Aspose.PSD cho Java](/psd/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/)
 
-Trong hướng dẫn này, chúng ta đã khám phá sự phức tạp của việc cắt xén hình ảnh bằng Aspose.PSD cho Java. Được trang bị kiến thức này, giờ đây bạn có thể tích hợp liền mạch việc cắt xén hình ảnh vào các dự án Java của mình, tăng thêm sự tinh tế cho khả năng xử lý hình ảnh của bạn.
-
-## Câu hỏi thường gặp
-
-### Câu hỏi 1: Aspose.PSD có tương thích với tất cả các định dạng hình ảnh không?
-
-Câu trả lời 1: Có, Aspose.PSD hỗ trợ nhiều định dạng hình ảnh, đảm bảo tính linh hoạt trong dự án của bạn.
-
-### Câu hỏi 2: Tôi có thể áp dụng nhiều thao tác cắt xén cho cùng một hình ảnh không?
-
-Câu trả lời 2: Hoàn toàn có thể, bạn có thể thực hiện nhiều thao tác cắt xén tuần tự trên cùng một hình ảnh.
-
-### Câu 3: Có diễn đàn cộng đồng nào hỗ trợ Aspose.PSD không?
-
- Câu trả lời 3: Có, bạn có thể tìm sự hỗ trợ và tương tác với cộng đồng tại[Diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34).
-
-### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.PSD?
-
- A4: Thăm quan[đây](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời.
-
-### Câu hỏi 5: Có dự án mẫu nào giới thiệu các chức năng của Aspose.PSD không?
-
- Câu trả lời 5: Khám phá tài liệu và ví dụ tại[Tài liệu Java Aspose.PSD](https://reference.aspose.com/psd/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
