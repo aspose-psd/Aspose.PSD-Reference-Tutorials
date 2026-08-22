@@ -1,6 +1,6 @@
 ---
 date: 2026-07-17
-description: Learn how to implement dithering to eliminate color banding and enhance image quality for Java developers using Aspose.PSD for Java.
+description: Learn how to apply Floyd‑Steinberg dithering with Aspose.PSD for Java to eliminate color banding and boost image quality for Java developers.
 images:
 - /java/image-editing/implement-dithering/og-image.png
 keywords:
@@ -37,7 +37,7 @@ tags:
 - Java graphics
 - dithering
 - color banding
-title: Implement Dithering to Eliminate Color Banding with Aspose.PSD for Java
+title: Apply Floyd‑Steinberg Dithering to Remove Color Banding with Aspose.PSD for Java
 url: /java/image-editing/implement-dithering/
 weight: 17
 ---

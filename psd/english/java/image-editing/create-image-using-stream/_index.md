@@ -1,6 +1,6 @@
 ---
 date: 2026-07-17
-description: Learn how to generate BMP images via streaming with Aspose.PSD for Java. Follow this step‑by‑step Java image tutorial for efficient image generation.
+description: Learn how to create BMP images efficiently by streaming with Aspose.PSD for Java. Follow this step‑by‑step Java image tutorial for fast image generation.
 images:
 - /java/image-editing/create-image-using-stream/og-image.png
 keywords:
@@ -9,15 +9,13 @@ keywords:
 - java image tutorial
 lastmod: 2026-07-17
 linktitle: Create Image using Stream
-og_description: Learn how to create BMP images using stream in Aspose.PSD for Java.
-  This java image tutorial shows step‑by‑step generation of BMP files.
+og_description: Learn how to create BMP images using stream in Aspose.PSD for Java. This Java image tutorial shows step‑by‑step generation of BMP files.
 og_image_alt: 'Guide: create BMP image from stream with Aspose.PSD Java'
 og_title: How to Create BMP Using Stream in Aspose.PSD for Java
 schemas:
 - author: Aspose
   dateModified: '2026-07-17'
-  description: Learn how to create BMP images using stream in Aspose.PSD for Java.
-    Follow this step‑by‑step java image tutorial for efficient image generation.
+  description: Learn how to create BMP images using stream in Aspose.PSD for Java. Follow this step‑by‑step java image tutorial for efficient image generation.
   headline: How to Create BMP Using Stream in Aspose.PSD for Java
   type: TechArticle
 - questions:
@@ -39,7 +37,7 @@ tags:
 - Aspose.PSD
 - Java image processing
 - stream image generation
-title: Generate BMP Image via Stream with Aspose.PSD for Java
+title: Create BMP Image via Stream Using Aspose.PSD for Java
 url: /java/image-editing/create-image-using-stream/
 weight: 14
 ---

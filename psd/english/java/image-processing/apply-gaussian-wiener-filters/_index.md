@@ -1,6 +1,6 @@
 ---
 date: 2026-07-17
-description: Java image processing tutorial using Aspose.PSD that demonstrates how to apply Gaussian and Wiener filters step‑by‑step for stunning visual results.
+description: Java image processing tutorial using Aspose.PSD for Java that demonstrates how to apply Gaussian and Wiener filters and export the result to PNG, step‑by‑step for stunning visual results.
 images:
 - /java/image-processing/apply-gaussian-wiener-filters/og-image.png
 keywords:
@@ -42,7 +42,7 @@ tags:
 - gaussian filter
 - wiener filter
 - export png java
-title: Java Image Processing Tutorial – Apply Gaussian & Wiener Filters with Aspose.PSD
+title: Java Image Processing Tutorial – Apply Gaussian & Wiener Filters and Export PNG using Aspose.PSD
 url: /java/image-processing/apply-gaussian-wiener-filters/
 weight: 10
 ---

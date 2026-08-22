@@ -1,7 +1,6 @@
 ---
 date: 2026-07-17
-description: Learn step by step filter techniques to apply Median and Wiener filters
-  using Aspose.PSD for Java, and convert PSD to GIF efficiently.
+description: Learn how to apply Median and Wiener filters with Aspose.PSD for Java and efficiently convert PSD files to GIF.
 images:
 - /java/image-processing/apply-median-wiener-filters/og-image.png
 keywords:
@@ -61,7 +60,7 @@ tags:
 - Java image processing
 - median filter
 - wiener filter
-title: Convert PSD to GIF – Step‑by‑Step Median & Wiener Filters (Java)
+title: How to Convert PSD to GIF Using Aspose.PSD for Java – Apply Median & Wiener Filters
 url: /java/image-processing/apply-median-wiener-filters/
 weight: 12
 ---
@@ -84,14 +83,14 @@ If you’re looking for a **step‑by‑step filter** workflow to clean up noisy
 ## What is a Step by Step Filter?
 A *step‑by‑step filter* approach breaks image processing into clear, manageable stages—loading the image, configuring filter options, applying the filter, and finally saving the result. This methodical flow helps you debug each part, reuse code, and adapt the process for different image formats.
 
-## Why Use Aspose.PSD for Java?
+## Why use Aspose.PSD for java?
 Aspose.PSD for Java supports **30+ image formats**, including PSD, PNG, JPEG, GIF, BMP, and TIFF, and can process multi‑hundred‑page documents without loading the entire file into memory. The library has **zero external dependencies**, meaning you can embed it in any Java project without worrying about native binaries. Built‑in filter options such as Median and Wiener are ready out of the box, and the API provides a one‑click conversion path to export directly to GIF, PNG, or JPEG after processing.
 
 ## Prerequisites
 
 Before you start, make sure you have:
 
-1. **Aspose.PSD for Java Library** – Download and install the library from [here](https://releases.aspose.com/psd/java/). For other Aspose products, see [here](https://releases.aspose.com/).  
+1. **Aspose.PSD for Java Library** – Download and install the library from the [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/). For other Aspose products, see the [Aspose product releases page](https://releases.aspose.com/).  
 2. **Java Development Environment** – JDK 8+ and an IDE or build tool (Maven/Gradle) set up on your machine.
 
 ## Import Packages
@@ -106,7 +105,7 @@ Load your PSD, apply the desired filter, and call `save` with the GIF format—a
 
 The Median filter removes **salt‑and‑pepper noise** while keeping edges sharp. It works by sliding a window over each pixel and replacing the central value with the median of the surrounding values, effectively eliminating outliers without blurring important details.
 
-### Step 1: Load the Image
+### Step 1: load the image
 
 `Image` is Aspose.PSD's base class representing any supported image file.
 
@@ -118,7 +117,7 @@ import com.aspose.psd.imagefilters.filteroptions.MedianFilterOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
 
-### Step 2: Cast Image into RasterImage
+### Step 2: cast image into rasterImage
 
 `RasterImage` extends `Image` and provides pixel‑level access for raster‑based operations.
 
@@ -130,7 +129,7 @@ String sourceFile = dataDir + "sample.psd";
 Image image = Image.load(sourceFile);
 ```
 
-### Step 3: Create MedianFilterOptions Instance
+### Step 3: create medianFilterOptions instance
 
 `MedianFilterOptions` configures the median filter, allowing you to set the kernel size.
 
@@ -142,7 +141,7 @@ if (rasterImage == null) {
 }
 ```
 
-### Step 4: Apply Median Filter
+### Step 4: apply median filter
 
 ```java
 // Create an instance of MedianFilterOptions class and set the filter size
@@ -160,13 +159,13 @@ rasterImage.filter(image.getBounds(), options);
 
 By following these steps you have successfully applied a Median filter and exported the cleaned image as a GIF.
 
-## Applying Wiener Filter (Optional Extension)
+## Applying wiener filter (Optional extension)
 
 The Wiener filter performs adaptive noise reduction by estimating local variance, making it ideal for images with varying noise levels. Replace the Median filter with `WienerFilterOptions` and keep the same workflow.
 
 > **Pro tip:** Experiment with different kernel sizes for both filters to find the sweet spot between noise removal and detail preservation.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|---------------|-----|
@@ -174,22 +173,22 @@ The Wiener filter performs adaptive noise reduction by estimating local variance
 | Output GIF is blank | Destination path is incorrect or folder lacks write permission | Ensure `dataDir` points to an existing writable directory |
 | Filter seems to have no effect | Kernel size is too small for the noise level | Increase the filter size (e.g., `new MedianFilterOptions(6)`) |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I apply these filters to images of any format?**  
 A1: Yes, Aspose.PSD supports over 30 formats, so you can filter PSD, PNG, JPEG, BMP, TIFF, and more.
 
 **Q2: Is there a free trial available for Aspose.PSD for Java?**  
-A2: Yes, you can get a free trial [here](https://releases.aspose.com/).
+A2: Yes, you can get a free trial [download page](https://releases.aspose.com/).
 
 **Q3: How do I get support for Aspose.PSD for Java?**  
 A3: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community assistance.
 
 **Q4: Where can I find the official documentation?**  
-A4: Refer to the documentation [here](https://reference.aspose.com/psd/java/).
+A4: Refer to the documentation [Aspose.PSD Java API documentation](https://reference.aspose.com/psd/java/).
 
 **Q5: How can I purchase a commercial license?**  
-A5: You can buy the product [here](https://purchase.aspose.com/buy).
+A5: You can buy the product [Aspose.PSD license purchase page](https://purchase.aspose.com/buy).
 
 ## Conclusion
 
@@ -201,7 +200,7 @@ In this guide we demonstrated a **step‑by‑step filter** process for applying
 **Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -209,13 +208,15 @@ In this guide we demonstrated a **step‑by‑step filter** process for applying
 - [Step by Step Filter - Apply Motion Wiener Filters using Aspose.PSD for Java](/psd/java/image-processing/apply-motion-wiener-filters/)
 - [How to Convert PSD to GIF Using Aspose.PSD for Java – Lossy Compressor](/psd/java/advanced-image-manipulation/implement-lossy-gif-compressor/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ```java
 String destName = dataDir + "median_test_denoise_out.gif";
 // Save the resultant image as a GIF
 image.save(destName, new GifOptions());
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
