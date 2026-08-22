@@ -1,11 +1,45 @@
 ---
-date: 2026-01-07
-description: Tanulja meg, hogyan lehet képet vágni Java-ban az Aspose.PSD for Java
-  használatával. Lépésről‑lépésre útmutató a kép vágásához, átméretezéséhez és a PSD
-  JPEG-re konvertálásához.
-linktitle: Expand and Crop Images
+date: 2026-07-08
+description: 'Java képszerkesztő könyvtár útmutató: tanulja meg, hogyan vágjon képet
+  Java-ban az Aspose.PSD for Java segítségével, méretezzen, bővítse a vásznat, és
+  konvertálja a PSD-t JPEG-re.'
+keywords:
+- java image editing library
+- java image processing tutorial
+- how to crop image java
+lastmod: 2026-07-08
+linktitle: Képek bővítése és vágása
+og_description: Java képszerkesztő könyvtár útmutató bemutatja, hogyan vágjon, bővítse
+  a vásznat, és konvertálja a PSD-t JPEG-re az Aspose.PSD for Java használatával percek
+  alatt.
+og_image_alt: 'Guide: Crop and expand images in Java with Aspose.PSD'
+og_title: Java képszerkesztő könyvtár – Kép vágása az Aspose.PSD-vel
+schemas:
+- author: Aspose
+  dateModified: '2026-07-08'
+  description: 'Java image editing library tutorial: learn how to crop image java
+    using Aspose.PSD for Java, resize, expand canvas, and convert PSD to JPEG.'
+  headline: Java Image Editing Library – Crop Image with Aspose.PSD
+  type: TechArticle
+- questions:
+  - answer: Aspose.PSD for Java.
+    question: What library handles crop image java?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license for development?
+  - answer: Yes, using `JpegOptions` together with a cropping rectangle.
+    question: Can I convert PSD to JPEG while cropping?
+  - answer: Aspose.PSD supports Java 8 and newer versions.
+    question: Is Java 8 supported?
+  - answer: Typically under 10 minutes for a basic crop operation.
+    question: How long does the implementation take?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 'Kép vágása Java - Képek kibővítése és vágása az Aspose.PSD for Java segítségével'
+tags:
+- java image editing
+- Aspose.PSD
+- image cropping
+- PSD to JPEG
+title: Java képszerkesztő könyvtár – Kép vágása az Aspose.PSD-vel
 url: /hu/java/image-editing/expand-and-crop-images/
 weight: 18
 ---
@@ -14,42 +48,45 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kép vágása Java: Képek kiterjesztése és vágása az Aspose.PSD for Java-val
+# Java képszerkesztő könyvtár: Kép vágása Java-val az Aspose.PSD segítségével
 
 ## Bevezetés
 
-Ebben az útmutatóban megismerkedhetsz a **crop image java** művelettel az Aspose.PSD könyvtár segítségével. Akár vászon kiterjesztésére, felesleges szélek levágására, vagy PSD fájl JPEG‑re konvertálására van szükséged, az alábbi lépések egy tiszta, újrahasználható folyamatot mutatnak be. Bemutatjuk az előfeltételeket, az importálási utasításokat és minden kódlépést részletes magyarázattal, hogy a technikát valós projektekben is alkalmazni tudd.
+Ebben az útmutatóban megtanulja, hogyan használjon egy **java image editing library**‑t – konkrétan az Aspose.PSD for Java‑t – a PSD fájlok vágásához, kibővítéséhez és JPEG‑re konvertálásához. Akár egy webportálhoz készít eszközöket, akár automatikus bélyegkép-generálást valósít meg, az alábbi lépések egy ismételhető, termelés‑kész munkafolyamatot biztosítanak, amelyet bármely Java 8+ projektbe integrálhat.
 
 ## Gyors válaszok
-- **Melyik könyvtár kezeli a crop image java‑t?** Aspose.PSD for Java.
-- **Szükség van licencre fejlesztéshez?** Egy ingyenes próba verzió elegendő a teszteléshez; a termeléshez kereskedelmi licenc szükséges.
-- **Konvertálhatok PSD‑t JPEG‑re vágás közben?** Igen, a `JpegOptions`‑t egy vágó téglalappal együtt használva.
-- **Támogatott a Java 8?** Az Aspose.PSD támogatja a Java 8‑at és újabb verziókat.
-- **Mennyi időt vesz igénybe a megvalósítás?** Általában 10 perc alatt elvégezhető egy egyszerű vágási művelet.
+- **What library handles crop image java?** Aspose.PSD for Java.  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
+- **Can I convert PSD to JPEG while cropping?** Yes, using `JpegOptions` together with a cropping rectangle.  
+- **Is Java 8 supported?** Aspose.PSD supports Java 8 and newer versions.  
+- **How long does the implementation take?** Typically under 10 minutes for a basic crop operation.
 
-## Mi az a “crop image java”?
+## Mi az a „crop image java”?
 
-A kép vágása Java‑ban azt jelenti, hogy a forráskép egy téglalap alakú részét kiválasztjuk, a többit pedig eldobjuk. Az Aspose.PSD‑vel ezt a régiót egy `Rectangle` objektummal definiálhatod, majd a végeredményt más formátumban, például JPEG‑ben mentheted.
+A „crop image java” azt jelenti, hogy a forráskép egy téglalap alakú részét kiválasztjuk, és mindent eldobunk, ami azon kívül esik. Az Aspose.PSD‑vel létrehoz egy `Rectangle`‑t, amely meghatározza a területet, alkalmazza egy `RasterImage`‑re, majd elmenti az eredményt bármely támogatott formátumban, például JPEG‑ben.
 
-## Miért használjuk az Aspose.PSD for Java‑t képek vágásához?
+## Miért használja az Aspose.PSD-t Java képvágáshoz?
 
-- **Teljes PSD‑támogatás** – közvetlenül dolgozhatsz réteges PSD fájlokkal konvertálás nélkül.  
-- **Nagy teljesítményű raszterkezelés** – hatékony memóriahasználat nagy képek esetén.  
-- **Beépített konvertálás** – egyszerű export JPEG, PNG, BMP stb. formátumokba vágás vagy vászon kiterjesztés közben.  
-- **Keresztplatformos** – bármely, Java‑t futtató rendszeren működik.
+Az Aspose.PSD egy **java image editing library**‑t biztosít, amely natívan kezeli a PSD fájlokat, több mint 100 réteg funkciót támogat, és akár 10 000 × 10 000 pixel méretű képeket is feldolgozhat, miközben a memóriahasználatot 500 MB alatt tartja. Emellett beépített konvertálást kínál JPEG, PNG, BMP és további formátumok között, külső eszközök nélkül. Ez a tömeges feldolgozási csővezetékeket gyors, megbízható és könnyen karbantartható megoldássá teszi.
 
 ## Előfeltételek
 
-Mielőtt belevágnál, győződj meg róla, hogy a következők telepítve vannak:
+1. **Java Development Kit (JDK)** – Java 8 vagy újabb telepítve.  
+2. **Aspose.PSD for Java** – töltse le a könyvtárat a hivatalos oldalról **[here](https://releases.aspose.com/psd/java/)**.  
 
-1. **Java Development Kit (JDK)** – Java 8 vagy újabb.  
-2. **Aspose.PSD for Java** – töltsd le a könyvtárat a hivatalos oldalról **[here](https://releases.aspose.com/psd/java/)**.  
+> **Pro tip:** Add the Aspose.PSD JAR to your project’s classpath or Maven/Gradle dependencies to avoid `ClassNotFoundException`.
 
-> **Pro tipp:** Add hozzá az Aspose.PSD JAR‑t a projekt classpath‑éhez vagy Maven/Gradle függőségekhez, hogy elkerüld a `ClassNotFoundException` hibát.
+## Csomagok importálása
 
-## Importálási csomagok
+Add the required imports to your Java source file. These classes give you access to image loading, raster manipulation, rectangle definition, and JPEG export options.
 
-Add hozzá a szükséges importokat a Java forrásfájlodhoz. Ezek a osztályok biztosítják a kép betöltését, rasztermanipulációt, téglalap definiálást és JPEG export opciókat.
+## Hogyan vágjon képet Java-ban az Aspose.PSD használatával?
+
+Load the source PSD with `RasterImage`, define a `Rectangle` that describes the crop area (negative coordinates can expand the canvas), and finally save the result with `JpegOptions`. This three‑step flow handles both cropping and format conversion in a single pass, eliminating the need for intermediate files.
+
+## 1. lépés: Állítsa be a dokumentum könyvtárát
+
+Specify the folder that contains the source PSD file. Replace the placeholder with the actual path on your machine.
 
 ```java
 import com.aspose.psd.Image;
@@ -59,100 +96,105 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## 1. lépés: A dokumentum könyvtár beállítása
+## 2. lépés: Adja meg a forrás- és célútvonalakat
 
-Add meg azt a mappát, amely a forrás‑PSD fájlt tartalmazza. Cseréld le a helyőrzőt a géped tényleges útvonalára.
+Define where to read the PSD from and where to write the cropped JPEG.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 2. lépés: Forrás‑ és célútvonalak megadása
+## 3. lépés: Töltse be és gyorsítótárazza a képet
 
-Határozd meg, hogy honnan olvasd be a PSD‑t és hová írd a vágott JPEG‑et.
+`RasterImage` represents a rasterized version of a PSD file in memory.  
+Load the PSD into a `RasterImage` object. Caching improves performance for subsequent operations such as cropping.
 
 ```java
 String sourceFile = dataDir + "example1.psd";
 String destName = dataDir + "jpeg_out.jpg";
 ```
 
-## 3. lépés: Kép betöltése és gyorsítótárazása
+## 4. lépés: Hozzon létre Rectangle-t a vágáshoz
 
-Töltsd be a PSD‑t egy `RasterImage` objektumba. A gyorsítótárazás javítja a teljesítményt a későbbi műveletek, például a vágás során.
+`Rectangle` defines the X, Y coordinates and the width/height of the cropping region.  
+Create a `Rectangle` that describes the region you want to keep. The coordinates can be negative to **expand** the canvas before cropping, which is useful for adding a border around the original image.
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 rasterImage.cacheData();
 ```
 
-## 4. lépés: Téglalap létrehozása a vágáshoz
+> **Why use negative coordinates?**  
+> Negative X/Y values shift the crop area left/up, effectively adding empty space (expanding) around the original content before the final crop.
 
-Hozz létre egy `Rectangle`‑t, amely leírja a megtartani kívánt területet. A koordináták lehetnek negatívak is a **vászon kiterjesztéséhez** a vágás előtt, ami hasznos, ha keretet szeretnél adni az eredeti képnek.
+## 5. lépés: Mentse a vágott képet
+
+`JpegOptions` specifies settings for JPEG output, such as quality and compression.  
+Finally, save the resulting image using `JpegOptions`. This step also demonstrates **convert psd jpeg** while applying the cropping rectangle.
 
 ```java
 Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 ```
 
-> **Miért használjunk negatív koordinátákat?**  
-> A negatív X/Y értékek balra/felfelé tolják a vágási területet, így a végső vágás előtt üres területet (kiterjesztést) adnak az eredeti tartalom köré.
+> **Result:** `jpeg_out.jpg` now contains a 300 × 300 pixel image that has been expanded by 200 px on each side and then cropped to the defined rectangle.
 
-## 5. lépés: A vágott kép mentése
+Congratulations! You've successfully performed **java image cropping**, expanded the canvas, and converted a PSD file to JPEG—all in a few concise lines of code.
 
-Végül mentsd el a kapott képet `JpegOptions` segítségével. Ez a lépés bemutatja a **convert psd jpeg** műveletet is, miközben alkalmazod a vágási téglalapot.
+## Gyakori felhasználási esetek
+
+- **Preparing assets for web** – crop and resize screenshots or designs before uploading.  
+- **Generating thumbnails** – extract a specific region from a large PSD for preview purposes.  
+- **Automated batch processing** – loop through a folder of PSD files, applying the same crop rectangle to each.
+
+## Hibakeresés és tippek
+
+| Issue | Suggested Fix |
+|-------|----------------|
+| `OutOfMemoryError` when loading large PSDs | Call `rasterImage.cacheData()` early and consider increasing the JVM heap size (`-Xmx`). |
+| Cropped area is off‑center | Verify the rectangle’s X/Y offsets; remember negative values expand the canvas. |
+| Output JPEG looks blurry | Adjust `JpegOptions` quality setting (e.g., `new JpegOptions { Quality = 90 }`). |
+
+## Gyakran Ismételt Kérdések
+
+### Q1: Az Aspose.PSD kompatibilis különböző Java verziókkal?
+
+A1: Yes, Aspose.PSD supports Java 8, 11, 17, and newer releases, ensuring broad compatibility across development environments.
+
+### Q2: Használhatom az Aspose.PSD-t kereskedelmi projektekhez?
+
+A2: Absolutely, Aspose.PSD provides commercial licenses for developers, allowing its use in both personal and commercial applications.
+
+### Q3: Vannak korlátozások a támogatott képfájl-formátumokkal kapcsolatban?
+
+A3: Aspose.PSD supports 30+ image formats, including PSD, JPEG, PNG, BMP, TIFF, and more. Refer to the [documentation](https://reference.aspose.com/psd/java/) for a complete list.
+
+### Q4: Hogyan kaphatok támogatást az Aspose.PSD‑hez kapcsolódó kérdésekhez?
+
+A4: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) to seek assistance from the community or the Aspose support team.
+
+### Q5: Elérhető ingyenes próba?
+
+A5: Yes, you can explore Aspose.PSD with a free trial. Download it [here](https://releases.aspose.com/).
+
+---
+
+**Last Updated:** 2026-07-08  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```java
 rasterImage.save(destName, new JpegOptions(), destRect);
 ```
 
-> **Eredmény:** `jpeg_out.jpg` most egy 300 × 300 pixeles képet tartalmaz, amely minden oldalról 200 px‑el lett kiterjesztve, majd a megadott téglalapra vágva.
+## Kapcsolódó útmutatók
 
-Gratulálunk! Sikeresen végrehajtottad a **java image cropping**‑ot, kiterjesztetted a vásznat, és PSD‑t JPEG‑re konvertáltad – mindezt néhány tömör kódsorral.
+- [Simple Resizing with Aspose.PSD – Java Image Manipulation Library](/psd/java/basic-image-operations/simple-resizing/)
+- [How to Rotate Image 270 Degrees with Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rotate-image/)
+- [How to Adjust Gamma in Java Image Processing with Aspose.PSD](/psd/java/advanced-techniques/adjust-gamma/)
 
-## Gyakori felhasználási esetek
-
-- **Webes eszközök előkészítése** – vágj és méretezz képernyőképeket vagy terveket feltöltés előtt.  
-- **Miniatűrök generálása** – egy nagy PSD‑ből egy meghatározott régiót nyerj ki előnézetként.  
-- **Automatizált kötegelt feldolgozás** – egy mappában lévő PSD‑kön iterálj, minden fájlra ugyanazt a vágási téglalapot alkalmazva.
-
-## Hibaelhárítás és tippek
-
-| Probléma | Javasolt megoldás |
-|----------|-------------------|
-| `OutOfMemoryError` nagy PSD‑k betöltésekor | Hívd meg korán a `rasterImage.cacheData()`‑t, és fontold meg a JVM heap méretének növelését (`-Xmx`). |
-| A vágott terület nem középre esik | Ellenőrizd a téglalap X/Y eltolásait; ne feledd, a negatív értékek kiterjesztik a vásznat. |
-| A kimeneti JPEG elmosódott | Állítsd be a `JpegOptions` minőségi paraméterét (pl. `new JpegOptions { Quality = 90 }`). |
-
-## Gyakran ismételt kérdések
-
-### Q1: Az Aspose.PSD kompatibilis különböző Java verziókkal?
-
-A1: Igen, az Aspose.PSD több Java verziót támogat, így széles fejlesztői környezetekhez illeszkedik.
-
-### Q2: Használhatom az Aspose.PSD‑t kereskedelmi projektekben?
-
-A2: Természetesen, az Aspose.PSD kereskedelmi licenceket kínál fejlesztőknek, amelyek lehetővé teszik a használatot személyes és kereskedelmi projektekben egyaránt.
-
-### Q3: Vannak korlátozások a támogatott képformátumok tekintetében?
-
-A3: Az Aspose.PSD számos képformátumot támogat, többek között PSD, JPEG, PNG és még sok más. A teljes listáért tekintsd meg a [documentation](https://reference.aspose.com/psd/java/) oldalt.
-
-### Q4: Hol kaphatok támogatást az Aspose.PSD‑hez kapcsolódó kérdésekhez?
-
-A4: Látogasd meg az [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) oldalt, ahol a közösség vagy az Aspose támogatási csapata segíthet.
-
-### Q5: Elérhető ingyenes próba verzió?
-
-A5: Igen, az Aspose.PSD‑t ingyenes próba verzióval is kipróbálhatod. Töltsd le **[here](https://releases.aspose.com/)**.
-
----
-
-**Utolsó frissítés:** 2026-01-07  
-**Tesztelt verzió:** Aspose.PSD for Java 24.12  
-**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

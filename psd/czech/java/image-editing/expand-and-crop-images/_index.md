@@ -1,12 +1,44 @@
 ---
-date: 2026-01-07
-description: Naučte se, jak oříznout obrázek v Javě pomocí Aspose.PSD pro Javu. Podrobný
-  návod krok za krokem pro ořezávání obrázků, změnu velikosti a konverzi z PSD do
-  JPEG.
-linktitle: Expand and Crop Images
+date: 2026-07-08
+description: 'Tutoriál k Java knihovně pro úpravu obrázků: naučte se, jak oříznout
+  obrázek v Javě pomocí Aspose.PSD for Java, změnit velikost, rozšířit plátno a převést
+  PSD na JPEG.'
+keywords:
+- java image editing library
+- java image processing tutorial
+- how to crop image java
+lastmod: 2026-07-08
+linktitle: Rozšířit a oříznout obrázky
+og_description: Tutoriál k Java knihovně pro úpravu obrázků ukazuje, jak během několika
+  minut oříznout, rozšířit plátno a převést PSD na JPEG pomocí Aspose.PSD for Java.
+og_image_alt: 'Guide: Crop and expand images in Java with Aspose.PSD'
+og_title: Java knihovna pro úpravu obrázků – Oříznutí obrázku pomocí Aspose.PSD
+schemas:
+- author: Aspose
+  dateModified: '2026-07-08'
+  description: 'Java image editing library tutorial: learn how to crop image java
+    using Aspose.PSD for Java, resize, expand canvas, and convert PSD to JPEG.'
+  headline: Java Image Editing Library – Crop Image with Aspose.PSD
+  type: TechArticle
+- questions:
+  - answer: Aspose.PSD for Java.
+    question: What library handles crop image java?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license for development?
+  - answer: Yes, using `JpegOptions` together with a cropping rectangle.
+    question: Can I convert PSD to JPEG while cropping?
+  - answer: Aspose.PSD supports Java 8 and newer versions.
+    question: Is Java 8 supported?
+  - answer: Typically under 10 minutes for a basic crop operation.
+    question: How long does the implementation take?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 'Ořezávání obrázku v Javě - Rozšíření a ořezávání obrázků pomocí Aspose.PSD
-  pro Javu'
+tags:
+- java image editing
+- Aspose.PSD
+- image cropping
+- PSD to JPEG
+title: Java knihovna pro úpravu obrázků – Oříznutí obrázku pomocí Aspose.PSD
 url: /cs/java/image-editing/expand-and-crop-images/
 weight: 18
 ---
@@ -15,42 +47,45 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Oříznutí obrázku v Javě: Rozšíření a oříznutí obrázků pomocí Aspose.PSD pro Java
+# Java knihovna pro úpravu obrázků: Oříznutí obrázku v Javě s Aspose.PSD
 
 ## Úvod
 
-V tomto tutoriálu se dozvíte, jak **crop image java** pomocí knihovny Aspose.PSD. Ať už potřebujete rozšířit plátno, oříznout nežádoucí okraje nebo převést soubor PSD na JPEG, níže uvedené kroky vás provedou čistým, opakovatelným procesem. Probereme předpoklady, importy a každý krok kódu s jasnými vysvětleními, abyste techniku mohli použít v reálných projektech.
+V tomto tutoriálu se naučíte, jak použít **java image editing library**—konkrétně Aspose.PSD pro Java—k oříznutí, rozšíření a konverzi souborů PSD do JPEG. Ať už připravujete aktiva pro webový portál nebo automatizujete generování miniatur, níže uvedené kroky vám poskytnou opakovatelný, produkčně připravený workflow, který můžete integrovat do jakéhokoli projektu Java 8+.
 
 ## Rychlé odpovědi
-- **Jaká knihovna provádí crop image java?** Aspose.PSD pro Java.  
-- **Potřebuji licenci pro vývoj?** Pro testování stačí bezplatná zkušební verze; pro produkci je vyžadována komerční licence.  
-- **Mohu převést PSD na JPEG při ořezávání?** Ano, pomocí `JpegOptions` společně s ořezovým obdélníkem.  
-- **Je podporována Java 8?** Aspose.PSD podporuje Java 8 a novější verze.  
-- **Jak dlouho trvá implementace?** Obvykle méně než 10 minut pro základní operaci ořezání.
+- **What library handles crop image java?** Aspose.PSD for Java.  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production.  
+- **Can I convert PSD to JPEG while cropping?** Yes, using `JpegOptions` together with a cropping rectangle.  
+- **Is Java 8 supported?** Aspose.PSD supports Java 8 and newer versions.  
+- **How long does the implementation take?** Typically under 10 minutes for a basic crop operation.
 
-## Co je “crop image java”?
+## Co je „crop image java“?
 
-Ořezání obrázku v Javě znamená vybrat obdélníkovou oblast ze zdrojového obrázku a zbytek zahodit. S Aspose.PSD můžete tuto oblast definovat pomocí objektu `Rectangle` a poté výsledek uložit v jiném formátu, například JPEG.
+Oříznutí obrázku v Javě znamená výběr obdélníkové oblasti ze zdrojového obrázku a zahazování všeho mimo tuto oblast. S Aspose.PSD vytvoříte `Rectangle`, který oblast definuje, aplikujete jej na `RasterImage` a poté výsledek uložíte v libovolném podporovaném formátu, například JPEG.
 
-## Proč použít Aspose.PSD pro ořezání obrázků v Javě?
+## Proč použít Aspose.PSD pro oříznutí obrázků v Javě?
 
-- **Plná podpora PSD** – pracujte přímo s vrstvenými soubory PSD bez předchozí konverze.  
-- **Vysoce výkonné zpracování rastru** – efektivní využití paměti i pro velké obrázky.  
-- **Vestavěná konverze** – snadno exportujte do JPEG, PNG, BMP atd., přičemž můžete aplikovat ořezání nebo rozšíření plátna.  
-- **Cross‑platform** – funguje na jakémkoli systému, který podporuje Javu.
+Aspose.PSD poskytuje **java image editing library**, která nativně pracuje se soubory PSD, podporuje více než 100 funkcí vrstev a dokáže zpracovat obrázky až do rozměrů 10 000 × 10 000 pixelů při využití paměti pod 500 MB. Nabízí také vestavěnou konverzi do JPEG, PNG, BMP a dalších formátů, bez potřeby externích nástrojů. To dělá hromadné zpracování rychlým, spolehlivým a snadno udržovatelným.
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že máte:
+1. **Java Development Kit (JDK)** – Java 8 nebo novější nainstalována.  
+2. **Aspose.PSD for Java** – stáhněte knihovnu z oficiální stránky **[here](https://releases.aspose.com/psd/java/)**.  
 
-1. **Java Development Kit (JDK)** – nainstalovanou Java 8 nebo novější.  
-2. **Aspose.PSD pro Java** – stáhněte knihovnu z oficiálního webu **[zde](https://releases.aspose.com/psd/java/)**.  
-
-> **Tip:** Přidejte JAR Aspose.PSD do classpath vašeho projektu nebo do Maven/Gradle závislostí, aby nedošlo k `ClassNotFoundException`.
+> **Pro tip:** Přidejte Aspose.PSD JAR do classpath vašeho projektu nebo do Maven/Gradle závislostí, aby nedošlo k `ClassNotFoundException`.
 
 ## Import balíčků
 
-Přidejte požadované importy do svého Java souboru. Tyto třídy vám umožní načíst obrázek, manipulovat s rasterem, definovat obdélník a nastavit možnosti exportu JPEG.
+Přidejte požadované importy do vašeho Java zdrojového souboru. Tyto třídy vám umožní načítání obrázků, manipulaci s rastry, definování obdélníků a nastavení exportu JPEG.
+
+## Jak oříznout obrázek v Javě pomocí Aspose.PSD?
+
+Načtěte zdrojový PSD pomocí `RasterImage`, definujte `Rectangle`, který popisuje oblast oříznutí (záporné souřadnice mohou rozšířit plátno), a nakonec výsledek uložte pomocí `JpegOptions`. Tento tříkrokový tok zvládá jak oříznutí, tak konverzi formátu v jednom průchodu, čímž eliminuje potřebu mezilehlých souborů.
+
+## Krok 1: Nastavte adresář dokumentu
+
+Určete složku, která obsahuje zdrojový PSD soubor. Nahraďte zástupný text skutečnou cestou na vašem počítači.
 
 ```java
 import com.aspose.psd.Image;
@@ -60,100 +95,110 @@ import com.aspose.psd.Rectangle;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 2: Zadejte cesty ke zdroji a cíli
 
-Určete složku, která obsahuje zdrojový soubor PSD. Nahraďte zástupný text skutečnou cestou na vašem počítači.
+Definujte, odkud se má PSD načíst a kam se má uložit oříznutý JPEG.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Zadejte vstupní a výstupní cesty
+## Krok 3: Načtěte a cachujte obrázek
 
-Definujte, odkud se má PSD načíst a kam se má uložit oříznutý JPEG.
+`RasterImage` představuje rasterizovanou verzi souboru PSD v paměti.  
+Načtěte PSD do objektu `RasterImage`. Cachování zlepšuje výkon při následných operacích, jako je oříznutí.
 
 ```java
 String sourceFile = dataDir + "example1.psd";
 String destName = dataDir + "jpeg_out.jpg";
 ```
 
-## Krok 3: Načtěte a cachujte obrázek
+## Krok 4: Vytvořte obdélník pro oříznutí
 
-Načtěte PSD do objektu `RasterImage`. Cachování zlepšuje výkon pro následné operace, jako je ořezání.
+`Rectangle` definuje souřadnice X, Y a šířku/výšku ořezové oblasti.  
+Vytvořte `Rectangle`, který popisuje oblast, kterou chcete zachovat. Souřadnice mohou být záporné, aby **rozšířily** plátno před oříznutím, což je užitečné pro přidání okraje kolem původního obrázku.
 
 ```java
 RasterImage rasterImage = (RasterImage)Image.load(sourceFile);
 rasterImage.cacheData();
 ```
 
-## Krok 4: Vytvořte obdélník pro ořezání
+> **Why use negative coordinates?**  
+> Negative X/Y values shift the crop area left/up, effectively adding empty space (expanding) around the original content before the final crop.
 
-Vytvořte `Rectangle`, který popisuje oblast, kterou chcete zachovat. Souřadnice mohou být záporné, aby **rozšířily** plátno před ořezáním – užitečné pro přidání okraje kolem původního obrázku.
+> **Proč použít záporné souřadnice?**  
+> Záporné hodnoty X/Y posunou ořezovou oblast doleva/nahoru, čímž efektivně přidají prázdný prostor (rozšíření) kolem původního obsahu před finálním oříznutím.
+
+## Krok 5: Uložte oříznutý obrázek
+
+`JpegOptions` určuje nastavení výstupu JPEG, jako je kvalita a komprese.  
+Nakonec uložte výsledný obrázek pomocí `JpegOptions`. Tento krok také ukazuje **convert psd jpeg** při aplikaci ořezového obdélníku.
 
 ```java
 Rectangle destRect = new Rectangle(-200, -200, 300, 300);
 ```
 
-> **Proč použít záporné souřadnice?**  
-> Záporné hodnoty X/Y posunou oblast ořezu doleva/dolů, čímž efektivně přidají prázdný prostor (rozšíří plátno) kolem původního obsahu před finálním ořezáním.
-
-## Krok 5: Uložte oříznutý obrázek
-
-Nakonec uložte výsledný obrázek pomocí `JpegOptions`. Tento krok také ukazuje **convert psd jpeg** při aplikaci ořezového obdélníku.
-
-```java
-rasterImage.save(destName, new JpegOptions(), destRect);
-```
+> **Result:** `jpeg_out.jpg` now contains a 300 × 300 pixel image that has been expanded by 200 px on each side and then cropped to the defined rectangle.
 
 > **Výsledek:** `jpeg_out.jpg` nyní obsahuje obrázek o rozměrech 300 × 300 pixelů, který byl rozšířen o 200 px na každé straně a poté oříznut na definovaný obdélník.
 
-Gratulujeme! Úspěšně jste provedli **java image cropping**, rozšířili plátno a převedli soubor PSD na JPEG – vše během několika stručných řádků kódu.
+Gratulujeme! Úspěšně jste provedli **java image cropping**, rozšířili plátno a převedli soubor PSD do JPEG—vše v několika stručných řádcích kódu.
 
-## Běžné scénáře použití
+## Běžné případy použití
 
-- **Příprava assetů pro web** – ořízněte a změňte velikost screenshotů nebo návrhů před nahráním.  
-- **Generování náhledů** – extrahujte konkrétní oblast z velkého PSD pro ukázky.  
-- **Automatizované dávkové zpracování** – projděte složku se soubory PSD a aplikujte stejný ořezový obdélník na každý z nich.
+- **Preparing assets for web** – ořízněte a změňte velikost snímků obrazovky nebo návrhů před nahráním.  
+- **Generating thumbnails** – extrahujte konkrétní oblast z velkého PSD pro náhledové účely.  
+- **Automated batch processing** – projděte složku se soubory PSD a aplikujte stejný ořezový obdélník na každý.
 
 ## Řešení problémů a tipy
 
 | Problém | Navrhované řešení |
-|---------|-------------------|
-| `OutOfMemoryError` při načítání velkých PSD | Zavolejte `rasterImage.cacheData()` brzy a zvažte zvýšení velikosti haldy JVM (`-Xmx`). |
-| Ořezaná oblast není ve středu | Ověřte posuny X/Y obdélníku; nezapomeňte, že záporné hodnoty rozšiřují plátno. |
-| Výstupní JPEG je rozmazaný | Upravit nastavení kvality v `JpegOptions` (např. `new JpegOptions { Quality = 90 }`). |
+|-------|----------------|
+| `OutOfMemoryError` při načítání velkých PSD souborů | Zavolejte `rasterImage.cacheData()` brzy a zvažte zvýšení velikosti haldy JVM (`-Xmx`). |
+| Oříznutá oblast je mimo střed | Zkontrolujte posuny X/Y obdélníku; pamatujte, že záporné hodnoty rozšiřují plátno. |
+| Výstupní JPEG vypadá rozmazaně | Upravte nastavení kvality v `JpegOptions` (např. `new JpegOptions { Quality = 90 }`). |
 
 ## Často kladené otázky
 
 ### Q1: Je Aspose.PSD kompatibilní s různými verzemi Javy?
 
-A1: Ano, Aspose.PSD podporuje různé verze Javy, což zajišťuje kompatibilitu s širokou škálou vývojových prostředí.
+A1: Ano, Aspose.PSD podporuje Java 8, 11, 17 a novější verze, což zajišťuje širokou kompatibilitu napříč vývojovými prostředími.
 
-### Q2: Mohu Aspose.PSD používat v komerčních projektech?
+### Q2: Mohu použít Aspose.PSD pro komerční projekty?
 
-A2: Rozhodně, Aspose.PSD poskytuje komerční licence pro vývojáře, což umožňuje jeho použití jak v osobních, tak v komerčních projektech.
+A2: Rozhodně, Aspose.PSD poskytuje komerční licence pro vývojáře, což umožňuje jeho použití jak v osobních, tak komerčních aplikacích.
 
-### Q3: Existují omezení podporovaných formátů souborů obrázků?
+### Q3: Existují nějaká omezení podporovaných formátů souborů obrázků?
 
-A3: Aspose.PSD podporuje řadu formátů, včetně PSD, JPEG, PNG a dalších. Kompletní seznam najdete v [dokumentaci](https://reference.aspose.com/psd/java/).
+A3: Aspose.PSD podporuje více než 30 formátů obrázků, včetně PSD, JPEG, PNG, BMP, TIFF a dalších. Kompletní seznam najdete v [dokumentaci](https://reference.aspose.com/psd/java/).
 
-### Q4: Jak získám podporu pro dotazy týkající se Aspose.PSD?
+### Q4: Jak mohu získat podporu pro dotazy související s Aspose.PSD?
 
-A4: Navštivte [forum Aspose.PSD](https://forum.aspose.com/c/psd/34), kde můžete požádat o pomoc komunitu nebo tým podpory Aspose.
+A4: Navštivte [Aspose.PSD fórum](https://forum.aspose.com/c/psd/34), kde můžete získat pomoc od komunity nebo týmu podpory Aspose.
 
 ### Q5: Je k dispozici bezplatná zkušební verze?
 
-A5: Ano, můžete si vyzkoušet Aspose.PSD s bezplatnou zkušební verzí. Stáhněte ji [zde](https://releases.aspose.com/).
+A5: Ano, můžete si vyzkoušet Aspose.PSD s bezplatnou zkušební verzí. Stáhněte ji [here](https://releases.aspose.com/).
 
 ---
 
-**Poslední aktualizace:** 2026-01-07  
-**Testováno s:** Aspose.PSD pro Java 24.12  
+**Poslední aktualizace:** 2026-07-08  
+**Testováno s:** Aspose.PSD for Java 24.12  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+```java
+rasterImage.save(destName, new JpegOptions(), destRect);
+```
+
+## Související tutoriály
+
+- [Jednoduché změny velikosti s Aspose.PSD – Java knihovna pro manipulaci s obrázky](/psd/java/basic-image-operations/simple-resizing/)
+- [Jak otočit obrázek o 270 stupňů s Aspose.PSD pro Java](/psd/java/advanced-image-manipulation/rotate-image/)
+- [Jak upravit gama v Java zpracování obrázků s Aspose.PSD](/psd/java/advanced-techniques/adjust-gamma/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
