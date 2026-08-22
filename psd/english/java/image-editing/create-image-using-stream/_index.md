@@ -1,7 +1,6 @@
 ---
 date: 2026-07-17
-description: Learn how to create BMP images using stream in Aspose.PSD for Java. Follow
-  this step‑by‑step java image tutorial for efficient image generation.
+description: Learn how to generate BMP images via streaming with Aspose.PSD for Java. Follow this step‑by‑step Java image tutorial for efficient image generation.
 images:
 - /java/image-editing/create-image-using-stream/og-image.png
 keywords:
@@ -40,7 +39,7 @@ tags:
 - Aspose.PSD
 - Java image processing
 - stream image generation
-title: How to Create BMP Using Stream in Aspose.PSD for Java
+title: Generate BMP Image via Stream with Aspose.PSD for Java
 url: /java/image-editing/create-image-using-stream/
 weight: 14
 ---
@@ -97,7 +96,7 @@ import com.aspose.psd.system.io.Stream;
 import java.io.FileInputStream;
 ```
 
-## Step 1: Set Up Document Directory
+## Step 1: set up document directory
 
 `File` represents a file or directory path in the file system.  
 
@@ -108,7 +107,7 @@ Replace `"Your Document Directory"` with the actual path on your machine.
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Specify Output File Name
+## Step 2: specify output file name
 
 `String outFile = dataDir.getAbsolutePath() + File.separator + "output.bmp";` – defines the full path and name of the BMP file to be created.
 
@@ -116,7 +115,7 @@ String dataDir = "Your Document Directory";
 String desName = dataDir + "CreatingImageUsingStream_out.bmp";
 ```
 
-## Step 3: Configure BmpOptions
+## Step 3: configure bmpOptions
 
 `BmpOptions bmpOptions = new BmpOptions();` – creates an options object.  
 You can set `bitsPerPixel` (e.g., 24 for true‑color) to control image quality and file size.
@@ -126,7 +125,7 @@ BmpOptions imageOptions = new BmpOptions();
 imageOptions.setBitsPerPixel(24);
 ```
 
-## Step 4: Create FileCreateSource
+## Step 4: create fileCreateSource
 
 `FileCreateSource fileSource = new FileCreateSource(outFile, false);` – wraps the output path in a stream source.  
 `bmpOptions.setSource(fileSource);` tells Aspose.PSD to write the BMP directly to this stream.
@@ -136,7 +135,7 @@ FileCreateSource stream = new FileCreateSource(dataDir + "sample_out.bmp");
 imageOptions.setSource(stream);
 ```
 
-## Step 5: Generate Image
+## Step 5: generate image
 
 `Image` is the Aspose.PSD class that represents an image and provides methods to create, edit, and save raster graphics.  
 
@@ -147,7 +146,7 @@ The image is now ready for further drawing or processing.
 Image image = Image.create(imageOptions, 500, 500);
 ```
 
-## Step 6: Image Processing
+## Step 6: image processing
 
 `Graphics` is a class used to draw shapes, text, and other graphics onto an `Image` object.  
 
@@ -162,13 +161,13 @@ Finally, call `img.save()` to finalize the file. This step ensures all pending o
 image.save(desName);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **File permission errors** – Verify that the Java process has write access to the target directory.
 - **Out‑of‑memory for huge images** – Use `FileCreateSource` (as shown) to stream data instead of loading the entire bitmap into memory.
 - **Unexpected colors** – Ensure `bitsPerPixel` matches your desired color depth; 24 bpp is standard for true‑color BMPs.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.PSD with other Java libraries?
 A1: Yes, Aspose.PSD integrates smoothly with popular Java imaging libraries such as ImageIO, allowing you to combine functionality without conflict.
@@ -177,10 +176,10 @@ A1: Yes, Aspose.PSD integrates smoothly with popular Java imaging libraries such
 A2: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community assistance and official responses from Aspose engineers.
 
 ### Q3: Is there a free trial available for Aspose.PSD?
-A3: Yes, you can access a free trial [here](https://releases.aspose.com/).
+A3: Yes, you can access a free trial on the Aspose.PSD free trial download page.
 
 ### Q4: How do I obtain a temporary license for Aspose.PSD?
-A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A4: Obtain a temporary license on the temporary license request page.
 
 ### Q5: What are the system requirements for Aspose.PSD?
 A5: Refer to the [documentation](https://reference.aspose.com/psd/java/) for supported operating systems, Java versions, and memory guidelines.
@@ -201,11 +200,9 @@ You now have a complete, production‑ready workflow for **how to create BMP** i
 - [Save Images to Stream with Aspose.PSD for Java](/psd/java/advanced-techniques/save-images-to-stream/)
 - [Create Image by Setting Path in Aspose.PSD for Java](/psd/java/image-editing/create-image-by-setting-path/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}

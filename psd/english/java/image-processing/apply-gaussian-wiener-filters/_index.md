@@ -1,7 +1,6 @@
 ---
 date: 2026-07-17
-description: Java image processing tutorial using Aspose.PSD learn how to apply Gaussian
-  and Wiener filters step‑by‑step for stunning visual results.
+description: Java image processing tutorial using Aspose.PSD that demonstrates how to apply Gaussian and Wiener filters step‑by‑step for stunning visual results.
 images:
 - /java/image-processing/apply-gaussian-wiener-filters/og-image.png
 keywords:
@@ -43,7 +42,7 @@ tags:
 - gaussian filter
 - wiener filter
 - export png java
-title: Java Image Processing Tutorial – Apply Gaussian & Wiener Filters
+title: Java Image Processing Tutorial – Apply Gaussian & Wiener Filters with Aspose.PSD
 url: /java/image-processing/apply-gaussian-wiener-filters/
 weight: 10
 ---
@@ -69,7 +68,7 @@ Welcome to our **java image processing tutorial** that shows you how to apply Ga
 
 A Java image processing tutorial walks developers through the essential steps of loading an image, applying transformations such as filters or resizing, and finally saving the result in a desired format. By providing clear code examples and explanations, it helps you integrate image‑manipulation capabilities directly into Java applications, reducing the need for external tools.
 
-## Why Use Gaussian and Wiener Filters?
+## Why use gaussian and wiener filters?
 
 Load your image, apply the combined Gaussian‑Wiener filter, and you’ll see a dramatic reduction in grain while key edges stay sharp—ideal for preparing graphics for the web or for archival scans. The Gaussian part removes high‑frequency noise, and the Wiener part adapts to local variance, preserving detail where it matters most.
 
@@ -78,7 +77,7 @@ Load your image, apply the combined Gaussian‑Wiener filter, and you’ll see a
 Before we dive in, ensure you have:
 
 - A Java development environment (JDK 8 or newer).  
-- The Aspose.PSD for Java library. You can download it **[here](https://releases.aspose.com/psd/java/)**.  
+- The Aspose.PSD for Java library. You can **[download the Aspose.PSD for Java library](https://releases.aspose.com/psd/java/)**.  
 - Basic familiarity with Java syntax and object‑oriented concepts.
 
 ## Import Packages
@@ -95,7 +94,7 @@ import com.aspose.psd.imageoptions.GifOptions;
 
 These imports give you access to image loading, raster manipulation, filter options, and output formats.
 
-## Step 1: Load Image
+## Step 1: load image
 
 The `RasterImage` class represents a raster‑based image that can be processed pixel‑by‑pixel.
 
@@ -109,7 +108,7 @@ RasterImage rasterImage = (RasterImage)image;
 
 We load a PSD file from the specified directory and cast it to a `RasterImage` so we can work with pixel data.
 
-## Step 2: Check RasterImage
+## Step 2: check rasterImage
 
 A safety check confirms that the loaded file is raster‑based; otherwise the routine exits gracefully.
 
@@ -119,7 +118,7 @@ if (rasterImage == null) {
 }
 ```
 
-## Step 3: Configure Filter Options
+## Step 3: configure filter options
 
 The `GaussWienerFilterOptions` class lets you fine‑tune both Gaussian and Wiener parameters in a single object.
 
@@ -132,7 +131,7 @@ options.setGrayscale(true);
 - The second argument (`3`) sets the smooth value used by the Wiener algorithm.  
 - `setGrayscale(true)` tells the filter to work in grayscale, which often yields cleaner results for noise reduction.
 
-## Step 4: Apply Filter and Save
+## Step 4: apply filter and save
 
 The `filter` method applies the configured Gaussian‑Wiener combination to the entire image bounds. Finally, we save the processed image as a GIF using `GifOptions`. You can replace `GifOptions` with `PngOptions`, `JpegOptions`, etc., to **export PNG Java** or other formats.
 
@@ -142,13 +141,13 @@ String destName = dataDir + "gauss_wiener_out.gif";
 image.save(destName, new GifOptions());
 ```
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **Null RasterImage:** Ensure the source file is a PSD or another raster‑compatible format.  
 - **Performance:** Large images may take longer; consider reducing the radius or processing a scaled‑down copy first.  
 - **Color vs. Grayscale:** If you need to keep color, set `options.setGrayscale(false)`.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I apply these filters to images in formats other than PSD?**  
 A1: Yes, Aspose.PSD for Java supports various image formats beyond PSD, such as PNG, JPEG, BMP, and GIF.
@@ -160,7 +159,7 @@ A2: The trial version limits output size and adds a watermark. To unlock full ca
 A3: Visit the **[Aspose.PSD Forum](https://forum.aspose.com/c/psd/34)** for community assistance and official responses.
 
 **Q4: Is there a temporary license available for testing purposes?**  
-A4: Yes, you can obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+A4: Yes, you can **[obtain a temporary license](https://purchase.aspose.com/temporary-license/)**.
 
 **Q5: Where can I find detailed documentation for Aspose.PSD for Java?**  
 A5: Refer to the **[documentation](https://reference.aspose.com/psd/java/)** for in‑depth API references and additional examples.
