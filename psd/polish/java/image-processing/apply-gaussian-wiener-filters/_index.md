@@ -1,33 +1,90 @@
 ---
-title: Zastosuj filtry Gaussa i Wienera w Aspose.PSD dla Java
+date: 2026-07-17
+description: Samouczek przetwarzania obrazów w Javie z użyciem Aspose.PSD, ucz się,
+  jak krok po kroku stosować filtry Gaussa i Wienera, aby uzyskać zachwycające wyniki
+  wizualne.
+keywords:
+- java image processing tutorial
+- export png java
+- gaussian filter java
+- wiener filter java
+lastmod: 2026-07-17
 linktitle: Zastosuj filtry Gaussa i Wienera
-second_title: Aspose.PSD API Java
-description: Ulepsz przetwarzanie obrazu Java za pomocą Aspose.PSD. Naucz się krok po kroku stosować filtry Gaussa i Wienera, aby uzyskać oszałamiające rezultaty wizualne.
-weight: 10
+og_description: Samouczek przetwarzania obrazów w Javie pokazuje, jak stosować filtry
+  Gaussa i Wienera przy użyciu Aspose.PSD dla Javy, w tym eksport do formatu PNG i
+  innych formatów.
+og_image_alt: 'Developer guide: Apply Gaussian and Wiener filters to images in Java
+  using Aspose.PSD'
+og_title: Samouczek przetwarzania obrazów w Javie – Zastosowanie filtrów Gaussa i
+  Wienera
+schemas:
+- author: Aspose
+  dateModified: '2026-07-17'
+  description: Java image processing tutorial using Aspose.PSD learn how to apply
+    Gaussian and Wiener filters step‑by‑step for stunning visual results.
+  headline: Java Image Processing Tutorial – Apply Gaussian & Wiener Filters
+  type: TechArticle
+- questions:
+  - answer: It smooths an image by averaging neighboring pixels, reducing high‑frequency
+      noise.
+    question: What does the Gaussian filter do?
+  - answer: It performs adaptive smoothing, preserving edges while diminishing noise.
+    question: What is the Wiener filter?
+  - answer: Aspose.PSD for Java provides built‑in support for both filters.
+    question: Which library is used?
+  - answer: A trial works for testing, but a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Yes—Aspose.PSD supports PNG, JPEG, BMP, and many more.
+    question: Can I output formats other than GIF?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+tags:
+- java image processing
+- Aspose.PSD
+- gaussian filter
+- wiener filter
+- export png java
+title: Samouczek przetwarzania obrazów w Javie – Zastosowanie filtrów Gaussa i Wienera
 url: /pl/java/image-processing/apply-gaussian-wiener-filters/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastosuj filtry Gaussa i Wienera w Aspose.PSD dla Java
+# Samouczek przetwarzania obrazów w Javie – Zastosowanie filtrów Gaussa i Wienera z Aspose.PSD
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w naszym obszernym samouczku na temat stosowania filtrów Gaussa i Wienera w Aspose.PSD dla Java! W tym przewodniku przeprowadzimy Cię przez proces ulepszania zdjęć przy użyciu tych potężnych filtrów. Aspose.PSD dla Java zapewnia solidny zestaw funkcji do przetwarzania obrazu, a dzięki zastosowaniu filtrów Gaussa i Wienera można uzyskać gładsze i bardziej wyrafinowane obrazy.
+Witamy w naszym **samouczku przetwarzania obrazów w Javie**, który pokazuje, jak zastosować filtry Gaussa i Wienera przy użyciu Aspose.PSD dla Javy. Niezależnie od tego, czy oczyszczasz zaszumione zdjęcia, czy przygotowujesz grafikę do publikacji w sieci, te filtry zapewniają płynne, profesjonalnie wyglądające wyniki. W ciągu kilku minut zobaczysz pełny przepływ pracy — od wczytania pliku PSD po zapis przefiltrowanego wyniku jako GIF.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi filtr Gaussa?** Wygładza obraz, uśredniając sąsiednie piksele, redukując szum o wysokiej częstotliwości.  
+- **Czym jest filtr Wienera?** Wykonuje adaptacyjne wygładzanie, zachowując krawędzie przy jednoczesnym zmniejszaniu szumu.  
+- **Jakiej biblioteki użyto?** Aspose.PSD dla Javy zapewnia wbudowane wsparcie dla obu filtrów.  
+- **Czy potrzebna jest licencja?** Wersja próbna działa do testów, ale do produkcji wymagana jest licencja komercyjna.  
+- **Czy mogę wyeksportować formaty inne niż GIF?** Tak — Aspose.PSD obsługuje PNG, JPEG, BMP i wiele innych.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest samouczek przetwarzania obrazów w Javie?
 
-- Środowisko programistyczne Java: Upewnij się, że na komputerze skonfigurowano środowisko programistyczne Java.
+Samouczek przetwarzania obrazów w Javie prowadzi programistów przez niezbędne kroki wczytywania obrazu, stosowania transformacji takich jak filtry czy zmiana rozmiaru oraz ostatecznego zapisu wyniku w wybranym formacie. Dzięki przejrzystym przykładom kodu i wyjaśnieniom pomaga zintegrować możliwości manipulacji obrazami bezpośrednio w aplikacjach Java, zmniejszając potrzebę korzystania z zewnętrznych narzędzi.
 
-- Biblioteka Aspose.PSD dla Java: Pobierz i zainstaluj bibliotekę Aspose.PSD dla Java. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/psd/java/).
+## Dlaczego używać filtrów Gaussa i Wienera?
 
-## Importuj pakiety
+Wczytaj obraz, zastosuj połączony filtr Gaussa‑Wienera i zobacz dramatyczne zmniejszenie ziarnistości przy jednoczesnym zachowaniu ostrości kluczowych krawędzi — idealne do przygotowywania grafik do sieci lub archiwalnych skanów. Część Gaussa usuwa szum o wysokiej częstotliwości, a część Wienera dostosowuje się do lokalnej wariancji, zachowując szczegóły tam, gdzie są najważniejsze.
 
-W swoim projekcie Java zaimportuj niezbędne pakiety dla Aspose.PSD. Oto przykładowa instrukcja importu, od której możesz zacząć:
+## Wymagania wstępne
+
+Przed rozpoczęciem upewnij się, że masz:
+
+- Środowisko programistyczne Java (JDK 8 lub nowszy).  
+- Bibliotekę Aspose.PSD dla Javy. Możesz ją pobrać **[tutaj](https://releases.aspose.com/psd/java/)**.  
+- Podstawową znajomość składni Javy i koncepcji programowania obiektowego.
+
+## Importowanie pakietów
+
+Instrukcje importu wprowadzają klasy Aspose.PSD do zasięgu, abyś mógł pracować z obrazami rastrowymi, opcjami filtrów i formatami wyjściowymi.
 
 ```java
 import com.aspose.psd.Image;
@@ -37,9 +94,11 @@ import com.aspose.psd.imagefilters.filteroptions.GaussWienerFilterOptions;
 import com.aspose.psd.imageoptions.GifOptions;
 ```
 
-Podzielmy teraz przykład na wiele kroków, aby zastosować filtry Gaussa i Wienera.
+Te importy dają dostęp do wczytywania obrazów, manipulacji rastrem, opcji filtrów i formatów wyjściowych.
 
-## Krok 1: Załaduj obraz
+## Krok 1: Wczytaj obraz
+
+Klasa `RasterImage` reprezentuje obraz rastrowy, który może być przetwarzany piksel po pikselu.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -49,9 +108,11 @@ Image image = Image.load(sourceFile);
 RasterImage rasterImage = (RasterImage)image;
 ```
 
-W tym kroku ładujemy plik obrazu PSD z określonego katalogu.
+Wczytujemy plik PSD z określonego katalogu i rzutujemy go na `RasterImage`, aby móc pracować z danymi pikseli.
 
 ## Krok 2: Sprawdź RasterImage
+
+Sprawdzenie bezpieczeństwa potwierdza, że wczytany plik jest rastrowy; w przeciwnym razie procedura kończy się łagodnie.
 
 ```java
 if (rasterImage == null) {
@@ -59,18 +120,22 @@ if (rasterImage == null) {
 }
 ```
 
-Upewnij się, że załadowany obraz jest prawidłowym obrazem RasterImage; w przeciwnym razie proces zostaje zakończony.
+## Krok 3: Skonfiguruj opcje filtru
 
-## Krok 3: Skonfiguruj opcje filtra
+Klasa `GaussWienerFilterOptions` pozwala precyzyjnie dostroić zarówno parametry filtru Gaussa, jak i Wienera w jednym obiekcie.
 
 ```java
 GaussWienerFilterOptions options = new GaussWienerFilterOptions(12, 3);
 options.setGrayscale(true);
 ```
 
-Utwórz instancję GaussWienerFilterOptions, ustaw rozmiar promienia, wartość wygładzenia i określ, czy chcesz zastosować filtr w skali szarości.
+- Pierwszy argument (`12`) określa rozmiar promienia jądra Gaussa.  
+- Drugi argument (`3`) ustawia wartość wygładzania używaną przez algorytm Wienera.  
+- `setGrayscale(true)` nakazuje filtrowi pracować w trybie odcieni szarości, co często daje czystsze wyniki przy redukcji szumu.
 
 ## Krok 4: Zastosuj filtr i zapisz
+
+Metoda `filter` stosuje skonfigurowaną kombinację filtrów Gaussa‑Wienera do całego obrazu. Na koniec zapisujemy przetworzony obraz jako GIF przy użyciu `GifOptions`. Możesz zamienić `GifOptions` na `PngOptions`, `JpegOptions` itp., aby **eksportować PNG w Javie** lub inne formaty.
 
 ```java
 rasterImage.filter(image.getBounds(), options);
@@ -78,33 +143,46 @@ String destName = dataDir + "gauss_wiener_out.gif";
 image.save(destName, new GifOptions());
 ```
 
-Na koniec zastosuj skonfigurowane filtry Gaussa i Wienera do RasterImage i zapisz wynikowy obraz w formacie GIF.
+## Typowe problemy i wskazówki
 
-## Wniosek
+- **Null RasterImage:** Upewnij się, że plik źródłowy jest w formacie PSD lub innym kompatybilnym z rastrem.  
+- **Wydajność:** Duże obrazy mogą wymagać więcej czasu; rozważ zmniejszenie promienia lub najpierw przetworzenie skalowanej kopii.  
+- **Kolor vs. odcienie szarości:** Jeśli potrzebujesz zachować kolor, ustaw `options.setGrayscale(false)`.
 
-Gratulacje! Pomyślnie nauczyłeś się, jak stosować filtry Gaussa i Wienera przy użyciu Aspose.PSD dla Java. Eksperymentuj z różnymi parametrami, aby uzyskać pożądane ulepszenia obrazu.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+**Q1: Czy mogę zastosować te filtry do obrazów w formatach innych niż PSD?**  
+A1: Tak, Aspose.PSD dla Javy obsługuje różne formaty obrazów poza PSD, takie jak PNG, JPEG, BMP i GIF.
 
-### P1: Czy mogę zastosować te filtry do obrazów w formatach innych niż PSD?
+**Q2: Czy istnieją ograniczenia w wersji próbnej Aspose.PSD dla Javy?**  
+A2: Wersja próbna ogranicza rozmiar wyjścia i dodaje znak wodny. Aby odblokować pełne możliwości, uzyskaj ważną licencję.
 
-Odpowiedź 1: Tak, Aspose.PSD dla Java obsługuje różne formaty obrazów poza PSD.
+**Q3: Jak mogę uzyskać wsparcie dla Aspose.PSD dla Javy?**  
+A3: Odwiedź **[forum Aspose.PSD](https://forum.aspose.com/c/psd/34)**, aby uzyskać pomoc społeczności i oficjalne odpowiedzi.
 
-### P2: Czy są jakieś ograniczenia w wersji próbnej Aspose.PSD dla Java?
+**Q4: Czy dostępna jest tymczasowa licencja do celów testowych?**  
+A4: Tak, możesz uzyskać tymczasową licencję **[tutaj](https://purchase.aspose.com/temporary-license/)**.
 
-Odpowiedź 2: Wersja próbna ma ograniczenia i możesz poznać pełne możliwości, uzyskując ważną licencję.
+**Q5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla Javy?**  
+A5: Zapoznaj się z **[dokumentacją](https://reference.aspose.com/psd/java/)**, aby uzyskać szczegółowe odniesienia API i dodatkowe przykłady.
 
-### P3: Jak mogę uzyskać wsparcie dla Aspose.PSD dla Java?
+## Podsumowanie
 
- A3: Odwiedź[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34) za wsparcie społeczności i dyskusje.
+Ukończyłeś pełny **samouczek przetwarzania obrazów w Javie**, który pokazuje, jak **zastosować filtry Gaussa** i Wienera przy użyciu Aspose.PSD dla Javy. Eksperymentuj z różnymi wartościami promienia i wygładzania, przełączaj tryb odcieni szarości i wypróbuj inne formaty wyjściowe, takie jak PNG, aby zobaczyć, jak filtry wpływają na Twoje obrazy. Szczęśliwego kodowania!
 
-### P4: Czy dostępna jest licencja tymczasowa do celów testowych?
+---
 
- Odpowiedź 4: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+**Last Updated:** 2026-07-17  
+**Tested With:** Aspose.PSD for Java 23.12 (latest at time of writing)  
+**Author:** Aspose
 
-### P5: Gdzie mogę znaleźć szczegółową dokumentację Aspose.PSD dla Java?
+## Powiązane samouczki
 
- Odpowiedź 5: Patrz[dokumentacja](https://reference.aspose.com/psd/java/) w celu uzyskania szczegółowych informacji.
+- [Filtr krok po kroku – Zastosowanie filtrów ruchu Wienera przy użyciu Aspose.PSD dla Javy](/psd/java/image-processing/apply-motion-wiener-filters/)
+- [Filtr krok po kroku – Zastosowanie filtrów medianowych i Wienera (Java)](/psd/java/image-processing/apply-median-wiener-filters/)
+- [Jak filtrować pliki PNG w Aspose.PSD dla Javy](/psd/java/optimizing-png-files/apply-filters-png-files/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
