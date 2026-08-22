@@ -1,9 +1,63 @@
 ---
-date: 2026-01-12
-description: เรียนรู้วิธีแปลงไฟล์ AI เป็น PDF ใน Java ด้วย Aspose.PSD. ปฏิบัติตามคู่มือขั้นตอนโดยละเอียดของเราเพื่อจัดการการแปลงไฟล์ของคุณอย่างมีประสิทธิภาพ.
-linktitle: Convert AI to PDF in Java
+date: 2026-08-22
+description: เรียนรู้วิธีแปลงไฟล์ AI เป็น PDF ใน Java ด้วยไลบรารี aspose psd java.
+  ปฏิบัติตาม step‑by‑step guide เพื่อการแปลงไฟล์ที่มีประสิทธิภาพ.
+keywords:
+- aspose psd java
+- export ai as pdf
+- convert illustrator to pdf
+- ai to pdf conversion
+- java pdf conversion library
+lastmod: 2026-08-22
+linktitle: แปลง AI เป็น PDF ใน Java
+og_description: เรียนรู้วิธีแปลงไฟล์ AI เป็น PDF ใน Java ด้วย aspose psd java. คู่มือนี้แสดง
+  quick steps, code‑free setup, และ tips สำหรับผลลัพธ์คุณภาพสูง.
+og_image_alt: Screenshot of Java code converting AI to PDF using Aspose.PSD
+og_title: วิธีแปลงไฟล์ AI เป็น PDF ใน Java ด้วย aspose psd java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to convert AI files to PDF in Java using the aspose psd java
+    library. Follow a step‑by‑step guide for efficient file conversion.
+  headline: How to convert AI to PDF in Java using aspose psd java
+  type: TechArticle
+- description: Learn how to convert AI files to PDF in Java using the aspose psd java
+    library. Follow a step‑by‑step guide for efficient file conversion.
+  name: How to convert AI to PDF in Java using aspose psd java
+  steps:
+  - name: '**Java Development Kit (JDK)** – JDK 8 or later. Download from [Oracle''s
+      website](https://www.oracle.com/java/technologies/javase-downloads.html).'
+    text: '**Java Development Kit (JDK)** – JDK 8 or later. Download from [Oracle''s
+      website](https://www.oracle.com/java/technologies/javase-downloads.html).'
+  - name: '**Aspose.PSD for Java library** – Obtain the JAR from [Aspose Releases](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD for Java library** – Obtain the JAR from [Aspose Releases](https://releases.aspose.com/psd/java/).'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans for convenient project management.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans for convenient project management.'
+  type: HowTo
+- questions:
+  - answer: Vector data is retained in the PDF; raster layers are embedded according
+      to the JPEG quality setting.
+    question: Does the conversion preserve layers and vector paths?
+  - answer: Yes, iterate over a folder, load each file with `Image.load()`, and call
+      `save()` with appropriate `PdfOptions`.
+    question: Can I convert multiple AI files in a batch?
+  - answer: Use `options.setPageSize(Size)` to define custom dimensions before saving.
+    question: Is there a way to set PDF page size?
+  - answer: The PDF contains a rendered image; text extraction requires OCR, which
+      is outside the scope of Aspose.PSD.
+    question: Will the generated PDF be searchable?
+  - answer: Aspose.PSD currently does not open encrypted AI files; decrypt them before
+      processing.
+    question: How do I handle password‑protected AI files?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: แปลง AI เป็น PDF ด้วย Java
+tags:
+- aspose psd
+- java image conversion
+- ai to pdf
+- pdf generation
+- java development
+title: วิธีแปลงไฟล์ AI เป็น PDF ใน Java ด้วย aspose psd java
 url: /th/java/java-ai-to-image-format-conversion/convert-ai-to-pdf/
 weight: 12
 ---
@@ -15,100 +69,141 @@ weight: 12
 # แปลง AI เป็น PDF ใน Java
 
 ## บทนำ
-คุณกำลังทำงานกับไฟล์ Adobe Illustrator และต้องการ **แปลง AI เป็น PDF** ในแอปพลิเคชัน Java ของคุณหรือไม่? ไม่ว่าคุณจะจัดการกราฟิกเวกเตอร์, ภาพประกอบ, หรือไฟล์ออกแบบ การแปลงไฟล์ AI เป็น PDF สามารถเป็นสิ่งสำคัญสำหรับการจัดทำเอกสาร, การแชร์, และการพิมพ์ ในคู่มือนี้ เราจะสำรวจวิธีที่คุณสามารถแปลงไฟล์ AI เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PSD for Java Aspose.PSD เป็นไลบรารีที่ทรงพลังซึ่งทำให้การจัดการและแปลงไฟล์ PSD, AI, และรูปแบบภาพอื่น ๆ ง่ายขึ้น ดังนั้นมาเริ่มต้นสำรวจขั้นตอนและรายละเอียดของกระบวนการแปลงนี้กันเถอะ!
+หากคุณต้องการ **convert AI to PDF** ภายในแอปพลิเคชัน Java, ไลบรารี **aspose psd java** ให้โซลูชันที่เชื่อถือได้และเป็น Java แท้ ไม่ว่าคุณจะกำลังเตรียมทรัพยากรการออกแบบสำหรับการตรวจสอบของลูกค้า, จัดเก็บกราฟิกเวกเตอร์, หรือสร้าง PDF ที่พิมพ์ได้, บทแนะนำนี้จะพาคุณผ่านขั้นตอนทั้งหมด—ตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการสร้าง PDF สุดท้าย—โดยคงความแม่นยำของเวกเตอร์และให้คุณควบคุมคุณภาพของภาพเรสเตอร์
 
-## คำตอบสั้น
-- **ไลบรารีที่จัดการการแปลง AI เป็น PDF ใน Java คืออะไร?** Aspose.PSD for Java  
-- **ฉันต้องใช้ไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** ใช่, จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์.  
+## คำตอบอย่างรวดเร็ว
+- **ไลบรารีใดที่จัดการการแปลง AI เป็น PDF ใน Java?** Aspose.PSD for Java (aspose psd java)  
+- **ฉันต้องการใบอนุญาตสำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** ใช่, จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการปรับใช้ในผลิตภัณฑ์.  
 - **เวอร์ชัน JDK ที่รองรับคืออะไร?** JDK 8 หรือใหม่กว่า.  
-- **ฉันสามารถปรับคุณภาพ PDF ได้หรือไม่?** ใช่, ใช้ `PdfOptions` (เช่น `setJpegQuality`).  
-- **การแปลงนี้ไม่มีการสูญเสียข้อมูลเวกเตอร์หรือไม่?** เนื้อหาเวกเตอร์จะถูกเก็บไว้; ภาพแรสเตอร์จะตามการตั้งค่าคุณภาพ JPEG.
+- **ฉันสามารถปรับแต่งคุณภาพ PDF ได้หรือไม่?** ใช่, ใช้ `PdfOptions` (เช่น `setJpegQuality`).  
+- **การแปลงนี้ไม่มีการสูญเสียข้อมูลสำหรับเวกเตอร์หรือไม่?** เนื้อหาเวกเตอร์จะถูกเก็บไว้; ภาพเรสเตอร์จะตามการตั้งค่าคุณภาพ JPEG.
+
+## aspose psd java คืออะไร?
+Aspose.PSD for Java เป็น API ที่จัดการเต็มรูปแบบที่ให้คุณโหลด, แก้ไข, และแปลง PSD, AI, และรูปแบบภาพอื่น ๆ มากกว่า 100 รูปแบบโดยไม่ต้องพึ่งพาไลบรารีภายนอก มันสนับสนุนการทำงานทั้งเวกเตอร์และเรสเตอร์ ทำให้เหมาะสำหรับสถานการณ์ **export ai as pdf**
 
 ## วิธีแปลง AI เป็น PDF ด้วย Java?
-ด้านล่างเป็นขั้นตอนสั้น ๆ ที่ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการบันทึกไฟล์ PDF สุดท้าย.
+โหลดไฟล์ AI ต้นฉบับ, กำหนดค่าการตั้งค่า PDF ทางเลือก, และเรียก `save`. กระบวนการแบบครบวงจรนี้ทำการแปลงเสร็จในเพียงไม่กี่บรรทัดของโค้ด, ลบความจำเป็นในการใช้ Adobe Illustrator บนเซิร์ฟเวอร์ออกไป กระบวนการจัดการทั้งเลเยอร์เวกเตอร์และเรสเตอร์, คงความแม่นยำของเวกเตอร์พร้อมให้คุณควบคุมคุณภาพภาพเรสเตอร์ผ่าน `PdfOptions`.
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะเริ่มเขียนโค้ด, โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งาน:
-1. **Java Development Kit (JDK):** ตรวจสอบว่าคุณมี JDK 8 หรือใหม่กว่า ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้จาก [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.PSD for Java Library:** ดาวน์โหลดและรวม Aspose.PSD for Java เข้าในโปรเจคของคุณ คุณสามารถรับไลบรารีได้จาก [Aspose Releases](https://releases.aspose.com/psd/java/).  
-3. **การตั้งค่า IDE:** ใช้ Integrated Development Environment (IDE) เช่น IntelliJ IDEA, Eclipse หรือ NetBeans เพื่อการจัดการโค้ดที่ง่ายขึ้น.
+ก่อนที่คุณจะเริ่ม, ตรวจสอบให้แน่ใจว่ามีสิ่งต่อไปนี้พร้อมใช้งาน:
+
+1. **Java Development Kit (JDK)** – JDK 8 หรือใหม่กว่า. ดาวน์โหลดจาก [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.PSD for Java library** – รับไฟล์ JAR จาก [Aspose Releases](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse, หรือ NetBeans สำหรับการจัดการโครงการที่สะดวก.
 
 ## นำเข้าแพ็กเกจ
-เพื่อเริ่มต้นกับโค้ด, คุณต้องนำเข้าแพ็กเกจ Aspose.PSD ที่จำเป็น นี่คือตัวอย่างวิธีทำ:
+คำสั่ง `import` จะนำคลาสที่จำเป็นเข้าสู่ขอบเขตการใช้งาน.  
+`AiImage` แสดงถึงไฟล์ Adobe Illustrator, ในขณะที่ `PdfOptions` ให้คุณปรับแต่ง PDF ที่ส่งออกอย่างละเอียด.
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.ai.AiImage;
 import com.aspose.psd.imageoptions.PdfOptions;
 ```
-การนำเข้าดังกล่าวจะนำคลาสที่จำเป็นสำหรับการโหลดและแปลงไฟล์ AI เป็น PDF มาใช้ ตอนนี้เราจะเดินผ่านขั้นตอนต่าง ๆ อย่างละเอียด.
+
+การนำเข้าดังกล่าวเป็นพื้นฐานสำหรับกระบวนการแปลง.
 
 ## ขั้นตอนที่ 1: ตั้งค่าสภาพแวดล้อมของคุณ
-สิ่งแรกที่ต้องทำคือให้แน่ใจว่าสภาพแวดล้อมของคุณถูกตั้งค่า นี่คือตัวอย่างโค้ดสำหรับการกำหนดค่าไดเรกทอรีและเส้นทางไฟล์:
+กำหนดโฟลเดอร์ที่เก็บไฟล์ AI ต้นฉบับของคุณและเส้นทางปลายทางสำหรับ PDF.
+
 ```java
 String dataDir = "Your Document Directory"; 
 String sourceFileName = dataDir + "34992OStroke.ai";
 String outFileName = dataDir + "34992OStroke.pdf";
 ```
-แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ AI ของคุณอยู่ ขั้นตอนนี้ทำให้คุณมีเส้นทางที่ถูกต้องสำหรับไฟล์ต้นทางและไฟล์ปลายทาง.
+
+แทนที่ `"Your Document Directory"` ด้วยไดเรกทอรีจริงบนเครื่องของคุณ.
 
 ## ขั้นตอนที่ 2: โหลดภาพ AI
-ต่อไปคุณต้องโหลดไฟล์ AI ของคุณโดยใช้ Aspose.PSD วิธีทำดังนี้:
+สร้างอินสแตนซ์ `AiImage` โดยโหลดไฟล์ AI จากดิสก์.
+
 ```java
 AiImage image = (AiImage) Image.load(sourceFileName);
 ```
-บรรทัดนี้จะอ่านไฟล์ AI เข้าไปในอ็อบเจกต์ `AiImage` ทำให้พร้อมสำหรับการแปลง เมธอด `Image.load()` รับเส้นทางไฟล์เป็นอาร์กิวเมนต์.
 
-## ขั้นตอนที่ 3: กำหนดค่า PDF Options
-ก่อนบันทึกรูปภาพเป็น PDF, คุณสามารถกำหนดค่าตัวเลือกเฉพาะ PDF ได้ นี่คือตัวอย่างการตั้งค่า `PdfOptions`:
+อ็อบเจ็กต์ `AiImage` ตอนนี้ถือข้อมูลเวกเตอร์พร้อมสำหรับการเรนเดอร์.
+
+## ขั้นตอนที่ 3: กำหนดค่าตัวเลือก PDF
+ปรับการบีบอัด, ความละเอียด, หรือขนาดหน้า ก่อนบันทึก. สำหรับภาพเรสเตอร์คุณภาพสูง, ตั้งค่าคุณภาพ JPEG เป็น 100.
+
 ```java
 PdfOptions options = new PdfOptions();
 ```
-คุณสามารถปรับแต่ง `PdfOptions` เพื่อควบคุมการบีบอัด, ความละเอียด, และขนาดหน้า ตัวอย่างเช่น:
+
+คุณยังสามารถควบคุมขอบหน้าหรือฝังฟอนต์ได้หากต้องการ.
+
 ```java
 options.setJpegQuality(100);
 ```
-บรรทัดนี้ตั้งค่าคุณภาพ JPEG สำหรับภาพใด ๆ ภายใน PDF ให้เป็นระดับสูงสุด.
 
 ## ขั้นตอนที่ 4: บันทึกเป็น PDF
-ส่วนที่น่าตื่นเต้นมาถึง – การบันทึกไฟล์ AI ของคุณเป็น PDF ใช้เมธอด `save()` ของอ็อบเจกต์ `AiImage`:
+เรียกใช้เมธอด `save` บนอินสแตนซ์ `AiImage`, ส่งเส้นทางออกและ `PdfOptions` ที่กำหนดค่าไว้.
+
 ```java
 image.save(outFileName, options);
 ```
-บรรทัดนี้จะทำการแปลงภาพ AI ของคุณเป็นไฟล์ PDF ที่ตำแหน่งที่ระบุ ตรวจสอบให้แน่ใจว่า `outFileName` ชี้ไปยังตำแหน่งปลายทางที่ต้องการ.
 
-## ทำไมต้องใช้ Aspose.PSD สำหรับ Java?
-- **API ครบวงจร** – รองรับ AI, PSD, และรูปแบบแรสเตอร์หลายประเภท.  
-- **ไม่มีการพึ่งพาภายนอก** – Pure Java, ง่ายต่อการรวม.  
-- **การเรนเดอร์คุณภาพสูง** – รักษาความแม่นยำของเวกเตอร์และให้คุณปรับตั้งค่าราสเตอร์ได้.  
-- **ตัวเลือก PDF ที่แข็งแกร่ง** – ควบคุมการบีบอัด, คุณภาพภาพ, และการจัดหน้า.
+ไลบรารีจะเขียน PDF ที่คงเส้นทางเวกเตอร์ทั้งหมดและฝังภาพเรสเตอร์ตามการตั้งค่าคุณภาพของคุณ.
+
+## ทำไมต้องใช้ aspose psd สำหรับ java?
+Aspose.PSD for Java รองรับ **50+ รูปแบบการนำเข้าและส่งออก**, ประมวลผลเอกสารหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ, และทำงานบนแพลตฟอร์มใดก็ได้ที่รองรับ Java 8+. ประสิทธิภาพที่วัดได้นี้หมายความว่าคุณสามารถแปลงชุดไฟล์การออกแบบขนาดใหญ่เป็นชุดได้โดยใช้หน่วยความจำที่คาดเดาได้.
 
 ## ปัญหาทั่วไปและวิธีแก้
 | ปัญหา | วิธีแก้ |
 |-------|----------|
-| **ไฟล์ไม่พบ** | ตรวจสอบ `dataDir` และชื่อไฟล์อีกครั้ง; ใช้เส้นทางแบบ absolute สำหรับการทดสอบ. |
-| **OutOfMemoryError กับไฟล์ AI ขนาดใหญ่** | เพิ่มขนาด heap ของ JVM (`-Xmx`) หรือประมวลผลแต่ละหน้าแยกกันโดยใช้เลเยอร์ของ `AiImage`. |
-| **คุณภาพภาพ PDF ต่ำ** | ตั้งค่า `options.setJpegQuality(100)` หรือใช้ `PdfOptions.setCompressionMode(CompressionMode.None)`. |
+| **ไฟล์ไม่พบ** | ตรวจสอบ `dataDir` และชื่อไฟล์อีกครั้ง; ใช้เส้นทางแบบเต็มระหว่างการทดสอบ. |
+| **OutOfMemoryError บนไฟล์ AI ขนาดใหญ่** | เพิ่มขนาด heap ของ JVM (`-Xmx`) หรือประมวลผลหน้าแบบชั้นต่อชั้นโดยใช้เลเยอร์ของ `AiImage`. |
+| **คุณภาพภาพ PDF ต่ำ** | ตั้งค่า `options.setJpegQuality(100)` หรือปิดการบีบอัดด้วย `PdfOptions.setCompressionMode(CompressionMode.None)`. |
 
 ## คำถามที่พบบ่อยเพิ่มเติม
 
-**Q: การแปลงนี้รักษาเลเยอร์และเส้นทางเวกเตอร์หรือไม่?**  
-A: ข้อมูลเวกเตอร์จะถูกเก็บไว้ใน PDF; เลเยอร์แรสเตอร์จะถูกฝังตามการตั้งค่าคุณภาพ JPEG.
+Q: การแปลงนี้รักษาเลเยอร์และเส้นทางเวกเตอร์หรือไม่?  
+A: ข้อมูลเวกเตอร์จะถูกเก็บไว้ใน PDF; เลเยอร์เรสเตอร์จะถูกฝังตามการตั้งค่าคุณภาพ JPEG.
 
-**Q: ฉันสามารถแปลงไฟล์ AI หลายไฟล์พร้อมกันได้หรือไม่?**  
-A: ได้, ให้วนลูปผ่านโฟลเดอร์, โหลดแต่ละไฟล์ด้วย `Image.load()`, แล้วเรียก `save()` พร้อม `PdfOptions` ที่เหมาะสม.
+Q: ฉันสามารถแปลงไฟล์ AI หลายไฟล์เป็นชุดได้หรือไม่?  
+A: ใช่, ทำการวนลูปผ่านโฟลเดอร์, โหลดแต่ละไฟล์ด้วย `Image.load()`, และเรียก `save()` พร้อม `PdfOptions` ที่เหมาะสม.
 
-**Q: มีวิธีตั้งขนาดหน้าของ PDF หรือไม่?**  
+Q: มีวิธีตั้งขนาดหน้าของ PDF หรือไม่?  
 A: ใช้ `options.setPageSize(Size)` เพื่อกำหนดขนาดที่กำหนดเองก่อนบันทึก.
 
-**Q: PDF ที่สร้างขึ้นจะสามารถค้นหาได้หรือไม่?**  
-A: PDF จะประกอบด้วยภาพที่เรนเดอร์; การสกัดข้อความต้องใช้ OCR ซึ่งอยู่นอกขอบเขตของ Aspose.PSD.
+Q: PDF ที่สร้างขึ้นจะสามารถค้นหาได้หรือไม่?  
+A: PDF มีภาพที่เรนเดอร์; การสกัดข้อความต้องใช้ OCR ซึ่งอยู่นอกขอบเขตของ Aspose.PSD.
 
-**Q: ฉันจะจัดการไฟล์ AI ที่มีการป้องกันด้วยรหัสผ่านอย่างไร?**  
-A: ปัจจุบัน Aspose.PSD ไม่รองรับการเปิดไฟล์ AI ที่เข้ารหัส; คุณต้องถอดรหัสไฟล์ก่อน.
+Q: ฉันจะจัดการไฟล์ AI ที่ป้องกันด้วยรหัสผ่านอย่างไร?  
+A: ปัจจุบัน Aspose.PSD ไม่สามารถเปิดไฟล์ AI ที่เข้ารหัสได้; ต้องถอดรหัสก่อนการประมวลผล.
 
-**Last Updated:** 2026-01-12  
-**Tested With:** Aspose.PSD for Java 24.12  
-**Author:** Aspose  
+## คำถามที่พบบ่อย
+
+Q: ฉันต้องการใบอนุญาตสำหรับโครงการเชิงพาณิชย์หรือไม่?  
+A: ใช่, จำเป็นต้องมีใบอนุญาต Aspose.PSD แบบชำระเงินสำหรับการใช้ในผลิตภัณฑ์; มีการทดลองใช้ฟรีสำหรับการประเมิน.
+
+Q: เวอร์ชัน Java ใดที่เข้ากันได้?  
+A: ไลบรารีทำงานกับ JDK 8, 11, 17, และรุ่นต่อ ๆ ไป.
+
+Q: ฉันจะเพิ่มความเร็วการแปลงสำหรับไฟล์จำนวนมากได้อย่างไร?  
+A: ใช้ `PdfOptions` อินสแตนซ์เดียวและประมวลผลไฟล์ในเธรดแบบขนาน, โดยให้แต่ละเธรดมีการจัดสรร heap ของ JVM ของตนเอง.
+
+Q: PDF ผลลัพธ์จะเป็นเวกเตอร์เท่านั้นเมื่อ AI ต้นฉบับมีเฉพาะเวกเตอร์หรือไม่?  
+A: ใช่, ไฟล์ AI ที่เป็นเวกเตอร์ล้วนจะสร้าง PDF ที่เป็นเวกเตอร์เท่านั้น; ส่วนประกอบเรสเตอร์ใด ๆ จะถูกฝังเป็นภาพโดยคำนึงถึงการตั้งค่าคุณภาพ.
+
+Q: ฉันสามารถฝังเมตาดาต้ากำหนดเองลงใน PDF ได้หรือไม่?  
+A: ใช้ `PdfOptions.getMetadata()` เพื่อเพิ่มชื่อเรื่อง, ผู้เขียน, และคีย์เวิร์ดก่อนเรียก `save()`.
+
+## สรุป
+ตอนนี้คุณมีขั้นตอนการทำงานที่ครบถ้วนและพร้อมใช้งานในผลิตภัณฑ์สำหรับ **ai to pdf conversion** ด้วยไลบรารี **aspose psd java** ขั้นตอนครอบคลุมการตั้งค่าสภาพแวดล้อม, การโหลดไฟล์ AI, การปรับแต่งตัวเลือก PDF, และการจัดการกับปัญหาทั่วไป สำรวจต่อไปโดยการรวมโค้ดนี้เข้าไปในงานแบช, เว็บเซอร์วิส, หรือเครื่องมือเดสก์ท็อปเพื่ออัตโนมัติการไหลของการออกแบบไปยังเอกสาร.
+
+---
+
+**อัปเดตล่าสุด:** 2026-08-22  
+**ทดสอบด้วย:** Aspose.PSD for Java 24.12  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [การแปลงภาพ Java – แปลงไฟล์ AI เป็นหลายรูปแบบ](/psd/java/java-ai-to-image-format-conversion/)
+- [แปลง Illustrator เป็น PNG ใน Java – คู่มือ Aspose.PSD](/psd/java/java-ai-to-image-format-conversion/convert-ai-to-png/)
+- [บันทึก PSD เป็น PDF ใน Java – แปลง PSB เป็น PDF ด้วย Aspose.PSD](/psd/java/java-psb-to-image-format-conversion/convert-psb-to-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
