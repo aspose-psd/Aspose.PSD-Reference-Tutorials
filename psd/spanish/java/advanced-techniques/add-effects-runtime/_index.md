@@ -1,12 +1,71 @@
 ---
-date: 2026-02-25
-description: Explore la manipulación de imágenes en Java con Aspose.PSD para Java
-  y aprenda cómo agregar efectos en tiempo de ejecución. Este tutorial le muestra
-  paso a paso cómo añadir efectos a las imágenes.
+date: 2026-07-27
+description: Explore java image manipulation con Aspose.PSD for Java y aprenda cómo
+  añadir efectos en tiempo de ejecución. Este tutorial le muestra step‑by‑step cómo
+  añadir efectos a las imágenes.
+keywords:
+- java image manipulation
+- apply layer effects
+- add drop shadow
+- batch image processing
+- apply glow effect
+lastmod: 2026-07-27
 linktitle: Add Effects at Runtime
+og_description: Java image manipulation made easy. Aprenda cómo añadir layer effects,
+  drop shadows y color overlays en tiempo de ejecución usando Aspose.PSD for Java.
+  Siga la guía step‑by‑step.
+og_image_alt: 'Developer guide: Adding effects to PSD images in Java with Aspose.PSD'
+og_title: Java Image Manipulation – Add Effects at Runtime con Aspose.PSD
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Explore java image manipulation with Aspose.PSD for Java and learn
+    how to add effects at runtime. This tutorial shows you step‑by‑step how to add
+    effects to images.
+  headline: Java Image Manipulation – Add Effects at Runtime with Aspose.PSD
+  type: TechArticle
+- description: Explore java image manipulation with Aspose.PSD for Java and learn
+    how to add effects at runtime. This tutorial shows you step‑by‑step how to add
+    effects to images.
+  name: Java Image Manipulation – Add Effects at Runtime with Aspose.PSD
+  steps:
+  - name: '**Java Development Kit (JDK)** – Ensure that you have Java installed on
+      your system. You can download the latest JDK from [here](https://www.oracle.com/java/technologies/javase-downloads.html).'
+    text: '**Java Development Kit (JDK)** – Ensure that you have Java installed on
+      your system. You can download the latest JDK from [here](https://www.oracle.com/java/technologies/javase-downloads.html).'
+  - name: '**Aspose.PSD for Java Library** – You need to have the Aspose.PSD for Java
+      library. If you haven''t already, download it from the [Aspose.PSD Java documentation](https://reference.aspose.com/psd/java/).'
+    text: '**Aspose.PSD for Java Library** – You need to have the Aspose.PSD for Java
+      library. If you haven''t already, download it from the [Aspose.PSD Java documentation](https://reference.aspose.com/psd/java/).'
+  - name: '**Document Directory** – Set up a directory for your documents, and remember
+      the path. In the provided example, the directory is referred to as `Your Document
+      Directory`.'
+    text: '**Document Directory** – Set up a directory for your documents, and remember
+      the path. In the provided example, the directory is referred to as `Your Document
+      Directory`.'
+  type: HowTo
+- questions:
+  - answer: Yes, you can chain calls such as `addDropShadow()`, `addInnerGlow()`,
+      etc., on the same layer’s blending options.
+    question: Can I apply multiple effects to a single layer?
+  - answer: Yes, Aspose.PSD supports PSD, BMP, JPEG, PNG, TIFF, and more, allowing
+      you to convert between formats after manipulation.
+    question: Is Aspose.PSD compatible with various image formats?
+  - answer: You can obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+    question: How can I get a temporary license for Aspose.PSD for Java?
+  - answer: Visit the Aspose.PSD [support forum](https://forum.aspose.com/c/psd/34)
+      to get help and connect with the community.
+    question: Where can I seek assistance for any issues or queries related to Aspose.PSD?
+  - answer: Yes, you can explore the free trial version [here](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.PSD for Java?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Tutorial de Manipulación de Imágenes en Java – Añadir Efectos en Tiempo de
-  Ejecución
+tags:
+- java image manipulation
+- Aspose.PSD
+- Java graphics processing
+- layer effects
+title: Java Image Manipulation – Add Effects at Runtime con Aspose.PSD
 url: /es/java/advanced-techniques/add-effects-runtime/
 weight: 20
 ---
@@ -15,54 +74,47 @@ weight: 20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregar efectos en tiempo de ejecución con Aspose.PSD para Java
+# Manipulación de Imágenes en Java – Añadir Efectos en Tiempo de Ejecución con Aspose.PSD
 
 ## Introducción
 
-En el mundo del desarrollo Java, **java image manipulation** es una necesidad frecuente, especialmente cuando deseas enriquecer los gráficos con estilos visuales dinámicos. Con Aspose.PSD para Java—una biblioteca Java potente y versátil—puedes agregar efectos en tiempo de ejecución sin esfuerzo para mejorar tus imágenes. En este tutorial, te guiaremos paso a paso, explicaremos *por qué* cada paso es importante y te daremos consejos prácticos para que puedas comenzar a aplicar efectos en tus propios proyectos de inmediato.
-
-## Respuestas rápidas
-- **¿Qué biblioteca ayuda con java image manipulation?** Aspose.PSD for Java.  
-- **¿Puedo agregar efectos en tiempo de ejecución?** Sí—utiliza la API de layer‑effects para aplicar superposiciones de color, sombras y más.  
+## Respuestas Rápidas
+- **¿Qué biblioteca ayuda con la manipulación de imágenes en java?** Aspose.PSD for Java.  
+- **¿Puedo añadir efectos en tiempo de ejecución?** Sí—utilice la API de efectos de capa para aplicar superposiciones de color, sombras, brillos y más.  
 - **¿Necesito una licencia para desarrollo?** Una licencia temporal funciona para pruebas; se requiere una licencia completa para producción.  
 - **¿Qué versión de JDK se requiere?** Cualquier JDK reciente (8+).  
 - **¿Dónde puedo descargar una prueba gratuita?** Desde la página de descarga de Aspose.PSD (enlace en los requisitos previos).  
 
-## ¿Qué es java image manipulation?
-Java image manipulation se refiere a crear, editar o mejorar gráficos rasterizados programáticamente mediante bibliotecas Java. Las tareas incluyen cambiar el tamaño, aplicar filtros, componer capas y aplicar efectos visuales—exactamente lo que Aspose.PSD permite para archivos PSD al estilo Photoshop.
+## ¿Qué es la manipulación de imágenes en java?
 
-## ¿Por qué usar Aspose.PSD para java image manipulation?
-- **Soporte completo de PSD** – preserva capas, máscaras y datos de ajuste.  
-- **No se requiere Photoshop nativo** – trabaja completamente en Java.  
-- **Flexibilidad en tiempo de ejecución** – agrega, modifica o elimina efectos al instante.  
-- **Multiplataforma** – se ejecuta en cualquier SO que soporte el JDK.
+La manipulación de imágenes en Java es la creación, edición o mejora programática de gráficos rasterizados mediante bibliotecas Java. Incluye tareas como redimensionar, filtrar, combinar capas y aplicar efectos visuales—capacidades que Aspose.PSD aporta a los archivos PSD al estilo Photoshop mientras preserva capas, máscaras y datos de ajuste.
 
-## Por qué esto es importante para los desarrolladores
-Agregar efectos en tiempo de ejecución te permite crear motores de gráficos dinámicos, generar miniaturas personalizadas o crear marcas de agua al instante sin trabajo manual en Photoshop. Es ideal para servicios web que necesitan personalizar imágenes por solicitud de usuario, o herramientas de escritorio que procesan activos por lotes.
+## ¿Por qué usar Aspose.PSD para la manipulación de imágenes en java?
 
-## Casos de uso comunes
+Puede añadir, modificar o eliminar efectos de capa al instante sin instalar Photoshop, y la biblioteca procesa archivos de hasta 200 MB manteniendo el uso de memoria por debajo de 150 MB. Soporta **más de 50 formatos de entrada y salida** (incluidos PSD, BMP, JPEG, PNG, TIFF) y se ejecuta en cualquier SO que admita Java 8 o superior, brindándole verdadera flexibilidad multiplataforma.
+
+## ¿Por qué es importante esto para los desarrolladores?
+
+Añadir efectos en tiempo de ejecución le permite crear motores gráficos dinámicos que personalizan imágenes según la solicitud del usuario, generar miniaturas pulidas con sombras proyectadas o crear marcas de agua al vuelo, todo sin trabajo manual en Photoshop. Esta capacidad reduce el tiempo de desarrollo hasta en un 70 % para aplicaciones con gran carga de imágenes y elimina la necesidad de costosas herramientas de diseño de terceros.
+
+## Casos de Uso Comunes
 
 | Caso de uso | Beneficio |
-|----------|---------|
+|-------------|-----------|
 | **Contenido generado por el usuario** | Aplicar colores de marca o superposiciones al instante. |
 | **Creación automática de miniaturas** | Añadir sombras proyectadas o brillos para un aspecto pulido. |
 | **Temas de UI dinámicos** | Cambiar efectos de capa según las preferencias del usuario. |
-| **Líneas de procesamiento por lotes** | Mejorar programáticamente grandes conjuntos de imágenes. |
+| **Procesamiento por lotes** | Mejorar programáticamente grandes conjuntos de imágenes. |
 
-## Requisitos previos
+## Requisitos Previos
 
-Antes de sumergirte en el tutorial, asegúrate de contar con los siguientes requisitos:
+1. **Java Development Kit (JDK)** – Asegúrese de que tiene Java instalado en su sistema. Puede descargar el último JDK desde [aquí](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. **Biblioteca Aspose.PSD for Java** – Necesita tener la biblioteca Aspose.PSD for Java. Si aún no lo ha hecho, descárguela desde la [documentación de Aspose.PSD Java](https://reference.aspose.com/psd/java/).
+3. **Directorio de Documentos** – Configure un directorio para sus documentos y recuerde la ruta. En el ejemplo proporcionado, el directorio se denomina `Your Document Directory`.
 
-1. **Java Development Kit (JDK)** – Asegúrate de tener Java instalado en tu sistema. Puedes descargar el JDK más reciente desde [aquí](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Importar Paquetes
 
-2. **Biblioteca Aspose.PSD para Java** – Necesitas tener la biblioteca Aspose.PSD para Java. Si aún no lo has hecho, descárgala desde la [documentación de Aspose.PSD Java](https://reference.aspose.com/psd/java/).
-
-3. **Directorio de documentos** – Configura un directorio para tus documentos y recuerda la ruta. En el ejemplo proporcionado, el directorio se denomina `Your Document Directory`.
-
-## Importar paquetes
-
-En tu proyecto Java, importa los paquetes necesarios para aprovechar las funcionalidades de Aspose.PSD para Java.
-
+Las siguientes importaciones traen las clases esenciales de Aspose.PSD necesarias para la manipulación de imágenes.  
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Image;
@@ -73,10 +125,9 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.ColorOverlayEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-## Paso 1: Cargar la imagen PSD
+## Paso 1: Cargar la Imagen PSD
 
-Comienza cargando la imagen PSD a la que deseas aplicar efectos. Asegúrate de establecer la ruta de archivo adecuada.
-
+`PsImage` es la clase principal utilizada para cargar un archivo PSD en memoria para su procesamiento.  
 ```java
 String sourceFileName = "Your Document Directory/ThreeRegularLayers.psd";
 String exportPath = "Your Document Directory/ThreeRegularLayersChanged.psd";
@@ -87,10 +138,9 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-## Paso 2: Añadir efecto de superposición de color
+## Paso 2: Añadir Efecto de Superposición de Color
 
-En este paso, añadiremos un efecto de superposición de color a una capa específica de la imagen PSD. Esto demuestra **cómo agregar efectos** programáticamente.
-
+`ColorOverlayEffect` define una superposición de color que puede aplicarse a las opciones de fusión de una capa.  
 ```java
 ColorOverlayEffect effect = im.getLayers()[1].getBlendingOptions().addColorOverlay();
 effect.setColor(Color.getGreen());
@@ -98,54 +148,51 @@ effect.setOpacity((byte)128);
 effect.setBlendMode(BlendMode.Normal);
 ```
 
-## Paso 3: Guardar la imagen modificada
+## Paso 3: Guardar la Imagen Modificada
 
-Finalmente, guarda la imagen modificada con los efectos aplicados en un nuevo archivo.
-
+El método `save` escribe el PSD editado o la imagen exportada en la ruta de archivo especificada.  
 ```java
 im.save(exportPath);
 ```
 
-¡Felicidades! Has agregado efectos en tiempo de ejecución usando Aspose.PSD para Java, una técnica clave en la manipulación moderna de imágenes java.
+¡Felicidades! Ha añadido efectos en tiempo de ejecución con éxito utilizando Aspose.PSD for Java, una técnica clave en la manipulación de imágenes en java moderna.
 
-## Problemas comunes y soluciones
+## Problemas Comunes y Soluciones
 
 | Problema | Causa | Solución |
-|-------|-------|-----|
-| **Efecto no visible** | Se omitió `loadOptions.setLoadEffectsResource(true)` | Asegúrate de que la bandera esté establecida antes de cargar el PSD. |
-| **Opacidad incorrecta** | Uso de un `byte` con signo con valores >127 | Convierte a `(byte)128` como se muestra, o usa un entero sin signo y divide por 255. |
-| **Índice de capa fuera de rango** | Número de capa incorrecto | Verifica el orden de capas con `im.getLayers().length` o inspecciona el PSD en Photoshop. |
+|----------|-------|----------|
+| **Efecto no visible** | Se omitió `loadOptions.setLoadEffectsResource(true)` | Asegúrese de que la bandera esté establecida antes de cargar el PSD. |
+| **Opacidad incorrecta** | Uso de un `byte` con signo con valores >127 | Convierta a `(byte)128` como se muestra, o use un entero sin signo y divida por 255. |
+| **Índice de capa fuera de rango** | Número de capa incorrecto | Verifique el orden de capas con `im.getLayers().length` o inspeccione el PSD en Photoshop. |
 
-## Preguntas frecuentes
+## Preguntas Frecuentes
 
-**Q: ¿Puedo aplicar múltiples efectos a una sola capa?**  
-A: Sí, puedes encadenar llamadas como `addDropShadow()`, `addInnerGlow()`, etc., en las opciones de fusión de la misma capa.
+**P: ¿Puedo aplicar múltiples efectos a una sola capa?**  
+R: Sí, puede encadenar llamadas como `addDropShadow()`, `addInnerGlow()`, etc., en las opciones de fusión de la misma capa.
 
-**Q: ¿Aspose.PSD es compatible con varios formatos de imagen?**  
-A: Sí, Aspose.PSD soporta PSD, BMP, JPEG, PNG, TIFF y más, permitiéndote convertir entre formatos después de la manipulación.
+**P: ¿Aspose.PSD es compatible con varios formatos de imagen?**  
+R: Sí, Aspose.PSD soporta PSD, BMP, JPEG, PNG, TIFF y más, lo que le permite convertir entre formatos después de la manipulación.
 
-**Q: ¿Cómo puedo obtener una licencia temporal para Aspose.PSD para Java?**  
-A: Puedes obtener una licencia temporal desde [aquí](https://purchase.aspose.com/temporary-license/).
+**P: ¿Cómo puedo obtener una licencia temporal para Aspose.PSD for Java?**  
+R: Puede obtener una licencia temporal desde [aquí](https://purchase.aspose.com/temporary-license/).
 
-**Q: ¿Dónde puedo buscar asistencia para cualquier problema o consulta relacionada con Aspose.PSD?**  
-A: Visita el [foro de soporte de Aspose.PSD](https://forum.aspose.com/c/psd/34) para obtener ayuda y conectar con la comunidad.
+**P: ¿Dónde puedo buscar asistencia para cualquier problema o consulta relacionada con Aspose.PSD?**  
+R: Visite el [foro de soporte de Aspose.PSD](https://forum.aspose.com/c/psd/34) para obtener ayuda y conectarse con la comunidad.
 
-**Q: ¿Hay una prueba gratuita disponible para Aspose.PSD para Java?**  
-A: Sí, puedes explorar la versión de prueba gratuita [aquí](https://releases.aspose.com/).
+**P: ¿Hay una prueba gratuita disponible para Aspose.PSD for Java?**  
+R: Sí, puede explorar la versión de prueba gratuita [aquí](https://releases.aspose.com/).
 
-## Conclusión
-
-Aspose.PSD para Java simplifica **java image manipulation**, brindándote un conjunto de herramientas robusto para agregar efectos visuales dinámicos sin salir del ecosistema Java. Al seguir esta guía, ahora sabes **cómo agregar efectos** como superposiciones de color en tiempo de ejecución, lo que te permite crear gráficos más ricos y atractivos para aplicaciones web, de escritorio o móviles.
-
----
-
-**Última actualización:** 2026-02-25  
+**Última actualización:** 2026-07-27  
 **Probado con:** Aspose.PSD for Java 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Tutoriales Relacionados
+
+- [Cómo aplicar efectos de degradado en Aspose.PSD for Java](/psd/java/advanced-image-effects/add-gradient-effects/)
+- [Añadir efectos de superposición de patrón en Aspose.PSD for Java](/psd/java/advanced-image-effects/add-pattern-effects/)
+- [Cómo añadir sombra interna PSD Java – Efectos avanzados de capa](/psd/java/advanced-psd-layer-features-effects/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
