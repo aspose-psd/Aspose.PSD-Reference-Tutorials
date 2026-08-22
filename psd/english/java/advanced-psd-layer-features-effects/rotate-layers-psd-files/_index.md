@@ -1,8 +1,6 @@
 ---
 date: 2026-07-22
-description: Learn how to save psd as png, preserve PNG transparency, and rotate PSD
-  layers in Java with Aspose.PSD. Step‑by‑step guide, code‑free explanations, and
-  troubleshooting tips.
+description: Learn how to convert PSD files to PNG, preserve transparency, and rotate layers in Java. Follow a step‑by‑step guide with code‑free explanations and troubleshooting tips.
 images:
 - /java/advanced-psd-layer-features-effects/rotate-layers-psd-files/og-image.png
 keywords:
@@ -12,22 +10,17 @@ keywords:
 - psd to png transparency
 lastmod: 2026-07-22
 linktitle: save psd as png and rotate layers in Java using Aspose.PSD
-og_description: save psd as png with Aspose.PSD for Java. Preserve transparency, rotate
-  layers, and export PNG in just a few lines of code—ideal for automated workflows.
+og_description: Convert PSD to PNG in Java, preserving transparency and rotating layers with just a few lines of code—ideal for automated workflows.
 og_image_alt: 'Developer guide: save PSD as PNG and rotate layers using Aspose.PSD
   for Java'
 og_title: save psd as png and rotate layers in Java using Aspose.PSD
 schemas:
 - author: Aspose
   dateModified: '2026-07-22'
-  description: Learn how to save psd as png, preserve PNG transparency, and rotate
-    PSD layers in Java with Aspose.PSD. Step‑by‑step guide, code‑free explanations,
-    and troubleshooting tips.
+  description: Learn how to convert PSD files to PNG, preserve transparency, and rotate layers in Java. Follow a step‑by‑step guide with code‑free explanations and troubleshooting tips.
   headline: save psd as png and rotate layers in Java using Aspose.PSD
   type: TechArticle
-- description: Learn how to save psd as png, preserve PNG transparency, and rotate
-    PSD layers in Java with Aspose.PSD. Step‑by‑step guide, code‑free explanations,
-    and troubleshooting tips.
+- description: Learn how to convert PSD files to PNG, preserve transparency, and rotate layers in Java. Follow a step‑by‑step guide with code‑free explanations and troubleshooting tips.
   name: save psd as png and rotate layers in Java using Aspose.PSD
   steps:
   - name: Set Up Your Java Project
@@ -89,16 +82,13 @@ url: /java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
-## Related Tutorials
-
-- [Save PSD as PNG and Apply Rendering Drop Shadow in Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
-- [How to compress PNG files using Aspose.PSD for Java](/psd/java/optimizing-png-files/compress-png-files/)
-- [How to Rotate Image in Java with Aspose.PSD](/psd/java/advanced-image-manipulation/)
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # save psd as png and rotate layers in Java using Aspose.PSD
 
@@ -128,10 +118,10 @@ Before we dive into code, make sure you have the following:
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set Up Your Java Project
+### Step 1: set up your java project
 Create a new Java project in your IDE and add the Aspose.PSD JAR to the project’s build path.
 
-### Step 2: Import Required Classes
+### Step 2: import required classes
 `PsdImage` is the core class that represents a Photoshop document in memory. `PngOptions` controls PNG‑specific settings, and `RotateFlipType` defines rotation and flip operations.
 
 ```java
@@ -144,7 +134,7 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 These imports give you access to image loading, rotation, and PNG‑specific options.
 
-### Step 3: Define File Paths
+### Step 3: define file paths
 Specify where your source PSD lives and where the output files should be written. Using absolute paths during testing avoids “file not found” errors.
 
 ```java
@@ -156,7 +146,7 @@ String psdPath = dataDir + "RotateFlipTest2617.psd"; // Output PSD file path
 
 > **Pro tip:** Store paths in a configuration file for easier maintenance in larger projects.
 
-### Step 4: Load the PSD File
+### Step 4: load the PSD file
 `PsdImage` loads the entire Photoshop document, including all layers, masks, and effects, into a manipulable object.
 
 ```java
@@ -195,13 +185,13 @@ im.save(psdPath);
 
 You now have both a PNG preview and an updated PSD file.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **File not found:** Verify `dataDir` ends with a path separator (`/` or `\`).  
 - **OutOfMemoryError on large PSDs:** Increase JVM heap size (`-Xmx2g`).  
 - **Transparency lost:** Ensure `PngColorType.TruecolorWithAlpha` is set; otherwise PNG will be saved without alpha.  
 - **Flip PSD image not behaving as expected:** Double‑check the `RotateFlipType` constant you selected; some constants combine rotation and flip in a single step.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I rotate a specific layer in a PSD file?**  
 A: Yes, you can call `layer.rotateFlip(RotateFlipType.Rotate90FlipNone)` after iterating through `im.getLayers()`.
@@ -242,7 +232,7 @@ By leveraging Aspose.PSD for Java, you can **save PSD as PNG**, **preserve PNG t
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

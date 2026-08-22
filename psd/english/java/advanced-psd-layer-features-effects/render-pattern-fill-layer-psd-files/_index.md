@@ -1,7 +1,6 @@
 ---
 date: 2026-07-22
-description: Learn how to create pattern fill PSD files and render pattern fill layers
-  in PSD using Java with Aspose.PSD in this comprehensive step-by-step tutorial.
+description: Learn how to create and render pattern fill PSD files using Java in this comprehensive step-by-step tutorial.
 images:
 - /java/advanced-psd-layer-features-effects/render-pattern-fill-layer-psd-files/og-image.png
 keywords:
@@ -151,7 +150,7 @@ These imports bring in functionalities that allow you to work with PSD images, a
 ## How to create pattern fill PSD with Aspose.PSD
 Below is a practical guide that walks you through each required step. Feel free to copy the snippets into your IDE and run them against your sample PSD.
 
-### Step 1: Define Your Source and Output Directories
+### Step 1: define your source and output directories
 To kick things off, you need to establish where your source PSD file is located and where you want to save the output file.  
 
 ```java
@@ -162,7 +161,7 @@ String outputFile = outputDir + "sample_out.psd";
 ```  
 Replace `"Your Source Directory"` and `"Your Document Directory"` with actual paths on your machine.
 
-### Step 2: Load the PSD File
+### Step 2: load the PSD file
 Load your PSD into memory so you can start editing it.
 
 The `PsdImage` class represents a Photoshop document and provides access to its layers and resources.  
@@ -172,7 +171,7 @@ PsdImage image = (PsdImage) Image.load(sourceFile);
 ```  
 Casting the loaded image to `PsdImage` gives you access to PSD‑specific properties and methods.
 
-### Step 3: Loop Through Layers
+### Step 3: loop through layers
 Identify the fill layers that need pattern configuration.
 
 The `FillLayer` class models a Photoshop fill layer that can hold solid colors, gradients, or patterns.  
@@ -189,7 +188,7 @@ try {
 ```  
 The `instanceof` check ensures we only work with `FillLayer` objects.
 
-### Step 4: Configure Fill Layer Settings
+### Step 4: configure fill layer settings
 Adjust offsets, scale, and other visual parameters for the selected fill layer.
 
 `IPatternFillSettings` holds all pattern‑related options such as offset, scale, and the actual pattern data.  
@@ -203,7 +202,7 @@ settings.setLinked(true);
 ```  
 Each property influences how the pattern will be rendered. For example, adjusting the offsets shifts the pattern relative to the layer.
 
-### Step 5: Define Pattern Data
+### Step 5: define pattern data
 Now it’s time to configure the actual pattern itself by defining the colors that will comprise your fill pattern.
 
 `PatternFillSettings` lets you supply a list of `Color` objects that define the tiled pattern.  
@@ -230,7 +229,7 @@ settings.setPatternData(new int[]{
 ```  
 Feel free to replace any of the colors with your own choices to create a unique visual style.
 
-### Step 6: Set Pattern Dimensions and Name
+### Step 6: set pattern dimensions and name
 Further customizing the fill layer involves defining its width and height, as well as assigning it a name and a unique ID.
 
 `PatternFillSettings.setPatternSize(int width, int height)` controls the tile size, while `setName` and `setId` help you identify the pattern later on.  
@@ -243,7 +242,7 @@ settings.setPatternId(UUID.randomUUID() + "\0");
 ```  
 The dimensions control the tile size of the pattern, while the name and ID help you identify the pattern later on.
 
-### Step 7: Update the Fill Layer
+### Step 7: update the fill layer
 After configuring all the desired properties, you need to push the changes back into the layer.
 
 Calling `update()` applies all modifications to the underlying PSD structure.  
@@ -252,7 +251,7 @@ Calling `update()` applies all modifications to the underlying PSD structure.
 fillLayer.update();
 ```  
 
-### Step 8: Save the Changes
+### Step 8: save the changes
 Finally, save the updated PSD file using the `save()` method. `PsdImage.save(String path)` persists the modified document to disk.  
 
 ```java
@@ -269,17 +268,17 @@ finally {
 }
 ```  
 
-## Common Use Cases
+## Common use cases
 - **Automated branding** – Generate brand‑consistent pattern fills for marketing assets.  
 - **Dynamic textures** – Create procedural textures for games or simulations without manual design work.  
 - **Batch processing** – Apply a standard pattern fill to hundreds of PSD files in a single run.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Pattern not visible after saving** – Verify that the layer you edited is not hidden (`layer.setVisible(true)`) and that the pattern dimensions match the expected tile size.  
 - **`ClassCastException`** – Make sure you are casting to `FillLayer` only after confirming `instanceof FillLayer`.  
 - **File path errors** – Use absolute paths or double‑escape backslashes on Windows (`C:\\\\Images\\\\sample.psd`).  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: What is Aspose.PSD for Java?**  
 A: Aspose.PSD for Java is a library that enables developers to work with Photoshop PSD files programmatically.
