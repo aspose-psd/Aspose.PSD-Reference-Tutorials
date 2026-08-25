@@ -1,7 +1,6 @@
 ---
 date: 2026-08-01
-description: Learn how to export PSD to PNG and handle uncompressed image streams
-  with Aspose.PSD for Java.
+description: Discover how to efficiently export PSD to PNG and handle uncompressed image streams using Aspose.PSD for Java.
 images:
 - /java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/og-image.png
 keywords:
@@ -47,7 +46,7 @@ tags:
 - Java image processing
 - uncompressed stream
 - PSD graphics
-title: Export PSD to PNG – Create PSD Graphics Object – Uncompressed Stream in Java
+title: Export PSD to PNG and Create Graphics Object with Uncompressed Stream Using Aspose.PSD for Java
 url: /java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 weight: 26
 ---
@@ -78,7 +77,7 @@ Aspose.PSD supports **50+** input and output formats—including PSD, PNG, JPEG,
 Before we dive into code, verify that you have the following:
 
 - **Java Development Kit (JDK)** – JDK 8 or later installed.  
-- **Aspose.PSD for Java** – Download the latest JAR from the official release page: [Aspose.PSD Java download](https://releases.aspose.com/psd/java/). You can also access it via [this link](https://releases.aspose.com/psd/java/) or the [release page](https://releases.aspose.com/psd/java/). For other Aspose products, click [here](https://releases.aspose.com/).  
+- **Aspose.PSD for Java** – Download the latest JAR from the official release page: [Aspose.PSD Java download](https://releases.aspose.com/psd/java/). You can also access it via the [Aspose.PSD Java releases page](https://releases.aspose.com/psd/java/) or the [Aspose.PSD Java release page](https://releases.aspose.com/psd/java/). For other Aspose products, see the [Aspose product downloads page](https://releases.aspose.com/).  
 - **IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor.  
 - **Basic Java knowledge** – Familiarity with classes, methods, and exception handling.
 
@@ -99,7 +98,7 @@ import java.io.ByteArrayOutputStream;
 
 Now, let’s break down the code into digestible steps so you can follow along easily. We will set up the environment, load a PSD file, manipulate it, and finally save the output.
 
-## Step 1: Define Your Document Directory
+## Step 1: define your document directory
 Before any file operations, you need to tell the program where to look for your PSD assets. This directory path is used throughout the tutorial.
 
 ```java
@@ -108,7 +107,7 @@ String dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the absolute path that contains `layers.psd`. Keeping the path configurable makes the code reusable across projects.
 
-## Step 2: Create a Byte Array Output Stream
+## Step 2: create a byte array output stream
 A `ByteArrayOutputStream` is a Java stream that holds data in memory as a byte array. It acts as an in‑memory buffer for the modified image, allowing you to capture the raw bytes before writing them to disk or sending them over a network.
 
 ```java
@@ -117,7 +116,7 @@ ByteArrayOutputStream ms = new ByteArrayOutputStream();
 
 The variable `ms` will hold the uncompressed image data after the `save` operation.
 
-## Step 3: Load the PSD File
+## Step 3: load the PSD file
 The `PsdImage` class loads a PSD file into memory for manipulation. Loading the file converts the on‑disk PSD into a `PsdImage` object that you can manipulate. This step is where Aspose.PSD reads the file header, layers, and resources.
 
 ```java
@@ -126,7 +125,7 @@ PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 
 If the path is incorrect, Aspose.PSD throws a `FileNotFoundException`, which you should catch in production code.
 
-## Step 4: Set Up the PsdOptions for Saving
+## Step 4: set up the psdOptions for saving
 `PsdOptions` specifies save parameters for PSD files. Setting the compression method to `Raw` indicates that pixel data should be stored without compression, preserving every pixel exactly as it appears in memory.
 
 ```java
@@ -145,7 +144,7 @@ psdImage.save(ms, saveOptions);
 
 At this point, `ms` contains the full binary representation of the uncompressed PSD.
 
-## Step 6: Reset the Output Stream
+## Step 6: reset the output stream
 After writing, the stream’s internal pointer sits at the end. Resetting it rewinds the stream so you can read from the beginning.
 
 ```java
@@ -154,7 +153,7 @@ ms.reset();
 
 Think of this as moving the tape head back to the start before playback.
 
-## Step 7: Load the Newly Created Image
+## Step 7: load the newly created image
 You can now create a fresh `PsdImage` instance directly from the byte array. This step verifies that the saved data can be re‑loaded without corruption.
 
 ```java
@@ -163,7 +162,7 @@ PsdImage img = (PsdImage) Image.load(new ByteArrayInputStream(ms.toByteArray()))
 
 If the image loads successfully, you know the uncompressed stream was written correctly.
 
-## Step 8: Create Graphics Object
+## Step 8: create graphics object
 The `Graphics` class is Aspose.PSD's drawing canvas. It provides methods for drawing shapes, text, and applying filters directly onto the pixel matrix of a `PsdImage`.
 
 ```java
@@ -175,10 +174,10 @@ With this `Graphics` instance you can paint new content, erase portions, or comp
 ## How do I export PSD to PNG using Aspose.PSD for Java?
 Load the PSD with `new PsdImage(dataDir + "layers.psd")`, create a `Graphics` object, perform any drawing you need, then call `psdImage.save("output.png", new PngOptions())`. This sequence renders the edited PSD and writes a lossless PNG in a single step, leveraging Aspose.PSD’s built‑in conversion engine.
 
-## Manipulate PSD Layers with Graphics Object
+## Manipulate PSD layers with graphics object
 Having a `Graphics` instance gives you pixel‑level control over each layer. You can draw geometric shapes, render text, or apply custom filters. Because the graphics context works on the rasterized view of the layer, changes are immediately visible when you save the image.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **NullPointerException when loading the file** – double‑check the `dataDir` path and ensure the file name matches exactly, including case sensitivity.  
 - **Compressed output despite using Raw** – verify that `saveOptions.setCompressionMethod(CompressionMethod.Raw);` is called **before** invoking `save`.  
 - **Graphics object appears blank** – make sure you are drawing on the correct `PsdImage` instance (the one you loaded, not a newly created empty image).  
@@ -200,7 +199,7 @@ Absolutely! The Aspose support forum provides answers from the product team and 
 ### How can I obtain a temporary license for Aspose.PSD?
 You can request a temporary license directly from Aspose’s licensing portal, which provides a time‑limited key valid for 30 days. This allows you to evaluate the full functionality of Aspose.PSD without purchasing a commercial license. After the trial period, you must replace the temporary key with a permanent license to continue using the library in production. Visit the temporary license portal to generate a time‑limited key: [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use the graphics object to edit only one specific layer?**  
 A: Yes. After loading the PSD, retrieve the desired layer via `psdImage.getLayers().get_Item(index)` and pass that layer to the `Graphics` constructor.
@@ -223,7 +222,7 @@ A: Invoke `psdImage.dispose()` and close any streams (e.g., `ms.close()`) to fre
 **Tested With:** Aspose.PSD for Java (latest release)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -231,7 +230,9 @@ A: Invoke `psdImage.dispose()` and close any streams (e.g., `ms.close()`) to fre
 - [Export PSD Layer Group to Image using Java](/psd/java/working-with-psd-files/export-psd-layer-group-to-image/)
 - [Create Image using Stream in Aspose.PSD for Java](/psd/java/image-editing/create-image-using-stream/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
