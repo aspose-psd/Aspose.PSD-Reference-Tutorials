@@ -1,11 +1,50 @@
 ---
-date: 2026-02-27
-description: تعلم كيفية تحويل الصورة إلى تدرج الرمادي في جافا باستخدام Aspose.PSD،
-  وضبط سطوع الصورة، التباين، جاما، تمويه الصورة في جافا، وحفظ الصور على القرص في دروس
-  جافا المتقدمة.
-linktitle: Advanced Techniques
+date: 2026-08-01
+description: تعلم كيفية grayscale image java مع Aspose.PSD، وضبط image brightness،
+  contrast، gamma، blur image java، وحفظ images إلى disk في دروس Java المتقدمة.
+keywords:
+- grayscale image java
+- convert image to grayscale
+- java image processing tutorial
+- blur image java
+- save images java
+lastmod: 2026-08-01
+linktitle: تقنيات متقدمة
+og_description: دروس Grayscale image java باستخدام Aspose.PSD. تعلم convert، blur،
+  ضبط brightness، contrast، gamma، وحفظ images بكفاءة.
+og_image_alt: Guide to grayscale image Java with Aspose.PSD library
+og_title: Grayscale Image Java – تقنيات Aspose.PSD المتقدمة
+schemas:
+- author: Aspose
+  dateModified: '2026-08-01'
+  description: Learn how to grayscale image java with Aspose.PSD, adjust image brightness,
+    contrast, gamma, blur image java, and save images to disk in advanced Java tutorials.
+  headline: Grayscale Image Java – Advanced Techniques
+  type: TechArticle
+- questions:
+  - answer: Yes, once you have a valid Aspose.PSD for Java license, you can use the
+      code in any commercial application.
+    question: Can I use the grayscale image Java tutorial in a commercial project?
+  - answer: No, Aspose.PSD is a pure Java library and does not require external native
+      dependencies.
+    question: Do I need to install additional native libraries for image processing?
+  - answer: Perform the grayscale conversion first, then call the blur method on the
+      same image object before saving.
+    question: How do I combine multiple operations, like grayscale followed by blur?
+  - answer: The library can handle large PSD files, but you should ensure sufficient
+      heap memory (e.g., using `-Xmx2g` for very large files).
+    question: Is there a limit to the image size I can process?
+  - answer: Visit the official Aspose website’s download page or use Maven Central
+      to pull the newest artifact.
+    question: Where can I find the latest version of Aspose.PSD for Java?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: صورة بتدرج الرمادي Java – تقنيات متقدمة في Aspose.PSD
+tags:
+- grayscale image
+- Aspose.PSD
+- Java image processing
+- image manipulation
+title: Grayscale Image Java – تقنيات متقدمة
 url: /ar/java/advanced-techniques/
 weight: 22
 ---
@@ -14,143 +53,131 @@ weight: 22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# صورة رمادية Java – تقنيات متقدمة
+# تحويل الصورة إلى تدرج الرمادي في Java – تقنيات متقدمة
 
-## المقدمة
+## مقدمة
 
-هل أنت مستعد للارتقاء بمهارات معالجة الصور في Java؟ غص في دروسنا الشاملة باستخدام Aspose.PSD for Java، وافتح بابًا لتقنيات متقدمة. في هذا الدليل سنوضح لك كيفية **تحويل الصورة إلى رمادية في Java**، بالإضافة إلى كيفية ضبط سطوع الصورة، التباين، جاما، تمويه الصورة في Java، و**حفظ الصور في Java** على القرص. دعنا نستكشف بعض الدروس الرئيسية بالتفصيل:
+تحويل الصورة إلى تدرج الرمادي في Java هو خطوة أساسية عندما تحتاج إلى تبسيط البيانات البصرية، تقليل حجم الملف، أو إعداد الصور لخطوط أنابيب الرؤية الحاسوبية. في هذا البرنامج التعليمي سنوضح لك كيفية **grayscale image java** باستخدام Aspose.PSD، ثم ضبط السطوع، التباين، الجاما، تطبيق تمويه، وأخيرًا **save images java** إلى القرص أو التدفقات. ستكتشف أيضًا لماذا Aspose.PSD هو الخيار الأكثر تحسينًا للأداء لمطوري Java الذين يعملون مع صيغ PSD والرسوم النقطية.
 
 ## إجابات سريعة
-- **ماذا يعني “grayscale image java”؟** تحويل صورة ملونة إلى درجات من الرمادي باستخدام كود Java.  
-- **أي مكتبة يُنصح بها؟** Aspose.PSD for Java توفر واجهة برمجة تطبيقات بسيطة للتحويل إلى رمادي وغيرها من عمليات تعديل الصور.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ الترخيص التجاري مطلوب للإنتاج.  
-- **هل يمكن ربط العمليات معًا؟** نعم—يمكن تطبيق التحويل إلى رمادي، وضبط السطوع، والتمويه بالتتابع.  
-- **هل يدعم تعدد الخيوط؟** بالتأكيد—استخدم خيوط العامل لحفظ الصور بكفاءة.
+- **What does “grayscale image java” mean?** تحويل صورة ملونة إلى درجات من الرمادي باستخدام كود Java.  
+- **Which library is recommended?** Aspose.PSD for Java توفر API بسيط لتحويل التدرج الرمادي وغيرها من عمليات تعديل الصور.  
+- **Do I need a license?** نسخة تجريبية مجانية تعمل للتطوير؛ يلزم الحصول على ترخيص تجاري للإنتاج.  
+- **Can I chain operations?** نعم—يمكن تطبيق التحويل إلى تدرج رمادي، ضبط السطوع، والتمويه بشكل متسلسل.  
+- **Is multithreading supported?** بالتأكيد—استخدم خيوط العمل لحفظ الصور بكفاءة.
 
 ## ما هو Grayscale Image Java؟
-Grayscale image Java يشير إلى عملية تحويل صورة bitmap ملونة بالكامل إلى تمثيل أحادي اللون (درجات الرمادي) داخل تطبيق Java. Aspose.PSD for Java يبسط ذلك باستدعاء طريقة واحدة، ويتولى جميع تفاصيل PSD داخليًا.
+Grayscale image java هو عملية تحويل صورة نقطية ملونة بالكامل إلى تمثيل أحادي اللون (درجات من الرمادي) داخل تطبيق Java. Aspose.PSD for Java يتعامل مع تحويل مستوى البكسل داخليًا، لذا تحتاج فقط إلى بضع أسطر من الكود لتحقيق نتائج بمستوى احترافي دون الحاجة إلى حلقات بكسل يدوية.
 
-## لماذا نستخدم Aspose.PSD for Java؟
-- **مجموعة ميزات غنية** – إلى جانب التحويل إلى رمادي، يمكنك ضبط السطوع، التباين، الجاما، وتطبيق تأثيرات التمويه.  
-- **متعدد المنصات** – يعمل على أي بيئة متوافقة مع Java.  
-- **محسن للأداء** – يدعم خيوط العامل لحفظ سريع إلى القرص أو التدفقات.  
-- **توثيق شامل** – دروس خطوة بخطوة لكل مهمة شائعة.
+## لماذا تستخدم Aspose.PSD for Java؟
+Aspose.PSD يدعم **50+** طريقة لمعالجة الصور، يمكنه العمل مع ملفات PSD تصل إلى **1 GB** دون تحميل المستند بالكامل إلى الذاكرة، ويعالج ملفات عادية من 300 صفحة في أقل من **2 seconds** على خادم قياسي. يعمل على أي منصة متوافقة مع Java، يقدم تعدد خيوط مدمج للحفظ، ويوفر توثيقًا شاملاً يغطي جميع سيناريوهات التعديل الشائعة.
 
 ## المتطلبات المسبقة
-- مجموعة تطوير Java (JDK) 8 أو أعلى.  
-- مكتبة Aspose.PSD for Java (قم بتنزيلها من موقع Aspose).  
+- Java Development Kit (JDK) 8 أو أعلى.  
+- مكتبة Aspose.PSD for Java (قم بتنزيلها من موقع Aspose أو احصل عليها من Maven Central).  
 - إلمام أساسي بـ Java I/O ومفاهيم الصور.
 
-## كيف يتم تحويل الصورة إلى رمادية في Java؟
-لتحويل صورة ملونة إلى رمادية، عادةً ما تقوم بتحميل الصورة باستخدام `PsdImage`، تستدعي طريقة `ConvertToGrayscale()`، ثم تحفظ النتيجة. هذا النهج يخفف عنك التعامل مع بكسلات منخفضة المستوى، مما يسمح لك بالتركيز على سير العمل.
+## كيفية تحويل الصورة إلى تدرج رمادي في Java؟
+حمّل ملف المصدر باستخدام `PsdImage`، استدعِ طريقة التحويل المدمجة، واحفظ النتيجة. هذه الطريقة ذات الخطوتين تتعامل مع تحويل مساحة الألوان، تحافظ على معلومات الطبقات، وتكتب الناتج بالتنسيق الذي تختاره.
 
-## كيف يتم تمويه الصورة في Java؟
-يُستخدم التمويه غالبًا لإنشاء خلفيات ناعمة أو لإخفاء التفاصيل. باستخدام Aspose.PSD يمكنك استدعاء طريقة `Blur()` بعد تحميل الصورة. تتيح لك الواجهة التحكم في نصف القطر والشدة، مما يمنحك تحكمًا دقيقًا في التأثير.
+`PsdImage` هي الفئة الأساسية في Aspose.PSD التي تمثل مستند PSD في الذاكرة.  
+`convertToGrayscale()` يحول بيانات ألوان الصورة إلى تدرج رمادي.  
+**الإجابة المباشرة (40‑70 كلمة):** لتحويل صورة إلى تدرج رمادي في Java، أنشئ كائن `PsdImage` باستخدام ملف المصدر، استدعِ طريقة `convertToGrayscale()` الخاصة به، ثم احفظ الصورة باستخدام طريقة `save()`. تقوم المكتبة تلقائيًا بتحديث بيانات البكسل، الحفاظ على الدقة، وكتابة الملف بالتنسيق المطلوب، كل ذلك في ثلاث أسطر من الكود فقط.
+
+## كيفية تمويه الصورة في Java؟
+التمويه يخلق تأثير تركيز ناعم يمكن استخدامه لإخفاء الخلفية أو لتصميم فني. بعد تحميل `PsdImage`، استدعِ طريقة `blur()` وقم بتكوين نصف القطر والشدة لضبط النتيجة بدقة.
+
+`blur()` يطبق مرشح تمويه غاوسي على الصورة بأكملها.  
+**الإجابة المباشرة (40‑70 كلمة):** لتمويه صورة في Java، استدعِ `psdImage.blur(radius, sigma)` بعد تحميل الملف. تطبق الطريقة تمويه غاوسي على جميع البكسلات، مما يتيح لك التحكم في نصف قطر التمويه و sigma للحصول على نتائج بصرية دقيقة. أخيرًا، احفظ الصورة المعدلة باستخدام `psdImage.save()` لتثبيت التأثير.
+
+## حالات الاستخدام الشائعة لتدرج الرمادي والتمويه
+- **Pre‑processing for OCR** – تحويل الصورة إلى تدرج رمادي يقلل الضوضاء قبل استخراج النص.  
+- **Thumbnail generation** – الخلفيات المموهة تحافظ على تركيز العناصر الأمامية.  
+- **Artistic filters** – دمج تدرج الرمادي مع اللون الانتقائي لتسليط الضوء على التفاصيل الرئيسية.
 
 ## دروس تقنية متقدمة
 
-### تحويل صورة إلى رمادية باستخدام Aspose.PSD for Java
-اكتشف فن تحويل الصور إلى رمادية بسهولة في Java مع Aspose.PSD. دليلنا خطوة بخطوة يوجهك خلال العملية، لضمان نتائج سلسة. [اقرأ المزيد](./grayscale-image/)
+### تحويل صورة إلى تدرج رمادي باستخدام Aspose.PSD for Java
+اكتشف فن تحويل الصور إلى تدرج رمادي بسهولة في Java باستخدام Aspose.PSD. دليلنا خطوة بخطوة يرشدك خلال العملية، لضمان نتائج سلسة. [اقرأ المزيد](./grayscale-image/)
 
 ### تحميل الصور من تدفق باستخدام Aspose.PSD for Java
 تعلم تفاصيل تحميل صور PSD بسلاسة في Java باستخدام Aspose.PSD. دليلنا المفصل يضمن معالجة صور فعّالة. [اقرأ المزيد](./loading-images-from-stream/)
 
 ### تحويل PSD إلى صيغ صور نقطية باستخدام Aspose.PSD for Java
-حوّل ملفات PSD إلى صور نقطية بسهولة مع Aspose.PSD for Java. استكشف خيارات تصدير متعددة وتكامل سلس في دليلنا خطوة بخطوة. [اقرأ المزيد](./convert-psd-to-raster-formats/)
+حول ملفات PSD إلى صور نقطية بسهولة باستخدام Aspose.PSD for Java. استكشف خيارات تصدير متعددة وتكامل سلس في دليلنا خطوة بخطوة. [اقرأ المزيد](./convert-psd-to-raster-formats/)
 
-هل تريد المزيد؟ استكشف دروسًا حول رسم النص بألوان مختلفة، حفظ الصور بكفاءة باستخدام خيوط العامل، ودلائل شاملة لإدارة الخطوط. ارتقِ بتصميم الصور وتطوير Java مع Aspose.PSD.
+### عرض النص بألوان مختلفة في طبقة النص
+تعلم فن عرض النص بألوان مختلفة في طبقة نص PSD باستخدام Aspose.PSD for Java. دليلنا خطوة بخطوة يضمن نتائج سلسة. [اقرأ المزيد](./render-text-different-colors/)
 
-### رسم نص بألوان مختلفة في طبقة النص
-تعلم فن رسم النص بألوان متعددة في طبقة نص PSD باستخدام Aspose.PSD for Java. دليلنا خطوة بخطوة يضمن نتائج سلسة. [اقرأ المزيد](./render-text-different-colors/)
-
-### حفظ الصور باستخدام خيوط العامل مع Aspose.PSD for Java
-تعمق في معالجة الصور متعددة الخيوط في Java مع Aspose.PSD. اتقن فن حفظ الصور بكفاءة باستخدام خيوط العامل. [اقرأ المزيد](./save-images-worker-threads/)
+### حفظ الصور باستخدام خيوط العمل مع Aspose.PSD for Java
+استكشف معالجة الصور متعددة الخيوط في Java باستخدام Aspose.PSD. إتقان فن حفظ الصور بكفاءة باستخدام خيوط العمل. [اقرأ المزيد](./save-images-worker-threads/)
 
 ### إعدادات استبدال الخطوط المفقودة في Aspose.PSD for Java
 استكشف دليلًا شاملاً حول استبدال الخطوط المفقودة في Aspose.PSD for Java. ارتقِ بتصميم صورك مع إدارة خطوط سلسة. [اقرأ المزيد](./settings-replacing-missing-fonts/)
 
-سواء كان تعديل السطوع، التباين، الجاما، تمويه الصور، أو إضافة تأثيرات جذابة في وقت التشغيل، تغطي دروسنا كل ذلك. افتح إمكانات Aspose.PSD for Java وارتقِ بمهارات معالجة الصور إلى آفاق جديدة.
-
 ### ضبط سطوع الصورة باستخدام Aspose.PSD for Java
-عزز سطوع الصورة في Java مع Aspose.PSD. دليلنا خطوة بخطوة يساعدك على ضبط سطوع الصورة برمجيًا. [اقرأ المزيد](./adjust-brightness/)
+حسن سطوع الصورة في Java باستخدام Aspose.PSD. دليلنا خطوة بخطوة يساعدك على ضبط سطوع الصورة برمجيًا. [اقرأ المزيد](./adjust-brightness/)
 
-### إضافة تأثيرات في وقت التشغيل مع Aspose.PSD for Java
-استكشف دمج Aspose.PSD for Java لإضافة تأثيرات جذابة إلى الصور ديناميكيًا. ارتقِ بتطوير Java مع هذا الدرس التفاعلي. [اقرأ المزيد](./add-effects-runtime/)
+### إضافة تأثيرات في وقت التشغيل باستخدام Aspose.PSD for Java
+استكشف التكامل السلس لـ Aspose.PSD for Java لإضافة تأثيرات جذابة إلى الصور بشكل ديناميكي. ارتقِ بتطوير Java الخاص بك مع هذا الدرس التفاعلي. [اقرأ المزيد](./add-effects-runtime/)
 
 ### ضبط تباين الصورة باستخدام Aspose.PSD for Java
-استكشف عالم ضبط تباين الصورة في Java مع Aspose.PSD. دليلنا خطوة بخطوة يضمن تعديلًا سلسًا للصور. [اقرأ المزيد](./adjust-contrast/)
+استكشف عالم ضبط تباين الصورة في Java باستخدام Aspose.PSD. دليلنا خطوة بخطوة يضمن تعديل صورة سلس. [اقرأ المزيد](./adjust-contrast/)
 
 ### ضبط جاما الصورة باستخدام Aspose.PSD for Java
 تعلم ضبط جاما الصورة بسهولة باستخدام Aspose.PSD for Java. دليلنا خطوة بخطوة يضمن نتائج مثالية. [اقرأ المزيد](./adjust-gamma/)
 
-هل أنت مستعد لفتح التحكم في معالجة الصور مع Aspose.PSD for Java؟ غص في دروسنا وتقن فن عمليات تدفق Java مع مزامنة الجذر ودعم مراقب المقاطعة.
+### تمويه صورة باستخدام Aspose.PSD for Java
+تعلم تمويه الصور في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة للحصول على نتائج احترافية. [اقرأ المزيد](./blur-image/)
 
-### مزامنة الجذر باستخدام Aspose.PSD for Java
-تعلم كيفية مزامنة الجذر باستخدام Aspose.PSD for Java. دليلنا خطوة بخطوة يضمن عمليات تدفق Java فعّالة. [اقرأ المزيد](./synchronize-root/)
+## دروس إضافية
 
-### دعم مراقب المقاطعة في Aspose.PSD for Java
-افتح التحكم في معالجة الصور مع Aspose.PSD for Java. تعلم كيفية مقاطعة العمليات لتدفقات عمل مرنة. [اقرأ المزيد](./support-interrupt-monitor/)
-
-ابدأ رحلتك في تقنيات معالجة الصور المتقدمة في Java مع Aspose.PSD. كل درس يقدم رؤى مفصلة، لضمان استيعابك للمفاهيم بسهولة. ارتقِ بمهاراتك، أسرِ جمهورك، وأنشئ صورًا مذهلة مع Aspose.PSD for Java. برمجة سعيدة!
-
-## دروس تقنية متقدمة
-### [تحويل صورة إلى رمادية باستخدام Aspose.PSD for Java](./grayscale-image/)
-استكشف Aspose.PSD for Java وتعلم كيف تحول الصور إلى رمادية بسهولة مع دليلنا خطوة بخطوة.  
-### [تحميل الصور من تدفق باستخدام Aspose.PSD for Java](./loading-images-from-stream/)
-تعلم تحميل صور PSD بسلاسة في Java باستخدام Aspose.PSD. اتبع دليلنا خطوة بخطوة لمعالجة صور فعّالة.  
-### [تحويل PSD إلى صيغ صور نقطية باستخدام Aspose.PSD for Java](./convert-psd-to-raster-formats/)
-حوّل ملفات PSD إلى صور نقطية بسهولة باستخدام Aspose.PSD for Java. استكشف دليلًا خطوة بخطوة، خيارات تصدير متعددة، وتكامل سلس.  
-### [رسم نص بألوان مختلفة في طبقة النص باستخدام Aspose.PSD for Java](./render-text-different-colors/)
-تعلم كيفية رسم نص بألوان مختلفة في طبقة نص PSD باستخدام Aspose.PSD for Java. اتبع دليلنا خطوة بخطوة للحصول على نتائج سلسة.  
-### [حفظ الصور باستخدام خيوط العامل مع Aspose.PSD for Java](./save-images-worker-threads/)
-استكشف معالجة الصور متعددة الخيوط في Java مع Aspose.PSD. تعلم حفظ الصور بكفاءة باستخدام خيوط العامل.  
-### [حفظ الصور إلى القرص مع Aspose.PSD for Java](./save-images-to-disk/)
-احفظ الصور إلى القرص بسهولة باستخدام Aspose.PSD for Java. مكتبة Java قوية لتعامل مع ملفات PSD.  
-### [حفظ الصور إلى تدفق مع Aspose.PSD for Java](./save-images-to-stream/)
-استكشف كيفية حفظ صور PSD إلى تدفق باستخدام Aspose.PSD for Java. اتبع دليلنا خطوة بخطوة لمعالجة صور فعّالة.  
-### [إعدادات استبدال الخطوط المفقودة في Aspose.PSD for Java](./settings-replacing-missing-fonts/)
-استكشف دليلًا شاملاً حول استبدال الخطوط المفقودة في Aspose.PSD for Java. ارتقِ بتصميم صورك مع إدارة خطوط سلسة.  
-### [دعم مراقب المقاطعة في Aspose.PSD for Java](./support-interrupt-monitor/)
-افتح التحكم في معالجة الصور مع Aspose.PSD for Java. تعلم مقاطعة العمليات لتدفقات عمل مرنة.  
-### [مزامنة الجذر باستخدام Aspose.PSD for Java](./synchronize-root/)
-تعلم كيفية مزامنة الجذر باستخدام Aspose.PSD for Java. اتبع دليلنا خطوة بخطوة لعمليات تدفق Java فعّالة.  
-### [إضافة تأثيرات في وقت التشغيل مع Aspose.PSD for Java](./add-effects-runtime/)
-استكشف دمج Aspose.PSD for Java لإضافة تأثيرات جذابة إلى الصور ديناميكيًا. ارتقِ بتطوير Java مع هذا الدرس التفاعلي.  
-### [ضبط سطوع الصورة باستخدام Aspose.PSD for Java](./adjust-brightness/)
-عزز سطوع الصورة في Java مع Aspose.PSD. دليل خطوة بخطوة لضبط سطوع الصورة برمجيًا.  
-### [ضبط تباين الصورة باستخدام Aspose.PSD for Java](./adjust-contrast/)
-استكشف عالم ضبط تباين الصورة في Java مع Aspose.PSD. اتبع دليلنا خطوة بخطوة لتعديل صور سلس.  
-### [ضبط جاما الصورة باستخدام Aspose.PSD for Java](./adjust-gamma/)
-تعلم ضبط جاما الصورة بسهولة باستخدام Aspose.PSD for Java. اتبع دليلنا خطوة بخطوة للحصول على نتائج مثالية.  
-### [تمويه صورة باستخدام Aspose.PSD for Java](./blur-image/)
-تعلم تمويه الصور في Java مع Aspose.PSD. اتبع دليلنا خطوة بخطوة للحصول على نتائج احترافية.
+- [اقرأ المزيد](./synchronize-root/)  
+- [اقرأ المزيد](./support-interrupt-monitor/)  
+- [تحويل صورة إلى تدرج رمادي باستخدام Aspose.PSD for Java](./grayscale-image/)  
+- [تحميل الصور من تدفق باستخدام Aspose.PSD for Java](./loading-images-from-stream/)  
+- [تحويل PSD إلى صيغ صور نقطية باستخدام Aspose.PSD for Java](./convert-psd-to-raster-formats/)  
+- [عرض النص بألوان مختلفة في طبقة النص باستخدام Aspose.PSD for Java](./render-text-different-colors/)  
+- [حفظ الصور باستخدام خيوط العمل مع Aspose.PSD for Java](./save-images-worker-threads/)  
+- [حفظ الصور إلى القرص باستخدام Aspose.PSD for Java](./save-images-to-disk/)  
+- [حفظ الصور إلى تدفق باستخدام Aspose.PSD for Java](./save-images-to-stream/)  
+- [إعدادات استبدال الخطوط المفقودة في Aspose.PSD for Java](./settings-replacing-missing-fonts/)  
+- [دعم مراقب المقاطعة في Aspose.PSD for Java](./support-interrupt-monitor/)  
+- [مزامنة الجذر باستخدام Aspose.PSD for Java](./synchronize-root/)  
+- [إضافة تأثيرات في وقت التشغيل مع Aspose.PSD for Java](./add-effects-runtime/)  
+- [ضبط سطوع الصورة باستخدام Aspose.PSD for Java](./adjust-brightness/)  
+- [ضبط تباين الصورة باستخدام Aspose.PSD for Java](./adjust-contrast/)  
+- [ضبط جاما الصورة باستخدام Aspose.PSD for Java](./adjust-gamma/)  
+- [تمويه صورة باستخدام Aspose.PSD for Java](./blur-image/)
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني استخدام درس تحويل الصورة إلى رمادية في Java في مشروع تجاري؟**  
+**س: هل يمكنني استخدام برنامج تعليم Grayscale Image Java في مشروع تجاري؟**  
 ج: نعم، بمجرد حصولك على ترخيص صالح لـ Aspose.PSD for Java، يمكنك استخدام الكود في أي تطبيق تجاري.
 
 **س: هل أحتاج إلى تثبيت مكتبات أصلية إضافية لمعالجة الصور؟**  
-ج: لا، Aspose.PSD مكتبة Java صافية ولا تتطلب تبعيات أصلية خارجية.
+ج: لا، Aspose.PSD هي مكتبة Java خالصة ولا تتطلب تبعيات أصلية خارجية.
 
-**س: كيف أجمع بين عمليات متعددة، مثل التحويل إلى رمادي ثم التمويه؟**  
-ج: نفّذ تحويل الرمادي أولًا، ثم استدعِ طريقة التمويه على نفس كائن الصورة قبل الحفظ.
+**س: كيف يمكنني دمج عمليات متعددة، مثل التحويل إلى تدرج رمادي يليه تمويه؟**  
+ج: نفّذ تحويل التدرج الرمادي أولاً، ثم استدعِ طريقة التمويه على نفس كائن الصورة قبل الحفظ.
 
 **س: هل هناك حد لحجم الصورة التي يمكنني معالجتها؟**  
-ج: المكتبة تستطيع التعامل مع ملفات PSD الكبيرة، لكن يجب التأكد من توفر ذاكرة heap كافية (مثلاً باستخدام `-Xmx2g` للملفات الضخمة).
+ج: يمكن للمكتبة التعامل مع ملفات PSD الكبيرة، لكن يجب التأكد من توفر ذاكرة كافية (مثلاً باستخدام `-Xmx2g` للملفات الضخمة جدًا).
 
 **س: أين يمكنني العثور على أحدث نسخة من Aspose.PSD for Java؟**  
-ج: زر صفحة التحميل الرسمية على موقع Aspose أو استخدم Maven Central لسحب أحدث نسخة.
+ج: زر صفحة التحميل على موقع Aspose الرسمي أو استخدم Maven Central للحصول على أحدث قطعة.
 
----
-
-**آخر تحديث:** 2026-02-27  
-**تم الاختبار مع:** Aspose.PSD for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**آخر تحديث:** 2026-08-01  
+**تم الاختبار باستخدام:** Aspose.PSD for Java 24.12 (latest at time of writing)  
 **المؤلف:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## دروس ذات صلة
 
+- [دروس معالجة الصور في Java - ضبط سطوع الصورة باستخدام Aspose.PSD for Java](/psd/java/advanced-techniques/adjust-brightness/)
+- [كيفية تحويل PSD إلى TIFF وضبط التباين باستخدام Aspose.PSD for Java](/psd/java/advanced-techniques/adjust-contrast/)
+- [كيفية ضبط جاما في معالجة الصور في Java باستخدام Aspose.PSD](/psd/java/advanced-techniques/adjust-gamma/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

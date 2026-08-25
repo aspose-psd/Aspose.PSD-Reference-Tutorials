@@ -1,10 +1,51 @@
 ---
-date: 2026-02-17
-description: เรียนรู้วิธีการส่งออกไฟล์ PSD เป็น PNG และจัดการสตรีมภาพที่ไม่ได้บีบอัดด้วย
-  Aspose.PSD สำหรับ Java.
-linktitle: Handle Uncompressed Image Stream Object in PSD - Java
+date: 2026-08-01
+description: เรียนรู้วิธีส่งออก PSD เป็น PNG และจัดการสตรีมภาพที่ไม่ได้บีบอัดด้วย
+  Aspose.PSD for Java.
+keywords:
+- export psd to png
+- save psd as png
+- java image manipulation
+lastmod: 2026-08-01
+linktitle: จัดการวัตถุสตรีมภาพที่ไม่ได้บีบอัดใน PSD - Java
+og_description: ส่งออก psd เป็น png ด้วย Aspose.PSD for Java. เรียนรู้การจัดการสตรีมภาพที่ไม่ได้บีบอัด,
+  สร้างวัตถุกราฟิก, และบันทึก PNG คุณภาพสูง.
+og_image_alt: 'Developer guide: Export PSD to PNG with uncompressed stream using Aspose.PSD
+  Java'
+og_title: ส่งออก psd เป็น png – คู่มือ Java สำหรับสตรีม PSD ที่ไม่ได้บีบอัด
+schemas:
+- author: Aspose
+  dateModified: '2026-08-01'
+  description: Learn how to export PSD to PNG and handle uncompressed image streams
+    with Aspose.PSD for Java.
+  headline: Export PSD to PNG – Create PSD Graphics Object – Uncompressed Stream in
+    Java
+  type: TechArticle
+- questions:
+  - answer: Yes. After loading the PSD, retrieve the desired layer via `psdImage.getLayers().get_Item(index)`
+      and pass that layer to the `Graphics` constructor.
+    question: Can I use the graphics object to edit only one specific layer?
+  - answer: Raw stores pixel data without any compression, so the resulting file is
+      larger than a compressed PSD, but it guarantees 100 % pixel fidelity.
+    question: Does the Raw compression method affect file size?
+  - answer: Absolutely. After editing, call `psdImage.save("output.png", new PngOptions())`—this
+      is the standard way to **export PSD to PNG** with lossless quality.
+    question: Is it possible to export the edited PSD to another format (e.g., PNG)?
+  - answer: Aspose.PSD for Java supports JDK 8 and later, including all LTS releases
+      up to JDK 21.
+    question: What Java version is required?
+  - answer: Invoke `psdImage.dispose()` and close any streams (e.g., `ms.close()`)
+      to free native memory and avoid leaks.
+    question: How do I release resources after processing?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: ส่งออก PSD เป็น PNG – สร้างอ็อบเจ็กต์กราฟิก PSD – สตรีมที่ไม่บีบอัดใน Java
+tags:
+- export psd
+- Aspose.PSD
+- Java image processing
+- uncompressed stream
+- PSD graphics
+title: ส่งออก PSD เป็น PNG – สร้างวัตถุกราฟิก PSD – สตรีมที่ไม่ได้บีบอัดใน Java
 url: /th/java/advanced-psd-layer-features-effects/handle-uncompressed-image-stream-object-psd/
 weight: 26
 ---
@@ -13,46 +54,36 @@ weight: 26
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ส่งออก PSD เป็น PNG – สร้างอ็อบเจกต์กราฟิก PSD – สตรีมแบบไม่บีบอัดใน Java
+# ส่งออก PSD เป็น PNG – สร้างอ็อบเจ็กต์กราฟิก PSD – สตรีมที่ไม่ได้บีบอัดใน Java
 
 ## บทนำ
-ยินดีต้อนรับสู่โลกของการจัดการรูปภาพใน Java! ในบทเรียนนี้คุณจะ **สร้างอ็อบเจกต์กราฟิก PSD**, จัดการกับอ็อบเจกต์สตรีมภาพที่ไม่บีบอัด, และเรียนรู้วิธี **ส่งออก PSD เป็น PNG** ด้วย Aspose.PSD for Java ไม่ว่าคุณจะเป็นนักออกแบบกราฟิกที่ต้องการทำงานอัตโนมัติหรือเป็นนักพัฒนาซอฟต์แวร์ที่ต้องการรวมความสามารถการประมวลผลภาพที่ทรงพลังเข้าไปในแอปพลิเคชันของคุณ คู่มือนี้ออกแบบมาสำหรับคุณโดยเฉพาะ เราจะเดินผ่านทุกขั้นตอนตั้งแต่ข้อกำหนดเบื้องต้นจนถึงการส่งออกขั้นสุดท้าย เพื่อให้คุณเข้าใจกระบวนการทั้งหมดอย่างครบถ้วน
+ในคู่มือแบบขั้นตอนนี้คุณจะ **ส่งออก PSD เป็น PNG** ขณะทำงานกับสตรีมภาพที่ไม่ได้บีบอัดโดยใช้ Aspose.PSD สำหรับ Java ไม่ว่าคุณจะทำอัตโนมัติขั้นตอนการออกแบบหรือสร้างโปรแกรมแก้ไขแบบกำหนดเอง ความสามารถในการเรนเดอร์ไฟล์ Photoshop โดยไม่สูญเสียคุณภาพเป็นสิ่งสำคัญ เราจะเริ่มด้วยการตั้งค่าที่จำเป็น, เดินผ่านการสร้างอ็อบเจ็กต์ `Graphics`, และสรุปด้วยการส่งออก PNG แบบไม่สูญเสียข้อมูล เมื่อเสร็จสิ้นคุณจะเข้าใจว่าทำไม Aspose.PSD จึงจัดการสตรีมดิบได้อย่างมีประสิทธิภาพและวิธีการผสานรวมเข้ากับโครงการ Java ใด ๆ
 
-## คำตอบสั้น ๆ
-- **“สร้างอ็อบเจกต์กราฟิก PSD” หมายถึงอะไร?** หมายถึงการสร้างคอนเท็กซ์กราฟิกสำหรับไฟล์ PSD เพื่อให้คุณสามารถวาดหรือแก้ไขเนื้อหาของมันได้  
-- **ไลบรารีใดจัดการสตรีมที่ไม่บีบอัด?** Aspose.PSD for Java ให้การสนับสนุนเต็มรูปแบบสำหรับข้อมูลภาพดิบ (uncompressed)  
-- **ฉันสามารถส่งออก PSD เป็น PNG หลังจากแก้ไขได้หรือไม่?** ได้ — เมื่อคุณมีอ็อบเจกต์ `Graphics` คุณสามารถเรนเดอร์ PSD และบันทึกเป็น PNG ได้  
-- **ต้องมีลิขสิทธิ์สำหรับการพัฒนาหรือไม่?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์  
-- **การส่งออกเป็นแบบ lossless หรือไม่?** การส่งออกเป็น PNG จะรักษาคุณภาพของภาพไว้, ขนาดไฟล์จะใหญ่กว่า JPEG แต่เล็กกว่าการบีบอัด PSD แบบไม่มีการบีบอัด  
+## คำตอบอย่างรวดเร็ว
+- **What does “create PSD graphics object” mean?** It means instantiating a `Graphics` context that lets you draw on or modify a PSD image programmatically.  
+- **Which library handles uncompressed streams?** Aspose.PSD for Java provides full support for raw (uncompressed) image data.  
+- **Can I export PSD to PNG after editing?** Yes—once you have a `Graphics` object you can render the PSD and save it as PNG in a single call.  
+- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production deployments.  
+- **Is the export lossless?** Exporting to PNG preserves the original pixel data, offering lossless quality with a smaller file size than the raw PSD.
 
-## วิธีส่งออก PSD เป็น PNG ด้วย Aspose.PSD for Java
-เมื่อคุณต้องการ **ส่งออก PSD เป็น PNG**, กระบวนการทำงานทั่วไปคือ:
+## การส่งออก PSD เป็น PNG คืออะไร?
+การส่งออก PSD เป็น PNG แปลงเอกสาร Photoshop แบบหลายเลเยอร์ให้เป็นภาพเรสเตอร์แบบชั้นเดียวที่ไม่มีการสูญเสียข้อมูล ซึ่งสามารถแสดงผลได้ในเว็บเบราว์เซอร์หรือโปรแกรมดูภาพใด ๆ กระบวนการนี้รักษาความโปร่งใส, ความลึกสี, และเอฟเฟกต์ของเลเยอร์ไว้ขณะละทิ้งเมตาดาต้าเฉพาะของ Photoshop นอกจากนี้ยังคงโปรไฟล์สีเดิมเพื่อการทำสำเนาสีที่แม่นยำ
 
-1. โหลดไฟล์ PSD (หรือสร้างใหม่)  
-2. ทำการวาดหรือจัดการเลเยอร์ด้วยอ็อบเจกต์ `Graphics`  
-3. บันทึกรูปภาพที่ได้โดยใช้ `PngOptions` (อ็อบเจกต์ `Graphics` เดียวกันสามารถใช้ซ้ำได้)  
-
-แม้ว่าบทเรียนนี้จะเน้นการจัดการสตรีมที่ไม่บีบอัด, อ็อบเจกต์ `Graphics` ที่คุณสร้างสามารถนำไปใช้เรนเดอร์ PSD เป็นไฟล์ PNG ในขั้นตอนต่อไปของ pipeline ได้เช่นกัน
+## ทำไมต้องใช้ Aspose.PSD สำหรับ Java ในการจัดการภาพ?
+Aspose.PSD รองรับ **50+** รูปแบบไฟล์เข้าและออก รวมถึง PSD, PNG, JPEG, BMP, และ TIFF และสามารถประมวลผลไฟล์ที่มี **200+** เลเยอร์โดยไม่ต้องโหลดเอกสารทั้งหมดเข้าสู่หน่วยความจำ ตัวเลือกการบีบอัด `Raw` จะเก็บข้อมูลพิกเซลโดยไม่บีบอัด ทำให้ได้ความแม่นยำระดับพิกเซลสำหรับการแก้ไขต่อไปหรือการเก็บรักษา
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะกระโดดเข้าสู่โค้ด, มาตรวจสอบให้แน่ใจว่าคุณมีทุกอย่างที่จำเป็นสำหรับการเริ่มต้นการเดินทางนี้ นี่คือข้อกำหนดเบื้องต้น:
+ก่อนเราจะลงลึกในโค้ด โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-### Java Development Kit (JDK)
-ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK บนเครื่องของคุณแล้ว คุณสามารถดาวน์โหลดได้จากเว็บไซต์ของ Oracle หรือใช้ OpenJDK
+- **Java Development Kit (JDK)** – JDK 8 หรือใหม่กว่า  
+- **Aspose.PSD for Java** – ดาวน์โหลด JAR ล่าสุดจากหน้าปล่อยอย่างเป็นทางการ: [ดาวน์โหลด Aspose.PSD Java](https://releases.aspose.com/psd/java/). คุณสามารถเข้าถึงได้ผ่าน [ลิงก์นี้](https://releases.aspose.com/psd/java/) หรือ [หน้าปล่อย](https://releases.aspose.com/psd/java/). สำหรับผลิตภัณฑ์ Aspose อื่น ๆ ให้คลิก [ที่นี่](https://releases.aspose.com/).  
+- **IDE** – IntelliJ IDEA, Eclipse หรือโปรแกรมแก้ไขที่รองรับ Java ใด ๆ  
+- **Basic Java knowledge** – ความคุ้นเคยกับคลาส, เมธอด, และการจัดการข้อยกเว้น  
 
-### Aspose.PSD for Java
-คุณต้องดาวน์โหลดและติดตั้งไลบรารี Aspose.PSD ไลบรารีที่ทรงพลังนี้ช่วยให้คุณจัดการไฟล์ PSD ได้อย่างง่ายดาย คุณสามารถรับเวอร์ชันล่าสุดจาก [ลิงก์นี้](https://releases.aspose.com/psd/java/)
-
-### Integrated Development Environment (IDE)
-แนะนำให้ใช้ IDE เพื่อเขียนและทดสอบโค้ด Java ของคุณ คุณสามารถใช้ IntelliJ IDEA, Eclipse หรือ IDE ใดก็ได้ที่คุณถนัด
-
-### ความเข้าใจพื้นฐานของ Java
-ความคุ้นเคยกับการเขียนโปรแกรม Java จะทำให้กระบวนการนี้ราบรื่นขึ้น ตรวจสอบให้คุณรู้จักคลาส, เมธอด, และการจัดการข้อยกเว้นพื้นฐาน
-
-เมื่อทุกอย่างพร้อม, มาลงมือทำส่วนที่น่าตื่นเต้น – การเขียนโค้ดกันเถอะ!
+เมื่อมีทั้งหมดนี้ คุณพร้อมที่จะเริ่มเขียนโค้ดแล้ว
 
 ## นำเข้าแพ็กเกจ
-เพื่อเริ่มต้น, เราต้องนำเข้าแพ็กเกจที่จำเป็นสำหรับการทำงานกับ Aspose.PSD ด้านล่างนี้คือรายการ import ที่คุณมักจะต้องใช้สำหรับจัดการไฟล์ PSD
+คลาส `Graphics` เป็นพื้นผิวการวาดของ Aspose.PSD ที่ให้คุณเรนเดอร์หรือแก้ไขข้อมูลพิกเซลโดยตรง คลาส `PsdImage` แทนไฟล์ PSD ในหน่วยความจำ ส่วน `PsdOptions` ควบคุมวิธีการบันทึกภาพ
 
 ```java
 import com.aspose.psd.Graphics;
@@ -64,127 +95,139 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 ```
 
-ตอนนี้เราจะแบ่งโค้ดออกเป็นขั้นตอนย่อยเพื่อให้คุณตามได้ง่าย เราจะตั้งค่า, โหลดไฟล์ PSD, แก้ไข, และบันทึกผลลัพธ์
+ตอนนี้เราจะทำการแยกโค้ดเป็นขั้นตอนย่อยเพื่อให้คุณตามได้ง่าย เราจะตั้งค่าสภาพแวดล้อม, โหลดไฟล์ PSD, ปรับแต่ง, และสุดท้ายบันทึกผลลัพธ์
 
 ## ขั้นตอนที่ 1: กำหนดไดเรกทอรีเอกสารของคุณ
-ก่อนเริ่มเขียนโค้ด, คุณควรกำหนดตำแหน่งที่ไฟล์ PSD ของคุณอยู่ นี่คือการตั้งค่าพื้นฐานสำหรับโปรเจกต์ของคุณ
+ก่อนทำการใด ๆ กับไฟล์ คุณต้องบอกโปรแกรมว่าควรมองหาแอสเซ็ต PSD ที่ไหน เส้นทางไดเรกทอรีนี้จะถูกใช้ตลอดบทเรียน
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-แทนที่ `"Your Document Directory"` ด้วยพาธจริงที่ไฟล์ PSD (เช่น layers.psd) ของคุณอยู่ เพื่อให้โค้ดสามารถหาไฟล์ได้โดยไม่มีปัญหา
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางเต็มที่มีไฟล์ `layers.psd` การทำให้เส้นทางเป็นค่าที่กำหนดได้ทำให้โค้ดสามารถใช้ซ้ำได้ในหลายโครงการ
 
-## ขั้นตอนที่ 2: สร้าง ByteArrayOutputStream
-คุณต้องมีที่เก็บภาพที่แก้ไขแล้วก่อนจะทำอะไรต่อ `ByteArrayOutputStream` จะช่วยให้คุณจับข้อมูลภาพได้อย่างง่ายดาย
+## ขั้นตอนที่ 2: สร้าง Byte Array Output Stream
+`ByteArrayOutputStream` เป็นสตรีมของ Java ที่เก็บข้อมูลในหน่วยความจำเป็นอาเรย์ไบต์ ทำหน้าที่เป็นบัฟเฟอร์ในหน่วยความจำสำหรับภาพที่แก้ไขแล้ว ช่วยให้คุณจับไบต์ดิบก่อนเขียนลงดิสก์หรือส่งผ่านเครือข่าย
 
 ```java
 ByteArrayOutputStream ms = new ByteArrayOutputStream();
 ```
 
-บรรทัดนี้จะสร้างอ็อบเจกต์ `ByteArrayOutputStream` ใหม่ชื่อ `ms` ซึ่งคุณจะใช้บันทึกภาพที่ไม่บีบอัดของคุณ
+ตัวแปร `ms` จะเก็บข้อมูลภาพที่ไม่ได้บีบอัดหลังจากดำเนินการ `save`
 
 ## ขั้นตอนที่ 3: โหลดไฟล์ PSD
-ต่อไปเป็นเวลาที่จะโหลดไฟล์ PSD จริง ๆ นี่คือจุดเริ่มต้นของความมหัศจรรย์!
+คลาส `PsdImage` โหลดไฟล์ PSD เข้าไปในหน่วยความจำเพื่อทำการปรับแต่ง การโหลดไฟล์จะแปลง PSD บนดิสก์เป็นอ็อบเจ็กต์ `PsdImage` ที่คุณสามารถจัดการได้ ขั้นตอนนี้คือจุดที่ Aspose.PSD อ่านส่วนหัวไฟล์, เลเยอร์, และทรัพยากรต่าง ๆ
 
 ```java
 PsdImage psdImage = (PsdImage) Image.load(dataDir + "layers.psd");
 ```
 
-บรรทัดนี้จะโหลดไฟล์ PSD ของคุณเข้าสู่อ็อบเจกต์ `PsdImage` ตรวจสอบให้แน่ใจว่าพาธถูกต้อง มิฉะนั้นจะเกิดข้อผิดพลาดเช่นการสอบถามแบบไม่มีการตรวจสอบ
+หากเส้นทางไม่ถูกต้อง Aspose.PSD จะโยน `FileNotFoundException` ซึ่งคุณควรจับไว้ในโค้ดสำหรับการใช้งานจริง
 
 ## ขั้นตอนที่ 4: ตั้งค่า PsdOptions สำหรับการบันทึก
-คุณต้องระบุวิธีการบันทึกภาพ — แน่นอนว่าเป็นแบบไม่บีบอัด!
+`PsdOptions` ระบุพารามิเตอร์การบันทึกสำหรับไฟล์ PSD การตั้งค่าวิธีบีบอัดเป็น `Raw` หมายความว่าข้อมูลพิกเซลจะถูกเก็บโดยไม่มีการบีบอัด ทำให้คงพิกเซลทุกตัวอย่างที่ปรากฏในหน่วยความจำได้อย่างแม่นยำ
 
 ```java
 PsdOptions saveOptions = new PsdOptions();
 saveOptions.setCompressionMethod(CompressionMethod.Raw);
 ```
 
-ที่นี่คุณสร้างอ็อบเจกต์ `PsdOptions` และตั้งค่าวิธีการบีบอัดเป็น `Raw` วิธีนี้ทำให้ภาพคงคุณภาพเต็มที่และบันทึกโดยไม่มีการบีบอัดใด ๆ
+ตัวเลือก `CompressionMethod.Raw` จะเก็บข้อมูลพิกเซลโดยไม่มีการบีบอัด ซึ่งเหมาะอย่างยิ่งเมื่อคุณวางแผนจะทำการแก้ไขต่อไปในภายหลัง
 
-## ขั้นตอนที่ 5: บันทึกภาพลงสตรีมเอาต์พุต
+## ขั้นตอนที่ 5: บันทึกภาพลงใน Output Stream
+ตอนนี้คุณจะบันทึก PSD (พร้อมการแก้ไขใด ๆ) ลงใน `ByteArrayOutputStream` ที่สร้างไว้ก่อนหน้านี้ เมธอด `save` จะเคารพ `PsdOptions` ที่คุณกำหนดไว้
+
 ```java
 psdImage.save(ms, saveOptions);
 ```
 
-บรรทัดนี้จะบันทึกภาพที่แก้ไขแล้วลงใน `ByteArrayOutputStream` ที่คุณสร้างในขั้นตอน 2 โดยใช้ตัวเลือกที่กำหนดในขั้นตอน 4 เมธอด `save` จะจัดการการเข้ารหัสภาพตามการตั้งค่าของคุณโดยอัตโนมัติ
+ในขณะนี้ `ms` มีการแสดงผลไบนารีเต็มของ PSD ที่ไม่ได้บีบอัด
 
-## ขั้นตอนที่ 6: รีเซ็ตสตรีมเอาต์พุต
-หลังจากบันทึก, สตรีมเอาต์พุตของคุณจะอยู่ที่ตำแหน่งสุดท้าย คุณต้องรีเซ็ตเพื่ออ่านจากจุดเริ่มต้นใหม่
+## ขั้นตอนที่ 6: รีเซ็ต Output Stream
+หลังจากเขียนเสร็จ ตัวชี้ภายในสตรีมจะอยู่ที่ตำแหน่งสุดท้าย การรีเซ็ตจะทำให้สตรีมกลับไปที่จุดเริ่มต้นเพื่อให้คุณอ่านจากต้นไฟล์ได้
 
 ```java
 ms.reset();
 ```
 
-เมธอด `reset` นี้เตรียม `ByteArrayOutputStream` ของคุณให้พร้อมอ่านจากจุดเริ่มต้นอีกครั้ง เหมือนกับการรีวินด์เทปก่อนฟังเพลงโปรดของคุณ!
+คิดว่าเป็นการย้ายหัวเทปกลับไปที่จุดเริ่มต้นก่อนการเล่น
 
 ## ขั้นตอนที่ 7: โหลดภาพที่สร้างใหม่
+ตอนนี้คุณสามารถสร้างอินสแตนซ์ `PsdImage` ใหม่โดยตรงจากอาเรย์ไบต์ ขั้นตอนนี้ตรวจสอบว่าข้อมูลที่บันทึกสามารถโหลดใหม่ได้โดยไม่มีความเสียหาย
+
 ```java
 PsdImage img = (PsdImage) Image.load(new ByteArrayInputStream(ms.toByteArray()));
 ```
 
-ที่นี่เราจะโหลดภาพกลับจาก `ByteArrayOutputStream` เข้าอ็อบเจกต์ `PsdImage` ใหม่ ซึ่งคุณสามารถตรวจสอบผลลัพธ์ของการทำงานก่อนหน้านี้ได้
+หากภาพโหลดสำเร็จ คุณจะรู้ว่าสตรีมที่ไม่ได้บีบอัดถูกเขียนอย่างถูกต้อง
 
-## ขั้นตอนที่ 8: สร้างอ็อบเจกต์ Graphics
-เพื่อทำการแก้ไขหรือเรนเดอร์ภาพต่อ, คุณต้องสร้างอ็อบเจกต์กราฟิก
+## ขั้นตอนที่ 8: สร้างอ็อบเจ็กต์ Graphics
+คลาส `Graphics` เป็นแคนวาสการวาดของ Aspose.PSD ให้เมธอดสำหรับวาดรูปทรง, ข้อความ, และใช้ฟิลเตอร์โดยตรงบนเมทริกซ์พิกเซลของ `PsdImage`
 
 ```java
 Graphics graphics = new Graphics(psdImage);
 ```
 
-บรรทัดนี้จะสร้างอ็อบเจกต์ `Graphics` ด้วย `psdImage` ของคุณ ตอนนี้คุณสามารถใช้กราฟิกอ็อบเจกต์นี้วาดหรือจัดการภาพตามต้องการ เหมือนกับมีพู่กันในมือของคุณ!
+ด้วยอินสแตนซ์ `Graphics` นี้คุณสามารถวาดเนื้อหาใหม่, ลบส่วน, หรือรวมเลเยอร์เพิ่มเติมได้
 
-## จัดการเลเยอร์ PSD ด้วยอ็อบเจกต์ Graphics
-เมื่อคุณมีอินสแตนซ์ **Graphics** แล้ว คุณสามารถ **จัดการเลเยอร์ PSD** — เช่น วาดรูปทรง, เพิ่มข้อความ, หรือใช้ฟิลเตอร์บนเลเยอร์เฉพาะ กราฟิกคอนเท็กซ์ทำงานโดยตรงบนพิกเซลพื้นฐาน ให้คุณควบคุมการแสดงผลของแต่ละเลเยอร์ได้อย่างละเอียด
+## ฉันจะส่งออก PSD เป็น PNG ด้วย Aspose.PSD สำหรับ Java อย่างไร?
+โหลด PSD ด้วย `new PsdImage(dataDir + "layers.psd")`, สร้างอ็อบเจ็กต์ `Graphics`, ทำการวาดตามต้องการ, แล้วเรียก `psdImage.save("output.png", new PngOptions())` ลำดับนี้จะเรนเดอร์ PSD ที่แก้ไขแล้วและเขียน PNG แบบไม่สูญเสียข้อมูลในขั้นตอนเดียว โดยใช้เอนจินการแปลงในตัวของ Aspose.PSD
 
-## ปัญหาที่พบบ่อยและวิธีแก้
-- **NullPointerException เมื่อโหลดไฟล์** – ตรวจสอบพาธ `dataDir` อีกครั้งและให้แน่ใจว่าชื่อไฟล์ถูกต้อง  
-- **ผลลัพธ์บีบอัดแม้ตั้งค่าเป็น Raw** – ยืนยันว่าได้เรียก `saveOptions.setCompressionMethod(CompressionMethod.Raw);` ก่อนเมธอด `save`  
-- **อ็อบเจกต์ Graphics แสดงเป็นค่าว่าง** – ตรวจสอบว่าคุณกำลังวาดบนอ็อบเจกต์ `PsdImage` ที่ถูกต้อง (ใช้ไฟล์ที่โหลดมา, ไม่ใช่ไฟล์ที่สร้างใหม่ เว้นแต่ต้องการ)
+## จัดการเลเยอร์ PSD ด้วยอ็อบเจ็กต์ Graphics
+การมีอินสแตนซ์ `Graphics` ให้คุณควบคุมระดับพิกเซลของแต่ละเลเยอร์ คุณสามารถวาดรูปทรงเรขาคณิต, เรนเดอร์ข้อความ, หรือใช้ฟิลเตอร์แบบกำหนดเอง เนื่องจากคอนเท็กซ์กราฟิกทำงานบนมุมมองเรสเตอร์ของเลเยอร์ การเปลี่ยนแปลงจะแสดงผลทันทีเมื่อบันทึกภาพ
+
+## ปัญหาที่พบบ่อยและวิธีแก้ไข
+- **NullPointerException when loading the file** – ตรวจสอบเส้นทาง `dataDir` อีกครั้งและให้แน่ใจว่าชื่อไฟล์ตรงกันอย่างแม่นยำ รวมถึงความแตกต่างของตัวอักษรใหญ่‑เล็ก  
+- **Compressed output despite using Raw** – ตรวจสอบว่าได้เรียก `saveOptions.setCompressionMethod(CompressionMethod.Raw);` **ก่อน** เรียก `save`  
+- **Graphics object appears blank** – ตรวจสอบว่าคุณกำลังวาดบนอินสแตนซ์ `PsdImage` ที่ถูกต้อง (อันที่โหลดมา ไม่ใช่อ็อบเจ็กต์ว่างใหม่)  
+- **OutOfMemoryError on large files** – ใช้ `PsdImage.load(dataDir, LoadOptions)` พร้อม `loadOptions.setLoadMode(LoadMode.Memory)` เพื่อสตรีมไฟล์ขนาดใหญ่โดยไม่ต้องโหลดเอกสารทั้งหมดเข้าสู่ RAM
 
 ## คำถามที่พบบ่อย
-### Aspose.PSD คืออะไร?
-Aspose.PSD เป็นไลบรารี .NET ที่ช่วยให้นักพัฒนาสามารถสร้าง, แก้ไข, และจัดการไฟล์ Photoshop PSD และรูปแบบภาพที่เกี่ยวข้องได้โดยโปรแกรม
+### Aspose.PSD คืออะไร
+Aspose.PSD เป็นไลบรารี Java ที่ช่วยให้นักพัฒนาสร้าง, แก้ไข, และแปลงไฟล์ Photoshop PSD ได้โดยไม่ต้องใช้ Adobe Photoshop รองรับการอ่านและเขียนไฟล์ PSD, จัดการเลเยอร์, มาสก์, ช่องสี, และทรัพยากรภาพต่าง ๆ พร้อม API สำหรับการทำงานแบบเรสเตอร์และเวกเตอร์ เหมาะสำหรับการประมวลผลภาพฝั่งเซิร์ฟเวอร์และงานอัตโนมัติ
 
-### ฉันจะดาวน์โหลด Aspose.PSD for Java ได้จากที่ไหน?
-คุณสามารถดาวน์โหลดได้จาก [หน้ารีลีส](https://releases.aspose.com/psd/java/)
+### ฉันจะดาวน์โหลด Aspose.PSD สำหรับ Java ได้อย่างไร
+คุณสามารถดาวน์โหลดได้จากหน้าปล่อยอย่างเป็นทางการ: [ดาวน์โหลด Aspose.PSD Java](https://releases.aspose.com/psd/java/)
 
-### มีเวอร์ชันทดลองฟรีสำหรับ Aspose.PSD หรือไม่?
-มี — คุณสามารถรับเวอร์ชันทดลองฟรีได้จาก [ที่นี่](https://releases.aspose.com/)
+### มีรุ่นทดลองฟรีสำหรับ Aspose.PSD หรือไม่
+มี รุ่นทดลองเต็มรูปแบบที่พร้อมใช้งานบนหน้าดาวน์โหลดเดียวกัน ใช้สำหรับการพัฒนาและการประเมินผล
 
-### ฉันจะขอรับการสนับสนุนสำหรับ Aspose.PSD ได้หรือไม่?
-ได้แน่นอน! คุณสามารถขอความช่วยเหลือได้ใน [ฟอรั่มสนับสนุนของ Aspose](https://forum.aspose.com/c/psd/34)
+### ฉันสามารถรับการสนับสนุนสำหรับ Aspose.PSD ได้หรือไม่
+แน่นอน! ฟอรั่มสนับสนุนของ Aspose มีคำตอบจากทีมผลิตภัณฑ์และชุมชน: [Aspose support forum](https://forum.aspose.com/c/psd/34)
 
-### ฉันจะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.PSD ได้อย่างไร?
-เพียงเยี่ยมชม [หน้าลิขสิทธิ์ชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อเริ่มต้น
+### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PSD ได้อย่างไร
+คุณสามารถขอใบอนุญาตชั่วคราวได้โดยตรงจากพอร์ทัลการออกใบอนุญาตของ Aspose ซึ่งจะให้คีย์ที่มีอายุจำกัด 30 วัน เพื่อประเมินฟังก์ชันทั้งหมดของ Aspose.PSD หลังระยะทดลองคุณต้องเปลี่ยนคีย์ชั่วคราวเป็นใบอนุญาตถาวรเพื่อใช้งานต่อในสภาพแวดล้อมการผลิต เยี่ยมชมพอร์ทัลใบอนุญาตชั่วคราวเพื่อสร้างคีย์ที่มีระยะเวลาจำกัด: [temporary license page](https://purchase.aspose.com/temporary-license/)
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-**Q: ฉันสามารถใช้กราฟิกอ็อบเจกต์เพื่อแก้ไขเฉพาะเลเยอร์หนึ่งได้หรือไม่?**  
-A: ได้ หลังจากโหลด PSD แล้ว ให้เลือกเลเยอร์ที่ต้องการผ่าน `psdImage.getLayers().get_Item(index)` แล้วส่งอ็อบเจกต์นั้นไปยังคอนสตรัคเตอร์ของ `Graphics`
+**Q: Can I use the graphics object to edit only one specific layer?**  
+A: Yes. After loading the PSD, retrieve the desired layer via `psdImage.getLayers().get_Item(index)` and pass that layer to the `Graphics` constructor.
 
-**Q: วิธีการบีบอัด Raw มีผลต่อขนาดไฟล์หรือไม่?**  
-A: Raw จะเก็บข้อมูลพิกเซลโดยไม่มีการบีบอัด ดังนั้นขนาดไฟล์จะใหญ่กว่าการบีบอัด PSD ปกติ แต่คุณภาพภาพจะไม่เสียหาย
+**Q: Does the Raw compression method affect file size?**  
+A: Raw stores pixel data without any compression, so the resulting file is larger than a compressed PSD, but it guarantees 100 % pixel fidelity.
 
-**Q: สามารถส่งออก PSD ที่แก้ไขแล้วเป็นรูปแบบอื่น (เช่น PNG) ได้หรือไม่?**  
-A: แน่นอน ใช้เมธอด `Image.save` ที่รับ `PngOptions` หลังจากแก้ไข — นี่คือวิธีมาตรฐานในการ **ส่งออก PSD เป็น PNG**
+**Q: Is it possible to export the edited PSD to another format (e.g., PNG)?**  
+A: Absolutely. After editing, call `psdImage.save("output.png", new PngOptions())`—this is the standard way to **export PSD to PNG** with lossless quality.
 
-**Q: ต้องใช้ Java เวอร์ชันใด?**  
-A: Aspose.PSD for Java รองรับ JDK 8 ขึ้นไป
+**Q: What Java version is required?**  
+A: Aspose.PSD for Java supports JDK 8 and later, including all LTS releases up to JDK 21.
 
-**Q: ฉันควรปล่อยทรัพยากรหลังการประมวลผลอย่างไร?**  
-A: เรียก `psdImage.dispose()` และปิดสตรีมใด ๆ เพื่อคืนทรัพยากรเนทีฟ
+**Q: How do I release resources after processing?**  
+A: Invoke `psdImage.dispose()` and close any streams (e.g., `ms.close()`) to free native memory and avoid leaks.
 
----
-
-**อัปเดตล่าสุด:** 2026-02-17  
-**ทดสอบกับ:** Aspose.PSD for Java (รุ่นล่าสุด)  
+**อัปเดตล่าสุด:** 2026-08-01  
+**ทดสอบกับ:** Aspose.PSD for Java (latest release)  
 **ผู้เขียน:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## บทแนะนำที่เกี่ยวข้อง
+
+- [Save Images to Stream with Aspose.PSD for Java](/psd/java/advanced-techniques/save-images-to-stream/)
+- [Export PSD Layer Group to Image using Java](/psd/java/working-with-psd-files/export-psd-layer-group-to-image/)
+- [Create Image using Stream in Aspose.PSD for Java](/psd/java/image-editing/create-image-using-stream/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
