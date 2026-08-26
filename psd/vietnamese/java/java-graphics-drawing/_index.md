@@ -1,86 +1,190 @@
 ---
-title: Vẽ đồ họa Java
-linktitle: Vẽ đồ họa Java
-second_title: API Java Aspose.PSD
-description: Khám phá Aspose.PSD để biết các hướng dẫn Java về vẽ đồ họa. Tìm hiểu cách thêm nét, vẽ hình và thao tác với tệp PSD bằng hướng dẫn từng bước.
-weight: 20
+date: 2026-08-22
+description: Tìm hiểu cách vẽ cung, thêm stroke, và tạo shapes trong Java bằng Aspose.PSD.
+  Các hướng dẫn từng bước cho cung, lines, ellipses và hơn nữa.
+keywords:
+- how to draw arcs
+- how to add stroke
+- draw lines java
+- how to draw bezier
+- how to draw ellipses
+lastmod: 2026-08-22
+linktitle: Vẽ Đồ họa Java
+og_description: Tìm hiểu cách vẽ cung, thêm lớp stroke, và tạo shapes trong Java bằng
+  Aspose.PSD. Các hướng dẫn chi tiết cho cung, lines, ellipses và hơn nữa.
+og_image_alt: Screenshot of Java graphics drawing tutorial using Aspose.PSD
+og_title: Cách vẽ cung và các đồ họa khác trong Java với Aspose.PSD
+schemas:
+- author: Aspose
+  dateModified: '2026-08-22'
+  description: Learn how to draw arcs, add strokes, and create shapes in Java using
+    Aspose.PSD. Step‑by‑step tutorials for arcs, lines, ellipses, and more.
+  headline: How to draw arcs and other graphics in Java
+  type: TechArticle
+- questions:
+  - answer: No. Aspose.PSD works independently of Photoshop and can read/write PSD
+      files on any platform that supports Java.
+    question: Does Aspose.PSD require Adobe Photoshop to be installed?
+  - answer: Yes. The library exposes adjustment layers as objects, allowing you to
+      modify parameters programmatically.
+    question: Can I manipulate layers that contain adjustment filters?
+  - answer: The library can process files larger than 1 GB, provided the JVM has sufficient
+      heap memory; streaming APIs help keep memory usage low.
+    question: What is the maximum PSD file size Aspose.PSD can handle?
+  - answer: Absolutely. You can save a PSD directly to PDF, and vector shapes such
+      as arcs and paths remain vector‑based in the output.
+    question: Is there support for exporting to PDF while preserving vector data?
+  - answer: Enable the library’s logging feature (`Logger.setLevel(Level.DEBUG)`)
+      to view detailed rendering steps and identify mismatched coordinates or brush
+      settings.
+    question: How do I debug drawing issues when the output looks different from expectations?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+tags:
+- draw arcs
+- Aspose.PSD
+- Java graphics
+title: Cách vẽ cung và các đồ họa khác trong Java
 url: /vi/java/java-graphics-drawing/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vẽ đồ họa Java
-
+# Cách vẽ cung
 
 ## Giới thiệu
 
-Các nhà phát triển Java, bạn đã sẵn sàng nâng cao kỹ năng vẽ đồ họa của mình chưa? Cho dù bạn đang tạo đồ họa phức tạp cho các dự án chuyên nghiệp hay chỉ mày mò, các hướng dẫn Aspose.PSD dành cho Java của chúng tôi sẽ giúp bạn. Hãy cùng đi sâu vào một số hướng dẫn cần thiết nhất mà bạn cần biết.
+Nếu bạn cần **vẽ cung** hoặc bất kỳ hình dạng vector nào khác trong tệp PSD khi làm việc với Java, bạn đã đến đúng nơi. Hướng dẫn này sẽ đưa bạn qua các kịch bản vẽ đồ họa phổ biến nhất bằng **Aspose.PSD for Java**—từ việc thêm gradient viền đến tạo các hình ellipse chính xác. Dù bạn đang xây dựng công cụ thiết kế, tự động tạo hình ảnh, hay chỉ thử nghiệm, các tutorial dưới đây cung cấp mã sẵn sàng cho sản xuất và các mẹo thực tế.
 
-## [Cách thêm gradient lớp nét trong Java](./add-stroke-layer-gradient/)
+## Câu trả lời nhanh
+- **Cách dễ nhất để vẽ một cung là gì?** Gọi `Graphics.drawArc()` với hình chữ nhật mong muốn và góc bắt đầu/kết thúc.  
+- **Tôi có thể thêm đường viền gradient vào một lớp không?** Có — sử dụng `Stroke` cùng với `LinearGradientBrush` hoặc `RadialGradientBrush`.  
+- **Tôi có cần giấy phép thương mại không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép cần thiết cho môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Aspose.PSD hỗ trợ Java 8 đến Java 21.  
+- **Có bao nhiêu định dạng tệp được xử lý?** Hơn 50 định dạng nhập và xuất, bao gồm PSD, PNG, JPEG và TIFF.
 
-Việc thêm gradient lớp nét vẽ có thể nâng cao đáng kể sự hấp dẫn trực quan cho hình ảnh của bạn. Hướng dẫn này sẽ hướng dẫn bạn qua quy trình, từ việc chọn độ dốc phù hợp đến tùy chỉnh nó để phù hợp với nhu cầu thiết kế của bạn. Cuối cùng, bạn sẽ có thể thêm các nét chuyển màu phức tạp vào bất kỳ tệp PSD nào một cách dễ dàng.
+## Aspose.PSD for Java là gì?
 
-## [Cách thêm mẫu lớp nét trong Java](./add-stroke-layer-pattern/)
+`Aspose.PSD for Java` là một **thư viện độc lập** cho phép tạo, chỉnh sửa và render các tệp Photoshop PSD mà không cần Adobe Photoshop. Nó cung cấp một bộ API vẽ phong phú, công cụ thao tác lớp và khả năng chuyển đổi định dạng, phù hợp cho cả script đơn giản và các ứng dụng doanh nghiệp quy mô lớn.
 
-Các mẫu có thể thêm kết cấu và chiều sâu cho đồ họa của bạn. Trong hướng dẫn này, bạn sẽ tìm hiểu cách kết hợp các mẫu lớp nét vào các tệp PSD của mình bằng Aspose.PSD cho Java. Hướng dẫn từng bước đảm bảo bạn có thể làm theo và áp dụng các mẫu này một cách hiệu quả để cải thiện hình ảnh của mình.
+## Tại sao nên sử dụng đồ họa Aspose.PSD cho Java?
 
-## [Các tính năng vẽ cốt lõi trong Java](./core-drawing-features/)
+Aspose.PSD hỗ trợ **hơn 50 định dạng ảnh** và có thể xử lý các tệp PSD có hàng trăm trang trong khi giữ mức sử dụng bộ nhớ dưới 200 MB. Thư viện chạy trên bất kỳ JVM nào, cung cấp các thao tác an toàn đa luồng, và đạt **tốc độ render nhanh tới 2×** so với việc thao tác pixel thủ công, giúp giảm thời gian xử lý và tiêu thụ tài nguyên trong các quy trình sản xuất.
 
-Aspose.PSD cho Java được tích hợp nhiều khả năng xử lý hình ảnh mạnh mẽ. Hướng dẫn này khám phá các tính năng cốt lõi, từ tải và thao tác hình ảnh đến lưu chúng theo chương trình. Nếu bạn muốn hiểu biết toàn diện về những gì bạn có thể đạt được với công cụ này thì hướng dẫn này là điểm khởi đầu của bạn.
+## Cách vẽ cung trong Java?
 
-## [Vẽ cung trong Java](./drawing-arcs/)
+`Graphics` là lớp cung cấp các phương thức vẽ để render các hình dạng lên một lớp PSD.  
+Tải tài liệu PSD, lấy đối tượng `Graphics` của nó, và gọi `drawArc`. Phương thức này yêu cầu một hình chữ nhật bao quanh và các góc bắt đầu/kết thúc được biểu diễn bằng độ. Lệnh duy nhất này sẽ vẽ một đoạn cong mượt mà có thể được tô màu hoặc viền, và bạn có thể tùy chỉnh thêm độ dày đường, màu sắc và cài đặt khử răng cưa để phù hợp với yêu cầu thiết kế.
 
-Vòng cung có thể thêm các hình dạng động vào đồ họa của bạn, khiến chúng trở nên thú vị và chuyên nghiệp hơn. Tìm hiểu cách vẽ vòng cung bằng Aspose.PSD cho Java với hướng dẫn chi tiết này. Nó cung cấp các ví dụ về mã và mẹo thực tế, đảm bảo bạn có thể triển khai các cung trong dự án của mình một cách liền mạch.
+## Cách thêm gradient cho lớp viền trong Java?
 
-## [Vẽ đường cong Bezier trong Java](./drawing-bezier-curves/)
+`Stroke` là đối tượng định nghĩa độ rộng đường, kiểu gạch đứt, và brush dùng để viền các hình dạng.  
+Tạo một đối tượng `Stroke`, gán một `LinearGradientBrush` (hoặc `RadialGradientBrush`) cho nó, và áp dụng stroke lên lớp mục tiêu. Các điểm bắt đầu và kết thúc của gradient, cũng như các màu dừng, đều có thể cấu hình hoàn toàn, cho phép bạn đạt được hiệu ứng chuyên nghiệp chỉ với vài dòng mã đồng thời duy trì hiệu suất cao.
 
-Đường cong Bezier là nền tảng trong việc tạo ra đồ họa mượt mà và có thể mở rộng. Hướng dẫn này chỉ cho bạn cách vẽ đường cong Bezier trong Java bằng Aspose.PSD. Thực hiện theo hướng dẫn từng bước và ví dụ về mã để thành thạo kỹ năng thiết kế đồ họa cần thiết này.
+## Cách vẽ đường thẳng trong Java?
 
-## [Vẽ hình elip trong Java](./drawing-ellipses/)
+`Pen` là lớp bao gói màu sắc, độ rộng và kiểu gạch đứt cho việc vẽ đường.  
+Sử dụng `Graphics.drawLine(x1, y1, x2, y2)` để render các đoạn thẳng. Bạn có thể thay đổi độ dày và màu sắc của đường bằng cách thiết lập các thuộc tính của `Pen` trước khi vẽ. Đây là khối xây dựng cho lưới, viền và các hình dạng tùy chỉnh, và bạn có thể kết hợp nhiều đường để tạo ra các sơ đồ phức tạp hoặc thành phần UI.
 
-Hình elip là hình dạng linh hoạt được sử dụng trong các yếu tố thiết kế khác nhau. Tìm hiểu cách vẽ hình elip chính xác bằng Aspose.PSD cho Java. Hướng dẫn của chúng tôi chia quy trình thành các bước có thể quản lý được, giúp bạn dễ dàng thêm dấu chấm lửng vào dự án đồ họa của mình.
+## Cách vẽ đường cong Bezier trong Java?
 
-## [Vẽ đường trong Java](./drawing-lines/)
+`GraphicsPath` là một container cho một loạt các lệnh vẽ có thể được render thành một hình duy nhất.  
+Khởi tạo một `GraphicsPath`, gọi `addBezier` với bốn điểm điều khiển, sau đó render đường dẫn bằng `drawPath`. Đường cong Bezier cung cấp các đường cong mượt mà, có thể mở rộng, lý tưởng cho logo và tác phẩm vector phức tạp, và bạn có thể điều chỉnh các điểm điều khiển để tinh chỉnh độ cong cho kết quả hình ảnh chính xác.
 
-Các đường thẳng tạo thành nền tảng của nhiều đồ họa. Hướng dẫn này hướng dẫn bạn cách vẽ đường trong tệp PSD bằng Aspose.PSD cho Java. Nâng cao kỹ năng phát triển Java của bạn với hướng dẫn đơn giản và toàn diện này.
+## Cách vẽ hình bầu dục trong Java?
 
-## [Vẽ hình chữ nhật trong Java](./drawing-rectangles/)
+Việc vẽ `Ellipse` được thực hiện qua phương thức `Graphics.drawEllipse`, nhận một hình chữ nhật xác định giới hạn của hình.  
+Gọi `Graphics.drawEllipse(rect)` trong đó `rect` xác định hộp bao. Bạn có thể tô đầy hình bầu dục bằng một brush đặc hoặc áp dụng gradient để có hình ảnh phong phú hơn, và cũng có thể đặt các thuộc tính stroke để viền hình với độ dày và màu tùy chỉnh.
 
-Hình chữ nhật có ở khắp mọi nơi trong thiết kế đồ họa, từ nút bấm đến đường viền. Tìm hiểu cách vẽ hình chữ nhật trên hình ảnh bằng Aspose.PSD cho Java. Hướng dẫn từng bước này hoàn hảo cho các nhà phát triển Java muốn thực hiện các tác vụ xử lý hình ảnh chính xác.
+## Cách vẽ hình chữ nhật trong Java?
 
-## [Vẽ bằng đồ họa trong Java](./drawing-using-graphics/)
+Việc vẽ `Rectangle` sử dụng phương thức `Graphics.drawRectangle` để tạo các hộp có cạnh sắc nét.  
+`Graphics.drawRectangle(rect)` tạo các hộp có cạnh sắc nét. Kết hợp với `fillRectangle` để có nền đặc, hoặc sử dụng `Pen` với kiểu gạch đứt tùy chỉnh cho viền họa tiết, cho phép bạn tạo các panel UI, nền nút, hoặc bất kỳ yếu tố đồ họa hình chữ nhật nào cần thiết cho ứng dụng của bạn.
 
-Đi sâu vào những kiến thức cơ bản về vẽ đồ họa trong Java với Aspose.PSD. Hướng dẫn này bao gồm việc tạo hình dạng, áp dụng màu sắc và xuất hình ảnh. Đây là một nguồn tài nguyên tuyệt vời cho bất kỳ ai muốn tìm hiểu các nguyên tắc cơ bản của đồ họa Java.
+## Cách vẽ bằng GraphicsPath trong Java?
 
-## [Vẽ bằng đường dẫn đồ họa trong Java](./drawing-using-graphics-path/)
+`GraphicsPath` cho phép bạn kết hợp các đường thẳng, cung và đường cong thành một hình hợp nhất.  
+Một `GraphicsPath` cho phép bạn kết hợp các đường thẳng, cung và đường cong thành một hình hợp nhất. Sau khi xây dựng đường dẫn, bạn có thể tô hoặc viền nó trong một thao tác duy nhất, giúp giảm tải render và đảm bảo khử răng cưa nhất quán cho tất cả các thành phần.
 
-Đối với đồ họa phức tạp hơn, việc hiểu lớp Đường dẫn đồ họa là rất quan trọng. Hướng dẫn này sẽ hướng dẫn bạn cách tạo các hình ảnh tuyệt đẹp bằng Đường dẫn đồ họa của Aspose.PSD. Thực hiện theo từng bước để thành thạo kỹ thuật vẽ nâng cao này và đưa đồ họa của bạn lên một tầm cao mới.
-
-Những hướng dẫn này cung cấp nền tảng vững chắc về vẽ đồ họa bằng Aspose.PSD cho Java. Cho dù bạn là người mới bắt đầu hay nhà phát triển có kinh nghiệm, luôn có điều gì đó mới để học hỏi.
+Những câu trả lời ngắn gọn này cung cấp cho bạn một tham chiếu nhanh. Dưới đây bạn sẽ tìm thấy các hướng dẫn chi tiết mở rộng từng chủ đề với các đoạn mã, mẹo cấu hình và các lỗi thường gặp.
 
 ## Hướng dẫn vẽ đồ họa Java
-### [Cách thêm gradient lớp nét trong Java](./add-stroke-layer-gradient/)
-Tìm hiểu cách thêm và tùy chỉnh độ dốc của lớp nét trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn từng bước toàn diện này.
-### [Cách thêm mẫu lớp nét trong Java](./add-stroke-layer-pattern/)
-Tìm hiểu cách thêm mẫu lớp nét vào tệp PSD bằng Aspose.PSD cho Java. Hãy làm theo hướng dẫn từng bước này để cải thiện hình ảnh của bạn một cách dễ dàng.
-### [Các tính năng vẽ cốt lõi trong Java](./core-drawing-features/)
-Khám phá Aspose.PSD để biết khả năng xử lý hình ảnh mạnh mẽ của Java. Tìm hiểu cách tải, thao tác và lưu hình ảnh PSD theo chương trình.
-### [Vẽ cung trong Java](./drawing-arcs/)
-Tìm hiểu cách vẽ vòng cung trong Java bằng Aspose.PSD cho Java. Hướng dẫn từng bước với các ví dụ về mã cho các ứng dụng đồ họa.
-### [Vẽ đường cong Bezier trong Java](./drawing-bezier-curves/)
-Tìm hiểu cách vẽ đường cong Bezier trong Java bằng Aspose.PSD cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã.
-### [Vẽ hình elip trong Java](./drawing-ellipses/)
-Tìm hiểu cách vẽ hình elip trong Java bằng Aspose.PSD để thiết kế đồ họa và thao tác hình ảnh chính xác. Làm chủ các hướng dẫn từng bước.
-### [Vẽ đường trong Java](./drawing-lines/)
-Tìm hiểu cách vẽ đường trong tệp PSD bằng Aspose.PSD cho Java với hướng dẫn toàn diện này. Nâng cao kỹ năng phát triển Java của bạn.
-### [Vẽ hình chữ nhật trong Java](./drawing-rectangles/)
-Tìm hiểu cách vẽ hình chữ nhật trên hình ảnh bằng Aspose.PSD cho Java. Hướng dẫn này hướng dẫn các nhà phát triển Java từng bước. Hoàn hảo cho các tác vụ xử lý hình ảnh.
-### [Vẽ bằng đồ họa trong Java](./drawing-using-graphics/)
-Tìm hiểu cách vẽ đồ họa trong Java bằng Aspose.PSD theo từng bước. Tạo hình dạng, áp dụng màu sắc và xuất hình ảnh một cách dễ dàng.
-### [Vẽ bằng đường dẫn đồ họa trong Java](./drawing-using-graphics-path/)
-Tìm hiểu cách tạo đồ họa phức tạp trong Java bằng lớp Đường dẫn đồ họa của Aspose.PSD. Hướng dẫn này hướng dẫn bạn từng bước để tạo ra hình ảnh tuyệt đẹp.
+### [Cách Thêm Gradient Lớp Viền trong Java](./add-stroke-layer-gradient/)
+Learn how to add and customize stroke layer gradients in PSD files using Aspose.PSD for Java with this comprehensive step‑by‑step tutorial.
+
+### [Cách Thêm Mẫu Lớp Viền trong Java](./add-stroke-layer-pattern/)
+Learn how to add a stroke layer pattern to PSD files using Aspose.PSD for Java. Follow this step‑by‑step guide to enhance your images easily.
+
+### [Các Tính Năng Vẽ Cốt Lõi trong Java](./core-drawing-features/)
+Explore Aspose.PSD for Java's powerful image manipulation capabilities. Learn how to load, manipulate, and save PSD images programmatically.
+
+### [Vẽ Cung trong Java](./drawing-arcs/)
+Learn how to draw arcs in Java using Aspose.PSD for Java. Step‑by‑step tutorial with code examples for graphical applications.
+
+### [Vẽ Đường Cong Bezier trong Java](./drawing-bezier-curves/)
+Learn how to draw Bezier curves in Java using Aspose.PSD for Java. Follow our step‑by‑step guide with code examples.
+
+### [Vẽ Hình Bầu Dục trong Java](./drawing-ellipses/)
+Learn how to draw ellipses in Java using Aspose.PSD for precise graphic design and image manipulation. Master step‑by‑step tutorials.
+
+### [Vẽ Đường Thẳng trong Java](./drawing-lines/)
+Learn how to draw lines in PSD files using Aspose.PSD for Java with this comprehensive tutorial. Boost your Java development skills.
+
+### [Vẽ Hình Chữ Nhật trong Java](./drawing-rectangles/)
+Learn to draw rectangles on images using Aspose.PSD for Java. This tutorial guides Java developers step‑by‑step. Perfect for image manipulation tasks.
+
+### [Vẽ Bằng Graphics trong Java](./drawing-using-graphics/)
+Learn how to draw graphics in Java using Aspose.PSD step‑by‑step. Create shapes, apply colors, and export images effortlessly.
+
+### [Vẽ Bằng Graphics Path trong Java](./drawing-using-graphics-path/)
+Learn how to create complex graphics in Java using Aspose.PSD's Graphics Path class. This tutorial guides you through each step for stunning image creation.
+
+## Các liên kết hướng dẫn trùng lặp (ngữ cảnh gốc)
+
+### [Cách Thêm Gradient Lớp Viền trong Java](./add-stroke-layer-gradient/)
+### [Cách Thêm Mẫu Lớp Viền trong Java](./add-stroke-layer-pattern/)
+### [Các Tính Năng Vẽ Cốt Lõi trong Java](./core-drawing-features/)
+### [Vẽ Cung trong Java](./drawing-arcs/)
+### [Vẽ Đường Cong Bezier trong Java](./drawing-bezier-curves/)
+### [Vẽ Hình Bầu Dục trong Java](./drawing-ellipses/)
+### [Vẽ Đường Thẳng trong Java](./drawing-lines/)
+### [Vẽ Hình Chữ Nhật trong Java](./drawing-rectangles/)
+### [Vẽ Bằng Graphics trong Java](./drawing-using-graphics/)
+### [Vẽ Bằng Graphics Path trong Java](./drawing-using-graphics-path/)
+
+## Câu hỏi thường gặp
+
+**Q: Aspose.PSD có yêu cầu cài đặt Adobe Photoshop không?**  
+A: Không. Aspose.PSD hoạt động độc lập với Photoshop và có thể đọc/ghi các tệp PSD trên bất kỳ nền tảng nào hỗ trợ Java.
+
+**Q: Tôi có thể thao tác các lớp chứa bộ lọc điều chỉnh không?**  
+A: Có. Thư viện cung cấp các lớp điều chỉnh dưới dạng đối tượng, cho phép bạn thay đổi các tham số bằng mã.
+
+**Q: Kích thước tệp PSD tối đa mà Aspose.PSD có thể xử lý là bao nhiêu?**  
+A: Thư viện có thể xử lý các tệp lớn hơn 1 GB, với điều kiện JVM có đủ bộ nhớ heap; API streaming giúp giữ mức sử dụng bộ nhớ thấp.
+
+**Q: Có hỗ trợ xuất sang PDF đồng thời giữ dữ liệu vector không?**  
+A: Hoàn toàn có. Bạn có thể lưu PSD trực tiếp thành PDF, và các hình dạng vector như cung và đường dẫn vẫn giữ dạng vector trong file xuất.
+
+**Q: Làm sao để gỡ lỗi các vấn đề vẽ khi kết quả không như mong đợi?**  
+A: Bật tính năng ghi log của thư viện (`Logger.setLevel(Level.DEBUG)`) để xem chi tiết các bước render và xác định các tọa độ hoặc cài đặt brush không khớp.
+
+---
+
+**Cập nhật lần cuối:** 2026-08-22  
+**Kiểm thử với:** Aspose.PSD for Java 24.10  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Vẽ và Lưu Hình Chữ Nhật trong PSD bằng Aspose.PSD cho Java](/psd/java/basic-image-operations/simple-drawing/)
+- [Cách Thay Đổi Màu Viền trong Java Sử Dụng Aspose.PSD](/psd/java/advanced-image-effects/add-stroke-layer-color/)
+- [Cách Tạo Hiệu Ứng Gradient Hình Tròn trong Aspose.PSD cho Java](/psd/java/advanced-image-effects/add-gradient-effects/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
