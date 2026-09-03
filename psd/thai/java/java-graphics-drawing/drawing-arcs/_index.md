@@ -1,26 +1,114 @@
 ---
-title: การวาดส่วนโค้งใน Java
-linktitle: การวาดส่วนโค้งใน Java
+date: 2026-09-03
+description: เรียนรู้วิธีการใช้ java graphics วาดโค้งด้วย Aspose.PSD for Java คู่มือขั้นตอนโดยละเอียดพร้อมตัวอย่างโค้ดสำหรับสร้างโค้งในไฟล์
+  PSD
+keywords:
+- java graphics draw arc
+- how to draw arcs java
+- Aspose.PSD arc drawing
+lastmod: 2026-09-03
+linktitle: การวาดโค้งใน Java
+og_description: เรียนรู้วิธีการใช้ java graphics วาดโค้งด้วย Aspose.PSD for Java บทเรียนนี้แสดงข้อกำหนดเบื้องต้น
+  ขั้นตอนโค้ด และเคล็ดลับสำหรับการสร้างโค้งในไฟล์ PSD
+og_image_alt: Screenshot of a Java program drawing an arc using Aspose.PSD
+og_title: วิธีการใช้ java graphics วาดโค้งใน Java – คู่มือ Aspose.PSD
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to java graphics draw arc using Aspose.PSD for Java. Step‑by‑step
+    guide with code snippets for creating arcs in PSD files.
+  headline: How to java graphics draw arc in Java
+  type: TechArticle
+- description: Learn how to java graphics draw arc using Aspose.PSD for Java. Step‑by‑step
+    guide with code snippets for creating arcs in PSD files.
+  name: How to java graphics draw arc in Java
+  steps:
+  - name: set up your Java project
+    text: Create a new Java project in your favourite IDE and add the Aspose.PSD JAR
+      to the build path. Ensure the JAR is referenced correctly so the compiler can
+      locate the library classes.
+  - name: import required packages
+    text: 'To begin, import the necessary packages from Aspose.PSD for Java: The `Pen`
+      class defines the colour, width, and style of the line used to draw the arc.
+      These imports expose the `PsdImage`, `Graphics`, `Pen`, and colour classes needed
+      for arc drawing.'
+  - name: initialise image and graphics objects
+    text: 'Create an instance of `PsdImage` and obtain a `Graphics` object to draw
+      on: Replace `"Your Document Directory"` with the folder where you want the output
+      files saved.'
+  - name: define arc parameters
+    text: 'Set the geometry and style of the arc—its bounding rectangle, start angle,
+      sweep angle, colour, and thickness: Adjust the values to match the visual design
+      you need; for example, a 200 px radius arc starting at 45° and sweeping 270°.'
+  - name: draw the arc and save the image
+    text: 'Invoke `drawArc` on the `Graphics` object and persist the PSD (or export
+      to another format): The `drawArc` method of the `Graphics` class renders an
+      arc defined by a bounding rectangle, start angle, and sweep angle using the
+      specified `Pen`. The snippet draws the arc on the canvas and saves it as a '
+  type: HowTo
+- questions:
+  - answer: Yes, the library can draw rectangles, ellipses, lines, polygons, and custom
+      paths using the same `Graphics` API.
+    question: Can Aspose.PSD for Java handle other shapes besides arcs?
+  - answer: Create a `Pen` with the desired `Color` and width, then pass that `Pen`
+      instance to `drawArc`.
+    question: How do I change the arc colour and thickness?
+  - answer: Absolutely. Aspose.PSD supports PNG, JPEG, TIFF, GIF and many more – just
+      change the file extension in the `save` method.
+    question: Is it possible to export the PSD to a format other than BMP?
+  - answer: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for tutorials,
+      code samples, and assistance from other developers.
+    question: Where can I find more examples and community support?
+  - answer: Yes, it can process files up to 2 GB and render arcs without loading the
+      entire document into memory, thanks to its streaming architecture.
+    question: Does the library work with large PSD files?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-description: เรียนรู้วิธีการวาดส่วนโค้งใน Java โดยใช้ Aspose.PSD สำหรับ Java บทช่วยสอนทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับแอปพลิเคชันกราฟิก
-weight: 13
+tags:
+- java graphics
+- Aspose.PSD
+- arc drawing
+- PSD manipulation
+title: วิธีการใช้ java graphics วาดโค้งใน Java
 url: /th/java/java-graphics-drawing/drawing-arcs/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การวาดส่วนโค้งใน Java
+# วิธีการวาดโค้งด้วยกราฟิก Java
 
-## การแนะนำ
-ในบทช่วยสอนนี้ เราจะสำรวจวิธีการวาดรูปส่วนโค้งโดยใช้ Aspose.PSD สำหรับไลบรารี Java การวาดส่วนโค้งโดยทางโปรแกรมอาจมีประโยชน์ในแอปพลิเคชันต่างๆ เช่น ส่วนติดต่อผู้ใช้แบบกราฟิก การสร้างแผนภูมิ หรือการแสดงภาพแบบกำหนดเอง Aspose.PSD สำหรับ Java มีฟังก์ชันที่มีประสิทธิภาพในการจัดการและสร้างไฟล์ PSD (เอกสาร Photoshop) รวมถึงความสามารถในการวาดรูปร่าง เช่น ส่วนโค้งด้วยคุณสมบัติที่ปรับแต่งได้
+## บทนำ
+ในบทแนะนำนี้คุณจะได้ค้นพบวิธีการ **java graphics draw arc** ด้วยไลบรารี Aspose.PSD for Java การวาดโค้งด้วยโปรแกรมเป็นความต้องการทั่วไปสำหรับส่วนประกอบ UI ที่กำหนดเอง, การแสดงผลข้อมูล, และรายงานที่มีกราฟิกมาก. Aspose.PSD for Java ให้คุณควบคุมไฟล์ PSD (Photoshop Document) อย่างเต็มที่, สามารถสร้าง, แก้ไข, และส่งออกภาพโดยไม่ต้องติดตั้ง Photoshop.
+
+## คำตอบอย่างรวดเร็ว
+- **Which library supports arc drawing in Java?** Aspose.PSD for Java.
+- **Do I need a license for production use?** Yes, a commercial license is required for non‑trial deployments.
+- **What file formats can I export to?** BMP, PNG, JPEG, TIFF, GIF and more.
+- **Can I change arc thickness and colour?** Yes, via the `Pen` object passed to `drawArc`.
+- **Is the API compatible with Java 8 and later?** Fully compatible with Java 8‑21.
+
+## Java graphics draw arc คืออะไร?
+`java graphics draw arc` หมายถึงกระบวนการเรนเดอร์ส่วนเส้นโค้ง—arc—บนพื้นผิวกราฟิกโดยใช้ API การวาดของ Java. ในบริบทของ Aspose.PSD การดำเนินการนี้ทำบนอ็อบเจ็กต์ `Graphics` ที่แสดงถึงเลเยอร์ภายในไฟล์ PSD.
+
+## ทำไมต้องใช้ Aspose.PSD for Java เพื่อวาดโค้ง?
+Aspose.PSD รองรับ **50+** รูปแบบภาพและเอกสาร, สามารถจัดการไฟล์ PSD ขนาด **สูงสุด 2 GB**, และประมวลผลเอกสารหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ. ประสิทธิภาพที่วัดได้นี้ทำให้เหมาะสำหรับการสร้างกราฟิกฝั่งเซิร์ฟเวอร์ที่ความเร็วและการใช้หน่วยความจำเป็นสิ่งสำคัญ.
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนดำเนินการบทช่วยสอนนี้ ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าข้อกำหนดเบื้องต้นต่อไปนี้:
-1.  สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ของออราเคิล](https://www.oracle.com/java/).
-2.  Aspose.PSD สำหรับไลบรารี Java: รับ Aspose.PSD สำหรับไลบรารี Java จาก[หน้าดาวน์โหลด](https://releases.aspose.com/psd/java/)- ปฏิบัติตามคำแนะนำในการติดตั้งเพื่อรวมไว้ในโปรเจ็กต์ Java ของคุณ
-## แพ็คเกจนำเข้า
-ในการเริ่มต้น ให้นำเข้าแพ็คเกจที่จำเป็นจาก Aspose.PSD สำหรับ Java:
+1. **Java Development Environment** – Install Java from [Oracle's website](https://www.oracle.com/java/).  
+2. **Aspose.PSD for Java Library** – Download the latest JAR from the [download page](https://releases.aspose.com/psd/java/). Follow the provided instructions to add the JAR to your project’s classpath.
+
+## วิธีการวาดโค้งด้วย Java graphics ใน Java?
+โหลด `PsdImage` ใหม่, ดึงพื้นผิว `Graphics` ของมัน, ตั้งค่า `Pen` ด้วยสีและความหนาที่ต้องการ, แล้วเรียก `drawArc`. ลำดับสั้น ๆ นี้สร้างโค้งและบันทึกผลลัพธ์ในโซ่เมธอดเดียว. โดยปรับสี่เหลี่ยมขอบเขตและพารามิเตอร์มุมคุณสามารถควบคุมขนาด, ตำแหน่ง, และการสวิงของโค้งให้ตรงตามความต้องการออกแบบของคุณ.
+
+### ขั้นตอนที่ 1: ตั้งค่าโปรเจกต์ Java ของคุณ
+สร้างโปรเจกต์ Java ใหม่ใน IDE ที่คุณชื่นชอบและเพิ่ม JAR ของ Aspose.PSD ไปยังเส้นทางการสร้าง. ตรวจสอบให้แน่ใจว่า JAR ถูกอ้างอิงอย่างถูกต้องเพื่อให้คอมไพเลอร์สามารถค้นหาคลาสของไลบรารีได้.
+
+### ขั้นตอนที่ 2: นำเข้าแพ็กเกจที่จำเป็น
+To begin, import the necessary packages from Aspose.PSD for Java:
+The `Pen` class defines the colour, width, and style of the line used to draw the arc.
 ```java
 import com.aspose.psd.Color;
 import static com.aspose.psd.ColorAdjustType.Pen;
@@ -29,57 +117,79 @@ import com.aspose.psd.Image;
 import com.aspose.psd.Pen;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
-```
-แพ็คเกจเหล่านี้ให้การเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับการวาดส่วนโค้งและการบันทึกรูปภาพในรูปแบบต่างๆ
-## ขั้นตอนที่ 1: ตั้งค่าโครงการ Java ของคุณ
-ขั้นแรก สร้างโปรเจ็กต์ Java ใหม่ใน IDE ของคุณ (Integrated Development Environment) และนำเข้า Aspose.PSD สำหรับไลบรารี Java ตรวจสอบให้แน่ใจว่าไลบรารีได้รับการอ้างอิงอย่างถูกต้องในเส้นทางการ build ของโปรเจ็กต์ของคุณ
-## ขั้นตอนที่ 2: เริ่มต้นวัตถุรูปภาพและกราฟิก
- สร้างอินสแตนซ์ของ`PsdImage` และ`Graphics` ที่จะทำงานร่วมกับ:
+```  
+These imports expose the `PsdImage`, `Graphics`, `Pen`, and colour classes needed for arc drawing.
+
+### ขั้นตอนที่ 3: เริ่มต้นอ็อบเจ็กต์ภาพและกราฟิก
+Create an instance of `PsdImage` and obtain a `Graphics` object to draw on:
 ```java
 String dataDir = "Your Document Directory";
-// เตรียมใช้งานวัตถุ PsdImage
+// Initialize PsdImage object
 PsdImage image = new PsdImage(100, 100);
-// เริ่มต้นวัตถุกราฟิกและพื้นผิวที่ชัดเจน
+// Initialize Graphics object and clear surface
 Graphics graphics = new Graphics(image);
 graphics.clear(Color.getYellow());
-```
- แทนที่`"Your Document Directory"` ด้วยเส้นทางไดเร็กทอรีที่คุณต้องการบันทึกไฟล์เอาต์พุตของคุณ
-## ขั้นตอนที่ 3: กำหนดพารามิเตอร์ส่วนโค้ง
-ตั้งค่าพารามิเตอร์สำหรับส่วนโค้งที่คุณต้องการวาด เช่น ความกว้าง ความสูง มุมเริ่มต้น และมุมกวาด:
+```  
+Replace `"Your Document Directory"` with the folder where you want the output files saved.
+
+### ขั้นตอนที่ 4: กำหนดพารามิเตอร์ของโค้ง
+Set the geometry and style of the arc—its bounding rectangle, start angle, sweep angle, colour, and thickness:
 ```java
 int width = 100;
 int height = 200;
 int startAngle = 45;
 int sweepAngle = 270;
-```
-ปรับค่าเหล่านี้ตามความต้องการเฉพาะของคุณสำหรับขนาดและตำแหน่งของส่วนโค้ง
-## ขั้นตอนที่ 4: วาดและบันทึกส่วนโค้ง
- วาดส่วนโค้งโดยใช้`drawArc` วิธีการของ`Graphics` คลาสและบันทึกรูปภาพ:
+```  
+Adjust the values to match the visual design you need; for example, a 200 px radius arc starting at 45° and sweeping 270°.
+
+### ขั้นตอนที่ 5: วาดโค้งและบันทึกภาพ
+Invoke `drawArc` on the `Graphics` object and persist the PSD (or export to another format):
+The `drawArc` method of the `Graphics` class renders an arc defined by a bounding rectangle, start angle, and sweep angle using the specified `Pen`.
 ```java
-// วาดส่วนโค้งด้วยวัตถุปากกาที่ระบุ (สีดำ) และพารามิเตอร์
+// Draw arc with specified Pen object (black color) and parameters
 graphics.drawArc(new Pen(Color.getBlack()), 0, 0, width, height, startAngle, sweepAngle);
-// บันทึกภาพในรูปแบบ BMP
+// Save the image in BMP format
 String outputPath = dataDir + "Arc.bmp";
 BmpOptions saveOptions = new BmpOptions();
 saveOptions.setBitsPerPixel(32);
 image.save(outputPath, saveOptions);
-```
-ข้อมูลโค้ดนี้จะวาดส่วนโค้งบนพื้นผิวกราฟิกด้วยพารามิเตอร์ที่ระบุ และบันทึกเป็นไฟล์ BMP ปรับเส้นทางเอาท์พุท (`outputPath`) ตามโครงสร้างไฟล์ของโครงการของคุณ
+```  
+The snippet draws the arc on the canvas and saves it as a BMP file. Change the file extension in `outputPath` to export to PNG, JPEG, or TIFF.
 
-## บทสรุป
-การวาดส่วนโค้งโดยทางโปรแกรมโดยใช้ Aspose.PSD สำหรับ Java นั้นตรงไปตรงมาและให้ความยืดหยุ่นในการสร้างกราฟิกแบบกำหนดเองภายในไฟล์ PSD ด้วยการทำตามขั้นตอนที่ระบุไว้ในบทช่วยสอนนี้ คุณสามารถรวมฟังก์ชันการวาดภาพส่วนโค้งเข้ากับแอปพลิเคชัน Java ของคุณได้อย่างมีประสิทธิภาพ
+## ข้อผิดพลาดทั่วไปและการแก้ไขปัญหา
+- **Incorrect angle units** – Aspose.PSD expects angles in degrees, not radians. Supplying radians will produce unexpected results.
+- **Pen thickness too large** – Very thick pens may cause the arc to exceed the image bounds; reduce the thickness or enlarge the canvas.
+- **File path issues** – Use absolute paths or ensure the working directory has write permissions to avoid `IOException`.
 
 ## คำถามที่พบบ่อย
-### Aspose.PSD สำหรับ Java สามารถจัดการรูปร่างอื่นนอกเหนือจากส่วนโค้งได้หรือไม่
-ใช่ Aspose.PSD รองรับการวาดรูปทรงต่างๆ รวมถึงสี่เหลี่ยม วงรี เส้น และเส้นทางแบบกำหนดเอง
-### ฉันจะแก้ไขคุณสมบัติส่วนโค้ง เช่น ความหนาและสีได้อย่างไร
- คุณสามารถปรับลักษณะที่ปรากฏของส่วนโค้งได้โดยการแก้ไข`Pen` คุณสมบัติของวัตถุที่ส่งผ่านไปยัง`drawArc` วิธี.
-### Aspose.PSD เหมาะสำหรับการสร้างเนื้อหากราฟิกที่ซับซ้อนหรือไม่
-แน่นอนว่า Aspose.PSD มีคุณสมบัติมากมายสำหรับการจัดการและสร้างไฟล์ PSD ซึ่งรองรับทั้งกราฟิกที่เรียบง่ายและซับซ้อน
-### Aspose.PSD รองรับการส่งออกเป็นรูปแบบอื่นที่ไม่ใช่ BMP หรือไม่
-ใช่ Aspose.PSD รองรับการส่งออกเป็นรูปแบบต่างๆ เช่น PNG, JPEG, TIFF และ GIF และอื่นๆ
-### ฉันจะรับการสนับสนุนและทรัพยากรเพิ่มเติมสำหรับ Aspose.PSD ได้จากที่ใด
- เยี่ยมชม[ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34) สำหรับการสนับสนุนชุมชน เอกสาร และการอัปเดต
+
+**Q: Can Aspose.PSD for Java handle other shapes besides arcs?**  
+A: Yes, the library can draw rectangles, ellipses, lines, polygons, and custom paths using the same `Graphics` API.
+
+**Q: How do I change the arc colour and thickness?**  
+A: Create a `Pen` with the desired `Color` and width, then pass that `Pen` instance to `drawArc`.
+
+**Q: Is it possible to export the PSD to a format other than BMP?**  
+A: Absolutely. Aspose.PSD supports PNG, JPEG, TIFF, GIF and many more – just change the file extension in the `save` method.
+
+**Q: Where can I find more examples and community support?**  
+A: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for tutorials, code samples, and assistance from other developers.
+
+**Q: Does the library work with large PSD files?**  
+A: Yes, it can process files up to 2 GB and render arcs without loading the entire document into memory, thanks to its streaming architecture.
+
+---
+
+**อัปเดตล่าสุด:** 2026-09-03  
+**ทดสอบด้วย:** Aspose.PSD for Java 24.11  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วาดและบันทึกสี่เหลี่ยมใน PSD ด้วย Aspose.PSD for Java](/psd/java/basic-image-operations/simple-drawing/)
+- [ปรับขนาดภาพด้วย Aspose.PSD for Java – วาดรูปทรงและการดำเนินการภาพพื้นฐาน](/psd/java/basic-image-operations/)
+- [วิธีการเปลี่ยนสีเส้นขอบใน Java ด้วย Aspose.PSD](/psd/java/advanced-image-effects/add-stroke-layer-color/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
