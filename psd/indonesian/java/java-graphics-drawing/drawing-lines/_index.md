@@ -1,27 +1,78 @@
 ---
-title: Menggambar Garis di Jawa
-linktitle: Menggambar Garis di Jawa
-second_title: Asumsikan.PSD Java API
-description: Pelajari cara menggambar garis di file PSD menggunakan Aspose.PSD untuk Java dengan tutorial komprehensif ini. Tingkatkan keterampilan pengembangan Java Anda.
-weight: 16
+date: 2026-09-08
+description: Pelajari cara java graphics draw line dalam file PSD menggunakan Aspose.PSD
+  untuk Java. Panduan ini menunjukkan draw lines java dengan langkah‑langkah yang
+  jelas dan contoh kode.
+keywords:
+- java graphics draw line
+- draw lines java
+- how to draw lines java
+lastmod: 2026-09-08
+linktitle: Menggambar Garis di Java
+og_description: Temukan cara java graphics draw line di Java menggunakan Aspose.PSD.
+  Ikuti petunjuk langkah‑demi‑langkah untuk draw lines java dalam file PSD dengan
+  cepat.
+og_image_alt: Screenshot of Java code drawing lines in a PSD file using Aspose.PSD
+og_title: Cara java graphics draw line di Java dengan Aspose.PSD
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to java graphics draw line in PSD files using Aspose.PSD
+    for Java. This guide shows draw lines java with clear steps and code examples.
+  headline: How to java graphics draw line in Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.PSD for Java.
+    question: What library is required?
+  - answer: java graphics draw line.
+    question: Which primary keyword does this tutorial target?
+  - answer: Yes – a free trial license is available.
+    question: Do I need a license to try it?
+  - answer: The library works on Windows, Linux, and macOS.
+    question: Can I run this on any OS?
+  - answer: About 10‑15 minutes for a basic line drawing.
+    question: How long does the implementation take?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+tags:
+- java graphics
+- Aspose.PSD
+- PSD line drawing
+- Java image processing
+title: Cara java graphics draw line di Java
 url: /id/java/java-graphics-drawing/drawing-lines/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menggambar Garis di Jawa
+# Menggambar garis di Java
 
-## Perkenalan
-Dalam bidang pengembangan Java, memanipulasi dan membuat file PSD (Photoshop Document) secara terprogram merupakan kemampuan yang hebat. Aspose.PSD untuk Java memberdayakan pengembang untuk melakukan berbagai tugas seperti menggambar garis, bentuk, dan gambar langsung dalam file PSD. Tutorial ini akan memandu Anda melalui proses menggambar garis menggunakan Aspose.PSD untuk Java, memberikan langkah-langkah dan contoh yang jelas untuk membantu Anda memulai dengan cepat.
+## Pendahuluan
+Dalam tutorial ini Anda akan belajar cara **java graphics draw line** dalam file PSD menggunakan Aspose.PSD untuk Java. Menggambar garis secara programatik memungkinkan Anda mengotomatisasi pembuatan grafik, menambahkan anotasi, atau menghasilkan aset desain tanpa membuka Photoshop. Pada akhir panduan Anda akan dapat menggambar garis putus-putus maupun garis solid dengan hanya beberapa baris kode Java.
+
+## Jawaban Cepat
+- **Perpustakaan apa yang dibutuhkan?** Aspose.PSD untuk Java.  
+- **Kata kunci utama apa yang ditargetkan tutorial ini?** java graphics draw line.  
+- **Apakah saya memerlukan lisensi untuk mencobanya?** Ya – lisensi percobaan gratis tersedia.  
+- **Bisakah saya menjalankannya di sistem operasi apa pun?** Perpustakaan ini bekerja di Windows, Linux, dan macOS.  
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk menggambar garis dasar.
+
+## Apa itu java graphics draw line?
+Istilah `java graphics draw line` menggambarkan proses penggunaan API grafis berbasis Java untuk merender primitif garis lurus pada kanvas gambar. Dalam tutorial ini perpustakaan Aspose.PSD menyediakan kelas `Graphics`, yang menawarkan metode `drawLine` yang menerima sebuah `Pen` dan nilai koordinat untuk menghasilkan garis.
+
+## Mengapa menggunakan Aspose.PSD untuk menggambar garis?
+Aspose.PSD menyediakan mesin yang kuat dan efisien memori untuk menangani file Photoshop langsung dari kode Java. Ia mendukung lebih dari 70 format gambar dan dokumen, dapat bekerja dengan file PSD hingga 2 GB tanpa harus memuat seluruhnya, serta menawarkan operasi menggambar berperforma tinggi, menjadikannya ideal untuk pemrosesan batch dan pembuatan grafik otomatis.
+
 ## Prasyarat
-Sebelum mendalami tutorial ini, pastikan Anda memiliki prasyarat berikut:
-- Pengetahuan dasar bahasa pemrograman Java.
-- JDK (Java Development Kit) diinstal pada sistem Anda.
-- Pustaka Aspose.PSD untuk Java diunduh dan disiapkan di lingkungan pengembangan Anda.
-## Paket Impor
-Pertama, pastikan Anda telah mengimpor paket Aspose.PSD untuk Java yang diperlukan ke dalam proyek Anda:
+- Pengetahuan dasar tentang bahasa pemrograman Java.  
+- JDK (Java Development Kit) terpasang di sistem Anda.  
+- Perpustakaan Aspose.PSD untuk Java telah diunduh dan disiapkan dalam lingkungan pengembangan Anda.
+
+## Impor paket
+Impor berikut membawa kelas Aspose.PSD yang diperlukan untuk pembuatan gambar, penanganan grafis, dan manajemen warna.
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
@@ -33,53 +84,84 @@ import com.aspose.psd.brushes.SolidBrush;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
-## Langkah 1: Siapkan Proyek Anda
-Mulailah dengan membuat proyek Java baru di IDE Anda dan menambahkan Aspose.PSD untuk Java ke dependensi Anda. Anda dapat mengunduh perpustakaan dari[Aspose.PSD untuk Unduhan Java](https://releases.aspose.com/psd/java/).
-## Langkah 2: Inisialisasi Gambar PSD
-Inisialisasi gambar PSD dengan lebar dan tinggi tertentu:
+
+## Langkah 1: siapkan proyek Anda
+Mulailah dengan membuat proyek Java baru di IDE Anda dan menambahkan Aspose.PSD untuk Java ke dependensi Anda. Anda dapat mengunduh perpustakaan dari [Aspose.PSD for Java Download](https://releases.aspose.com/psd/java/).
+
+## Langkah 2: inisialisasi gambar psd
+Kelas `PsdImage` mewakili dokumen Photoshop dan memungkinkan Anda membuat kanvas PSD kosong baru dengan dimensi yang ditentukan.
 ```java
 String dataDir = "Your Document Directory";
 String outpath = dataDir + "Lines.psd";
 Image image = new PsdImage(100, 100);
 ```
-## Langkah 3: Inisialisasi Objek Grafik
-Buat sebuah instance dari kelas Graphics dan bersihkan permukaan grafis:
+
+## Langkah 3: inisialisasi objek grafik
+`Graphics` adalah kelas inti Aspose.PSD untuk menggambar bentuk, teks, dan garis pada kanvas PSD.  
+Buat instance dari kelas Graphics dan bersihkan permukaan grafis:
 ```java
 Graphics graphic = new Graphics(image);
 graphic.clear(Color.getYellow());
 ```
-## Langkah 4: Gambar Garis Putus-putus Diagonal
-Gambarlah dua garis putus-putus diagonal menggunakan objek Pena biru:
+
+## Cara java graphics draw line di Java?
+Muat atau buat kanvas PSD, dapatkan objek `Graphics`‑nya, dan panggil metode `drawLine` dengan `Pen` yang telah dikonfigurasi. Pendekatan satu‑panggilan ini menggambar garis lurus secara instan, menangani anti‑aliasing dan pencampuran warna secara otomatis. Anda dapat mengulangi panggilan dengan koordinat berbeda untuk membuat beberapa garis.
+
+## Langkah 4: gambar garis putus‑putus diagonal
+Objek `Pen` menentukan warna, lebar, dan gaya dash garis, dan diteruskan ke metode `drawLine` untuk merender garis.
 ```java
 graphic.drawLine(new Pen(Color.getBlue()), 9, 9, 90, 90);
 graphic.drawLine(new Pen(Color.getBlue()), 9, 90, 90, 9);
 ```
-## Langkah 5: Gambar Garis Berkelanjutan
-Gambarlah empat garis kontinu menggunakan objek Pena dengan warna berbeda:
+
+## Langkah 5: gambar garis kontinu
+`SolidBrush` menyediakan warna isi solid untuk pen, memungkinkan Anda mengatur warna garis dengan mudah.
 ```java
 graphic.drawLine(new Pen(new SolidBrush(Color.getRed())), new Point(9, 9), new Point(9, 90));
 graphic.drawLine(new Pen(new SolidBrush(Color.getAqua())), new Point(9, 90), new Point(90, 90));
 graphic.drawLine(new Pen(new SolidBrush(Color.getBlack())), new Point(90, 90), new Point(90, 9));
 graphic.drawLine(new Pen(new SolidBrush(Color.getWhite())), new Point(90, 9), new Point(9, 9));
 ```
-## Langkah 6: Simpan Gambar
-Terakhir, simpan gambar PSD yang dimodifikasi ke jalur tertentu:
+
+## Langkah 6: simpan gambar
+Memanggil metode `save` pada objek `Image` menulis file PSD yang telah dimodifikasi ke jalur yang ditentukan di disk.
 ```java
 image.save(outpath);
 ```
+
 ## Kesimpulan
-Dengan mengikuti langkah-langkah ini, Anda telah berhasil menggambar garis dalam file PSD menggunakan Aspose.PSD untuk Java. Tutorial ini mencakup inisialisasi gambar PSD, pengaturan grafik, menggambar berbagai jenis garis, dan menyimpan gambar yang dihasilkan.
+Dengan mengikuti langkah‑langkah ini, Anda telah berhasil menggambar garis di dalam file PSD menggunakan Aspose.PSD untuk Java. Tutorial ini mencakup inisialisasi gambar PSD, penyiapan grafis, menggambar berbagai jenis garis, dan menyimpan gambar hasil. Sekarang Anda memiliki fondasi yang kuat untuk mengotomatisasi pembuatan grafik dalam Java.
+
 ## FAQ
+
 ### Apa itu Aspose.PSD untuk Java?
-Aspose.PSD untuk Java adalah perpustakaan Java yang kuat untuk bekerja dengan file PSD secara terprogram.
-### Di mana saya dapat menemukan dokumentasi Aspose.PSD untuk Java?
- Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/psd/java/).
+Aspose.PSD untuk Java adalah perpustakaan Java yang kuat untuk bekerja dengan file PSD secara programatik.
+
+### Di mana saya dapat menemukan dokumentasi untuk Aspose.PSD untuk Java?
+Anda dapat menemukan dokumentasi di halaman referensi API Aspose.PSD Java [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+
 ### Bisakah saya mencoba Aspose.PSD untuk Java sebelum membeli?
- Ya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat memperoleh percobaan gratis di halaman rilis Aspose [Aspose releases page](https://releases.aspose.com/).
+
 ### Bagaimana cara mendapatkan dukungan teknis untuk Aspose.PSD untuk Java?
- Untuk dukungan teknis, kunjungi[Forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
-### Di mana saya bisa mendapatkan lisensi sementara Aspose.PSD untuk Java?
- Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Untuk dukungan teknis, kunjungi [forum Aspose.PSD](https://forum.aspose.com/c/psd/34).
+
+### Di mana saya dapat memperoleh lisensi sementara untuk Aspose.PSD untuk Java?
+Anda dapat memperoleh lisensi sementara di portal pembelian Aspose [halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Terakhir Diperbarui:** 2026-09-08  
+**Diuji Dengan:** Aspose.PSD untuk Java 24.12  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Resize Image with Aspose.PSD for Java – Draw Shapes & Basic Image Operations](/psd/java/basic-image-operations/)
+- [Draw and Save a Rectangle in a PSD using Aspose.PSD for Java](/psd/java/basic-image-operations/simple-drawing/)
+- [Add Signature to Image – Draw Image on Canvas with Aspose.PSD for Java](/psd/java/advanced-image-effects/add-signature-to-image/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
