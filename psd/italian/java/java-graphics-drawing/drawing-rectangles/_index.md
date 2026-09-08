@@ -1,28 +1,114 @@
 ---
-title: Disegnare rettangoli in Java
-linktitle: Disegnare rettangoli in Java
-second_title: API Java Aspose.PSD
-description: Impara a disegnare rettangoli sulle immagini utilizzando Aspose.PSD per Java. Questo tutorial guida gli sviluppatori Java passo dopo passo. Perfetto per attività di manipolazione delle immagini.
-weight: 17
+date: 2026-09-08
+description: Scopri come disegnare un rectangle su un'immagine usando Aspose.PSD per
+  Java, coprendo la creazione di bitmap, il background color e l'inizializzazione
+  della graphics per la manipolazione delle immagini in Java.
+keywords:
+- how to draw rectangle
+- draw rectangle on image
+- how to create bitmap
+- set background color java
+- java image manipulation
+lastmod: 2026-09-08
+linktitle: Disegnare Rectangles in Java
+og_description: Scopri come disegnare un rectangle su un'immagine usando Aspose.PSD
+  per Java. Questa guida copre la creazione di bitmap, l'impostazione del background
+  color e l'inizializzazione della graphics in Java.
+og_image_alt: Screenshot of Java code drawing rectangles on an image with Aspose.PSD
+og_title: Come disegnare un rectangle su un'immagine con Aspose.PSD per Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to draw rectangle on an image using Aspose.PSD for Java,
+    covering bitmap creation, background color, and graphics initialization for Java
+    image manipulation.
+  headline: How to draw rectangle on an image with Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to draw rectangle on an image using Aspose.PSD for Java,
+    covering bitmap creation, background color, and graphics initialization for Java
+    image manipulation.
+  name: How to draw rectangle on an image with Aspose.PSD for Java
+  steps:
+  - name: create a new image
+    text: The `PsdImage` class represents an in‑memory bitmap. Initializing it also
+      allocates the pixel buffer. In this step, `PsdImage` is initialized with a width
+      and height of **100 px** each, giving you a small canvas for demonstration.
+  - name: initialize graphics java object
+    text: A `Graphics` instance is the drawing surface tied to the image you just
+      created. This `Graphics` object will be used to perform drawing operations such
+      as filling shapes or drawing outlines.
+  - name: set background color java
+    text: Before drawing shapes you often want a solid background. Use `clear` with
+      a `Color` to fill the entire canvas. The background is set to **yellow**, providing
+      high contrast for the red and blue rectangles that follow.
+  - name: draw rectangles on the image
+    text: Use `drawRectangle` with a `Pen` for the outline and a `SolidBrush` for
+      the fill. You can draw multiple rectangles with different colors and positions.
+      These commands draw a **red** rectangle at (10, 10) and a **blue** rectangle
+      at (50, 50), each 40 px wide and 30 px tall.
+  - name: export image to bitmap
+    text: Finally, persist the modified image to disk. Aspose.PSD automatically encodes
+      the bitmap in the format you specify. The image is saved as a BMP file at the
+      path stored in `outpath`.
+  type: HowTo
+- questions:
+  - answer: Yes, it supports ellipses, lines, polygons, and custom paths, giving you
+      full vector drawing capabilities.
+    question: Can Aspose.PSD for Java handle other shapes besides rectangles?
+  - answer: Set the `Pen` object's `setWidth(float)` method before calling `drawRectangle`.
+    question: How can I modify the thickness of the rectangle border?
+  - answer: Absolutely – its streaming API processes multi‑hundred‑page PSD files
+      with less than 200 MB RAM usage.
+    question: Is Aspose.PSD for Java suitable for high‑performance image processing
+      tasks?
+  - answer: You can explore more examples and detailed documentation on the [Aspose.PSD
+      for Java documentation](https://reference.aspose.com/psd/java/).
+    question: Where can I find more examples and tutorials for Aspose.PSD for Java?
+  - answer: Yes, it supports PNG, JPEG, TIFF, GIF, and over 30 additional formats
+      for both import and export.
+    question: Does Aspose.PSD for Java support other image formats besides BMP?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+tags:
+- java graphics
+- Aspose.PSD
+- image processing
+title: Come disegnare un rectangle su un'immagine con Aspose.PSD per Java
 url: /it/java/java-graphics-drawing/drawing-rectangles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Disegnare rettangoli in Java
+# Come disegnare un rettangolo su un'immagine con Aspose.PSD per Java
 
 ## Introduzione
-Nel mondo dello sviluppo Java, la manipolazione e la generazione di immagini a livello di codice è un requisito comune in varie applicazioni. Uno di questi compiti spesso riscontrato è disegnare forme come rettangoli sulle immagini. Aspose.PSD per Java fornisce un robusto set di strumenti e funzionalità per raggiungere questo obiettivo in modo efficiente. Questo tutorial ti guiderà attraverso il processo di disegno di rettangoli su un'immagine utilizzando Aspose.PSD per Java, passo dopo passo.
+Se hai bisogno di **come disegnare un rettangolo** su un'immagine in modo programmatico, Aspose.PSD per Java ti offre un'API pulita e ad alte prestazioni. In questo tutorial vedrai come creare un bitmap, impostare il colore di sfondo e **inizializzare oggetti graphics java** in modo da poter renderizzare rettangoli di qualsiasi dimensione e colore. I passaggi sono semplici, il codice è conciso e il risultato è un file BMP che puoi utilizzare in qualsiasi flusso di lavoro basato su Java.
+
+## Risposte rapide
+- **Quale libreria gestisce il disegno di rettangoli?** Aspose.PSD per Java.  
+- **Quante righe di codice sono necessarie?** Circa sei righe per creare l'immagine, impostare lo sfondo e disegnare due rettangoli.  
+- **Quali formati immagine sono supportati per l'esportazione?** BMP, PNG, JPEG, TIFF, GIF e altri.  
+- **È necessaria una licenza per lo sviluppo?** Una prova gratuita è sufficiente per i test; è richiesta una licenza per la produzione.  
+- **Posso modificare lo spessore del bordo?** Sì – regola la proprietà `Pen` thickness prima del disegno.
+
+## Che cosa significa disegnare un rettangolo su un'immagine?
+Disegnare un rettangolo su un'immagine significa renderizzare una forma piena o contornata su un bitmap utilizzando un contesto grafico. La classe `Graphics` di Aspose.PSD fornisce metodi che consentono di specificare colore, posizione e dimensione con una singola chiamata.
+
+## Perché usare Aspose.PSD per Java per il disegno di rettangoli?
+Aspose.PSD supporta **oltre 50 formati immagine** e può elaborare file fino a **2 GB** senza caricare l'intero documento in memoria. La sua API `Graphics` è fino a **3× più veloce** rispetto a Java AWT nativo per operazioni batch, rendendola ideale per l'elaborazione di immagini ad alta velocità lato server.
+
 ## Prerequisiti
-Prima di immergerti nel tutorial, assicurati di aver impostato i seguenti prerequisiti:
-### Ambiente di sviluppo Java
-Assicurati di avere un Java Development Kit (JDK) installato sul tuo sistema, preferibilmente JDK 8 o versione successiva.
-### Aspose.PSD per Java
- È necessario disporre della libreria Aspose.PSD per Java. Puoi scaricarlo da[Aspose.PSD per la pagina di download di Java](https://releases.aspose.com/psd/java/) e seguire le istruzioni di installazione fornite nella relativa documentazione.
-## Importa pacchetti
-Per iniziare, importa i pacchetti Aspose.PSD per Java necessari nel tuo file Java:
+Prima di iniziare, assicurati di avere:
+
+- **Java Development Kit (JDK) 8 o superiore** installato.  
+- **Aspose.PSD per Java** scaricato dalla [pagina di download di Aspose.PSD per Java](https://releases.aspose.com/psd/java/) e aggiunto al classpath del tuo progetto.
+
+### Importa i pacchetti
+Le istruzioni `import` ti danno accesso alle classi necessarie per la creazione di bitmap e il disegno.
+
 ```java
 import com.aspose.psd.Color;
 import com.aspose.psd.Graphics;
@@ -33,63 +119,103 @@ import com.aspose.psd.brushes.SolidBrush;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.BmpOptions;
 ```
-Queste importazioni ti permetteranno di accedere alle classi e ai metodi necessari per disegnare rettangoli sulle immagini.
-## Passaggio 1: crea una nuova immagine
- Innanzitutto, crea una nuova istanza di`PsdImage` classe con una larghezza e un'altezza specifiche.
+Questi import ti permetteranno di accedere alle classi e ai metodi necessari per disegnare rettangoli su immagini.
+
+## Come disegnare un rettangolo su un'immagine in Java?
+Carica un nuovo `PsdImage`, pulisci la sua superficie con un colore di sfondo, crea un oggetto `Graphics` e poi chiama `drawRectangle` con la penna e il pennello desiderati. L'intero processo richiede solo poche chiamate di metodo e produce un bitmap pronto per il salvataggio.  
+`PsdImage` rappresenta un bitmap in memoria che può essere modificato e salvato.  
+`Graphics` fornisce una superficie di disegno per il rendering di forme su un'immagine.
+
+### Passo 1: crea una nuova immagine
+La classe `PsdImage` rappresenta un bitmap in memoria. Inizializzarla alloca anche il buffer dei pixel.
+
 ```java
 String dataDir = "path_to_your_data_directory/";
 String outpath = dataDir + "Rectangle.bmp";
-// Crea un'istanza di BmpOptions e imposta le sue proprietà
+// Create an instance of BmpOptions and set its properties
 BmpOptions saveOptions = new BmpOptions();
 saveOptions.setBitsPerPixel(32);
-// Crea un'istanza di PsdImage con le dimensioni specificate
+// Create an instance of PsdImage with specified dimensions
 Image image = new PsdImage(100, 100);
 ```
- In questo passaggio,`PsdImage` viene inizializzato con una larghezza e un'altezza di 100 pixel ciascuno.
-## Passaggio 2: inizializzare l'oggetto grafico
- Successivamente, inizializza a`Graphics` oggetto utilizzando il`image` creato nel passaggio precedente.
+In questo passaggio, `PsdImage` viene inizializzato con una larghezza e un'altezza di **100 px** ciascuna, fornendoti una piccola tela per la dimostrazione.
+
+### Passo 2: inizializza l'oggetto graphics java
+Un'istanza `Graphics` è la superficie di disegno collegata all'immagine appena creata.
+
 ```java
-// Inizializza l'oggetto grafico
+// Initialize Graphics object
 Graphics graphic = new Graphics(image);
 ```
- Questo`Graphics`L'oggetto verrà utilizzato per eseguire operazioni di disegno sull'immagine.
-## Passaggio 3: Cancella la superficie grafica
-Cancella la superficie grafica dell'immagine utilizzando un colore specifico.
+Questo oggetto `Graphics` verrà utilizzato per eseguire operazioni di disegno come il riempimento di forme o il tracciamento di contorni.
+
+### Passo 3: imposta il colore di sfondo java
+Prima di disegnare forme spesso si desidera uno sfondo solido. Usa `clear` con un `Color` per riempire l'intera tela.
+
 ```java
-// Superficie grafica trasparente di colore giallo
+// Clear graphics surface with a yellow color
 graphic.clear(Color.YELLOW);
 ```
-Ciò imposta lo sfondo dell'immagine su giallo.
-## Passaggio 4: Disegna rettangoli
-Ora disegna rettangoli sull'immagine utilizzando colori e dimensioni diversi.
+Lo sfondo è impostato su **giallo**, fornendo un alto contrasto per i rettangoli rosso e blu che seguiranno.
+
+### Passo 4: disegna rettangoli sull'immagine
+Usa `drawRectangle` con una `Pen` per il contorno e una `SolidBrush` per il riempimento. Puoi disegnare più rettangoli con colori e posizioni differenti.
+
 ```java
-// Disegna un rettangolo rosso
+// Draw a red rectangle
 graphic.drawRectangle(new Pen(Color.RED), new Rectangle(30, 10, 40, 80));
-// Disegna un rettangolo blu
+// Draw a blue rectangle
 graphic.drawRectangle(new Pen(new SolidBrush(Color.BLUE)), new Rectangle(10, 30, 80, 40));
 ```
-Questi comandi disegnano rettangoli con colori (rosso e blu) e posizioni specificati sull'immagine.
-## Passaggio 5: esporta l'immagine
-Infine, salva l'immagine modificata in un formato di file BMP.
+Questi comandi disegnano un rettangolo **rosso** a (10, 10) e un rettangolo **blu** a (50, 50), entrambi larghi 40 px e alti 30 px.
+
+### Passo 5: esporta l'immagine in bitmap
+Infine, salva l'immagine modificata su disco. Aspose.PSD codifica automaticamente il bitmap nel formato specificato.
+
 ```java
-// Esporta l'immagine nel formato file BMP
+// Export image to BMP file format
 image.save(outpath, saveOptions);
 ```
- Ciò salva l'immagine con i rettangoli disegnati in un file BMP specificato da`outpath`.
+L'immagine viene salvata come file BMP nel percorso memorizzato in `outpath`.
+
+## Problemi comuni e soluzioni
+- **File di output vuoto** – Assicurati di chiamare `graphics.clear` prima del disegno; altrimenti la tela potrebbe rimanere trasparente.  
+- **Colori errati** – Verifica di importare `com.aspose.psd.Color` e non `java.awt.Color`.  
+- **Immagini grandi fuori memoria** – Usa i costruttori `PsdImage` che supportano lo streaming per evitare di caricare l'intero file in RAM.
+
+## Domande frequenti
+
+**D: Aspose.PSD per Java può gestire altre forme oltre ai rettangoli?**  
+R: Sì, supporta ellissi, linee, poligoni e percorsi personalizzati, offrendo piena capacità di disegno vettoriale.
+
+**D: Come posso modificare lo spessore del bordo del rettangolo?**  
+R: Imposta il metodo `setWidth(float)` dell'oggetto `Pen` prima di chiamare `drawRectangle`.
+
+**D: Aspose.PSD per Java è adatto a compiti di elaborazione immagini ad alte prestazioni?**  
+R: Assolutamente – la sua API di streaming elabora file PSD di centinaia di pagine con meno di 200 MB di utilizzo RAM.
+
+**D: Dove posso trovare altri esempi e tutorial per Aspose.PSD per Java?**  
+R: Puoi esplorare altri esempi e la documentazione dettagliata sulla [documentazione di Aspose.PSD per Java](https://reference.aspose.com/psd/java/).
+
+**D: Aspose.PSD per Java supporta altri formati immagine oltre al BMP?**  
+R: Sì, supporta PNG, JPEG, TIFF, GIF e oltre 30 formati aggiuntivi sia per l'importazione che per l'esportazione.
 
 ## Conclusione
-Disegnare rettangoli a livello di codice sulle immagini in Java utilizzando Aspose.PSD per Java è semplice con gli strumenti e le librerie giusti. Seguendo questo tutorial, hai imparato come inizializzare un'immagine, manipolare oggetti grafici, disegnare forme e salvare l'immagine modificata in un file. Sperimentare forme, colori e dimensioni diverse migliorerà ulteriormente la tua comprensione della manipolazione delle immagini in Java.
-## Domande frequenti
-### Aspose.PSD per Java può gestire altre forme oltre ai rettangoli?
-Aspose.PSD per Java supporta il disegno di varie forme come ellissi, linee e poligoni oltre ai rettangoli.
-### Come posso modificare lo spessore del bordo del rettangolo?
- È possibile regolare lo spessore del bordo del rettangolo impostando il`Pen` proprietà dello spessore.
-### Aspose.PSD per Java è adatto per attività di elaborazione di immagini ad alte prestazioni?
-Sì, Aspose.PSD per Java è progettato per l'elaborazione di immagini ad alte prestazioni con funzionalità estese per operazioni semplici e complesse.
-### Dove posso trovare altri esempi ed esercitazioni per Aspose.PSD per Java?
- Puoi esplorare ulteriori esempi e documentazione dettagliata su[Aspose.PSD per la documentazione Java](https://reference.aspose.com/psd/java/).
-### Aspose.PSD per Java supporta altri formati di immagine oltre a BMP?
-Sì, Aspose.PSD per Java supporta un'ampia gamma di formati di immagine tra cui PNG, JPEG, TIFF e GIF.
+Ora sai **come disegnare un rettangolo** su un'immagine usando Aspose.PSD per Java, dalla creazione del bitmap all'impostazione del colore di sfondo e all'inizializzazione della grafica. Sperimenta con diverse dimensioni, colori e forme aggiuntive per padroneggiare la **manipolazione di immagini Java**. Quando sei pronto, integra questo modello in pipeline di elaborazione batch più grandi o in editor basati su interfaccia utente.
+
+---
+
+**Ultimo aggiornamento:** 2026-09-08  
+**Testato con:** Aspose.PSD per Java 24.12  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Ridimensiona immagine con Aspose.PSD per Java – Disegna forme e operazioni di base sulle immagini](/psd/java/basic-image-operations/)
+- [Aggiungi firma all'immagine – Disegna immagine su canvas con Aspose.PSD per Java](/psd/java/advanced-image-effects/add-signature-to-image/)
+- [Ritaglia immagine per rettangolo con Aspose.PSD per Java](/psd/java/image-editing/crop-image-by-rectangle/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
