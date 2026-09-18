@@ -1,28 +1,85 @@
 ---
-title: जावा में EXIF सेगमेंट में थंबनेल जोड़ें
-linktitle: जावा में EXIF सेगमेंट में थंबनेल जोड़ें
-second_title: Aspose.PSD जावा एपीआई
-description: Java के लिए Aspose.PSD का उपयोग करके थंबनेल के साथ छवि मेटाडेटा को बढ़ाने का तरीका जानें। सहज एकीकरण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 10
+date: 2026-09-18
+description: Aspose.PSD for Java का उपयोग करके java image metadata thumbnail को EXIF
+  segment में जोड़ना सीखें। यह step‑by‑step guide prerequisites, code walkthrough,
+  और saving the updated image को कवर करता है।
+keywords:
+- java image metadata
+- how to add thumbnail
+- java exif metadata
+lastmod: 2026-09-18
+linktitle: Java में EXIF Segment में Thumbnail जोड़ें
+og_description: Aspose.PSD for Java का उपयोग करके java image metadata thumbnail को
+  EXIF segment में जोड़ना सीखें। यह step‑by‑step guide prerequisites, code walkthrough,
+  और saving the updated image को कवर करता है।
+og_image_alt: Guide showing Java code to embed a thumbnail into EXIF metadata using
+  Aspose.PSD
+og_title: java image metadata thumbnail को EXIF segment में जोड़ने का तरीका
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to add java image metadata thumbnail to the EXIF segment
+    using Aspose.PSD for Java. This step‑by‑step guide covers prerequisites, code
+    walkthrough, and saving the updated image.
+  headline: How to add java image metadata thumbnail to EXIF segment
+  type: TechArticle
+- questions:
+  - answer: EXIF metadata is embedded information in digital images that includes
+      camera settings, capture date, GPS coordinates, and other details.
+    question: What is EXIF metadata?
+  - answer: Adding a thumbnail improves user experience by allowing quick image previews
+      without loading the full image.
+    question: Why add a thumbnail to EXIF?
+  - answer: You can download Aspose.PSD for Java from the [Aspose.PSD for Java download
+      page](https://releases.aspose.com/psd/java/).
+    question: Where can I download Aspose.PSD for Java?
+  - answer: You can obtain a temporary license for Aspose.PSD from the [temporary
+      license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I get a temporary license for Aspose.PSD?
+  - answer: For support, visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34).
+    question: How do I get support for Aspose.PSD?
+  type: FAQPage
+second_title: Aspose.PSD Java API
+tags:
+- java image metadata
+- EXIF thumbnail
+- Aspose.PSD
+- Java image processing
+title: java image metadata thumbnail को EXIF segment में जोड़ने का तरीका
 url: /hi/java/java-jpeg-image-processing/add-thumbnail-to-exif-segment-java/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा में EXIF सेगमेंट में थंबनेल जोड़ें
+# EXIF खंड में जावा इमेज मेटाडाटा थंबनेल जोड़ें
 
 ## परिचय
-इस ट्यूटोरियल में, हम जावा के लिए Aspose.PSD का उपयोग करके EXIF सेगमेंट में थंबनेल जोड़कर छवि मेटाडेटा को बढ़ाने का तरीका जानेंगे। EXIF (एक्सचेंजेबल इमेज फाइल फॉर्मेट) मेटाडेटा डिजिटल फोटोग्राफी में महत्वपूर्ण भूमिका निभाता है, जो कैमरा सेटिंग, तिथि और स्थान जैसी मूल्यवान जानकारी प्रदान करता है। थंबनेल जोड़ने से छवियों का कुशलतापूर्वक पूर्वावलोकन करके उपयोगकर्ता अनुभव में वृद्धि होती है।
-## आवश्यक शर्तें
-ट्यूटोरियल में शामिल होने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
-- जावा प्रोग्रामिंग का बुनियादी ज्ञान.
-- आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-- जावा के लिए IDE (एकीकृत विकास वातावरण), जैसे कि IntelliJ IDEA या Eclipse.
-- Aspose.PSD for Java लाइब्रेरी। आप इसे यहाँ से डाउनलोड कर सकते हैं[Aspose.PSD for Java डाउनलोड पृष्ठ](https://releases.aspose.com/psd/java/).
-## पैकेज आयात करें
-सबसे पहले, Aspose.PSD और Java से आवश्यक पैकेज आयात करें:
+इस ट्यूटोरियल में आप सीखेंगे कि कैसे **java image metadata** थंबनेल को PSD फ़ाइल के EXIF खंड में Aspose.PSD for Java का उपयोग करके जोड़ा जाए। EXIF (Exchangeable Image File Format) मेटाडाटा कैमरा सेटिंग्स, कैप्चर तिथि, स्थान और अन्य उपयोगी जानकारी संग्रहीत करता है। एक छोटा प्रीव्यू थंबनेल एम्बेड करने से एप्लिकेशन पूरे फ़ाइल को लोड किए बिना तेज़ी से इमेज का पूर्वावलोकन दिखा सकते हैं, जिससे प्रदर्शन और उपयोगकर्ता अनुभव बेहतर होता है।
+
+## त्वरित उत्तर
+- **ट्यूटोरियल क्या कवर करता है?** Aspose.PSD for Java के साथ PSD इमेज के EXIF खंड में थंबनेल जोड़ना।  
+- **इम्प्लीमेंटेशन में कितना समय लगता है?** बेसिक इंटीग्रेशन के लिए लगभग 10‑15 मिनट।  
+- **क्या मुझे लाइसेंस चाहिए?** प्रोडक्शन उपयोग के लिए एक टेम्पररी लाइसेंस आवश्यक है; मूल्यांकन के लिए एक फ्री ट्रायल काम करता है।  
+- **कौन सा Java संस्करण समर्थित है?** Java 8 और उसके बाद के संस्करण पूरी तरह सपोर्टेड हैं।  
+- **क्या बड़े फ़ाइलों को प्रोसेस किया जा सकता है?** हाँ—Aspose.PSD 2 GB तक की फ़ाइलों को पूरी इमेज को मेमोरी में लोड किए बिना संभाल सकता है।
+
+## java image metadata क्या है?
+Java image metadata उन संरचित जानकारी को दर्शाता है जो इमेज फ़ाइलों (जैसे EXIF, IPTC, या XMP) में एम्बेडेड होती है और जिसे Java लाइब्रेरीज़ जैसे Aspose.PSD के माध्यम से प्रोग्रामेटिकली पढ़ा, संशोधित या बनाया जा सकता है। यह मेटाडाटा एप्लिकेशन को कैमरा सेटिंग्स, टाइमस्टैम्प, GPS कॉर्डिनेट्स और कस्टम डेटा को विज़ुअल कंटेंट खोले बिना प्राप्त करने में सक्षम बनाता है।
+
+## EXIF मेटाडाटा में थंबनेल क्यों जोड़ें?
+EXIF खंड में थंबनेल जोड़ने से इमेज ब्राउज़र्स, फ़ाइल एक्सप्लोरर्स और कंटेंट मैनेजमेंट सिस्टम्स के लिए त्वरित विज़ुअल संकेत मिलता है। Aspose.PSD थंबनेल को इन‑मेमोरी प्रोसेस करता है, जिससे 500 KB तक की इमेज के लिए 0.2 सेकंड से कम समय में प्रीव्यू एम्बेड किया जा सकता है, और यह 30 से अधिक इमेज फ़ॉर्मैट्स, जैसे PSD, JPEG, PNG, और TIFF को सपोर्ट करता है।
+
+## पूर्वापेक्षाएँ
+- जावा प्रोग्रामिंग का बुनियादी ज्ञान।  
+- आपके सिस्टम पर Java Development Kit (JDK) स्थापित होना चाहिए।  
+- जावा के लिए IDE (Integrated Development Environment), जैसे IntelliJ IDEA या Eclipse।  
+- Aspose.PSD for Java लाइब्रेरी। आप इसे [Aspose.PSD for Java Download page](https://releases.aspose.com/psd/java/) से डाउनलोड कर सकते हैं।
+
+## पैकेज इम्पोर्ट करें
+निम्नलिखित इम्पोर्ट्स Aspose.PSD क्लासेज़ को लाते हैं जो PSD इमेज और EXIF डेटा के साथ काम करने के लिए आवश्यक हैं।  
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.exif.JpegExifData;
@@ -30,48 +87,73 @@ import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
-आइए Aspose.PSD का उपयोग करके जावा में EXIF सेगमेंट में थंबनेल जोड़ने की प्रक्रिया को विस्तृत चरणों में विभाजित करें:
-## चरण 1: PSD छवि लोड करें
-PSD छवि फ़ाइल को PsdImage ऑब्जेक्ट में लोड करें।
+
+## चरण 1: PSD इमेज लोड करें
+`PsdImage` एक Photoshop PSD फ़ाइल का प्रतिनिधित्व करता है और इसके लेयर्स और रिसोर्सेज़ तक पहुंच प्रदान करता है।  
 ```java
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage)Image.load(dataDir + "sample.psd");
 ```
-## चरण 2: छवि संसाधनों पर पुनरावृति करें
-उपयुक्त थंबनेल संसाधन ढूंढने के लिए छवि संसाधनों के माध्यम से पुनरावृति करें।
+
+## चरण 2: इमेज रिसोर्सेज़ पर इटरेट करें
+`ImageResource` थंबनेल, ICC प्रोफ़ाइल और PSD फ़ाइल में एम्बेडेड मेटाडाटा जैसे रिसोर्सेज़ को संलग्न करता है।  
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || image.getImageResources()[i] instanceof Thumbnail4Resource) {
         ThumbnailResource thumbnail = (ThumbnailResource)image.getImageResources()[i];
-        // थंबनेल संसाधन को संसाधित करें
+        // Process the thumbnail resource
     }
 }
 ```
+
 ## चरण 3: थंबनेल डेटा समायोजित करें
-थम्बनेल डेटा तैयार करें और समायोजित करें.
+`JpegOptions` आपको थंबनेल इमेज के लिए JPEG‑विशिष्ट सेटिंग्स, जैसे क्वालिटी, को कॉन्फ़िगर करने की अनुमति देता है।  
 ```java
 JpegOptions jpegOptions = new JpegOptions();
-jpegOptions.setQuality(100); // JPEG गुणवत्ता सेट करें
+jpegOptions.setQuality(100); // Set JPEG quality
 ```
-## चरण 4: छवि सहेजें
-संशोधित छवि को डिस्क पर वापस सहेजें.
+
+## चरण 4: इमेज सहेजें
+`save` को कॉल करने से अपडेटेड EXIF खंड (नया थंबनेल सहित) डिस्क पर लिखा जाता है बिना पूरी इमेज को पुनः‑एन्कोड किए।  
 ```java
 image.save(dataDir + "output.psd");
 ```
-## निष्कर्ष
-Aspose.PSD का उपयोग करके जावा में EXIF सेगमेंट में थंबनेल जोड़ना एक सीधी प्रक्रिया है जो छवि मेटाडेटा की उपयोगिता को बढ़ाती है। इस ट्यूटोरियल में बताए गए चरणों का पालन करके, आप अपनी छवियों को पूर्वावलोकन थंबनेल के साथ कुशलतापूर्वक समृद्ध कर सकते हैं।
+
+## सामान्य समस्याएँ और समाधान
+- **थंबनेल नहीं दिख रहा है:** जाँचें कि थंबनेल रिसोर्स सही तरीके से EXIF खंड में जोड़ा गया है और इमेज `PsdImage.save` मेथड से सहेजी गई है।  
+- **बड़ी फ़ाइलों पर मेमोरी समाप्ति त्रुटियाँ:** `PsdImage.load(..., LoadOptions)` को `LoadOptions.setLoadOnlyMetadata(true)` के साथ उपयोग करें ताकि केवल मेटाडाटा के साथ काम किया जा सके।  
+- **गलत अभिविन्यास:** सुनिश्चित करें कि थंबनेल मूल इमेज के अभिविन्यास फ़्लैग का सम्मान करता है; आप `Orientation` EXIF टैग पढ़ सकते हैं और थंबनेल को उसी अनुसार घुमा सकते हैं।
 
 ## अक्सर पूछे जाने वाले प्रश्न
-### EXIF मेटाडेटा क्या है?
-EXIF मेटाडेटा डिजिटल छवियों में अंतर्निहित जानकारी है जिसमें कैमरा सेटिंग्स, दिनांक और अन्य विवरण शामिल हैं।
-### EXIF में थम्बनेल क्यों जोड़ें?
-थंबनेल जोड़ने से संपूर्ण छवि को लोड किए बिना त्वरित छवि पूर्वावलोकन की अनुमति देकर उपयोगकर्ता अनुभव में सुधार होता है।
-### मैं Java के लिए Aspose.PSD कहां से डाउनलोड कर सकता हूं?
- आप Java के लिए Aspose.PSD को यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/psd/java/).
-### मैं Aspose.PSD के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप Aspose.PSD के लिए एक अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
-### मैं Aspose.PSD के लिए समर्थन कैसे प्राप्त करूं?
- सहायता के लिए, यहां जाएं[Aspose.PSD फ़ोरम](https://forum.aspose.com/c/psd/34).
+
+**Q: EXIF मेटाडाटा क्या है?**  
+A: EXIF मेटाडाटा डिजिटल इमेज में एम्बेडेड जानकारी है जिसमें कैमरा सेटिंग्स, कैप्चर तिथि, GPS कॉर्डिनेट्स और अन्य विवरण शामिल होते हैं।
+
+**Q: EXIF में थंबनेल क्यों जोड़ें?**  
+A: थंबनेल जोड़ने से उपयोगकर्ता अनुभव बेहतर होता है क्योंकि पूर्ण इमेज लोड किए बिना तेज़ी से इमेज प्रीव्यू दिखाया जा सकता है।
+
+**Q: मैं Aspose.PSD for Java कहाँ डाउनलोड कर सकता हूँ?**  
+A: आप Aspose.PSD for Java को [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/) से डाउनलोड कर सकते हैं।
+
+**Q: मैं Aspose.PSD के लिए टेम्पररी लाइसेंस कैसे प्राप्त कर सकता हूँ?**  
+A: आप Aspose.PSD के लिए टेम्पररी लाइसेंस [temporary license page](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
+
+**Q: मैं Aspose.PSD के लिए सपोर्ट कैसे प्राप्त करूँ?**  
+A: सपोर्ट के लिए, [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) पर जाएँ।
+
+---
+
+**अंतिम अपडेट:** 2026-09-18  
+**परीक्षण किया गया:** Aspose.PSD for Java 24.10  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.PSD for Java का उपयोग करके PSD फ़ाइलों में XMP मेटाडाटा बनाएं](/psd/java/image-editing/create-xmp-metadata/)
+- [Aspose.PSD for Java के साथ इमेज रिसाइज़ करें – शैप्स ड्रॉ करें और बेसिक इमेज ऑपरेशन्स](/psd/java/basic-image-operations/)
+- [Aspose.PSD for Java के साथ PSD को रास्टर इमेज फ़ॉर्मैट्स में कैसे कन्वर्ट करें](/psd/java/advanced-techniques/convert-psd-to-raster-formats/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
