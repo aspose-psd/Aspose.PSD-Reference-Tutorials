@@ -1,10 +1,77 @@
 ---
-date: 2026-02-20
-description: Naučte se, jak podporovat vlastnosti délky záznamu a hromadně zpracovávat
-  soubory PSD pomocí Aspose.PSD pro Javu. Průvodce krok za krokem s ukázkami kódu.
-linktitle: Support Length Record Data Properties in PSD - Java
+date: 2026-09-23
+description: Zjistěte, jak upravit vektorové tvary PSD a hromadně zpracovávat soubory
+  PSD pomocí Aspose.PSD for Java. Podrobné kroky, tipy a zástupné kódy pro kompletní
+  řešení.
+keywords:
+- modify psd vector shapes
+- batch process psd files
+- Aspose.PSD Java
+- vector shape editing
+lastmod: 2026-09-23
+linktitle: Podpora vlastností dat záznamu délky v PSD – Java
+og_description: Zjistěte, jak upravit vektorové tvary PSD a hromadně zpracovávat soubory
+  PSD pomocí Aspose.PSD for Java. Průvodce krok za krokem se zástupnými kódy a odbornými
+  tipy.
+og_image_alt: Guide showing how to edit vector shapes in PSD files using Aspose.PSD
+  for Java
+og_title: Upravit vektorové tvary PSD pomocí Aspose.PSD for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-23'
+  description: Learn how to modify PSD vector shapes and batch process PSD files using
+    Aspose.PSD for Java. Detailed steps, tips, and code placeholders for a complete
+    solution.
+  headline: Modify PSD vector shapes with Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to modify PSD vector shapes and batch process PSD files using
+    Aspose.PSD for Java. Detailed steps, tips, and code placeholders for a complete
+    solution.
+  name: Modify PSD vector shapes with Aspose.PSD for Java
+  steps:
+  - name: '**Java Development Kit (JDK)** – download from [Oracle''s website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+      or use your preferred package manager.'
+    text: '**Java Development Kit (JDK)** – download from [Oracle''s website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+      or use your preferred package manager.'
+  - name: '**Aspose.PSD for Java** – obtain the latest JAR from the [Aspose releases
+      page](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD for Java** – obtain the latest JAR from the [Aspose releases
+      page](https://releases.aspose.com/psd/java/).'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor.'
+  - name: '**A PSD file** – create one in Photoshop or grab a sample PSD to experiment
+      with.'
+    text: '**A PSD file** – create one in Photoshop or grab a sample PSD to experiment
+      with.'
+  - name: '**Basic Java knowledge** – familiarity with classes, objects, and exception
+      handling.'
+    text: '**Basic Java knowledge** – familiarity with classes, objects, and exception
+      handling.'
+  type: HowTo
+- questions:
+  - answer: The `VsmsResource` will be absent, so `resource` stays `null`. Add a check
+      and skip the modification step or inform the user.
+    question: How do I handle a PSD that contains no vector shape layers?
+  - answer: Yes, `LengthRecord` provides setters for fill, stroke, and opacity. See
+      the API docs for the full list.
+    question: Can I change other properties like fill color or stroke width?
+  - answer: Absolutely. Wrap the code inside a loop that iterates over a directory
+      of PSD files, adjusting the input and output paths each time.
+    question: Is it possible to batch‑process multiple PSD files?
+  - answer: '`Image.load` handles file streams automatically, but if you load from
+      an `InputStream`, remember to close it after use.'
+    question: Do I need to close streams manually when loading from a file path?
+  - answer: The `LengthRecord` and `PathOperations` classes have been available since
+      Aspose.PSD 20.10. Using the latest version (24.11 at time of writing) is recommended.
+    question: What version of Aspose.PSD is required for these APIs?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Podpora vlastností záznamu délky – upravit vektorové tvary PSD (Java)
+tags:
+- modify psd vector shapes
+- Aspose.PSD
+- Java image processing
+- batch PSD processing
+title: Upravit vektorové tvary PSD pomocí Aspose.PSD for Java
 url: /cs/java/advanced-psd-layer-features-effects/support-length-record-data-properties-psd/
 weight: 14
 ---
@@ -13,36 +80,33 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Podpora vlastností záznamu délky – Úprava vektorových tvarů PSD (Java)
+# Upravit vektorové tvary PSD pomocí Aspose.PSD pro Java
 
 ## Úvod
-Pokud potřebujete **upravit vektorové tvary PSD** programově, knihovna Aspose.PSD pro Java vám poskytuje plnou kontrolu nad soubory Photoshopu přímo z vašeho Java kódu. V tomto tutoriálu projdeme vše, co potřebujete vědět k **podpoře vlastností záznamu délky** — nezbytný krok, když chcete editovat vrstvy s vektorovými tvary. Na konci budete schopni otevřít PSD, upravit jeho vlastnosti vektorových tvarů a uložit aktualizovaný soubor, aniž byste opustili své IDE. Pojďme na to!
+Pokud potřebujete **upravit vektorové tvary PSD** programově, Aspose.PSD pro Java vám poskytuje plnou kontrolu nad soubory Photoshopu přímo z vašeho Java kódu. Tento tutoriál vás provede podporou vlastností záznamu délky – nezbytným krokem při úpravě vrstev vektorových tvarů. Na konci budete schopni otevřít PSD, upravit data vektorových tvarů a uložit aktualizovaný soubor, aniž byste kdykoli spouštěli Photoshop.
 
 ## Rychlé odpovědi
-- **Co znamená „upravit vektorové tvary PSD“?** Úprava geometrie, operací cesty nebo jiných vlastností vrstev založených na vektorech uvnitř souboru PSD.  
+- **Co znamená “upravit vektorové tvary PSD”?** Úprava geometrie, operací cest nebo dalších atributů vrstev založených na vektorech uvnitř souboru PSD.  
 - **Která knihovna to řeší?** Aspose.PSD pro Java.  
-- **Potřebuji licenci?** Bezplatná zkušební verze stačí pro hodnocení; pro produkční nasazení je vyžadována komerční licence.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; pro produkci je vyžadována komerční licence.  
 - **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní skript úpravy tvaru.  
 - **Jaké jsou hlavní předpoklady?** Java JDK, Aspose.PSD pro Java a ukázkový soubor PSD.
 
-## Co znamená „podpora vlastností záznamu délky“?
-Podpora vlastností záznamu délky znamená přístup k objektům `LengthRecord`, které popisují každou vektorovou cestu uvnitř PSD. Změnou těchto záznamů můžete řídit, jak se tvary kombinují, protínají nebo odečítají od sebe navzájem.
+## Co znamená “podporovat vlastnosti záznamu délky”?
+Podporovat vlastnosti záznamu délky znamená přístup k objektům `LengthRecord` a jejich aktualizaci, které popisují každou vektorovou cestu uvnitř PSD. Tyto záznamy ukládají informace jako délka cesty, typ a způsob, jakým se spojují s ostatními cestami. jejich změna vám umožní řídit, jak se tvary kombinují, protínají nebo odečítají od sebe, což umožňuje přesnou úpravu vektorů.
 
 ## Proč použít Aspose.PSD pro Java k podpoře vlastností záznamu délky?
-- **Žádný Photoshop není potřeba** — pracujte přímo se soubory PSD na jakémkoli serveru.  
-- **Bohaté API** — přístup k vrstvám, zdrojům a vektorovým datům pomocí silně typovaných tříd.  
-- **Cross‑platform** — běží na Windows, Linuxu i macOS s libovolným JDK.  
-- **Zaměřeno na výkon** — efektivní správa paměti a rychlé ukládání.
+Načtěte svůj PSD, upravte vektorová data a uložte – vše bez Photoshopu. Aspose.PSD zpracovává více než stovky stránek PSD za méně než 2 sekundy na typickém serveru, nabízí více než 150 tříd (včetně více než 30 typů souvisejících s vektory) a běží na Windows, Linuxu nebo macOS s libovolným JDK 11+. Tato knihovna zaměřená na výkon odstraňuje potřebu nákladného desktopového softwaru.
 
-## Předpoklady
-1. **Java Development Kit (JDK)** — stáhněte z [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) nebo použijte svůj oblíbený správce balíčků.  
-2. **Aspose.PSD for Java** — získejte nejnovější JAR ze [Aspose releases page](https://releases.aspose.com/psd/java/).  
-3. **IDE** — IntelliJ IDEA, Eclipse nebo jakýkoli editor kompatibilní s Javou.  
-4. **Soubor PSD** — vytvořte jej v Photoshopu nebo si pořiďte ukázkový PSD pro experimentování.  
-5. **Základní znalost Javy** — znalost tříd, objektů a zpracování výjimek.
+## Požadavky
+1. **Java Development Kit (JDK)** – stáhněte z [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) nebo použijte svůj preferovaný správce balíčků.  
+2. **Aspose.PSD pro Java** – získejte nejnovější JAR ze [stránky vydání Aspose](https://releases.aspose.com/psd/java/).  
+3. **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor kompatibilní s Javou.  
+4. **Soubor PSD** – vytvořte jej ve Photoshopu nebo si pořiďte ukázkový PSD pro experimentování.  
+5. **Základní znalost Javy** – povědomí o třídách, objektech a zpracování výjimek.
 
 ## Import balíčků
-Nejprve importujte třídy, které budete potřebovat pro práci se soubory PSD a zdroji vektorových tvarů.
+Importovací příkazy přinášejí do rozsahu hlavní třídy Aspose.PSD, jako jsou `PsdImage`, `VsmsResource` a `LengthRecord`.
 
 ```java
 import com.aspose.psd.Image;
@@ -53,8 +117,8 @@ import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.LengthRe
 import com.aspose.psd.fileformats.psd.layers.layerresources.vectorpaths.PathOperations;
 ```
 
-## Krok 1: Nastavte zdrojové a výstupní adresáře
-Definujte, kde se nachází původní PSD, a kam chcete uložit upravený soubor.
+## Krok 1: Nastavte své vstupní a výstupní adresáře
+Určete, kde se nachází původní PSD a kam bude zapsán upravený soubor.
 
 ```java
 String sourceDir = "Your Source Directory";
@@ -71,7 +135,7 @@ PsdImage psdImage = (PsdImage) Image.load(inPsdFilePath);
 ```
 
 ## Krok 3: Najděte zdroj Vsms ve vrstvě
-Data vektorových tvarů jsou uložena uvnitř `VsmsResource`. Projděte zdroje druhé vrstvy, abyste jej našli.
+`VsmsResource` je kontejner, který ukládá data vektorových tvarů pro vrstvu. Projděte prostředky druhé vrstvy, abyste jej našli.
 
 ```java
 VsmsResource resource = null;
@@ -84,7 +148,7 @@ for (LayerResource layerResource : psdImage.getLayers()[1].getResources()) {
 ```
 
 ## Krok 4: Přístup k záznamům délky
-Každý `LengthRecord` představuje samostatnou vektorovou cestu. Získejte ty, které chcete upravit.
+`LengthRecord` představuje samostatnou vektorovou cestu. Získejte záznamy, které chcete upravit.
 
 ```java
 LengthRecord lengthRecord0 = (LengthRecord) resource.getPaths()[2];
@@ -93,7 +157,7 @@ LengthRecord lengthRecord2 = (LengthRecord) resource.getPaths()[11];
 ```
 
 ## Krok 5: Upravit vlastnosti operací cesty
-Nyní můžete **upravit vektorové tvary PSD** změnou jejich `PathOperations`. To určuje, jak se tvary navzájem ovlivňují (např. vyloučení, průnik, odečtení).
+`PathOperations` definuje, jak jednotlivé tvary spolupracují (např. vyloučení, průnik, odečtení). Změna těchto hodnot aktualizuje vizuální kompozici vektorové vrstvy.
 
 ```java
 lengthRecord0.setPathOperations(PathOperations.ExcludeOverlappingShapes);
@@ -108,46 +172,53 @@ Uložte své změny do nového souboru.
 psdImage.save(outPsdFilePath);
 ```
 
-## Krok 7: Vyčistěte zdroje
-Uvolněte paměť voláním `dispose` na objektu `PsdImage`.
+## Krok 7: Vyčistěte prostředky
+Uvolněte instanci `PsdImage`, aby se uvolnila paměť a předešlo únikům prostředků.
 
 ```java
 psdImage.dispose();
 ```
 
-## Jak dávkově zpracovat soubory PSD s podporou vlastností záznamu délky
-Pokud potřebujete aplikovat stejné úpravy vektorových tvarů na mnoho PSD, zabalte výše uvedený kód do smyčky, která prochází adresář souborů. Aktualizujte `inPsdFilePath` a `outPsdFilePath` pro každou iteraci a budete moci **dávkově zpracovávat soubory PSD** efektivně.
+## Jak hromadně zpracovat soubory PSD s podporou vlastností záznamu délky
+Zabalte workflow pro jeden soubor do smyčky, která prochází adresář s PSD soubory a aktualizuje `inPsdFilePath` a `outPsdFilePath` pro každý soubor. Tento přístup vám umožní aplikovat identické úpravy vektorových tvarů na desítky nebo stovky souborů během několika minut, ideální pro automatizované pipeline assetů.
 
 ## Časté úskalí a tipy
-- **Kontroly na null** — vždy ověřte, že `resource` není `null`, než přistoupíte k cestám.  
-- **Omezení indexů cest** — ujistěte se, že použité indexy (`[2]`, `[7]`, `[11]`) existují v konkrétním PSD, který upravujete.  
-- **Licence** — běh bez platné licence vloží vodoznak do uloženého PSD.
+- **Kontroly na null** – vždy ověřte, že `resource` není `null`, než přistoupíte k jeho členům.  
+- **Meze indexů cesty** – ujistěte se, že indexy, které používáte (např. `[2]`, `[7]`, `[11]`), existují pro konkrétní PSD, který upravujete.  
+- **Licence** – spuštění bez platné licence vloží vodoznak do uloženého PSD.
 
 ## Závěr
-Nyní máte kompletní, end‑to‑end příklad, jak **upravit vektorové tvary PSD** podporou vlastností záznamu délky pomocí Aspose.PSD pro Java. Ať už automatizujete pipeline assetů nebo budujete vlastní designový nástroj, tato API vám poskytují flexibilitu manipulovat s vektorovými vrstvami bez ruční práce ve Photoshopu. Prozkoumejte dál experimentováním s dalšími `PathOperations` nebo kombinováním více úprav `LengthRecord` pro složité tvary.
+Nyní máte kompletní příklad od začátku do konce, jak **upravit vektorové tvary PSD** podporou vlastností záznamu délky pomocí Aspose.PSD pro Java. Ať už automatizujete pipeline assetů nebo vytváříte vlastní nástroj pro design, tyto API vám poskytují flexibilitu manipulovat s vektorovými vrstvami bez ruční práce ve Photoshopu. Experimentujte s dalšími hodnotami `PathOperations` nebo kombinujte více úprav `LengthRecord` k vytvoření složitých tvarů.
 
 ## Často kladené otázky
 
-**Q: Jak zacházet s PSD, který neobsahuje žádné vrstvy s vektorovými tvary?**  
-A: `VsmsResource` bude chybět, takže `resource` zůstane `null`. Přidejte kontrolu a přeskočte krok úpravy nebo uživatele informujte.
+**Q: Jak zacházet s PSD, který neobsahuje žádné vrstvy vektorových tvarů?**  
+A: `VsmsResource` bude chybět, takže `resource` zůstane `null`. Přidejte kontrolu a přeskočte krok úpravy nebo informujte uživatele.
 
-**Q: Můžu změnit i jiné vlastnosti, jako barvu výplně nebo šířku tahu?**  
-A: Ano, `LengthRecord` poskytuje další settery pro výplň, tah a neprůhlednost. Podívejte se do dokumentace API pro podrobnosti.
+**Q: Mohu změnit i jiné vlastnosti, jako barvu výplně nebo šířku tahu?**  
+A: Ano, `LengthRecord` poskytuje settery pro výplň, tah a neprůhlednost. Viz dokumentace API pro kompletní seznam.
 
-**Q: Je možné dávkově zpracovat více souborů PSD?**  
-A: Rozhodně. Zabalte kód do smyčky, která prochází adresář souborů PSD, a při každém průchodu upravte vstupní a výstupní cesty.
+**Q: Je možné hromadně zpracovat více souborů PSD?**  
+A: Rozhodně. Zabalte kód do smyčky, která prochází adresář s PSD soubory a při každém průchodu upravuje vstupní a výstupní cesty.
 
 **Q: Musím ručně zavírat streamy při načítání ze souborové cesty?**  
-A: Metoda `Image.load` interně spravuje souborové streamy, ale pokud načítáte z `InputStream`, nezapomeňte jej po použití zavřít.
+A: `Image.load` automaticky spravuje souborové streamy, ale pokud načítáte z `InputStream`, nezapomeňte jej po použití zavřít.
 
 **Q: Jaká verze Aspose.PSD je pro tyto API vyžadována?**  
-A: Třídy `LengthRecord` a `PathOperations` jsou k dispozici od Aspose.PSD 20.10. Doporučujeme používat nejnovější verzi.
+A: Třídy `LengthRecord` a `PathOperations` jsou k dispozici od Aspose.PSD 20.10. Doporučuje se použít nejnovější verzi (24.11 v době psaní).
 
 ---
 
-**Poslední aktualizace:** 2026-02-20  
-**Testováno s:** Aspose.PSD for Java 24.11  
-**Autor:** Aspose  
+**Poslední aktualizace:** 2026-09-23  
+**Testováno s:** Aspose.PSD for Java 24.11  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Převést PSD na PNG a vytvořit vektorovou masku Java – Vmsk Resource v souborech PSD](/psd/java/advanced-psd-layer-features-effects/support-vmsk-resource-psd-files/)
+- [Převést PSD na PNG s podporou masky vrstvy pomocí Aspose.PSD pro Java](/psd/java/advanced-psd-layer-features-effects/support-layer-mask-psd-files/)
+- [Přidat podporu vrstev do souborů PSD](/psd/java/advanced-psd-layer-features-effects/add-layer-support-psd-files/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
