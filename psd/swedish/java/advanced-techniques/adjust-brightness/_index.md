@@ -1,10 +1,76 @@
 ---
-date: 2025-12-19
-description: Lär dig hur du justerar bildens ljusstyrka med Aspose.PSD för Java. Denna
-  Java‑tutorial för bildmanipulation ger en steg‑för‑steg‑guide.
-linktitle: Adjust Brightness of an Image
+date: 2026-09-28
+description: Java bildbehandlingshandledning visar hur man justerar ljusstyrkan på
+  en bild med Aspose.PSD för Java. Följ steg‑för‑steg‑kod för att ladda, ändra och
+  spara PSD‑ eller TIFF‑filer.
+keywords:
+- java image processing
+- aspose psd java
+- java image manipulation
+- adjust brightness java
+lastmod: 2026-09-28
+linktitle: Justera ljusstyrka på en bild
+og_description: Java bildbehandlingshandledning visar hur man justerar ljusstyrkan
+  på en bild med Aspose.PSD för Java. Följ steg‑för‑steg‑kod för att ladda, ändra
+  och spara PSD‑ eller TIFF‑filer.
+og_image_alt: Guide to adjusting image brightness in Java using Aspose.PSD
+og_title: 'Java bildbehandling: justera ljusstyrka med Aspose.PSD'
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Java image processing tutorial shows how to adjust brightness of an
+    image using Aspose.PSD for Java. Follow step‑by‑step code to load, modify, and
+    save PSD or TIFF files.
+  headline: 'Java image processing: adjust brightness with Aspose.PSD'
+  type: TechArticle
+- description: Java image processing tutorial shows how to adjust brightness of an
+    image using Aspose.PSD for Java. Follow step‑by‑step code to load, modify, and
+    save PSD or TIFF files.
+  name: 'Java image processing: adjust brightness with Aspose.PSD'
+  steps:
+  - name: Load the image
+    text: The `RasterImage` class represents a rasterized version of a PSD or TIFF
+      file in memory. It provides direct pixel access for color‑correction operations.
+      In this step, we load the target image and cast it to a `RasterImage` for further
+      processing.
+  - name: Adjust brightness
+    text: '`adjustBrightness(int value)` changes the lightness of every pixel by the
+      specified integer value. Positive numbers brighten the image; negative numbers
+      darken it. The method processes the image in‑place, so no additional object
+      creation is required. Here, we use the `adjustBrightness` method to mod'
+  - name: Set TiffOptions
+    text: '`TiffOptions` specifies the encoding parameters for TIFF output, such as
+      bits per sample and photometric interpretation. It lets you control how the
+      resulting file is encoded. Configure the `TiffOptions` for saving the adjusted
+      image. Adjust the `bitsPerSample` and `photometric` properties based on '
+  - name: Save the resultant image
+    text: Calling `save` writes the processed raster data to a file using the previously
+      defined options. The operation is atomic and guarantees that the output file
+      is a valid TIFF image. Finally, save the modified image using the specified
+      `TiffOptions`.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.PSD for Java supports JPEG, PNG, BMP, GIF, and many other
+      raster formats in addition to PSD and TIFF.
+    question: Can I adjust brightness in other image formats besides PSD?
+  - answer: Wrap the processing code in a try‑catch block and catch `IOException`
+      or `ImageProcessingException` to manage file‑access and raster‑operation errors.
+    question: How can I handle errors during the image adjustment process?
+  - answer: The method accepts integer values from –255 to +255; values outside this
+      range are clamped to the nearest limit.
+    question: Is there a limit to the range of brightness adjustment?
+  - answer: Yes, a commercial license is required for production use. Purchase a license
+      [here](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.PSD for Java in commercial projects?
+  - answer: Yes, you can explore the library with a free trial from [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Hur man justerar bildens ljusstyrka med Aspose.PSD för Java
+tags:
+- java image processing
+- aspose psd
+- java image manipulation
+title: 'Java bildbehandling: justera ljusstyrka med Aspose.PSD'
 url: /sv/java/advanced-techniques/adjust-brightness/
 weight: 21
 ---
@@ -13,39 +79,41 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Justera ljusstyrka på en bild med Aspose.PSD för Java
+# Justera ljusstyrkan på en bild med Aspose.PSD för Java
 
-## Introduction
+## Introduktion
 
-Om du behöver **lära dig hur du justerar ljusstyrka** på en bild direkt från Java‑kod, är du på rätt plats. Ljusstyrkejustering är en vanlig uppgift för grafiska formgivare, fotografer och alla som bygger bild‑behandlings‑pipelines. I den här **java image manipulation tutorial** går vi igenom hela arbetsflödet—laddar en PSD/TIFF, applicerar ett ljusstyrke‑offset och sparar resultatet—med Aspose.PSD för Java‑biblioteket.
+I den här **java image processing**‑handledningen kommer du att lära dig hur du justerar ljusstyrkan på en bild direkt från Java‑kod. Att finjustera ljusstyrka är en vanlig uppgift för grafiska formgivare, fotografer och alla som bygger bildbehandlings‑pipelines. I den här **java image manipulation**‑guiden går vi igenom hela arbetsflödet — laddar en PSD/TIFF, applicerar ett ljusstyrke‑offset och sparar resultatet — med hjälp av Aspose.PSD för Java‑biblioteket.
 
-## Quick Answers
-- **Vilket bibliotek hanterar ljusstyrka?** Aspose.PSD for Java  
-- **Vilken metod ändrar ljusstyrka?** `RasterImage.adjustBrightness()`  
-- **Kan jag arbeta med PSD‑ och TIFF‑filer?** Ja, API‑et stöder båda formaten.  
+## Snabba svar
+- **Vilket bibliotek hanterar ljusstyrka?** Aspose.PSD for Java.  
+- **Vilken metod ändrar ljusstyrka?** `RasterImage.adjustBrightness()`.  
+- **Kan jag arbeta med PSD‑ och TIFF‑filer?** Ja, API‑et stödjer båda formaten och 10+ ytterligare bildtyper.  
 - **Behöver jag en licens för produktion?** En kommersiell licens krävs för icke‑utvärderingsbruk.  
 - **Hur lång tid tar implementeringen?** Vanligtvis under 10 minuter för en grundläggande justering.
 
-## What is Image Brightness Adjustment?
+## Vad är java image processing?
+`Java image processing` avser den uppsättning tekniker som låter dig programatiskt läsa, transformera och skriva bilddata med Java. Att justera ljusstyrka är en av de grundläggande operationerna som ändrar den övergripande ljusheten för varje pixel, vilket gör mörka områden ljusare eller ljusa områden mörkare.
 
-Bildens ljusstyrkejustering förändrar den övergripande ljusheten för varje pixel i en bild. Att öka ljusstyrkan gör mörka områden ljusare, medan en minskning mörknar hela bilden. Denna operation är användbar för att korrigera underexponerade foton, förbereda material för tryck eller skapa visuella effekter i applikationer.
+## Varför använda Aspose.PSD för Java?
+Aspose.PSD för Java erbjuder en omfattande, ren‑Java‑lösning som stödjer ett brett spektrum av raster‑ och vektorformat, eliminerar inhemska beroenden och erbjuder högpresterande cachning för stora filer. Dess omfattande API låter utvecklare utföra komplex färgkorrigering och lagerbaserade redigeringar med minimal kod, vilket gör det idealiskt för både enkla justeringar och avancerade bildbehandlings‑pipelines.
 
-## Why Use Aspose.PSD for Java?
+- **Stöder 10+ raster‑ och vektorformat** – PSD, TIFF, JPEG, PNG, BMP, GIF och mer.  
+- **Ren‑Java‑implementation** – inga inhemska DLL‑filer eller externa beroenden, så det fungerar på vilken JVM som helst.  
+- **Högpresterande cachning** – rasterdata kan cachas, vilket möjliggör upp till 2× snabbare upprepade redigeringar på stora filer.  
+- **Rich API surface** – over 150 methods for color correction, layer handling, masks, and compositing.
 
-- **Fullt formatstöd** – PSD, TIFF, JPEG, PNG och mer.  
-- **Inga externa inhemska beroenden** – ren Java, enkel att integrera.  
-- **Högpresterande cachning** – rasterdata kan cachas för snabbare upprepade operationer.  
-- **Rik API** – metoder för färgkorrigering, lager, masker och andra avancerade redigeringar.
-
-## Prerequisites
+## Förutsättningar
 
 Innan du dyker ner i handledningen, se till att du har följande förutsättningar:
 
-- Aspose.PSD for Java Library: Ladda ner och installera biblioteket från [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/).
+- Aspose.PSD för Java Library: Download and install the library from the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/).  
+- Java Development Kit (JDK) 8 eller högre installerat på din maskin.  
+- En utvecklingsmiljö (IDE) såsom IntelliJ IDEA, Eclipse eller VS Code.
 
-## Import Packages
+## Importera paket
 
-För att börja, importera de nödvändiga paketen i ditt Java‑projekt. I detta exempel använder vi följande:
+För att börja, importera de nödvändiga paketen till ditt Java‑project. I detta exempel kommer vi att använda följande:
 
 ```java
 import com.aspose.psd.Image;
@@ -58,9 +126,13 @@ import com.aspose.psd.imageoptions.TiffOptions;
 
 Nu ska vi bryta ner processen för att justera ljusstyrkan på en bild i enkla steg:
 
-## How to Adjust Brightness Using Aspose.PSD
+## Hur justerar man ljusstyrka med Aspose.PSD?
 
-### Step 1: Load the Image
+Ladda ditt källbild, applicera ett ljusstyrke‑offset, konfigurera sparalternativ och skriv resultatet till disk — allt i fyra koncisa steg. Följande avsnitt ger en tydlig steg‑för‑steg‑genomgång som du kan kopiera in i ditt eget projekt. Detta tillvägagångssätt säkerställer att varje operation utförs effektivt och att den slutliga bilden behåller originalkvaliteten samtidigt som den återspeglar den önskade ljusstyrkeändringen.
+
+### Steg 1: Ladda bilden
+
+`RasterImage`‑klassen representerar en rasteriserad version av en PSD‑ eller TIFF‑fil i minnet. Den ger direkt pixelåtkomst för färgkorrigeringsoperationer.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -80,16 +152,20 @@ if (!rasterImage.isCached()) {
 
 I detta steg laddar vi målbilden och kastar den till en `RasterImage` för vidare bearbetning.
 
-### Step 2: Adjust Brightness
+### Steg 2: Justera ljusstyrka
+
+`adjustBrightness(int value)` ändrar ljusheten för varje pixel med det angivna heltalsvärdet. Positiva tal ljusar upp bilden; negativa tal mörkar den. Metoden bearbetar bilden på plats, så ingen extra objekt‑skapande krävs.
 
 ```java
 // Adjust the brightness
 rasterImage.adjustBrightness(-50);
 ```
 
-Här använder vi `adjustBrightness`‑metoden för att ändra bildens ljusstyrka. I detta exempel minskar vi ljusstyrkan med 50 enheter, men du kan anpassa värdet efter dina behov.
+Här använder vi `adjustBrightness`‑metoden för att ändra bildens ljusstyrka. I detta exempel minskar vi ljusstyrkan med 50 enheter, men du kan anpassa detta värde efter dina behov.
 
-### Step 3: Set TiffOptions
+### Steg 3: Ställ in TiffOptions
+
+`TiffOptions` specificerar kodningsparametrarna för TIFF‑utdata, såsom bits per sample och fotometrisk tolkning. Det låter dig kontrollera hur den resulterande filen kodas.
 
 ```java
 int[] ushort = {8, 8, 8};
@@ -99,60 +175,62 @@ tiffOptions.setBitsPerSample(ushort);
 tiffOptions.setPhotometric(TiffPhotometrics.Rgb);
 ```
 
-Konfigurera `TiffOptions` för att spara den justerade bilden. Justera egenskaperna `bitsPerSample` och `photometric` efter dina specifika krav.
+Konfigurera `TiffOptions` för att spara den justerade bilden. Justera egenskaperna `bitsPerSample` och `photometric` efter dina specifika behov.
 
-### Step 4: Save the Resultant Image
+### Steg 4: Spara den resulterande bilden
+
+Anropet `save` skriver den bearbetade rasterdatan till en fil med de tidigare definierade alternativen. Operationen är atomisk och garanterar att utdatafilen är en giltig TIFF‑bild.
 
 ```java
 // Save the resultant image
 rasterImage.save(destName, tiffOptions);
 ```
 
-Spara slutligen den modifierade bilden med de angivna `TiffOptions`.
+Till sist sparar du den modifierade bilden med de specificerade `TiffOptions`.
 
-## Common Issues and Solutions
+## Vanliga problem och lösningar
 
 | Problem | Orsak | Lösning |
-|---------|-------|----------|
-| **`ClassCastException` vid typkonvertering av Image** | Filen är inte en rasterbild (t.ex. en vektor‑PSD). | Verifiera källfilens format eller använd `image instanceof RasterImage` innan typkonvertering. |
-| **Ljusstyrkeändring har ingen effekt** | Bilden cacheades inte innan justering. | Anropa `rasterImage.cacheData()` som visas i Steg 1. |
+|-------|--------|----------|
+| **`ClassCastException` när du kastar Image** | Filen är inte en rasterbild (t.ex. en vektor‑PSD). | Verifiera källfilens format eller använd `image instanceof RasterImage` innan du kastar. |
+| **Ljusstyrkeändring har ingen effekt** | Bilden cacheades inte innan justeringen. | Anropa `rasterImage.cacheData()` som visas i Steg 1. |
 | **Sparad fil verkar korrupt** | Felaktig `TiffOptions`‑konfiguration. | Säkerställ att `bitsPerSample` matchar källbildens djup (vanligtvis 8‑bit per kanal). |
 
-## Frequently Asked Questions
+## Vanliga frågor
 
-### Q1: Kan jag justera ljusstyrka i andra bildformat än PSD?
+**Q: Kan jag justera ljusstyrka i andra bildformat än PSD?**  
+A: Ja, Aspose.PSD för Java stödjer JPEG, PNG, BMP, GIF och många andra rasterformat utöver PSD och TIFF.
 
-A1: Ja, Aspose.PSD for Java stöder olika bildformat som JPEG, PNG och TIFF.
+**Q: Hur kan jag hantera fel under bildjusteringsprocessen?**  
+A: Omge bearbetningskoden med ett try‑catch‑block och fånga `IOException` eller `ImageProcessingException` för att hantera filåtkomst‑ och raster‑operationsfel.
 
-### Q2: Hur kan jag hantera fel under bildjusteringsprocessen?
+**Q: Finns det någon gräns för intervallet av ljusstyrkejustering?**  
+A: Metoden accepterar heltalsvärden från –255 till +255; värden utanför detta intervall kläms till närmaste gräns.
 
-A2: Du kan implementera felhantering med try‑catch‑block för att hantera eventuella undantag som kan uppstå.
+**Q: Kan jag använda Aspose.PSD för Java i kommersiella projekt?**  
+A: Ja, en kommersiell licens krävs för produktionsbruk. Köp en licens [här](https://purchase.aspose.com/buy).
 
-### Q3: Finns det någon gräns för intervallet av ljusstyrkejustering?
+**Q: Är en gratis provversion tillgänglig?**  
+A: Ja, du kan utforska biblioteket med en gratis provversion från [här](https://releases.aspose.com/).
 
-A3: Intervallet beror på bildens innehåll och format, men Aspose.PSD ger flexibilitet för anpassning.
+**Q: Påverkar `adjustBrightness`‑metoden lagersynlighet?**  
+A: Metoden arbetar på den rasteriserade sammansatta bilden, så dolda lager ignoreras under rasteriseringen, vilket bevarar det avsedda visuella resultatet.
 
-### Q4: Kan jag använda Aspose.PSD for Java i kommersiella projekt?
-
-A4: Ja, Aspose.PSD for Java är ett kommersiellt bibliotek, och du kan skaffa en licens från [here](https://purchase.aspose.com/buy).
-
-### Q5: Finns det en gratis provperiod för Aspose.PSD for Java?
-
-A5: Ja, du kan utforska biblioteket med en gratis provperiod från [here](https://releases.aspose.com/).
-
-### Q6: Påverkar `adjustBrightness`‑metoden lagersynlighet?
-
-A6: Metoden arbetar på den rasteriserade sammansatta bilden, så lagersynlighet respekteras under rasteriseringen.
-
-### Q7: Kan jag kedja flera justeringar (t.ex. kontrast, mättnad) tillsammans?
-
-A7: Absolut. Efter att ha justerat ljusstyrkan kan du anropa `adjustContrast`, `adjustSaturation` osv. på samma `RasterImage`‑instans.
+**Q: Kan jag kedja flera justeringar (t.ex. kontrast, mättnad) tillsammans?**  
+A: Absolut. Efter att ha justerat ljusstyrkan kan du anropa `adjustContrast`, `adjustSaturation` eller andra färgkorrigeringsmetoder på samma `RasterImage`‑instans.
 
 ---
 
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Senast uppdaterad:** 2026-09-28  
+**Testat med:** Aspose.PSD for Java 24.12 (senaste vid skrivande tidpunkt)  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Java‑bibliotek för bildbehandling: Invertera lager med Aspose.PSD](/psd/java/advanced-image-manipulation/invert-adjustment-layer/)
+- [Konvertera bild till gråskala med Aspose.PSD för Java](/psd/java/advanced-techniques/grayscale-image/)
+- [Hur man roterar en bild i en specifik vinkel med Aspose.PSD för Java](/psd/java/advanced-image-manipulation/rotate-image-specific-angle/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

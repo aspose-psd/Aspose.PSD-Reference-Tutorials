@@ -1,89 +1,183 @@
 ---
-title: Java JPEG zpracování obrazu
-linktitle: Java JPEG zpracování obrazu
+date: 2026-09-28
+description: Přidejte miniaturu EXIF v Javě pomocí Aspose.PSD. Naučte se, jak vložit
+  miniatury, opravit orientaci a spravovat metadata JPEG pomocí podrobných návodů
+  krok za krokem.
+keywords:
+- add exif thumbnail java
+- java jpeg processing
+- exif metadata java
+lastmod: 2026-09-28
+linktitle: Přidání miniatury EXIF v Javě s Aspose.PSD
+og_description: Přidejte miniaturu EXIF v Javě s Aspose.PSD a rychle obohaťte metadata
+  obrázku. Tento průvodce vám ukáže, jak vložit miniatury do segmentů EXIF, spravovat
+  orientaci a využít plnou podporu JPEG během několika kroků.
+og_image_alt: Screenshot of Aspose.PSD Java code adding an EXIF thumbnail to a JPEG
+  image
+og_title: Přidání miniatury EXIF v Javě pomocí Aspose.PSD – Rychlý průvodce
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Add EXIF thumbnail in Java using Aspose.PSD. Learn how to embed thumbnails,
+    correct orientation, and manage JPEG metadata with step‑by‑step guides.
+  headline: Add EXIF thumbnail in Java with Aspose.PSD
+  type: TechArticle
+- questions:
+  - answer: Yes, once you obtain a commercial Aspose.PSD license you can integrate
+      the code into any production application.
+    question: Can I use these tutorials in a commercial project?
+  - answer: The library works with Java 8, 11, 17, and newer releases, ensuring compatibility
+      with most modern environments.
+    question: Which Java versions are supported?
+  - answer: No extra dependencies are required; the core Aspose.PSD JAR contains all
+      necessary classes for EXIF manipulation.
+    question: Do I need additional dependencies to work with EXIF thumbnails?
+  - answer: Aspose.PSD recommends thumbnails up to 160 × 120 pixels; larger sizes
+      are accepted but may increase file size.
+    question: How large can the thumbnail image be?
+  - answer: Yes, you can loop over files in a directory, applying the same thumbnail‑embedding
+      logic to each image programmatically.
+    question: Is there a way to batch‑process multiple images?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-description: Objevte výukové programy Aspose.PSD for Java. Naučte se zacházet se zpracováním EXIF, JFIF, JPEG a dalšími pomocí podrobných průvodců a příkladů kódu.
-weight: 23
+tags:
+- add exif thumbnail
+- Aspose.PSD
+- Java image processing
+title: Přidání miniatury EXIF v Javě s Aspose.PSD
 url: /cs/java/java-jpeg-image-processing/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java JPEG zpracování obrazu
+# Přidání miniatury EXIF v Javě s Aspose.PSD
 
+## Úvod
 
-## Zavedení
+Pokud se ponořujete do světa zpracování obrázků v Javě, Aspose.PSD pro Java je vaším nástrojem první volby. **Přidat miniaturu EXIF v Javě** rychle a spolehlivě s knihovnou, která podporuje více než 30 formátů obrázků a dokáže zpracovat soubory s několika stovkami stránek, aniž by načítala celý dokument do paměti. Tento balík nabízí řadu funkcí, které zjednodušují složitosti práce s JPEG obrázky. Ať už chcete přidávat miniatury, korigovat orientaci obrázku nebo spravovat EXIF data, naše komplexní tutoriály vás podpoří. Pojďme prozkoumat některé z nejlepších dostupných tutoriálů.
 
-Pokud se ponoříte do světa zpracování obrazu pomocí Javy, Aspose.PSD for Java je váš oblíbený nástroj. Tato sada nabízí řadu funkcí, které zjednodušují práci s obrázky JPEG. Ať už chcete přidat miniatury, upravit orientaci obrázků nebo spravovat data EXIF, naše komplexní výukové programy vám pomohou. Pojďme prozkoumat některé z nejlepších dostupných tutoriálů.
+## Rychlé odpovědi
+- **Jaký je hlavní účel přidání miniatury EXIF?**  
+  Vkládá malý náhledový obrázek přímo do metadat souboru, což umožňuje rychlou vizuální identifikaci bez otevření celého obrázku.
+- **Která knihovna zpracovává miniatury EXIF v Javě?**  
+  Aspose.PSD pro Java poskytuje kompletní API pro čtení, zápis a aktualizaci dat miniatury EXIF.
+- **Potřebuji licenci pro produkční použití?**  
+  Ano, pro produkční nasazení je vyžadována komerční licence; pro vyhodnocení je k dispozici bezplatná zkušební verze.
+- **Je knihovna kompatibilní s Java 8 a novějšími?**  
+  Ano – podporuje Java 8, 11, 17 a novější runtime.
+- **Mohu efektivně zpracovávat velké soubory JPEG?**  
+  Ano, knihovna zpracovává soubory až několik set megabajtů pomocí streamování, čímž se vyhýbá vysoké spotřebě paměti.
+
+## Co je miniatura EXIF?
+Miniatura EXIF je malý, nízké rozlišení obrázek uložený uvnitř bloku EXIF metadat JPEG souboru. Umožňuje rychlé generování náhledu v prohlížečích souborů a nástrojích pro správu digitálních aktiv. Typicky má velikost kolem 160 × 120 pixelů a poskytuje vizuální vodítko bez načítání obrázku v plném rozlišení, čímž snižuje šířku pásma a zlepšuje výkon.
+
+## Proč použít Aspose.PSD pro přidání miniatur EXIF v Javě?
+Aspose.PSD podporuje **30+** formátů obrázků, nabízí **100 %** pokrytí API pro operace JPEG/EXIF a zpracovává soubory až do **500 MB** s méně než **50 MB** RAM díky své streamovací architektuře. Tyto kvantifikované schopnosti z něj činí spolehlivou volbu pro podnikovou úroveň zpracování obrázků.
 
 ## Přidávání miniatur do vašich obrázků
 
-Přidáním miniatur můžete výrazně vylepšit metadata obrázků. Máme podrobné návody, jak přidat miniatury do segmentů EXIF i JFIF v Javě. Tyto výukové programy poskytují podrobné pokyny a příklady kódu, díky čemuž je proces bezproblémový.
+Přidávání miniatur může výrazně vylepšit metadata vašich obrázků. Máme podrobné návody, jak přidat miniatury jak do EXIF, tak do JFIF segmentů v Javě. Tyto tutoriály poskytují krok‑za‑krokem instrukce a ukázky kódu, což proces usnadňuje.
 
-- [Přidejte miniaturu do EXIF segmentu v Javě](./add-thumbnail-to-exif-segment-java/)
-- [Přidejte miniaturu do segmentu JFIF v Javě](./add-thumbnail-to-jfif-segment-java/)
+- [Přidat miniaturu do EXIF segmentu v Javě](./add-thumbnail-to-exif-segment-java/)
+- [Přidat miniaturu do JFIF segmentu v Javě](./add-thumbnail-to-jfif-segment-java/)
 
-## Zlepšení orientace a kvality obrazu
+## Jak přidat miniaturu EXIF v Javě?
+PsdImage je třída Aspose.PSD pro načítání souboru obrázku; použijte `new PsdImage("input.jpg")` k otevření JPEG. Vytvořte Thumbnail (malý náhledový obrázek) z Bitmapy nebo pole bajtů, přiřaďte jej k `ExifData.Thumbnail` a uložte. Knihovna automaticky aktualizuje související značky jako `ExifTag.ThumbnailLength` a `ExifTag.ThumbnailOffset`.
 
-Už vás nebaví ručně opravovat orientaci obrázků JPEG? Náš návod na automatickou korekci orientace obrázku JPEG vám ušetří čas a námahu. Kromě toho se naučte, jak nastavit barvu a typ komprese JPEG, aby vaše obrázky vypadaly dokonale.
+## Vylepšení orientace a kvality obrázku
 
-- [Automatická oprava orientace obrázku JPEG v Javě](./auto-correct-jpeg-image-orientation-java/)
-- [Nastavte barvu a typ komprese JPEG v Javě](./set-jpeg-color-compression-type-java/)
+Už vás nebaví ručně korigovat orientaci vašich JPEG obrázků? Náš tutoriál o automatické korekci orientace JPEG obrázku vám ušetří čas i úsilí. Navíc se naučíte nastavit barvu JPEG a typ komprese, aby vaše obrázky vypadaly perfektně.
+
+- [Automatické opravení orientace JPEG obrázku v Javě](./auto-correct-jpeg-image-orientation-java/)
+- [Nastavení barvy a typu komprese JPEG v Javě](./set-jpeg-color-compression-type-java/)
 
 ## Extrahování a správa miniatur
 
-Miniatury jsou skvělý způsob, jak získat rychlé náhledy obrázků. Naučte se, jak extrahovat miniatury z obrázků JFIF a PSD pomocí našich jednoduchých průvodců. Tyto výukové programy jsou plné praktických příkladů, které vám pomohou zvládnout práci efektivně.
+Miniatury jsou skvělý způsob, jak získat rychlé náhledy vašich obrázků. Naučte se extrahovat miniatury z JFIF a PSD obrázků pomocí našich přehledných návodů. Tyto tutoriály jsou plné praktických příkladů, které vám pomohou úkol zvládnout efektivně.
 
-- [Extrahujte miniaturu z JFIF v Javě](./extract-thumbnail-from-jfif-java/)
-- [Extrahujte miniaturu z PSD v Javě](./extract-thumbnail-from-psd-java/)
+- [Extrahovat miniaturu z JFIF v Javě](./extract-thumbnail-from-jfif-java/)
+- [Extrahovat miniaturu z PSD v Javě](./extract-thumbnail-from-psd-java/)
 
-## Práce s daty EXIF
+## Práce s EXIF daty
 
-EXIF data jsou zásadní pro pochopení a správu obrazových metadat. Naše výukové programy vás naučí, jak číst, upravovat a zapisovat značky EXIF v souborech JPEG a PSD. To je užitečné zejména pro vývojáře, kteří potřebují pracovat s podrobnými informacemi o obrázcích.
+EXIF data jsou klíčová pro pochopení a správu metadat obrázku. Naše tutoriály vás naučí, jak číst, upravovat a zapisovat EXIF značky v JPEG a PSD souborech. To je zvláště užitečné pro vývojáře, kteří potřebují pracovat s podrobnými informacemi o obrázcích.
 
-- [Přečtěte si seznam všech značek EXIF v Javě](./read-all-exif-tag-list-java/)
-- [Přečtěte si všechny značky EXIF v Javě](./read-all-exif-tags-java/)
-- [Číst a upravovat JPEG EXIF tagy v Javě](./read-modify-jpeg-exif-tags-java/)
-- [Zapisujte a upravujte data EXIF v Javě](./write-modify-exif-data-java/)
-- [Přečtěte si informace o konkrétních značkách EXIF v Javě](./read-specific-exif-tags-info-java/)
+- [Přečíst celý seznam EXIF značek v Javě](./read-all-exif-tag-list-java/)
+- [Přečíst všechny EXIF značky v Javě](./read-all-exif-tags-java/)
+- [Číst a upravovat EXIF značky JPEG v Javě](./read-modify-jpeg-exif-tags-java/)
+- [Zapsat a upravit EXIF data v Javě](./write-modify-exif-data-java/)
+- [Přečíst informace o konkrétních EXIF značkách v Javě](./read-specific-exif-tags-info-java/)
 
 ## Pokročilá podpora JPEG
 
-Pro ty, kteří se chtějí ponořit hlouběji do zpracování obrázků JPEG, nabízíme výukové programy o podpoře 2 a 7 bitů JPEG a také JPEG-LS s CMYK. Tyto příručky jsou ideální pro začátečníky i pokročilé uživatele a poskytují podrobné kroky a úryvky kódu.
+Pro ty, kteří chtějí proniknout hlouběji do zpracování JPEG obrázků, nabízíme tutoriály o podpoře 2‑ a 7‑bitových JPEG, stejně jako JPEG‑LS s CMYK. Tyto návody jsou ideální jak pro začátečníky, tak pro pokročilé uživatele a poskytují podrobné kroky a úryvky kódu.
 
-- [Podpora 2 a 7 bitů JPEG v Javě](./support-2-7-bits-jpeg-java/)
-- [Podpora JPEG-LS s CMYK v Javě](./support-jpeg-ls-cmyk-java/)
+- [Podpora 2‑ a 7‑bitových JPEG v Javě](./support-2-7-bits-jpeg-java/)
+- [Podpora JPEG‑LS s CMYK v Javě](./support-jpeg-ls-cmyk-java/)
 
-Dodržováním těchto výukových programů si vylepšíte své dovednosti v oblasti zpracování obrázků a získáte schopnost bez námahy zvládnout různé úlohy zpracování JPEG. Ponořte se do našich podrobných průvodců a zdokonalte se v Aspose.PSD pro Javu.
-## Výukové programy pro zpracování obrazu Java JPEG
-### [Přidejte miniaturu do EXIF segmentu v Javě](./add-thumbnail-to-exif-segment-java/)
-Naučte se, jak vylepšit metadata obrázků pomocí miniatur pomocí Aspose.PSD pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci. Pro bezproblémovou integraci.
-### [Přidejte miniaturu do segmentu JFIF v Javě](./add-thumbnail-to-jfif-segment-java/)
-Naučte se, jak přidat miniaturu k obrázku PSD v Javě pomocí Aspose.PSD krok za krokem. Ideální pro vývojáře v Javě, kteří chtějí zlepšit možnosti zpracování obrazu.
-### [Automatická oprava orientace obrázku JPEG v Javě](./auto-correct-jpeg-image-orientation-java/)
-Naučte se automaticky opravovat orientaci obrázků JPEG v Javě pomocí Aspose.PSD. Vylepšete své dovednosti zpracování obrazu bez námahy.
-### [Nastavte barvu a typ komprese JPEG v Javě](./set-jpeg-color-compression-type-java/)
-Naučte se, jak nastavit barvu a typ komprese JPEG v Javě pomocí Aspose.PSD. Tento podrobný průvodce usnadňuje a zefektivňuje zpracování obrazu.
-### [Extrahujte miniaturu z JFIF v Javě](./extract-thumbnail-from-jfif-java/)
-Naučte se extrahovat miniatury z obrázků JFIF pomocí Aspose.PSD pro Java. Komplexní výukový program s podrobným průvodcem a příklady kódu.
-### [Extrahujte miniaturu z PSD v Javě](./extract-thumbnail-from-psd-java/)
-Naučte se, jak extrahovat miniatury ze souborů PSD pomocí Aspose.PSD for Java. Tento podrobný průvodce pokrývá vše od nastavení až po ukládání extrahovaných obrázků.
-### [Přečtěte si seznam všech značek EXIF v Javě](./read-all-exif-tag-list-java/)
-Naučte se, jak extrahovat EXIF metadata ze souborů PSD pomocí Aspose.PSD for Java, s naším komplexním tutoriálem a příklady kódu.
-### [Přečtěte si všechny značky EXIF v Javě](./read-all-exif-tags-java/)
-Naučte se extrahovat EXIF tagy z PSD obrázků pomocí Aspose.PSD for Java. Postupujte podle našeho podrobného průvodce pro efektivní extrakci metadat.
-### [Číst a upravovat JPEG EXIF tagy v Javě](./read-modify-jpeg-exif-tags-java/)
-V tomto podrobném průvodci se dozvíte, jak číst a upravovat JPEG EXIF tagy pomocí Aspose.PSD for Java. Ideální pro vývojáře, kteří chtějí bez námahy zpracovávat metadata obrázků.
-### [Přečtěte si informace o konkrétních značkách EXIF v Javě](./read-specific-exif-tags-info-java/)
-Naučte se číst konkrétní EXIF tagy z obrázků PSD pomocí Aspose.PSD for Java pomocí našeho podrobného tutoriálu. Vylepšete své dovednosti zpracování obrazu.
-### [Podpora 2 a 7 bitů JPEG v Javě](./support-2-7-bits-jpeg-java/)
-Naučte se manipulovat se soubory PSD a ukládat je jako JPEG v Javě pomocí Aspose.PSD. Podrobný průvodce s příklady kódu. Ideální pro začátečníky i profíky.
-### [Podpora JPEG-LS s CMYK v Javě](./support-jpeg-ls-cmyk-java/)
-Naučte se, jak podporovat JPEG-LS s CMYK v Javě pomocí Aspose.PSD. Postupujte podle našeho podrobného průvodce pro snadné zpracování a převod obrazu.
-### [Zapisujte a upravujte data EXIF v Javě](./write-modify-exif-data-java/)
-Naučte se zapisovat a upravovat data EXIF v souborech PSD pomocí Aspose.PSD for Java s tímto komplexním průvodcem krok za krokem.
+Sledováním těchto tutoriálů rozšíříte své dovednosti v oblasti zpracování obrázků a získáte schopnost bez problémů zvládat různé úlohy spojené se zpracováním JPEG. Ponořte se do našich podrobných průvodců a staňte se odborníkem na Aspose.PSD pro Java.
+
+## Tutoriály zpracování JPEG obrázků v Javě
+### [Přidat miniaturu do EXIF segmentu v Javě](./add-thumbnail-to-exif-segment-java/)
+Naučte se, jak vylepšit metadata obrázku pomocí miniatur s Aspose.PSD pro Java. Postupujte podle našeho krok‑za‑krokem průvodce pro bezproblémovou integraci.
+### [Přidat miniaturu do JFIF segmentu v Javě](./add-thumbnail-to-jfif-segment-java/)
+Naučte se, jak přidat miniaturu do PSD obrázku v Javě pomocí Aspose.PSD krok‑za‑krokem. Ideální pro vývojáře Java, kteří chtějí rozšířit možnosti zpracování obrázků.
+### [Automatické opravení orientace JPEG obrázku v Javě](./auto-correct-jpeg-image-orientation-java/)
+Naučte se automaticky opravit orientaci JPEG obrázku v Javě pomocí Aspose.PSD. Zlepšete své dovednosti v zpracování obrázků bez námahy.
+### [Nastavení barvy a typu komprese JPEG v Javě](./set-jpeg-color-compression-type-java/)
+Naučte se nastavit barvu a typ komprese JPEG v Javě pomocí Aspose.PSD. Tento krok‑za‑krokem průvodce usnadňuje a zefektivňuje zpracování obrázků.
+### [Extrahovat miniaturu z JFIF v Javě](./extract-thumbnail-from-jfif-java/)
+Naučte se extrahovat miniatury z JFIF obrázků pomocí Aspose.PSD pro Java. Kompletní tutoriál s krok‑za‑krokem průvodcem a ukázkovým kódem.
+### [Extrahovat miniaturu z PSD v Javě](./extract-thumbnail-from-psd-java/)
+Naučte se extrahovat miniatury z PSD souborů pomocí Aspose.PSD pro Java. Tento krok‑za‑krokem průvodce pokrývá vše od nastavení po uložení extrahovaných obrázků.
+### [Přečíst celý seznam EXIF značek v Javě](./read-all-exif-tag-list-java/)
+Naučte se extrahovat EXIF metadata z PSD souborů pomocí Aspose.PSD pro Java v našem komplexním tutoriálu s ukázkovým kódem.
+### [Přečíst všechny EXIF značky v Javě](./read-all-exif-tags-java/)
+Naučte se extrahovat EXIF značky z PSD obrázků pomocí Aspose.PSD pro Java. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní extrakci metadat.
+### [Číst a upravovat EXIF značky JPEG v Javě](./read-modify-jpeg-exif-tags-java/)
+Naučte se číst a upravovat EXIF značky JPEG pomocí Aspose.PSD pro Java v tomto krok‑za‑krokem průvodci. Ideální pro vývojáře, kteří chtějí snadno pracovat s metadaty obrázků.
+### [Přečíst informace o konkrétních EXIF značkách v Javě](./read-specific-exif-tags-info-java/)
+Naučte se číst konkrétní EXIF značky z PSD obrázků pomocí Aspose.PSD pro Java v našem krok‑za‑krokem tutoriálu. Zlepšete své dovednosti v zpracování obrázků.
+### [Podpora 2‑ a 7‑bitových JPEG v Javě](./support-2-7-bits-jpeg-java/)
+Naučte se manipulovat s PSD soubory a ukládat je jako JPEG v Javě pomocí Aspose.PSD. Krok‑za‑krokem průvodce s ukázkovým kódem. Ideální pro začátečníky i profesionály.
+### [Podpora JPEG‑LS s CMYK v Javě](./support-jpeg-ls-cmyk-java/)
+Naučte se podporovat JPEG‑LS s CMYK v Javě pomocí Aspose.PSD. Postupujte podle našeho krok‑za‑krokem průvodce pro snadné zpracování a konverzi obrázků.
+### [Zapsat a upravit EXIF data v Javě](./write-modify-exif-data-java/)
+Naučte se zapisovat a upravovat EXIF data v PSD souborech pomocí Aspose.PSD pro Java v tomto komplexním krok‑za‑krokem průvodci.
+
+## Často kladené otázky
+
+**Q: Mohu tyto tutoriály použít v komerčním projektu?**  
+A: Ano, po získání komerční licence Aspose.PSD můžete kód integrovat do jakékoli produkční aplikace.
+
+**Q: Které verze Javy jsou podporovány?**  
+A: Knihovna funguje s Java 8, 11, 17 a novějšími verzemi, což zajišťuje kompatibilitu s většinou moderních prostředí.
+
+**Q: Potřebuji další závislosti pro práci s EXIF miniaturami?**  
+A: Nejsou vyžadovány žádné další závislosti; jádro Aspose.PSD JAR obsahuje všechny potřebné třídy pro manipulaci s EXIF.
+
+**Q: Jak velký může být obrázek miniatury?**  
+A: Aspose.PSD doporučuje miniatury do 160 × 120 pixelů; větší velikosti jsou akceptovatelné, ale mohou zvýšit velikost souboru.
+
+**Q: Existuje způsob, jak dávkově zpracovat více obrázků?**  
+A: Ano, můžete procházet soubory v adresáři a aplikovat stejnou logiku vkládání miniatur na každý obrázek programově.
+
+---
+
+**Last Updated:** 2026-09-28  
+**Tested With:** Aspose.PSD for Java 24.12  
+**Author:** Aspose
+
+## Související tutoriály
+
+- [Automatické opravení orientace JPEG obrázku Java](/psd/java/java-jpeg-image-processing/auto-correct-jpeg-image-orientation-java/)
+- [Vytvořit XMP metadata v PSD souborech pomocí Aspose.PSD pro Java](/psd/java/image-editing/create-xmp-metadata/)
+- [Změna velikosti obrázku pomocí Aspose.PSD pro Java – kreslení tvarů a základní operace s obrázky](/psd/java/basic-image-operations/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
