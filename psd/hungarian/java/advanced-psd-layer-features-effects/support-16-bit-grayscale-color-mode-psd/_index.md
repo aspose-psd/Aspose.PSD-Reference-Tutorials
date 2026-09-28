@@ -1,11 +1,74 @@
 ---
-date: 2026-02-20
-description: Tanulja meg, hogyan konvertálhatja a PSD-t PNG-re, miközben a PSD színmódját
-  16‑bit szürkeárnyalatra állítja az Aspose.PSD for Java használatával. Lépésről‑lépésre
-  útmutató kódrészletekkel.
-linktitle: Convert PSD to PNG – 16-bit Grayscale – Java
+date: 2026-09-28
+description: Ismerje meg, hogyan exportálhatja a PSD-t PNG formátumba, miközben a
+  PSD színmódját 16‑bit szürkeárnyalatra állítja az Aspose.PSD for Java segítségével.
+  Lépésről‑lépésre útmutató kódrészletekkel.
+keywords:
+- export psd as png
+- how to convert psd to png
+- 16-bit grayscale java
+lastmod: 2026-09-28
+linktitle: PSD exportálása PNG‑ként – 16‑bit szürkeárnyalat – Java
+og_description: PSD exportálása PNG‑ként 16‑bit szürkeárnyalattal az Aspose.PSD for
+  Java használatával. Kövesse ezt a lépésről‑lépésre útmutatót a 65 536 szürke árnyalat
+  megőrzéséhez.
+og_image_alt: Guide showing how to export PSD as PNG with 16-bit grayscale using Aspose.PSD
+  Java
+og_title: PSD exportálása PNG‑ként 16‑bit szürkeárnyalattal Java‑ban – Aspose.PSD
+  útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to export PSD as PNG while setting PSD color mode to 16-bit
+    grayscale using Aspose.PSD for Java. Step‑by‑step guide with code examples.
+  headline: How to export PSD as PNG with 16‑bit grayscale color mode in Java
+  type: TechArticle
+- description: Learn how to export PSD as PNG while setting PSD color mode to 16-bit
+    grayscale using Aspose.PSD for Java. Step‑by‑step guide with code examples.
+  name: How to export PSD as PNG with 16‑bit grayscale color mode in Java
+  steps:
+  - name: '**Java Development Kit (JDK)** – Install the latest JDK from [Oracle''s
+      site](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+    text: '**Java Development Kit (JDK)** – Install the latest JDK from [Oracle''s
+      site](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).'
+  - name: '**Aspose.PSD for Java library** – Download the JAR from the [Aspose download
+      page](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD for Java library** – Download the JAR from the [Aspose download
+      page](https://releases.aspose.com/psd/java/).'
+  - name: '**An IDE** – IntelliJ IDEA, Eclipse, or Visual Studio Code works perfectly.'
+    text: '**An IDE** – IntelliJ IDEA, Eclipse, or Visual Studio Code works perfectly.'
+  - name: '**Basic Java knowledge** – You should be comfortable creating classes,
+      handling exceptions, and working with file paths.'
+    text: '**Basic Java knowledge** – You should be comfortable creating classes,
+      handling exceptions, and working with file paths.'
+  - name: '**A sample PSD file** – Create one in Adobe Photoshop or grab a free sample
+      online.'
+    text: '**A sample PSD file** – Create one in Adobe Photoshop or grab a free sample
+      online.'
+  type: HowTo
+- questions:
+  - answer: It provides 65 536 shades of gray, delivering far more tonal detail than
+      the standard 8‑bit (256 shades).
+    question: What is 16‑bit grayscale color mode?
+  - answer: Absolutely! Aspose.PSD supports RGB, CMYK, Lab, Indexed, and many other
+      color modes.
+    question: Can I use Aspose.PSD for non‑grayscale images?
+  - answer: Yes, you can try a free trial version of Aspose.PSD. Just head to the
+      [Aspose download page](https://releases.aspose.com/).
+    question: Is there a trial version of Aspose.PSD?
+  - answer: Check the official [documentation](https://reference.aspose.com/psd/java/)
+      for in‑depth tutorials, API references, and sample projects.
+    question: Where can I find more Aspose.PSD examples?
+  - answer: You can buy a license by visiting the [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: How do I purchase a license for Aspose.PSD?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Hogyan konvertáljunk PSD-t PNG-re 16 bites szürkeárnyalatos színmóddal Java-ban
+tags:
+- convert psd
+- Aspose.PSD
+- Java image processing
+title: Hogyan exportáljuk a PSD-t PNG formátumba 16‑bit szürkeárnyalatos színmóddal
+  Java-ban
 url: /hu/java/advanced-psd-layer-features-effects/support-16-bit-grayscale-color-mode-psd/
 weight: 11
 ---
@@ -14,36 +77,38 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PSD konvertálása PNG-re 16-bites szürkeárnyalatos színmóddal Java-ban
+# Exportálja a PSD-t PNG formátumba 16‑bit szürkeárnyalatos színmóddal Java-ban
 
 ## Bevezetés
-Amikor belemerülsz a grafikai tervezés és a képmódosítás világába, a **PSD PNG-re konvertálásának** ismerete olyan, mint egy titkos fegyver. A 16‑bites szürkeárnyalatos mód használata hihetetlen mélységet és tónusgazdagságot ad, így a képeid kitűnnek. Ebben az útmutatóban végigvezetünk, hogyan **állítsd be a PSD színmódot** 16‑bites szürkeárnyalatosra, majd hogyan **exportáld a PSD-t PNG‑ként** az Aspose.PSD for Java segítségével. Készen állsz, hogy fejleszd a képfeldolgozási munkafolyamatodat? Kezdjünk is.
+A PSD PNG formátumba exportálása 16‑bit szürkeárnyalatos színmóddal biztosítja a professzionális fénykép mélységét és a PNG univerzális kompatibilitását. Ebben az útmutatóban megtanulja, hogyan **állítsa be a PSD színmódját 16‑bit szürkeárnyalatra**, majd hogyan **exportálja a PSD-t PNG formátumba** az Aspose.PSD for Java használatával. A bemutató minden részletet lefed az előkövetelményektől a hibaelhárításig, így beépítheti a munkafolyamatot bármely Java‑alapú képfeldolgozó csővezetékbe.
 
 ## Gyors válaszok
-- **Mi a “PSD PNG-re konvertálás” folyamata?** PSD betöltése, opcionálisan a színmód módosítása, majd PNG fájlként mentése.  
-- **Melyik Aspose osztály kezeli a konverziót?** `PsdImage` a betöltéshez és `PngOptions` a mentéshez.  
-- **Szükségem van speciális licencre?** A próbaverzió teszteléshez működik; a termeléshez fizetett licenc szükséges.  
-- **Megőrizhetem a 16‑bites mélységet PNG-ben?** Igen, a `PngColorType.GrayscaleWithAlpha` használatával.  
-- **Mely IDE-k támogatottak?** Bármely Java IDE – IntelliJ IDEA, Eclipse, VS Code, stb.
+- **Mi a “export PSD as PNG” folyamata?** Töltsön be egy PSD-t, opcionálisan változtassa meg a színmódját, és mentse PNG fájlként.  
+- **Melyik Aspose osztály kezeli a konverziót?** A `PsdImage` betölti a PSD-t, a `PngOptions` pedig meghatározza a PNG kimeneti beállításait.  
+- **Szükségem van licencre a termeléshez?** Igen – a próbaverzió teszteléshez működik, de a kereskedelmi használathoz fizetett licenc szükséges.  
+- **Megőrizhető a 16‑bit mélység a PNG-ben?** Teljesen, a `PngColorType.GrayscaleWithAlpha` használatával.  
+- **Mely IDE-k támogatottak?** Bármely Java IDE – IntelliJ IDEA, Eclipse, VS Code vagy NetBeans.
 
-## Miért konvertáljunk PSD-t PNG-re 16‑bites szürkeárnyalatos móddal?
-* **Tónus részlet megőrzése:** A 16‑bites szürkeárnyalatos 65 536 szürkeárnyalatot tárol, ami jóval több, mint egy 8‑bites kép 256 árnyalata.  
-* **Széles körű kompatibilitás:** A PNG széles körben támogatott böngészőkben, mobilalkalmazásokban és asztali eszközökben, miközben megőrzi a magas minőségű adatot.  
-* **Veszteségmentes munkafolyamat:** Az Aspose.PSD-vel történő konvertálás biztosítja, hogy ne legyenek nem kívánt tömörítési hibák, ami ideális archiváláshoz vagy további feldolgozáshoz.
+## Mi az export PSD as PNG?
+Az Export PSD as PNG a folyamat, amely során egy Adobe Photoshop dokumentumot (PSD) átalakítanak Portable Network Graphics (PNG) fájlba, miközben megőrzik a kép pixeladatait és színmélységét. Ez a konverzió gyakran használatos magas minőségű szürkeárnyalatos eszközök weben való megosztására anélkül, hogy a tónus részletei elvesznének.
 
-## Előfeltételek
-Mielőtt elkezdenénk, győződj meg róla, hogy minden előkészítve van a legjobb eredmény eléréséhez ebben az útmutatóban. Íme, amire szükséged lesz:
+## Miért exportáljuk a PSD-t PNG formátumba 16‑bit szürkeárnyalattal?
+A PNG-be exportálás 16‑bit szürkeárnyalattal 65 536 szürkeárnyalatot őriz meg, ami jóval gazdagabb tónusú részleteket biztosít, mint a 8‑bit képek. A PNG univerzális támogatása garantálja, hogy a fájlok böngészőkben, mobilalkalmazásokban és asztali szerkesztőkben veszteség nélkül jelenjenek meg, míg az Aspose.PSD veszteségmentes tömörítése biztosítja, hogy ne jelenjenek meg hibák.
 
-1. **Java Development Kit (JDK)** – Győződj meg róla, hogy a legújabb verzió telepítve van. Letöltheted a [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
-2. **Aspose.PSD for Java Library** – Ez a motor, amely lehetővé teszi a PSD fájlok manipulálását. Szerezd be a [Aspose letöltési oldaláról](https://releases.aspose.com/psd/java/).  
-3. **IDE** – Az IntelliJ IDEA, Eclipse vagy a Visual Studio Code tökéletesen működik.  
-4. **Alap Java ismeretek** – A Java szintaxis ismerete gördülékenyebbé teszi a lépéseket.  
-5. **Minta PSD fájl** – Készíthetsz egyet az Adobe Photoshopban, vagy tölts le egy ingyenes mintát online.
+## Előkövetelmények
+1. **Java Development Kit (JDK)** – Telepítse a legújabb JDK-t a [Oracle weboldaláról](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).  
+2. **Aspose.PSD for Java könyvtár** – Töltse le a JAR-t az [Aspose letöltési oldalról](https://releases.aspose.com/psd/java/).  
+3. **Egy IDE** – Az IntelliJ IDEA, Eclipse vagy a Visual Studio Code tökéletesen működik.  
+4. **Alap Java ismeretek** – Kényelmesen kell tudnia osztályokat létrehozni, kivételeket kezelni és fájlutakat használni.  
+5. **Egy minta PSD fájl** – Készítsen egyet az Adobe Photoshopban, vagy vegyen egy ingyenes mintát online.
 
-Készen vagy? Remek! Importáljuk a szükséges csomagokat és kezdjünk el kódolni.
+## Hogyan exportáljuk a PSD-t PNG formátumba lépésről lépésre
 
-## Csomagok importálása
-A kezdéshez add hozzá a szükséges Aspose.PSD importokat a Java fájlodhoz:
+## Hogyan állítja be a PSD színmódját 16‑bit szürkeárnyalatra?
+A PsdImage az Aspose.PSD osztály, amely betölti és memóriában reprezentálja a PSD fájlt.  
+A ColorMode egy felsorolás, amely meghatározza egy PSD kép színmódját.
+
+Töltse be a PSD-t a `PsdImage` segítségével, változtassa meg a színmódját a `ColorMode` tulajdonság használatával, majd mentse a módosított fájlt. Ez a művelet teljesen memóriában zajlik, kiküszöbölve a köztes fájlok szükségességét, és biztosítva a gyors és hatékony konverziót.
 
 ```java
 import com.aspose.psd.*;
@@ -56,20 +121,24 @@ import com.aspose.psd.imageoptions.PsdOptions;
 import com.aspose.psd.system.Enum;
 ```
 
-Ezek az importok hozzáférést biztosítanak azokhoz a funkciókhoz, amelyeket a PSD fájlok manipulálásához, a színmód beállításához és az eredmény PNG‑ként való exportálásához fogsz használni.
+Ezek az importok hozzáférést biztosítanak azokhoz a funkciókhoz, amelyeket a PSD fájlok manipulálásához, a színmód beállításához és az eredmény PNG formátumba exportálásához használni fog.
 
-## 1. lépés: Könyvtárak definiálása
-Először állítsd be a forrás- és kimeneti mappákat. Ez megmondja a programnak, hol olvassa be az eredeti PSD‑t, és hová írja a konvertált fájlokat.
+## Hogyan definiálja a forrás- és kimeneti könyvtárakat?
+`File` egy java.io osztály, amely a fájlrendszerben egy fájl vagy könyvtár útvonalát reprezentálja.
+
+Meg kell adnia a programnak, hogy hol olvassa be az eredeti PSD-t, és hová írja a konvertált PNG-t. Az abszolút vagy relatív útvonalak használata működik, de tartsa őket konzisztensen a különböző környezetekben, hogy elkerülje az útvonal feloldási hibákat.
 
 ```java
 String sourceDir = "Your Source Directory"; // Change to your source directory
 String outputDir = "Your Document Directory"; // Change to your output directory
 ```
 
-Cseréld le a helyettesítő karakterláncokat a géped tényleges útvonalaira.
+Cserélje le a helyőrző karakterláncokat a gépén lévő tényleges útvonalakra.
 
-## 2. lépés: Metódus létrehozása a képfeldolgozáshoz
-A konverziós logikát egy újrahasználható metódusba fogjuk kapszulázni. Ez megkapja az összes paramétert, amelyet esetleg módosítani szeretnél, például a színmódot, a bitmélységet és a tömörítést.
+## Hogyan kapszulázza a konverziós logikát újrahasználható metódusban?
+`convertPsdToPng` egy egyedi metódus, amely kapszulázza a PSD fájl PNG‑re konvertálásához szükséges összes lépést opcionális beállításokkal.
+
+Egy dedikált metódus létrehozása lehetővé teszi, hogy ugyanazokat a konverziós lépéseket több fájlra vagy különböző beállításokra újrahasználja. Adjon át paramétereket, mint a forrás útvonal, a célmappa és az opcionális tömörítési szint, így a munkafolyamat rugalmas és karbantartható lesz.
 
 ```java
 class LocalScopeExtension {
@@ -82,10 +151,14 @@ class LocalScopeExtension {
         int layerNumber) {
 ```
 
-Ez a metódus lehetővé teszi, hogy **beállítsd a PSD színmódot** és aztán **exportáld a PSD-t PNG‑ként** egyetlen folyamatban.
+Ez a metódus lehetővé teszi, hogy **beállítsa a PSD színmódját**, majd **exportálja a PSD-t PNG formátumba** egyetlen folyamatban.
 
-## 3. lépés: Fájlútvonalak definiálása és a PSD betöltése
-A metóduson belül építsd fel a teljes fájlútvonalakat, és töltsd be az eredeti 16‑bites szürkeárnyalatos PSD‑t:
+## Hogyan tölti be a PSD-t és alkalmazza a 16‑bit szürkeárnyalatos módot?
+A PsdImage az Aspose.PSD osztály, amely egy PSD fájlt memóriába tölt.  
+A ColorMode.GRAYSCALE_16 egy felsorolásérték, amely a képet 16‑bit szürkeárnyalatúra állítja.  
+A `channelBitsCount` egy tulajdonság, amely meghatározza a csatorna biteinek számát.
+
+A konverziós metóduson belül építse fel a teljes fájlútvonalakat, példányosítsa a `PsdImage`‑t, és változtassa meg a `ColorMode`‑ját `ColorMode.GRAYSCALE_16`‑ra. A `channelBitsCount` tulajdonságot 16‑ra kell állítani a magas bitmélység megtartásához, biztosítva, hogy a kép minden tónusinformációt megőrizzen.
 
 ```java
 String filePath = sourceDir + file + ".psd";
@@ -97,10 +170,12 @@ String pngExportPath = outputDir + file + postfix + ".png";
 PsdImage image = (PsdImage)Image.load(filePath);
 ```
 
-A `postfix` segít nyomon követni a beállításokat, amelyeket az egyes exportált fájlokhoz használtál.
+A `postfix` segít nyomon követni az egyes exportált fájlokhoz használt beállításokat.
 
-## 4. lépés: Réteg vagy teljes kép feldolgozása
-Most vagy egy adott rétegre, vagy a teljes képre rajzolunk. Ebben a példában egy finom szürke keretet adunk hozzá, hogy az eredmény jobban látható legyen.
+## Hogyan rajzoljon finom keretet a képre (opcionális lépés)?
+A `Graphics` egy osztály, amely rajzolási képességeket biztosít egy `PsdImage` vásznon.
+
+Opcionálisan rajzolhat egy szürke téglalapot a kép köré, hogy a kimenet tesztelés közben jobban látható legyen. Ez a lépés bemutatja, hogyan dolgozzunk rétegekkel és grafikus objektumokkal, és a téglalap dinamikusan kerül kiszámításra, így a kép méretétől függetlenül középre kerül.
 
 ```java
 try {
@@ -117,10 +192,12 @@ try {
     graphics.drawRectangle(new Pen(Color.getDarkGray(), 1), rect);
 ```
 
-A téglalap dinamikusan számítódik ki, így a képmérettől függetlenül középre kerül.
+A téglalap dinamikusan kerül kiszámításra, így a kép méretétől függetlenül középre kerül.
 
-## 5. lépés: Módosított PSD fájl mentése
-A rajzolás után elmentjük a PSD‑t a megadott pontos színmóddal és bitmélységgel. Ez a **PSD színmód beállítása** konverzió előtt.
+## Hogyan menti a módosított PSD-t az új színmóddal?
+A `PsdOptions` egy osztály, amely szabályozza, hogyan mentse a PSD fájlt, beleértve a színmódot és a bitmélység beállításait.
+
+A rajzolás (vagy a lépés kihagyása) után hívja meg a `save` metódust a `PsdImage` példányon, egy `PsdOptions` objektumot átadva, amely megőrzi a 16‑bit szürkeárnyalatos konfigurációt. Ez biztosítja, hogy a mentett PSD megtartsa a kívánt színmódot adatvesztés nélkül.
 
 ```java
     // Save a copy of PSD with specific characteristics
@@ -133,8 +210,11 @@ A rajzolás után elmentjük a PSD‑t a megadott pontos színmóddal és bitmé
 }
 ```
 
-## 6. lépés: PSD konvertálása PNG-re
-Végül betöltjük az újonnan mentett PSD‑t, és PNG‑ként exportáljuk. A `PngColorType.GrayscaleWithAlpha` használatával megőrzünk egy 16‑bites mélységet a PNG fájlban.
+## Hogyan konvertálja a PSD-t PNG‑re a 16‑bit mélység megőrzésével?
+A `PngOptions` egy osztály, amely meghatározza a PNG kimeneti beállításait, például a szín típust és a tömörítési szintet.  
+A `PngColorType.GrayscaleWithAlpha` egy felsorolásérték, amely 16‑bit szürkeárnyalatos adatot tárol alfa csatornával.
+
+Töltse be az újonnan mentett PSD-t, konfigurálja a `PngOptions`‑t a `PngColorType.GrayscaleWithAlpha`‑val, és hívja meg a `save`‑t. Ez megőrzi a 16‑bit szürkeárnyalatos adatot a PNG fájlban, veszteségmentes, magas minőségű képet biztosítva, amely alkalmas további feldolgozásra vagy terjesztésre.
 
 ```java
 finally {
@@ -153,37 +233,45 @@ finally {
 }
 ```
 
-Most már sikeresen **konvertáltad a PSD‑t PNG‑re**, miközben megőrizted a magas minőségű 16‑bites szürkeárnyalatos adatot.
+Most már sikeresen **exportálta a PSD-t PNG formátumba**, miközben megtartotta a magas minőségű 16‑bit szürkeárnyalatos adatot.
 
 ## Gyakori problémák és megoldások
+
 | Probléma | Miért fordul elő | Megoldás |
 |----------|------------------|----------|
-| **“Unsupported color type” kivétel** | Olyan PSD mentése, amelynek csatorna konfigurációja nem támogatott. | Győződj meg róla, hogy a `channelBitsCount` megegyezik a tényleges bitmélységgel (16), és a `channelsCount` helyes a szürkeárnyalatos esetben (1). |
-| **Fájl nem található** | Helytelen forráskönyvtár útvonal. | Ellenőrizd újra a `sourceDir` karakterláncot, és győződj meg arról, hogy a PSD fájl létezik. |
-| **A kimeneti PNG fekete** | PNG mentése alfa csatorna kezelése nélkül. | Használd a `PngColorType.GrayscaleWithAlpha` beállítást, ahogy fent látható. |
+| **“Unsupported color type” exception** | Megpróbál egy PSD-t menteni egy nem támogatott csatorna konfigurációval. | Győződjön meg arról, hogy a `channelBitsCount` megegyezik a tényleges bitmélységgel (16), és a `channelsCount` helyes a szürkeárnyalat esetén (1). |
+| **File not found** | Helytelen forráskönyvtár útvonal. | Ellenőrizze újra a `sourceDir` karakterláncot, és győződjön meg arról, hogy a PSD fájl létezik az adott helyen. |
+| **Output PNG appears black** | A PNG megfelelő alfa kezelés nélkül lett mentve. | Használja a `PngColorType.GrayscaleWithAlpha` értéket, ahogy fent bemutattuk. |
+| **Memory overflow on large PSDs** | A teljes fájl betöltése a memóriába. | Engedélyezze a streaming módot a `PsdImage.load(inputStream, new LoadOptions())` használatával, hogy nagy fájlokat hatékonyan dolgozzon fel. |
 
 ## Gyakran ismételt kérdések
 
-**Q: Mi a 16‑bites szürkeárnyalatos színmód?**  
-A: 65 536 szürkeárnyalatot biztosít, ami jóval több tónus részletet ad, mint a szabványos 8‑bites (256 árnyalat).
+**Q: Mi az a 16‑bit szürkeárnyalatos színmód?**  
+A: 65 536 szürkeárnyalatot biztosít, ami jóval több tónus részletet nyújt, mint a szabványos 8‑bit (256 árnyalat).
 
-**Q: Használhatom az Aspose.PSD‑t nem‑szürkeárnyalatos képekhez?**  
-A: Természetesen! Az Aspose.PSD támogatja az RGB, CMYK, Lab és sok más színmódot.
+**Q: Használhatom az Aspose.PSD‑t nem szürkeárnyalatos képekhez?**  
+A: Természetesen! Az Aspose.PSD támogatja az RGB, CMYK, Lab, Indexed és sok más színmódot.
 
-**Q: Van ingyenes próbaverziója az Aspose.PSD‑nek?**  
-A: Igen, kipróbálhatsz egy ingyenes próbaverziót az Aspose.PSD‑ből. Látogass el a [Aspose letöltési oldalra](https://releases.aspose.com/).
+**Q: Van próba verziója az Aspose.PSD‑nek?**  
+A: Igen, kipróbálhat egy ingyenes próba verziót az Aspose.PSD‑ből. Látogasson el a [Aspose letöltési oldalra](https://releases.aspose.com/).
 
-**Q: Hol találok további példákat az Aspose.PSD használatára?**  
-A: Megtekintheted a [dokumentációt](https://reference.aspose.com/psd/java/) további részletes példák és útmutatókért.
+**Q: Hol találok további Aspose.PSD példákat?**  
+A: Tekintse meg a hivatalos [dokumentációt](https://reference.aspose.com/psd/java/), amely részletes útmutatókat, API referenciákat és mintaprojekteket tartalmaz.
 
 **Q: Hogyan vásárolhatok licencet az Aspose.PSD‑hez?**  
-A: Licencet vásárolhatsz a [Aspose vásárlási oldalon](https://purchase.aspose.com/buy) keresztül.
+A: Licencet vásárolhat a [Aspose vásárlási oldalon](https://purchase.aspose.com/buy).
 
 ---
 
-**Last Updated:** 2026-02-20  
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Author:** Aspose  
+**Utoljára frissítve:** 2026-09-28  
+**Tesztelve a következővel:** Aspose.PSD for Java 24.12 (legújabb a kiadás időpontjában)  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [PSD konvertálása PNG‑re meghatározott bitmélységgel az Aspose.PSD for Java használatával](/psd/java/optimizing-png-files/specify-png-bit-depth/)
+- [PSD exportálása PNG‑re réteghatásokkal az Aspose.PSD for Java használatával](/psd/java/psd-image-modification-conversion/apply-layer-effects-psd-files/)
+- [PSD mentése JPEG‑ként és RGB szín támogatása az Aspose.PSD Java használatával](/psd/java/advanced-psd-layer-features-effects/support-rgb-color-psd-files/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
