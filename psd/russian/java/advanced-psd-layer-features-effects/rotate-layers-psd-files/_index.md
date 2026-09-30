@@ -88,6 +88,10 @@ url: /ru/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Связанные руководства
 
 - [Сохранить PSD как PNG и применить отбрасывание тени при рендеринге в Aspose.PSD для Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -97,7 +101,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # Сохранить PSD как PNG и повернуть слои в Java с использованием Aspose.PSD
 
@@ -241,7 +245,7 @@ A: При вращении на 90° или 270° ширина и высота �
 **Тестировано с:** Aspose.PSD for Java 24.11  
 **Автор:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

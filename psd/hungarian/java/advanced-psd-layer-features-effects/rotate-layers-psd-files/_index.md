@@ -88,6 +88,10 @@ url: /hu/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Kapcsolódó oktatóanyagok
 
 - [PSD mentése PNG-ként és renderelt árnyék alkalmazása Aspose.PSD for Java-ban](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -97,7 +101,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # PSD mentése PNG-ként és rétegek forgatása Java-ban az Aspose.PSD használatával
 
@@ -241,7 +245,7 @@ Az Aspose.PSD for Java segítségével **PSD‑t PNG‑ként menthet**, **megőr
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,13 +8,9 @@ url: /ja/java/optimizing-png-files/
 weight: 20
 ---
 
- bullet points? Actually they are list items with dash). In original, Quick Answers list uses dash lines. We'll keep same dash lines.
 
-FAQ uses **Q:** lines separated by blank lines. We'll keep same.
 
-Now produce final output with translated content.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

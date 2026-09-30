@@ -9,19 +9,13 @@ url: /pl/java/modifying-converting-psd-images/create-indexed-psd-files/
 weight: 23
 ---
 
-}}
 
-All shortcodes unchanged.
 
-Now ensure we didn't miss any text.
 
-Check the initial lines: after shortcodes there is blank line then title. Keep same.
 
-Now produce final content with all translations. Ensure we keep code block placeholders exactly as they appear.
 
-Also ensure we keep markdown formatting.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

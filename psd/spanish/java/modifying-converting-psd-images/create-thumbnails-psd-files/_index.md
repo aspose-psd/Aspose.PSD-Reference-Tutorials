@@ -9,19 +9,13 @@ url: /es/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 weight: 24
 ---
 
- label; we can translate to "Última actualización:" but maybe keep as is? It's part of content. Should translate.
 
-"Tested With:" -> "Probado con:"
 
-"Author:" -> "Autor:"
 
-But keep dates and versions unchanged.
 
-Now produce final output with all translations.
 
-Be careful to keep markdown formatting exactly.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

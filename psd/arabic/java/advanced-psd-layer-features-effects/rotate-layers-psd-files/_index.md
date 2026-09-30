@@ -86,6 +86,10 @@ url: /ar/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## الدروس ذات الصلة
 
 - [حفظ PSD كـ PNG وتطبيق ظل الإظهار في Aspose.PSD للـ Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -95,7 +99,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # حفظ psd كـ png وتدوير الطبقات في Java باستخدام Aspose.PSD
 
@@ -239,7 +243,7 @@ A: التدوير بزاوية 90° أو 270° يبدل العرض والارت�
 **تم الاختبار مع:** Aspose.PSD for Java 24.11  
 **المؤلف:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

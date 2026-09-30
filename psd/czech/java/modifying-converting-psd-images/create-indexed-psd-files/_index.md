@@ -9,7 +9,7 @@ url: /cs/java/modifying-converting-psd-images/create-indexed-psd-files/
 weight: 23
 ---
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

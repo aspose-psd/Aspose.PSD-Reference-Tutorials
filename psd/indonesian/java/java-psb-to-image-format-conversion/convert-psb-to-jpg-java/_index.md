@@ -10,11 +10,9 @@ url: /id/java/java-psb-to-image-format-conversion/convert-psb-to-jpg-java/
 weight: 10
 ---
 
- -> "Lisensi sementara dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk penggunaan komersial."
 
-Also "Java 8 or higher." keep as is.
 
-Now produce final markdown.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

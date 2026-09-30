@@ -10,11 +10,9 @@ url: /it/java/optimizing-png-files/apply-filters-png-files/
 weight: 10
 ---
 
-Then headings and content.
 
-We'll translate.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

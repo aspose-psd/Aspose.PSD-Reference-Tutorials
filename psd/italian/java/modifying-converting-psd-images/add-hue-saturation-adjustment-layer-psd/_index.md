@@ -10,13 +10,10 @@ url: /it/java/modifying-converting-psd-images/add-hue-saturation-adjustment-laye
 weight: 14
 ---
 
-- Keep backtop button shortcode.
 
-- Footer lines: "Last Updated:", "Tested With:", "Author:" translate? Probably keep as is? The content is not part of main translation? It is text, so translate. Keep dates unchanged.
 
-- Ensure no extra spaces.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

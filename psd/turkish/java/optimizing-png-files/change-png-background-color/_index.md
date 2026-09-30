@@ -9,21 +9,14 @@ url: /tr/java/optimizing-png-files/change-png-background-color/
 weight: 11
 ---
 
- Sorular"
 
-- Q/A: translate questions and answers, keep code names.
 
-- "Last Updated:" etc. Keep date.
 
-- "Tested With:" etc.
 
-- "Author:" etc.
 
-- Closing shortcodes.
 
-- Backtop button shortcode remains unchanged.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

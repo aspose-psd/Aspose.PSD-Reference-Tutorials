@@ -10,11 +10,9 @@ url: /nl/java/modifying-converting-psd-images/color-replacement-psd-files/
 weight: 21
 ---
 
- placeholders.
 
-Also keep markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

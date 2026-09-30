@@ -88,6 +88,10 @@ url: /id/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Tutorial Terkait
 
 - [Simpan PSD sebagai PNG dan Terapkan Rendering Drop Shadow di Aspose.PSD untuk Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -97,7 +101,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # simpan psd sebagai png dan putar lapisan di java menggunakan Aspose.PSD
 
@@ -241,7 +245,7 @@ Dengan memanfaatkan Aspose.PSD untuk Java, Anda dapat **save PSD as PNG**, **mem
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

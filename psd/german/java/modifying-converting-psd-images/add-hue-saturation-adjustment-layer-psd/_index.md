@@ -10,15 +10,11 @@ url: /de/java/modifying-converting-psd-images/add-hue-saturation-adjustment-laye
 weight: 14
 ---
 
- unchanged.
 
-Also the line "---" stays.
 
-Now produce final output with all translations.
 
-Be careful to preserve markdown formatting, shortcodes, code block placeholders.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

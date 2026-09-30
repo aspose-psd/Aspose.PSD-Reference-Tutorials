@@ -10,13 +10,10 @@ url: /sv/java/modifying-converting-psd-images/add-hue-saturation-adjustment-laye
 weight: 14
 ---
 
- need to keep the markdown formatting.
 
-Check for any other elements: The bullet lists use hyphens. Keep them.
 
-Make sure we keep code block placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

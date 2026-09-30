@@ -85,6 +85,10 @@ url: /ja/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 関連チュートリアル
 
 - [Aspose.PSD for JavaでPSDをPNGとして保存し、レンダリングドロップシャドウを適用する](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -93,7 +97,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # JavaでAspose.PSDを使用してPSDをPNGとして保存し、レイヤーを回転する
 
@@ -235,7 +239,7 @@ Aspose.PSD for Java を活用すれば、**PSDをPNGとして保存** し、**PN
 **テスト環境:** Aspose.PSD for Java 24.11  
 **作者:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

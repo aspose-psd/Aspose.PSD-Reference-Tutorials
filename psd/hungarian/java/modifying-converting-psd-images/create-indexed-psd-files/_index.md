@@ -10,11 +10,8 @@ url: /hu/java/modifying-converting-psd-images/create-indexed-psd-files/
 weight: 23
 ---
 
- paragraph.
 
-Take care of bold formatting.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

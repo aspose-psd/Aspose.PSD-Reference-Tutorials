@@ -87,6 +87,10 @@ url: /th/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## บทแนะนำที่เกี่ยวข้อง
 
 - [บันทึก PSD เป็น PNG และใช้ Rendering Drop Shadow ใน Aspose.PSD สำหรับ Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -96,7 +100,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # บันทึก PSD เป็น PNG และหมุนเลเยอร์ใน Java ด้วย Aspose.PSD
 
@@ -240,7 +244,7 @@ A: การหมุน 90° หรือ 270° จะสลับความ�
 **ทดสอบกับ:** Aspose.PSD for Java 24.11  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

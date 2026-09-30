@@ -9,9 +9,8 @@ url: /ja/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 weight: 24
 ---
 
- bullet lists.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,31 +10,18 @@ url: /de/java/optimizing-png-files/
 weight: 20
 ---
 
-Wie man PNG-Dateien mit Aspose.PSD für Java komprimiert". Keep heading level.
 
-Similarly subheadings.
 
-Translate paragraphs.
 
-Need to keep bold etc.
 
-Also bullet list.
 
-Make sure to keep links unchanged.
 
-Also keep blockquote >.
 
-Also keep code block fences (none). There's no code block.
 
-Let's produce translation.
 
-Be careful with "step‑by‑step" keep hyphen.
 
-Also "Pro tip:" keep same but translate "Pro Tipp:" maybe.
 
-Make sure to keep formatting.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

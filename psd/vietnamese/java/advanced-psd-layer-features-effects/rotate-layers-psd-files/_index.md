@@ -87,6 +87,10 @@ url: /vi/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Các hướng dẫn liên quan
 
 - [Lưu PSD dưới dạng PNG và Áp dụng Đổ bóng Kết xuất trong Aspose.PSD cho Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -96,7 +100,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # Lưu PSD dưới dạng PNG và xoay các lớp trong Java bằng Aspose.PSD
 
@@ -240,7 +244,7 @@ Bằng cách tận dụng Aspose.PSD cho Java, bạn có thể **lưu PSD dướ
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -9,11 +9,9 @@ url: /hi/java/modifying-converting-psd-images/create-indexed-psd-files/
 weight: 23
 ---
 
- headings (#, ##, ###). Keep code block placeholders unchanged.
 
-Also note there is a note: "For Hindi, ensure proper RTL formatting if needed" but Hindi is LTR, okay.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

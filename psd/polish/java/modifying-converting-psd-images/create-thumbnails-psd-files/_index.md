@@ -10,13 +10,10 @@ url: /pl/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 weight: 24
 ---
 
- all text content. So translate "Last Updated:" to "Ostatnia aktualizacja:", "Tested With:" to "Testowano z:", "Author:" to "Autor:". Keep dates and names.
 
-Now produce final content with same markdown.
 
-We must ensure we keep all shortcodes and code blocks placeholders unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,11 +10,9 @@ url: /nl/java/optimizing-png-files/apply-filters-png-files/
 weight: 10
 ---
 
- list.
 
-Also ensure code block placeholders remain exactly as they are.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

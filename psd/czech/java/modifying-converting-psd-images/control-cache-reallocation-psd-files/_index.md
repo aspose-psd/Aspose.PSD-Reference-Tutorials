@@ -10,15 +10,11 @@ url: /cs/java/modifying-converting-psd-images/control-cache-reallocation-psd-fil
 weight: 22
 ---
 
-ose" keep.
 
-Then closing shortcodes.
 
-Then backtop button shortcode.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

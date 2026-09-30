@@ -8,11 +8,9 @@ url: /zh/java/modifying-converting-psd-images/color-replacement-psd-files/
 weight: 21
 ---
 
- output with all translated content.
 
-Check for any missed items: The top shortcodes, then heading, etc. Ensure we keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

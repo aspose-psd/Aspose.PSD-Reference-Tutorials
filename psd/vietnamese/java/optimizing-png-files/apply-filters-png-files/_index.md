@@ -10,21 +10,14 @@ url: /vi/java/optimizing-png-files/apply-filters-png-files/
 weight: 10
 ---
 
- Aspose.PSD cho Java"
 
-Similarly other headings.
 
-We need to translate all text, but keep code block placeholders unchanged.
 
-Also translate table content.
 
-Let's produce final markdown.
 
-Be careful with bullet points.
 
-Let's translate.
 
-I'll produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

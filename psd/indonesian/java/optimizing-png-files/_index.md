@@ -10,13 +10,9 @@ url: /id/java/optimizing-png-files/
 weight: 20
 ---
 
- could translate to "Tip pro:". We'll translate.
 
-Also "Last Updated:" etc.
 
-Now produce final content.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

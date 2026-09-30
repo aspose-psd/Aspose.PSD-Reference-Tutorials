@@ -9,11 +9,9 @@ url: /ar/java/optimizing-png-files/apply-filters-png-files/
 weight: 10
 ---
 
- >}}
 
-Make sure no extra spaces.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

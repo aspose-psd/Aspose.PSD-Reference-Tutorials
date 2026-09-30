@@ -10,19 +10,12 @@ url: /ru/java/optimizing-png-files/
 weight: 20
 ---
 
-2026-03-15" keep as is? The label "Last Updated:" translate: "**Последнее обновление:** 2026-03-15". Keep bold.
 
-**Tested With:** Aspose.PSD 2026.1 for Java => "**Тестировано с:** Aspose.PSD 2026.1 for Java"
 
-**Author:** Aspose => "**Автор:** Aspose"
 
-Then closing shortcodes.
 
-Finally backtop button shortcode.
 
-Now ensure we keep all markdown formatting.
 
-Let's construct final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

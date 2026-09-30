@@ -9,11 +9,8 @@ url: /hi/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 weight: 24
 ---
 
- bold **.
 
-Ok.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

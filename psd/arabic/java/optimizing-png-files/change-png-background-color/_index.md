@@ -9,9 +9,7 @@ url: /ar/java/optimizing-png-files/change-png-background-color/
 weight: 11
 ---
 
- as is.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

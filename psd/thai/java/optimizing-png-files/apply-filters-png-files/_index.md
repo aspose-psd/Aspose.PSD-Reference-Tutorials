@@ -9,13 +9,9 @@ url: /th/java/optimizing-png-files/apply-filters-png-files/
 weight: 10
 ---
 
-Now produce final content.
 
-Let's craft translation.
 
-We'll keep code block placeholders as they are.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -10,11 +10,9 @@ url: /hu/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 weight: 24
 ---
 
- we kept all shortcodes, code block placeholders, links unchanged.
 
-Make sure markdown formatting preserved.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

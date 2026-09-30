@@ -10,13 +10,10 @@ url: /it/java/java-psb-to-image-format-conversion/convert-psb-to-pdf-java/
 weight: 11
 ---
 
- shortcodes.
 
-Finally backtop button shortcode.
 
-Make sure to keep all markdown formatting.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

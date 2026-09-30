@@ -84,6 +84,10 @@ url: /zh-hant/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## 相關教學
 
 - [Save PSD as PNG and Apply Rendering Drop Shadow in Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -93,7 +97,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # 在 Java 中使用 Aspose.PSD 將 PSD 另存為 PNG 並旋轉圖層
 
@@ -237,7 +241,7 @@ A: 旋轉 90° 或 270° 會交換寬高，PNG 會自動反映新的方向。
 **測試環境：** Aspose.PSD for Java 24.11  
 **作者：** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

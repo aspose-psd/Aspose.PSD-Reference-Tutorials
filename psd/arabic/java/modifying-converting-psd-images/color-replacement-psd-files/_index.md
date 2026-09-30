@@ -9,11 +9,8 @@ url: /ar/java/modifying-converting-psd-images/color-replacement-psd-files/
 weight: 21
 ---
 
- blocks/products/products-backtop-button >}}
 
-All good.
 
-Now produce final content with Arabic translations, preserving markdown and placeholders.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -88,6 +88,10 @@ url: /es/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Tutoriales relacionados
 
 - [Guardar PSD como PNG y aplicar sombra paralela de renderizado en Aspose.PSD para Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -97,7 +101,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # guardar psd como png y rotar capas en Java usando Aspose.PSD
 
@@ -239,7 +243,7 @@ By leveraging Aspose.PSD for Java, you can **save PSD as PNG**, **preserve PNG t
 **Probado con:** Aspose.PSD for Java 24.11  
 **Autor:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -9,9 +9,7 @@ url: /th/java/modifying-converting-psd-images/add-hue-saturation-adjustment-laye
 weight: 14
 ---
 
-, preserve code block placeholders as separate lines.
 
-Let's write translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -8,21 +8,13 @@ url: /ja/java/modifying-converting-psd-images/control-cache-reallocation-psd-fil
 weight: 22
 ---
 
-. We'll translate.
 
-...
 
-Continue.
 
-We need to translate all bullet points and sentences.
 
-Also note that there are placeholders like **??** but we will translate the original English.
 
-Let's rewrite translation.
 
-Make sure to keep markdown formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

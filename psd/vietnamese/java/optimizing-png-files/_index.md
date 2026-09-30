@@ -10,11 +10,9 @@ url: /vi/java/optimizing-png-files/
 weight: 20
 ---
 
-Check for any bold: we kept.
 
-Check for any list items: we translated.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

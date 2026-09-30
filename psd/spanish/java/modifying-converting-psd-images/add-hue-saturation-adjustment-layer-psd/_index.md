@@ -10,11 +10,9 @@ url: /es/java/modifying-converting-psd-images/add-hue-saturation-adjustment-laye
 weight: 14
 ---
 
- placeholders, shortcodes.
 
-Check headings: keep same number of #.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

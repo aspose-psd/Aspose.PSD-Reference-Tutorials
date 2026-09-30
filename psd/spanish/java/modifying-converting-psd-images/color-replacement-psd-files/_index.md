@@ -10,11 +10,8 @@ url: /es/java/modifying-converting-psd-images/color-replacement-psd-files/
 weight: 21
 ---
 
- after.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

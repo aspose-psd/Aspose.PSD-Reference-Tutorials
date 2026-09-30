@@ -10,9 +10,8 @@ url: /pt/java/optimizing-png-files/
 weight: 20
 ---
 
- shortcodes at top and bottom.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

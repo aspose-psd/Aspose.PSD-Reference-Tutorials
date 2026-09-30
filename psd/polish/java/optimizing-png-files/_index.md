@@ -10,17 +10,11 @@ url: /pl/java/optimizing-png-files/
 weight: 20
 ---
 
- >}}" keep.
 
-Now ensure we didn't miss any markdown formatting.
 
-Check code blocks: none.
 
-Check images: none.
 
-Check shortcodes: we kept them.
 
-Now produce final content with translated text.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

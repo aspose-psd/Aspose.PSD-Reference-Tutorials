@@ -8,9 +8,8 @@ url: /zh/java/optimizing-png-files/
 weight: 20
 ---
 
-codes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

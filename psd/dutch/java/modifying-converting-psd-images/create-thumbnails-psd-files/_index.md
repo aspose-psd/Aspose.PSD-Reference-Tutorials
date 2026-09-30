@@ -9,11 +9,9 @@ url: /nl/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 weight: 24
 ---
 
- and URLs unchanged.
 
-Now produce final content with same markdown.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

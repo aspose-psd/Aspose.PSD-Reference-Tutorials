@@ -10,15 +10,10 @@ url: /tr/java/optimizing-png-files/
 weight: 20
 ---
 
-Make sure to preserve markdown formatting exactly.
 
-Let's craft translation.
 
-Be careful with bold formatting: **...**.
 
-Also ensure list items maintain bullet dash and spaces.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

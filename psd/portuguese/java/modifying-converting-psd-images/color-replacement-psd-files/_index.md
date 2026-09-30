@@ -10,7 +10,7 @@ url: /pt/java/modifying-converting-psd-images/color-replacement-psd-files/
 weight: 21
 ---
 
- final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

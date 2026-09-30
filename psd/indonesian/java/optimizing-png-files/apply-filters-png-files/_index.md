@@ -10,19 +10,12 @@ url: /id/java/optimizing-png-files/apply-filters-png-files/
 weight: 10
 ---
 
- Fix. Should translate those headings? The instruction says translate all text content. Table headers are text, so translate them. Keep the pipe separators.
 
-Also bullet lists.
 
-Let's produce final translation.
 
-Be careful: The "Quick Answers" bullet list includes question sentences; translate them but keep code formatting like **...**. Keep bold.
 
-Also keep URLs unchanged.
 
-Also keep "## Introduction" etc.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

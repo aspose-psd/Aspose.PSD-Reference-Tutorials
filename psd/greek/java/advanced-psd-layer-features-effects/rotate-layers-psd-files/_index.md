@@ -88,6 +88,10 @@ url: /el/java/advanced-psd-layer-features-effects/rotate-layers-psd-files/
 weight: 21
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Σχετικά Μαθήματα
 
 - [Αποθήκευση PSD ως PNG και Εφαρμογή Σκιάς Rendering Drop Shadow στο Aspose.PSD για Java](/psd/java/advanced-image-manipulation/rendering-drop-shadow/)
@@ -97,7 +101,7 @@ weight: 21
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
 
 # αποθήκευση psd ως png και περιστροφή επιπέδων σε Java χρησιμοποιώντας το Aspose.PSD
 
@@ -241,7 +245,7 @@ im.save(psdPath);
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/products-backtop-button >}}

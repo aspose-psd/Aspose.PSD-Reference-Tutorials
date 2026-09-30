@@ -10,13 +10,10 @@ url: /fr/java/modifying-converting-psd-images/control-cache-reallocation-psd-fil
 weight: 22
 ---
 
- -> "Étape 1 : Configuration du répertoire de données". Keep "Step 1:" maybe "Étape 1 :".
 
-Make sure to preserve colon and formatting.
 
-Translate bullet points accordingly.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

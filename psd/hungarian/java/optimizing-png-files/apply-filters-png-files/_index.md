@@ -10,13 +10,10 @@ url: /hu/java/optimizing-png-files/apply-filters-png-files/
 weight: 10
 ---
 
-< blocks/... >}} lines unchanged.
 
-Now produce final content.
 
-Check for any missed bold formatting: keep **.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

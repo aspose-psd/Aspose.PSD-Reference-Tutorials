@@ -10,25 +10,16 @@ url: /es/java/optimizing-png-files/apply-filters-png-files/
 weight: 10
 ---
 
- headers: "Symptom" => "Síntoma", "Likely Cause" => "Causa probable", "Fix" => "Solución".
 
-Translate rows.
 
-Translate "Frequently Asked Questions" => "Preguntas frecuentes".
 
-Translate each Q/A.
 
-Make sure to keep URLs unchanged.
 
-Translate "Conclusion" => "Conclusión".
 
-Translate final paragraph.
 
-Translate "Last Updated:" etc.
 
-Now produce final content with same shortcodes and placeholders.
 
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

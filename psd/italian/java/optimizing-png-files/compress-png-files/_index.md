@@ -10,11 +10,9 @@ url: /it/java/optimizing-png-files/compress-png-files/
 weight: 12
 ---
 
- with bold formatting: keep **.
 
-Also keep code placeholders.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

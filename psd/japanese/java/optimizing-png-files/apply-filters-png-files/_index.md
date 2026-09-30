@@ -9,11 +9,9 @@ url: /ja/java/optimizing-png-files/apply-filters-png-files/
 weight: 10
 ---
 
- kept technical terms. In code block placeholders, fine.
 
-Make sure to preserve markdown formatting.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

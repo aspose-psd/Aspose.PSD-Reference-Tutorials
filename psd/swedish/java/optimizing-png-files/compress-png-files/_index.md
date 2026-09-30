@@ -9,11 +9,8 @@ url: /sv/java/optimizing-png-files/compress-png-files/
 weight: 12
 ---
 
- sure to keep code block placeholders unchanged.
 
-Also translate the table rows.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

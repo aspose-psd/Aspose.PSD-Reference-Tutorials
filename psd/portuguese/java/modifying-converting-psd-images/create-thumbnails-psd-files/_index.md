@@ -9,15 +9,11 @@ url: /pt/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 weight: 24
 ---
 
- 24.11 for Java (latest at time of writing) -> "**Testado com:** Aspose.PSD 24.11 for Java (mais recente no momento da escrita)"
 
-**Author:** Aspose -> "**Autor:** Aspose"
 
-Now produce final content with all translations.
 
-Be careful to preserve markdown formatting, code block placeholders remain.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

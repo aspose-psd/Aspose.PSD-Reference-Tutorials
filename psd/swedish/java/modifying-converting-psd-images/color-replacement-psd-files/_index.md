@@ -9,11 +9,9 @@ url: /sv/java/modifying-converting-psd-images/color-replacement-psd-files/
 weight: 21
 ---
 
-‑step", "code", "example", etc. Should be okay.
 
-Make sure to keep markdown formatting.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

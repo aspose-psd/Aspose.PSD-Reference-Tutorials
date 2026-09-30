@@ -9,17 +9,11 @@ url: /ko/java/optimizing-png-files/compress-png-files/
 weight: 12
 ---
 
-/A.
 
-Last Updated, Tested With, Author.
 
-Now produce final markdown with all translations.
 
-Be careful not to translate URLs, code placeholders, variable names.
 
-Also keep **bold** formatting.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

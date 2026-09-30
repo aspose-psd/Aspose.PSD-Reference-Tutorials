@@ -10,7 +10,7 @@ url: /hu/java/java-psb-to-image-format-conversion/convert-psb-to-pdf-java/
 weight: 11
 ---
 
- final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,9 +9,8 @@ url: /sv/java/modifying-converting-psd-images/control-cache-reallocation-psd-fil
 weight: 22
 ---
 
- remain as is.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

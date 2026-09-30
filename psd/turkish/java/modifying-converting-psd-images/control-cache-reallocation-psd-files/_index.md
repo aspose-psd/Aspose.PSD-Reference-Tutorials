@@ -10,11 +10,8 @@ url: /tr/java/modifying-converting-psd-images/control-cache-reallocation-psd-fil
 weight: 22
 ---
 
- Turkish translation is natural.
 
-Let's craft translations.
 
-I'll write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

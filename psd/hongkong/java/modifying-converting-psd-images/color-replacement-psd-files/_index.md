@@ -8,7 +8,6 @@ url: /zh-hant/java/modifying-converting-psd-images/color-replacement-psd-files/
 weight: 21
 ---
 
- content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

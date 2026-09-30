@@ -9,7 +9,6 @@ url: /vi/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 weight: 24
 ---
 
- translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

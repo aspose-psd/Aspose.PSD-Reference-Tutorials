@@ -10,26 +10,14 @@ url: /fr/java/modifying-converting-psd-images/add-hue-saturation-adjustment-laye
 weight: 14
 ---
 
- Solutions
-Translate bullet points.
 
-## Frequently Asked Questions
-Translate Q&A.
 
-## Conclusion
-Translate.
 
-Then closing shortcodes.
 
-Then backtop button shortcode.
 
-Then the horizontal rule and metadata lines: translate "Last Updated", "Tested With", "Author". Keep dates same.
 
-Ok produce final.
 
-Be careful to preserve markdown formatting.
 
-Let's craft French translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

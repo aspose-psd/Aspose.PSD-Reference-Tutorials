@@ -11,9 +11,7 @@ url: /fr/java/optimizing-png-files/
 weight: 20
 ---
 
- preserve #.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

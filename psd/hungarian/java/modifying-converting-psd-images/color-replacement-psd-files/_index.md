@@ -10,11 +10,8 @@ url: /hu/java/modifying-converting-psd-images/color-replacement-psd-files/
 weight: 21
 ---
 
- unchanged.
 
-Also keep links unchanged.
 
-Let's produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

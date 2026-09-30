@@ -9,7 +9,6 @@ url: /ar/java/optimizing-png-files/compress-png-files/
 weight: 12
 ---
 
- final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

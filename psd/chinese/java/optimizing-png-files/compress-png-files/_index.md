@@ -9,27 +9,17 @@ url: /zh/java/optimizing-png-files/compress-png-files/
 weight: 12
 ---
 
- content.
 
-Let's translate.
 
-Start with shortcodes at top unchanged.
 
-Then heading "# How to compress PNG files using Aspose.PSD for Java" -> "# 使用 Aspose.PSD for Java 压缩 PNG 文件的方法"
 
-Similarly other headings.
 
-Translate paragraphs.
 
-Be careful with bullet lists.
 
-Translate "Quick Answers" section.
 
-Translate table.
 
-Also need to keep URLs unchanged.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

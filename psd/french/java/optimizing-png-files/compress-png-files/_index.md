@@ -10,9 +10,7 @@ url: /fr/java/optimizing-png-files/compress-png-files/
 weight: 12
 ---
 
- keep code block placeholders unchanged. Keep markdown formatting.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

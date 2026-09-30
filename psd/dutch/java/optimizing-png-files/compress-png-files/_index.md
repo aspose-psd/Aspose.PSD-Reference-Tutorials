@@ -10,17 +10,12 @@ url: /nl/java/optimizing-png-files/compress-png-files/
 weight: 12
 ---
 
-? Should translate: "**Last Updated:** 2026-03-15" -> "**Laatste update:** 2026-03-15"
 
-**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing) -> translate label: "**Getest met:** Aspose.PSD for Java 24.12 (latest op moment van schrijven)"
 
-**Author:** Aspose -> "**Auteur:** Aspose"
 
-Then closing shortcodes.
 
-Also note "Provide ONLY the translated content, no explanations."
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

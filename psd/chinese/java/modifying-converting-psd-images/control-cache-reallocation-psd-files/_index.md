@@ -8,11 +8,9 @@ url: /zh/java/modifying-converting-psd-images/control-cache-reallocation-psd-fil
 weight: 22
 ---
 
- as is.
 
-Also ensure markdown formatting preserved.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,13 +10,9 @@ url: /pt/java/optimizing-png-files/compress-png-files/
 weight: 12
 ---
 
- to keep bold formatting.
 
-Translate table headings.
 
-Translate FAQ.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

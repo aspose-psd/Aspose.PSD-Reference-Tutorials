@@ -9,13 +9,9 @@ url: /sv/java/modifying-converting-psd-images/create-thumbnails-psd-files/
 weight: 24
 ---
 
- Aspose  
 
-Now translate Swedish.
 
-Need to keep code block placeholders unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
