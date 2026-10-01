@@ -140,14 +140,13 @@ A: 官方的 Aspose.PSD 文档和 API 参考中包含高级形状绘制示例。
 **测试环境：** Aspose.PSD for Java 24.11  
 **作者：** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## 相关教程
 
 - [如何在 Java 中绘制形状 – 基本图像操作](/psd/java/basic-image-operations/)
 - [在 Aspose.PSD for Java 中设置图层不透明度并支持混合模式](/psd/java/basic-image-operations/support-blend-modes/)
 - [使用 Aspose.PSD 验证 Java 图像透明度](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

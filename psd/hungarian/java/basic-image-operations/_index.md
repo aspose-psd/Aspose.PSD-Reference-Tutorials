@@ -136,14 +136,13 @@ A: Az hivatalos Aspose.PSD dokumentáció és API referencia tartalmaz fejlett a
 **Tesztelve ezzel:** Aspose.PSD for Java 24.11  
 **Szerző:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Kapcsolódó tutorialok
 
 - [Alakzatok rajzolása Java – Alapvető képműveletek](/psd/java/basic-image-operations/)
 - [Réteg átlátszatlanság beállítása és keverési módok támogatása az Aspose.PSD for Java-ban](/psd/java/basic-image-operations/support-blend-modes/)
 - [Kép átlátszóságának ellenőrzése Java-val az Aspose.PSD segítségével](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

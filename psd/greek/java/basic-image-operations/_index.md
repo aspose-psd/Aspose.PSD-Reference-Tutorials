@@ -142,14 +142,13 @@ weight: 25
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Σχετικά Μαθήματα
 
 - [Πώς να Σχεδιάσετε Σχήματα Java – Βασικές Λειτουργίες Εικόνας](/psd/java/basic-image-operations/)
 - [Ορισμός Αδιαφάνειας Επιπέδου και Υποστήριξη Λειτουργιών Ανάμειξης στο Aspose.PSD for Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Επαλήθευση Διαφάνειας Εικόνας Java με Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

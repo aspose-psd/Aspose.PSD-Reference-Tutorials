@@ -58,9 +58,12 @@ url: /it/java/advanced-techniques/grayscale-image/
 weight: 10
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
 
 # Come convertire un'immagine in scala di grigi usando Aspose.PSD per Java
 
@@ -186,13 +189,20 @@ Ora disponi di un flusso di lavoro completo e pronto per la produzione su **come
 - [Libreria di elaborazione immagini Java: Inverti livello usando Aspose.PSD](/psd/java/advanced-image-manipulation/invert-adjustment-layer/)
 
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
+
+
+
 
 ```java
 rasterCachedImage.save(destName, new JpegOptions());
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -134,14 +134,13 @@ A: आधिकारिक Aspose.PSD दस्तावेज़ और API �
 **परीक्षित संस्करण:** Aspose.PSD for Java 24.11  
 **लेखक:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## संबंधित ट्यूटोरियल
 
 - [Java में आकार ड्रॉ कैसे करें – बुनियादी इमेज ऑपरेशन्स](/psd/java/basic-image-operations/)
 - [Aspose.PSD for Java में लेयर अपारदर्शिता सेट करें और ब्लेंड मोड समर्थन](/psd/java/basic-image-operations/support-blend-modes/)
 - [Aspose.PSD के साथ Java में इमेज ट्रांसपेरेंसी सत्यापित करें](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

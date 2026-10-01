@@ -132,15 +132,7 @@ A: You can apply for a temporary license on the [temporary license request page]
 
 **Last Updated:** 2026-03-07  
 **Tested With:** Aspose.PSD latest version (Java)  
-**Author:** Aspose  
-
-
-
-
-
-
-
-{{< /blocks/products/products-backtop-button >}}
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

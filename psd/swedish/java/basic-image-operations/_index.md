@@ -136,14 +136,13 @@ A: Den officiella Aspose.PSD‑dokumentationen och API‑referensen innehåller 
 **Testad med:** Aspose.PSD for Java 24.11  
 **Författare:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Relaterade handledningar
 
 - [Hur man ritar former Java – Grundläggande bildoperationer](/psd/java/basic-image-operations/)
 - [Ställ in lageropacitet och stöd för blandningslägen i Aspose.PSD for Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Verifiera bildtransparens Java med Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
