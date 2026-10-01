@@ -141,14 +141,13 @@ A: Die offizielle Aspose.PSD‑Dokumentation und API‑Referenz enthalten fortge
 **Getestet mit:** Aspose.PSD for Java 24.11  
 **Autor:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Verwandte Tutorials
 
 - [Wie man Formen in Java zeichnet – Grundlegende Bildoperationen](/psd/java/basic-image-operations/)
 - [Setze Ebenen‑Deckkraft und unterstütze Mischmodi in Aspose.PSD für Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Bildtransparenz in Java mit Aspose.PSD überprüfen](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

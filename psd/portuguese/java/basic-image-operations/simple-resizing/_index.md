@@ -60,9 +60,12 @@ url: /pt/java/basic-image-operations/simple-resizing/
 weight: 11
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
 
 # Redimensionamento Simples com Aspose.PSD – Biblioteca Java de Manipulação de Imagens
 
@@ -205,10 +208,9 @@ Neste tutorial demonstramos como uma **biblioteca java de manipulação de image
 - [Escalonamento de Imagem de Alta Qualidade com Bicubic Resampler no Aspose.PSD for Java](/psd/java/advanced-image-manipulation/implement-bicubic-resampler/)
 - [Como Converter PSD para PNG e Redimensionar Proporcionalmente com Aspose.PSD for Java](/psd/java/advanced-image-manipulation/resize-image-proportionally/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}

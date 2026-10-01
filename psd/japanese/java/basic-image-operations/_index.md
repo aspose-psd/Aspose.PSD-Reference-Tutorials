@@ -135,14 +135,13 @@ A: 公式の Aspose.PSD ドキュメントと API リファレンスに高度な
 **テスト環境:** Aspose.PSD for Java 24.11  
 **作者:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## 関連チュートリアル
 
 - [Java でシェイプを描く方法 – 基本画像操作](/psd/java/basic-image-operations/)
 - [Aspose.PSD for Java でレイヤーの不透明度設定とブレンドモードのサポート](/psd/java/basic-image-operations/support-blend-modes/)
 - [Aspose.PSD を使用した Java の画像透明性の検証](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -142,14 +142,13 @@ A: Oficiální dokumentace Aspose.PSD a reference API obsahují pokročilé uká
 **Testováno s:** Aspose.PSD for Java 24.11  
 **Autor:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Související tutoriály
 
 - [Jak kreslit tvary v Java – Základní operace s obrázky](/psd/java/basic-image-operations/)
 - [Nastavení neprůhlednosti vrstvy a podpora režimů prolnutí v Aspose.PSD for Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Ověření průhlednosti obrázku v Java s Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

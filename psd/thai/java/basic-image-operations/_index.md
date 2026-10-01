@@ -133,13 +133,12 @@ A: เอกสารอย่างเป็นทางการของ Aspo
 **ทดสอบด้วย:** Aspose.PSD for Java 24.11  
 **ผู้เขียน:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## บทแนะนำที่เกี่ยวข้อง
 - [วิธีการวาดรูปทรง Java – การดำเนินการภาพพื้นฐาน](/psd/java/basic-image-operations/)
 - [ตั้งค่าความทึบของเลเยอร์และรองรับโหมดผสมใน Aspose.PSD for Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [ตรวจสอบความโปร่งใสของภาพ Java ด้วย Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

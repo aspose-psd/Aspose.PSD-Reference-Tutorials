@@ -136,14 +136,13 @@ A: Oficjalna dokumentacja Aspose.PSD oraz odniesienie API zawierają zaawansowan
 **Testowane z:** Aspose.PSD for Java 24.11  
 **Autor:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Powiązane tutoriale
 
 - [Jak rysować kształty Java – podstawowe operacje na obrazie](/psd/java/basic-image-operations/)
 - [Ustaw przezroczystość warstwy i obsługa trybów mieszania w Aspose.PSD for Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Weryfikacja przezroczystości obrazu Java z Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

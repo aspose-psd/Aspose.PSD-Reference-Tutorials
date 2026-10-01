@@ -136,14 +136,13 @@ A: Resmi Aspose.PSD dokümantasyonu ve API referansı, gelişmiş şekil‑çizi
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## İlgili Öğreticiler
 
 - [Java ile Şekil Çizme – Temel Görüntü İşlemleri](/psd/java/basic-image-operations/)
 - [Aspose.PSD for Java’da Katman Opaklığını Ayarlama ve Karışım Modlarını Destekleme](/psd/java/basic-image-operations/support-blend-modes/)
 - [Aspose.PSD ile Java’da Görüntü Şeffaflığını Doğrulama](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

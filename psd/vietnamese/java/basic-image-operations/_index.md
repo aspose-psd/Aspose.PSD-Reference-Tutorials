@@ -137,14 +137,13 @@ A: Tài liệu chính thức của Aspose.PSD và tham chiếu API bao gồm cá
 **Kiểm tra với:** Aspose.PSD for Java 24.11  
 **Tác giả:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Hướng Dẫn Liên Quan
 
 - [Cách Vẽ Hình Java – Các Thao Tác Hình Ảnh Cơ Bản](/psd/java/basic-image-operations/)
 - [Đặt Độ Trong Suất Lớp và Hỗ Trợ Chế Độ Hòa Trộn trong Aspose.PSD cho Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Xác Minh Độ Trong Suốt Ảnh Java với Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

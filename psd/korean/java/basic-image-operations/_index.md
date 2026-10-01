@@ -140,14 +140,13 @@ A: The official Aspose.PSD documentation and API reference include advanced shap
 **Tested With:** Aspose.PSD for Java 24.11  
 **Author:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## 관련 튜토리얼
 
 - [How to Draw Shapes Java – Basic Image Operations](/psd/java/basic-image-operations/)
 - [Set Layer Opacity and Support Blend Modes in Aspose.PSD for Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Verify Image Transparency Java with Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

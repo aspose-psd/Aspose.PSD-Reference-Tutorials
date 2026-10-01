@@ -137,14 +137,13 @@ R : La documentation officielle d'Aspose.PSD et la référence API incluent de
 **Testé avec** : Aspose.PSD for Java 24.11  
 **Auteur** : Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Tutoriels associés
 
 - [Comment dessiner des formes Java – Opérations d'image de base](/psd/java/basic-image-operations/)
 - [Définir l'opacité du calque et prendre en charge les modes de fusion dans Aspose.PSD for Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Vérifier la transparence d'image Java avec Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

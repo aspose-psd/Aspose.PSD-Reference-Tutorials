@@ -141,14 +141,13 @@ A: Dokumentasi resmi Aspose.PSD dan referensi API mencakup contoh menggambar ben
 **Diuji Dengan:** Aspose.PSD for Java 24.11  
 **Penulis:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Tutorial Terkait
 
 - [Cara Menggambar Bentuk Java – Operasi Gambar Dasar](/psd/java/basic-image-operations/)
 - [Atur Opasitas Lapisan dan Dukung Mode Campuran di Aspose.PSD untuk Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Verifikasi Transparansi Gambar Java dengan Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

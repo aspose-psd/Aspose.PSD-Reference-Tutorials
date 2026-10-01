@@ -136,14 +136,13 @@ A: La documentazione ufficiale di Aspose.PSD e il riferimento API includono esem
 **Testato Con:** Aspose.PSD for Java 24.11  
 **Autore:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## Tutorial Correlati
 
 - [Come Disegnare Forme Java – Operazioni di Base sull'Immagine](/psd/java/basic-image-operations/)
 - [Imposta Opacità del Livello e Supporta Modalità di Fusione in Aspose.PSD per Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [Verifica Trasparenza Immagine Java con Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

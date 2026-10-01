@@ -141,14 +141,13 @@ Aspose.PSD يدعم **أكثر من 50 تنسيق إدخال وإخراج** (ب�
 **تم الاختبار مع:** Aspose.PSD for Java 24.11  
 **المؤلف:** Aspose
 
-{{< /blocks/products/products-backtop-button >}}
+
 
 ## دروس ذات صلة
 
 - [كيفية رسم الأشكال Java – عمليات الصورة الأساسية](/psd/java/basic-image-operations/)
 - [ضبط شفافية الطبقة ودعم أوضاع المزج في Aspose.PSD for Java](/psd/java/basic-image-operations/support-blend-modes/)
 - [التحقق من شفافية الصورة Java باستخدام Aspose.PSD](/psd/java/basic-image-operations/verify-image-transparency/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
