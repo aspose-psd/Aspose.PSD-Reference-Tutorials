@@ -212,9 +212,9 @@ A: Yes! Download a free trial from the [Aspose website](https://releases.aspose.
 
 ## Related Tutorials
 
-- [How to Edit PSD Text Layers with Aspose.PSD for Java]({{< relref "/psd/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/" >}})
-- [Add Text Layer on Runtime in PSD Files using Java]({{< relref "/psd/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/" >}})
-- [Render Rotated Text Layer in PSD Files using Java]({{< relref "/psd/java/psd-layer-management-effects/render-rotated-text-layer-psd/" >}})
+- [How to Edit PSD Text Layers with Aspose.PSD for Java]({{< relref "/java/advanced-psd-layer-features-effects/update-text-layer-psd-files/" >}})
+- [Add Text Layer on Runtime in PSD Files using Java]({{< relref "/java/modifying-converting-psd-images/add-text-layer-runtime-psd-files/" >}})
+- [Render Rotated Text Layer in PSD Files using Java]({{< relref "/java/psd-layer-management-effects/render-rotated-text-layer-psd/" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

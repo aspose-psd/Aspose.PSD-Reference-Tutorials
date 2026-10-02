@@ -95,28 +95,28 @@ Aspose.PSD supports **50+ input and output formats** (including PSD, PNG, JPEG, 
 
 ## Unleashing creativity: simple drawing
 
-Discover the art of drawing shapes in PSD files using [Aspose.PSD for Java]({{< relref "simple-drawing/_index.md" >}}). This tutorial takes you on a step‑by‑step journey, teaching you the essentials of creating and adding layers. With insightful code examples, you'll grasp the nuances of drawing that bring your designs to life. Unleash your creativity and master the canvas with Aspose.PSD.  
-[Perform Simple Drawing with Aspose.PSD for Java]({{< relref "simple-drawing/_index.md" >}})
+Discover the art of drawing shapes in PSD files using [Aspose.PSD for Java]({{< relref "/java/basic-image-operations/simple-drawing/" >}}). This tutorial takes you on a step‑by‑step journey, teaching you the essentials of creating and adding layers. With insightful code examples, you'll grasp the nuances of drawing that bring your designs to life. Unleash your creativity and master the canvas with Aspose.PSD.  
+[Perform Simple Drawing with Aspose.PSD for Java]({{< relref "/java/basic-image-operations/simple-drawing/" >}})
 
 ## Resizing made simple
 
-Efficiently manipulate image sizes programmatically with [Aspose.PSD for Java]({{< relref "simple-resizing/_index.md" >}}). Our user‑friendly guide simplifies the resizing process, ensuring you grasp every detail. From basics to advanced techniques, this tutorial covers it all. Dive in and transform your images seamlessly with Aspose.PSD.  
-[Perform Simple Resizing with Aspose.PSD for Java]({{< relref "simple-resizing/_index.md" >}})
+Efficiently manipulate image sizes programmatically with [Aspose.PSD for Java]({{< relref "/java/basic-image-operations/simple-resizing/" >}}). Our user‑friendly guide simplifies the resizing process, ensuring you grasp every detail. From basics to advanced techniques, this tutorial covers it all. Dive in and transform your images seamlessly with Aspose.PSD.  
+[Perform Simple Resizing with Aspose.PSD for Java]({{< relref "/java/basic-image-operations/simple-resizing/" >}})
 
 ## Amplifying effects: support blend modes
 
-Take image processing to the next level in Java by harnessing the power of blend modes with [Aspose.PSD for Java]({{< relref "support-blend-modes/_index.md" >}}). This tutorial empowers you to create stunning effects that captivate your audience. Unlock the secrets of blend modes and amplify your graphic design endeavors with Aspose.PSD for Java.  
-[Support Blend Modes in Aspose.PSD for Java]({{< relref "support-blend-modes/_index.md" >}})
+Take image processing to the next level in Java by harnessing the power of blend modes with [Aspose.PSD for Java]({{< relref "/java/basic-image-operations/support-blend-modes/" >}}). This tutorial empowers you to create stunning effects that captivate your audience. Unlock the secrets of blend modes and amplify your graphic design endeavors with Aspose.PSD for Java.  
+[Support Blend Modes in Aspose.PSD for Java]({{< relref "/java/basic-image-operations/support-blend-modes/" >}})
 
 ## Crafting shadows: support shadow effect
 
-Elevate your graphic design game with captivating shadow effects. This step‑by‑step tutorial unveils the magic of adding shadows to images using [Aspose.PSD for Java]({{< relref "support-shadow-effect/_index.md" >}}). Dive into the world of shadow effects and transform your designs into visually compelling masterpieces.  
-[Support Shadow Effect in Aspose.PSD for Java]({{< relref "support-shadow-effect/_index.md" >}})
+Elevate your graphic design game with captivating shadow effects. This step‑by‑step tutorial unveils the magic of adding shadows to images using [Aspose.PSD for Java]({{< relref "/java/basic-image-operations/support-shadow-effect/" >}}). Dive into the world of shadow effects and transform your designs into visually compelling masterpieces.  
+[Support Shadow Effect in Aspose.PSD for Java]({{< relref "/java/basic-image-operations/support-shadow-effect/" >}})
 
 ## Transparency unveiled: verify image transparency
 
-Explore the realm of image transparency verification with [Aspose.PSD for Java]({{< relref "verify-image-transparency/_index.md" >}}). This tutorial seamlessly integrates transparency into your designs, with detailed documentation and excellent community support. Elevate your design projects with the assurance of verified image transparency using Aspose.PSD for Java.  
-[Verify Image Transparency with Aspose.PSD for Java]({{< relref "verify-image-transparency/_index.md" >}})
+Explore the realm of image transparency verification with [Aspose.PSD for Java]({{< relref "/java/basic-image-operations/verify-image-transparency/" >}}). This tutorial seamlessly integrates transparency into your designs, with detailed documentation and excellent community support. Elevate your design projects with the assurance of verified image transparency using Aspose.PSD for Java.  
+[Verify Image Transparency with Aspose.PSD for Java]({{< relref "/java/basic-image-operations/verify-image-transparency/" >}})
 
 ## Common issues and solutions
 - **Memory spikes when resizing large PSDs** – enable `PsdImage.loadOptions().setLoadAllLayers(false)` to work with a streaming approach.  

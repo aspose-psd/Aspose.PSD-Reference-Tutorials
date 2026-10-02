@@ -150,9 +150,9 @@ Congratulations! You’ve successfully learned **how to adjust gamma** in a **ja
 
 ## Related Tutorials
 
-- [Java Image Processing Tutorial – Adjust Brightness of an Image with Aspose.PSD for Java]({{< relref "/psd/java/advanced-techniques/adjust-brightness/" >}})
-- [How to Convert PSD to TIFF and Adjust Contrast with Aspose.PSD for Java]({{< relref "/psd/java/advanced-techniques/adjust-contrast/" >}})
-- [Convert PSD to Image in Java – Apply Adjustment Layers with Aspose.PSD]({{< relref "/psd/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/" >}})
+- [Java Image Processing Tutorial – Adjust Brightness of an Image with Aspose.PSD for Java]({{< relref "/java/advanced-techniques/adjust-brightness/" >}})
+- [How to Convert PSD to TIFF and Adjust Contrast with Aspose.PSD for Java]({{< relref "/java/advanced-techniques/adjust-contrast/" >}})
+- [Convert PSD to Image in Java – Apply Adjustment Layers with Aspose.PSD]({{< relref "/java/advanced-psd-layer-features-effects/apply-adjustment-layers-psd-files/" >}})
 
 ```java
 import com.aspose.psd.Image;

@@ -198,9 +198,9 @@ In this tutorial we demonstrated how a **java image manipulation library** like 
 
 ## Related Tutorials
 
-- [Resize Image Java - Using Resize Type Enumeration in Aspose.PSD for Java]({{< relref "/psd/java/advanced-image-manipulation/resizing-with-resize-type-enumeration.md" >}})
-- [High Quality Image Scaling with Bicubic Resampler in Aspose.PSD for Java]({{< relref "/psd/java/advanced-image-manipulation/implement-bicubic-resampler.md" >}})
-- [How to Convert PSD to PNG and Resize Proportionally with Aspose.PSD for Java]({{< relref "/psd/java/advanced-image-manipulation/resize-image-proportionally.md" >}})
+- [Resize Image Java - Using Resize Type Enumeration in Aspose.PSD for Java]({{< relref "/java/advanced-image-manipulation/resizing-with-resize-type-enumeration/" >}})
+- [High Quality Image Scaling with Bicubic Resampler in Aspose.PSD for Java]({{< relref "/java/advanced-image-manipulation/implement-bicubic-resampler/" >}})
+- [How to Convert PSD to PNG and Resize Proportionally with Aspose.PSD for Java]({{< relref "/java/advanced-image-manipulation/resize-image-proportionally/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

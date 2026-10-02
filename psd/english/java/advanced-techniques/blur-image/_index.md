@@ -204,9 +204,9 @@ Aspose.PSD for Java makes **blur image java** tasks effortless. Whether you need
 
 ## Related Tutorials
 
-- [Convert PSD to GIF - Apply Gaussian and Wiener Filters for Color Images with Aspose.PSD for Java]({{< relref "/psd/java/image-processing/apply-gaussian-wiener-filters-color-image/" >}})
-- [Step by Step Filter - Apply Motion Wiener Filters using Aspose.PSD for Java]({{< relref "/psd/java/image-processing/apply-motion-wiener-filters/" >}})
-- [How to Apply Gradient Effects in Aspose.PSD for Java]({{< relref "/psd/java/advanced-image-effects/add-gradient-effects/" >}})
+- [Convert PSD to GIF - Apply Gaussian and Wiener Filters for Color Images with Aspose.PSD for Java]({{< relref "/java/image-processing/apply-gaussian-wiener-filters-color-image/" >}})
+- [Step by Step Filter - Apply Motion Wiener Filters using Aspose.PSD for Java]({{< relref "/java/image-processing/apply-motion-wiener-filters/" >}})
+- [How to Apply Gradient Effects in Aspose.PSD for Java]({{< relref "/java/advanced-image-effects/add-gradient-effects/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
