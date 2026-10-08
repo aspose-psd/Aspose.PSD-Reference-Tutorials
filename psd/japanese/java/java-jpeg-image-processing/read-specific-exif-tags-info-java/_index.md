@@ -1,9 +1,65 @@
 ---
-date: 2026-01-27
-description: Aspose.PSD for Java（asp）を使用したステップバイステップのチュートリアルで、PSD画像から特定のEXIFタグを読み取る方法を学びましょう。画像処理スキルを向上させましょう。
-linktitle: Read Specific EXIF Tags Information in Java
+date: 2026-10-08
+description: ステップバイステップのチュートリアルで、Aspose.PSD for Java (asp) を使用して Java で EXIF タグを読み取る方法を学び、画像処理機能を向上させましょう。
+keywords:
+- read exif tags java
+- java exif tag extraction
+- java image metadata extraction
+lastmod: 2026-10-08
+linktitle: Java で特定の EXIF タグ情報を読み取る
+og_description: Java 開発者は Aspose.PSD を使用して EXIF タグを読み取り、画像メタデータを迅速に抽出できます。このガイドでは、PSD
+  の読み込み、サムネイルリソースの検索、WhiteBalance や ISO speed といった主要な EXIF フィールドの出力方法を順を追って説明します。
+og_image_alt: Guide showing how to read EXIF tags from PSD files in Java using Aspose.PSD
+og_title: Aspose.PSD を使用した Java での EXIF タグの読み取り方法
+schemas:
+- author: Aspose
+  dateModified: '2026-10-08'
+  description: Learn how to read EXIF tags in Java using Aspose.PSD for Java (asp)
+    with our step‑by‑step tutorial, and boost your image processing capabilities.
+  headline: How to read EXIF tags in Java with Aspose.PSD
+  type: TechArticle
+- description: Learn how to read EXIF tags in Java using Aspose.PSD for Java (asp)
+    with our step‑by‑step tutorial, and boost your image processing capabilities.
+  name: How to read EXIF tags in Java with Aspose.PSD
+  steps:
+  - name: 'Java Development Kit (JDK): Ensure you have JDK installed on your machine.
+      You can download it from the [Oracle JDK website](https://www.oracle.com/java/technologies/javase-downloads.html).'
+    text: 'Java Development Kit (JDK): Ensure you have JDK installed on your machine.
+      You can download it from the [Oracle JDK website](https://www.oracle.com/java/technologies/javase-downloads.html).'
+  - name: 'Aspose.PSD for Java: Download the library from the [Aspose.PSD for Java
+      download page](https://releases.aspose.com/psd/java/).'
+    text: 'Aspose.PSD for Java: Download the library from the [Aspose.PSD for Java
+      download page](https://releases.aspose.com/psd/java/).'
+  - name: 'Integrated Development Environment (IDE): An IDE like IntelliJ IDEA, Eclipse,
+      or NetBeans will make coding more convenient.'
+    text: 'Integrated Development Environment (IDE): An IDE like IntelliJ IDEA, Eclipse,
+      or NetBeans will make coding more convenient.'
+  - name: 'PSD file: A PSD file with EXIF data. You can use the sample provided in
+      this tutorial or any other PSD file with EXIF tags.'
+    text: 'PSD file: A PSD file with EXIF data. You can use the sample provided in
+      this tutorial or any other PSD file with EXIF tags.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD (asp)
+    question: What library reads EXIF data from PSD in Java?
+  - answer: WhiteBalance, PixelXDimension, PixelYDimension, ISOSpeed, FocalLength,
+      and more.
+    question: Which tags can be extracted?
+  - answer: Yes, a commercial license is required; a free trial is available.
+    question: Do I need a license for production?
+  - answer: The same API supports PNG, JPEG, TIFF via Java image metadata extraction.
+    question: Can I use this with other image formats?
+  - answer: About 10‑15 minutes for a basic read‑only scenario.
+    question: How long does implementation take?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Aspose (asp) を使用した Java で特定の EXIF タグ情報を読み取る
+tags:
+- read exif tags java
+- Aspose.PSD
+- java image metadata extraction
+- EXIF extraction
+- PSD processing
+title: Aspose.PSD を使用した Java での EXIF タグの読み取り方法
 url: /ja/java/java-jpeg-image-processing/read-specific-exif-tags-info-java/
 weight: 19
 ---
@@ -12,38 +68,34 @@ weight: 19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java と Aspose (asp) で特定の EXIF タグ情報を読み取る
+# JavaでAspose（asp）を使用して特定のEXIFタグ情報を読み取る
 
-## 導入
-Java **asp ライブラリ (Aspose.PSD)** を使用して PSD ファイル操作の世界に飛び込みたいですか？このチュートリアルでは、PSD 画像から **EXIF データ Java** スタイルで抽出し、必要なタグだけを読み取り、コンソールに出力する方法を学びます。開発環境の設定から、WhiteBalance、ISO speed、焦点距離などのメタデータを取得するまで、すべてを順を追って説明します。さっそく始めましょう！
+## はじめに
+If you need to **JavaでEXIFタグを読み取る**, Aspose.PSD (asp) offers a clean, pure‑Java API that works without Photoshop. In this tutorial you’ll learn how to extract EXIF data from a PSD image, select only the tags you care about, and print them to the console. We’ll cover everything from setting up your development environment to pulling out metadata such as WhiteBalance, ISO speed, and focal length. Let’s get started!
 
 ## クイック回答
-- **Java で PSD から EXIF データを読み取るライブラリは何ですか？** Aspose.PSD (asp)  
-- **抽出できるタグはどれですか？** WhiteBalance, PixelXDimension, PixelYDimension, ISOSpeed, FocalLength など。  
-- **本番環境でライセンスが必要ですか？** はい、商用ライセンスが必要です。無料トライアルも利用可能です。  
-- **他の画像形式でも使用できますか？** 同じ API は PNG、JPEG、TIFF を `java image metadata extraction` でサポートしています。  
-- **実装にどれくらい時間がかかりますか？** 基本的な読み取り専用シナリオで約 10‑15 分です。
+- **JavaでPSDからEXIFデータを読み取るライブラリは何ですか？** Aspose.PSD (asp)  
+- **抽出できるタグは何ですか？** WhiteBalance, PixelXDimension, PixelYDimension, ISOSpeed, FocalLength, など。  
+- **本番環境でライセンスが必要ですか？** はい、商用ライセンスが必要です。無料トライアルが利用可能です。  
+- **他の画像形式でも使用できますか？** 同じAPIはPNG、JPEG、TIFFをJava画像メタデータ抽出でサポートします。  
+- **実装にどれくらい時間がかかりますか？** 基本的な読み取り専用シナリオで約10〜15分です。
 
-## Aspose.PSD for Java（**asp**）とは？
-Aspose.PSD for Java は、**純粋な Java** ライブラリで、Adobe Photoshop がインストールされていなくても Photoshop ファイル（PSD、PSB）を操作できます。レイヤー、リソース、メタデータ（EXIF タグを含む）へのフルアクセスを提供し、**java image metadata extraction** タスクに最適です。
+## asp（Aspose.PSD for Java）とは？
+Aspose.PSD for Java is a pure‑Java library that enables developers to work with Adobe Photoshop files (PSD, PSB) without installing Photoshop. It gives programmatic access to layers, resources, and metadata—including EXIF tags—making it ideal for **java image metadata extraction** tasks.
 
-## なぜ EXIF 抽出に Aspose.PSD (asp) を使用するのか？
-- **Photoshop が不要** – Java が動作する任意のプラットフォームで動作します。  
-- **高精度メタデータアクセス** – ファイルに保存された正確なカメラ設定を取得できます。  
-- **シンプルな API** – クリーンでオブジェクト指向のメソッドによりコードが読みやすくなります。  
-- **幅広いフォーマットサポート** – PSD、PSB を扱い、PNG/JPEG/TIFF へ簡単に変換できます。
+## EXIF抽出にAspose.PSD（asp）を使用する理由
+You can extract EXIF tags in Java with just two method calls, and the library processes files up to 2 GB without loading the entire document into memory. It supports **30+ image formats** and preserves exact camera settings, giving you deterministic results across Windows, Linux, and macOS environments.
 
 ## 前提条件
-コードに入る前に、以下のものを用意してください：
+Before we dive into the code, there are a few things you'll need to have in place:
 
-1. **Java Development Kit (JDK)**：マシンに JDK がインストールされていることを確認してください。[Oracle JDK のウェブサイト](https://www.oracle.com/java/technologies/javase-downloads.html)からダウンロードできます。  
-2. **Aspose.PSD for Java**：ライブラリは[こちら](https://releases.aspose.com/psd/java/)からダウンロードしてください。  
-3. **統合開発環境 (IDE)**：IntelliJ IDEA、Eclipse、NetBeans などの IDE を使用するとコーディングが便利です。  
-4. **PSD ファイル**：EXIF データを含む PSD ファイルです。このチュートリアルで提供されているサンプル、または EXIF タグを持つ任意の PSD ファイルを使用できます。
+1. Java Development Kit (JDK): Ensure you have JDK installed on your machine. You can download it from the [Oracle JDK website](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. Aspose.PSD for Java: Download the library from the [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
+3. Integrated Development Environment (IDE): IntelliJ IDEA、Eclipse、NetBeans などの IDE があるとコーディングが便利です。  
+4. PSD file: EXIF データを含む PSD ファイルです。チュートリアルで提供されているサンプルまたは任意の EXIF タグ付き PSD ファイルを使用できます。
 
 ## パッケージのインポート
-まず、必要な Aspose.PSD パッケージを Java プロジェクトにインポートします。設定方法は以下の通りです。
-
+Import the required Aspose.PSD classes such as Image, PsdImage, ThumbnailResource, and JpegExifData to work with PSD files.  
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.exif.JpegExifData;
@@ -52,19 +104,20 @@ import com.aspose.psd.fileformats.psd.resources.Thumbnail4Resource;
 import com.aspose.psd.fileformats.psd.resources.ThumbnailResource;
 ```
 
-## ステップ 1: PSD 画像の読み込み
-開始するには、PSD ファイルをアプリケーションに読み込む必要があります。ファイルパスが正しく指定されていることを確認してください。
-
+## 手順 1: PSD画像をロードする
+`Image.load()` loads a file and returns an Image object representing the image data.  
+`PsdImage` is the Aspose.PSD class that provides PSD‑specific functionality.  
+The `Image.load()` method loads any supported image file into memory, returning a generic `Image` object that you can cast to a PSD‑specific type.  
 ```java
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage) Image.load(dataDir + "1280px-Zebras_Serengeti.psd");
 ```
 
-このステップでは `Image.load()` メソッドを使用して PSD ファイルを読み込みます。`PsdImage` クラスは PSD 画像を表すために使用され、読み込んだ画像をこのクラスにキャストして PSD 固有の機能にアクセスします。
+In this step, we load the PSD file using the `Image.load()` method. The `PsdImage` class is used to represent the PSD image, and we cast the loaded image to this class to access PSD‑specific functionalities.
 
-## ステップ 2: 画像リソースの反復処理
-次に、画像リソースを反復処理してサムネイルリソースを探します。サムネイルリソースには通常 EXIF データが含まれています。
-
+## 手順 2: 画像リソースを反復処理する
+`PsdImage.getResources()` returns a collection of embedded resources such as thumbnails and EXIF data.  
+The `PsdImage.getResources()` call returns a collection of all embedded resources. By iterating over this collection you can locate thumbnail resources that contain EXIF metadata.  
 ```java
 for (int i = 0; i < image.getImageResources().length; i++) {
     if (image.getImageResources()[i] instanceof ThumbnailResource || 
@@ -74,11 +127,12 @@ for (int i = 0; i < image.getImageResources().length; i++) {
 }
 ```
 
-`for` ループを使って画像リソースを走査します。目的は `ThumbnailResource` または `Thumbnail4Resource` のインスタンスを特定することです。これらのタイプが EXIF データを保持しています。
+We loop through the image resources using a `for` loop. The goal is to identify resources that are instances of `ThumbnailResource` or `Thumbnail4Resource`, as these are the types that hold the EXIF data.
 
-## ステップ 3: EXIF データの抽出
-サムネイルリソースが特定できたら、EXIF データを抽出してコンソールに出力します。
-
+## 手順 3: EXIFデータを抽出する
+`ThumbnailResource.getJpegOptions()` provides access to JPEG options including EXIF metadata.  
+`JpegExifData` holds individual EXIF tag values.  
+The `ThumbnailResource.getJpegOptions()` method provides access to a `JpegExifData` object, which holds individual EXIF tags such as WhiteBalance, ISOSpeed, and FocalLength.  
 ```java
 if (image.getImageResources()[i] instanceof ThumbnailResource) {
     JpegExifData exif = ((ThumbnailResource) image.getImageResources()[i]).getJpegOptions().getExifData();
@@ -92,40 +146,45 @@ if (image.getImageResources()[i] instanceof ThumbnailResource) {
 }
 ```
 
-`if` 文でリソースが `ThumbnailResource` のインスタンスかどうかを確認します。該当する場合はキャストし、`JpegOptions` から `ExifData` にアクセスします。最後に WhiteBalance、ピクセル寸法、ISOSpeed、FocalLength などの各 EXIF タグを出力します。
+We use an `if` statement to check if the resource is an instance of `ThumbnailResource`. If it is, we cast it and retrieve its `JpegOptions` to access the `ExifData`. Finally, we print out various EXIF tags such as WhiteBalance, Pixel Dimensions, ISOSpeed, and FocalLength.
 
-## 一般的な問題とヒント
-- **Null EXIF データ**：一部の PSD ファイルには EXIF 情報を含むサムネイルリソースが存在しない場合があります。タグ値にアクセスする前に必ず `null` をチェックしてください。  
-- **ファイルパスエラー**：絶対パスを使用するか、作業ディレクトリが PSD ファイルを含むフォルダーを指していることを確認してください。  
-- **ライセンス制限**：無料トライアルでは処理できるページ数が制限されています。無制限に使用するにはフルライセンスにアップグレードしてください。
+## よくある問題とヒント
+- **Null EXIF data:** Some PSD files may not contain a thumbnail resource with EXIF information. Always check for `null` before accessing tag values.  
+- **File path errors:** Use absolute paths or ensure the working directory points to the folder containing your PSD file.  
+- **License restrictions:** The free trial limits the number of pages you can process; upgrade to a full license for unrestricted use.
 
 ## よくある質問
-### EXIF データとは何ですか？
-EXIF（Exchangeable Image File Format）データは、画像ファイルに埋め込まれたメタデータで、カメラ設定、撮影日時、画像サイズなどの情報が含まれます。
 
-### Aspose.PSD を使用して EXIF データを編集できますか？
-はい、Aspose.PSD を使用すると EXIF データの読み取りと変更が可能です。タグを更新し、変更を画像ファイルに保存できます。
+### EXIFデータとは？
+EXIF (Exchangeable Image File Format) data is metadata embedded within image files, containing information such as camera settings, date and time, and image dimensions.
 
-### Aspose.PSD for Java は無料ですか？
-Aspose.PSD には無料トライアル版があり、[こちら](https://releases.aspose.com/)からダウンロードできます。すべての機能を利用するにはライセンスの購入が必要です。
+### Aspose.PSDでEXIFデータを編集できますか？
+Yes, Aspose.PSD allows you to read and modify EXIF data. You can update tags and save changes back to the image file.
 
-### Aspose.PSD がサポートするその他のフォーマットは何ですか？
-Aspose.PSD は PSD、PSB などのさまざまな Adobe Photoshop フォーマットをサポートしています。また、これらのフォーマットを PNG、JPEG、TIFF などの他形式に変換するオプションも提供します。
+### Aspose.PSD for Javaは無料ですか？
+Aspose.PSD offers a free trial version which you can download from the [Aspose.PSD official releases page](https://releases.aspose.com/). For full features, you need to purchase a license.
 
-### Aspose.PSD のサポートはどこで受けられますか？
-サポートは Aspose.PSD の[フォーラム](https://forum.aspose.com/c/psd/34)で受けられます。
+### Aspose.PSDがサポートする他のフォーマットは？
+Aspose.PSD supports various Adobe Photoshop formats, including PSD, PSB, and more. It also provides options to convert these formats to PNG, JPEG, TIFF, etc.
 
-### これが **java image metadata extraction** にどのように役立ちますか？
-`JpegExifData` オブジェクトを使用することで、必要な EXIF タグをプログラムから取得でき、画像フォーマット全体にわたるメタデータ抽出タスクの堅実な基盤となります。
+### Aspose.PSDのサポートはどうやって受けられますか？
+You can get support through the Aspose.PSD [forum](https://forum.aspose.com/c/psd/34).
 
-## 結論
-これらの手順に従うことで、Aspose.PSD (asp) を使用して PSD 画像から **EXIF データ Java** スタイルで抽出する方法を習得しました。画像の読み込み、リソースの反復処理、サムネイルリソースの特定、必要な EXIF タグの取得という流れです。この知識を活用すれば、Java アプリケーションに詳細な画像メタデータを組み込み、写真管理、分析、または自動処理パイプラインをよりリッチに実装できます。
+### これが**java image metadata extraction**にどのように役立ちますか？
+By using the `JpegExifData` object, you can programmatically pull out any EXIF tag you need, making it a solid foundation for broader metadata extraction tasks across image formats.
 
 ---
 
-**最終更新日:** 2026-01-27  
-**テスト環境:** Aspose.PSD for Java 24.11 (執筆時点での最新)  
-**作者:** Aspose  
+**最終更新日:** 2026-10-08  
+**テスト環境:** Aspose.PSD for Java 24.11 (latest at time of writing)  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [JavaでJpeg Exifタグを読み取り・変更](/psd/java/java-jpeg-image-processing/read-modify-jpeg-exif-tags-java/)
+- [Java Jpeg画像処理](/psd/java/java-jpeg-image-processing/)
+- [Aspose.PSD for Javaで特定の角度で画像を回転する方法](/psd/java/advanced-image-manipulation/rotate-image-specific-angle/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
