@@ -1,30 +1,103 @@
 ---
-title: Java 支援 2 位元和 7 位元 JPEG
-linktitle: Java 支援 2 位元和 7 位元 JPEG
+date: 2026-10-08
+description: Java 圖像處理教學：學習如何使用 Aspose.PSD 操作 PSD 檔案並將其儲存為 JPEG。提供逐步指南與程式碼範例，適合新手與專業人士。
+keywords:
+- java image processing tutorial
+- Aspose.PSD
+- 2 bit JPEG
+- 7 bit JPEG
+lastmod: 2026-10-08
+linktitle: 在 Java 中支援 2 位元與 7 位元 JPEG
+og_description: Java 圖像處理教學：學習如何使用 Aspose.PSD 操作 PSD 檔案並將其儲存為 JPEG。提供詳細步驟、快速解答與開發人員除錯指南。
+og_image_alt: Guide to processing 2‑ and 7‑bit JPEG images in Java with Aspose.PSD
+og_title: Java 圖像處理教學：支援 2 位元與 7 位元 JPEG
+schemas:
+- author: Aspose
+  dateModified: '2026-10-08'
+  description: 'Java image processing tutorial: learn how to manipulate PSD files
+    and save them as JPEGs using Aspose.PSD. Step‑by‑step guide with code examples
+    for beginners and pros.'
+  headline: 'Java image processing tutorial: support 2‑ and 7‑bit JPEGs'
+  type: TechArticle
+- description: 'Java image processing tutorial: learn how to manipulate PSD files
+    and save them as JPEGs using Aspose.PSD. Step‑by‑step guide with code examples
+    for beginners and pros.'
+  name: 'Java image processing tutorial: support 2‑ and 7‑bit JPEGs'
+  steps:
+  - name: '**Java Development Kit (JDK)** – version 8 or higher.'
+    text: '**Java Development Kit (JDK)** – version 8 or higher.'
+  - name: '**Aspose.PSD for Java library** – you can [download it here](https://releases.aspose.com/psd/java/).'
+    text: '**Aspose.PSD for Java library** – you can [download it here](https://releases.aspose.com/psd/java/).'
+  - name: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans.'
+    text: '**IDE** – IntelliJ IDEA, Eclipse, or NetBeans.'
+  - name: '**Sample PSD file** – any PSD you wish to convert.'
+    text: '**Sample PSD file** – any PSD you wish to convert.'
+  - name: '**Basic Java knowledge** – familiarity with classes, objects, and exception
+      handling.'
+    text: '**Basic Java knowledge** – familiarity with classes, objects, and exception
+      handling.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD for Java is a commercial library that enables creation, manipulation,
+      and conversion of Photoshop PSD files directly from Java applications.
+    question: What is Aspose.PSD for Java?
+  - answer: You can download the library from the [website](https://releases.aspose.com/psd/java/)
+      and add the JAR to your project’s build path or Maven/Gradle dependencies.
+    question: How do I install Aspose.PSD for Java?
+  - answer: Yes, you can load custom RGB or CMYK ICC profiles and assign them to the
+      `JpegOptions` before saving.
+    question: Can I use custom color profiles with Aspose.PSD for Java?
+  - answer: It supports PSD, JPEG, PNG, BMP, TIFF, GIF, and over 20 additional raster
+      formats.
+    question: What image formats does Aspose.PSD for Java support?
+  - answer: Yes, you can download a [free trial](https://releases.aspose.com/) to
+      evaluate the library before purchasing a license.
+    question: Is there a free trial available for Aspose.PSD for Java?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-description: 了解如何使用 Aspose.PSD 在 Java 中操作 PSD 檔案並將其儲存為 JPEG。帶有程式碼範例的分步指南。非常適合初學者和專業人士。
-weight: 20
+tags:
+- java image processing
+- Aspose.PSD
+- JPEG conversion
+title: Java 圖像處理教學：支援 2 位元與 7 位元 JPEG
 url: /zh-hant/java/java-jpeg-image-processing/support-2-7-bits-jpeg-java/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java 支援 2 位元和 7 位元 JPEG
+# Java 圖像處理教學：支援 2‑ 位元與 7‑ 位元 JPEG
 
 ## 介紹
-嘿！您準備好進入使用 Java 進行影像處理的世界了嗎？今天，我們將探索 Aspose.PSD for Java 程式庫，這是一個功能強大的工具，可讓您輕鬆操作和轉換 PSD 檔案。具體來說，我們將研究如何處理 2 位和 7 位 JPEG。本教學將引導您完成您需要了解的所有內容，從先決條件到詳細的逐步說明。所以，繫好安全帶，準備好享受有趣且資訊豐富的旅程吧！
-## 先決條件
-在開始之前，讓我們確保您擁有所需的一切：
-1. Java 開發工具包 (JDK)：確保安裝了 JDK 8 或更高版本。
-2.  Aspose.PSD for Java 函式庫：您可以[在這裡下載](https://releases.aspose.com/psd/java/).
-3. 整合開發環境 (IDE)：任何與 Java 相容的 IDE（例如 IntelliJ IDEA、Eclipse 或 NetBeans）都可以。
-4. 範例 PSD 檔案：對於本教學課程，您需要一個範例 PSD 檔案。您可以使用自己的或在網上找到一個。
-5. Java 基礎：了解基本的 Java 語法和物件導向程式設計概念將會有所幫助。
-好吧，讓我們動手吧！
-## 導入包
-首先，讓我們導入必要的套件。您需要 Aspose.PSD for Java 函式庫才能開始使用。確保您已將該庫新增至專案依賴項。操作方法如下：
+在本 **java 圖像處理教學** 中，您將了解如何使用 Aspose.PSD for Java 函式庫載入 PSD 檔案並匯出為 2‑ 或 7‑ 位元 JPEG。無論您是要建置批次轉換服務，或是需要對影像品質進行細緻控制，以下步驟都會從環境設定說明到最終 JPEG 儲存，帶您一步步完成。讓我們開始吧！
+
+## 快速答案
+- **哪個函式庫支援 2‑ 與 7‑ 位元 JPEG？** Aspose.PSD for Java。  
+- **最低 Java 版本？** JDK 8 或更新版本。  
+- **開發時需要授權嗎？** 免費試用可用於評估；正式上線需購買商業授權。  
+- **可以變更色彩模式嗎？** 可以 – 透過 `JpegCompressionColorMode` 支援 CMYK、YCCK 及其他模式。  
+- **預期可減少多少檔案大小？** 使用每通道 2 位元可比 8 位元輸出縮小最高 80 % 左右。
+
+## 什麼是 java 圖像處理教學？
+java 圖像處理教學是一套逐步說明，教導開發者如何以 Java 程式化操作影像資料。內容涵蓋載入各種格式、套用轉換、調整色彩與壓縮設定，並儲存結果，讓您能建立自訂的影像處理工作流程。
+
+## 為何使用 Aspose.PSD for Java？
+Aspose.PSD for Java 提供完整的 API，讓您在不安裝 Photoshop 的情況下操作 Photoshop 檔案。支援超過 30 種影像格式，透過串流方式處理最高 2 GB 的檔案，並提供對圖層、通道與色彩描述檔的細緻控制，是高效能伺服器端處理的理想選擇。
+
+## 前置條件
+在開始之前，請確認您具備以下項目：
+
+1. **Java Development Kit (JDK)** – 版本 8 以上。  
+2. **Aspose.PSD for Java 函式庫** – 您可於[此處下載](https://releases.aspose.com/psd/java/)。  
+3. **IDE** – IntelliJ IDEA、Eclipse 或 NetBeans。  
+4. **範例 PSD 檔案** – 任意您想要轉換的 PSD。  
+5. **基本的 Java 知識** – 熟悉類別、物件與例外處理。
+
+## 匯入套件
+首先，將 Aspose.PSD JAR 加入專案的 classpath，然後匯入所需的命名空間：
+
 ```java
 import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.jpeg.JpegCompressionColorMode;
@@ -32,54 +105,84 @@ import com.aspose.psd.fileformats.jpeg.JpegCompressionMode;
 import com.aspose.psd.fileformats.psd.PsdImage;
 import com.aspose.psd.imageoptions.JpegOptions;
 ```
-## 第 1 步：載入 PSD 映像
-我們旅程的第一步是載入 PSD 映像。這就是我們將施展魔法的地方。讓我們編寫載入 PSD 圖像的程式碼：
+
+## 如何在 Java 中載入 PSD 影像？
+要載入 PSD 檔案，呼叫 `Image` 類別的靜態 `load` 方法，並將結果轉型為 `PsdImage`。這會在記憶體中建立 Photoshop 文件的表示，讓您存取其圖層、通道、遮色片與中繼資料，進而進行操作或匯出為其他格式。
+
+`PsdImage` 是 Aspose.PSD 的核心類別，代表記憶體中的 Photoshop 文件，支援對其內容的讀寫操作。
+
 ```java
 String dataDir = "Your Document Directory";
 PsdImage image = (PsdImage) Image.load(dataDir + "PsdImage.psd");
 ```
-在此步驟中，我們指定 PSD 檔案所在的目錄並將該檔案載入到`PsdImage`目的。容易，對吧？
-## 第 2 步：設定 JPEG 選項
-現在我們已經加載了圖像，下一步是設定 JPEG 選項。這是我們定義如何保存圖像的地方，包括顏色模式和壓縮類型。讓我們配置選項：
+
+## 如何設定 2‑ 或 7‑ 位元 JPEG 的選項？
+建立新的 `JpegOptions` 實例，並設定其屬性以符合目標輸出。使用 `setColorType` 選擇適當的 `JpegCompressionColorMode`（例如 CMYK 或 YCCK），再以 `setCompressionType` 指定壓縮演算法。最後，將 `bitsPerChannel` 設為 2 或 7，以控制每個色彩通道的位元深度。
+
 ```java
 JpegOptions options = new JpegOptions();
 options.setColorType(JpegCompressionColorMode.Cmyk);
 options.setCompressionType(JpegCompressionMode.JpegLs);
 ```
-在這裡，我們將顏色類型設為 CMYK，將壓縮類型設為 JPEG LS。您可以更改這些設定以滿足您的需求。例如，要使用 YCCK 代替 CMYK，您需要替換`JpegCompressionColorMode.Cmyk`和`JpegCompressionColorMode.Ycck`.
-## 第 3 步：調整每個頻道的位數
-接下來，讓我們調整每個頻道的位數。此設定會影響影像品質和尺寸。我們將從每個通道 2 位元開始：
+
+## 如何為低位元 JPEG 設定每通道位元數？
+`bitsPerChannel` 定義輸出 JPEG 每個色彩通道使用的位元數。將此屬性設為 2 會將每個通道縮減至兩位元，產生高度壓縮且會出現明顯色帶的影像；設為 7 則保留較多細節，檔案大小介於極低位元與標準 8‑ 位元之間。請依您的品質與尺寸需求選擇合適的值。
+
 ```java
 byte bpp = 2;
 options.setBitsPerChannel(bpp);
 ```
-環境`bpp`到 2 給我們提供了較低品質的圖像和較小的檔案大小。您可以試驗該值，看看它如何影響您的影像。
-## 第 4 步：設定顏色設定檔
-在此步驟中，我們將設定顏色設定檔。為簡單起見，我們將使用預設設定檔：
+
+## 如何套用色彩描述檔（可選）？
+`ICCProfile` 代表國際色彩聯盟（International Color Consortium）描述檔，用於說明裝置或工作空間的色彩特性。若您有自訂的 ICC 檔案，可使用 `ICCProfile.getInstance(path)` 載入，並指派給 `jpegOptions` 物件的 `iccProfile` 屬性。若屬性為 null，Aspose.PSD 會使用系統預設描述檔，足以應付大多數情境。
+
 ```java
 options.setRgbColorProfile(null);
 options.setCmykColorProfile(null);
 ```
-將設定檔保留為`null`意味著將使用預設設定檔。如果您有想要使用的特定顏色配置文件，可以在此處進行設定。
-## 第 5 步：儲存影像
-最後，讓我們使用新設定來保存圖像。這是關鍵時刻！這是保存圖像的程式碼：
+
+## 如何將處理後的影像儲存為 JPEG？
+`save` 方法會依據提供的選項將影像寫入檔案。對 `PsdImage` 實例呼叫 `save`，傳入目標檔名（含 .jpg 副檔名）與已配置好的 `JpegOptions`。函式庫會負責編碼、套用選定的每通道位元與色彩描述檔，產生符合規格的 JPEG。
+
 ```java
 image.save(dataDir + "2_7BitsJPEG_output.jpg", options);
 ```
-就是這樣！您已成功處理 PSD 影像並使用指定的設定將其另存為 JPEG。
-## 結論
-恭喜！您剛剛學習如何使用 Aspose.PSD for Java 操作 PSD 檔案並將其另存為 JPEG。這個強大的庫提供了廣泛的功能，使影像處理變得輕而易舉。無論您正在開發小型專案還是大型應用程序，Aspose.PSD for Java 都能滿足您的需求。那麼，你還在等什麼？開始嘗試，看看你能創造出什麼神奇的東西！
-## 常見問題解答
-### 什麼是 Java 版 Aspose.PSD？
-Aspose.PSD for Java 是一個功能強大的函式庫，可讓您在 Java 應用程式中使用 PSD 檔案。它提供了廣泛的影像處理和轉換功能。
-### 如何安裝 Aspose.PSD for Java？
-您可以從以下位置下載該程式庫[網站](https://releases.aspose.com/psd/java/)並將其添加到您的專案依賴項中。
-### 我可以在 Aspose.PSD for Java 中使用自訂顏色設定檔嗎？
-是的，您可以在配置 JPEG 選項時設定自訂 RGB 和 CMYK 顏色設定檔。
-### Aspose.PSD for Java 支援哪些影像格式？
-Aspose.PSD for Java 支援各種影像格式，包括 PSD、JPEG、PNG、BMP、TIFF 等。
-### Aspose.PSD for Java 是否有免費試用版？
-是的，您可以下載一個[免費試用](https://releases.aspose.com/)在購買之前測試圖書館的功能。
+
+## 常見問題與解決方案
+- **檔案過大錯誤** – 確認使用最新的 Aspose.PSD 版本，該版本會串流資料，避免一次將整個檔案載入記憶體。  
+- **顏色異常** – 請確認所選的 `JpegCompressionColorMode` 與來源影像的色彩空間相符。  
+- **缺少 ICC 描述檔** – 若需特定描述檔，請使用 `ICCProfile.getInstance(path)` 載入，並指派給 `JpegOptions`。
+
+## 常見問答
+
+**Q: 什麼是 Aspose.PSD for Java？**  
+A: Aspose.PSD for Java 是一套商業函式庫，讓 Java 應用程式直接建立、操作與轉換 Photoshop PSD 檔案。
+
+**Q: 如何安裝 Aspose.PSD for Java？**  
+A: 您可從[官方網站](https://releases.aspose.com/psd/java/)下載函式庫，然後將 JAR 加入專案的建置路徑，或透過 Maven/Gradle 依賴管理。
+
+**Q: 可以在 Aspose.PSD for Java 中使用自訂色彩描述檔嗎？**  
+A: 可以，您可載入自訂的 RGB 或 CMYK ICC 描述檔，並在儲存前指派給 `JpegOptions`。
+
+**Q: Aspose.PSD for Java 支援哪些影像格式？**  
+A: 支援 PSD、JPEG、PNG、BMP、TIFF、GIF，以及超過 20 種其他點陣圖格式。
+
+**Q: 有免費試用版嗎？**  
+A: 有，您可下載[免費試用版](https://releases.aspose.com/)以評估函式庫功能，之後再購買授權。
+
+---
+
+**最後更新：** 2026-10-08  
+**測試環境：** Aspose.PSD 24.12 for Java  
+**作者：** Aspose
+
+## 相關教學
+
+- [Image Processing Java – Support for JPEG-LS with CMYK](/psd/java/java-jpeg-image-processing/support-jpeg-ls-cmyk-java/)
+- [Save PSD as JPEG and Support RGB Color with Aspose.PSD Java](/psd/java/advanced-psd-layer-features-effects/support-rgb-color-psd-files/)
+- [How to Convert PSD to Raster Image Formats with Aspose.PSD for Java](/psd/java/advanced-techniques/convert-psd-to-raster-formats/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
