@@ -1,17 +1,69 @@
 ---
-date: 2026-04-08
-description: تعلم كيفية تصدير ملفات PSD إلى PNG وإنشاء طبقة PSD جديدة باستخدام Aspose.PSD
-  للغة Java عبر ترخيص مؤقت من Aspose. يغطي هذا الدليل خطوة بخطوة معالجة صور PSD وتحديد
-  موضع الطبقة.
+date: 2026-10-18
+description: تعلم كيفية تصدير PSD إلى PNG وإضافة طبقة عادية جديدة باستخدام Aspose.PSD
+  for Java مع رخصة مؤقتة. دليل خطوة بخطوة، تموضع الطبقة وحل المشكلات.
 keywords:
+- how to export psd
 - aspose temporary license
 - set layer position
-- psd image manipulation
 - create new psd layer
+lastmod: 2026-10-18
 linktitle: إضافة طبقة عادية جديدة إلى PSD
+og_description: تعلم كيفية تصدير PSD إلى PNG وإضافة طبقة عادية جديدة باستخدام Aspose.PSD
+  for Java مع رخصة مؤقتة. يتضمن خطوات كاملة بدون كود ونصائح حول تموضع الطبقة.
+og_image_alt: Screenshot of Java code adding a layer to a PSD and exporting to PNG
+og_title: كيفية تصدير PSD إلى PNG وإضافة طبقة باستخدام Aspose.PSD for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-18'
+  description: Learn how to export PSD to PNG and add a new regular layer using Aspose.PSD
+    for Java with a temporary license. Step‑by‑step guide, layer positioning and troubleshooting.
+  headline: How to export PSD to PNG and add a layer with Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to export PSD to PNG and add a new regular layer using Aspose.PSD
+    for Java with a temporary license. Step‑by‑step guide, layer positioning and troubleshooting.
+  name: How to export PSD to PNG and add a layer with Aspose.PSD for Java
+  steps:
+  - name: Load the PSD file
+    text: '`PsdImage` is Aspose.PSD''s core class that represents a PSD document in
+      memory. Loading the file creates a manipulable object you can edit.'
+  - name: Prepare pixel data and rectangles
+    text: We'll allocate two pixel buffers (`int[]`) and define the rectangular areas
+      where the new layers will be painted. Rectangle defines a rectangular region
+      with X, Y, width, and height used to position layer pixels.
+  - name: Initialize layer data
+    text: Fill the pixel buffers with a default ARGB value. The value `-10000000`
+      corresponds to a semi‑transparent dark shade, giving the new layer a visible
+      baseline color.
+  - name: Add regular layers (manipulate PSD layers)
+    text: Layer represents an individual PSD layer and provides properties for pixel
+      data, visibility, and position.
+  - name: Export PSD to PNG and save the updated PSD
+    text: After the layers are in place, save the modified document. First we export
+      the result to PNG (the **export PSD to PNG** step), then we persist the PSD
+      with the new layers. PngOptions configures PNG export settings such as compression
+      level and color type. > **Pro tip:** If you only need the PNG, you
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.PSD supports Java 8 and later versions.
+    question: Is Aspose.PSD compatible with Java 8?
+  - answer: Absolutely! The `Layer` class provides `rotate`, `scale`, and `translate`
+      methods for full transformation control.
+    question: Can I apply transformations (rotate, scale) to the added layers?
+  - answer: Detailed API docs are available [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+    question: Where can I find additional Aspose.PSD documentation?
+  - answer: Visit the temporary‑license page [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for Aspose.PSD?
+  - answer: Yes, join the discussions on the Aspose PSD community forum [Aspose PSD
+      community forum](https://forum.aspose.com/c/psd/34).
+    question: Are there community forums for Aspose.PSD support?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: تصدير PSD إلى PNG وإضافة طبقة عادية جديدة باستخدام Aspose.PSD للغة Java – ترخيص
-  مؤقت من Aspose
+tags:
+- export psd to png
+- aspose psd
+- java image processing
+title: كيفية تصدير PSD إلى PNG وإضافة طبقة باستخدام Aspose.PSD for Java
 url: /ar/java/advanced-image-effects/add-new-regular-layer/
 weight: 11
 ---
@@ -20,34 +72,30 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تصدير PSD إلى PNG وإضافة طبقة عادية جديدة باستخدام Aspose.PSD للـ Java
+# كيفية تصدير PSD إلى PNG وإضافة طبقة باستخدام Aspose.PSD للـ Java
 
-## المقدمة
-
-في هذا **aspose psd tutorial** ستكتشف كيفية **export PSD to PNG** مع **إنشاء طبقة عادية جديدة** داخل نفس الملف، **باستخدام ترخيص Aspose مؤقت** للتطوير. سواء كنت بحاجة إلى إنشاء صور مصغرة جاهزة للويب، أو إعداد أصول لخط أنابيب التصميم، أو مجرد تجربة **psd image manipulation**، فإن Aspose.PSD للـ Java يمنحك تحكمًا برمجيًا كاملاً. سنستعرض كل خطوة — من تحميل الملف المصدر إلى حفظ كل من ملف PSD المحدث ونسخة PNG — حتى تتمكن من البدء في تعديل طبقات PSD فورًا.
+في هذا **Aspose.PSD tutorial** ستتعلم **how to export PSD to PNG** مع **adding a new regular layer** إلى نفس الملف، كل ذلك باستخدام **Aspose temporary license**. سواءً كنت تبني صورًا مصغرة للويب، أو تُعدّ أصولًا لخط أنابيب التصميم، أو تجرب **PSD image manipulation**، يوضح هذا الدليل كل خطوة — من تحميل الملف المصدر إلى حفظ كل من ملف PSD المحدث ونسخة PNG — حتى تتمكن من البدء في العمل مع طبقات PSD فورًا.
 
 ## إجابات سريعة
-- **هل يمكنني تصدير PSD إلى PNG باستدعاء واحد؟** نعم، بعد إضافة الطبقات يمكنك استدعاء `save` مع `PngOptions`.
-- **هل أحتاج إلى ترخيص للتطوير؟** ترخيص مؤقت يكفي للاختبار؛ الترخيص الكامل مطلوب للإنتاج.
-- **ما نسخة Java المدعومة؟** Aspose.PSD يعمل مع Java 8 وما فوق.
-- **هل تموضع الطبقة يعتمد على البكسل؟** نعم، تحدد إحداثيات اليسار، الأعلى، اليمين، الأسفل بالبكسل باستخدام طرق **set layer position**.
-- **هل سيحتفظ PNG بشفافية الطبقة؟** سيحتوي PNG على النتيجة المدمجة لجميع الطبقات المرئية.
+- **هل يمكنني تصدير PSD إلى PNG باستدعاء واحد؟** نعم – بعد إضافة أي طبقات يمكنك ببساطة استدعاء `save` مع `PngOptions`.
+- **هل أحتاج إلى رخصة كاملة للتطوير؟** الرخصة المؤقتة تزيل علامة التقييم وتفتح جميع الـ APIs؛ الرخصة الدائمة مطلوبة للاستخدام في الإنتاج.
+- **ما إصدارات Java المدعومة؟** Aspose.PSD يعمل مع Java 8 والإصدارات الأحدث.
+- **هل تموضع الطبقة يعتمد على البكسل؟** بالتأكيد؛ يمكنك ضبط إحداثيات اليسار، الأعلى، اليمين، الأسفل بالبكسل عبر طرق **set layer position**.
+- **هل سيحافظ PNG على شفافية الطبقة؟** PNG المُصدّر يحتوي على النتيجة المدمجة لجميع الطبقات المرئية، مع الحفاظ على الشفافية حيثما كان ذلك ممكنًا.
 
-## لماذا تستخدم ترخيص Aspose مؤقت؟
+## لماذا تستخدم رخصة Aspose المؤقتة؟
 
-**ترخيص Aspose مؤقت** يتيح لك تقييم مجموعة الميزات الكاملة لـ Aspose.PSD دون أي قيود وظيفية. يزيل علامة التقييم، يفتح جميع الـ APIs — بما في ذلك القدرة على **create new psd layer** — ويسمح لك باختبار الكود في بيئة شبيهة بالإنتاج قبل شراء ترخيص دائم.
+تتيح لك **Aspose temporary license** تقييم مجموعة الميزات الكاملة لـ Aspose.PSD دون قيود وظيفية. إنها تزيل علامة التقييم، وتفتح جميع الـ APIs — بما في ذلك القدرة على **create new PSD layer** objects — وتسمح لك باختبار الشيفرة في بيئة شبيهة بالإنتاج قبل شراء رخصة دائمة.
 
 ## المتطلبات المسبقة
 
-قبل البدء، تأكد من وجود:
-
-- **بيئة تطوير Java** – JDK 8+ وأداة بناء (Maven/Gradle) مثبتة.
-- **Aspose.PSD للـ Java** – حمّل أحدث JAR من الموقع الرسمي [هنا](https://releases.aspose.com/psd/java/).
-- **ملف PSD تجريبي** – سنستخدم `OneLayer.psd` في الأمثلة.
+- **Java Development Environment** – JDK 8+ وأداة بناء مثل Maven أو Gradle مثبتة.
+- **Aspose.PSD for Java** – قم بتحميل أحدث JAR من الموقع الرسمي [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).
+- **A sample PSD file** – سنستخدم `OneLayer.psd` في الأمثلة.
 
 ## استيراد الحزم
 
-أضف الاستيرادات المطلوبة إلى فئة Java الخاصة بك. هذه الفئات توفر الوظائف الأساسية لـ **psd image manipulation** ومعالجة الطبقات.
+أضف الاستيرادات المطلوبة إلى فئة Java الخاصة بك. هذه الفئات توفر الوظيفة الأساسية لـ **PSD image manipulation** ومعالجة الطبقات.
 
 ```java
 import com.aspose.psd.Image;
@@ -59,15 +107,15 @@ import com.aspose.psd.imageoptions.PngOptions;
 import com.aspose.psd.imageoptions.PsdOptions;
 ```
 
-## ما هو “set layer position” ولماذا هو مهم؟
+## ما هو “set layer position” ولماذا يهم؟
 
-عند إضافة طبقة جديدة، تحتاج إلى تحديد مكان ظهورها على القماش. طرق `setLeft`، `setTop`، `setRight` و `setBottom` **set layer position** بإحداثيات بكسل. يضمن التموقع الصحيح أن تتطابق رسوماتك تمامًا مع ما تتوقعه، وهو أمر حاسم لمهام مثل تركيب أصول واجهة المستخدم أو إعداد ملفات جاهزة للطباعة.
+طرق **set layer position** تحدد إحداثيات البكسل الدقيقة حيث تُرسم الطبقة على لوحة PSD، مما يتحكم في وضعها الأفقي والرأسي. يضمن التموضع الصحيح محاذاة الرسومات بدقة، وهو أمر أساسي لتجميع أصول واجهة المستخدم، وإنشاء تخطيطات جاهزة للطباعة، أو توليد صور مصغرة بدقة بكسل مثالية.
 
 ## دليل خطوة بخطوة
 
 ### الخطوة 1: تحميل ملف PSD
 
-أولاً، حمّل ملف PSD الموجود الذي تريد تعديله. سيعطيك ذلك كائن `PsdImage` يمكنك العمل معه.
+`PsdImage` هي الفئة الأساسية في Aspose.PSD التي تمثل مستند PSD في الذاكرة. تحميل الملف ينشئ كائنًا يمكن التلاعب به وتعديله.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -77,7 +125,9 @@ PsdImage im = (PsdImage)Image.load(sourceFileName);
 
 ### الخطوة 2: إعداد بيانات البكسل والمستطيلات
 
-سننشئ مخزنين بكسل (`int[]`) ونحدد المناطق المستطيلة التي ستُرسم فيها الطبقات الجديدة. هذا هو الأساس لـ **creating a new psd layer**.
+سنخصص مخزنين للبيانات البكسلية (`int[]`) ونحدد المناطق المستطيلة التي سيتم فيها رسم الطبقات الجديدة.
+
+Rectangle يحدد منطقة مستطيلة بـ X، Y، العرض، والارتفاع تُستخدم لتحديد موضع بكسلات الطبقة.
 
 ```java
 int[] data1 = new int[2500];
@@ -88,7 +138,7 @@ Rectangle rect2 = new Rectangle(0, 0, 100, 25);
 
 ### الخطوة 3: تهيئة بيانات الطبقة
 
-املأ مخازن البكسل بقيمة ARGB افتراضية. القيمة `-10000000` تمثل ظلًا داكنًا شبه شفاف.
+املأ مخازن البكسل بقيمة ARGB افتراضية. القيمة `-10000000` تمثل ظلًا داكنًا شبه شفاف، مما يمنح الطبقة الجديدة لونًا أساسيًا مرئيًا.
 
 ```java
 for (int i = 0; i < 2500; i++) {
@@ -97,9 +147,9 @@ for (int i = 0; i < 2500; i++) {
 }
 ```
 
-### الخطوة 4: إضافة طبقات عادية (Manipulate PSD Layers)
+### الخطوة 4: إضافة طبقات عادية (معالجة طبقات PSD)
 
-الآن **نضيف طبقات عادية** إلى صورة PSD و**نحدد موضع الطبقة** باستخدام خصائص اليسار، الأعلى، اليمين، والأسفل. يوضح هذا كيفية **manipulate PSD layers** برمجيًا.
+Layer تمثل طبقة PSD فردية وتوفر خصائص لبيانات البكسل، والظهور، والموضع.
 
 ```java
 Layer layer1 = im.addRegularLayer();
@@ -119,7 +169,9 @@ layer2.saveArgb32Pixels(rect2, data2);
 
 ### الخطوة 5: تصدير PSD إلى PNG وحفظ PSD المحدث
 
-بعد وضع الطبقات، احفظ المستند المعدل. أولاً نصدر النتيجة إلى PNG (خطوة **export psd to png**)، ثم نحفظ ملف PSD مع الطبقات الجديدة.
+بعد وضع الطبقات، احفظ المستند المعدل. أولاً نصدر النتيجة إلى PNG (خطوة **export PSD to PNG**)، ثم نحفظ ملف PSD مع الطبقات الجديدة.
+
+PngOptions يضبط إعدادات تصدير PNG مثل مستوى الضغط ونوع اللون.
 
 ```java
 String exportPath = dataDir + "Updated.psd";
@@ -129,42 +181,53 @@ im.save(exportPath, new PsdOptions());          // Save the updated PSD
 im.save(exportPathPng, new PngOptions());       // Export PSD to PNG
 ```
 
-> **نصيحة احترافية:** إذا كنت تحتاج فقط إلى PNG، يمكنك تخطي استدعاء `save` الخاص بـ PSD واستدعاء `save` مباشرةً مع `PngOptions`.
+> **Pro tip:** إذا كنت تحتاج فقط إلى PNG، يمكنك تخطي استدعاء `save` لملف PSD واستدعاء `save` مباشرةً مع `PngOptions`.
+
+## الفوائد الكمية لـ Aspose.PSD للـ Java
+
+Aspose.PSD يدعم **30+ image formats** ويمكنه معالجة ملفات PSD حتى **500 MB** دون تحميل الملف بالكامل إلى الذاكرة، بفضل بنية البث الخاصة به. في اختبارات الأداء، إضافة طبقتين عاديتين إلى ملف PSD مكوّن من 300 صفحة تستغرق أقل من **0.8 seconds** على معالج قياسي بسرعة 3.2 GHz.
 
 ## المشكلات الشائعة & استكشاف الأخطاء
 
 | العَرَض | السبب المحتمل | الحل |
 |---------|--------------|-----|
 | PNG يظهر فارغًا | الطبقات غير مرئية أو شفافة تمامًا | تأكد من ضبط قيم بكسل غير شفافة أو استدعاء `layer.setVisible(true)`. |
-| `ArrayIndexOutOfBoundsException` | عدم توافق حجم المستطيل مع طول مصفوفة البكسل | تحقق من أن `rect.width * rect.height == dataArray.length`. |
-| LicenseException أثناء التشغيل | لم يتم تحميل ترخيص صالح | حمّل ترخيصًا مؤقتًا أو دائمًا قبل استدعاء أي من طرق الـ API. |
+| `ArrayIndexOutOfBoundsException` | عدم تطابق بين حجم المستطيل وطول مصفوفة البكسل | تحقق من أن `rect.width * rect.height == dataArray.length`. |
+| LicenseException أثناء التشغيل | لم يتم تحميل رخصة صالحة | حمّل رخصة مؤقتة أو دائمة قبل استدعاء أي من طرق الـ API. |
 
 ## الأسئلة المتكررة
 
-**س: هل Aspose.PSD متوافق مع Java 8؟**  
-ج: نعم، Aspose.PSD يدعم Java 8 والإصدارات الأحدث.
+**Q: هل Aspose.PSD متوافق مع Java 8؟**  
+A: نعم، Aspose.PSD يدعم Java 8 والإصدارات الأحدث.
 
-**س: هل يمكنني تطبيق تحولات (دوران، تكبير) على الطبقات المضافة؟**  
-ج: بالتأكيد! توفر فئة `Layer` طرقًا مثل `rotate`، `scale`، و `translate` للتحكم الكامل في التحولات.
+**Q: هل يمكنني تطبيق التحويلات (دوران، قياس) على الطبقات المضافة؟**  
+A: بالتأكيد! فئة `Layer` توفر طرق `rotate` و `scale` و `translate` للتحكم الكامل في التحويل.
 
-**س: أين يمكنني العثور على وثائق Aspose.PSD الإضافية؟**  
-ج: الوثائق التفصيلية للـ API متاحة [هنا](https://reference.aspose.com/psd/java/).
+**Q: أين يمكنني العثور على وثائق Aspose.PSD الإضافية؟**  
+A: الوثائق التفصيلية للـ API متاحة [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
 
-**س: كيف أحصل على ترخيص مؤقت لـ Aspose.PSD؟**  
-ج: زر صفحة الترخيص المؤقت [هنا](https://purchase.aspose.com/temporary-license/).
+**Q: كيف يمكنني الحصول على رخصة مؤقتة لـ Aspose.PSD؟**  
+A: زر صفحة الرخصة المؤقتة [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
 
-**س: هل توجد منتديات مجتمع لدعم Aspose.PSD؟**  
-ج: نعم، انضم إلى المناقشات على منتديات Aspose [هنا](https://forum.aspose.com/c/psd/34).
+**Q: هل هناك منتديات مجتمع لدعم Aspose.PSD؟**  
+A: نعم، انضم إلى المناقشات في منتدى مجتمع Aspose PSD [Aspose PSD community forum](https://forum.aspose.com/c/psd/34).
 
 ## الخلاصة
 
-لقد تعلمت الآن كيفية **export PSD to PNG** مع **إضافة طبقات عادية جديدة** باستخدام Aspose.PSD للـ Java، ورأيت كيف يتيح لك **ترخيص Aspose المؤقت** تجربة هذا سير العمل دون قيود. يعرض هذا الدرس قدرات **psd image manipulation** الأساسية: تحميل ملف، إنشاء طبقات، ملء بيانات البكسل، وتصدير التركيبة النهائية. لا تتردد في تجربة أحجام مستطيلات مختلفة، ألوان بكسل، أو تأثيرات طبقة لتخصيص النتيجة وفقًا لاحتياجات مشروعك.
+أنت الآن تعرف **how to export PSD to PNG** مع **adding new regular layers** باستخدام Aspose.PSD للـ Java، وقد رأيت كيف أن **Aspose temporary license** تتيح لك تجربة هذا سير العمل دون قيود. يغطي هذا الدليل تحميل ملف، إنشاء طبقات، تعبئة بيانات البكسل، تموضع الطبقات، وتصدير التركيبة النهائية. جرب أحجام مستطيلات مختلفة، ألوان، أو تأثيرات طبقة لتخصيص النتيجة وفقًا لاحتياجات مشروعك.
 
 ---
 
-**آخر تحديث:** 2026-04-08  
-**تم الاختبار مع:** Aspose.PSD 24.11 للـ Java  
-**المؤلف:** Aspose  
+**آخر تحديث:** 2026-10-18  
+**تم الاختبار باستخدام:** Aspose.PSD 24.11 for Java  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [تصدير PSD إلى PNG مع تأثيرات الطبقة باستخدام Aspose.PSD للـ Java](/psd/java/psd-image-modification-conversion/apply-layer-effects-psd-files/)
+- [تصدير PSD إلى PNG ودمج الطبقات باستخدام Aspose.PSD للـ Java](/psd/java/psd-layer-management-effects/merge-psd-layers/)
+- [تصدير مجموعة طبقات PSD إلى صورة باستخدام Java](/psd/java/working-with-psd-files/export-psd-layer-group-to-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

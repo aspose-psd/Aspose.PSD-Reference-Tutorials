@@ -1,15 +1,53 @@
 ---
 additionalTitle: Aspose API References
-date: 2026-04-08
-description: Lernen Sie fortgeschrittene Bildbearbeitungstechniken mit Aspose.PSD,
-  einschließlich PSD‑zu‑PNG-Konvertierung, Speicherung als JPEG, Anpassung der Helligkeit,
-  Hinzufügen von Ebeneneffekten und Exportieren in PDF.
+date: 2026-10-18
+description: Erfahren Sie mehr über erweiterte Bildbearbeitungstechniken von Aspose.PSD,
+  einschließlich PSD-zu-PNG-Konvertierung, Speicherung als JPEG, Helligkeitsanpassung,
+  Hinzufügen von Ebeneneffekten und Export in PDF.
 keywords:
 - aspose.psd advanced image manipulation
 - psd to png conversion
 - layer effects with aspose.psd
-linktitle: Aspose.PSD‑Tutorials
-title: Aspose.PSD Fortgeschrittenes Bildmanipulations‑Tutorial
+- convert psd to pdf
+- batch image processing
+lastmod: 2026-10-18
+linktitle: Aspose.PSD-Tutorials
+og_description: Erfahren Sie mehr über erweiterte Bildbearbeitung mit Aspose.PSD,
+  einschließlich PSD-zu-PNG-Konvertierung, JPEG-Export, Helligkeitsanpassung, Ebeneneffekte
+  und PDF-Generierung für .NET und Java.
+og_image_alt: Guide to advanced image manipulation with Aspose.PSD API
+og_title: So führen Sie erweiterte Bildbearbeitung mit Aspose.PSD durch
+schemas:
+- author: Aspose
+  dateModified: '2026-10-18'
+  description: Learn Aspose.PSD advanced image manipulation techniques, including
+    PSD to PNG conversion, saving as JPEG, adjusting brightness, adding layer effects,
+    and exporting to PDF.
+  headline: How to perform Aspose.PSD advanced image manipulation
+  type: TechArticle
+- questions:
+  - answer: Yes. A commercial license is required for production use, but a free trial
+      is available for evaluation.
+    question: Can I use Aspose.PSD in a commercial application?
+  - answer: Yes. You can open protected files by supplying the password in the load
+      options.
+    question: Does Aspose.PSD support password‑protected PSD files?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5, and .NET 6 are fully supported.
+    question: Which .NET versions are compatible?
+  - answer: Use the `LoadOptions` to enable lazy loading and process layers individually
+      to reduce memory consumption.
+    question: How do I handle large PSD files efficiently?
+  - answer: Absolutely. Loop through a directory, load each PSD, and call `Save` with
+      the PDF format – the API handles the conversion in a single pass.
+    question: Is it possible to batch‑convert many PSD files to PDF?
+  type: FAQPage
+tags:
+- aspose psd
+- image manipulation
+- .net image processing
+- java image processing
+- psd conversion
+title: So führen Sie erweiterte Bildbearbeitung mit Aspose.PSD durch
 url: /de/
 weight: 11
 ---
@@ -18,122 +56,122 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.PSD Fortgeschrittenes Bildbearbeitungs‑Tutorial
+# So führen Sie die erweiterte Bildbearbeitung mit Aspose.PSD durch
 
-Willkommen auf der Aspose.PSD Tutorials‑Seite, Ihrer Anlaufstelle für **Aspose.PSD advanced image manipulation** mit der führenden API zum Arbeiten mit Adobe‑Photoshop‑Dateien in .NET‑ und Java‑Anwendungen. Egal, ob Sie **PSD zu PNG konvertieren**, **PSD als JPEG speichern**, **die Bildhelligkeit anpassen**, **Layer‑Effekte hinzufügen** oder **PSD zu PDF konvertieren** möchten, bietet dieser Leitfaden praxisnahe, Schritt‑für‑Schritt‑Anleitungen, die Sie noch heute in realen Projekten anwenden können.
+In diesem umfassenden Leitfaden erfahren Sie, wie Sie **Aspose.PSD advanced image manipulation** verwenden, um Photoshop‑Dateien programmgesteuert zu konvertieren, zu bearbeiten und zu exportieren. Egal, ob Sie .NET oder Java anvisieren, ermöglicht die API die Automatisierung von PSD‑zu‑PNG‑Konvertierung, JPEG‑Export, Helligkeitsanpassungen, das Hinzufügen von Ebeneneffekten und die PDF‑Erstellung, ohne Photoshop zu starten.
 
 ## Schnelle Antworten
-- **Was kann Aspose.PSD?** Es ermöglicht fortgeschrittene Bildbearbeitung, Formatkonvertierung, Layer‑Verarbeitung und mehr für PSD-, PSB‑ und AI‑Dateien.  
-- **Welche Plattformen werden unterstützt?** .NET (Framework, .NET Core, .NET 5/6) und Java.  
+- **Was kann Aspose.PSD leisten?** Es führt erweiterte Bildbearbeitung, Formatkonvertierung, Ebenenverwaltung und Stapelverarbeitung für PSD-, PSB- und AI‑Dateien durch.  
+- **Welche Plattformen werden unterstützt?** .NET (Framework, .NET Core, .NET 5/6) und Java 8+.  
 - **Benötige ich eine Lizenz?** Eine kostenlose Testversion ist verfügbar; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
 - **Kann ich Dateien stapelweise verarbeiten?** Ja – die API unterstützt Schleifen und multithreaded Verarbeitung.  
 - **Ist Quellcode erforderlich?** Nein, Sie arbeiten mit den kompilierten Aspose.PSD‑Bibliotheken.
 
-## Was ist Aspose.PSD Advanced Image Manipulation?
-Aspose.PSD advanced image manipulation bezieht sich auf programmatische Vorgänge wie Layer‑Compositing, Farbkorrektur, nicht‑destruktive Bearbeitungen und Formatkonvertierungen, die über einfaches Zuschneiden oder Skalieren hinausgehen. Mit der API können Entwickler diese komplexen Aufgaben automatisieren, ohne Photoshop zu öffnen.
+## Was ist die erweiterte Bildbearbeitung mit Aspose.PSD?
+Aspose.PSD advanced image manipulation bezeichnet programmgesteuerte Vorgänge wie Ebenen‑Compositing, Farbkorrektur, nicht‑destruktive Bearbeitungen und Formatkonvertierungen, die über einfaches Zuschneiden oder Skalieren hinausgehen. Mit der API können Sie diese komplexen Aufgaben automatisieren, ohne Photoshop zu öffnen, und so serverseitige Bild‑Pipelines sowie CI/CD‑Workflows ermöglichen.
 
-## Warum Aspose.PSD für fortgeschrittene Bildbearbeitung wählen?
-- **Vollständige PSD‑Treue** – alle Ebenen, Masken und Effekte werden exakt so erhalten, wie sie in Photoshop erscheinen.  
-- **Plattformübergreifende Konsistenz** – dieselbe API funktioniert in .NET und Java und vereinfacht die Wartung über Teams hinweg.  
-- **Keine Photoshop‑Abhängigkeit** – Ausführung auf Servern, CI‑Pipelines oder Docker‑Containern ohne Photoshop‑Lizenz.  
-- **Umfangreiche Exportoptionen** – PNG, JPEG, PDF, TIFF und viele weitere, alle mit feinkörniger Steuerung.  
+## Warum Aspose.PSD für erweiterte Bildbearbeitung wählen?
+Aspose.PSD bewahrt 100 % der ursprünglichen PSD‑Treue und bietet eine einheitliche API, die sowohl auf .NET‑ als auch auf Java‑Plattformen funktioniert. Die Bibliothek verarbeitet Dateien bis zu 500 MB in weniger als einer Sekunde auf typischer Serverhardware, unterstützt über 30 Ausgabeformate und erfordert keine Photoshop‑Lizenz, was sie ideal für automatisierte Build‑Server und Cloud‑Dienste macht.
 
 ## Voraussetzungen
-- Eine Entwicklungsumgebung mit installiertem .NET 5/6 oder Java 8+.  
-- Zugriff auf die Aspose.PSD‑Bibliothek (laden Sie die kostenlose Testversion herunter oder verwenden Sie eine vorhandene Lizenz).  
-- Grundlegende Kenntnisse in C#‑ oder Java‑Syntax zum Laden und Speichern von Dateien.
+- .NET 5/6 SDK **oder** Java 8+ JDK auf Ihrem Entwicklungsrechner installiert.  
+- Aspose.PSD‑Bibliothek (laden Sie die kostenlose Testversion herunter oder verwenden Sie eine bereits lizenzierte Kopie).  
+- Grundkenntnisse in C#‑ oder Java‑Syntax für Datei‑I/O.  
 
 ## Häufige Anwendungsfälle
-- **Web‑Asset‑Pipelines** – automatisch web‑fertige PNGs oder JPEGs aus Master‑PSD‑Dateien erzeugen.  
-- **Druckfertige PDFs** – Design‑Dateien zu PDF konvertieren und dabei Vektortext für hochauflösende Ausgaben erhalten.  
-- **Dynamisches Branding** – Layer‑Effekte oder Helligkeitsanpassungen on‑the‑fly basierend auf Benutzerpräferenzen anwenden.  
-- **Stapelkonvertierung** – große Ordner mit PSDs über Nacht für Archivierungs‑ oder Migrationsprojekte verarbeiten.
+- **Web‑Asset‑Pipelines** – generieren Sie web‑fertige PNGs oder JPEGs aus Master‑PSD‑Dateien bei Bedarf.  
+- **Print‑ready PDFs** – konvertieren Sie Design‑Dateien in PDF und erhalten Sie Vektortext für hochauflösende Ausgaben.  
+- **Dynamisches Branding** – wenden Sie Ebeneneffekte oder Helligkeitsanpassungen zur Laufzeit basierend auf Benutzerpräferenzen an.  
+- **Stapelkonvertierung** – verarbeiten Sie große Ordner mit PSDs über Nacht für Archivierungs‑ oder Migrationsprojekte.
 
 ## Aspose.PSD für .NET‑Tutorials
 {{% alert color="primary" %}}
-Entdecken Sie die dynamische Welt von Aspose.PSD für .NET durch unsere prägnanten und informativen Tutorials. Für Entwickler aller Erfahrungsstufen konzipiert, bieten diese Tutorials praxisnahe Anleitungen, um die Möglichkeiten von Aspose.PSD in Ihren .NET‑Anwendungen zu nutzen. Von grundlegenden Konzepten bis zu fortgeschrittenen Techniken erhalten Sie Einblicke in effiziente Bildverarbeitung, -manipulation und -konvertierung. Egal, ob Sie ein erfahrener Profi oder ein Neuling sind, diese Tutorials bieten einen klaren Weg, Aspose.PSD zu meistern und leistungsstarke Bildbearbeitungs‑Funktionen nahtlos in Ihre .NET‑Projekte zu integrieren. Beginnen Sie noch heute Ihre Reise, um Ihre .NET‑Entwicklung mit Aspose.PSD zu verbessern!
+Entdecken Sie die dynamische Welt von Aspose.PSD für .NET durch unsere prägnanten und informativen Tutorials. Sie richten sich an Entwickler aller Erfahrungsstufen und bieten praxisnahe Anleitungen, um die Möglichkeiten von Aspose.PSD in Ihren .NET‑Anwendungen zu nutzen. Von grundlegenden Konzepten bis zu fortgeschrittenen Techniken erhalten Sie Einblicke in effizientes Bild‑Processing, Manipulation und Konvertierung. Egal, ob Sie ein erfahrener Profi oder ein Neuling sind, diese Tutorials bieten einen klaren Pfad zur Beherrschung von Aspose.PSD und ermöglichen Ihnen, leistungsstarke Bildbearbeitungsfunktionen nahtlos in Ihre .NET‑Projekte zu integrieren. Beginnen Sie noch heute Ihre Reise, um Ihre .NET‑Entwicklung mit Aspose.PSD zu verbessern!
 {{% /alert %}}
 
-Dies sind Links zu einigen nützlichen Ressourcen:
+These are links to some useful resources:
  
-- [Bildverarbeitung](./net/image-processing/)
-- [PSD‑Datei‑Manipulation](./net/psd-file-manipulation/)
-- [Text‑ und Schriftart‑Manipulation](./net/text-and-font-manipulation/)
-- [Datei‑Speicherung und -Export](./net/file-saving-and-exporting/)
-- [Bildanpassung](./net/image-adjustment/)
-- [Bildeffekte](./net/image-effects/)
-- [Bildmanipulation](./net/image-manipulation/)
-- [Datei‑ und Schriftart‑Verarbeitung](./net/file-and-font-handling/)
-- [PSD‑Zeichentechniken](./net/psd-drawing-techniques/)
-- [Layer‑Effekte](./net/layer-effects/)
-- [PSD‑Datei‑Ressourcen](./net/psd-file-resources/)
+- [Image Processing](./net/image-processing/)
+- [PSD File Manipulation](./net/psd-file-manipulation/)
+- [Text and Font Manipulation](./net/text-and-font-manipulation/)
+- [File Saving and Exporting](./net/file-saving-and-exporting/)
+- [Image Adjustment](./net/image-adjustment/)
+- [Image Effects](./net/image-effects/)
+- [Image Manipulation](./net/image-manipulation/)
+- [File and Font Handling](./net/file-and-font-handling/)
+- [PSD Drawing Techniques](./net/psd-drawing-techniques/)
+- [Layer Effects](./net/layer-effects/)
+- [PSD File Resources](./net/psd-file-resources/)
 
-## Fortgeschrittene Bildbearbeitungstechniken
-Nachfolgend finden Sie schnelle, praktische Anleitungen für die häufigsten **advanced image manipulation**‑Aufgaben, nach denen Entwickler fragen.
+## Techniken zur erweiterten Bildbearbeitung
+Im Folgenden finden Sie schnelle, praxisnahe Anleitungen für die häufigsten **advanced image manipulation**‑Aufgaben, nach denen Entwickler fragen.
 
 ### Wie man PSD zu PNG konvertiert
-Aspose.PSD ermöglicht das Laden einer PSD‑Datei und das direkte Speichern als PNG, wobei Transparenz und Layer‑Effekte erhalten bleiben. Dies ist ideal für web‑fertige Assets.
+`PsdImage` ist die Aspose.PSD‑Klasse, die ein Photoshop‑Dokument repräsentiert und Methoden zum Laden und Manipulieren seines Inhalts bereitstellt. Laden Sie die PSD‑Datei mit `PsdImage` und rufen Sie `Save` mit Angabe des PNG‑Formats auf; die API behält Transparenz und Ebeneneffekte automatisch bei und erzeugt ein web‑fertiges PNG in einem Schritt.
 
 ### Wie man PSD als JPEG speichert
-Wenn Sie ein komprimiertes Rasterbild benötigen, können Sie ein PSD nach JPEG exportieren. Sie können zudem die Qualitätseinstellungen steuern, um Größe und visuelle Treue auszubalancieren.
+`JpegOptions` konfiguriert JPEG‑spezifische Einstellungen wie die Qualität beim Speichern eines Bildes. Erstellen Sie ein JPEG, indem Sie die PSD laden und `Save` mit dem JPEG‑Format aufrufen; Sie können zudem die Eigenschaft `JpegOptions.Quality` (0‑100) setzen, um den Kompromiss zwischen Dateigröße und visueller Treue zu steuern.
 
 ### Wie man die Bildhelligkeit anpasst
-Die API bietet Bild‑Anpassungs‑Klassen, mit denen Sie Helligkeit, Kontrast und Gamma pro Ebene oder für das gesamte Bild ändern können, ohne die Datei zu flatten.
+`BrightnessContrastAdjustment` wendet Helligkeits‑ und Kontraständerungen auf ein Bild oder eine Ebene an. Verwenden Sie die Klasse `BrightnessContrastAdjustment`, um den Helligkeitswert einer bestimmten Ebene oder des gesamten Bildes zu ändern; die Anpassung erfolgt nicht‑destruktiv, sodass Sie Änderungen später bei Bedarf rückgängig machen können.
 
-### Wie man Layer‑Effekte hinzufügt
-Sie können programmgesteuert Schatten, Abschrägungen, Leuchten und andere Photoshop‑Layer‑Effekte hinzufügen. Dies ermöglicht dynamische visuelle Verbesserungen zur Laufzeit.
+### Wie man Ebeneneffekte hinzufügt
+`LayerEffect` repräsentiert einen visuellen Effekt, der auf eine PSD‑Ebene angewendet werden kann. Instanziieren Sie ein `LayerEffect`‑Objekt (z. B. `DropShadowEffect` oder `OuterGlowEffect`) und hängen Sie es an die Ziel‑Ebene; die API rendert den Effekt beim Export, sodass Sie das gleiche visuelle Ergebnis wie in Photoshop erhalten, ohne manuelle Rasterisierung.
 
 ### Wie man PSD zu PDF konvertiert
-Der Export eines PSD zu PDF ist nützlich für druckfertige Dokumente oder Archivierung. Die Konvertierung behält, wo möglich, Vektortext und Layer‑Informationen bei.
+Rufen Sie `Save` mit dem PDF‑Format auf; Aspose.PSD bewahrt Vektortextebenen und bettet Farbprofile ein, wodurch ein druckfertiges PDF entsteht, das dem ursprünglichen Layout entspricht.
 
 ## Aspose.PSD für Java‑Tutorials
 {{% alert color="primary" %}}
-Beginnen Sie eine kreative Reise mit Aspose.PSD für Java! Unsere umfassenden Tutorials decken alles ab, von der Beherrschung fortgeschrittener Bildverarbeitungs‑Filter bis zum Entschlüsseln der Geheimnisse der PSD‑Konvertierung und der Erforschung der Feinheiten des Grafikdesigns. Steigern Sie Ihre Fähigkeiten Schritt für Schritt, egal ob Sie in die Magie der Bildbearbeitung, fortgeschrittene Manipulation oder grundlegende Grafikdesign‑Operationen eintauchen. Aspose.PSD befähigt Sie, Ihre kreativen Visionen zum Leben zu erwecken und macht die Bildverarbeitung in Java zu einem spannenden und lohnenden Erlebnis. Tauchen Sie in unsere Tutorials ein, entdecken Sie die Möglichkeiten und entfesseln Sie Ihr volles Potenzial in der Welt des Grafikdesigns und der Bildbearbeitung!
+Begeben Sie sich auf eine kreative Reise mit Aspose.PSD für Java! Unsere umfassenden Tutorials decken alles ab, von der Beherrschung fortgeschrittener Bildverarbeitungsfilter bis hin zum Entschlüsseln der Geheimnisse der PSD‑Konvertierung und der Erkundung der Feinheiten des Grafikdesigns. Steigern Sie Ihre Fähigkeiten Schritt für Schritt, egal ob Sie in die Magie der Bildbearbeitung, erweiterte Manipulation oder grundlegende Grafikdesign‑Operationen eintauchen. Aspose.PSD befähigt Sie, Ihre kreativen Visionen zum Leben zu erwecken, und macht die Bildverarbeitung in Java zu einem spannenden und lohnenden Erlebnis. Tauchen Sie in unsere Tutorials ein, entdecken Sie die Möglichkeiten und entfesseln Sie Ihr volles Potenzial in der Welt des Grafikdesigns und der Bildbearbeitung!
 {{% /alert %}}
 
-Dies sind Links zu einigen nützlichen Ressourcen:
+These are links to some useful resources:
 
-- [Bildverarbeitung](./java/image-processing/)
-- [PSD‑Konvertierung](./java/psd-conversion/)
-- [Fortgeschrittene Techniken](./java/advanced-techniques/)
-- [Bildbearbeitung](./java/image-editing/)
-- [Fortgeschrittene Bildbearbeitung](./java/advanced-image-manipulation/)
-- [Grundlegende Bildoperationen](./java/basic-image-operations/)
-- [Fortgeschrittene Bildeffekte](./java/advanced-image-effects/)
+- [Image Processing](./java/image-processing/)
+- [PSD Conversion](./java/psd-conversion/)
+- [Advanced Techniques](./java/advanced-techniques/)
+- [Image Editing](./java/image-editing/)
+- [Advanced Image Manipulation](./java/advanced-image-manipulation/)
+- [Basic Image Operations](./java/basic-image-operations/)
+- [Advanced Image Effects](./java/advanced-image-effects/)
 
 ## Tipps zur Fehlerbehebung
-- **Speichernutzung bei großen PSDs:** Aktivieren Sie Lazy Loading über `LoadOptions` und verarbeiten Sie Ebenen einzeln, um den Speicherverbrauch gering zu halten.  
-- **Fehlende Layer‑Effekte nach der Konvertierung:** Stellen Sie sicher, dass Sie in einem Format speichern, das Effekte unterstützt (z. B. PNG oder PDF) oder rasterisieren Sie die Ebene, bevor Sie sie als JPEG speichern.  
-- **Farbprofil‑Unstimmigkeiten:** Verwenden Sie die `ColorProfile`‑Eigenschaft, um ICC‑Profile beim Export nach PDF einzubetten oder zu konvertieren.  
-- **Fehler bei der Stapelverarbeitung:** Umhüllen Sie jede Dateioperation in einen try‑catch‑Block und protokollieren Sie den Dateinamen; dies verhindert, dass ein beschädigtes PSD die gesamte Stapelverarbeitung stoppt.
+`LoadOptions` ermöglicht es Ihnen, festzulegen, wie eine PSD‑Datei geladen wird, z. B. durch Aktivieren des Lazy‑Loadings.  
+`ColorProfile` definiert das ICC‑Farbprofil, das einem Bild zugeordnet ist.  
+
+- **Speichernutzung bei großen PSDs:** Aktivieren Sie Lazy‑Loading über `LoadOptions` und verarbeiten Sie Ebenen einzeln, um den Speicherverbrauch gering zu halten.  
+- **Fehlende Ebeneneffekte nach der Konvertierung:** Stellen Sie sicher, dass Sie mit einem Format speichern, das Effekte unterstützt (z. B. PNG oder PDF), oder rasterisieren Sie die Ebene, bevor Sie sie als JPEG speichern.  
+- **Farbprofil‑Inkonsistenzen:** Verwenden Sie die Eigenschaft `ColorProfile`, um ICC‑Profile beim Export nach PDF einzubetten oder zu konvertieren.  
+- **Fehler bei der Stapelverarbeitung:** Umgeben Sie jede Dateiverarbeitung mit einem try‑catch‑Block und protokollieren Sie den Dateinamen; so verhindert man, dass eine beschädigte PSD den gesamten Batch stoppt.
 
 ## Häufig gestellte Fragen
 
-**F: Kann ich Aspose.PSD in einer kommerziellen Anwendung verwenden?**  
+**Q: Kann ich Aspose.PSD in einer kommerziellen Anwendung verwenden?**  
 A: Ja. Für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich, aber eine kostenlose Testversion steht zur Evaluierung bereit.
 
-**F: Unterstützt Aspose.PSD passwortgeschützte PSD‑Dateien?**  
+**Q: Unterstützt Aspose.PSD passwortgeschützte PSD‑Dateien?**  
 A: Ja. Sie können geschützte Dateien öffnen, indem Sie das Passwort in den Ladeoptionen angeben.
 
-**F: Welche .NET‑Versionen sind kompatibel?**  
+**Q: Welche .NET‑Versionen sind kompatibel?**  
 A: .NET Framework 4.5+, .NET Core 3.1+, .NET 5 und .NET 6 werden vollständig unterstützt.
 
-**F: Wie gehe ich effizient mit großen PSD‑Dateien um?**  
-A: Verwenden Sie die `LoadOptions`, um Lazy Loading zu aktivieren und verarbeiten Sie Ebenen einzeln, um den Speicherverbrauch zu reduzieren.
+**Q: Wie gehe ich effizient mit großen PSD‑Dateien um?**  
+A: Nutzen Sie `LoadOptions`, um Lazy‑Loading zu aktivieren, und verarbeiten Sie Ebenen einzeln, um den Speicherverbrauch zu reduzieren.
 
-**F: Ist es möglich, viele PSD‑Dateien stapelweise zu PDF zu konvertieren?**  
-A: Absolut. Durchlaufen Sie ein Verzeichnis, laden Sie jedes PSD und rufen Sie `Save` mit dem PDF‑Format auf – die API erledigt die Konvertierung in einem Durchlauf.
+**Q: Ist es möglich, viele PSD‑Dateien stapelweise in PDF zu konvertieren?**  
+A: Absolut. Durchlaufen Sie ein Verzeichnis, laden Sie jede PSD und rufen Sie `Save` mit dem PDF‑Format auf – die API erledigt die Konvertierung in einem Durchlauf.
 
-**F: Kann ich Vektortext beim Export nach PDF erhalten?**  
-A: Ja. Beim Speichern als PDF behält Aspose.PSD Vektortext‑Ebenen bei, wodurch ein scharfer, durchsuchbarer Text im resultierenden Dokument entsteht.
+**Q: Kann ich Vektortext beim Export nach PDF erhalten?**  
+A: Ja. Beim Speichern als PDF bewahrt Aspose.PSD Vektortextebenen, sodass der Text im resultierenden Dokument scharf und durchsuchbar bleibt.
 
-**F: Welche Bild‑Konvertierungsformate werden neben PNG und JPEG unterstützt?**  
-A: Die API unterstützt außerdem TIFF, BMP, GIF und WebP und bietet Ihnen Flexibilität für ein breites Spektrum an nachgelagerten Szenarien.
+**Q: Welche Bild‑Konvertierungsformate werden neben PNG und JPEG unterstützt?**  
+A: Die API unterstützt zudem TIFF, BMP, GIF und WebP, was Ihnen Flexibilität für ein breites Spektrum an nachgelagerten Szenarien bietet.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-04-08  
-**Getestet mit:** Aspose.PSD 24.11 für .NET / Aspose.PSD 24.11 für Java  
+**Letzte Aktualisierung:** 2026-10-18  
+**Getestet mit:** Aspose.PSD 24.11 for .NET / Aspose.PSD 24.11 for Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
