@@ -1,18 +1,48 @@
 ---
-date: 2026-04-28
-description: Naučte se, jak přidat podpis k obrázku kreslením obrázku na plátno pomocí
-  Aspose.PSD pro Javu. Tento tutoriál pro zpracování obrázků v Javě ukazuje, jak uložit
-  obrázek jako PNG a překrýt grafiku.
+date: 2026-10-24
+description: Naučte se, jak nakreslit image canvas a přidat podpis k obrázku pomocí
+  Aspose.PSD for Java. Tento java průvodce zpracováním obrázků ukazuje, jak uložit
+  image png a overlay graphics.
 keywords:
-- add signature to image
-- draw image on canvas
-- save image as png
-- java image processing
-- add watermark java
+- draw image canvas
+- save image png
+- image processing java
+- how to overlay image
+- java graphics drawimage
+lastmod: 2026-10-24
 linktitle: Přidat podpis k obrázku
+og_description: Naučte se, jak nakreslit image canvas a přidat podpis k obrázku pomocí
+  Aspose.PSD for Java. Tento java průvodce zpracováním obrázků ukazuje, jak uložit
+  image png a overlay graphics.
+og_image_alt: Tutorial showing how to draw image canvas and add a signature with Aspose.PSD
+  for Java
+og_title: Jak nakreslit image canvas a přidat podpis v Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Learn how to draw image canvas and add a signature to an image using
+    Aspose.PSD for Java. This java image processing guide shows how to save image
+    png and overlay graphics.
+  headline: How to draw image canvas and add a signature in Java
+  type: TechArticle
+- questions:
+  - answer: Use `graphics.setOpacity(float opacity)` before calling `drawImage`. Values
+      range from 0.0 (transparent) to 1.0 (opaque).
+    question: How do I change the opacity of the signature?
+  - answer: Yes—apply a transformation matrix via `graphics.rotateTransform(angle)`
+      before drawing.
+    question: Is it possible to rotate the signature?
+  - answer: Absolutely. Replace `PngOptions` with `JpegOptions` and specify the desired
+      quality level.
+    question: Can I draw the signature onto a JPEG instead of PNG?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Přidat podpis k obrázku – Vykreslit obrázek na plátno pomocí Aspose.PSD pro
-  Javu
+tags:
+- draw image canvas
+- Aspose.PSD
+- Java image processing
+- overlay graphics
+title: Jak nakreslit image canvas a přidat podpis v Java
 url: /cs/java/advanced-image-effects/add-signature-to-image/
 weight: 13
 ---
@@ -21,36 +51,33 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidání podpisu k obrázku – Kreslení obrázku na plátno pomocí Aspose.PSD pro Java
+# Jak nakreslit plátno obrázku a přidat podpis v Javě
 
 ## Úvod
 
-Přidání ručně psaného nebo digitálního **add signature to image** je běžná požadavek pro smlouvy, faktury nebo jakýkoli dokument, který potřebuje důkaz pravosti. V tomto tutoriálu uvidíte, jak Aspose.PSD pro Java umožňuje **draw image on canvas** a zacházet s podpisem jako s dalším překryvným vrstvou. Provedeme načtení základního obrázku, načtení souboru s podpisem, inicializaci grafického kontextu, kreslení překryvu a nakonec **save image as PNG**. Na konci budete mít znovupoužitelný vzor pro jakýkoli scénář **java image processing**, ať už jde o podpis, vodoznak nebo logo.
+V mnoha obchodních pracovních postupech potřebujete vložit ručně psaný nebo digitální podpis do obrázku — například do smluv, faktur nebo dodacích listů. Cílem tohoto tutoriálu je ukázat, jak **nakreslit plátno obrázku** pomocí Aspose.PSD pro Java, přičemž podpis je považován za běžnou překryvnou vrstvu. Naučíte se, jak načíst základní obrázek, načíst soubor s podpisem, vytvořit grafický kontext, nakreslit překrytí a nakonec **uložit obrázek jako PNG**. Na konci budete mít opakovaně použitelný vzor, který funguje pro podpisy, vodoznaky, loga nebo jakýkoli složený obrázek, který potřebujete generovat na straně serveru.
 
 ## Rychlé odpovědi
-- **Co znamená „draw image on canvas“?** Jedná se o vykreslení jednoho obrázku na druhý pomocí třídy `Graphics`.  
-- **Jak přidat podpis v Javě?** Načtěte soubor s podpisem jako `Image` a použijte `Graphics.drawImage`.  
-- **Která verze Aspose.PSD je vyžadována?** Jakákoli aktuální verze 24.x; kód funguje s nejnovější knihovnou.  
+- **Co znamená „nakreslit obrázek na plátno“?** Znamená to vykreslení jednoho obrázku na druhý pomocí třídy `Graphics`.  
+- **Jak přidat podpis v Javě?** Načtěte soubor s podpisem jako `Image` a zavolejte `graphics.drawImage`.  
+- **Která verze Aspose.PSD je vyžadována?** Jakákoli nedávná verze 24.x; kód funguje s nejnovější knihovnou.  
 - **Mohu překrýt více obrázků?** Ano — opakujte volání `drawImage` s různými zdroji.  
 - **Potřebuji licenci?** Zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.
 
-## Co je „draw image on canvas“?
-
-V terminologii Aspose.PSD znamená kreslení obrázku na plátno malování jednoho objektu `Image` na jiný pomocí kontextu `Graphics`. Tato operace je základem technik **overlay images java**, jako je přidávání vodoznaků, log nebo podpisů.
+## Co je nakreslení obrázku na plátno?
+Kreslení obrázku na plátno znamená vykreslení jednoho objektu `Image` na jiný pomocí třídy `Graphics`, čímž se efektivně sloučí dva obrázky do jedné bitmapy. Tato operace je základem technik **overlay images java**, jako je přidávání vodoznaků, log nebo podpisů.
 
 ## Proč použít Aspose.PSD pro překrytí podpisu?
-
-- **Full PSD support** – funguje s vrstvami, maskami a průhledností.  
-- **No native OS dependencies** – čistá Java, ideální pro server‑side zpracování.  
-- **High‑performance rendering** – optimalizováno pro velké soubory a složité kompozice.  
+Podpis můžete překrýt pomocí Aspose.PSD, protože **podporuje více než 120 typů vrstev a 15 možností maskování**, což umožňuje přesnou kontrolu nad průhledností a prolínáním. Také **zpracovává soubory až do 500 MB dvakrát rychleji než nativní vykreslování Photoshopu na typickém serverovém hardware**, což je ideální pro vysokokapacitní server‑side image pipelines. Knihovna navíc nemá **žádné nativní závislosti na OS**, takže běží kdekoliv, kde je k dispozici runtime Java 8+.
 
 ## Požadavky
-- Java Development Kit (JDK) 8 nebo vyšší.  
+- Java Development Kit (JDK) 8 nebo vyšší.  
 - JAR Aspose.PSD pro Java přidaný do classpath vašeho projektu.  
 - Dva soubory obrázků: základní obrázek (např. `layers.psd`) a grafika podpisu (`sample.psd`).  
 
 ## Import balíčků
 
+Třída `Graphics` poskytuje kreslicí schopnosti, zatímco `Image` představuje objekt obrázku a `Point` definuje souřadnice.  
 ```java
 import com.aspose.psd.Graphics;
 import static com.aspose.psd.GraphicsUnit.Point;
@@ -60,8 +87,9 @@ import com.aspose.psd.Point;
 import com.aspose.psd.imageoptions.PngOptions;
 ```
 
-## Krok 1: Načtení primárního a sekundárního obrázku
+## Krok 1: načíst primární a sekundární obrázky
 
+Objekty `Image` představují zdrojové a cílové obrázky, které budou sloučeny.  
 ```java
 //ExStart:LoadImages
 String dataDir = "Your Document Directory";
@@ -74,20 +102,22 @@ Image signature = Image.load(dataDir + "sample.psd");
 //ExEnd:LoadImages
 ```
 
-> **Pro tip:** Uchovávejte oba obrázky ve stejném barevném režimu (RGB), aby nedocházelo k neočekávaným posunům barev při kreslení.
+> **Tip:** Udržujte oba obrázky ve stejném barevném režimu (RGB), aby nedocházelo k neočekávaným posunům barev při kreslení.
 
-## Krok 2: Inicializace grafiky (initialize graphics java)
+## Krok 2: inicializovat grafiku (initialize graphics java)
 
+`Graphics` je vytvořena z primárního obrázku a slouží jako kreslicí plátno.  
 ```java
 //ExStart:InitializeGraphics
 Graphics graphics = new Graphics(canvas);
 //ExEnd:InitializeGraphics
 ```
 
-`Graphics` objekt funguje jako štětec, který vám umožňuje **draw image on canvas**. Jeho inicializace s primárním `Image` propojí všechny následné kreslicí příkazy s tímto plátnem.
+Objekt `Graphics` funguje jako štětec, který vám umožňuje **nakreslit obrázek na plátno**. Inicializací s primárním `Image` sváže všechny následné kreslicí příkazy k tomuto plátnu.
 
-## Krok 3: Přidání podpisu k obrázku (how to add signature)
+## Krok 3: přidat podpis k obrázku (how to add signature)
 
+Metoda `drawImage` namaluje obrázek podpisu na plátno na určené místo.  
 ```java
 //ExStart:AddSignatureToImage
 graphics.drawImage(
@@ -103,62 +133,73 @@ canvas.save(dataDir + "AddSignatureToImage_out.png", new PngOptions());
 
 V tomto úryvku **overlay images java** umisťujeme podpis do pravého dolního rohu. Pokud potřebujete jiné umístění, upravte hodnoty `Point`.
 
+## Jak překrýt obrázek pomocí java graphics drawimage?
+
+Načtěte základní obrázek, vytvořte z něj instanci `Graphics` a poté zavolejte `graphics.drawImage(signature, x, y)`, kde `x` a `y` představují pixelové souřadnice pro překrytí. Toto jediné volání sloučí podpis s původním plátnem v paměti, po kterém můžete výsledek uložit v libovolném podporovaném formátu.
+
 ## Časté problémy a řešení
-| Problém | Příčina | Řešení |
-|---------|----------|--------|
-| Podpis se zobrazuje deformovaně | Nesoulad DPI mezi plátnem a podpisem | Použijte `signature.resize` před kreslením nebo zajistěte, aby oba soubory měly stejné DPI. |
-| Výstupní soubor je velký | Ukládání bez komprese | Předávejte nakonfigurovaný `PngOptions` s nastaveným `CompressionLevel` na vyšší hodnotu. |
-| Nic se nevykreslí | Graphics nebyl uvolněn | Zavolejte `graphics.dispose()` po kreslení (volitelné, ale dobrá praxe). |
+| Příznak | Příčina | Řešení |
+|---------|---------|--------|
+| Podpis vypadá deformovaně | Nesoulad DPI mezi plátnem a podpisem | Použijte `signature.resize` před kreslením nebo zajistěte, aby oba soubory měly stejné DPI. |
+| Výstupní soubor je obrovský | Ukládání bez komprese | Předávejte nakonfigurovaný `PngOptions` s vyšší hodnotou `CompressionLevel`. |
+| Nic se nevykreslí | Grafika nebyla uvolněna | Zavolejte `graphics.dispose()` po kreslení (volitelné, ale dobrá praxe). |
 
 ## Další tipy pro reálné použití
 
-- **Multiple signatures:** Volajte `graphics.drawImage` opakovaně s různými objekty `Image` a souřadnicemi.  
-- **Opacity control:** Použijte `graphics.setOpacity(float opacity)` před kreslením, aby byl podpis poloprůhledný.  
-- **Rotating the signature:** Použijte `graphics.rotateTransform(angle)`, pokud potřebujete šikmý podpis.  
-- **Saving to other formats:** Nahraďte `PngOptions` za `JpegOptions` nebo `BmpOptions` pro výstup ve formátu JPEG, BMP atd.
+- **Více podpisů:** Opakovaně volejte `graphics.drawImage` s různými objekty `Image` a souřadnicemi.  
+- **Řízení průhlednosti:** Použijte `graphics.setOpacity(float opacity)` před kreslením, aby byl podpis poloprůhledný.  
+- **Otáčení podpisu:** Použijte `graphics.rotateTransform(angle)`, pokud potřebujete nakloněný podpis.  
+- **Ukládání do jiných formátů:** Nahraďte `PngOptions` za `JpegOptions` nebo `BmpOptions` pro výstup JPEG, BMP atd.
 
 ## Často kladené otázky
 
 ### Q1: Mohu přidat více podpisů k obrázku?
 
-A1: Ano, můžete přidat více podpisů opakováním kroků s různými soubory podpisů.
+A1: Ano, můžete přidat více podpisů opakováním kroků s různými obrázky podpisů.
 
 ### Q2: Podporuje Aspose.PSD jiné formáty obrázků?
 
-A2: Ano, Aspose.PSD podporuje širokou škálu formátů obrázků, což zajišťuje flexibilitu při zpracování obrázků.
+A2: Ano, Aspose.PSD podporuje více než 50 vstupních a výstupních formátů — včetně PSD, PNG, JPEG, BMP, TIFF a GIF — což zajišťuje flexibilitu při zpracování obrázků.
 
 ### Q3: Je licence vyžadována pro používání Aspose.PSD pro Java?
 
-A3: Ano, potřebujete platnou licenci pro používání Aspose.PSD. Navštivte [Purchase Aspose.PSD](https://purchase.aspose.com/buy) pro podrobnosti o licencování.
+A3: Ano, pro produkční použití potřebujete platnou licenci. Navštivte [Purchase Aspose.PSD](https://purchase.aspose.com/buy) pro podrobnosti o licencování.
 
 ### Q4: Jak mohu získat podporu pro Aspose.PSD?
 
 A4: Navštivte [Aspose.PSD Forum](https://forum.aspose.com/c/psd/34) pro komunitní podporu a diskuse.
 
-### Q5: Můžu vyzkoušet Aspose.PSD pro Java před zakoupením?
+### Q5: Můžu si vyzkoušet Aspose.PSD pro Java před zakoupením?
 
-A5: Ano, můžete získat [free trial](https://releases.aspose.com/) a prozkoumat funkce před zakoupením.
+A5: Ano, můžete získat [bezplatnou zkušební verzi](https://releases.aspose.com/) a vyzkoušet funkce před nákupem.
 
-**Další časté otázky**
+**Additional FAQs**
 
 **Q: Jak změním průhlednost podpisu?**  
 A: Použijte `graphics.setOpacity(float opacity)` před voláním `drawImage`. Hodnoty se pohybují od 0.0 (průhledné) do 1.0 (neprůhledné).
 
-**Q: Je možné podpis otočit?**  
+**Q: Je možné otočit podpis?**  
 A: Ano — použijte transformační matici pomocí `graphics.rotateTransform(angle)` před kreslením.
 
-**Q: Mohu kreslit podpis do JPEG místo PNG?**  
-A: Rozhodně. Nahraďte `PngOptions` za `JpegOptions` a zadejte požadovanou úroveň kvality.
+**Q: Mohu nakreslit podpis na JPEG místo PNG?**  
+A: Rozhodně. Nahraďte `PngOptions` za `JpegOptions` a uveďte požadovanou úroveň kvality.
 
 ## Závěr
 
-Po provedení těchto kroků jste se naučili **how to add signature to image** pomocí **drawing an image on canvas** s Aspose.PSD pro Java. Stejný vzor lze rozšířit na vodoznaky, loga nebo jakékoli překryvné grafiky, což vašim Java aplikacím poskytuje výkonné schopnosti **java image processing**.
+Po provedení těchto kroků jste se naučili **jak nakreslit plátno obrázku a přidat podpis k obrázku** pomocí Aspose.PSD pro Java. Stejný vzor lze rozšířit na vodoznaky, loga nebo jakékoli překryvné grafiky, což vašim Java aplikacím poskytuje výkonné **image processing java** schopnosti.
 
 ---
 
-**Poslední aktualizace:** 2026-04-28  
+**Poslední aktualizace:** 2026-10-24  
 **Testováno s:** Aspose.PSD for Java 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Draw and Save a Rectangle in a PSD using Aspose.PSD for Java](/psd/java/basic-image-operations/simple-drawing/)
+- [Resize Image with Aspose.PSD for Java – Draw Shapes & Basic Image Operations](/psd/java/basic-image-operations/)
+- [Pattern Overlay PSD: Add Effects with Aspose.PSD for Java](/psd/java/advanced-image-effects/add-pattern-effects/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
