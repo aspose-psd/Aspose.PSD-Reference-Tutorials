@@ -1,16 +1,83 @@
 ---
-date: 2026-04-12
-description: Tìm hiểu cách thêm hiệu ứng phủ mẫu PSD vào các tệp PSD bằng Aspose.PSD
-  cho Java. Hướng dẫn từng bước kèm ví dụ mã và mẹo khắc phục sự cố.
+date: 2026-10-24
+description: Tìm hiểu cách thêm hiệu ứng lớp phủ mẫu vào tệp PSD bằng Aspose.PSD for
+  Java. Hướng dẫn từng bước với ví dụ mã, mẹo phủ kết cấu, và khắc phục sự cố.
 keywords:
-- pattern overlay psd
-- apply texture overlay
+- how to add pattern overlay
 - change pattern overlay color
-- add pattern overlay
+- psd texture overlay tutorial
+- edit psd layer effect
 - create custom psd pattern
-linktitle: Thêm lớp phủ mẫu
+lastmod: 2026-10-24
+linktitle: Thêm Lớp Phủ Mẫu
+og_description: Cách thêm lớp phủ mẫu trong tệp PSD bằng Aspose.PSD for Java. Thực
+  hiện theo hướng dẫn từng bước này để áp dụng lớp phủ kết cấu, thay đổi màu sắc và
+  tạo mẫu tùy chỉnh.
+og_image_alt: Developer guide showing pattern overlay effect added to a PSD using
+  Aspose.PSD for Java
+og_title: Cách thêm lớp phủ mẫu trong PSD với Aspose.PSD for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Learn how to add pattern overlay effects to PSD files using Aspose.PSD
+    for Java. Step‑by‑step guide with code examples, texture overlay tips, and troubleshooting.
+  headline: How to add pattern overlay in PSD with Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to add pattern overlay effects to PSD files using Aspose.PSD
+    for Java. Step‑by‑step guide with code examples, texture overlay tips, and troubleshooting.
+  name: How to add pattern overlay in PSD with Aspose.PSD for Java
+  steps:
+  - name: Load the PSD image
+    text: Load the source PSD file while enabling the loading of effect resources.
+      LoadOptions configures how a PSD file is read, and `setLoadEffectsResource(true)`
+      ensures effect resources are loaded. > **Pro tip:** Keep `loadOptions.setLoadEffectsResource(true)`;
+      otherwise the pattern overlay effect won’t b
+  - name: Extract existing pattern overlay information
+    text: '`PatternOverlayEffect` represents the pattern overlay layer effect and
+      provides access to its settings. Retrieve the `PatternOverlayEffect` from the
+      target layer (here we assume it’s the second layer, index 1). If your PSD uses
+      a different layer order, adjust the index accordingly.'
+  - name: Modify pattern overlay settings
+    text: Now you can change color, opacity, blend mode, and offsets. These changes
+      directly affect how the pattern is rendered on the layer. > **Why it matters:**
+      Changing the blend mode to `Difference` creates a striking visual contrast,
+      useful for highlighting texture details.
+  - name: Edit the underlying pattern data
+    text: '`PatternFillSettings` holds the bitmap that is tiled as the pattern. Replace
+      the original pattern bitmap with a custom one. The example below builds a tiny
+      4 × 2 pattern using a few basic colors. > **Common pitfall:** Forgetting to
+      update the `PatternId` will leave the old pattern attached, causing '
+  - name: Save the edited image
+    text: Persist the changes to a new file. We also update the pattern name and ID
+      in the settings before saving.
+  - name: Verify the changes
+    text: Reload the saved file and confirm that the overlay reflects the new settings.
+      You can add unit‑test‑style assertions here (e.g., checking `patternOverlayEffect.getOpacity()`
+      equals `193`) to automate verification.
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD for Java works independently, but you can combine it with libraries
+      like ImageIO or TwelveMonkeys for additional format support.
+    question: Can I use Aspose.PSD for Java with other Java image processing libraries?
+  - answer: Refer to the [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/)
+      for a complete API reference.
+    question: Where can I find detailed documentation for Aspose.PSD for Java?
+  - answer: Yes, you can download a free trial from the [Aspose.PSD download page](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.PSD for Java?
+  - answer: Visit the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) for community
+      help or purchase a support plan for direct assistance.
+    question: How can I get support for Aspose.PSD for Java?
+  - answer: Yes, a temporary license is available through the [Aspose temporary license
+      page](https://purchase.aspose.com/temporary-license/).
+    question: Can I obtain a temporary license for Aspose.PSD for Java?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 'Lớp phủ mẫu PSD: Thêm hiệu ứng với Aspose.PSD cho Java'
+tags:
+- pattern overlay
+- Aspose.PSD
+- Java image processing
+- PSD effects
+title: Cách thêm lớp phủ mẫu trong PSD với Aspose.PSD for Java
 url: /vi/java/advanced-image-effects/add-pattern-overlay/
 weight: 12
 ---
@@ -19,35 +86,36 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pattern Overlay PSD: Thêm hiệu ứng với Aspose.PSD cho Java
+# Cách thêm lớp phủ mẫu trong PSD với Aspose.PSD cho Java
 
-Nếu bạn cần **thêm pattern overlay** vào các tệp Photoshop (PSD) từ một ứng dụng Java, Aspose.PSD cho Java giúp công việc trở nên đơn giản. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách tải một PSD, chỉnh sửa cài đặt pattern overlay và lưu kết quả — tất cả bằng mã rõ ràng, sẵn sàng cho môi trường sản xuất. Khi kết thúc, bạn sẽ hiểu tại sao pattern overlay hữu ích cho việc xây dựng thương hiệu, tạo kết cấu và tạo hình ảnh động.
+Nếu bạn cần **thêm lớp phủ mẫu** vào các tệp Photoshop (PSD) từ một ứng dụng Java, Aspose.PSD cho Java giúp thực hiện nhiệm vụ này một cách đơn giản. Trong hướng dẫn này, bạn sẽ học cách tải một tệp PSD, chỉnh sửa cài đặt lớp phủ mẫu của nó và lưu kết quả — tất cả bằng mã rõ ràng, sẵn sàng cho môi trường sản xuất. Khi hoàn thành, bạn sẽ hiểu vì sao lớp phủ mẫu hữu ích cho việc xây dựng thương hiệu, tạo kết cấu và sinh ảnh động.
 
 ## Câu trả lời nhanh
-- **Bạn có thể đạt được gì?** Add or modify pattern overlay effects on any PSD layer.  
-- **Thư viện yêu cầu?** Aspose.PSD for Java (latest version).  
-- **Điều kiện tiên quyết?** JDK 8+, the Aspose.PSD JAR, and a sample PSD file.  
-- **Thời gian triển khai điển hình?** About 10–15 minutes for a basic overlay.  
-- **Tôi có thể tái sử dụng mã không?** Yes – the same approach works for any PSD with pattern resources.
+- **Bạn có thể đạt được gì?** Thêm hoặc chỉnh sửa hiệu ứng lớp phủ mẫu trên bất kỳ lớp PSD nào.  
+- **Thư viện yêu cầu?** Aspose.PSD cho Java (phiên bản mới nhất).  
+- **Yêu cầu tiên quyết?** JDK 8+, thư viện Aspose.PSD JAR và một tệp PSD mẫu.  
+- **Thời gian triển khai điển hình?** Khoảng 10–15 phút cho một lớp phủ cơ bản.  
+- **Tôi có thể tái sử dụng mã không?** Có — cùng một cách tiếp cận hoạt động với bất kỳ PSD nào có tài nguyên mẫu.
 
-## Pattern Overlay PSD là gì?
-Pattern overlay PSD là một hiệu ứng lớp mà lặp lại một bitmap nhỏ (mẫu) trên toàn lớp đã chọn. Nó thường được sử dụng cho kết cấu, dấu thương hiệu, hoặc nền trang trí. Với Aspose.PSD, bạn có thể thay đổi màu sắc, độ dịch, chế độ hòa trộn của mẫu một cách lập trình, và thậm chí thay thế dữ liệu mẫu gốc.
+## PSD lớp phủ mẫu là gì?
 
-## Tại sao nên sử dụng Aspose.PSD cho Java để thêm Pattern Overlay?
-- **Độ trung thực PSD đầy đủ:** Preserve all Photoshop features without losing layer information.  
-- **Không cần Photoshop gốc:** Works on any server or CI environment.  
-- **API phong phú:** Direct access to blend modes, opacity, and pattern resources.  
-- **Đa nền tảng:** Runs on Windows, Linux, and macOS with the same code base.
+PSD lớp phủ mẫu là một hiệu ứng lớp mà lặp lại một bitmap nhỏ (mẫu) trên toàn bộ lớp được chọn. Nó thường được dùng để tạo kết cấu, dấu thương hiệu, hoặc nền trang trí. **Bạn có thể thay đổi màu sắc của mẫu, độ dịch, chế độ hòa trộn và thậm chí thay thế bitmap nền một cách lập trình.**  
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+## Tại sao nên dùng Aspose.PSD cho Java để thêm lớp phủ mẫu?
 
-- Java Development Kit (JDK) đã được cài đặt trên máy của bạn.  
-- Thư viện Aspose.PSD cho Java đã được thêm vào classpath của dự án. Bạn có thể tải xuống từ [Aspose.PSD website](https://releases.aspose.com/psd/java/).  
-- Một tệp PSD mẫu (ví dụ, `PatternOverlay.psd`) đã chứa sẵn hiệu ứng pattern overlay trên một trong các lớp của nó.
+Bạn có thể thêm lớp phủ mẫu mà không cần cài đặt Photoshop, giữ nguyên 100 % độ trung thực của các lớp trong khi chạy trên Windows, Linux hoặc macOS. Aspose.PSD hỗ trợ **hơn 50 định dạng nhập và xuất** và có thể xử lý các tài liệu hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, rất thích hợp cho tự động hoá phía máy chủ.
 
-## Nhập gói
-Trong lớp Java của bạn, nhập các namespace Aspose.PSD cần thiết:
+## Yêu cầu tiên quyết
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+
+- Java Development Kit (JDK) 8 hoặc mới hơn đã được cài đặt.  
+- Thư viện Aspose.PSD cho Java đã được thêm vào classpath của dự án. Bạn có thể tải xuống từ [trang web Aspose.PSD](https://releases.aspose.com/psd/java/).  
+- Một tệp PSD mẫu (ví dụ, `PatternOverlay.psd`) đã chứa hiệu ứng lớp phủ mẫu trên một trong các lớp của nó.
+
+## Nhập các gói
+
+Không gian tên `com.aspose.psd` chứa tất cả các lớp bạn sẽ cần.  
 
 ```java
 import com.aspose.psd.Color;
@@ -69,7 +137,8 @@ import java.util.UUID;
 ## Hướng dẫn từng bước
 
 ### Bước 1: Tải ảnh PSD
-Đầu tiên, tải tệp PSD nguồn đồng thời bật việc tải các tài nguyên hiệu ứng:
+
+Tải tệp PSD nguồn đồng thời bật chế độ tải tài nguyên hiệu ứng. `LoadOptions` cấu hình cách đọc tệp PSD, và `setLoadEffectsResource(true)` đảm bảo các tài nguyên hiệu ứng được tải.  
 
 ```java
 // Load the PSD image
@@ -82,10 +151,11 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-> **Mẹo chuyên nghiệp:** Giữ `loadOptions.setLoadEffectsResource(true)`; nếu không, hiệu ứng pattern overlay sẽ không khả dụng.
+> **Mẹo chuyên nghiệp:** Giữ `loadOptions.setLoadEffectsResource(true)`; nếu không, hiệu ứng lớp phủ mẫu sẽ không khả dụng.
 
-### Bước 2: Trích xuất thông tin Pattern Overlay hiện có
-Lấy `PatternOverlayEffect` từ lớp mục tiêu (ở đây chúng tôi giả sử là lớp thứ hai, chỉ mục 1):
+### Bước 2: Trích xuất thông tin lớp phủ mẫu hiện có
+
+`PatternOverlayEffect` đại diện cho hiệu ứng lớp phủ mẫu và cung cấp quyền truy cập vào các cài đặt của nó. Lấy `PatternOverlayEffect` từ lớp mục tiêu (ở đây chúng tôi giả định nó là lớp thứ hai, chỉ mục 1).  
 
 ```java
 // Extract information about the pattern overlay
@@ -94,8 +164,9 @@ PatternOverlayEffect patternOverlay = (PatternOverlayEffect)im.getLayers()[1].ge
 
 Nếu PSD của bạn sử dụng thứ tự lớp khác, hãy điều chỉnh chỉ mục cho phù hợp.
 
-### Bước 3: Sửa đổi cài đặt Pattern Overlay
-Bây giờ bạn có thể thay đổi màu, độ trong suốt, chế độ hòa trộn và độ dịch. Những thay đổi này ảnh hưởng trực tiếp đến cách mẫu được vẽ trên lớp:
+### Bước 3: Chỉnh sửa cài đặt lớp phủ mẫu
+
+Bây giờ bạn có thể thay đổi màu, độ trong suốt, chế độ hòa trộn và độ dịch. Những thay đổi này sẽ ảnh hưởng trực tiếp đến cách mẫu được vẽ trên lớp.  
 
 ```java
 // Modify pattern overlay settings
@@ -107,10 +178,11 @@ settings.setHorizontalOffset(15);
 settings.setVerticalOffset(11);
 ```
 
-> **Tại sao điều này quan trọng:** Thay đổi chế độ hòa trộn thành `Difference` tạo ra độ tương phản mạnh mẽ, hữu ích cho việc làm nổi bật chi tiết kết cấu.
+> **Tại sao quan trọng:** Thay đổi chế độ hòa trộn thành `Difference` tạo ra độ tương phản mạnh mẽ, hữu ích cho việc làm nổi bật chi tiết kết cấu.
 
-### Bước 4: Chỉnh sửa dữ liệu mẫu gốc
-Thay thế bitmap mẫu gốc bằng một bitmap tùy chỉnh. Ví dụ dưới đây tạo một mẫu nhỏ 4×2 bằng một vài màu cơ bản:
+### Bước 4: Chỉnh sửa dữ liệu mẫu nền
+
+`PatternFillSettings` chứa bitmap được lặp lại làm mẫu. Thay thế bitmap mẫu gốc bằng một bitmap tùy chỉnh. Ví dụ dưới đây tạo một mẫu 4 × 2 nhỏ bằng một vài màu cơ bản.  
 
 ```java
 // Edit the pattern data
@@ -131,10 +203,11 @@ for (int i = 0; i < im.getGlobalLayerResources().length; i++) {
 }
 ```
 
-> **Cạm bẫy thường gặp:** Quên cập nhật `PatternId` sẽ để lại mẫu cũ gắn vào, khiến thay đổi không được áp dụng.
+> **Cạm bẫy phổ biến:** Quên cập nhật `PatternId` sẽ để lại mẫu cũ gắn vào, khiến thay đổi không được áp dụng.
 
 ### Bước 5: Lưu ảnh đã chỉnh sửa
-Lưu các thay đổi vào một tệp mới. Chúng tôi cũng cập nhật tên và ID của mẫu trong cài đặt trước khi lưu:
+
+Ghi lại các thay đổi vào một tệp mới. Chúng tôi cũng cập nhật tên và ID của mẫu trong cài đặt trước khi lưu.  
 
 ```java
 // Save the edited image
@@ -144,7 +217,8 @@ im.save(exportPath);
 ```
 
 ### Bước 6: Xác minh các thay đổi
-Tải lại tệp đã lưu và xác nhận rằng overlay phản ánh các cài đặt mới:
+
+Tải lại tệp đã lưu và xác nhận rằng lớp phủ phản ánh các cài đặt mới.  
 
 ```java
 // Verify the changes in the edited file
@@ -156,48 +230,56 @@ PatternOverlayEffect patternOverlayEffect = (PatternOverlayEffect)img.getLayers(
 
 Bạn có thể thêm các khẳng định kiểu unit‑test ở đây (ví dụ, kiểm tra `patternOverlayEffect.getOpacity()` bằng `193`) để tự động hoá việc xác minh.
 
-## Cách áp dụng Texture Overlay bằng Aspose.PSD
-Nếu mục tiêu của bạn là **áp dụng texture overlay** thay vì một mẫu đơn giản, bạn có thể sử dụng cùng một đối tượng `PatternFillSettings` nhưng cung cấp một bitmap lớn hơn đại diện cho texture. Điều chỉnh `horizontalOffset` và `verticalOffset` để lặp lại texture theo nhu cầu.
+## Cách áp dụng lớp phủ kết cấu bằng Aspose.PSD
 
-## Cách thay đổi màu Pattern Overlay
-Thay đổi màu overlay đơn giản như gọi `settings.setColor(...)`. Ví dụ trong **Bước 3** minh họa việc chuyển màu sang xanh lá. Bạn có thể thử nghiệm với bất kỳ hằng số `Color` nào hoặc tạo giá trị ARGB tùy chỉnh.
+Tải một bitmap lớn hơn vào đối tượng `PatternFillSettings` và lặp lại nó trên lớp. Điều chỉnh `horizontalOffset` và `verticalOffset` để kiểm soát khoảng cách lặp, cho phép bạn kiểm soát hoàn toàn vị trí kết cấu. Bằng cách tinh chỉnh các độ dịch này, bạn có thể tạo ra các kết cấu liền mạch, tránh các vết nối nhìn thấy và căn chỉnh mẫu chính xác với các yếu tố thiết kế khác.
 
-## Cách tạo Pattern PSD tùy chỉnh
-Vòng lặp trong **Bước 4** cho thấy cách tạo một pattern tùy chỉnh bằng lập trình. Bằng cách điền mảng `int[]` với các giá trị ARGB của bạn và xác định kích thước hình chữ nhật, bạn có thể tạo bất kỳ pattern lặp lại nào — hoàn hảo cho việc xây dựng kết cấu đặc thù cho thương hiệu ngay lập tức.
+## Cách thay đổi màu lớp phủ mẫu
+
+Thay đổi màu lớp phủ đơn giản như gọi `settings.setColor(...)`. Phương thức `setColor` gán một `Color` mới cho lớp phủ, sau đó được sử dụng khi mẫu được vẽ. Ví dụ trong **Bước 3** đã minh họa cách chuyển màu sang màu xanh lá. Bạn có thể dùng bất kỳ hằng số `Color` nào hoặc tạo một giá trị ARGB tùy chỉnh.
+
+## Cách tạo mẫu PSD tùy chỉnh
+
+Vòng lặp trong **Bước 4** cho thấy cách tạo mẫu tùy chỉnh bằng lập trình. Bằng cách điền mảng `int[]` với các giá trị ARGB của riêng bạn và xác định kích thước hình chữ nhật, bạn có thể tạo bất kỳ mẫu lặp nào — hoàn hảo để xây dựng các kết cấu đặc trưng cho thương hiệu ngay lập tức.
 
 ## Các vấn đề thường gặp và giải pháp
-| Vấn đề | Lý do | Giải pháp |
-|-------|--------|-----|
-| **Pattern không thay đổi** | `PatternId` không được cập nhật hoặc chỉ mục lớp sai | Đảm bảo bạn sửa đổi `PattResource` đúng và gọi `settings.setPatternId(...)`. |
-| **Màu sắc bị đảo ngược** | Chế độ hòa trộn được đặt thành `Difference` một cách không cố ý | Chọn chế độ hòa trộn phù hợp với ý định thiết kế của bạn (ví dụ, `Normal`, `Overlay`). |
+
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|----------|
+| **Mẫu không thay đổi** | `PatternId` không được cập nhật hoặc chỉ mục lớp sai | Đảm bảo bạn sửa đổi đúng `PattResource` và gọi `settings.setPatternId(...)`. |
+| **Màu sắc bị đảo ngược** | Chế độ hòa trộn được đặt thành `Difference` một cách không cố ý | Chọn chế độ hòa trộn phù hợp với mục đích thiết kế (ví dụ, `Normal`, `Overlay`). |
 | **PSD xuất ra mất lớp** | Sử dụng phiên bản Aspose.PSD lỗi thời | Nâng cấp lên phiên bản Aspose.PSD cho Java mới nhất. |
-| `NullPointerException` on `getEffects()[0]` | Lớp không có hiệu ứng nào được áp dụng | Xác minh lớp thực sự chứa `PatternOverlayEffect` trước khi ép kiểu. |
+| **`NullPointerException` trên `getEffects()[0]`** | Lớp không có hiệu ứng nào được áp dụng | Kiểm tra lớp thực sự chứa `PatternOverlayEffect` trước khi ép kiểu. |
 
 ## Câu hỏi thường gặp
 
-**Q: Tôi có thể sử dụng Aspose.PSD cho Java cùng với các thư viện xử lý ảnh Java khác không?**  
-A: Aspose.PSD cho Java hoạt động độc lập, nhưng bạn có thể kết hợp nó với các thư viện như ImageIO hoặc TwelveMonkeys để hỗ trợ định dạng bổ sung.
+**H: Tôi có thể sử dụng Aspose.PSD cho Java cùng với các thư viện xử lý ảnh Java khác không?**  
+Đ: Aspose.PSD cho Java hoạt động độc lập, nhưng bạn có thể kết hợp nó với các thư viện như ImageIO hoặc TwelveMonkeys để hỗ trợ định dạng bổ sung.
 
-**Q: Tôi có thể tìm tài liệu chi tiết cho Aspose.PSD cho Java ở đâu?**  
-A: Tham khảo [Aspose.PSD for Java documentation](https://reference.aspose.com/psd/java/) để có tài liệu API đầy đủ.
+**H: Tôi có thể tìm tài liệu chi tiết cho Aspose.PSD cho Java ở đâu?**  
+Đ: Tham khảo [tài liệu Aspose.PSD cho Java](https://reference.aspose.com/psd/java/) để có bản tham chiếu API đầy đủ.
 
-**Q: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?**  
-A: Có, bạn có thể tải bản dùng thử miễn phí từ [Aspose.PSD download page](https://releases.aspose.com/).
+**H: Có bản dùng thử miễn phí cho Aspose.PSD cho Java không?**  
+Đ: Có, bạn có thể tải bản dùng thử miễn phí từ [trang tải xuống Aspose.PSD](https://releases.aspose.com/).
 
-**Q: Làm thế nào tôi có thể nhận hỗ trợ cho Aspose.PSD cho Java?**  
-A: Truy cập [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) để nhận trợ giúp cộng đồng hoặc mua gói hỗ trợ để được hỗ trợ trực tiếp.
+**H: Làm thế nào tôi có thể nhận hỗ trợ cho Aspose.PSD cho Java?**  
+Đ: Truy cập [diễn đàn Aspose.PSD](https://forum.aspose.com/c/psd/34) để nhận trợ giúp cộng đồng hoặc mua gói hỗ trợ để được hỗ trợ trực tiếp.
 
-**Q: Tôi có thể nhận giấy phép tạm thời cho Aspose.PSD cho Java không?**  
-A: Có, giấy phép tạm thời có sẵn qua [Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
-
-## Kết luận
-Bạn đã học cách **thêm pattern overlay** vào các tệp PSD bằng Aspose.PSD cho Java. Bằng cách điều chỉnh chế độ hòa trộn, độ trong suốt, độ dịch và bitmap mẫu gốc, bạn có thể tạo ra các kết cấu động và yếu tố thương hiệu trực tiếp từ mã Java của mình. Hãy tự do thử nghiệm với các màu sắc, mẫu và chế độ hòa trộn khác nhau để phù hợp với phong cách hình ảnh của dự án.
+**H: Tôi có thể nhận giấy phép tạm thời cho Aspose.PSD cho Java không?**  
+Đ: Có, giấy phép tạm thời có sẵn qua [trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Cập nhật lần cuối:** 2026-04-12  
-**Kiểm tra với:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Tác giả:** Aspose  
+**Cập nhật lần cuối:** 2026-10-24  
+**Được kiểm tra với:** Aspose.PSD cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Lớp phủ mẫu PSD: Thêm hiệu ứng với Aspose.PSD cho Java](/psd/java/advanced-image-effects/add-pattern-effects/)
+- [Áp dụng lớp phủ màu và đặt độ trong suốt trong Java với Aspose.PSD](/psd/java/image-editing/color-overlay-effect/)
+- [Cách thêm Fill: Thêm lớp Fill màu vào tệp PSD bằng Java](/psd/java/modifying-converting-psd-images/add-color-fill-layer-psd-files/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

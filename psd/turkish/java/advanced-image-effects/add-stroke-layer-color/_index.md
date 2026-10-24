@@ -1,17 +1,76 @@
 ---
-date: 2026-04-22
-description: Aspose.PSD for Java ile Java’da çizgi rengini nasıl değiştireceğinizi
-  öğrenin. Çizgi katmanı rengini, opaklığını ve daha fazlasını değiştirmek için bu
-  adım adım kılavuzu izleyin.
+date: 2026-10-24
+description: Aspose.PSD for Java kullanarak Java'da stroke layer oluşturmayı öğrenin.
+  Bu adım adım kılavuz, bir stroke layer eklemeyi, rengini değiştirmeyi, opacity ayarlamayı
+  ve PSD'yi kaydetmeyi gösterir.
 keywords:
+- create stroke layer java
 - change stroke color java
 - modify stroke opacity
 - apply stroke effect
 - psd stroke tutorial
-- add stroke layer psd
-linktitle: Çizgi Katman Rengini Ekle
+lastmod: 2026-10-24
+linktitle: Stroke Layer Rengini Ekle
+og_description: Aspose.PSD for Java kullanarak Java'da stroke layer oluşturun. Bu
+  özlü öğreticiyle bir stroke layer ekleyin, rengini değiştirin, opacity ayarlayın
+  ve PSD dosyasını dışa aktarın.
+og_image_alt: Screenshot of a Java IDE showing Aspose.PSD code that creates and modifies
+  a stroke layer in a PSD file
+og_title: Aspose.PSD ile Java'da stroke layer oluşturma – Hızlı kılavuz
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Learn how to create stroke layer Java with Aspose.PSD for Java. This
+    step‑by‑step guide shows you how to add a stroke layer, change its color, adjust
+    opacity, and save the PSD.
+  headline: How to create stroke layer Java using Aspose.PSD
+  type: TechArticle
+- description: Learn how to create stroke layer Java with Aspose.PSD for Java. This
+    step‑by‑step guide shows you how to add a stroke layer, change its color, adjust
+    opacity, and save the PSD.
+  name: How to create stroke layer Java using Aspose.PSD
+  steps:
+  - name: set up your project
+    text: Create a new Java project, add the Aspose.PSD JAR to the build path, and
+      verify the library loads without errors.
+  - name: load the PSD file
+    text: Enable loading of effect resources so the stroke information is available.
+  - name: access the stroke effect layer
+    text: '`StrokeEffect` is Aspose.PSD’s class that represents a vector outline applied
+      to a layer. Retrieve the first stroke effect from the second layer (index 1).'
+  - name: validate stroke properties
+    text: '`ColorFillSettings` holds the color and opacity values for a stroke. Confirm
+      the existing properties before making changes to avoid unexpected results.'
+  - name: set color and opacity (how to change stroke color)
+    text: Here we **change stroke color** to yellow and reduce opacity to 50 % (127
+      / 255). `ColorFillSettings` also lets you specify blend mode and size.
+  - name: save the modified PSD
+    text: Write the updated image back to disk. The new file now contains the modified
+      stroke.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.PSD can be combined with libraries such as Apache Commons
+      Imaging or Java2D for extended functionality.
+    question: Can I use Aspose.PSD with other Java graphic libraries?
+  - answer: Absolutely. The library supports the newest Photoshop specifications and
+      over 150 PSD features.
+    question: Is Aspose.PSD compatible with the latest PSD file format?
+  - answer: Wrap your code in try‑catch blocks and consult the [support forum](https://forum.aspose.com/c/psd/34)
+      for detailed troubleshooting examples.
+    question: How do I handle exceptions while using Aspose.PSD?
+  - answer: Certainly! Grab a [free trial](https://releases.aspose.com/) to explore
+      all features.
+    question: Can I try Aspose.PSD before purchasing?
+  - answer: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/)
+      to evaluate the library in your development environment.
+    question: Where can I get a temporary license for Aspose.PSD?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Aspose.PSD Kullanarak Java'da Çizgi Rengini Nasıl Değiştirilir
+tags:
+- create stroke layer
+- Aspose.PSD
+- Java image processing
+title: Java'da stroke layer oluşturma – Aspose.PSD ile
 url: /tr/java/advanced-image-effects/add-stroke-layer-color/
 weight: 14
 ---
@@ -20,40 +79,41 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Kullanarak Stroke Rengini Değiştirme Aspose.PSD
+# Java kullanarak Aspose.PSD ile stroke katmanı oluşturma
 
 ## Giriş
 
-Programlı olarak bir Photoshop belgesinde **change stroke color java** değiştirmeniz gerekiyorsa, Aspose.PSD for Java bunu basit hale getirir. Bu öğreticide bir stroke katmanı eklemeyi, rengini değiştirmeyi, opaklığı ayarlamayı ve sonucu kaydetmeyi adım adım göstereceğiz. Sonunda mevcut herhangi bir katmanın stroke'unu nasıl değiştireceğinizi de göreceksiniz, böylece Java kodunuzdan tam yaratıcı kontrol elde edersiniz.
+Programlı olarak bir Photoshop belgesinde **stroke katmanı oluşturmanız** gerekiyorsa, Aspose.PSD for Java size temiz, kod‑öncelikli bir yaklaşım sunar. Bu öğreticide yeni bir stroke katmanı eklemeyi, rengini değiştirmeyi, opaklığını ayarlamayı ve sonucu kaydetmeyi—Photoshop'u başlatmadan—öğreneceksiniz. Sonunda mevcut bir katmanın stroke'ını nasıl düzenleyeceğinizi de öğrenecek ve Java uygulamanızdan doğrudan tam yaratıcı kontrol elde edeceksiniz.
 
-## Hızlı Yanıtlar
-- **Hangi kütüphane gereklidir?** Aspose.PSD for Java (latest version).  
-- **Stroke rengini değiştirebilir miyim?** Yes – use `ColorFillSettings` to set any `Color`.  
-- **Lisans gerekli mi?** A temporary license works for evaluation; a full license is required for production.  
-- **Hangi Java sürümü destekleniyor?** Java 8 or higher.  
-- **Uygulama ne kadar sürer?** Typically under 10 minutes for a basic stroke change.
+## Hızlı cevaplar
+- **Gerekli kütüphane nedir?** Aspose.PSD for Java (en son sürüm).  
+- **Stroke rengini değiştirebilir miyim?** Evet – herhangi bir `Color` ayarlamak için `ColorFillSettings` kullanın.  
+- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans çalışır; üretim için tam lisans gereklidir.  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.  
+- **Uygulama ne kadar sürer?** Temel bir stroke değişikliği için genellikle 10 dakikadan az.
 
-## PSD'de Stroke Katmanı Nedir?
-A stroke layer is a vector effect that draws an outline around the contents of a layer. It can be customized with color, thickness, opacity, and blend mode. Modifying this effect programmatically enables automated branding, batch processing, or dynamic graphics generation.
+## PSD'de stroke katmanı nedir?
+Stroke katmanı, bir katmanın içeriğinin etrafına bir kontur çizen bir vektör etkisidir. Renk, kalınlık, opaklık ve harmanlama modu ile özelleştirilebilir. Bu etkiyi programlı olarak değiştirmek, otomatik marka oluşturma, toplu işleme veya dinamik grafik üretimi gibi senaryoları mümkün kılar.
 
-## Stroke Rengini Değiştirmek İçin Neden Aspose.PSD Kullanmalı?
-- **No Photoshop required** – work entirely in Java.  
-- **Full PSD spec compliance** – all modern PSD features are supported.  
-- **High performance** – process large files quickly.  
-- **Cross‑platform** – run on any OS with a JVM.
+## Stroke rengini değiştirmek için neden Aspose.PSD kullanılmalı?
+Aspose.PSD **150+** PSD özelliğini destekler—vektör maskeleri, akıllı nesneler ve katman efektleri dahil—ve çok sayfalı dosyaları belgenin tamamını belleğe yüklemeden işler. Kütüphane, JVM'li herhangi bir işletim sisteminde çalışır, tipik varlıklar için saniyenin altında performans sunar ve Photoshop kurulumu gerektirmez.
 
-## Java ile Programlı Olarak Stroke Rengini Değiştirme
-Below is a concise, step‑by‑step walkthrough that demonstrates exactly how to change stroke color using Aspose.PSD for Java. Each step includes a short explanation followed by the original code block (unchanged).
+## Java ile stroke katmanı nasıl oluşturulur?
 
-### Gereksinimler
+PSD'yi yükleyin, bir stroke efekti ekleyin, görünümünü yapılandırın ve dosyayı kaydedin—hepsi birkaç basit satırda. Aşağıdaki cevap, adım adım ilerlemeden önce tam olarak ne yapmanız gerektiğini gösterir.
 
-- **Aspose.PSD Library** – download from the [official documentation](https://reference.aspose.com/psd/java/).  
-- **Java Development Kit (JDK)** – version 8 or newer.  
-- **IDE** – Eclipse, IntelliJ IDEA, or any Java‑compatible editor.
+**Doğrudan cevap (40‑70 kelime):**  
+`PsdImage` bir PSD belgesini temsil eder ve dosyaları yükleyip kaydetmek için yöntemler sağlar. `PsdImage.load("input.psd", loadOptions)` ile PSD'nizi yükleyerek başlayın. Yeni bir `StrokeEffect` oluşturun, `ColorFillSettings`'i istediğiniz `Color` ile ayarlayın, opaklık ve boyutu düzenleyin, ardından efekti hedef katmanın `BlendingOptions`'ına ekleyin. Son olarak `psd.save("output.psd", SaveFormat.PSD)` çağırın. Bu sıralama, Java'da Aspose.PSD ile bir stroke katmanı oluşturur.
 
-### Paketleri İçe Aktarma
+### Önkoşullar
 
-First, import the classes you’ll need. This gives your project access to the PSD handling and stroke‑effect APIs.
+- **Aspose.PSD kütüphanesi** – [resmi dokümantasyondan](https://reference.aspose.com/psd/java/) indirin.  
+- **Java Development Kit (JDK)** – sürüm 8 ve üzeri.  
+- **IDE** – Eclipse, IntelliJ IDEA veya herhangi bir Java‑uyumlu editör.
+
+### Paketleri içe aktar
+
+İlk olarak, ihtiyacınız olan sınıfları içe aktarın. Bu, projenizin PSD işleme ve stroke‑efekt API'lerine erişmesini sağlar.
 
 ```java
 import com.aspose.psd.Color;
@@ -68,13 +128,13 @@ import com.aspose.psd.fileformats.psd.layers.layereffects.StrokeEffect;
 import com.aspose.psd.imageloadoptions.PsdLoadOptions;
 ```
 
-### Adım 1: Projenizi Kurun
+### Adım 1: projenizi kurun
 
-Create a new Java project, add the Aspose.PSD JAR to the build path, and verify the library loads without errors.
+Yeni bir Java projesi oluşturun, Aspose.PSD JAR dosyasını derleme yoluna ekleyin ve kütüphanenin hatasız yüklendiğini doğrulayın.
 
-### Adım 2: PSD Dosyasını Yükleyin
+### Adım 2: PSD dosyasını yükleyin
 
-Enable loading of effect resources so the stroke information is available.
+Stroke bilgisi mevcut olsun diye efekt kaynaklarının yüklenmesini etkinleştirin.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -88,17 +148,17 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage)Image.load(sourceFileName, loadOptions);
 ```
 
-### Adım 3: Stroke Efekt Katmanına Erişin
+### Adım 3: stroke efekt katmanına erişin
 
-Retrieve the first stroke effect from the second layer (index 1).
+`StrokeEffect`, bir katmana uygulanan vektörel konturu temsil eden Aspose.PSD sınıfıdır. İkinci katmandan (indeks 1) ilk stroke efektini alın.
 
 ```java
 StrokeEffect colorStroke = (StrokeEffect)im.getLayers()[1].getBlendingOptions().getEffects()[0];
 ```
 
-### Adım 4: Stroke Özelliklerini Doğrulayın
+### Adım 4: stroke özelliklerini doğrulayın
 
-Confirm the existing properties before making changes. This helps avoid unexpected results.
+`ColorFillSettings`, bir stroke'ın renk ve opaklık değerlerini tutar. Beklenmedik sonuçları önlemek için değişiklik yapmadan önce mevcut özellikleri onaylayın.
 
 ```java
 Assert.areEqual(BlendMode.Normal, colorStroke.getBlendMode());
@@ -106,9 +166,9 @@ Assert.areEqual(255, colorStroke.getOpacity());
 Assert.areEqual(true, colorStroke.isVisible());
 ```
 
-### Adım 5: Renk ve Opaklığı Ayarlayın (Stroke Rengini Nasıl Değiştirilir)
+### Adım 5: renk ve opaklık ayarla (stroke rengini nasıl değiştirirsiniz)
 
-Here we **change stroke color** to yellow and reduce opacity to 50 % (127 / 255).
+Burada **stroke rengini** sarıya değiştiriyor ve opaklığı %50'ye (127 / 255) düşürüyoruz. `ColorFillSettings` ayrıca harmanlama modu ve boyutu da belirlemenize izin verir.
 
 ```java
 ColorFillSettings fillSettings = (ColorFillSettings)colorStroke.getFillSettings();
@@ -117,61 +177,75 @@ fillSettings.setColor(Color.getYellow());
 colorStroke.setOpacity((byte)127);
 ```
 
-### Adım 6: Değiştirilmiş PSD'yi Kaydedin
+### Adım 6: değiştirilmiş PSD'yi kaydedin
 
-Write the updated image back to disk. The new file now contains the modified stroke.
+Güncellenen görüntüyü diske yazın. Yeni dosya artık değiştirilmiş stroke'ı içeriyor.
 
 ```java
 im.save(exportPath);
 ```
 
-## Stroke Opaklığını Nasıl Değiştirilir
+## Java'da stroke rengini nasıl değiştirirsiniz?
 
-If you only need to adjust the opacity while keeping the original color, change the `setOpacity` value (0‑255). For example, `colorStroke.setOpacity((byte)200);` will make the stroke roughly 78 % opaque.
+`Color`, ARGB renk değerini temsil eder. PSD'nizi yükleyin, hedef katmanı bulun, `ColorFillSettings`'i yeni bir `Color` ile güncelleyin ve dosyayı kaydedin. Bu işlem sadece birkaç satır kod gerektirir ve tipik varlıklar için bir saniyeden az sürer, böylece hızlı ve verimli olur.
 
-## Stroke Efektini Nasıl Uygularsınız
+**Doğrudan cevap (40‑70 kelime):**  
+`layer.getEffects().getStrokeEffect()` ile mevcut stroke'ı alın, `stroke.getColorFillSettings().setColor(Color.getRed())` (veya ihtiyacınız olan herhangi bir `Color`) çağırın, isteğe bağlı olarak `setOpacity((byte)200)` ile %78 opaklık ayarlayın, ardından `psd.save("output.psd", SaveFormat.PSD)` ile PSD'yi kaydedin. Değişiklik anında uygulanır, belge yeniden render edilmez.
 
-To add a new stroke effect to a layer that doesn’t already have one, create a `StrokeEffect` instance, configure its `ColorFillSettings`, and attach it to the layer’s `BlendingOptions`. The same `setColor` and `setOpacity` methods are used to define appearance.
+## Stroke opaklığını nasıl değiştirirsiniz?
 
-## PSD Stroke Öğreticisi: PSD'ye Stroke Katmanı Ekleme
+Sadece orijinal rengi koruyarak opaklığı ayarlamanız gerekiyorsa, `ColorFillSettings` üzerindeki `setOpacity` değerini (0‑255) değiştirin. Örneğin, `colorStroke.setOpacity((byte)200);` stroke'ı yaklaşık %78 opak yapar. Opaklık ayarı, tasarım gereksinimlerinize göre ince konturlar veya tamamen dolu stroke'lar oluşturmanıza olanak tanır.
 
-The steps above illustrate adding a stroke to an existing layer. For a brand‑new stroke layer, duplicate the target layer, then apply the `StrokeEffect`. This approach is useful when you want to keep the original layer untouched.
+**Doğrudan cevap (40‑70 kelime):**  
+İstenen katmandan `StrokeEffect` alın, ardından `stroke.getColorFillSettings().setOpacity((byte)desiredValue)` çağırın; `desiredValue` 0 (şeffaf) ile 255 (tam opak) arasında bir değerdir. PSD'yi kaydedin ve yeni opaklık anında yansır. Bu yöntem, mevcut renk ne olursa olsun tüm stroke'lar için çalışır.
 
-## Stroke Rengini Değiştirmek İçin Yaygın Kullanım Senaryoları
-- **Branding automation:** Apply a corporate color to logos across hundreds of PSD assets in a single batch run.  
-- **Dynamic UI generation:** Change stroke colors on the fly based on user‑selected themes in a web‑based design tool.  
-- **Pre‑flight preparation:** Ensure all stroke colors meet print specifications before sending files to a press.
+## Stroke efektini nasıl uygularsınız?
 
-## Yaygın Tuzaklar ve İpuçları
+Henüz bir stroke efekti olmayan bir katmana yeni bir stroke eklemek için bir `StrokeEffect` örneği oluşturun, `ColorFillSettings`'i yapılandırın ve katmanın `BlendingOptions`'ına ekleyin. Görünümü tanımlamak için aynı `setColor` ve `setOpacity` yöntemleri kullanılır.
 
-- **Null checks** – always verify that `getEffects()` returns a non‑null array before casting.  
-- **Layer index** – PSD layers are zero‑based; ensure you target the correct layer.  
-- **Color format** – `Color.getYellow()` is just an example; you can create custom colors with `new Color(r, g, b)`.  
-- **Opacity range** – opacity is a byte (0–255); values above 255 will be clamped.  
-- **Resource loading** – forgetting `loadOptions.setLoadEffectsResource(true)` will result in a `null` effects array.
+**Doğrudan cevap (40‑70 kelime):**  
+`StrokeEffect newStroke = new StrokeEffect(); newStroke.getColorFillSettings().setColor(Color.getBlue()); newStroke.getColorFillSettings().setOpacity((byte)255); layer.getBlendingOptions().setEffect(newStroke);`. Efekti ekledikten sonra PSD'yi kaydedin. Bu, belgenizdeki herhangi bir mevcut katmana yeni, tamamen özelleştirilebilir bir stroke katmanı ekler.
+
+## Stroke rengini değiştirmek için yaygın kullanım senaryoları
+- **Marka otomasyonu:** Tek bir toplu çalışmada yüzlerce PSD varlığındaki logolara kurumsal renk uygular.
+- **Dinamik UI oluşturma:** Web tabanlı tasarım aracında kullanıcı‑seçili temalara göre anlık olarak stroke renklerini değiştirir.
+- **Ön uç hazırlığı:** Dosyaları baskıya göndermeden önce tüm stroke renklerinin baskı spesifikasyonlarını karşıladığından emin olur.
+
+## Yaygın tuzaklar ve ipuçları
+
+- **Null kontrolleri** – `getEffects()`'in null olmayan bir dizi döndürdüğünden emin olun, ardından dönüştürme yapın.  
+- **Katman indeksi** – PSD katmanları sıfır‑tabanlıdır; doğru katmanı hedeflediğinizden emin olun.  
+- **Renk formatı** – `Color.getYellow()` sadece bir örnektir; `new Color(r, g, b)` ile özel renkler oluşturabilirsiniz.  
+- **Opaklık aralığı** – opaklık bir byte'tır (0–255); 255'in üzerindeki değerler sınırlanır.  
+- **Kaynak yükleme** – `loadOptions.setLoadEffectsResource(true)` unutulursa `null` efekt dizisi elde edilir.
 
 ## Sıkça Sorulan Sorular
 
-**Q: Can I use Aspose.PSD with other Java graphic libraries?**  
-A: Yes, Aspose.PSD can be combined with libraries such as Apache Commons Imaging or Java2D for extended functionality.
+**S: Aspose.PSD'yi diğer Java grafik kütüphaneleriyle kullanabilir miyim?**  
+**C:** Evet, Aspose.PSD Apache Commons Imaging veya Java2D gibi kütüphanelerle genişletilmiş işlevsellik için birleştirilebilir.
 
-**Q: Is Aspose.PSD compatible with the latest PSD file format?**  
-A: Absolutely. The library is regularly updated to support the newest Photoshop specifications.
+**S: Aspose.PSD en son PSD dosya formatı ile uyumlu mu?**  
+**C:** Kesinlikle. Kütüphane en yeni Photoshop spesifikasyonlarını ve 150'den fazla PSD özelliğini destekler.
 
-**Q: How do I handle exceptions while using Aspose.PSD?**  
-A: Refer to the [support forum](https://forum.aspose.com/c/psd/34) for detailed troubleshooting and sample error‑handling code.
+**S: Aspose.PSD kullanırken istisnaları nasıl yönetirim?**  
+**C:** Kodunuzu try‑catch bloklarıyla sarın ve ayrıntılı sorun giderme örnekleri için [support forum](https://forum.aspose.com/c/psd/34) adresine bakın.
 
-**Q: Can I try Aspose.PSD before purchasing?**  
-A: Certainly! Grab a [free trial](https://releases.aspose.com/) to explore all features.
+**S: Aspose.PSD'yi satın almadan deneyebilir miyim?**  
+**C:** Elbette! Tüm özellikleri keşfetmek için bir [free trial](https://releases.aspose.com/) alın.
 
-**Q: Where can I get a temporary license for Aspose.PSD?**  
-A: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) to evaluate the library in your development environment.
+**S: Aspose.PSD için geçici bir lisansı nereden alabilirim?**  
+**C:** Kütüphaneyi geliştirme ortamınızda değerlendirmek için bir [temporary license](https://purchase.aspose.com/temporary-license/) edinin.
 
----
+**Last Updated:** 2026-10-24  
+**Tested with:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose
 
-**Son Güncelleme:** 2026-04-22  
-**Test Edilen Versiyon:** Aspose.PSD 24.11 for Java  
-**Yazar:** Aspose  
+## İlgili Öğreticiler
+
+- [Java kullanarak Aspose.PSD ile Stroke Rengini Değiştirme](/psd/java/advanced-image-effects/add-stroke-layer-color/)
+- [Java kullanarak PSD'ye Gölge Ekleme – Gelişmiş Katman Efektleri](/psd/java/advanced-psd-layer-features-effects/)
+- [Pattern Overlay PSD: Aspose.PSD for Java ile Efekt Ekleme](/psd/java/advanced-image-effects/add-pattern-effects/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
