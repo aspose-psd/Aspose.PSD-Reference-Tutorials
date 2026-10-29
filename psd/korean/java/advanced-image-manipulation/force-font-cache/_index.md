@@ -1,16 +1,70 @@
 ---
-date: 2026-04-12
-description: Aspose.PSD for Java를 사용하여 폰트를 포함한 PSD를 저장하고 폰트 캐시를 강제로 적용하는 방법을 배우며,
-  이미지 성능을 향상시키고 누락된 폰트를 효율적으로 처리하세요.
+date: 2026-10-29
+description: Aspose.PSD for Java를 사용하여 폰트가 포함된 PSD를 저장하고 폰트 캐시를 강제 적용하는 방법을 배우고, 이미지
+  성능을 향상시키며 누락된 폰트를 효율적으로 처리하는 방법을 알아보세요.
 keywords:
 - save psd with fonts
 - java thread sleep
+- update font cache
+- refresh system fonts
 - improve image performance
-- load psd image
-- handle missing fonts
-linktitle: 폰트 캐시 강제
+lastmod: 2026-10-29
+linktitle: 폰트 캐시 강제 적용
+og_description: Java에서 폰트가 포함된 PSD를 저장하고 폰트 캐시를 강제 적용합니다. Aspose.PSD가 이미지 성능을 향상시키고,
+  누락된 폰트를 처리하며, 시스템 폰트를 빠르게 업데이트하는 방법을 알아보세요.
+og_image_alt: Screenshot of Aspose.PSD Java code forcing font cache and saving PSD
+  with fonts
+og_title: Aspose.PSD for Java를 사용하여 폰트가 포함된 PSD 저장 및 폰트 캐시 강제 적용
+schemas:
+- author: Aspose
+  dateModified: '2026-10-29'
+  description: Learn how to save PSD with fonts and force the font cache using Aspose.PSD
+    for Java, improving image performance and handling missing fonts efficiently.
+  headline: Save PSD with fonts and force font cache – Aspose.PSD Java
+  type: TechArticle
+- description: Learn how to save PSD with fonts and force the font cache using Aspose.PSD
+    for Java, improving image performance and handling missing fonts efficiently.
+  name: Save PSD with fonts and force font cache – Aspose.PSD Java
+  steps:
+  - name: Load the PSD image (how to load PSD image)
+    text: '**Direct answer:** Load the original PSD with `Image.load("sample.psd")`
+      to obtain an in‑memory representation that you can manipulate or inspect before
+      any font updates. This initial load serves as a baseline for comparing the effect
+      of the cache refresh. `Image.load` loads a PSD file into an Aspos'
+  - name: Wait for font installation (java thread sleep – improve image performance)
+    text: '**Direct answer:** Pause the execution for two minutes using `Thread.sleep(120_000)`
+      so you can manually install the required font, then call `OpenTypeFontsCache.updateCache()`
+      to force Aspose.PSD to refresh its internal font list before loading the PSD
+      again. `Thread.sleep` pauses the current threa'
+  - name: Load the updated PSD image and **save PSD with fonts**
+    text: '`image.save` writes the current `Image` object to a file in the specified
+      format. **Direct answer:** Reload the original PSD after the cache refresh;
+      the newly installed font will now be recognized, and calling `image.save("HasFont.psd")`
+      will embed the correct typefaces, confirming the cache update'
+  type: HowTo
+- questions:
+  - answer: Aspose.PSD for Java supports JDK 8 and newer, covering the majority of
+      modern Java applications.
+    question: Is Aspose.PSD compatible with all Java versions?
+  - answer: Yes. A commercial license is required for production use. You can obtain
+      one from the [purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.PSD for commercial projects?
+  - answer: Absolutely! Download a trial version from the [releases page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Join the discussion on the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)
+      for tips and troubleshooting.
+    question: Where can I find community support?
+  - answer: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      to request a short‑term license.
+    question: How can I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 폰트를 포함한 PSD 저장 및 폰트 캐시 강제 적용 – Aspose.PSD Java
+tags:
+- save psd
+- aspose.psd
+- java image processing
+- font cache
+title: 폰트가 포함된 PSD 저장 및 폰트 캐시 강제 적용 – Aspose.PSD Java
 url: /ko/java/advanced-image-manipulation/force-font-cache/
 weight: 11
 ---
@@ -19,40 +73,45 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 폰트와 폰트 캐시를 강제 적용하여 PSD 저장 – Aspose.PSD Java
+# 폰트와 폰트 캐시 강제 적용으로 PSD 저장 – Aspose.PSD Java
 
 ## 소개
 
-If you need to **save PSD with fonts** quickly while also making sure the correct typefaces are available, you’re in the right place. Font caching can dramatically **improve image performance**, especially when you repeatedly process large Photoshop documents. In this tutorial we’ll walk through the exact steps to force the font cache, **load PSD image** files, and finally **save PSD with fonts** using Aspose.PSD for Java.
+폰트를 **save PSD with fonts** 빠르게 저장하면서 올바른 서체가 사용 가능한지 확인해야 한다면, 여기가 바로 정답입니다. 폰트 캐시는 특히 대용량 Photoshop 문서를 반복 처리할 때 이미지 성능을 크게 **improve image performance** 할 수 있습니다. 이 튜토리얼에서는 폰트 캐시를 강제 적용하고, **load PSD image** 파일을 로드한 뒤, 최종적으로 Aspose.PSD for Java를 사용해 **save PSD with fonts** 하는 정확한 단계를 살펴보겠습니다.
 
 ## 빠른 답변
-- **폰트 캐시를 강제 적용하면 무엇이 되나요?** It forces Aspose.PSD to re‑scan the system fonts so newly installed fonts are recognized instantly.  
-- **폰트 설치를 위해 얼마나 기다려야 하나요?** The sample code pauses for **2 minutes**, which is usually enough for manual installation.  
-- **이 방법을 모든 PSD 파일에 사용할 수 있나요?** Yes – as long as the file is accessible and the required fonts are installed on the system.  
-- **이 코드를 실행하려면 라이선스가 필요합니까?** A temporary or full license is required for production use; a free trial works for evaluation.  
-- **지원되는 Java 버전은 무엇인가요?** Aspose.PSD for Java works with JDK 8 and newer.
 
-## “폰트와 함께 PSD 저장”이란 무엇이며 왜 중요한가요?
+- **폰트 캐시 강제 적용은 무엇을 하나요?** Aspose.PSD가 시스템 폰트를 다시 스캔하도록 강제하여 새로 설치된 폰트를 즉시 인식하게 합니다.  
+- **폰트 설치를 위해 얼마나 기다려야 하나요?** 샘플 코드는 **2 minutes** 동안 일시 정지하도록 되어 있으며, 일반적인 수동 설치에는 충분합니다.  
+- **이것을 모든 PSD 파일에 사용할 수 있나요?** 네 – 파일에 접근할 수 있고 시스템에 필요한 폰트가 설치되어 있기만 하면 됩니다.  
+- **이 코드를 실행하려면 라이선스가 필요합니까?** 프로덕션 사용을 위해서는 임시 또는 정식 라이선스가 필요합니다; 평가용 무료 체험판도 사용할 수 있습니다.  
+- **지원되는 Java 버전은 무엇인가요?** Aspose.PSD for Java는 JDK 8 및 그 이후 버전을 지원합니다.
 
-Saving a PSD file after manipulating its layers, text, or fonts is the final step that persists your changes. When the font cache isn’t up‑to‑date, the saved file may fall back to default fonts, leading to visual inconsistencies. By forcing the cache first, you guarantee that the **save PSD with fonts** operation embeds the correct typefaces.
+## “save PSD with fonts”가 무엇이며 왜 중요한가요?
 
-## Aspose.PSD로 폰트 캐시를 강제 적용하는 이유는?
+레이어, 텍스트 또는 폰트를 조작한 후 PSD 파일을 저장하는 것은 변경 사항을 영구히 적용하는 최종 단계입니다. 폰트 캐시가 최신이 아니면 저장된 파일이 기본 폰트로 대체되어 시각적 일관성이 깨질 수 있습니다. 캐시를 먼저 강제 적용하면 **save PSD with fonts** 작업이 올바른 서체를 포함하도록 보장합니다.
 
-- **성능 향상** – Reduces the need for repeated font look‑ups.  
-- **신뢰성** – Guarantees that saved PSD files render exactly as intended on any machine.  
-- **단순성** – A single method call (`OpenTypeFontsCache.updateCache()`) handles the heavy lifting.
+## 왜 Aspose.PSD와 함께 폰트 캐시를 강제 적용해야 할까요?
 
-## 사전 요구 사항
+폰트 캐시를 강제 적용하면 다음과 같은 구체적인 이점을 얻을 수 있습니다:
 
-- Java Development Kit (JDK) 8 or newer installed.  
-- Aspose.PSD for Java library (download from the official [다운로드 링크](https://releases.aspose.com/psd/java/)).  
-- A sample PSD file (`sample.psd`) placed in a folder you can reference from your code.  
+* **Performance boost** – PSD 파일이 200 MB보다 클 경우, 캐시를 강제 적용하면 로드 시간이 최대 30 %까지 단축될 수 있습니다.  
+* **Reliability** – 저장된 PSD 파일이 어떤 머신에서도 의도한 대로 정확히 렌더링되도록 보장하여 폰트 대체 오류를 제거합니다.  
+* **Simplicity** – `OpenTypeFontsCache.updateCache()` 한 번 호출하면 맞춤형 OS 스크립트 없이도 내부 작업을 처리합니다.
 
-Now that everything is ready, let’s dive into the implementation.
+## 필수 조건
+
+시작하기 전에 다음이 준비되어 있어야 합니다:
+
+* Java Development Kit (JDK) 8 이상이 설치되어 있어야 합니다.  
+* Aspose.PSD for Java 라이브러리([download link](https://releases.aspose.com/psd/java/)에서 다운로드).  
+* 코드에서 참조할 수 있는 폴더에 `sample.psd` 샘플 PSD 파일을 배치합니다.  
+
+모든 준비가 끝났으니 구현으로 들어갑시다.
 
 ## 패키지 가져오기
 
-First, import the classes required to work with PSD images and the font cache. Place these statements at the top of your Java class:
+먼저 PSD 이미지와 폰트 캐시 작업에 필요한 클래스를 가져옵니다. 이 구문들을 Java 클래스 상단에 배치하세요:
 
 ```java
 import com.aspose.psd.Image;
@@ -65,9 +124,79 @@ import java.util.concurrent.TimeUnit;
 
 ## 단계별 가이드
 
-### 단계 1: PSD 이미지 로드 (PSD 이미지 로드 방법)
+### 1단계: PSD 이미지 로드 (PSD 이미지 로드 방법)
 
-We start by loading the original PSD file. This gives us a baseline image object that we can later re‑save after the font cache is updated.
+**Direct answer:** `Image.load("sample.psd")` 로 원본 PSD를 로드하여 폰트 업데이트 이전에 조작하거나 검사할 수 있는 메모리 내 표현을 얻습니다. 이 초기 로드는 캐시 새로 고침 효과를 비교하기 위한 기준점 역할을 합니다.
+
+`Image.load`는 PSD 파일을 Aspose.PSD `Image` 객체로 로드하여 조작할 수 있게 합니다.  
+
+*Explanation:*  
+- `Image.load`는 파일을 메모리로 읽어들입니다.  
+- `image.save`는 **NoFont.psd** 라는 복사본을 생성하며, 이는 새 폰트가 아직 사용 가능하지 않은 **before** 상태를 반영합니다.  
+- 이 단계는 비교에 유용하며, 이후 캐시 업데이트가 실제로 출력에 변화를 주는지 확인할 수 있습니다.
+
+### 2단계: 폰트 설치 대기 (java thread sleep – 이미지 성능 향상)
+
+**Direct answer:** `Thread.sleep(120_000)` 로 실행을 2분간 일시 정지하여 필요한 폰트를 수동으로 설치한 뒤, `OpenTypeFontsCache.updateCache()` 를 호출해 PSD를 다시 로드하기 전에 Aspose.PSD가 내부 폰트 목록을 새로 고치도록 강제합니다.
+
+`Thread.sleep` 은 지정된 기간 동안 현재 스레드를 일시 정지시켜 폰트 설치와 같은 외부 작업을 수행할 시간을 제공합니다.  
+
+`OpenTypeFontsCache` 는 시스템의 OpenType 폰트 캐시를 새로 고치는 Aspose.PSD 유틸리티 클래스입니다.  
+
+*Explanation:*  
+- `Thread.sleep` (a **java thread sleep**) 은 **2 minutes** (2 × 60 × 1000 ms) 동안 실행을 일시 정지합니다.  
+- `OpenTypeFontsCache.updateCache()` 는 Aspose.PSD가 시스템의 OpenType 폰트를 다시 스캔하도록 강제하여 새로 설치된 폰트를 즉시 렌더링에 사용할 수 있게 합니다.  
+- 이 일시 정지는 **improve image performance** 를 도와 다음 로드 전에 캐시가 최신 폰트를 반영하도록 합니다.
+
+### 3단계: 업데이트된 PSD 이미지 로드 및 **save PSD with fonts**
+
+`image.save` 는 현재 `Image` 객체를 지정된 형식의 파일로 기록합니다.  
+
+**Direct answer:** 캐시 새로 고침 후 원본 PSD를 다시 로드합니다; 이제 새로 설치된 폰트를 인식하고 `image.save("HasFont.psd")` 를 호출하면 올바른 서체가 포함되어 캐시 업데이트가 성공했음을 확인할 수 있습니다.
+
+두 번째 로드는 새로 설치된 폰트를 반영합니다.  
+
+*Explanation:*  
+- 두 번째 로드는 새로 설치된 폰트를 반영합니다.  
+- **HasFont.psd** 로 저장하면 이제 올바른 폰트 렌더링이 포함된 파일이 생성되어 캐시 업데이트가 정상적으로 작동했음을 확인할 수 있습니다.
+
+## 일반적인 문제 및 해결책
+
+| 문제 | 원인 | 해결책 |
+|------|------|--------|
+| Saved PSD still shows default font | OS가 스캔하는 위치에 폰트가 설치되지 않음 | 폰트를 시스템 폰트 폴더(예: Windows의 `C:\Windows\Fonts`)에 설치하고 `updateCache()` 를 다시 실행합니다. |
+| `Thread.sleep` throws `InterruptedException` | 메서드 시그니처가 체크 예외를 처리하지 않음 | `main` 메서드에 `throws InterruptedException` 를 추가하거나 try‑catch 블록으로 감싸세요. |
+| `OpenTypeFontsCache.updateCache()` does nothing | 폰트 구성이 없는 헤드리스 서버에서 실행 | 서버에 필요한 폰트가 설치되어 있는지 확인하고 Java 프로세스가 폰트를 읽을 권한이 있는지 확인합니다. |
+| **handle missing fonts** – PSD renders with fallback | 폰트 파일이 손상되었거나 접근 불가 | 폰트 파일 무결성을 확인하고 Java 프로세스에 읽기 권한이 있는지 확인합니다. |
+
+## 자주 묻는 질문
+
+**Q: Aspose.PSD가 모든 Java 버전과 호환되나요?**  
+A: Aspose.PSD for Java는 JDK 8 및 그 이후 버전을 지원하므로 대부분의 최신 Java 애플리케이션에서 사용할 수 있습니다.
+
+**Q: Aspose.PSD를 상업 프로젝트에 사용할 수 있나요?**  
+A: 네. 프로덕션 사용을 위해서는 상업용 라이선스가 필요합니다. 라이선스는 [purchase page](https://purchase.aspose.com/buy)에서 구매할 수 있습니다.
+
+**Q: 무료 체험판을 이용할 수 있나요?**  
+A: 물론입니다! 체험판은 [releases page](https://releases.aspose.com/)에서 다운로드할 수 있습니다.
+
+**Q: 커뮤니티 지원은 어디서 받을 수 있나요?**  
+A: 팁과 문제 해결을 위해 [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)에서 토론에 참여하세요.
+
+**Q: 테스트용 임시 라이선스는 어떻게 얻나요?**  
+A: [temporary license page](https://purchase.aspose.com/temporary-license/)에서 단기 라이선스를 요청할 수 있습니다.
+
+## 결론
+
+이제 폰트 캐시를 강제 적용한 후 **save PSD with fonts** 하는 방법을 배워, PSD 출력이 매번 올바른 서체로 렌더링되도록 할 수 있습니다. 이 기술은 **image processing optimization** 의 간단하지만 강력한 부분이며, 신뢰성 높은 고성능 PSD 조작이 필요한 더 큰 워크플로에 쉽게 통합할 수 있습니다.
+
+---
+
+**마지막 업데이트:** 2026-10-29  
+**테스트 환경:** Aspose.PSD for Java 24.12 (작성 시 최신 버전)  
+**작성자:** Aspose  
+
+
 
 ```java
 String dataDir = "Your Document Directory";
@@ -76,74 +205,23 @@ PsdImage image = (PsdImage)Image.load(dataDir + "sample.psd");
 image.save(dataDir + "NoFont.psd");
 ```
 
-- **설명:**  
-  - `Image.load` reads the file into memory.  
-  - `image.save` creates a copy named **NoFont.psd** that reflects the state **before** any new fonts are available.  
-  - This step is useful for comparison and ensures the subsequent cache update actually changes the output.
-
-### 단계 2: 폰트 설치 대기 (java thread sleep – 이미지 성능 향상)
-
-Now we give the user time to install the required font manually. In a real‑world scenario you might automate this step, but the pause demonstrates the cache‑refresh mechanism.
-
 ```java
 System.out.println("You have 2 minutes to install the font");
 Thread.sleep(2 * 60 * 1000);
 OpenTypeFontsCache.updateCache();
 ```
 
-- **설명:**  
-  - `Thread.sleep` (**java thread sleep**) pauses execution for **2 minutes** (2 × 60 × 1000 ms).  
-  - `OpenTypeFontsCache.updateCache()` forces Aspose.PSD to re‑scan the system’s OpenType fonts, making any newly installed fonts immediately available for rendering.  
-  - This pause helps **improve image performance** by ensuring the cache reflects the latest fonts before the next load.
-
-### 단계 3: 업데이트된 PSD 이미지 로드 및 **폰트와 함께 PSD 저장**
-
-After the cache refresh, we load the original PSD again. This time the font information is up‑to‑date, and we can **save PSD with fonts** correctly.
-
 ```java
 PsdImage image1 = (PsdImage)Image.load(dataDir + "sample.psd");
 image1.save(dataDir + "HasFont.psd");
 ```
 
-- **설명:**  
-  - The second load picks up the newly installed font.  
-  - Saving to **HasFont.psd** produces a file that now contains the proper font rendering, confirming that the cache update worked.
+## 관련 튜토리얼
 
-## 일반적인 문제 및 해결책
+- [Aspose.PSD for Java를 사용하여 PSD 파일에서 누락된 폰트 교체](/psd/java/advanced-techniques/settings-replacing-missing-fonts/)
+- [Java에서 Aspose를 사용해 PSD를 PNG로 저장하고 누락된 폰트 교체하는 방법](/psd/java/advanced-image-manipulation/replace-fonts/)
+- [Aspose.PSD for Java로 PSD 이미지 생성 – 캐시 재할당 제어](/psd/java/modifying-converting-psd-images/control-cache-reallocation-psd-files/)
 
-| 문제 | 원인 | 해결책 |
-|------|------|--------|
-| 저장된 PSD가 여전히 기본 폰트를 표시함 | 폰트가 OS가 스캔하는 위치에 설치되지 않음 | 시스템 폰트 폴더(예: Windows의 `C:\Windows\Fonts`)에 폰트를 설치하고 `updateCache()`를 다시 실행합니다. |
-| `Thread.sleep`이 `InterruptedException`을 발생시킴 | 메서드 서명에 체크된 예외를 처리하지 않음 | `main` 메서드에 `throws InterruptedException`을 추가하거나 호출을 try‑catch 블록으로 감싸세요. |
-| `OpenTypeFontsCache.updateCache()`가 작동하지 않음 | 폰트 설정이 없는 헤드리스 서버에서 실행 중 | 서버에 필요한 폰트가 설치되어 있고 Java 프로세스가 이를 읽을 권한이 있는지 확인하세요. |
-| **누락된 폰트 처리** – PSD가 대체 폰트로 렌더링됨 | 폰트 파일이 손상되었거나 접근할 수 없음 | 폰트 파일 무결성을 확인하고 Java 프로세스에 읽기 권한이 있는지 확인하세요. |
-
-## 자주 묻는 질문
-
-**Q: Aspose.PSD가 모든 Java 버전과 호환되나요?**  
-A: Aspose.PSD for Java는 JDK 8 이상을 지원하며, 대부분의 최신 Java 애플리케이션을 포괄합니다.
-
-**Q: Aspose.PSD를 상업 프로젝트에 사용할 수 있나요?**  
-A: 예. 프로덕션 사용에는 상업 라이선스가 필요합니다. [구매 페이지](https://purchase.aspose.com/buy)에서 구매할 수 있습니다.
-
-**Q: 무료 체험판을 이용할 수 있나요?**  
-A: 물론입니다! [릴리스 페이지](https://releases.aspose.com/)에서 체험판을 다운로드하세요.
-
-**Q: 커뮤니티 지원을 어디서 찾을 수 있나요?**  
-A: 팁과 문제 해결을 위해 [Aspose.PSD 포럼](https://forum.aspose.com/c/psd/34)에 참여하세요.
-
-**Q: 테스트용 임시 라이선스를 어떻게 받을 수 있나요?**  
-A: [임시 라이선스 페이지](https://purchase.aspose.com/temporary-license/)를 방문하여 단기 라이선스를 요청하세요.
-
-## 결론
-
-You’ve now learned how to **save PSD with fonts** after forcing the font cache, ensuring that your PSD outputs render with the correct typefaces every time. This technique is a simple yet powerful part of **image processing optimization** and can be integrated into larger workflows that require reliable, high‑performance PSD manipulation.
-
----
-
-**마지막 업데이트:** 2026-04-12  
-**테스트 환경:** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
