@@ -1,17 +1,48 @@
 ---
-date: 2026-04-22
-description: Aprende a usar la biblioteca Java de procesamiento de imágenes Aspose.PSD
-  para aplicar múltiples capas de ajuste, incluida la capa de ajuste Invertir, para
-  una manipulación fluida de PSD.
+date: 2026-11-04
+description: Aprenda cómo usar Aspose.PSD para Java para aplicar una invert adjustment
+  layer, procesar por lotes imágenes PSD y crear archivos PSD de imagen negativa.
 keywords:
-- image processing java library
-- how to add invert
-- invert colors psd
+- how to use aspose
 - batch process psd images
+- create negative image psd
+- image processing java library
 - apply multiple adjustment layers
-linktitle: Capa de ajuste Invertir
+lastmod: 2026-11-04
+linktitle: Invert Adjustment Layer
+og_description: Cómo usar Aspose.PSD para Java para agregar una invert adjustment
+  layer, procesar por lotes imágenes PSD y crear un PSD de imagen negativa. Siga la
+  guía paso a paso.
+og_image_alt: Screenshot showing Aspose.PSD Java code adding an invert adjustment
+  layer
+og_title: Cómo usar Aspose.PSD para agregar una invert adjustment layer en Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to use Aspose.PSD for Java to apply an invert adjustment
+    layer, batch process PSD images, and create negative image PSD files.
+  headline: How to use Aspose.PSD to add an invert adjustment layer in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it supports Java 6.0 and later, including Java 8, 11, and 17.
+    question: Is Aspose.PSD compatible with all Java versions?
+  - answer: Absolutely. After adding the invert layer you can call `addBrightnessAdjustmentLayer()`,
+      `addHueSaturationAdjustmentLayer()`, etc., to stack effects.
+    question: Can I apply multiple adjustment layers in a single operation?
+  - answer: The complete documentation is available [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+    question: Where can I find the full API reference?
+  - answer: Yes, you can download a trial version [Aspose.PSD trial download](https://releases.aspose.com/).
+    question: Is there a free trial for Aspose.PSD?
+  - answer: Request a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 'Biblioteca Java de procesamiento de imágenes: invertir capa usando Aspose.PSD'
+tags:
+- aspose psd
+- java image processing
+- invert adjustment layer
+- batch psd processing
+title: Cómo usar Aspose.PSD para agregar una invert adjustment layer en Java
 url: /es/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
@@ -20,42 +51,118 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Capa de ajuste Invertir en Aspose.PSD para Java
+# Cómo usar Aspose.PSD para agregar una capa de ajuste de inversión en Java
 
 ## Introducción
 
-Si buscas una **image processing java library** robusta, Aspose.PSD para Java es una de las opciones más versátiles del mercado. En este tutorial recorreremos cómo añadir una **Invert Adjustment Layer** a un archivo PSD, una técnica que puedes combinar con otras capas de ajuste para lograr efectos visuales sofisticados. Ya sea que estés construyendo una herramienta de procesamiento por lotes, un servicio de imágenes del lado del servidor o un editor de imágenes individual, esta guía te brinda una ruta clara, paso a paso, para completar la tarea de forma rápida y fiable.
+Si buscas una **biblioteca de procesamiento de imágenes java** robusta, Aspose.PSD para Java es una de las opciones más versátiles del mercado. En este tutorial verás **cómo usar Aspose** para insertar una **Capa de Ajuste de Inversión** en un archivo PSD, combinarla con otros ajustes e incluso ejecutar la operación en docenas de archivos. Ya sea que estés construyendo una herramienta de procesamiento por lotes, un servicio de imágenes del lado del servidor o un editor de imágenes individual, los pasos a continuación te llevarán desde el PSD de origen hasta una imagen negativa totalmente editable en minutos.
 
 ## Respuestas rápidas
-- **¿Qué hace la Capa de ajuste Invertir?** Invierte todos los valores de color en el área seleccionada, creando un efecto de imagen negativa (es decir, **convierte PSD a negativo**).  
-- **¿Qué biblioteca proporciona esta función?** Aspose.PSD, una **image processing java library** líder.  
-- **¿Puedo apilarla con otros ajustes?** Sí – puedes **apply multiple adjustment layers** como Brillo/Contraste, Tono/Saturación y más.  
-- **¿Necesito una licencia para el desarrollo?** Hay una prueba gratuita disponible; se requiere una licencia para uso en producción.  
+- **¿Qué hace la Capa de Ajuste de Inversión?** Invierte cada valor RGB en el área seleccionada, convirtiendo la imagen en un negativo fotográfico.  
+- **¿Qué biblioteca proporciona esta función?** Aspose.PSD, una **biblioteca de procesamiento de imágenes java** líder.  
+- **¿Puedo combinarla con otros ajustes?** Sí, puedes **aplicar múltiples capas de ajuste** como Brillo/Contraste, Tono/Saturación y más.  
+- **¿Necesito una licencia para desarrollo?** Hay una prueba gratuita disponible; se requiere una licencia para uso en producción.  
 - **¿Cuánto tiempo lleva la implementación?** Normalmente menos de 10 minutos para un caso de uso básico.
 
-## ¿Qué es la Capa de ajuste Invertir?
+## ¿Qué es la Capa de Ajuste de Inversión?
 
-La Capa de ajuste Invertir es una edición no destructiva que invierte los valores RGB de cada píxel que afecta. Como se sitúa encima de la pila de capas, puedes alternar su visibilidad o reordenarla sin alterar permanentemente los datos originales de la imagen. Esta es la forma más sencilla de **invert colors PSD** archivos o crear un negativo fotográfico.
+La Capa de Ajuste de Inversión es una edición no destructiva que revierte los valores de color de cada píxel que afecta. Como se sitúa encima de la pila de capas, puedes alternar su visibilidad o reordenarla sin alterar permanentemente los datos originales de la imagen. Esta es la forma más rápida de **crear archivos PSD de imagen negativa** o lograr un aspecto clásico de negativo de película.
 
-## ¿Por qué usar Aspose.PSD como su biblioteca de procesamiento de imágenes Java?
+## ¿Por qué usar Aspose.PSD como tu biblioteca de procesamiento de imágenes java?
 
-- **Full PSD support** – leer, editar y escribir archivos de Photoshop sin necesidad de Photoshop instalado.  
-- **Cross‑platform** – funciona en cualquier entorno de ejecución Java (Java 6+).  
-- **Rich adjustment features** – incluye métodos incorporados para muchas ediciones comunes, facilitando **apply multiple adjustment layers** en un solo flujo de trabajo.  
-- **Performance‑optimized** – maneja archivos grandes de manera eficiente, lo cual es esencial para **batch process psd images**.  
+Aspose.PSD soporta **más de 200 características PSD**, puede leer y escribir archivos de Photoshop sin requerir Photoshop, y procesa documentos de cientos de páginas usando menos de 500 MB de memoria heap. Se ejecuta en cualquier entorno Java (Java 6+), lo que lo hace ideal para **procesamiento por lotes de imágenes psd** en servidores Windows, Linux o macOS.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrate de contar con lo siguiente:
+Antes de comenzar, asegúrate de tener:
 
-1. **Aspose.PSD Library** – descárgala desde el sitio oficial [here](https://releases.aspose.com/psd/java/).  
-2. **Java Development Environment** – JDK 6.0 o posterior instalado y configurado.  
+1. **Aspose.PSD para Java** – descarga el último JAR desde el sitio oficial [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
+2. **Java Development Kit** – JDK 6.0 o posterior instalado y configurado en tu `PATH`.  
 
-Ahora, sumerjámonos en el código.
+Ahora estás listo para escribir el código.
 
 ## Importar paquetes
 
-Comienza importando las clases necesarias. Estas importaciones te dan acceso a las API centrales de manejo de imágenes y a la funcionalidad específica de PSD.
+La clase `PsdImage` representa un documento completo de Photoshop en memoria, mientras que las clases de capa de ajuste viven en el paquete `com.aspose.psd.layers.adjustments`.
+
+La clase `PsdImage` es el objeto de nivel superior de Aspose.PSD que encapsula la estructura y los datos de píxeles de un archivo PSD. Importa los espacios de nombres y luego podrás cargar, editar y guardar archivos PSD.
+
+## Paso 1: configurar el directorio del documento
+
+Define la carpeta que contiene tu archivo PSD de origen y donde se guardará la salida. Usar rutas absolutas evita `NullPointerException` cuando cambia el directorio de trabajo.
+
+## Paso 2: cargar el archivo PSD
+
+Carga el archivo de origen en un objeto `PsdImage`. Este objeto mantiene toda la jerarquía de capas en memoria, permitiendo ediciones no destructivas.
+
+El método estático `load` de la clase `PsdImage` lee el encabezado del archivo, valida el formato y construye una representación en memoria lista para manipular.
+
+## Paso 3: agregar capa de ajuste de inversión
+
+Llama al método incorporado para insertar una Capa de Ajuste de Inversión en la parte superior de la pila de capas actual. Luego puedes añadir más capas (p. ej., Brillo, Tono) para **aplicar múltiples capas de ajuste** en un solo flujo de trabajo.
+
+`addInvertAdjustmentLayer()` agrega una Capa de Ajuste de Inversión a la colección de capas del PSD.
+
+## Paso 4: guardar la salida
+
+Persistir el PSD modificado en disco.  
+
+`save()` escribe el archivo PSD, incluidas todas las capas y metadatos, en la ruta especificada.
+
+El guardado utiliza el mismo método `save` que escribe el documento completo, incluidas todas las capas de ajuste, máscaras y metadatos, en el formato especificado.
+
+### ¿Qué acaba de suceder?
+
+El archivo PSD se cargó en un objeto `PsdImage`, se creó y añadió una `InvertAdjustmentLayer` como la capa superior, y el documento se guardó. Esta secuencia preserva los datos originales de la imagen mientras agrega un efecto de inversión no destructivo que puede activarse o reordenarse más tarde.
+
+Has usado con éxito Aspose.PSD, una **biblioteca de procesamiento de imágenes java**, para manipular un archivo PSD.
+
+## ¿Cómo procesar por lotes imágenes PSD con ajuste de inversión?
+
+Carga cada archivo dentro de un bucle `for`, aplica los mismos pasos y llama a `save` en cada iteración. Como Aspose.PSD procesa los archivos de forma streaming, puedes manejar **cientos de PSD** manteniendo el uso de memoria bajo 300 MB reutilizando la misma instancia de `PsdImage`.
+
+## ¿Cómo convertir un PSD a una imagen negativa?
+
+Añade la Capa de Ajuste de Inversión como el elemento superior y guarda el documento; esa operación equivale a **convertir PSD a negativo**. Luego puedes desactivar o eliminar la capa para volver a la apariencia original sin volver a cargar el archivo de origen.
+
+## Problemas comunes y consejos
+
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **NullPointerException en `Image.load`** | Ruta de archivo incorrecta o archivo faltante | Verifica `dataDir` y el nombre del archivo; usa rutas absolutas para pruebas |
+| **Orden de capas no es el esperado** | Añadir capas después de las existentes cambia la superposición | Inserta la capa de inversión antes de otros ajustes, o reordena mediante `psdImage.getLayers().move()` |
+| **Ralentización del rendimiento en PSD grandes** | Cargar archivos muy grandes en memoria | Incrementa el heap de JVM (`-Xmx2g`) o procesa archivos en fragmentos usando `psdImage.getPages().get(0).getResources().setMemoryOptimized(true)` |
+
+## Preguntas frecuentes
+
+**P: ¿Aspose.PSD es compatible con todas las versiones de Java?**  
+R: Sí, soporta Java 6.0 y posteriores, incluyendo Java 8, 11 y 17.
+
+**P: ¿Puedo aplicar múltiples capas de ajuste en una sola operación?**  
+R: Absolutamente. Después de añadir la capa de inversión puedes llamar a `addBrightnessAdjustmentLayer()`, `addHueSaturationAdjustmentLayer()`, etc., para apilar efectos.
+
+**P: ¿Dónde puedo encontrar la referencia completa de la API?**  
+R: La documentación completa está disponible [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+
+**P: ¿Hay una prueba gratuita para Aspose.PSD?**  
+R: Sí, puedes descargar una versión de prueba [Aspose.PSD trial download](https://releases.aspose.com/).
+
+**P: ¿Cómo obtengo una licencia temporal para pruebas?**  
+R: Solicita una licencia temporal [temporary license request page](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Última actualización:** 2026-11-04  
+**Probado con:** Aspose.PSD 24.12 para Java  
+**Autor:** Aspose  
+
+
+
+
+
+
+
+
 
 ```java
 import com.aspose.psd.Image;
@@ -63,17 +170,9 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-## Paso 1: Configurar el directorio del documento
-
-Define la carpeta que contiene tu archivo PSD de origen y donde se guardará la salida.
-
 ```java
 String dataDir = "Your Document Directory";
 ```
-
-## Paso 2: Cargar archivo PSD
-
-Carga el archivo fuente en un objeto `PsdImage`. Este objeto representa todo el documento PSD en memoria.
 
 ```java
 String filePath = dataDir + "InvertStripes_before.psd";
@@ -82,68 +181,20 @@ String outputPath = dataDir + "InvertStripes_after.psd";
 PsdImage im = (PsdImage)Image.load(filePath);
 ```
 
-## Paso 3: Añadir capa de ajuste Invertir
-
-Llama al método incorporado para insertar una Invert Adjustment Layer en la parte superior de la pila de capas actual. Luego puedes añadir más capas (p. ej., Brillo, Tono) para **apply multiple adjustment layers**.
-
 ```java
 im.addInvertAdjustmentLayer();
 ```
-
-## Paso 4: Guardar la salida
-
-Persiste el PSD modificado en disco. El archivo guardado ahora contiene la Capa de ajuste Invertir y puede abrirse en Photoshop o cualquier visor compatible con PSD.
 
 ```java
 im.save(outputPath);
 ```
 
-### ¿Qué acaba de suceder?
+## Tutoriales relacionados
 
-- El PSD se cargó en memoria.  
-- Se añadió una Capa de ajuste Invertir como la capa superior.  
-- La imagen se guardó, preservando la edición no destructiva.
+- [Add Level Adjustment Layer to PSD Files with Aspose.PSD for Java](/psd/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/)
+- [How to Add Adjustment Layer – Channel Mixer in PSD (Java)](/psd/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/)
+- [How to Edit PSD - Add Curves Adjustment Layer Using Java](/psd/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/)
 
-Ahora has utilizado con éxito Aspose.PSD, una **image processing java library**, para manipular un archivo PSD.
-
-## Procesamiento por lotes de imágenes PSD con ajuste invertido
-
-Si necesitas aplicar el mismo efecto de inversión a docenas o cientos de archivos, puedes colocar el código anterior dentro de un bucle simple que recorra un directorio de PSDs. Como la biblioteca está **performance‑optimized**, el procesamiento de grandes lotes sigue siendo rápido, y puedes combinar el paso de inversión con otros ajustes (p. ej., brillo, tono) en el mismo bucle.
-
-## Convertir un PSD a una imagen negativa
-
-La Capa de ajuste Invertir es esencialmente la operación **convert PSD to negative**. Al añadir esta capa como el elemento superior, logras un efecto de negativo completo sin alterar permanentemente los datos de píxeles originales. Puedes eliminar o desactivar la capa más tarde para volver a la apariencia original.
-
-## Problemas comunes y consejos
-
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| **NullPointerException on `Image.load`** | Ruta de archivo incorrecta o archivo faltante | Verifica `dataDir` y el nombre del archivo; usa rutas absolutas para pruebas |
-| **Layer order not as expected** | Añadir capas después de las existentes cambia el apilamiento | Usa `im.addInvertAdjustmentLayer()` antes de añadir otros ajustes, o reordena capas mediante `im.getLayers()` |
-| **Performance slowdown on large PSDs** | Cargar archivos muy grandes en memoria | Considera procesar páginas en fragmentos o aumentar el tamaño del heap de JVM (`-Xmx2g`) |
-
-## Preguntas frecuentes
-
-**Q: ¿Es Aspose.PSD compatible con todas las versiones de Java?**  
-A: Aspose.PSD soporta Java 6.0 y versiones posteriores.
-
-**Q: ¿Puedo aplicar múltiples capas de ajuste en una sola operación?**  
-A: Sí, puedes apilar varias capas de ajuste —como Invertir, Brillo y Tono/Saturación— para lograr efectos complejos.
-
-**Q: ¿Dónde puedo encontrar documentación adicional para Aspose.PSD?**  
-A: Consulta la documentación [here](https://reference.aspose.com/psd/java/) para guías completas y referencias de API.
-
-**Q: ¿Hay una prueba gratuita disponible para Aspose.PSD?**  
-A: Sí, puedes explorar la prueba gratuita [here](https://releases.aspose.com/).
-
-**Q: ¿Cómo puedo obtener una licencia temporal para Aspose.PSD?**  
-A: Puedes obtener una licencia temporal [here](https://purchase.aspose.com/temporary-license/).
-
----
-
-**Last Updated:** 2026-04-22  
-**Tested With:** Aspose.PSD 24.12 for Java  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

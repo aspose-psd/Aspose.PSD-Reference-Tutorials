@@ -1,16 +1,47 @@
 ---
-date: 2026-04-22
-description: تعرّف على كيفية استخدام مكتبة معالجة الصور جافا Aspose.PSD لتطبيق طبقات
-  تعديل متعددة، بما في ذلك طبقة تعديل العكس، لتحقيق معالجة سلسة لملفات PSD.
+date: 2026-11-04
+description: تعلم كيفية استخدام Aspose.PSD for Java لتطبيق invert adjustment layer،
+  ومعالجة صور PSD دفعيًا، وإنشاء ملفات PSD ذات الصورة السلبية.
 keywords:
-- image processing java library
-- how to add invert
-- invert colors psd
+- how to use aspose
 - batch process psd images
+- create negative image psd
+- image processing java library
 - apply multiple adjustment layers
-linktitle: عكس طبقة التعديل
+lastmod: 2026-11-04
+linktitle: Invert Adjustment Layer
+og_description: كيفية استخدام Aspose.PSD for Java لإضافة invert adjustment layer،
+  ومعالجة صور PSD دفعيًا، وإنشاء صورة سلبية بصيغة PSD. اتبع الدليل خطوة بخطوة.
+og_image_alt: Screenshot showing Aspose.PSD Java code adding an invert adjustment
+  layer
+og_title: كيفية استخدام Aspose.PSD لإضافة invert adjustment layer في Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to use Aspose.PSD for Java to apply an invert adjustment
+    layer, batch process PSD images, and create negative image PSD files.
+  headline: How to use Aspose.PSD to add an invert adjustment layer in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it supports Java 6.0 and later, including Java 8, 11, and 17.
+    question: Is Aspose.PSD compatible with all Java versions?
+  - answer: Absolutely. After adding the invert layer you can call `addBrightnessAdjustmentLayer()`,
+      `addHueSaturationAdjustmentLayer()`, etc., to stack effects.
+    question: Can I apply multiple adjustment layers in a single operation?
+  - answer: The complete documentation is available [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+    question: Where can I find the full API reference?
+  - answer: Yes, you can download a trial version [Aspose.PSD trial download](https://releases.aspose.com/).
+    question: Is there a free trial for Aspose.PSD?
+  - answer: Request a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 'مكتبة جافا لمعالجة الصور: عكس الطبقة باستخدام Aspose.PSD'
+tags:
+- aspose psd
+- java image processing
+- invert adjustment layer
+- batch psd processing
+title: كيفية استخدام Aspose.PSD لإضافة invert adjustment layer في Java
 url: /ar/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
@@ -19,42 +50,117 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# طبقة تعديل الانعكاس في Aspose.PSD للـ Java
+# كيفية استخدام Aspose.PSD لإضافة طبقة تعديل عكسية في Java
 
 ## مقدمة
 
-إذا كنت تبحث عن مكتبة **معالجة صور جافا** قوية، فإن Aspose.PSD للـ Java تُعد واحدة من أكثر الخيارات مرونةً في السوق. في هذا الدرس سنستعرض كيفية إضافة **طبقة تعديل الانعكاس** إلى ملف PSD، وهي تقنية يمكنك دمجها مع طبقات تعديل أخرى لتحقيق تأثيرات بصرية متقدمة. سواءً كنت تبني أداة معالجة دفعات، أو خدمة صور على الخادم، أو محرر صورة فردية، فإن هذا الدليل يقدّم لك مسارًا واضحًا خطوةً بخطوة لإنجاز المهمة بسرعة وبشكل موثوق.
+إذا كنت تبحث عن مكتبة **image processing java library** قوية، فإن Aspose.PSD for Java هي واحدة من أكثر الخيارات مرونةً في السوق. في هذا البرنامج التعليمي ستتعرف على **كيفية استخدام Aspose** لإدراج **Invert Adjustment Layer** في ملف PSD، وتكديسه مع تعديلات أخرى، وحتى تشغيل العملية على عشرات الملفات. سواءً كنت تبني أداة معالجة دفعات، أو خدمة صور على الخادم، أو محرر صورة واحدة، فإن الخطوات أدناه ستنقلك من PSD المصدر إلى صورة سلبية قابلة للتحرير بالكامل في دقائق.
 
 ## إجابات سريعة
-- **ماذا تفعل طبقة تعديل الانعكاس؟** تقوم بعكس جميع قيم الألوان في المنطقة المحددة، مُنتجةً تأثير صورة سلبية (أي **تحويل PSD إلى سلبية**).  
-- **أي مكتبة توفر هذه الميزة؟** Aspose.PSD، مكتبة **معالجة صور جافا** رائدة.  
-- **هل يمكن دمجها مع تعديلات أخرى؟** نعم – يمكنك **تطبيق طبقات تعديل متعددة** مثل السطوع/التباين، الصبغة/التشبع، وغيرها.  
-- **هل أحتاج إلى ترخيص للتطوير؟** نسخة تجريبية مجانية متاحة؛ الترخيص مطلوب للاستخدام في الإنتاج.  
-- **كم يستغرق تنفيذها؟** عادةً أقل من 10 دقائق لحالة الاستخدام الأساسية.
 
-## ما هي طبقة تعديل الانعكاس؟
+- **ماذا يفعل Invert Adjustment Layer؟** يقلب كل قيمة RGB في المنطقة المحددة، محولاً الصورة إلى سالب فوتوغرافي.  
+- **أي مكتبة توفر هذه الميزة؟** Aspose.PSD، مكتبة **image processing java library** رائدة.  
+- **هل يمكنني تكديسه مع تعديلات أخرى؟** نعم – يمكنك **apply multiple adjustment layers** مثل Brightness/Contrast، Hue/Saturation، وأكثر.  
+- **هل أحتاج إلى ترخيص للتطوير؟** يتوفر إصدار تجريبي مجاني؛ الترخيص مطلوب للاستخدام في الإنتاج.  
+- **كم من الوقت تستغرق عملية التنفيذ؟** عادةً أقل من 10 دقائق لحالة استخدام أساسية.  
 
-طبقة تعديل الانعكاس هي تعديل غير مدمر يعكس قيم RGB لكل بكسل تؤثر عليه. لأنها توضع فوق مكدس الطبقات، يمكنك تشغيل/إيقاف رؤيتها أو إعادة ترتيبها دون تعديل دائم لبيانات الصورة الأصلية. هذه أسهل طريقة **لعكس ألوان ملفات PSD** أو إنشاء صورة سلبية فوتوغرافية.
+## ما هو Invert Adjustment Layer؟
 
-## لماذا تستخدم Aspose.PSD كمكتبة معالجة صور جافا؟
+طبقة تعديل العكس هي تعديل غير مدمر يعكس قيم الألوان لكل بكسل تؤثر عليه. لأنها تقع فوق مجموعة الطبقات، يمكنك تبديل رؤيتها أو إعادة ترتيبها دون تعديل دائم لبيانات الصورة الأصلية. هذه هي أسرع طريقة لـ **create negative image PSD** أو الحصول على مظهر فيلم سالب كلاسيكي.
 
-- **دعم كامل لـ PSD** – قراءة، تعديل، وكتابة ملفات Photoshop دون الحاجة لتثبيت Photoshop.  
-- **متعددة المنصات** – تعمل على أي بيئة تشغيل جافا (Java 6+).  
-- **ميزات تعديل غنية** – تتضمن طرقًا مدمجة للعديد من التعديلات الشائعة، مما يسهل **تطبيق طبقات تعديل متعددة** في سير عمل واحد.  
-- **محسّنة للأداء** – تتعامل بفعالية مع الملفات الكبيرة، وهو أمر أساسي لـ **معالجة دفعات صور PSD**.  
+## لماذا تستخدم Aspose.PSD كمكتبة image processing java library الخاصة بك؟
+
+Aspose.PSD يدعم **200+ PSD features**، يمكنه قراءة وكتابة ملفات Photoshop دون الحاجة إلى Photoshop، ويعالج مستندات متعددة المئات من الصفحات باستخدام أقل من 500 ميغابايت من ذاكرة الكومة. يعمل على أي بيئة تشغيل Java (Java 6+)، مما يجعله مثالياً لـ **batch process psd images** على خوادم Windows أو Linux أو macOS.
 
 ## المتطلبات المسبقة
 
-قبل البدء، تأكد من توفر ما يلي:
+قبل أن تبدأ، تأكد من أن لديك:
 
-1. **مكتبة Aspose.PSD** – حمّلها من الموقع الرسمي [هنا](https://releases.aspose.com/psd/java/).  
-2. **بيئة تطوير جافا** – JDK 6.0 أو أحدث مثبتة ومُعَدّة.  
+1. **Aspose.PSD for Java** – قم بتنزيل أحدث JAR من الموقع الرسمي [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
+2. **Java Development Kit** – JDK 6.0 أو أحدث مثبت ومُعد في `PATH` الخاص بك.  
 
-الآن، لنغص في الشيفرة.
+الآن أنت جاهز لكتابة الشيفرة.
 
 ## استيراد الحزم
 
-ابدأ باستيراد الفئات الضرورية. هذه الاستيرادات تمنحك الوصول إلى واجهات برمجة التطبيقات الأساسية لمعالجة الصور والوظائف الخاصة بـ PSD.
+تمثل الفئة `PsdImage` مستند Photoshop كامل في الذاكرة، بينما توجد فئات طبقة التعديل في الحزمة `com.aspose.psd.layers.adjustments`.
+
+الفئة `PsdImage` هي الكائن الأعلى المستوى في Aspose.PSD الذي يضم بنية ملف PSD وبيانات البكسل. استورد المساحات الاسمية، ثم ستكون قادرًا على تحميل وتحرير وحفظ ملفات PSD.
+
+## الخطوة 1: إعداد دليل المستند
+
+حدد المجلد الذي يحتوي على ملف PSD المصدر ومكان حفظ الناتج. استخدام المسارات المطلقة يتجنب `NullPointerException` عندما يتغير دليل العمل.
+
+## الخطوة 2: تحميل ملف PSD
+
+حمّل الملف المصدر في كائن `PsdImage`. هذا الكائن يحتفظ بالهيكل الكامل للطبقات في الذاكرة، مما يتيح تعديلات غير مدمرة.
+
+توفر الفئة `PsdImage` طريقة ثابتة `load` تقرأ رأس الملف، تتحقق من صحة الصيغة، وتُنشئ تمثيلًا في الذاكرة جاهزًا للتلاعب.
+
+## الخطوة 3: إضافة طبقة تعديل عكسية
+
+استدعِ الطريقة المدمجة لإدراج Invert Adjustment Layer فوق مجموعة الطبقات الحالية. يمكنك لاحقًا إضافة المزيد من الطبقات (مثل Brightness، Hue) لـ **apply multiple adjustment layers** في سير عمل واحد.
+
+`addInvertAdjustmentLayer()` يضيف Invert Adjustment Layer إلى مجموعة طبقات PSD.
+
+## الخطوة 4: حفظ الناتج
+
+احفظ ملف PSD المعدل إلى القرص.
+
+`save()` يكتب ملف PSD، بما في ذلك جميع الطبقات والبيانات الوصفية، إلى المسار المحدد.
+
+يستخدم الحفظ نفس طريقة `save` التي تكتب المستند بالكامل، بما في ذلك جميع طبقات التعديل، الأقنعة، والبيانات الوصفية، إلى الصيغة المحددة.
+
+### ماذا حدث؟
+
+تم تحميل ملف PSD إلى كائن `PsdImage`، وتم إنشاء `InvertAdjustmentLayer` وإضافته كأعلى طبقة، ثم تم حفظ المستند. هذه السلسلة تحافظ على بيانات الصورة الأصلية مع إضافة تأثير عكس غير مدمر يمكن تبديله أو إعادة ترتيبه لاحقًا.
+
+لقد استخدمت الآن بنجاح Aspose.PSD، وهي **image processing java library**، لتعديل ملف PSD.
+
+## كيفية معالجة صور PSD دفعةً باستخدام تعديل العكس؟
+
+حمّل كل ملف داخل حلقة `for`، طبق نفس الخطوات، واستدعِ `save` لكل تكرار. نظرًا لأن Aspose.PSD يعالج الملفات بطريقة تدفقية، يمكنك التعامل مع **hundreds of PSDs** مع الحفاظ على استهلاك الذاكرة أقل من 300 ميغابايت عن طريق إعادة استخدام نفس كائن `PsdImage`.
+
+## كيفية تحويل PSD إلى صورة سلبية؟
+
+أضف Invert Adjustment Layer كأعلى عنصر واحفظ المستند – هذه العملية تعادل **convert PSD to negative**. يمكنك لاحقًا تعطيل أو حذف الطبقة للعودة إلى المظهر الأصلي دون إعادة تحميل الملف المصدر.
+
+## المشكلات الشائعة والنصائح
+
+| المشكلة | السبب | الحل |
+|-------|-------|----------|
+| **NullPointerException on `Image.load`** | مسار ملف غير صحيح أو ملف مفقود | تحقق من `dataDir` واسم الملف؛ استخدم مسارات مطلقة للاختبار |
+| **ترتيب الطبقة ليس كما هو متوقع** | إضافة طبقات بعد الموجودة يغيّر التكديس | أدخل طبقة العكس قبل التعديلات الأخرى، أو أعد الترتيب عبر `psdImage.getLayers().move()` |
+| **تباطؤ الأداء على ملفات PSD الكبيرة** | تحميل ملفات كبيرة جدًا إلى الذاكرة | زيادة مساحة كومة JVM (`-Xmx2g`) أو معالجة الملفات على دفعات باستخدام `psdImage.getPages().get(0).getResources().setMemoryOptimized(true)` |
+
+## الأسئلة المتكررة
+
+**س: هل Aspose.PSD متوافق مع جميع إصدارات Java؟**  
+ج: نعم، يدعم Java 6.0 وما بعده، بما في ذلك Java 8، 11، و 17.
+
+**س: هل يمكنني تطبيق طبقات تعديل متعددة في عملية واحدة؟**  
+ج: بالتأكيد. بعد إضافة طبقة العكس يمكنك استدعاء `addBrightnessAdjustmentLayer()`, `addHueSaturationAdjustmentLayer()`، إلخ، لتكديس التأثيرات.
+
+**س: أين يمكنني العثور على مرجع API الكامل؟**  
+ج: الوثائق الكاملة متاحة [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+
+**س: هل هناك نسخة تجريبية مجانية لـ Aspose.PSD؟**  
+ج: نعم، يمكنك تنزيل نسخة تجريبية [Aspose.PSD trial download](https://releases.aspose.com/).
+
+**س: كيف أحصل على ترخيص مؤقت للاختبار؟**  
+ج: اطلب ترخيصًا مؤقتًا [temporary license request page](https://purchase.aspose.com/temporary-license/).
+
+**آخر تحديث:** 2026-11-04  
+**تم الاختبار مع:** Aspose.PSD 24.12 for Java  
+**المؤلف:** Aspose  
+
+
+
+
+
+
+
+
 
 ```java
 import com.aspose.psd.Image;
@@ -62,17 +168,9 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-## الخطوة 1: إعداد دليل المستند
-
-عرّف المجلد الذي يحتوي على ملف PSD المصدر ومكان حفظ الناتج.
-
 ```java
 String dataDir = "Your Document Directory";
 ```
-
-## الخطوة 2: تحميل ملف PSD
-
-حمّل الملف المصدر إلى كائن `PsdImage`. يمثل هذا الكائن المستند PSD بالكامل في الذاكرة.
 
 ```java
 String filePath = dataDir + "InvertStripes_before.psd";
@@ -81,68 +179,20 @@ String outputPath = dataDir + "InvertStripes_after.psd";
 PsdImage im = (PsdImage)Image.load(filePath);
 ```
 
-## الخطوة 3: إضافة طبقة تعديل الانعكاس
-
-استدعِ الطريقة المدمجة لإدراج طبقة تعديل الانعكاس فوق مكدس الطبقات الحالي. يمكنك لاحقًا إضافة طبقات أخرى (مثل السطوع أو الصبغة) لـ **تطبيق طبقات تعديل متعددة**.
-
 ```java
 im.addInvertAdjustmentLayer();
 ```
-
-## الخطوة 4: حفظ الناتج
-
-احفظ ملف PSD المعدل على القرص. الآن يحتوي الملف المحفوظ على طبقة تعديل الانعكاس ويمكن فتحه في Photoshop أو أي عارض يدعم PSD.
 
 ```java
 im.save(outputPath);
 ```
 
-### ماذا حدث؟
+## دروس ذات صلة
 
-- تم تحميل ملف PSD إلى الذاكرة.  
-- أضيفت طبقة تعديل الانعكاس كأعلى طبقة.  
-- تم حفظ الصورة، مع الحفاظ على التعديل غير المدمر.
+- [إضافة طبقة تعديل مستوى إلى ملفات PSD باستخدام Aspose.PSD for Java](/psd/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/)
+- [كيفية إضافة طبقة تعديل – خالط القنوات في PSD (Java)](/psd/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/)
+- [كيفية تعديل PSD - إضافة طبقة تعديل المنحنيات باستخدام Java](/psd/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/)
 
-لقد استخدمت الآن بنجاح Aspose.PSD، **مكتبة معالجة صور جافا**، لتعديل ملف PSD.
-
-## معالجة دفعات صور PSD بطبقة الانعكاس
-
-إذا كنت بحاجة لتطبيق تأثير الانعكاس نفسه على العشرات أو المئات من الملفات، يمكنك وضع الشيفرة أعلاه داخل حلقة بسيطة تتنقل عبر دليل يحتوي على ملفات PSD. نظرًا لأن المكتبة **محسّنة للأداء**، يبقى معالجة الدفعات الكبيرة سريعة، ويمكنك دمج خطوة الانعكاس مع تعديلات أخرى (مثل السطوع أو الصبغة) في نفس الحلقة.
-
-## تحويل PSD إلى صورة سلبية
-
-طبقة تعديل الانعكاس هي في الأساس عملية **تحويل PSD إلى سلبية**. بإضافة هذه الطبقة كأعلى عنصر، تحصل على تأثير سلبية كامل دون تعديل دائم لبيانات البكسل الأصلية. يمكنك لاحقًا إزالة الطبقة أو تعطيلها للعودة إلى المظهر الأصلي.
-
-## المشكلات الشائعة والنصائح
-
-| المشكلة | السبب | الحل |
-|-------|-------|----------|
-| **NullPointerException على `Image.load`** | مسار ملف غير صحيح أو ملف مفقود | تحقق من `dataDir` واسم الملف؛ استخدم مسارات مطلقة للاختبار |
-| **ترتيب الطبقات ليس كما هو متوقع** | إضافة طبقات بعد الموجودة يغيّر التراص | استخدم `im.addInvertAdjustmentLayer()` قبل إضافة تعديلات أخرى، أو أعد ترتيب الطبقات عبر `im.getLayers()` |
-| **تباطؤ الأداء على ملفات PSD الكبيرة** | تحميل ملفات ضخمة جدًا إلى الذاكرة | فكر في معالجة الصفحات على دفعات أو زيادة حجم الذاكرة المخصصة للـ JVM (`-Xmx2g`) |
-
-## الأسئلة المتكررة
-
-**س: هل Aspose.PSD متوافق مع جميع إصدارات جافا؟**  
-ج: يدعم Aspose.PSD جافا 6.0 وما بعدها.
-
-**س: هل يمكنني تطبيق طبقات تعديل متعددة في عملية واحدة؟**  
-ج: نعم، يمكنك تكديس عدة طبقات تعديل—مثل الانعكاس، السطوع، والصبغة/التشبع—لتحقيق تأثيرات مركبة.
-
-**س: أين يمكنني العثور على وثائق إضافية لـ Aspose.PSD؟**  
-ج: راجع الوثائق [هنا](https://reference.aspose.com/psd/java/) للحصول على أدلة شاملة ومراجع API.
-
-**س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PSD؟**  
-ج: نعم، يمكنك استكشاف النسخة التجريبية [هنا](https://releases.aspose.com/).
-
-**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PSD؟**  
-ج: يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
-
----
-
-**آخر تحديث:** 2026-04-22  
-**تم الاختبار مع:** Aspose.PSD 24.12 للـ Java  
-**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

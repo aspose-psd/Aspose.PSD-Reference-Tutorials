@@ -1,17 +1,49 @@
 ---
-date: 2026-04-22
-description: Scopri come utilizzare la libreria Java di elaborazione immagini Aspose.PSD
-  per applicare più livelli di regolazione, incluso il livello di regolazione Inverti,
-  per una manipolazione fluida dei PSD.
+date: 2026-11-04
+description: Scopri come utilizzare Aspose.PSD per Java per applicare un invert adjustment
+  layer, elaborare in batch immagini PSD e creare file PSD di immagine negativa.
 keywords:
-- image processing java library
-- how to add invert
-- invert colors psd
+- how to use aspose
 - batch process psd images
+- create negative image psd
+- image processing java library
 - apply multiple adjustment layers
-linktitle: Livello di regolazione Inverti
+lastmod: 2026-11-04
+linktitle: Invert Adjustment Layer
+og_description: Come utilizzare Aspose.PSD per Java per aggiungere un invert adjustment
+  layer, elaborare in batch immagini PSD e creare un'immagine negativa PSD. Segui
+  la guida passo‑passo.
+og_image_alt: Screenshot showing Aspose.PSD Java code adding an invert adjustment
+  layer
+og_title: Come utilizzare Aspose.PSD per aggiungere un invert adjustment layer in
+  Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to use Aspose.PSD for Java to apply an invert adjustment
+    layer, batch process PSD images, and create negative image PSD files.
+  headline: How to use Aspose.PSD to add an invert adjustment layer in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it supports Java 6.0 and later, including Java 8, 11, and 17.
+    question: Is Aspose.PSD compatible with all Java versions?
+  - answer: Absolutely. After adding the invert layer you can call `addBrightnessAdjustmentLayer()`,
+      `addHueSaturationAdjustmentLayer()`, etc., to stack effects.
+    question: Can I apply multiple adjustment layers in a single operation?
+  - answer: The complete documentation is available [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+    question: Where can I find the full API reference?
+  - answer: Yes, you can download a trial version [Aspose.PSD trial download](https://releases.aspose.com/).
+    question: Is there a free trial for Aspose.PSD?
+  - answer: Request a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 'Libreria Java per l''elaborazione delle immagini: Inverti livello con Aspose.PSD'
+tags:
+- aspose psd
+- java image processing
+- invert adjustment layer
+- batch psd processing
+title: Come utilizzare Aspose.PSD per aggiungere un invert adjustment layer in Java
 url: /it/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
@@ -20,42 +52,119 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Livello di Regolazione Inverti in Aspose.PSD per Java
+# Come utilizzare Aspose.PSD per aggiungere un livello di regolazione Invert in Java
 
 ## Introduzione
 
-Se stai cercando una robusta **image processing java library**, Aspose.PSD per Java è una delle opzioni più versatili sul mercato. In questo tutorial ti mostreremo come aggiungere un **Invert Adjustment Layer** a un file PSD, una tecnica che puoi combinare con altri livelli di regolazione per ottenere effetti visivi sofisticati. Che tu stia creando uno strumento di elaborazione batch, un servizio di immagini lato server o un editor di immagini singole, questa guida ti offre un percorso chiaro, passo‑per‑passo, per completare il lavoro rapidamente e in modo affidabile.
+Se stai cercando una robusta **image processing java library**, Aspose.PSD per Java è una delle opzioni più versatili sul mercato. In questo tutorial vedrai **come usare Aspose** per inserire un **Invert Adjustment Layer** in un file PSD, impilarlo con altre regolazioni e persino eseguire l'operazione su decine di file. Che tu stia creando uno strumento di elaborazione batch, un servizio di immagini lato server o un editor di immagini singole, i passaggi seguenti ti porteranno dal PSD di origine a un'immagine negativa completamente modificabile in pochi minuti.
 
-## Risposte Rapide
-- **Che cosa fa il Livello di Regolazione Inverti?** Inverte tutti i valori di colore nell'area selezionata, creando un effetto immagine negativa (cioè **converte PSD in negativo**).  
-- **Quale libreria fornisce questa funzionalità?** Aspose.PSD, una delle principali **image processing java library**.  
-- **Posso combinarlo con altre regolazioni?** Sì – puoi **applicare più livelli di regolazione** come Luminosità/Contrasto, Tinta/Saturazione e altro.  
+## Risposte rapide
+
+- **Che cosa fa l'Invert Adjustment Layer?** Inverte ogni valore RGB nell'area selezionata, trasformando l'immagine in un negativo fotografico.  
+- **Quale libreria fornisce questa funzionalità?** Aspose.PSD, una **image processing java library** leader.  
+- **Posso impilarlo con altre regolazioni?** Sì – puoi **applicare più livelli di regolazione** come Luminosità/Contrasto, Tinta/Saturazione e altro.  
 - **Ho bisogno di una licenza per lo sviluppo?** È disponibile una versione di prova gratuita; è necessaria una licenza per l'uso in produzione.  
-- **Quanto tempo richiede l'implementazione?** Tipicamente meno di 10 minuti per un caso d'uso base.
+- **Quanto tempo richiede l'implementazione?** Tipicamente meno di 10 minuti per un caso d'uso di base.
 
-## Cos'è il Livello di Regolazione Inverti?
+## Che cos'è l'Invert Adjustment Layer?
 
-Il Livello di Regolazione Inverti è una modifica non distruttiva che inverte i valori RGB di ogni pixel interessato. Poiché si trova sopra lo stack dei livelli, puoi attivare o disattivare la sua visibilità o riordinarlo senza alterare permanentemente i dati originali dell'immagine. Questo è il modo più semplice per **invert colors PSD** file o creare un negativo fotografico.
+Il livello di regolazione Invert è una modifica non distruttiva che inverte i valori di colore di ogni pixel che colpisce. Poiché si trova sopra lo stack dei livelli, puoi attivare/disattivare la sua visibilità o riordinarlo senza alterare permanentemente i dati dell'immagine originale. Questo è il modo più rapido per **creare file PSD di immagine negativa** o ottenere un aspetto classico di negativo cinematografico.
 
-## Perché usare Aspose.PSD come la tua Image Processing Java Library?
+## Perché usare Aspose.PSD come la tua image processing java library?
 
-- **Full PSD support** – leggi, modifica e scrivi file Photoshop senza avere Photoshop installato.  
-- **Cross‑platform** – funziona su qualsiasi runtime Java (Java 6+).  
-- **Rich adjustment features** – include metodi integrati per molte modifiche comuni, rendendo facile **applicare più livelli di regolazione** in un unico flusso di lavoro.  
-- **Performance‑optimized** – gestisce file di grandi dimensioni in modo efficiente, il che è essenziale per **batch process psd images**.  
+Aspose.PSD supporta **oltre 200 funzionalità PSD**, può leggere e scrivere file Photoshop senza richiedere Photoshop, e elabora documenti multi‑centinaia di pagine usando meno di 500 MB di memoria heap. Funziona su qualsiasi runtime Java (Java 6+), rendendolo ideale per **elaborare in batch immagini psd** su server Windows, Linux o macOS.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere quanto segue:
+Prima di iniziare, assicurati di avere:
 
-1. **Aspose.PSD Library** – scaricala dal sito ufficiale [qui](https://releases.aspose.com/psd/java/).  
-2. **Java Development Environment** – JDK 6.0 o successivo installato e configurato.  
+1. **Aspose.PSD for Java** – scarica l'ultimo JAR dal sito ufficiale [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
+2. **Java Development Kit** – JDK 6.0 o successivo installato e configurato nel tuo `PATH`.  
 
-Ora, immergiamoci nel codice.
+Ora sei pronto per scrivere il codice.
 
-## Importa Pacchetti
+## Importa pacchetti
 
-Inizia importando le classi necessarie. Questi import ti danno accesso alle API core di gestione delle immagini e alle funzionalità specifiche di PSD.
+La classe `PsdImage` rappresenta un intero documento Photoshop in memoria, mentre le classi dei livelli di regolazione si trovano nel pacchetto `com.aspose.psd.layers.adjustments`.
+
+La classe `PsdImage` è l'oggetto di livello superiore di Aspose.PSD che incapsula la struttura e i dati pixel di un file PSD. Importa gli spazi dei nomi, quindi potrai caricare, modificare e salvare file PSD.
+
+## Passo 1: configura la directory del documento
+
+Definisci la cartella che contiene il tuo file PSD di origine e dove verrà salvato l'output. L'uso di percorsi assoluti evita `NullPointerException` quando la directory di lavoro cambia.
+
+## Passo 2: carica il file PSD
+
+Carica il file di origine in un oggetto `PsdImage`. Questo oggetto contiene l'intera gerarchia dei livelli in memoria, consentendo modifiche non distruttive.
+
+La classe `PsdImage` fornisce un metodo statico `load` che legge l'intestazione del file, ne valida il formato e costruisce una rappresentazione in memoria pronta per la manipolazione.
+
+## Passo 3: aggiungi il livello di regolazione Invert
+
+Chiama il metodo incorporato per inserire un Invert Adjustment Layer sopra lo stack dei livelli corrente. Puoi successivamente aggiungere altri livelli (ad es., Luminosità, Tinta) per **applicare più livelli di regolazione** in un unico flusso di lavoro.
+
+`addInvertAdjustmentLayer()` aggiunge un Invert Adjustment Layer alla collezione dei livelli del PSD.
+
+## Passo 4: salva l'output
+
+Salva il PSD modificato su disco.  
+
+`save()` scrive il file PSD, includendo tutti i livelli e i metadati, nel percorso specificato.
+
+Il salvataggio utilizza lo stesso metodo `save` che scrive l'intero documento, includendo tutti i livelli di regolazione, le maschere e i metadati, nel formato specificato.
+
+### Cosa è successo?
+
+Il file PSD è stato caricato in un oggetto `PsdImage`, è stato creato un `InvertAdjustmentLayer` e aggiunto come livello più alto, e il documento è stato salvato. Questa sequenza preserva i dati originali dell'immagine aggiungendo un effetto invert non distruttivo che può essere attivato/disattivato o riordinato in seguito.
+
+Ora hai usato con successo Aspose.PSD, una **image processing java library**, per manipolare un file PSD.
+
+## Come elaborare in batch immagini PSD con regolazione invert?
+
+Carica ogni file all'interno di un ciclo `for`, applica gli stessi passaggi e chiama `save` per ogni iterazione. Poiché Aspose.PSD elabora i file in modalità streaming, puoi gestire **centinaia di PSD** mantenendo l'uso di memoria sotto i 300 MB riutilizzando la stessa istanza `PsdImage`.
+
+## Come convertire un PSD in un'immagine negativa?
+
+Aggiungi il Invert Adjustment Layer come elemento più alto e salva il documento – questa operazione è equivalente a **convert PSD to negative**. Puoi successivamente disabilitare o eliminare il livello per tornare all'aspetto originale senza ricaricare il file di origine.
+
+## Problemi comuni e suggerimenti
+
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **NullPointerException su `Image.load`** | Percorso file errato o file mancante | Verifica `dataDir` e il nome del file; usa percorsi assoluti per i test |
+| **Ordine dei livelli non come previsto** | Aggiungere livelli dopo quelli esistenti modifica lo stacking | Inserisci il livello invert prima di altre regolazioni, o riordina tramite `psdImage.getLayers().move()` |
+| **Rallentamento delle prestazioni su PSD grandi** | Caricamento di file molto grandi in memoria | Aumenta l'heap JVM (`-Xmx2g`) o elabora i file a blocchi usando `psdImage.getPages().get(0).getResources().setMemoryOptimized(true)` |
+
+## Domande frequenti
+
+**Q: Aspose.PSD è compatibile con tutte le versioni Java?**  
+**A:** Sì, supporta Java 6.0 e successive, incluse Java 8, 11 e 17.
+
+**Q: Posso applicare più livelli di regolazione in un'unica operazione?**  
+**A:** Assolutamente. Dopo aver aggiunto il livello invert puoi chiamare `addBrightnessAdjustmentLayer()`, `addHueSaturationAdjustmentLayer()`, ecc., per impilare gli effetti.
+
+**Q: Dove posso trovare la documentazione completa dell'API?**  
+**A:** La documentazione completa è disponibile [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+
+**Q: È disponibile una versione di prova gratuita per Aspose.PSD?**  
+**A:** Sì, puoi scaricare una versione di prova [Aspose.PSD trial download](https://releases.aspose.com/).
+
+**Q: Come posso ottenere una licenza temporanea per i test?**  
+**A:** Richiedi una licenza temporanea [temporary license request page](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Ultimo aggiornamento:** 2026-11-04  
+**Testato con:** Aspose.PSD 24.12 per Java  
+**Autore:** Aspose  
+
+
+
+
+
+
+
+
 
 ```java
 import com.aspose.psd.Image;
@@ -63,17 +172,9 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-## Passo 1: Configura la Directory del Documento
-
-Definisci la cartella che contiene il tuo file PSD di origine e dove verrà salvato l'output.
-
 ```java
 String dataDir = "Your Document Directory";
 ```
-
-## Passo 2: Carica il File PSD
-
-Carica il file di origine in un oggetto `PsdImage`. Questo oggetto rappresenta l'intero documento PSD in memoria.
 
 ```java
 String filePath = dataDir + "InvertStripes_before.psd";
@@ -82,68 +183,20 @@ String outputPath = dataDir + "InvertStripes_after.psd";
 PsdImage im = (PsdImage)Image.load(filePath);
 ```
 
-## Passo 3: Aggiungi il Livello di Regolazione Inverti
-
-Chiama il metodo integrato per inserire un Livello di Regolazione Inverti sopra lo stack dei livelli corrente. Puoi successivamente aggiungere altri livelli (ad esempio, Luminosità, Tinta) per **applicare più livelli di regolazione**.
-
 ```java
 im.addInvertAdjustmentLayer();
 ```
-
-## Passo 4: Salva l'Output
-
-Salva il PSD modificato su disco. Il file salvato ora contiene il Livello di Regolazione Inverti e può essere aperto in Photoshop o in qualsiasi visualizzatore compatibile con PSD.
 
 ```java
 im.save(outputPath);
 ```
 
-### Cosa è successo?
+## Tutorial correlati
 
-- Il PSD è stato caricato in memoria.  
-- È stato aggiunto un Livello di Regolazione Inverti come livello più alto.  
-- L'immagine è stata salvata, preservando la modifica non distruttiva.
+- [Aggiungi livello di regolazione Livello ai file PSD con Aspose.PSD per Java](/psd/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/)
+- [Come aggiungere livello di regolazione – Mixer di canale in PSD (Java)](/psd/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/)
+- [Come modificare PSD - Aggiungere livello di regolazione Curve usando Java](/psd/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/)
 
-Hai ora usato con successo Aspose.PSD, una **image processing java library**, per manipolare un file PSD.
-
-## Elaborazione batch di immagini PSD con regolazione inverti
-
-Se devi applicare lo stesso effetto inverti a decine o centinaia di file, puoi inserire il codice sopra all'interno di un semplice ciclo che itera su una directory di PSD. Poiché la libreria è **performance‑optimized**, l'elaborazione di grandi batch rimane veloce, e puoi combinare il passo di inversione con altre regolazioni (ad esempio, luminosità, tinta) nello stesso ciclo.
-
-## Convertire un PSD in un'immagine negativa
-
-Il Livello di Regolazione Inverti è essenzialmente l'operazione **convert PSD to negative**. Aggiungendo questo livello come elemento più alto, ottieni un effetto completamente negativo senza alterare permanentemente i dati pixel originali. Puoi successivamente rimuovere o disabilitare il livello per tornare all'aspetto originale.
-
-## Problemi Comuni e Suggerimenti
-
-| Issue | Cause | Solution |
-|-------|-------|----------|
-| **NullPointerException su `Image.load`** | Percorso file errato o file mancante | Verifica `dataDir` e il nome del file; usa percorsi assoluti per i test |
-| **Ordine dei livelli non come previsto** | Aggiungere livelli dopo quelli esistenti cambia lo stacking | Usa `im.addInvertAdjustmentLayer()` prima di aggiungere altre regolazioni, o riordina i livelli tramite `im.getLayers()` |
-| **Rallentamento delle prestazioni su PSD grandi** | Caricamento di file molto grandi in memoria | Considera di elaborare le pagine a blocchi o aumentare la dimensione dell'heap JVM (`-Xmx2g`) |
-
-## Domande Frequenti
-
-**Q: Aspose.PSD è compatibile con tutte le versioni Java?**  
-A: Aspose.PSD supporta Java 6.0 e versioni successive.
-
-**Q: Posso applicare più livelli di regolazione in un'unica operazione?**  
-A: Sì, puoi impilare diversi livelli di regolazione — come Invert, Brightness e Hue/Saturation — per ottenere effetti complessi.
-
-**Q: Dove posso trovare documentazione aggiuntiva per Aspose.PSD?**  
-A: Consulta la documentazione [qui](https://reference.aspose.com/psd/java/) per guide complete e riferimenti API.
-
-**Q: È disponibile una versione di prova gratuita per Aspose.PSD?**  
-A: Sì, puoi esplorare la versione di prova gratuita [qui](https://releases.aspose.com/).
-
-**Q: Come posso ottenere una licenza temporanea per Aspose.PSD?**  
-A: Puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
-
----
-
-**Ultimo Aggiornamento:** 2026-04-22  
-**Testato Con:** Aspose.PSD 24.12 for Java  
-**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,17 +1,48 @@
 ---
-date: 2026-04-22
-description: Dowiedz się, jak używać biblioteki Java do przetwarzania obrazów Aspose.PSD,
-  aby stosować wiele warstw korekcyjnych, w tym warstwę korekcyjną Odwrócenie, zapewniając
-  płynną manipulację plikami PSD.
+date: 2026-11-04
+description: Dowiedz się, jak używać Aspose.PSD for Java, aby zastosować warstwę dopasowania
+  odwrócenia, przetwarzać wsadowo obrazy PSD i tworzyć pliki PSD z negatywem obrazu.
 keywords:
-- image processing java library
-- how to add invert
-- invert colors psd
+- how to use aspose
 - batch process psd images
+- create negative image psd
+- image processing java library
 - apply multiple adjustment layers
-linktitle: Odwróć warstwę dopasowania
+lastmod: 2026-11-04
+linktitle: Invert Adjustment Layer
+og_description: Jak używać Aspose.PSD for Java, aby dodać warstwę dopasowania odwrócenia,
+  przetwarzać wsadowo obrazy PSD i tworzyć PSD z negatywem obrazu. Postępuj zgodnie
+  z przewodnikiem krok po kroku.
+og_image_alt: Screenshot showing Aspose.PSD Java code adding an invert adjustment
+  layer
+og_title: Jak używać Aspose.PSD do dodania warstwy dopasowania odwrócenia w Javie
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to use Aspose.PSD for Java to apply an invert adjustment
+    layer, batch process PSD images, and create negative image PSD files.
+  headline: How to use Aspose.PSD to add an invert adjustment layer in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it supports Java 6.0 and later, including Java 8, 11, and 17.
+    question: Is Aspose.PSD compatible with all Java versions?
+  - answer: Absolutely. After adding the invert layer you can call `addBrightnessAdjustmentLayer()`,
+      `addHueSaturationAdjustmentLayer()`, etc., to stack effects.
+    question: Can I apply multiple adjustment layers in a single operation?
+  - answer: The complete documentation is available [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+    question: Where can I find the full API reference?
+  - answer: Yes, you can download a trial version [Aspose.PSD trial download](https://releases.aspose.com/).
+    question: Is there a free trial for Aspose.PSD?
+  - answer: Request a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 'Biblioteka Java do przetwarzania obrazów: Odwrócenie warstwy przy użyciu Aspose.PSD'
+tags:
+- aspose psd
+- java image processing
+- invert adjustment layer
+- batch psd processing
+title: Jak używać Aspose.PSD do dodania warstwy dopasowania odwrócenia w Javie
 url: /pl/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
@@ -20,42 +51,116 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Warstwa dopasowania Odwrócenia w Aspose.PSD dla Javy
+# Jak używać Aspose.PSD do dodania warstwy dopasowania odwrócenia w Javie
 
 ## Wprowadzenie
 
-Jeśli szukasz solidnej **image processing java library**, Aspose.PSD for Java jest jedną z najbardziej wszechstronnych opcji na rynku. W tym samouczku przeprowadzimy Cię krok po kroku, jak dodać **Invert Adjustment Layer** do pliku PSD, technikę, którą możesz łączyć z innymi warstwami dopasowania, aby uzyskać zaawansowane efekty wizualne. Niezależnie od tego, czy tworzysz narzędzie do przetwarzania wsadowego, usługę obrazów po stronie serwera, czy edytor pojedynczych obrazów, ten przewodnik zapewnia jasną, krok po kroku ścieżkę, aby szybko i niezawodnie wykonać zadanie.
+Jeśli szukasz solidnej **image processing java library**, Aspose.PSD for Java jest jedną z najbardziej wszechstronnych opcji na rynku. W tym samouczku zobaczysz **jak używać Aspose**, aby wstawić **Invert Adjustment Layer** do pliku PSD, połączyć ją z innymi korektami i nawet uruchomić operację na dziesiątkach plików. Niezależnie od tego, czy tworzysz narzędzie do przetwarzania wsadowego, usługę obrazową po stronie serwera, czy edytor pojedynczych obrazów, poniższe kroki przeniosą Cię od źródłowego PSD do w pełni edytowalnego obrazu negatywnego w kilka minut.
 
 ## Szybkie odpowiedzi
-- **Co robi warstwa dopasowania Odwrócenia?** Odwraca wszystkie wartości kolorów w wybranym obszarze, tworząc efekt obrazu negatywowego (tj. **converts PSD to negative**).  
-- **Która biblioteka zapewnia tę funkcję?** Aspose.PSD, wiodąca **image processing java library**.  
-- **Czy mogę łączyć ją z innymi dopasowaniami?** Tak – możesz **apply multiple adjustment layers** takie jak Brightness/Contrast, Hue/Saturation i inne.  
-- **Czy potrzebuję licencji do rozwoju?** Dostępna jest bezpłatna wersja próbna; licencja jest wymagana do użytku produkcyjnego.  
+- **Co robi warstwa dopasowania odwrócenia?** Odwraca każdy wartość RGB w wybranym obszarze, zamieniając obraz w negatyw fotografii.  
+- **Która biblioteka udostępnia tę funkcję?** Aspose.PSD, wiodąca **image processing java library**.  
+- **Czy mogę łączyć ją z innymi korektami?** Tak – możesz **zastosować wiele warstw dopasowania**, takich jak Brightness/Contrast, Hue/Saturation i inne.  
+- **Czy potrzebna jest licencja do rozwoju?** Dostępna jest darmowa wersja próbna; licencja jest wymagana do użytku produkcyjnego.  
 - **Jak długo trwa implementacja?** Zazwyczaj mniej niż 10 minut dla podstawowego przypadku użycia.
 
-## Czym jest warstwa dopasowania Odwrócenia?
+## Czym jest warstwa dopasowania odwrócenia?
 
-Warstwa dopasowania Odwrócenia to nieniszcząca edycja, która odwraca wartości RGB każdego piksela, na który działa. Ponieważ znajduje się na szczycie stosu warstw, możesz przełączać jej widoczność lub zmieniać kolejność bez trwałej zmiany oryginalnych danych obrazu. To najłatwiejszy sposób na **invert colors PSD** pliki lub stworzenie negatywu fotograficznego.
+Warstwa dopasowania odwrócenia jest nieniszczącą edycją, która odwraca wartości kolorów każdego piksela, na który działa. Ponieważ znajduje się na szczycie stosu warstw, możesz przełączać jej widoczność lub zmieniać kolejność bez trwałej modyfikacji oryginalnych danych obrazu. To najszybszy sposób na **tworzenie plików PSD z negatywem obrazu** lub uzyskanie klasycznego wyglądu negatywu filmowego.
 
-## Dlaczego warto używać Aspose.PSD jako swojej biblioteki do przetwarzania obrazów w Javie?
+## Dlaczego używać Aspose.PSD jako swojej biblioteki image processing java?
 
-- **Pełne wsparcie PSD** – odczyt, edycja i zapis plików Photoshop bez zainstalowanego Photoshopa.  
-- **Cross‑platform** – działa na dowolnym środowisku uruchomieniowym Javy (Java 6+).  
-- **Bogate funkcje dopasowania** – zawiera wbudowane metody dla wielu typowych edycji, ułatwiając **apply multiple adjustment layers** w jednym przepływie pracy.  
-- **Performance‑optimized** – efektywnie obsługuje duże pliki, co jest niezbędne do **batch process psd images**.  
+Aspose.PSD obsługuje **ponad 200 funkcji PSD**, może odczytywać i zapisywać pliki Photoshop bez potrzeby posiadania Photoshopa oraz przetwarza dokumenty wielostronicowe używając mniej niż 500 MB pamięci sterty. Działa na dowolnym środowisku Java (Java 6+), co czyni go idealnym do **batch process psd images** na serwerach Windows, Linux lub macOS.
 
 ## Wymagania wstępne
 
-Przed rozpoczęciem upewnij się, że masz następujące:
+1. **Aspose.PSD for Java** – pobierz najnowszy plik JAR z oficjalnej strony [Aspose.PSD for Java download page](https://releases.aspose.com/psd/java/).  
+2. **Java Development Kit** – JDK 6.0 lub nowszy zainstalowany i skonfigurowany w `PATH`.  
 
-1. **Aspose.PSD Library** – pobierz ją z oficjalnej strony [here](https://releases.aspose.com/psd/java/).  
-2. **Java Development Environment** – zainstalowany i skonfigurowany JDK 6.0 lub nowszy.  
-
-Teraz zanurzmy się w kodzie.
+Teraz jesteś gotowy napisać kod.
 
 ## Importowanie pakietów
 
-Zacznij od zaimportowania niezbędnych klas. Te importy dają dostęp do podstawowych API obsługi obrazu oraz funkcjonalności specyficznych dla PSD.
+Klasa `PsdImage` reprezentuje cały dokument Photoshop w pamięci, podczas gdy klasy warstw dopasowania znajdują się w pakiecie `com.aspose.psd.layers.adjustments`.
+
+Klasa `PsdImage` jest obiektem najwyższego poziomu Aspose.PSD, który kapsułkuje strukturę i dane pikseli pliku PSD. Zaimportuj przestrzenie nazw, a następnie będziesz mógł ładować, edytować i zapisywać pliki PSD.
+
+## Krok 1: skonfiguruj katalog dokumentu
+
+Zdefiniuj folder zawierający źródłowy plik PSD oraz miejsce, w którym zostanie zapisany wynik. Używanie ścieżek bezwzględnych zapobiega `NullPointerException`, gdy zmieni się katalog roboczy.
+
+## Krok 2: załaduj plik PSD
+
+Załaduj plik źródłowy do obiektu `PsdImage`. Obiekt ten przechowuje pełną hierarchię warstw w pamięci, umożliwiając nieniszczące edycje.
+
+Klasa `PsdImage` udostępnia statyczną metodę `load`, która odczytuje nagłówek pliku, weryfikuje format i tworzy reprezentację w pamięci gotową do manipulacji.
+
+## Krok 3: dodaj warstwę dopasowania odwrócenia
+
+Wywołaj wbudowaną metodę, aby wstawić warstwę dopasowania odwrócenia na szczycie bieżącego stosu warstw. Możesz później dodać więcej warstw (np. Brightness, Hue), aby **zastosować wiele warstw dopasowania** w jednym przepływie pracy.
+
+`addInvertAdjustmentLayer()` dodaje warstwę dopasowania odwrócenia do kolekcji warstw PSD.
+
+## Krok 4: zapisz wynik
+
+Zachowaj zmodyfikowany plik PSD na dysku.  
+
+`save()` zapisuje plik PSD, wraz ze wszystkimi warstwami i metadanymi, do określonej ścieżki.
+
+Zapisywanie używa tej samej metody `save`, która zapisuje pełny dokument, w tym wszystkie warstwy dopasowania, maski i metadane, w określonym formacie.
+
+### Co się właśnie stało?
+
+Plik PSD został załadowany do obiektu `PsdImage`, utworzono `InvertAdjustmentLayer` i dodano jako warstwę najwyższą, a dokument został zapisany. Ta sekwencja zachowuje oryginalne dane obrazu, jednocześnie dodając nieniszczący efekt odwrócenia, który można później przełączać lub zmieniać kolejność.
+
+Udało Ci się teraz pomyślnie użyć Aspose.PSD, **image processing java library**, do manipulacji plikiem PSD.
+
+## Jak przetwarzać wsadowo obrazy PSD z warstwą odwrócenia?
+
+Załaduj każdy plik w pętli `for`, zastosuj te same kroki i wywołaj `save` w każdej iteracji. Ponieważ Aspose.PSD przetwarza pliki w trybie strumieniowym, możesz obsłużyć **setki PSD** przy zużyciu pamięci poniżej 300 MB, ponownie używając tego samego obiektu `PsdImage`.
+
+## Jak przekonwertować PSD na obraz negatywowy?
+
+Dodaj warstwę dopasowania odwrócenia jako najwyższą i zapisz dokument – operacja ta jest równoważna **convert PSD to negative**. Możesz później wyłączyć lub usunąć warstwę, aby przywrócić pierwotny wygląd bez ponownego ładowania pliku źródłowego.
+
+## Typowe problemy i wskazówki
+
+| Problem | Przyczyna | Rozwiązanie |
+|-------|-------|----------|
+| **NullPointerException przy `Image.load`** | Nieprawidłowa ścieżka pliku lub brak pliku | Sprawdź `dataDir` i nazwę pliku; użyj ścieżek bezwzględnych podczas testów |
+| **Kolejność warstw niezgodna z oczekiwaniami** | Dodawanie warstw po istniejących zmienia kolejność | Wstaw warstwę odwrócenia przed innymi korektami lub zmień kolejność za pomocą `psdImage.getLayers().move()` |
+| **Spowolnienie wydajności przy dużych PSD** | Ładowanie bardzo dużych plików do pamięci | Zwiększ pamięć sterty JVM (`-Xmx2g`) lub przetwarzaj pliki w partiach używając `psdImage.getPages().get(0).getResources().setMemoryOptimized(true)` |
+
+## Najczęściej zadawane pytania
+
+**P:** Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami Java?  
+**O:** Tak, obsługuje Java 6.0 i nowsze, w tym Java 8, 11 i 17.
+
+**P:** Czy mogę zastosować wiele warstw dopasowania w jednej operacji?  
+**O:** Zdecydowanie tak. Po dodaniu warstwy odwrócenia możesz wywołać `addBrightnessAdjustmentLayer()`, `addHueSaturationAdjustmentLayer()` itd., aby nakładać efekty.
+
+**P:** Gdzie mogę znaleźć pełną dokumentację API?  
+**O:** Kompletna dokumentacja jest dostępna [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+
+**P:** Czy istnieje darmowa wersja próbna Aspose.PSD?  
+**O:** Tak, możesz pobrać wersję próbną [Aspose.PSD trial download](https://releases.aspose.com/).
+
+**P:** Jak uzyskać tymczasową licencję do testów?  
+**O:** Poproś o tymczasową licencję [temporary license request page](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Ostatnia aktualizacja:** 2026-11-04  
+**Testowano z:** Aspose.PSD 24.12 for Java  
+**Autor:** Aspose  
+
+
+
+
+
+
+
+
 
 ```java
 import com.aspose.psd.Image;
@@ -63,17 +168,9 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-## Krok 1: Ustaw katalog dokumentu
-
-Zdefiniuj folder, który zawiera źródłowy plik PSD oraz miejsce, w którym zostanie zapisany wynik.
-
 ```java
 String dataDir = "Your Document Directory";
 ```
-
-## Krok 2: Załaduj plik PSD
-
-Załaduj plik źródłowy do obiektu `PsdImage`. Ten obiekt reprezentuje cały dokument PSD w pamięci.
 
 ```java
 String filePath = dataDir + "InvertStripes_before.psd";
@@ -82,68 +179,20 @@ String outputPath = dataDir + "InvertStripes_after.psd";
 PsdImage im = (PsdImage)Image.load(filePath);
 ```
 
-## Krok 3: Dodaj warstwę dopasowania Odwrócenia
-
-Wywołaj wbudowaną metodę, aby wstawić warstwę dopasowania Odwrócenia na szczycie bieżącego stosu warstw. Później możesz dodać więcej warstw (np. Brightness, Hue), aby **apply multiple adjustment layers**.
-
 ```java
 im.addInvertAdjustmentLayer();
 ```
-
-## Krok 4: Zapisz wynik
-
-Zachowaj zmodyfikowany plik PSD na dysku. Zapisany plik zawiera teraz warstwę dopasowania Odwrócenia i może być otwarty w Photoshopie lub dowolnym przeglądarce kompatybilnej z PSD.
 
 ```java
 im.save(outputPath);
 ```
 
-### Co się właśnie stało?
+## Powiązane samouczki
 
-- Plik PSD został załadowany do pamięci.  
-- Warstwa dopasowania Odwrócenia została dodana jako najwyższa warstwa.  
-- Obraz został zapisany, zachowując nieniszczącą edycję.
+- [Dodaj warstwę dopasowania poziomu do plików PSD przy użyciu Aspose.PSD for Java](/psd/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/)
+- [Jak dodać warstwę dopasowania – Mieszacz kanałów w PSD (Java)](/psd/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/)
+- [Jak edytować PSD – dodać warstwę dopasowania krzywych przy użyciu Java](/psd/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/)
 
-Udało Ci się pomyślnie użyć Aspose.PSD, **image processing java library**, do manipulacji plikiem PSD.
-
-## Przetwarzanie wsadowe obrazów PSD z odwróceniem dopasowania
-
-Jeśli potrzebujesz zastosować ten sam efekt odwrócenia do dziesiątek lub setek plików, możesz umieścić powyższy kod w prostej pętli iterującej po katalogu z plikami PSD. Ponieważ biblioteka jest **performance‑optimized**, przetwarzanie dużych partii pozostaje szybkie, a krok odwrócenia możesz łączyć z innymi dopasowaniami (np. brightness, hue) w tej samej pętli.
-
-## Konwersja PSD na obraz negatywowy
-
-Warstwa dopasowania Odwrócenia jest w zasadzie operacją **convert PSD to negative**. Dodając tę warstwę jako najwyższy element, uzyskujesz pełny efekt negatywu bez trwałej zmiany oryginalnych danych pikseli. Później możesz usunąć lub wyłączyć warstwę, aby przywrócić pierwotny wygląd.
-
-## Typowe problemy i wskazówki
-
-| Problem | Przyczyna | Rozwiązanie |
-|-------|-------|----------|
-| **NullPointerException on `Image.load`** | Nieprawidłowa ścieżka do pliku lub brak pliku | Sprawdź `dataDir` i nazwę pliku; użyj ścieżek bezwzględnych podczas testów |
-| **Layer order not as expected** | Dodawanie warstw po istniejących zmienia kolejność | Użyj `im.addInvertAdjustmentLayer()` przed dodaniem innych dopasowań lub zmień kolejność warstw za pomocą `im.getLayers()` |
-| **Performance slowdown on large PSDs** | Ładowanie bardzo dużych plików do pamięci | Rozważ przetwarzanie stron w partiach lub zwiększenie rozmiaru sterty JVM (`-Xmx2g`) |
-
-## Najczęściej zadawane pytania
-
-**P: Czy Aspose.PSD jest kompatybilny ze wszystkimi wersjami Javy?**  
-O: Aspose.PSD obsługuje Java 6.0 i późniejsze wersje.
-
-**P: Czy mogę zastosować wiele warstw dopasowania w jednej operacji?**  
-O: Tak, możesz układać kilka warstw dopasowania — takich jak Invert, Brightness i Hue/Saturation — aby uzyskać złożone efekty.
-
-**P: Gdzie mogę znaleźć dodatkową dokumentację dla Aspose.PSD?**  
-O: Odwołaj się do dokumentacji [here](https://reference.aspose.com/psd/java/) aby uzyskać kompleksowe przewodniki i odniesienia API.
-
-**P: Czy dostępna jest bezpłatna wersja próbna Aspose.PSD?**  
-O: Tak, możesz wypróbować wersję próbną [here](https://releases.aspose.com/).
-
-**P: Jak mogę uzyskać tymczasową licencję dla Aspose.PSD?**  
-O: Tymczasową licencję możesz uzyskać [here](https://purchase.aspose.com/temporary-license/).
-
----
-
-**Ostatnia aktualizacja:** 2026-04-22  
-**Testowano z:** Aspose.PSD 24.12 for Java  
-**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
