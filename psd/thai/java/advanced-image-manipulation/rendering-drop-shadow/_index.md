@@ -1,16 +1,75 @@
 ---
-date: 2026-04-22
-description: เรียนรู้วิธีบันทึกไฟล์ PSD เป็น PNG, ส่งออก PNG พร้อมแอลฟา, และเพิ่มเลเยอร์เงาตกโดยใช้
-  Aspose.PSD สำหรับ Java – คู่มือครบถ้วนแบบขั้นตอนต่อขั้นตอน
+date: 2026-11-04
+description: เรียนรู้วิธีบันทึก PSD เป็น PNG, ส่งออก PNG พร้อม alpha, และเพิ่มเลเยอร์
+  Drop Shadow ด้วย Aspose.PSD for Java – คู่มือครบขั้นตอน
 keywords:
 - save psd as png
 - convert psd to png
 - export png with alpha
 - batch psd to png
-- preserve png transparency
-linktitle: ใช้เงาตกของการเรนเดอร์
+- java image manipulation
+lastmod: 2026-11-04
+linktitle: ใช้ Rendering Drop Shadow
+og_description: บันทึก PSD เป็น PNG ด้วย Aspose.PSD for Java, ส่งออก PNG พร้อมความโปร่งใสแบบ
+  alpha, และเพิ่ม Rendering Drop Shadow—คู่มือขั้นตอนสำหรับนักพัฒนา Java
+og_image_alt: Developer guide showing how to convert PSD to PNG and apply drop shadow
+  using Aspose.PSD Java
+og_title: บันทึก PSD เป็น PNG และใช้ Rendering Drop Shadow ใน Aspose.PSD for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to save PSD as PNG, export PNG with alpha, and add a drop
+    shadow layer using Aspose.PSD for Java – a complete, step‑by‑step guide.
+  headline: Save psd as png and apply rendering drop shadow in Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to save PSD as PNG, export PNG with alpha, and add a drop
+    shadow layer using Aspose.PSD for Java – a complete, step‑by‑step guide.
+  name: Save psd as png and apply rendering drop shadow in Aspose.PSD for Java
+  steps:
+  - name: define document directory
+    text: Define the directory path where your PSD files are stored.
+  - name: set psd and png file paths
+    text: Specify the full file paths for the source PSD and the target PNG.
+  - name: load psd file with effects
+    text: '`PsdImage` loads the PSD and gives access to its layers and effects.'
+  - name: access drop shadow effect
+    text: '`DropShadowEffect` represents a drop‑shadow layer effect that can be read
+      or modified.'
+  - name: validate shadow effect properties
+    text: '`shadowEffect` holds the properties of the drop‑shadow such as opacity,
+      distance, and size. > **Pro tip:** Adjust `setSpread()` or `setNoise()` to create
+      softer or more textured shadows.'
+  - name: save as png – the “save psd as png” step
+    text: '`PngOptions` configures PNG export settings, including color type and alpha
+      channel handling. At this point you have successfully **converted psd to png**,
+      **exported png with alpha**, and applied a rendering drop shadow in a single
+      workflow.'
+  type: HowTo
+- questions:
+  - answer: Yes. Loop through `im.getLayers()` and add or modify a `DropShadowEffect`
+      for each target layer, which also lets you perform a batch psd to png conversion.
+    question: Can I apply drop shadows to multiple layers simultaneously?
+  - answer: '`Spread` determines how abruptly the shadow transitions from full opacity
+      to transparent. A higher value creates a harder edge.'
+    question: What does the ‘Spread’ parameter control?
+  - answer: Aspose.PSD supports PSD files from Photoshop 3.0 up to the latest release,
+      handling most layer types and effects.
+    question: Is Aspose.PSD compatible with all Photoshop versions?
+  - answer: Download the free trial from the [Aspose.PSD download page](https://releases.aspose.com/psd/java/)
+      and run the sample without a license key.
+    question: How can I test the code before purchasing a license?
+  - answer: Post your question on the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)
+      where the community and Aspose engineers can assist.
+    question: Where can I get help if I run into problems?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: บันทึก PSD เป็น PNG และใช้เงาตกของการเรนเดอร์ใน Aspose.PSD สำหรับ Java
+tags:
+- save psd as png
+- aspose psd java
+- java image manipulation
+- png transparency
+- rendering drop shadow
+title: บันทึก PSD เป็น PNG และใช้ Rendering Drop Shadow ใน Aspose.PSD for Java
 url: /th/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
@@ -19,39 +78,40 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# บันทึก PSD เป็น PNG และใช้ Rendering Drop Shadow ใน Aspose.PSD สำหรับ Java
+# บันทึก PSD เป็น PNG และใช้การเรนเดอร์เงาตกใน Aspose.PSD สำหรับ Java
 
 ## บทนำ
 
-หากคุณทำงานกับไฟล์ Photoshop ใน Java, **การบันทึก PSD เป็น PNG** เป็นหนึ่งในงานที่พบบ่อยที่สุดที่คุณจะเจอ ในหลายโครงการคุณจะต้อง **บันทึก psd เป็น png** เพื่อส่งมอบทรัพยากรไปยังเว็บหรือแอปมือถือ พร้อมกับรักษาความโปร่งใสและเอฟเฟกต์ภาพไว้ ด้วย Aspose.PSD คุณไม่เพียงแต่ **แปลง PSD เป็น PNG** แต่ยังสามารถปรับปรุงภาพโดย **เพิ่มเลเยอร์เงาตก** ในบทเรียนนี้เราจะเดินผ่านกระบวนการทั้งหมด—การโหลด PSD, การใช้ Rendering Drop Shadow, และสุดท้าย **การบันทึก PSD เป็นไฟล์ PNG**—เพื่อให้คุณสามารถผสานการทำงานนี้เข้ากับโครงการของคุณได้อย่างมั่นใจ
+หากคุณทำงานกับไฟล์ Photoshop ใน Java, **การบันทึก PSD เป็น PNG** เป็นหนึ่งในงานที่พบบ่อยที่สุดที่คุณจะเจอ ในหลายโครงการคุณจะต้อง **บันทึก PSD เป็น PNG** เพื่อส่งมอบทรัพยากรไปยังเว็บหรือแอปมือถือ พร้อมคงความโปร่งใสและเอฟเฟกต์ภาพไว้ ด้วย Aspose.PSD คุณไม่เพียงแต่ **แปลง PSD เป็น PNG** เท่านั้น แต่ยังสามารถปรับปรุงภาพโดย **เพิ่มเลเยอร์เงาตก** อีกด้วย ในบทแนะนำนี้เราจะเดินผ่านกระบวนการทั้งหมด—การโหลด PSD, การใช้เงาตกแบบเรนเดอร์, และสุดท้าย **การบันทึก PSD เป็นไฟล์ PNG**—เพื่อให้คุณสามารถรวมขั้นตอนการทำงานนี้เข้าสู่โครงการของคุณได้อย่างมั่นใจ
 
-## คำตอบอย่างรวดเร็ว
+## คำตอบสั้น
+
 - **ไลบรารีที่จัดการการแปลง PSD เป็น PNG คืออะไร?** Aspose.PSD for Java.  
-- **การทำงานของ drop‑shadow ใช้เวลานานเท่าไหร่?** ประมาณ 10‑15 นาทีสำหรับตัวอย่างพื้นฐาน.  
-- **ฉันต้องมีลิขสิทธิ์เพื่อรันโค้ดหรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการประเมิน; จำเป็นต้องมีลิขสิทธิ์สำหรับการใช้งานจริง.  
-- **ฉันสามารถใช้เงากับหลายเลเยอร์ได้หรือไม่?** ได้—เพียงวนลูปผ่านเลเยอร์ที่ต้องการ ซึ่งยังทำให้คุณสามารถทำการแปลง batch psd to png ได้.  
-- **ต้องการเวอร์ชัน Java ใด?** Java 8 หรือสูงกว่า.
+- **การทำงานของเงาตกใช้เวลานานเท่าไหร่?** ประมาณ 10‑15 นาทีสำหรับตัวอย่างพื้นฐาน.  
+- **ฉันต้องมีลิขสิทธิ์เพื่อรันโค้ดหรือไม่?** รุ่นทดลองฟรีใช้ได้สำหรับการประเมิน; จำเป็นต้องมีลิขสิทธิ์สำหรับการใช้งานจริง.  
+- **ฉันสามารถใส่เงาให้หลายเลเยอร์ได้หรือไม่?** ได้—เพียงวนลูปผ่านเลเยอร์ที่ต้องการ ซึ่งยังช่วยให้ทำการแปลง PSD เป็น PNG แบบแบชได้.  
+- **ต้องใช้เวอร์ชัน Java ใด?** Java 8 หรือสูงกว่า.
 
-## “บันทึก PSD เป็น PNG” คืออะไรและทำไมถึงสำคัญ?
+## “บันทึก PSD เป็น PNG” คืออะไรและทำไมจึงสำคัญ
 
-**การบันทึก PSD เป็น PNG** สร้างภาพที่รองรับอย่างกว้างขวางและไม่มีการสูญเสียข้อมูลซึ่งยังคงรักษาความโปร่งใสไว้ นี่เป็นสิ่งสำคัญเมื่อคุณต้องการแสดงทรัพยากร Photoshop บนเว็บ, ในแอปมือถือ, หรือเป็นส่วนหนึ่งของกระบวนการประมวลผลภาพที่ใหญ่กว่า การเพิ่มเงาตกในเวลาเดียวกันทำให้คุณสร้างเอฟเฟกต์ภาพที่ดูเรียบหรูโดยไม่ต้องเปิด Photoshop
+**การบันทึก PSD เป็น PNG สร้างภาพที่รองรับอย่างกว้างขวางและไม่มีการสูญเสียข้อมูล พร้อมคงความโปร่งใส** รูปแบบนี้จำเป็นเมื่อคุณต้องการแสดงทรัพยากร Photoshop บนเว็บ, ในแอปมือถือ, หรือเป็นส่วนหนึ่งของกระบวนการประมวลผลภาพที่ใหญ่ขึ้น การเพิ่มเงาตกในเวลาเดียวกันทำให้คุณได้เอฟเฟกต์ที่ดูเป็นมืออาชีพโดยไม่ต้องเปิด Photoshop
 
-## ทำไมต้องใช้ Aspose.PSD สำหรับกระบวนการนี้?
+## ทำไมต้องใช้ Aspose.PSD สำหรับขั้นตอนทำงานนี้
 
-* **Full control from code** – ไม่จำเป็นต้องเปิด Photoshop หรือพึ่งพาเครื่องมือภายนอก.  
-* **Preserves layer effects** – เงาตก, แสงเรืองแสง, และเอฟเฟกต์อื่น ๆ ถูกเรนเดอร์ตรงตามที่ปรากฏในไฟล์ต้นฉบับ.  
-* **Export PNG with alpha** – ผลลัพธ์ PNG รักษาพื้นหลังโปร่งใส, ทำให้คุณ **preserve PNG transparency** สำหรับ UI หรือการใช้บนเว็บ.  
-* **Cross‑platform** – ทำงานบน OS ใดก็ได้ที่รองรับ Java 8+.
+การเรนเดอร์เอฟเฟ็กต์เลเยอร์ในขณะโหลดเป็นฟีเจอร์ในตัว จึงไม่ต้องใช้ Photoshop Aspose.PSD รองรับรูปแบบเข้าและออกกว่า 50 รูปแบบ (PSD, PNG, JPEG, TIFF, BMP) และสามารถประมวลผลเอกสารขนาดใหญ่โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ มันคงเอฟเฟ็กต์เช่นเงาตกและแสงเรืองแสงไว้ตามที่แสดงอย่างแม่นยำ และส่งออก PNG พร้อมความโปร่งใสแบบอัลฟาโดยอัตโนมัติ
 
 ## ข้อกำหนดเบื้องต้น
 
-- **Java Development Environment** – ติดตั้ง JDK 8 หรือใหม่กว่า.  
-- **Aspose.PSD for Java** – ดาวน์โหลด JAR ล่าสุดจาก [Aspose.PSD download page](https://releases.aspose.com/psd/java/).  
-- **A PSD file** – ไฟล์ควรมีอย่างน้อยหนึ่งเลเยอร์ที่คุณต้องการเพิ่มเงาตก (เช่น *Shadow.psd*).  
+ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมี:
+
+- **สภาพแวดล้อมการพัฒนา Java** – ติดตั้ง JDK 8 หรือใหม่กว่า.  
+- **Aspose.PSD for Java** – ดาวน์โหลด JAR ล่าสุดจาก [หน้าดาวน์โหลด Aspose.PSD](https://releases.aspose.com/psd/java/).  
+- **ไฟล์ PSD** – ไฟล์ควรมีอย่างน้อยหนึ่งเลเยอร์ที่คุณต้องการเพิ่มเงาตก (เช่น *Shadow.psd*).  
 
 ## นำเข้าแพ็กเกจ
 
-ก่อนอื่น ให้นำเข้าคลาสที่เราต้องการ นี่จะให้เราเข้าถึงการโหลดภาพ, เอฟเฟกต์เลเยอร์, และตัวเลือกการส่งออก PNG.
+เนมสเปซ `com.aspose.psd` ให้คลาสหลักสำหรับการโหลดภาพ, การจัดการเลเยอร์, และการส่งออกไฟล์ PNG.  
+`PsdImage` เป็นคลาสหลักที่ใช้ในการโหลดและจัดการไฟล์ PSD.  
 
 ```java
 import com.aspose.psd.Image;
@@ -67,23 +127,23 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 ## คู่มือขั้นตอนโดยละเอียด
 
-### ขั้นตอนที่ 1: กำหนดไดเรกทอรีเอกสาร  
-บอกโปรแกรมว่าที่ตั้งของไฟล์ PSD ต้นทางของคุณอยู่ที่ไหน.
+### ขั้นตอนที่ 1: กำหนดไดเรกทอรีเอกสาร
+กำหนดเส้นทางไดเรกทอรีที่เก็บไฟล์ PSD ของคุณ.  
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### ขั้นตอนที่ 2: ตั้งค่าเส้นทางไฟล์ PSD และ PNG  
-ระบุทั้งไฟล์ PSD อินพุตและไฟล์ PNG เอาต์พุตที่มีเงาตกที่เรนเดอร์แล้ว.
+### ขั้นตอนที่ 2: ตั้งค่าเส้นทางไฟล์ PSD และ PNG
+ระบุเส้นทางไฟล์เต็มสำหรับ PSD ต้นฉบับและ PNG ปลายทาง.  
 
 ```java
 String sourceFileName = dataDir + "Shadow.psd";
 String pngExportPath = dataDir + "Shadowchanged1.png";
 ```
 
-### ขั้นตอนที่ 3: โหลดไฟล์ PSD พร้อมเอฟเฟกต์  
-เปิดการโหลดทรัพยากรเอฟเฟกต์เพื่อให้เราสามารถจัดการกับเอฟเฟกต์ drop‑shadow ได้.
+### ขั้นตอนที่ 3: โหลดไฟล์ PSD พร้อมเอฟเฟ็กต์
+`PsdImage` โหลด PSD และให้เข้าถึงเลเยอร์และเอฟเฟ็กต์ของมัน.  
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
@@ -92,15 +152,15 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
-### ขั้นตอนที่ 4: เข้าถึงเอฟเฟกต์ Drop Shadow  
-ดึงเอฟเฟกต์ drop‑shadow ตัวแรกจากเลเยอร์ที่สอง (ดัชนี 1) นี่คือจุดที่เราจะตรวจสอบหรือแก้ไขพารามิเตอร์.
+### ขั้นตอนที่ 4: เข้าถึงเอฟเฟ็กต์เงาตก
+`DropShadowEffect` แทนเอฟเฟ็กต์เงาตกของเลเยอร์ที่สามารถอ่านหรือแก้ไขได้.  
 
 ```java
 DropShadowEffect shadowEffect = (DropShadowEffect) (im.getLayers()[1].getBlendingOptions().getEffects()[0]);
 ```
 
-### ขั้นตอนที่ 5: ตรวจสอบคุณสมบัติของเอฟเฟกต์เงา  
-ตรวจสอบให้แน่ใจว่าคุณสมบัติของเอฟเฟกต์ตรงกับที่คุณคาดหวังก่อนบันทึก คุณยังสามารถปรับค่าต่าง ๆ เพื่อให้ได้ลุคที่แตกต่าง.
+### ขั้นตอนที่ 5: ตรวจสอบคุณสมบัติของเอฟเฟ็กต์เงา
+`shadowEffect` เก็บคุณสมบัติของเงาตก เช่น ความทึบ, ระยะ, และขนาด.  
 
 ```java
 Assert.areEqual(Color.getBlack(), shadowEffect.getColor());
@@ -113,10 +173,10 @@ Assert.areEqual(0, shadowEffect.getSpread());
 Assert.areEqual(0, shadowEffect.getNoise());
 ```
 
-> **เคล็ดลับ:** ปรับ `setSpread()` หรือ `setNoise()` เพื่อสร้างเงาที่นุ่มนวลหรือมีพื้นผิวมากขึ้น.
+> **เคล็ดลับ:** ปรับ `setSpread()` หรือ `setNoise()` เพื่อสร้างเงาที่นุ่มนวลหรือมีลักษณะเท็กซ์เจอร์มากขึ้น.
 
-### ขั้นตอนที่ 6: บันทึกเป็น PNG – ขั้นตอน “บันทึก PSD เป็น PNG”  
-ส่งออกภาพที่แก้ไขเป็น PNG, รักษาชาแนลอัลฟาเพื่อให้เงาผสมอย่างถูกต้อง.
+### ขั้นตอนที่ 6: บันทึกเป็น PNG – ขั้นตอน “บันทึก PSD เป็น PNG”
+`PngOptions` กำหนดค่าการส่งออก PNG, รวมถึงประเภทสีและการจัดการช่องอัลฟา.  
 
 ```java
 PngOptions saveOptions = new PngOptions();
@@ -124,60 +184,65 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-ในขั้นตอนนี้คุณได้ **แปลง PSD เป็น PNG** อย่างสำเร็จ, **ส่งออก PNG พร้อมอัลฟา**, และใช้ Rendering Drop Shadow ในกระบวนการเดียว.
+ในขั้นตอนนี้คุณได้ **แปลง PSD เป็น PNG** สำเร็จ, **ส่งออก PNG พร้อมอัลฟา**, และได้ใส่เงาตกแบบเรนเดอร์ในกระบวนการเดียวแล้ว.
 
 ## ส่งออก PNG พร้อมความโปร่งใสแบบ Alpha
 
-เมื่อคุณต้องการให้ผลลัพธ์ PNG รักษาพื้นหลังโปร่งใส—โดยเฉพาะสำหรับ UI overlay หรือกราฟิกเว็บ—ให้แน่ใจว่าคุณใช้ `PngColorType.TruecolorWithAlpha` ตามที่แสดงในขั้นตอนการบันทึกด้านบน สิ่งนี้รับประกันว่าเงาตกจะอยู่บนแคนวาสโปร่งใสแทนพื้นหลังสีทึบ ช่วยให้คุณ **preserve PNG transparency**.
+เมื่อคุณต้องการให้ผลลัพธ์ PNG คงพื้นหลังโปร่งใส—โดยเฉพาะสำหรับ UI overlay หรือกราฟิกเว็บ—ให้ใช้ `PngColorType.TruecolorWithAlpha` ตามที่แสดงในขั้นตอนการบันทึกด้านบน การทำเช่นนี้รับประกันว่าเงาตกจะอยู่บนแคนวาสโปร่งใสแทนพื้นหลังสีทึบ, ช่วยให้คุณ **คงความโปร่งใสของ PNG** ได้อย่างเต็มที่.
 
-## เพิ่มเลเยอร์ Drop Shadow ด้วย Java
+## เพิ่มเลเยอร์เงาตกโดยใช้ Java
 
-หาก PSD ของคุณมีหลายเลเยอร์ที่ต้องการเงา เพียงทำซ้ำ **ขั้นตอน 4** และ **ขั้นตอน 5** ภายในลูปที่วนผ่าน `im.getLayers()` แต่ละรอบสามารถสร้างหรือแก้ไขอินสแตนซ์ `DropShadowEffect` ให้คุณควบคุมความทึบ, ระยะ, ขนาด, และมุมของเงาในแต่ละเลเยอร์ได้อย่างละเอียด วิธีนี้ยังทำให้สามารถทำ **batch psd to png** ที่ไฟล์ทุกไฟล์ได้รับการใส่เงาแบบเดียวกัน.
+หาก PSD ของคุณมีหลายเลเยอร์ที่ต้องการเงา, เพียงทำซ้ำ **ขั้นตอนที่ 4** และ **ขั้นตอนที่ 5** ภายในลูปที่วนผ่าน `im.getLayers()` แต่ละรอบสามารถสร้างหรือแก้ไขอินสแตนซ์ `DropShadowEffect` ได้, ให้คุณควบคุมความทึบ, ระยะ, ขนาด, และมุมของเงาแต่ละเลเยอร์อย่างละเอียด วิธีนี้ยังทำให้คุณสามารถทำ **การแปลง PSD เป็น PNG แบบแบช** ที่ทุกไฟล์ได้รับการใส่เงาแบบเดียวกันได้.
 
 ## กรณีการใช้งานทั่วไปสำหรับการบันทึก PSD เป็น PNG
 
-* **Web asset pipelines** – แปลง PSD ที่นักออกแบบให้เป็น PNG พร้อมเงาที่สร้างไว้สำหรับเว็บ.  
-* **Mobile app resources** – สร้างไอคอน PNG โปร่งใสแบบเรียลไทม์, หลีกเลี่ยงการส่งออกด้วยตนเอง.  
-* **Batch processing** – อัตโนมัติการแปลงไฟล์ PSD หลายร้อยไฟล์ในงานฝั่งเซิร์ฟเวอร์, ทำให้แต่ละ PNG รักษาชาแนลอัลฟาและเอฟเฟกต์ภาพ.
+* **กระบวนการทรัพยากรเว็บ** – แปลง PSD ที่ออกแบบโดยนักออกแบบเป็น PNG พร้อมเงาในตัวสำหรับเว็บ.  
+* **ทรัพยากรแอปมือถือ** – สร้างไอคอน PNG โปร่งใสแบบอัตโนมัติ, หลีกเลี่ยงการส่งออกด้วยมือ.  
+* **การประมวลผลแบบแบช** – อัตโนมัติการแปลงหลายร้อยไฟล์ PSD ในงานฝั่งเซิร์ฟเวอร์, ทำให้แต่ละ PNG คงช่องอัลฟาและเอฟเฟ็กต์ภาพ.  
 
-## ปัญหาทั่วไปและวิธีแก้
+## ปัญหาที่พบบ่อยและวิธีแก้
 
 | ปัญหา | สาเหตุที่เป็นไปได้ | วิธีแก้ |
 |-------|-------------------|--------|
-| **เงาไม่ปรากฏ** | `Opacity` ตั้งค่าเป็น 0 หรือเลเยอร์ถูกซ่อน | ตรวจสอบว่า `shadowEffect.getOpacity()` > 0 และความมองเห็นของเลเยอร์ |
-| **PNG ปรากฏเป็นสีเดียว (ไม่มีความโปร่งใส)** | ใช้ `PngColorType` ไม่ถูกต้อง | ใช้ `PngColorType.TruecolorWithAlpha` ตามที่แสดง |
-| **เกิดข้อยกเว้นขณะโหลด** | เอฟเฟกต์ไม่ได้โหลด | ตรวจสอบว่าได้เรียก `loadOptions.setLoadEffectsResource(true)` |
-| **ดัชนีเลเยอร์ไม่ถูกต้อง** | โครงสร้าง PSD แตกต่าง | ตรวจสอบ `im.getLayers()` และเลือกดัชนีที่ถูกต้อง |
+| **Shadow not visible** | `Opacity` ตั้งเป็น 0 หรือเลเยอร์ถูกซ่อน | ตรวจสอบว่า `shadowEffect.getOpacity()` > 0 และเลเยอร์แสดงผล. |
+| **PNG appears flat (no transparency)** | ใช้ `PngColorType` ไม่ถูกต้อง | ใช้ `PngColorType.TruecolorWithAlpha` ตามที่แสดง. |
+| **Exception on loading** | ไม่ได้โหลดเอฟเฟ็กต์ | ตรวจสอบว่าได้เรียก `loadOptions.setLoadEffectsResource(true)` แล้ว. |
+| **Incorrect layer index** | โครงสร้าง PSD แตกต่าง | ตรวจสอบ `im.getLayers()` แล้วเลือกดัชนีที่ถูกต้อง. |
 
 ## คำถามที่พบบ่อย
 
-**ถาม: ฉันสามารถใช้เงาตกกับหลายเลเยอร์พร้อมกันได้หรือไม่?**  
-A: ได้—เพียงวนลูปผ่าน `im.getLayers()` และเพิ่มหรือแก้ไข `DropShadowEffect` สำหรับแต่ละเลเยอร์เป้าหมาย ซึ่งยังทำให้คุณสามารถทำ **batch psd to png** ได้.
+**Q: ฉันสามารถใส่เงาตกให้หลายเลเยอร์พร้อมกันได้หรือไม่?**  
+A: ได้. วนลูปผ่าน `im.getLayers()` แล้วเพิ่มหรือแก้ไข `DropShadowEffect` สำหรับแต่ละเลเยอร์เป้าหมาย, ซึ่งยังทำให้คุณสามารถทำการแปลง PSD เป็น PNG แบบแบชได้.
 
-**ถาม: พารามิเตอร์ ‘Spread’ ควบคุมอะไร?**  
-A: `Spread` กำหนดว่าการเปลี่ยนจากความทึบเต็มไปยังความโปร่งใสของเงาจะเกิดขึ้นอย่างรวดเร็วแค่ไหน ค่าเพิ่มทำให้ขอบเงาแข็งแรงขึ้น.
+**Q: พารามิเตอร์ ‘Spread’ ควบคุมอะไร?**  
+A: `Spread` กำหนดว่าการเปลี่ยนจากความทึบเต็มไปเป็นโปร่งใสจะเกิดขึ้นอย่างกะทันหันแค่ไหน ค่าเพิ่มทำให้ขอบเงาแข็งขึ้น.
 
-**ถาม: Aspose.PSD รองรับเวอร์ชัน Photoshop ทั้งหมดหรือไม่?**  
-A: Aspose.PSD รองรับไฟล์ PSD ตั้งแต่ Photoshop 3.0 จนถึงเวอร์ชันล่าสุด, จัดการกับส่วนใหญ่ของประเภทเลเยอร์และเอฟเฟกต์.
+**Q: Aspose.PSD รองรับเวอร์ชัน Photoshop ทั้งหมดหรือไม่?**  
+A: Aspose.PSD รองรับไฟล์ PSD ตั้งแต่ Photoshop 3.0 จนถึงรุ่นล่าสุด, จัดการกับประเภทเลเยอร์และเอฟเฟ็กต์ส่วนใหญ่.
 
-**ถาม: ฉันจะทดสอบโค้ดก่อนซื้อไลเซนส์ได้อย่างไร?**  
-A: ดาวน์โหลดรุ่นทดลองใช้ฟรีจาก [Aspose.PSD download page](https://releases.aspose.com/psd/java/) และรันตัวอย่างโดยไม่มีคีย์ไลเซนส์.
+**Q: ฉันจะทดสอบโค้ดก่อนซื้อไลเซนส์ได้อย่างไร?**  
+A: ดาวน์โหลดรุ่นทดลองฟรีจาก [หน้าดาวน์โหลด Aspose.PSD](https://releases.aspose.com/psd/java/) แล้วรันตัวอย่างโดยไม่ต้องใส่คีย์ไลเซนส์.
 
-**ถาม: ฉันจะขอความช่วยเหลือเมื่อเจอปัญหาได้จากที่ไหน?**  
-A: โพสต์คำถามของคุณบน [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) ที่ชุมชนและวิศวกรของ Aspose สามารถช่วยเหลือได้.
+**Q: จะหาแหล่งช่วยเหลือเมื่อเจอปัญหาได้จากที่ไหน?**  
+A: โพสต์คำถามของคุณบน [ฟอรั่ม Aspose.PSD](https://forum.aspose.com/c/psd/34) ที่ชุมชนและวิศวกรของ Aspose จะช่วยตอบ.
 
 ## สรุป
 
-ตอนนี้คุณรู้วิธี **บันทึก psd เป็น png**, **ส่งออก PNG พร้อมอัลฟา**, **แปลง PSD เป็น PNG**, และ **เพิ่มเลเยอร์เงาตก** ด้วย Aspose.PSD สำหรับ Java การผสมผสานนี้ทำให้คุณสามารถอัตโนมัติการเตรียมภาพคุณภาพสูงสำหรับเว็บ, มือถือ, หรือแอปเดสก์ท็อป—โดยไม่ต้องเปิด Photoshop เลย.
+คุณได้เรียนรู้วิธี **บันทึก PSD เป็น PNG**, **ส่งออก PNG พร้อมอัลฟา**, **แปลง PSD เป็น PNG**, และ **เพิ่มเลเยอร์เงาตก** ด้วย Aspose.PSD for Java การผสมผสานนี้ช่วยให้คุณอัตโนมัติการเตรียมภาพคุณภาพสูงสำหรับเว็บ, มือถือ, หรือแอปเดสก์ท็อป—โดยไม่ต้องเปิด Photoshop เลย.
 
 ---
 
-**Last Updated:** 2026-04-22  
-**Tested With:** Aspose.PSD 24.11 for Java  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-11-04  
+**ทดสอบกับ:** Aspose.PSD 24.11 for Java  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [แปลง PSD เป็น PNG พร้อมการทับสี – Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-color-effect/)
+- [วิธีเพิ่มเงาใน PSD ด้วย Java – เอฟเฟกต์เลเยอร์ขั้นสูง](/psd/java/advanced-psd-layer-features-effects/)
+- [วิธีแปลง PSD เป็นรูปแบบภาพแรสเตอร์ด้วย Aspose.PSD for Java](/psd/java/advanced-techniques/convert-psd-to-raster-forms/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

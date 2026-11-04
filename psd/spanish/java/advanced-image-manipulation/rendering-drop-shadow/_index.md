@@ -1,17 +1,76 @@
 ---
-date: 2026-04-22
-description: 'Aprende cómo guardar PSD como PNG, exportar PNG con alfa y añadir una
-  capa de sombra paralela usando Aspose.PSD para Java: una guía completa, paso a paso.'
+date: 2026-11-04
+description: Aprenda cómo guardar PSD como PNG, exportar PNG con canal alfa y añadir
+  una capa de sombra de renderizado usando Aspose.PSD for Java – una guía completa
+  paso a paso.
 keywords:
 - save psd as png
 - convert psd to png
 - export png with alpha
 - batch psd to png
-- preserve png transparency
+- java image manipulation
+lastmod: 2026-11-04
 linktitle: Aplicar sombra de renderizado
+og_description: Guarde PSD como PNG con Aspose.PSD for Java, exporte PNG con transparencia
+  alfa y añada una sombra de renderizado—guía paso a paso para desarrolladores Java.
+og_image_alt: Developer guide showing how to convert PSD to PNG and apply drop shadow
+  using Aspose.PSD Java
+og_title: Guardar PSD como PNG y aplicar sombra de renderizado en Aspose.PSD for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to save PSD as PNG, export PNG with alpha, and add a drop
+    shadow layer using Aspose.PSD for Java – a complete, step‑by‑step guide.
+  headline: Save psd as png and apply rendering drop shadow in Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to save PSD as PNG, export PNG with alpha, and add a drop
+    shadow layer using Aspose.PSD for Java – a complete, step‑by‑step guide.
+  name: Save psd as png and apply rendering drop shadow in Aspose.PSD for Java
+  steps:
+  - name: define document directory
+    text: Define the directory path where your PSD files are stored.
+  - name: set psd and png file paths
+    text: Specify the full file paths for the source PSD and the target PNG.
+  - name: load psd file with effects
+    text: '`PsdImage` loads the PSD and gives access to its layers and effects.'
+  - name: access drop shadow effect
+    text: '`DropShadowEffect` represents a drop‑shadow layer effect that can be read
+      or modified.'
+  - name: validate shadow effect properties
+    text: '`shadowEffect` holds the properties of the drop‑shadow such as opacity,
+      distance, and size. > **Pro tip:** Adjust `setSpread()` or `setNoise()` to create
+      softer or more textured shadows.'
+  - name: save as png – the “save psd as png” step
+    text: '`PngOptions` configures PNG export settings, including color type and alpha
+      channel handling. At this point you have successfully **converted psd to png**,
+      **exported png with alpha**, and applied a rendering drop shadow in a single
+      workflow.'
+  type: HowTo
+- questions:
+  - answer: Yes. Loop through `im.getLayers()` and add or modify a `DropShadowEffect`
+      for each target layer, which also lets you perform a batch psd to png conversion.
+    question: Can I apply drop shadows to multiple layers simultaneously?
+  - answer: '`Spread` determines how abruptly the shadow transitions from full opacity
+      to transparent. A higher value creates a harder edge.'
+    question: What does the ‘Spread’ parameter control?
+  - answer: Aspose.PSD supports PSD files from Photoshop 3.0 up to the latest release,
+      handling most layer types and effects.
+    question: Is Aspose.PSD compatible with all Photoshop versions?
+  - answer: Download the free trial from the [Aspose.PSD download page](https://releases.aspose.com/psd/java/)
+      and run the sample without a license key.
+    question: How can I test the code before purchasing a license?
+  - answer: Post your question on the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)
+      where the community and Aspose engineers can assist.
+    question: Where can I get help if I run into problems?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Guardar PSD como PNG y aplicar sombra paralela de renderizado en Aspose.PSD
-  para Java
+tags:
+- save psd as png
+- aspose psd java
+- java image manipulation
+- png transparency
+- rendering drop shadow
+title: Guardar PSD como PNG y aplicar sombra de renderizado en Aspose.PSD for Java
 url: /es/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
@@ -20,11 +79,11 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Guardar PSD como PNG y aplicar sombra paralela de renderizado en Aspose.PSD para Java
+# Guardar psd como png y aplicar sombra paralela de renderizado en Aspose.PSD para Java
 
 ## Introducción
 
-Si trabajas con archivos de Photoshop en Java, **guardar PSD como PNG** es una de las tareas más comunes que encontrarás. En muchos proyectos necesitarás **guardar psd como png** para enviar recursos a la web o aplicaciones móviles, mientras preservas la transparencia y los efectos visuales. Con Aspose.PSD no solo puedes **convertir PSD a PNG**, sino también mejorar la imagen **agregando una capa de sombra paralela**. En este tutorial recorreremos todo el proceso: cargar un PSD, aplicar una sombra paralela de renderizado y, finalmente, **guardar el PSD como un archivo PNG**, para que puedas integrar el flujo de trabajo en tus propios proyectos con confianza.
+Si trabajas con archivos de Photoshop en Java, **saving psd as png** es una de las tareas más comunes que encontrarás. En muchos proyectos necesitarás **save psd as png** para enviar recursos a la web o aplicaciones móviles, mientras preservas la transparencia y los efectos visuales. Con Aspose.PSD no solo puedes **convert psd to png**, sino también mejorar la imagen **adding a drop shadow layer**. En este tutorial recorreremos todo el proceso: cargar un PSD, aplicar una sombra paralela de renderizado y, finalmente, **saving the PSD as a PNG** file, para que puedas integrar el flujo de trabajo en tus propios proyectos con confianza.
 
 ## Respuestas rápidas
 - **¿Qué biblioteca maneja la conversión de PSD a PNG?** Aspose.PSD for Java.  
@@ -33,28 +92,23 @@ Si trabajas con archivos de Photoshop en Java, **guardar PSD como PNG** es una d
 - **¿Puedo aplicar la sombra a múltiples capas?** Sí, solo recorre las capas deseadas, lo que también te permite realizar una conversión por lotes de psd a png.  
 - **¿Qué versión de Java se requiere?** Java 8 o superior.
 
-## ¿Qué es “guardar PSD como PNG” y por qué es importante?
+## ¿Qué es “save psd as png” y por qué es importante?
 
-**Guardar un PSD como PNG** crea una imagen sin pérdida, ampliamente compatible, que conserva la transparencia. Esto es esencial cuando necesitas mostrar recursos de Photoshop en la web, en aplicaciones móviles o como parte de una canalización de procesamiento de imágenes más grande. Agregar una sombra paralela al mismo tiempo te permite producir un efecto visual pulido sin abrir Photoshop.
+**Saving a PSD as PNG creates a widely‑supported, lossless image that retains transparency.** Este formato es esencial cuando necesitas mostrar recursos de Photoshop en la web, en aplicaciones móviles o como parte de una canalización de procesamiento de imágenes más grande. Añadir una sombra paralela al mismo tiempo te permite producir un efecto visual pulido sin abrir Photoshop.
 
 ## ¿Por qué usar Aspose.PSD para este flujo de trabajo?
 
-* **Control total desde el código** – No es necesario lanzar Photoshop ni depender de herramientas externas.  
-* **Preserva los efectos de capa** – Las sombras paralelas, brillos y otros efectos se renderizan exactamente como aparecen en el archivo original.  
-* **Exportar PNG con alfa** – La salida PNG mantiene el fondo transparente, asegurando que **preservas la transparencia PNG** para uso en UI o web.  
-* **Multiplataforma** – Funciona en cualquier SO que soporte Java 8+.  
+El renderizado en tiempo de carga de los efectos de capa está incorporado, por lo que no necesitas Photoshop. Aspose.PSD admite más de 50 formatos de entrada y salida (PSD, PNG, JPEG, TIFF, BMP) y puede procesar documentos grandes sin cargar todo el archivo en memoria. Conserva efectos como sombras paralelas y brillos exactamente como aparecen, y exporta automáticamente PNG con transparencia alfa.
 
 ## Requisitos previos
 
-Antes de sumergirnos, asegúrate de tener:
-
 - **Entorno de desarrollo Java** – JDK 8 o más reciente instalado.  
-- **Aspose.PSD for Java** – Descarga el último JAR desde la [página de descarga de Aspose.PSD](https://releases.aspose.com/psd/java/).  
-- **Un archivo PSD** – El archivo debe contener al menos una capa que deseas mejorar con una sombra paralela (p. ej., *Shadow.psd*).  
+- **Aspose.PSD for Java** – Descarga el último JAR desde la [Aspose.PSD download page](https://releases.aspose.com/psd/java/).  
+- **Un archivo PSD** – El archivo debe contener al menos una capa que quieras mejorar con una sombra paralela (p.ej., *Shadow.psd*).  
 
 ## Importar paquetes
 
-Primero, importa las clases que necesitaremos. Esto nos da acceso a la carga de imágenes, efectos de capa y opciones de exportación PNG.
+El espacio de nombres `com.aspose.psd` proporciona las clases principales para cargar imágenes, manipular capas y exportar archivos PNG. `PsdImage` es la clase principal usada para cargar y manipular archivos PSD.  
 
 ```java
 import com.aspose.psd.Image;
@@ -70,23 +124,23 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 ## Guía paso a paso
 
-### Paso 1: Definir el directorio del documento  
-Indica al programa dónde se encuentra tu PSD de origen.
+### Paso 1: definir el directorio del documento
+Define la ruta del directorio donde se almacenan tus archivos PSD.  
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Paso 2: Establecer rutas de archivos PSD y PNG  
-Especifica tanto el PSD de entrada como el PNG de salida que contendrá la sombra paralela renderizada.
+### Paso 2: establecer rutas de archivo psd y png
+Especifica las rutas completas de archivo para el PSD de origen y el PNG de destino.  
 
 ```java
 String sourceFileName = dataDir + "Shadow.psd";
 String pngExportPath = dataDir + "Shadowchanged1.png";
 ```
 
-### Paso 3: Cargar archivo PSD con efectos  
-Habilita la carga de recursos de efectos para que podamos manipular el efecto de sombra paralela.
+### Paso 3: cargar archivo psd con efectos
+`PsdImage` carga el PSD y brinda acceso a sus capas y efectos.  
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
@@ -95,15 +149,15 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
-### Paso 4: Acceder al efecto de sombra paralela  
-Obtén el primer efecto de sombra paralela de la segunda capa (índice 1). Aquí verificaremos o modificaremos los parámetros.
+### Paso 4: acceder al efecto de sombra paralela
+`DropShadowEffect` representa un efecto de capa de sombra paralela que puede leerse o modificarse.  
 
 ```java
 DropShadowEffect shadowEffect = (DropShadowEffect) (im.getLayers()[1].getBlendingOptions().getEffects()[0]);
 ```
 
-### Paso 5: Validar propiedades del efecto de sombra  
-Asegúrate de que las propiedades del efecto coincidan con lo que esperas antes de guardar. También puedes ajustar estos valores para lograr un aspecto diferente.
+### Paso 5: validar propiedades del efecto de sombra
+`shadowEffect` contiene las propiedades de la sombra paralela como opacidad, distancia y tamaño.  
 
 ```java
 Assert.areEqual(Color.getBlack(), shadowEffect.getColor());
@@ -118,8 +172,8 @@ Assert.areEqual(0, shadowEffect.getNoise());
 
 > **Consejo profesional:** Ajusta `setSpread()` o `setNoise()` para crear sombras más suaves o con más textura.
 
-### Paso 6: Guardar como PNG – el paso “guardar PSD como PNG”  
-Exporta la imagen modificada a PNG, preservando el canal alfa para que la sombra se mezcle correctamente.
+### Paso 6: guardar como png – el paso “save psd as png”
+`PngOptions` configura los ajustes de exportación PNG, incluido el tipo de color y el manejo del canal alfa.  
 
 ```java
 PngOptions saveOptions = new PngOptions();
@@ -127,19 +181,19 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-En este punto has **convertido PSD a PNG**, **exportado PNG con alfa** y aplicado una sombra paralela de renderizado en un único flujo de trabajo.
+En este punto has **converted psd to png**, **exported png with alpha**, y aplicado una sombra paralela de renderizado en un solo flujo de trabajo.
 
-## Exportar PNG con transparencia alfa
+## Exportar png con transparencia alfa
 
-Cuando necesites que la salida PNG mantenga su fondo transparente —especialmente para superposiciones de UI o gráficos web— asegúrate de usar `PngColorType.TruecolorWithAlpha` como se muestra en el paso de guardado anterior. Esto garantiza que la sombra paralela se sitúe sobre un lienzo transparente en lugar de un fondo sólido, ayudándote a **preservar la transparencia PNG**.
+Cuando necesitas que la salida PNG conserve su fondo transparente—especialmente para superposiciones de UI o gráficos web—asegúrate de usar `PngColorType.TruecolorWithAlpha` como se muestra en el paso de guardado anterior. Esto garantiza que la sombra paralela se asiente sobre un lienzo transparente en lugar de un fondo sólido, ayudándote a **preserve png transparency**.
 
 ## Agregar capa de sombra paralela usando Java
 
-Si tu PSD contiene múltiples capas que requieren sombras, simplemente repite **Paso 4** y **Paso 5** dentro de un bucle que itere sobre `im.getLayers()`. Cada iteración puede crear o modificar una instancia de `DropShadowEffect`, dándote un control granular sobre la opacidad, distancia, tamaño y ángulo por capa. Este enfoque también permite una conversión **por lotes de psd a png** donde cada archivo recibe el mismo tratamiento de sombra.
+Si tu PSD contiene múltiples capas que requieren sombras, simplemente repite **Step 4** y **Step 5** dentro de un bucle que itere sobre `im.getLayers()`. Cada iteración puede crear o modificar una instancia `DropShadowEffect`, dándote un control granular sobre opacidad, distancia, tamaño y ángulo por capa. Este enfoque también permite una conversión **batch psd to png** donde cada archivo recibe el mismo tratamiento de sombra.
 
-## Casos de uso comunes para guardar PSD como PNG
+## Casos de uso comunes para guardar psd como png
 
-* **Canales de activos web** – Convierte los PSD proporcionados por el diseñador en PNG listos para la web con sombras incorporadas.  
+* **Canales de activos web** – Convierte los PSD proporcionados por diseñadores en PNG listos para la web con sombras incorporadas.  
 * **Recursos de aplicaciones móviles** – Genera íconos PNG transparentes al vuelo, evitando la exportación manual.  
 * **Procesamiento por lotes** – Automatiza la conversión de cientos de archivos PSD en un trabajo del lado del servidor, asegurando que cada PNG mantenga su canal alfa y efectos visuales.  
 
@@ -147,35 +201,44 @@ Si tu PSD contiene múltiples capas que requieren sombras, simplemente repite **
 
 | Problema | Causa probable | Solución |
 |----------|----------------|----------|
-| **Sombra no visible** | `Opacity` establecido en 0 o la capa está oculta | Verifica que `shadowEffect.getOpacity()` > 0 y la visibilidad de la capa. |
-| **PNG aparece plano (sin transparencia)** | `PngColorType` incorrecto usado | Usa `PngColorType.TruecolorWithAlpha` como se muestra. |
-| **Excepción al cargar** | Efectos no cargados | Asegúrate de que se llame a `loadOptions.setLoadEffectsResource(true)`. |
+| **Sombra no visible** | `Opacity` configurado a 0 o la capa está oculta | Verifica que `shadowEffect.getOpacity()` > 0 y la visibilidad de la capa. |
+| **PNG aparece plano (sin transparencia)** | Se usó un `PngColorType` incorrecto | Usa `PngColorType.TruecolorWithAlpha` como se muestra. |
+| **Excepción al cargar** | Los efectos no se cargaron | Asegúrate de que se llame a `loadOptions.setLoadEffectsResource(true)`. |
 | **Índice de capa incorrecto** | La estructura del PSD difiere | Inspecciona `im.getLayers()` y elige el índice correcto. |
 
 ## Preguntas frecuentes
 
-**P: ¿Puedo aplicar sombras paralelas a múltiples capas simultáneamente?**  
-R: Sí. Recorre `im.getLayers()` y agrega o modifica un `DropShadowEffect` para cada capa objetivo, lo que también te permite realizar una conversión por lotes de psd a png.
+**Q: ¿Puedo aplicar sombras paralelas a múltiples capas simultáneamente?**  
+A: Sí. Recorre `im.getLayers()` y agrega o modifica un `DropShadowEffect` para cada capa objetivo, lo que también te permite realizar una conversión **batch psd to png**.
 
-**P: ¿Qué controla el parámetro ‘Spread’?**  
-R: `Spread` determina cuán abruptamente la sombra pasa de opacidad completa a transparente. Un valor más alto crea un borde más duro.
+**Q: ¿Qué controla el parámetro ‘Spread’?**  
+A: `Spread` determina cuán abruptamente la sombra pasa de opacidad total a transparente. Un valor mayor crea un borde más duro.
 
-**P: ¿Es Aspose.PSD compatible con todas las versiones de Photoshop?**  
-R: Aspose.PSD soporta archivos PSD desde Photoshop 3.0 hasta la versión más reciente, manejando la mayoría de los tipos de capa y efectos.
+**Q: ¿Aspose.PSD es compatible con todas las versiones de Photoshop?**  
+A: Aspose.PSD admite archivos PSD desde Photoshop 3.0 hasta la última versión, manejando la mayoría de los tipos de capa y efectos.
 
-**P: ¿Cómo puedo probar el código antes de comprar una licencia?**  
-R: Descarga la prueba gratuita desde la [página de descarga de Aspose.PSD](https://releases.aspose.com/psd/java/) y ejecuta el ejemplo sin una clave de licencia.
+**Q: ¿Cómo puedo probar el código antes de comprar una licencia?**  
+A: Descarga la prueba gratuita desde la [Aspose.PSD download page](https://releases.aspose.com/psd/java/) y ejecuta el ejemplo sin una clave de licencia.
 
-**P: ¿Dónde puedo obtener ayuda si tengo problemas?**  
-R: Publica tu pregunta en el [foro de Aspose.PSD](https://forum.aspose.com/c/psd/34) donde la comunidad y los ingenieros de Aspose pueden ayudar.
+**Q: ¿Dónde puedo obtener ayuda si tengo problemas?**  
+A: Publica tu pregunta en el [Aspose.PSD forum](https://forum.aspose.com/c/psd/34) donde la comunidad y los ingenieros de Aspose pueden asistirte.
 
 ## Conclusión
 
-Ahora sabes cómo **guardar psd como png**, **exportar PNG con alfa**, **convertir PSD a PNG** y **aplicar una capa de sombra paralela** usando Aspose.PSD para Java. Esta combinación te permite automatizar la preparación de imágenes de alta calidad para aplicaciones web, móviles o de escritorio, sin necesidad de abrir Photoshop.
+Ahora sabes cómo **save psd as png**, **export png with alpha**, **convert psd to png**, y **apply a drop shadow layer** usando Aspose.PSD for Java. Esta combinación te permite automatizar la preparación de imágenes de alta calidad para web, móvil o aplicaciones de escritorio—sin necesidad de abrir Photoshop.
 
-**Última actualización:** 2026-04-22  
-**Probado con:** Aspose.PSD 24.11 for Java  
-**Autor:** Aspose  
+---
+
+**Last Updated:** 2026-11-04  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose
+
+## Tutoriales relacionados
+
+- [Convertir PSD a PNG con superposición de color – Aspose.PSD for Java](/psd/java/advanced-image-manipulation/rendering-color-effect/)
+- [Cómo agregar sombra en PSD usando Java – Efectos avanzados de capa](/psd/java/advanced-psd-layer-features-effects/)
+- [Cómo convertir PSD a formatos de imagen raster con Aspose.PSD for Java](/psd/java/advanced-techniques/convert-psd-to-raster-forms/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

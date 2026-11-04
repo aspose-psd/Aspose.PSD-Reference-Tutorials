@@ -1,17 +1,51 @@
 ---
-date: 2026-04-22
-description: Μάθετε πώς να χρησιμοποιείτε τη βιβλιοθήκη επεξεργασίας εικόνας Java
-  Aspose.PSD για να εφαρμόζετε πολλαπλά επίπεδα προσαρμογής, συμπεριλαμβανομένου του
-  Επιπέδου Προσαρμογής Αντιστροφής, για αδιάλειπτη διαχείριση αρχείων PSD.
+date: 2026-11-04
+description: Μάθετε πώς να χρησιμοποιήσετε το Aspose.PSD for Java για να εφαρμόσετε
+  ένα invert adjustment layer, να επεξεργαστείτε μαζικά εικόνες PSD και να δημιουργήσετε
+  αρχεία PSD με negative image.
 keywords:
-- image processing java library
-- how to add invert
-- invert colors psd
+- how to use aspose
 - batch process psd images
+- create negative image psd
+- image processing java library
 - apply multiple adjustment layers
-linktitle: Αντιστροφή Στρώματος Προσαρμογής
+lastmod: 2026-11-04
+linktitle: Invert Adjustment Layer
+og_description: Πώς να χρησιμοποιήσετε το Aspose.PSD for Java για να προσθέσετε ένα
+  invert adjustment layer, να επεξεργαστείτε μαζικά εικόνες PSD και να δημιουργήσετε
+  ένα negative image PSD. Ακολουθήστε τον οδηγό βήμα‑βήμα.
+og_image_alt: Screenshot showing Aspose.PSD Java code adding an invert adjustment
+  layer
+og_title: Πώς να χρησιμοποιήσετε το Aspose.PSD για να προσθέσετε ένα invert adjustment
+  layer σε Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to use Aspose.PSD for Java to apply an invert adjustment
+    layer, batch process PSD images, and create negative image PSD files.
+  headline: How to use Aspose.PSD to add an invert adjustment layer in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it supports Java 6.0 and later, including Java 8, 11, and 17.
+    question: Is Aspose.PSD compatible with all Java versions?
+  - answer: Absolutely. After adding the invert layer you can call `addBrightnessAdjustmentLayer()`,
+      `addHueSaturationAdjustmentLayer()`, etc., to stack effects.
+    question: Can I apply multiple adjustment layers in a single operation?
+  - answer: The complete documentation is available [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+    question: Where can I find the full API reference?
+  - answer: Yes, you can download a trial version [Aspose.PSD trial download](https://releases.aspose.com/).
+    question: Is there a free trial for Aspose.PSD?
+  - answer: Request a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: 'Βιβλιοθήκη Java Επεξεργασίας Εικόνας: Αντιστροφή Στρώματος με χρήση Aspose.PSD'
+tags:
+- aspose psd
+- java image processing
+- invert adjustment layer
+- batch psd processing
+title: Πώς να χρησιμοποιήσετε το Aspose.PSD για να προσθέσετε ένα invert adjustment
+  layer σε Java
 url: /el/java/advanced-image-manipulation/invert-adjustment-layer/
 weight: 14
 ---
@@ -20,42 +54,118 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Στρώση Προσαρμογής Αντιστροφής στο Aspose.PSD για Java
+# Πώς να χρησιμοποιήσετε το Aspose.PSD για να προσθέσετε ένα επίπεδο προσαρμογής Αντιστροφής σε Java
 
 ## Εισαγωγή
 
-Αν ψάχνετε για μια ισχυρή **image processing java library**, το Aspose.PSD for Java είναι μία από τις πιο ευέλικτες επιλογές στην αγορά. Σε αυτό το tutorial θα σας δείξουμε πώς να προσθέσετε μια **Invert Adjustment Layer** σε ένα αρχείο PSD, μια τεχνική που μπορείτε να συνδυάσετε με άλλες στρώσεις προσαρμογής για να επιτύχετε σύνθετα οπτικά εφέ. Είτε δημιουργείτε ένα εργαλείο batch‑processing, μια υπηρεσία εικόνας στο server‑side, είτε έναν επεξεργαστή μονής εικόνας, αυτός ο οδηγός σας παρέχει μια σαφή, βήμα‑βήμα διαδρομή για να ολοκληρώσετε τη δουλειά γρήγορα και αξιόπιστα.
+Αν ψάχνετε για μια ισχυρή **βιβλιοθήκη επεξεργασίας εικόνας java**, το Aspose.PSD για Java είναι μία από τις πιο ευέλικτες επιλογές στην αγορά. Σε αυτό το tutorial θα δείτε **πώς να χρησιμοποιήσετε το Aspose** για να εισάγετε ένα **Invert Adjustment Layer** σε ένα αρχείο PSD, να το στοιβάξετε με άλλες προσαρμογές και ακόμη να εκτελέσετε τη λειτουργία σε δεκάδες αρχεία. Είτε δημιουργείτε ένα εργαλείο επεξεργασίας παρτίδας, μια υπηρεσία εικόνας στο διακομιστή, είτε έναν επεξεργαστή μίας εικόνας, τα παρακάτω βήματα θα σας μεταφέρουν από το αρχικό PSD σε μια πλήρως επεξεργάσιμη αρνητική εικόνα σε λίγα λεπτά.
 
 ## Γρήγορες Απαντήσεις
-- **What does the Invert Adjustment Layer do?** It reverses all color values in the selected area, creating a negative‑image effect (i.e., it **converts PSD to negative**).  
-- **Which library provides this feature?** Aspose.PSD, a leading **image processing java library**.  
-- **Can I stack it with other adjustments?** Yes – you can **apply multiple adjustment layers** such as Brightness/Contrast, Hue/Saturation, and more.  
-- **Do I need a license for development?** A free trial is available; a license is required for production use.  
-- **How long does the implementation take?** Typically under 10 minutes for a basic use‑case.
+- **Τι κάνει το Invert Adjustment Layer;** Αναστρέφει κάθε τιμή RGB στην επιλεγμένη περιοχή, μετατρέποντας την εικόνα σε φωτογραφικό αρνητικό.  
+- **Ποια βιβλιοθήκη παρέχει αυτή τη δυνατότητα;** Aspose.PSD, μια κορυφαία **βιβλιοθήκη επεξεργασίας εικόνας java**.  
+- **Μπορώ να το στοιβάξω με άλλες προσαρμογές;** Ναι – μπορείτε να **εφαρμόσετε πολλαπλά επίπεδα προσαρμογής** όπως Brightness/Contrast, Hue/Saturation και άλλα.  
+- **Χρειάζεται άδεια για ανάπτυξη;** Διατίθεται δωρεάν δοκιμαστική έκδοση· απαιτείται άδεια για παραγωγική χρήση.  
+- **Πόσο διαρκεί η υλοποίηση;** Συνήθως κάτω από 10 λεπτά για μια βασική περίπτωση χρήσης.
 
-## Τι είναι η Στρώση Προσαρμογής Αντιστροφής;
+## Τι είναι το Invert Adjustment Layer;
 
-The Invert Adjustment Layer είναι μια μη καταστροφική επεξεργασία που αντιστρέφει τις τιμές RGB κάθε pixel που επηρεάζει. Επειδή βρίσκεται πάνω από τη στοίβα στρώσεων, μπορείτε να εναλλάσσετε την ορατότητά του ή να το αναδιατάξετε χωρίς να αλλάξετε μόνιμα τα αρχικά δεδομένα της εικόνας. Αυτή είναι ο πιο εύκολος τρόπος για **invert colors PSD** αρχεία ή για δημιουργία φωτογραφικού αρνητικού.
+Το Invert Adjustment Layer είναι μια μη καταστροφική επεξεργασία που αντιστρέφει τις τιμές χρώματος κάθε pixel που επηρεάζει. Επειδή βρίσκεται πάνω από τη στοίβα επιπέδων, μπορείτε να εναλλάσσετε την ορατότητά του ή να το αναδιατάξετε χωρίς να αλλάξετε μόνιμα τα αρχικά δεδομένα της εικόνας. Αυτός είναι ο πιο γρήγορος τρόπος για **δημιουργία αρνητικών εικόνων PSD** ή για επίτευξη κλασικής εμφάνισης αρνητικού φιλμ.
 
-## Γιατί να χρησιμοποιήσετε το Aspose.PSD ως τη βιβλιοθήκη Image Processing Java σας;
+## Γιατί να χρησιμοποιήσετε το Aspose.PSD ως τη βιβλιοθήκη επεξεργασίας εικόνας java;
 
-- **Full PSD support** – read, edit, and write Photoshop files without Photoshop installed.  
-- **Cross‑platform** – works on any Java runtime (Java 6+).  
-- **Rich adjustment features** – includes built‑in methods for many common edits, making it easy to **apply multiple adjustment layers** in a single workflow.  
-- **Performance‑optimized** – handles large files efficiently, which is essential for **batch process psd images**.  
+Το Aspose.PSD υποστηρίζει **200+ δυνατότητες PSD**, μπορεί να διαβάσει και να γράψει αρχεία Photoshop χωρίς να απαιτείται το Photoshop, και επεξεργάζεται έγγραφα πολλών σελίδων χρησιμοποιώντας λιγότερο από 500 MB μνήμης heap. Εκτελείται σε οποιοδήποτε περιβάλλον Java (Java 6+), καθιστώντας το ιδανικό για **batch process psd images** σε διακομιστές Windows, Linux ή macOS.
 
 ## Προαπαιτούμενα
 
-Before you start, make sure you have the following:
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε:
 
-1. **Aspose.PSD Library** – download it from the official site [here](https://releases.aspose.com/psd/java/).  
-2. **Java Development Environment** – JDK 6.0 or later installed and configured.  
+1. **Aspose.PSD for Java** – κατεβάστε το τελευταίο JAR από την επίσημη σελίδα [Σελίδα λήψης Aspose.PSD για Java](https://releases.aspose.com/psd/java/).  
+2. **Java Development Kit** – JDK 6.0 ή νεότερο εγκατεστημένο και ρυθμισμένο στο `PATH`.  
 
-Now, let’s dive into the code.
+Τώρα είστε έτοιμοι να γράψετε τον κώδικα.
 
-## Εισαγωγή Πακέτων
+## Εισαγωγή πακέτων
 
-Begin by importing the necessary classes. These imports give you access to the core image‑handling APIs and the PSD‑specific functionality.
+Η κλάση `PsdImage` αντιπροσωπεύει ολόκληρο το έγγραφο Photoshop στη μνήμη, ενώ οι κλάσεις επιπέδων προσαρμογής βρίσκονται στο πακέτο `com.aspose.psd.layers.adjustments`.
+
+Η κλάση `PsdImage` είναι το κορυφαίο αντικείμενο του Aspose.PSD που περιλαμβάνει τη δομή και τα δεδομένα pixel ενός αρχείου PSD. Εισάγετε τα namespaces και θα μπορείτε να φορτώσετε, να επεξεργαστείτε και να αποθηκεύσετε αρχεία PSD.
+
+## Βήμα 1: ρύθμιση καταλόγου εγγράφου
+
+Ορίστε το φάκελο που περιέχει το πηγαίο αρχείο PSD και όπου θα αποθηκευτεί το αποτέλεσμα. Η χρήση απόλυτων διαδρομών αποφεύγει `NullPointerException` όταν αλλάζει ο τρέχων φάκελος εργασίας.
+
+## Βήμα 2: φόρτωση αρχείου PSD
+
+Φορτώστε το πηγαίο αρχείο σε ένα αντικείμενο `PsdImage`. Αυτό το αντικείμενο διατηρεί ολόκληρη τη ιεραρχία επιπέδων στη μνήμη, επιτρέποντας μη‑καταστροφικές επεξεργασίες.
+
+Η κλάση `PsdImage` παρέχει τη στατική μέθοδο `load` που διαβάζει την κεφαλίδα του αρχείου, επικυρώνει τη μορφή και δημιουργεί μια αναπαράσταση στη μνήμη έτοιμη για επεξεργασία.
+
+## Βήμα 3: προσθήκη επιπέδου προσαρμογής αντιστροφής
+
+Καλέστε τη ενσωματωμένη μέθοδο για να εισάγετε ένα Invert Adjustment Layer στην κορυφή της τρέχουσας στοίβας επιπέδων. Μπορείτε αργότερα να προσθέσετε περισσότερα επίπεδα (π.χ., Brightness, Hue) για **εφαρμογή πολλαπλών επιπέδων προσαρμογής** σε μια ενιαία ροή εργασίας.
+
+`addInvertAdjustmentLayer()` προσθέτει ένα Invert Adjustment Layer στη συλλογή επιπέδων του PSD.
+
+## Βήμα 4: αποθήκευση εξόδου
+
+Διατηρήστε το τροποποιημένο PSD στο δίσκο.  
+
+`save()` γράφει το αρχείο PSD, συμπεριλαμβανομένων όλων των επιπέδων και μεταδεδομένων, στην καθορισμένη διαδρομή.
+
+Η αποθήκευση χρησιμοποιεί την ίδια μέθοδο `save` που γράφει ολόκληρο το έγγραφο, συμπεριλαμβανομένων όλων των επιπέδων προσαρμογής, μάσκας και μεταδεδομένων, στη ζητούμενη μορφή.
+
+### Τι συνέβη ακριβώς;
+
+Το αρχείο PSD φορτώθηκε σε ένα αντικείμενο `PsdImage`, δημιουργήθηκε ένα `InvertAdjustmentLayer` και προσατέθηκε ως το ανώτερο επίπεδο, και το έγγραφο αποθηκεύτηκε. Αυτή η ακολουθία διατηρεί τα αρχικά δεδομένα εικόνας ενώ προσθέτει ένα μη‑καταστροφικό εφέ αντιστροφής που μπορεί να εναλλάσσεται ή να αναδιατάσσεται αργότερα.
+
+Έχετε πλέον χρησιμοποιήσει επιτυχώς το Aspose.PSD, μια **βιβλιοθήκη επεξεργασίας εικόνας java**, για να επεξεργαστείτε ένα αρχείο PSD.
+
+## Πώς να επεξεργαστείτε παρτίδα εικόνων PSD με αντιστροφή;
+
+Φορτώστε κάθε αρχείο μέσα σε βρόχο `for`, εφαρμόστε τα ίδια βήματα και καλέστε `save` για κάθε επανάληψη. Επειδή το Aspose.PSD επεξεργάζεται αρχεία με ροή, μπορείτε να χειριστείτε **εκατοντάδες PSD** διατηρώντας τη χρήση μνήμης κάτω από 300 MB επαναχρησιμοποιώντας το ίδιο αντικείμενο `PsdImage`.
+
+## Πώς να μετατρέψετε ένα PSD σε αρνητική εικόνα;
+
+Προσθέστε το Invert Adjustment Layer ως το ανώτερο στοιχείο και αποθηκεύστε το έγγραφο – αυτή η λειτουργία είναι ισοδύναμη με **convert PSD to negative**. Μπορείτε αργότερα να απενεργοποιήσετε ή να διαγράψετε το επίπεδο για να επιστρέψετε στην αρχική εμφάνιση χωρίς επαναφόρτωση του πηγαίου αρχείου.
+
+## Συνηθισμένα προβλήματα & συμβουλές
+
+| Πρόβλημα | Αιτία | Λύση |
+|-------|-------|----------|
+| **NullPointerException on `Image.load`** | Λανθασμένη διαδρομή αρχείου ή έλλειψη αρχείου | Επαληθεύστε το `dataDir` και το όνομα αρχείου· χρησιμοποιήστε απόλυτες διαδρομές για δοκιμές |
+| **Layer order not as expected** | Η προσθήκη επιπέδων μετά τα υπάρχοντα αλλάζει τη στοίβα | Εισάγετε το επίπεδο αντιστροφής πριν από άλλες προσαρμογές, ή αναδιατάξτε μέσω `psdImage.getLayers().move()` |
+| **Performance slowdown on large PSDs** | Φόρτωση πολύ μεγάλων αρχείων στη μνήμη | Αυξήστε το heap της JVM (`-Xmx2g`) ή επεξεργαστείτε τα αρχεία σε τμήματα χρησιμοποιώντας `psdImage.getPages().get(0).getResources().setMemoryOptimized(true)` |
+
+## Συχνές ερωτήσεις
+
+**Ε: Είναι το Aspose.PSD συμβατό με όλες τις εκδόσεις Java;**  
+Α: Ναι, υποστηρίζει Java 6.0 και νεότερες, συμπεριλαμβανομένων των Java 8, 11 και 17.
+
+**Ε: Μπορώ να εφαρμόσω πολλαπλά επίπεδα προσαρμογής σε μία ενέργεια;**  
+Α: Απόλυτα. Μετά την προσθήκη του επιπέδου αντιστροφής μπορείτε να καλέσετε `addBrightnessAdjustmentLayer()`, `addHueSaturationAdjustmentLayer()`, κλπ., για να στοιβάξετε εφέ.
+
+**Ε: Πού μπορώ να βρω την πλήρη αναφορά API;**  
+Α: Η πλήρης τεκμηρίωση είναι διαθέσιμη [Aspose.PSD Java API reference](https://reference.aspose.com/psd/java/).
+
+**Ε: Υπάρχει δωρεάν δοκιμή για το Aspose.PSD;**  
+Α: Ναι, μπορείτε να κατεβάσετε μια δοκιμαστική έκδοση [Aspose.PSD trial download](https://releases.aspose.com/).
+
+**Ε: Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμή;**  
+Α: Ζητήστε μια προσωρινή άδεια [temporary license request page](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Τελευταία ενημέρωση:** 2026-11-04  
+**Δοκιμή με:** Aspose.PSD 24.12 for Java  
+**Συγγραφέας:** Aspose  
+
+
+
+
+
+
+
+
 
 ```java
 import com.aspose.psd.Image;
@@ -63,17 +173,9 @@ import com.aspose.psd.Image;
 import com.aspose.psd.fileformats.psd.PsdImage;
 ```
 
-## Βήμα 1: Ρύθμιση Καταλόγου Εγγράφου
-
-Define the folder that contains your source PSD file and where the output will be saved.
-
 ```java
 String dataDir = "Your Document Directory";
 ```
-
-## Βήμα 2: Φόρτωση Αρχείου PSD
-
-Load the source file into a `PsdImage` object. This object represents the entire PSD document in memory.
 
 ```java
 String filePath = dataDir + "InvertStripes_before.psd";
@@ -82,68 +184,20 @@ String outputPath = dataDir + "InvertStripes_after.psd";
 PsdImage im = (PsdImage)Image.load(filePath);
 ```
 
-## Βήμα 3: Προσθήκη Στρώσης Προσαρμογής Αντιστροφής
-
-Call the built‑in method to insert an Invert Adjustment Layer on top of the current layer stack. You can later add more layers (e.g., Brightness, Hue) to **apply multiple adjustment layers**.
-
 ```java
 im.addInvertAdjustmentLayer();
 ```
-
-## Βήμα 4: Αποθήκευση Αποτελέσματος
-
-Persist the modified PSD to disk. The saved file now contains the Invert Adjustment Layer and can be opened in Photoshop or any PSD‑compatible viewer.
 
 ```java
 im.save(outputPath);
 ```
 
-### Τι συνέβη μόλις τώρα;
+## Σχετικά Tutorials
 
-- Το PSD φορτώθηκε στη μνήμη.  
-- Μια Στρώση Προσαρμογής Αντιστροφής προστέθηκε ως η κορυφαία στρώση.  
-- Η εικόνα αποθηκεύτηκε, διατηρώντας τη μη καταστροφική επεξεργασία.
+- [Add Level Adjustment Layer to PSD Files with Aspose.PSD for Java](/psd/java/modifying-converting-psd-images/add-level-adjustment-layer-psd/)
+- [How to Add Adjustment Layer – Channel Mixer in PSD (Java)](/psd/java/modifying-converting-psd-images/add-channel-mixer-adjustment-layer-psd/)
+- [How to Edit PSD - Add Curves Adjustment Layer Using Java](/psd/java/modifying-converting-psd-images/add-curves-adjustment-layer-psd/)
 
-You’ve now successfully used Aspose.PSD, an **image processing java library**, to manipulate a PSD file.
-
-## Επεξεργασία παρτίδας εικόνων PSD με αντιστροφή προσαρμογής
-
-If you need to apply the same invert effect to dozens or hundreds of files, you can place the code above inside a simple loop that iterates over a directory of PSDs. Because the library is **performance‑optimized**, processing large batches remains fast, and you can combine the invert step with other adjustments (e.g., brightness, hue) in the same loop.
-
-## Μετατροπή PSD σε αρνητική εικόνα
-
-The Invert Adjustment Layer is essentially the **convert PSD to negative** operation. By adding this layer as the topmost item, you achieve a full‑negative effect without permanently altering the original pixel data. You can later remove or disable the layer to revert to the original appearance.
-
-## Κοινά Προβλήματα & Συμβουλές
-
-| Πρόβλημα | Αιτία | Λύση |
-|----------|-------|------|
-| **NullPointerException on `Image.load`** | Λανθασμένη διαδρομή αρχείου ή έλλειψη αρχείου | Επαληθεύστε το `dataDir` και το όνομα αρχείου· χρησιμοποιήστε απόλυτες διαδρομές για δοκιμή |
-| **Layer order not as expected** | Η προσθήκη στρώσεων μετά από υπάρχουσες αλλάζει τη στοίβα | Χρησιμοποιήστε `im.addInvertAdjustmentLayer()` πριν προσθέσετε άλλες προσαρμογές, ή αναδιατάξτε τις στρώσεις μέσω `im.getLayers()` |
-| **Performance slowdown on large PSDs** | Φόρτωση πολύ μεγάλων αρχείων στη μνήμη | Σκεφτείτε την επεξεργασία σε τμήματα ή την αύξηση του μεγέθους heap της JVM (`-Xmx2g`) |
-
-## Συχνές Ερωτήσεις
-
-**Q: Είναι το Aspose.PSD συμβατό με όλες τις εκδόσεις Java;**  
-A: Το Aspose.PSD υποστηρίζει Java 6.0 και μεταγενέστερες εκδόσεις.
-
-**Q: Μπορώ να εφαρμόσω πολλαπλές στρώσεις προσαρμογής σε μια ενέργεια;**  
-A: Ναι, μπορείτε να στοιβάξετε πολλές στρώσεις προσαρμογής—όπως Invert, Brightness, και Hue/Saturation—για να πετύχετε σύνθετα εφέ.
-
-**Q: Πού μπορώ να βρω πρόσθετη τεκμηρίωση για το Aspose.PSD;**  
-A: Ανατρέξτε στην τεκμηρίωση [here](https://reference.aspose.com/psd/java/) για ολοκληρωμένους οδηγούς και αναφορές API.
-
-**Q: Υπάρχει δωρεάν δοκιμή διαθέσιμη για το Aspose.PSD;**  
-A: Ναι, μπορείτε να εξερευνήσετε τη δωρεάν δοκιμή [here](https://releases.aspose.com/).
-
-**Q: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.PSD;**  
-A: Μπορείτε να αποκτήσετε προσωρινή άδεια [here](https://purchase.aspose.com/temporary-license/).
-
----
-
-**Τελευταία Ενημέρωση:** 2026-04-22  
-**Δοκιμή με:** Aspose.PSD 24.12 for Java  
-**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
