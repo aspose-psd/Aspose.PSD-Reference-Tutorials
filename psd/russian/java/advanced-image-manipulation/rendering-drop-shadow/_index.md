@@ -1,18 +1,76 @@
 ---
-date: 2026-04-22
+date: 2026-11-04
 description: Узнайте, как сохранить PSD в PNG, экспортировать PNG с альфа‑каналом
-  и добавить слой с падающей тенью с помощью Aspose.PSD для Java — полное пошаговое
-  руководство.
+  и добавить слой тени, используя Aspose.PSD for Java — полное пошаговое руководство.
 keywords:
 - save psd as png
 - convert psd to png
 - export png with alpha
 - batch psd to png
-- preserve png transparency
+- java image manipulation
+lastmod: 2026-11-04
 linktitle: Применить рендеринг тени
+og_description: Сохранить PSD в PNG с помощью Aspose.PSD for Java, экспортировать
+  PNG с альфа‑прозрачностью и добавить рендеринг тени — пошаговое руководство для
+  разработчиков Java.
+og_image_alt: Developer guide showing how to convert PSD to PNG and apply drop shadow
+  using Aspose.PSD Java
+og_title: Сохранить PSD в PNG и применить рендеринг тени в Aspose.PSD for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to save PSD as PNG, export PNG with alpha, and add a drop
+    shadow layer using Aspose.PSD for Java – a complete, step‑by‑step guide.
+  headline: Save psd as png and apply rendering drop shadow in Aspose.PSD for Java
+  type: TechArticle
+- description: Learn how to save PSD as PNG, export PNG with alpha, and add a drop
+    shadow layer using Aspose.PSD for Java – a complete, step‑by‑step guide.
+  name: Save psd as png and apply rendering drop shadow in Aspose.PSD for Java
+  steps:
+  - name: define document directory
+    text: Define the directory path where your PSD files are stored.
+  - name: set psd and png file paths
+    text: Specify the full file paths for the source PSD and the target PNG.
+  - name: load psd file with effects
+    text: '`PsdImage` loads the PSD and gives access to its layers and effects.'
+  - name: access drop shadow effect
+    text: '`DropShadowEffect` represents a drop‑shadow layer effect that can be read
+      or modified.'
+  - name: validate shadow effect properties
+    text: '`shadowEffect` holds the properties of the drop‑shadow such as opacity,
+      distance, and size. > **Pro tip:** Adjust `setSpread()` or `setNoise()` to create
+      softer or more textured shadows.'
+  - name: save as png – the “save psd as png” step
+    text: '`PngOptions` configures PNG export settings, including color type and alpha
+      channel handling. At this point you have successfully **converted psd to png**,
+      **exported png with alpha**, and applied a rendering drop shadow in a single
+      workflow.'
+  type: HowTo
+- questions:
+  - answer: Yes. Loop through `im.getLayers()` and add or modify a `DropShadowEffect`
+      for each target layer, which also lets you perform a batch psd to png conversion.
+    question: Can I apply drop shadows to multiple layers simultaneously?
+  - answer: '`Spread` determines how abruptly the shadow transitions from full opacity
+      to transparent. A higher value creates a harder edge.'
+    question: What does the ‘Spread’ parameter control?
+  - answer: Aspose.PSD supports PSD files from Photoshop 3.0 up to the latest release,
+      handling most layer types and effects.
+    question: Is Aspose.PSD compatible with all Photoshop versions?
+  - answer: Download the free trial from the [Aspose.PSD download page](https://releases.aspose.com/psd/java/)
+      and run the sample without a license key.
+    question: How can I test the code before purchasing a license?
+  - answer: Post your question on the [Aspose.PSD forum](https://forum.aspose.com/c/psd/34)
+      where the community and Aspose engineers can assist.
+    question: Where can I get help if I run into problems?
+  type: FAQPage
 second_title: Aspose.PSD Java API
-title: Сохранить PSD в PNG и применить отбрасывающую тень при рендеринге в Aspose.PSD
-  для Java
+tags:
+- save psd as png
+- aspose psd java
+- java image manipulation
+- png transparency
+- rendering drop shadow
+title: Сохранить PSD в PNG и применить рендеринг тени в Aspose.PSD for Java
 url: /ru/java/advanced-image-manipulation/rendering-drop-shadow/
 weight: 16
 ---
@@ -21,41 +79,39 @@ weight: 16
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Сохранить PSD как PNG и применить рендеринг теней в Aspose.PSD для Java
+# Сохранить PSD как PNG и применить отрисовку падающей тени в Aspose.PSD для Java
 
 ## Введение
 
-Если вы работаете с файлами Photoshop в Java, **сохранение PSD как PNG** — одна из самых распространённых задач, с которой вы столкнётесь. Во многих проектах вам понадобится **сохранить PSD как PNG**, чтобы передать ресурсы в веб или мобильные приложения, при этом сохраняя прозрачность и визуальные эффекты. С Aspose.PSD вы можете не только **конвертировать PSD в PNG**, но и улучшить изображение, **добавив слой тени**. В этом руководстве мы пройдём весь процесс — загрузку PSD, применение рендеринга тени и, наконец, **сохранение PSD как PNG** — чтобы вы могли уверенно интегрировать этот рабочий процесс в свои проекты.
+Если вы работаете с файлами Photoshop в Java, **saving psd as png** — одна из самых распространённых задач, с которой вы столкнётесь. Во многих проектах вам понадобится **save psd as png**, чтобы доставлять ресурсы в веб или мобильные приложения, сохраняя прозрачность и визуальные эффекты. С Aspose.PSD вы можете не только **convert psd to png**, но и улучшить изображение, **adding a drop shadow layer**. В этом руководстве мы пройдём весь процесс — загрузка PSD, применение отрисовки падающей тени и, наконец, **saving the PSD as a PNG** — чтобы вы могли уверенно интегрировать этот рабочий процесс в свои проекты.
 
 ## Быстрые ответы
 - **Какой библиотекой осуществляется конвертация PSD в PNG?** Aspose.PSD for Java.  
-- **Сколько времени занимает реализация тени?** Около 10‑15 минут для базового примера.  
-- **Нужна ли лицензия для запуска кода?** Бесплатная пробная версия подходит для оценки; лицензия требуется для продакшн.  
-- **Можно ли применить тень к нескольким слоям?** Да — просто пройдитесь в цикле по нужным слоям, что также позволяет выполнить пакетную конвертацию PSD в PNG.  
+- **Сколько времени занимает реализация падающей тени?** Около 10‑15 минут для базового примера.  
+- **Нужна ли лицензия для запуска кода?** Бесплатная пробная версия подходит для оценки; лицензия требуется для продакшна.  
+- **Можно ли применить тень к нескольким слоям?** Да — просто переберите нужные слои, что также позволяет выполнить пакетную конвертацию PSD в PNG.  
 - **Какая версия Java требуется?** Java 8 или выше.
 
 ## Что такое «сохранить PSD как PNG» и почему это важно?
 
-**Сохранение PSD как PNG** создаёт широко поддерживаемое, без потерь изображение, сохраняющее прозрачность. Это необходимо, когда нужно отображать ресурсы Photoshop в вебе, мобильных приложениях или как часть более крупного конвейера обработки изображений. Одновременно добавление тени позволяет получить отшлифованный визуальный эффект без открытия Photoshop.
+**Saving a PSD as PNG creates a widely‑supported, lossless image that retains transparency.** Этот формат необходим, когда нужно отображать ресурсы Photoshop в вебе, мобильных приложениях или в более крупном конвейере обработки изображений. Добавление падающей тени одновременно позволяет получить полированный визуальный эффект без открытия Photoshop.
 
 ## Почему использовать Aspose.PSD для этого рабочего процесса?
 
-* **Полный контроль из кода** — не требуется запускать Photoshop или полагаться на внешние инструменты.  
-* **Сохраняет эффекты слоёв** — тени, свечения и другие эффекты рендерятся точно так же, как в оригинальном файле.  
-* **Экспорт PNG с альфа‑каналом** — PNG‑вывод сохраняет прозрачный фон, гарантируя, что вы **сохраняете прозрачность PNG** для UI или веб‑использования.  
-* **Кросс‑платформенный** — работает на любой ОС, поддерживающей Java 8+.
+Отрисовка эффектов слоёв в режиме реального времени встроена, поэтому Photoshop не нужен. Aspose.PSD поддерживает более 50 форматов ввода и вывода (PSD, PNG, JPEG, TIFF, BMP) и может обрабатывать большие документы без загрузки всего файла в память. Он сохраняет эффекты, такие как тени и свечения, точно так же, как они выглядят, и автоматически экспортирует PNG с альфа‑прозрачностью.
 
 ## Требования
 
-Прежде чем приступить, убедитесь, что у вас есть:
+Перед тем как начать, убедитесь, что у вас есть:
 
-- **Среда разработки Java** — установлен JDK 8 или новее.  
-- **Aspose.PSD for Java** — скачайте последнюю JAR‑файл со [страницы загрузки Aspose.PSD](https://releases.aspose.com/psd/java/).  
-- **Файл PSD** — файл должен содержать как минимум один слой, к которому вы хотите добавить тень (например, *Shadow.psd*).  
+- **Среда разработки Java** – установлен JDK 8 или новее.  
+- **Aspose.PSD for Java** – Скачайте последнюю JAR с [страницы загрузки Aspose.PSD](https://releases.aspose.com/psd/java/).  
+- **Файл PSD** – Файл должен содержать как минимум один слой, к которому вы хотите добавить падающую тень (например, *Shadow.psd*).  
 
 ## Импорт пакетов
 
-Сначала импортируйте необходимые классы. Это даст нам доступ к загрузке изображений, эффектам слоёв и параметрам экспорта PNG.
+Пространство имён `com.aspose.psd` предоставляет основные классы для загрузки изображений, манипуляции слоями и экспорта PNG‑файлов.  
+`PsdImage` — основной класс, используемый для загрузки и манипуляции PSD‑файлами.  
 
 ```java
 import com.aspose.psd.Image;
@@ -71,23 +127,23 @@ import com.aspose.psd.imageoptions.PngOptions;
 
 ## Пошаговое руководство
 
-### Шаг 1: Определить каталог документа  
-Укажите программе, где находится ваш исходный PSD.
+### Шаг 1: определить каталог документов
+Define the directory path where your PSD files are stored.  
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Шаг 2: Установить пути к файлам PSD и PNG  
-Укажите как входной PSD, так и выходной PNG, который будет содержать отрендеренную тень.
+### Шаг 2: задать пути к файлам PSD и PNG
+Specify the full file paths for the source PSD and the target PNG.  
 
 ```java
 String sourceFileName = dataDir + "Shadow.psd";
 String pngExportPath = dataDir + "Shadowchanged1.png";
 ```
 
-### Шаг 3: Загрузить файл PSD с эффектами  
-Включите загрузку ресурсов эффектов, чтобы мы могли управлять эффектом тени.
+### Шаг 3: загрузить файл PSD с эффектами
+`PsdImage` loads the PSD and gives access to its layers and effects.  
 
 ```java
 PsdLoadOptions loadOptions = new PsdLoadOptions();
@@ -96,15 +152,15 @@ loadOptions.setLoadEffectsResource(true);
 PsdImage im = (PsdImage) Image.load(sourceFileName, loadOptions);
 ```
 
-### Шаг 4: Доступ к эффекту тени  
-Получите первый эффект тени со второго слоя (индекс 1). Здесь мы проверим или изменим параметры.
+### Шаг 4: получить доступ к эффекту падающей тени
+`DropShadowEffect` represents a drop‑shadow layer effect that can be read or modified.  
 
 ```java
 DropShadowEffect shadowEffect = (DropShadowEffect) (im.getLayers()[1].getBlendingOptions().getEffects()[0]);
 ```
 
-### Шаг 5: Проверить свойства эффекта тени  
-Убедитесь, что свойства эффекта соответствуют вашим ожиданиям перед сохранением. Вы также можете подправить эти значения, чтобы достичь другого вида.
+### Шаг 5: проверить свойства эффекта тени
+`shadowEffect` holds the properties of the drop‑shadow such as opacity, distance, and size.  
 
 ```java
 Assert.areEqual(Color.getBlack(), shadowEffect.getColor());
@@ -119,8 +175,8 @@ Assert.areEqual(0, shadowEffect.getNoise());
 
 > **Совет:** Отрегулируйте `setSpread()` или `setNoise()`, чтобы создать более мягкие или более текстурные тени.
 
-### Шаг 6: Сохранить как PNG – шаг «сохранить PSD как PNG»  
-Экспортируйте изменённое изображение в PNG, сохраняя альфа‑канал, чтобы тень корректно смешивалась.
+### Шаг 6: сохранить как PNG – шаг «сохранить PSD как PNG»
+`PngOptions` configures PNG export settings, including color type and alpha channel handling.  
 
 ```java
 PngOptions saveOptions = new PngOptions();
@@ -128,57 +184,64 @@ saveOptions.setColorType(PngColorType.TruecolorWithAlpha);
 im.save(pngExportPath, saveOptions);
 ```
 
-На этом этапе вы успешно **конвертировали PSD в PNG**, **экспортировали PNG с альфа‑каналом** и применили рендеринг тени в одном рабочем процессе.
+На этом этапе вы успешно **converted psd to png**, **exported png with alpha**, и применили отрисовку падающей тени в одном рабочем процессе.
 
 ## Экспорт PNG с альфа‑прозрачностью
 
-Когда требуется, чтобы PNG‑вывод сохранял прозрачный фон — особенно для наложений UI или веб‑графики — убедитесь, что вы используете `PngColorType.TruecolorWithAlpha`, как показано в шаге сохранения выше. Это гарантирует, что тень находится на прозрачном холсте, а не на сплошном фоне, помогая вам **сохранять прозрачность PNG**.
+Когда требуется, чтобы PNG‑вывод сохранял прозрачный фон — особенно для наложений UI или веб‑графики — убедитесь, что используете `PngColorType.TruecolorWithAlpha`, как показано в шаге сохранения выше. Это гарантирует, что тень будет находиться на прозрачном холсте, а не на сплошном фоне, помогая вам **preserve png transparency**.
 
-## Добавление слоя тени с помощью Java
+## Добавить слой падающей тени с помощью Java
 
-Если ваш PSD содержит несколько слоёв, требующих теней, просто повторите **Шаг 4** и **Шаг 5** внутри цикла, проходящего по `im.getLayers()`. Каждая итерация может создать или изменить экземпляр `DropShadowEffect`, предоставляя тонкий контроль над непрозрачностью, расстоянием, размером и углом для каждого слоя. Такой подход также позволяет выполнить **пакетную конвертацию PSD в PNG**, где каждый файл получает одинаковую обработку тенью.
+Если ваш PSD содержит несколько слоёв, требующих теней, просто повторите **Step 4** и **Step 5** внутри цикла, перебирающего `im.getLayers()`. Каждый проход может создать или изменить экземпляр `DropShadowEffect`, предоставляя точный контроль над непрозрачностью, расстоянием, размером и углом для каждого слоя. Такой подход также позволяет выполнить **batch psd to png**‑конвертацию, где каждый файл получает одинаковую обработку тенью.
 
-## Общие сценарии использования сохранения PSD как PNG
+## Распространённые сценарии использования сохранения PSD как PNG
 
-* **Веб‑конвейеры ресурсов** — конвертировать предоставленные дизайнерами PSD в готовые к вебу PNG с встроенными тенями.  
-* **Ресурсы мобильных приложений** — генерировать прозрачные PNG‑иконки «на лету», избегая ручного экспорта.  
-* **Пакетная обработка** — автоматизировать конвертацию сотен PSD‑файлов на сервере, гарантируя, что каждый PNG сохраняет альфа‑канал и визуальные эффекты.  
+* **Конвейеры веб‑активов** – Преобразовать предоставленные дизайнерами PSD в готовые к вебу PNG с встроенными тенями.  
+* **Ресурсы мобильных приложений** – Генерировать прозрачные PNG‑иконки «на лету», избегая ручного экспорта.  
+* **Пакетная обработка** – Автоматизировать конвертацию сотен PSD‑файлов на сервере, гарантируя, что каждый PNG сохраняет альфа‑канал и визуальные эффекты.  
 
-## Распространённые проблемы и решения
+## Распространённые проблемы и их решения
 
 | Проблема | Вероятная причина | Решение |
 |----------|-------------------|---------|
-| **Тень не видна** | `Opacity` установлен в 0 или слой скрыт | Проверьте, что `shadowEffect.getOpacity()` > 0 и слой видим. |
+| **Тень не видна** | `Opacity` установлен в 0 или слой скрыт | Проверьте, что `shadowEffect.getOpacity()` > 0 и слой видим. |
 | **PNG выглядит плоским (без прозрачности)** | Использован неверный `PngColorType` | Используйте `PngColorType.TruecolorWithAlpha`, как показано. |
 | **Исключение при загрузке** | Эффекты не загружены | Убедитесь, что вызвано `loadOptions.setLoadEffectsResource(true)`. |
-| **Неправильный индекс слоя** | Структура PSD отличается | Проверьте `im.getLayers()` и выберите правильный индекс. |
+| **Неверный индекс слоя** | Структура PSD отличается | Проверьте `im.getLayers()` и выберите правильный индекс. |
 
 ## Часто задаваемые вопросы
 
-**Q: Можно ли применять тени к нескольким слоям одновременно?**  
-A: Да. Пройдитесь в цикле по `im.getLayers()` и добавьте или измените `DropShadowEffect` для каждого целевого слоя, что также позволяет выполнить пакетную конвертацию PSD в PNG.
+**Q: Можно ли применить тени к нескольким слоям одновременно?**  
+A: Да. Переберите `im.getLayers()` и добавьте или измените `DropShadowEffect` для каждого целевого слоя, что также позволяет выполнить пакетную конвертацию PSD в PNG.
 
-**Q: Что контролирует параметр ‘Spread’?**  
-A: `Spread` определяет, насколько резко тень переходит от полной непрозрачности к прозрачности. Более высокое значение создаёт более жёсткий край.
+**Q: Что контролирует параметр «Spread»?**  
+A: `Spread` определяет, насколько резко тень переходит от полной непрозрачности к прозрачной. Более высокое значение создаёт более жёсткий край.
 
 **Q: Совместим ли Aspose.PSD со всеми версиями Photoshop?**  
-A: Aspose.PSD поддерживает PSD‑файлы от Photoshop 3.0 до последней версии, обрабатывая большинство типов слоёв и эффектов.
+A: Aspose.PSD поддерживает PSD‑файлы от Photoshop 3.0 до последнего выпуска, обрабатывая большинство типов слоёв и эффектов.
 
-**Q: Как я могу протестировать код перед покупкой лицензии?**  
-A: Скачайте бесплатную пробную версию со [страницы загрузки Aspose.PSD](https://releases.aspose.com/psd/java/) и запустите пример без ключа лицензии.
+**Q: Как протестировать код перед покупкой лицензии?**  
+A: Скачайте бесплатную пробную версию с [страницы загрузки Aspose.PSD](https://releases.aspose.com/psd/java/) и запустите пример без ключа лицензии.
 
-**Q: Где я могу получить помощь, если возникнут проблемы?**  
-A: Опубликуйте ваш вопрос на [форуме Aspose.PSD](https://forum.aspose.com/c/psd/34), где сообщество и инженеры Aspose могут помочь.
+**Q: Где получить помощь, если возникнут проблемы?**  
+A: Опубликуйте вопрос на [форуме Aspose.PSD](https://forum.aspose.com/c/psd/34), где сообщество и инженеры Aspose могут помочь.
 
 ## Заключение
 
-Теперь вы знаете, как **сохранить PSD как PNG**, **экспортировать PNG с альфа‑каналом**, **конвертировать PSD в PNG** и **добавить слой тени** с помощью Aspose.PSD для Java. Эта комбинация позволяет автоматизировать подготовку изображений высокого качества для веб‑, мобильных или настольных приложений — без необходимости открывать Photoshop.
+Теперь вы знаете, как **save psd as png**, **export png with alpha**, **convert psd to png** и **apply a drop shadow layer** с помощью Aspose.PSD for Java. Эта комбинация позволяет автоматизировать подготовку изображений высокого качества для веба, мобильных или настольных приложений — без необходимости открывать Photoshop.
 
 ---
 
-**Последнее обновление:** 2026-04-22  
-**Тестировано с:** Aspose.PSD 24.11 for Java  
-**Автор:** Aspose  
+**Last Updated:** 2026-11-04  
+**Tested With:** Aspose.PSD 24.11 for Java  
+**Author:** Aspose
+
+## Связанные руководства
+
+- [Конвертировать PSD в PNG с наложением цвета – Aspose.PSD для Java](/psd/java/advanced-image-manipulation/rendering-color-effect/)
+- [Как добавить тень в PSD с помощью Java – Расширенные эффекты слоёв](/psd/java/advanced-psd-layer-features-effects/)
+- [Как конвертировать PSD в растровые форматы изображений с Aspose.PSD для Java](/psd/java/advanced-techniques/convert-psd-to-raster-forms/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
