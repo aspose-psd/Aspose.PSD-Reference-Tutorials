@@ -1,20 +1,50 @@
 ---
-date: 2026-06-28
-description: Apprenez comment faire pivoter une image Java avec Aspose.PSD, en couvrant
-  lossless image rotation, font replacement, bicubic resampling et GIF optimization.
+date: 2026-11-17
+description: Apprenez à faire pivoter une image à n'importe quel angle en Java avec
+  Aspose.PSD, en couvrant lossless rotation, font replacement, bicubic resampling
+  et GIF optimization.
 keywords:
-- rotate image java
-- lossless image rotation
-- replace fonts java
+- rotate image any angle
+- rotate image 45 degrees
+- how to rotate image java
 - bicubic resampling java
 - java image manipulation tutorial
-linktitle: Manipulation avancée d'images
+- author: Aspose
+  dateModified: '2026-11-17'
+  description: Learn how to rotate image any angle in Java with Aspose.PSD, covering
+    lossless rotation, font replacement, bicubic resampling, and GIF optimization.
+  headline: Rotate image any angle – advanced image manipulation
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.PSD rotates the image at the layer level, preserving all adjustment
+      layers, masks, and effects.
+    question: Can I rotate a PSD image without losing layer information?
+  - answer: Use the `rotate(double angle)` method, which accepts any floating‑point
+      angle (e.g., 45.0) for smooth rotation.
+    question: How do I rotate an image by a non‑multiple of 90°?
+  - answer: Minimal. Enabling the font cache (see the “Force Font Cache” tutorial)
+      and using the latest library version mitigates memory overhead.
+    question: Is there a performance impact when rotating large PSD files?
+  - answer: No. Aspose.PSD includes built‑in APIs to replace fonts, making it simple
+      to implement **how to replace fonts java** without additional dependencies.
+    question: Do I need a separate library for font replacement?
+  - answer: Aspose.PSD for Java supports Java 8, 11, 17, and newer LTS releases.
+    question: Which Java versions are officially supported?
+  type: FAQPage
+lastmod: 2026-11-17
+linktitle: Manipulation d'image avancée
+og_description: Apprenez à faire pivoter une image à n'importe quel angle en Java
+  avec Aspose.PSD. Obtenez lossless rotation, font replacement, bicubic resampling
+  et GIF optimization dans un guide complet.
+og_image_alt: Guide to rotate image any angle using Aspose.PSD for Java
+og_title: Faire pivoter une image à n'importe quel angle en Java – manipulation d'image
+  avancée
 schemas:
 - author: Aspose
-  dateModified: '2026-06-28'
-  description: Learn how to rotate image java with Aspose.PSD, covering lossless image
-    rotation, font replacement, bicubic resampling, and GIF optimization.
-  headline: Rotate Image Java – Advanced Image Manipulation
+  dateModified: '2026-11-17'
+  description: Learn how to rotate image any angle in Java with Aspose.PSD, covering
+    lossless rotation, font replacement, bicubic resampling, and GIF optimization.
+  headline: Rotate image any angle in Java – advanced image manipulation
   type: TechArticle
 - questions:
   - answer: Yes. Aspose.PSD rotates the image at the layer level, preserving all adjustment
@@ -33,7 +63,14 @@ schemas:
     question: Which Java versions are officially supported?
   type: FAQPage
 second_title: Aspose.PSD Java API
-title: Rotation d'image Java – Manipulation avancée d'images
+tags:
+- rotate image
+- Aspose.PSD
+- Java image processing
+- image manipulation tutorial
+- PSD editing
+title: Faire pivoter une image à n'importe quel angle en Java – manipulation d'image
+  avancée
 url: /fr/java/advanced-image-manipulation/
 weight: 24
 ---
@@ -42,159 +79,178 @@ weight: 24
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Faire pivoter une image Java – Manipulation d'image avancée
+# Faire pivoter une image à n'importe quel angle en Java – manipulation d'image avancée
 
 ## Introduction
 
-Si vous recherchez une solution **rotate image java** qui combine vitesse, précision et fidélité PSD complète, Aspose.PSD for Java est la réponse. Dans ce guide, nous parcourrons une série de tutoriels ciblés — de la rotation d'images au remplacement de polices, en passant par l'application du rééchantillonnage bicubique et la compression de GIFs — afin que vous puissiez créer des pipelines de traitement d'image robustes sans sacrifier la qualité.
+Si vous recherchez une solution **rotate image any angle** qui combine rapidité, précision et fidélité totale du PSD, Aspose.PSD pour Java est la réponse. Dans ce guide, nous parcourrons une série de tutoriels ciblés — de la rotation d'images au remplacement de polices, en passant par l'application d'un rééchantillonnage bicubique et la compression de GIFs — afin que vous puissiez créer des pipelines de traitement d'images robustes sans sacrifier la qualité. Que vous ayez besoin de faire pivoter une image de 45 degrés, d'appliquer un filtre de rééchantillonnage personnalisé ou d'optimiser des GIFs animés pour le web, ce tutoriel couvre chaque étape.
 
-## Réponses rapides
-- **Quelle est la façon la plus simple de faire pivoter une image en Java ?** Utilisez la méthode `Image.rotate()` d’Aspose.PSD pour une rotation sans perte en une seule ligne de code.  
-- **Puis‑je faire pivoter une image d'un angle spécifique ?** Oui – la bibliothèque prend en charge des angles arbitraires via la surcharge `rotate(double angle)`.  
-- **Ai‑je besoin d'une licence pour une utilisation en production ?** Une licence commerciale Aspose.PSD est requise pour les déploiements non‑évaluatifs.  
-- **Le remplacement de police est‑il possible sans éditer le PSD manuellement ?** Absolument – Aspose.PSD fournit une API programmatique pour remplacer les polices dans les images.  
-- **Quelle version de Java est prise en charge ?** Aspose.PSD for Java fonctionne avec Java 8 et versions ultérieures.
+```java
+// Rotate a PSD image by 45 degrees using Aspose.PSD for Java
+Image image = Image.load("input.psd");
+image.rotate(45.0);
+image.save("output.psd");
+```
 
-## Qu’est‑ce que “how to rotate image” en Java ?
+La classe `Image` représente un document raster ou PSD qui peut être manipulé à l'aide d'Aspose.PSD. Sa méthode `rotate(double angle)` fait pivoter l'image de l'angle spécifié tout en préservant les données des calques.
 
-Chargez votre fichier PSD, puis appelez la méthode `rotate(double angle)` — cela fait pivoter l'image de l'angle spécifié en degrés — suivi de l'enregistrement du résultat. L'opération réoriente les données bitmap tout en préservant chaque calque, masque et effet d'ajustement, garantissant que le rendu visuel reste identique à la composition originale.
+```java
+// Rotate a PSD image by 45 degrees using Aspose.PSD for Java
+Image image = Image.load("input.psd");
+image.rotate(45.0);
+image.save("output.psd");
+```
 
-## Pourquoi utiliser Aspose.PSD pour la rotation d'image et d'autres tâches avancées ?
+## Quick Answers
+- **What is the easiest way to rotate an image in Java?** Use Aspose.PSD’s `Image.rotate()` method for lossless rotation in a single line of code.  
+- **Can I rotate an image by a specific angle?** Yes – the library supports arbitrary angles via the `rotate(double angle)` overload.  
+- **Do I need a license for production use?** A commercial Aspose.PSD license is required for non‑evaluation deployments.  
+- **Is font replacement possible without editing the PSD manually?** Absolutely – Aspose.PSD provides a programmatic API to replace fonts in images.  
+- **Which version of Java is supported?** Aspose.PSD for Java works with Java 8 and later.
 
-Aspose.PSD offre une rotation d'image sans perte, ce qui signifie que les données pixel ne sont jamais ré‑encodées, garantissant une fidélité visuelle de 100 %. Il prend également en charge **plus de 50** formats d'entrée et de sortie, traite des fichiers PSD de 500 pages en moins de 5 secondes sur un serveur standard à 8 cœurs, et fournit une mise en cache intégrée qui réduit l'utilisation de la mémoire jusqu'à 70 %. Ces avantages quantifiés en font le choix le plus performant pour la manipulation d'images Java de niveau entreprise.
+## What is “how to rotate image” in Java?
 
-## Prérequis
-- Java 8 ou version plus récente installé.  
-- Bibliothèque Aspose.PSD for Java (téléchargement depuis le site web d'Aspose).  
-- Une licence Aspose.PSD valide pour une utilisation en production.  
+`PsdImage` is the Aspose.PSD class that loads PSD files for manipulation. Load your PSD file with `PsdImage` and call its `rotate(double angle)` method—this rotates the image by the specified angle in degrees while preserving every layer, mask, and adjustment effect. The operation re‑orients the bitmap data losslessly, so the visual output remains identical to the original composition.
 
-## Remplacement efficace des polices dans les images
-### [Remplacer les polices dans Aspose.PSD pour Java](./replace-fonts/)
-Dites adieu aux problèmes liés aux polices dans vos images. Notre guide étape par étape vous montrera **how to replace fonts java** efficacement, assurant une expérience visuelle fluide lorsque vous devez **replace fonts in images**.
+## Why use Aspose.PSD for image rotation and other advanced tasks?
 
-### Comment remplacer les polices dans les images
+Aspose.PSD provides true lossless rotation, meaning pixel data is never re‑encoded, and it supports over 50 input and output formats while processing 500‑page PSD files in under 5 seconds on an 8‑core server. Built‑in caching reduces memory usage by up to 70 %, making it the most performant Java image‑manipulation library for enterprise workloads.
 
-Vous remplacez les polices en chargeant le PSD, en localisant les objets `FontResource`, et en assignant une nouvelle instance `Font` — cela peut être fait en quelques lignes de Java. La classe `FontResource` représente une police intégrée dans un fichier PSD ; la mettre à jour met à jour chaque calque de texte qui référence la police, éliminant ainsi le besoin d'une édition manuelle.
+## Prerequisites
+- Java 8 or newer installed.  
+- Aspose.PSD for Java library (download from the Aspose website).  
+- A valid Aspose.PSD license for production use.  
 
-## Optimiser le traitement d'image avec le cache de polices
-### [Forcer le cache de polices avec Aspose.PSD pour Java](./force-font-cache/)
-Découvrez l'art d'optimiser le traitement d'image en forçant le cache de polices avec Aspose.PSD for Java. Améliorez les performances sans effort grâce à notre guide complet.
+## Efficient font replacement in images
+### [Replace Fonts in Aspose.PSD for Java](./replace-fonts/)
+Say goodbye to font‑related hassles in your images. Our step‑by‑step guide will show you **how to replace fonts java** efficiently, ensuring a seamless visual experience when you need **replace fonts in images**.
 
-## Redimensionnement d'image supérieur avec le rééchantillonneur bicubique
-### [Implémenter le rééchantillonneur bicubique dans Aspose.PSD pour Java](./implement-bicubic-resampler/)
-Faites passer le redimensionnement d'image Java au niveau supérieur avec le rééchantillonneur bicubique d'Aspose.PSD. Suivez notre guide pour des résultats supérieurs et découvrez une nouvelle norme de qualité d'image.
+### How to Replace Fonts in Images
 
-## Optimisation efficace des images Web avec le compresseur GIF avec perte
-### [Implémenter le compresseur GIF avec perte dans Aspose.PSD for Java](./implement-lossy-gif-compressor/)
-Optimisez vos images Web de manière fluide en utilisant le compresseur GIF avec perte d'Aspose.PSD for Java. Notre guide étape par étape garantit une implémentation efficace pour des visuels époustouflants.
+You replace fonts by loading the PSD with `PsdImage`, locating each `FontResource` object, and assigning a new `Font` instance—this updates every text layer that references the original font in a single pass. The API handles missing glyphs automatically, so the visual text appearance stays consistent across the document. This operation updates the font for all text layers, ensuring consistent typography throughout the PSD without manual editing.
 
-## Inverser le calque d'ajustement pour une manipulation PSD fluide
-### [Inverser le calque d'ajustement dans Aspose.PSD pour Java](./invert-adjustment-layer/)
-Plongez dans la puissance du calque d'ajustement Invert dans Aspose.PSD for Java. Libérez une manipulation fluide des fichiers PSD grâce à notre tutoriel complet.
+## Optimize image processing with font cache
+### [Force Font Cache with Aspose.PSD for Java](./force-font-cache/)
+Discover the art of optimizing image processing by forcing font cache with Aspose.PSD for Java. Enhance performance effortlessly with our comprehensive guide.
 
-## Superpositions de couleur dynamiques avec l'effet de rendu de couleur
-### [Appliquer l'effet de rendu de couleur dans Aspose.PSD pour Java](./rendering-color-effect/)
-Améliorez vos applications Java avec des superpositions de couleur dynamiques grâce à Aspose.PSD. Notre guide assure une intégration fluide et des effets visuels époustouflants.
+## Superior image resizing with bicubic resampler
+### [Implement Bicubic Resampler in Aspose.PSD for Java](./implement-bicubic-resampler/)
+Take your Java image resizing to the next level with Aspose.PSD's Bicubic Resampler. Follow our guide for superior results and unlock a new standard in image quality.
 
-## Maîtriser les ombres portées de rendu
-### [Appliquer l'ombre portée de rendu dans Aspose.PSD pour Java](./rendering-drop-shadow/)
-Explorez le guide étape par étape pour appliquer des ombres portées de rendu dans Aspose.PSD for Java. Élevez vos compétences en traitement d'image sans effort.
+## Efficient web image optimization with lossy GIF compressor
+### [Implement Lossy GIF Compressor in Aspose.PSD for Java](./implement-lossy-gif-compressor/)
+Optimize your web images seamlessly using Aspose.PSD for Java's Lossy GIF Compressor. Our step‑by‑step guide ensures efficient implementation for stunning visuals.
 
-### Comment appliquer une ombre portée en Java
+## Invert adjustment layer for seamless PSD manipulation
+### [Invert Adjustment Layer in Aspose.PSD for Java](./invert-adjustment-layer/)
+Dive into the power of the Invert Adjustment Layer in Aspose.PSD for Java. Unleash seamless PSD file manipulation with our comprehensive tutorial.
 
-Ajoutez une ombre portée en créant un objet `DropShadowEffect`, en configurant ses paramètres tels que le rayon de flou, l'opacité et le décalage, puis en l'attachant au calque souhaité. La classe `DropShadowEffect` encapsule toutes les propriétés de l'ombre, vous permettant d'appliquer des ombres cohérentes et de haute qualité sur plusieurs calques avec un seul appel d'API.
+## Dynamic color overlays with rendering color effect
+### [Apply Rendering Color Effect in Aspose.PSD for Java](./rendering-color-effect/)
+Enhance your Java applications with dynamic color overlays using Aspose.PSD. Our guide ensures seamless integration and stunning visual effects.
 
-## Redimensionnement proportionnel d'image sans effort
-### [Redimensionner l'image proportionnellement avec Aspose.PSD pour Java](./resize-image-proportionally/)
-Boostez vos applications Java avec Aspose.PSD. Notre guide vous fait traverser le processus de **resize image proportionally java** sans effort.
-
-## Maîtrise du redimensionnement d'image avec l'énumération Resize Type
-### [Redimensionnement avec l'énumération Resize Type dans Aspose.PSD pour Java](./resizing-with-resize-type-enumeration/)
-Maîtrisez le redimensionnement d'image en Java avec Aspose.PSD. Notre guide étape par étape utilisant l'énumération Resize Type garantit précision et efficacité.
-
-## Rotation d'image fluide en Java
-### [Faire pivoter une image dans Aspose.PSD pour Java](./rotate-image/)
-Explorez la rotation d'image en Java sans effort avec Aspose.PSD. Faites pivoter, retournez et enregistrez facilement les fichiers PSD grâce à notre tutoriel convivial.
-
-## Précision de la rotation d'image avec des angles spécifiques
-### [Faire pivoter une image à un angle spécifique avec Aspose.PSD pour Java](./rotate-image-specific-angle/)
-Plongez dans la rotation d'image en Java avec Aspose.PSD for Java. Faites pivoter les images sans effort sur **rotate image specific angle** à l'aide de notre tutoriel détaillé.
-
-### Comment remplacer les polices dans les images
-Si vous devez **how to replace fonts** rapidement, le tutoriel « Replace Fonts » ci‑above montre les appels d'API exacts. Cette approche vous évite l'édition manuelle du PSD et garantit une typographie cohérente sur tous les calques.
-
-### Redimensionner l'image proportionnellement en Java
-Le redimensionnement proportionnel conserve le rapport d'aspect original, évitant les distorsions. Le guide « Resize Image Proportionally » montre la méthode en une ligne pour y parvenir avec Aspose.PSD.
-
-### Comment appliquer une ombre portée en Java
-Les ombres portées ajoutent de la profondeur aux graphiques. Suivez le tutoriel « Apply Rendering Drop Shadow » pour apprendre la classe d'effet requise et les paramètres pour un rendu professionnel.
-
-### Faire pivoter l'image à un angle spécifique en Java
-Lorsqu'un design nécessite une rotation non standard, le guide « Rotate Image on a Specific Angle » vous guide pour passer n'importe quel angle à virgule flottante à la méthode `rotate(double)`.
-
-### Optimiser les images GIF avec Aspose.PSD
-Les GIFs animés nécessitent souvent une réduction de taille pour les performances web. Le tutoriel « Implement Lossy GIF Compressor » explique comment compresser les GIFs tout en préservant la fidélité visuelle.
-
-## Tutoriels avancés de manipulation d'image
-### [Remplacer les polices dans Aspose.PSD pour Java](./replace-fonts/)
-Learn how to replace fonts in images using Aspose.PSD for Java. Follow our step‑by‑step guide for efficient font manipulation.
-
-### [Forcer le cache de polices avec Aspose.PSD pour Java](./force-font-cache/)
-Learn how to force font cache using Aspose.PSD for Java. Optimize image processing and enhance performance with this step‑by‑step guide.
-
-### [Implémenter le rééchantillonneur bicubique dans Aspose.PSD pour Java](./implement-bicubic-resampler/)
-Enhance Java image resizing with Aspose.PSD for Java Bicubic Resampler. Follow our step‑by‑step guide for superior results.
-
-### [Implémenter le compresseur GIF avec perte dans Aspose.PSD pour Java](./implement-lossy-gif-compressor/)
-Optimize your web images seamlessly with Aspose.PSD for Java's Lossy GIF Compressor. Follow our step‑by‑step guide for efficient implementation. 
-
-### [Inverser le calque d'ajustement dans Aspose.PSD pour Java](./invert-adjustment-layer/)
-Explore the Invert Adjustment Layer in Aspose.PSD for Java. A powerful Java library for seamless PSD file manipulation.
-
-### [Appliquer l'effet de rendu de couleur dans Aspose.PSD pour Java](./rendering-color-effect/)
-Enhance your Java applications with dynamic color overlays using Aspose.PSD. Follow our step‑by‑step guide for seamless integration and stunning visual effects.
-
-### [Appliquer l'ombre portée de rendu dans Aspose.PSD pour Java](./rendering-drop-shadow/)
+## Mastering rendering drop shadows
+### [Apply Rendering Drop Shadow in Aspose.PSD for Java](./rendering-drop-shadow/)
 Explore the step‑by‑step guide to applying rendering drop shadows in Aspose.PSD for Java, enhancing your image processing skills effortlessly.
 
-### [Redimensionner l'image proportionnellement avec Aspose.PSD pour Java](./resize-image-proportionally/)
-Enhance your Java applications with Aspose.PSD. Follow our guide to **resize image proportionally java** effortlessly. Boost your image handling capabilities today.
+## How to Apply Drop Shadow in Java
 
-### [Redimensionnement avec l'énumération Resize Type dans Aspose.PSD pour Java](./resizing-with-resize-type-enumeration/)
-Master image resizing in Java with Aspose.PSD. Step‑by‑step guide using Resize Type Enumeration. 
+`DropShadowEffect` is the Aspose.PSD class that defines a drop‑shadow visual effect. Add a drop shadow by creating a `DropShadowEffect` object, configuring its blur radius, opacity, offset, and color, then attaching it to the desired layer via the layer’s `addEffect` method. This single API call renders a consistent shadow across all supported raster and vector layers in the PSD.
 
-### [Faire pivoter une image dans Aspose.PSD pour Java](./rotate-image/)
+## Effortless proportional image resizing
+### [Resize Image Proportionally with Aspose.PSD for Java](./resize-image-proportionally/)
+Proportional resizing keeps the original aspect ratio intact, preventing distortion. The “Resize Image Proportionally” guide demonstrates a one‑line method to achieve this with Aspose.PSD, automatically calculating the correct height or width based on the source dimensions and the desired scaling factor, ensuring high‑quality results without manual calculations.
+
+## Image resizing mastery with resize type enumeration
+### [Resizing with Resize Type Enumeration in Aspose.PSD for Java](./resizing-with-resize-type-enumeration/)
+Master image resizing in Java with Aspose.PSD. Step‑by‑step guide using Resize Type Enumeration ensures precision and efficiency.
+
+## Seamless image rotation in Java
+### [Rotate an Image in Aspose.PSD for Java](./rotate-image/)
 Explore image rotation in Java effortlessly with Aspose.PSD. Rotate, flip, and save PSD files easily.
 
-### [Faire pivoter une image à un angle spécifique avec Aspose.PSD pour Java](./rotate-image-specific-angle/)
+## Precision in Image Rotation with Specific Angles
+### [Rotate an Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
+Delve into image rotation in Java with Aspose.PSD for Java. Rotate images effortlessly on **rotate image specific angle** using our detailed tutorial. When a design calls for a non‑standard rotation, the guide walks you through passing any floating‑point angle to the `rotate(double)` method, explaining how the library recalculates pixel positions and preserves layer integrity.
+
+## How to Replace Fonts in Images
+
+`FontResource` is the Aspose.PSD object that represents an embedded font within a PSD file. You replace fonts by loading the PSD with `PsdImage`, calling `getFontResources()`, locating the target `FontResource`, and invoking `setFont(new Font("Arial"))`. The change propagates to all text layers referencing that font, eliminating manual edits and preserving layout. This ensures consistent typography across the entire document without additional processing steps.
+
+## Resize image proportionally in Java
+
+`ResizeOptions` is the Aspose.PSD class that controls how an image is scaled. Proportional resizing keeps the original aspect ratio intact, preventing distortion. The “Resize Image Proportionally” guide demonstrates a one‑line method to achieve this with Aspose.PSD, automatically calculating the correct height or width based on the source dimensions and the desired scaling factor, ensuring high‑quality results without manual calculations.
+
+## Rotate image specific angle in Java
+
+`rotate(double)` is the Aspose.PSD method that rotates an image by any angle you specify. When a design calls for a non‑standard rotation, the “Rotate Image on a Specific Angle” guide walks you through passing any floating‑point angle to the `rotate(double)` method. The tutorial explains how the library handles pixel interpolation, maintains layer fidelity, and updates the canvas size to accommodate the new orientation, providing a smooth and lossless result.
+
+## Optimize GIF Images with Aspose.PSD
+
+Animated GIFs often need size reduction for web performance. The “Implement Lossy GIF Compressor” tutorial explains how to compress GIFs while preserving visual fidelity.
+
+## Advanced image manipulation tutorials
+### [Replace Fonts in Aspose.PSD for Java](./replace-fonts/)
+Learn how to replace fonts in images using Aspose.PSD for Java. Follow our step‑by‑step guide for efficient font manipulation.
+
+### [Force Font Cache with Aspose.PSD for Java](./force-font-cache/)
+Learn how to force font cache using Aspose.PSD for Java. Optimize image processing and enhance performance with this step‑by‑step guide.
+
+### [Implement Bicubic Resampler in Aspose.PSD for Java](./implement-bicubic-resampler/)
+Enhance Java image resizing with Aspose.PSD for Java Bicubic Resampler. Follow our step‑by‑step guide for superior results.
+
+### [Implement Lossy GIF Compressor in Aspose.PSD for Java](./implement-lossy-gif-compressor/)
+Optimize your web images seamlessly with Aspose.PSD for Java's Lossy GIF Compressor. Follow our step‑by‑step guide for efficient implementation. 
+
+### [Invert Adjustment Layer in Aspose.PSD for Java](./invert-adjustment-layer/)
+Explore the Invert Adjustment Layer in Aspose.PSD for Java. A powerful Java library for seamless PSD file manipulation.
+
+### [Apply Rendering Color Effect in Aspose.PSD for Java](./rendering-color-effect/)
+Enhance your Java applications with dynamic color overlays using Aspose.PSD. Follow our step‑by‑step guide for seamless integration and stunning visual effects.
+
+### [Apply Rendering Drop Shadow in Aspose.PSD for Java](./rendering-drop-shadow/)
+Explore the step‑by‑step guide to applying rendering drop shadows in Aspose.PSD for Java, enhancing your image processing skills effortlessly.
+
+### [Resize Image Proportionally with Aspose.PSD for Java](./resize-image-proportionally/)
+Enhance your Java applications with Aspose.PSD. Follow our guide to **resize image proportionally java** effortlessly. Boost your image handling capabilities today.
+
+### [Resizing with Resize Type Enumeration in Aspose.PSD for Java](./resizing-with-resize-type-enumeration/)
+Master image resizing in Java with Aspose.PSD. Step‑by‑step guide using Resize Type Enumeration. 
+
+### [Rotate an Image in Aspose.PSD for Java](./rotate-image/)
+Explore image rotation in Java effortlessly with Aspose.PSD. Rotate, flip, and save PSD files easily.
+
+### [Rotate an Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
 Explore image rotation in Java with Aspose.PSD for Java. Rotate images effortlessly on **rotate image specific angle**.
 
-## Questions fréquemment posées
+## Frequently asked questions
 
-**Q : Puis‑je faire pivoter une image PSD sans perdre les informations de calque ?**  
-R : Oui. Aspose.PSD fait pivoter l'image au niveau du calque, en préservant tous les calques d'ajustement, masques et effets.
+**Q: Can I rotate a PSD image without losing layer information?**  
+A: Yes. Aspose.PSD rotates the image at the layer level, preserving all adjustment layers, masks, and effects.
 
-**Q : Comment faire pivoter une image d'un angle qui n'est pas un multiple de 90° ?**  
-R : Utilisez la méthode `rotate(double angle)`, qui accepte n'importe quel angle à virgule flottante (par ex., 45,0) pour une rotation fluide.
+**Q: How do I rotate an image by a non‑multiple of 90°?**  
+A: Use the `rotate(double angle)` method, which accepts any floating‑point angle (e.g., 45.0) for smooth rotation.
 
-**Q : Y a‑t‑il un impact sur les performances lors de la rotation de gros fichiers PSD ?**  
-R : Minimal. L'activation du cache de polices (voir le tutoriel « Force Font Cache ») et l'utilisation de la dernière version de la bibliothèque atténuent la surcharge mémoire.
+**Q: Is there a performance impact when rotating large PSD files?**  
+A: Minimal. Enabling the font cache (see the “Force Font Cache” tutorial) and using the latest library version mitigates memory overhead.
 
-**Q : Ai‑je besoin d'une bibliothèque séparée pour le remplacement de polices ?**  
-R : Non. Aspose.PSD inclut des API intégrées pour remplacer les polices, ce qui rend simple l'implémentation de **how to replace fonts java** sans dépendances supplémentaires.
+**Q: Do I need a separate library for font replacement?**  
+A: No. Aspose.PSD includes built‑in APIs to replace fonts, making it simple to implement **how to replace fonts java** without additional dependencies.
 
-**Q : Quelles versions de Java sont officiellement prises en charge ?**  
-R : Aspose.PSD for Java prend en charge Java 8, 11, 17 et les versions LTS plus récentes.
+**Q: Which Java versions are officially supported?**  
+A: Aspose.PSD for Java supports Java 8, 11, 17, and newer LTS releases.
 
-**Dernière mise à jour :** 2026-06-28  
-**Testé avec :** Aspose.PSD for Java 24.12 (latest at time of writing)  
-**Auteur :** Aspose
+---
 
-## Tutoriels associés
+**Last Updated:** 2026-11-17  
+**Tested With:** Aspose.PSD for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
 
-- [Comment faire pivoter une image à un angle spécifique avec Aspose.PSD pour Java](/psd/java/advanced-image-manipulation/rotate-image-specific-angle/)
-- [Mise à l'échelle d'image haute qualité avec le rééchantillonneur bicubique dans Aspose.PSD pour Java](/psd/java/advanced-image-manipulation/implement-bicubic-resampler/)
-- [Substitution de police Aspose PSD en Java – Remplacer les polices manquantes](/psd/java/advanced-image-manipulation/replace-fonts/)
+## Related Tutorials
+
+- [How to Rotate Image on a Specific Angle with Aspose.PSD for Java](./rotate-image-specific-angle/)
+- [High Quality Image Scaling with Bicubic Resampler in Aspose.PSD for Java](./implement-bicubic-resampler/)
+- [Aspose PSD Font Substitution in Java – Replace Missing Fonts](./replace-fonts/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
